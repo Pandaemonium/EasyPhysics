@@ -19,3 +19,4 @@
 {"event": "llm_success", "attempt": 1, "elapsed_seconds": 195.22, "response_chars": 1071, "time": "2026-05-04T13:22:51", "node": "accessibility_judge"}
 {"event": "llm_start", "prompt_chars": 10605, "prompt_tokens_approx": 2651, "llm_options": {"temperature": 0.25, "top_p": 0.85, "num_ctx": 8192, "num_predict": 1024, "num_batch": 32}, "timeout_seconds": 480, "time": "2026-05-04T13:22:51", "node": "rigor_judge"}
 {"event": "llm_success", "attempt": 1, "elapsed_seconds": 189.66, "response_chars": 1160, "time": "2026-05-04T13:26:01", "node": "rigor_judge"}
+{"event": "llm_start", "prompt_chars": 12902, "prompt_tokens_approx": 3225, "llm_options": {"temperature": 0.25, "top_p": 0.85, "num_ctx": 8192, "num_predict": 2048, "num_batch": 32}, "timeout_seconds": 480, "time": "2026-05-04T21:01:35", "node": "writer"}

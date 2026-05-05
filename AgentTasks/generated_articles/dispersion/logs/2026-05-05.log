@@ -1,0 +1,1041 @@
+
+================================================================================
+TIME: 2026-05-05T01:39:34
+NODE: writer
+PROMPT_CHARS: 5191
+PROMPT_TOKENS_APPROX: 1297
+RESPONSE_CHARS: 3544
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.8}
+================================================================================
+PROMPT:
+Revise this existing EasyPhysics article once.
+
+Title: Dispersion
+
+Revision brief:
+- Claim/research fix: Add a note that the core mechanism is wavelength-dependent refractive index (n(λ)) variation, which causes different colors to bend at different angles.
+- rigor score 9: The core explanation simplifies dispersion by attributing it solely to 'slowing down' without explicitly stating the wavelength-dependent refractive index (n(λ)) mechanism, which is the fundamental cause Suggested fix: Add a sentence explicitly stating that dispersion arises from wavelength-dependent refractive index variation (n(λ)) causing different wavelengths to travel at different speeds
+- rigor score 9: The 'traffic jam' analogy could be misleading by implying discrete particles rather than wave behavior Suggested fix: Clarify that the analogy represents wave interactions with material properties, not literal particles
+- rigor next revision: Enhance the core explanation to explicitly connect wavelength-dependent refractive index (n(λ)) to the speed variation, while refining analogies to emphasize wave behavior over particle-like interactions.
+- accessibility score 8: Mathematical equations lack contextual explanation for non-technical readers Suggested fix: Add analogies for equations, e.g., 'The λ⁻ᵏ relationship is like how shorter wavelengths get more 'traffic jams' in the material'
+- accessibility score 8: Term 'dispersion' is used as both topic and definition Suggested fix: Clarify that 'dispersion' is the phenomenon being explained, while 'wavelength-dependent refraction' is its technical description
+
+Human/editor notes:
+# Human/editor notes
+
+Add any preferences, corrections, or article-specific constraints here.
+
+
+Current draft:
+# Dispersion  
+
+## The core idea  
+Dispersion is when waves of different wavelengths (like colors of light) travel at different speeds through a medium, causing them to separate. Imagine a prism splitting sunlight into a rainbow—this happens because blue light slows down more than red light in glass, making them bend at different angles.  
+
+## Why this matters  
+Dispersion explains why light splits into colors, why rainbows form, and why lenses can blur images. It connects wave behavior to material properties, revealing how the same light can act differently depending on its wavelength.  
+
+## The simple picture  
+[Diagram idea: Light entering a prism, with different colors bending at different angles.]  
+Think of a prism as a "traffic jam" for light. Shorter wavelengths (blue light) get stuck in the glass more than longer wavelengths (red light), causing them to slow down and bend more. This separation creates a rainbow of colors.  
+
+## The more precise picture  
+**Wavelength-dependent refraction** {dispersion} occurs because the **refractive index** {n} of a material varies with wavelength. The refractive index is the ratio of light’s speed in a vacuum to its speed in the medium:  
+$$ n = \frac{c}{v} $$  
+(Explain: Light slows down in a medium, and the amount it slows depends on its wavelength.)  
+
+For many materials, the refractive index decreases with increasing wavelength:  
+$$ n(\lambda) = \text{constant} \times \lambda^{-k} $$  
+(This means blue light, with shorter wavelength, has a higher refractive index and slows more than red light.)  
+
+When light enters a medium, **Snell’s law** {Snell’s law} governs how it bends:  
+$$ n_1 \sin(\theta_1) = n_2(\lambda) \sin(\theta_2) $$  
+(Different wavelengths have different $ n_2 $, so they bend by different amounts, separating spatially.)  
+
+## Common misconceptions  
+- ❌ "Dispersion only happens in prisms."  
+  → Dispersion occurs in lenses, raindrops, fiber optics, and even sound waves.  
+- ❌ "All colors bend the same way."  
+  → Refractive index varies with wavelength, so different colors bend by different amounts.  
+- ❌ "Dispersion is caused by light splitting into colors."  
+  → Dispersion *explains* why light splits into colors; it’s the underlying mechanism.  
+
+## How this connects to the rest of physics  
+Dispersion is a key concept in **optics** and **wave theory**, showing how materials interact with waves. It ties to **refraction**, **wave-speed variation**, and the **electromagnetic spectrum**. In advanced physics, dispersion relations {dispersion relation} are central to understanding how waves propagate in materials and even in quantum systems.  
+
+## Recap  
+- Dispersion is **wavelength-dependent refraction** {dispersion}, causing waves to separate.  
+- Shorter wavelengths (blue light) slow more than longer ones (red light).  
+- It explains rainbows, prisms, and chromatic aberration.  
+- Math: Refractive index $ n = c/v $, and dispersion relations link $ n $ to wavelength.
+
+Instructions:
+- Return the complete revised article in Markdown.
+- Do not start from scratch.
+- Preserve good explanations.
+- Fix only the most important clarity, structure, and rigor problems.
+- If a section is already good, leave it mostly alone.
+- Add qualifications where the current draft overclaims.
+- Make the opening more intuitive if needed.
+- Keep standard terms in braces after intuitive names.
+- Do not include commentary before or after the article.
+
+RESPONSE:
+# Dispersion  
+
+## The core idea  
+Dispersion is when waves of different wavelengths (like colors of light) travel at different speeds through a medium, causing them to separate. This happens because the **refractive index** {n} of a material varies with wavelength—shorter wavelengths (blue light) slow more than longer ones (red light), making them bend at different angles. Imagine a prism splitting sunlight into a rainbow: this is dispersion in action.  
+
+## Why this matters  
+Dispersion explains why light splits into colors, why rainbows form, and why lenses can blur images. It connects wave behavior to material properties, revealing how the same light can act differently depending on its wavelength.  
+
+## The simple picture  
+[Diagram idea: Light entering a prism, with different colors bending at different angles.]  
+Think of a prism as a "traffic jam" for light. Shorter wavelengths (blue light) interact more with the material’s structure, slowing down more than longer wavelengths (red light). This wave-based "traffic jam" causes them to bend by different amounts, creating a rainbow of colors.  
+
+## The more precise picture  
+**Wavelength-dependent refraction** {dispersion} occurs because the **refractive index** {n} of a material varies with wavelength. The refractive index is the ratio of light’s speed in a vacuum to its speed in the medium:  
+$$ n = \frac{c}{v} $$  
+(Explain: Light slows down in a medium, and the amount it slows depends on its wavelength.)  
+
+For many materials, the refractive index decreases with increasing wavelength:  
+$$ n(\lambda) = \text{constant} \times \lambda^{-k} $$  
+(This means blue light, with shorter wavelength, has a higher refractive index and slows more than red light.)  
+
+When light enters a medium, **Snell’s law** {Snell’s law} governs how it bends:  
+$$ n_1 \sin(\theta_1) = n_2(\lambda) \sin(\theta_2) $$  
+(Different wavelengths have different $ n_2 $, so they bend by different amounts, separating spatially.)  
+
+## Common misconceptions  
+- ❌ "Dispersion only happens in prisms."  
+  → Dispersion occurs in lenses, raindrops, fiber optics, and even sound waves.  
+- ❌ "All colors bend the same way."  
+  → Refractive index varies with wavelength, so different colors bend by different amounts.  
+- ❌ "Dispersion is caused by light splitting into colors."  
+  → Dispersion *explains* why light splits into colors; it’s the underlying mechanism.  
+
+## How this connects to the rest of physics  
+Dispersion is a key concept in **optics** and **wave theory**, showing how materials interact with waves. It ties to **refraction**, **wave-speed variation**, and the **electromagnetic spectrum**. In advanced physics, dispersion relations {dispersion relation} are central to understanding how waves propagate in materials and even in quantum systems.  
+
+## Recap  
+- Dispersion is **wavelength-dependent refraction** {dispersion}, causing waves to separate.  
+- Shorter wavelengths (blue light) slow more than longer ones (red light) because the refractive index {n} varies with wavelength.  
+- It explains rainbows, prisms, and chromatic aberration.  
+- Math: Refractive index $ n = c/v $, and dispersion relations link $ n $ to wavelength.  
+
+---  
+**Key clarification**: The core mechanism of dispersion is **wavelength-dependent refractive index** {n(λ)} variation. This causes different wavelengths to travel at different speeds in a medium, leading to separation. The "traffic jam" analogy represents wave interactions with material properties, not literal particles.
+
+================================================================================
+TIME: 2026-05-05T01:41:23
+NODE: term_collector
+PROMPT_CHARS: 4014
+PROMPT_TOKENS_APPROX: 1003
+RESPONSE_CHARS: 0
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.8}
+================================================================================
+PROMPT:
+Extract the descriptive-name candidates from this draft.
+
+Return JSON with this shape:
+{
+  "terms": [
+    {
+      "standard_term": "fermion",
+      "candidate_name": "space-occupier",
+      "context_quote": "short quote from the draft",
+      "usefulness": "why this name helps",
+      "risk": "how it could mislead, or empty string if low risk"
+    }
+  ]
+}
+
+Only include actual teaching-name candidates, especially phrases followed by standard terms in braces.
+
+Draft:
+# Dispersion  
+
+## The core idea  
+Dispersion is when waves of different wavelengths (like colors of light) travel at different speeds through a medium, causing them to separate. This happens because the **refractive index** {n} of a material varies with wavelength—shorter wavelengths (blue light) slow more than longer ones (red light), making them bend at different angles. Imagine a prism splitting sunlight into a rainbow: this is dispersion in action.  
+
+## Why this matters  
+Dispersion explains why light splits into colors, why rainbows form, and why lenses can blur images. It connects wave behavior to material properties, revealing how the same light can act differently depending on its wavelength.  
+
+## The simple picture  
+[Diagram idea: Light entering a prism, with different colors bending at different angles.]  
+Think of a prism as a "traffic jam" for light. Shorter wavelengths (blue light) interact more with the material’s structure, slowing down more than longer wavelengths (red light). This wave-based "traffic jam" causes them to bend by different amounts, creating a rainbow of colors.  
+
+## The more precise picture  
+**Wavelength-dependent refraction** {dispersion} occurs because the **refractive index** {n} of a material varies with wavelength. The refractive index is the ratio of light’s speed in a vacuum to its speed in the medium:  
+$$ n = \frac{c}{v} $$  
+(Explain: Light slows down in a medium, and the amount it slows depends on its wavelength.)  
+
+For many materials, the refractive index decreases with increasing wavelength:  
+$$ n(\lambda) = \text{constant} \times \lambda^{-k} $$  
+(This means blue light, with shorter wavelength, has a higher refractive index and slows more than red light.)  
+
+When light enters a medium, **Snell’s law** {Snell’s law} governs how it bends:  
+$$ n_1 \sin(\theta_1) = n_2(\lambda) \sin(\theta_2) $$  
+(Different wavelengths have different $ n_2 $, so they bend by different amounts, separating spatially.)  
+
+## Common misconceptions  
+- ❌ "Dispersion only happens in prisms."  
+  → Dispersion occurs in lenses, raindrops, fiber optics, and even sound waves.  
+- ❌ "All colors bend the same way."  
+  → Refractive index varies with wavelength, so different colors bend by different amounts.  
+- ❌ "Dispersion is caused by light splitting into colors."  
+  → Dispersion *explains* why light splits into colors; it’s the underlying mechanism.  
+
+## How this connects to the rest of physics  
+Dispersion is a key concept in **optics** and **wave theory**, showing how materials interact with waves. It ties to **refraction**, **wave-speed variation**, and the **electromagnetic spectrum**. In advanced physics, dispersion relations {dispersion relation} are central to understanding how waves propagate in materials and even in quantum systems.  
+
+## Recap  
+- Dispersion is **wavelength-dependent refraction** {dispersion}, causing waves to separate.  
+- Shorter wavelengths (blue light) slow more than longer ones (red light) because the refractive index {n} varies with wavelength.  
+- It explains rainbows, prisms, and chromatic aberration.  
+- Math: Refractive index $ n = c/v $, and dispersion relations link $ n $ to wavelength.  
+
+---  
+**Key clarification**: The core mechanism of dispersion is **wavelength-dependent refractive index** {n(λ)} variation. This causes different wavelengths to travel at different speeds in a medium, leading to separation. The "traffic jam" analogy represents wave interactions with material properties, not literal particles.
+
+RESPONSE:
+
+
+================================================================================
+TIME: 2026-05-05T01:44:06
+NODE: claim_extractor
+PROMPT_CHARS: 4422
+PROMPT_TOKENS_APPROX: 1105
+RESPONSE_CHARS: 2224
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.8}
+================================================================================
+PROMPT:
+Extract 8 to 12 important scientific or explanatory claims from this article draft.
+
+Return exactly one JSON object with this shape:
+{
+  "claims": [
+    {
+      "id": "C001",
+      "claim": "A clear standalone claim.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "brief reason",
+      "suggested_search_query": "stable physics source query"
+    }
+  ]
+}
+
+Rules:
+- Return a JSON object, not a list.
+- Do not return an empty list unless the draft is empty.
+- Use true/false, not True/False.
+- No Markdown fences.
+- No prose outside the JSON.
+- Prefer claims that matter for scientific correctness.
+- Include claims where an analogy could mislead.
+- Search queries should target stable sources: textbooks, lecture notes, CERN, Fermilab, NASA, DOE, NIST, or university pages.
+
+Article title: Dispersion
+
+Draft:
+# Dispersion  
+
+## The core idea  
+Dispersion is when waves of different wavelengths (like colors of light) travel at different speeds through a medium, causing them to separate. This happens because the **refractive index** {n} of a material varies with wavelength—shorter wavelengths (blue light) slow more than longer ones (red light), making them bend at different angles. Imagine a prism splitting sunlight into a rainbow: this is dispersion in action.  
+
+## Why this matters  
+Dispersion explains why light splits into colors, why rainbows form, and why lenses can blur images. It connects wave behavior to material properties, revealing how the same light can act differently depending on its wavelength.  
+
+## The simple picture  
+[Diagram idea: Light entering a prism, with different colors bending at different angles.]  
+Think of a prism as a "traffic jam" for light. Shorter wavelengths (blue light) interact more with the material’s structure, slowing down more than longer wavelengths (red light). This wave-based "traffic jam" causes them to bend by different amounts, creating a rainbow of colors.  
+
+## The more precise picture  
+**Wavelength-dependent refraction** {dispersion} occurs because the **refractive index** {n} of a material varies with wavelength. The refractive index is the ratio of light’s speed in a vacuum to its speed in the medium:  
+$$ n = \frac{c}{v} $$  
+(Explain: Light slows down in a medium, and the amount it slows depends on its wavelength.)  
+
+For many materials, the refractive index decreases with increasing wavelength:  
+$$ n(\lambda) = \text{constant} \times \lambda^{-k} $$  
+(This means blue light, with shorter wavelength, has a higher refractive index and slows more than red light.)  
+
+When light enters a medium, **Snell’s law** {Snell’s law} governs how it bends:  
+$$ n_1 \sin(\theta_1) = n_2(\lambda) \sin(\theta_2) $$  
+(Different wavelengths have different $ n_2 $, so they bend by different amounts, separating spatially.)  
+
+## Common misconceptions  
+- ❌ "Dispersion only happens in prisms."  
+  → Dispersion occurs in lenses, raindrops, fiber optics, and even sound waves.  
+- ❌ "All colors bend the same way."  
+  → Refractive index varies with wavelength, so different colors bend by different amounts.  
+- ❌ "Dispersion is caused by light splitting into colors."  
+  → Dispersion *explains* why light splits into colors; it’s the underlying mechanism.  
+
+## How this connects to the rest of physics  
+Dispersion is a key concept in **optics** and **wave theory**, showing how materials interact with waves. It ties to **refraction**, **wave-speed variation**, and the **electromagnetic spectrum**. In advanced physics, dispersion relations {dispersion relation} are central to understanding how waves propagate in materials and even in quantum systems.  
+
+## Recap  
+- Dispersion is **wavelength-dependent refraction** {dispersion}, causing waves to separate.  
+- Shorter wavelengths (blue light) slow more than longer ones (red light) because the refractive index {n} varies with wavelength.  
+- It explains rainbows, prisms, and chromatic aberration.  
+- Math: Refractive index $ n = c/v $, and dispersion relations link $ n $ to wavelength.  
+
+---  
+**Key clarification**: The core mechanism of dispersion is **wavelength-dependent refractive index** {n(λ)} variation. This causes different wavelengths to travel at different speeds in a medium, leading to separation. The "traffic jam" analogy represents wave interactions with material properties, not literal particles.
+
+RESPONSE:
+{
+  "claims": [
+    {
+      "id": "C001",
+      "claim": "Dispersion is wavelength-dependent refraction {dispersion}, causing waves to separate based on their wavelength.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Defines the core mechanism of dispersion and its role in wave separation.",
+      "suggested_search_query": "dispersion definition physics textbook"
+    },
+    {
+      "id": "C002",
+      "claim": "The refractive index {n} of a material varies with wavelength, altering the speed of light in the medium.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Explains the physical basis for wavelength-dependent wave behavior.",
+      "suggested_search_query": "refractive index wavelength dependence"
+    },
+    {
+      "id": "C003",
+      "claim": "Shorter wavelengths (blue light) slow more than longer wavelengths (red light) in dispersive media.",
+      "type": "empirical",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Clarifies the directional relationship between wavelength and speed in dispersion.",
+      "suggested_search_query": "blue light vs red light dispersion"
+    },
+    {
+      "id": "C004",
+      "claim": "Dispersion explains phenomena like rainbows, prisms, and chromatic aberration in lenses.",
+      "type": "application",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Links dispersion to observable natural and technological phenomena.",
+      "suggested_search_query": "dispersion applications rainbows"
+    },
+    {
+      "id": "C005",
+      "claim": "Snell’s law {Snell’s law} governs wavelength-dependent bending of light in dispersive media.",
+      "type": "mathematical",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Quantifies how different wavelengths bend at varying angles.",
+      "suggested_search_query": "Snell's law dispersion derivation"
+    },
+    {
+      "id": "C006",
+      "claim": "Dispersion occurs in diverse contexts beyond prisms, including lenses, raindrops, and fiber optics.",
+      "
+
+================================================================================
+TIME: 2026-05-05T01:45:59
+NODE: claim_checker
+PROMPT_CHARS: 6643
+PROMPT_TOKENS_APPROX: 1660
+RESPONSE_CHARS: 289
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.8}
+================================================================================
+PROMPT:
+Check this one article claim against the available search snippet.
+
+Return JSON with this shape:
+{
+  "id": "C001",
+  "verdict": "supported | mostly_supported | needs_qualification | unsupported | contradicted | not_enough_evidence",
+  "severity": "none | low | medium | high",
+  "problem": "specific issue, or empty string",
+  "suggested_fix": "specific correction to the article, or empty string",
+  "source_quality_note": "brief note about whether the snippets look authoritative"
+}
+
+Rules:
+- Be conservative.
+- If the snippet is weak or absent, say not_enough_evidence.
+- Do not demand advanced nuance beyond the article's beginner scope.
+- Do flag misleading simplifications.
+- Focus on stable accepted physics.
+
+Article title: Dispersion
+
+Claim:
+{
+  "id": "C001",
+  "claim": "# Dispersion ## The core idea Dispersion is when waves of different wavelengths (like colors of light) travel at different speeds through a medium, causing them to separate.",
+  "type": "fallback-extracted",
+  "importance": "medium",
+  "needs_external_check": true,
+  "why_it_matters": "Automatically extracted fallback claim; review manually.",
+  "suggested_search_query": "Dispersion # Dispersion ## The core idea Dispersion is when waves of different wavelengths (like colors of physics lecture notes textbook explanation"
+}
+
+Search snippet:
+{
+  "claim": "# Dispersion ## The core idea Dispersion is when waves of different wavelengths (like colors of light) travel at different speeds through a medium, causing them to separate.",
+  "query": "Dispersion # Dispersion ## The core idea Dispersion is when waves of different wavelengths (like colors of physics lecture notes textbook explanation",
+  "result_snippet": "Dispersion in Physics: Splitting Light by Wavelength. In optics, dispersion is the spreading of white light into its full spectrum of wavelengths.This happens because light of different wavelengths (colors) bends by different amounts when it enters a new medium like glass or water. Causes of Dispersion. Because each colors' light has distinct wavelengths, white light disperses into seven colors. Red light has the longest wavelength in this range of seven colors, while violet light has the shortest. In a vacuum, all colors of light travel at the same speed. Dispersion and diffraction are two ways light waves distribute themselves in patterns.When white light hits the refracting surface, the different colors of light separate because of their differing wavelengths. Nature of Dispersion. Dispersion occurs when light separates into its individual colors as it passes through a medium, such as a prism. When white light enters the prism, it bends at different angles depending on each color’s wavelength. Dispersion: When Different Wavelengths Bend Differently. The Role of the Medium (Pane).2. Why do different colors (wavelengths) of light bend at different angles?4. How does the angle of incidence affect dispersion?",
+  "searched_at": "2026-05-05_01-44-08",
+  "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
+}
+
+Relevant draft context:
+# Dispersion  
+
+## The core idea  
+Dispersion is when waves of different wavelengths (like colors of light) travel at different speeds through a medium, causing them to separate. This happens because the **refractive index** {n} of a material varies with wavelength—shorter wavelengths (blue light) slow more than longer ones (red light), making them bend at different angles. Imagine a prism splitting sunlight into a rainbow: this is dispersion in action.  
+
+## Why this matters  
+Dispersion explains why light splits into colors, why rainbows form, and why lenses can blur images. It connects wave behavior to material properties, revealing how the same light can act differently depending on its wavelength.  
+
+## The simple picture  
+[Diagram idea: Light entering a prism, with different colors bending at different angles.]  
+Think of a prism as a "traffic jam" for light. Shorter wavelengths (blue light) interact more with the material’s structure, slowing down more than longer wavelengths (red light). This wave-based "traffic jam" causes them to bend by different amounts, creating a rainbow of colors.  
+
+## The more precise picture  
+**Wavelength-dependent refraction** {dispersion} occurs because the **refractive index** {n} of a material varies with wavelength. The refractive index is the ratio of light’s speed in a vacuum to its speed in the medium:  
+$$ n = \frac{c}{v} $$  
+(Explain: Light slows down in a medium, and the amount it slows depends on its wavelength.)  
+
+For many materials, the refractive index decreases with increasing wavelength:  
+$$ n(\lambda) = \text{constant} \times \lambda^{-k} $$  
+(This means blue light, with shorter wavelength, has a higher refractive index and slows more than red light.)  
+
+When light enters a medium, **Snell’s law** {Snell’s law} governs how it bends:  
+$$ n_1 \sin(\theta_1) = n_2(\lambda) \sin(\theta_2) $$  
+(Different wavelengths have different $ n_2 $, so they bend by different amounts, separating spatially.)  
+
+## Common misconceptions  
+- ❌ "Dispersion only happens in prisms."  
+  → Dispersion occurs in lenses, raindrops, fiber optics, and even sound waves.  
+- ❌ "All colors bend the same way."  
+  → Refractive index varies with wavelength, so different colors bend by different amounts.  
+- ❌ "Dispersion is caused by light splitting into colors."  
+  → Dispersion *explains* why light splits into colors; it’s the underlying mechanism.  
+
+## How this connects to the rest of physics  
+Dispersion is a key concept in **optics** and **wave theory**, showing how materials interact with waves. It ties to **refraction**, **wave-speed variation**, and the **electromagnetic spectrum**. In advanced physics, dispersion relations {dispersion relation} are central to understanding how waves propagate in materials and even in quantum systems.  
+
+## Recap  
+- Dispersion is **wavelength-dependent refraction** {dispersion}, causing waves to separate.  
+- Shorter wavelengths (blue light) slow more than longer ones (red light) because the refractive index {n} varies with wavelength.  
+- It explains rainbows, prisms, and chromatic aberration.  
+- Math: Refractive index $ n = c/v $, and dispersion relations link $ n $ to wavelength.  
+
+---  
+**Key clarification**: The core mechanism of dispersion is **wavelength-dependent refractive index** {n(λ)} variation. This causes different wavelengths to travel at different speeds in a medium, leading to separation. The "traffic jam" analogy represents wave interactions with material properties, not literal particles.
+
+RESPONSE:
+{
+  "id": "C001",
+  "verdict": "supported",
+  "severity": "low",
+  "problem": "",
+  "suggested_fix": "",
+  "source_quality_note": "The snippet comes from a stable physics explanation focusing on optics and wave behavior, confirming the core mechanism of wavelength-dependent refraction."
+}
+
+================================================================================
+TIME: 2026-05-05T01:47:52
+NODE: claim_checker
+PROMPT_CHARS: 6862
+PROMPT_TOKENS_APPROX: 1715
+RESPONSE_CHARS: 335
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.8}
+================================================================================
+PROMPT:
+Check this one article claim against the available search snippet.
+
+Return JSON with this shape:
+{
+  "id": "C002",
+  "verdict": "supported | mostly_supported | needs_qualification | unsupported | contradicted | not_enough_evidence",
+  "severity": "none | low | medium | high",
+  "problem": "specific issue, or empty string",
+  "suggested_fix": "specific correction to the article, or empty string",
+  "source_quality_note": "brief note about whether the snippets look authoritative"
+}
+
+Rules:
+- Be conservative.
+- If the snippet is weak or absent, say not_enough_evidence.
+- Do not demand advanced nuance beyond the article's beginner scope.
+- Do flag misleading simplifications.
+- Focus on stable accepted physics.
+
+Article title: Dispersion
+
+Claim:
+{
+  "id": "C002",
+  "claim": "This happens because the **refractive index** {n} of a material varies with wavelength—shorter wavelengths (blue light) slow more than longer ones (red light), making them bend at different angles.",
+  "type": "fallback-extracted",
+  "importance": "medium",
+  "needs_external_check": true,
+  "why_it_matters": "Automatically extracted fallback claim; review manually.",
+  "suggested_search_query": "Dispersion This happens because the **refractive index** {n} of a material varies with wavelength—shorter wavelengths (blue light) physics lecture notes textbook explanation"
+}
+
+Search snippet:
+{
+  "claim": "This happens because the **refractive index** {n} of a material varies with wavelength—shorter wavelengths (blue light) slow more than longer ones (red light), making them bend at different angles.",
+  "query": "Dispersion This happens because the **refractive index** {n} of a material varies with wavelength—shorter wavelengths (blue light) physics lecture notes textbook explanation",
+  "result_snippet": "March 12, 2026 - However, if the index increases with increasing wavelength (which is typically the case in the ultraviolet), the medium is said to have anomalous dispersion. At the interface of such a material with air or vacuum (index of ~1), Snell's law predicts that light incident at an angle θ to the ... 2 weeks ago - In regions of the spectrum where the material does not absorb light, the refractive index tends to decrease with increasing wavelength, and thus increase with frequency. This is called \"normal dispersion\", in contrast to \"anomalous dispersion\", where the refractive index increases with wavelength. September 11, 2025 - This is a result of the prism material's index of refraction varying with wavelength (dispersion). Generally, longer wavelengths (red) undergo a smaller deviation than shorter wavelengths (blue). 5 days ago - Separation occurs when the refractive index inside the prism varies with wavelength, so different wavelengths propagate at different speeds inside the prism, causing them to refract at different angles. March 2, 2026 - It causes different wavelengths ... curve, which plots the refractive index as a function of wavelength · Normal dispersion occurs when the refractive index decreases with increasing wavelength ( ... Anomalous dispersion is typically observed near absorption resonances ...",
+  "searched_at": "2026-05-05_01-44-09",
+  "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
+}
+
+Relevant draft context:
+# Dispersion  
+
+## The core idea  
+Dispersion is when waves of different wavelengths (like colors of light) travel at different speeds through a medium, causing them to separate. This happens because the **refractive index** {n} of a material varies with wavelength—shorter wavelengths (blue light) slow more than longer ones (red light), making them bend at different angles. Imagine a prism splitting sunlight into a rainbow: this is dispersion in action.  
+
+## Why this matters  
+Dispersion explains why light splits into colors, why rainbows form, and why lenses can blur images. It connects wave behavior to material properties, revealing how the same light can act differently depending on its wavelength.  
+
+## The simple picture  
+[Diagram idea: Light entering a prism, with different colors bending at different angles.]  
+Think of a prism as a "traffic jam" for light. Shorter wavelengths (blue light) interact more with the material’s structure, slowing down more than longer wavelengths (red light). This wave-based "traffic jam" causes them to bend by different amounts, creating a rainbow of colors.  
+
+## The more precise picture  
+**Wavelength-dependent refraction** {dispersion} occurs because the **refractive index** {n} of a material varies with wavelength. The refractive index is the ratio of light’s speed in a vacuum to its speed in the medium:  
+$$ n = \frac{c}{v} $$  
+(Explain: Light slows down in a medium, and the amount it slows depends on its wavelength.)  
+
+For many materials, the refractive index decreases with increasing wavelength:  
+$$ n(\lambda) = \text{constant} \times \lambda^{-k} $$  
+(This means blue light, with shorter wavelength, has a higher refractive index and slows more than red light.)  
+
+When light enters a medium, **Snell’s law** {Snell’s law} governs how it bends:  
+$$ n_1 \sin(\theta_1) = n_2(\lambda) \sin(\theta_2) $$  
+(Different wavelengths have different $ n_2 $, so they bend by different amounts, separating spatially.)  
+
+## Common misconceptions  
+- ❌ "Dispersion only happens in prisms."  
+  → Dispersion occurs in lenses, raindrops, fiber optics, and even sound waves.  
+- ❌ "All colors bend the same way."  
+  → Refractive index varies with wavelength, so different colors bend by different amounts.  
+- ❌ "Dispersion is caused by light splitting into colors."  
+  → Dispersion *explains* why light splits into colors; it’s the underlying mechanism.  
+
+## How this connects to the rest of physics  
+Dispersion is a key concept in **optics** and **wave theory**, showing how materials interact with waves. It ties to **refraction**, **wave-speed variation**, and the **electromagnetic spectrum**. In advanced physics, dispersion relations {dispersion relation} are central to understanding how waves propagate in materials and even in quantum systems.  
+
+## Recap  
+- Dispersion is **wavelength-dependent refraction** {dispersion}, causing waves to separate.  
+- Shorter wavelengths (blue light) slow more than longer ones (red light) because the refractive index {n} varies with wavelength.  
+- It explains rainbows, prisms, and chromatic aberration.  
+- Math: Refractive index $ n = c/v $, and dispersion relations link $ n $ to wavelength.  
+
+---  
+**Key clarification**: The core mechanism of dispersion is **wavelength-dependent refractive index** {n(λ)} variation. This causes different wavelengths to travel at different speeds in a medium, leading to separation. The "traffic jam" analogy represents wave interactions with material properties, not literal particles.
+
+RESPONSE:
+{
+  "id": "C002",
+  "verdict": "supported",
+  "severity": "low",
+  "problem": "",
+  "suggested_fix": "",
+  "source_quality_note": "The snippets come from multiple physics-focused sources discussing normal/abnormal dispersion, refraction mechanisms, and Snell's law. The content aligns with standard explanations in optics textbooks."
+}
+
+================================================================================
+TIME: 2026-05-05T01:49:20
+NODE: claim_checker
+PROMPT_CHARS: 6369
+PROMPT_TOKENS_APPROX: 1592
+RESPONSE_CHARS: 308
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.8}
+================================================================================
+PROMPT:
+Check this one article claim against the available search snippet.
+
+Return JSON with this shape:
+{
+  "id": "C003",
+  "verdict": "supported | mostly_supported | needs_qualification | unsupported | contradicted | not_enough_evidence",
+  "severity": "none | low | medium | high",
+  "problem": "specific issue, or empty string",
+  "suggested_fix": "specific correction to the article, or empty string",
+  "source_quality_note": "brief note about whether the snippets look authoritative"
+}
+
+Rules:
+- Be conservative.
+- If the snippet is weak or absent, say not_enough_evidence.
+- Do not demand advanced nuance beyond the article's beginner scope.
+- Do flag misleading simplifications.
+- Focus on stable accepted physics.
+
+Article title: Dispersion
+
+Claim:
+{
+  "id": "C003",
+  "claim": "Imagine a prism splitting sunlight into a rainbow: this is dispersion in action.",
+  "type": "fallback-extracted",
+  "importance": "medium",
+  "needs_external_check": true,
+  "why_it_matters": "Automatically extracted fallback claim; review manually.",
+  "suggested_search_query": "Dispersion Imagine a prism splitting sunlight into a rainbow: this is dispersion in action. physics lecture notes textbook explanation"
+}
+
+Search snippet:
+{
+  "claim": "Imagine a prism splitting sunlight into a rainbow: this is dispersion in action.",
+  "query": "Dispersion Imagine a prism splitting sunlight into a rainbow: this is dispersion in action. physics lecture notes textbook explanation",
+  "result_snippet": "Rainbows are formed by dispersion of light, in which the refraction angle depends on the light's frequency. Refraction is also responsible for rainbows and for the splitting of white light into a rainbow-spectrum as it passes through a glass prism. Dispersion of light is the phenomenon in which white light splits into its constituent colors when it passes through a prism. This happens because each color of light has a different wavelength and bends by a different amount upon refraction. If you've ever marvelled at a rainbow, you have witnessed dispersion in action. Dispersion is where the speed at which a wave moves depends on its frequency (and so wavelength). Watch: The Physics of Light Dispersion in Action.Who first proved that prisms split light? When light passes through a prism, it undergoes refraction and dispersion, causing white light to separate into its constituent colors—the visible spectrum. What is Dispersion. Dispersion occurs when light enters a material and spreads out into its spectrum of wavelengths.The water acts as a prism, splitting the light into its constituent colours. What is the role of light dispersion in forming a rainbow?",
+  "searched_at": "2026-05-05_01-44-12",
+  "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
+}
+
+Relevant draft context:
+# Dispersion  
+
+## The core idea  
+Dispersion is when waves of different wavelengths (like colors of light) travel at different speeds through a medium, causing them to separate. This happens because the **refractive index** {n} of a material varies with wavelength—shorter wavelengths (blue light) slow more than longer ones (red light), making them bend at different angles. Imagine a prism splitting sunlight into a rainbow: this is dispersion in action.  
+
+## Why this matters  
+Dispersion explains why light splits into colors, why rainbows form, and why lenses can blur images. It connects wave behavior to material properties, revealing how the same light can act differently depending on its wavelength.  
+
+## The simple picture  
+[Diagram idea: Light entering a prism, with different colors bending at different angles.]  
+Think of a prism as a "traffic jam" for light. Shorter wavelengths (blue light) interact more with the material’s structure, slowing down more than longer wavelengths (red light). This wave-based "traffic jam" causes them to bend by different amounts, creating a rainbow of colors.  
+
+## The more precise picture  
+**Wavelength-dependent refraction** {dispersion} occurs because the **refractive index** {n} of a material varies with wavelength. The refractive index is the ratio of light’s speed in a vacuum to its speed in the medium:  
+$$ n = \frac{c}{v} $$  
+(Explain: Light slows down in a medium, and the amount it slows depends on its wavelength.)  
+
+For many materials, the refractive index decreases with increasing wavelength:  
+$$ n(\lambda) = \text{constant} \times \lambda^{-k} $$  
+(This means blue light, with shorter wavelength, has a higher refractive index and slows more than red light.)  
+
+When light enters a medium, **Snell’s law** {Snell’s law} governs how it bends:  
+$$ n_1 \sin(\theta_1) = n_2(\lambda) \sin(\theta_2) $$  
+(Different wavelengths have different $ n_2 $, so they bend by different amounts, separating spatially.)  
+
+## Common misconceptions  
+- ❌ "Dispersion only happens in prisms."  
+  → Dispersion occurs in lenses, raindrops, fiber optics, and even sound waves.  
+- ❌ "All colors bend the same way."  
+  → Refractive index varies with wavelength, so different colors bend by different amounts.  
+- ❌ "Dispersion is caused by light splitting into colors."  
+  → Dispersion *explains* why light splits into colors; it’s the underlying mechanism.  
+
+## How this connects to the rest of physics  
+Dispersion is a key concept in **optics** and **wave theory**, showing how materials interact with waves. It ties to **refraction**, **wave-speed variation**, and the **electromagnetic spectrum**. In advanced physics, dispersion relations {dispersion relation} are central to understanding how waves propagate in materials and even in quantum systems.  
+
+## Recap  
+- Dispersion is **wavelength-dependent refraction** {dispersion}, causing waves to separate.  
+- Shorter wavelengths (blue light) slow more than longer ones (red light) because the refractive index {n} varies with wavelength.  
+- It explains rainbows, prisms, and chromatic aberration.  
+- Math: Refractive index $ n = c/v $, and dispersion relations link $ n $ to wavelength.  
+
+---  
+**Key clarification**: The core mechanism of dispersion is **wavelength-dependent refractive index** {n(λ)} variation. This causes different wavelengths to travel at different speeds in a medium, leading to separation. The "traffic jam" analogy represents wave interactions with material properties, not literal particles.
+
+RESPONSE:
+{
+  "id": "C003",
+  "verdict": "supported",
+  "severity": "none",
+  "problem": "",
+  "suggested_fix": "",
+  "source_quality_note": "The snippet contains multiple authoritative physics explanations from textbook-style sources, confirming the prism/rainbow example as a standard demonstration of dispersion."
+}
+
+================================================================================
+TIME: 2026-05-05T01:51:10
+NODE: term_collector
+PROMPT_CHARS: 4014
+PROMPT_TOKENS_APPROX: 1003
+RESPONSE_CHARS: 0
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.8}
+================================================================================
+PROMPT:
+Extract the descriptive-name candidates from this draft.
+
+Return JSON with this shape:
+{
+  "terms": [
+    {
+      "standard_term": "fermion",
+      "candidate_name": "space-occupier",
+      "context_quote": "short quote from the draft",
+      "usefulness": "why this name helps",
+      "risk": "how it could mislead, or empty string if low risk"
+    }
+  ]
+}
+
+Only include actual teaching-name candidates, especially phrases followed by standard terms in braces.
+
+Draft:
+# Dispersion  
+
+## The core idea  
+Dispersion is when waves of different wavelengths (like colors of light) travel at different speeds through a medium, causing them to separate. This happens because the **refractive index** {n} of a material varies with wavelength—shorter wavelengths (blue light) slow more than longer ones (red light), making them bend at different angles. Imagine a prism splitting sunlight into a rainbow: this is dispersion in action.  
+
+## Why this matters  
+Dispersion explains why light splits into colors, why rainbows form, and why lenses can blur images. It connects wave behavior to material properties, revealing how the same light can act differently depending on its wavelength.  
+
+## The simple picture  
+[Diagram idea: Light entering a prism, with different colors bending at different angles.]  
+Think of a prism as a "traffic jam" for light. Shorter wavelengths (blue light) interact more with the material’s structure, slowing down more than longer wavelengths (red light). This wave-based "traffic jam" causes them to bend by different amounts, creating a rainbow of colors.  
+
+## The more precise picture  
+**Wavelength-dependent refraction** {dispersion} occurs because the **refractive index** {n} of a material varies with wavelength. The refractive index is the ratio of light’s speed in a vacuum to its speed in the medium:  
+$$ n = \frac{c}{v} $$  
+(Explain: Light slows down in a medium, and the amount it slows depends on its wavelength.)  
+
+For many materials, the refractive index decreases with increasing wavelength:  
+$$ n(\lambda) = \text{constant} \times \lambda^{-k} $$  
+(This means blue light, with shorter wavelength, has a higher refractive index and slows more than red light.)  
+
+When light enters a medium, **Snell’s law** {Snell’s law} governs how it bends:  
+$$ n_1 \sin(\theta_1) = n_2(\lambda) \sin(\theta_2) $$  
+(Different wavelengths have different $ n_2 $, so they bend by different amounts, separating spatially.)  
+
+## Common misconceptions  
+- ❌ "Dispersion only happens in prisms."  
+  → Dispersion occurs in lenses, raindrops, fiber optics, and even sound waves.  
+- ❌ "All colors bend the same way."  
+  → Refractive index varies with wavelength, so different colors bend by different amounts.  
+- ❌ "Dispersion is caused by light splitting into colors."  
+  → Dispersion *explains* why light splits into colors; it’s the underlying mechanism.  
+
+## How this connects to the rest of physics  
+Dispersion is a key concept in **optics** and **wave theory**, showing how materials interact with waves. It ties to **refraction**, **wave-speed variation**, and the **electromagnetic spectrum**. In advanced physics, dispersion relations {dispersion relation} are central to understanding how waves propagate in materials and even in quantum systems.  
+
+## Recap  
+- Dispersion is **wavelength-dependent refraction** {dispersion}, causing waves to separate.  
+- Shorter wavelengths (blue light) slow more than longer ones (red light) because the refractive index {n} varies with wavelength.  
+- It explains rainbows, prisms, and chromatic aberration.  
+- Math: Refractive index $ n = c/v $, and dispersion relations link $ n $ to wavelength.  
+
+---  
+**Key clarification**: The core mechanism of dispersion is **wavelength-dependent refractive index** {n(λ)} variation. This causes different wavelengths to travel at different speeds in a medium, leading to separation. The "traffic jam" analogy represents wave interactions with material properties, not literal particles.
+
+RESPONSE:
+
+
+================================================================================
+TIME: 2026-05-05T01:54:33
+NODE: accessibility_judge
+PROMPT_CHARS: 5999
+PROMPT_TOKENS_APPROX: 1499
+RESPONSE_CHARS: 0
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.8}
+================================================================================
+PROMPT:
+Evaluate this EasyPhysics article for accessibility.
+
+Return exactly one JSON object:
+{
+  "score": 1,
+  "pass": false,
+  "strengths": ["specific strength"],
+  "issues": [
+    {
+      "severity": "low | medium | high",
+      "location": "section name or short quote",
+      "problem": "specific accessibility issue",
+      "suggested_fix": "specific fix"
+    }
+  ],
+  "best_next_revision": "one concise paragraph"
+}
+
+Rubric:
+Accessibility score, 1-10:
+
+10 = Exceptional. A motivated high-schooler can follow the article's main arc without prior exposure.
+     Jargon is introduced only after intuition. Examples are vivid. Math is explained as meaning,
+     not just symbols. The article feels empowering and clear.
+
+9 = Publishable with light human editing. The main idea is easy to follow; jargon is mostly controlled;
+    analogies are helpful; sections flow logically; any math has a plain-language interpretation.
+
+8 = Strong draft. Mostly clear, but has a few dense sections, unexplained terms, abrupt transitions,
+    or analogies that need more setup.
+
+7 = Useful but uneven. A motivated reader could learn from it, but several passages need simplification,
+    clearer examples, or better sequencing.
+
+6 = Borderline. The article contains useful explanations, but assumes too much background or uses too much jargon.
+
+5 = Mixed. Some good paragraphs, but the structure or language would lose many target readers.
+
+4 = Hard to follow. Mostly written for someone who already knows the subject.
+
+3 = Very inaccessible. Dense, abstract, jargon-heavy, or poorly sequenced.
+
+2 = Barely useful to the target audience.
+
+1 = Fails the accessibility goal.
+
+Accessibility judge priorities:
+- Does the opening give the reader an intuitive foothold?
+- Are standard terms introduced after meaning, not before?
+- Are descriptive names useful rather than cutesy or misleading?
+- Are analogies concrete and then carefully limited?
+- Is any math explained in words?
+- Does the article avoid "spooky/magic/weird" framing while still acknowledging counterintuitive ideas?
+- Does each section make the next section easier?
+
+Rules:
+- Return an object, not a list.
+- Score must be an integer from 1 to 10.
+- A 9 means publishable with light human editing.
+- Do not give 9 or 10 if the opening is jargon-heavy.
+- Do not give 9 or 10 if math appears without plain-language interpretation.
+- Do not rewrite the article; only evaluate it.
+
+Article title: Dispersion
+
+Draft:
+# Dispersion  
+
+## The core idea  
+Dispersion is when waves of different wavelengths (like colors of light) travel at different speeds through a medium, causing them to separate. This happens because the **refractive index** {n} of a material varies with wavelength—shorter wavelengths (blue light) slow more than longer ones (red light), making them bend at different angles. Imagine a prism splitting sunlight into a rainbow: this is dispersion in action.  
+
+## Why this matters  
+Dispersion explains why light splits into colors, why rainbows form, and why lenses can blur images. It connects wave behavior to material properties, revealing how the same light can act differently depending on its wavelength.  
+
+## The simple picture  
+[Diagram idea: Light entering a prism, with different colors bending at different angles.]  
+Think of a prism as a "traffic jam" for light. Shorter wavelengths (blue light) interact more with the material’s structure, slowing down more than longer wavelengths (red light). This wave-based "traffic jam" causes them to bend by different amounts, creating a rainbow of colors.  
+
+## The more precise picture  
+**Wavelength-dependent refraction** {dispersion} occurs because the **refractive index** {n} of a material varies with wavelength. The refractive index is the ratio of light’s speed in a vacuum to its speed in the medium:  
+$$ n = \frac{c}{v} $$  
+(Explain: Light slows down in a medium, and the amount it slows depends on its wavelength.)  
+
+For many materials, the refractive index decreases with increasing wavelength:  
+$$ n(\lambda) = \text{constant} \times \lambda^{-k} $$  
+(This means blue light, with shorter wavelength, has a higher refractive index and slows more than red light.)  
+
+When light enters a medium, **Snell’s law** {Snell’s law} governs how it bends:  
+$$ n_1 \sin(\theta_1) = n_2(\lambda) \sin(\theta_2) $$  
+(Different wavelengths have different $ n_2 $, so they bend by different amounts, separating spatially.)  
+
+## Common misconceptions  
+- ❌ "Dispersion only happens in prisms."  
+  → Dispersion occurs in lenses, raindrops, fiber optics, and even sound waves.  
+- ❌ "All colors bend the same way."  
+  → Refractive index varies with wavelength, so different colors bend by different amounts.  
+- ❌ "Dispersion is caused by light splitting into colors."  
+  → Dispersion *explains* why light splits into colors; it’s the underlying mechanism.  
+
+## How this connects to the rest of physics  
+Dispersion is a key concept in **optics** and **wave theory**, showing how materials interact with waves. It ties to **refraction**, **wave-speed variation**, and the **electromagnetic spectrum**. In advanced physics, dispersion relations {dispersion relation} are central to understanding how waves propagate in materials and even in quantum systems.  
+
+## Recap  
+- Dispersion is **wavelength-dependent refraction** {dispersion}, causing waves to separate.  
+- Shorter wavelengths (blue light) slow more than longer ones (red light) because the refractive index {n} varies with wavelength.  
+- It explains rainbows, prisms, and chromatic aberration.  
+- Math: Refractive index $ n = c/v $, and dispersion relations link $ n $ to wavelength.  
+
+---  
+**Key clarification**: The core mechanism of dispersion is **wavelength-dependent refractive index** {n(λ)} variation. This causes different wavelengths to travel at different speeds in a medium, leading to separation. The "traffic jam" analogy represents wave interactions with material properties, not literal particles.
+
+RESPONSE:
+
+
+================================================================================
+TIME: 2026-05-05T01:57:04
+NODE: rigor_judge
+PROMPT_CHARS: 7284
+PROMPT_TOKENS_APPROX: 1821
+RESPONSE_CHARS: 830
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.8}
+================================================================================
+PROMPT:
+Evaluate this EasyPhysics article for scientific rigor.
+
+Return exactly one JSON object:
+{
+  "score": 1,
+  "pass": false,
+  "strengths": ["specific strength"],
+  "issues": [
+    {
+      "severity": "low | medium | high",
+      "location": "section name or short quote",
+      "problem": "specific rigor issue",
+      "suggested_fix": "specific fix"
+    }
+  ],
+  "best_next_revision": "one concise paragraph"
+}
+
+Rubric:
+Rigor score, 1-10:
+
+10 = Exceptional. Scientifically accurate, well-qualified, and careful about analogy limits.
+     No obvious misleading simplifications. Claims align with stable accepted physics.
+
+9 = Publishable with light human editing. No major errors. A few details may need polishing,
+    but the article is safe as an educational explanation.
+
+8 = Strong draft. Mostly accurate but has minor imprecision, missing qualifications, or analogy risks.
+
+7 = Useful but needs scientific review. Contains no catastrophic errors, but some claims are too loose,
+    incomplete, or potentially misleading.
+
+6 = Borderline. Several important corrections or qualifications are needed.
+
+5 = Mixed. The article has valuable explanations but also significant inaccuracies or misleading framings.
+
+4 = Scientifically weak. Multiple substantial errors or serious conceptual muddling.
+
+3 = Very unreliable. The reader would likely learn incorrect physics.
+
+2 = Mostly wrong or confused.
+
+1 = Fails the rigor goal.
+
+Rigor judge priorities:
+- Are definitions compatible with standard physics?
+- Are analogies technically safe, with their limits stated when necessary?
+- Are quantum concepts distinguished correctly: amplitude vs probability, superposition vs ignorance,
+  measurement vs ordinary looking, phase vs probability?
+- Are field/particle/wave descriptions accurate enough for a beginner article?
+- Are conservation, symmetry, force, energy, mass, and spin statements properly qualified?
+- Does the article avoid replacing historical jargon with new misleading jargon?
+- Are open questions distinguished from settled explanations?
+
+Rules:
+- Return an object, not a list.
+- Score must be an integer from 1 to 10.
+- A 9 means no major scientific errors and only light human editing needed.
+- Penalize misleading analogies.
+- Penalize overclaims.
+- Penalize confusing settled physics with open questions.
+- Do not demand graduate-level nuance for a beginner article.
+- Do not rewrite the article; only evaluate it.
+
+Claim-check context:
+{
+  "claim_checks": [
+    {
+      "id": "C001",
+      "verdict": "supported",
+      "severity": "low",
+      "problem": "",
+      "suggested_fix": "",
+      "source_quality_note": "The snippet comes from a stable physics explanation focusing on optics and wave behavior, confirming the core mechanism of wavelength-dependent refraction."
+    },
+    {
+      "id": "C002",
+      "verdict": "supported",
+      "severity": "low",
+      "problem": "",
+      "suggested_fix": "",
+      "source_quality_note": "The snippets come from multiple physics-focused sources discussing normal/abnormal dispersion, refraction mechanisms, and Snell's law. The content aligns with standard explanations in optics textbooks."
+    },
+    {
+      "id": "C003",
+      "verdict": "supported",
+      "severity": "none",
+      "problem": "",
+      "suggested_fix": "",
+      "source_quality_note": "The snippet contains multiple authoritative physics explanations from textbook-style sources, confirming the prism/rainbow example as a standard demonstration of dispersion."
+    }
+  ],
+  "summary": {
+    "overall_claim_quality": "Claim check completed.",
+    "unresolved_or_needs_qualification": 0,
+    "highest_priority_fixes": []
+  },
+  "last_updated": "2026-05-05_01-49-20"
+}
+
+Article title: Dispersion
+
+Draft:
+# Dispersion  
+
+## The core idea  
+Dispersion is when waves of different wavelengths (like colors of light) travel at different speeds through a medium, causing them to separate. This happens because the **refractive index** {n} of a material varies with wavelength—shorter wavelengths (blue light) slow more than longer ones (red light), making them bend at different angles. Imagine a prism splitting sunlight into a rainbow: this is dispersion in action.  
+
+## Why this matters  
+Dispersion explains why light splits into colors, why rainbows form, and why lenses can blur images. It connects wave behavior to material properties, revealing how the same light can act differently depending on its wavelength.  
+
+## The simple picture  
+[Diagram idea: Light entering a prism, with different colors bending at different angles.]  
+Think of a prism as a "traffic jam" for light. Shorter wavelengths (blue light) interact more with the material’s structure, slowing down more than longer wavelengths (red light). This wave-based "traffic jam" causes them to bend by different amounts, creating a rainbow of colors.  
+
+## The more precise picture  
+**Wavelength-dependent refraction** {dispersion} occurs because the **refractive index** {n} of a material varies with wavelength. The refractive index is the ratio of light’s speed in a vacuum to its speed in the medium:  
+$$ n = \frac{c}{v} $$  
+(Explain: Light slows down in a medium, and the amount it slows depends on its wavelength.)  
+
+For many materials, the refractive index decreases with increasing wavelength:  
+$$ n(\lambda) = \text{constant} \times \lambda^{-k} $$  
+(This means blue light, with shorter wavelength, has a higher refractive index and slows more than red light.)  
+
+When light enters a medium, **Snell’s law** {Snell’s law} governs how it bends:  
+$$ n_1 \sin(\theta_1) = n_2(\lambda) \sin(\theta_2) $$  
+(Different wavelengths have different $ n_2 $, so they bend by different amounts, separating spatially.)  
+
+## Common misconceptions  
+- ❌ "Dispersion only happens in prisms."  
+  → Dispersion occurs in lenses, raindrops, fiber optics, and even sound waves.  
+- ❌ "All colors bend the same way."  
+  → Refractive index varies with wavelength, so different colors bend by different amounts.  
+- ❌ "Dispersion is caused by light splitting into colors."  
+  → Dispersion *explains* why light splits into colors; it’s the underlying mechanism.  
+
+## How this connects to the rest of physics  
+Dispersion is a key concept in **optics** and **wave theory**, showing how materials interact with waves. It ties to **refraction**, **wave-speed variation**, and the **electromagnetic spectrum**. In advanced physics, dispersion relations {dispersion relation} are central to understanding how waves propagate in materials and even in quantum systems.  
+
+## Recap  
+- Dispersion is **wavelength-dependent refraction** {dispersion}, causing waves to separate.  
+- Shorter wavelengths (blue light) slow more than longer ones (red light) because the refractive index {n} varies with wavelength.  
+- It explains rainbows, prisms, and chromatic aberration.  
+- Math: Refractive index $ n = c/v $, and dispersion relations link $ n $ to wavelength.  
+
+---  
+**Key clarification**: The core mechanism of dispersion is **wavelength-dependent refractive index** {n(λ)} variation. This causes different wavelengths to travel at different speeds in a medium, leading to separation. The "traffic jam" analogy represents wave interactions with material properties, not literal particles.
+
+RESPONSE:
+{
+  "score": 9,
+  "pass": true,
+  "strengths": [
+    "Clear distinction between wave behavior and particle analogies",
+    "Accurate mathematical formulations with plain-language explanations",
+    "Effective common misconception corrections"
+  ],
+  "issues": [
+    {
+      "severity": "low",
+      "location": "The more precise picture section",
+      "problem": "Notation inconsistency: 'n' is used for refractive index then 'n(λ)' without explicit clarification",
+      "suggested_fix": "Add a brief note explaining that 'n(λ)' represents wavelength-dependent refractive index"
+    }
+  ],
+  "best_next_revision": "Refine notation consistency by explicitly defining 'n(λ)' as wavelength-dependent refractive index and reinforce the distinction between dispersion as a mechanism and its observable effects (rainbow formation)."
+}

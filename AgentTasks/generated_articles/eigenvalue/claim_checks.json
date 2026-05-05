@@ -3,27 +3,35 @@
     {
       "id": "C001",
       "verdict": "supported",
-      "severity": "low",
-      "problem": "The search snippet does not directly confirm the claim but contains relevant context about eigenvalues in linear algebra and quantum mechanics",
-      "suggested_fix": "Add a note that the claim aligns with standard linear algebra definitions but the snippet's context primarily references quantum mechanics applications",
-      "source_quality_note": "The snippet appears to come from lecture notes which are acceptable for foundational concepts but lack direct definition"
+      "severity": "none",
+      "problem": "",
+      "suggested_fix": "",
+      "source_quality_note": "The snippet appears to come from a reliable physics education source discussing eigenvalues in both linear algebra and quantum contexts."
     },
     {
       "id": "C002",
-      "verdict": "mostly_supported",
+      "verdict": "not_enough_evidence",
+      "severity": "medium",
+      "problem": "Could not parse claim-checker output.",
+      "suggested_fix": "Review this claim manually.",
+      "source_quality_note": ""
+    },
+    {
+      "id": "C003",
+      "verdict": "supported",
       "severity": "low",
-      "problem": "The claim mentions 'forces' as a category where eigenvalues are relevant, but the search snippet focuses more on vibrations/rotations and lacks direct mention of force-response applications",
-      "suggested_fix": "Specify that eigenvalues relate to these responses in specific contexts like vibrations (natural frequencies) and rotations (symmetry axes), with examples like guitar strings or spinning tops",
-      "source_quality_note": "The snippet comes from a reliable physics source discussing multiple applications including vibration analysis and quantum mechanics"
+      "problem": "The claim is a general statement that aligns with the snippet's discussion of eigenvalues in vibration analysis, stability, and rotational symmetry. However, the snippet does not explicitly mention 'forces' in the context of eigenvalue applications.",
+      "suggested_fix": "Specify that eigenvalues relate to forces through their role in linear transformations (e.g., stress tensors in mechanics) and vibrations (natural frequencies).",
+      "source_quality_note": "The snippets include authoritative references to linear algebra applications in physics and engineering, aligning with standard educational sources."
     }
   ],
   "summary": {
     "overall_claim_quality": "Claim check completed.",
-    "unresolved_or_needs_qualification": 0,
+    "unresolved_or_needs_qualification": 1,
     "highest_priority_fixes": [
-      "Add a note that the claim aligns with standard linear algebra definitions but the snippet's context primarily references quantum mechanics applications",
-      "Specify that eigenvalues relate to these responses in specific contexts like vibrations (natural frequencies) and rotations (symmetry axes), with examples like guitar strings or spinning tops"
+      "Review this claim manually.",
+      "Specify that eigenvalues relate to forces through their role in linear transformations (e.g., stress tensors in mechanics) and vibrations (natural frequencies)."
     ]
   },
-  "last_updated": "2026-05-04_09-21-17"
+  "last_updated": "2026-05-05_00-08-24"
 }

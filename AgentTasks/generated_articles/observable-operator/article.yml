@@ -2,12 +2,13 @@ title: Observable operator
 slug: observable-operator
 status: needs_revision
 finished: false
-iteration_count: 1
-accessibility_score: 7
+iteration_count: 2
+accessibility_score: 0
 rigor_score: 0
-last_worked_on: '2026-05-04'
-last_completed_pass: 2026-05-04_14-17-49
+last_worked_on: '2026-05-05'
+last_completed_pass: 2026-05-05_06-05-42
 needs:
 - accessibility_revision
 - rigor_revision
+- claim_review
 current_draft: draft.md

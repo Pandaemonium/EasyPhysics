@@ -3,27 +3,34 @@
     {
       "id": "C001",
       "verdict": "supported",
-      "severity": "low",
-      "problem": "The metaphor 'energy governor' is a creative descriptive term but could be misleading if interpreted as actively controlling energy rather than representing total energy as a key quantity",
-      "suggested_fix": "Clarify that the Hamiltonian represents total energy (kinetic + potential) as the fundamental quantity that determines system dynamics, rather than actively 'governing' energy",
-      "source_quality_note": "The snippets show authoritative physics explanations from multiple sources confirming the Hamiltonian's role as the total energy operator/function"
+      "severity": "none",
+      "problem": "",
+      "suggested_fix": "",
+      "source_quality_note": "The snippet comes from a reliable physics education source explaining Hamiltonian mechanics and quantum mechanics concepts."
     },
     {
       "id": "C002",
-      "verdict": "mostly_supported",
+      "verdict": "supported",
+      "severity": "high",
+      "problem": "",
+      "suggested_fix": "",
+      "source_quality_note": "The snippet references stable physics concepts and mentions ISO standards, indicating authoritative educational sources."
+    },
+    {
+      "id": "C003",
+      "verdict": "not_enough_evidence",
       "severity": "low",
-      "problem": "Simplifies the Hamiltonian's role in quantum mechanics as 'total energy' rather than an operator acting on wavefunctions",
-      "suggested_fix": "Clarify that in quantum mechanics, the Hamiltonian is an operator that governs wavefunction evolution, not just a scalar energy value",
-      "source_quality_note": "Snippets from multiple physics sources (classical/quantum mechanics) support the core idea of energy-based time evolution"
+      "problem": "The search snippet does not explicitly address the recipe analogy for Hamiltonian, though it discusses energy concepts",
+      "suggested_fix": "Find a physics textbook or lecture that explicitly uses the recipe analogy for Hamiltonian",
+      "source_quality_note": "The snippet includes MIT OCW and Feynman Lectures references which are authoritative, but lacks direct support for the specific claim"
     }
   ],
   "summary": {
     "overall_claim_quality": "Claim check completed.",
-    "unresolved_or_needs_qualification": 0,
+    "unresolved_or_needs_qualification": 2,
     "highest_priority_fixes": [
-      "Clarify that the Hamiltonian represents total energy (kinetic + potential) as the fundamental quantity that determines system dynamics, rather than actively 'governing' energy",
-      "Clarify that in quantum mechanics, the Hamiltonian is an operator that governs wavefunction evolution, not just a scalar energy value"
+      "Find a physics textbook or lecture that explicitly uses the recipe analogy for Hamiltonian"
     ]
   },
-  "last_updated": "2026-05-04_08-01-40"
+  "last_updated": "2026-05-04_22-43-20"
 }

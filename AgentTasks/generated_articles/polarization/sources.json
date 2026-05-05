@@ -1,0 +1,26 @@
+{
+  "sources_by_claim": {
+    "C001": {
+      "claim": "# Polarization ## The core idea Light is a wave, and like all waves, it has a direction of motion.",
+      "query": "Polarization # Polarization ## The core idea Light is a wave, and like all waves, it has physics lecture notes textbook explanation",
+      "result_snippet": "Polarized light waves are light waves in which the vibrations occur in a single plane. The process of transforming unpolarized light into polarized light is known as polarization. Polarization is the attribute that wave oscillations have a definite direction relative to the direction of propagation of the wave. EM waves are transverse waves that may be polarized. Polaroids have this ability because of a wave characteristic of light called polarization. What is polarization? How is it produced? What are some of its uses? The answers to these questions are related to the wave character of light. Polarization refers to the orientation of the vibrations of a light wave. When the vibrations are mostly in one direction, the light is said to be polarized. Polarization is the attribute that wave oscillations have a definite direction relative to the direction of propagation of the wave. EM waves are transverse waves that may be polarized.",
+      "searched_at": "2026-05-05_02-07-53",
+      "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
+    },
+    "C002": {
+      "claim": "But light is special: it’s a **transverse wave**, meaning its electric field (and magnetic field) oscillate perpendicular to the direction it’s moving.",
+      "query": "Polarization But light is special: it’s a **transverse wave**, meaning its electric field (and magnetic field) oscillate physics lecture notes textbook explanation",
+      "result_snippet": "Representation of the electric field vector of a wave of circularly polarized electromagnetic radiation In homogeneous, isotropic media, electromagnetic radiation is a transverse wave, [23] meaning that its oscillations are perpendicular to the direction of energy transfer and travel. It comes from the following equations: These equations predicate that any electromagnetic wave must be a ... Polarized light is light in which the electric field vector of the light is in the same phase and is perpendicular to the propagation of the light wave. The process of converting unpolarized light into polarized light is called polarization. Polarization is a property that is inherent to all vector waves. Light, as a transverse electromagnetic wave, has an electric field that oscillates perpendicular to the direction of propagation. Light is considered unpolarized when the direction of electric field... Polarization, property of certain electromagnetic radiations in which the direction and magnitude of the vibrating electric field are related in a specified way. Light waves are transverse: that is, the vibrating electric vector associated with each wave is perpendicular to the direction of Polarization in physics refers to the orientation of oscillations in a transverse wave, particularly the direction of the electric field in electromagnetic waves like light.",
+      "searched_at": "2026-05-05_02-07-55",
+      "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
+    },
+    "C003": {
+      "claim": "**Polarization** is the specific direction in which these electric field oscillations occur.",
+      "query": "Polarization **Polarization** is the specific direction in which these electric field oscillations occur. physics lecture notes textbook explanation",
+      "result_snippet": "A \"vertically polarized\" electromagnetic wave of wavelength λ has its electric field vector E (red) oscillating in the vertical direction. A \"vertically polarized\" electromagnetic wave of wavelength λ has its electric field vector E (red) oscillating in the vertical direction. For electromagnetic (EM) waves in an isotropic medium (that is, a medium whose properties are independent of direction), the electric field vectors ... That physical direction of an oscillating field relative to the propagation direction is also referred to as the wave's polarization , which can be ... A \"vertically polarized\" electromagnetic wave of wavelength λ has its electric field vector E (red) oscillating in the vertical direction.",
+      "searched_at": "2026-05-05_02-07-57",
+      "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
+    }
+  },
+  "last_updated": "2026-05-05_02-07-57"
+}

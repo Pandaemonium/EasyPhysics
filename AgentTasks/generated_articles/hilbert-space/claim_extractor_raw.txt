@@ -2,36 +2,27 @@
   "claims": [
     {
       "id": "C001",
-      "claim": "Hilbert space is a mathematical vector space where all quantum states reside as vectors.",
+      "claim": "Hilbert space is a vector space where quantum states are represented as rays {equivalence classes of vectors}.",
       "type": "definition",
       "importance": "high",
       "needs_external_check": true,
-      "why_it_matters": "Establishes the foundational framework for quantum mechanics",
-      "suggested_search_query": "Hilbert space definition quantum mechanics"
+      "why_it_matters": "This defines the mathematical framework for quantum states, distinguishing rays from individual vectors.",
+      "suggested_search_query": "Hilbert space definition quantum mechanics textbook"
     },
     {
       "id": "C002",
-      "claim": "Superposition in quantum systems corresponds to vector addition in Hilbert space.",
-      "type": "concept",
+      "claim": "Superposition in Hilbert space combines rays into new states via linear combinations of basis vectors.",
+      "type": "definition",
       "importance": "high",
       "needs_external_check": true,
-      "why_it_matters": "Explains how quantum states combine probabilistically",
-      "suggested_search_query": "quantum superposition Hilbert space"
+      "why_it_matters": "This explains how quantum systems can exist in multiple states simultaneously.",
+      "suggested_search_query": "Quantum superposition Hilbert space derivation"
     },
     {
       "id": "C003",
-      "claim": "Probabilities in quantum mechanics arise from the squared magnitudes of vector components and their relative angles.",
-      "type": "calculation",
+      "claim": "Probabilities in quantum mechanics arise from the squared magnitudes of inner products between rays {probability amplitudes}.",
+      "type": "definition",
       "importance": "high",
       "needs_external_check": true,
-      "why_it_matters": "Defines how measurement outcomes are determined",
-      "suggested_search_query": "quantum probability Hilbert space"
-    },
-    {
-      "id": "C004",
-      "claim": "Hilbert space is essential for describing quantum evolution, entanglement, and measurement processes.",
-      "type": "application",
-      "importance": "high",
-      "needs_external_check": true,
-      "why_it_matters": "Underpins core quantum phenomena",
-      "suggested_search_query": "Hilbert space quantum mechanics
+      "why_it_matters": "This connects quantum states to measurable outcomes via the Born rule.",
+      "suggested_search_query": "Quantum

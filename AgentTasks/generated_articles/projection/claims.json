@@ -20,12 +20,12 @@
     },
     {
       "id": "C003",
-      "claim": "This tells you how much of the vector is \"aligned\" with that direction.",
+      "claim": "This tells you how much of the vector is \"aligned\" with that direction, including whether it points in the same or opposite direction as the target.",
       "type": "fallback-extracted",
       "importance": "medium",
       "needs_external_check": true,
       "why_it_matters": "Automatically extracted fallback claim; review manually.",
-      "suggested_search_query": "Projection This tells you how much of the vector is \"aligned\" with that direction. physics lecture notes textbook explanation"
+      "suggested_search_query": "Projection This tells you how much of the vector is \"aligned\" with that direction, including whether it physics lecture notes textbook explanation"
     },
     {
       "id": "C004",
@@ -38,6 +38,15 @@
     },
     {
       "id": "C005",
+      "claim": "Projection lets us calculate that useful part—and also tells us if the force is working against the motion (if the angle is obtuse).",
+      "type": "fallback-extracted",
+      "importance": "medium",
+      "needs_external_check": true,
+      "why_it_matters": "Automatically extracted fallback claim; review manually.",
+      "suggested_search_query": "Projection Projection lets us calculate that useful part—and also tells us if the force is working against physics lecture notes textbook explanation"
+    },
+    {
+      "id": "C006",
       "claim": "Its shadow on the wall is its projection—the part of the stick that’s \"facing\" the wall.",
       "type": "fallback-extracted",
       "importance": "medium",
@@ -46,7 +55,7 @@
       "suggested_search_query": "Projection Its shadow on the wall is its projection—the part of the stick that’s \"facing\" the wall. physics lecture notes textbook explanation"
     },
     {
-      "id": "C006",
+      "id": "C007",
       "claim": "## The more precise picture The projection of vector **A** onto direction **B** is a vector that tells you how much of **A** points in **B**’s direction.",
       "type": "fallback-extracted",
       "importance": "medium",
@@ -55,25 +64,16 @@
       "suggested_search_query": "Projection ## The more precise picture The projection of vector **A** onto direction **B** is a vector physics lecture notes textbook explanation"
     },
     {
-      "id": "C007",
+      "id": "C008",
       "claim": "- **Magnitude**: $ |\\text{proj}_B A| = |A| \\cos\\theta $, where $ \\theta $ is the angle between **A** and **B**.",
       "type": "fallback-extracted",
       "importance": "medium",
       "needs_external_check": true,
       "why_it_matters": "Automatically extracted fallback claim; review manually.",
       "suggested_search_query": "Projection - **Magnitude**: $ |\\text{proj}_B A| = |A| \\cos\\theta $, where $ \\theta $ is the angle physics lecture notes textbook explanation"
-    },
-    {
-      "id": "C008",
-      "claim": "The **dot product** connects projection to math: $$ A \\cdot B = |A||B| \\cos\\theta = |A| \\cdot (\\text{proj}_B A) \\cdot |B| / |B| = |\\text{proj}_B A| \\cdot |B| $$ This shows the dot product is the projection **scaled** by the length of **B**.",
-      "type": "fallback-extracted",
-      "importance": "medium",
-      "needs_external_check": true,
-      "why_it_matters": "Automatically extracted fallback claim; review manually.",
-      "suggested_search_query": "Projection The **dot product** connects projection to math: $$ A \\cdot B = |A||B| \\cos\\theta = |A| physics lecture notes textbook explanation"
     }
   ],
-  "last_updated": "2026-05-04_13-11-25",
+  "last_updated": "2026-05-05_04-28-48",
   "count": 8,
   "parse_note": "No usable claims parsed from LLM output. Using deterministic fallback extraction from draft sentences."
 }

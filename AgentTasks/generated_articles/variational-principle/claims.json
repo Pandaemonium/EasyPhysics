@@ -2,7 +2,7 @@
   "claims": [
     {
       "id": "C001",
-      "claim": "# Variational Principle ## The core idea Nature chooses paths or states that **extremize** a key quantity—like energy or action.",
+      "claim": "# Variational Principle ## The core idea Nature chooses paths or states that **extremize** a key quantity—like action in classical mechanics or the **expectation value of energy** in quantum systems.",
       "type": "fallback-extracted",
       "importance": "medium",
       "needs_external_check": true,
@@ -47,33 +47,15 @@
     },
     {
       "id": "C006",
-      "claim": "Instead of randomly wandering, you take the path that minimizes your time or energy.",
+      "claim": "By focusing on \"optimal\" paths or states, it reveals a deep, universal structure in how nature operates.",
       "type": "fallback-extracted",
       "importance": "medium",
       "needs_external_check": true,
       "why_it_matters": "Automatically extracted fallback claim; review manually.",
-      "suggested_search_query": "Variational principle Instead of randomly wandering, you take the path that minimizes your time or energy. physics lecture notes textbook explanation"
-    },
-    {
-      "id": "C007",
-      "claim": "Similarly, nature \"chooses\" the path or state that makes the system as stable as possible.",
-      "type": "fallback-extracted",
-      "importance": "medium",
-      "needs_external_check": true,
-      "why_it_matters": "Automatically extracted fallback claim; review manually.",
-      "suggested_search_query": "Variational principle Similarly, nature \"chooses\" the path or state that makes the system as stable as possible. physics lecture notes textbook explanation"
-    },
-    {
-      "id": "C008",
-      "claim": "[Diagram idea: A maze with a highlighted shortest path] ## The more precise picture The **variational principle** states that physical systems evolve along paths or states that **extremize** a quantity called **action** {action}.",
-      "type": "fallback-extracted",
-      "importance": "medium",
-      "needs_external_check": true,
-      "why_it_matters": "Automatically extracted fallback claim; review manually.",
-      "suggested_search_query": "Variational principle [Diagram idea: A maze with a highlighted shortest path] ## The more precise picture The **variational physics lecture notes textbook explanation"
+      "suggested_search_query": "Variational principle By focusing on \"optimal\" paths or states, it reveals a deep, universal structure in how nature physics lecture notes textbook explanation"
     }
   ],
-  "last_updated": "2026-05-04_08-50-58",
-  "count": 8,
+  "last_updated": "2026-05-04_23-40-58",
+  "count": 6,
   "parse_note": "No usable claims parsed from LLM output. Using deterministic fallback extraction from draft sentences."
 }

@@ -1,0 +1,31 @@
+{
+  "score": 3,
+  "pass": false,
+  "strengths": ["specific strength"],
+  "issues": [
+    {
+      "severity": "high",
+      "location": "core idea section",
+      "problem": "The 'total energy rulebook' analogy conflates the Hamiltonian with energy itself, misrepresenting its role as a mathematical operator in quantum mechanics",
+      "suggested_fix": "Clarify that the Hamiltonian is a mathematical framework encoding energy relationships, not energy itself"
+    },
+    {
+      "severity": "high",
+      "location": "simple picture section",
+      "problem": "The 'recipe' analogy risks implying the Hamiltonian is a set of instructions rather than a mathematical operator",
+      "suggested_fix": "Add disclaimers that analogies are simplified and the Hamiltonian is a complex mathematical object"
+    },
+    {
+      "severity": "medium",
+      "location": "quantum mechanics section",
+      "problem": "Equation presentation lacks context about the mathematical meaning of operators and wavefunctions",
+      "suggested_fix": "Add explanations about operators acting on states and the probabilistic interpretation of wavefunctions"
+    },
+    {
+      "severity": "medium",
+      "location": "common misconceptions section",
+      "problem": "The 'only applies to particles' misconception is addressed but lacks explanation about field applications",
+      "suggested_fix": "Add clarification about Hamiltonians in quantum field theory and wave systems"
+    }
+  ],
+  "best_next_revision": "Refine analogies with explicit disclaimers about their limitations, clarify the mathematical nature of the Hamiltonian operator, and add context about

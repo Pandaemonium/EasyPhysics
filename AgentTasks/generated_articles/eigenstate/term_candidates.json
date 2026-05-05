@@ -1,4 +1,19 @@
 {
-  "terms": [],
-  "last_updated": "2026-05-04_10-15-29"
+  "terms": [
+    {
+      "standard_term": "eigenstate",
+      "candidate_name": "definite-answer state",
+      "context_quote": "An eigenstate {eigenstate} is a 'definite-answer state' — a quantum state where measuring a specific property... always gives the same result",
+      "usefulness": "Emphasizes the probabilistic certainty of measurement outcomes, contrasting with classical determinism",
+      "risk": "Might imply the state has an inherent 'answer' rather than being a mathematical tool for prediction"
+    },
+    {
+      "standard_term": "eigenstate",
+      "candidate_name": "building blocks",
+      "context_quote": "Eigenstates are not 'building blocks' {eigenstates} in a physical sense. They’re mathematical tools for prediction",
+      "usefulness": "Highlights their role as conceptual ingredients rather than physical entities",
+      "risk": "Could mislead into thinking eigenstates are physical components rather than mathematical constructs"
+    }
+  ],
+  "last_updated": "2026-05-05_01-24-35"
 }

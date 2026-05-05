@@ -1,0 +1,38 @@
+{
+  "score": 1,
+  "pass": false,
+  "strengths": ["coin analogy provides intuitive foothold"],
+  "issues": [
+    {
+      "severity": "high",
+      "location": "core idea section",
+      "problem": "Jargon like 'collapse' is introduced without sufficient conceptual grounding",
+      "suggested_fix": "Add a simple analogy before introducing technical terms"
+    },
+    {
+      "severity": "high",
+      "location": "wavefunction collapse explanation",
+      "problem": "Mathematical description of collapse is presented without connecting to physical intuition",
+      "suggested_fix": "Use a visual analogy (e.g., 'knowledge update' as a light switch turning on)"
+    },
+    {
+      "severity": "high",
+      "location": "Born rule equation",
+      "problem": "Math appears without plain-language explanation of squaring amplitudes",
+      "suggested_fix": "Add an example with concrete numbers and explain why squaring is necessary"
+    },
+    {
+      "severity": "high",
+      "location": "common misconceptions",
+      "problem": "Repetitive phrasing and lack of diagrammatic clarification for decoherence",
+      "suggested_fix": "Use a simple diagram to show environmental interactions disrupting superposition"
+    },
+    {
+      "severity": "medium",
+      "location": "observer effect",
+      "problem": "Technical term 'observer effect' is introduced without defining its role",
+      "suggested_fix": "Clarify it's about physical interaction, not conscious observation"
+    }
+  ],
+  "best_next_revision": "Start with a vivid analogy of a quantum coin, explain 'collapse' as updating knowledge rather than physical change, use simple math with concrete examples, and add diagrams to clarify abstract concepts like decoherence and wavefunction collapse."
+}

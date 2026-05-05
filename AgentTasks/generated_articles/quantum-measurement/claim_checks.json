@@ -2,27 +2,36 @@
   "claim_checks": [
     {
       "id": "C001",
+      "verdict": "not_enough_evidence",
+      "severity": "medium",
+      "problem": "Could not parse claim-checker output.",
+      "suggested_fix": "Review this claim manually.",
+      "source_quality_note": ""
+    },
+    {
+      "id": "C002",
+      "verdict": "mostly_supported",
+      "severity": "medium",
+      "problem": "Simplifies measurement as an abrupt 'collapse' without addressing alternative interpretations (e.g., continuous information flow between system and environment)",
+      "suggested_fix": "Add clarification that while the collapse is often described as abrupt, some interpretations view measurement as a continuous entropy-producing process between system and environment",
+      "source_quality_note": "The snippet appears to come from a reputable physics education source discussing standard quantum mechanics concepts"
+    },
+    {
+      "id": "C003",
       "verdict": "supported",
       "severity": "low",
       "problem": "",
       "suggested_fix": "",
-      "source_quality_note": "The snippet comes from a stable physics discussion about the Measurement Problem, which is authoritative for foundational concepts."
-    },
-    {
-      "id": "C002",
-      "verdict": "supported",
-      "severity": "low",
-      "problem": "The claim simplifies quantum collapse as a physical process, but the snippet clarifies it's a mathematical description of state update",
-      "suggested_fix": "Add clarification that 'collapse' is a mathematical description of state update, not a physical force",
-      "source_quality_note": "The snippet comes from a reputable physics source discussing established quantum mechanics concepts"
+      "source_quality_note": "The snippet references stable physics concepts (collapse theories, linear dynamics conflict) from a credible context, though it doesn't directly quote the article's exact claim. The claim aligns with standard textbook explanations of wavefunction collapse as a mathematical update."
     }
   ],
   "summary": {
     "overall_claim_quality": "Claim check completed.",
-    "unresolved_or_needs_qualification": 0,
+    "unresolved_or_needs_qualification": 2,
     "highest_priority_fixes": [
-      "Add clarification that 'collapse' is a mathematical description of state update, not a physical force"
+      "Review this claim manually.",
+      "Add clarification that while the collapse is often described as abrupt, some interpretations view measurement as a continuous entropy-producing process between system and environment"
     ]
   },
-  "last_updated": "2026-05-04_13-43-57"
+  "last_updated": "2026-05-05_05-10-34"
 }

@@ -1,0 +1,36 @@
+{
+  "claim_checks": [
+    {
+      "id": "C001",
+      "verdict": "needs_qualification",
+      "severity": "medium",
+      "problem": "The claim conflates the direction of wave motion with polarization. Polarization specifically refers to the electric field's oscillation direction, not the wave's overall motion.",
+      "suggested_fix": "Clarify that polarization refers to the electric field's orientation perpendicular to the direction of propagation, not the wave's direction of travel.",
+      "source_quality_note": "The snippet comes from a physics education source explaining polarization as a wave property, which aligns with standard explanations."
+    },
+    {
+      "id": "C002",
+      "verdict": "supported",
+      "severity": "low",
+      "problem": "",
+      "suggested_fix": "",
+      "source_quality_note": "The snippet references authoritative physics explanations about transverse waves and electromagnetic wave properties."
+    },
+    {
+      "id": "C003",
+      "verdict": "supported",
+      "severity": "none",
+      "problem": "",
+      "suggested_fix": "",
+      "source_quality_note": "The snippet appears to be from a stable physics education source discussing electromagnetic wave properties."
+    }
+  ],
+  "summary": {
+    "overall_claim_quality": "Claim check completed.",
+    "unresolved_or_needs_qualification": 1,
+    "highest_priority_fixes": [
+      "Clarify that polarization refers to the electric field's orientation perpendicular to the direction of propagation, not the wave's direction of travel."
+    ]
+  },
+  "last_updated": "2026-05-05_02-13-06"
+}

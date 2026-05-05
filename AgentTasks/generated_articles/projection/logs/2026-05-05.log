@@ -1,0 +1,996 @@
+
+================================================================================
+TIME: 2026-05-05T04:23:59
+NODE: writer
+PROMPT_CHARS: 4668
+PROMPT_TOKENS_APPROX: 1167
+RESPONSE_CHARS: 3886
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.8}
+================================================================================
+PROMPT:
+Revise this existing EasyPhysics article once.
+
+Title: Projection
+
+Revision brief:
+- Claim/research fix: The article's claim about vector projection is correct, but the search snippet's result is about psychology. Ensure all sources are physics-focused textbooks or lecture notes about vector mathematics.
+- rigor score 9: The 'projection is always positive' misconception could be misleading if readers confuse it with absolute values Suggested fix: Add clarification that the sign indicates direction relative to the target vector
+- rigor score 9: The dot product derivation could be more clearly separated from the projection definition Suggested fix: Use distinct equations for projection magnitude and dot product relationship
+- rigor next revision: Enhance the explanation of signed projections and explicitly separate the mathematical definition from its physical interpretation in the dot product section.
+
+Human/editor notes:
+# Human/editor notes
+
+Add any preferences, corrections, or article-specific constraints here.
+
+
+Current draft:
+# Projection  
+
+## The core idea  
+Projection is a way to find how much of one vector points in a specific direction. Imagine shining a light perpendicular to a wall—the shadow of a vector on the wall is its projection. This tells you how much of the vector is "aligned" with that direction.  
+
+## Why this matters  
+Projection helps us break down complex motions, forces, or velocities into simpler parts. For example, when you pull a box at an angle, only part of your force actually moves the box forward. Projection lets us calculate that useful part.  
+
+## The simple picture  
+[Diagram idea: A vector pointing at an angle, with its shadow (projection) on a wall perpendicular to the light source.]  
+Think of a flashlight shining on a wall. The vector is like a stick tilted from the wall. Its shadow on the wall is its projection—the part of the stick that’s "facing" the wall.  
+
+## The more precise picture  
+The projection of vector **A** onto direction **B** is a vector that tells you how much of **A** points in **B**’s direction.  
+- **Magnitude**: $ |\text{proj}_B A| = |A| \cos\theta $, where $ \theta $ is the angle between **A** and **B**.  
+- **Direction**: Same as **B** (or opposite if $ \theta > 90^\circ $).  
+
+The **dot product** {dot product} connects projection to math:  
+$$
+A \cdot B = |A||B| \cos\theta = |A| \cdot (\text{proj}_B A) \cdot |B| / |B| = |\text{proj}_B A| \cdot |B|
+$$  
+This shows the dot product {dot product} is the projection **scaled** by the length of **B**.  
+
+## Common misconceptions  
+- ❌ **Projection is the same as magnitude**: No! Projection is a vector {vector} (has direction), not just a number.  
+- ❌ **Projection depends only on angle**: Yes, but the vector’s own length also matters. A longer vector has a larger projection.  
+- ❌ **Projection is always positive**: No! If the angle is obtuse ($ \theta > 90^\circ $), the projection is negative, meaning it points opposite to **B**.  
+- ❌ **Projection is the same as the dot product**: The dot product {dot product} is the projection **multiplied by** the length of **B**.  
+
+## How this connects to physics  
+- **Force components**: When you pull a box at an angle, only the projection of your force in the horizontal direction does work.  
+- **Velocity in directions**: In projectile motion, the horizontal velocity is the projection of the initial velocity onto the horizontal axis.  
+- **Work**: Work done by a force is $ W = F_{\text{parallel}} \times \text{distance} $, where $ F_{\text{parallel}} $ is the projection of the force.  
+
+## Recap  
+- Projection answers: *"How much of this vector is pointing in this direction?"*  
+- It’s a vector {vector}, not just a number, and depends on both the angle and the vector’s length.  
+- The dot product {dot product} is the projection scaled by the target vector’s length.  
+- Use projection to split forces, velocities, or motions into useful parts.  
+
+**Note**: This article focuses on *vector projection* {projection} in physics, distinct from psychological concepts like "projection" in mental health. The mathematical and physical definitions here are grounded in standard physics pedagogy.
+
+Instructions:
+- Return the complete revised article in Markdown.
+- Do not start from scratch.
+- Preserve good explanations.
+- Fix only the most important clarity, structure, and rigor problems.
+- If a section is already good, leave it mostly alone.
+- Add qualifications where the current draft overclaims.
+- Make the opening more intuitive if needed.
+- Keep standard terms in braces after intuitive names.
+- Do not include commentary before or after the article.
+
+RESPONSE:
+# Projection  
+
+## The core idea  
+Projection is a way to find how much of one vector points in a specific direction. Imagine shining a light perpendicular to a wall—the shadow of a vector on the wall is its projection. This tells you how much of the vector is "aligned" with that direction, including whether it points in the same or opposite direction as the target.  
+
+## Why this matters  
+Projection helps us break down complex motions, forces, or velocities into simpler parts. For example, when you pull a box at an angle, only part of your force actually moves the box forward. Projection lets us calculate that useful part—and also tells us if the force is working against the motion (if the angle is obtuse).  
+
+## The simple picture  
+[Diagram idea: A vector pointing at an angle, with its shadow (projection) on a wall perpendicular to the light source.]  
+Think of a flashlight shining on a wall. The vector is like a stick tilted from the wall. Its shadow on the wall is its projection—the part of the stick that’s "facing" the wall. If the stick leans away from the wall, the shadow flips direction.  
+
+## The more precise picture  
+The projection of vector **A** onto direction **B** is a vector that tells you how much of **A** points in **B**’s direction.  
+- **Magnitude**: $ |\text{proj}_B A| = |A| \cos\theta $, where $ \theta $ is the angle between **A** and **B**.  
+- **Direction**: Same as **B** (if $ \theta < 90^\circ $) or opposite to **B** (if $ \theta > 90^\circ $).  
+
+The **dot product** {dot product} connects projection to math:  
+$$
+A \cdot B = |A||B| \cos\theta
+$$  
+This is the projection **scaled** by the length of **B**:  
+$$
+A \cdot B = |\text{proj}_B A| \cdot |B|
+$$  
+This shows the dot product is a scalar quantity that encodes both the projection’s magnitude and the target vector’s length.  
+
+## Common misconceptions  
+- ❌ **Projection is the same as magnitude**: No! Projection is a vector {vector} (has direction), not just a number.  
+- ❌ **Projection depends only on angle**: Yes, but the vector’s own length also matters. A longer vector has a larger projection.  
+- ❌ **Projection is always positive**: No! If the angle is obtuse ($ \theta > 90^\circ $), the projection is negative, meaning it points opposite to **B**. The sign reflects the direction relative to **B**, not an absolute value.  
+- ❌ **Projection is the same as the dot product**: The dot product {dot product} is the projection **multiplied by** the length of **B**.  
+
+## How this connects to physics  
+- **Force components**: When you pull a box at an angle, only the projection of your force in the horizontal direction does work. If the angle is obtuse, the projection is negative, meaning the force is actually resisting motion.  
+- **Velocity in directions**: In projectile motion, the horizontal velocity is the projection of the initial velocity onto the horizontal axis. If the angle is greater than 90°, the projection would indicate a backward motion.  
+- **Work**: Work done by a force is $ W = F_{\text{parallel}} \times \text{distance} $, where $ F_{\text{parallel}} $ is the projection of the force. A negative projection means the force is doing negative work (e.g., friction).  
+
+## Recap  
+- Projection answers: *"How much of this vector is pointing in this direction?"*  
+- It’s a vector {vector}, not just a number, and depends on both the angle and the vector’s length.  
+- The dot product {dot product} is the projection scaled by the target vector’s length.  
+- Use projection to split forces, velocities, or motions into useful parts, and to determine whether a force is aiding or opposing motion.  
+
+**Note**: This article focuses on *vector projection* {projection} in physics, distinct from psychological concepts like "projection" in mental health. The mathematical and physical definitions here are grounded in standard physics pedagogy.
+
+================================================================================
+TIME: 2026-05-05T04:25:57
+NODE: term_collector
+PROMPT_CHARS: 4356
+PROMPT_TOKENS_APPROX: 1089
+RESPONSE_CHARS: 0
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.8}
+================================================================================
+PROMPT:
+Extract the descriptive-name candidates from this draft.
+
+Return JSON with this shape:
+{
+  "terms": [
+    {
+      "standard_term": "fermion",
+      "candidate_name": "space-occupier",
+      "context_quote": "short quote from the draft",
+      "usefulness": "why this name helps",
+      "risk": "how it could mislead, or empty string if low risk"
+    }
+  ]
+}
+
+Only include actual teaching-name candidates, especially phrases followed by standard terms in braces.
+
+Draft:
+# Projection  
+
+## The core idea  
+Projection is a way to find how much of one vector points in a specific direction. Imagine shining a light perpendicular to a wall—the shadow of a vector on the wall is its projection. This tells you how much of the vector is "aligned" with that direction, including whether it points in the same or opposite direction as the target.  
+
+## Why this matters  
+Projection helps us break down complex motions, forces, or velocities into simpler parts. For example, when you pull a box at an angle, only part of your force actually moves the box forward. Projection lets us calculate that useful part—and also tells us if the force is working against the motion (if the angle is obtuse).  
+
+## The simple picture  
+[Diagram idea: A vector pointing at an angle, with its shadow (projection) on a wall perpendicular to the light source.]  
+Think of a flashlight shining on a wall. The vector is like a stick tilted from the wall. Its shadow on the wall is its projection—the part of the stick that’s "facing" the wall. If the stick leans away from the wall, the shadow flips direction.  
+
+## The more precise picture  
+The projection of vector **A** onto direction **B** is a vector that tells you how much of **A** points in **B**’s direction.  
+- **Magnitude**: $ |\text{proj}_B A| = |A| \cos\theta $, where $ \theta $ is the angle between **A** and **B**.  
+- **Direction**: Same as **B** (if $ \theta < 90^\circ $) or opposite to **B** (if $ \theta > 90^\circ $).  
+
+The **dot product** {dot product} connects projection to math:  
+$$
+A \cdot B = |A||B| \cos\theta
+$$  
+This is the projection **scaled** by the length of **B**:  
+$$
+A \cdot B = |\text{proj}_B A| \cdot |B|
+$$  
+This shows the dot product is a scalar quantity that encodes both the projection’s magnitude and the target vector’s length.  
+
+## Common misconceptions  
+- ❌ **Projection is the same as magnitude**: No! Projection is a vector {vector} (has direction), not just a number.  
+- ❌ **Projection depends only on angle**: Yes, but the vector’s own length also matters. A longer vector has a larger projection.  
+- ❌ **Projection is always positive**: No! If the angle is obtuse ($ \theta > 90^\circ $), the projection is negative, meaning it points opposite to **B**. The sign reflects the direction relative to **B**, not an absolute value.  
+- ❌ **Projection is the same as the dot product**: The dot product {dot product} is the projection **multiplied by** the length of **B**.  
+
+## How this connects to physics  
+- **Force components**: When you pull a box at an angle, only the projection of your force in the horizontal direction does work. If the angle is obtuse, the projection is negative, meaning the force is actually resisting motion.  
+- **Velocity in directions**: In projectile motion, the horizontal velocity is the projection of the initial velocity onto the horizontal axis. If the angle is greater than 90°, the projection would indicate a backward motion.  
+- **Work**: Work done by a force is $ W = F_{\text{parallel}} \times \text{distance} $, where $ F_{\text{parallel}} $ is the projection of the force. A negative projection means the force is doing negative work (e.g., friction).  
+
+## Recap  
+- Projection answers: *"How much of this vector is pointing in this direction?"*  
+- It’s a vector {vector}, not just a number, and depends on both the angle and the vector’s length.  
+- The dot product {dot product} is the projection scaled by the target vector’s length.  
+- Use projection to split forces, velocities, or motions into useful parts, and to determine whether a force is aiding or opposing motion.  
+
+**Note**: This article focuses on *vector projection* {projection} in physics, distinct from psychological concepts like "projection" in mental health. The mathematical and physical definitions here are grounded in standard physics pedagogy.
+
+RESPONSE:
+
+
+================================================================================
+TIME: 2026-05-05T04:28:48
+NODE: claim_extractor
+PROMPT_CHARS: 4764
+PROMPT_TOKENS_APPROX: 1191
+RESPONSE_CHARS: 1290
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.8}
+================================================================================
+PROMPT:
+Extract 8 to 12 important scientific or explanatory claims from this article draft.
+
+Return exactly one JSON object with this shape:
+{
+  "claims": [
+    {
+      "id": "C001",
+      "claim": "A clear standalone claim.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "brief reason",
+      "suggested_search_query": "stable physics source query"
+    }
+  ]
+}
+
+Rules:
+- Return a JSON object, not a list.
+- Do not return an empty list unless the draft is empty.
+- Use true/false, not True/False.
+- No Markdown fences.
+- No prose outside the JSON.
+- Prefer claims that matter for scientific correctness.
+- Include claims where an analogy could mislead.
+- Search queries should target stable sources: textbooks, lecture notes, CERN, Fermilab, NASA, DOE, NIST, or university pages.
+
+Article title: Projection
+
+Draft:
+# Projection  
+
+## The core idea  
+Projection is a way to find how much of one vector points in a specific direction. Imagine shining a light perpendicular to a wall—the shadow of a vector on the wall is its projection. This tells you how much of the vector is "aligned" with that direction, including whether it points in the same or opposite direction as the target.  
+
+## Why this matters  
+Projection helps us break down complex motions, forces, or velocities into simpler parts. For example, when you pull a box at an angle, only part of your force actually moves the box forward. Projection lets us calculate that useful part—and also tells us if the force is working against the motion (if the angle is obtuse).  
+
+## The simple picture  
+[Diagram idea: A vector pointing at an angle, with its shadow (projection) on a wall perpendicular to the light source.]  
+Think of a flashlight shining on a wall. The vector is like a stick tilted from the wall. Its shadow on the wall is its projection—the part of the stick that’s "facing" the wall. If the stick leans away from the wall, the shadow flips direction.  
+
+## The more precise picture  
+The projection of vector **A** onto direction **B** is a vector that tells you how much of **A** points in **B**’s direction.  
+- **Magnitude**: $ |\text{proj}_B A| = |A| \cos\theta $, where $ \theta $ is the angle between **A** and **B**.  
+- **Direction**: Same as **B** (if $ \theta < 90^\circ $) or opposite to **B** (if $ \theta > 90^\circ $).  
+
+The **dot product** {dot product} connects projection to math:  
+$$
+A \cdot B = |A||B| \cos\theta
+$$  
+This is the projection **scaled** by the length of **B**:  
+$$
+A \cdot B = |\text{proj}_B A| \cdot |B|
+$$  
+This shows the dot product is a scalar quantity that encodes both the projection’s magnitude and the target vector’s length.  
+
+## Common misconceptions  
+- ❌ **Projection is the same as magnitude**: No! Projection is a vector {vector} (has direction), not just a number.  
+- ❌ **Projection depends only on angle**: Yes, but the vector’s own length also matters. A longer vector has a larger projection.  
+- ❌ **Projection is always positive**: No! If the angle is obtuse ($ \theta > 90^\circ $), the projection is negative, meaning it points opposite to **B**. The sign reflects the direction relative to **B**, not an absolute value.  
+- ❌ **Projection is the same as the dot product**: The dot product {dot product} is the projection **multiplied by** the length of **B**.  
+
+## How this connects to physics  
+- **Force components**: When you pull a box at an angle, only the projection of your force in the horizontal direction does work. If the angle is obtuse, the projection is negative, meaning the force is actually resisting motion.  
+- **Velocity in directions**: In projectile motion, the horizontal velocity is the projection of the initial velocity onto the horizontal axis. If the angle is greater than 90°, the projection would indicate a backward motion.  
+- **Work**: Work done by a force is $ W = F_{\text{parallel}} \times \text{distance} $, where $ F_{\text{parallel}} $ is the projection of the force. A negative projection means the force is doing negative work (e.g., friction).  
+
+## Recap  
+- Projection answers: *"How much of this vector is pointing in this direction?"*  
+- It’s a vector {vector}, not just a number, and depends on both the angle and the vector’s length.  
+- The dot product {dot product} is the projection scaled by the target vector’s length.  
+- Use projection to split forces, velocities, or motions into useful parts, and to determine whether a force is aiding or opposing motion.  
+
+**Note**: This article focuses on *vector projection* {projection} in physics, distinct from psychological concepts like "projection" in mental health. The mathematical and physical definitions here are grounded in standard physics pedagogy.
+
+RESPONSE:
+{
+  "claims": [
+    {
+      "id": "C001",
+      "claim": "Projection is a vector quantity that indicates how much of one vector aligns with a specific direction, including directional sign.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Clarifies projection's vector nature, distinguishing it from scalar magnitudes.",
+      "suggested_search_query": "vector projection definition physics textbook"
+    },
+    {
+      "id": "C002",
+      "claim": "The magnitude of a projection is calculated as |A|cosθ, where θ is the angle between vectors A and B.",
+      "type": "formula",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Fundamental relationship between angle and projection magnitude.",
+      "suggested_search_query": "projection magnitude formula physics"
+    },
+    {
+      "id": "C003",
+      "claim": "The direction of a projection depends on the angle: same as B if θ < 90°, opposite if θ > 90°.",
+      "type": "property",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Critical for understanding work and force analysis.",
+      "suggested_search_query": "projection direction angle physics"
+    },
+    {
+      "id": "C004
+
+================================================================================
+TIME: 2026-05-05T04:31:23
+NODE: claim_checker
+PROMPT_CHARS: 6517
+PROMPT_TOKENS_APPROX: 1629
+RESPONSE_CHARS: 0
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.8}
+================================================================================
+PROMPT:
+Check this one article claim against the available search snippet.
+
+Return JSON with this shape:
+{
+  "id": "C001",
+  "verdict": "supported | mostly_supported | needs_qualification | unsupported | contradicted | not_enough_evidence",
+  "severity": "none | low | medium | high",
+  "problem": "specific issue, or empty string",
+  "suggested_fix": "specific correction to the article, or empty string",
+  "source_quality_note": "brief note about whether the snippets look authoritative"
+}
+
+Rules:
+- Be conservative.
+- If the snippet is weak or absent, say not_enough_evidence.
+- Do not demand advanced nuance beyond the article's beginner scope.
+- Do flag misleading simplifications.
+- Focus on stable accepted physics.
+
+Article title: Projection
+
+Claim:
+{
+  "id": "C001",
+  "claim": "# Projection ## The core idea Projection is a way to find how much of one vector points in a specific direction.",
+  "type": "fallback-extracted",
+  "importance": "medium",
+  "needs_external_check": true,
+  "why_it_matters": "Automatically extracted fallback claim; review manually.",
+  "suggested_search_query": "Projection # Projection ## The core idea Projection is a way to find how much of one physics lecture notes textbook explanation"
+}
+
+Search snippet:
+{
+  "claim": "# Projection ## The core idea Projection is a way to find how much of one vector points in a specific direction.",
+  "query": "Projection # Projection ## The core idea Projection is a way to find how much of one physics lecture notes textbook explanation",
+  "result_snippet": "Look up projection, projecting, projective, or projector in Wiktionary, the free dictionary.Natta projection, a way to depict molecules with complete stereochemistry in two dimensions in a skeletal formula. About Press Copyright Contact us Creators Advertise Developers Terms Privacy Policy & Safety How YouTube works Test new features. Vector projection is a fundamental concept in physics and mathematics that describes how one vector influences another along a specific direction. It can be visualised as the shadow that one vector casts onto another when light is shone perpendicular to the second vector. New laws of physics build on or modify existing laws and theoretical research. Quora is a place to gain and share knowledge. It's a platform to ask questions and connect with people who contribute unique insights and quality answers. This empowers people to learn from each other and to better understand the world.",
+  "searched_at": "2026-05-05_04-28-49",
+  "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
+}
+
+Relevant draft context:
+# Projection  
+
+## The core idea  
+Projection is a way to find how much of one vector points in a specific direction. Imagine shining a light perpendicular to a wall—the shadow of a vector on the wall is its projection. This tells you how much of the vector is "aligned" with that direction, including whether it points in the same or opposite direction as the target.  
+
+## Why this matters  
+Projection helps us break down complex motions, forces, or velocities into simpler parts. For example, when you pull a box at an angle, only part of your force actually moves the box forward. Projection lets us calculate that useful part—and also tells us if the force is working against the motion (if the angle is obtuse).  
+
+## The simple picture  
+[Diagram idea: A vector pointing at an angle, with its shadow (projection) on a wall perpendicular to the light source.]  
+Think of a flashlight shining on a wall. The vector is like a stick tilted from the wall. Its shadow on the wall is its projection—the part of the stick that’s "facing" the wall. If the stick leans away from the wall, the shadow flips direction.  
+
+## The more precise picture  
+The projection of vector **A** onto direction **B** is a vector that tells you how much of **A** points in **B**’s direction.  
+- **Magnitude**: $ |\text{proj}_B A| = |A| \cos\theta $, where $ \theta $ is the angle between **A** and **B**.  
+- **Direction**: Same as **B** (if $ \theta < 90^\circ $) or opposite to **B** (if $ \theta > 90^\circ $).  
+
+The **dot product** {dot product} connects projection to math:  
+$$
+A \cdot B = |A||B| \cos\theta
+$$  
+This is the projection **scaled** by the length of **B**:  
+$$
+A \cdot B = |\text{proj}_B A| \cdot |B|
+$$  
+This shows the dot product is a scalar quantity that encodes both the projection’s magnitude and the target vector’s length.  
+
+## Common misconceptions  
+- ❌ **Projection is the same as magnitude**: No! Projection is a vector {vector} (has direction), not just a number.  
+- ❌ **Projection depends only on angle**: Yes, but the vector’s own length also matters. A longer vector has a larger projection.  
+- ❌ **Projection is always positive**: No! If the angle is obtuse ($ \theta > 90^\circ $), the projection is negative, meaning it points opposite to **B**. The sign reflects the direction relative to **B**, not an absolute value.  
+- ❌ **Projection is the same as the dot product**: The dot product {dot product} is the projection **multiplied by** the length of **B**.  
+
+## How this connects to physics  
+- **Force components**: When you pull a box at an angle, only the projection of your force in the horizontal direction does work. If the angle is obtuse, the projection is negative, meaning the force is actually resisting motion.  
+- **Velocity in directions**: In projectile motion, the horizontal velocity is the projection of the initial velocity onto the horizontal axis. If the angle is greater than 90°, the projection would indicate a backward motion.  
+- **Work**: Work done by a force is $ W = F_{\text{parallel}} \times \text{distance} $, where $ F_{\text{parallel}} $ is the projection of the force. A negative projection means the force is doing negative work (e.g., friction).  
+
+## Recap  
+- Projection answers: *"How much of this vector is pointing in this direction?"*  
+- It’s a vector {vector}, not just a number, and depends on both the angle and the vector’s length.  
+- The dot product {dot product} is the projection scaled by the target vector’s length.  
+- Use projection to split forces, velocities, or motions into useful parts, and to determine whether a force is aiding or opposing motion.  
+
+**Note**: This article focuses on *vector projection* {projection} in physics, distinct from psychological concepts like "projection" in mental health. The mathematical and physical definitions here are grounded in standard physics pedagogy.
+
+RESPONSE:
+
+
+================================================================================
+TIME: 2026-05-05T04:33:29
+NODE: claim_checker
+PROMPT_CHARS: 6649
+PROMPT_TOKENS_APPROX: 1662
+RESPONSE_CHARS: 302
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.8}
+================================================================================
+PROMPT:
+Check this one article claim against the available search snippet.
+
+Return JSON with this shape:
+{
+  "id": "C002",
+  "verdict": "supported | mostly_supported | needs_qualification | unsupported | contradicted | not_enough_evidence",
+  "severity": "none | low | medium | high",
+  "problem": "specific issue, or empty string",
+  "suggested_fix": "specific correction to the article, or empty string",
+  "source_quality_note": "brief note about whether the snippets look authoritative"
+}
+
+Rules:
+- Be conservative.
+- If the snippet is weak or absent, say not_enough_evidence.
+- Do not demand advanced nuance beyond the article's beginner scope.
+- Do flag misleading simplifications.
+- Focus on stable accepted physics.
+
+Article title: Projection
+
+Claim:
+{
+  "id": "C002",
+  "claim": "Imagine shining a light perpendicular to a wall—the shadow of a vector on the wall is its projection.",
+  "type": "fallback-extracted",
+  "importance": "medium",
+  "needs_external_check": true,
+  "why_it_matters": "Automatically extracted fallback claim; review manually.",
+  "suggested_search_query": "Projection Imagine shining a light perpendicular to a wall—the shadow of a vector on the wall is physics lecture notes textbook explanation"
+}
+
+Search snippet:
+{
+  "claim": "Imagine shining a light perpendicular to a wall—the shadow of a vector on the wall is its projection.",
+  "query": "Projection Imagine shining a light perpendicular to a wall—the shadow of a vector on the wall is physics lecture notes textbook explanation",
+  "result_snippet": "The vector projection is an important operation in the Gram–Schmidt orthonormalization of vector space bases.The rejection of a vector from a plane is its orthogonal projection on a straight line which is orthogonal to that plane. Both are vectors. Vector projection is a fundamental concept in physics and mathematics that describes how one vector influences another along a specific direction. It can be visualised as the shadow that one vector casts onto another when light is shone perpendicular to the second vector. This physics video tutorial provides a basic introduction into how to solve simple harmonic motion problems in physics. Imagine shining a light perpendicular to vector B. The shadow that vector A casts onto the line containing B is the vector projection. This shadow represents the portion of A that lies in B’s direction. Key geometric insights Imagine shining a light perpendicular to v: the shadow of u on the line spanned by v is the projection. This visualization explains why projections split vectors naturally into two pieces",
+  "searched_at": "2026-05-05_04-28-51",
+  "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
+}
+
+Relevant draft context:
+# Projection  
+
+## The core idea  
+Projection is a way to find how much of one vector points in a specific direction. Imagine shining a light perpendicular to a wall—the shadow of a vector on the wall is its projection. This tells you how much of the vector is "aligned" with that direction, including whether it points in the same or opposite direction as the target.  
+
+## Why this matters  
+Projection helps us break down complex motions, forces, or velocities into simpler parts. For example, when you pull a box at an angle, only part of your force actually moves the box forward. Projection lets us calculate that useful part—and also tells us if the force is working against the motion (if the angle is obtuse).  
+
+## The simple picture  
+[Diagram idea: A vector pointing at an angle, with its shadow (projection) on a wall perpendicular to the light source.]  
+Think of a flashlight shining on a wall. The vector is like a stick tilted from the wall. Its shadow on the wall is its projection—the part of the stick that’s "facing" the wall. If the stick leans away from the wall, the shadow flips direction.  
+
+## The more precise picture  
+The projection of vector **A** onto direction **B** is a vector that tells you how much of **A** points in **B**’s direction.  
+- **Magnitude**: $ |\text{proj}_B A| = |A| \cos\theta $, where $ \theta $ is the angle between **A** and **B**.  
+- **Direction**: Same as **B** (if $ \theta < 90^\circ $) or opposite to **B** (if $ \theta > 90^\circ $).  
+
+The **dot product** {dot product} connects projection to math:  
+$$
+A \cdot B = |A||B| \cos\theta
+$$  
+This is the projection **scaled** by the length of **B**:  
+$$
+A \cdot B = |\text{proj}_B A| \cdot |B|
+$$  
+This shows the dot product is a scalar quantity that encodes both the projection’s magnitude and the target vector’s length.  
+
+## Common misconceptions  
+- ❌ **Projection is the same as magnitude**: No! Projection is a vector {vector} (has direction), not just a number.  
+- ❌ **Projection depends only on angle**: Yes, but the vector’s own length also matters. A longer vector has a larger projection.  
+- ❌ **Projection is always positive**: No! If the angle is obtuse ($ \theta > 90^\circ $), the projection is negative, meaning it points opposite to **B**. The sign reflects the direction relative to **B**, not an absolute value.  
+- ❌ **Projection is the same as the dot product**: The dot product {dot product} is the projection **multiplied by** the length of **B**.  
+
+## How this connects to physics  
+- **Force components**: When you pull a box at an angle, only the projection of your force in the horizontal direction does work. If the angle is obtuse, the projection is negative, meaning the force is actually resisting motion.  
+- **Velocity in directions**: In projectile motion, the horizontal velocity is the projection of the initial velocity onto the horizontal axis. If the angle is greater than 90°, the projection would indicate a backward motion.  
+- **Work**: Work done by a force is $ W = F_{\text{parallel}} \times \text{distance} $, where $ F_{\text{parallel}} $ is the projection of the force. A negative projection means the force is doing negative work (e.g., friction).  
+
+## Recap  
+- Projection answers: *"How much of this vector is pointing in this direction?"*  
+- It’s a vector {vector}, not just a number, and depends on both the angle and the vector’s length.  
+- The dot product {dot product} is the projection scaled by the target vector’s length.  
+- Use projection to split forces, velocities, or motions into useful parts, and to determine whether a force is aiding or opposing motion.  
+
+**Note**: This article focuses on *vector projection* {projection} in physics, distinct from psychological concepts like "projection" in mental health. The mathematical and physical definitions here are grounded in standard physics pedagogy.
+
+RESPONSE:
+{
+  "id": "C002",
+  "verdict": "supported",
+  "severity": "none",
+  "problem": "",
+  "suggested_fix": "",
+  "source_quality_note": "The snippet aligns with standard physics pedagogy and explicitly validates the shadow/light analogy for vector projection, confirming its use in educational materials."
+}
+
+================================================================================
+TIME: 2026-05-05T04:36:24
+NODE: claim_checker
+PROMPT_CHARS: 7457
+PROMPT_TOKENS_APPROX: 1864
+RESPONSE_CHARS: 0
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.8}
+================================================================================
+PROMPT:
+Check this one article claim against the available search snippet.
+
+Return JSON with this shape:
+{
+  "id": "C003",
+  "verdict": "supported | mostly_supported | needs_qualification | unsupported | contradicted | not_enough_evidence",
+  "severity": "none | low | medium | high",
+  "problem": "specific issue, or empty string",
+  "suggested_fix": "specific correction to the article, or empty string",
+  "source_quality_note": "brief note about whether the snippets look authoritative"
+}
+
+Rules:
+- Be conservative.
+- If the snippet is weak or absent, say not_enough_evidence.
+- Do not demand advanced nuance beyond the article's beginner scope.
+- Do flag misleading simplifications.
+- Focus on stable accepted physics.
+
+Article title: Projection
+
+Claim:
+{
+  "id": "C003",
+  "claim": "This tells you how much of the vector is \"aligned\" with that direction, including whether it points in the same or opposite direction as the target.",
+  "type": "fallback-extracted",
+  "importance": "medium",
+  "needs_external_check": true,
+  "why_it_matters": "Automatically extracted fallback claim; review manually.",
+  "suggested_search_query": "Projection This tells you how much of the vector is \"aligned\" with that direction, including whether it physics lecture notes textbook explanation"
+}
+
+Search snippet:
+{
+  "claim": "This tells you how much of the vector is \"aligned\" with that direction, including whether it points in the same or opposite direction as the target.",
+  "query": "Projection This tells you how much of the vector is \"aligned\" with that direction, including whether it physics lecture notes textbook explanation",
+  "result_snippet": "1 week ago - In physics, the dot product takes two vectors and returns a scalar quantity. It is also known as the \"scalar product\". The dot product of two vectors can be defined as the product of the magnitudes of the two vectors and the cosine of the angle between the two vectors. March 13, 2026 - {\\displaystyle (\\mathbf {H} )} , maps the vector of response values (dependent variable values) to the vector of fitted values (or predicted values). It describes the influence each response value has on each fitted value. The diagonal elements of the projection matrix are the leverages, which ... 1 month ago - The scalar projection measures how much of vector a lies in the direction of b. It equals the length of the shadow that a casts onto b (Woo, 2023). The GIF was created by Claude · Imagine a light source shining straight down onto the line PS ... 1 month ago - The scalar projection measures how much of vector a lies in the direction of b. It equals the length of the shadow that a casts onto b (Woo, 2023). The GIF was created by Claude · Imagine a light source shining straight down onto the line PS ... August 11, 2025 - Suppose that \\(\\{\\vec{u}_1,\\: \\vec{u}_2,\\cdots ,\\vec{u}_m\\}\\) is an orthogonal basis for a subspace \\(W\\), and let \\(L_i=\\text{Span}\\{\\vec{u}_i\\}\\) for each \\(i=1,\\: 2,\\cdots ,m\\). Then we see that for any vector \\(\\vec{x}\\), we have · \\[\\begin{aligned}\\vec{x}_{W}&=\\dfrac{\\vec{x}\\cdot \\vec{u}_1}{\\vec{u}_1\\cdot \\vec{u}_1}\\vec{u}_1+\\dfrac{\\vec{x}\\cdot \\vec{u}_2}{\\vec{u}_2\\cdot \\vec{u}_2}\\vec{u}_2+\\cdots +\\dfrac{\\vec{x}\\cdot \\vec{u}_m}{\\vec{u}_m\\cdot \\vec{u}_m}\\vec{u}_m \\\\ &=\\vec{x}_{L_{1}}+\\vec{x}_{L_{2}}+\\cdots+\\vec{x}_{L_{m}}\\end{aligned}\\]",
+  "searched_at": "2026-05-05_04-28-53",
+  "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
+}
+
+Relevant draft context:
+# Projection  
+
+## The core idea  
+Projection is a way to find how much of one vector points in a specific direction. Imagine shining a light perpendicular to a wall—the shadow of a vector on the wall is its projection. This tells you how much of the vector is "aligned" with that direction, including whether it points in the same or opposite direction as the target.  
+
+## Why this matters  
+Projection helps us break down complex motions, forces, or velocities into simpler parts. For example, when you pull a box at an angle, only part of your force actually moves the box forward. Projection lets us calculate that useful part—and also tells us if the force is working against the motion (if the angle is obtuse).  
+
+## The simple picture  
+[Diagram idea: A vector pointing at an angle, with its shadow (projection) on a wall perpendicular to the light source.]  
+Think of a flashlight shining on a wall. The vector is like a stick tilted from the wall. Its shadow on the wall is its projection—the part of the stick that’s "facing" the wall. If the stick leans away from the wall, the shadow flips direction.  
+
+## The more precise picture  
+The projection of vector **A** onto direction **B** is a vector that tells you how much of **A** points in **B**’s direction.  
+- **Magnitude**: $ |\text{proj}_B A| = |A| \cos\theta $, where $ \theta $ is the angle between **A** and **B**.  
+- **Direction**: Same as **B** (if $ \theta < 90^\circ $) or opposite to **B** (if $ \theta > 90^\circ $).  
+
+The **dot product** {dot product} connects projection to math:  
+$$
+A \cdot B = |A||B| \cos\theta
+$$  
+This is the projection **scaled** by the length of **B**:  
+$$
+A \cdot B = |\text{proj}_B A| \cdot |B|
+$$  
+This shows the dot product is a scalar quantity that encodes both the projection’s magnitude and the target vector’s length.  
+
+## Common misconceptions  
+- ❌ **Projection is the same as magnitude**: No! Projection is a vector {vector} (has direction), not just a number.  
+- ❌ **Projection depends only on angle**: Yes, but the vector’s own length also matters. A longer vector has a larger projection.  
+- ❌ **Projection is always positive**: No! If the angle is obtuse ($ \theta > 90^\circ $), the projection is negative, meaning it points opposite to **B**. The sign reflects the direction relative to **B**, not an absolute value.  
+- ❌ **Projection is the same as the dot product**: The dot product {dot product} is the projection **multiplied by** the length of **B**.  
+
+## How this connects to physics  
+- **Force components**: When you pull a box at an angle, only the projection of your force in the horizontal direction does work. If the angle is obtuse, the projection is negative, meaning the force is actually resisting motion.  
+- **Velocity in directions**: In projectile motion, the horizontal velocity is the projection of the initial velocity onto the horizontal axis. If the angle is greater than 90°, the projection would indicate a backward motion.  
+- **Work**: Work done by a force is $ W = F_{\text{parallel}} \times \text{distance} $, where $ F_{\text{parallel}} $ is the projection of the force. A negative projection means the force is doing negative work (e.g., friction).  
+
+## Recap  
+- Projection answers: *"How much of this vector is pointing in this direction?"*  
+- It’s a vector {vector}, not just a number, and depends on both the angle and the vector’s length.  
+- The dot product {dot product} is the projection scaled by the target vector’s length.  
+- Use projection to split forces, velocities, or motions into useful parts, and to determine whether a force is aiding or opposing motion.  
+
+**Note**: This article focuses on *vector projection* {projection} in physics, distinct from psychological concepts like "projection" in mental health. The mathematical and physical definitions here are grounded in standard physics pedagogy.
+
+RESPONSE:
+
+
+================================================================================
+TIME: 2026-05-05T04:41:01
+NODE: claim_revision
+PROMPT_CHARS: 5555
+PROMPT_TOKENS_APPROX: 1388
+RESPONSE_CHARS: 4107
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.8}
+================================================================================
+PROMPT:
+Revise the article once to address claim-check feedback.
+
+Do not rewrite for its own sake. Fix the scientific issues while preserving accessible language.
+
+Claim-check feedback:
+{
+  "claim_checks": [
+    {
+      "id": "C001",
+      "verdict": "not_enough_evidence",
+      "severity": "medium",
+      "problem": "Could not parse claim-checker output.",
+      "suggested_fix": "Review this claim manually.",
+      "source_quality_note": ""
+    },
+    {
+      "id": "C002",
+      "verdict": "supported",
+      "severity": "none",
+      "problem": "",
+      "suggested_fix": "",
+      "source_quality_note": "The snippet aligns with standard physics pedagogy and explicitly validates the shadow/light analogy for vector projection, confirming its use in educational materials."
+    },
+    {
+      "id": "C003",
+      "verdict": "not_enough_evidence",
+      "severity": "medium",
+      "problem": "Could not parse claim-checker output.",
+      "suggested_fix": "Review this claim manually.",
+      "source_quality_note": ""
+    }
+  ],
+  "summary": {
+    "overall_claim_quality": "Claim check completed.",
+    "unresolved_or_needs_qualification": 2,
+    "highest_priority_fixes": [
+      "Review this claim manually.",
+      "Review this claim manually."
+    ]
+  },
+  "last_updated": "2026-05-05_04-36-24"
+}
+
+Current draft:
+# Projection  
+
+## The core idea  
+Projection is a way to find how much of one vector points in a specific direction. Imagine shining a light perpendicular to a wall—the shadow of a vector on the wall is its projection. This tells you how much of the vector is "aligned" with that direction, including whether it points in the same or opposite direction as the target.  
+
+## Why this matters  
+Projection helps us break down complex motions, forces, or velocities into simpler parts. For example, when you pull a box at an angle, only part of your force actually moves the box forward. Projection lets us calculate that useful part—and also tells us if the force is working against the motion (if the angle is obtuse).  
+
+## The simple picture  
+[Diagram idea: A vector pointing at an angle, with its shadow (projection) on a wall perpendicular to the light source.]  
+Think of a flashlight shining on a wall. The vector is like a stick tilted from the wall. Its shadow on the wall is its projection—the part of the stick that’s "facing" the wall. If the stick leans away from the wall, the shadow flips direction.  
+
+## The more precise picture  
+The projection of vector **A** onto direction **B** is a vector that tells you how much of **A** points in **B**’s direction.  
+- **Magnitude**: $ |\text{proj}_B A| = |A| \cos\theta $, where $ \theta $ is the angle between **A** and **B**.  
+- **Direction**: Same as **B** (if $ \theta < 90^\circ $) or opposite to **B** (if $ \theta > 90^\circ $).  
+
+The **dot product** {dot product} connects projection to math:  
+$$
+A \cdot B = |A||B| \cos\theta
+$$  
+This is the projection **scaled** by the length of **B**:  
+$$
+A \cdot B = |\text{proj}_B A| \cdot |B|
+$$  
+This shows the dot product is a scalar quantity that encodes both the projection’s magnitude and the target vector’s length.  
+
+## Common misconceptions  
+- ❌ **Projection is the same as magnitude**: No! Projection is a vector {vector} (has direction), not just a number.  
+- ❌ **Projection depends only on angle**: Yes, but the vector’s own length also matters. A longer vector has a larger projection.  
+- ❌ **Projection is always positive**: No! If the angle is obtuse ($ \theta > 90^\circ $), the projection is negative, meaning it points opposite to **B**. The sign reflects the direction relative to **B**, not an absolute value.  
+- ❌ **Projection is the same as the dot product**: The dot product {dot product} is the projection **multiplied by** the length of **B**.  
+
+## How this connects to physics  
+- **Force components**: When you pull a box at an angle, only the projection of your force in the horizontal direction does work. If the angle is obtuse, the projection is negative, meaning the force is actually resisting motion.  
+- **Velocity in directions**: In projectile motion, the horizontal velocity is the projection of the initial velocity onto the horizontal axis. If the angle is greater than 90°, the projection would indicate a backward motion.  
+- **Work**: Work done by a force is $ W = F_{\text{parallel}} \times \text{distance} $, where $ F_{\text{parallel}} $ is the projection of the force. A negative projection means the force is doing negative work (e.g., friction).  
+
+## Recap  
+- Projection answers: *"How much of this vector is pointing in this direction?"*  
+- It’s a vector {vector}, not just a number, and depends on both the angle and the vector’s length.  
+- The dot product {dot product} is the projection scaled by the target vector’s length.  
+- Use projection to split forces, velocities, or motions into useful parts, and to determine whether a force is aiding or opposing motion.  
+
+**Note**: This article focuses on *vector projection* {projection} in physics, distinct from psychological concepts like "projection" in mental health. The mathematical and physical definitions here are grounded in standard physics pedagogy.
+
+Instructions:
+- Correct or qualify unsupported, contradicted, or overstrong claims.
+- Preserve good accessible explanations.
+- Do not add speculative research as settled fact.
+- If an analogy was misleading, either repair it or state its limits.
+- Keep standard terms in braces after descriptive names.
+- Output only the revised article in Markdown.
+
+RESPONSE:
+# Projection  
+
+## The core idea  
+Projection is a way to find how much of one vector points in a specific direction. Imagine shining a light perpendicular to a wall—the shadow of a vector on the wall is its projection. This tells you how much of the vector is "aligned" with that direction, including whether it points in the same or opposite direction as the target.  
+
+**Note**: The shadow/light analogy is intuitive but has limits. It simplifies the mathematical relationship between vectors and their projections. For precise calculations, we rely on the dot product and trigonometry.  
+
+## Why this matters  
+Projection helps us break down complex motions, forces, or velocities into simpler parts. For example, when you pull a box at an angle, only part of your force actually moves the box forward. Projection lets us calculate that useful part—and also tells us if the force is working against the motion (if the angle is obtuse).  
+
+## The simple picture  
+[Diagram idea: A vector pointing at an angle, with its shadow (projection) on a wall perpendicular to the light source.]  
+Think of a flashlight shining on a wall. The vector is like a stick tilted from the wall. Its shadow on the wall is its projection—the part of the stick that’s "facing" the wall. If the stick leans away from the wall, the shadow flips direction.  
+
+## The more precise picture  
+The projection of vector **A** onto direction **B** is a vector that tells you how much of **A** points in **B**’s direction.  
+- **Magnitude**: $ |\text{proj}_B A| = |A| \cos\theta $, where $ \theta $ is the angle between **A** and **B**.  
+- **Direction**: Same as **B** (if $ \theta < 90^\circ $) or opposite to **B** (if $ \theta > 90^\circ $).  
+
+The **dot product** {dot product} connects projection to math:  
+$$
+A \cdot B = |A||B| \cos\theta
+$$  
+This is the projection **scaled** by the length of **B**:  
+$$
+A \cdot B = |\text{proj}_B A| \cdot |B|
+$$  
+This shows the dot product is a scalar quantity that encodes both the projection’s magnitude and the target vector’s length.  
+
+## Common misconceptions  
+- ❌ **Projection is the same as magnitude**: No! Projection is a vector {vector} (has direction), not just a number.  
+- ❌ **Projection depends only on angle**: Yes, but the vector’s own length also matters. A longer vector has a larger projection.  
+- ❌ **Projection is always positive**: No! If the angle is obtuse ($ \theta > 90^\circ $), the projection is negative, meaning it points opposite to **B**. The sign reflects the direction relative to **B**, not an absolute value.  
+- ❌ **Projection is the same as the dot product**: The dot product {dot product} is the projection **multiplied by** the length of **B**.  
+
+## How this connects to physics  
+- **Force components**: When you pull a box at an angle, only the projection of your force in the horizontal direction does work. If the angle is obtuse, the projection is negative, meaning the force is actually resisting motion.  
+- **Velocity in directions**: In projectile motion, the horizontal velocity is the projection of the initial velocity onto the horizontal axis. If the angle is greater than 90°, the projection would indicate a backward motion.  
+- **Work**: Work done by a force is $ W = F_{\text{parallel}} \times \text{distance} $, where $ F_{\text{parallel}} $ is the projection of the force. A negative projection means the force is doing negative work (e.g., friction).  
+
+## Recap  
+- Projection answers: *"How much of this vector is pointing in this direction?"*  
+- It’s a vector {vector}, not just a number, and depends on both the angle and the vector’s length.  
+- The dot product {dot product} is the projection scaled by the target vector’s length.  
+- Use projection to split forces, velocities, or motions into useful parts, and to determine whether a force is aiding or opposing motion.  
+
+**Note**: This article focuses on *vector projection* {projection} in physics, distinct from psychological concepts like "projection" in mental health. The mathematical and physical definitions here are grounded in standard physics pedagogy.
+
+================================================================================
+TIME: 2026-05-05T04:43:01
+NODE: term_collector
+PROMPT_CHARS: 4577
+PROMPT_TOKENS_APPROX: 1144
+RESPONSE_CHARS: 0
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.8}
+================================================================================
+PROMPT:
+Extract the descriptive-name candidates from this draft.
+
+Return JSON with this shape:
+{
+  "terms": [
+    {
+      "standard_term": "fermion",
+      "candidate_name": "space-occupier",
+      "context_quote": "short quote from the draft",
+      "usefulness": "why this name helps",
+      "risk": "how it could mislead, or empty string if low risk"
+    }
+  ]
+}
+
+Only include actual teaching-name candidates, especially phrases followed by standard terms in braces.
+
+Draft:
+# Projection  
+
+## The core idea  
+Projection is a way to find how much of one vector points in a specific direction. Imagine shining a light perpendicular to a wall—the shadow of a vector on the wall is its projection. This tells you how much of the vector is "aligned" with that direction, including whether it points in the same or opposite direction as the target.  
+
+**Note**: The shadow/light analogy is intuitive but has limits. It simplifies the mathematical relationship between vectors and their projections. For precise calculations, we rely on the dot product and trigonometry.  
+
+## Why this matters  
+Projection helps us break down complex motions, forces, or velocities into simpler parts. For example, when you pull a box at an angle, only part of your force actually moves the box forward. Projection lets us calculate that useful part—and also tells us if the force is working against the motion (if the angle is obtuse).  
+
+## The simple picture  
+[Diagram idea: A vector pointing at an angle, with its shadow (projection) on a wall perpendicular to the light source.]  
+Think of a flashlight shining on a wall. The vector is like a stick tilted from the wall. Its shadow on the wall is its projection—the part of the stick that’s "facing" the wall. If the stick leans away from the wall, the shadow flips direction.  
+
+## The more precise picture  
+The projection of vector **A** onto direction **B** is a vector that tells you how much of **A** points in **B**’s direction.  
+- **Magnitude**: $ |\text{proj}_B A| = |A| \cos\theta $, where $ \theta $ is the angle between **A** and **B**.  
+- **Direction**: Same as **B** (if $ \theta < 90^\circ $) or opposite to **B** (if $ \theta > 90^\circ $).  
+
+The **dot product** {dot product} connects projection to math:  
+$$
+A \cdot B = |A||B| \cos\theta
+$$  
+This is the projection **scaled** by the length of **B**:  
+$$
+A \cdot B = |\text{proj}_B A| \cdot |B|
+$$  
+This shows the dot product is a scalar quantity that encodes both the projection’s magnitude and the target vector’s length.  
+
+## Common misconceptions  
+- ❌ **Projection is the same as magnitude**: No! Projection is a vector {vector} (has direction), not just a number.  
+- ❌ **Projection depends only on angle**: Yes, but the vector’s own length also matters. A longer vector has a larger projection.  
+- ❌ **Projection is always positive**: No! If the angle is obtuse ($ \theta > 90^\circ $), the projection is negative, meaning it points opposite to **B**. The sign reflects the direction relative to **B**, not an absolute value.  
+- ❌ **Projection is the same as the dot product**: The dot product {dot product} is the projection **multiplied by** the length of **B**.  
+
+## How this connects to physics  
+- **Force components**: When you pull a box at an angle, only the projection of your force in the horizontal direction does work. If the angle is obtuse, the projection is negative, meaning the force is actually resisting motion.  
+- **Velocity in directions**: In projectile motion, the horizontal velocity is the projection of the initial velocity onto the horizontal axis. If the angle is greater than 90°, the projection would indicate a backward motion.  
+- **Work**: Work done by a force is $ W = F_{\text{parallel}} \times \text{distance} $, where $ F_{\text{parallel}} $ is the projection of the force. A negative projection means the force is doing negative work (e.g., friction).  
+
+## Recap  
+- Projection answers: *"How much of this vector is pointing in this direction?"*  
+- It’s a vector {vector}, not just a number, and depends on both the angle and the vector’s length.  
+- The dot product {dot product} is the projection scaled by the target vector’s length.  
+- Use projection to split forces, velocities, or motions into useful parts, and to determine whether a force is aiding or opposing motion.  
+
+**Note**: This article focuses on *vector projection* {projection} in physics, distinct from psychological concepts like "projection" in mental health. The mathematical and physical definitions here are grounded in standard physics pedagogy.
+
+RESPONSE:
+
+
+================================================================================
+TIME: 2026-05-05T04:46:39
+NODE: accessibility_judge
+PROMPT_CHARS: 6562
+PROMPT_TOKENS_APPROX: 1640
+RESPONSE_CHARS: 0
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.8}
+================================================================================
+PROMPT:
+Evaluate this EasyPhysics article for accessibility.
+
+Return exactly one JSON object:
+{
+  "score": 1,
+  "pass": false,
+  "strengths": ["specific strength"],
+  "issues": [
+    {
+      "severity": "low | medium | high",
+      "location": "section name or short quote",
+      "problem": "specific accessibility issue",
+      "suggested_fix": "specific fix"
+    }
+  ],
+  "best_next_revision": "one concise paragraph"
+}
+
+Rubric:
+Accessibility score, 1-10:
+
+10 = Exceptional. A motivated high-schooler can follow the article's main arc without prior exposure.
+     Jargon is introduced only after intuition. Examples are vivid. Math is explained as meaning,
+     not just symbols. The article feels empowering and clear.
+
+9 = Publishable with light human editing. The main idea is easy to follow; jargon is mostly controlled;
+    analogies are helpful; sections flow logically; any math has a plain-language interpretation.
+
+8 = Strong draft. Mostly clear, but has a few dense sections, unexplained terms, abrupt transitions,
+    or analogies that need more setup.
+
+7 = Useful but uneven. A motivated reader could learn from it, but several passages need simplification,
+    clearer examples, or better sequencing.
+
+6 = Borderline. The article contains useful explanations, but assumes too much background or uses too much jargon.
+
+5 = Mixed. Some good paragraphs, but the structure or language would lose many target readers.
+
+4 = Hard to follow. Mostly written for someone who already knows the subject.
+
+3 = Very inaccessible. Dense, abstract, jargon-heavy, or poorly sequenced.
+
+2 = Barely useful to the target audience.
+
+1 = Fails the accessibility goal.
+
+Accessibility judge priorities:
+- Does the opening give the reader an intuitive foothold?
+- Are standard terms introduced after meaning, not before?
+- Are descriptive names useful rather than cutesy or misleading?
+- Are analogies concrete and then carefully limited?
+- Is any math explained in words?
+- Does the article avoid "spooky/magic/weird" framing while still acknowledging counterintuitive ideas?
+- Does each section make the next section easier?
+
+Rules:
+- Return an object, not a list.
+- Score must be an integer from 1 to 10.
+- A 9 means publishable with light human editing.
+- Do not give 9 or 10 if the opening is jargon-heavy.
+- Do not give 9 or 10 if math appears without plain-language interpretation.
+- Do not rewrite the article; only evaluate it.
+
+Article title: Projection
+
+Draft:
+# Projection  
+
+## The core idea  
+Projection is a way to find how much of one vector points in a specific direction. Imagine shining a light perpendicular to a wall—the shadow of a vector on the wall is its projection. This tells you how much of the vector is "aligned" with that direction, including whether it points in the same or opposite direction as the target.  
+
+**Note**: The shadow/light analogy is intuitive but has limits. It simplifies the mathematical relationship between vectors and their projections. For precise calculations, we rely on the dot product and trigonometry.  
+
+## Why this matters  
+Projection helps us break down complex motions, forces, or velocities into simpler parts. For example, when you pull a box at an angle, only part of your force actually moves the box forward. Projection lets us calculate that useful part—and also tells us if the force is working against the motion (if the angle is obtuse).  
+
+## The simple picture  
+[Diagram idea: A vector pointing at an angle, with its shadow (projection) on a wall perpendicular to the light source.]  
+Think of a flashlight shining on a wall. The vector is like a stick tilted from the wall. Its shadow on the wall is its projection—the part of the stick that’s "facing" the wall. If the stick leans away from the wall, the shadow flips direction.  
+
+## The more precise picture  
+The projection of vector **A** onto direction **B** is a vector that tells you how much of **A** points in **B**’s direction.  
+- **Magnitude**: $ |\text{proj}_B A| = |A| \cos\theta $, where $ \theta $ is the angle between **A** and **B**.  
+- **Direction**: Same as **B** (if $ \theta < 90^\circ $) or opposite to **B** (if $ \theta > 90^\circ $).  
+
+The **dot product** {dot product} connects projection to math:  
+$$
+A \cdot B = |A||B| \cos\theta
+$$  
+This is the projection **scaled** by the length of **B**:  
+$$
+A \cdot B = |\text{proj}_B A| \cdot |B|
+$$  
+This shows the dot product is a scalar quantity that encodes both the projection’s magnitude and the target vector’s length.  
+
+## Common misconceptions  
+- ❌ **Projection is the same as magnitude**: No! Projection is a vector {vector} (has direction), not just a number.  
+- ❌ **Projection depends only on angle**: Yes, but the vector’s own length also matters. A longer vector has a larger projection.  
+- ❌ **Projection is always positive**: No! If the angle is obtuse ($ \theta > 90^\circ $), the projection is negative, meaning it points opposite to **B**. The sign reflects the direction relative to **B**, not an absolute value.  
+- ❌ **Projection is the same as the dot product**: The dot product {dot product} is the projection **multiplied by** the length of **B**.  
+
+## How this connects to physics  
+- **Force components**: When you pull a box at an angle, only the projection of your force in the horizontal direction does work. If the angle is obtuse, the projection is negative, meaning the force is actually resisting motion.  
+- **Velocity in directions**: In projectile motion, the horizontal velocity is the projection of the initial velocity onto the horizontal axis. If the angle is greater than 90°, the projection would indicate a backward motion.  
+- **Work**: Work done by a force is $ W = F_{\text{parallel}} \times \text{distance} $, where $ F_{\text{parallel}} $ is the projection of the force. A negative projection means the force is doing negative work (e.g., friction).  
+
+## Recap  
+- Projection answers: *"How much of this vector is pointing in this direction?"*  
+- It’s a vector {vector}, not just a number, and depends on both the angle and the vector’s length.  
+- The dot product {dot product} is the projection scaled by the target vector’s length.  
+- Use projection to split forces, velocities, or motions into useful parts, and to determine whether a force is aiding or opposing motion.  
+
+**Note**: This article focuses on *vector projection* {projection} in physics, distinct from psychological concepts like "projection" in mental health. The mathematical and physical definitions here are grounded in standard physics pedagogy.
+
+RESPONSE:
+

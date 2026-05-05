@@ -2,15 +2,50 @@
   "claims": [
     {
       "id": "C001",
-      "claim": "Dispersion is wavelength-dependent refraction {dispersion}, causing waves to separate.",
+      "claim": "Dispersion is wavelength-dependent refraction {dispersion}, causing waves to separate based on their wavelength.",
       "type": "definition",
       "importance": "high",
       "needs_external_check": true,
-      "why_it_matters": "Explains fundamental wave-material interactions",
+      "why_it_matters": "Defines the core mechanism of dispersion and its role in wave separation.",
       "suggested_search_query": "dispersion definition physics textbook"
     },
     {
       "id": "C002",
-      "claim": "Shorter wavelengths (blue light) slow more than longer wavelengths (red light) in a medium.",
+      "claim": "The refractive index {n} of a material varies with wavelength, altering the speed of light in the medium.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Explains the physical basis for wavelength-dependent wave behavior.",
+      "suggested_search_query": "refractive index wavelength dependence"
+    },
+    {
+      "id": "C003",
+      "claim": "Shorter wavelengths (blue light) slow more than longer wavelengths (red light) in dispersive media.",
       "type": "empirical",
-      "importance":
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Clarifies the directional relationship between wavelength and speed in dispersion.",
+      "suggested_search_query": "blue light vs red light dispersion"
+    },
+    {
+      "id": "C004",
+      "claim": "Dispersion explains phenomena like rainbows, prisms, and chromatic aberration in lenses.",
+      "type": "application",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Links dispersion to observable natural and technological phenomena.",
+      "suggested_search_query": "dispersion applications rainbows"
+    },
+    {
+      "id": "C005",
+      "claim": "Snell’s law {Snell’s law} governs wavelength-dependent bending of light in dispersive media.",
+      "type": "mathematical",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Quantifies how different wavelengths bend at varying angles.",
+      "suggested_search_query": "Snell's law dispersion derivation"
+    },
+    {
+      "id": "C006",
+      "claim": "Dispersion occurs in diverse contexts beyond prisms, including lenses, raindrops, and fiber optics.",
+      "

@@ -1,0 +1,31 @@
+{
+  "score": 1,
+  "pass": false,
+  "strengths": ["specific strength"],
+  "issues": [
+    {
+      "severity": "high",
+      "location": "opening paragraph",
+      "problem": "Jargon-heavy opening introduces 'action', 'stationary action', and 'fundamental principle' without intuitive explanation or definition",
+      "suggested_fix": "Replace jargon with concrete analogies: e.g., 'action' as a measure of energy-time trade-off, 'stationary' as a balance point like a hilltop"
+    },
+    {
+      "severity": "high",
+      "location": "math section",
+      "problem": "Equation presented without plain-language explanation of what the integral represents or why it's important",
+      "suggested_fix": "Add analogy: 'Imagine measuring how much energy a ball uses to roll down a hill over time - this integral captures that total'"
+    },
+    {
+      "severity": "high",
+      "location": "key terms section",
+      "problem": "Technical terms defined in braces but not explained in the main text",
+      "suggested_fix": "Integrate definitions into the narrative: e.g., 'stationary path' as a balance point where small changes don't affect the total"
+    },
+    {
+      "severity": "medium",
+      "location": "common misconceptions",
+      "problem": "Misconceptions section references terms like 'stationary points' without prior explanation",
+      "suggested_fix": "Add brief definitions in the text before discussing misconceptions"
+    }
+  ],
+  "best_next_revision": "Start with

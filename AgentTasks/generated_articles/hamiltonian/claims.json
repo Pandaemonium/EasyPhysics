@@ -2,21 +2,21 @@
   "claims": [
     {
       "id": "C001",
-      "claim": "# Hamiltonian ## The core idea The **Hamiltonian** is the **energy governor** {Hamiltonian} of a system.",
+      "claim": "# Hamiltonian ## The core idea The **Hamiltonian** {Hamiltonian} is the **total energy rulebook** {Hamiltonian} of a system.",
       "type": "fallback-extracted",
       "importance": "medium",
       "needs_external_check": true,
       "why_it_matters": "Automatically extracted fallback claim; review manually.",
-      "suggested_search_query": "Hamiltonian # Hamiltonian ## The core idea The **Hamiltonian** is the **energy governor** {Hamiltonian} of a system. physics lecture notes textbook explanation"
+      "suggested_search_query": "Hamiltonian # Hamiltonian ## The core idea The **Hamiltonian** {Hamiltonian} is the **total energy rulebook** {Hamiltonian} of physics lecture notes textbook explanation"
     },
     {
       "id": "C002",
-      "claim": "It tells a system how to change over time by using its total energy as the main rulebook.",
+      "claim": "It encodes the system’s total energy (kinetic + potential) as the fundamental quantity that determines how the system evolves over time.",
       "type": "fallback-extracted",
       "importance": "medium",
       "needs_external_check": true,
       "why_it_matters": "Automatically extracted fallback claim; review manually.",
-      "suggested_search_query": "Hamiltonian It tells a system how to change over time by using its total energy as the physics lecture notes textbook explanation"
+      "suggested_search_query": "Hamiltonian It encodes the system’s total energy (kinetic + potential) as the fundamental quantity that determines how physics lecture notes textbook explanation"
     },
     {
       "id": "C003",
@@ -73,7 +73,7 @@
       "suggested_search_query": "Hamiltonian In quantum mechanics, it’s a set of rules (operators) that tell a wavefunction {wavefunction} how to physics lecture notes textbook explanation"
     }
   ],
-  "last_updated": "2026-05-04_07-57-27",
+  "last_updated": "2026-05-04_22-38-43",
   "count": 8,
   "parse_note": "No usable claims parsed from LLM output. Using deterministic fallback extraction from draft sentences."
 }

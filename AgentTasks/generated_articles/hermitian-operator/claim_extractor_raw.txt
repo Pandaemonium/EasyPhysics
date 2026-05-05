@@ -2,26 +2,45 @@
   "claims": [
     {
       "id": "C001",
-      "claim": "A Hermitian operator ensures measurements in quantum mechanics yield real numbers, such as position or energy, rather than complex values.",
+      "claim": "A Hermitian operator ensures that the expectation values of measurements are real numbers.",
       "type": "definition",
       "importance": "high",
       "needs_external_check": true,
-      "why_it_matters": "Real-number outcomes are essential for physical measurements to align with experimental results.",
-      "suggested_search_query": "Hermitian operator definition quantum mechanics"
+      "why_it_matters": "Real expectation values align with observable physical quantities like position and energy.",
+      "suggested_search_query": "Hermitian operator expectation values definition"
     },
     {
       "id": "C002",
-      "claim": "Hermitian operators are mathematically linked to observables, ensuring measurable physical quantities correspond to real eigenvalues.",
+      "claim": "Hermitian operators are the mathematical foundation of all measurable physical quantities in quantum mechanics.",
       "type": "definition",
       "importance": "high",
       "needs_external_check": true,
-      "why_it_matters": "This connection guarantees quantum predictions match empirical observations.",
-      "suggested_search_query": "Hermitian operators observables quantum mechanics"
+      "why_it_matters": "They directly correspond to observables like momentum and spin.",
+      "suggested_search_query": "Hermitian operators in quantum mechanics"
     },
     {
       "id": "C003",
-      "claim": "The analogy of a 'measurement machine' illustrates how Hermitian operators produce real-number outputs, contrasting with non-Hermitian operators that might yield complex results.",
-      "type": "analogy",
+      "claim": "A Hermitian operator satisfies the condition $ A = A^\dagger $, where $ A^\dagger $ is the conjugate transpose.",
+      "type": "definition",
       "importance": "high",
       "needs_external_check": true,
-      "why_it_matters": "This analogy clarifies the physical significance of Hermitian operators despite potential abstraction.",
+      "why_it_matters": "This symmetry guarantees real eigenvalues and physical consistency.",
+      "suggested_search_query": "Hermitian operator conjugate transpose definition"
+    },
+    {
+      "id": "C004",
+      "claim": "Hermitian operators have real eigenvalues, ensuring measurable outcomes are not complex numbers.",
+      "type": "property",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Complex eigenvalues would violate physical reality in measurements.",
+      "suggested_search_query": "Hermitian operator eigenvalues real"
+    },
+    {
+      "id": "C005",
+      "claim": "The eigenvectors of a Hermitian operator are orthogonal, representing distinct, non-overlapping measurement outcomes.",
+      "type": "property",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Orthogonality ensures mutually exclusive quantum states.",
+      "suggested_search_query": "Hermit

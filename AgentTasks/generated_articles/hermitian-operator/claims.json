@@ -2,7 +2,7 @@
   "claims": [
     {
       "id": "C001",
-      "claim": "# Hermitian Operator ## The Core Idea A **Hermitian operator** is a special rule in quantum mechanics that ensures measurements give real numbers—like position, energy, or momentum—instead of complex, abstract values.",
+      "claim": "# Hermitian Operator ## The Core Idea A **Hermitian operator** is a special rule in quantum mechanics that ensures the **expectation values** of measurements are real numbers—like position, energy, or momentum—instead of complex, abstract values.",
       "type": "fallback-extracted",
       "importance": "medium",
       "needs_external_check": true,
@@ -11,25 +11,34 @@
     },
     {
       "id": "C002",
-      "claim": "## Why This Matters In quantum mechanics, physical quantities (like energy or position) must have real-number outcomes when measured.",
+      "claim": "While individual measurement outcomes can involve probabilistic distributions, the average result (expectation value) is always real.",
       "type": "fallback-extracted",
       "importance": "medium",
       "needs_external_check": true,
       "why_it_matters": "Automatically extracted fallback claim; review manually.",
-      "suggested_search_query": "Hermitian operator ## Why This Matters In quantum mechanics, physical quantities (like energy or position) must have real-number physics lecture notes textbook explanation"
+      "suggested_search_query": "Hermitian operator While individual measurement outcomes can involve probabilistic distributions, the average result (expectation value) is always real. physics lecture notes textbook explanation"
     },
     {
       "id": "C003",
-      "claim": "Hermitian operators guarantee this by linking to **observables** (measurable properties) and ensuring that the results of experiments are concrete, not imaginary.",
+      "claim": "## Why This Matters In quantum mechanics, physical quantities (like energy or position) must have **real-number expectation values** when measured.",
       "type": "fallback-extracted",
       "importance": "medium",
       "needs_external_check": true,
       "why_it_matters": "Automatically extracted fallback claim; review manually.",
-      "suggested_search_query": "Hermitian operator Hermitian operators guarantee this by linking to **observables** (measurable properties) and ensuring that the results of physics lecture notes textbook explanation"
+      "suggested_search_query": "Hermitian operator ## Why This Matters In quantum mechanics, physical quantities (like energy or position) must have **real-number physics lecture notes textbook explanation"
     },
     {
       "id": "C004",
-      "claim": "A Hermitian operator is like that machine: it transforms quantum states in a way that ensures the result is a real number.",
+      "claim": "Hermitian operators guarantee this by linking to **observables** (measurable properties) and ensuring that experimental averages align with reality.",
+      "type": "fallback-extracted",
+      "importance": "medium",
+      "needs_external_check": true,
+      "why_it_matters": "Automatically extracted fallback claim; review manually.",
+      "suggested_search_query": "Hermitian operator Hermitian operators guarantee this by linking to **observables** (measurable properties) and ensuring that experimental averages align physics lecture notes textbook explanation"
+    },
+    {
+      "id": "C005",
+      "claim": "A Hermitian operator is like that machine: it transforms quantum states in a way that ensures the **average result** is a real number.",
       "type": "fallback-extracted",
       "importance": "medium",
       "needs_external_check": true,
@@ -37,16 +46,16 @@
       "suggested_search_query": "Hermitian operator A Hermitian operator is like that machine: it transforms quantum states in a way that ensures physics lecture notes textbook explanation"
     },
     {
-      "id": "C005",
-      "claim": "**Real eigenvalues**: When you measure a quantity (like energy), the result is a real number (e.g., 5 eV, not 5 + 3i eV).",
+      "id": "C006",
+      "claim": "**Real eigenvalues**: When you measure a quantity (like energy), the **average result** is a real number (e.g., 5 eV, not 5 + 3i eV).",
       "type": "fallback-extracted",
       "importance": "medium",
       "needs_external_check": true,
       "why_it_matters": "Automatically extracted fallback claim; review manually.",
-      "suggested_search_query": "Hermitian operator **Real eigenvalues**: When you measure a quantity (like energy), the result is a real number (e.g., physics lecture notes textbook explanation"
+      "suggested_search_query": "Hermitian operator **Real eigenvalues**: When you measure a quantity (like energy), the **average result** is a real number physics lecture notes textbook explanation"
     },
     {
-      "id": "C006",
+      "id": "C007",
       "claim": "**Orthogonal eigenvectors**: The possible outcomes (eigenvalues) correspond to distinct, non-overlapping states (eigenvectors).",
       "type": "fallback-extracted",
       "importance": "medium",
@@ -55,25 +64,16 @@
       "suggested_search_query": "Hermitian operator **Orthogonal eigenvectors**: The possible outcomes (eigenvalues) correspond to distinct, non-overlapping states (eigenvectors). physics lecture notes textbook explanation"
     },
     {
-      "id": "C007",
+      "id": "C008",
       "claim": "Its eigenstates are wavefunctions localized at specific positions, and the eigenvalues are real numbers representing those positions.",
       "type": "fallback-extracted",
       "importance": "medium",
       "needs_external_check": true,
       "why_it_matters": "Automatically extracted fallback claim; review manually.",
       "suggested_search_query": "Hermitian operator Its eigenstates are wavefunctions localized at specific positions, and the eigenvalues are real numbers representing those physics lecture notes textbook explanation"
-    },
-    {
-      "id": "C008",
-      "claim": "- Inner product symmetry: $ \\langle \\psi | A | \\phi \\rangle = \\langle \\phi | A | \\psi \\rangle^* $ (complex conjugate).",
-      "type": "fallback-extracted",
-      "importance": "medium",
-      "needs_external_check": true,
-      "why_it_matters": "Automatically extracted fallback claim; review manually.",
-      "suggested_search_query": "Hermitian operator - Inner product symmetry: $ \\langle \\psi | A | \\phi \\rangle = \\langle \\phi | physics lecture notes textbook explanation"
     }
   ],
-  "last_updated": "2026-05-04_14-30-57",
+  "last_updated": "2026-05-05_06-16-04",
   "count": 8,
   "parse_note": "No usable claims parsed from LLM output. Using deterministic fallback extraction from draft sentences."
 }

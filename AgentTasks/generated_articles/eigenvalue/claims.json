@@ -11,6 +11,15 @@
     },
     {
       "id": "C002",
+      "claim": "This concept is foundational in **linear algebra**, where eigenvalues describe how transformations act on vectors, and it plays a central role in **quantum mechanics**, where they represent measurable outcomes like energy levels.",
+      "type": "fallback-extracted",
+      "importance": "medium",
+      "needs_external_check": true,
+      "why_it_matters": "Automatically extracted fallback claim; review manually.",
+      "suggested_search_query": "Eigenvalue This concept is foundational in **linear algebra**, where eigenvalues describe how transformations act on vectors, and physics lecture notes textbook explanation"
+    },
+    {
+      "id": "C003",
       "claim": "## Why this matters Eigenvalues help us understand how systems respond to forces, rotations, or vibrations.",
       "type": "fallback-extracted",
       "importance": "medium",
@@ -19,25 +28,25 @@
       "suggested_search_query": "Eigenvalue ## Why this matters Eigenvalues help us understand how systems respond to forces, rotations, or vibrations. physics lecture notes textbook explanation"
     },
     {
-      "id": "C003",
-      "claim": "They simplify complex interactions by focusing on \"special directions\" where changes are straightforward, like the axis of a spinning top or the natural frequencies of a guitar string.",
-      "type": "fallback-extracted",
-      "importance": "medium",
-      "needs_external_check": true,
-      "why_it_matters": "Automatically extracted fallback claim; review manually.",
-      "suggested_search_query": "Eigenvalue They simplify complex interactions by focusing on \"special directions\" where changes are straightforward, like the axis physics lecture notes textbook explanation"
-    },
-    {
       "id": "C004",
-      "claim": "The amount you stretch it (e.g., doubling its length) is the **eigenvalue** for that direction.",
+      "claim": "They simplify complex interactions by focusing on \"special directions\" where changes are straightforward.",
       "type": "fallback-extracted",
       "importance": "medium",
       "needs_external_check": true,
       "why_it_matters": "Automatically extracted fallback claim; review manually.",
-      "suggested_search_query": "Eigenvalue The amount you stretch it (e.g., doubling its length) is the **eigenvalue** for that direction. physics lecture notes textbook explanation"
+      "suggested_search_query": "Eigenvalue They simplify complex interactions by focusing on \"special directions\" where changes are straightforward. physics lecture notes textbook explanation"
     },
     {
       "id": "C005",
+      "claim": "- **Rotations**: Eigenvalues identify symmetry axes (e.g., a spinning top’s rotation axis).",
+      "type": "fallback-extracted",
+      "importance": "medium",
+      "needs_external_check": true,
+      "why_it_matters": "Automatically extracted fallback claim; review manually.",
+      "suggested_search_query": "Eigenvalue - **Rotations**: Eigenvalues identify symmetry axes (e.g., a spinning top’s rotation axis). physics lecture notes textbook explanation"
+    },
+    {
+      "id": "C006",
       "claim": "The equation: $$ A \\cdot \\mathbf{v} = \\lambda \\cdot \\mathbf{v} $$ - **A**: The transformation (e.g., a matrix or operator).",
       "type": "fallback-extracted",
       "importance": "medium",
@@ -46,7 +55,7 @@
       "suggested_search_query": "Eigenvalue The equation: $$ A \\cdot \\mathbf{v} = \\lambda \\cdot \\mathbf{v} $$ - **A**: The transformation (e.g., physics lecture notes textbook explanation"
     },
     {
-      "id": "C006",
+      "id": "C007",
       "claim": "To find eigenvalues, solve: $$ \\det(A - \\lambda I) = 0 $$ This equation finds values of λ where the transformation \"fails\" to stretch the vector, leaving it unchanged (except scaled).",
       "type": "fallback-extracted",
       "importance": "medium",
@@ -55,25 +64,16 @@
       "suggested_search_query": "Eigenvalue To find eigenvalues, solve: $$ \\det(A - \\lambda I) = 0 $$ This equation finds values physics lecture notes textbook explanation"
     },
     {
-      "id": "C007",
-      "claim": "[Diagram idea: A grid transformed by a matrix, with eigenvectors (unchanged direction) highlighted.] ## Common misconceptions - ❌ \"Eigenvalues only apply to matrices.\" → Eigenvalues apply to **linear operators** (matrices are a common representation).",
-      "type": "fallback-extracted",
-      "importance": "medium",
-      "needs_external_check": true,
-      "why_it_matters": "Automatically extracted fallback claim; review manually.",
-      "suggested_search_query": "Eigenvalue [Diagram idea: A grid transformed by a matrix, with eigenvectors (unchanged direction) highlighted.] ## Common misconceptions physics lecture notes textbook explanation"
-    },
-    {
       "id": "C008",
-      "claim": "- ❌ \"Eigenvalues are always real numbers.\" → Eigenvalues can be complex (e.g., rotational systems) or zero (e.g., degenerate states).",
+      "claim": "[Diagram idea: A grid transformed by a matrix, with eigenvectors (unchanged direction) highlighted.] ## How this connects to the rest of physics - **Vibrations**: Eigenvalues determine natural frequencies (e.g., a guitar string’s modes).",
       "type": "fallback-extracted",
       "importance": "medium",
       "needs_external_check": true,
       "why_it_matters": "Automatically extracted fallback claim; review manually.",
-      "suggested_search_query": "Eigenvalue - ❌ \"Eigenvalues are always real numbers.\" → Eigenvalues can be complex (e.g., rotational systems) or physics lecture notes textbook explanation"
+      "suggested_search_query": "Eigenvalue [Diagram idea: A grid transformed by a matrix, with eigenvectors (unchanged direction) highlighted.] ## How this physics lecture notes textbook explanation"
     }
   ],
-  "last_updated": "2026-05-04_09-17-55",
+  "last_updated": "2026-05-05_00-02-21",
   "count": 8,
   "parse_note": "No usable claims parsed from LLM output. Using deterministic fallback extraction from draft sentences."
 }

@@ -2,41 +2,53 @@
   "claims": [
     {
       "id": "C001",
-      "claim": "An eigenstate is a 'definite-answer state' {eigenstate} where measuring a specific property always yields the same result.",
+      "claim": "An eigenstate is a quantum state where measuring a specific observable (like energy or spin) always yields the same result.",
       "type": "definition",
       "importance": "high",
       "needs_external_check": true,
       "why_it_matters": "This defines the core concept of eigenstates in quantum mechanics.",
-      "suggested_search_query": "quantum mechanics eigenstate definition textbook"
+      "suggested_search_query": "quantum eigenstate definition textbook"
     },
     {
       "id": "C002",
-      "claim": "Eigenstates are foundational for predicting quantum measurement outcomes and understanding quantum behavior.",
-      "type": "importance",
+      "claim": "Eigenstates represent probabilistic certainty, not deterministic outcomes, unlike classical systems.",
+      "type": "clarification",
       "importance": "high",
       "needs_external_check": true,
-      "why_it_matters": "They enable probabilistic predictions and explain phenomena like atomic energy levels.",
-      "suggested_search_query": "role of eigenstates in quantum predictions"
+      "why_it_matters": "Corrects the misconception that eigenstates imply pre-existing values.",
+      "suggested_search_query": "quantum eigenstate probabilistic certainty"
     },
     {
       "id": "C003",
-      "claim": "The spinning top analogy illustrates eigenstates as 'ready-to-measure' states with deterministic outcomes.",
-      "type": "analogy",
+      "claim": "Eigenstates are foundational for predicting quantum measurement outcomes and explaining phenomena like atomic energy levels.",
+      "type": "importance",
       "importance": "high",
       "needs_external_check": true,
-      "why_it_matters": "Helps visualize the contrast between eigenstates and superpositions.",
-      "suggested_search_query": "quantum eigenstate analogies"
+      "why_it_matters": "Highlights their role in quantum theory and experimental observations.",
+      "suggested_search_query": "eigenstate role in quantum mechanics"
     },
     {
       "id": "C004",
-      "claim": "Mathematically, an eigenstate satisfies $\\hat{A} | \\psi \\rangle = a | \\psi \\rangle$ for an observable $\\hat{A}$.",
+      "claim": "The mathematical relationship $\\hat{A} |\\psi\\rangle = a |\\psi\\rangle$ defines an eigenstate of an observable $\\hat{A}$.",
       "type": "definition",
       "importance": "high",
       "needs_external_check": true,
-      "why_it_matters": "This equation formalizes the relationship between observables and eigenstates.",
+      "why_it_matters": "Provides the formal framework for eigenstates in quantum mechanics.",
       "suggested_search_query": "quantum eigenstate mathematical definition"
     },
     {
       "id": "C005",
-      "claim": "An electron in a hydrogen atom's lowest energy level is an eigenstate of the energy operator.",
-      "
+      "claim": "Eigenstates are not physical 'building blocks' but mathematical tools for describing measurement outcomes.",
+      "type": "clarification",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Corrects the misconception that eigenstates are tangible entities.",
+      "suggested_search_query": "eigenstate physical interpretation"
+    },
+    {
+      "id": "C006",
+      "claim": "Most quantum states are superpositions of eigenstates, not eigenstates themselves.",
+      "type": "clarification",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters

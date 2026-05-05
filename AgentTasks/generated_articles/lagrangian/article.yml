@@ -1,14 +1,15 @@
 title: Lagrangian
 slug: lagrangian
-status: error
+status: needs_revision
 finished: false
-iteration_count: 2
+iteration_count: 4
 accessibility_score: 0
 rigor_score: 0
 last_worked_on: '2026-05-04'
-last_completed_pass: 2026-05-04_07-26-42
+last_completed_pass: 2026-05-04_22-29-04
 needs:
 - accessibility_revision
 - rigor_revision
+- claim_review
 current_draft: draft.md
 last_error: 'LLMCallError("writer failed after 1 attempt(s): LLMCallError(''LLM_TIMEOUT_AFTER_480_SECONDS'')")'

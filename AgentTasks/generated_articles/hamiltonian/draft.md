@@ -1,14 +1,14 @@
 # Hamiltonian
 
 ## The core idea  
-The **Hamiltonian** is the **energy governor** {Hamiltonian} of a system. It tells a system how to change over time by using its total energy as the main rulebook. Think of it as a recipe: the ingredients are the system’s energy, and the steps are how that energy shapes motion and time evolution.
+The **Hamiltonian** {Hamiltonian} is the **total energy rulebook** {Hamiltonian} of a system. It encodes the system’s total energy (kinetic + potential) as the fundamental quantity that determines how the system evolves over time. Think of it as a recipe: the ingredients are the system’s energy, and the steps are how that energy shapes motion and time evolution.  
 
 ## Why this matters  
-The Hamiltonian is the central tool for understanding how physical systems move, change, and interact. Whether you’re studying a swinging pendulum or a quantum particle, the Hamiltonian connects forces, energy, and motion—making it essential for predicting the behavior of everything from atoms to galaxies.
+The Hamiltonian is the central tool for understanding how physical systems move, change, and interact. Whether you’re studying a swinging pendulum or a quantum particle, the Hamiltonian connects forces, energy, and motion—making it essential for predicting the behavior of everything from atoms to galaxies.  
 
 ## The simple picture  
 [Diagram idea: Energy Balance Sheet]  
-Imagine the Hamiltonian as a kitchen recipe. In classical mechanics, it’s a list of ingredients (kinetic + potential energy) and steps (how energy converts between motion and position). In quantum mechanics, it’s a set of rules (operators) that tell a wavefunction {wavefunction} how to evolve over time. Both versions use energy as the key ingredient to shape the system’s behavior.
+Imagine the Hamiltonian as a kitchen recipe. In classical mechanics, it’s a list of ingredients (kinetic + potential energy) and steps (how energy converts between motion and position). In quantum mechanics, it’s a set of rules (operators) that tell a wavefunction {wavefunction} how to evolve over time. Both versions use energy as the key ingredient to shape the system’s behavior.  
 
 ## The more precise picture  
 ### Classical Mechanics: Energy as a Rulebook  
@@ -16,7 +16,7 @@ In classical physics, the **Hamiltonian** {Hamiltonian} is the total energy of a
 $$
 H = \text{Kinetic Energy} + \text{Potential Energy}
 $$  
-It governs motion through **Hamilton’s equations** {Hamilton’s equations}, which describe how position and momentum change over time. For example, a pendulum’s swing is dictated by how its kinetic energy (motion) and potential energy (height) balance.  
+It determines motion through **Hamilton’s equations** {Hamilton’s equations}, which describe how position and momentum change over time. For example, a pendulum’s swing is dictated by how its kinetic energy (motion) and potential energy (height) balance.  
 
 ### Quantum Mechanics: The Energy Operator  
 In quantum physics, the **Hamiltonian** {Hamiltonian} is an **operator** {operator} that acts on **wavefunctions** {wavefunction} to determine how quantum states evolve. It answers two questions:  
@@ -26,7 +26,7 @@ The **Schrödinger equation** {Schrödinger equation} links the Hamiltonian to t
 $$
 i\hbar \frac{\partial \psi}{\partial t} = \hat{H} \psi
 $$  
-This equation shows how the Hamiltonian operator {operator} dictates the “dance” of a quantum system over time.
+This equation shows how the Hamiltonian operator {operator} dictates the “dance” of a quantum system over time.  
 
 ## Common misconceptions  
 ❌ **"The Hamiltonian is just a formula for energy."**  
@@ -46,7 +46,5 @@ The Hamiltonian is the backbone of modern physics:
 - **Fields and particles**: In quantum field theory, the Hamiltonian governs interactions between particles and fields.  
 
 ## Recap  
-- The **Hamiltonian** {Hamiltonian} is the energy governor of a system.  
-- In classical mechanics, it’s the total energy (kinetic + potential) that dictates motion.  
-- In quantum mechanics, it’s an operator {operator} that shapes how wavefunctions {wavefunction} evolve.  
-- It connects forces, energy, and time evolution across all physical systems.
+- The **Hamiltonian** {Hamiltonian} is the total energy rulebook of a system.  
+- In classical

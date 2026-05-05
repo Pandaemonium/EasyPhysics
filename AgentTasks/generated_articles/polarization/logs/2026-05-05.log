@@ -1,0 +1,1322 @@
+
+================================================================================
+TIME: 2026-05-05T02:02:49
+NODE: writer
+PROMPT_CHARS: 4926
+PROMPT_TOKENS_APPROX: 1231
+RESPONSE_CHARS: 4655
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.8}
+================================================================================
+PROMPT:
+Write a first draft of an EasyPhysics article.
+
+Title: Polarization
+
+Article outline:
+```markdown
+# Polarization
+
+## 1. Scope
+This article explains **polarization** as the directional orientation of light waves, how it manifests in everyday phenomena, and its practical applications. It focuses on classical electromagnetic waves (like visible light) and avoids speculative or advanced topics.
+
+---
+
+## 2. Out of Scope
+- Polarization in non-electromagnetic waves (e.g., sound)  
+- Quantum polarization (e.g., photon spin)  
+- Mathematical formalisms beyond basic trigonometry  
+- Polarization in complex systems (e.g., liquid crystals, metamaterials)  
+
+---
+
+## 3. Prerequisite Concepts
+- Electromagnetic waves: Light as oscillating electric and magnetic fields  
+- Transverse waves: Oscillations perpendicular to wave direction  
+- Wave interference and diffraction  
+- Basic understanding of light as a wave (not a particle)  
+
+---
+
+## 4. Core Intuition
+Light is a **transverse wave**, meaning its electric field (and magnetic field) oscillate perpendicular to the direction of travel. **Polarization** describes the specific direction of these oscillations. Think of it as the "orientation" of the wave’s electric field—like a rope wave shaking side-to-side (horizontal polarization) vs. up-and-down (vertical polarization).  
+
+---
+
+## 5. Suggested Descriptive Names with Standard Terms in Braces
+- **Direction of oscillation** {polarization}  
+- **Polarizer** {polarizing filter}  
+- **Unpolarized light** {natural light}  
+- **Polarized light** {plane-polarized light}  
+- **Polarization axis** {transmission axis}  
+
+---
+
+## 6. Common Misconceptions to Avoid
+- ❌ "Polarization is about the direction light travels."  
+  → **Fix**: Polarization refers to the electric field’s direction, not the wave’s motion.  
+- ❌ "All light is polarized."  
+  → **Fix**: Natural light (e.g., sunlight) is **unpolarized**, meaning its electric field oscillates in all directions.  
+- ❌ "Polarization filters only block light."  
+  → **Fix**: Polarizers **transmit** light aligned with their axis and **block** light perpendicular to it.  
+
+---
+
+## 7. Section-by-Section Outline
+### **Section 1: What is Polarization?**
+- Introduce light as a transverse wave with electric/magnetic fields.  
+- Define polarization as the direction of the electric field’s oscillation.  
+- Use analogies: rope waves, radio antennas.  
+
+### **Section 2: Demonstrating Polarization**
+- Explain how polarizing filters work:  
+  - **Polarizer** {polarizing filter} blocks light oscillating perpendicular to its axis.  
+  - **Malus’s Law** {intensity = I₀ cos²θ} (optional, with minimal math).  
+- Demo: Polarized sunglasses reducing glare by blocking reflected light.  
+
+### **Section 3: Real-World Applications**
+- **3D movies**: Polarized glasses separate left/right images.  
+- **LCD screens**: Liquid crystals control polarization to create colors.  
+- **Nature**: Polarized light in the sky (Rayleigh scattering).  
+
+### **Section 4: Unpolarized vs. Polarized Light**
+- Contrast natural light (unpolarized) with light from lasers or reflected surfaces (polarized).  
+- Use diagrams to show electric field vectors in different directions.  
+
+---
+
+## 8. Optional Diagram Ideas
+1. **Electric field vector diagram**: Show light waves with electric fields oscillating horizontally, vertically, or diagonally.  
+2. **Polarizing filter schematic**: Illustrate how a filter blocks light perpendicular to its axis.  
+3. **Malus’s Law graph**: Plot intensity vs. angle between polarization and filter axis.  
+4. **3D movie setup**: Show how two polarizers (with perpendicular axes) create separate images.  
+
+---
+
+## 9. Optional Minimal Math
+- **Malus’s Law**:  
+  - Formula: $ I = I_0 \cos^2(\theta) $  
+  - **Explanation**: The intensity of polarized light after passing through a filter depends on the angle $ \theta $ between the light’s polarization and the filter’s axis.  
+  - **Example**: If light is polarized horizontally and the filter is vertical, $ \theta = 90^\circ $, so $ I = 0 $ (no light passes).  
+
+```
+
+Human/editor notes:
+# Human/editor notes
+
+Add any preferences, corrections, or article-specific constraints here.
+
+
+Required structure:
+# Polarization
+
+## The core idea
+## Why this matters
+## The simple picture
+## The more precise picture
+## Common misconceptions
+## How this connects to the rest of physics
+## Recap
+
+Writing rules:
+- Begin with meaning, not jargon.
+- Use intuitive teaching names with standard terms in braces.
+- Keep the article concept-first, not history-first.
+- Use concrete examples before abstractions.
+- Include math only when it helps; explain every symbol in words.
+- Avoid “spooky,” “magic,” or “physics is weird” framing.
+- State analogy limits when an analogy could mislead.
+- Keep the article roughly 1200-1800 words unless the topic genuinely needs more.
+- Output only Markdown. No commentary before or after.
+
+RESPONSE:
+# Polarization
+
+## The core idea  
+Light is a wave, and like all waves, it has a direction of motion. But light is special: it’s a **transverse wave**, meaning its electric field (and magnetic field) oscillate perpendicular to the direction it’s moving. **Polarization** is the specific direction in which these electric field oscillations occur. Imagine shaking a rope side-to-side (horizontal polarization) or up-and-down (vertical polarization)—light’s polarization is like the "orientation" of its electric field.  
+
+---
+
+## Why this matters  
+Polarization isn’t just a curiosity—it’s everywhere! Polarized sunglasses reduce glare by blocking reflected light. LCD screens use polarization to create colors. Even the light we see in the sky is partially polarized. Understanding polarization helps us explain these phenomena and design technologies that rely on it.  
+
+---
+
+## The simple picture  
+Think of light as a rope wave moving through space. The rope moves horizontally, but the wave itself shakes up and down or side to side. Light behaves similarly: its electric field oscillates in a specific direction, called its **polarization**.  
+
+- **Horizontal polarization**: Electric field shakes side-to-side.  
+- **Vertical polarization**: Electric field shakes up-and-down.  
+- **Diagonal polarization**: Electric field shakes at an angle (e.g., 45°).  
+
+This "orientation" of the electric field is what we call polarization.  
+
+---
+
+## The more precise picture  
+Light is an **electromagnetic wave**, meaning it consists of oscillating electric and magnetic fields. These fields are perpendicular to each other and to the direction the wave is traveling.  
+
+### Polarization axis  
+The **polarization axis** is the direction in which the electric field oscillates. For example:  
+- A **horizontal polarization axis** means the electric field shakes side-to-side.  
+- A **vertical polarization axis** means the electric field shakes up-and-down.  
+
+### Polarizers  
+A **polarizer** {polarizing filter} is a tool that blocks light unless its electric field oscillates in a specific direction. Imagine a grid of tiny slits aligned horizontally: only light with a horizontal electric field passes through.  
+
+### Malus’s Law  
+When polarized light passes through a polarizer, its brightness depends on the angle between the light’s polarization and the polarizer’s axis. This is described by **Malus’s Law** {intensity = I₀ cos²θ}:  
+- **I₀** is the initial brightness of the light.  
+- **θ** is the angle between the light’s polarization and the polarizer’s axis.  
+- **cos²θ** means the brightness drops to zero when the light is perpendicular to the polarizer (θ = 90°).  
+
+**Example**: If sunlight (unpolarized light) shines on a polarizer, only half the light passes through. If you rotate a second polarizer at 45°, it lets through 25% of the original light.  
+
+---
+
+## Common misconceptions  
+- ❌ "Polarization is about the direction light travels."  
+  → **Fix**: Polarization refers to the electric field’s direction, not the wave’s motion. Light always moves forward; its polarization is about how the electric field shakes.  
+
+- ❌ "All light is polarized."  
+  → **Fix**: Natural light (e.g., sunlight) is **unpolarized**, meaning its electric field oscillates in all directions. Only light reflected off surfaces or emitted by lasers is often polarized.  
+
+- ❌ "Polarization filters only block light."  
+  → **Fix**: Polarizers **transmit** light aligned with their axis and **block** light perpendicular to it. They don’t "absorb" light—they selectively allow certain orientations to pass.  
+
+---
+
+## How this connects to the rest of physics  
+Polarization is a key property of **transverse waves**, which are waves where oscillations are perpendicular to the direction of motion. This is true for electromagnetic waves (like light) but not for longitudinal waves (like sound). Understanding polarization helps explain phenomena like **interference** and **diffraction**, and it’s foundational for technologies like **antennas** and **optical fibers**.  
+
+---
+
+## Recap  
+- **Polarization** is the direction of the electric field’s oscillation in light.  
+- Light is a transverse wave, so its polarization is perpendicular to its motion.  
+- Polarizers block light unless its electric field aligns with the polarizer’s axis.  
+- Unpolarized light (like sunlight) has electric fields in all directions.  
+- Polarization is used in sunglasses, LCD screens, and even the sky’s light.  
+
+By understanding polarization, you unlock insights into how light interacts with the world—and how we can control it with tools like polarizing filters.
+
+================================================================================
+TIME: 2026-05-05T02:04:53
+NODE: term_collector
+PROMPT_CHARS: 5125
+PROMPT_TOKENS_APPROX: 1281
+RESPONSE_CHARS: 0
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.8}
+================================================================================
+PROMPT:
+Extract the descriptive-name candidates from this draft.
+
+Return JSON with this shape:
+{
+  "terms": [
+    {
+      "standard_term": "fermion",
+      "candidate_name": "space-occupier",
+      "context_quote": "short quote from the draft",
+      "usefulness": "why this name helps",
+      "risk": "how it could mislead, or empty string if low risk"
+    }
+  ]
+}
+
+Only include actual teaching-name candidates, especially phrases followed by standard terms in braces.
+
+Draft:
+# Polarization
+
+## The core idea  
+Light is a wave, and like all waves, it has a direction of motion. But light is special: it’s a **transverse wave**, meaning its electric field (and magnetic field) oscillate perpendicular to the direction it’s moving. **Polarization** is the specific direction in which these electric field oscillations occur. Imagine shaking a rope side-to-side (horizontal polarization) or up-and-down (vertical polarization)—light’s polarization is like the "orientation" of its electric field.  
+
+---
+
+## Why this matters  
+Polarization isn’t just a curiosity—it’s everywhere! Polarized sunglasses reduce glare by blocking reflected light. LCD screens use polarization to create colors. Even the light we see in the sky is partially polarized. Understanding polarization helps us explain these phenomena and design technologies that rely on it.  
+
+---
+
+## The simple picture  
+Think of light as a rope wave moving through space. The rope moves horizontally, but the wave itself shakes up and down or side to side. Light behaves similarly: its electric field oscillates in a specific direction, called its **polarization**.  
+
+- **Horizontal polarization**: Electric field shakes side-to-side.  
+- **Vertical polarization**: Electric field shakes up-and-down.  
+- **Diagonal polarization**: Electric field shakes at an angle (e.g., 45°).  
+
+This "orientation" of the electric field is what we call polarization.  
+
+---
+
+## The more precise picture  
+Light is an **electromagnetic wave**, meaning it consists of oscillating electric and magnetic fields. These fields are perpendicular to each other and to the direction the wave is traveling.  
+
+### Polarization axis  
+The **polarization axis** is the direction in which the electric field oscillates. For example:  
+- A **horizontal polarization axis** means the electric field shakes side-to-side.  
+- A **vertical polarization axis** means the electric field shakes up-and-down.  
+
+### Polarizers  
+A **polarizer** {polarizing filter} is a tool that blocks light unless its electric field oscillates in a specific direction. Imagine a grid of tiny slits aligned horizontally: only light with a horizontal electric field passes through.  
+
+### Malus’s Law  
+When polarized light passes through a polarizer, its brightness depends on the angle between the light’s polarization and the polarizer’s axis. This is described by **Malus’s Law** {intensity = I₀ cos²θ}:  
+- **I₀** is the initial brightness of the light.  
+- **θ** is the angle between the light’s polarization and the polarizer’s axis.  
+- **cos²θ** means the brightness drops to zero when the light is perpendicular to the polarizer (θ = 90°).  
+
+**Example**: If sunlight (unpolarized light) shines on a polarizer, only half the light passes through. If you rotate a second polarizer at 45°, it lets through 25% of the original light.  
+
+---
+
+## Common misconceptions  
+- ❌ "Polarization is about the direction light travels."  
+  → **Fix**: Polarization refers to the electric field’s direction, not the wave’s motion. Light always moves forward; its polarization is about how the electric field shakes.  
+
+- ❌ "All light is polarized."  
+  → **Fix**: Natural light (e.g., sunlight) is **unpolarized**, meaning its electric field oscillates in all directions. Only light reflected off surfaces or emitted by lasers is often polarized.  
+
+- ❌ "Polarization filters only block light."  
+  → **Fix**: Polarizers **transmit** light aligned with their axis and **block** light perpendicular to it. They don’t "absorb" light—they selectively allow certain orientations to pass.  
+
+---
+
+## How this connects to the rest of physics  
+Polarization is a key property of **transverse waves**, which are waves where oscillations are perpendicular to the direction of motion. This is true for electromagnetic waves (like light) but not for longitudinal waves (like sound). Understanding polarization helps explain phenomena like **interference** and **diffraction**, and it’s foundational for technologies like **antennas** and **optical fibers**.  
+
+---
+
+## Recap  
+- **Polarization** is the direction of the electric field’s oscillation in light.  
+- Light is a transverse wave, so its polarization is perpendicular to its motion.  
+- Polarizers block light unless its electric field aligns with the polarizer’s axis.  
+- Unpolarized light (like sunlight) has electric fields in all directions.  
+- Polarization is used in sunglasses, LCD screens, and even the sky’s light.  
+
+By understanding polarization, you unlock insights into how light interacts with the world—and how we can control it with tools like polarizing filters.
+
+RESPONSE:
+
+
+================================================================================
+TIME: 2026-05-05T02:07:52
+NODE: claim_extractor
+PROMPT_CHARS: 5535
+PROMPT_TOKENS_APPROX: 1383
+RESPONSE_CHARS: 1010
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.8}
+================================================================================
+PROMPT:
+Extract 8 to 12 important scientific or explanatory claims from this article draft.
+
+Return exactly one JSON object with this shape:
+{
+  "claims": [
+    {
+      "id": "C001",
+      "claim": "A clear standalone claim.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "brief reason",
+      "suggested_search_query": "stable physics source query"
+    }
+  ]
+}
+
+Rules:
+- Return a JSON object, not a list.
+- Do not return an empty list unless the draft is empty.
+- Use true/false, not True/False.
+- No Markdown fences.
+- No prose outside the JSON.
+- Prefer claims that matter for scientific correctness.
+- Include claims where an analogy could mislead.
+- Search queries should target stable sources: textbooks, lecture notes, CERN, Fermilab, NASA, DOE, NIST, or university pages.
+
+Article title: Polarization
+
+Draft:
+# Polarization
+
+## The core idea  
+Light is a wave, and like all waves, it has a direction of motion. But light is special: it’s a **transverse wave**, meaning its electric field (and magnetic field) oscillate perpendicular to the direction it’s moving. **Polarization** is the specific direction in which these electric field oscillations occur. Imagine shaking a rope side-to-side (horizontal polarization) or up-and-down (vertical polarization)—light’s polarization is like the "orientation" of its electric field.  
+
+---
+
+## Why this matters  
+Polarization isn’t just a curiosity—it’s everywhere! Polarized sunglasses reduce glare by blocking reflected light. LCD screens use polarization to create colors. Even the light we see in the sky is partially polarized. Understanding polarization helps us explain these phenomena and design technologies that rely on it.  
+
+---
+
+## The simple picture  
+Think of light as a rope wave moving through space. The rope moves horizontally, but the wave itself shakes up and down or side to side. Light behaves similarly: its electric field oscillates in a specific direction, called its **polarization**.  
+
+- **Horizontal polarization**: Electric field shakes side-to-side.  
+- **Vertical polarization**: Electric field shakes up-and-down.  
+- **Diagonal polarization**: Electric field shakes at an angle (e.g., 45°).  
+
+This "orientation" of the electric field is what we call polarization.  
+
+---
+
+## The more precise picture  
+Light is an **electromagnetic wave**, meaning it consists of oscillating electric and magnetic fields. These fields are perpendicular to each other and to the direction the wave is traveling.  
+
+### Polarization axis  
+The **polarization axis** is the direction in which the electric field oscillates. For example:  
+- A **horizontal polarization axis** means the electric field shakes side-to-side.  
+- A **vertical polarization axis** means the electric field shakes up-and-down.  
+
+### Polarizers  
+A **polarizer** {polarizing filter} is a tool that blocks light unless its electric field oscillates in a specific direction. Imagine a grid of tiny slits aligned horizontally: only light with a horizontal electric field passes through.  
+
+### Malus’s Law  
+When polarized light passes through a polarizer, its brightness depends on the angle between the light’s polarization and the polarizer’s axis. This is described by **Malus’s Law** {intensity = I₀ cos²θ}:  
+- **I₀** is the initial brightness of the light.  
+- **θ** is the angle between the light’s polarization and the polarizer’s axis.  
+- **cos²θ** means the brightness drops to zero when the light is perpendicular to the polarizer (θ = 90°).  
+
+**Example**: If sunlight (unpolarized light) shines on a polarizer, only half the light passes through. If you rotate a second polarizer at 45°, it lets through 25% of the original light.  
+
+---
+
+## Common misconceptions  
+- ❌ "Polarization is about the direction light travels."  
+  → **Fix**: Polarization refers to the electric field’s direction, not the wave’s motion. Light always moves forward; its polarization is about how the electric field shakes.  
+
+- ❌ "All light is polarized."  
+  → **Fix**: Natural light (e.g., sunlight) is **unpolarized**, meaning its electric field oscillates in all directions. Only light reflected off surfaces or emitted by lasers is often polarized.  
+
+- ❌ "Polarization filters only block light."  
+  → **Fix**: Polarizers **transmit** light aligned with their axis and **block** light perpendicular to it. They don’t "absorb" light—they selectively allow certain orientations to pass.  
+
+---
+
+## How this connects to the rest of physics  
+Polarization is a key property of **transverse waves**, which are waves where oscillations are perpendicular to the direction of motion. This is true for electromagnetic waves (like light) but not for longitudinal waves (like sound). Understanding polarization helps explain phenomena like **interference** and **diffraction**, and it’s foundational for technologies like **antennas** and **optical fibers**.  
+
+---
+
+## Recap  
+- **Polarization** is the direction of the electric field’s oscillation in light.  
+- Light is a transverse wave, so its polarization is perpendicular to its motion.  
+- Polarizers block light unless its electric field aligns with the polarizer’s axis.  
+- Unpolarized light (like sunlight) has electric fields in all directions.  
+- Polarization is used in sunglasses, LCD screens, and even the sky’s light.  
+
+By understanding polarization, you unlock insights into how light interacts with the world—and how we can control it with tools like polarizing filters.
+
+RESPONSE:
+{
+  "claims": [
+    {
+      "id": "C001",
+      "claim": "Light is a transverse wave with electric and magnetic fields oscillating perpendicular to its direction of motion.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Establishes the foundational wave nature of light and polarization.",
+      "suggested_search_query": "transverse electromagnetic waves physics textbook"
+    },
+    {
+      "id": "C002",
+      "claim": "Polarization refers to the specific direction of electric field oscillation in light waves.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Defines polarization as a core property of light.",
+      "suggested_search_query": "polarization definition physics"
+    },
+    {
+      "id": "C003",
+      "claim": "Polarization is analogous to shaking a rope horizontally (horizontal polarization) or vertically (vertical polarization).",
+      "type":
+
+================================================================================
+TIME: 2026-05-05T02:09:49
+NODE: claim_checker
+PROMPT_CHARS: 7287
+PROMPT_TOKENS_APPROX: 1821
+RESPONSE_CHARS: 610
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.8}
+================================================================================
+PROMPT:
+Check this one article claim against the available search snippet.
+
+Return JSON with this shape:
+{
+  "id": "C001",
+  "verdict": "supported | mostly_supported | needs_qualification | unsupported | contradicted | not_enough_evidence",
+  "severity": "none | low | medium | high",
+  "problem": "specific issue, or empty string",
+  "suggested_fix": "specific correction to the article, or empty string",
+  "source_quality_note": "brief note about whether the snippets look authoritative"
+}
+
+Rules:
+- Be conservative.
+- If the snippet is weak or absent, say not_enough_evidence.
+- Do not demand advanced nuance beyond the article's beginner scope.
+- Do flag misleading simplifications.
+- Focus on stable accepted physics.
+
+Article title: Polarization
+
+Claim:
+{
+  "id": "C001",
+  "claim": "# Polarization ## The core idea Light is a wave, and like all waves, it has a direction of motion.",
+  "type": "fallback-extracted",
+  "importance": "medium",
+  "needs_external_check": true,
+  "why_it_matters": "Automatically extracted fallback claim; review manually.",
+  "suggested_search_query": "Polarization # Polarization ## The core idea Light is a wave, and like all waves, it has physics lecture notes textbook explanation"
+}
+
+Search snippet:
+{
+  "claim": "# Polarization ## The core idea Light is a wave, and like all waves, it has a direction of motion.",
+  "query": "Polarization # Polarization ## The core idea Light is a wave, and like all waves, it has physics lecture notes textbook explanation",
+  "result_snippet": "Polarized light waves are light waves in which the vibrations occur in a single plane. The process of transforming unpolarized light into polarized light is known as polarization. Polarization is the attribute that wave oscillations have a definite direction relative to the direction of propagation of the wave. EM waves are transverse waves that may be polarized. Polaroids have this ability because of a wave characteristic of light called polarization. What is polarization? How is it produced? What are some of its uses? The answers to these questions are related to the wave character of light. Polarization refers to the orientation of the vibrations of a light wave. When the vibrations are mostly in one direction, the light is said to be polarized. Polarization is the attribute that wave oscillations have a definite direction relative to the direction of propagation of the wave. EM waves are transverse waves that may be polarized.",
+  "searched_at": "2026-05-05_02-07-53",
+  "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
+}
+
+Relevant draft context:
+# Polarization
+
+## The core idea  
+Light is a wave, and like all waves, it has a direction of motion. But light is special: it’s a **transverse wave**, meaning its electric field (and magnetic field) oscillate perpendicular to the direction it’s moving. **Polarization** is the specific direction in which these electric field oscillations occur. Imagine shaking a rope side-to-side (horizontal polarization) or up-and-down (vertical polarization)—light’s polarization is like the "orientation" of its electric field.  
+
+---
+
+## Why this matters  
+Polarization isn’t just a curiosity—it’s everywhere! Polarized sunglasses reduce glare by blocking reflected light. LCD screens use polarization to create colors. Even the light we see in the sky is partially polarized. Understanding polarization helps us explain these phenomena and design technologies that rely on it.  
+
+---
+
+## The simple picture  
+Think of light as a rope wave moving through space. The rope moves horizontally, but the wave itself shakes up and down or side to side. Light behaves similarly: its electric field oscillates in a specific direction, called its **polarization**.  
+
+- **Horizontal polarization**: Electric field shakes side-to-side.  
+- **Vertical polarization**: Electric field shakes up-and-down.  
+- **Diagonal polarization**: Electric field shakes at an angle (e.g., 45°).  
+
+This "orientation" of the electric field is what we call polarization.  
+
+---
+
+## The more precise picture  
+Light is an **electromagnetic wave**, meaning it consists of oscillating electric and magnetic fields. These fields are perpendicular to each other and to the direction the wave is traveling.  
+
+### Polarization axis  
+The **polarization axis** is the direction in which the electric field oscillates. For example:  
+- A **horizontal polarization axis** means the electric field shakes side-to-side.  
+- A **vertical polarization axis** means the electric field shakes up-and-down.  
+
+### Polarizers  
+A **polarizer** {polarizing filter} is a tool that blocks light unless its electric field oscillates in a specific direction. Imagine a grid of tiny slits aligned horizontally: only light with a horizontal electric field passes through.  
+
+### Malus’s Law  
+When polarized light passes through a polarizer, its brightness depends on the angle between the light’s polarization and the polarizer’s axis. This is described by **Malus’s Law** {intensity = I₀ cos²θ}:  
+- **I₀** is the initial brightness of the light.  
+- **θ** is the angle between the light’s polarization and the polarizer’s axis.  
+- **cos²θ** means the brightness drops to zero when the light is perpendicular to the polarizer (θ = 90°).  
+
+**Example**: If sunlight (unpolarized light) shines on a polarizer, only half the light passes through. If you rotate a second polarizer at 45°, it lets through 25% of the original light.  
+
+---
+
+## Common misconceptions  
+- ❌ "Polarization is about the direction light travels."  
+  → **Fix**: Polarization refers to the electric field’s direction, not the wave’s motion. Light always moves forward; its polarization is about how the electric field shakes.  
+
+- ❌ "All light is polarized."  
+  → **Fix**: Natural light (e.g., sunlight) is **unpolarized**, meaning its electric field oscillates in all directions. Only light reflected off surfaces or emitted by lasers is often polarized.  
+
+- ❌ "Polarization filters only block light."  
+  → **Fix**: Polarizers **transmit** light aligned with their axis and **block** light perpendicular to it. They don’t "absorb" light—they selectively allow certain orientations to pass.  
+
+---
+
+## How this connects to the rest of physics  
+Polarization is a key property of **transverse waves**, which are waves where oscillations are perpendicular to the direction of motion. This is true for electromagnetic waves (like light) but not for longitudinal waves (like sound). Understanding polarization helps explain phenomena like **interference** and **diffraction**, and it’s foundational for technologies like **antennas** and **optical fibers**.  
+
+---
+
+## Recap  
+- **Polarization** is the direction of the electric field’s oscillation in light.  
+- Light is a transverse wave, so its polarization is perpendicular to its motion.  
+- Polarizers block light unless its electric field aligns with the polarizer’s axis.  
+- Unpolarized light (like sunlight) has electric fields in all directions.  
+- Polarization is used in sunglasses, LCD screens, and even the sky’s light.  
+
+By understanding polarization, you unlock insights into how light interacts with the world—and how we can control it with tools like polarizing filters.
+
+RESPONSE:
+{
+  "id": "C001",
+  "verdict": "needs_qualification",
+  "severity": "medium",
+  "problem": "The claim conflates the direction of wave motion with polarization. Polarization specifically refers to the electric field's oscillation direction, not the wave's overall motion.",
+  "suggested_fix": "Clarify that polarization refers to the electric field's orientation perpendicular to the direction of propagation, not the wave's direction of travel.",
+  "source_quality_note": "The snippet comes from a physics education source explaining polarization as a wave property, which aligns with standard explanations."
+}
+
+================================================================================
+TIME: 2026-05-05T02:11:33
+NODE: claim_checker
+PROMPT_CHARS: 7882
+PROMPT_TOKENS_APPROX: 1970
+RESPONSE_CHARS: 251
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.8}
+================================================================================
+PROMPT:
+Check this one article claim against the available search snippet.
+
+Return JSON with this shape:
+{
+  "id": "C002",
+  "verdict": "supported | mostly_supported | needs_qualification | unsupported | contradicted | not_enough_evidence",
+  "severity": "none | low | medium | high",
+  "problem": "specific issue, or empty string",
+  "suggested_fix": "specific correction to the article, or empty string",
+  "source_quality_note": "brief note about whether the snippets look authoritative"
+}
+
+Rules:
+- Be conservative.
+- If the snippet is weak or absent, say not_enough_evidence.
+- Do not demand advanced nuance beyond the article's beginner scope.
+- Do flag misleading simplifications.
+- Focus on stable accepted physics.
+
+Article title: Polarization
+
+Claim:
+{
+  "id": "C002",
+  "claim": "But light is special: it’s a **transverse wave**, meaning its electric field (and magnetic field) oscillate perpendicular to the direction it’s moving.",
+  "type": "fallback-extracted",
+  "importance": "medium",
+  "needs_external_check": true,
+  "why_it_matters": "Automatically extracted fallback claim; review manually.",
+  "suggested_search_query": "Polarization But light is special: it’s a **transverse wave**, meaning its electric field (and magnetic field) oscillate physics lecture notes textbook explanation"
+}
+
+Search snippet:
+{
+  "claim": "But light is special: it’s a **transverse wave**, meaning its electric field (and magnetic field) oscillate perpendicular to the direction it’s moving.",
+  "query": "Polarization But light is special: it’s a **transverse wave**, meaning its electric field (and magnetic field) oscillate physics lecture notes textbook explanation",
+  "result_snippet": "Representation of the electric field vector of a wave of circularly polarized electromagnetic radiation In homogeneous, isotropic media, electromagnetic radiation is a transverse wave, [23] meaning that its oscillations are perpendicular to the direction of energy transfer and travel. It comes from the following equations: These equations predicate that any electromagnetic wave must be a ... Polarized light is light in which the electric field vector of the light is in the same phase and is perpendicular to the propagation of the light wave. The process of converting unpolarized light into polarized light is called polarization. Polarization is a property that is inherent to all vector waves. Light, as a transverse electromagnetic wave, has an electric field that oscillates perpendicular to the direction of propagation. Light is considered unpolarized when the direction of electric field... Polarization, property of certain electromagnetic radiations in which the direction and magnitude of the vibrating electric field are related in a specified way. Light waves are transverse: that is, the vibrating electric vector associated with each wave is perpendicular to the direction of Polarization in physics refers to the orientation of oscillations in a transverse wave, particularly the direction of the electric field in electromagnetic waves like light.",
+  "searched_at": "2026-05-05_02-07-55",
+  "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
+}
+
+Relevant draft context:
+# Polarization
+
+## The core idea  
+Light is a wave, and like all waves, it has a direction of motion. But light is special: it’s a **transverse wave**, meaning its electric field (and magnetic field) oscillate perpendicular to the direction it’s moving. **Polarization** is the specific direction in which these electric field oscillations occur. Imagine shaking a rope side-to-side (horizontal polarization) or up-and-down (vertical polarization)—light’s polarization is like the "orientation" of its electric field.  
+
+---
+
+## Why this matters  
+Polarization isn’t just a curiosity—it’s everywhere! Polarized sunglasses reduce glare by blocking reflected light. LCD screens use polarization to create colors. Even the light we see in the sky is partially polarized. Understanding polarization helps us explain these phenomena and design technologies that rely on it.  
+
+---
+
+## The simple picture  
+Think of light as a rope wave moving through space. The rope moves horizontally, but the wave itself shakes up and down or side to side. Light behaves similarly: its electric field oscillates in a specific direction, called its **polarization**.  
+
+- **Horizontal polarization**: Electric field shakes side-to-side.  
+- **Vertical polarization**: Electric field shakes up-and-down.  
+- **Diagonal polarization**: Electric field shakes at an angle (e.g., 45°).  
+
+This "orientation" of the electric field is what we call polarization.  
+
+---
+
+## The more precise picture  
+Light is an **electromagnetic wave**, meaning it consists of oscillating electric and magnetic fields. These fields are perpendicular to each other and to the direction the wave is traveling.  
+
+### Polarization axis  
+The **polarization axis** is the direction in which the electric field oscillates. For example:  
+- A **horizontal polarization axis** means the electric field shakes side-to-side.  
+- A **vertical polarization axis** means the electric field shakes up-and-down.  
+
+### Polarizers  
+A **polarizer** {polarizing filter} is a tool that blocks light unless its electric field oscillates in a specific direction. Imagine a grid of tiny slits aligned horizontally: only light with a horizontal electric field passes through.  
+
+### Malus’s Law  
+When polarized light passes through a polarizer, its brightness depends on the angle between the light’s polarization and the polarizer’s axis. This is described by **Malus’s Law** {intensity = I₀ cos²θ}:  
+- **I₀** is the initial brightness of the light.  
+- **θ** is the angle between the light’s polarization and the polarizer’s axis.  
+- **cos²θ** means the brightness drops to zero when the light is perpendicular to the polarizer (θ = 90°).  
+
+**Example**: If sunlight (unpolarized light) shines on a polarizer, only half the light passes through. If you rotate a second polarizer at 45°, it lets through 25% of the original light.  
+
+---
+
+## Common misconceptions  
+- ❌ "Polarization is about the direction light travels."  
+  → **Fix**: Polarization refers to the electric field’s direction, not the wave’s motion. Light always moves forward; its polarization is about how the electric field shakes.  
+
+- ❌ "All light is polarized."  
+  → **Fix**: Natural light (e.g., sunlight) is **unpolarized**, meaning its electric field oscillates in all directions. Only light reflected off surfaces or emitted by lasers is often polarized.  
+
+- ❌ "Polarization filters only block light."  
+  → **Fix**: Polarizers **transmit** light aligned with their axis and **block** light perpendicular to it. They don’t "absorb" light—they selectively allow certain orientations to pass.  
+
+---
+
+## How this connects to the rest of physics  
+Polarization is a key property of **transverse waves**, which are waves where oscillations are perpendicular to the direction of motion. This is true for electromagnetic waves (like light) but not for longitudinal waves (like sound). Understanding polarization helps explain phenomena like **interference** and **diffraction**, and it’s foundational for technologies like **antennas** and **optical fibers**.  
+
+---
+
+## Recap  
+- **Polarization** is the direction of the electric field’s oscillation in light.  
+- Light is a transverse wave, so its polarization is perpendicular to its motion.  
+- Polarizers block light unless its electric field aligns with the polarizer’s axis.  
+- Unpolarized light (like sunlight) has electric fields in all directions.  
+- Polarization is used in sunglasses, LCD screens, and even the sky’s light.  
+
+By understanding polarization, you unlock insights into how light interacts with the world—and how we can control it with tools like polarizing filters.
+
+RESPONSE:
+{
+  "id": "C002",
+  "verdict": "supported",
+  "severity": "low",
+  "problem": "",
+  "suggested_fix": "",
+  "source_quality_note": "The snippet references authoritative physics explanations about transverse waves and electromagnetic wave properties."
+}
+
+================================================================================
+TIME: 2026-05-05T02:13:06
+NODE: claim_checker
+PROMPT_CHARS: 7091
+PROMPT_TOKENS_APPROX: 1772
+RESPONSE_CHARS: 243
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.8}
+================================================================================
+PROMPT:
+Check this one article claim against the available search snippet.
+
+Return JSON with this shape:
+{
+  "id": "C003",
+  "verdict": "supported | mostly_supported | needs_qualification | unsupported | contradicted | not_enough_evidence",
+  "severity": "none | low | medium | high",
+  "problem": "specific issue, or empty string",
+  "suggested_fix": "specific correction to the article, or empty string",
+  "source_quality_note": "brief note about whether the snippets look authoritative"
+}
+
+Rules:
+- Be conservative.
+- If the snippet is weak or absent, say not_enough_evidence.
+- Do not demand advanced nuance beyond the article's beginner scope.
+- Do flag misleading simplifications.
+- Focus on stable accepted physics.
+
+Article title: Polarization
+
+Claim:
+{
+  "id": "C003",
+  "claim": "**Polarization** is the specific direction in which these electric field oscillations occur.",
+  "type": "fallback-extracted",
+  "importance": "medium",
+  "needs_external_check": true,
+  "why_it_matters": "Automatically extracted fallback claim; review manually.",
+  "suggested_search_query": "Polarization **Polarization** is the specific direction in which these electric field oscillations occur. physics lecture notes textbook explanation"
+}
+
+Search snippet:
+{
+  "claim": "**Polarization** is the specific direction in which these electric field oscillations occur.",
+  "query": "Polarization **Polarization** is the specific direction in which these electric field oscillations occur. physics lecture notes textbook explanation",
+  "result_snippet": "A \"vertically polarized\" electromagnetic wave of wavelength λ has its electric field vector E (red) oscillating in the vertical direction. A \"vertically polarized\" electromagnetic wave of wavelength λ has its electric field vector E (red) oscillating in the vertical direction. For electromagnetic (EM) waves in an isotropic medium (that is, a medium whose properties are independent of direction), the electric field vectors ... That physical direction of an oscillating field relative to the propagation direction is also referred to as the wave's polarization , which can be ... A \"vertically polarized\" electromagnetic wave of wavelength λ has its electric field vector E (red) oscillating in the vertical direction.",
+  "searched_at": "2026-05-05_02-07-57",
+  "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
+}
+
+Relevant draft context:
+# Polarization
+
+## The core idea  
+Light is a wave, and like all waves, it has a direction of motion. But light is special: it’s a **transverse wave**, meaning its electric field (and magnetic field) oscillate perpendicular to the direction it’s moving. **Polarization** is the specific direction in which these electric field oscillations occur. Imagine shaking a rope side-to-side (horizontal polarization) or up-and-down (vertical polarization)—light’s polarization is like the "orientation" of its electric field.  
+
+---
+
+## Why this matters  
+Polarization isn’t just a curiosity—it’s everywhere! Polarized sunglasses reduce glare by blocking reflected light. LCD screens use polarization to create colors. Even the light we see in the sky is partially polarized. Understanding polarization helps us explain these phenomena and design technologies that rely on it.  
+
+---
+
+## The simple picture  
+Think of light as a rope wave moving through space. The rope moves horizontally, but the wave itself shakes up and down or side to side. Light behaves similarly: its electric field oscillates in a specific direction, called its **polarization**.  
+
+- **Horizontal polarization**: Electric field shakes side-to-side.  
+- **Vertical polarization**: Electric field shakes up-and-down.  
+- **Diagonal polarization**: Electric field shakes at an angle (e.g., 45°).  
+
+This "orientation" of the electric field is what we call polarization.  
+
+---
+
+## The more precise picture  
+Light is an **electromagnetic wave**, meaning it consists of oscillating electric and magnetic fields. These fields are perpendicular to each other and to the direction the wave is traveling.  
+
+### Polarization axis  
+The **polarization axis** is the direction in which the electric field oscillates. For example:  
+- A **horizontal polarization axis** means the electric field shakes side-to-side.  
+- A **vertical polarization axis** means the electric field shakes up-and-down.  
+
+### Polarizers  
+A **polarizer** {polarizing filter} is a tool that blocks light unless its electric field oscillates in a specific direction. Imagine a grid of tiny slits aligned horizontally: only light with a horizontal electric field passes through.  
+
+### Malus’s Law  
+When polarized light passes through a polarizer, its brightness depends on the angle between the light’s polarization and the polarizer’s axis. This is described by **Malus’s Law** {intensity = I₀ cos²θ}:  
+- **I₀** is the initial brightness of the light.  
+- **θ** is the angle between the light’s polarization and the polarizer’s axis.  
+- **cos²θ** means the brightness drops to zero when the light is perpendicular to the polarizer (θ = 90°).  
+
+**Example**: If sunlight (unpolarized light) shines on a polarizer, only half the light passes through. If you rotate a second polarizer at 45°, it lets through 25% of the original light.  
+
+---
+
+## Common misconceptions  
+- ❌ "Polarization is about the direction light travels."  
+  → **Fix**: Polarization refers to the electric field’s direction, not the wave’s motion. Light always moves forward; its polarization is about how the electric field shakes.  
+
+- ❌ "All light is polarized."  
+  → **Fix**: Natural light (e.g., sunlight) is **unpolarized**, meaning its electric field oscillates in all directions. Only light reflected off surfaces or emitted by lasers is often polarized.  
+
+- ❌ "Polarization filters only block light."  
+  → **Fix**: Polarizers **transmit** light aligned with their axis and **block** light perpendicular to it. They don’t "absorb" light—they selectively allow certain orientations to pass.  
+
+---
+
+## How this connects to the rest of physics  
+Polarization is a key property of **transverse waves**, which are waves where oscillations are perpendicular to the direction of motion. This is true for electromagnetic waves (like light) but not for longitudinal waves (like sound). Understanding polarization helps explain phenomena like **interference** and **diffraction**, and it’s foundational for technologies like **antennas** and **optical fibers**.  
+
+---
+
+## Recap  
+- **Polarization** is the direction of the electric field’s oscillation in light.  
+- Light is a transverse wave, so its polarization is perpendicular to its motion.  
+- Polarizers block light unless its electric field aligns with the polarizer’s axis.  
+- Unpolarized light (like sunlight) has electric fields in all directions.  
+- Polarization is used in sunglasses, LCD screens, and even the sky’s light.  
+
+By understanding polarization, you unlock insights into how light interacts with the world—and how we can control it with tools like polarizing filters.
+
+RESPONSE:
+{
+  "id": "C003",
+  "verdict": "supported",
+  "severity": "none",
+  "problem": "",
+  "suggested_fix": "",
+  "source_quality_note": "The snippet appears to be from a stable physics education source discussing electromagnetic wave properties."
+}
+
+================================================================================
+TIME: 2026-05-05T02:18:52
+NODE: claim_revision
+PROMPT_CHARS: 6791
+PROMPT_TOKENS_APPROX: 1697
+RESPONSE_CHARS: 4980
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.8}
+================================================================================
+PROMPT:
+Revise the article once to address claim-check feedback.
+
+Do not rewrite for its own sake. Fix the scientific issues while preserving accessible language.
+
+Claim-check feedback:
+{
+  "claim_checks": [
+    {
+      "id": "C001",
+      "verdict": "needs_qualification",
+      "severity": "medium",
+      "problem": "The claim conflates the direction of wave motion with polarization. Polarization specifically refers to the electric field's oscillation direction, not the wave's overall motion.",
+      "suggested_fix": "Clarify that polarization refers to the electric field's orientation perpendicular to the direction of propagation, not the wave's direction of travel.",
+      "source_quality_note": "The snippet comes from a physics education source explaining polarization as a wave property, which aligns with standard explanations."
+    },
+    {
+      "id": "C002",
+      "verdict": "supported",
+      "severity": "low",
+      "problem": "",
+      "suggested_fix": "",
+      "source_quality_note": "The snippet references authoritative physics explanations about transverse waves and electromagnetic wave properties."
+    },
+    {
+      "id": "C003",
+      "verdict": "supported",
+      "severity": "none",
+      "problem": "",
+      "suggested_fix": "",
+      "source_quality_note": "The snippet appears to be from a stable physics education source discussing electromagnetic wave properties."
+    }
+  ],
+  "summary": {
+    "overall_claim_quality": "Claim check completed.",
+    "unresolved_or_needs_qualification": 1,
+    "highest_priority_fixes": [
+      "Clarify that polarization refers to the electric field's orientation perpendicular to the direction of propagation, not the wave's direction of travel."
+    ]
+  },
+  "last_updated": "2026-05-05_02-13-06"
+}
+
+Current draft:
+# Polarization
+
+## The core idea  
+Light is a wave, and like all waves, it has a direction of motion. But light is special: it’s a **transverse wave**, meaning its electric field (and magnetic field) oscillate perpendicular to the direction it’s moving. **Polarization** is the specific direction in which these electric field oscillations occur. Imagine shaking a rope side-to-side (horizontal polarization) or up-and-down (vertical polarization)—light’s polarization is like the "orientation" of its electric field.  
+
+---
+
+## Why this matters  
+Polarization isn’t just a curiosity—it’s everywhere! Polarized sunglasses reduce glare by blocking reflected light. LCD screens use polarization to create colors. Even the light we see in the sky is partially polarized. Understanding polarization helps us explain these phenomena and design technologies that rely on it.  
+
+---
+
+## The simple picture  
+Think of light as a rope wave moving through space. The rope moves horizontally, but the wave itself shakes up and down or side to side. Light behaves similarly: its electric field oscillates in a specific direction, called its **polarization**.  
+
+- **Horizontal polarization**: Electric field shakes side-to-side.  
+- **Vertical polarization**: Electric field shakes up-and-down.  
+- **Diagonal polarization**: Electric field shakes at an angle (e.g., 45°).  
+
+This "orientation" of the electric field is what we call polarization.  
+
+---
+
+## The more precise picture  
+Light is an **electromagnetic wave**, meaning it consists of oscillating electric and magnetic fields. These fields are perpendicular to each other and to the direction the wave is traveling.  
+
+### Polarization axis  
+The **polarization axis** is the direction in which the electric field oscillates. For example:  
+- A **horizontal polarization axis** means the electric field shakes side-to-side.  
+- A **vertical polarization axis** means the electric field shakes up-and-down.  
+
+### Polarizers  
+A **polarizer** {polarizing filter} is a tool that blocks light unless its electric field oscillates in a specific direction. Imagine a grid of tiny slits aligned horizontally: only light with a horizontal electric field passes through.  
+
+### Malus’s Law  
+When polarized light passes through a polarizer, its brightness depends on the angle between the light’s polarization and the polarizer’s axis. This is described by **Malus’s Law** {intensity = I₀ cos²θ}:  
+- **I₀** is the initial brightness of the light.  
+- **θ** is the angle between the light’s polarization and the polarizer’s axis.  
+- **cos²θ** means the brightness drops to zero when the light is perpendicular to the polarizer (θ = 90°).  
+
+**Example**: If sunlight (unpolarized light) shines on a polarizer, only half the light passes through. If you rotate a second polarizer at 45°, it lets through 25% of the original light.  
+
+---
+
+## Common misconceptions  
+- ❌ "Polarization is about the direction light travels."  
+  → **Fix**: Polarization refers to the electric field’s direction, not the wave’s motion. Light always moves forward; its polarization is about how the electric field shakes.  
+
+- ❌ "All light is polarized."  
+  → **Fix**: Natural light (e.g., sunlight) is **unpolarized**, meaning its electric field oscillates in all directions. Only light reflected off surfaces or emitted by lasers is often polarized.  
+
+- ❌ "Polarization filters only block light."  
+  → **Fix**: Polarizers **transmit** light aligned with their axis and **block** light perpendicular to it. They don’t "absorb" light—they selectively allow certain orientations to pass.  
+
+---
+
+## How this connects to the rest of physics  
+Polarization is a key property of **transverse waves**, which are waves where oscillations are perpendicular to the direction of motion. This is true for electromagnetic waves (like light) but not for longitudinal waves (like sound). Understanding polarization helps explain phenomena like **interference** and **diffraction**, and it’s foundational for technologies like **antennas** and **optical fibers**.  
+
+---
+
+## Recap  
+- **Polarization** is the direction of the electric field’s oscillation in light.  
+- Light is a transverse wave, so its polarization is perpendicular to its motion.  
+- Polarizers block light unless its electric field aligns with the polarizer’s axis.  
+- Unpolarized light (like sunlight) has electric fields in all directions.  
+- Polarization is used in sunglasses, LCD screens, and even the sky’s light.  
+
+By understanding polarization, you unlock insights into how light interacts with the world—and how we can control it with tools like polarizing filters.
+
+Instructions:
+- Correct or qualify unsupported, contradicted, or overstrong claims.
+- Preserve good accessible explanations.
+- Do not add speculative research as settled fact.
+- If an analogy was misleading, either repair it or state its limits.
+- Keep standard terms in braces after descriptive names.
+- Output only the revised article in Markdown.
+
+RESPONSE:
+# Polarization
+
+## The core idea  
+Light is a wave, and like all waves, it has a direction of motion. But light is special: it’s a **transverse wave**, meaning its electric field (and magnetic field) oscillate perpendicular to the direction it’s moving. **Polarization** is the specific direction in which these electric field oscillations occur. Imagine shaking a rope side-to-side (horizontal polarization) or up-and-down (vertical polarization)—light’s polarization is like the "orientation" of its electric field, **not** the direction the wave is traveling.  
+
+---
+
+## Why this matters  
+Polarization isn’t just a curiosity—it’s everywhere! Polarized sunglasses reduce glare by blocking reflected light. LCD screens use polarization to create colors. Even the light we see in the sky is partially polarized. Understanding polarization helps us explain these phenomena and design technologies that rely on it.  
+
+---
+
+## The simple picture  
+Think of light as a rope wave moving through space. The rope moves horizontally, but the wave itself shakes up and down or side to side. Light behaves similarly: its electric field oscillates in a specific direction, called its **polarization**.  
+
+- **Horizontal polarization**: Electric field shakes side-to-side.  
+- **Vertical polarization**: Electric field shakes up-and-down.  
+- **Diagonal polarization**: Electric field shakes at an angle (e.g., 45°).  
+
+This "orientation" of the electric field is what we call polarization. **Note**: The rope’s motion is the direction of the wave, while the shaking is the polarization—these are distinct directions.  
+
+---
+
+## The more precise picture  
+Light is an **electromagnetic wave**, meaning it consists of oscillating electric and magnetic fields. These fields are perpendicular to each other and to the direction the wave is traveling.  
+
+### Polarization axis  
+The **polarization axis** is the direction in which the electric field oscillates. For example:  
+- A **horizontal polarization axis** means the electric field shakes side-to-side.  
+- A **vertical polarization axis** means the electric field shakes up-and-down.  
+
+**Key clarification**: The polarization axis is always perpendicular to the direction the wave is moving. This is what makes light a transverse wave.  
+
+### Polarizers  
+A **polarizer** {polarizing filter} is a tool that blocks light unless its electric field oscillates in a specific direction. Imagine a grid of tiny slits aligned horizontally: only light with a horizontal electric field passes through.  
+
+### Malus’s Law  
+When polarized light passes through a polarizer, its brightness depends on the angle between the light’s polarization and the polarizer’s axis. This is described by **Malus’s Law** {intensity = I₀ cos²θ}:  
+- **I₀** is the initial brightness of the light.  
+- **θ** is the angle between the light’s polarization and the polarizer’s axis.  
+- **cos²θ** means the brightness drops to zero when the light is perpendicular to the polarizer (θ = 90°).  
+
+**Example**: If sunlight (unpolarized light) shines on a polarizer, only half the light passes through. If you rotate a second polarizer at 45°, it lets through 25% of the original light.  
+
+---
+
+## Common misconceptions  
+- ❌ "Polarization is about the direction light travels."  
+  → **Fix**: Polarization refers to the electric field’s direction, not the wave’s motion. Light always moves forward; its polarization is about how the electric field shakes.  
+
+- ❌ "All light is polarized."  
+  → **Fix**: Natural light (e.g., sunlight) is **unpolarized**, meaning its electric field oscillates in all directions. Only light reflected off surfaces or emitted by lasers is often polarized.  
+
+- ❌ "Polarization filters only block light."  
+  → **Fix**: Polarizers **transmit** light aligned with their axis and **block** light perpendicular to it. They don’t "absorb" light—they selectively allow certain orientations to pass.  
+
+---
+
+## How this connects to the rest of physics  
+Polarization is a key property of **transverse waves**, which are waves where oscillations are perpendicular to the direction of motion. This is true for electromagnetic waves (like light) but not for longitudinal waves (like sound). Understanding polarization helps explain phenomena like **interference** and **diffraction**, and it’s foundational for technologies like **antennas** and **optical fibers**.  
+
+---
+
+## Recap  
+- **Polarization** is the direction of the electric field’s oscillation in light.  
+- Light is a transverse wave, so its polarization is perpendicular to its motion.  
+- Polarizers block light unless its electric field aligns with the polarizer’s axis.  
+- Unpolarized light (like sunlight) has electric fields in all directions.  
+- Polarization is used in sunglasses, LCD screens, and even the sky’s light.  
+
+By understanding polarization, you unlock insights into how light interacts with the world—and how we can control it with tools like polarizing filters.
+
+================================================================================
+TIME: 2026-05-05T02:20:59
+NODE: term_collector
+PROMPT_CHARS: 5450
+PROMPT_TOKENS_APPROX: 1362
+RESPONSE_CHARS: 0
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.8}
+================================================================================
+PROMPT:
+Extract the descriptive-name candidates from this draft.
+
+Return JSON with this shape:
+{
+  "terms": [
+    {
+      "standard_term": "fermion",
+      "candidate_name": "space-occupier",
+      "context_quote": "short quote from the draft",
+      "usefulness": "why this name helps",
+      "risk": "how it could mislead, or empty string if low risk"
+    }
+  ]
+}
+
+Only include actual teaching-name candidates, especially phrases followed by standard terms in braces.
+
+Draft:
+# Polarization
+
+## The core idea  
+Light is a wave, and like all waves, it has a direction of motion. But light is special: it’s a **transverse wave**, meaning its electric field (and magnetic field) oscillate perpendicular to the direction it’s moving. **Polarization** is the specific direction in which these electric field oscillations occur. Imagine shaking a rope side-to-side (horizontal polarization) or up-and-down (vertical polarization)—light’s polarization is like the "orientation" of its electric field, **not** the direction the wave is traveling.  
+
+---
+
+## Why this matters  
+Polarization isn’t just a curiosity—it’s everywhere! Polarized sunglasses reduce glare by blocking reflected light. LCD screens use polarization to create colors. Even the light we see in the sky is partially polarized. Understanding polarization helps us explain these phenomena and design technologies that rely on it.  
+
+---
+
+## The simple picture  
+Think of light as a rope wave moving through space. The rope moves horizontally, but the wave itself shakes up and down or side to side. Light behaves similarly: its electric field oscillates in a specific direction, called its **polarization**.  
+
+- **Horizontal polarization**: Electric field shakes side-to-side.  
+- **Vertical polarization**: Electric field shakes up-and-down.  
+- **Diagonal polarization**: Electric field shakes at an angle (e.g., 45°).  
+
+This "orientation" of the electric field is what we call polarization. **Note**: The rope’s motion is the direction of the wave, while the shaking is the polarization—these are distinct directions.  
+
+---
+
+## The more precise picture  
+Light is an **electromagnetic wave**, meaning it consists of oscillating electric and magnetic fields. These fields are perpendicular to each other and to the direction the wave is traveling.  
+
+### Polarization axis  
+The **polarization axis** is the direction in which the electric field oscillates. For example:  
+- A **horizontal polarization axis** means the electric field shakes side-to-side.  
+- A **vertical polarization axis** means the electric field shakes up-and-down.  
+
+**Key clarification**: The polarization axis is always perpendicular to the direction the wave is moving. This is what makes light a transverse wave.  
+
+### Polarizers  
+A **polarizer** {polarizing filter} is a tool that blocks light unless its electric field oscillates in a specific direction. Imagine a grid of tiny slits aligned horizontally: only light with a horizontal electric field passes through.  
+
+### Malus’s Law  
+When polarized light passes through a polarizer, its brightness depends on the angle between the light’s polarization and the polarizer’s axis. This is described by **Malus’s Law** {intensity = I₀ cos²θ}:  
+- **I₀** is the initial brightness of the light.  
+- **θ** is the angle between the light’s polarization and the polarizer’s axis.  
+- **cos²θ** means the brightness drops to zero when the light is perpendicular to the polarizer (θ = 90°).  
+
+**Example**: If sunlight (unpolarized light) shines on a polarizer, only half the light passes through. If you rotate a second polarizer at 45°, it lets through 25% of the original light.  
+
+---
+
+## Common misconceptions  
+- ❌ "Polarization is about the direction light travels."  
+  → **Fix**: Polarization refers to the electric field’s direction, not the wave’s motion. Light always moves forward; its polarization is about how the electric field shakes.  
+
+- ❌ "All light is polarized."  
+  → **Fix**: Natural light (e.g., sunlight) is **unpolarized**, meaning its electric field oscillates in all directions. Only light reflected off surfaces or emitted by lasers is often polarized.  
+
+- ❌ "Polarization filters only block light."  
+  → **Fix**: Polarizers **transmit** light aligned with their axis and **block** light perpendicular to it. They don’t "absorb" light—they selectively allow certain orientations to pass.  
+
+---
+
+## How this connects to the rest of physics  
+Polarization is a key property of **transverse waves**, which are waves where oscillations are perpendicular to the direction of motion. This is true for electromagnetic waves (like light) but not for longitudinal waves (like sound). Understanding polarization helps explain phenomena like **interference** and **diffraction**, and it’s foundational for technologies like **antennas** and **optical fibers**.  
+
+---
+
+## Recap  
+- **Polarization** is the direction of the electric field’s oscillation in light.  
+- Light is a transverse wave, so its polarization is perpendicular to its motion.  
+- Polarizers block light unless its electric field aligns with the polarizer’s axis.  
+- Unpolarized light (like sunlight) has electric fields in all directions.  
+- Polarization is used in sunglasses, LCD screens, and even the sky’s light.  
+
+By understanding polarization, you unlock insights into how light interacts with the world—and how we can control it with tools like polarizing filters.
+
+RESPONSE:
+
+
+================================================================================
+TIME: 2026-05-05T02:24:44
+NODE: accessibility_judge
+PROMPT_CHARS: 7437
+PROMPT_TOKENS_APPROX: 1859
+RESPONSE_CHARS: 1389
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.8}
+================================================================================
+PROMPT:
+Evaluate this EasyPhysics article for accessibility.
+
+Return exactly one JSON object:
+{
+  "score": 1,
+  "pass": false,
+  "strengths": ["specific strength"],
+  "issues": [
+    {
+      "severity": "low | medium | high",
+      "location": "section name or short quote",
+      "problem": "specific accessibility issue",
+      "suggested_fix": "specific fix"
+    }
+  ],
+  "best_next_revision": "one concise paragraph"
+}
+
+Rubric:
+Accessibility score, 1-10:
+
+10 = Exceptional. A motivated high-schooler can follow the article's main arc without prior exposure.
+     Jargon is introduced only after intuition. Examples are vivid. Math is explained as meaning,
+     not just symbols. The article feels empowering and clear.
+
+9 = Publishable with light human editing. The main idea is easy to follow; jargon is mostly controlled;
+    analogies are helpful; sections flow logically; any math has a plain-language interpretation.
+
+8 = Strong draft. Mostly clear, but has a few dense sections, unexplained terms, abrupt transitions,
+    or analogies that need more setup.
+
+7 = Useful but uneven. A motivated reader could learn from it, but several passages need simplification,
+    clearer examples, or better sequencing.
+
+6 = Borderline. The article contains useful explanations, but assumes too much background or uses too much jargon.
+
+5 = Mixed. Some good paragraphs, but the structure or language would lose many target readers.
+
+4 = Hard to follow. Mostly written for someone who already knows the subject.
+
+3 = Very inaccessible. Dense, abstract, jargon-heavy, or poorly sequenced.
+
+2 = Barely useful to the target audience.
+
+1 = Fails the accessibility goal.
+
+Accessibility judge priorities:
+- Does the opening give the reader an intuitive foothold?
+- Are standard terms introduced after meaning, not before?
+- Are descriptive names useful rather than cutesy or misleading?
+- Are analogies concrete and then carefully limited?
+- Is any math explained in words?
+- Does the article avoid "spooky/magic/weird" framing while still acknowledging counterintuitive ideas?
+- Does each section make the next section easier?
+
+Rules:
+- Return an object, not a list.
+- Score must be an integer from 1 to 10.
+- A 9 means publishable with light human editing.
+- Do not give 9 or 10 if the opening is jargon-heavy.
+- Do not give 9 or 10 if math appears without plain-language interpretation.
+- Do not rewrite the article; only evaluate it.
+
+Article title: Polarization
+
+Draft:
+# Polarization
+
+## The core idea  
+Light is a wave, and like all waves, it has a direction of motion. But light is special: it’s a **transverse wave**, meaning its electric field (and magnetic field) oscillate perpendicular to the direction it’s moving. **Polarization** is the specific direction in which these electric field oscillations occur. Imagine shaking a rope side-to-side (horizontal polarization) or up-and-down (vertical polarization)—light’s polarization is like the "orientation" of its electric field, **not** the direction the wave is traveling.  
+
+---
+
+## Why this matters  
+Polarization isn’t just a curiosity—it’s everywhere! Polarized sunglasses reduce glare by blocking reflected light. LCD screens use polarization to create colors. Even the light we see in the sky is partially polarized. Understanding polarization helps us explain these phenomena and design technologies that rely on it.  
+
+---
+
+## The simple picture  
+Think of light as a rope wave moving through space. The rope moves horizontally, but the wave itself shakes up and down or side to side. Light behaves similarly: its electric field oscillates in a specific direction, called its **polarization**.  
+
+- **Horizontal polarization**: Electric field shakes side-to-side.  
+- **Vertical polarization**: Electric field shakes up-and-down.  
+- **Diagonal polarization**: Electric field shakes at an angle (e.g., 45°).  
+
+This "orientation" of the electric field is what we call polarization. **Note**: The rope’s motion is the direction of the wave, while the shaking is the polarization—these are distinct directions.  
+
+---
+
+## The more precise picture  
+Light is an **electromagnetic wave**, meaning it consists of oscillating electric and magnetic fields. These fields are perpendicular to each other and to the direction the wave is traveling.  
+
+### Polarization axis  
+The **polarization axis** is the direction in which the electric field oscillates. For example:  
+- A **horizontal polarization axis** means the electric field shakes side-to-side.  
+- A **vertical polarization axis** means the electric field shakes up-and-down.  
+
+**Key clarification**: The polarization axis is always perpendicular to the direction the wave is moving. This is what makes light a transverse wave.  
+
+### Polarizers  
+A **polarizer** {polarizing filter} is a tool that blocks light unless its electric field oscillates in a specific direction. Imagine a grid of tiny slits aligned horizontally: only light with a horizontal electric field passes through.  
+
+### Malus’s Law  
+When polarized light passes through a polarizer, its brightness depends on the angle between the light’s polarization and the polarizer’s axis. This is described by **Malus’s Law** {intensity = I₀ cos²θ}:  
+- **I₀** is the initial brightness of the light.  
+- **θ** is the angle between the light’s polarization and the polarizer’s axis.  
+- **cos²θ** means the brightness drops to zero when the light is perpendicular to the polarizer (θ = 90°).  
+
+**Example**: If sunlight (unpolarized light) shines on a polarizer, only half the light passes through. If you rotate a second polarizer at 45°, it lets through 25% of the original light.  
+
+---
+
+## Common misconceptions  
+- ❌ "Polarization is about the direction light travels."  
+  → **Fix**: Polarization refers to the electric field’s direction, not the wave’s motion. Light always moves forward; its polarization is about how the electric field shakes.  
+
+- ❌ "All light is polarized."  
+  → **Fix**: Natural light (e.g., sunlight) is **unpolarized**, meaning its electric field oscillates in all directions. Only light reflected off surfaces or emitted by lasers is often polarized.  
+
+- ❌ "Polarization filters only block light."  
+  → **Fix**: Polarizers **transmit** light aligned with their axis and **block** light perpendicular to it. They don’t "absorb" light—they selectively allow certain orientations to pass.  
+
+---
+
+## How this connects to the rest of physics  
+Polarization is a key property of **transverse waves**, which are waves where oscillations are perpendicular to the direction of motion. This is true for electromagnetic waves (like light) but not for longitudinal waves (like sound). Understanding polarization helps explain phenomena like **interference** and **diffraction**, and it’s foundational for technologies like **antennas** and **optical fibers**.  
+
+---
+
+## Recap  
+- **Polarization** is the direction of the electric field’s oscillation in light.  
+- Light is a transverse wave, so its polarization is perpendicular to its motion.  
+- Polarizers block light unless its electric field aligns with the polarizer’s axis.  
+- Unpolarized light (like sunlight) has electric fields in all directions.  
+- Polarization is used in sunglasses, LCD screens, and even the sky’s light.  
+
+By understanding polarization, you unlock insights into how light interacts with the world—and how we can control it with tools like polarizing filters.
+
+RESPONSE:
+{
+  "score": 1,
+  "pass": false,
+  "strengths": ["specific strength"],
+  "issues": [
+    {
+      "severity": "high",
+      "location": "The core idea",
+      "problem": "Jargon-heavy opening with unexplained terms like 'transverse wave' and 'electric field' without foundational context",
+      "suggested_fix": "Start with a simpler analogy of waves (e.g., water waves) before introducing electromagnetic waves"
+    },
+    {
+      "severity": "high",
+      "location": "The more precise picture",
+      "problem": "Math appears without plain-language interpretation (e.g., Malus’s Law equation) and lacks explanation of cosine squared",
+      "suggested_fix": "Add a visual explanation of how angle affects light intensity using a pie chart or analogy"
+    },
+    {
+      "severity": "medium",
+      "location": "Common misconceptions",
+      "problem": "Misconception examples assume prior knowledge of trigonometry (e.g., 45° polarizer example)",
+      "suggested_fix": "Replace numerical examples with qualitative descriptions of angle effects"
+    },
+    {
+      "severity": "high",
+      "location": "Opening",
+      "problem": "Critical concept 'transverse wave' is introduced without defining wave types (longitudinal vs transverse)",
+      "suggested_fix": "Add a simple diagram comparing rope waves (transverse) to sound waves (longitudinal)"
+    }
+  ],
+  "best_next_revision": "

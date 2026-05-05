@@ -1,0 +1,26 @@
+{
+  "score": 1,
+  "pass": false,
+  "strengths": ["logical flow connecting physics domains"],
+  "issues": [
+    {
+      "severity": "high",
+      "location": "core idea section",
+      "problem": "Critical terms like 'extremize', 'action', and 'expectation value' are introduced without definition or intuitive explanation",
+      "suggested_fix": "Add analogies like 'nature finds the most efficient path' for 'extremize' and explain 'action' as 'a measure of energy cost over time'"
+    },
+    {
+      "severity": "high",
+      "location": "key examples",
+      "problem": "Mathematical expressions appear without explanation of what they mean or why they're important",
+      "suggested_fix": "Break down integrals and wavefunction concepts with concrete examples like 'summing energy costs over time'"
+    },
+    {
+      "severity": "medium",
+      "location": "opening paragraph",
+      "problem": "Jargon-heavy opening lacks intuitive foothold for beginners",
+      "suggested_fix": "Start with a relatable analogy like 'nature's version of optimization' before introducing technical terms"
+    }
+  ],
+  "best_next_revision": "Revise to first explain optimization concepts with everyday examples, then define technical terms like 'action' and 'expectation value' using analogies, and break down mathematical expressions with plain-language interpretations before showing their physical significance."
+}

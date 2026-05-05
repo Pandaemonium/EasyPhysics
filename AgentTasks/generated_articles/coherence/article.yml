@@ -2,11 +2,14 @@ title: Coherence
 slug: coherence
 status: needs_revision
 finished: false
-iteration_count: 1
-accessibility_score: 8
-rigor_score: 9
-last_worked_on: '2026-05-04'
-last_completed_pass: 2026-05-04_11-41-47
+iteration_count: 3
+accessibility_score: 3
+rigor_score: 8
+last_worked_on: '2026-05-05'
+last_completed_pass: 2026-05-05_02-53-08
 needs:
 - accessibility_revision
+- rigor_revision
+- claim_review
 current_draft: draft.md
+last_error: 'LLMCallError("writer failed after 1 attempt(s): LLMCallError(''LLM_TIMEOUT_AFTER_480_SECONDS'')")'

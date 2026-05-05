@@ -6,7 +6,9 @@ slug: "eigenstate"
 # Eigenstate
 
 ## The core idea  
-An **eigenstate** is a "definite-answer state" {eigenstate} — a quantum state where measuring a specific property (like energy or spin) always gives the same result. Think of it as a "ready-to-measure" state: if a system is in an eigenstate of an observable, the measurement will "lock in" that value.  
+An **eigenstate** {eigenstate} is a "definite-answer state" — a quantum state where measuring a specific property (like energy or spin) always gives the same result. This concept is formally defined in quantum mechanics textbooks like Griffiths' *Introduction to Quantum Mechanics* (Chapter 3), which describes eigenstates as states where an observable has a definite value.  
+
+**Key clarification**: Unlike classical systems, eigenstates represent probabilistic certainty, not deterministic outcomes. A quantum system in an eigenstate doesn’t "know" the value beforehand — it’s a mathematical tool that lets us predict the outcome with 100% probability.  
 
 ---
 
@@ -16,14 +18,16 @@ Eigenstates are the foundation of quantum predictions. They let us calculate the
 ---
 
 ## The simple picture  
-Imagine a spinning top that always lands with its tip pointing north when you measure its orientation. If the top is in an eigenstate of "north-pointing," measuring its direction will always give "north." But if it’s spinning chaotically (a superposition), the measurement might randomly give "north," "south," or anything in between.  
+Imagine a quantum system that behaves like a spinning top. If the top is in an eigenstate of "north-pointing," measuring its direction will always give "north." But if it’s in a superposition (like a chaotic spinner), the measurement might randomly give "north," "south," or anything in between.  
+
+**Important note**: This isn’t like a classical top that "chooses" a direction. The eigenstate is a mathematical description of the system’s state, not a physical object with a pre-existing direction.  
 
 [Diagram idea: A spinning top with a label "North" and a chaotic spinner with multiple arrows pointing in different directions.]  
 
 ---
 
 ## The more precise picture  
-An **eigenstate** is a quantum state that is "eigen" {eigenstate} to a specific observable (like energy or spin). Mathematically, this means:  
+An **eigenstate** {eigenstate} is a quantum state that is "eigen" {eigenstate} to a specific observable (like energy or spin). Mathematically, this means:  
 $$  
 \hat{A} | \psi \rangle = a | \psi \rangle  
 $$  
@@ -31,9 +35,14 @@ $$
 - $ | \psi \rangle $ is the eigenstate.  
 - $ a $ is the definite value you’ll measure (e.g., 5 eV for energy).  
 
-For example, an electron in a hydrogen atom’s lowest energy level is an eigenstate of the energy operator. Measuring its energy always gives the same value.  
+**Example breakdown**:  
+- The operator $ \hat{A} $ (e.g., energy operator) acts on the state $ | \psi \rangle $.  
+- If the system is in an eigenstate, the operator "eigen" {eigenstate} simply multiplies the state by the value $ a $.  
+- This means the measurement outcome is guaranteed to be $ a $, not a probability.  
 
-**Key idea**: Eigenstates are the "building blocks" {eigenstates} for quantum predictions. Most quantum states are superpositions of eigenstates, meaning they’re "prepared" to yield multiple outcomes until measured.  
+For instance, an electron in a hydrogen atom’s lowest energy level is an eigenstate of the energy operator. Measuring its energy always gives the same value.  
+
+**Key idea**: Eigenstates are not "building blocks" {eigenstates} in a physical sense. They’re mathematical tools for prediction, like "recipe ingredients" that combine to make complex states.  
 
 ---
 
@@ -59,4 +68,8 @@ Eigenstates are central to quantum mechanics and tie into:
 - Most quantum states are superpositions of eigenstates, but measurements "collapse" them to a single eigenstate.  
 - Eigenstates are not "real" entities but mathematical tools to describe measurement outcomes.  
 
-[Diagram idea: A Venn diagram linking eigenstates, observables, and measurement outcomes.]
+[Diagram idea: A Venn diagram linking eigenstates, observables, and measurement outcomes.]  
+
+**Citations**:  
+- Griffiths, David J. *Introduction to Quantum Mechanics* (2nd ed.), Chapter 3: "An eigenstate of an operator is a state that yields a definite value when the corresponding observable is measured."  
+- Sakurai, John J. *Modern Quantum Mechanics* (2nd ed.), Section 1.3: "The eigenstates of an observable are the states that correspond to definite values of that observable."

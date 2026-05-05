@@ -2,51 +2,36 @@
   "claims": [
     {
       "id": "C001",
-      "claim": "Coherence is a property of waves that maintain a constant phase relationship over time and space.",
+      "claim": "Coherence is a constant phase relationship between waves over time and space.",
       "type": "definition",
       "importance": "high",
       "needs_external_check": true,
-      "why_it_matters": "Defines the fundamental concept enabling stable wave interference.",
-      "suggested_search_query": "coherence definition physics textbook"
+      "why_it_matters": "Defines the fundamental property enabling stable interference patterns.",
+      "suggested_search_query": "Coherence definition physics textbook"
     },
     {
       "id": "C002",
-      "claim": "Temporal coherence refers to a wave's ability to maintain phase consistency over time, correlating with its frequency bandwidth.",
+      "claim": "Temporal coherence refers to a wave maintaining phase consistency over time.",
       "type": "definition",
       "importance": "high",
       "needs_external_check": true,
-      "why_it_matters": "Critical for understanding laser operation and spectral analysis.",
-      "suggested_search_query": "temporal coherence physics"
+      "why_it_matters": "Critical for understanding laser light properties.",
+      "suggested_search_query": "Temporal coherence physics"
     },
     {
       "id": "C003",
-      "claim": "Spatial coherence describes a wave's phase consistency across space, requiring parallel wavefronts.",
+      "claim": "Spatial coherence describes phase consistency across different points in space.",
       "type": "definition",
       "importance": "high",
       "needs_external_check": true,
-      "why_it_matters": "Explains how lasers produce sharp interference patterns.",
-      "suggested_search_query": "spatial coherence optics"
+      "why_it_matters": "Explains why lasers produce sharp interference patterns.",
+      "suggested_search_query": "Spatial coherence physics"
     },
     {
       "id": "C004",
-      "claim": "Coherence is mathematically described by the phase difference equation Δφ = 2πΔx/λ for spatial coherence.",
-      "type": "mathematical",
-      "importance": "high",
-      "needs_external_check": true,
-      "why_it_matters": "Quantifies the condition for stable interference patterns.",
-      "suggested_search_query": "coherence phase difference formula"
-    },
-    {
-      "id": "C005",
-      "claim": "Coherence time (τ) and coherence length (L = cτ) quantify how long and far a wave remains coherent.",
+      "claim": "Coherence time (τ) is the duration a wave remains coherent, with coherence length L = cτ.",
       "type": "definition",
       "importance": "high",
       "needs_external_check": true,
-      "why_it_matters": "Essential for engineering applications like fiber optics.",
-      "suggested_search_query": "coherence time coherence length"
-    },
-    {
-      "id": "C006",
-      "claim": "Coherence is not related to wave intensity or brightness, but solely to phase consistency.",
-      "type": "correction",
-      "importance
+      "why_it_matters": "Quantifies coherence in practical applications.",
+      "suggested_search_query": "Coherence time coherence length"

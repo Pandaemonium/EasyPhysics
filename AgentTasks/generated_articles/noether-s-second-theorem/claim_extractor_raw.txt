@@ -1,0 +1,18 @@
+{
+  "claims": [
+    {
+      "id": "C001",
+      "claim": "Symmetries in the action ensure consistent physical laws across all scenarios, even when symmetries aren't directly visible in motion.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": false,
+      "why_it_matters": "This foundational principle underpins the consistency of physical laws in relativity and quantum field theory.",
+      "suggested_search_query": "Noether's theorem action symmetry physical laws"
+    },
+    {
+      "id": "C002",
+      "claim": "Noether's second theorem establishes that symmetries are inherently built into the mathematical structure of physics, shaping equations of motion.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": false,
+      "why_it_matters": "This explains how gauge symmetries (e.g., electromagnetism) generate

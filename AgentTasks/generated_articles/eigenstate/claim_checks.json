@@ -2,25 +2,37 @@
   "claim_checks": [
     {
       "id": "C001",
-      "verdict": "supported",
+      "verdict": "not_enough_evidence",
       "severity": "low",
-      "problem": "",
-      "suggested_fix": "",
-      "source_quality_note": "The snippet contains authoritative physics concepts about eigenstates and measurement outcomes, though it lacks direct quotation of the exact claim. The content aligns with standard quantum mechanics explanations."
+      "problem": "The search snippet lacks direct confirmation of the eigenstate definition; it references eigenstates in context but doesn't provide an explicit definition or authoritative explanation",
+      "suggested_fix": "Add a citation from a standard quantum mechanics textbook (e.g., Griffiths, Sakurai) that explicitly defines eigenstates as definite-answer states",
+      "source_quality_note": "The snippet appears to be a fragmented academic discussion rather than a direct definition from a textbook or lecture notes"
     },
     {
       "id": "C002",
-      "verdict": "supported",
-      "severity": "none",
-      "problem": "",
-      "suggested_fix": "",
-      "source_quality_note": "The snippet contains authoritative physics concepts like the eigenstate-eigenvalue link, though it's mixed with unrelated text."
+      "verdict": "not_enough_evidence",
+      "severity": "medium",
+      "problem": "Could not parse claim-checker output.",
+      "suggested_fix": "Review this claim manually.",
+      "source_quality_note": ""
+    },
+    {
+      "id": "C003",
+      "verdict": "not_enough_evidence",
+      "severity": "low",
+      "problem": "The search snippet contains no relevant content about eigenstates or quantum measurement outcomes",
+      "suggested_fix": "Search for physics textbooks or lecture notes that explicitly define eigenstates and their probabilistic properties",
+      "source_quality_note": "The snippet appears to be about lecture note organization rather than physics content"
     }
   ],
   "summary": {
     "overall_claim_quality": "Claim check completed.",
-    "unresolved_or_needs_qualification": 0,
-    "highest_priority_fixes": []
+    "unresolved_or_needs_qualification": 3,
+    "highest_priority_fixes": [
+      "Add a citation from a standard quantum mechanics textbook (e.g., Griffiths, Sakurai) that explicitly defines eigenstates as definite-answer states",
+      "Review this claim manually.",
+      "Search for physics textbooks or lecture notes that explicitly define eigenstates and their probabilistic properties"
+    ]
   },
-  "last_updated": "2026-05-04_10-13-41"
+  "last_updated": "2026-05-05_01-17-20"
 }

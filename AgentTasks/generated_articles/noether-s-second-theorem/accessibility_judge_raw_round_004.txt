@@ -1,0 +1,32 @@
+{
+  "score": 3,
+  "pass": false,
+  "strengths": ["mountain analogy", "diagram idea"],
+  "issues": [
+    {
+      "severity": "high",
+      "location": "core idea section",
+      "problem": "Jargon-heavy opening with unexplained terms like 'global symmetries' and 'conservation laws' without building intuition",
+      "suggested_fix": "Replace technical terms with analogies first, e.g., 'global symmetry' could be 'rules that apply everywhere at once like a universal game rule'"
+    },
+    {
+      "severity": "high",
+      "location": "why this matters section",
+      "problem": "Introduces 'local symmetries' and 'constraints' without defining them, assuming prior knowledge",
+      "suggested_fix": "Add concrete examples like 'gauge symmetry in electromagnetism' with simpler explanation of how it creates hidden rules"
+    },
+    {
+      "severity": "medium",
+      "location": "mathematical formulation",
+      "problem": "Equations appear without plain-language interpretation of symbols like ∂L/∂q",
+      "suggested_fix": "Add more analogies for each symbol, e.g., '∂L/∂q is like how the system reacts to position changes'"
+    },
+    {
+      "severity": "high",
+      "location": "pendulum example",
+      "problem": "Example is cut off and lacks connection to Noether's theorem explanation",
+      "suggested_fix": "Complete the example showing how time translation symmetry creates constraints in pendulum motion"
+    }
+  ],
+  "best_next_revision": "Start with a simple analogy of a game rulebook, explain symmetry types through relatable examples, and gradually introduce technical terms with visual metaphors before equations."
+}

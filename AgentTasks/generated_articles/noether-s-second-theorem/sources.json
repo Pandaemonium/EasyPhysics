@@ -1,3 +1,26 @@
 {
-  "sources_by_claim": {}
+  "sources_by_claim": {
+    "C001": {
+      "claim": "Just as a rulebook ensures a game is played fairly, symmetries in the action (the integral of the Lagrangian over time) ensure that a system’s behavior follows consistent rules.",
+      "query": "Noether's second theorem Just as a rulebook ensures a game is played fairly, symmetries in the action (the integral physics lecture notes textbook explanation",
+      "result_snippet": "Noether's theorem states that every continuous symmetry of the action of a physical system with conservative forces has a corresponding conservation law. This is the first of two theorems (see Noether's second theorem) published by the mathematician Emmy Noether in 1918. [1] The action of a physical system is the integral over time of a Lagrangian function, from which the system's behavior can ... More than that, Noether's theorem provides a systematic way to derive these conserved quantities directly from the symmetries. Many familiar conservation laws in physics correspond precisely to symmetries of the underlying dynamics. Through symmetry of the action under global spacetime translations, Noether's first theorem infamously entails an energy-momentum tensor (EMT) that is neither symmetric nor gauge-invariant. In a prior work [Phys. Rev. D 106, 125012 (2022)], I had obtained a symmetric and gauge-invariant EMT by using Noether's second theorem instead, with local spacetime translations as the symmetry group ... The last ones are referred to as strong Noether symmetries, and the ultimate objective is establishing the corresponding version of Noether's Theorem, linking them to their corresponding dissipated quantities. A similar partial analysis of these subjects but in the k -contact framework of action-dependent field theories is found in [28, 29]. Noether's theorem is kinda confusing, at least it was to me, for a while. Roughly, it says that for any continuous symmetry in a system, there's a conserved quantity.",
+      "searched_at": "2026-05-04_21-18-42",
+      "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
+    },
+    "C002": {
+      "claim": "## Why this matters Noether's second theorem explains how **symmetries are built into the mathematical structure of physics**.",
+      "query": "Noether's second theorem ## Why this matters Noether's second theorem explains how **symmetries are built into the mathematical structure physics lecture notes textbook explanation",
+      "result_snippet": "In the extension it explains why mass and matter exist, how the sun and the stars work, and the theory is therefore the ultimate basis of all other ... In the extension it explains why mass and matter exist, how the sun and the stars work, and the theory is therefore the ultimate basis of all other ... Symmetries understood as 'nodes' where nothing happens [fixed points] are to be contrasted with god (and so the universe) which is pure action, where ... Noether's theorem establishes a precise mathematical connection: every continuous symmetry of a physical system implies a conserved quantity. This simple rule explains everything from the structure of atoms to the stability of the matter we touch every day.",
+      "searched_at": "2026-05-04_21-18-44",
+      "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
+    },
+    "C003": {
+      "claim": "It ensures that physical laws are consistent across all scenarios, even when symmetries aren’t directly visible.",
+      "query": "Noether's second theorem It ensures that physical laws are consistent across all scenarios, even when symmetries aren’t directly visible. physics lecture notes textbook explanation",
+      "result_snippet": "Noether's theorem is used in theoretical physics and the calculus of variations. It reveals the fundamental relation between the symmetries of a physical system and the conservation laws. Homework:-What do you think of this idea? Have you heard of it before? -Maybe you’ve heard about things like super symmetry in physics- try find out how that... Emmy Noether showed that fundamental physical laws are just a consequence of simple symmetries.Noether discovered that conservation laws aren’t fundamental axioms of the universe. Instead, they emerge from deeper symmetries. Physical laws exhibit symmetry when they remain unchanged under certain transformations. Here are key examples: Time translation symmetry: Physical laws don’t change with time. An experiment performed today gives the same results as the same experiment tomorrow. Noether's second theorem generalizes point 3: gauge symmetries of the action correspond to redundant Euler-Lagrange equations, which lead to undetermined time evolution. The simplest example of Noether's second theorem in field theory is electromagnetism.",
+      "searched_at": "2026-05-04_21-18-46",
+      "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
+    }
+  },
+  "last_updated": "2026-05-04_21-18-47"
 }

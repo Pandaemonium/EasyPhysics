@@ -11,15 +11,24 @@
     },
     {
       "id": "C002",
-      "claim": "Imagine a prism splitting sunlight into a rainbow—this happens because blue light slows down more than red light in glass, making them bend at different angles.",
+      "claim": "This happens because the **refractive index** {n} of a material varies with wavelength—shorter wavelengths (blue light) slow more than longer ones (red light), making them bend at different angles.",
       "type": "fallback-extracted",
       "importance": "medium",
       "needs_external_check": true,
       "why_it_matters": "Automatically extracted fallback claim; review manually.",
-      "suggested_search_query": "Dispersion Imagine a prism splitting sunlight into a rainbow—this happens because blue light slows down more than physics lecture notes textbook explanation"
+      "suggested_search_query": "Dispersion This happens because the **refractive index** {n} of a material varies with wavelength—shorter wavelengths (blue light) physics lecture notes textbook explanation"
     },
     {
       "id": "C003",
+      "claim": "Imagine a prism splitting sunlight into a rainbow: this is dispersion in action.",
+      "type": "fallback-extracted",
+      "importance": "medium",
+      "needs_external_check": true,
+      "why_it_matters": "Automatically extracted fallback claim; review manually.",
+      "suggested_search_query": "Dispersion Imagine a prism splitting sunlight into a rainbow: this is dispersion in action. physics lecture notes textbook explanation"
+    },
+    {
+      "id": "C004",
       "claim": "## Why this matters Dispersion explains why light splits into colors, why rainbows form, and why lenses can blur images.",
       "type": "fallback-extracted",
       "importance": "medium",
@@ -28,7 +37,7 @@
       "suggested_search_query": "Dispersion ## Why this matters Dispersion explains why light splits into colors, why rainbows form, and why physics lecture notes textbook explanation"
     },
     {
-      "id": "C004",
+      "id": "C005",
       "claim": "It connects wave behavior to material properties, revealing how the same light can act differently depending on its wavelength.",
       "type": "fallback-extracted",
       "importance": "medium",
@@ -37,43 +46,34 @@
       "suggested_search_query": "Dispersion It connects wave behavior to material properties, revealing how the same light can act differently depending physics lecture notes textbook explanation"
     },
     {
-      "id": "C005",
-      "claim": "Shorter wavelengths (blue light) get stuck in the glass more than longer wavelengths (red light), causing them to slow down and bend more.",
+      "id": "C006",
+      "claim": "Shorter wavelengths (blue light) interact more with the material’s structure, slowing down more than longer wavelengths (red light).",
       "type": "fallback-extracted",
       "importance": "medium",
       "needs_external_check": true,
       "why_it_matters": "Automatically extracted fallback claim; review manually.",
-      "suggested_search_query": "Dispersion Shorter wavelengths (blue light) get stuck in the glass more than longer wavelengths (red light), causing physics lecture notes textbook explanation"
+      "suggested_search_query": "Dispersion Shorter wavelengths (blue light) interact more with the material’s structure, slowing down more than longer wavelengths physics lecture notes textbook explanation"
     },
     {
-      "id": "C006",
+      "id": "C007",
+      "claim": "This wave-based \"traffic jam\" causes them to bend by different amounts, creating a rainbow of colors.",
+      "type": "fallback-extracted",
+      "importance": "medium",
+      "needs_external_check": true,
+      "why_it_matters": "Automatically extracted fallback claim; review manually.",
+      "suggested_search_query": "Dispersion This wave-based \"traffic jam\" causes them to bend by different amounts, creating a rainbow of colors. physics lecture notes textbook explanation"
+    },
+    {
+      "id": "C008",
       "claim": "## The more precise picture **Wavelength-dependent refraction** {dispersion} occurs because the **refractive index** {n} of a material varies with wavelength.",
       "type": "fallback-extracted",
       "importance": "medium",
       "needs_external_check": true,
       "why_it_matters": "Automatically extracted fallback claim; review manually.",
       "suggested_search_query": "Dispersion ## The more precise picture **Wavelength-dependent refraction** {dispersion} occurs because the **refractive index** {n} of a physics lecture notes textbook explanation"
-    },
-    {
-      "id": "C007",
-      "claim": "- ❌ \"All colors bend the same way.\" → Refractive index varies with wavelength, so different colors bend by different amounts.",
-      "type": "fallback-extracted",
-      "importance": "medium",
-      "needs_external_check": true,
-      "why_it_matters": "Automatically extracted fallback claim; review manually.",
-      "suggested_search_query": "Dispersion - ❌ \"All colors bend the same way.\" → Refractive index varies with wavelength, so different physics lecture notes textbook explanation"
-    },
-    {
-      "id": "C008",
-      "claim": "- ❌ \"Dispersion is caused by light splitting into colors.\" → Dispersion *explains* why light splits into colors; it’s the underlying mechanism.",
-      "type": "fallback-extracted",
-      "importance": "medium",
-      "needs_external_check": true,
-      "why_it_matters": "Automatically extracted fallback claim; review manually.",
-      "suggested_search_query": "Dispersion - ❌ \"Dispersion is caused by light splitting into colors.\" → Dispersion *explains* why light splits physics lecture notes textbook explanation"
     }
   ],
-  "last_updated": "2026-05-04_11-02-25",
+  "last_updated": "2026-05-05_01-44-06",
   "count": 8,
   "parse_note": "No usable claims parsed from LLM output. Using deterministic fallback extraction from draft sentences."
 }

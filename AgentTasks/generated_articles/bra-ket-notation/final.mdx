@@ -18,6 +18,8 @@ This notation is essential for calculating probabilities in quantum mechanics. I
 ## The simple picture  
 Imagine a quantum state as a vector pointing in a direction of possibilities (a *ket*). A "measurement question" (a *bra*) asks, "How much of this vector points in the direction of state `|φ⟩`?" The answer, `⟨φ|ψ⟩`, is a probability amplitude—its square tells you the chance of measuring `|φ⟩`.
 
+**Note**: This analogy is simplified; quantum states are not classical vectors but elements of a complex Hilbert space. The vector metaphor helps visualize overlaps, but quantum states have additional structure (like complex phases) not captured by classical vectors.
+
 [Diagram idea: Draw a vector `|ψ⟩` as an arrow and a "measurement probe" `⟨φ|` as a question mark pointing in the same or opposite direction.]
 
 ---
@@ -30,7 +32,7 @@ Imagine a quantum state as a vector pointing in a direction of possibilities (a 
 ### Inner Products as Probability Amplitudes  
 The inner product `⟨φ|ψ⟩` is the **probability amplitude** for transitioning from `|ψ⟩` to `|φ⟩`. It’s calculated as:  
 `⟨φ|ψ⟩ = |φ⟩† |ψ⟩`  
-(where `†` means conjugate transpose).  
+(where `†` means **conjugate transposition**—a mathematical operation that flips the order of vectors and takes complex conjugates of their components).  
 
 ### Probability Calculation  
 The probability of measuring `|φ⟩` when the system is in `|ψ⟩` is:  
@@ -61,3 +63,7 @@ Bra-ket notation is foundational for quantum mechanics, enabling calculations of
 - The **inner product** `⟨φ|ψ⟩` is a probability amplitude.  
 - `|⟨φ|ψ⟩|²` gives the probability of measuring `|φ⟩` from `|ψ⟩`.  
 - Bra-ket notation simplifies quantum probability calculations.
+
+---
+
+**Footnote**: Bra-ket notation is rooted in the mathematics of **Hilbert spaces**—infinite-dimensional vector spaces where quantum states live. While the vector analogy is helpful for conceptual understanding, quantum states are not classical vectors. They are complex-valued functions (wavefunctions) that obey specific rules for superposition and measurement. The dagger operation (`†`) reflects the conjugate transposition needed to compute inner products in complex spaces.

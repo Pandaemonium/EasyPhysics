@@ -1,0 +1,33 @@
+{
+  "score": 1,
+  "pass": false,
+  "strengths": ["specific strength"],
+  "issues": [
+    {
+      "severity": "high",
+      "location": "opening paragraph",
+      "problem": "Jargon-heavy opening with no intuitive foothold. The term 'eigenstate' is introduced with braces before explaining its meaning, violating the core philosophy of teaching concepts first.",
+      "suggested_fix": "Replace the opening with a vivid analogy (e.g., 'quantum dice' or 'probability cloud') to establish intuition before introducing technical terms."
+    },
+    {
+      "severity": "high",
+      "location": "math section",
+      "problem": "Math appears without plain-language interpretation. The equation is presented as a black box without explaining what operators or eigenstates represent.",
+      "suggested_fix": "Add a paragraph explaining operators as 'measurement instructions' and eigenstates as 'states that follow those instructions perfectly.'"
+    },
+    {
+      "severity": "medium",
+      "location": "diagram ideas",
+      "problem": "Visual ideas are mentioned but not explained. Readers need to infer their purpose, which creates cognitive load.",
+      "suggested_fix": "Describe the diagrams in text (e.g., 'Imagine a spinning top that always points north when measured') to make visuals accessible without relying on diagrams."
+    },
+    {
+      "severity": "high",
+      "location": "terminology",
+      "problem": "Terms like 'eigen' and 'operator' are introduced without context. Braces are used for standard terms but not explained in plain language.",
+      "suggested_fix": "Define 'operator' as 'a rule for calculating measurement outcomes' and explain 'eigen' as 'a state that follows a rule perfectly.'"
+    },
+    {
+      "severity": "high",
+      "location": "misconceptions section",
+      "

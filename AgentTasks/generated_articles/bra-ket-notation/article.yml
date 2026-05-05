@@ -2,11 +2,13 @@ title: Bra-ket notation
 slug: bra-ket-notation
 status: needs_revision
 finished: false
-iteration_count: 1
-accessibility_score: 0
-rigor_score: 9
-last_worked_on: '2026-05-04'
-last_completed_pass: 2026-05-04_13-00-58
+iteration_count: 3
+accessibility_score: 3
+rigor_score: 0
+last_worked_on: '2026-05-05'
+last_completed_pass: 2026-05-05_04-19-35
 needs:
 - accessibility_revision
+- rigor_revision
 current_draft: draft.md
+last_error: 'LLMCallError("writer failed after 1 attempt(s): LLMCallError(''LLM_TIMEOUT_AFTER_480_SECONDS'')")'

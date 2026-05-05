@@ -1,0 +1,1047 @@
+
+================================================================================
+TIME: 2026-05-05T03:55:50
+NODE: writer
+PROMPT_CHARS: 4322
+PROMPT_TOKENS_APPROX: 1080
+RESPONSE_CHARS: 3862
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.8}
+================================================================================
+PROMPT:
+Revise this existing EasyPhysics article once.
+
+Title: Bra-ket notation
+
+Revision brief:
+- rigor score 9: The vector analogy for quantum states lacks explicit qualification of its limitations Suggested fix: Add a note clarifying that quantum states aren't classical vectors and that the analogy is simplified for conceptual understanding
+- rigor score 9: The dagger notation explanation is incomplete without context about conjugate transposition Suggested fix: Add a brief explanation of conjugate transposition as part of the inner product calculation
+- rigor next revision: Add a footnote clarifying the mathematical foundations of bra-ket notation and explicitly state the limitations of the vector analogy for quantum states.
+
+Human/editor notes:
+# Human/editor notes
+
+Add any preferences, corrections, or article-specific constraints here.
+
+
+Current draft:
+# Bra-ket Notation
+
+## The core idea  
+Bra-ket notation is a shorthand for quantum states and their interactions. It lets us write quantum states as *kets* (like `|ψ⟩`) and measurement questions as *bras* (like `⟨φ|`). The inner product `⟨φ|ψ⟩` encodes the probability amplitude for transitioning from state `|ψ⟩` to outcome `|φ⟩`, which squares to the probability of that outcome.
+
+---
+
+## Why this matters  
+This notation is essential for calculating probabilities in quantum mechanics. It simplifies writing and manipulating quantum states, making it easier to predict how measurements will affect systems like particles or photons.
+
+---
+
+## The simple picture  
+Imagine a quantum state as a vector pointing in a direction of possibilities (a *ket*). A "measurement question" (a *bra*) asks, "How much of this vector points in the direction of state `|φ⟩`?" The answer, `⟨φ|ψ⟩`, is a probability amplitude—its square tells you the chance of measuring `|φ⟩`.
+
+[Diagram idea: Draw a vector `|ψ⟩` as an arrow and a "measurement probe" `⟨φ|` as a question mark pointing in the same or opposite direction.]
+
+---
+
+## The more precise picture  
+### Kets and Bras  
+- A *ket* `|ψ⟩` represents a quantum state, like a vector in a space of possibilities.  
+- A *bra* `⟨φ|` represents a measurement question: "What is the chance of ending up in state `|φ⟩`?"  
+
+### Inner Products as Probability Amplitudes  
+The inner product `⟨φ|ψ⟩` is the **probability amplitude** for transitioning from `|ψ⟩` to `|φ⟩`. It’s calculated as:  
+`⟨φ|ψ⟩ = |φ⟩† |ψ⟩`  
+(where `†` means conjugate transpose).  
+
+### Probability Calculation  
+The probability of measuring `|φ⟩` when the system is in `|ψ⟩` is:  
+`P(measure |φ⟩) = |⟨φ|ψ⟩|²`  
+
+[Diagram idea: Show `⟨φ|ψ⟩` as the projection of `|ψ⟩` onto `|φ⟩`, with magnitude squared as the probability.]
+
+---
+
+## Common misconceptions  
+- ❌ "Bra-ket notation is just fancy vector notation"  
+  → It’s more than that—it encodes **probabilistic relationships** between states.  
+- ❌ "The inner product `⟨φ|ψ⟩` is the probability"  
+  → It’s the **probability amplitude**; the square of its magnitude is the probability.  
+- ❌ "Bra-ket notation only applies to quantum mechanics"  
+  → It’s also used in classical signal processing, but this article focuses on quantum contexts.  
+
+---
+
+## How this connects to the rest of physics  
+Bra-ket notation is foundational for quantum mechanics, enabling calculations of measurement outcomes and state overlaps. It underpins concepts like superposition, entanglement, and quantum computing. In broader physics, it connects to Hilbert spaces (advanced linear algebra) and the mathematical formalism of quantum field theory.
+
+---
+
+## Recap  
+- **Kets** (`|ψ⟩`) represent quantum states.  
+- **Bras** (`⟨φ|`) represent measurement questions.  
+- The **inner product** `⟨φ|ψ⟩` is a probability amplitude.  
+- `|⟨φ|ψ⟩|²` gives the probability of measuring `|φ⟩` from `|ψ⟩`.  
+- Bra-ket notation simplifies quantum probability calculations.
+
+Instructions:
+- Return the complete revised article in Markdown.
+- Do not start from scratch.
+- Preserve good explanations.
+- Fix only the most important clarity, structure, and rigor problems.
+- If a section is already good, leave it mostly alone.
+- Add qualifications where the current draft overclaims.
+- Make the opening more intuitive if needed.
+- Keep standard terms in braces after intuitive names.
+- Do not include commentary before or after the article.
+
+RESPONSE:
+# Bra-ket Notation
+
+## The core idea  
+Bra-ket notation is a shorthand for quantum states and their interactions. It lets us write quantum states as *kets* (like `|ψ⟩`) and measurement questions as *bras* (like `⟨φ|`). The inner product `⟨φ|ψ⟩` encodes the probability amplitude for transitioning from state `|ψ⟩` to outcome `|φ⟩`, which squares to the probability of that outcome.
+
+---
+
+## Why this matters  
+This notation is essential for calculating probabilities in quantum mechanics. It simplifies writing and manipulating quantum states, making it easier to predict how measurements will affect systems like particles or photons.
+
+---
+
+## The simple picture  
+Imagine a quantum state as a vector pointing in a direction of possibilities (a *ket*). A "measurement question" (a *bra*) asks, "How much of this vector points in the direction of state `|φ⟩`?" The answer, `⟨φ|ψ⟩`, is a probability amplitude—its square tells you the chance of measuring `|φ⟩`.
+
+**Note**: This analogy is simplified; quantum states are not classical vectors but elements of a complex Hilbert space. The vector metaphor helps visualize overlaps, but quantum states have additional structure (like complex phases) not captured by classical vectors.
+
+[Diagram idea: Draw a vector `|ψ⟩` as an arrow and a "measurement probe" `⟨φ|` as a question mark pointing in the same or opposite direction.]
+
+---
+
+## The more precise picture  
+### Kets and Bras  
+- A *ket* `|ψ⟩` represents a quantum state, like a vector in a space of possibilities.  
+- A *bra* `⟨φ|` represents a measurement question: "What is the chance of ending up in state `|φ⟩`?"  
+
+### Inner Products as Probability Amplitudes  
+The inner product `⟨φ|ψ⟩` is the **probability amplitude** for transitioning from `|ψ⟩` to `|φ⟩`. It’s calculated as:  
+`⟨φ|ψ⟩ = |φ⟩† |ψ⟩`  
+(where `†` means **conjugate transposition**—a mathematical operation that flips the order of vectors and takes complex conjugates of their components).  
+
+### Probability Calculation  
+The probability of measuring `|φ⟩` when the system is in `|ψ⟩` is:  
+`P(measure |φ⟩) = |⟨φ|ψ⟩|²`  
+
+[Diagram idea: Show `⟨φ|ψ⟩` as the projection of `|ψ⟩` onto `|φ⟩`, with magnitude squared as the probability.]
+
+---
+
+## Common misconceptions  
+- ❌ "Bra-ket notation is just fancy vector notation"  
+  → It’s more than that—it encodes **probabilistic relationships** between states.  
+- ❌ "The inner product `⟨φ|ψ⟩` is the probability"  
+  → It’s the **probability amplitude**; the square of its magnitude is the probability.  
+- ❌ "Bra-ket notation only applies to quantum mechanics"  
+  → It’s also used in classical signal processing, but this article focuses on quantum contexts.  
+
+---
+
+## How this connects to the rest of physics  
+Bra-ket notation is foundational for quantum mechanics, enabling calculations of measurement outcomes and state overlaps. It underpins concepts like superposition, entanglement, and quantum computing. In broader physics, it connects to Hilbert spaces (advanced linear algebra) and the mathematical formalism of quantum field theory.
+
+---
+
+## Recap  
+- **Kets** (`|ψ⟩`) represent quantum states.  
+- **Bras** (`⟨φ|`) represent measurement questions.  
+- The **inner product** `⟨φ|ψ⟩` is a probability amplitude.  
+- `|⟨φ|ψ⟩|²` gives the probability of measuring `|φ⟩` from `|ψ⟩`.  
+- Bra-ket notation simplifies quantum probability calculations.
+
+---
+
+**Footnote**: Bra-ket notation is rooted in the mathematics of **Hilbert spaces**—infinite-dimensional vector spaces where quantum states live. While the vector analogy is helpful for conceptual understanding, quantum states are not classical vectors. They are complex-valued functions (wavefunctions) that obey specific rules for superposition and measurement. The dagger operation (`†`) reflects the conjugate transposition needed to compute inner products in complex spaces.
+
+================================================================================
+TIME: 2026-05-05T03:57:48
+NODE: term_collector
+PROMPT_CHARS: 4332
+PROMPT_TOKENS_APPROX: 1083
+RESPONSE_CHARS: 0
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.8}
+================================================================================
+PROMPT:
+Extract the descriptive-name candidates from this draft.
+
+Return JSON with this shape:
+{
+  "terms": [
+    {
+      "standard_term": "fermion",
+      "candidate_name": "space-occupier",
+      "context_quote": "short quote from the draft",
+      "usefulness": "why this name helps",
+      "risk": "how it could mislead, or empty string if low risk"
+    }
+  ]
+}
+
+Only include actual teaching-name candidates, especially phrases followed by standard terms in braces.
+
+Draft:
+# Bra-ket Notation
+
+## The core idea  
+Bra-ket notation is a shorthand for quantum states and their interactions. It lets us write quantum states as *kets* (like `|ψ⟩`) and measurement questions as *bras* (like `⟨φ|`). The inner product `⟨φ|ψ⟩` encodes the probability amplitude for transitioning from state `|ψ⟩` to outcome `|φ⟩`, which squares to the probability of that outcome.
+
+---
+
+## Why this matters  
+This notation is essential for calculating probabilities in quantum mechanics. It simplifies writing and manipulating quantum states, making it easier to predict how measurements will affect systems like particles or photons.
+
+---
+
+## The simple picture  
+Imagine a quantum state as a vector pointing in a direction of possibilities (a *ket*). A "measurement question" (a *bra*) asks, "How much of this vector points in the direction of state `|φ⟩`?" The answer, `⟨φ|ψ⟩`, is a probability amplitude—its square tells you the chance of measuring `|φ⟩`.
+
+**Note**: This analogy is simplified; quantum states are not classical vectors but elements of a complex Hilbert space. The vector metaphor helps visualize overlaps, but quantum states have additional structure (like complex phases) not captured by classical vectors.
+
+[Diagram idea: Draw a vector `|ψ⟩` as an arrow and a "measurement probe" `⟨φ|` as a question mark pointing in the same or opposite direction.]
+
+---
+
+## The more precise picture  
+### Kets and Bras  
+- A *ket* `|ψ⟩` represents a quantum state, like a vector in a space of possibilities.  
+- A *bra* `⟨φ|` represents a measurement question: "What is the chance of ending up in state `|φ⟩`?"  
+
+### Inner Products as Probability Amplitudes  
+The inner product `⟨φ|ψ⟩` is the **probability amplitude** for transitioning from `|ψ⟩` to `|φ⟩`. It’s calculated as:  
+`⟨φ|ψ⟩ = |φ⟩† |ψ⟩`  
+(where `†` means **conjugate transposition**—a mathematical operation that flips the order of vectors and takes complex conjugates of their components).  
+
+### Probability Calculation  
+The probability of measuring `|φ⟩` when the system is in `|ψ⟩` is:  
+`P(measure |φ⟩) = |⟨φ|ψ⟩|²`  
+
+[Diagram idea: Show `⟨φ|ψ⟩` as the projection of `|ψ⟩` onto `|φ⟩`, with magnitude squared as the probability.]
+
+---
+
+## Common misconceptions  
+- ❌ "Bra-ket notation is just fancy vector notation"  
+  → It’s more than that—it encodes **probabilistic relationships** between states.  
+- ❌ "The inner product `⟨φ|ψ⟩` is the probability"  
+  → It’s the **probability amplitude**; the square of its magnitude is the probability.  
+- ❌ "Bra-ket notation only applies to quantum mechanics"  
+  → It’s also used in classical signal processing, but this article focuses on quantum contexts.  
+
+---
+
+## How this connects to the rest of physics  
+Bra-ket notation is foundational for quantum mechanics, enabling calculations of measurement outcomes and state overlaps. It underpins concepts like superposition, entanglement, and quantum computing. In broader physics, it connects to Hilbert spaces (advanced linear algebra) and the mathematical formalism of quantum field theory.
+
+---
+
+## Recap  
+- **Kets** (`|ψ⟩`) represent quantum states.  
+- **Bras** (`⟨φ|`) represent measurement questions.  
+- The **inner product** `⟨φ|ψ⟩` is a probability amplitude.  
+- `|⟨φ|ψ⟩|²` gives the probability of measuring `|φ⟩` from `|ψ⟩`.  
+- Bra-ket notation simplifies quantum probability calculations.
+
+---
+
+**Footnote**: Bra-ket notation is rooted in the mathematics of **Hilbert spaces**—infinite-dimensional vector spaces where quantum states live. While the vector analogy is helpful for conceptual understanding, quantum states are not classical vectors. They are complex-valued functions (wavefunctions) that obey specific rules for superposition and measurement. The dagger operation (`†`) reflects the conjugate transposition needed to compute inner products in complex spaces.
+
+RESPONSE:
+
+
+================================================================================
+TIME: 2026-05-05T04:00:38
+NODE: claim_extractor
+PROMPT_CHARS: 4746
+PROMPT_TOKENS_APPROX: 1186
+RESPONSE_CHARS: 1062
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.8}
+================================================================================
+PROMPT:
+Extract 8 to 12 important scientific or explanatory claims from this article draft.
+
+Return exactly one JSON object with this shape:
+{
+  "claims": [
+    {
+      "id": "C001",
+      "claim": "A clear standalone claim.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "brief reason",
+      "suggested_search_query": "stable physics source query"
+    }
+  ]
+}
+
+Rules:
+- Return a JSON object, not a list.
+- Do not return an empty list unless the draft is empty.
+- Use true/false, not True/False.
+- No Markdown fences.
+- No prose outside the JSON.
+- Prefer claims that matter for scientific correctness.
+- Include claims where an analogy could mislead.
+- Search queries should target stable sources: textbooks, lecture notes, CERN, Fermilab, NASA, DOE, NIST, or university pages.
+
+Article title: Bra-ket notation
+
+Draft:
+# Bra-ket Notation
+
+## The core idea  
+Bra-ket notation is a shorthand for quantum states and their interactions. It lets us write quantum states as *kets* (like `|ψ⟩`) and measurement questions as *bras* (like `⟨φ|`). The inner product `⟨φ|ψ⟩` encodes the probability amplitude for transitioning from state `|ψ⟩` to outcome `|φ⟩`, which squares to the probability of that outcome.
+
+---
+
+## Why this matters  
+This notation is essential for calculating probabilities in quantum mechanics. It simplifies writing and manipulating quantum states, making it easier to predict how measurements will affect systems like particles or photons.
+
+---
+
+## The simple picture  
+Imagine a quantum state as a vector pointing in a direction of possibilities (a *ket*). A "measurement question" (a *bra*) asks, "How much of this vector points in the direction of state `|φ⟩`?" The answer, `⟨φ|ψ⟩`, is a probability amplitude—its square tells you the chance of measuring `|φ⟩`.
+
+**Note**: This analogy is simplified; quantum states are not classical vectors but elements of a complex Hilbert space. The vector metaphor helps visualize overlaps, but quantum states have additional structure (like complex phases) not captured by classical vectors.
+
+[Diagram idea: Draw a vector `|ψ⟩` as an arrow and a "measurement probe" `⟨φ|` as a question mark pointing in the same or opposite direction.]
+
+---
+
+## The more precise picture  
+### Kets and Bras  
+- A *ket* `|ψ⟩` represents a quantum state, like a vector in a space of possibilities.  
+- A *bra* `⟨φ|` represents a measurement question: "What is the chance of ending up in state `|φ⟩`?"  
+
+### Inner Products as Probability Amplitudes  
+The inner product `⟨φ|ψ⟩` is the **probability amplitude** for transitioning from `|ψ⟩` to `|φ⟩`. It’s calculated as:  
+`⟨φ|ψ⟩ = |φ⟩† |ψ⟩`  
+(where `†` means **conjugate transposition**—a mathematical operation that flips the order of vectors and takes complex conjugates of their components).  
+
+### Probability Calculation  
+The probability of measuring `|φ⟩` when the system is in `|ψ⟩` is:  
+`P(measure |φ⟩) = |⟨φ|ψ⟩|²`  
+
+[Diagram idea: Show `⟨φ|ψ⟩` as the projection of `|ψ⟩` onto `|φ⟩`, with magnitude squared as the probability.]
+
+---
+
+## Common misconceptions  
+- ❌ "Bra-ket notation is just fancy vector notation"  
+  → It’s more than that—it encodes **probabilistic relationships** between states.  
+- ❌ "The inner product `⟨φ|ψ⟩` is the probability"  
+  → It’s the **probability amplitude**; the square of its magnitude is the probability.  
+- ❌ "Bra-ket notation only applies to quantum mechanics"  
+  → It’s also used in classical signal processing, but this article focuses on quantum contexts.  
+
+---
+
+## How this connects to the rest of physics  
+Bra-ket notation is foundational for quantum mechanics, enabling calculations of measurement outcomes and state overlaps. It underpins concepts like superposition, entanglement, and quantum computing. In broader physics, it connects to Hilbert spaces (advanced linear algebra) and the mathematical formalism of quantum field theory.
+
+---
+
+## Recap  
+- **Kets** (`|ψ⟩`) represent quantum states.  
+- **Bras** (`⟨φ|`) represent measurement questions.  
+- The **inner product** `⟨φ|ψ⟩` is a probability amplitude.  
+- `|⟨φ|ψ⟩|²` gives the probability of measuring `|φ⟩` from `|ψ⟩`.  
+- Bra-ket notation simplifies quantum probability calculations.
+
+---
+
+**Footnote**: Bra-ket notation is rooted in the mathematics of **Hilbert spaces**—infinite-dimensional vector spaces where quantum states live. While the vector analogy is helpful for conceptual understanding, quantum states are not classical vectors. They are complex-valued functions (wavefunctions) that obey specific rules for superposition and measurement. The dagger operation (`†`) reflects the conjugate transposition needed to compute inner products in complex spaces.
+
+RESPONSE:
+{
+  "claims": [
+    {
+      "id": "C001",
+      "claim": "Bra-ket notation is a shorthand for quantum states and their interactions.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Establishes the core purpose of bra-ket notation in quantum mechanics.",
+      "suggested_search_query": "bra-ket notation definition quantum mechanics"
+    },
+    {
+      "id": "C002",
+      "claim": "The inner product ⟨φ|ψ⟩ encodes the probability amplitude for transitioning from state |ψ⟩ to outcome |φ⟩.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Defines the mathematical relationship between states and measurement outcomes.",
+      "suggested_search_query": "quantum mechanics inner product probability amplitude"
+    },
+    {
+      "id": "C003",
+      "claim": "The probability of measuring |φ⟩ from |ψ⟩ is |⟨φ|ψ⟩|².",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_m
+
+================================================================================
+TIME: 2026-05-05T04:02:40
+NODE: claim_checker
+PROMPT_CHARS: 6627
+PROMPT_TOKENS_APPROX: 1656
+RESPONSE_CHARS: 671
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.8}
+================================================================================
+PROMPT:
+Check this one article claim against the available search snippet.
+
+Return JSON with this shape:
+{
+  "id": "C001",
+  "verdict": "supported | mostly_supported | needs_qualification | unsupported | contradicted | not_enough_evidence",
+  "severity": "none | low | medium | high",
+  "problem": "specific issue, or empty string",
+  "suggested_fix": "specific correction to the article, or empty string",
+  "source_quality_note": "brief note about whether the snippets look authoritative"
+}
+
+Rules:
+- Be conservative.
+- If the snippet is weak or absent, say not_enough_evidence.
+- Do not demand advanced nuance beyond the article's beginner scope.
+- Do flag misleading simplifications.
+- Focus on stable accepted physics.
+
+Article title: Bra-ket notation
+
+Claim:
+{
+  "id": "C001",
+  "claim": "# Bra-ket Notation ## The core idea Bra-ket notation is a shorthand for quantum states and their interactions.",
+  "type": "fallback-extracted",
+  "importance": "medium",
+  "needs_external_check": true,
+  "why_it_matters": "Automatically extracted fallback claim; review manually.",
+  "suggested_search_query": "Bra-ket notation # Bra-ket Notation ## The core idea Bra-ket notation is a shorthand for quantum states and physics lecture notes textbook explanation"
+}
+
+Search snippet:
+{
+  "claim": "# Bra-ket Notation ## The core idea Bra-ket notation is a shorthand for quantum states and their interactions.",
+  "query": "Bra-ket notation # Bra-ket Notation ## The core idea Bra-ket notation is a shorthand for quantum states and physics lecture notes textbook explanation",
+  "result_snippet": "Bra–ket notation or Dirac notation is a notation for linear algebra and linear operators on complex vector spaces together with their dual spaces both in the finite- and infinite-dimensional cases. In this video I start by making an analogy about our emotions as emotional states and continue to introduce a powerful and compact mathematical framework tha... Bra-ket notation is the standard in any quantum mechanics context, not just quantum computation.The first thing that bra-ket notation is really used a lot for is to denote very simply the eigenvectors of a (usually Hermitian) operator associated with an eigenvalue. Bra-ket notation is a standard notation for describing quantum states in the theory of quantum mechanics composed of angle brackets and vertical bars. It can also be used to denote abstract vectors … The magic of bra-ket notation is that the rules of matrix multiplication, when you apply them to kets and bras, produce exactly four kinds of object. Each kind has a natural Dirac shape.",
+  "searched_at": "2026-05-05_04-00-40",
+  "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
+}
+
+Relevant draft context:
+# Bra-ket Notation
+
+## The core idea  
+Bra-ket notation is a shorthand for quantum states and their interactions. It lets us write quantum states as *kets* (like `|ψ⟩`) and measurement questions as *bras* (like `⟨φ|`). The inner product `⟨φ|ψ⟩` encodes the probability amplitude for transitioning from state `|ψ⟩` to outcome `|φ⟩`, which squares to the probability of that outcome.
+
+---
+
+## Why this matters  
+This notation is essential for calculating probabilities in quantum mechanics. It simplifies writing and manipulating quantum states, making it easier to predict how measurements will affect systems like particles or photons.
+
+---
+
+## The simple picture  
+Imagine a quantum state as a vector pointing in a direction of possibilities (a *ket*). A "measurement question" (a *bra*) asks, "How much of this vector points in the direction of state `|φ⟩`?" The answer, `⟨φ|ψ⟩`, is a probability amplitude—its square tells you the chance of measuring `|φ⟩`.
+
+**Note**: This analogy is simplified; quantum states are not classical vectors but elements of a complex Hilbert space. The vector metaphor helps visualize overlaps, but quantum states have additional structure (like complex phases) not captured by classical vectors.
+
+[Diagram idea: Draw a vector `|ψ⟩` as an arrow and a "measurement probe" `⟨φ|` as a question mark pointing in the same or opposite direction.]
+
+---
+
+## The more precise picture  
+### Kets and Bras  
+- A *ket* `|ψ⟩` represents a quantum state, like a vector in a space of possibilities.  
+- A *bra* `⟨φ|` represents a measurement question: "What is the chance of ending up in state `|φ⟩`?"  
+
+### Inner Products as Probability Amplitudes  
+The inner product `⟨φ|ψ⟩` is the **probability amplitude** for transitioning from `|ψ⟩` to `|φ⟩`. It’s calculated as:  
+`⟨φ|ψ⟩ = |φ⟩† |ψ⟩`  
+(where `†` means **conjugate transposition**—a mathematical operation that flips the order of vectors and takes complex conjugates of their components).  
+
+### Probability Calculation  
+The probability of measuring `|φ⟩` when the system is in `|ψ⟩` is:  
+`P(measure |φ⟩) = |⟨φ|ψ⟩|²`  
+
+[Diagram idea: Show `⟨φ|ψ⟩` as the projection of `|ψ⟩` onto `|φ⟩`, with magnitude squared as the probability.]
+
+---
+
+## Common misconceptions  
+- ❌ "Bra-ket notation is just fancy vector notation"  
+  → It’s more than that—it encodes **probabilistic relationships** between states.  
+- ❌ "The inner product `⟨φ|ψ⟩` is the probability"  
+  → It’s the **probability amplitude**; the square of its magnitude is the probability.  
+- ❌ "Bra-ket notation only applies to quantum mechanics"  
+  → It’s also used in classical signal processing, but this article focuses on quantum contexts.  
+
+---
+
+## How this connects to the rest of physics  
+Bra-ket notation is foundational for quantum mechanics, enabling calculations of measurement outcomes and state overlaps. It underpins concepts like superposition, entanglement, and quantum computing. In broader physics, it connects to Hilbert spaces (advanced linear algebra) and the mathematical formalism of quantum field theory.
+
+---
+
+## Recap  
+- **Kets** (`|ψ⟩`) represent quantum states.  
+- **Bras** (`⟨φ|`) represent measurement questions.  
+- The **inner product** `⟨φ|ψ⟩` is a probability amplitude.  
+- `|⟨φ|ψ⟩|²` gives the probability of measuring `|φ⟩` from `|ψ⟩`.  
+- Bra-ket notation simplifies quantum probability calculations.
+
+---
+
+**Footnote**: Bra-ket notation is rooted in the mathematics of **Hilbert spaces**—infinite-dimensional vector spaces where quantum states live. While the vector analogy is helpful for conceptual understanding, quantum states are not classical vectors. They are complex-valued functions (wavefunctions) that obey specific rules for superposition and measurement. The dagger operation (`†`) reflects the conjugate transposition needed to compute inner products in complex spaces.
+
+RESPONSE:
+{
+  "id": "C001",
+  "verdict": "mostly_supported",
+  "severity": "low",
+  "problem": "The claim simplifies Bra-ket notation as 'shorthand' which may imply it's merely a convenience rather than a foundational mathematical framework for quantum states and operators",
+  "suggested_fix": "Clarify that Bra-ket notation is a formalism for representing quantum states and their interactions, not just a shorthand. Emphasize its role in encoding probabilistic relationships through inner products",
+  "source_quality_note": "The snippet comes from a reliable physics context discussing quantum mechanics fundamentals, confirming the core idea while adding mathematical depth"
+}
+
+================================================================================
+TIME: 2026-05-05T04:04:18
+NODE: claim_checker
+PROMPT_CHARS: 6338
+PROMPT_TOKENS_APPROX: 1584
+RESPONSE_CHARS: 288
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.8}
+================================================================================
+PROMPT:
+Check this one article claim against the available search snippet.
+
+Return JSON with this shape:
+{
+  "id": "C002",
+  "verdict": "supported | mostly_supported | needs_qualification | unsupported | contradicted | not_enough_evidence",
+  "severity": "none | low | medium | high",
+  "problem": "specific issue, or empty string",
+  "suggested_fix": "specific correction to the article, or empty string",
+  "source_quality_note": "brief note about whether the snippets look authoritative"
+}
+
+Rules:
+- Be conservative.
+- If the snippet is weak or absent, say not_enough_evidence.
+- Do not demand advanced nuance beyond the article's beginner scope.
+- Do flag misleading simplifications.
+- Focus on stable accepted physics.
+
+Article title: Bra-ket notation
+
+Claim:
+{
+  "id": "C002",
+  "claim": "It lets us write quantum states as *kets* (like `|ψ⟩`) and measurement questions as *bras* (like `⟨φ|`).",
+  "type": "fallback-extracted",
+  "importance": "medium",
+  "needs_external_check": true,
+  "why_it_matters": "Automatically extracted fallback claim; review manually.",
+  "suggested_search_query": "Bra-ket notation It lets us write quantum states as *kets* (like `|ψ⟩`) and measurement questions as *bras* (like physics lecture notes textbook explanation"
+}
+
+Search snippet:
+{
+  "claim": "It lets us write quantum states as *kets* (like `|ψ⟩`) and measurement questions as *bras* (like `⟨φ|`).",
+  "query": "Bra-ket notation It lets us write quantum states as *kets* (like `|ψ⟩`) and measurement questions as *bras* (like physics lecture notes textbook explanation",
+  "result_snippet": "begingroup$ because by your question statement it seemed like you think you understood the bra-op-ket notation, yet not the bra-ket notation. Indeed, I agree with you, standard notation is, in my personal view, already sufficiently clear and bra-ket notation should be used when it is really ... ... it is possible to give a rigorous foundation to these states, through a formalism known as rigged Hilbert spaces , where you essentially split ... What does this mean? What is the ket $|x⟩$ , is it just some kind of identity vector? And what even is a state $|\\Psi⟩$ . ... mention that the operator $M$ you wrote is not a Hermitian operator and thus, it wouldn't be the kind of operator that shows up often in quantum ...",
+  "searched_at": "2026-05-05_04-00-42",
+  "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
+}
+
+Relevant draft context:
+# Bra-ket Notation
+
+## The core idea  
+Bra-ket notation is a shorthand for quantum states and their interactions. It lets us write quantum states as *kets* (like `|ψ⟩`) and measurement questions as *bras* (like `⟨φ|`). The inner product `⟨φ|ψ⟩` encodes the probability amplitude for transitioning from state `|ψ⟩` to outcome `|φ⟩`, which squares to the probability of that outcome.
+
+---
+
+## Why this matters  
+This notation is essential for calculating probabilities in quantum mechanics. It simplifies writing and manipulating quantum states, making it easier to predict how measurements will affect systems like particles or photons.
+
+---
+
+## The simple picture  
+Imagine a quantum state as a vector pointing in a direction of possibilities (a *ket*). A "measurement question" (a *bra*) asks, "How much of this vector points in the direction of state `|φ⟩`?" The answer, `⟨φ|ψ⟩`, is a probability amplitude—its square tells you the chance of measuring `|φ⟩`.
+
+**Note**: This analogy is simplified; quantum states are not classical vectors but elements of a complex Hilbert space. The vector metaphor helps visualize overlaps, but quantum states have additional structure (like complex phases) not captured by classical vectors.
+
+[Diagram idea: Draw a vector `|ψ⟩` as an arrow and a "measurement probe" `⟨φ|` as a question mark pointing in the same or opposite direction.]
+
+---
+
+## The more precise picture  
+### Kets and Bras  
+- A *ket* `|ψ⟩` represents a quantum state, like a vector in a space of possibilities.  
+- A *bra* `⟨φ|` represents a measurement question: "What is the chance of ending up in state `|φ⟩`?"  
+
+### Inner Products as Probability Amplitudes  
+The inner product `⟨φ|ψ⟩` is the **probability amplitude** for transitioning from `|ψ⟩` to `|φ⟩`. It’s calculated as:  
+`⟨φ|ψ⟩ = |φ⟩† |ψ⟩`  
+(where `†` means **conjugate transposition**—a mathematical operation that flips the order of vectors and takes complex conjugates of their components).  
+
+### Probability Calculation  
+The probability of measuring `|φ⟩` when the system is in `|ψ⟩` is:  
+`P(measure |φ⟩) = |⟨φ|ψ⟩|²`  
+
+[Diagram idea: Show `⟨φ|ψ⟩` as the projection of `|ψ⟩` onto `|φ⟩`, with magnitude squared as the probability.]
+
+---
+
+## Common misconceptions  
+- ❌ "Bra-ket notation is just fancy vector notation"  
+  → It’s more than that—it encodes **probabilistic relationships** between states.  
+- ❌ "The inner product `⟨φ|ψ⟩` is the probability"  
+  → It’s the **probability amplitude**; the square of its magnitude is the probability.  
+- ❌ "Bra-ket notation only applies to quantum mechanics"  
+  → It’s also used in classical signal processing, but this article focuses on quantum contexts.  
+
+---
+
+## How this connects to the rest of physics  
+Bra-ket notation is foundational for quantum mechanics, enabling calculations of measurement outcomes and state overlaps. It underpins concepts like superposition, entanglement, and quantum computing. In broader physics, it connects to Hilbert spaces (advanced linear algebra) and the mathematical formalism of quantum field theory.
+
+---
+
+## Recap  
+- **Kets** (`|ψ⟩`) represent quantum states.  
+- **Bras** (`⟨φ|`) represent measurement questions.  
+- The **inner product** `⟨φ|ψ⟩` is a probability amplitude.  
+- `|⟨φ|ψ⟩|²` gives the probability of measuring `|φ⟩` from `|ψ⟩`.  
+- Bra-ket notation simplifies quantum probability calculations.
+
+---
+
+**Footnote**: Bra-ket notation is rooted in the mathematics of **Hilbert spaces**—infinite-dimensional vector spaces where quantum states live. While the vector analogy is helpful for conceptual understanding, quantum states are not classical vectors. They are complex-valued functions (wavefunctions) that obey specific rules for superposition and measurement. The dagger operation (`†`) reflects the conjugate transposition needed to compute inner products in complex spaces.
+
+RESPONSE:
+{
+  "id": "C002",
+  "verdict": "supported",
+  "severity": "low",
+  "problem": "",
+  "suggested_fix": "",
+  "source_quality_note": "The snippet appears to be a discussion thread rather than a textbook, but it confirms the basic structure of bra-ket notation as described in the article."
+}
+
+================================================================================
+TIME: 2026-05-05T04:06:01
+NODE: claim_checker
+PROMPT_CHARS: 6857
+PROMPT_TOKENS_APPROX: 1714
+RESPONSE_CHARS: 262
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.8}
+================================================================================
+PROMPT:
+Check this one article claim against the available search snippet.
+
+Return JSON with this shape:
+{
+  "id": "C003",
+  "verdict": "supported | mostly_supported | needs_qualification | unsupported | contradicted | not_enough_evidence",
+  "severity": "none | low | medium | high",
+  "problem": "specific issue, or empty string",
+  "suggested_fix": "specific correction to the article, or empty string",
+  "source_quality_note": "brief note about whether the snippets look authoritative"
+}
+
+Rules:
+- Be conservative.
+- If the snippet is weak or absent, say not_enough_evidence.
+- Do not demand advanced nuance beyond the article's beginner scope.
+- Do flag misleading simplifications.
+- Focus on stable accepted physics.
+
+Article title: Bra-ket notation
+
+Claim:
+{
+  "id": "C003",
+  "claim": "The inner product `⟨φ|ψ⟩` encodes the probability amplitude for transitioning from state `|ψ⟩` to outcome `|φ⟩`, which squares to the probability of that outcome.",
+  "type": "fallback-extracted",
+  "importance": "medium",
+  "needs_external_check": true,
+  "why_it_matters": "Automatically extracted fallback claim; review manually.",
+  "suggested_search_query": "Bra-ket notation The inner product `⟨φ|ψ⟩` encodes the probability amplitude for transitioning from state `|ψ⟩` to outcome `|φ⟩`, physics lecture notes textbook explanation"
+}
+
+Search snippet:
+{
+  "claim": "The inner product `⟨φ|ψ⟩` encodes the probability amplitude for transitioning from state `|ψ⟩` to outcome `|φ⟩`, which squares to the probability of that outcome.",
+  "query": "Bra-ket notation The inner product `⟨φ|ψ⟩` encodes the probability amplitude for transitioning from state `|ψ⟩` to outcome `|φ⟩`, physics lecture notes textbook explanation",
+  "result_snippet": "Bra–ket notation or Dirac notation is a notation for linear algebra and linear operators on complex vector spaces together with their dual spaces both in the finite- and infinite-dimensional cases. Dirac notation, also known as bra-ket notation, is a mathematical notation used in quantum mechanics to describe quantum states and the inner products between them. Dirac Notation, or bra-ket notation, replaces dense matrix arithmetic with a symbolic shorthand that encapsulates vectors, dual vectors, inner products and operators. A ket, written as |ψ, represents a vector in a Hilbert space—this is the quantum st... Bra-ket notation is widely used in quantum mechanics and can take some getting used to. A state is denoted by a ket vector.The physical significance of the inner product is that it describes the probability amplitude for the particle initially in the state. Bra and ket notations are part of Dirac notation used in quantum mechanics to describe quantum states. A “ket” represents a column vector, while a “bra” represents a row vector, facilitating inner product calculations.",
+  "searched_at": "2026-05-05_04-00-45",
+  "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
+}
+
+Relevant draft context:
+# Bra-ket Notation
+
+## The core idea  
+Bra-ket notation is a shorthand for quantum states and their interactions. It lets us write quantum states as *kets* (like `|ψ⟩`) and measurement questions as *bras* (like `⟨φ|`). The inner product `⟨φ|ψ⟩` encodes the probability amplitude for transitioning from state `|ψ⟩` to outcome `|φ⟩`, which squares to the probability of that outcome.
+
+---
+
+## Why this matters  
+This notation is essential for calculating probabilities in quantum mechanics. It simplifies writing and manipulating quantum states, making it easier to predict how measurements will affect systems like particles or photons.
+
+---
+
+## The simple picture  
+Imagine a quantum state as a vector pointing in a direction of possibilities (a *ket*). A "measurement question" (a *bra*) asks, "How much of this vector points in the direction of state `|φ⟩`?" The answer, `⟨φ|ψ⟩`, is a probability amplitude—its square tells you the chance of measuring `|φ⟩`.
+
+**Note**: This analogy is simplified; quantum states are not classical vectors but elements of a complex Hilbert space. The vector metaphor helps visualize overlaps, but quantum states have additional structure (like complex phases) not captured by classical vectors.
+
+[Diagram idea: Draw a vector `|ψ⟩` as an arrow and a "measurement probe" `⟨φ|` as a question mark pointing in the same or opposite direction.]
+
+---
+
+## The more precise picture  
+### Kets and Bras  
+- A *ket* `|ψ⟩` represents a quantum state, like a vector in a space of possibilities.  
+- A *bra* `⟨φ|` represents a measurement question: "What is the chance of ending up in state `|φ⟩`?"  
+
+### Inner Products as Probability Amplitudes  
+The inner product `⟨φ|ψ⟩` is the **probability amplitude** for transitioning from `|ψ⟩` to `|φ⟩`. It’s calculated as:  
+`⟨φ|ψ⟩ = |φ⟩† |ψ⟩`  
+(where `†` means **conjugate transposition**—a mathematical operation that flips the order of vectors and takes complex conjugates of their components).  
+
+### Probability Calculation  
+The probability of measuring `|φ⟩` when the system is in `|ψ⟩` is:  
+`P(measure |φ⟩) = |⟨φ|ψ⟩|²`  
+
+[Diagram idea: Show `⟨φ|ψ⟩` as the projection of `|ψ⟩` onto `|φ⟩`, with magnitude squared as the probability.]
+
+---
+
+## Common misconceptions  
+- ❌ "Bra-ket notation is just fancy vector notation"  
+  → It’s more than that—it encodes **probabilistic relationships** between states.  
+- ❌ "The inner product `⟨φ|ψ⟩` is the probability"  
+  → It’s the **probability amplitude**; the square of its magnitude is the probability.  
+- ❌ "Bra-ket notation only applies to quantum mechanics"  
+  → It’s also used in classical signal processing, but this article focuses on quantum contexts.  
+
+---
+
+## How this connects to the rest of physics  
+Bra-ket notation is foundational for quantum mechanics, enabling calculations of measurement outcomes and state overlaps. It underpins concepts like superposition, entanglement, and quantum computing. In broader physics, it connects to Hilbert spaces (advanced linear algebra) and the mathematical formalism of quantum field theory.
+
+---
+
+## Recap  
+- **Kets** (`|ψ⟩`) represent quantum states.  
+- **Bras** (`⟨φ|`) represent measurement questions.  
+- The **inner product** `⟨φ|ψ⟩` is a probability amplitude.  
+- `|⟨φ|ψ⟩|²` gives the probability of measuring `|φ⟩` from `|ψ⟩`.  
+- Bra-ket notation simplifies quantum probability calculations.
+
+---
+
+**Footnote**: Bra-ket notation is rooted in the mathematics of **Hilbert spaces**—infinite-dimensional vector spaces where quantum states live. While the vector analogy is helpful for conceptual understanding, quantum states are not classical vectors. They are complex-valued functions (wavefunctions) that obey specific rules for superposition and measurement. The dagger operation (`†`) reflects the conjugate transposition needed to compute inner products in complex spaces.
+
+RESPONSE:
+{
+  "id": "C003",
+  "verdict": "supported",
+  "severity": "low",
+  "problem": "",
+  "suggested_fix": "",
+  "source_quality_note": "The snippet comes from stable educational explanations of bra-ket notation, consistent with standard quantum mechanics pedagogy."
+}
+
+================================================================================
+TIME: 2026-05-05T04:08:00
+NODE: term_collector
+PROMPT_CHARS: 4332
+PROMPT_TOKENS_APPROX: 1083
+RESPONSE_CHARS: 0
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.8}
+================================================================================
+PROMPT:
+Extract the descriptive-name candidates from this draft.
+
+Return JSON with this shape:
+{
+  "terms": [
+    {
+      "standard_term": "fermion",
+      "candidate_name": "space-occupier",
+      "context_quote": "short quote from the draft",
+      "usefulness": "why this name helps",
+      "risk": "how it could mislead, or empty string if low risk"
+    }
+  ]
+}
+
+Only include actual teaching-name candidates, especially phrases followed by standard terms in braces.
+
+Draft:
+# Bra-ket Notation
+
+## The core idea  
+Bra-ket notation is a shorthand for quantum states and their interactions. It lets us write quantum states as *kets* (like `|ψ⟩`) and measurement questions as *bras* (like `⟨φ|`). The inner product `⟨φ|ψ⟩` encodes the probability amplitude for transitioning from state `|ψ⟩` to outcome `|φ⟩`, which squares to the probability of that outcome.
+
+---
+
+## Why this matters  
+This notation is essential for calculating probabilities in quantum mechanics. It simplifies writing and manipulating quantum states, making it easier to predict how measurements will affect systems like particles or photons.
+
+---
+
+## The simple picture  
+Imagine a quantum state as a vector pointing in a direction of possibilities (a *ket*). A "measurement question" (a *bra*) asks, "How much of this vector points in the direction of state `|φ⟩`?" The answer, `⟨φ|ψ⟩`, is a probability amplitude—its square tells you the chance of measuring `|φ⟩`.
+
+**Note**: This analogy is simplified; quantum states are not classical vectors but elements of a complex Hilbert space. The vector metaphor helps visualize overlaps, but quantum states have additional structure (like complex phases) not captured by classical vectors.
+
+[Diagram idea: Draw a vector `|ψ⟩` as an arrow and a "measurement probe" `⟨φ|` as a question mark pointing in the same or opposite direction.]
+
+---
+
+## The more precise picture  
+### Kets and Bras  
+- A *ket* `|ψ⟩` represents a quantum state, like a vector in a space of possibilities.  
+- A *bra* `⟨φ|` represents a measurement question: "What is the chance of ending up in state `|φ⟩`?"  
+
+### Inner Products as Probability Amplitudes  
+The inner product `⟨φ|ψ⟩` is the **probability amplitude** for transitioning from `|ψ⟩` to `|φ⟩`. It’s calculated as:  
+`⟨φ|ψ⟩ = |φ⟩† |ψ⟩`  
+(where `†` means **conjugate transposition**—a mathematical operation that flips the order of vectors and takes complex conjugates of their components).  
+
+### Probability Calculation  
+The probability of measuring `|φ⟩` when the system is in `|ψ⟩` is:  
+`P(measure |φ⟩) = |⟨φ|ψ⟩|²`  
+
+[Diagram idea: Show `⟨φ|ψ⟩` as the projection of `|ψ⟩` onto `|φ⟩`, with magnitude squared as the probability.]
+
+---
+
+## Common misconceptions  
+- ❌ "Bra-ket notation is just fancy vector notation"  
+  → It’s more than that—it encodes **probabilistic relationships** between states.  
+- ❌ "The inner product `⟨φ|ψ⟩` is the probability"  
+  → It’s the **probability amplitude**; the square of its magnitude is the probability.  
+- ❌ "Bra-ket notation only applies to quantum mechanics"  
+  → It’s also used in classical signal processing, but this article focuses on quantum contexts.  
+
+---
+
+## How this connects to the rest of physics  
+Bra-ket notation is foundational for quantum mechanics, enabling calculations of measurement outcomes and state overlaps. It underpins concepts like superposition, entanglement, and quantum computing. In broader physics, it connects to Hilbert spaces (advanced linear algebra) and the mathematical formalism of quantum field theory.
+
+---
+
+## Recap  
+- **Kets** (`|ψ⟩`) represent quantum states.  
+- **Bras** (`⟨φ|`) represent measurement questions.  
+- The **inner product** `⟨φ|ψ⟩` is a probability amplitude.  
+- `|⟨φ|ψ⟩|²` gives the probability of measuring `|φ⟩` from `|ψ⟩`.  
+- Bra-ket notation simplifies quantum probability calculations.
+
+---
+
+**Footnote**: Bra-ket notation is rooted in the mathematics of **Hilbert spaces**—infinite-dimensional vector spaces where quantum states live. While the vector analogy is helpful for conceptual understanding, quantum states are not classical vectors. They are complex-valued functions (wavefunctions) that obey specific rules for superposition and measurement. The dagger operation (`†`) reflects the conjugate transposition needed to compute inner products in complex spaces.
+
+RESPONSE:
+
+
+================================================================================
+TIME: 2026-05-05T04:11:30
+NODE: accessibility_judge
+PROMPT_CHARS: 6323
+PROMPT_TOKENS_APPROX: 1580
+RESPONSE_CHARS: 1728
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.8}
+================================================================================
+PROMPT:
+Evaluate this EasyPhysics article for accessibility.
+
+Return exactly one JSON object:
+{
+  "score": 1,
+  "pass": false,
+  "strengths": ["specific strength"],
+  "issues": [
+    {
+      "severity": "low | medium | high",
+      "location": "section name or short quote",
+      "problem": "specific accessibility issue",
+      "suggested_fix": "specific fix"
+    }
+  ],
+  "best_next_revision": "one concise paragraph"
+}
+
+Rubric:
+Accessibility score, 1-10:
+
+10 = Exceptional. A motivated high-schooler can follow the article's main arc without prior exposure.
+     Jargon is introduced only after intuition. Examples are vivid. Math is explained as meaning,
+     not just symbols. The article feels empowering and clear.
+
+9 = Publishable with light human editing. The main idea is easy to follow; jargon is mostly controlled;
+    analogies are helpful; sections flow logically; any math has a plain-language interpretation.
+
+8 = Strong draft. Mostly clear, but has a few dense sections, unexplained terms, abrupt transitions,
+    or analogies that need more setup.
+
+7 = Useful but uneven. A motivated reader could learn from it, but several passages need simplification,
+    clearer examples, or better sequencing.
+
+6 = Borderline. The article contains useful explanations, but assumes too much background or uses too much jargon.
+
+5 = Mixed. Some good paragraphs, but the structure or language would lose many target readers.
+
+4 = Hard to follow. Mostly written for someone who already knows the subject.
+
+3 = Very inaccessible. Dense, abstract, jargon-heavy, or poorly sequenced.
+
+2 = Barely useful to the target audience.
+
+1 = Fails the accessibility goal.
+
+Accessibility judge priorities:
+- Does the opening give the reader an intuitive foothold?
+- Are standard terms introduced after meaning, not before?
+- Are descriptive names useful rather than cutesy or misleading?
+- Are analogies concrete and then carefully limited?
+- Is any math explained in words?
+- Does the article avoid "spooky/magic/weird" framing while still acknowledging counterintuitive ideas?
+- Does each section make the next section easier?
+
+Rules:
+- Return an object, not a list.
+- Score must be an integer from 1 to 10.
+- A 9 means publishable with light human editing.
+- Do not give 9 or 10 if the opening is jargon-heavy.
+- Do not give 9 or 10 if math appears without plain-language interpretation.
+- Do not rewrite the article; only evaluate it.
+
+Article title: Bra-ket notation
+
+Draft:
+# Bra-ket Notation
+
+## The core idea  
+Bra-ket notation is a shorthand for quantum states and their interactions. It lets us write quantum states as *kets* (like `|ψ⟩`) and measurement questions as *bras* (like `⟨φ|`). The inner product `⟨φ|ψ⟩` encodes the probability amplitude for transitioning from state `|ψ⟩` to outcome `|φ⟩`, which squares to the probability of that outcome.
+
+---
+
+## Why this matters  
+This notation is essential for calculating probabilities in quantum mechanics. It simplifies writing and manipulating quantum states, making it easier to predict how measurements will affect systems like particles or photons.
+
+---
+
+## The simple picture  
+Imagine a quantum state as a vector pointing in a direction of possibilities (a *ket*). A "measurement question" (a *bra*) asks, "How much of this vector points in the direction of state `|φ⟩`?" The answer, `⟨φ|ψ⟩`, is a probability amplitude—its square tells you the chance of measuring `|φ⟩`.
+
+**Note**: This analogy is simplified; quantum states are not classical vectors but elements of a complex Hilbert space. The vector metaphor helps visualize overlaps, but quantum states have additional structure (like complex phases) not captured by classical vectors.
+
+[Diagram idea: Draw a vector `|ψ⟩` as an arrow and a "measurement probe" `⟨φ|` as a question mark pointing in the same or opposite direction.]
+
+---
+
+## The more precise picture  
+### Kets and Bras  
+- A *ket* `|ψ⟩` represents a quantum state, like a vector in a space of possibilities.  
+- A *bra* `⟨φ|` represents a measurement question: "What is the chance of ending up in state `|φ⟩`?"  
+
+### Inner Products as Probability Amplitudes  
+The inner product `⟨φ|ψ⟩` is the **probability amplitude** for transitioning from `|ψ⟩` to `|φ⟩`. It’s calculated as:  
+`⟨φ|ψ⟩ = |φ⟩† |ψ⟩`  
+(where `†` means **conjugate transposition**—a mathematical operation that flips the order of vectors and takes complex conjugates of their components).  
+
+### Probability Calculation  
+The probability of measuring `|φ⟩` when the system is in `|ψ⟩` is:  
+`P(measure |φ⟩) = |⟨φ|ψ⟩|²`  
+
+[Diagram idea: Show `⟨φ|ψ⟩` as the projection of `|ψ⟩` onto `|φ⟩`, with magnitude squared as the probability.]
+
+---
+
+## Common misconceptions  
+- ❌ "Bra-ket notation is just fancy vector notation"  
+  → It’s more than that—it encodes **probabilistic relationships** between states.  
+- ❌ "The inner product `⟨φ|ψ⟩` is the probability"  
+  → It’s the **probability amplitude**; the square of its magnitude is the probability.  
+- ❌ "Bra-ket notation only applies to quantum mechanics"  
+  → It’s also used in classical signal processing, but this article focuses on quantum contexts.  
+
+---
+
+## How this connects to the rest of physics  
+Bra-ket notation is foundational for quantum mechanics, enabling calculations of measurement outcomes and state overlaps. It underpins concepts like superposition, entanglement, and quantum computing. In broader physics, it connects to Hilbert spaces (advanced linear algebra) and the mathematical formalism of quantum field theory.
+
+---
+
+## Recap  
+- **Kets** (`|ψ⟩`) represent quantum states.  
+- **Bras** (`⟨φ|`) represent measurement questions.  
+- The **inner product** `⟨φ|ψ⟩` is a probability amplitude.  
+- `|⟨φ|ψ⟩|²` gives the probability of measuring `|φ⟩` from `|ψ⟩`.  
+- Bra-ket notation simplifies quantum probability calculations.
+
+---
+
+**Footnote**: Bra-ket notation is rooted in the mathematics of **Hilbert spaces**—infinite-dimensional vector spaces where quantum states live. While the vector analogy is helpful for conceptual understanding, quantum states are not classical vectors. They are complex-valued functions (wavefunctions) that obey specific rules for superposition and measurement. The dagger operation (`†`) reflects the conjugate transposition needed to compute inner products in complex spaces.
+
+RESPONSE:
+{
+  "score": 3,
+  "pass": false,
+  "strengths": [
+    "use of vector analogy to ground abstract concepts",
+    "clear structure with sections for core ideas, misconceptions, and connections"
+  ],
+  "issues": [
+    {
+      "severity": "high",
+      "location": "opening section",
+      "problem": "Jargon-heavy introduction without intuitive context (e.g., 'probability amplitude', 'inner product')",
+      "suggested_fix": "Start with a concrete example of quantum measurement and gradually introduce terms"
+    },
+    {
+      "severity": "high",
+      "location": "math sections",
+      "problem": "Math appears without plain-language explanation (e.g., dagger operation, conjugate transposition)",
+      "suggested_fix": "Add analogies for mathematical operations, like describing dagger as 'flipping and mirroring complex numbers'"
+    },
+    {
+      "severity": "medium",
+      "location": "footnotes",
+      "problem": "Advanced concepts like Hilbert spaces are relegated to footnotes, limiting accessibility",
+      "suggested_fix": "Integrate key concepts like Hilbert spaces into the main text with simplified explanations"
+    },
+    {
+      "severity": "medium",
+      "location": "terminology",
+      "problem": "Terms like 'probability amplitude' are introduced without defining their physical meaning",
+      "suggested_fix": "Anchor terms in observable phenomena, e.g., 'probability amplitude is like a recipe for calculating measurement chances'"
+    }
+  ],
+  "best_next_revision": "Reframe the opening with a relatable scenario (e.g., measuring a quantum particle's position) and gradually introduce terms through analogy, explaining mathematical operations as physical processes rather than abstract symbols."
+}

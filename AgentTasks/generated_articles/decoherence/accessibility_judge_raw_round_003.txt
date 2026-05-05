@@ -1,0 +1,28 @@
+{
+  "score": 1,
+  "pass": false,
+  "strengths": ["quantum coin analogy", "diagram suggestion"],
+  "issues": [
+    {
+      "severity": "high",
+      "location": "core idea section",
+      "problem": "Jargon-heavy opening with terms like 'quantum memory' and 'entanglement' without intuitive explanation",
+      "suggested_fix": "Replace 'quantum memory' with simpler phrasing like 'ability to exist in multiple states at once'"
+    },
+    {
+      "severity": "high",
+      "location": "math section",
+      "problem": "Equation presented without plain-language explanation of what |amplitude|² represents",
+      "suggested_fix": "Add analogy explaining how amplitude magnitudes relate to probability magnitudes"
+    },
+    {
+      "severity": "medium",
+      "location": "precise picture section",
+      "problem": "Terms like 'entangled state' and 'Born rule' are introduced without prior conceptual groundwork",
+      "suggested_fix": "Add a brief explanation of what entanglement means before using the term"
+    },
+    {
+      "severity": "high",
+      "location": "opening paragraph",
+      "problem": "Assumes familiarity with quantum concepts like superposition and classical behavior",
+      "suggested_fix": "Start with a simple question like '

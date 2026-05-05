@@ -1,0 +1,986 @@
+
+================================================================================
+TIME: 2026-05-05T04:59:06
+NODE: writer
+PROMPT_CHARS: 4852
+PROMPT_TOKENS_APPROX: 1213
+RESPONSE_CHARS: 4742
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.8}
+================================================================================
+PROMPT:
+Revise this existing EasyPhysics article once.
+
+Title: Quantum measurement
+
+Revision brief:
+- Claim/research fix: Add clarification that 'collapse' is a mathematical description of state update, not a physical force
+- rigor score 8: Implies wavefunction collapse is a physical process rather than a mathematical description Suggested fix: Add explicit clarification that 'collapse' is a mathematical description of state update, not a physical force
+- rigor score 8: Coin analogy might suggest collapse is a physical process rather than a mathematical update Suggested fix: Add footnote clarifying that the 'choice' is a mathematical update of knowledge, not a physical force
+- rigor next revision: Explicitly clarify in the main text that wavefunction collapse is a mathematical description of state update, not a physical process, to align with the claim-check's highest priority fix.
+- accessibility score 8: Math equation is presented without sufficient plain-language explanation of what the squared amplitude represents Suggested fix: Add an explanation that squaring the amplitude relates to how probabilities add when combining possibilities
+- accessibility score 8: Misconception corrections are brief and could benefit from more concrete examples Suggested fix: Expand explanations with specific examples like Schrödinger's cat or quantum interference experiments
+
+Human/editor notes:
+# Human/editor notes
+
+Add any preferences, corrections, or article-specific constraints here.
+
+
+Current draft:
+# Quantum Measurement  
+
+## The core idea  
+Quantum measurement is a lawful interaction that selects a definite outcome from a superposition, guided by probabilities. When a quantum system is measured, its possibilities "collapse" into a single, observable result, like flipping a coin that lands definitively on heads or tails.  
+
+## Why this matters  
+This process explains how quantum systems—like particles or waves—transition from abstract possibilities to concrete realities. It bridges the gap between the strange, probabilistic world of quantum mechanics and the classical world we experience, where outcomes are definite.  
+
+## The simple picture  
+Imagine a quantum coin that can be both heads and tails at once (a superposition). When you flip it, the coin "chooses" a side, like a wave collapsing into a single ripple. This choice isn’t random—it’s guided by the "weights" of each possibility, like how a heavier coin might land more often.  
+
+[Diagram idea: A coin spinning in midair (superposition) then settling on one side (collapse)]  
+
+## The more precise picture  
+### 1. **Wavefunction collapse**  
+A quantum system is described by a **wavefunction** {wavefunction}, which encodes all possible outcomes as a **superposition** {superposition}. When measured, the wavefunction **collapses** {wavefunction collapse} into a single definite state, like a particle choosing a specific position.  
+
+### 2. **Possibility-weights and probabilities**  
+Each possibility in a superposition has a **possibility-weight** {amplitude}, which determines its likelihood. The **Born rule** {Born rule} links these weights to probabilities:  
+$$
+\text{Probability of outcome } x = |\text{Possibility-weight of } x|^2
+$$  
+For example, if a particle has an amplitude of $ \frac{1}{\sqrt{2}} $ for "left," the probability of measuring "left" is $ \left(\frac{1}{\sqrt{2}}\right)^2 = \frac{1}{2} $.  
+
+### 3. **The role of the observer**  
+Measurement involves a **physical interaction** {observer effect} between the system and a measuring device (e.g., a detector). This interaction "freezes" the system’s state, making it incompatible with its previous superposition.  
+
+[Diagram idea: A particle (wave) interacting with a detector, splitting into paths then collapsing into one]  
+
+## Common misconceptions  
+- ❌ **"Measurement is just looking."**  
+  → Measurement is a **physical interaction**, not just observation. Even a detector’s presence alters the system.  
+- ❌ **"The system is in a superposition until measured."**  
+  → This is true for **isolated systems**, but macroscopic objects are rarely in superposition due to **decoherence** {decoherence} (interactions with the environment).  
+- ❌ **"Collapse is a physical process."**  
+  → Collapse is a **mathematical description**, not a physical force. It reflects how we update our knowledge about the system.  
+- ❌ **"
+
+Instructions:
+- Return the complete revised article in Markdown.
+- Do not start from scratch.
+- Preserve good explanations.
+- Fix only the most important clarity, structure, and rigor problems.
+- If a section is already good, leave it mostly alone.
+- Add qualifications where the current draft overclaims.
+- Make the opening more intuitive if needed.
+- Keep standard terms in braces after intuitive names.
+- Do not include commentary before or after the article.
+
+RESPONSE:
+# Quantum Measurement  
+
+## The core idea  
+Quantum measurement is a lawful interaction that selects a definite outcome from a superposition, guided by probabilities. When a quantum system is measured, its possibilities "collapse" into a single, observable result—like flipping a coin that lands definitively on heads or tails. **Note:** This "collapse" is a mathematical description of how our knowledge about the system updates, not a physical force acting on the system.  
+
+## Why this matters  
+This process explains how quantum systems—like particles or waves—transition from abstract possibilities to concrete realities. It bridges the gap between the strange, probabilistic world of quantum mechanics and the classical world we experience, where outcomes are definite.  
+
+## The simple picture  
+Imagine a quantum coin that can be both heads and tails at once (a superposition). When you flip it, the coin "chooses" a side, like a wave collapsing into a single ripple. **Footnote:** This "choice" is a mathematical update of our knowledge about the system, not a physical force. The coin’s behavior is determined by the "weights" of each possibility, like how a heavier coin might land more often.  
+
+[Diagram idea: A coin spinning in midair (superposition) then settling on one side (collapse)]  
+
+## The more precise picture  
+### 1. **Wavefunction collapse**  
+A quantum system is described by a **wavefunction** {wavefunction}, which encodes all possible outcomes as a **superposition** {superposition}. When measured, the wavefunction **collapses** {wavefunction collapse} into a single definite state, like a particle choosing a specific position. This collapse is a mathematical description of how our knowledge about the system updates, not a physical process that alters the system itself.  
+
+### 2. **Possibility-weights and probabilities**  
+Each possibility in a superposition has a **possibility-weight** {amplitude}, which determines its likelihood. The **Born rule** {Born rule} links these weights to probabilities:  
+$$
+\text{Probability of outcome } x = |\text{Possibility-weight of } x|^2
+$$  
+For example, if a particle has an amplitude of $ \frac{1}{\sqrt{2}} $ for "left," the probability of measuring "left" is $ \left(\frac{1}{\sqrt{2}}\right)^2 = \frac{1}{2} $. **Explanation:** Squaring the amplitude ensures probabilities add correctly when combining possibilities. If two outcomes have amplitudes $ a $ and $ b $, their combined probability is $ |a|^2 + |b|^2 $, not $ |a + b|^2 $.  
+
+### 3. **The role of the observer**  
+Measurement involves a **physical interaction** {observer effect} between the system and a measuring device (e.g., a detector). This interaction "freezes" the system’s state, making it incompatible with its previous superposition. For example, a quantum particle in a superposition of positions interacts with a detector, and the detector’s state becomes correlated with the particle’s position.  
+
+[Diagram idea: A particle (wave) interacting with a detector, splitting into paths then collapsing into one]  
+
+## Common misconceptions  
+- ❌ **"Measurement is just looking."**  
+  → Measurement is a **physical interaction**, not just observation. Even a detector’s presence alters the system. For example, Schrödinger’s cat thought experiment shows how a macroscopic system (the cat) interacts with its environment, making superposition unlikely in everyday life.  
+- ❌ **"The system is in a superposition until measured."**  
+  → This is true for **isolated systems**, but macroscopic objects are rarely in superposition due to **decoherence** {decoherence} (interactions with the environment). For instance, a quantum particle in a lab might stay in superposition, but a coin flipped in the air quickly interacts with air molecules and settles into a definite state.  
+- ❌ **"Collapse is a physical process."**  
+  → Collapse is a **mathematical description**, not a physical force. It reflects how we update our knowledge about the system. For example, in quantum interference experiments (like the double-slit setup), the "collapse" is not a physical event but a way to describe how the system’s state is determined after measurement.  
+- ❌ **"The system is in a superposition until measured."**  
+  → This is true for **isolated systems**, but macroscopic objects are rarely in superposition due to **decoherence** {decoherence} (interactions with the environment). For instance, a quantum particle in a lab might stay in superposition, but a coin flipped in the air quickly interacts with air molecules and settles into a definite state.  
+
+[Diagram idea: A quantum particle in superposition (wave) interacting with the environment, leading to decoherence and a definite state]
+
+================================================================================
+TIME: 2026-05-05T05:01:08
+NODE: term_collector
+PROMPT_CHARS: 5212
+PROMPT_TOKENS_APPROX: 1303
+RESPONSE_CHARS: 0
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.8}
+================================================================================
+PROMPT:
+Extract the descriptive-name candidates from this draft.
+
+Return JSON with this shape:
+{
+  "terms": [
+    {
+      "standard_term": "fermion",
+      "candidate_name": "space-occupier",
+      "context_quote": "short quote from the draft",
+      "usefulness": "why this name helps",
+      "risk": "how it could mislead, or empty string if low risk"
+    }
+  ]
+}
+
+Only include actual teaching-name candidates, especially phrases followed by standard terms in braces.
+
+Draft:
+# Quantum Measurement  
+
+## The core idea  
+Quantum measurement is a lawful interaction that selects a definite outcome from a superposition, guided by probabilities. When a quantum system is measured, its possibilities "collapse" into a single, observable result—like flipping a coin that lands definitively on heads or tails. **Note:** This "collapse" is a mathematical description of how our knowledge about the system updates, not a physical force acting on the system.  
+
+## Why this matters  
+This process explains how quantum systems—like particles or waves—transition from abstract possibilities to concrete realities. It bridges the gap between the strange, probabilistic world of quantum mechanics and the classical world we experience, where outcomes are definite.  
+
+## The simple picture  
+Imagine a quantum coin that can be both heads and tails at once (a superposition). When you flip it, the coin "chooses" a side, like a wave collapsing into a single ripple. **Footnote:** This "choice" is a mathematical update of our knowledge about the system, not a physical force. The coin’s behavior is determined by the "weights" of each possibility, like how a heavier coin might land more often.  
+
+[Diagram idea: A coin spinning in midair (superposition) then settling on one side (collapse)]  
+
+## The more precise picture  
+### 1. **Wavefunction collapse**  
+A quantum system is described by a **wavefunction** {wavefunction}, which encodes all possible outcomes as a **superposition** {superposition}. When measured, the wavefunction **collapses** {wavefunction collapse} into a single definite state, like a particle choosing a specific position. This collapse is a mathematical description of how our knowledge about the system updates, not a physical process that alters the system itself.  
+
+### 2. **Possibility-weights and probabilities**  
+Each possibility in a superposition has a **possibility-weight** {amplitude}, which determines its likelihood. The **Born rule** {Born rule} links these weights to probabilities:  
+$$
+\text{Probability of outcome } x = |\text{Possibility-weight of } x|^2
+$$  
+For example, if a particle has an amplitude of $ \frac{1}{\sqrt{2}} $ for "left," the probability of measuring "left" is $ \left(\frac{1}{\sqrt{2}}\right)^2 = \frac{1}{2} $. **Explanation:** Squaring the amplitude ensures probabilities add correctly when combining possibilities. If two outcomes have amplitudes $ a $ and $ b $, their combined probability is $ |a|^2 + |b|^2 $, not $ |a + b|^2 $.  
+
+### 3. **The role of the observer**  
+Measurement involves a **physical interaction** {observer effect} between the system and a measuring device (e.g., a detector). This interaction "freezes" the system’s state, making it incompatible with its previous superposition. For example, a quantum particle in a superposition of positions interacts with a detector, and the detector’s state becomes correlated with the particle’s position.  
+
+[Diagram idea: A particle (wave) interacting with a detector, splitting into paths then collapsing into one]  
+
+## Common misconceptions  
+- ❌ **"Measurement is just looking."**  
+  → Measurement is a **physical interaction**, not just observation. Even a detector’s presence alters the system. For example, Schrödinger’s cat thought experiment shows how a macroscopic system (the cat) interacts with its environment, making superposition unlikely in everyday life.  
+- ❌ **"The system is in a superposition until measured."**  
+  → This is true for **isolated systems**, but macroscopic objects are rarely in superposition due to **decoherence** {decoherence} (interactions with the environment). For instance, a quantum particle in a lab might stay in superposition, but a coin flipped in the air quickly interacts with air molecules and settles into a definite state.  
+- ❌ **"Collapse is a physical process."**  
+  → Collapse is a **mathematical description**, not a physical force. It reflects how we update our knowledge about the system. For example, in quantum interference experiments (like the double-slit setup), the "collapse" is not a physical event but a way to describe how the system’s state is determined after measurement.  
+- ❌ **"The system is in a superposition until measured."**  
+  → This is true for **isolated systems**, but macroscopic objects are rarely in superposition due to **decoherence** {decoherence} (interactions with the environment). For instance, a quantum particle in a lab might stay in superposition, but a coin flipped in the air quickly interacts with air molecules and settles into a definite state.  
+
+[Diagram idea: A quantum particle in superposition (wave) interacting with the environment, leading to decoherence and a definite state]
+
+RESPONSE:
+
+
+================================================================================
+TIME: 2026-05-05T05:04:07
+NODE: claim_extractor
+PROMPT_CHARS: 5629
+PROMPT_TOKENS_APPROX: 1407
+RESPONSE_CHARS: 999
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.8}
+================================================================================
+PROMPT:
+Extract 8 to 12 important scientific or explanatory claims from this article draft.
+
+Return exactly one JSON object with this shape:
+{
+  "claims": [
+    {
+      "id": "C001",
+      "claim": "A clear standalone claim.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "brief reason",
+      "suggested_search_query": "stable physics source query"
+    }
+  ]
+}
+
+Rules:
+- Return a JSON object, not a list.
+- Do not return an empty list unless the draft is empty.
+- Use true/false, not True/False.
+- No Markdown fences.
+- No prose outside the JSON.
+- Prefer claims that matter for scientific correctness.
+- Include claims where an analogy could mislead.
+- Search queries should target stable sources: textbooks, lecture notes, CERN, Fermilab, NASA, DOE, NIST, or university pages.
+
+Article title: Quantum measurement
+
+Draft:
+# Quantum Measurement  
+
+## The core idea  
+Quantum measurement is a lawful interaction that selects a definite outcome from a superposition, guided by probabilities. When a quantum system is measured, its possibilities "collapse" into a single, observable result—like flipping a coin that lands definitively on heads or tails. **Note:** This "collapse" is a mathematical description of how our knowledge about the system updates, not a physical force acting on the system.  
+
+## Why this matters  
+This process explains how quantum systems—like particles or waves—transition from abstract possibilities to concrete realities. It bridges the gap between the strange, probabilistic world of quantum mechanics and the classical world we experience, where outcomes are definite.  
+
+## The simple picture  
+Imagine a quantum coin that can be both heads and tails at once (a superposition). When you flip it, the coin "chooses" a side, like a wave collapsing into a single ripple. **Footnote:** This "choice" is a mathematical update of our knowledge about the system, not a physical force. The coin’s behavior is determined by the "weights" of each possibility, like how a heavier coin might land more often.  
+
+[Diagram idea: A coin spinning in midair (superposition) then settling on one side (collapse)]  
+
+## The more precise picture  
+### 1. **Wavefunction collapse**  
+A quantum system is described by a **wavefunction** {wavefunction}, which encodes all possible outcomes as a **superposition** {superposition}. When measured, the wavefunction **collapses** {wavefunction collapse} into a single definite state, like a particle choosing a specific position. This collapse is a mathematical description of how our knowledge about the system updates, not a physical process that alters the system itself.  
+
+### 2. **Possibility-weights and probabilities**  
+Each possibility in a superposition has a **possibility-weight** {amplitude}, which determines its likelihood. The **Born rule** {Born rule} links these weights to probabilities:  
+$$
+\text{Probability of outcome } x = |\text{Possibility-weight of } x|^2
+$$  
+For example, if a particle has an amplitude of $ \frac{1}{\sqrt{2}} $ for "left," the probability of measuring "left" is $ \left(\frac{1}{\sqrt{2}}\right)^2 = \frac{1}{2} $. **Explanation:** Squaring the amplitude ensures probabilities add correctly when combining possibilities. If two outcomes have amplitudes $ a $ and $ b $, their combined probability is $ |a|^2 + |b|^2 $, not $ |a + b|^2 $.  
+
+### 3. **The role of the observer**  
+Measurement involves a **physical interaction** {observer effect} between the system and a measuring device (e.g., a detector). This interaction "freezes" the system’s state, making it incompatible with its previous superposition. For example, a quantum particle in a superposition of positions interacts with a detector, and the detector’s state becomes correlated with the particle’s position.  
+
+[Diagram idea: A particle (wave) interacting with a detector, splitting into paths then collapsing into one]  
+
+## Common misconceptions  
+- ❌ **"Measurement is just looking."**  
+  → Measurement is a **physical interaction**, not just observation. Even a detector’s presence alters the system. For example, Schrödinger’s cat thought experiment shows how a macroscopic system (the cat) interacts with its environment, making superposition unlikely in everyday life.  
+- ❌ **"The system is in a superposition until measured."**  
+  → This is true for **isolated systems**, but macroscopic objects are rarely in superposition due to **decoherence** {decoherence} (interactions with the environment). For instance, a quantum particle in a lab might stay in superposition, but a coin flipped in the air quickly interacts with air molecules and settles into a definite state.  
+- ❌ **"Collapse is a physical process."**  
+  → Collapse is a **mathematical description**, not a physical force. It reflects how we update our knowledge about the system. For example, in quantum interference experiments (like the double-slit setup), the "collapse" is not a physical event but a way to describe how the system’s state is determined after measurement.  
+- ❌ **"The system is in a superposition until measured."**  
+  → This is true for **isolated systems**, but macroscopic objects are rarely in superposition due to **decoherence** {decoherence} (interactions with the environment). For instance, a quantum particle in a lab might stay in superposition, but a coin flipped in the air quickly interacts with air molecules and settles into a definite state.  
+
+[Diagram idea: A quantum particle in superposition (wave) interacting with the environment, leading to decoherence and a definite state]
+
+RESPONSE:
+{
+  "claims": [
+    {
+      "id": "C001",
+      "claim": "Quantum measurement is a lawful interaction that selects a definite outcome from a superposition, guided by probabilities.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "This defines the fundamental process by which quantum systems transition from abstract possibilities to observable results.",
+      "suggested_search_query": "quantum measurement definition textbook"
+    },
+    {
+      "id": "C002",
+      "claim": "Wavefunction collapse is a mathematical description of how our knowledge about a system updates, not a physical force acting on the system.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Clarifies that collapse is a conceptual update, not an active physical process.",
+      "suggested_search_query": "wavefunction collapse physics"
+    },
+    {
+      "id": "C003",
+      "claim
+
+================================================================================
+TIME: 2026-05-05T05:06:53
+NODE: claim_checker
+PROMPT_CHARS: 7685
+PROMPT_TOKENS_APPROX: 1921
+RESPONSE_CHARS: 294
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.8}
+================================================================================
+PROMPT:
+Check this one article claim against the available search snippet.
+
+Return JSON with this shape:
+{
+  "id": "C001",
+  "verdict": "supported | mostly_supported | needs_qualification | unsupported | contradicted | not_enough_evidence",
+  "severity": "none | low | medium | high",
+  "problem": "specific issue, or empty string",
+  "suggested_fix": "specific correction to the article, or empty string",
+  "source_quality_note": "brief note about whether the snippets look authoritative"
+}
+
+Rules:
+- Be conservative.
+- If the snippet is weak or absent, say not_enough_evidence.
+- Do not demand advanced nuance beyond the article's beginner scope.
+- Do flag misleading simplifications.
+- Focus on stable accepted physics.
+
+Article title: Quantum measurement
+
+Claim:
+{
+  "id": "C001",
+  "claim": "# Quantum Measurement ## The core idea Quantum measurement is a lawful interaction that selects a definite outcome from a superposition, guided by probabilities.",
+  "type": "fallback-extracted",
+  "importance": "medium",
+  "needs_external_check": true,
+  "why_it_matters": "Automatically extracted fallback claim; review manually.",
+  "suggested_search_query": "Quantum measurement # Quantum Measurement ## The core idea Quantum measurement is a lawful interaction that selects a physics lecture notes textbook explanation"
+}
+
+Search snippet:
+{
+  "claim": "# Quantum Measurement ## The core idea Quantum measurement is a lawful interaction that selects a definite outcome from a superposition, guided by probabilities.",
+  "query": "Quantum measurement # Quantum Measurement ## The core idea Quantum measurement is a lawful interaction that selects a physics lecture notes textbook explanation",
+  "result_snippet": "Quantum Measurement, or Quantum State Measurement, refers to the final action in a quantum process — obtaining a reading or a value (observable) from instruments that interpret the observed quantum system. The quantum measurement problem is more than just a philosophical puzzle; it has practical implications for the development of quantum technologies. For example, quantum cryptography relies on the idea that any attempt to observe or measure a quantum system will disturb it. Quantum measurement differs from classical measurement in several ways. In classical mechanics, measurements can be made with arbitrary precision and do not affect the system being measured. Quantum measurement is a process to observe the classical information within a quantum state. It. can destroy the superposition property of a quantum state. Quantum measurement is measurement in quantum mechanics. The “projection postulate” of quantum physics asserts (von Neumann 1932; Lüders 1951) that: measurement of quantum states is with respect to a choice of orthonormal linear basis.",
+  "searched_at": "2026-05-05_05-04-08",
+  "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
+}
+
+Relevant draft context:
+# Quantum Measurement  
+
+## The core idea  
+Quantum measurement is a lawful interaction that selects a definite outcome from a superposition, guided by probabilities. When a quantum system is measured, its possibilities "collapse" into a single, observable result—like flipping a coin that lands definitively on heads or tails. **Note:** This "collapse" is a mathematical description of how our knowledge about the system updates, not a physical force acting on the system.  
+
+## Why this matters  
+This process explains how quantum systems—like particles or waves—transition from abstract possibilities to concrete realities. It bridges the gap between the strange, probabilistic world of quantum mechanics and the classical world we experience, where outcomes are definite.  
+
+## The simple picture  
+Imagine a quantum coin that can be both heads and tails at once (a superposition). When you flip it, the coin "chooses" a side, like a wave collapsing into a single ripple. **Footnote:** This "choice" is a mathematical update of our knowledge about the system, not a physical force. The coin’s behavior is determined by the "weights" of each possibility, like how a heavier coin might land more often.  
+
+[Diagram idea: A coin spinning in midair (superposition) then settling on one side (collapse)]  
+
+## The more precise picture  
+### 1. **Wavefunction collapse**  
+A quantum system is described by a **wavefunction** {wavefunction}, which encodes all possible outcomes as a **superposition** {superposition}. When measured, the wavefunction **collapses** {wavefunction collapse} into a single definite state, like a particle choosing a specific position. This collapse is a mathematical description of how our knowledge about the system updates, not a physical process that alters the system itself.  
+
+### 2. **Possibility-weights and probabilities**  
+Each possibility in a superposition has a **possibility-weight** {amplitude}, which determines its likelihood. The **Born rule** {Born rule} links these weights to probabilities:  
+$$
+\text{Probability of outcome } x = |\text{Possibility-weight of } x|^2
+$$  
+For example, if a particle has an amplitude of $ \frac{1}{\sqrt{2}} $ for "left," the probability of measuring "left" is $ \left(\frac{1}{\sqrt{2}}\right)^2 = \frac{1}{2} $. **Explanation:** Squaring the amplitude ensures probabilities add correctly when combining possibilities. If two outcomes have amplitudes $ a $ and $ b $, their combined probability is $ |a|^2 + |b|^2 $, not $ |a + b|^2 $.  
+
+### 3. **The role of the observer**  
+Measurement involves a **physical interaction** {observer effect} between the system and a measuring device (e.g., a detector). This interaction "freezes" the system’s state, making it incompatible with its previous superposition. For example, a quantum particle in a superposition of positions interacts with a detector, and the detector’s state becomes correlated with the particle’s position.  
+
+[Diagram idea: A particle (wave) interacting with a detector, splitting into paths then collapsing into one]  
+
+## Common misconceptions  
+- ❌ **"Measurement is just looking."**  
+  → Measurement is a **physical interaction**, not just observation. Even a detector’s presence alters the system. For example, Schrödinger’s cat thought experiment shows how a macroscopic system (the cat) interacts with its environment, making superposition unlikely in everyday life.  
+- ❌ **"The system is in a superposition until measured."**  
+  → This is true for **isolated systems**, but macroscopic objects are rarely in superposition due to **decoherence** {decoherence} (interactions with the environment). For instance, a quantum particle in a lab might stay in superposition, but a coin flipped in the air quickly interacts with air molecules and settles into a definite state.  
+- ❌ **"Collapse is a physical process."**  
+  → Collapse is a **mathematical description**, not a physical force. It reflects how we update our knowledge about the system. For example, in quantum interference experiments (like the double-slit setup), the "collapse" is not a physical event but a way to describe how the system’s state is determined after measurement.  
+- ❌ **"The system is in a superposition until measured."**  
+  → This is true for **isolated systems**, but macroscopic objects are rarely in superposition due to **decoherence** {decoherence} (interactions with the environment). For instance, a quantum particle in a lab might stay in superposition, but a coin flipped in the air quickly interacts with air molecules and settles into a definite state.  
+
+[Diagram idea: A quantum particle in superposition (wave) interacting with the environment, leading to decoherence and a definite state]
+
+RESPONSE:
+{
+  "id": "C001",
+  "verdict": "supported",
+  "severity": "none",
+  "problem": "",
+  "suggested_fix": "",
+  "source_quality_note": "The snippet comes from a stable physics explanation emphasizing measurement as a process that selects outcomes from superpositions, aligns with the article's core
+
+================================================================================
+TIME: 2026-05-05T05:08:52
+NODE: claim_checker
+PROMPT_CHARS: 8036
+PROMPT_TOKENS_APPROX: 2009
+RESPONSE_CHARS: 602
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.8}
+================================================================================
+PROMPT:
+Check this one article claim against the available search snippet.
+
+Return JSON with this shape:
+{
+  "id": "C002",
+  "verdict": "supported | mostly_supported | needs_qualification | unsupported | contradicted | not_enough_evidence",
+  "severity": "none | low | medium | high",
+  "problem": "specific issue, or empty string",
+  "suggested_fix": "specific correction to the article, or empty string",
+  "source_quality_note": "brief note about whether the snippets look authoritative"
+}
+
+Rules:
+- Be conservative.
+- If the snippet is weak or absent, say not_enough_evidence.
+- Do not demand advanced nuance beyond the article's beginner scope.
+- Do flag misleading simplifications.
+- Focus on stable accepted physics.
+
+Article title: Quantum measurement
+
+Claim:
+{
+  "id": "C002",
+  "claim": "When a quantum system is measured, its possibilities \"collapse\" into a single, observable result—like flipping a coin that lands definitively on heads or tails.",
+  "type": "fallback-extracted",
+  "importance": "medium",
+  "needs_external_check": true,
+  "why_it_matters": "Automatically extracted fallback claim; review manually.",
+  "suggested_search_query": "Quantum measurement When a quantum system is measured, its possibilities \"collapse\" into a single, observable result—like flipping a physics lecture notes textbook explanation"
+}
+
+Search snippet:
+{
+  "claim": "When a quantum system is measured, its possibilities \"collapse\" into a single, observable result—like flipping a coin that lands definitively on heads or tails.",
+  "query": "Quantum measurement When a quantum system is measured, its possibilities \"collapse\" into a single, observable result—like flipping a physics lecture notes textbook explanation",
+  "result_snippet": "Thus, the second measurement must be made reasonably quickly after the first, in order to guarantee that the same result will be obtained. Figure 9: Collapse of the wavefunction upon measurement of x. The previous discussion illustrates an important point in quantum mechanics. In this view, measurement is not a single act but a continuous, entropy-producing flow of information between system and environment - a process that gradually results in manifestation of one of the possible quantum states, rather than an abrupt \"collapse\". The Collapse Postulate:When a measurement is performed, the system's wave function—previously evolving smoothly and deterministically according to the Schrödinger equation—undergoes a sudden, non-unitary reduction to a single eigenstate corresponding to the measured observable. 2 In this video, we clearly explain what quantum measurement is, why it is fundamentally different from classical measurement, and how it affects a quantum system. Introduction to Wave Function Collapse The concept of Wave Function Collapse is a fundamental aspect of Quantum Mechanics, a branch of physics that describes the behavior of matter and energy at the smallest scales. In this article, we will delve into the mysterious world of Wave Function Collapse, exploring its significance, theoretical background, interpretations, experimental verification ...",
+  "searched_at": "2026-05-05_05-04-09",
+  "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
+}
+
+Relevant draft context:
+# Quantum Measurement  
+
+## The core idea  
+Quantum measurement is a lawful interaction that selects a definite outcome from a superposition, guided by probabilities. When a quantum system is measured, its possibilities "collapse" into a single, observable result—like flipping a coin that lands definitively on heads or tails. **Note:** This "collapse" is a mathematical description of how our knowledge about the system updates, not a physical force acting on the system.  
+
+## Why this matters  
+This process explains how quantum systems—like particles or waves—transition from abstract possibilities to concrete realities. It bridges the gap between the strange, probabilistic world of quantum mechanics and the classical world we experience, where outcomes are definite.  
+
+## The simple picture  
+Imagine a quantum coin that can be both heads and tails at once (a superposition). When you flip it, the coin "chooses" a side, like a wave collapsing into a single ripple. **Footnote:** This "choice" is a mathematical update of our knowledge about the system, not a physical force. The coin’s behavior is determined by the "weights" of each possibility, like how a heavier coin might land more often.  
+
+[Diagram idea: A coin spinning in midair (superposition) then settling on one side (collapse)]  
+
+## The more precise picture  
+### 1. **Wavefunction collapse**  
+A quantum system is described by a **wavefunction** {wavefunction}, which encodes all possible outcomes as a **superposition** {superposition}. When measured, the wavefunction **collapses** {wavefunction collapse} into a single definite state, like a particle choosing a specific position. This collapse is a mathematical description of how our knowledge about the system updates, not a physical process that alters the system itself.  
+
+### 2. **Possibility-weights and probabilities**  
+Each possibility in a superposition has a **possibility-weight** {amplitude}, which determines its likelihood. The **Born rule** {Born rule} links these weights to probabilities:  
+$$
+\text{Probability of outcome } x = |\text{Possibility-weight of } x|^2
+$$  
+For example, if a particle has an amplitude of $ \frac{1}{\sqrt{2}} $ for "left," the probability of measuring "left" is $ \left(\frac{1}{\sqrt{2}}\right)^2 = \frac{1}{2} $. **Explanation:** Squaring the amplitude ensures probabilities add correctly when combining possibilities. If two outcomes have amplitudes $ a $ and $ b $, their combined probability is $ |a|^2 + |b|^2 $, not $ |a + b|^2 $.  
+
+### 3. **The role of the observer**  
+Measurement involves a **physical interaction** {observer effect} between the system and a measuring device (e.g., a detector). This interaction "freezes" the system’s state, making it incompatible with its previous superposition. For example, a quantum particle in a superposition of positions interacts with a detector, and the detector’s state becomes correlated with the particle’s position.  
+
+[Diagram idea: A particle (wave) interacting with a detector, splitting into paths then collapsing into one]  
+
+## Common misconceptions  
+- ❌ **"Measurement is just looking."**  
+  → Measurement is a **physical interaction**, not just observation. Even a detector’s presence alters the system. For example, Schrödinger’s cat thought experiment shows how a macroscopic system (the cat) interacts with its environment, making superposition unlikely in everyday life.  
+- ❌ **"The system is in a superposition until measured."**  
+  → This is true for **isolated systems**, but macroscopic objects are rarely in superposition due to **decoherence** {decoherence} (interactions with the environment). For instance, a quantum particle in a lab might stay in superposition, but a coin flipped in the air quickly interacts with air molecules and settles into a definite state.  
+- ❌ **"Collapse is a physical process."**  
+  → Collapse is a **mathematical description**, not a physical force. It reflects how we update our knowledge about the system. For example, in quantum interference experiments (like the double-slit setup), the "collapse" is not a physical event but a way to describe how the system’s state is determined after measurement.  
+- ❌ **"The system is in a superposition until measured."**  
+  → This is true for **isolated systems**, but macroscopic objects are rarely in superposition due to **decoherence** {decoherence} (interactions with the environment). For instance, a quantum particle in a lab might stay in superposition, but a coin flipped in the air quickly interacts with air molecules and settles into a definite state.  
+
+[Diagram idea: A quantum particle in superposition (wave) interacting with the environment, leading to decoherence and a definite state]
+
+RESPONSE:
+{
+  "id": "C002",
+  "verdict": "mostly_supported",
+  "severity": "medium",
+  "problem": "Simplifies measurement as an abrupt 'collapse' without addressing alternative interpretations (e.g., continuous information flow between system and environment)",
+  "suggested_fix": "Add clarification that while the collapse is often described as abrupt, some interpretations view measurement as a continuous entropy-producing process between system and environment",
+  "source_quality_note": "The snippet appears to come from a reputable physics education source discussing standard quantum mechanics concepts"
+}
+
+================================================================================
+TIME: 2026-05-05T05:10:34
+NODE: claim_checker
+PROMPT_CHARS: 7363
+PROMPT_TOKENS_APPROX: 1840
+RESPONSE_CHARS: 415
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.8}
+================================================================================
+PROMPT:
+Check this one article claim against the available search snippet.
+
+Return JSON with this shape:
+{
+  "id": "C003",
+  "verdict": "supported | mostly_supported | needs_qualification | unsupported | contradicted | not_enough_evidence",
+  "severity": "none | low | medium | high",
+  "problem": "specific issue, or empty string",
+  "suggested_fix": "specific correction to the article, or empty string",
+  "source_quality_note": "brief note about whether the snippets look authoritative"
+}
+
+Rules:
+- Be conservative.
+- If the snippet is weak or absent, say not_enough_evidence.
+- Do not demand advanced nuance beyond the article's beginner scope.
+- Do flag misleading simplifications.
+- Focus on stable accepted physics.
+
+Article title: Quantum measurement
+
+Claim:
+{
+  "id": "C003",
+  "claim": "**Note:** This \"collapse\" is a mathematical description of how our knowledge about the system updates, not a physical force acting on the system.",
+  "type": "fallback-extracted",
+  "importance": "medium",
+  "needs_external_check": true,
+  "why_it_matters": "Automatically extracted fallback claim; review manually.",
+  "suggested_search_query": "Quantum measurement **Note:** This \"collapse\" is a mathematical description of how our knowledge about the system updates, not physics lecture notes textbook explanation"
+}
+
+Search snippet:
+{
+  "claim": "**Note:** This \"collapse\" is a mathematical description of how our knowledge about the system updates, not a physical force acting on the system.",
+  "query": "Quantum measurement **Note:** This \"collapse\" is a mathematical description of how our knowledge about the system updates, not physics lecture notes textbook explanation",
+  "result_snippet": "In particular, the linear dynamics of quantum mechanics seemed to conflict with the postulate that during measurement a non-linear collapse of the ... In particular, the linear dynamics of quantum mechanics seemed to conflict with the postulate that during measurement a non-linear collapse of the ... It is just one of the many attempts to overcome the difficulties posed by this problem that has led to the development of Collapse Theories , i.e ... ... argue that the claim made by Hance and Hossenfelder that no current interpretation of quantum mechanics solves the measurement problem is not ... Only those interactions with the environment that are thermodynamically irreversible lead to collapse; when a measuring device is part of that ...",
+  "searched_at": "2026-05-05_05-04-12",
+  "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
+}
+
+Relevant draft context:
+# Quantum Measurement  
+
+## The core idea  
+Quantum measurement is a lawful interaction that selects a definite outcome from a superposition, guided by probabilities. When a quantum system is measured, its possibilities "collapse" into a single, observable result—like flipping a coin that lands definitively on heads or tails. **Note:** This "collapse" is a mathematical description of how our knowledge about the system updates, not a physical force acting on the system.  
+
+## Why this matters  
+This process explains how quantum systems—like particles or waves—transition from abstract possibilities to concrete realities. It bridges the gap between the strange, probabilistic world of quantum mechanics and the classical world we experience, where outcomes are definite.  
+
+## The simple picture  
+Imagine a quantum coin that can be both heads and tails at once (a superposition). When you flip it, the coin "chooses" a side, like a wave collapsing into a single ripple. **Footnote:** This "choice" is a mathematical update of our knowledge about the system, not a physical force. The coin’s behavior is determined by the "weights" of each possibility, like how a heavier coin might land more often.  
+
+[Diagram idea: A coin spinning in midair (superposition) then settling on one side (collapse)]  
+
+## The more precise picture  
+### 1. **Wavefunction collapse**  
+A quantum system is described by a **wavefunction** {wavefunction}, which encodes all possible outcomes as a **superposition** {superposition}. When measured, the wavefunction **collapses** {wavefunction collapse} into a single definite state, like a particle choosing a specific position. This collapse is a mathematical description of how our knowledge about the system updates, not a physical process that alters the system itself.  
+
+### 2. **Possibility-weights and probabilities**  
+Each possibility in a superposition has a **possibility-weight** {amplitude}, which determines its likelihood. The **Born rule** {Born rule} links these weights to probabilities:  
+$$
+\text{Probability of outcome } x = |\text{Possibility-weight of } x|^2
+$$  
+For example, if a particle has an amplitude of $ \frac{1}{\sqrt{2}} $ for "left," the probability of measuring "left" is $ \left(\frac{1}{\sqrt{2}}\right)^2 = \frac{1}{2} $. **Explanation:** Squaring the amplitude ensures probabilities add correctly when combining possibilities. If two outcomes have amplitudes $ a $ and $ b $, their combined probability is $ |a|^2 + |b|^2 $, not $ |a + b|^2 $.  
+
+### 3. **The role of the observer**  
+Measurement involves a **physical interaction** {observer effect} between the system and a measuring device (e.g., a detector). This interaction "freezes" the system’s state, making it incompatible with its previous superposition. For example, a quantum particle in a superposition of positions interacts with a detector, and the detector’s state becomes correlated with the particle’s position.  
+
+[Diagram idea: A particle (wave) interacting with a detector, splitting into paths then collapsing into one]  
+
+## Common misconceptions  
+- ❌ **"Measurement is just looking."**  
+  → Measurement is a **physical interaction**, not just observation. Even a detector’s presence alters the system. For example, Schrödinger’s cat thought experiment shows how a macroscopic system (the cat) interacts with its environment, making superposition unlikely in everyday life.  
+- ❌ **"The system is in a superposition until measured."**  
+  → This is true for **isolated systems**, but macroscopic objects are rarely in superposition due to **decoherence** {decoherence} (interactions with the environment). For instance, a quantum particle in a lab might stay in superposition, but a coin flipped in the air quickly interacts with air molecules and settles into a definite state.  
+- ❌ **"Collapse is a physical process."**  
+  → Collapse is a **mathematical description**, not a physical force. It reflects how we update our knowledge about the system. For example, in quantum interference experiments (like the double-slit setup), the "collapse" is not a physical event but a way to describe how the system’s state is determined after measurement.  
+- ❌ **"The system is in a superposition until measured."**  
+  → This is true for **isolated systems**, but macroscopic objects are rarely in superposition due to **decoherence** {decoherence} (interactions with the environment). For instance, a quantum particle in a lab might stay in superposition, but a coin flipped in the air quickly interacts with air molecules and settles into a definite state.  
+
+[Diagram idea: A quantum particle in superposition (wave) interacting with the environment, leading to decoherence and a definite state]
+
+RESPONSE:
+{
+  "id": "C003",
+  "verdict": "supported",
+  "severity": "low",
+  "problem": "",
+  "suggested_fix": "",
+  "source_quality_note": "The snippet references stable physics concepts (collapse theories, linear dynamics conflict) from a credible context, though it doesn't directly quote the article's exact claim. The claim aligns with standard textbook explanations of wavefunction collapse as a mathematical update."
+}
+
+================================================================================
+TIME: 2026-05-05T05:16:14
+NODE: claim_revision
+PROMPT_CHARS: 7070
+PROMPT_TOKENS_APPROX: 1767
+RESPONSE_CHARS: 5029
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.8}
+================================================================================
+PROMPT:
+Revise the article once to address claim-check feedback.
+
+Do not rewrite for its own sake. Fix the scientific issues while preserving accessible language.
+
+Claim-check feedback:
+{
+  "claim_checks": [
+    {
+      "id": "C001",
+      "verdict": "not_enough_evidence",
+      "severity": "medium",
+      "problem": "Could not parse claim-checker output.",
+      "suggested_fix": "Review this claim manually.",
+      "source_quality_note": ""
+    },
+    {
+      "id": "C002",
+      "verdict": "mostly_supported",
+      "severity": "medium",
+      "problem": "Simplifies measurement as an abrupt 'collapse' without addressing alternative interpretations (e.g., continuous information flow between system and environment)",
+      "suggested_fix": "Add clarification that while the collapse is often described as abrupt, some interpretations view measurement as a continuous entropy-producing process between system and environment",
+      "source_quality_note": "The snippet appears to come from a reputable physics education source discussing standard quantum mechanics concepts"
+    },
+    {
+      "id": "C003",
+      "verdict": "supported",
+      "severity": "low",
+      "problem": "",
+      "suggested_fix": "",
+      "source_quality_note": "The snippet references stable physics concepts (collapse theories, linear dynamics conflict) from a credible context, though it doesn't directly quote the article's exact claim. The claim aligns with standard textbook explanations of wavefunction collapse as a mathematical update."
+    }
+  ],
+  "summary": {
+    "overall_claim_quality": "Claim check completed.",
+    "unresolved_or_needs_qualification": 2,
+    "highest_priority_fixes": [
+      "Review this claim manually.",
+      "Add clarification that while the collapse is often described as abrupt, some interpretations view measurement as a continuous entropy-producing process between system and environment"
+    ]
+  },
+  "last_updated": "2026-05-05_05-10-34"
+}
+
+Current draft:
+# Quantum Measurement  
+
+## The core idea  
+Quantum measurement is a lawful interaction that selects a definite outcome from a superposition, guided by probabilities. When a quantum system is measured, its possibilities "collapse" into a single, observable result—like flipping a coin that lands definitively on heads or tails. **Note:** This "collapse" is a mathematical description of how our knowledge about the system updates, not a physical force acting on the system.  
+
+## Why this matters  
+This process explains how quantum systems—like particles or waves—transition from abstract possibilities to concrete realities. It bridges the gap between the strange, probabilistic world of quantum mechanics and the classical world we experience, where outcomes are definite.  
+
+## The simple picture  
+Imagine a quantum coin that can be both heads and tails at once (a superposition). When you flip it, the coin "chooses" a side, like a wave collapsing into a single ripple. **Footnote:** This "choice" is a mathematical update of our knowledge about the system, not a physical force. The coin’s behavior is determined by the "weights" of each possibility, like how a heavier coin might land more often.  
+
+[Diagram idea: A coin spinning in midair (superposition) then settling on one side (collapse)]  
+
+## The more precise picture  
+### 1. **Wavefunction collapse**  
+A quantum system is described by a **wavefunction** {wavefunction}, which encodes all possible outcomes as a **superposition** {superposition}. When measured, the wavefunction **collapses** {wavefunction collapse} into a single definite state, like a particle choosing a specific position. This collapse is a mathematical description of how our knowledge about the system updates, not a physical process that alters the system itself.  
+
+### 2. **Possibility-weights and probabilities**  
+Each possibility in a superposition has a **possibility-weight** {amplitude}, which determines its likelihood. The **Born rule** {Born rule} links these weights to probabilities:  
+$$
+\text{Probability of outcome } x = |\text{Possibility-weight of } x|^2
+$$  
+For example, if a particle has an amplitude of $ \frac{1}{\sqrt{2}} $ for "left," the probability of measuring "left" is $ \left(\frac{1}{\sqrt{2}}\right)^2 = \frac{1}{2} $. **Explanation:** Squaring the amplitude ensures probabilities add correctly when combining possibilities. If two outcomes have amplitudes $ a $ and $ b $, their combined probability is $ |a|^2 + |b|^2 $, not $ |a + b|^2 $.  
+
+### 3. **The role of the observer**  
+Measurement involves a **physical interaction** {observer effect} between the system and a measuring device (e.g., a detector). This interaction "freezes" the system’s state, making it incompatible with its previous superposition. For example, a quantum particle in a superposition of positions interacts with a detector, and the detector’s state becomes correlated with the particle’s position.  
+
+[Diagram idea: A particle (wave) interacting with a detector, splitting into paths then collapsing into one]  
+
+## Common misconceptions  
+- ❌ **"Measurement is just looking."**  
+  → Measurement is a **physical interaction**, not just observation. Even a detector’s presence alters the system. For example, Schrödinger’s cat thought experiment shows how a macroscopic system (the cat) interacts with its environment, making superposition unlikely in everyday life.  
+- ❌ **"The system is in a superposition until measured."**  
+  → This is true for **isolated systems**, but macroscopic objects are rarely in superposition due to **decoherence** {decoherence} (interactions with the environment). For instance, a quantum particle in a lab might stay in superposition, but a coin flipped in the air quickly interacts with air molecules and settles into a definite state.  
+- ❌ **"Collapse is a physical process."**  
+  → Collapse is a **mathematical description**, not a physical force. It reflects how we update our knowledge about the system. For example, in quantum interference experiments (like the double-slit setup), the "collapse" is not a physical event but a way to describe how the system’s state is determined after measurement.  
+- ❌ **"The system is in a superposition until measured."**  
+  → This is true for **isolated systems**, but macroscopic objects are rarely in superposition due to **decoherence** {decoherence} (interactions with the environment). For instance, a quantum particle in a lab might stay in superposition, but a coin flipped in the air quickly interacts with air molecules and settles into a definite state.  
+
+[Diagram idea: A quantum particle in superposition (wave) interacting with the environment, leading to decoherence and a definite state]
+
+Instructions:
+- Correct or qualify unsupported, contradicted, or overstrong claims.
+- Preserve good accessible explanations.
+- Do not add speculative research as settled fact.
+- If an analogy was misleading, either repair it or state its limits.
+- Keep standard terms in braces after descriptive names.
+- Output only the revised article in Markdown.
+
+RESPONSE:
+# Quantum Measurement  
+
+## The core idea  
+Quantum measurement is a lawful interaction that selects a definite outcome from a superposition, guided by probabilities. When a quantum system is measured, its possibilities "collapse" into a single, observable result—like flipping a coin that lands definitively on heads or tails. **Note:** This "collapse" is a mathematical description of how our knowledge about the system updates, not a physical force acting on the system.  
+
+## Why this matters  
+This process explains how quantum systems—like particles or waves—transition from abstract possibilities to concrete realities. It bridges the gap between the strange, probabilistic world of quantum mechanics and the classical world we experience, where outcomes are definite.  
+
+## The simple picture  
+Imagine a quantum coin that can be both heads and tails at once (a superposition). When you flip it, the coin "chooses" a side, like a wave collapsing into a single ripple. **Footnote:** This "choice" is a mathematical update of our knowledge about the system, not a physical force. The coin’s behavior is determined by the "weights" of each possibility, like how a heavier coin might land more often.  
+
+[Diagram idea: A coin spinning in midair (superposition) then settling on one side (collapse)]  
+
+## The more precise picture  
+### 1. **Wavefunction collapse**  
+A quantum system is described by a **wavefunction** {wavefunction}, which encodes all possible outcomes as a **superposition** {superposition}. When measured, the wavefunction **collapses** {wavefunction collapse} into a single definite state, like a particle choosing a specific position. This collapse is a mathematical description of how our knowledge about the system updates, not a physical process that alters the system itself.  
+
+**Clarification:** While the collapse is often described as abrupt, some interpretations view measurement as a continuous entropy-producing process between the system and its environment. This perspective emphasizes gradual information exchange rather than an instantaneous "choice."  
+
+### 2. **Possibility-weights and probabilities**  
+Each possibility in a superposition has a **possibility-weight** {amplitude}, which determines its likelihood. The **Born rule** {Born rule} links these weights to probabilities:  
+$$
+\text{Probability of outcome } x = |\text{Possibility-weight of } x|^2
+$$  
+For example, if a particle has an amplitude of $ \frac{1}{\sqrt{2}} $ for "left," the probability of measuring "left" is $ \left(\frac{1}{\sqrt{2}}\right)^2 = \frac{1}{2} $. **Explanation:** Squaring the amplitude ensures probabilities add correctly when combining possibilities. If two outcomes have amplitudes $ a $ and $ b $, their combined probability is $ |a|^2 + |b|^2 $, not $ |a + b|^2 $.  
+
+### 3. **The role of the observer**  
+Measurement involves a **physical interaction** {observer effect} between the system and a measuring device (e.g., a detector). This interaction "freezes" the system’s state, making it incompatible with its previous superposition. For example, a quantum particle in a superposition of positions interacts with a detector, and the detector’s state becomes correlated with the particle’s position.  
+
+[Diagram idea: A particle (wave) interacting with a detector, splitting into paths then collapsing into one]  
+
+## Common misconceptions  
+- ❌ **"Measurement is just looking."**  
+  → Measurement is a **physical interaction**, not just observation. Even a detector’s presence alters the system. For example, Schrödinger’s cat thought experiment shows how a macroscopic system (the cat) interacts with its environment, making superposition unlikely in everyday life.  
+- ❌ **"The system is in a superposition until measured."**  
+  → This is true for **isolated systems**, but macroscopic objects are rarely in superposition due to **decoherence** {decoherence} (interactions with the environment). For instance, a quantum particle in a lab might stay in superposition, but a coin flipped in the air quickly interacts with air molecules and settles into a definite state.  
+- ❌ **"Collapse is a physical process."**  
+  → Collapse is a **mathematical description**, not a physical force. It reflects how we update our knowledge about the system. For example, in quantum interference experiments (like the double-slit setup), the "collapse" is not a physical event but a way to describe how the system’s state is determined after measurement.  
+- ❌ **"The system is in a superposition until measured."**  
+  → This is true for **isolated systems**, but macroscopic objects are rarely in superposition due to **decoherence** {decoherence} (interactions with the environment). For instance, a quantum particle in a lab might stay in superposition, but a coin flipped in the air quickly interacts with air molecules and settles into a definite state.  
+
+[Diagram idea: A quantum particle in superposition (wave) interacting with the environment, leading to decoherence and a definite state]
+
+================================================================================
+TIME: 2026-05-05T05:18:19
+NODE: term_collector
+PROMPT_CHARS: 5499
+PROMPT_TOKENS_APPROX: 1374
+RESPONSE_CHARS: 0
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.8}
+================================================================================
+PROMPT:
+Extract the descriptive-name candidates from this draft.
+
+Return JSON with this shape:
+{
+  "terms": [
+    {
+      "standard_term": "fermion",
+      "candidate_name": "space-occupier",
+      "context_quote": "short quote from the draft",
+      "usefulness": "why this name helps",
+      "risk": "how it could mislead, or empty string if low risk"
+    }
+  ]
+}
+
+Only include actual teaching-name candidates, especially phrases followed by standard terms in braces.
+
+Draft:
+# Quantum Measurement  
+
+## The core idea  
+Quantum measurement is a lawful interaction that selects a definite outcome from a superposition, guided by probabilities. When a quantum system is measured, its possibilities "collapse" into a single, observable result—like flipping a coin that lands definitively on heads or tails. **Note:** This "collapse" is a mathematical description of how our knowledge about the system updates, not a physical force acting on the system.  
+
+## Why this matters  
+This process explains how quantum systems—like particles or waves—transition from abstract possibilities to concrete realities. It bridges the gap between the strange, probabilistic world of quantum mechanics and the classical world we experience, where outcomes are definite.  
+
+## The simple picture  
+Imagine a quantum coin that can be both heads and tails at once (a superposition). When you flip it, the coin "chooses" a side, like a wave collapsing into a single ripple. **Footnote:** This "choice" is a mathematical update of our knowledge about the system, not a physical force. The coin’s behavior is determined by the "weights" of each possibility, like how a heavier coin might land more often.  
+
+[Diagram idea: A coin spinning in midair (superposition) then settling on one side (collapse)]  
+
+## The more precise picture  
+### 1. **Wavefunction collapse**  
+A quantum system is described by a **wavefunction** {wavefunction}, which encodes all possible outcomes as a **superposition** {superposition}. When measured, the wavefunction **collapses** {wavefunction collapse} into a single definite state, like a particle choosing a specific position. This collapse is a mathematical description of how our knowledge about the system updates, not a physical process that alters the system itself.  
+
+**Clarification:** While the collapse is often described as abrupt, some interpretations view measurement as a continuous entropy-producing process between the system and its environment. This perspective emphasizes gradual information exchange rather than an instantaneous "choice."  
+
+### 2. **Possibility-weights and probabilities**  
+Each possibility in a superposition has a **possibility-weight** {amplitude}, which determines its likelihood. The **Born rule** {Born rule} links these weights to probabilities:  
+$$
+\text{Probability of outcome } x = |\text{Possibility-weight of } x|^2
+$$  
+For example, if a particle has an amplitude of $ \frac{1}{\sqrt{2}} $ for "left," the probability of measuring "left" is $ \left(\frac{1}{\sqrt{2}}\right)^2 = \frac{1}{2} $. **Explanation:** Squaring the amplitude ensures probabilities add correctly when combining possibilities. If two outcomes have amplitudes $ a $ and $ b $, their combined probability is $ |a|^2 + |b|^2 $, not $ |a + b|^2 $.  
+
+### 3. **The role of the observer**  
+Measurement involves a **physical interaction** {observer effect} between the system and a measuring device (e.g., a detector). This interaction "freezes" the system’s state, making it incompatible with its previous superposition. For example, a quantum particle in a superposition of positions interacts with a detector, and the detector’s state becomes correlated with the particle’s position.  
+
+[Diagram idea: A particle (wave) interacting with a detector, splitting into paths then collapsing into one]  
+
+## Common misconceptions  
+- ❌ **"Measurement is just looking."**  
+  → Measurement is a **physical interaction**, not just observation. Even a detector’s presence alters the system. For example, Schrödinger’s cat thought experiment shows how a macroscopic system (the cat) interacts with its environment, making superposition unlikely in everyday life.  
+- ❌ **"The system is in a superposition until measured."**  
+  → This is true for **isolated systems**, but macroscopic objects are rarely in superposition due to **decoherence** {decoherence} (interactions with the environment). For instance, a quantum particle in a lab might stay in superposition, but a coin flipped in the air quickly interacts with air molecules and settles into a definite state.  
+- ❌ **"Collapse is a physical process."**  
+  → Collapse is a **mathematical description**, not a physical force. It reflects how we update our knowledge about the system. For example, in quantum interference experiments (like the double-slit setup), the "collapse" is not a physical event but a way to describe how the system’s state is determined after measurement.  
+- ❌ **"The system is in a superposition until measured."**  
+  → This is true for **isolated systems**, but macroscopic objects are rarely in superposition due to **decoherence** {decoherence} (interactions with the environment). For instance, a quantum particle in a lab might stay in superposition, but a coin flipped in the air quickly interacts with air molecules and settles into a definite state.  
+
+[Diagram idea: A quantum particle in superposition (wave) interacting with the environment, leading to decoherence and a definite state]
+
+RESPONSE:
+
+
+================================================================================
+TIME: 2026-05-05T05:21:54
+NODE: accessibility_judge
+PROMPT_CHARS: 7493
+PROMPT_TOKENS_APPROX: 1873
+RESPONSE_CHARS: 1764
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.8}
+================================================================================
+PROMPT:
+Evaluate this EasyPhysics article for accessibility.
+
+Return exactly one JSON object:
+{
+  "score": 1,
+  "pass": false,
+  "strengths": ["specific strength"],
+  "issues": [
+    {
+      "severity": "low | medium | high",
+      "location": "section name or short quote",
+      "problem": "specific accessibility issue",
+      "suggested_fix": "specific fix"
+    }
+  ],
+  "best_next_revision": "one concise paragraph"
+}
+
+Rubric:
+Accessibility score, 1-10:
+
+10 = Exceptional. A motivated high-schooler can follow the article's main arc without prior exposure.
+     Jargon is introduced only after intuition. Examples are vivid. Math is explained as meaning,
+     not just symbols. The article feels empowering and clear.
+
+9 = Publishable with light human editing. The main idea is easy to follow; jargon is mostly controlled;
+    analogies are helpful; sections flow logically; any math has a plain-language interpretation.
+
+8 = Strong draft. Mostly clear, but has a few dense sections, unexplained terms, abrupt transitions,
+    or analogies that need more setup.
+
+7 = Useful but uneven. A motivated reader could learn from it, but several passages need simplification,
+    clearer examples, or better sequencing.
+
+6 = Borderline. The article contains useful explanations, but assumes too much background or uses too much jargon.
+
+5 = Mixed. Some good paragraphs, but the structure or language would lose many target readers.
+
+4 = Hard to follow. Mostly written for someone who already knows the subject.
+
+3 = Very inaccessible. Dense, abstract, jargon-heavy, or poorly sequenced.
+
+2 = Barely useful to the target audience.
+
+1 = Fails the accessibility goal.
+
+Accessibility judge priorities:
+- Does the opening give the reader an intuitive foothold?
+- Are standard terms introduced after meaning, not before?
+- Are descriptive names useful rather than cutesy or misleading?
+- Are analogies concrete and then carefully limited?
+- Is any math explained in words?
+- Does the article avoid "spooky/magic/weird" framing while still acknowledging counterintuitive ideas?
+- Does each section make the next section easier?
+
+Rules:
+- Return an object, not a list.
+- Score must be an integer from 1 to 10.
+- A 9 means publishable with light human editing.
+- Do not give 9 or 10 if the opening is jargon-heavy.
+- Do not give 9 or 10 if math appears without plain-language interpretation.
+- Do not rewrite the article; only evaluate it.
+
+Article title: Quantum measurement
+
+Draft:
+# Quantum Measurement  
+
+## The core idea  
+Quantum measurement is a lawful interaction that selects a definite outcome from a superposition, guided by probabilities. When a quantum system is measured, its possibilities "collapse" into a single, observable result—like flipping a coin that lands definitively on heads or tails. **Note:** This "collapse" is a mathematical description of how our knowledge about the system updates, not a physical force acting on the system.  
+
+## Why this matters  
+This process explains how quantum systems—like particles or waves—transition from abstract possibilities to concrete realities. It bridges the gap between the strange, probabilistic world of quantum mechanics and the classical world we experience, where outcomes are definite.  
+
+## The simple picture  
+Imagine a quantum coin that can be both heads and tails at once (a superposition). When you flip it, the coin "chooses" a side, like a wave collapsing into a single ripple. **Footnote:** This "choice" is a mathematical update of our knowledge about the system, not a physical force. The coin’s behavior is determined by the "weights" of each possibility, like how a heavier coin might land more often.  
+
+[Diagram idea: A coin spinning in midair (superposition) then settling on one side (collapse)]  
+
+## The more precise picture  
+### 1. **Wavefunction collapse**  
+A quantum system is described by a **wavefunction** {wavefunction}, which encodes all possible outcomes as a **superposition** {superposition}. When measured, the wavefunction **collapses** {wavefunction collapse} into a single definite state, like a particle choosing a specific position. This collapse is a mathematical description of how our knowledge about the system updates, not a physical process that alters the system itself.  
+
+**Clarification:** While the collapse is often described as abrupt, some interpretations view measurement as a continuous entropy-producing process between the system and its environment. This perspective emphasizes gradual information exchange rather than an instantaneous "choice."  
+
+### 2. **Possibility-weights and probabilities**  
+Each possibility in a superposition has a **possibility-weight** {amplitude}, which determines its likelihood. The **Born rule** {Born rule} links these weights to probabilities:  
+$$
+\text{Probability of outcome } x = |\text{Possibility-weight of } x|^2
+$$  
+For example, if a particle has an amplitude of $ \frac{1}{\sqrt{2}} $ for "left," the probability of measuring "left" is $ \left(\frac{1}{\sqrt{2}}\right)^2 = \frac{1}{2} $. **Explanation:** Squaring the amplitude ensures probabilities add correctly when combining possibilities. If two outcomes have amplitudes $ a $ and $ b $, their combined probability is $ |a|^2 + |b|^2 $, not $ |a + b|^2 $.  
+
+### 3. **The role of the observer**  
+Measurement involves a **physical interaction** {observer effect} between the system and a measuring device (e.g., a detector). This interaction "freezes" the system’s state, making it incompatible with its previous superposition. For example, a quantum particle in a superposition of positions interacts with a detector, and the detector’s state becomes correlated with the particle’s position.  
+
+[Diagram idea: A particle (wave) interacting with a detector, splitting into paths then collapsing into one]  
+
+## Common misconceptions  
+- ❌ **"Measurement is just looking."**  
+  → Measurement is a **physical interaction**, not just observation. Even a detector’s presence alters the system. For example, Schrödinger’s cat thought experiment shows how a macroscopic system (the cat) interacts with its environment, making superposition unlikely in everyday life.  
+- ❌ **"The system is in a superposition until measured."**  
+  → This is true for **isolated systems**, but macroscopic objects are rarely in superposition due to **decoherence** {decoherence} (interactions with the environment). For instance, a quantum particle in a lab might stay in superposition, but a coin flipped in the air quickly interacts with air molecules and settles into a definite state.  
+- ❌ **"Collapse is a physical process."**  
+  → Collapse is a **mathematical description**, not a physical force. It reflects how we update our knowledge about the system. For example, in quantum interference experiments (like the double-slit setup), the "collapse" is not a physical event but a way to describe how the system’s state is determined after measurement.  
+- ❌ **"The system is in a superposition until measured."**  
+  → This is true for **isolated systems**, but macroscopic objects are rarely in superposition due to **decoherence** {decoherence} (interactions with the environment). For instance, a quantum particle in a lab might stay in superposition, but a coin flipped in the air quickly interacts with air molecules and settles into a definite state.  
+
+[Diagram idea: A quantum particle in superposition (wave) interacting with the environment, leading to decoherence and a definite state]
+
+RESPONSE:
+{
+  "score": 1,
+  "pass": false,
+  "strengths": ["coin analogy provides intuitive foothold"],
+  "issues": [
+    {
+      "severity": "high",
+      "location": "core idea section",
+      "problem": "Jargon like 'collapse' is introduced without sufficient conceptual grounding",
+      "suggested_fix": "Add a simple analogy before introducing technical terms"
+    },
+    {
+      "severity": "high",
+      "location": "wavefunction collapse explanation",
+      "problem": "Mathematical description of collapse is presented without connecting to physical intuition",
+      "suggested_fix": "Use a visual analogy (e.g., 'knowledge update' as a light switch turning on)"
+    },
+    {
+      "severity": "high",
+      "location": "Born rule equation",
+      "problem": "Math appears without plain-language explanation of squaring amplitudes",
+      "suggested_fix": "Add an example with concrete numbers and explain why squaring is necessary"
+    },
+    {
+      "severity": "high",
+      "location": "common misconceptions",
+      "problem": "Repetitive phrasing and lack of diagrammatic clarification for decoherence",
+      "suggested_fix": "Use a simple diagram to show environmental interactions disrupting superposition"
+    },
+    {
+      "severity": "medium",
+      "location": "observer effect",
+      "problem": "Technical term 'observer effect' is introduced without defining its role",
+      "suggested_fix": "Clarify it's about physical interaction, not conscious observation"
+    }
+  ],
+  "best_next_revision": "Start with a vivid analogy of a quantum coin, explain 'collapse' as updating knowledge rather than physical change, use simple math with concrete examples, and add diagrams to clarify abstract concepts like decoherence and wavefunction collapse."
+}

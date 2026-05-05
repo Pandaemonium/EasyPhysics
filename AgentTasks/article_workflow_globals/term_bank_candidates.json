@@ -323,7 +323,43 @@
       "risk": "Could imply mapping physical locations instead of abstract probability spaces",
       "article_title": "Scattering",
       "captured_at": "2026-05-04_10-45-23"
+    },
+    {
+      "standard_term": "eigenvectors",
+      "candidate_name": "direction-keepers",
+      "context_quote": "Eigenvectors are **direction-keepers** {eigenvectors}: they only stretch, shrink, or reverse direction when a **linear transformation** is applied.",
+      "usefulness": "Emphasizes the invariant directional behavior of eigenvectors, making their role in linear transformations intuitive.",
+      "risk": "Could imply eigenvectors are exclusively about geometric directions, but they apply broadly to any linear transformation.",
+      "article_title": "Eigenvector",
+      "captured_at": "2026-05-05_00-50-48"
+    },
+    {
+      "standard_term": "eigenstates",
+      "candidate_name": "quantum states",
+      "context_quote": "This concept is foundational in physics (e.g., quantum states {eigenstates}), engineering, computer graphics, and data science.",
+      "usefulness": "Links eigenvectors to quantum mechanics intuitively, highlighting their role in representing stable, predictable states.",
+      "risk": "May suggest all quantum states are eigenvectors, but eigenstates are a specific subset of quantum states.",
+      "article_title": "Eigenvector",
+      "captured_at": "2026-05-05_00-50-48"
+    },
+    {
+      "standard_term": "eigenstate",
+      "candidate_name": "definite-answer state",
+      "context_quote": "An eigenstate {eigenstate} is a 'definite-answer state' — a quantum state where measuring a specific property... always gives the same result",
+      "usefulness": "Emphasizes the probabilistic certainty of measurement outcomes, contrasting with classical determinism",
+      "risk": "Might imply the state has an inherent 'answer' rather than being a mathematical tool for prediction",
+      "article_title": "Eigenstate",
+      "captured_at": "2026-05-05_01-24-35"
+    },
+    {
+      "standard_term": "eigenstate",
+      "candidate_name": "building blocks",
+      "context_quote": "Eigenstates are not 'building blocks' {eigenstates} in a physical sense. They’re mathematical tools for prediction",
+      "usefulness": "Highlights their role as conceptual ingredients rather than physical entities",
+      "risk": "Could mislead into thinking eigenstates are physical components rather than mathematical constructs",
+      "article_title": "Eigenstate",
+      "captured_at": "2026-05-05_01-24-35"
     }
   ],
-  "last_updated": "2026-05-04_10-45-23"
+  "last_updated": "2026-05-05_01-24-35"
 }

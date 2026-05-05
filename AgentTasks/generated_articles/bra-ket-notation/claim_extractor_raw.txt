@@ -2,12 +2,26 @@
   "claims": [
     {
       "id": "C001",
-      "claim": "Bra-ket notation is a shorthand for quantum states and their interactions, using kets (|ψ⟩) and bras (⟨φ|) to represent states and measurement questions.",
+      "claim": "Bra-ket notation is a shorthand for quantum states and their interactions.",
       "type": "definition",
       "importance": "high",
       "needs_external_check": true,
-      "why_it_matters": "Establishes the foundational purpose of bra-ket notation in quantum mechanics.",
+      "why_it_matters": "Establishes the core purpose of bra-ket notation in quantum mechanics.",
       "suggested_search_query": "bra-ket notation definition quantum mechanics"
     },
     {
-      "id": "C00
+      "id": "C002",
+      "claim": "The inner product ⟨φ|ψ⟩ encodes the probability amplitude for transitioning from state |ψ⟩ to outcome |φ⟩.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Defines the mathematical relationship between states and measurement outcomes.",
+      "suggested_search_query": "quantum mechanics inner product probability amplitude"
+    },
+    {
+      "id": "C003",
+      "claim": "The probability of measuring |φ⟩ from |ψ⟩ is |⟨φ|ψ⟩|².",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_m

@@ -1276,3 +1276,805 @@ RESPONSE:
   ],
   "best_next_revision": "Refine the quantum mechanics explanation to emphasize expectation value minimization and clarify the distinction between action extremization and energy minimization, while adding context about saddle points in physical systems."
 }
+
+================================================================================
+TIME: 2026-05-04T23:38:00
+NODE: writer
+PROMPT_CHARS: 4785
+PROMPT_TOKENS_APPROX: 1196
+RESPONSE_CHARS: 693
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.8}
+================================================================================
+PROMPT:
+Revise this existing EasyPhysics article once.
+
+Title: Variational principle
+
+Revision brief:
+- Claim/research fix: Replace the search snippet with physics textbooks or lecture notes explaining variational principles in mechanics/quantum mechanics
+- rigor score 7: Equating quantum variational principle with 'minimizing energy' oversimplifies the concept Suggested fix: Clarify that quantum variational principle involves minimizing the expectation value of energy, not just finding lowest-energy states
+- rigor score 7: Confuses extremization of action with extremization of energy in quantum mechanics Suggested fix: Distinguish between classical action extremization and quantum energy minimization
+- rigor next revision: Refine the quantum mechanics explanation to emphasize expectation value minimization and clarify the distinction between action extremization and energy minimization, while adding context about saddle points in physical systems.
+
+Human/editor notes:
+# Human/editor notes
+
+Add any preferences, corrections, or article-specific constraints here.
+
+
+Current draft:
+# Variational Principle  
+
+## The core idea  
+Nature chooses paths or states that **extremize** a key quantity—like energy or action. Think of it as a "smart choice" that balances competing factors, such as speed and energy cost. This rule applies across physics, from the motion of planets to the behavior of particles.  
+
+## Why this matters  
+The variational principle unifies seemingly different areas of physics. It explains why light bends, why objects fall, and why quantum systems settle into specific states. By focusing on "optimal" paths, it reveals a deep, universal structure in how nature operates.  
+
+## The simple picture  
+Imagine you’re navigating a maze. Instead of randomly wandering, you take the path that minimizes your time or energy. Similarly, nature "chooses" the path or state that makes the system as stable as possible. [Diagram idea: A maze with a highlighted shortest path]  
+
+## The more precise picture  
+The **variational principle** states that physical systems evolve along paths or states that **extremize** a quantity called **action** {action}. Action is calculated as the integral of the **Lagrangian** {Lagrangian} over time:  
+$$
+S = \int_{t_1}^{t_2} L(q, \dot{q}, t) \, dt
+$$  
+Here, $ L $ is the difference between kinetic and potential energy. Nature picks the path where small changes to the path don’t alter the total action (a **stationary point** {stationary point}).  
+
+- **Classical Mechanics**: A particle takes the path that minimizes action.  
+- **Quantum Mechanics**: The most probable state is the one that minimizes energy.  
+- **General Rule**: Stability drives the system toward the "optimal" configuration.  
+
+[Diagram idea: A graph showing multiple paths between two points, with the action-minimizing path highlighted]  
+
+## Common misconceptions  
+- **Misconception 1**: The principle only applies to classical mechanics.  
+  - **Clarification**: It works for quantum systems, fluids, and even electromagnetic fields.  
+- **Misconception 2**: The principle is about "finding the minimum" alone.  
+  - **Clarification**: It can also find **maxima** (e.g., light bending) or **saddle points**.  
+- **Misconception 3**: The principle is a "magic rule" without physical meaning.  
+  - **Clarification**: It arises from the physical need for systems to settle into stable, lowest-energy states.  
+
+## How this connects to the rest of physics  
+- **Classical Mechanics**: The Brachistochrone problem (fastest path for a particle) and Snell’s Law (light bending) both follow the variational principle.  
+- **Quantum Mechanics**: The **variational method** {variational method} approximates wavefunctions by minimizing energy.  
+- **Fluid Dynamics**: Fluids flow along paths that minimize resistance.  
+- **Electromagnetism**: Circuits settle into states that minimize energy.  
+
+## Recap  
+- Nature chooses paths/states that **extremize** action or energy.  
+- The principle applies to mechanics, quantum systems, and beyond.  
+- It’s not a "magic rule"—it’s a way to find stable, optimal configurations.  
+- Mathematically, it involves finding **stationary points** of the action integral.  
+
+[Diagram idea: Energy landscape with a valley representing the lowest-energy state]
+
+Instructions:
+- Return the complete revised article in Markdown.
+- Do not start from scratch.
+- Preserve good explanations.
+- Fix only the most important clarity, structure, and rigor problems.
+- If a section is already good, leave it mostly alone.
+- Add qualifications where the current draft overclaims.
+- Make the opening more intuitive if needed.
+- Keep standard terms in braces after intuitive names.
+- Do not include commentary before or after the article.
+
+RESPONSE:
+# Variational Principle  
+
+## The core idea  
+Nature chooses paths or states that **extremize** a key quantity—like action in classical mechanics or the **expectation value of energy** in quantum systems. Think of it as a "smart choice" that balances competing factors, such as speed and energy cost. This rule applies across physics, from the motion of planets to the behavior of particles.  
+
+## Why this matters  
+The variational principle unifies seemingly different areas of physics. It explains why light bends, why objects fall, and why quantum systems settle into specific states. By focusing on "optimal" paths or states, it reveals a deep, universal structure in how nature operates.
+
+================================================================================
+TIME: 2026-05-04T23:38:56
+NODE: term_collector
+PROMPT_CHARS: 1163
+PROMPT_TOKENS_APPROX: 290
+RESPONSE_CHARS: 13
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.8}
+================================================================================
+PROMPT:
+Extract the descriptive-name candidates from this draft.
+
+Return JSON with this shape:
+{
+  "terms": [
+    {
+      "standard_term": "fermion",
+      "candidate_name": "space-occupier",
+      "context_quote": "short quote from the draft",
+      "usefulness": "why this name helps",
+      "risk": "how it could mislead, or empty string if low risk"
+    }
+  ]
+}
+
+Only include actual teaching-name candidates, especially phrases followed by standard terms in braces.
+
+Draft:
+# Variational Principle  
+
+## The core idea  
+Nature chooses paths or states that **extremize** a key quantity—like action in classical mechanics or the **expectation value of energy** in quantum systems. Think of it as a "smart choice" that balances competing factors, such as speed and energy cost. This rule applies across physics, from the motion of planets to the behavior of particles.  
+
+## Why this matters  
+The variational principle unifies seemingly different areas of physics. It explains why light bends, why objects fall, and why quantum systems settle into specific states. By focusing on "optimal" paths or states, it reveals a deep, universal structure in how nature operates.
+
+RESPONSE:
+{"terms": []}
+
+================================================================================
+TIME: 2026-05-04T23:40:58
+NODE: claim_extractor
+PROMPT_CHARS: 1582
+PROMPT_TOKENS_APPROX: 395
+RESPONSE_CHARS: 1171
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.8}
+================================================================================
+PROMPT:
+Extract 8 to 12 important scientific or explanatory claims from this article draft.
+
+Return exactly one JSON object with this shape:
+{
+  "claims": [
+    {
+      "id": "C001",
+      "claim": "A clear standalone claim.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "brief reason",
+      "suggested_search_query": "stable physics source query"
+    }
+  ]
+}
+
+Rules:
+- Return a JSON object, not a list.
+- Do not return an empty list unless the draft is empty.
+- Use true/false, not True/False.
+- No Markdown fences.
+- No prose outside the JSON.
+- Prefer claims that matter for scientific correctness.
+- Include claims where an analogy could mislead.
+- Search queries should target stable sources: textbooks, lecture notes, CERN, Fermilab, NASA, DOE, NIST, or university pages.
+
+Article title: Variational principle
+
+Draft:
+# Variational Principle  
+
+## The core idea  
+Nature chooses paths or states that **extremize** a key quantity—like action in classical mechanics or the **expectation value of energy** in quantum systems. Think of it as a "smart choice" that balances competing factors, such as speed and energy cost. This rule applies across physics, from the motion of planets to the behavior of particles.  
+
+## Why this matters  
+The variational principle unifies seemingly different areas of physics. It explains why light bends, why objects fall, and why quantum systems settle into specific states. By focusing on "optimal" paths or states, it reveals a deep, universal structure in how nature operates.
+
+RESPONSE:
+{
+  "claims": [
+    {
+      "id": "C001",
+      "claim": "The variational principle states that nature extremizes a key quantity to determine physical behavior.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "This principle unifies physical laws across domains.",
+      "suggested_search_query": "variational principle definition physics textbook"
+    },
+    {
+      "id": "C002",
+      "claim": "In classical mechanics, the variational principle extremizes the action integral.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "This explains planetary motion and mechanical systems.",
+      "suggested_search_query": "classical mechanics variational principle"
+    },
+    {
+      "id": "C003",
+      "claim": "In quantum mechanics, the variational principle extremizes the expectation value of energy.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "This governs quantum state selection.",
+      "suggested_search_query": "quantum variational principle energy
+
+================================================================================
+TIME: 2026-05-04T23:42:54
+NODE: claim_checker
+PROMPT_CHARS: 3765
+PROMPT_TOKENS_APPROX: 941
+RESPONSE_CHARS: 279
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.8}
+================================================================================
+PROMPT:
+Check this one article claim against the available search snippet.
+
+Return JSON with this shape:
+{
+  "id": "C001",
+  "verdict": "supported | mostly_supported | needs_qualification | unsupported | contradicted | not_enough_evidence",
+  "severity": "none | low | medium | high",
+  "problem": "specific issue, or empty string",
+  "suggested_fix": "specific correction to the article, or empty string",
+  "source_quality_note": "brief note about whether the snippets look authoritative"
+}
+
+Rules:
+- Be conservative.
+- If the snippet is weak or absent, say not_enough_evidence.
+- Do not demand advanced nuance beyond the article's beginner scope.
+- Do flag misleading simplifications.
+- Focus on stable accepted physics.
+
+Article title: Variational principle
+
+Claim:
+{
+  "id": "C001",
+  "claim": "# Variational Principle ## The core idea Nature chooses paths or states that **extremize** a key quantity—like action in classical mechanics or the **expectation value of energy** in quantum systems.",
+  "type": "fallback-extracted",
+  "importance": "medium",
+  "needs_external_check": true,
+  "why_it_matters": "Automatically extracted fallback claim; review manually.",
+  "suggested_search_query": "Variational principle # Variational Principle ## The core idea Nature chooses paths or states that **extremize** a key physics lecture notes textbook explanation"
+}
+
+Search snippet:
+{
+  "claim": "# Variational Principle ## The core idea Nature chooses paths or states that **extremize** a key quantity—like action in classical mechanics or the **expectation value of energy** in quantum systems.",
+  "query": "Variational principle # Variational Principle ## The core idea Nature chooses paths or states that **extremize** a key physics lecture notes textbook explanation",
+  "result_snippet": "The variational principle states, quite simply, that the ground-state energy, E 0, is always less than or equal to the expectation value of H calculated with the trial wavefunction : that is, This chapter introduces the fundamental concepts and solution methods of the energy method and variational principles. The energy method describes mechanical laws in terms of energy variation, while variational principles represent physical laws in a variational form, both transforming elastic mechanics problems into functional extremum problems. Variational principles explain how physical systems optimize action, time, and energy. Learn how least action unifies classical mechanics, relativity, optics, and quantum physics. The Variational Principle is a fundamental concept in Quantum Mechanics that states that the expectation value of the energy of a quantum system is always greater than or equal to the true ground state energy. Find important definitions, questions, notes, meanings, examples, exercises and tests below for Variational Principle - Approximate Methods of Quantum Mechanics, Physical Chemistry,.",
+  "searched_at": "2026-05-04_23-40-59",
+  "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
+}
+
+Relevant draft context:
+# Variational Principle  
+
+## The core idea  
+Nature chooses paths or states that **extremize** a key quantity—like action in classical mechanics or the **expectation value of energy** in quantum systems. Think of it as a "smart choice" that balances competing factors, such as speed and energy cost. This rule applies across physics, from the motion of planets to the behavior of particles.  
+
+## Why this matters  
+The variational principle unifies seemingly different areas of physics. It explains why light bends, why objects fall, and why quantum systems settle into specific states. By focusing on "optimal" paths or states, it reveals a deep, universal structure in how nature operates.
+
+RESPONSE:
+{
+  "id": "C001",
+  "verdict": "supported",
+  "severity": "low",
+  "problem": "The claim generalizes quantum extremization to 'expectation value of energy' without specifying it refers to ground-state energy. The snippet clarifies this is an upper bound for the true ground state
+
+================================================================================
+TIME: 2026-05-04T23:43:49
+NODE: claim_checker
+PROMPT_CHARS: 3173
+PROMPT_TOKENS_APPROX: 793
+RESPONSE_CHARS: 407
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.8}
+================================================================================
+PROMPT:
+Check this one article claim against the available search snippet.
+
+Return JSON with this shape:
+{
+  "id": "C002",
+  "verdict": "supported | mostly_supported | needs_qualification | unsupported | contradicted | not_enough_evidence",
+  "severity": "none | low | medium | high",
+  "problem": "specific issue, or empty string",
+  "suggested_fix": "specific correction to the article, or empty string",
+  "source_quality_note": "brief note about whether the snippets look authoritative"
+}
+
+Rules:
+- Be conservative.
+- If the snippet is weak or absent, say not_enough_evidence.
+- Do not demand advanced nuance beyond the article's beginner scope.
+- Do flag misleading simplifications.
+- Focus on stable accepted physics.
+
+Article title: Variational principle
+
+Claim:
+{
+  "id": "C002",
+  "claim": "Think of it as a \"smart choice\" that balances competing factors, such as speed and energy cost.",
+  "type": "fallback-extracted",
+  "importance": "medium",
+  "needs_external_check": true,
+  "why_it_matters": "Automatically extracted fallback claim; review manually.",
+  "suggested_search_query": "Variational principle Think of it as a \"smart choice\" that balances competing factors, such as speed and energy physics lecture notes textbook explanation"
+}
+
+Search snippet:
+{
+  "claim": "Think of it as a \"smart choice\" that balances competing factors, such as speed and energy cost.",
+  "query": "Variational principle Think of it as a \"smart choice\" that balances competing factors, such as speed and energy physics lecture notes textbook explanation",
+  "result_snippet": "Beyond its aesthetic appeal, the aster flower carries layers of symbolism, care requirements, and botanical significance that make it a favorite ... Platforms such as mqmbet often provide both options, ensuring that players can choose the format that maximizes confidence and comfort during ... ... flow while crafting unique decorations that will impress everyone at your Christmas party! Your guests will have such a great core memory of being at ... Gamified elements, such as progress tracking and performance metrics, further motivate learners and create a sense of achievement. ... As a Test of Intelligence Sports betting becomes an intellectual test of knowledge and understanding. It requires extensive knowledge of teams, ...",
+  "searched_at": "2026-05-04_23-41-01",
+  "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
+}
+
+Relevant draft context:
+# Variational Principle  
+
+## The core idea  
+Nature chooses paths or states that **extremize** a key quantity—like action in classical mechanics or the **expectation value of energy** in quantum systems. Think of it as a "smart choice" that balances competing factors, such as speed and energy cost. This rule applies across physics, from the motion of planets to the behavior of particles.  
+
+## Why this matters  
+The variational principle unifies seemingly different areas of physics. It explains why light bends, why objects fall, and why quantum systems settle into specific states. By focusing on "optimal" paths or states, it reveals a deep, universal structure in how nature operates.
+
+RESPONSE:
+{
+  "id": "C002",
+  "verdict": "not_enough_evidence",
+  "severity": "low",
+  "problem": "Search snippet is unrelated to physics or variational principle",
+  "suggested_fix": "Use a physics textbook or lecture note snippet instead of unrelated content",
+  "source_quality_note": "The snippet appears to be from a non-physical context (flowers, betting, Christmas) rather than authoritative physics sources"
+}
+
+================================================================================
+TIME: 2026-05-04T23:44:53
+NODE: claim_checker
+PROMPT_CHARS: 4247
+PROMPT_TOKENS_APPROX: 1061
+RESPONSE_CHARS: 263
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.8}
+================================================================================
+PROMPT:
+Check this one article claim against the available search snippet.
+
+Return JSON with this shape:
+{
+  "id": "C003",
+  "verdict": "supported | mostly_supported | needs_qualification | unsupported | contradicted | not_enough_evidence",
+  "severity": "none | low | medium | high",
+  "problem": "specific issue, or empty string",
+  "suggested_fix": "specific correction to the article, or empty string",
+  "source_quality_note": "brief note about whether the snippets look authoritative"
+}
+
+Rules:
+- Be conservative.
+- If the snippet is weak or absent, say not_enough_evidence.
+- Do not demand advanced nuance beyond the article's beginner scope.
+- Do flag misleading simplifications.
+- Focus on stable accepted physics.
+
+Article title: Variational principle
+
+Claim:
+{
+  "id": "C003",
+  "claim": "This rule applies across physics, from the motion of planets to the behavior of particles.",
+  "type": "fallback-extracted",
+  "importance": "medium",
+  "needs_external_check": true,
+  "why_it_matters": "Automatically extracted fallback claim; review manually.",
+  "suggested_search_query": "Variational principle This rule applies across physics, from the motion of planets to the behavior of particles. physics lecture notes textbook explanation"
+}
+
+Search snippet:
+{
+  "claim": "This rule applies across physics, from the motion of planets to the behavior of particles.",
+  "query": "Variational principle This rule applies across physics, from the motion of planets to the behavior of particles. physics lecture notes textbook explanation",
+  "result_snippet": "A variational principle is a mathematical procedure that renders a physical problem solvable by the calculus of variations, which concerns finding functions that optimize the values of quantities that depend on those functions. This revised and enhanced new edition of a well-established textbook provides a balanced overview of various areas of theoretical physics based on the use of variational principles. A variational principle is a mathematical procedure that renders a physical problem solvable by the calculus of variations, which concerns finding functions that optimize the values of quantities that depend on those functions. Jun 24, 2021 · The book covers a wide range of variational methods in Physics starting with the Newtonian vector-based framework and moving into the principle of least action and variational methods. It is fully comprehensive in its treatment of physics theories\n\n...[TRUNCATED]...\n\nl principle, was James Bernoulli 's solution of the brachistochrone problem in 1718. : 68 Pierre Louis Maupertuis generalized Fermat's concept to mechanics, : 97 in the form of a principle of least action. Mar 23, 2023 · This book is an English translation from a Hungarian book designed for graduate and postgraduate students about the use of variational principles in theoretical physics. Unlike many academic... Variational principles provide a deep and elegant framework for understanding the dynamics of physical systems. By focusing on the action and its variations, these principles unify various branches of physics and offer powerful methods for deriving the equations of motion. A variational principle is defined as a fundamental concept in mathematical physics that aims to determine the path, function, or object that maximizes or minimizes a mathematical quantity known as a functional.",
+  "searched_at": "2026-05-04_23-41-03",
+  "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
+}
+
+Relevant draft context:
+# Variational Principle  
+
+## The core idea  
+Nature chooses paths or states that **extremize** a key quantity—like action in classical mechanics or the **expectation value of energy** in quantum systems. Think of it as a "smart choice" that balances competing factors, such as speed and energy cost. This rule applies across physics, from the motion of planets to the behavior of particles.  
+
+## Why this matters  
+The variational principle unifies seemingly different areas of physics. It explains why light bends, why objects fall, and why quantum systems settle into specific states. By focusing on "optimal" paths or states, it reveals a deep, universal structure in how nature operates.
+
+RESPONSE:
+{
+  "id": "C003",
+  "verdict": "supported",
+  "severity": "none",
+  "problem": "",
+  "suggested_fix": "",
+  "source_quality_note": "The snippet references authoritative textbook explanations and historical physics developments, confirming the claim's validity."
+}
+
+================================================================================
+TIME: 2026-05-04T23:47:06
+NODE: claim_revision
+PROMPT_CHARS: 2567
+PROMPT_TOKENS_APPROX: 641
+RESPONSE_CHARS: 1285
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.8}
+================================================================================
+PROMPT:
+Revise the article once to address claim-check feedback.
+
+Do not rewrite for its own sake. Fix the scientific issues while preserving accessible language.
+
+Claim-check feedback:
+{
+  "claim_checks": [
+    {
+      "id": "C001",
+      "verdict": "not_enough_evidence",
+      "severity": "medium",
+      "problem": "Could not parse claim-checker output.",
+      "suggested_fix": "Review this claim manually.",
+      "source_quality_note": ""
+    },
+    {
+      "id": "C002",
+      "verdict": "not_enough_evidence",
+      "severity": "low",
+      "problem": "Search snippet is unrelated to physics or variational principle",
+      "suggested_fix": "Use a physics textbook or lecture note snippet instead of unrelated content",
+      "source_quality_note": "The snippet appears to be from a non-physical context (flowers, betting, Christmas) rather than authoritative physics sources"
+    },
+    {
+      "id": "C003",
+      "verdict": "supported",
+      "severity": "none",
+      "problem": "",
+      "suggested_fix": "",
+      "source_quality_note": "The snippet references authoritative textbook explanations and historical physics developments, confirming the claim's validity."
+    }
+  ],
+  "summary": {
+    "overall_claim_quality": "Claim check completed.",
+    "unresolved_or_needs_qualification": 2,
+    "highest_priority_fixes": [
+      "Review this claim manually.",
+      "Use a physics textbook or lecture note snippet instead of unrelated content"
+    ]
+  },
+  "last_updated": "2026-05-04_23-44-53"
+}
+
+Current draft:
+# Variational Principle  
+
+## The core idea  
+Nature chooses paths or states that **extremize** a key quantity—like action in classical mechanics or the **expectation value of energy** in quantum systems. Think of it as a "smart choice" that balances competing factors, such as speed and energy cost. This rule applies across physics, from the motion of planets to the behavior of particles.  
+
+## Why this matters  
+The variational principle unifies seemingly different areas of physics. It explains why light bends, why objects fall, and why quantum systems settle into specific states. By focusing on "optimal" paths or states, it reveals a deep, universal structure in how nature operates.
+
+Instructions:
+- Correct or qualify unsupported, contradicted, or overstrong claims.
+- Preserve good accessible explanations.
+- Do not add speculative research as settled fact.
+- If an analogy was misleading, either repair it or state its limits.
+- Keep standard terms in braces after descriptive names.
+- Output only the revised article in Markdown.
+
+RESPONSE:
+# Variational Principle  
+
+## The core idea  
+Nature chooses paths or states that **extremize** a key quantity—like **action** {action} in classical mechanics or the **expectation value of energy** {expectation value} in quantum systems. Think of it as a "smart choice" that balances competing factors, such as speed and energy cost. This rule applies across physics, from the motion of planets to the behavior of particles.  
+
+## Why this matters  
+The variational principle unifies seemingly different areas of physics. It explains why light bends (via Fermat's principle), why objects fall (via Newtonian mechanics), and why quantum systems settle into specific states (via the Schrödinger equation). By focusing on "optimal" paths or states, it reveals a deep, universal structure in how nature operates.  
+
+## Key examples  
+1. **Classical mechanics**: The path of a planet around the sun extremizes the action (integral of momentum × distance).  
+2. **Quantum mechanics**: The wavefunction extremizes the energy expectation value, leading to stationary states.  
+3. **Optics**: Light takes the path of least time, a variational principle that explains refraction.  
+
+This principle is foundational in physics, connecting diverse phenomena through a shared mathematical framework.
+
+================================================================================
+TIME: 2026-05-04T23:48:32
+NODE: term_collector
+PROMPT_CHARS: 1755
+PROMPT_TOKENS_APPROX: 438
+RESPONSE_CHARS: 0
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.8}
+================================================================================
+PROMPT:
+Extract the descriptive-name candidates from this draft.
+
+Return JSON with this shape:
+{
+  "terms": [
+    {
+      "standard_term": "fermion",
+      "candidate_name": "space-occupier",
+      "context_quote": "short quote from the draft",
+      "usefulness": "why this name helps",
+      "risk": "how it could mislead, or empty string if low risk"
+    }
+  ]
+}
+
+Only include actual teaching-name candidates, especially phrases followed by standard terms in braces.
+
+Draft:
+# Variational Principle  
+
+## The core idea  
+Nature chooses paths or states that **extremize** a key quantity—like **action** {action} in classical mechanics or the **expectation value of energy** {expectation value} in quantum systems. Think of it as a "smart choice" that balances competing factors, such as speed and energy cost. This rule applies across physics, from the motion of planets to the behavior of particles.  
+
+## Why this matters  
+The variational principle unifies seemingly different areas of physics. It explains why light bends (via Fermat's principle), why objects fall (via Newtonian mechanics), and why quantum systems settle into specific states (via the Schrödinger equation). By focusing on "optimal" paths or states, it reveals a deep, universal structure in how nature operates.  
+
+## Key examples  
+1. **Classical mechanics**: The path of a planet around the sun extremizes the action (integral of momentum × distance).  
+2. **Quantum mechanics**: The wavefunction extremizes the energy expectation value, leading to stationary states.  
+3. **Optics**: Light takes the path of least time, a variational principle that explains refraction.  
+
+This principle is foundational in physics, connecting diverse phenomena through a shared mathematical framework.
+
+RESPONSE:
+
+
+================================================================================
+TIME: 2026-05-04T23:50:36
+NODE: accessibility_judge
+PROMPT_CHARS: 3751
+PROMPT_TOKENS_APPROX: 937
+RESPONSE_CHARS: 1407
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.8}
+================================================================================
+PROMPT:
+Evaluate this EasyPhysics article for accessibility.
+
+Return exactly one JSON object:
+{
+  "score": 1,
+  "pass": false,
+  "strengths": ["specific strength"],
+  "issues": [
+    {
+      "severity": "low | medium | high",
+      "location": "section name or short quote",
+      "problem": "specific accessibility issue",
+      "suggested_fix": "specific fix"
+    }
+  ],
+  "best_next_revision": "one concise paragraph"
+}
+
+Rubric:
+Accessibility score, 1-10:
+
+10 = Exceptional. A motivated high-schooler can follow the article's main arc without prior exposure.
+     Jargon is introduced only after intuition. Examples are vivid. Math is explained as meaning,
+     not just symbols. The article feels empowering and clear.
+
+9 = Publishable with light human editing. The main idea is easy to follow; jargon is mostly controlled;
+    analogies are helpful; sections flow logically; any math has a plain-language interpretation.
+
+8 = Strong draft. Mostly clear, but has a few dense sections, unexplained terms, abrupt transitions,
+    or analogies that need more setup.
+
+7 = Useful but uneven. A motivated reader could learn from it, but several passages need simplification,
+    clearer examples, or better sequencing.
+
+6 = Borderline. The article contains useful explanations, but assumes too much background or uses too much jargon.
+
+5 = Mixed. Some good paragraphs, but the structure or language would lose many target readers.
+
+4 = Hard to follow. Mostly written for someone who already knows the subject.
+
+3 = Very inaccessible. Dense, abstract, jargon-heavy, or poorly sequenced.
+
+2 = Barely useful to the target audience.
+
+1 = Fails the accessibility goal.
+
+Accessibility judge priorities:
+- Does the opening give the reader an intuitive foothold?
+- Are standard terms introduced after meaning, not before?
+- Are descriptive names useful rather than cutesy or misleading?
+- Are analogies concrete and then carefully limited?
+- Is any math explained in words?
+- Does the article avoid "spooky/magic/weird" framing while still acknowledging counterintuitive ideas?
+- Does each section make the next section easier?
+
+Rules:
+- Return an object, not a list.
+- Score must be an integer from 1 to 10.
+- A 9 means publishable with light human editing.
+- Do not give 9 or 10 if the opening is jargon-heavy.
+- Do not give 9 or 10 if math appears without plain-language interpretation.
+- Do not rewrite the article; only evaluate it.
+
+Article title: Variational principle
+
+Draft:
+# Variational Principle  
+
+## The core idea  
+Nature chooses paths or states that **extremize** a key quantity—like **action** {action} in classical mechanics or the **expectation value of energy** {expectation value} in quantum systems. Think of it as a "smart choice" that balances competing factors, such as speed and energy cost. This rule applies across physics, from the motion of planets to the behavior of particles.  
+
+## Why this matters  
+The variational principle unifies seemingly different areas of physics. It explains why light bends (via Fermat's principle), why objects fall (via Newtonian mechanics), and why quantum systems settle into specific states (via the Schrödinger equation). By focusing on "optimal" paths or states, it reveals a deep, universal structure in how nature operates.  
+
+## Key examples  
+1. **Classical mechanics**: The path of a planet around the sun extremizes the action (integral of momentum × distance).  
+2. **Quantum mechanics**: The wavefunction extremizes the energy expectation value, leading to stationary states.  
+3. **Optics**: Light takes the path of least time, a variational principle that explains refraction.  
+
+This principle is foundational in physics, connecting diverse phenomena through a shared mathematical framework.
+
+RESPONSE:
+{
+  "score": 1,
+  "pass": false,
+  "strengths": ["logical flow connecting physics domains"],
+  "issues": [
+    {
+      "severity": "high",
+      "location": "core idea section",
+      "problem": "Critical terms like 'extremize', 'action', and 'expectation value' are introduced without definition or intuitive explanation",
+      "suggested_fix": "Add analogies like 'nature finds the most efficient path' for 'extremize' and explain 'action' as 'a measure of energy cost over time'"
+    },
+    {
+      "severity": "high",
+      "location": "key examples",
+      "problem": "Mathematical expressions appear without explanation of what they mean or why they're important",
+      "suggested_fix": "Break down integrals and wavefunction concepts with concrete examples like 'summing energy costs over time'"
+    },
+    {
+      "severity": "medium",
+      "location": "opening paragraph",
+      "problem": "Jargon-heavy opening lacks intuitive foothold for beginners",
+      "suggested_fix": "Start with a relatable analogy like 'nature's version of optimization' before introducing technical terms"
+    }
+  ],
+  "best_next_revision": "Revise to first explain optimization concepts with everyday examples, then define technical terms like 'action' and 'expectation value' using analogies, and break down mathematical expressions with plain-language interpretations before showing their physical significance."
+}
+
+================================================================================
+TIME: 2026-05-04T23:53:40
+NODE: rigor_judge
+PROMPT_CHARS: 5111
+PROMPT_TOKENS_APPROX: 1277
+RESPONSE_CHARS: 0
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.8}
+================================================================================
+PROMPT:
+Evaluate this EasyPhysics article for scientific rigor.
+
+Return exactly one JSON object:
+{
+  "score": 1,
+  "pass": false,
+  "strengths": ["specific strength"],
+  "issues": [
+    {
+      "severity": "low | medium | high",
+      "location": "section name or short quote",
+      "problem": "specific rigor issue",
+      "suggested_fix": "specific fix"
+    }
+  ],
+  "best_next_revision": "one concise paragraph"
+}
+
+Rubric:
+Rigor score, 1-10:
+
+10 = Exceptional. Scientifically accurate, well-qualified, and careful about analogy limits.
+     No obvious misleading simplifications. Claims align with stable accepted physics.
+
+9 = Publishable with light human editing. No major errors. A few details may need polishing,
+    but the article is safe as an educational explanation.
+
+8 = Strong draft. Mostly accurate but has minor imprecision, missing qualifications, or analogy risks.
+
+7 = Useful but needs scientific review. Contains no catastrophic errors, but some claims are too loose,
+    incomplete, or potentially misleading.
+
+6 = Borderline. Several important corrections or qualifications are needed.
+
+5 = Mixed. The article has valuable explanations but also significant inaccuracies or misleading framings.
+
+4 = Scientifically weak. Multiple substantial errors or serious conceptual muddling.
+
+3 = Very unreliable. The reader would likely learn incorrect physics.
+
+2 = Mostly wrong or confused.
+
+1 = Fails the rigor goal.
+
+Rigor judge priorities:
+- Are definitions compatible with standard physics?
+- Are analogies technically safe, with their limits stated when necessary?
+- Are quantum concepts distinguished correctly: amplitude vs probability, superposition vs ignorance,
+  measurement vs ordinary looking, phase vs probability?
+- Are field/particle/wave descriptions accurate enough for a beginner article?
+- Are conservation, symmetry, force, energy, mass, and spin statements properly qualified?
+- Does the article avoid replacing historical jargon with new misleading jargon?
+- Are open questions distinguished from settled explanations?
+
+Rules:
+- Return an object, not a list.
+- Score must be an integer from 1 to 10.
+- A 9 means no major scientific errors and only light human editing needed.
+- Penalize misleading analogies.
+- Penalize overclaims.
+- Penalize confusing settled physics with open questions.
+- Do not demand graduate-level nuance for a beginner article.
+- Do not rewrite the article; only evaluate it.
+
+Claim-check context:
+{
+  "claim_checks": [
+    {
+      "id": "C001",
+      "verdict": "not_enough_evidence",
+      "severity": "medium",
+      "problem": "Could not parse claim-checker output.",
+      "suggested_fix": "Review this claim manually.",
+      "source_quality_note": ""
+    },
+    {
+      "id": "C002",
+      "verdict": "not_enough_evidence",
+      "severity": "low",
+      "problem": "Search snippet is unrelated to physics or variational principle",
+      "suggested_fix": "Use a physics textbook or lecture note snippet instead of unrelated content",
+      "source_quality_note": "The snippet appears to be from a non-physical context (flowers, betting, Christmas) rather than authoritative physics sources"
+    },
+    {
+      "id": "C003",
+      "verdict": "supported",
+      "severity": "none",
+      "problem": "",
+      "suggested_fix": "",
+      "source_quality_note": "The snippet references authoritative textbook explanations and historical physics developments, confirming the claim's validity."
+    }
+  ],
+  "summary": {
+    "overall_claim_quality": "Claim check completed.",
+    "unresolved_or_needs_qualification": 2,
+    "highest_priority_fixes": [
+      "Review this claim manually.",
+      "Use a physics textbook or lecture note snippet instead of unrelated content"
+    ]
+  },
+  "last_updated": "2026-05-04_23-44-53"
+}
+
+Article title: Variational principle
+
+Draft:
+# Variational Principle  
+
+## The core idea  
+Nature chooses paths or states that **extremize** a key quantity—like **action** {action} in classical mechanics or the **expectation value of energy** {expectation value} in quantum systems. Think of it as a "smart choice" that balances competing factors, such as speed and energy cost. This rule applies across physics, from the motion of planets to the behavior of particles.  
+
+## Why this matters  
+The variational principle unifies seemingly different areas of physics. It explains why light bends (via Fermat's principle), why objects fall (via Newtonian mechanics), and why quantum systems settle into specific states (via the Schrödinger equation). By focusing on "optimal" paths or states, it reveals a deep, universal structure in how nature operates.  
+
+## Key examples  
+1. **Classical mechanics**: The path of a planet around the sun extremizes the action (integral of momentum × distance).  
+2. **Quantum mechanics**: The wavefunction extremizes the energy expectation value, leading to stationary states.  
+3. **Optics**: Light takes the path of least time, a variational principle that explains refraction.  
+
+This principle is foundational in physics, connecting diverse phenomena through a shared mathematical framework.
+
+RESPONSE:
+

@@ -2,35 +2,30 @@
   "claims": [
     {
       "id": "C001",
-      "claim": "Projection is a vector that quantifies how much of one vector aligns with a specific direction.",
+      "claim": "Projection is a vector quantity that indicates how much of one vector aligns with a specific direction, including directional sign.",
       "type": "definition",
       "importance": "high",
       "needs_external_check": true,
-      "why_it_matters": "Defines projection as a fundamental vector operation in physics and math.",
+      "why_it_matters": "Clarifies projection's vector nature, distinguishing it from scalar magnitudes.",
       "suggested_search_query": "vector projection definition physics textbook"
     },
     {
       "id": "C002",
       "claim": "The magnitude of a projection is calculated as |A|cosθ, where θ is the angle between vectors A and B.",
-      "type": "definition",
+      "type": "formula",
       "importance": "high",
       "needs_external_check": true,
-      "why_it_matters": "Establishes the mathematical foundation for projection calculations.",
-      "suggested_search_query": "vector projection formula derivation"
+      "why_it_matters": "Fundamental relationship between angle and projection magnitude.",
+      "suggested_search_query": "projection magnitude formula physics"
     },
     {
       "id": "C003",
-      "claim": "The direction of a projection matches vector B or opposes it if the angle between vectors exceeds 90°.",
-      "type": "definition",
+      "claim": "The direction of a projection depends on the angle: same as B if θ < 90°, opposite if θ > 90°.",
+      "type": "property",
       "importance": "high",
       "needs_external_check": true,
-      "why_it_matters": "Clarifies directional dependence in projection behavior.",
-      "suggested_search_query": "vector projection direction physics"
+      "why_it_matters": "Critical for understanding work and force analysis.",
+      "suggested_search_query": "projection direction angle physics"
     },
     {
-      "id": "C004",
-      "claim": "The dot product of vectors A and B equals the projection of A onto B multiplied by the magnitude of B.",
-      "type": "definition",
-      "importance": "high",
-      "needs_external_check": true,
-      "why_it_matters": "Links projection to a core mathematical operation in
+      "id": "C004

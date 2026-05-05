@@ -1,0 +1,18 @@
+{
+  "claims": [
+    {
+      "id": "C001",
+      "claim": "The Lagrangian {L} is defined as the difference between kinetic energy {T} and potential energy {V}: L = T − V.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "This is the core mathematical structure of Lagrangian mechanics.",
+      "suggested_search_query": "Lagrangian definition physics textbook"
+    },
+    {
+      "id": "C002",
+      "claim": "The principle of stationary action {stationary action} states that nature selects the path where the action {action} is stationary (minimum, maximum, or saddle point).",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "This is the foundational rule

@@ -1,0 +1,1024 @@
+
+================================================================================
+TIME: 2026-05-05T02:36:09
+NODE: writer
+PROMPT_CHARS: 5079
+PROMPT_TOKENS_APPROX: 1269
+RESPONSE_CHARS: 3412
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.8}
+================================================================================
+PROMPT:
+Revise this existing EasyPhysics article once.
+
+Title: Coherence
+
+Revision brief:
+- rigor score 9: Metronome analogy risks implying coherence requires perfect synchronization rather than constant phase relationship Suggested fix: Add clarification that 'perfect unison' is an extreme example, and emphasize that any constant phase relationship (even with offset) qualifies as coherence
+- rigor score 9: Quantum coherence connection is mentioned but not elaborated Suggested fix: Add a brief note explaining that while classical coherence and quantum coherence share mathematical similarities, they describe different physical phenomena
+- rigor next revision: Refine the metronome analogy to explicitly state that any constant phase relationship (not just perfect synchronization) qualifies as coherence, and expand the quantum coherence connection to clarify the distinction between classical and quantum coherence.
+- accessibility score 8: Technical terms like 'interferometers' and 'holography' are used without definition Suggested fix: Add brief explanations of these technologies in plain language
+- accessibility score 8: Equation Δφ = 2πΔx/λ is presented without explaining variables or derivation Suggested fix: Add a sentence explaining that Δx is path difference and λ is wavelength
+- accessibility next revision: Add definitions for technical terms like 'interferometers' and 'holography' in the 'Why this matters' section, and elaborate on the math equation with variable explanations to ensure all readers grasp the physical meaning
+
+Human/editor notes:
+# Human/editor notes
+
+Add any preferences, corrections, or article-specific constraints here.
+
+
+Current draft:
+# Coherence
+
+## The core idea  
+Coherence is when waves stay in sync, maintaining a constant phase relationship over time and space. This allows them to create stable interference patterns, like the bright and dark fringes in a double-slit experiment. Think of it like two metronomes ticking in perfect unison—coherent waves are always "talking" in harmony, while incoherent waves are like metronomes with random timing.  
+
+## Why this matters  
+Coherence is the key to understanding how waves interact. It enables technologies like holography, fiber optics, and precision measurement tools (e.g., interferometers). Without coherence, interference patterns would be unstable, and many modern applications would be impossible.  
+
+## The simple picture  
+Imagine two metronomes:  
+- **Coherent waves**: Like metronomes ticking in perfect unison, their peaks and troughs align consistently.  
+- **Incoherent waves**: Like metronomes with random timing, their peaks and troughs shift unpredictably.  
+[Diagram idea: Two coherent waves with aligned peaks/troughs vs. incoherent waves with random phase shifts]  
+
+## The more precise picture  
+Coherence means waves maintain a **constant phase relationship**. This has two forms:  
+- **Temporal coherence**: A wave stays coherent over time (e.g., laser light). The longer it stays coherent, the narrower its frequency range.  
+- **Spatial coherence**: A wave maintains phase consistency across space (e.g., parallel wavefronts). This is why lasers produce sharp interference patterns.  
+
+**Math**:  
+- **Phase difference**: Δφ = 2πΔx/λ (for spatial coherence). A constant Δφ ensures stable interference.  
+- **Coherence time (τ)**: How long a wave stays coherent.  
+- **Coherence length (L)**: L = cτ (how far a wave remains coherent).  
+
+[Diagram idea: Laser cavity showing phase-locking of light waves]  
+
+## Common misconceptions  
+- ❌ "Coherence means high intensity": No—coherence is about phase, not brightness. A dim laser is still coherent.  
+- ❌ "All waves are coherent": Most natural waves (e.g., sunlight) are incoherent. Only specialized sources (like lasers) produce coherent waves.  
+- ❌ "Coherence is about frequency": Coherence requires both stable frequency and phase. Two waves with the same frequency but random phase shifts are incoherent.  
+
+## How this connects to the rest of physics  
+Coherence is foundational to **wave interference**, which underpins phenomena like **diffraction** and **resonance**. It also ties to **optics** (e.g., holography) and **quantum mechanics** (though quantum coherence is a separate topic, as noted in the out-of-scope section).  
+
+## Recap  
+- Coherence = waves staying in sync with a constant phase relationship.  
+- Types: Temporal (time-based) and spatial (space-based).  
+- Examples: Lasers, radio waves.  
+- Applications: Interferometry, fiber optics, holography.  
+- Misconception alert: Coherence ≠ brightness or frequency alone.
+
+Instructions:
+- Return the complete revised article in Markdown.
+- Do not start from scratch.
+- Preserve good explanations.
+- Fix only the most important clarity, structure, and rigor problems.
+- If a section is already good, leave it mostly alone.
+- Add qualifications where the current draft overclaims.
+- Make the opening more intuitive if needed.
+- Keep standard terms in braces after intuitive names.
+- Do not include commentary before or after the article.
+
+RESPONSE:
+# Coherence
+
+## The core idea  
+Coherence is when waves maintain a **constant phase relationship** over time and space. This allows them to create stable interference patterns, like the bright and dark fringes in a double-slit experiment. Think of it like two metronomes: coherent waves are always "talking" in harmony, while incoherent waves are like metronomes with random timing. **Note**: "Perfect unison" is an extreme example—any constant phase relationship (even with an offset) qualifies as coherence.  
+
+## Why this matters  
+Coherence is the key to understanding how waves interact. It enables technologies like **{interferometers}**, which use interference patterns to measure tiny changes in distance or material properties, and **{holography}**, which creates 3D images by recording light interference. Without coherence, interference patterns would be unstable, and many modern applications would be impossible.  
+
+## The simple picture  
+Imagine two metronomes:  
+- **Coherent waves**: Like metronomes ticking with a constant phase relationship (e.g., one always ticks half a beat ahead of the other). Their peaks and troughs align consistently.  
+- **Incoherent waves**: Like metronomes with random timing, their peaks and troughs shift unpredictably.  
+[Diagram idea: Two coherent waves with aligned peaks/troughs vs. incoherent waves with random phase shifts]  
+
+## The more precise picture  
+Coherence means waves maintain a **constant phase relationship**. This has two forms:  
+- **Temporal coherence**: A wave stays coherent over time (e.g., laser light). The longer it stays coherent, the narrower its frequency range.  
+- **Spatial coherence**: A wave maintains phase consistency across space (e.g., parallel wavefronts). This is why lasers produce sharp interference patterns.  
+
+**Math**:  
+- **Phase difference**: Δφ = 2πΔx/λ (for spatial coherence). Here, Δx is the **path difference** (distance between wave paths), and λ is the **wavelength**. A constant Δφ ensures stable interference.  
+- **Coherence time (τ)**: How long a wave stays coherent.  
+- **Coherence length (L)**: L = cτ (how far a wave remains coherent).  
+
+[Diagram idea: Laser cavity showing phase-locking of light waves]  
+
+## Common misconceptions  
+- ❌ "Coherence means high intensity": No—coherence is about phase, not brightness. A dim laser is still coherent.  
+- ❌ "All waves are coherent": Most natural waves (e.g., sunlight) are incoherent. Only specialized sources (like lasers) produce coherent waves.  
+- ❌ "Coherence is about frequency": Coherence requires both stable frequency and phase. Two waves with the same frequency but random phase shifts are incoherent.  
+
+## How this connects to the rest of physics  
+Coherence is foundational to **wave interference**, which underpins phenomena like **diffraction** and **resonance**. It also ties to **optics** (e.g., holography) and **quantum mechanics**. While classical coherence describes wave interference patterns, **quantum coherence** involves superposition and entanglement—distinct phenomena with similar mathematical structures.  
+
+## Recap  
+- Coherence = waves staying in sync with a **constant phase relationship**.  
+- Types: Temporal (time-based) and spatial (space-based).  
+- Examples: Lasers, radio waves.  
+- Applications: {Interferometry}, fiber optics, {holography}.  
+- Misconception alert: Coherence ≠ brightness or frequency alone.
+
+================================================================================
+TIME: 2026-05-05T02:37:57
+NODE: term_collector
+PROMPT_CHARS: 3882
+PROMPT_TOKENS_APPROX: 970
+RESPONSE_CHARS: 0
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.8}
+================================================================================
+PROMPT:
+Extract the descriptive-name candidates from this draft.
+
+Return JSON with this shape:
+{
+  "terms": [
+    {
+      "standard_term": "fermion",
+      "candidate_name": "space-occupier",
+      "context_quote": "short quote from the draft",
+      "usefulness": "why this name helps",
+      "risk": "how it could mislead, or empty string if low risk"
+    }
+  ]
+}
+
+Only include actual teaching-name candidates, especially phrases followed by standard terms in braces.
+
+Draft:
+# Coherence
+
+## The core idea  
+Coherence is when waves maintain a **constant phase relationship** over time and space. This allows them to create stable interference patterns, like the bright and dark fringes in a double-slit experiment. Think of it like two metronomes: coherent waves are always "talking" in harmony, while incoherent waves are like metronomes with random timing. **Note**: "Perfect unison" is an extreme example—any constant phase relationship (even with an offset) qualifies as coherence.  
+
+## Why this matters  
+Coherence is the key to understanding how waves interact. It enables technologies like **{interferometers}**, which use interference patterns to measure tiny changes in distance or material properties, and **{holography}**, which creates 3D images by recording light interference. Without coherence, interference patterns would be unstable, and many modern applications would be impossible.  
+
+## The simple picture  
+Imagine two metronomes:  
+- **Coherent waves**: Like metronomes ticking with a constant phase relationship (e.g., one always ticks half a beat ahead of the other). Their peaks and troughs align consistently.  
+- **Incoherent waves**: Like metronomes with random timing, their peaks and troughs shift unpredictably.  
+[Diagram idea: Two coherent waves with aligned peaks/troughs vs. incoherent waves with random phase shifts]  
+
+## The more precise picture  
+Coherence means waves maintain a **constant phase relationship**. This has two forms:  
+- **Temporal coherence**: A wave stays coherent over time (e.g., laser light). The longer it stays coherent, the narrower its frequency range.  
+- **Spatial coherence**: A wave maintains phase consistency across space (e.g., parallel wavefronts). This is why lasers produce sharp interference patterns.  
+
+**Math**:  
+- **Phase difference**: Δφ = 2πΔx/λ (for spatial coherence). Here, Δx is the **path difference** (distance between wave paths), and λ is the **wavelength**. A constant Δφ ensures stable interference.  
+- **Coherence time (τ)**: How long a wave stays coherent.  
+- **Coherence length (L)**: L = cτ (how far a wave remains coherent).  
+
+[Diagram idea: Laser cavity showing phase-locking of light waves]  
+
+## Common misconceptions  
+- ❌ "Coherence means high intensity": No—coherence is about phase, not brightness. A dim laser is still coherent.  
+- ❌ "All waves are coherent": Most natural waves (e.g., sunlight) are incoherent. Only specialized sources (like lasers) produce coherent waves.  
+- ❌ "Coherence is about frequency": Coherence requires both stable frequency and phase. Two waves with the same frequency but random phase shifts are incoherent.  
+
+## How this connects to the rest of physics  
+Coherence is foundational to **wave interference**, which underpins phenomena like **diffraction** and **resonance**. It also ties to **optics** (e.g., holography) and **quantum mechanics**. While classical coherence describes wave interference patterns, **quantum coherence** involves superposition and entanglement—distinct phenomena with similar mathematical structures.  
+
+## Recap  
+- Coherence = waves staying in sync with a **constant phase relationship**.  
+- Types: Temporal (time-based) and spatial (space-based).  
+- Examples: Lasers, radio waves.  
+- Applications: {Interferometry}, fiber optics, {holography}.  
+- Misconception alert: Coherence ≠ brightness or frequency alone.
+
+RESPONSE:
+
+
+================================================================================
+TIME: 2026-05-05T02:40:38
+NODE: claim_extractor
+PROMPT_CHARS: 4289
+PROMPT_TOKENS_APPROX: 1072
+RESPONSE_CHARS: 1500
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.8}
+================================================================================
+PROMPT:
+Extract 8 to 12 important scientific or explanatory claims from this article draft.
+
+Return exactly one JSON object with this shape:
+{
+  "claims": [
+    {
+      "id": "C001",
+      "claim": "A clear standalone claim.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "brief reason",
+      "suggested_search_query": "stable physics source query"
+    }
+  ]
+}
+
+Rules:
+- Return a JSON object, not a list.
+- Do not return an empty list unless the draft is empty.
+- Use true/false, not True/False.
+- No Markdown fences.
+- No prose outside the JSON.
+- Prefer claims that matter for scientific correctness.
+- Include claims where an analogy could mislead.
+- Search queries should target stable sources: textbooks, lecture notes, CERN, Fermilab, NASA, DOE, NIST, or university pages.
+
+Article title: Coherence
+
+Draft:
+# Coherence
+
+## The core idea  
+Coherence is when waves maintain a **constant phase relationship** over time and space. This allows them to create stable interference patterns, like the bright and dark fringes in a double-slit experiment. Think of it like two metronomes: coherent waves are always "talking" in harmony, while incoherent waves are like metronomes with random timing. **Note**: "Perfect unison" is an extreme example—any constant phase relationship (even with an offset) qualifies as coherence.  
+
+## Why this matters  
+Coherence is the key to understanding how waves interact. It enables technologies like **{interferometers}**, which use interference patterns to measure tiny changes in distance or material properties, and **{holography}**, which creates 3D images by recording light interference. Without coherence, interference patterns would be unstable, and many modern applications would be impossible.  
+
+## The simple picture  
+Imagine two metronomes:  
+- **Coherent waves**: Like metronomes ticking with a constant phase relationship (e.g., one always ticks half a beat ahead of the other). Their peaks and troughs align consistently.  
+- **Incoherent waves**: Like metronomes with random timing, their peaks and troughs shift unpredictably.  
+[Diagram idea: Two coherent waves with aligned peaks/troughs vs. incoherent waves with random phase shifts]  
+
+## The more precise picture  
+Coherence means waves maintain a **constant phase relationship**. This has two forms:  
+- **Temporal coherence**: A wave stays coherent over time (e.g., laser light). The longer it stays coherent, the narrower its frequency range.  
+- **Spatial coherence**: A wave maintains phase consistency across space (e.g., parallel wavefronts). This is why lasers produce sharp interference patterns.  
+
+**Math**:  
+- **Phase difference**: Δφ = 2πΔx/λ (for spatial coherence). Here, Δx is the **path difference** (distance between wave paths), and λ is the **wavelength**. A constant Δφ ensures stable interference.  
+- **Coherence time (τ)**: How long a wave stays coherent.  
+- **Coherence length (L)**: L = cτ (how far a wave remains coherent).  
+
+[Diagram idea: Laser cavity showing phase-locking of light waves]  
+
+## Common misconceptions  
+- ❌ "Coherence means high intensity": No—coherence is about phase, not brightness. A dim laser is still coherent.  
+- ❌ "All waves are coherent": Most natural waves (e.g., sunlight) are incoherent. Only specialized sources (like lasers) produce coherent waves.  
+- ❌ "Coherence is about frequency": Coherence requires both stable frequency and phase. Two waves with the same frequency but random phase shifts are incoherent.  
+
+## How this connects to the rest of physics  
+Coherence is foundational to **wave interference**, which underpins phenomena like **diffraction** and **resonance**. It also ties to **optics** (e.g., holography) and **quantum mechanics**. While classical coherence describes wave interference patterns, **quantum coherence** involves superposition and entanglement—distinct phenomena with similar mathematical structures.  
+
+## Recap  
+- Coherence = waves staying in sync with a **constant phase relationship**.  
+- Types: Temporal (time-based) and spatial (space-based).  
+- Examples: Lasers, radio waves.  
+- Applications: {Interferometry}, fiber optics, {holography}.  
+- Misconception alert: Coherence ≠ brightness or frequency alone.
+
+RESPONSE:
+{
+  "claims": [
+    {
+      "id": "C001",
+      "claim": "Coherence is a constant phase relationship between waves over time and space.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Defines the fundamental property enabling stable interference patterns.",
+      "suggested_search_query": "Coherence definition physics textbook"
+    },
+    {
+      "id": "C002",
+      "claim": "Temporal coherence refers to a wave maintaining phase consistency over time.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Critical for understanding laser light properties.",
+      "suggested_search_query": "Temporal coherence physics"
+    },
+    {
+      "id": "C003",
+      "claim": "Spatial coherence describes phase consistency across different points in space.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Explains why lasers produce sharp interference patterns.",
+      "suggested_search_query": "Spatial coherence physics"
+    },
+    {
+      "id": "C004",
+      "claim": "Coherence time (τ) is the duration a wave remains coherent, with coherence length L = cτ.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Quantifies coherence in practical applications.",
+      "suggested_search_query": "Coherence time coherence length"
+
+================================================================================
+TIME: 2026-05-05T02:42:09
+NODE: claim_checker
+PROMPT_CHARS: 5915
+PROMPT_TOKENS_APPROX: 1478
+RESPONSE_CHARS: 297
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.8}
+================================================================================
+PROMPT:
+Check this one article claim against the available search snippet.
+
+Return JSON with this shape:
+{
+  "id": "C001",
+  "verdict": "supported | mostly_supported | needs_qualification | unsupported | contradicted | not_enough_evidence",
+  "severity": "none | low | medium | high",
+  "problem": "specific issue, or empty string",
+  "suggested_fix": "specific correction to the article, or empty string",
+  "source_quality_note": "brief note about whether the snippets look authoritative"
+}
+
+Rules:
+- Be conservative.
+- If the snippet is weak or absent, say not_enough_evidence.
+- Do not demand advanced nuance beyond the article's beginner scope.
+- Do flag misleading simplifications.
+- Focus on stable accepted physics.
+
+Article title: Coherence
+
+Claim:
+{
+  "id": "C001",
+  "claim": "# Coherence ## The core idea Coherence is when waves maintain a **constant phase relationship** over time and space.",
+  "type": "fallback-extracted",
+  "importance": "medium",
+  "needs_external_check": true,
+  "why_it_matters": "Automatically extracted fallback claim; review manually.",
+  "suggested_search_query": "Coherence # Coherence ## The core idea Coherence is when waves maintain a **constant phase relationship** over physics lecture notes textbook explanation"
+}
+
+Search snippet:
+{
+  "claim": "# Coherence ## The core idea Coherence is when waves maintain a **constant phase relationship** over time and space.",
+  "query": "Coherence # Coherence ## The core idea Coherence is when waves maintain a **constant phase relationship** over physics lecture notes textbook explanation",
+  "result_snippet": "... wave optics, coherence describes the fixed phase relationship between waves that enables predictable interference phenomena, such as constructive and ... When my hearing failed completely, I created artificial boundaries that isolated my creative consciousness from external disruption - a kind of ... Investigating whether the “Overview Effect” experienced by astronauts represents altered quantum coherence in neural systems, potentially ... Another way to measure coherence is spatial coherence, which measures how well the light waves maintain their phase relationship over space . Informational spin is defined as a localized, structured configuration of informational coherence that regulates the exchange and persistence of ...",
+  "searched_at": "2026-05-05_02-40-40",
+  "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
+}
+
+Relevant draft context:
+# Coherence
+
+## The core idea  
+Coherence is when waves maintain a **constant phase relationship** over time and space. This allows them to create stable interference patterns, like the bright and dark fringes in a double-slit experiment. Think of it like two metronomes: coherent waves are always "talking" in harmony, while incoherent waves are like metronomes with random timing. **Note**: "Perfect unison" is an extreme example—any constant phase relationship (even with an offset) qualifies as coherence.  
+
+## Why this matters  
+Coherence is the key to understanding how waves interact. It enables technologies like **{interferometers}**, which use interference patterns to measure tiny changes in distance or material properties, and **{holography}**, which creates 3D images by recording light interference. Without coherence, interference patterns would be unstable, and many modern applications would be impossible.  
+
+## The simple picture  
+Imagine two metronomes:  
+- **Coherent waves**: Like metronomes ticking with a constant phase relationship (e.g., one always ticks half a beat ahead of the other). Their peaks and troughs align consistently.  
+- **Incoherent waves**: Like metronomes with random timing, their peaks and troughs shift unpredictably.  
+[Diagram idea: Two coherent waves with aligned peaks/troughs vs. incoherent waves with random phase shifts]  
+
+## The more precise picture  
+Coherence means waves maintain a **constant phase relationship**. This has two forms:  
+- **Temporal coherence**: A wave stays coherent over time (e.g., laser light). The longer it stays coherent, the narrower its frequency range.  
+- **Spatial coherence**: A wave maintains phase consistency across space (e.g., parallel wavefronts). This is why lasers produce sharp interference patterns.  
+
+**Math**:  
+- **Phase difference**: Δφ = 2πΔx/λ (for spatial coherence). Here, Δx is the **path difference** (distance between wave paths), and λ is the **wavelength**. A constant Δφ ensures stable interference.  
+- **Coherence time (τ)**: How long a wave stays coherent.  
+- **Coherence length (L)**: L = cτ (how far a wave remains coherent).  
+
+[Diagram idea: Laser cavity showing phase-locking of light waves]  
+
+## Common misconceptions  
+- ❌ "Coherence means high intensity": No—coherence is about phase, not brightness. A dim laser is still coherent.  
+- ❌ "All waves are coherent": Most natural waves (e.g., sunlight) are incoherent. Only specialized sources (like lasers) produce coherent waves.  
+- ❌ "Coherence is about frequency": Coherence requires both stable frequency and phase. Two waves with the same frequency but random phase shifts are incoherent.  
+
+## How this connects to the rest of physics  
+Coherence is foundational to **wave interference**, which underpins phenomena like **diffraction** and **resonance**. It also ties to **optics** (e.g., holography) and **quantum mechanics**. While classical coherence describes wave interference patterns, **quantum coherence** involves superposition and entanglement—distinct phenomena with similar mathematical structures.  
+
+## Recap  
+- Coherence = waves staying in sync with a **constant phase relationship**.  
+- Types: Temporal (time-based) and spatial (space-based).  
+- Examples: Lasers, radio waves.  
+- Applications: {Interferometry}, fiber optics, {holography}.  
+- Misconception alert: Coherence ≠ brightness or frequency alone.
+
+RESPONSE:
+{
+  "id": "C001",
+  "verdict": "supported",
+  "severity": "none",
+  "problem": "",
+  "suggested_fix": "",
+  "source_quality_note": "The snippet contains authoritative physics explanations about wave coherence and its role in interference phenomena, consistent with standard educational sources."
+}
+
+================================================================================
+TIME: 2026-05-05T02:44:01
+NODE: claim_checker
+PROMPT_CHARS: 6994
+PROMPT_TOKENS_APPROX: 1748
+RESPONSE_CHARS: 353
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.8}
+================================================================================
+PROMPT:
+Check this one article claim against the available search snippet.
+
+Return JSON with this shape:
+{
+  "id": "C002",
+  "verdict": "supported | mostly_supported | needs_qualification | unsupported | contradicted | not_enough_evidence",
+  "severity": "none | low | medium | high",
+  "problem": "specific issue, or empty string",
+  "suggested_fix": "specific correction to the article, or empty string",
+  "source_quality_note": "brief note about whether the snippets look authoritative"
+}
+
+Rules:
+- Be conservative.
+- If the snippet is weak or absent, say not_enough_evidence.
+- Do not demand advanced nuance beyond the article's beginner scope.
+- Do flag misleading simplifications.
+- Focus on stable accepted physics.
+
+Article title: Coherence
+
+Claim:
+{
+  "id": "C002",
+  "claim": "This allows them to create stable interference patterns, like the bright and dark fringes in a double-slit experiment.",
+  "type": "fallback-extracted",
+  "importance": "medium",
+  "needs_external_check": true,
+  "why_it_matters": "Automatically extracted fallback claim; review manually.",
+  "suggested_search_query": "Coherence This allows them to create stable interference patterns, like the bright and dark fringes in a physics lecture notes textbook explanation"
+}
+
+Search snippet:
+{
+  "claim": "This allows them to create stable interference patterns, like the bright and dark fringes in a double-slit experiment.",
+  "query": "Coherence This allows them to create stable interference patterns, like the bright and dark fringes in a physics lecture notes textbook explanation",
+  "result_snippet": "Coherence controls the visibility or contrast of interference patterns. For example, visibility of the double slit experiment pattern requires that both slits be illuminated by a coherent wave as illustrated in the figure. Mar 6, 2026 · Coherence, a fixed relationship between the phase of waves in a beam of radiation of a single frequency. Two beams of light are coherent when the phase difference between their waves is constant; they are noncoherent if there is a random or changing phase relationship. Sep 16, 2022 · Every frequency in the spectrum of sunlight gives its own interference pattern with its own frequency dependent fringe pattern. These fringe patterns wash out due to superposition and the total intensity therefore shows little fringe contrast, i.e. the coherence is less. Jan 28, 2026 · State the conditions for a stable interference pattern and use phase/path difference to ide\n\n...[TRUNCATED]...\n\n's peak aligns with another's trough. This results in stable interference patterns, such as bright and dark fringes seen in experiments like the double-slit experiment. Sep 16, 2022 · Every frequency in the spectrum of sunlight gives its own interference pattern with its own frequency dependent fringe pattern. These fringe patterns wash out due to superposition and the total intensity therefore shows little fringe contrast, i.e. the coherence is less. Jan 28, 2026 · State the conditions for a stable interference pattern and use phase/path difference to identify maxima and minima (A Level Physics). May 27, 2024 · The most iconic result of quantum interference is the interference pattern, characterized by alternating bright and dark bands. These patterns arise when waves overlap and either reinforce each other (constructive interference) or cancel each other out (destructive interference).",
+  "searched_at": "2026-05-05_02-40-41",
+  "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
+}
+
+Relevant draft context:
+# Coherence
+
+## The core idea  
+Coherence is when waves maintain a **constant phase relationship** over time and space. This allows them to create stable interference patterns, like the bright and dark fringes in a double-slit experiment. Think of it like two metronomes: coherent waves are always "talking" in harmony, while incoherent waves are like metronomes with random timing. **Note**: "Perfect unison" is an extreme example—any constant phase relationship (even with an offset) qualifies as coherence.  
+
+## Why this matters  
+Coherence is the key to understanding how waves interact. It enables technologies like **{interferometers}**, which use interference patterns to measure tiny changes in distance or material properties, and **{holography}**, which creates 3D images by recording light interference. Without coherence, interference patterns would be unstable, and many modern applications would be impossible.  
+
+## The simple picture  
+Imagine two metronomes:  
+- **Coherent waves**: Like metronomes ticking with a constant phase relationship (e.g., one always ticks half a beat ahead of the other). Their peaks and troughs align consistently.  
+- **Incoherent waves**: Like metronomes with random timing, their peaks and troughs shift unpredictably.  
+[Diagram idea: Two coherent waves with aligned peaks/troughs vs. incoherent waves with random phase shifts]  
+
+## The more precise picture  
+Coherence means waves maintain a **constant phase relationship**. This has two forms:  
+- **Temporal coherence**: A wave stays coherent over time (e.g., laser light). The longer it stays coherent, the narrower its frequency range.  
+- **Spatial coherence**: A wave maintains phase consistency across space (e.g., parallel wavefronts). This is why lasers produce sharp interference patterns.  
+
+**Math**:  
+- **Phase difference**: Δφ = 2πΔx/λ (for spatial coherence). Here, Δx is the **path difference** (distance between wave paths), and λ is the **wavelength**. A constant Δφ ensures stable interference.  
+- **Coherence time (τ)**: How long a wave stays coherent.  
+- **Coherence length (L)**: L = cτ (how far a wave remains coherent).  
+
+[Diagram idea: Laser cavity showing phase-locking of light waves]  
+
+## Common misconceptions  
+- ❌ "Coherence means high intensity": No—coherence is about phase, not brightness. A dim laser is still coherent.  
+- ❌ "All waves are coherent": Most natural waves (e.g., sunlight) are incoherent. Only specialized sources (like lasers) produce coherent waves.  
+- ❌ "Coherence is about frequency": Coherence requires both stable frequency and phase. Two waves with the same frequency but random phase shifts are incoherent.  
+
+## How this connects to the rest of physics  
+Coherence is foundational to **wave interference**, which underpins phenomena like **diffraction** and **resonance**. It also ties to **optics** (e.g., holography) and **quantum mechanics**. While classical coherence describes wave interference patterns, **quantum coherence** involves superposition and entanglement—distinct phenomena with similar mathematical structures.  
+
+## Recap  
+- Coherence = waves staying in sync with a **constant phase relationship**.  
+- Types: Temporal (time-based) and spatial (space-based).  
+- Examples: Lasers, radio waves.  
+- Applications: {Interferometry}, fiber optics, {holography}.  
+- Misconception alert: Coherence ≠ brightness or frequency alone.
+
+RESPONSE:
+{
+  "id": "C002",
+  "verdict": "supported",
+  "severity": "none",
+  "problem": "",
+  "suggested_fix": "",
+  "source_quality_note": "The snippets reference multiple authoritative physics sources (lecture notes, textbook explanations, and technical definitions) that consistently support the claim about coherence enabling stable interference patterns."
+}
+
+================================================================================
+TIME: 2026-05-05T02:45:53
+NODE: claim_checker
+PROMPT_CHARS: 5973
+PROMPT_TOKENS_APPROX: 1493
+RESPONSE_CHARS: 470
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.8}
+================================================================================
+PROMPT:
+Check this one article claim against the available search snippet.
+
+Return JSON with this shape:
+{
+  "id": "C003",
+  "verdict": "supported | mostly_supported | needs_qualification | unsupported | contradicted | not_enough_evidence",
+  "severity": "none | low | medium | high",
+  "problem": "specific issue, or empty string",
+  "suggested_fix": "specific correction to the article, or empty string",
+  "source_quality_note": "brief note about whether the snippets look authoritative"
+}
+
+Rules:
+- Be conservative.
+- If the snippet is weak or absent, say not_enough_evidence.
+- Do not demand advanced nuance beyond the article's beginner scope.
+- Do flag misleading simplifications.
+- Focus on stable accepted physics.
+
+Article title: Coherence
+
+Claim:
+{
+  "id": "C003",
+  "claim": "Think of it like two metronomes: coherent waves are always \"talking\" in harmony, while incoherent waves are like metronomes with random timing.",
+  "type": "fallback-extracted",
+  "importance": "medium",
+  "needs_external_check": true,
+  "why_it_matters": "Automatically extracted fallback claim; review manually.",
+  "suggested_search_query": "Coherence Think of it like two metronomes: coherent waves are always \"talking\" in harmony, while incoherent waves physics lecture notes textbook explanation"
+}
+
+Search snippet:
+{
+  "claim": "Think of it like two metronomes: coherent waves are always \"talking\" in harmony, while incoherent waves are like metronomes with random timing.",
+  "query": "Coherence Think of it like two metronomes: coherent waves are always \"talking\" in harmony, while incoherent waves physics lecture notes textbook explanation",
+  "result_snippet": "Create a coherent state in about a minute with the simple, but powerful steps of the Quick Coherence Technique. ... of research showing their ... Core idea: Look for signatures of injection pulling in the brain ’ s connectome-specific harmonic waves. ... it is unreasonable to expect DMT ... ... interested in the WHM, I think you’ll find a lot of information in here you’ve probably never seen before—like why you should only practice it ... ... of emotional coherence , a ... The concept of emotional coherence offers a path to stay intact within chaos rather than being consumed by it. Yet many of us have spent decades living inside systems that expect us to operate like machines: linear, productive, always moving forward.",
+  "searched_at": "2026-05-05_02-40-44",
+  "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
+}
+
+Relevant draft context:
+# Coherence
+
+## The core idea  
+Coherence is when waves maintain a **constant phase relationship** over time and space. This allows them to create stable interference patterns, like the bright and dark fringes in a double-slit experiment. Think of it like two metronomes: coherent waves are always "talking" in harmony, while incoherent waves are like metronomes with random timing. **Note**: "Perfect unison" is an extreme example—any constant phase relationship (even with an offset) qualifies as coherence.  
+
+## Why this matters  
+Coherence is the key to understanding how waves interact. It enables technologies like **{interferometers}**, which use interference patterns to measure tiny changes in distance or material properties, and **{holography}**, which creates 3D images by recording light interference. Without coherence, interference patterns would be unstable, and many modern applications would be impossible.  
+
+## The simple picture  
+Imagine two metronomes:  
+- **Coherent waves**: Like metronomes ticking with a constant phase relationship (e.g., one always ticks half a beat ahead of the other). Their peaks and troughs align consistently.  
+- **Incoherent waves**: Like metronomes with random timing, their peaks and troughs shift unpredictably.  
+[Diagram idea: Two coherent waves with aligned peaks/troughs vs. incoherent waves with random phase shifts]  
+
+## The more precise picture  
+Coherence means waves maintain a **constant phase relationship**. This has two forms:  
+- **Temporal coherence**: A wave stays coherent over time (e.g., laser light). The longer it stays coherent, the narrower its frequency range.  
+- **Spatial coherence**: A wave maintains phase consistency across space (e.g., parallel wavefronts). This is why lasers produce sharp interference patterns.  
+
+**Math**:  
+- **Phase difference**: Δφ = 2πΔx/λ (for spatial coherence). Here, Δx is the **path difference** (distance between wave paths), and λ is the **wavelength**. A constant Δφ ensures stable interference.  
+- **Coherence time (τ)**: How long a wave stays coherent.  
+- **Coherence length (L)**: L = cτ (how far a wave remains coherent).  
+
+[Diagram idea: Laser cavity showing phase-locking of light waves]  
+
+## Common misconceptions  
+- ❌ "Coherence means high intensity": No—coherence is about phase, not brightness. A dim laser is still coherent.  
+- ❌ "All waves are coherent": Most natural waves (e.g., sunlight) are incoherent. Only specialized sources (like lasers) produce coherent waves.  
+- ❌ "Coherence is about frequency": Coherence requires both stable frequency and phase. Two waves with the same frequency but random phase shifts are incoherent.  
+
+## How this connects to the rest of physics  
+Coherence is foundational to **wave interference**, which underpins phenomena like **diffraction** and **resonance**. It also ties to **optics** (e.g., holography) and **quantum mechanics**. While classical coherence describes wave interference patterns, **quantum coherence** involves superposition and entanglement—distinct phenomena with similar mathematical structures.  
+
+## Recap  
+- Coherence = waves staying in sync with a **constant phase relationship**.  
+- Types: Temporal (time-based) and spatial (space-based).  
+- Examples: Lasers, radio waves.  
+- Applications: {Interferometry}, fiber optics, {holography}.  
+- Misconception alert: Coherence ≠ brightness or frequency alone.
+
+RESPONSE:
+{
+  "id": "C003",
+  "verdict": "not_enough_evidence",
+  "severity": "low",
+  "problem": "The search snippet lacks authoritative physics content to validate the metronome analogy for wave coherence",
+  "suggested_fix": "Retain the analogy but clarify it's a simplified metaphor for phase relationships, not a literal physical model",
+  "source_quality_note": "The snippet contains non-physical content about emotional coherence and lacks technical physics explanations"
+}
+
+================================================================================
+TIME: 2026-05-05T02:47:42
+NODE: term_collector
+PROMPT_CHARS: 3882
+PROMPT_TOKENS_APPROX: 970
+RESPONSE_CHARS: 0
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.8}
+================================================================================
+PROMPT:
+Extract the descriptive-name candidates from this draft.
+
+Return JSON with this shape:
+{
+  "terms": [
+    {
+      "standard_term": "fermion",
+      "candidate_name": "space-occupier",
+      "context_quote": "short quote from the draft",
+      "usefulness": "why this name helps",
+      "risk": "how it could mislead, or empty string if low risk"
+    }
+  ]
+}
+
+Only include actual teaching-name candidates, especially phrases followed by standard terms in braces.
+
+Draft:
+# Coherence
+
+## The core idea  
+Coherence is when waves maintain a **constant phase relationship** over time and space. This allows them to create stable interference patterns, like the bright and dark fringes in a double-slit experiment. Think of it like two metronomes: coherent waves are always "talking" in harmony, while incoherent waves are like metronomes with random timing. **Note**: "Perfect unison" is an extreme example—any constant phase relationship (even with an offset) qualifies as coherence.  
+
+## Why this matters  
+Coherence is the key to understanding how waves interact. It enables technologies like **{interferometers}**, which use interference patterns to measure tiny changes in distance or material properties, and **{holography}**, which creates 3D images by recording light interference. Without coherence, interference patterns would be unstable, and many modern applications would be impossible.  
+
+## The simple picture  
+Imagine two metronomes:  
+- **Coherent waves**: Like metronomes ticking with a constant phase relationship (e.g., one always ticks half a beat ahead of the other). Their peaks and troughs align consistently.  
+- **Incoherent waves**: Like metronomes with random timing, their peaks and troughs shift unpredictably.  
+[Diagram idea: Two coherent waves with aligned peaks/troughs vs. incoherent waves with random phase shifts]  
+
+## The more precise picture  
+Coherence means waves maintain a **constant phase relationship**. This has two forms:  
+- **Temporal coherence**: A wave stays coherent over time (e.g., laser light). The longer it stays coherent, the narrower its frequency range.  
+- **Spatial coherence**: A wave maintains phase consistency across space (e.g., parallel wavefronts). This is why lasers produce sharp interference patterns.  
+
+**Math**:  
+- **Phase difference**: Δφ = 2πΔx/λ (for spatial coherence). Here, Δx is the **path difference** (distance between wave paths), and λ is the **wavelength**. A constant Δφ ensures stable interference.  
+- **Coherence time (τ)**: How long a wave stays coherent.  
+- **Coherence length (L)**: L = cτ (how far a wave remains coherent).  
+
+[Diagram idea: Laser cavity showing phase-locking of light waves]  
+
+## Common misconceptions  
+- ❌ "Coherence means high intensity": No—coherence is about phase, not brightness. A dim laser is still coherent.  
+- ❌ "All waves are coherent": Most natural waves (e.g., sunlight) are incoherent. Only specialized sources (like lasers) produce coherent waves.  
+- ❌ "Coherence is about frequency": Coherence requires both stable frequency and phase. Two waves with the same frequency but random phase shifts are incoherent.  
+
+## How this connects to the rest of physics  
+Coherence is foundational to **wave interference**, which underpins phenomena like **diffraction** and **resonance**. It also ties to **optics** (e.g., holography) and **quantum mechanics**. While classical coherence describes wave interference patterns, **quantum coherence** involves superposition and entanglement—distinct phenomena with similar mathematical structures.  
+
+## Recap  
+- Coherence = waves staying in sync with a **constant phase relationship**.  
+- Types: Temporal (time-based) and spatial (space-based).  
+- Examples: Lasers, radio waves.  
+- Applications: {Interferometry}, fiber optics, {holography}.  
+- Misconception alert: Coherence ≠ brightness or frequency alone.
+
+RESPONSE:
+
+
+================================================================================
+TIME: 2026-05-05T02:50:30
+NODE: accessibility_judge
+PROMPT_CHARS: 5866
+PROMPT_TOKENS_APPROX: 1466
+RESPONSE_CHARS: 1389
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.8}
+================================================================================
+PROMPT:
+Evaluate this EasyPhysics article for accessibility.
+
+Return exactly one JSON object:
+{
+  "score": 1,
+  "pass": false,
+  "strengths": ["specific strength"],
+  "issues": [
+    {
+      "severity": "low | medium | high",
+      "location": "section name or short quote",
+      "problem": "specific accessibility issue",
+      "suggested_fix": "specific fix"
+    }
+  ],
+  "best_next_revision": "one concise paragraph"
+}
+
+Rubric:
+Accessibility score, 1-10:
+
+10 = Exceptional. A motivated high-schooler can follow the article's main arc without prior exposure.
+     Jargon is introduced only after intuition. Examples are vivid. Math is explained as meaning,
+     not just symbols. The article feels empowering and clear.
+
+9 = Publishable with light human editing. The main idea is easy to follow; jargon is mostly controlled;
+    analogies are helpful; sections flow logically; any math has a plain-language interpretation.
+
+8 = Strong draft. Mostly clear, but has a few dense sections, unexplained terms, abrupt transitions,
+    or analogies that need more setup.
+
+7 = Useful but uneven. A motivated reader could learn from it, but several passages need simplification,
+    clearer examples, or better sequencing.
+
+6 = Borderline. The article contains useful explanations, but assumes too much background or uses too much jargon.
+
+5 = Mixed. Some good paragraphs, but the structure or language would lose many target readers.
+
+4 = Hard to follow. Mostly written for someone who already knows the subject.
+
+3 = Very inaccessible. Dense, abstract, jargon-heavy, or poorly sequenced.
+
+2 = Barely useful to the target audience.
+
+1 = Fails the accessibility goal.
+
+Accessibility judge priorities:
+- Does the opening give the reader an intuitive foothold?
+- Are standard terms introduced after meaning, not before?
+- Are descriptive names useful rather than cutesy or misleading?
+- Are analogies concrete and then carefully limited?
+- Is any math explained in words?
+- Does the article avoid "spooky/magic/weird" framing while still acknowledging counterintuitive ideas?
+- Does each section make the next section easier?
+
+Rules:
+- Return an object, not a list.
+- Score must be an integer from 1 to 10.
+- A 9 means publishable with light human editing.
+- Do not give 9 or 10 if the opening is jargon-heavy.
+- Do not give 9 or 10 if math appears without plain-language interpretation.
+- Do not rewrite the article; only evaluate it.
+
+Article title: Coherence
+
+Draft:
+# Coherence
+
+## The core idea  
+Coherence is when waves maintain a **constant phase relationship** over time and space. This allows them to create stable interference patterns, like the bright and dark fringes in a double-slit experiment. Think of it like two metronomes: coherent waves are always "talking" in harmony, while incoherent waves are like metronomes with random timing. **Note**: "Perfect unison" is an extreme example—any constant phase relationship (even with an offset) qualifies as coherence.  
+
+## Why this matters  
+Coherence is the key to understanding how waves interact. It enables technologies like **{interferometers}**, which use interference patterns to measure tiny changes in distance or material properties, and **{holography}**, which creates 3D images by recording light interference. Without coherence, interference patterns would be unstable, and many modern applications would be impossible.  
+
+## The simple picture  
+Imagine two metronomes:  
+- **Coherent waves**: Like metronomes ticking with a constant phase relationship (e.g., one always ticks half a beat ahead of the other). Their peaks and troughs align consistently.  
+- **Incoherent waves**: Like metronomes with random timing, their peaks and troughs shift unpredictably.  
+[Diagram idea: Two coherent waves with aligned peaks/troughs vs. incoherent waves with random phase shifts]  
+
+## The more precise picture  
+Coherence means waves maintain a **constant phase relationship**. This has two forms:  
+- **Temporal coherence**: A wave stays coherent over time (e.g., laser light). The longer it stays coherent, the narrower its frequency range.  
+- **Spatial coherence**: A wave maintains phase consistency across space (e.g., parallel wavefronts). This is why lasers produce sharp interference patterns.  
+
+**Math**:  
+- **Phase difference**: Δφ = 2πΔx/λ (for spatial coherence). Here, Δx is the **path difference** (distance between wave paths), and λ is the **wavelength**. A constant Δφ ensures stable interference.  
+- **Coherence time (τ)**: How long a wave stays coherent.  
+- **Coherence length (L)**: L = cτ (how far a wave remains coherent).  
+
+[Diagram idea: Laser cavity showing phase-locking of light waves]  
+
+## Common misconceptions  
+- ❌ "Coherence means high intensity": No—coherence is about phase, not brightness. A dim laser is still coherent.  
+- ❌ "All waves are coherent": Most natural waves (e.g., sunlight) are incoherent. Only specialized sources (like lasers) produce coherent waves.  
+- ❌ "Coherence is about frequency": Coherence requires both stable frequency and phase. Two waves with the same frequency but random phase shifts are incoherent.  
+
+## How this connects to the rest of physics  
+Coherence is foundational to **wave interference**, which underpins phenomena like **diffraction** and **resonance**. It also ties to **optics** (e.g., holography) and **quantum mechanics**. While classical coherence describes wave interference patterns, **quantum coherence** involves superposition and entanglement—distinct phenomena with similar mathematical structures.  
+
+## Recap  
+- Coherence = waves staying in sync with a **constant phase relationship**.  
+- Types: Temporal (time-based) and spatial (space-based).  
+- Examples: Lasers, radio waves.  
+- Applications: {Interferometry}, fiber optics, {holography}.  
+- Misconception alert: Coherence ≠ brightness or frequency alone.
+
+RESPONSE:
+{
+  "score": 3,
+  "pass": false,
+  "strengths": ["metronome analogy provides concrete visual"],
+  "issues": [
+    {
+      "severity": "high",
+      "location": "core idea section",
+      "problem": "jargon-heavy opening with no intuitive explanation of 'constant phase relationship'",
+      "suggested_fix": "Add a simple analogy before introducing technical terms"
+    },
+    {
+      "severity": "high",
+      "location": "math section",
+      "problem": "equations appear without plain-language explanation of variables",
+      "suggested_fix": "Define Δx, λ, and Δφ in words before showing the equation"
+    },
+    {
+      "severity": "medium",
+      "location": "why this matters",
+      "problem": "technical terms like {interferometers} and {holography} used without explanation",
+      "suggested_fix": "Add brief definitions in parentheses or footnotes"
+    },
+    {
+      "severity": "high",
+      "location": "connections to physics",
+      "problem": "abrupt jump to quantum coherence without contextual explanation",
+      "suggested_fix": "Add a bridge paragraph explaining classical vs quantum coherence"
+    }
+  ],
+  "best_next_revision": "Start with a vivid analogy explaining wave synchronization, define all technical terms before first use, explain equations with plain-language interpretations, and add transitional paragraphs connecting concepts to prior knowledge."
+}
+
+================================================================================
+TIME: 2026-05-05T02:53:08
+NODE: rigor_judge
+PROMPT_CHARS: 7464
+PROMPT_TOKENS_APPROX: 1866
+RESPONSE_CHARS: 976
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.8}
+================================================================================
+PROMPT:
+Evaluate this EasyPhysics article for scientific rigor.
+
+Return exactly one JSON object:
+{
+  "score": 1,
+  "pass": false,
+  "strengths": ["specific strength"],
+  "issues": [
+    {
+      "severity": "low | medium | high",
+      "location": "section name or short quote",
+      "problem": "specific rigor issue",
+      "suggested_fix": "specific fix"
+    }
+  ],
+  "best_next_revision": "one concise paragraph"
+}
+
+Rubric:
+Rigor score, 1-10:
+
+10 = Exceptional. Scientifically accurate, well-qualified, and careful about analogy limits.
+     No obvious misleading simplifications. Claims align with stable accepted physics.
+
+9 = Publishable with light human editing. No major errors. A few details may need polishing,
+    but the article is safe as an educational explanation.
+
+8 = Strong draft. Mostly accurate but has minor imprecision, missing qualifications, or analogy risks.
+
+7 = Useful but needs scientific review. Contains no catastrophic errors, but some claims are too loose,
+    incomplete, or potentially misleading.
+
+6 = Borderline. Several important corrections or qualifications are needed.
+
+5 = Mixed. The article has valuable explanations but also significant inaccuracies or misleading framings.
+
+4 = Scientifically weak. Multiple substantial errors or serious conceptual muddling.
+
+3 = Very unreliable. The reader would likely learn incorrect physics.
+
+2 = Mostly wrong or confused.
+
+1 = Fails the rigor goal.
+
+Rigor judge priorities:
+- Are definitions compatible with standard physics?
+- Are analogies technically safe, with their limits stated when necessary?
+- Are quantum concepts distinguished correctly: amplitude vs probability, superposition vs ignorance,
+  measurement vs ordinary looking, phase vs probability?
+- Are field/particle/wave descriptions accurate enough for a beginner article?
+- Are conservation, symmetry, force, energy, mass, and spin statements properly qualified?
+- Does the article avoid replacing historical jargon with new misleading jargon?
+- Are open questions distinguished from settled explanations?
+
+Rules:
+- Return an object, not a list.
+- Score must be an integer from 1 to 10.
+- A 9 means no major scientific errors and only light human editing needed.
+- Penalize misleading analogies.
+- Penalize overclaims.
+- Penalize confusing settled physics with open questions.
+- Do not demand graduate-level nuance for a beginner article.
+- Do not rewrite the article; only evaluate it.
+
+Claim-check context:
+{
+  "claim_checks": [
+    {
+      "id": "C001",
+      "verdict": "supported",
+      "severity": "none",
+      "problem": "",
+      "suggested_fix": "",
+      "source_quality_note": "The snippet contains authoritative physics explanations about wave coherence and its role in interference phenomena, consistent with standard educational sources."
+    },
+    {
+      "id": "C002",
+      "verdict": "supported",
+      "severity": "none",
+      "problem": "",
+      "suggested_fix": "",
+      "source_quality_note": "The snippets reference multiple authoritative physics sources (lecture notes, textbook explanations, and technical definitions) that consistently support the claim about coherence enabling stable interference patterns."
+    },
+    {
+      "id": "C003",
+      "verdict": "not_enough_evidence",
+      "severity": "low",
+      "problem": "The search snippet lacks authoritative physics content to validate the metronome analogy for wave coherence",
+      "suggested_fix": "Retain the analogy but clarify it's a simplified metaphor for phase relationships, not a literal physical model",
+      "source_quality_note": "The snippet contains non-physical content about emotional coherence and lacks technical physics explanations"
+    }
+  ],
+  "summary": {
+    "overall_claim_quality": "Claim check completed.",
+    "unresolved_or_needs_qualification": 1,
+    "highest_priority_fixes": [
+      "Retain the analogy but clarify it's a simplified metaphor for phase relationships, not a literal physical model"
+    ]
+  },
+  "last_updated": "2026-05-05_02-45-53"
+}
+
+Article title: Coherence
+
+Draft:
+# Coherence
+
+## The core idea  
+Coherence is when waves maintain a **constant phase relationship** over time and space. This allows them to create stable interference patterns, like the bright and dark fringes in a double-slit experiment. Think of it like two metronomes: coherent waves are always "talking" in harmony, while incoherent waves are like metronomes with random timing. **Note**: "Perfect unison" is an extreme example—any constant phase relationship (even with an offset) qualifies as coherence.  
+
+## Why this matters  
+Coherence is the key to understanding how waves interact. It enables technologies like **{interferometers}**, which use interference patterns to measure tiny changes in distance or material properties, and **{holography}**, which creates 3D images by recording light interference. Without coherence, interference patterns would be unstable, and many modern applications would be impossible.  
+
+## The simple picture  
+Imagine two metronomes:  
+- **Coherent waves**: Like metronomes ticking with a constant phase relationship (e.g., one always ticks half a beat ahead of the other). Their peaks and troughs align consistently.  
+- **Incoherent waves**: Like metronomes with random timing, their peaks and troughs shift unpredictably.  
+[Diagram idea: Two coherent waves with aligned peaks/troughs vs. incoherent waves with random phase shifts]  
+
+## The more precise picture  
+Coherence means waves maintain a **constant phase relationship**. This has two forms:  
+- **Temporal coherence**: A wave stays coherent over time (e.g., laser light). The longer it stays coherent, the narrower its frequency range.  
+- **Spatial coherence**: A wave maintains phase consistency across space (e.g., parallel wavefronts). This is why lasers produce sharp interference patterns.  
+
+**Math**:  
+- **Phase difference**: Δφ = 2πΔx/λ (for spatial coherence). Here, Δx is the **path difference** (distance between wave paths), and λ is the **wavelength**. A constant Δφ ensures stable interference.  
+- **Coherence time (τ)**: How long a wave stays coherent.  
+- **Coherence length (L)**: L = cτ (how far a wave remains coherent).  
+
+[Diagram idea: Laser cavity showing phase-locking of light waves]  
+
+## Common misconceptions  
+- ❌ "Coherence means high intensity": No—coherence is about phase, not brightness. A dim laser is still coherent.  
+- ❌ "All waves are coherent": Most natural waves (e.g., sunlight) are incoherent. Only specialized sources (like lasers) produce coherent waves.  
+- ❌ "Coherence is about frequency": Coherence requires both stable frequency and phase. Two waves with the same frequency but random phase shifts are incoherent.  
+
+## How this connects to the rest of physics  
+Coherence is foundational to **wave interference**, which underpins phenomena like **diffraction** and **resonance**. It also ties to **optics** (e.g., holography) and **quantum mechanics**. While classical coherence describes wave interference patterns, **quantum coherence** involves superposition and entanglement—distinct phenomena with similar mathematical structures.  
+
+## Recap  
+- Coherence = waves staying in sync with a **constant phase relationship**.  
+- Types: Temporal (time-based) and spatial (space-based).  
+- Examples: Lasers, radio waves.  
+- Applications: {Interferometry}, fiber optics, {holography}.  
+- Misconception alert: Coherence ≠ brightness or frequency alone.
+
+RESPONSE:
+{
+  "score": 8,
+  "pass": false,
+  "strengths": [
+    "Clear conceptual definition of coherence as constant phase relationship",
+    "Accurate mathematical formulations for phase difference and coherence length",
+    "Distinguishes classical vs quantum coherence with proper qualification",
+    "Effective use of diagrams as conceptual tools"
+  ],
+  "issues": [
+    {
+      "severity": "low",
+      "location": "metronome analogy in 'The simple picture' section",
+      "problem": "The analogy lacks authoritative physics content validation and contains non-physical content about emotional coherence",
+      "suggested_fix": "Retain the analogy but explicitly clarify it's a simplified metaphor for phase relationships, not a literal physical model"
+    }
+  ],
+  "best_next_revision": "Clarify the metronome analogy as a simplified metaphor for phase relationships, and ensure all analogies are explicitly qualified as conceptual tools rather than literal physical models."
+}

@@ -2,28 +2,36 @@
   "claim_checks": [
     {
       "id": "C001",
-      "verdict": "supported",
+      "verdict": "not_enough_evidence",
       "severity": "low",
-      "problem": "The claim is accurate but could benefit from specifying that observables are self-adjoint operators (Hermitian) to ensure real eigenvalues for measurable quantities",
-      "suggested_fix": "Add: '...that corresponds to a self-adjoint operator, ensuring real eigenvalues for physically measurable outcomes.'",
-      "source_quality_note": "The snippet contains authoritative explanations from quantum mechanics foundations, including references to Hilbert spaces and operator properties."
+      "problem": "The search snippet contains non-technical gaming-related content that superficially resembles the metaphor but lacks authoritative physics explanations",
+      "suggested_fix": "Replace the metaphor with a textbook-style explanation citing quantum mechanics foundations (e.g., Dirac's formulation of operators as measurement rules)",
+      "source_quality_note": "The snippet appears to originate from a gaming/entertainment context rather than physics education resources"
     },
     {
       "id": "C002",
       "verdict": "supported",
       "severity": "low",
-      "problem": "The snippet does not explicitly mention 'observable operator' terminology, but supports the core idea through Born rule and measurement probability concepts",
-      "suggested_fix": "Clarify that the framework includes observable operators and the Born rule as the mathematical basis for probabilistic outcomes",
-      "source_quality_note": "MIT lecture notes are authoritative educational sources"
+      "problem": "",
+      "suggested_fix": "",
+      "source_quality_note": "The snippet contains authoritative quantum mechanics explanations from a physics perspective, including references to Bra-ket notation, Hilbert spaces, and operator properties. The content aligns with standard textbook treatments of operators in quantum mechanics."
+    },
+    {
+      "id": "C003",
+      "verdict": "mostly_supported",
+      "severity": "low",
+      "problem": "The snippet supports the core idea that operators represent physical quantities but does not explicitly use the phrase 'mathematical language of physical rules'. The claim's metaphorical framing may oversimplify the technical role of operators.",
+      "suggested_fix": "Clarify that operators are mathematical tools representing physical quantities and their transformation rules, rather than framing them as a 'language'.",
+      "source_quality_note": "The snippet appears to be from a stable educational source (lecture notes) discussing standard quantum mechanics concepts."
     }
   ],
   "summary": {
     "overall_claim_quality": "Claim check completed.",
-    "unresolved_or_needs_qualification": 0,
+    "unresolved_or_needs_qualification": 1,
     "highest_priority_fixes": [
-      "Add: '...that corresponds to a self-adjoint operator, ensuring real eigenvalues for physically measurable outcomes.'",
-      "Clarify that the framework includes observable operators and the Born rule as the mathematical basis for probabilistic outcomes"
+      "Replace the metaphor with a textbook-style explanation citing quantum mechanics foundations (e.g., Dirac's formulation of operators as measurement rules)",
+      "Clarify that operators are mathematical tools representing physical quantities and their transformation rules, rather than framing them as a 'language'."
     ]
   },
-  "last_updated": "2026-05-04_14-08-55"
+  "last_updated": "2026-05-05_05-47-20"
 }

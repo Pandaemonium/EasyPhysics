@@ -1212,3 +1212,1285 @@ RESPONSE:
     }
   ],
   "best_next_revision": "Refine the 'energy governor' metaphor to emphasize that
+
+================================================================================
+TIME: 2026-05-04T22:34:06
+NODE: writer
+PROMPT_CHARS: 4661
+PROMPT_TOKENS_APPROX: 1165
+RESPONSE_CHARS: 3711
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.8}
+================================================================================
+PROMPT:
+Revise this existing EasyPhysics article once.
+
+Title: Hamiltonian
+
+Revision brief:
+- Claim/research fix: Clarify that the Hamiltonian represents total energy (kinetic + potential) as the fundamental quantity that determines system dynamics, rather than actively 'governing' energy
+- Claim/research fix: Clarify that in quantum mechanics, the Hamiltonian is an operator that governs wavefunction evolution, not just a scalar energy value
+
+Human/editor notes:
+# Human/editor notes
+
+Add any preferences, corrections, or article-specific constraints here.
+
+
+Current draft:
+# Hamiltonian
+
+## The core idea  
+The **Hamiltonian** is the **energy governor** {Hamiltonian} of a system. It tells a system how to change over time by using its total energy as the main rulebook. Think of it as a recipe: the ingredients are the system’s energy, and the steps are how that energy shapes motion and time evolution.
+
+## Why this matters  
+The Hamiltonian is the central tool for understanding how physical systems move, change, and interact. Whether you’re studying a swinging pendulum or a quantum particle, the Hamiltonian connects forces, energy, and motion—making it essential for predicting the behavior of everything from atoms to galaxies.
+
+## The simple picture  
+[Diagram idea: Energy Balance Sheet]  
+Imagine the Hamiltonian as a kitchen recipe. In classical mechanics, it’s a list of ingredients (kinetic + potential energy) and steps (how energy converts between motion and position). In quantum mechanics, it’s a set of rules (operators) that tell a wavefunction {wavefunction} how to evolve over time. Both versions use energy as the key ingredient to shape the system’s behavior.
+
+## The more precise picture  
+### Classical Mechanics: Energy as a Rulebook  
+In classical physics, the **Hamiltonian** {Hamiltonian} is the total energy of a system:  
+$$
+H = \text{Kinetic Energy} + \text{Potential Energy}
+$$  
+It governs motion through **Hamilton’s equations** {Hamilton’s equations}, which describe how position and momentum change over time. For example, a pendulum’s swing is dictated by how its kinetic energy (motion) and potential energy (height) balance.  
+
+### Quantum Mechanics: The Energy Operator  
+In quantum physics, the **Hamiltonian** {Hamiltonian} is an **operator** {operator} that acts on **wavefunctions** {wavefunction} to determine how quantum states evolve. It answers two questions:  
+1. **What are the possible energy levels** (eigenvalues)?  
+2. **What states correspond to definite energy** (eigenstates)?  
+The **Schrödinger equation** {Schrödinger equation} links the Hamiltonian to time evolution:  
+$$
+i\hbar \frac{\partial \psi}{\partial t} = \hat{H} \psi
+$$  
+This equation shows how the Hamiltonian operator {operator} dictates the “dance” of a quantum system over time.
+
+## Common misconceptions  
+❌ **"The Hamiltonian is just a formula for energy."**  
+→ In quantum mechanics, it’s an **operator** {operator} that acts on states, not just a number.  
+
+❌ **"Hamiltonian and Lagrangian are the same."**  
+→ They’re different tools: the Hamiltonian focuses on energy, while the Lagrangian focuses on differences in energy (kinetic minus potential).  
+
+❌ **"The Hamiltonian only applies to particles."**  
+→ It applies to fields, waves, and even abstract systems like quantum states.  
+
+## How this connects to the rest of physics  
+The Hamiltonian is the backbone of modern physics:  
+- **Quantum mechanics**: Determines energy levels and time evolution.  
+- **Conservation laws**: Links to Noether’s theorem {Noether’s theorem} (symmetries in time → energy conservation).  
+- **Relativity**: In special relativity, the Hamiltonian is part of the energy-momentum formulation.  
+- **Fields and particles**: In quantum field theory, the Hamiltonian governs interactions between particles and fields.  
+
+## Recap  
+- The **Hamiltonian** {Hamiltonian} is the energy governor of a system.  
+- In classical mechanics, it’s the total energy (kinetic + potential) that dictates motion.  
+- In quantum mechanics, it’s an operator {operator} that shapes how wavefunctions {wavefunction} evolve.  
+- It connects forces, energy, and time evolution across all physical systems.
+
+Instructions:
+- Return the complete revised article in Markdown.
+- Do not start from scratch.
+- Preserve good explanations.
+- Fix only the most important clarity, structure, and rigor problems.
+- If a section is already good, leave it mostly alone.
+- Add qualifications where the current draft overclaims.
+- Make the opening more intuitive if needed.
+- Keep standard terms in braces after intuitive names.
+- Do not include commentary before or after the article.
+
+RESPONSE:
+# Hamiltonian
+
+## The core idea  
+The **Hamiltonian** {Hamiltonian} is the **total energy rulebook** {Hamiltonian} of a system. It encodes the system’s total energy (kinetic + potential) as the fundamental quantity that determines how the system evolves over time. Think of it as a recipe: the ingredients are the system’s energy, and the steps are how that energy shapes motion and time evolution.  
+
+## Why this matters  
+The Hamiltonian is the central tool for understanding how physical systems move, change, and interact. Whether you’re studying a swinging pendulum or a quantum particle, the Hamiltonian connects forces, energy, and motion—making it essential for predicting the behavior of everything from atoms to galaxies.  
+
+## The simple picture  
+[Diagram idea: Energy Balance Sheet]  
+Imagine the Hamiltonian as a kitchen recipe. In classical mechanics, it’s a list of ingredients (kinetic + potential energy) and steps (how energy converts between motion and position). In quantum mechanics, it’s a set of rules (operators) that tell a wavefunction {wavefunction} how to evolve over time. Both versions use energy as the key ingredient to shape the system’s behavior.  
+
+## The more precise picture  
+### Classical Mechanics: Energy as a Rulebook  
+In classical physics, the **Hamiltonian** {Hamiltonian} is the total energy of a system:  
+$$
+H = \text{Kinetic Energy} + \text{Potential Energy}
+$$  
+It determines motion through **Hamilton’s equations** {Hamilton’s equations}, which describe how position and momentum change over time. For example, a pendulum’s swing is dictated by how its kinetic energy (motion) and potential energy (height) balance.  
+
+### Quantum Mechanics: The Energy Operator  
+In quantum physics, the **Hamiltonian** {Hamiltonian} is an **operator** {operator} that acts on **wavefunctions** {wavefunction} to determine how quantum states evolve. It answers two questions:  
+1. **What are the possible energy levels** (eigenvalues)?  
+2. **What states correspond to definite energy** (eigenstates)?  
+The **Schrödinger equation** {Schrödinger equation} links the Hamiltonian to time evolution:  
+$$
+i\hbar \frac{\partial \psi}{\partial t} = \hat{H} \psi
+$$  
+This equation shows how the Hamiltonian operator {operator} dictates the “dance” of a quantum system over time.  
+
+## Common misconceptions  
+❌ **"The Hamiltonian is just a formula for energy."**  
+→ In quantum mechanics, it’s an **operator** {operator} that acts on states, not just a number.  
+
+❌ **"Hamiltonian and Lagrangian are the same."**  
+→ They’re different tools: the Hamiltonian focuses on energy, while the Lagrangian focuses on differences in energy (kinetic minus potential).  
+
+❌ **"The Hamiltonian only applies to particles."**  
+→ It applies to fields, waves, and even abstract systems like quantum states.  
+
+## How this connects to the rest of physics  
+The Hamiltonian is the backbone of modern physics:  
+- **Quantum mechanics**: Determines energy levels and time evolution.  
+- **Conservation laws**: Links to Noether’s theorem {Noether’s theorem} (symmetries in time → energy conservation).  
+- **Relativity**: In special relativity, the Hamiltonian is part of the energy-momentum formulation.  
+- **Fields and particles**: In quantum field theory, the Hamiltonian governs interactions between particles and fields.  
+
+## Recap  
+- The **Hamiltonian** {Hamiltonian} is the total energy rulebook of a system.  
+- In classical mechanics, it’s the total energy (kinetic + potential) that dictates motion.  
+- In quantum mechanics, it’s an operator {operator} that shapes how wavefunctions {wavefunction} evolve.  
+- It connects forces, energy, and time evolution across all physical systems.
+
+================================================================================
+TIME: 2026-05-04T22:35:59
+NODE: term_collector
+PROMPT_CHARS: 4181
+PROMPT_TOKENS_APPROX: 1045
+RESPONSE_CHARS: 0
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.8}
+================================================================================
+PROMPT:
+Extract the descriptive-name candidates from this draft.
+
+Return JSON with this shape:
+{
+  "terms": [
+    {
+      "standard_term": "fermion",
+      "candidate_name": "space-occupier",
+      "context_quote": "short quote from the draft",
+      "usefulness": "why this name helps",
+      "risk": "how it could mislead, or empty string if low risk"
+    }
+  ]
+}
+
+Only include actual teaching-name candidates, especially phrases followed by standard terms in braces.
+
+Draft:
+# Hamiltonian
+
+## The core idea  
+The **Hamiltonian** {Hamiltonian} is the **total energy rulebook** {Hamiltonian} of a system. It encodes the system’s total energy (kinetic + potential) as the fundamental quantity that determines how the system evolves over time. Think of it as a recipe: the ingredients are the system’s energy, and the steps are how that energy shapes motion and time evolution.  
+
+## Why this matters  
+The Hamiltonian is the central tool for understanding how physical systems move, change, and interact. Whether you’re studying a swinging pendulum or a quantum particle, the Hamiltonian connects forces, energy, and motion—making it essential for predicting the behavior of everything from atoms to galaxies.  
+
+## The simple picture  
+[Diagram idea: Energy Balance Sheet]  
+Imagine the Hamiltonian as a kitchen recipe. In classical mechanics, it’s a list of ingredients (kinetic + potential energy) and steps (how energy converts between motion and position). In quantum mechanics, it’s a set of rules (operators) that tell a wavefunction {wavefunction} how to evolve over time. Both versions use energy as the key ingredient to shape the system’s behavior.  
+
+## The more precise picture  
+### Classical Mechanics: Energy as a Rulebook  
+In classical physics, the **Hamiltonian** {Hamiltonian} is the total energy of a system:  
+$$
+H = \text{Kinetic Energy} + \text{Potential Energy}
+$$  
+It determines motion through **Hamilton’s equations** {Hamilton’s equations}, which describe how position and momentum change over time. For example, a pendulum’s swing is dictated by how its kinetic energy (motion) and potential energy (height) balance.  
+
+### Quantum Mechanics: The Energy Operator  
+In quantum physics, the **Hamiltonian** {Hamiltonian} is an **operator** {operator} that acts on **wavefunctions** {wavefunction} to determine how quantum states evolve. It answers two questions:  
+1. **What are the possible energy levels** (eigenvalues)?  
+2. **What states correspond to definite energy** (eigenstates)?  
+The **Schrödinger equation** {Schrödinger equation} links the Hamiltonian to time evolution:  
+$$
+i\hbar \frac{\partial \psi}{\partial t} = \hat{H} \psi
+$$  
+This equation shows how the Hamiltonian operator {operator} dictates the “dance” of a quantum system over time.  
+
+## Common misconceptions  
+❌ **"The Hamiltonian is just a formula for energy."**  
+→ In quantum mechanics, it’s an **operator** {operator} that acts on states, not just a number.  
+
+❌ **"Hamiltonian and Lagrangian are the same."**  
+→ They’re different tools: the Hamiltonian focuses on energy, while the Lagrangian focuses on differences in energy (kinetic minus potential).  
+
+❌ **"The Hamiltonian only applies to particles."**  
+→ It applies to fields, waves, and even abstract systems like quantum states.  
+
+## How this connects to the rest of physics  
+The Hamiltonian is the backbone of modern physics:  
+- **Quantum mechanics**: Determines energy levels and time evolution.  
+- **Conservation laws**: Links to Noether’s theorem {Noether’s theorem} (symmetries in time → energy conservation).  
+- **Relativity**: In special relativity, the Hamiltonian is part of the energy-momentum formulation.  
+- **Fields and particles**: In quantum field theory, the Hamiltonian governs interactions between particles and fields.  
+
+## Recap  
+- The **Hamiltonian** {Hamiltonian} is the total energy rulebook of a system.  
+- In classical mechanics, it’s the total energy (kinetic + potential) that dictates motion.  
+- In quantum mechanics, it’s an operator {operator} that shapes how wavefunctions {wavefunction} evolve.  
+- It connects forces, energy, and time evolution across all physical systems.
+
+RESPONSE:
+
+
+================================================================================
+TIME: 2026-05-04T22:38:43
+NODE: claim_extractor
+PROMPT_CHARS: 4590
+PROMPT_TOKENS_APPROX: 1147
+RESPONSE_CHARS: 0
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.8}
+================================================================================
+PROMPT:
+Extract 8 to 12 important scientific or explanatory claims from this article draft.
+
+Return exactly one JSON object with this shape:
+{
+  "claims": [
+    {
+      "id": "C001",
+      "claim": "A clear standalone claim.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "brief reason",
+      "suggested_search_query": "stable physics source query"
+    }
+  ]
+}
+
+Rules:
+- Return a JSON object, not a list.
+- Do not return an empty list unless the draft is empty.
+- Use true/false, not True/False.
+- No Markdown fences.
+- No prose outside the JSON.
+- Prefer claims that matter for scientific correctness.
+- Include claims where an analogy could mislead.
+- Search queries should target stable sources: textbooks, lecture notes, CERN, Fermilab, NASA, DOE, NIST, or university pages.
+
+Article title: Hamiltonian
+
+Draft:
+# Hamiltonian
+
+## The core idea  
+The **Hamiltonian** {Hamiltonian} is the **total energy rulebook** {Hamiltonian} of a system. It encodes the system’s total energy (kinetic + potential) as the fundamental quantity that determines how the system evolves over time. Think of it as a recipe: the ingredients are the system’s energy, and the steps are how that energy shapes motion and time evolution.  
+
+## Why this matters  
+The Hamiltonian is the central tool for understanding how physical systems move, change, and interact. Whether you’re studying a swinging pendulum or a quantum particle, the Hamiltonian connects forces, energy, and motion—making it essential for predicting the behavior of everything from atoms to galaxies.  
+
+## The simple picture  
+[Diagram idea: Energy Balance Sheet]  
+Imagine the Hamiltonian as a kitchen recipe. In classical mechanics, it’s a list of ingredients (kinetic + potential energy) and steps (how energy converts between motion and position). In quantum mechanics, it’s a set of rules (operators) that tell a wavefunction {wavefunction} how to evolve over time. Both versions use energy as the key ingredient to shape the system’s behavior.  
+
+## The more precise picture  
+### Classical Mechanics: Energy as a Rulebook  
+In classical physics, the **Hamiltonian** {Hamiltonian} is the total energy of a system:  
+$$
+H = \text{Kinetic Energy} + \text{Potential Energy}
+$$  
+It determines motion through **Hamilton’s equations** {Hamilton’s equations}, which describe how position and momentum change over time. For example, a pendulum’s swing is dictated by how its kinetic energy (motion) and potential energy (height) balance.  
+
+### Quantum Mechanics: The Energy Operator  
+In quantum physics, the **Hamiltonian** {Hamiltonian} is an **operator** {operator} that acts on **wavefunctions** {wavefunction} to determine how quantum states evolve. It answers two questions:  
+1. **What are the possible energy levels** (eigenvalues)?  
+2. **What states correspond to definite energy** (eigenstates)?  
+The **Schrödinger equation** {Schrödinger equation} links the Hamiltonian to time evolution:  
+$$
+i\hbar \frac{\partial \psi}{\partial t} = \hat{H} \psi
+$$  
+This equation shows how the Hamiltonian operator {operator} dictates the “dance” of a quantum system over time.  
+
+## Common misconceptions  
+❌ **"The Hamiltonian is just a formula for energy."**  
+→ In quantum mechanics, it’s an **operator** {operator} that acts on states, not just a number.  
+
+❌ **"Hamiltonian and Lagrangian are the same."**  
+→ They’re different tools: the Hamiltonian focuses on energy, while the Lagrangian focuses on differences in energy (kinetic minus potential).  
+
+❌ **"The Hamiltonian only applies to particles."**  
+→ It applies to fields, waves, and even abstract systems like quantum states.  
+
+## How this connects to the rest of physics  
+The Hamiltonian is the backbone of modern physics:  
+- **Quantum mechanics**: Determines energy levels and time evolution.  
+- **Conservation laws**: Links to Noether’s theorem {Noether’s theorem} (symmetries in time → energy conservation).  
+- **Relativity**: In special relativity, the Hamiltonian is part of the energy-momentum formulation.  
+- **Fields and particles**: In quantum field theory, the Hamiltonian governs interactions between particles and fields.  
+
+## Recap  
+- The **Hamiltonian** {Hamiltonian} is the total energy rulebook of a system.  
+- In classical mechanics, it’s the total energy (kinetic + potential) that dictates motion.  
+- In quantum mechanics, it’s an operator {operator} that shapes how wavefunctions {wavefunction} evolve.  
+- It connects forces, energy, and time evolution across all physical systems.
+
+RESPONSE:
+
+
+================================================================================
+TIME: 2026-05-04T22:40:29
+NODE: claim_checker
+PROMPT_CHARS: 7227
+PROMPT_TOKENS_APPROX: 1806
+RESPONSE_CHARS: 258
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.8}
+================================================================================
+PROMPT:
+Check this one article claim against the available search snippet.
+
+Return JSON with this shape:
+{
+  "id": "C001",
+  "verdict": "supported | mostly_supported | needs_qualification | unsupported | contradicted | not_enough_evidence",
+  "severity": "none | low | medium | high",
+  "problem": "specific issue, or empty string",
+  "suggested_fix": "specific correction to the article, or empty string",
+  "source_quality_note": "brief note about whether the snippets look authoritative"
+}
+
+Rules:
+- Be conservative.
+- If the snippet is weak or absent, say not_enough_evidence.
+- Do not demand advanced nuance beyond the article's beginner scope.
+- Do flag misleading simplifications.
+- Focus on stable accepted physics.
+
+Article title: Hamiltonian
+
+Claim:
+{
+  "id": "C001",
+  "claim": "# Hamiltonian ## The core idea The **Hamiltonian** {Hamiltonian} is the **total energy rulebook** {Hamiltonian} of a system.",
+  "type": "fallback-extracted",
+  "importance": "medium",
+  "needs_external_check": true,
+  "why_it_matters": "Automatically extracted fallback claim; review manually.",
+  "suggested_search_query": "Hamiltonian # Hamiltonian ## The core idea The **Hamiltonian** {Hamiltonian} is the **total energy rulebook** {Hamiltonian} of physics lecture notes textbook explanation"
+}
+
+Search snippet:
+{
+  "claim": "# Hamiltonian ## The core idea The **Hamiltonian** {Hamiltonian} is the **total energy rulebook** {Hamiltonian} of a system.",
+  "query": "Hamiltonian # Hamiltonian ## The core idea The **Hamiltonian** {Hamiltonian} is the **total energy rulebook** {Hamiltonian} of physics lecture notes textbook explanation",
+  "result_snippet": "The Hamiltonian is named after William Rowan Hamilton, who developed a revolutionary reformulation of Newtonian mechanics, known as Hamiltonian mechanics, which was historically important to the development of quantum physics. Similar to vector notation, it is typically denoted by , where the hat indicates that it is an operator. The Hamiltonian is a fundamental concept in quantum mechanics, playing a crucial role in understanding and predicting the behavior of quantum systems. In this article, we will explore the core principles and applications of the Hamiltonian, delving into its significance in various aspects of quantum mechanics. A simple interpretation of Hamiltonian mechanics comes from its application on a one-dimensional system consisting of one nonrelativistic particle of mass m. The value H (p, q) of the Hamiltonian is the total energy of the system, in this case the sum of kinetic and potential energy, traditionally denoted T and V, respectively. We will reintroduce the Hamiltonian operator (the total-energy operator), in the context of mechanics, its associated eigenvalue equation, and discuss the important notion of bound and non-bound states, and their distinct description within quantum mechanics. 4.1 The Hamiltonian What different types of energy can a particle have? Quick Definition Plain-English definition: A Hamiltonian is a function or operator that encodes the total \"energy\" and dynamics of a system, governing how the system evolves over time. Analogy: Think of the Hamiltonian as the rules written on a scoreboard that determine how a sports game progresses; it lists the current score (state) and the allowed moves (dynamics), and from it you can ...",
+  "searched_at": "2026-05-04_22-38-46",
+  "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
+}
+
+Relevant draft context:
+# Hamiltonian
+
+## The core idea  
+The **Hamiltonian** {Hamiltonian} is the **total energy rulebook** {Hamiltonian} of a system. It encodes the system’s total energy (kinetic + potential) as the fundamental quantity that determines how the system evolves over time. Think of it as a recipe: the ingredients are the system’s energy, and the steps are how that energy shapes motion and time evolution.  
+
+## Why this matters  
+The Hamiltonian is the central tool for understanding how physical systems move, change, and interact. Whether you’re studying a swinging pendulum or a quantum particle, the Hamiltonian connects forces, energy, and motion—making it essential for predicting the behavior of everything from atoms to galaxies.  
+
+## The simple picture  
+[Diagram idea: Energy Balance Sheet]  
+Imagine the Hamiltonian as a kitchen recipe. In classical mechanics, it’s a list of ingredients (kinetic + potential energy) and steps (how energy converts between motion and position). In quantum mechanics, it’s a set of rules (operators) that tell a wavefunction {wavefunction} how to evolve over time. Both versions use energy as the key ingredient to shape the system’s behavior.  
+
+## The more precise picture  
+### Classical Mechanics: Energy as a Rulebook  
+In classical physics, the **Hamiltonian** {Hamiltonian} is the total energy of a system:  
+$$
+H = \text{Kinetic Energy} + \text{Potential Energy}
+$$  
+It determines motion through **Hamilton’s equations** {Hamilton’s equations}, which describe how position and momentum change over time. For example, a pendulum’s swing is dictated by how its kinetic energy (motion) and potential energy (height) balance.  
+
+### Quantum Mechanics: The Energy Operator  
+In quantum physics, the **Hamiltonian** {Hamiltonian} is an **operator** {operator} that acts on **wavefunctions** {wavefunction} to determine how quantum states evolve. It answers two questions:  
+1. **What are the possible energy levels** (eigenvalues)?  
+2. **What states correspond to definite energy** (eigenstates)?  
+The **Schrödinger equation** {Schrödinger equation} links the Hamiltonian to time evolution:  
+$$
+i\hbar \frac{\partial \psi}{\partial t} = \hat{H} \psi
+$$  
+This equation shows how the Hamiltonian operator {operator} dictates the “dance” of a quantum system over time.  
+
+## Common misconceptions  
+❌ **"The Hamiltonian is just a formula for energy."**  
+→ In quantum mechanics, it’s an **operator** {operator} that acts on states, not just a number.  
+
+❌ **"Hamiltonian and Lagrangian are the same."**  
+→ They’re different tools: the Hamiltonian focuses on energy, while the Lagrangian focuses on differences in energy (kinetic minus potential).  
+
+❌ **"The Hamiltonian only applies to particles."**  
+→ It applies to fields, waves, and even abstract systems like quantum states.  
+
+## How this connects to the rest of physics  
+The Hamiltonian is the backbone of modern physics:  
+- **Quantum mechanics**: Determines energy levels and time evolution.  
+- **Conservation laws**: Links to Noether’s theorem {Noether’s theorem} (symmetries in time → energy conservation).  
+- **Relativity**: In special relativity, the Hamiltonian is part of the energy-momentum formulation.  
+- **Fields and particles**: In quantum field theory, the Hamiltonian governs interactions between particles and fields.  
+
+## Recap  
+- The **Hamiltonian** {Hamiltonian} is the total energy rulebook of a system.  
+- In classical mechanics, it’s the total energy (kinetic + potential) that dictates motion.  
+- In quantum mechanics, it’s an operator {operator} that shapes how wavefunctions {wavefunction} evolve.  
+- It connects forces, energy, and time evolution across all physical systems.
+
+RESPONSE:
+{
+  "id": "C001",
+  "verdict": "supported",
+  "severity": "none",
+  "problem": "",
+  "suggested_fix": "",
+  "source_quality_note": "The snippet comes from a reliable physics education source explaining Hamiltonian mechanics and quantum mechanics concepts."
+}
+
+================================================================================
+TIME: 2026-05-04T22:41:50
+NODE: claim_checker
+PROMPT_CHARS: 6286
+PROMPT_TOKENS_APPROX: 1571
+RESPONSE_CHARS: 255
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.8}
+================================================================================
+PROMPT:
+Check this one article claim against the available search snippet.
+
+Return JSON with this shape:
+{
+  "id": "C002",
+  "verdict": "supported | mostly_supported | needs_qualification | unsupported | contradicted | not_enough_evidence",
+  "severity": "none | low | medium | high",
+  "problem": "specific issue, or empty string",
+  "suggested_fix": "specific correction to the article, or empty string",
+  "source_quality_note": "brief note about whether the snippets look authoritative"
+}
+
+Rules:
+- Be conservative.
+- If the snippet is weak or absent, say not_enough_evidence.
+- Do not demand advanced nuance beyond the article's beginner scope.
+- Do flag misleading simplifications.
+- Focus on stable accepted physics.
+
+Article title: Hamiltonian
+
+Claim:
+{
+  "id": "C002",
+  "claim": "It encodes the system’s total energy (kinetic + potential) as the fundamental quantity that determines how the system evolves over time.",
+  "type": "fallback-extracted",
+  "importance": "medium",
+  "needs_external_check": true,
+  "why_it_matters": "Automatically extracted fallback claim; review manually.",
+  "suggested_search_query": "Hamiltonian It encodes the system’s total energy (kinetic + potential) as the fundamental quantity that determines how physics lecture notes textbook explanation"
+}
+
+Search snippet:
+{
+  "claim": "It encodes the system’s total energy (kinetic + potential) as the fundamental quantity that determines how the system evolves over time.",
+  "query": "Hamiltonian It encodes the system’s total energy (kinetic + potential) as the fundamental quantity that determines how physics lecture notes textbook explanation",
+  "result_snippet": "Hamiltonian mechanics offers an intuitive description of how conservative mechanical systems evolve over time by representing their states as points ... Energy is a fundamental physical quantity in science, defined as the capacity of a system to perform work or cause change, and it is conserved in ... ... energy, denoted as U U U , is the total energy possessed by a thermodynamic system arising from the microscopic motion and interactions of its ... The Hamiltonian typically also represents the energy observable, a Noether-conserved quantity associated with the time-invariance of the law of ... The above definition is part of the International System of Quantities (ISQ), formalized in the international standard ISO 80000-3 (Space and time ...",
+  "searched_at": "2026-05-04_22-38-49",
+  "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
+}
+
+Relevant draft context:
+# Hamiltonian
+
+## The core idea  
+The **Hamiltonian** {Hamiltonian} is the **total energy rulebook** {Hamiltonian} of a system. It encodes the system’s total energy (kinetic + potential) as the fundamental quantity that determines how the system evolves over time. Think of it as a recipe: the ingredients are the system’s energy, and the steps are how that energy shapes motion and time evolution.  
+
+## Why this matters  
+The Hamiltonian is the central tool for understanding how physical systems move, change, and interact. Whether you’re studying a swinging pendulum or a quantum particle, the Hamiltonian connects forces, energy, and motion—making it essential for predicting the behavior of everything from atoms to galaxies.  
+
+## The simple picture  
+[Diagram idea: Energy Balance Sheet]  
+Imagine the Hamiltonian as a kitchen recipe. In classical mechanics, it’s a list of ingredients (kinetic + potential energy) and steps (how energy converts between motion and position). In quantum mechanics, it’s a set of rules (operators) that tell a wavefunction {wavefunction} how to evolve over time. Both versions use energy as the key ingredient to shape the system’s behavior.  
+
+## The more precise picture  
+### Classical Mechanics: Energy as a Rulebook  
+In classical physics, the **Hamiltonian** {Hamiltonian} is the total energy of a system:  
+$$
+H = \text{Kinetic Energy} + \text{Potential Energy}
+$$  
+It determines motion through **Hamilton’s equations** {Hamilton’s equations}, which describe how position and momentum change over time. For example, a pendulum’s swing is dictated by how its kinetic energy (motion) and potential energy (height) balance.  
+
+### Quantum Mechanics: The Energy Operator  
+In quantum physics, the **Hamiltonian** {Hamiltonian} is an **operator** {operator} that acts on **wavefunctions** {wavefunction} to determine how quantum states evolve. It answers two questions:  
+1. **What are the possible energy levels** (eigenvalues)?  
+2. **What states correspond to definite energy** (eigenstates)?  
+The **Schrödinger equation** {Schrödinger equation} links the Hamiltonian to time evolution:  
+$$
+i\hbar \frac{\partial \psi}{\partial t} = \hat{H} \psi
+$$  
+This equation shows how the Hamiltonian operator {operator} dictates the “dance” of a quantum system over time.  
+
+## Common misconceptions  
+❌ **"The Hamiltonian is just a formula for energy."**  
+→ In quantum mechanics, it’s an **operator** {operator} that acts on states, not just a number.  
+
+❌ **"Hamiltonian and Lagrangian are the same."**  
+→ They’re different tools: the Hamiltonian focuses on energy, while the Lagrangian focuses on differences in energy (kinetic minus potential).  
+
+❌ **"The Hamiltonian only applies to particles."**  
+→ It applies to fields, waves, and even abstract systems like quantum states.  
+
+## How this connects to the rest of physics  
+The Hamiltonian is the backbone of modern physics:  
+- **Quantum mechanics**: Determines energy levels and time evolution.  
+- **Conservation laws**: Links to Noether’s theorem {Noether’s theorem} (symmetries in time → energy conservation).  
+- **Relativity**: In special relativity, the Hamiltonian is part of the energy-momentum formulation.  
+- **Fields and particles**: In quantum field theory, the Hamiltonian governs interactions between particles and fields.  
+
+## Recap  
+- The **Hamiltonian** {Hamiltonian} is the total energy rulebook of a system.  
+- In classical mechanics, it’s the total energy (kinetic + potential) that dictates motion.  
+- In quantum mechanics, it’s an operator {operator} that shapes how wavefunctions {wavefunction} evolve.  
+- It connects forces, energy, and time evolution across all physical systems.
+
+RESPONSE:
+{
+  "id": "C002",
+  "verdict": "supported",
+  "severity": "high",
+  "problem": "",
+  "suggested_fix": "",
+  "source_quality_note": "The snippet references stable physics concepts and mentions ISO standards, indicating authoritative educational sources."
+}
+
+================================================================================
+TIME: 2026-05-04T22:43:20
+NODE: claim_checker
+PROMPT_CHARS: 6478
+PROMPT_TOKENS_APPROX: 1619
+RESPONSE_CHARS: 485
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.8}
+================================================================================
+PROMPT:
+Check this one article claim against the available search snippet.
+
+Return JSON with this shape:
+{
+  "id": "C003",
+  "verdict": "supported | mostly_supported | needs_qualification | unsupported | contradicted | not_enough_evidence",
+  "severity": "none | low | medium | high",
+  "problem": "specific issue, or empty string",
+  "suggested_fix": "specific correction to the article, or empty string",
+  "source_quality_note": "brief note about whether the snippets look authoritative"
+}
+
+Rules:
+- Be conservative.
+- If the snippet is weak or absent, say not_enough_evidence.
+- Do not demand advanced nuance beyond the article's beginner scope.
+- Do flag misleading simplifications.
+- Focus on stable accepted physics.
+
+Article title: Hamiltonian
+
+Claim:
+{
+  "id": "C003",
+  "claim": "Think of it as a recipe: the ingredients are the system’s energy, and the steps are how that energy shapes motion and time evolution.",
+  "type": "fallback-extracted",
+  "importance": "medium",
+  "needs_external_check": true,
+  "why_it_matters": "Automatically extracted fallback claim; review manually.",
+  "suggested_search_query": "Hamiltonian Think of it as a recipe: the ingredients are the system’s energy, and the steps are physics lecture notes textbook explanation"
+}
+
+Search snippet:
+{
+  "claim": "Think of it as a recipe: the ingredients are the system’s energy, and the steps are how that energy shapes motion and time evolution.",
+  "query": "Hamiltonian Think of it as a recipe: the ingredients are the system’s energy, and the steps are physics lecture notes textbook explanation",
+  "result_snippet": "Thermal energy is energy of microscopic constituents of matter, which may include both kinetic and potential energy. The total energy of a system can be subdivided and classified into potential energy, kinetic energy, or combinations of the two in various ways. MIT 8.04 Quantum Physics I, Spring 2013View the complete course: http://ocw.mit.edu/8-04S13Instructor: Allan AdamsIn this lecture, Prof. Get step-by-step solutions for mechanics, electricity and waves with our free ai physics solver.The most advanced Physics AI Solver for instant problem solutions. Upload a photo or type any physics problem to get step-by-step explanations. New laws of physics build on or modify existing laws and theoretical research. For comments or questions about this edition please contact The Feynman Lectures Website. Richard Feynman talking with a teaching assistant after the lecture on The Dependence of Amplitudes on Time, Robert Leighton (left) and Matthew Sands (right) in background, April 29, 1963.",
+  "searched_at": "2026-05-04_22-38-51",
+  "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
+}
+
+Relevant draft context:
+# Hamiltonian
+
+## The core idea  
+The **Hamiltonian** {Hamiltonian} is the **total energy rulebook** {Hamiltonian} of a system. It encodes the system’s total energy (kinetic + potential) as the fundamental quantity that determines how the system evolves over time. Think of it as a recipe: the ingredients are the system’s energy, and the steps are how that energy shapes motion and time evolution.  
+
+## Why this matters  
+The Hamiltonian is the central tool for understanding how physical systems move, change, and interact. Whether you’re studying a swinging pendulum or a quantum particle, the Hamiltonian connects forces, energy, and motion—making it essential for predicting the behavior of everything from atoms to galaxies.  
+
+## The simple picture  
+[Diagram idea: Energy Balance Sheet]  
+Imagine the Hamiltonian as a kitchen recipe. In classical mechanics, it’s a list of ingredients (kinetic + potential energy) and steps (how energy converts between motion and position). In quantum mechanics, it’s a set of rules (operators) that tell a wavefunction {wavefunction} how to evolve over time. Both versions use energy as the key ingredient to shape the system’s behavior.  
+
+## The more precise picture  
+### Classical Mechanics: Energy as a Rulebook  
+In classical physics, the **Hamiltonian** {Hamiltonian} is the total energy of a system:  
+$$
+H = \text{Kinetic Energy} + \text{Potential Energy}
+$$  
+It determines motion through **Hamilton’s equations** {Hamilton’s equations}, which describe how position and momentum change over time. For example, a pendulum’s swing is dictated by how its kinetic energy (motion) and potential energy (height) balance.  
+
+### Quantum Mechanics: The Energy Operator  
+In quantum physics, the **Hamiltonian** {Hamiltonian} is an **operator** {operator} that acts on **wavefunctions** {wavefunction} to determine how quantum states evolve. It answers two questions:  
+1. **What are the possible energy levels** (eigenvalues)?  
+2. **What states correspond to definite energy** (eigenstates)?  
+The **Schrödinger equation** {Schrödinger equation} links the Hamiltonian to time evolution:  
+$$
+i\hbar \frac{\partial \psi}{\partial t} = \hat{H} \psi
+$$  
+This equation shows how the Hamiltonian operator {operator} dictates the “dance” of a quantum system over time.  
+
+## Common misconceptions  
+❌ **"The Hamiltonian is just a formula for energy."**  
+→ In quantum mechanics, it’s an **operator** {operator} that acts on states, not just a number.  
+
+❌ **"Hamiltonian and Lagrangian are the same."**  
+→ They’re different tools: the Hamiltonian focuses on energy, while the Lagrangian focuses on differences in energy (kinetic minus potential).  
+
+❌ **"The Hamiltonian only applies to particles."**  
+→ It applies to fields, waves, and even abstract systems like quantum states.  
+
+## How this connects to the rest of physics  
+The Hamiltonian is the backbone of modern physics:  
+- **Quantum mechanics**: Determines energy levels and time evolution.  
+- **Conservation laws**: Links to Noether’s theorem {Noether’s theorem} (symmetries in time → energy conservation).  
+- **Relativity**: In special relativity, the Hamiltonian is part of the energy-momentum formulation.  
+- **Fields and particles**: In quantum field theory, the Hamiltonian governs interactions between particles and fields.  
+
+## Recap  
+- The **Hamiltonian** {Hamiltonian} is the total energy rulebook of a system.  
+- In classical mechanics, it’s the total energy (kinetic + potential) that dictates motion.  
+- In quantum mechanics, it’s an operator {operator} that shapes how wavefunctions {wavefunction} evolve.  
+- It connects forces, energy, and time evolution across all physical systems.
+
+RESPONSE:
+{
+  "id": "C003",
+  "verdict": "not_enough_evidence",
+  "severity": "low",
+  "problem": "The search snippet does not explicitly address the recipe analogy for Hamiltonian, though it discusses energy concepts",
+  "suggested_fix": "Find a physics textbook or lecture that explicitly uses the recipe analogy for Hamiltonian",
+  "source_quality_note": "The snippet includes MIT OCW and Feynman Lectures references which are authoritative, but lacks direct support for the specific claim"
+}
+
+================================================================================
+TIME: 2026-05-04T22:49:32
+NODE: claim_revision
+PROMPT_CHARS: 5680
+PROMPT_TOKENS_APPROX: 1420
+RESPONSE_CHARS: 3447
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.8}
+================================================================================
+PROMPT:
+Revise the article once to address claim-check feedback.
+
+Do not rewrite for its own sake. Fix the scientific issues while preserving accessible language.
+
+Claim-check feedback:
+{
+  "claim_checks": [
+    {
+      "id": "C001",
+      "verdict": "supported",
+      "severity": "none",
+      "problem": "",
+      "suggested_fix": "",
+      "source_quality_note": "The snippet comes from a reliable physics education source explaining Hamiltonian mechanics and quantum mechanics concepts."
+    },
+    {
+      "id": "C002",
+      "verdict": "supported",
+      "severity": "high",
+      "problem": "",
+      "suggested_fix": "",
+      "source_quality_note": "The snippet references stable physics concepts and mentions ISO standards, indicating authoritative educational sources."
+    },
+    {
+      "id": "C003",
+      "verdict": "not_enough_evidence",
+      "severity": "low",
+      "problem": "The search snippet does not explicitly address the recipe analogy for Hamiltonian, though it discusses energy concepts",
+      "suggested_fix": "Find a physics textbook or lecture that explicitly uses the recipe analogy for Hamiltonian",
+      "source_quality_note": "The snippet includes MIT OCW and Feynman Lectures references which are authoritative, but lacks direct support for the specific claim"
+    }
+  ],
+  "summary": {
+    "overall_claim_quality": "Claim check completed.",
+    "unresolved_or_needs_qualification": 2,
+    "highest_priority_fixes": [
+      "Find a physics textbook or lecture that explicitly uses the recipe analogy for Hamiltonian"
+    ]
+  },
+  "last_updated": "2026-05-04_22-43-20"
+}
+
+Current draft:
+# Hamiltonian
+
+## The core idea  
+The **Hamiltonian** {Hamiltonian} is the **total energy rulebook** {Hamiltonian} of a system. It encodes the system’s total energy (kinetic + potential) as the fundamental quantity that determines how the system evolves over time. Think of it as a recipe: the ingredients are the system’s energy, and the steps are how that energy shapes motion and time evolution.  
+
+## Why this matters  
+The Hamiltonian is the central tool for understanding how physical systems move, change, and interact. Whether you’re studying a swinging pendulum or a quantum particle, the Hamiltonian connects forces, energy, and motion—making it essential for predicting the behavior of everything from atoms to galaxies.  
+
+## The simple picture  
+[Diagram idea: Energy Balance Sheet]  
+Imagine the Hamiltonian as a kitchen recipe. In classical mechanics, it’s a list of ingredients (kinetic + potential energy) and steps (how energy converts between motion and position). In quantum mechanics, it’s a set of rules (operators) that tell a wavefunction {wavefunction} how to evolve over time. Both versions use energy as the key ingredient to shape the system’s behavior.  
+
+## The more precise picture  
+### Classical Mechanics: Energy as a Rulebook  
+In classical physics, the **Hamiltonian** {Hamiltonian} is the total energy of a system:  
+$$
+H = \text{Kinetic Energy} + \text{Potential Energy}
+$$  
+It determines motion through **Hamilton’s equations** {Hamilton’s equations}, which describe how position and momentum change over time. For example, a pendulum’s swing is dictated by how its kinetic energy (motion) and potential energy (height) balance.  
+
+### Quantum Mechanics: The Energy Operator  
+In quantum physics, the **Hamiltonian** {Hamiltonian} is an **operator** {operator} that acts on **wavefunctions** {wavefunction} to determine how quantum states evolve. It answers two questions:  
+1. **What are the possible energy levels** (eigenvalues)?  
+2. **What states correspond to definite energy** (eigenstates)?  
+The **Schrödinger equation** {Schrödinger equation} links the Hamiltonian to time evolution:  
+$$
+i\hbar \frac{\partial \psi}{\partial t} = \hat{H} \psi
+$$  
+This equation shows how the Hamiltonian operator {operator} dictates the “dance” of a quantum system over time.  
+
+## Common misconceptions  
+❌ **"The Hamiltonian is just a formula for energy."**  
+→ In quantum mechanics, it’s an **operator** {operator} that acts on states, not just a number.  
+
+❌ **"Hamiltonian and Lagrangian are the same."**  
+→ They’re different tools: the Hamiltonian focuses on energy, while the Lagrangian focuses on differences in energy (kinetic minus potential).  
+
+❌ **"The Hamiltonian only applies to particles."**  
+→ It applies to fields, waves, and even abstract systems like quantum states.  
+
+## How this connects to the rest of physics  
+The Hamiltonian is the backbone of modern physics:  
+- **Quantum mechanics**: Determines energy levels and time evolution.  
+- **Conservation laws**: Links to Noether’s theorem {Noether’s theorem} (symmetries in time → energy conservation).  
+- **Relativity**: In special relativity, the Hamiltonian is part of the energy-momentum formulation.  
+- **Fields and particles**: In quantum field theory, the Hamiltonian governs interactions between particles and fields.  
+
+## Recap  
+- The **Hamiltonian** {Hamiltonian} is the total energy rulebook of a system.  
+- In classical mechanics, it’s the total energy (kinetic + potential) that dictates motion.  
+- In quantum mechanics, it’s an operator {operator} that shapes how wavefunctions {wavefunction} evolve.  
+- It connects forces, energy, and time evolution across all physical systems.
+
+Instructions:
+- Correct or qualify unsupported, contradicted, or overstrong claims.
+- Preserve good accessible explanations.
+- Do not add speculative research as settled fact.
+- If an analogy was misleading, either repair it or state its limits.
+- Keep standard terms in braces after descriptive names.
+- Output only the revised article in Markdown.
+
+RESPONSE:
+# Hamiltonian
+
+## The core idea  
+The **Hamiltonian** {Hamiltonian} is the **total energy rulebook** {Hamiltonian} of a system. It encodes the system’s total energy (kinetic + potential) as the fundamental quantity that determines how the system evolves over time. Think of it as a recipe: the ingredients are the system’s energy, and the steps are how that energy shapes motion and time evolution.  
+
+## Why this matters  
+The Hamiltonian is the central tool for understanding how physical systems move, change, and interact. Whether you’re studying a swinging pendulum or a quantum particle, the Hamiltonian connects forces, energy, and motion—making it essential for predicting the behavior of everything from atoms to galaxies.  
+
+## The simple picture  
+[Diagram idea: Energy Balance Sheet]  
+Imagine the Hamiltonian as a kitchen recipe. In classical mechanics, it’s a list of ingredients (kinetic + potential energy) and steps (how energy converts between motion and position). In quantum mechanics, it’s a set of rules (operators) that tell a wavefunction {wavefunction} how to evolve over time. Both versions use energy as the key ingredient to shape the system’s behavior.  
+
+## The more precise picture  
+### Classical Mechanics: Energy as a Rulebook  
+In classical physics, the **Hamiltonian** {Hamiltonian} is the total energy of a system:  
+$$
+H = \text{Kinetic Energy} + \text{Potential Energy}
+$$  
+It determines motion through **Hamilton’s equations** {Hamilton’s equations}, which describe how position and momentum change over time. For example, a pendulum’s swing is dictated by how its kinetic energy (motion) and potential energy (height) balance.  
+
+### Quantum Mechanics: The Energy Operator  
+In quantum physics, the **Hamiltonian** {Hamiltonian} is an **operator** {operator} that acts on **wavefunctions** {wavefunction} to determine how quantum states evolve. It answers two questions:  
+1. **What are the possible energy levels** (eigenvalues)?  
+2. **What states correspond to definite energy** (eigenstates)?  
+The **Schrödinger equation** {Schrödinger equation} links the Hamiltonian to time evolution:  
+$$
+i\hbar \frac{\partial \psi}{\partial t} = \hat{H} \psi
+$$  
+This equation shows how the Hamiltonian operator {operator} dictates the “dance” of a quantum system over time.  
+
+## Common misconceptions  
+❌ **"The Hamiltonian is just a formula for energy."**  
+→ In quantum mechanics, it’s an **operator** {operator} that acts on states, not just a number.  
+
+❌ **"Hamiltonian and Lagrangian are the same."**  
+→ They’re different tools: the Hamiltonian focuses on energy, while the Lagrangian focuses on differences in energy (kinetic minus potential).  
+
+❌ **"The Hamiltonian only applies to particles."**  
+→ It applies to fields, waves, and even abstract systems like quantum states.  
+
+## How this connects to the rest of physics  
+The Hamiltonian is the backbone of modern physics:  
+- **Quantum mechanics**: Determines energy levels and time evolution.  
+- **Conservation laws**: Links to Noether’s theorem {Noether’s theorem} (symmetries in time → energy conservation).  
+- **Relativity**: In special relativity, the Hamiltonian is part of the energy-momentum formulation.  
+- **Fields and particles**: In quantum field theory, the Hamiltonian governs interactions between particles and fields.  
+
+## Recap  
+- The **Hamiltonian** {Hamiltonian} is the total energy rulebook of a system.  
+- In classical
+
+================================================================================
+TIME: 2026-05-04T22:51:21
+NODE: term_collector
+PROMPT_CHARS: 3917
+PROMPT_TOKENS_APPROX: 979
+RESPONSE_CHARS: 0
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.8}
+================================================================================
+PROMPT:
+Extract the descriptive-name candidates from this draft.
+
+Return JSON with this shape:
+{
+  "terms": [
+    {
+      "standard_term": "fermion",
+      "candidate_name": "space-occupier",
+      "context_quote": "short quote from the draft",
+      "usefulness": "why this name helps",
+      "risk": "how it could mislead, or empty string if low risk"
+    }
+  ]
+}
+
+Only include actual teaching-name candidates, especially phrases followed by standard terms in braces.
+
+Draft:
+# Hamiltonian
+
+## The core idea  
+The **Hamiltonian** {Hamiltonian} is the **total energy rulebook** {Hamiltonian} of a system. It encodes the system’s total energy (kinetic + potential) as the fundamental quantity that determines how the system evolves over time. Think of it as a recipe: the ingredients are the system’s energy, and the steps are how that energy shapes motion and time evolution.  
+
+## Why this matters  
+The Hamiltonian is the central tool for understanding how physical systems move, change, and interact. Whether you’re studying a swinging pendulum or a quantum particle, the Hamiltonian connects forces, energy, and motion—making it essential for predicting the behavior of everything from atoms to galaxies.  
+
+## The simple picture  
+[Diagram idea: Energy Balance Sheet]  
+Imagine the Hamiltonian as a kitchen recipe. In classical mechanics, it’s a list of ingredients (kinetic + potential energy) and steps (how energy converts between motion and position). In quantum mechanics, it’s a set of rules (operators) that tell a wavefunction {wavefunction} how to evolve over time. Both versions use energy as the key ingredient to shape the system’s behavior.  
+
+## The more precise picture  
+### Classical Mechanics: Energy as a Rulebook  
+In classical physics, the **Hamiltonian** {Hamiltonian} is the total energy of a system:  
+$$
+H = \text{Kinetic Energy} + \text{Potential Energy}
+$$  
+It determines motion through **Hamilton’s equations** {Hamilton’s equations}, which describe how position and momentum change over time. For example, a pendulum’s swing is dictated by how its kinetic energy (motion) and potential energy (height) balance.  
+
+### Quantum Mechanics: The Energy Operator  
+In quantum physics, the **Hamiltonian** {Hamiltonian} is an **operator** {operator} that acts on **wavefunctions** {wavefunction} to determine how quantum states evolve. It answers two questions:  
+1. **What are the possible energy levels** (eigenvalues)?  
+2. **What states correspond to definite energy** (eigenstates)?  
+The **Schrödinger equation** {Schrödinger equation} links the Hamiltonian to time evolution:  
+$$
+i\hbar \frac{\partial \psi}{\partial t} = \hat{H} \psi
+$$  
+This equation shows how the Hamiltonian operator {operator} dictates the “dance” of a quantum system over time.  
+
+## Common misconceptions  
+❌ **"The Hamiltonian is just a formula for energy."**  
+→ In quantum mechanics, it’s an **operator** {operator} that acts on states, not just a number.  
+
+❌ **"Hamiltonian and Lagrangian are the same."**  
+→ They’re different tools: the Hamiltonian focuses on energy, while the Lagrangian focuses on differences in energy (kinetic minus potential).  
+
+❌ **"The Hamiltonian only applies to particles."**  
+→ It applies to fields, waves, and even abstract systems like quantum states.  
+
+## How this connects to the rest of physics  
+The Hamiltonian is the backbone of modern physics:  
+- **Quantum mechanics**: Determines energy levels and time evolution.  
+- **Conservation laws**: Links to Noether’s theorem {Noether’s theorem} (symmetries in time → energy conservation).  
+- **Relativity**: In special relativity, the Hamiltonian is part of the energy-momentum formulation.  
+- **Fields and particles**: In quantum field theory, the Hamiltonian governs interactions between particles and fields.  
+
+## Recap  
+- The **Hamiltonian** {Hamiltonian} is the total energy rulebook of a system.  
+- In classical
+
+RESPONSE:
+
+
+================================================================================
+TIME: 2026-05-04T22:54:31
+NODE: accessibility_judge
+PROMPT_CHARS: 5903
+PROMPT_TOKENS_APPROX: 1475
+RESPONSE_CHARS: 1929
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.8}
+================================================================================
+PROMPT:
+Evaluate this EasyPhysics article for accessibility.
+
+Return exactly one JSON object:
+{
+  "score": 1,
+  "pass": false,
+  "strengths": ["specific strength"],
+  "issues": [
+    {
+      "severity": "low | medium | high",
+      "location": "section name or short quote",
+      "problem": "specific accessibility issue",
+      "suggested_fix": "specific fix"
+    }
+  ],
+  "best_next_revision": "one concise paragraph"
+}
+
+Rubric:
+Accessibility score, 1-10:
+
+10 = Exceptional. A motivated high-schooler can follow the article's main arc without prior exposure.
+     Jargon is introduced only after intuition. Examples are vivid. Math is explained as meaning,
+     not just symbols. The article feels empowering and clear.
+
+9 = Publishable with light human editing. The main idea is easy to follow; jargon is mostly controlled;
+    analogies are helpful; sections flow logically; any math has a plain-language interpretation.
+
+8 = Strong draft. Mostly clear, but has a few dense sections, unexplained terms, abrupt transitions,
+    or analogies that need more setup.
+
+7 = Useful but uneven. A motivated reader could learn from it, but several passages need simplification,
+    clearer examples, or better sequencing.
+
+6 = Borderline. The article contains useful explanations, but assumes too much background or uses too much jargon.
+
+5 = Mixed. Some good paragraphs, but the structure or language would lose many target readers.
+
+4 = Hard to follow. Mostly written for someone who already knows the subject.
+
+3 = Very inaccessible. Dense, abstract, jargon-heavy, or poorly sequenced.
+
+2 = Barely useful to the target audience.
+
+1 = Fails the accessibility goal.
+
+Accessibility judge priorities:
+- Does the opening give the reader an intuitive foothold?
+- Are standard terms introduced after meaning, not before?
+- Are descriptive names useful rather than cutesy or misleading?
+- Are analogies concrete and then carefully limited?
+- Is any math explained in words?
+- Does the article avoid "spooky/magic/weird" framing while still acknowledging counterintuitive ideas?
+- Does each section make the next section easier?
+
+Rules:
+- Return an object, not a list.
+- Score must be an integer from 1 to 10.
+- A 9 means publishable with light human editing.
+- Do not give 9 or 10 if the opening is jargon-heavy.
+- Do not give 9 or 10 if math appears without plain-language interpretation.
+- Do not rewrite the article; only evaluate it.
+
+Article title: Hamiltonian
+
+Draft:
+# Hamiltonian
+
+## The core idea  
+The **Hamiltonian** {Hamiltonian} is the **total energy rulebook** {Hamiltonian} of a system. It encodes the system’s total energy (kinetic + potential) as the fundamental quantity that determines how the system evolves over time. Think of it as a recipe: the ingredients are the system’s energy, and the steps are how that energy shapes motion and time evolution.  
+
+## Why this matters  
+The Hamiltonian is the central tool for understanding how physical systems move, change, and interact. Whether you’re studying a swinging pendulum or a quantum particle, the Hamiltonian connects forces, energy, and motion—making it essential for predicting the behavior of everything from atoms to galaxies.  
+
+## The simple picture  
+[Diagram idea: Energy Balance Sheet]  
+Imagine the Hamiltonian as a kitchen recipe. In classical mechanics, it’s a list of ingredients (kinetic + potential energy) and steps (how energy converts between motion and position). In quantum mechanics, it’s a set of rules (operators) that tell a wavefunction {wavefunction} how to evolve over time. Both versions use energy as the key ingredient to shape the system’s behavior.  
+
+## The more precise picture  
+### Classical Mechanics: Energy as a Rulebook  
+In classical physics, the **Hamiltonian** {Hamiltonian} is the total energy of a system:  
+$$
+H = \text{Kinetic Energy} + \text{Potential Energy}
+$$  
+It determines motion through **Hamilton’s equations** {Hamilton’s equations}, which describe how position and momentum change over time. For example, a pendulum’s swing is dictated by how its kinetic energy (motion) and potential energy (height) balance.  
+
+### Quantum Mechanics: The Energy Operator  
+In quantum physics, the **Hamiltonian** {Hamiltonian} is an **operator** {operator} that acts on **wavefunctions** {wavefunction} to determine how quantum states evolve. It answers two questions:  
+1. **What are the possible energy levels** (eigenvalues)?  
+2. **What states correspond to definite energy** (eigenstates)?  
+The **Schrödinger equation** {Schrödinger equation} links the Hamiltonian to time evolution:  
+$$
+i\hbar \frac{\partial \psi}{\partial t} = \hat{H} \psi
+$$  
+This equation shows how the Hamiltonian operator {operator} dictates the “dance” of a quantum system over time.  
+
+## Common misconceptions  
+❌ **"The Hamiltonian is just a formula for energy."**  
+→ In quantum mechanics, it’s an **operator** {operator} that acts on states, not just a number.  
+
+❌ **"Hamiltonian and Lagrangian are the same."**  
+→ They’re different tools: the Hamiltonian focuses on energy, while the Lagrangian focuses on differences in energy (kinetic minus potential).  
+
+❌ **"The Hamiltonian only applies to particles."**  
+→ It applies to fields, waves, and even abstract systems like quantum states.  
+
+## How this connects to the rest of physics  
+The Hamiltonian is the backbone of modern physics:  
+- **Quantum mechanics**: Determines energy levels and time evolution.  
+- **Conservation laws**: Links to Noether’s theorem {Noether’s theorem} (symmetries in time → energy conservation).  
+- **Relativity**: In special relativity, the Hamiltonian is part of the energy-momentum formulation.  
+- **Fields and particles**: In quantum field theory, the Hamiltonian governs interactions between particles and fields.  
+
+## Recap  
+- The **Hamiltonian** {Hamiltonian} is the total energy rulebook of a system.  
+- In classical
+
+RESPONSE:
+{
+  "score": 1,
+  "pass": false,
+  "strengths": ["intuitive recipe analogy", "clear structure"],
+  "issues": [
+    {
+      "severity": "high",
+      "location": "core idea section",
+      "problem": "Repeats technical term 'Hamiltonian' without explanation, violating the principle of introducing standard terms after meaning",
+      "suggested_fix": "Replace the repeated term with descriptive language first, then introduce 'Hamiltonian' {Hamiltonian} as the technical term"
+    },
+    {
+      "severity": "high",
+      "location": "quantum mechanics section",
+      "problem": "Uses unexplained terms like 'operator' {operator} and 'wavefunction' {wavefunction} without defining their meaning",
+      "suggested_fix": "Add plain-language explanations for all technical terms before their first use"
+    },
+    {
+      "severity": "high",
+      "location": "Schrödinger equation",
+      "problem": "Presents mathematical equation without explaining its meaning or significance",
+      "suggested_fix": "Add a paragraph explaining what the equation represents in simple terms before showing the formula"
+    },
+    {
+      "severity": "medium",
+      "location": "common misconceptions",
+      "problem": "References concepts like 'eigenvalues' and 'eigenstates' without prior explanation",
+      "suggested_fix": "Define these terms in the main text before presenting them in misconceptions"
+    },
+    {
+      "severity": "high",
+      "location": "opening paragraph",
+      "problem": "Jargon-heavy without intuitive foothold, violating accessibility priorities",
+      "suggested_fix": "Start with a vivid analogy about energy transformation before introducing technical terms"
+    }
+  ],
+  "best_next_revision": "Revise the article to start with a concrete analogy about energy transformation, explain all technical terms before their first use, and pair every equation with plain-language interpretation of its meaning."
+}
+
+================================================================================
+TIME: 2026-05-04T22:58:13
+NODE: rigor_judge
+PROMPT_CHARS: 7358
+PROMPT_TOKENS_APPROX: 1839
+RESPONSE_CHARS: 1644
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.8}
+================================================================================
+PROMPT:
+Evaluate this EasyPhysics article for scientific rigor.
+
+Return exactly one JSON object:
+{
+  "score": 1,
+  "pass": false,
+  "strengths": ["specific strength"],
+  "issues": [
+    {
+      "severity": "low | medium | high",
+      "location": "section name or short quote",
+      "problem": "specific rigor issue",
+      "suggested_fix": "specific fix"
+    }
+  ],
+  "best_next_revision": "one concise paragraph"
+}
+
+Rubric:
+Rigor score, 1-10:
+
+10 = Exceptional. Scientifically accurate, well-qualified, and careful about analogy limits.
+     No obvious misleading simplifications. Claims align with stable accepted physics.
+
+9 = Publishable with light human editing. No major errors. A few details may need polishing,
+    but the article is safe as an educational explanation.
+
+8 = Strong draft. Mostly accurate but has minor imprecision, missing qualifications, or analogy risks.
+
+7 = Useful but needs scientific review. Contains no catastrophic errors, but some claims are too loose,
+    incomplete, or potentially misleading.
+
+6 = Borderline. Several important corrections or qualifications are needed.
+
+5 = Mixed. The article has valuable explanations but also significant inaccuracies or misleading framings.
+
+4 = Scientifically weak. Multiple substantial errors or serious conceptual muddling.
+
+3 = Very unreliable. The reader would likely learn incorrect physics.
+
+2 = Mostly wrong or confused.
+
+1 = Fails the rigor goal.
+
+Rigor judge priorities:
+- Are definitions compatible with standard physics?
+- Are analogies technically safe, with their limits stated when necessary?
+- Are quantum concepts distinguished correctly: amplitude vs probability, superposition vs ignorance,
+  measurement vs ordinary looking, phase vs probability?
+- Are field/particle/wave descriptions accurate enough for a beginner article?
+- Are conservation, symmetry, force, energy, mass, and spin statements properly qualified?
+- Does the article avoid replacing historical jargon with new misleading jargon?
+- Are open questions distinguished from settled explanations?
+
+Rules:
+- Return an object, not a list.
+- Score must be an integer from 1 to 10.
+- A 9 means no major scientific errors and only light human editing needed.
+- Penalize misleading analogies.
+- Penalize overclaims.
+- Penalize confusing settled physics with open questions.
+- Do not demand graduate-level nuance for a beginner article.
+- Do not rewrite the article; only evaluate it.
+
+Claim-check context:
+{
+  "claim_checks": [
+    {
+      "id": "C001",
+      "verdict": "supported",
+      "severity": "none",
+      "problem": "",
+      "suggested_fix": "",
+      "source_quality_note": "The snippet comes from a reliable physics education source explaining Hamiltonian mechanics and quantum mechanics concepts."
+    },
+    {
+      "id": "C002",
+      "verdict": "supported",
+      "severity": "high",
+      "problem": "",
+      "suggested_fix": "",
+      "source_quality_note": "The snippet references stable physics concepts and mentions ISO standards, indicating authoritative educational sources."
+    },
+    {
+      "id": "C003",
+      "verdict": "not_enough_evidence",
+      "severity": "low",
+      "problem": "The search snippet does not explicitly address the recipe analogy for Hamiltonian, though it discusses energy concepts",
+      "suggested_fix": "Find a physics textbook or lecture that explicitly uses the recipe analogy for Hamiltonian",
+      "source_quality_note": "The snippet includes MIT OCW and Feynman Lectures references which are authoritative, but lacks direct support for the specific claim"
+    }
+  ],
+  "summary": {
+    "overall_claim_quality": "Claim check completed.",
+    "unresolved_or_needs_qualification": 2,
+    "highest_priority_fixes": [
+      "Find a physics textbook or lecture that explicitly uses the recipe analogy for Hamiltonian"
+    ]
+  },
+  "last_updated": "2026-05-04_22-43-20"
+}
+
+Article title: Hamiltonian
+
+Draft:
+# Hamiltonian
+
+## The core idea  
+The **Hamiltonian** {Hamiltonian} is the **total energy rulebook** {Hamiltonian} of a system. It encodes the system’s total energy (kinetic + potential) as the fundamental quantity that determines how the system evolves over time. Think of it as a recipe: the ingredients are the system’s energy, and the steps are how that energy shapes motion and time evolution.  
+
+## Why this matters  
+The Hamiltonian is the central tool for understanding how physical systems move, change, and interact. Whether you’re studying a swinging pendulum or a quantum particle, the Hamiltonian connects forces, energy, and motion—making it essential for predicting the behavior of everything from atoms to galaxies.  
+
+## The simple picture  
+[Diagram idea: Energy Balance Sheet]  
+Imagine the Hamiltonian as a kitchen recipe. In classical mechanics, it’s a list of ingredients (kinetic + potential energy) and steps (how energy converts between motion and position). In quantum mechanics, it’s a set of rules (operators) that tell a wavefunction {wavefunction} how to evolve over time. Both versions use energy as the key ingredient to shape the system’s behavior.  
+
+## The more precise picture  
+### Classical Mechanics: Energy as a Rulebook  
+In classical physics, the **Hamiltonian** {Hamiltonian} is the total energy of a system:  
+$$
+H = \text{Kinetic Energy} + \text{Potential Energy}
+$$  
+It determines motion through **Hamilton’s equations** {Hamilton’s equations}, which describe how position and momentum change over time. For example, a pendulum’s swing is dictated by how its kinetic energy (motion) and potential energy (height) balance.  
+
+### Quantum Mechanics: The Energy Operator  
+In quantum physics, the **Hamiltonian** {Hamiltonian} is an **operator** {operator} that acts on **wavefunctions** {wavefunction} to determine how quantum states evolve. It answers two questions:  
+1. **What are the possible energy levels** (eigenvalues)?  
+2. **What states correspond to definite energy** (eigenstates)?  
+The **Schrödinger equation** {Schrödinger equation} links the Hamiltonian to time evolution:  
+$$
+i\hbar \frac{\partial \psi}{\partial t} = \hat{H} \psi
+$$  
+This equation shows how the Hamiltonian operator {operator} dictates the “dance” of a quantum system over time.  
+
+## Common misconceptions  
+❌ **"The Hamiltonian is just a formula for energy."**  
+→ In quantum mechanics, it’s an **operator** {operator} that acts on states, not just a number.  
+
+❌ **"Hamiltonian and Lagrangian are the same."**  
+→ They’re different tools: the Hamiltonian focuses on energy, while the Lagrangian focuses on differences in energy (kinetic minus potential).  
+
+❌ **"The Hamiltonian only applies to particles."**  
+→ It applies to fields, waves, and even abstract systems like quantum states.  
+
+## How this connects to the rest of physics  
+The Hamiltonian is the backbone of modern physics:  
+- **Quantum mechanics**: Determines energy levels and time evolution.  
+- **Conservation laws**: Links to Noether’s theorem {Noether’s theorem} (symmetries in time → energy conservation).  
+- **Relativity**: In special relativity, the Hamiltonian is part of the energy-momentum formulation.  
+- **Fields and particles**: In quantum field theory, the Hamiltonian governs interactions between particles and fields.  
+
+## Recap  
+- The **Hamiltonian** {Hamiltonian} is the total energy rulebook of a system.  
+- In classical
+
+RESPONSE:
+{
+  "score": 3,
+  "pass": false,
+  "strengths": ["specific strength"],
+  "issues": [
+    {
+      "severity": "high",
+      "location": "core idea section",
+      "problem": "The 'total energy rulebook' analogy conflates the Hamiltonian with energy itself, misrepresenting its role as a mathematical operator in quantum mechanics",
+      "suggested_fix": "Clarify that the Hamiltonian is a mathematical framework encoding energy relationships, not energy itself"
+    },
+    {
+      "severity": "high",
+      "location": "simple picture section",
+      "problem": "The 'recipe' analogy risks implying the Hamiltonian is a set of instructions rather than a mathematical operator",
+      "suggested_fix": "Add disclaimers that analogies are simplified and the Hamiltonian is a complex mathematical object"
+    },
+    {
+      "severity": "medium",
+      "location": "quantum mechanics section",
+      "problem": "Equation presentation lacks context about the mathematical meaning of operators and wavefunctions",
+      "suggested_fix": "Add explanations about operators acting on states and the probabilistic interpretation of wavefunctions"
+    },
+    {
+      "severity": "medium",
+      "location": "common misconceptions section",
+      "problem": "The 'only applies to particles' misconception is addressed but lacks explanation about field applications",
+      "suggested_fix": "Add clarification about Hamiltonians in quantum field theory and wave systems"
+    }
+  ],
+  "best_next_revision": "Refine analogies with explicit disclaimers about their limitations, clarify the mathematical nature of the Hamiltonian operator, and add context about

@@ -1,0 +1,32 @@
+{
+  "score": 3,
+  "pass": false,
+  "strengths": ["metronome analogy provides concrete visual"],
+  "issues": [
+    {
+      "severity": "high",
+      "location": "core idea section",
+      "problem": "jargon-heavy opening with no intuitive explanation of 'constant phase relationship'",
+      "suggested_fix": "Add a simple analogy before introducing technical terms"
+    },
+    {
+      "severity": "high",
+      "location": "math section",
+      "problem": "equations appear without plain-language explanation of variables",
+      "suggested_fix": "Define Δx, λ, and Δφ in words before showing the equation"
+    },
+    {
+      "severity": "medium",
+      "location": "why this matters",
+      "problem": "technical terms like {interferometers} and {holography} used without explanation",
+      "suggested_fix": "Add brief definitions in parentheses or footnotes"
+    },
+    {
+      "severity": "high",
+      "location": "connections to physics",
+      "problem": "abrupt jump to quantum coherence without contextual explanation",
+      "suggested_fix": "Add a bridge paragraph explaining classical vs quantum coherence"
+    }
+  ],
+  "best_next_revision": "Start with a vivid analogy explaining wave synchronization, define all technical terms before first use, explain equations with plain-language interpretations, and add transitional paragraphs connecting concepts to prior knowledge."
+}

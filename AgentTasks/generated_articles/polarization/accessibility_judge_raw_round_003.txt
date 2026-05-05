@@ -1,0 +1,31 @@
+{
+  "score": 1,
+  "pass": false,
+  "strengths": ["specific strength"],
+  "issues": [
+    {
+      "severity": "high",
+      "location": "The core idea",
+      "problem": "Jargon-heavy opening with unexplained terms like 'transverse wave' and 'electric field' without foundational context",
+      "suggested_fix": "Start with a simpler analogy of waves (e.g., water waves) before introducing electromagnetic waves"
+    },
+    {
+      "severity": "high",
+      "location": "The more precise picture",
+      "problem": "Math appears without plain-language interpretation (e.g., Malus’s Law equation) and lacks explanation of cosine squared",
+      "suggested_fix": "Add a visual explanation of how angle affects light intensity using a pie chart or analogy"
+    },
+    {
+      "severity": "medium",
+      "location": "Common misconceptions",
+      "problem": "Misconception examples assume prior knowledge of trigonometry (e.g., 45° polarizer example)",
+      "suggested_fix": "Replace numerical examples with qualitative descriptions of angle effects"
+    },
+    {
+      "severity": "high",
+      "location": "Opening",
+      "problem": "Critical concept 'transverse wave' is introduced without defining wave types (longitudinal vs transverse)",
+      "suggested_fix": "Add a simple diagram comparing rope waves (transverse) to sound waves (longitudinal)"
+    }
+  ],
+  "best_next_revision": "

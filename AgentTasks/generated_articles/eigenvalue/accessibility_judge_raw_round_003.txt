@@ -1,0 +1,21 @@
+{
+  "score": 1,
+  "pass": false,
+  "strengths": ["specific strength"],
+  "issues": [
+    {
+      "severity": "high",
+      "location": "opening paragraph",
+      "problem": "Jargon-heavy opening introduces 'eigenvalue' without intuitive explanation or analogy",
+      "suggested_fix": "Start with a vivid analogy (e.g., 'special stretching levels for specific directions') before using the term"
+    },
+    {
+      "severity": "high",
+      "location": "math section",
+      "problem": "Math appears without plain-language interpretation of the equation A·v = λ·v",
+      "suggested_fix": "Explain the equation as 'a transformation that only stretches a vector without rotating it'"
+    },
+    {
+      "severity": "medium",
+      "location": "quantum mechanics connection",
+      "problem": "References 'Born rule' without prior explanation of wavefunction amplitudes",

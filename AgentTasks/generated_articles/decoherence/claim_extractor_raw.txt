@@ -2,40 +2,30 @@
   "claims": [
     {
       "id": "C001",
-      "claim": "Decoherence is the process by which quantum systems lose their quantum 'memory' through interaction with their environment.",
+      "claim": "Decoherence is the process by which quantum systems lose their quantum coherence due to entanglement with their environment.",
       "type": "definition",
       "importance": "high",
       "needs_external_check": true,
       "why_it_matters": "Explains the transition from quantum to classical behavior in macroscopic systems.",
-      "suggested_search_query": "decoherence quantum mechanics textbook definition"
+      "suggested_search_query": "decoherence definition textbook"
     },
     {
       "id": "C002",
-      "claim": "Quantum superposition {entangled state} is disrupted by environmental interaction, leading to classical probabilities.",
+      "claim": "Decoherence bridges quantum theory and classical physics by making quantum systems behave predictably through environmental interaction.",
       "type": "definition",
       "importance": "high",
       "needs_external_check": true,
-      "why_it_matters": "Clarifies how quantum coherence breaks down in real-world conditions.",
-      "suggested_search_query": "quantum decoherence superposition environment"
+      "why_it_matters": "Resolves the apparent contradiction between quantum rules and classical observations.",
+      "suggested_search_query": "decoherence classical limit physics"
     },
     {
       "id": "C003",
-      "claim": "The Born rule {classical probability} emerges as quantum amplitudes {probability waves} evolve under decoherence.",
-      "type": "mathematical",
+      "claim": "Quantum superposition {entangled state} is disrupted by environmental entanglement, leading to classical probabilities {Born rule}.",
+      "type": "definition",
       "importance": "high",
       "needs_external_check": true,
-      "why_it_matters": "Links quantum mathematics to observable classical statistics.",
-      "suggested_search_query": "decoherence Born rule derivation"
+      "why_it_matters": "Describes how quantum possibilities collapse into observable outcomes.",
+      "suggested_search_query": "decoherence superposition textbook"
     },
     {
-      "id": "C004",
-      "claim": "Decoherence is a physical process {environmental interaction}, distinct from wavefunction collapse {quantum measurement}.",
-      "type": "clarification",
-      "importance": "high",
-      "needs_external_check": true,
-      "why_it_matters": "Corrects a common conceptual confusion in quantum theory.",
-      "suggested_search_query": "decoherence vs wavefunction collapse"
-    },
-    {
-      "id": "C005",
-      "claim": "Macroscopic objects behave classically because their quantum states are rapidly '
+      "id":

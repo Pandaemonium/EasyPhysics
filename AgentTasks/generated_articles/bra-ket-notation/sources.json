@@ -3,17 +3,24 @@
     "C001": {
       "claim": "# Bra-ket Notation ## The core idea Bra-ket notation is a shorthand for quantum states and their interactions.",
       "query": "Bra-ket notation # Bra-ket Notation ## The core idea Bra-ket notation is a shorthand for quantum states and physics lecture notes textbook explanation",
-      "result_snippet": "Bra-ket notation or Dirac notation is a notation for linear algebra and linear operators on complex vector spaces together with their dual spaces both in the finite- and infinite-dimensional cases. This critical note provides a detailed exposition of Dirac notation (also known as bra-ket notation) and Hilbert spaces, two foundational concepts in quantum mechanics and linear algebra. What is Dirac's Bra-Ket notation, and why is it so essential in Quantum Computing? 🤔 In this video, you'll learn the concept and properties of Bra-Ket notation, explained in a simple ... The Schrödinger Equation in Dirac notation H ^ | ψ = E | ψ H ^ = T ^ + V ^ = ℏ 2 2 m ∇ 2 + V ^ ∇ 2 = ∂ 2 ∂ x 2 + ∂ 2 ∂ y 2 + ∂ 2 ∂ z 2 This page titled 33.2: Bra-Ket Notation is shared under a not declared license and was authored, remixed, and/or curated by Kyle Crabtree. Bra-Ket Notation in Quantum Mechanics Bra-ket notation (Dirac notation) allows clear and powerful representation of quantum states, operations, and measurements.",
-      "searched_at": "2026-05-04_12-50-01",
+      "result_snippet": "Bra–ket notation or Dirac notation is a notation for linear algebra and linear operators on complex vector spaces together with their dual spaces both in the finite- and infinite-dimensional cases. In this video I start by making an analogy about our emotions as emotional states and continue to introduce a powerful and compact mathematical framework tha... Bra-ket notation is the standard in any quantum mechanics context, not just quantum computation.The first thing that bra-ket notation is really used a lot for is to denote very simply the eigenvectors of a (usually Hermitian) operator associated with an eigenvalue. Bra-ket notation is a standard notation for describing quantum states in the theory of quantum mechanics composed of angle brackets and vertical bars. It can also be used to denote abstract vectors … The magic of bra-ket notation is that the rules of matrix multiplication, when you apply them to kets and bras, produce exactly four kinds of object. Each kind has a natural Dirac shape.",
+      "searched_at": "2026-05-05_04-00-40",
       "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
     },
     "C002": {
       "claim": "It lets us write quantum states as *kets* (like `|ψ⟩`) and measurement questions as *bras* (like `⟨φ|`).",
       "query": "Bra-ket notation It lets us write quantum states as *kets* (like `|ψ⟩`) and measurement questions as *bras* (like physics lecture notes textbook explanation",
       "result_snippet": "begingroup$ because by your question statement it seemed like you think you understood the bra-op-ket notation, yet not the bra-ket notation. Indeed, I agree with you, standard notation is, in my personal view, already sufficiently clear and bra-ket notation should be used when it is really ... ... it is possible to give a rigorous foundation to these states, through a formalism known as rigged Hilbert spaces , where you essentially split ... What does this mean? What is the ket $|x⟩$ , is it just some kind of identity vector? And what even is a state $|\\Psi⟩$ . ... mention that the operator $M$ you wrote is not a Hermitian operator and thus, it wouldn't be the kind of operator that shows up often in quantum ...",
-      "searched_at": "2026-05-04_12-50-03",
+      "searched_at": "2026-05-05_04-00-42",
+      "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
+    },
+    "C003": {
+      "claim": "The inner product `⟨φ|ψ⟩` encodes the probability amplitude for transitioning from state `|ψ⟩` to outcome `|φ⟩`, which squares to the probability of that outcome.",
+      "query": "Bra-ket notation The inner product `⟨φ|ψ⟩` encodes the probability amplitude for transitioning from state `|ψ⟩` to outcome `|φ⟩`, physics lecture notes textbook explanation",
+      "result_snippet": "Bra–ket notation or Dirac notation is a notation for linear algebra and linear operators on complex vector spaces together with their dual spaces both in the finite- and infinite-dimensional cases. Dirac notation, also known as bra-ket notation, is a mathematical notation used in quantum mechanics to describe quantum states and the inner products between them. Dirac Notation, or bra-ket notation, replaces dense matrix arithmetic with a symbolic shorthand that encapsulates vectors, dual vectors, inner products and operators. A ket, written as |ψ, represents a vector in a Hilbert space—this is the quantum st... Bra-ket notation is widely used in quantum mechanics and can take some getting used to. A state is denoted by a ket vector.The physical significance of the inner product is that it describes the probability amplitude for the particle initially in the state. Bra and ket notations are part of Dirac notation used in quantum mechanics to describe quantum states. A “ket” represents a column vector, while a “bra” represents a row vector, facilitating inner product calculations.",
+      "searched_at": "2026-05-05_04-00-45",
       "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
     }
   },
-  "last_updated": "2026-05-04_12-50-04"
+  "last_updated": "2026-05-05_04-00-45"
 }

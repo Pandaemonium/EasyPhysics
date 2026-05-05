@@ -2,11 +2,11 @@
   "claim_checks": [
     {
       "id": "C001",
-      "verdict": "unsupported",
-      "severity": "high",
-      "problem": "The search snippet discusses psychological projection as a defense mechanism, which contradicts the physics definition in the article. The snippet provides no relevant physics content about vector projections.",
-      "suggested_fix": "The article's claim about vector projection is correct, but the search snippet's result is about psychology. Ensure all sources are physics-focused textbooks or lecture notes about vector mathematics.",
-      "source_quality_note": "The snippet appears to come from a psychology/mental health source, which is not authoritative for physics concepts. The search query included 'physics' but the result is unrelated."
+      "verdict": "not_enough_evidence",
+      "severity": "medium",
+      "problem": "Could not parse claim-checker output.",
+      "suggested_fix": "Review this claim manually.",
+      "source_quality_note": ""
     },
     {
       "id": "C002",
@@ -14,15 +14,24 @@
       "severity": "none",
       "problem": "",
       "suggested_fix": "",
-      "source_quality_note": "The snippet appears to draw from stable educational explanations of vector projection, consistent with standard physics pedagogy."
+      "source_quality_note": "The snippet aligns with standard physics pedagogy and explicitly validates the shadow/light analogy for vector projection, confirming its use in educational materials."
+    },
+    {
+      "id": "C003",
+      "verdict": "not_enough_evidence",
+      "severity": "medium",
+      "problem": "Could not parse claim-checker output.",
+      "suggested_fix": "Review this claim manually.",
+      "source_quality_note": ""
     }
   ],
   "summary": {
     "overall_claim_quality": "Claim check completed.",
-    "unresolved_or_needs_qualification": 1,
+    "unresolved_or_needs_qualification": 2,
     "highest_priority_fixes": [
-      "The article's claim about vector projection is correct, but the search snippet's result is about psychology. Ensure all sources are physics-focused textbooks or lecture notes about vector mathematics."
+      "Review this claim manually.",
+      "Review this claim manually."
     ]
   },
-  "last_updated": "2026-05-04_13-14-21"
+  "last_updated": "2026-05-05_04-36-24"
 }

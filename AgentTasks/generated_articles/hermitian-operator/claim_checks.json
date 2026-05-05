@@ -4,25 +4,33 @@
       "id": "C001",
       "verdict": "supported",
       "severity": "low",
-      "problem": "",
-      "suggested_fix": "",
-      "source_quality_note": "The snippet appears to reference stable quantum mechanics concepts, though the exact source isn't clearly identified. The mathematical formulation of Hermitian operators and their real eigenvalue property are well-established."
+      "problem": "The claim focuses on expectation values, while the snippet emphasizes eigenvalues. However, this is consistent because real eigenvalues guarantee real expectation values.",
+      "suggested_fix": "Add clarification that Hermitian operators have real eigenvalues, which ensure real expectation values for measurements.",
+      "source_quality_note": "The snippet appears to come from a textbook-style explanation with clear mathematical definitions and physical interpretations."
     },
     {
       "id": "C002",
       "verdict": "supported",
+      "severity": "high",
+      "problem": "",
+      "suggested_fix": "",
+      "source_quality_note": "The snippet reflects standard physics explanations from lecture notes/textbooks, which are authoritative sources for foundational concepts."
+    },
+    {
+      "id": "C003",
+      "verdict": "supported",
       "severity": "low",
-      "problem": "The article generalizes 'real-number outcomes' to all measurements, while the snippet specifies 'real expectation values' for Hermitian operators. This is a minor oversimplification but acceptable for a beginner audience.",
-      "suggested_fix": "Clarify that Hermitian operators ensure real expectation values for measurements, not necessarily every individual measurement outcome (which can involve probabilistic distributions).",
-      "source_quality_note": "The snippet is from a physics lecture context discussing Hermitian operators and their connection to observables, which is an authoritative educational source."
+      "problem": "",
+      "suggested_fix": "",
+      "source_quality_note": "The snippet comes from a physics lecture note discussing Hermitian operators and their connection to real eigenvalues for observables, which is a stable educational source."
     }
   ],
   "summary": {
     "overall_claim_quality": "Claim check completed.",
-    "unresolved_or_needs_qualification": 0,
+    "unresolved_or_needs_qualification": 1,
     "highest_priority_fixes": [
-      "Clarify that Hermitian operators ensure real expectation values for measurements, not necessarily every individual measurement outcome (which can involve probabilistic distributions)."
+      "Add clarification that Hermitian operators have real eigenvalues, which ensure real expectation values for measurements."
     ]
   },
-  "last_updated": "2026-05-04_14-34-20"
+  "last_updated": "2026-05-05_06-21-23"
 }

@@ -3,26 +3,32 @@
     {
       "id": "C001",
       "verdict": "supported",
-      "severity": "none",
+      "severity": "low",
       "problem": "",
       "suggested_fix": "",
-      "source_quality_note": "Snippets appear to come from educational/technical sources discussing dispersion in physics contexts, though dates suggest some may be hypothetical examples."
+      "source_quality_note": "The snippet comes from a stable physics explanation focusing on optics and wave behavior, confirming the core mechanism of wavelength-dependent refraction."
     },
     {
       "id": "C002",
       "verdict": "supported",
       "severity": "low",
-      "problem": "The claim simplifies dispersion by attributing it solely to 'slowing down' without explicitly mentioning wavelength-dependent refractive index variation. However, this is a common introductory simplification.",
-      "suggested_fix": "Add a note that the core mechanism is wavelength-dependent refractive index (n(λ)) variation, which causes different colors to bend at different angles.",
-      "source_quality_note": "The snippet comes from a reliable educational source explaining dispersion through wavelength-dependent refraction, consistent with standard physics explanations."
+      "problem": "",
+      "suggested_fix": "",
+      "source_quality_note": "The snippets come from multiple physics-focused sources discussing normal/abnormal dispersion, refraction mechanisms, and Snell's law. The content aligns with standard explanations in optics textbooks."
+    },
+    {
+      "id": "C003",
+      "verdict": "supported",
+      "severity": "none",
+      "problem": "",
+      "suggested_fix": "",
+      "source_quality_note": "The snippet contains multiple authoritative physics explanations from textbook-style sources, confirming the prism/rainbow example as a standard demonstration of dispersion."
     }
   ],
   "summary": {
     "overall_claim_quality": "Claim check completed.",
     "unresolved_or_needs_qualification": 0,
-    "highest_priority_fixes": [
-      "Add a note that the core mechanism is wavelength-dependent refractive index (n(λ)) variation, which causes different colors to bend at different angles."
-    ]
+    "highest_priority_fixes": []
   },
-  "last_updated": "2026-05-04_11-05-49"
+  "last_updated": "2026-05-05_01-49-20"
 }

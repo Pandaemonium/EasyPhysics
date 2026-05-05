@@ -2,28 +2,37 @@
   "claim_checks": [
     {
       "id": "C001",
-      "verdict": "needs_qualification",
-      "severity": "medium",
-      "problem": "The claim states eigenvectors 'never change direction' but the search snippet clarifies that negative eigenvalues reverse direction. The article's absolute statement is misleading.",
-      "suggested_fix": "Update the claim to: 'Eigenvectors are direction-keepers {eigenvectors}: they only stretch/shrink or reverse direction when a transformation is applied.'",
-      "source_quality_note": "The snippets come from authoritative physics education sources discussing linear transformations and eigenvalues."
+      "verdict": "supported",
+      "severity": "low",
+      "problem": "The snippet contains mixed source quality; while the core idea matches, some references (like Quora) lack authoritative physics textbook backing",
+      "suggested_fix": "Add citation to standard linear algebra textbooks like Strang's 'Introduction to Linear Algebra' for authoritative confirmation",
+      "source_quality_note": "The snippet includes both educational content (3Blue1Brown) and less authoritative sources (Quora), creating mixed credibility"
     },
     {
       "id": "C002",
-      "verdict": "not_enough_evidence",
+      "verdict": "supported",
       "severity": "low",
-      "problem": "The search snippet lacks direct confirmation of the claim's core idea about eigenvectors simplifying transformations by isolating predictable directions",
-      "suggested_fix": "Add clarification that the claim aligns with standard linear algebra explanations but requires explicit confirmation from physics textbooks",
-      "source_quality_note": "The snippet focuses on specialized applications (entropy production, RG flow) rather than general linear algebra concepts"
+      "problem": "The snippet includes advanced topics (orthogonal transformations) that may confuse beginners, but the core claim about eigenvectors simplifying transformations is valid.",
+      "suggested_fix": "Clarify that the claim applies specifically to linear transformations, not all types of transformations.",
+      "source_quality_note": "Snippets include educational content and mixed sources (e.g., 3blue1brown, Quora), but key physics concepts are from authoritative linear algebra explanations."
+    },
+    {
+      "id": "C003",
+      "verdict": "not_enough_evidence",
+      "severity": "medium",
+      "problem": "Could not parse claim-checker output.",
+      "suggested_fix": "Review this claim manually.",
+      "source_quality_note": ""
     }
   ],
   "summary": {
     "overall_claim_quality": "Claim check completed.",
-    "unresolved_or_needs_qualification": 2,
+    "unresolved_or_needs_qualification": 1,
     "highest_priority_fixes": [
-      "Update the claim to: 'Eigenvectors are direction-keepers {eigenvectors}: they only stretch/shrink or reverse direction when a transformation is applied.'",
-      "Add clarification that the claim aligns with standard linear algebra explanations but requires explicit confirmation from physics textbooks"
+      "Add citation to standard linear algebra textbooks like Strang's 'Introduction to Linear Algebra' for authoritative confirmation",
+      "Clarify that the claim applies specifically to linear transformations, not all types of transformations.",
+      "Review this claim manually."
     ]
   },
-  "last_updated": "2026-05-04_09-45-02"
+  "last_updated": "2026-05-05_00-43-35"
 }

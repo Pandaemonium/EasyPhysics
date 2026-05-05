@@ -4,26 +4,34 @@
       "id": "C001",
       "verdict": "mostly_supported",
       "severity": "medium",
-      "problem": "The claim simplifies 'stationary action' as a balance of energy trade-offs, but the precise formulation requires mathematical rigor (variational principle) and acknowledges saddle points/maxima beyond just minimization.",
-      "suggested_fix": "Clarify that action is stationary (not necessarily minimal) and explain the variational principle with the Euler-Lagrange equation as the mathematical foundation.",
-      "source_quality_note": "The snippet mixes physics history with interdisciplinary interpretations; the core principle of least action is supported but contextualized with modern extensions like Minimum Effort Principle."
+      "problem": "The claim uses 'least action' terminology which may mislead readers into thinking the principle strictly minimizes action, whereas the principle actually refers to stationary action (which can be minima, maxima, or saddle points).",
+      "suggested_fix": "Clarify that the principle is about stationary action rather than strictly 'least' action, and note that the term 'least action' is a historical approximation.",
+      "source_quality_note": "The snippets reference authoritative physics concepts and mention connections to variational principles, Euler-Lagrange equations, and foundational physics frameworks."
     },
     {
       "id": "C002",
-      "verdict": "mostly_supported",
+      "verdict": "needs_qualification",
       "severity": "medium",
-      "problem": "The claim refers to the principle as a 'fundamental law' which may oversimplify its status; while it is a fundamental principle, some physicists debate whether it qualifies as a 'law' in the traditional sense.",
-      "suggested_fix": "Clarify that the principle is a 'fundamental principle' rather than a 'law,' while retaining its role as a unifying framework for classical mechanics.",
-      "source_quality_note": "The snippet references stable physics concepts and variational principles, though it includes some debate about interpretation which reflects ongoing philosophical discussions."
+      "problem": "The article uses 'least action principle' as if it strictly means 'minimum action,' but the search snippet clarifies that the principle actually refers to 'stationary action' (which can be minima, maxima, or saddle points). The term 'least action' is a historical name for this principle.",
+      "suggested_fix": "Update the terminology to 'principle of stationary action' and clarify that the action is extremized (not necessarily minimized).",
+      "source_quality_note": "The snippets include conflicting claims about the principle's relation to thermodynamics and its status as a 'law,' suggesting mixed authority. The key terminology clarification appears in multiple sources."
+    },
+    {
+      "id": "C003",
+      "verdict": "supported",
+      "severity": "low",
+      "problem": "",
+      "suggested_fix": "",
+      "source_quality_note": "The snippets include authoritative references to historical applications (Hilbert's work on general relativity) and foundational explanations of the principle's role in classical mechanics and modern physics."
     }
   ],
   "summary": {
     "overall_claim_quality": "Claim check completed.",
     "unresolved_or_needs_qualification": 2,
     "highest_priority_fixes": [
-      "Clarify that action is stationary (not necessarily minimal) and explain the variational principle with the Euler-Lagrange equation as the mathematical foundation.",
-      "Clarify that the principle is a 'fundamental principle' rather than a 'law,' while retaining its role as a unifying framework for classical mechanics."
+      "Clarify that the principle is about stationary action rather than strictly 'least' action, and note that the term 'least action' is a historical approximation.",
+      "Update the terminology to 'principle of stationary action' and clarify that the action is extremized (not necessarily minimized)."
     ]
   },
-  "last_updated": "2026-05-04_08-25-34"
+  "last_updated": "2026-05-04_23-14-19"
 }

@@ -1,0 +1,38 @@
+{
+  "score": 1,
+  "pass": false,
+  "strengths": ["intuitive recipe analogy", "clear structure"],
+  "issues": [
+    {
+      "severity": "high",
+      "location": "core idea section",
+      "problem": "Repeats technical term 'Hamiltonian' without explanation, violating the principle of introducing standard terms after meaning",
+      "suggested_fix": "Replace the repeated term with descriptive language first, then introduce 'Hamiltonian' {Hamiltonian} as the technical term"
+    },
+    {
+      "severity": "high",
+      "location": "quantum mechanics section",
+      "problem": "Uses unexplained terms like 'operator' {operator} and 'wavefunction' {wavefunction} without defining their meaning",
+      "suggested_fix": "Add plain-language explanations for all technical terms before their first use"
+    },
+    {
+      "severity": "high",
+      "location": "Schrödinger equation",
+      "problem": "Presents mathematical equation without explaining its meaning or significance",
+      "suggested_fix": "Add a paragraph explaining what the equation represents in simple terms before showing the formula"
+    },
+    {
+      "severity": "medium",
+      "location": "common misconceptions",
+      "problem": "References concepts like 'eigenvalues' and 'eigenstates' without prior explanation",
+      "suggested_fix": "Define these terms in the main text before presenting them in misconceptions"
+    },
+    {
+      "severity": "high",
+      "location": "opening paragraph",
+      "problem": "Jargon-heavy without intuitive foothold, violating accessibility priorities",
+      "suggested_fix": "Start with a vivid analogy about energy transformation before introducing technical terms"
+    }
+  ],
+  "best_next_revision": "Revise the article to start with a concrete analogy about energy transformation, explain all technical terms before their first use, and pair every equation with plain-language interpretation of its meaning."
+}

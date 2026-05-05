@@ -6,46 +6,18 @@
       "type": "definition",
       "importance": "high",
       "needs_external_check": true,
-      "why_it_matters": "This defines the fundamental mechanism by which quantum systems transition to classical observables.",
+      "why_it_matters": "This defines the fundamental process by which quantum systems transition from abstract possibilities to observable results.",
       "suggested_search_query": "quantum measurement definition textbook"
     },
     {
       "id": "C002",
-      "claim": "Wavefunction collapse transforms a superposition into a single definite state upon measurement.",
+      "claim": "Wavefunction collapse is a mathematical description of how our knowledge about a system updates, not a physical force acting on the system.",
       "type": "definition",
       "importance": "high",
       "needs_external_check": true,
-      "why_it_matters": "This describes the mathematical formalism of quantum state reduction.",
-      "suggested_search_query": "wavefunction collapse quantum mechanics"
+      "why_it_matters": "Clarifies that collapse is a conceptual update, not an active physical process.",
+      "suggested_search_query": "wavefunction collapse physics"
     },
     {
       "id": "C003",
-      "claim": "The Born rule links possibility-weights {amplitude} to probabilities via the square of their magnitudes.",
-      "type": "definition",
-      "importance": "high",
-      "needs_external_check": true,
-      "why_it_matters": "This provides the quantitative framework for predicting measurement outcomes.",
-      "suggested_search_query": "Born rule derivation textbook"
-    },
-    {
-      "id": "C004",
-      "claim": "Measurement involves a physical interaction between the system and a measuring device, not merely observation.",
-      "type": "definition",
-      "importance": "high",
-      "needs_external_check": true,
-      "why_it_matters": "Clarifies the misconception that measurement is passive observation.",
-      "suggested_search_query": "quantum measurement interaction physics"
-    },
-    {
-      "id": "C005",
-      "claim": "Decoherence explains why macroscopic objects are rarely in superposition due to environmental interactions.",
-      "type": "definition",
-      "importance": "high",
-      "needs_external_check": true,
-      "why_it_matters": "Resolves the apparent contradiction between quantum theory and classical experience.",
-      "suggested_search_query": "decoherence macroscopic objects"
-    },
-    {
-      "id": "C006",
-      "claim": "Collapse is a mathematical description of knowledge update, not a physical process.",
-      "type": "definition
+      "claim

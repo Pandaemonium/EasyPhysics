@@ -65,15 +65,15 @@
     },
     {
       "id": "C008",
-      "claim": "[Diagram idea: Draw a vector `|ψ⟩` as an arrow and a \"measurement probe\" `⟨φ|` as a question mark pointing in the same or opposite direction.] --- ## The more precise picture ### Kets and Bras - A *ket* `|ψ⟩` represents a quantum state, like a vector in a space of possibilities.",
+      "claim": "**Note**: This analogy is simplified; quantum states are not classical vectors but elements of a complex Hilbert space.",
       "type": "fallback-extracted",
       "importance": "medium",
       "needs_external_check": true,
       "why_it_matters": "Automatically extracted fallback claim; review manually.",
-      "suggested_search_query": "Bra-ket notation [Diagram idea: Draw a vector `|ψ⟩` as an arrow and a \"measurement probe\" `⟨φ|` as a physics lecture notes textbook explanation"
+      "suggested_search_query": "Bra-ket notation **Note**: This analogy is simplified; quantum states are not classical vectors but elements of a complex physics lecture notes textbook explanation"
     }
   ],
-  "last_updated": "2026-05-04_12-50-00",
+  "last_updated": "2026-05-05_04-00-38",
   "count": 8,
   "parse_note": "No usable claims parsed from LLM output. Using deterministic fallback extraction from draft sentences."
 }

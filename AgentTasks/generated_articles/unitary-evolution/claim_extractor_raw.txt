@@ -1,0 +1,31 @@
+{
+  "claims": [
+    {
+      "id": "C001",
+      "claim": "Unitary evolution preserves total probability, unlike classical systems where probabilities can 'leak'.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "This distinction defines quantum mechanics' mathematical consistency and reversibility.",
+      "suggested_search_query": "quantum mechanics unitary evolution probability conservation"
+    },
+    {
+      "id": "C002",
+      "claim": "Quantum states evolve via unitary operators, ensuring reversibility and determinism.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Unitary operators are the mathematical foundation of quantum dynamics.",
+      "suggested_search_query": "unitary operators quantum evolution"
+    },
+    {
+      "id": "C003",
+      "claim": "Quantum states are represented as vectors in Hilbert space, transformed by unitary operators.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "This formalism underpins all quantum mechanical calculations.",
+      "suggested_search_query": "Hilbert space quantum mechanics"
+    },
+    {
+      "id":

@@ -27,13 +27,13 @@ Before running
 
 Run
 ---
-python article_workflow.py
+python auto_generate_articles.py
 
 Optional examples
 -----------------
-python article_workflow.py --max-articles 3
-python article_workflow.py --topic "Quantum superposition analogized as acoustic chords on a guitar string"
-python article_workflow.py --force-finished
+python auto_generate_articles.py --max-articles 3
+python auto_generate_articles.py --topic "Quantum superposition analogized as acoustic chords on a guitar string"
+python auto_generate_articles.py --force-finished
 """
 
 from __future__ import annotations
@@ -52,6 +52,7 @@ from datetime import datetime
 from pathlib import Path
 from typing import Any, Dict, List, Optional, Tuple
 import subprocess
+from urllib.parse import urlparse
 
 try:
     import yaml
@@ -62,14 +63,14 @@ except ImportError as exc:
 
 from langchain_ollama import ChatOllama
 from langchain_core.messages import HumanMessage, SystemMessage
-from langchain_community.tools import DuckDuckGoSearchRun
+from langchain_community.utilities import DuckDuckGoSearchAPIWrapper
 
 
 # =============================================================================
 # 1. Configuration
 # =============================================================================
 
-BASE_DIR = Path(r"C:\Projects\EasyPhysics")
+BASE_DIR = Path(os.environ.get("EASYPHYSICS_BASE_DIR", Path(__file__).resolve().parent)).resolve()
 ARTICLE_ROOT = BASE_DIR / "AgentTasks" / "generated_articles"
 GLOBAL_ARTIFACT_DIR = BASE_DIR / "AgentTasks" / "article_workflow_globals"
 GLOBAL_LOG_DIR = BASE_DIR / "AgentTasks" / "logs" / "article_workflow"
@@ -86,7 +87,7 @@ MODEL_NAME = "qwen3:8b"
 # and kill that process if it exceeds LLM_TIMEOUT_SECONDS.
 LLM_OPTIONS = {
     "temperature": 0.25,
-    "top_p": 0.85,
+    "top_p": 0.8,
     "num_ctx": 8192,
     "num_predict": 2048,
     "num_batch": 32,
@@ -104,12 +105,20 @@ NODE_OPTION_OVERRIDES = {
     "rigor_judge": {"num_predict": 1024},
 }
 
-search_tool = DuckDuckGoSearchRun()
+search_wrapper = DuckDuckGoSearchAPIWrapper(max_results=5)
 
 PASSING_SCORE = 9
-MAX_CLAIMS_TO_SEARCH_PER_PASS = 2
+MAX_CLAIMS_TO_SEARCH_PER_PASS = 3
+MAX_CLAIM_REVIEW_ROUNDS_PER_PASS = 4
+MAX_SEARCH_ATTEMPTS_PER_CLAIM = 3
+SOURCE_SEARCH_MAX_RESULTS = 5
 MAX_SEARCH_RESULT_CHARS_PER_CLAIM = 1800
-MAX_CONTEXT_CHARS = 36000
+MAX_CONTEXT_CHARS = 30000
+
+PASSING_CLAIM_VERDICTS = {"supported", "mostly_supported"}
+ACTIONABLE_CLAIM_VERDICTS = {"needs_qualification", "unsupported", "contradicted"}
+EVIDENCE_RETRY_VERDICTS = {"not_enough_evidence"}
+VALID_CLAIM_VERDICTS = PASSING_CLAIM_VERDICTS | ACTIONABLE_CLAIM_VERDICTS | EVIDENCE_RETRY_VERDICTS
 
 
 TOPICS_TO_GENERATE = [
@@ -1120,6 +1129,13 @@ def strip_qwen_thinking(text: str) -> str:
     return text.strip()
 
 
+def url_domain(url: str) -> str:
+    try:
+        return urlparse(url).netloc.lower().removeprefix("www.")
+    except Exception:
+        return ""
+
+
 def read_text(path: Path, default: str = "") -> str:
     if not path.exists():
         return default
@@ -1232,12 +1248,59 @@ def append_event_log(article_dir: Path, node_name: str, event: Dict[str, Any]) -
         f.write(json.dumps(event, ensure_ascii=False) + "\n")
 
 
+def write_role_failure_artifact(
+    article_dir: Path,
+    node_name: str,
+    error: Exception,
+    default: Any = None,
+) -> None:
+    failure_path = article_dir / "logs" / f"{node_name}_failure_{now_stamp()}.json"
+    write_json(
+        failure_path,
+        {
+            "node": node_name,
+            "created_at": now_stamp(),
+            "error": repr(error),
+            "traceback": traceback.format_exc(),
+            "default_returned": default,
+        },
+    )
+
+
 def archive_file(path: Path, archive_dir: Path, label: str) -> None:
     if not path.exists():
         return
     archive_dir.mkdir(parents=True, exist_ok=True)
     archived = archive_dir / f"{label}_{now_stamp()}{path.suffix}"
     archived.write_text(path.read_text(encoding="utf-8"), encoding="utf-8")
+
+
+def invalidate_claim_review_artifacts(p: "ArticlePaths", reason: str) -> None:
+    """Archive draft-dependent claim artifacts before regenerating them."""
+    artifact_paths = [
+        (p.claims, "claims_before_invalidation"),
+        (p.sources, "sources_before_invalidation"),
+        (p.claim_checks, "claim_checks_before_invalidation"),
+    ]
+    archived = []
+    for path, label in artifact_paths:
+        if not path.exists():
+            continue
+        archive_file(path, p.history_dir, label)
+        archived.append(str(path.name))
+        path.unlink()
+
+    if archived:
+        append_event_log(
+            p.article_dir,
+            "claim_review",
+            {
+                "event": "claim_artifacts_invalidated",
+                "reason": reason,
+                "archived": archived,
+            },
+        )
+
 
 def run_role(
     p: ArticlePaths,
@@ -1261,6 +1324,7 @@ def run_role(
             },
         )
         print(f"  -> [{name}] failed: {repr(exc)}")
+        write_role_failure_artifact(p.article_dir, name, exc, default=default)
 
         if required:
             raise
@@ -1298,6 +1362,48 @@ def normalize_review_payload(payload: Any, review_type: str) -> Dict[str, Any]:
         "best_next_revision": payload.get("best_next_revision", ""),
     }
 
+def build_revision_brief(p: ArticlePaths, max_items: int = 6) -> str:
+    items = []
+
+    claim_checks = read_json(p.claim_checks, {})
+    for fix in claim_checks.get("summary", {}).get("highest_priority_fixes", [])[:3]:
+        if fix:
+            items.append(f"- Claim/research fix: {fix}")
+
+    if p.reviews_dir.exists():
+        review_files = sorted(
+            p.reviews_dir.glob("*.json"),
+            key=lambda x: x.stat().st_mtime,
+            reverse=True,
+        )
+
+        for path in review_files[:4]:
+            review = read_json(path, {})
+            review_type = review.get("review_type", path.stem)
+            score = review.get("score", "?")
+
+            for issue in review.get("issues", [])[:2]:
+                if not isinstance(issue, dict):
+                    continue
+                problem = issue.get("problem", "")
+                fix = issue.get("suggested_fix", "")
+                if problem or fix:
+                    items.append(
+                        f"- {review_type} score {score}: {problem} Suggested fix: {fix}"
+                    )
+
+            best_next = review.get("best_next_revision", "")
+            if best_next:
+                items.append(f"- {review_type} next revision: {best_next}")
+
+            if len(items) >= max_items:
+                break
+
+    if not items:
+        return "No specific prior review notes. Improve clarity, rigor, and flow without changing the article's scope."
+
+    return "\n".join(items[:max_items])
+
 # =============================================================================
 # 4. Article state and paths
 # =============================================================================
@@ -1317,6 +1423,24 @@ class ArticlePaths:
     notes: Path
     reviews_dir: Path
     history_dir: Path
+
+
+def persist_review_artifact(
+    p: ArticlePaths,
+    review_type: str,
+    round_num: int,
+    data: Dict[str, Any],
+    raw: str = "",
+) -> Dict[str, Any]:
+    data = dict(data or {})
+    data.setdefault("review_type", review_type)
+    data.setdefault("round", round_num)
+    data.setdefault("created_at", now_stamp())
+    path = p.reviews_dir / f"{review_type}_round_{round_num:03d}.json"
+    write_json(path, data)
+    if raw:
+        write_text(p.article_dir / f"{review_type}_judge_raw_round_{round_num:03d}.txt", raw)
+    return data
 
 
 def paths_for_topic(topic: str) -> ArticlePaths:
@@ -1347,6 +1471,11 @@ def default_state(topic: str) -> Dict[str, Any]:
         "iteration_count": 0,
         "accessibility_score": None,
         "rigor_score": None,
+        "claim_review_passed": False,
+        "claim_total_count": 0,
+        "claim_checked_count": 0,
+        "claim_unchecked_count": 0,
+        "claim_unresolved_count": 0,
         "last_worked_on": None,
         "last_completed_pass": None,
         "needs": ["outline", "draft", "claim_check", "review"],
@@ -1364,6 +1493,14 @@ def load_article_state(topic: str) -> Tuple[ArticlePaths, Dict[str, Any]]:
     # Keep title/slug stable if state exists, but fill missing fields.
     merged = default_state(topic)
     merged.update(state)
+    claim_summary = summarize_claim_review(p)
+    merged["claim_review_passed"] = bool(claim_summary.get("claim_review_complete"))
+    merged["claim_total_count"] = int(claim_summary.get("total_claims", 0) or 0)
+    merged["claim_checked_count"] = int(claim_summary.get("checked_claim_count", 0) or 0)
+    merged["claim_unchecked_count"] = int(claim_summary.get("unchecked_claim_count", 0) or 0)
+    merged["claim_unresolved_count"] = int(
+        claim_summary.get("unresolved_or_needs_qualification", 0) or 0
+    )
     write_yaml(p.state, merged)
     if not p.notes.exists():
         write_text(
@@ -1393,17 +1530,174 @@ def mark_scores_and_status(
     if rigor_score < PASSING_SCORE:
         needs.append("rigor_revision")
 
-    claim_checks = read_json(p.claim_checks, {})
-    unresolved = claim_checks.get("summary", {}).get("unresolved_or_needs_qualification", None)
-    if unresolved:
+    claim_summary = summarize_claim_review(p)
+    unchecked = int(claim_summary.get("unchecked_claim_count", 0) or 0)
+    unresolved = int(claim_summary.get("unresolved_or_needs_qualification", 0) or 0)
+    actionable = int(claim_summary.get("actionable_issue_count", 0) or 0)
+    evidence_retry = int(claim_summary.get("evidence_retry_count", 0) or 0)
+    claim_review_passed = bool(claim_summary.get("claim_review_complete"))
+
+    if unchecked:
+        needs.append("claim_check")
+    if evidence_retry:
+        needs.append("source_retry")
+    if actionable:
+        needs.append("claim_revision")
+    if unresolved and not actionable and not evidence_retry:
         needs.append("claim_review")
 
+    state["claim_review_passed"] = claim_review_passed
+    state["claim_total_count"] = int(claim_summary.get("total_claims", 0) or 0)
+    state["claim_checked_count"] = int(claim_summary.get("checked_claim_count", 0) or 0)
+    state["claim_unchecked_count"] = unchecked
+    state["claim_unresolved_count"] = unresolved
+
     state["needs"] = needs
-    state["finished"] = accessibility_score >= PASSING_SCORE and rigor_score >= PASSING_SCORE
+    state["finished"] = (
+        accessibility_score >= PASSING_SCORE
+        and rigor_score >= PASSING_SCORE
+        and claim_review_passed
+    )
     state["status"] = "finished" if state["finished"] else "needs_revision"
 
     write_yaml(p.state, state)
     return state
+
+
+def claim_requires_external_check(claim: Dict[str, Any]) -> bool:
+    return bool(claim.get("needs_external_check", True))
+
+
+def claim_importance_rank(claim: Dict[str, Any]) -> int:
+    return {"high": 0, "medium": 1, "low": 2}.get(claim.get("importance", "medium"), 1)
+
+
+def latest_claim_checks_by_id(claim_checks_data: Dict[str, Any]) -> Dict[str, Dict[str, Any]]:
+    checks = claim_checks_data.get("claim_checks", [])
+    latest: Dict[str, Dict[str, Any]] = {}
+    if not isinstance(checks, list):
+        return latest
+    for check in checks:
+        if not isinstance(check, dict):
+            continue
+        claim_id = str(check.get("id", "")).strip()
+        if claim_id:
+            latest[claim_id] = check
+    return latest
+
+
+def claim_check_passes(check: Optional[Dict[str, Any]]) -> bool:
+    if not check:
+        return False
+    verdict = str(check.get("verdict", "")).strip()
+    severity = str(check.get("severity", "none")).strip()
+    return verdict in PASSING_CLAIM_VERDICTS and severity in {"none", "low", ""}
+
+
+def claim_check_needs_revision(check: Optional[Dict[str, Any]]) -> bool:
+    if not check:
+        return False
+    verdict = str(check.get("verdict", "")).strip()
+    severity = str(check.get("severity", "none")).strip()
+    if verdict in ACTIONABLE_CLAIM_VERDICTS:
+        return True
+    if (
+        verdict in EVIDENCE_RETRY_VERDICTS
+        and int(check.get("source_attempt_count", 0) or 0) >= MAX_SEARCH_ATTEMPTS_PER_CLAIM
+    ):
+        return True
+    return severity in {"medium", "high"} and verdict not in EVIDENCE_RETRY_VERDICTS
+
+
+def claim_check_needs_more_evidence(check: Optional[Dict[str, Any]]) -> bool:
+    if not check:
+        return False
+    return (
+        str(check.get("verdict", "")).strip() in EVIDENCE_RETRY_VERDICTS
+        and int(check.get("source_attempt_count", 0) or 0) < MAX_SEARCH_ATTEMPTS_PER_CLAIM
+    )
+
+
+def summarize_claim_review_data(
+    claims: List[Dict[str, Any]],
+    checks: List[Dict[str, Any]],
+) -> Dict[str, Any]:
+    checkable_claims = [c for c in claims if claim_requires_external_check(c)]
+    latest = latest_claim_checks_by_id({"claim_checks": checks})
+    checked = [c for c in checkable_claims if c.get("id") in latest]
+    passing = [c for c in checked if claim_check_passes(latest.get(c.get("id")))]
+    unchecked = [c for c in checkable_claims if c.get("id") not in latest]
+    revision_needed = [
+        c for c in checked if claim_check_needs_revision(latest.get(c.get("id")))
+    ]
+    evidence_retry = [
+        c for c in checked if claim_check_needs_more_evidence(latest.get(c.get("id")))
+    ]
+    unresolved = [
+        c
+        for c in checked
+        if not claim_check_passes(latest.get(c.get("id")))
+    ]
+
+    total = len(checkable_claims)
+    review_complete = total > 0 and not unchecked and not unresolved
+    return {
+        "total_claims": total,
+        "checked_claim_count": len(checked),
+        "passing_claim_count": len(passing),
+        "unchecked_claim_count": len(unchecked),
+        "unresolved_or_needs_qualification": len(unresolved) + len(unchecked),
+        "actionable_issue_count": len(revision_needed),
+        "evidence_retry_count": len(evidence_retry),
+        "claim_review_complete": review_complete,
+        "unchecked_claim_ids": [c.get("id") for c in unchecked if c.get("id")],
+        "actionable_claim_ids": [c.get("id") for c in revision_needed if c.get("id")],
+        "evidence_retry_claim_ids": [c.get("id") for c in evidence_retry if c.get("id")],
+        "highest_priority_fixes": [
+            latest.get(c.get("id"), {}).get("suggested_fix", "")
+            for c in revision_needed
+            if latest.get(c.get("id"), {}).get("suggested_fix")
+        ][:5],
+    }
+
+
+def summarize_claim_review(p: ArticlePaths) -> Dict[str, Any]:
+    claims_data = read_json(p.claims, {"claims": []})
+    claim_checks_data = read_json(p.claim_checks, {"claim_checks": []})
+    claims = claims_data.get("claims", [])
+    checks = claim_checks_data.get("claim_checks", [])
+    if not isinstance(claims, list):
+        claims = []
+    if not isinstance(checks, list):
+        checks = []
+    return summarize_claim_review_data(claims, checks)
+
+
+def normalize_claim_check_payload(payload: Any, claim_id: str) -> Dict[str, Any]:
+    if not isinstance(payload, dict):
+        payload = {}
+
+    verdict = str(payload.get("verdict", "not_enough_evidence")).strip()
+    if verdict not in VALID_CLAIM_VERDICTS:
+        verdict = "not_enough_evidence"
+
+    severity = str(payload.get("severity", "medium")).strip()
+    if severity not in {"none", "low", "medium", "high"}:
+        severity = "medium"
+
+    source_urls = payload.get("source_urls", [])
+    if not isinstance(source_urls, list):
+        source_urls = []
+
+    return {
+        "id": str(payload.get("id") or claim_id),
+        "verdict": verdict,
+        "severity": severity,
+        "problem": str(payload.get("problem", "")),
+        "suggested_fix": str(payload.get("suggested_fix", "")),
+        "source_quality_note": str(payload.get("source_quality_note", "")),
+        "source_urls": [str(url) for url in source_urls if url],
+    }
 
 
 # =============================================================================
@@ -1451,10 +1745,15 @@ def stop_ollama_model(article_dir: Path, reason: str) -> None:
     try:
         completed = subprocess.run(
             ["ollama", "stop", MODEL_NAME],
-            capture_output=True,
-            text=True,
+            stdout=subprocess.PIPE,
+            stderr=subprocess.PIPE,
             timeout=45,
+            check=False,
         )
+
+        stdout = completed.stdout.decode("utf-8", errors="replace")
+        stderr = completed.stderr.decode("utf-8", errors="replace")
+
         append_event_log(
             article_dir,
             "ollama_reset",
@@ -1462,10 +1761,13 @@ def stop_ollama_model(article_dir: Path, reason: str) -> None:
                 "event": "ollama_stop_model",
                 "reason": reason,
                 "returncode": completed.returncode,
-                "stdout": completed.stdout[-1000:],
-                "stderr": completed.stderr[-1000:],
+                "stdout": stdout[-1000:],
+                "stderr": stderr[-1000:],
             },
         )
+
+        time.sleep(3)
+
     except Exception as exc:
         append_event_log(
             article_dir,
@@ -1590,12 +1892,51 @@ def invoke_llm(
     raise LLMCallError(f"{node_name} failed after {LLM_MAX_RETRIES + 1} attempt(s): {last_error}")
 
 
-def safe_search(query: str) -> str:
+def safe_search(query: str) -> Dict[str, Any]:
     try:
-        result = search_tool.invoke(query)
-        return limit_chars(result, MAX_SEARCH_RESULT_CHARS_PER_CLAIM)
+        raw_results = search_wrapper.results(
+            query,
+            max_results=SOURCE_SEARCH_MAX_RESULTS,
+            source="text",
+        )
+        results = []
+        for result in raw_results:
+            url = str(result.get("link") or result.get("url") or "").strip()
+            snippet = limit_chars(
+                str(result.get("snippet") or result.get("body") or ""),
+                MAX_SEARCH_RESULT_CHARS_PER_CLAIM,
+            )
+            results.append(
+                {
+                    "title": str(result.get("title") or "").strip(),
+                    "url": url,
+                    "domain": url_domain(url),
+                    "snippet": snippet,
+                }
+            )
+
+        result_snippet = "\n\n".join(
+            f"[{i}] {r['title']}\nURL: {r['url']}\nSnippet: {r['snippet']}"
+            for i, r in enumerate(results, start=1)
+        )
+        return {
+            "status": "ok" if results else "no_results",
+            "query": query,
+            "results": results,
+            "urls": [r["url"] for r in results if r.get("url")],
+            "result_snippet": limit_chars(result_snippet, MAX_SEARCH_RESULT_CHARS_PER_CLAIM * 2),
+            "searched_at": now_stamp(),
+        }
     except Exception as exc:
-        return f"SEARCH_FAILED: {exc}"
+        return {
+            "status": "failed",
+            "query": query,
+            "results": [],
+            "urls": [],
+            "result_snippet": f"SEARCH_FAILED: {exc}",
+            "searched_at": now_stamp(),
+            "error": repr(exc),
+        }
 
 
 # =============================================================================
@@ -1609,22 +1950,42 @@ def planner_role(p: ArticlePaths, state: Dict[str, Any]) -> None:
         return
 
     prompt = f"""
-Create a strong teaching outline for this EasyPhysics article:
+Create a teaching outline for an EasyPhysics article.
 
 Title: {state['title']}
 
-The outline should include:
-1. Scope: what this article explains.
-2. Out of scope: what it should not try to explain yet.
-3. Prerequisite concepts.
-4. Core intuition.
-5. Suggested descriptive names with standard terms in braces.
-6. Common misconceptions to avoid.
-7. Section-by-section outline.
-8. Optional diagram ideas.
-9. Optional minimal math, with what the math means.
+Audience:
+- Motivated high-schooler or college freshman.
+- Curious, smart, but not assumed to know advanced math.
 
-Use Markdown.
+Return Markdown with these sections:
+
+## Scope
+What this article should explain.
+
+## Out of scope
+What this article should not try to cover yet.
+
+## Core intuition
+The one idea the reader should remember.
+
+## Prerequisites
+Concepts the reader should know first.
+
+## Suggested terminology
+Candidate intuitive names with standard terms in braces.
+
+## Common misconceptions
+Misleading pictures or explanations to avoid.
+
+## Minimal math
+Only the math that genuinely helps, with what each symbol means.
+
+## Diagram ideas
+Concrete diagrams that would help.
+
+## Section outline
+A clear beginner-friendly article structure.
 """.strip()
 
     outline = invoke_llm(p.article_dir, "planner", prompt)
@@ -1635,14 +1996,8 @@ def writer_role(p: ArticlePaths, state: Dict[str, Any]) -> None:
     outline = read_text(p.outline)
     notes = read_text(p.notes)
 
-    previous_draft = read_text(p.draft)
-    previous_reviews = gather_recent_reviews(p, max_reviews=4)
-    previous_claim_checks = read_json(p.claim_checks, {})
-
-    if previous_draft.strip():
-        archive_file(p.draft, p.history_dir, "draft_before_revision")
-        prompt = f"""
-Revise the current article draft once. Do not create multiple alternatives.
+    prompt = f"""
+Write a first draft of an EasyPhysics article.
 
 Title: {state['title']}
 
@@ -1650,48 +2005,59 @@ Article outline:
 {limit_chars(outline, 9000)}
 
 Human/editor notes:
-{limit_chars(notes, 3000)}
+{limit_chars(notes, 2000)}
 
-Recent review feedback:
-{limit_chars(previous_reviews, 9000)}
+Required structure:
+# {state['title']}
 
-Recent claim-check feedback:
-{limit_chars(json.dumps(previous_claim_checks, indent=2, ensure_ascii=False), 10000)}
+## The core idea
+## Why this matters
+## The simple picture
+## The more precise picture
+## Common misconceptions
+## How this connects to the rest of physics
+## Recap
 
-Current draft:
-{limit_chars(previous_draft, 22000)}
-
-Revision instructions:
-- Preserve what is already good.
-- Improve clarity and rigor.
-- Use descriptive names with standard terms in braces, e.g. space-occupier {{fermion}}.
-- Avoid overclaiming.
-- If math is included, explain what it means.
-- Output only the revised article in Markdown, with no commentary before or after.
+Writing rules:
+- Begin with meaning, not jargon.
+- Use intuitive teaching names with standard terms in braces.
+- Keep the article concept-first, not history-first.
+- Use concrete examples before abstractions.
+- Include math only when it helps; explain every symbol in words.
+- Avoid “spooky,” “magic,” or “physics is weird” framing.
+- State analogy limits when an analogy could mislead.
+- Keep the article roughly 1200-1800 words unless the topic genuinely needs more.
+- Output only Markdown. No commentary before or after.
 """.strip()
-    else:
+
+    previous_draft = read_text(p.draft)
+    revision_brief = build_revision_brief(p)
+
+    if previous_draft.strip():
         prompt = f"""
-Write a high-quality first draft for this EasyPhysics article.
+Revise this existing EasyPhysics article once.
 
 Title: {state['title']}
 
-Article outline:
-{limit_chars(outline, 12000)}
+Revision brief:
+{limit_chars(revision_brief, 3500)}
 
 Human/editor notes:
-{limit_chars(notes, 3000)}
+{limit_chars(notes, 2000)}
 
-Template guidance:
-{ARTICLE_TEMPLATE_GUIDE}
+Current draft:
+{limit_chars(previous_draft, 16000)}
 
-Drafting instructions:
-- Make it accessible to a motivated high-schooler or college freshman.
-- Teach the modern concept directly rather than narrating historical discovery.
-- Use descriptive names with standard terms in braces, e.g. space-occupier {{fermion}}.
-- Include common misconceptions and correct them.
-- Include minimal math only when it helps, and explain what the math means.
-- Suggest diagram ideas inline where helpful using this format: [Diagram idea: ...]
-- Output only the article in Markdown, with no commentary before or after.
+Instructions:
+- Return the complete revised article in Markdown.
+- Do not start from scratch.
+- Preserve good explanations.
+- Fix only the most important clarity, structure, and rigor problems.
+- If a section is already good, leave it mostly alone.
+- Add qualifications where the current draft overclaims.
+- Make the opening more intuitive if needed.
+- Keep standard terms in braces after intuitive names.
+- Do not include commentary before or after the article.
 """.strip()
 
     new_draft = invoke_llm(p.article_dir, "writer", prompt)
@@ -1707,7 +2073,12 @@ Drafting instructions:
         )
         raise RuntimeError("Writer returned an empty draft.")
 
+    if previous_draft.strip():
+        archive_file(p.draft, p.history_dir, "draft_before_revision")
+
     write_text(p.draft, new_draft)
+    if previous_draft.strip():
+        invalidate_claim_review_artifacts(p, reason="writer_revision")
 
 
 def term_collector_role(p: ArticlePaths, state: Dict[str, Any]) -> None:
@@ -1739,9 +2110,29 @@ Draft:
     raw = invoke_llm(p.article_dir, "term_collector", prompt, expect_json=True)
     data = parse_json_loose(raw, {"terms": []})
 
-    # Merge without trying to be too clever.
-    merged_terms = existing.get("terms", []) + data.get("terms", [])
-    existing["terms"] = merged_terms
+    merged: Dict[Tuple[str, str], Dict[str, Any]] = {}
+    for term in existing.get("terms", []):
+        if not isinstance(term, dict):
+            continue
+        key = (
+            str(term.get("standard_term", "")).strip().lower(),
+            str(term.get("candidate_name", "")).strip().lower(),
+        )
+        if key != ("", ""):
+            merged[key] = term
+
+    for term in data.get("terms", []):
+        if not isinstance(term, dict):
+            continue
+        key = (
+            str(term.get("standard_term", "")).strip().lower(),
+            str(term.get("candidate_name", "")).strip().lower(),
+        )
+        if key == ("", ""):
+            continue
+        merged[key] = {**merged.get(key, {}), **term, "last_seen": now_stamp()}
+
+    existing["terms"] = list(merged.values())
     existing["last_updated"] = now_stamp()
     write_json(p.term_candidates, existing)
 
@@ -1850,7 +2241,7 @@ def fallback_claims_from_draft(topic: str, draft: str, max_claims: int = 8) -> L
                 "type": "fallback-extracted",
                 "importance": "medium",
                 "needs_external_check": True,
-                "why_it_matters": "Automatically extracted fallback claim; review manually.",
+                "why_it_matters": "Automatically extracted fallback claim; keep it in the claim-check pipeline.",
                 "suggested_search_query": build_fallback_search_query(topic, sentence),
             }
         )
@@ -1862,38 +2253,37 @@ def claim_extractor_role(p: ArticlePaths, state: Dict[str, Any]) -> None:
     draft = read_text(p.draft)
 
     prompt = f"""
-Extract 8 to 12 important scientific and explanatory claims from this article draft.
+Extract 8 to 12 important scientific or explanatory claims from this article draft.
 
-Return JSON with exactly this shape:
+Return exactly one JSON object with this shape:
 {{
   "claims": [
     {{
       "id": "C001",
-      "claim": "A clear, standalone claim from the article.",
+      "claim": "A clear standalone claim.",
       "type": "definition",
       "importance": "high",
       "needs_external_check": true,
       "why_it_matters": "brief reason",
-      "suggested_search_query": "stable source search query, not latest-news oriented"
+      "suggested_search_query": "stable physics source query"
     }}
   ]
 }}
 
 Rules:
-- Do not return an empty claims list unless the draft is empty.
-- Use only valid JSON.
+- Return a JSON object, not a list.
+- Do not return an empty list unless the draft is empty.
 - Use true/false, not True/False.
-- Do not include Markdown fences.
-- Do not include prose before or after the JSON.
-- Extract claims that matter for scientific correctness.
-- Include claims embedded in analogies if the analogy could mislead.
-- Do not include purely stylistic statements.
-- Search queries should prefer stable sources: textbooks, lecture notes, CERN, Fermilab, university pages.
+- No Markdown fences.
+- No prose outside the JSON.
+- Prefer claims that matter for scientific correctness.
+- Include claims where an analogy could mislead.
+- Search queries should target stable sources: textbooks, lecture notes, CERN, Fermilab, NASA, DOE, NIST, or university pages.
 
 Article title: {state['title']}
 
 Draft:
-{limit_chars(draft, 26000)}
+{limit_chars(draft, 22000)}
 """.strip()
 
     raw = invoke_llm(
@@ -1962,25 +2352,77 @@ def build_fallback_search_query(topic: str, claim: str) -> str:
     return f"{topic} {claim_words} physics lecture notes textbook explanation"
 
 
-def source_finder_role(p: ArticlePaths, state: Dict[str, Any]) -> None:
+def build_claim_search_query(topic: str, claim: Dict[str, Any], attempt_number: int) -> str:
+    claim_text = claim.get("claim", "")
+    suggested = claim.get("suggested_search_query") or build_fallback_search_query(
+        topic,
+        claim_text,
+    )
+    claim_words = " ".join(str(claim_text).split()[:18])
+    variants = [
+        suggested,
+        f"{topic} {claim_words} university physics lecture notes textbook",
+        f"{topic} {claim_words} site:edu physics",
+        f"{topic} {claim_words} CERN Fermilab NASA DOE NIST physics explanation",
+    ]
+    index = min(max(attempt_number, 1) - 1, len(variants) - 1)
+    return clean_search_query(variants[index])
+
+
+def select_claims_for_source(
+    claims: List[Dict[str, Any]],
+    sources_by_claim: Dict[str, Any],
+    latest_checks: Dict[str, Dict[str, Any]],
+) -> List[Dict[str, Any]]:
+    selected = []
+    for claim in sorted(claims, key=claim_importance_rank):
+        if not claim_requires_external_check(claim):
+            continue
+        claim_id = claim.get("id")
+        if not claim_id:
+            continue
+        check = latest_checks.get(claim_id)
+        if claim_check_passes(check) or claim_check_needs_revision(check):
+            continue
+
+        source_entry = sources_by_claim.get(claim_id, {})
+        attempt_count = int(source_entry.get("attempt_count", 0) or 0)
+        checked_source_attempt = int((check or {}).get("source_attempt_count", 0) or 0)
+
+        needs_first_search = attempt_count == 0
+        needs_better_search = (
+            claim_check_needs_more_evidence(check)
+            and attempt_count <= checked_source_attempt
+            and attempt_count < MAX_SEARCH_ATTEMPTS_PER_CLAIM
+        )
+        previous_search_failed = (
+            source_entry.get("search_status") in {"failed", "no_results"}
+            and attempt_count < MAX_SEARCH_ATTEMPTS_PER_CLAIM
+        )
+
+        if needs_first_search or needs_better_search or previous_search_failed:
+            selected.append(claim)
+    return selected
+
+
+def source_finder_role(p: ArticlePaths, state: Dict[str, Any]) -> int:
     claims_data = read_json(p.claims, {"claims": []})
     claims = claims_data.get("claims", [])
     existing_sources = read_json(p.sources, {"sources_by_claim": {}})
     sources_by_claim = existing_sources.setdefault("sources_by_claim", {})
+    latest_checks = latest_claim_checks_by_id(read_json(p.claim_checks, {"claim_checks": []}))
 
     print(f"  -> [source_finder] loaded {len(claims)} claim(s).")
 
-    candidates = [
-        c for c in claims
-        if c.get("needs_external_check", True)
-        and c.get("importance", "medium") in {"high", "medium"}
-    ]
+    candidates = select_claims_for_source(claims, sources_by_claim, latest_checks)
     candidates = candidates[:MAX_CLAIMS_TO_SEARCH_PER_PASS]
 
     if not candidates:
         print("  -> [source_finder] no claims selected for search.")
+        existing_sources["summary"] = summarize_claim_review(p)
+        existing_sources["last_updated"] = now_stamp()
         write_json(p.sources, existing_sources)
-        return
+        return 0
 
     print(f"  -> [source_finder] searching for {len(candidates)} claim(s)...")
   
@@ -1989,25 +2431,41 @@ def source_finder_role(p: ArticlePaths, state: Dict[str, Any]) -> None:
         if not claim_id:
             continue
 
-        # Re-search each pass for now; this keeps it simple and can catch better snippets.
-        query = claim.get("suggested_search_query") or build_fallback_search_query(
-            state["title"], claim.get("claim", "")
+        source_entry = sources_by_claim.setdefault(
+            claim_id,
+            {
+                "claim": claim.get("claim", ""),
+                "search_attempts": [],
+            },
         )
-        query = clean_search_query(query)
-        result = safe_search(query)
+        attempts = source_entry.setdefault("search_attempts", [])
+        attempt_number = len(attempts) + 1
+        query = build_claim_search_query(state["title"], claim, attempt_number)
+        search_data = safe_search(query)
+        search_data["attempt_number"] = attempt_number
 
-        sources_by_claim[claim_id] = {
-            "claim": claim.get("claim", ""),
-            "query": query,
-            "result_snippet": result,
-            "searched_at": now_stamp(),
-            "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it.",
-        }
+        attempts.append(search_data)
+        source_entry.update(
+            {
+                "claim": claim.get("claim", ""),
+                "query": query,
+                "search_status": search_data.get("status", ""),
+                "result_snippet": search_data.get("result_snippet", ""),
+                "results": search_data.get("results", []),
+                "urls": search_data.get("urls", []),
+                "attempt_count": len(attempts),
+                "searched_at": search_data.get("searched_at", now_stamp()),
+                "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it.",
+            }
+        )
+        sources_by_claim[claim_id] = source_entry
         time.sleep(0.5)  # Be polite to the search backend.
     print(f"  -> [source_finder] selected {len(candidates)} claim(s) for search.")
 
+    existing_sources["summary"] = summarize_claim_review(p)
     existing_sources["last_updated"] = now_stamp()
     write_json(p.sources, existing_sources)
+    return len(candidates)
 
 
 def clean_search_query(query: str) -> str:
@@ -2018,28 +2476,72 @@ def clean_search_query(query: str) -> str:
     return query
 
 
-def claim_checker_role(p: ArticlePaths, state: Dict[str, Any]) -> None:
+def select_claims_for_check(
+    claims: List[Dict[str, Any]],
+    sources_by_claim: Dict[str, Any],
+    latest_checks: Dict[str, Dict[str, Any]],
+) -> List[Dict[str, Any]]:
+    selected = []
+    for claim in sorted(claims, key=claim_importance_rank):
+        if not claim_requires_external_check(claim):
+            continue
+        claim_id = claim.get("id")
+        if not claim_id:
+            continue
+        check = latest_checks.get(claim_id)
+        if claim_check_passes(check) or claim_check_needs_revision(check):
+            continue
+
+        source_entry = sources_by_claim.get(claim_id, {})
+        attempt_count = int(source_entry.get("attempt_count", 0) or 0)
+        checked_source_attempt = int((check or {}).get("source_attempt_count", 0) or 0)
+        has_search_results = bool(source_entry.get("results")) or bool(source_entry.get("result_snippet"))
+        never_checked = check is None and has_search_results
+        has_new_sources = claim_check_needs_more_evidence(check) and attempt_count > checked_source_attempt
+        maxed_source_attempts = (
+            claim_check_needs_more_evidence(check)
+            and attempt_count >= MAX_SEARCH_ATTEMPTS_PER_CLAIM
+        )
+
+        if never_checked or has_new_sources or maxed_source_attempts:
+            selected.append(claim)
+    return selected
+
+
+def claim_checker_role(p: ArticlePaths, state: Dict[str, Any]) -> int:
     claims_data = read_json(p.claims, {"claims": []})
     sources_data = read_json(p.sources, {"sources_by_claim": {}})
+    existing_checks_data = read_json(p.claim_checks, {"claim_checks": [], "check_history": []})
     draft = read_text(p.draft)
 
     claims = claims_data.get("claims", [])
     sources_by_claim = sources_data.get("sources_by_claim", {})
+    latest_checks = latest_claim_checks_by_id(existing_checks_data)
+    selected_claims = select_claims_for_check(claims, sources_by_claim, latest_checks)
+    selected_claims = selected_claims[:MAX_CLAIMS_TO_SEARCH_PER_PASS]
 
-    selected_claims = [
-        c for c in claims
-        if c.get("importance", "medium") in {"high", "medium"}
-    ][:MAX_CLAIMS_TO_SEARCH_PER_PASS]
+    if not selected_claims:
+        print("  -> [claim_checker] no claims selected for checking.")
+        summary = summarize_claim_review_data(claims, list(latest_checks.values()))
+        existing_checks_data["summary"] = {
+            **summary,
+            "overall_claim_quality": "No claim-check work selected this round.",
+        }
+        existing_checks_data["last_updated"] = now_stamp()
+        write_json(p.claim_checks, existing_checks_data)
+        return 0
 
-    claim_checks = []
+    new_checks = []
     timeout_count = 0
 
     for claim in selected_claims:
         claim_id = claim.get("id", "")
         source_context = sources_by_claim.get(claim_id, {})
+        source_attempt_count = int(source_context.get("attempt_count", 0) or 0)
+        source_urls = source_context.get("urls", [])
 
         prompt = f"""
-Check this one article claim against the available search snippet.
+Check this one article claim against the available structured search results.
 
 Return JSON with this shape:
 {{
@@ -2048,23 +2550,26 @@ Return JSON with this shape:
   "severity": "none | low | medium | high",
   "problem": "specific issue, or empty string",
   "suggested_fix": "specific correction to the article, or empty string",
-  "source_quality_note": "brief note about whether the snippets look authoritative"
+  "source_quality_note": "brief note about whether the snippets look authoritative",
+  "source_urls": ["URLs from the search results that support your verdict"]
 }}
 
 Rules:
 - Be conservative.
-- If the snippet is weak or absent, say not_enough_evidence.
+- If the search results are weak, absent, or not clearly authoritative, say not_enough_evidence.
 - Do not demand advanced nuance beyond the article's beginner scope.
 - Do flag misleading simplifications.
 - Focus on stable accepted physics.
+- Do not import a new claim from a weak search result. Check the article's claim only.
+- Use source_urls only for URLs present in the search results.
 
 Article title: {state['title']}
 
 Claim:
 {json.dumps(claim, indent=2, ensure_ascii=False)}
 
-Search snippet:
-{limit_chars(json.dumps(source_context, indent=2, ensure_ascii=False), 5000)}
+Search results:
+{limit_chars(json.dumps(source_context, indent=2, ensure_ascii=False), 7000)}
 
 Relevant draft context:
 {limit_chars(draft, 7000)}
@@ -2078,31 +2583,24 @@ Relevant draft context:
                 system_extra=SOURCE_POLICY,
                 expect_json=True,
             )
-            data = parse_json_loose(
-                raw,
-                {
-                    "id": claim_id,
-                    "verdict": "not_enough_evidence",
-                    "severity": "medium",
-                    "problem": "Could not parse claim-checker output.",
-                    "suggested_fix": "Review this claim manually.",
-                    "source_quality_note": "",
-                },
-            )
-            claim_checks.append(data)
+            raw_dir = p.article_dir / "claim_checker_raw"
+            raw_dir.mkdir(parents=True, exist_ok=True)
+            write_text(raw_dir / f"{claim_id}_{now_stamp()}.txt", raw)
+            parsed = parse_json_loose(raw, None)
+            data = normalize_claim_check_payload(parsed, claim_id)
+            should_stop_after_this = False
 
         except Exception as exc:
             timeout_count += 1
-            claim_checks.append(
-                {
-                    "id": claim_id,
-                    "verdict": "not_enough_evidence",
-                    "severity": "medium",
-                    "problem": f"Claim checker failed: {repr(exc)}",
-                    "suggested_fix": "Review this claim manually or rerun with smaller context.",
-                    "source_quality_note": "",
-                }
-            )
+            data = {
+                "id": claim_id,
+                "verdict": "not_enough_evidence",
+                "severity": "medium",
+                "problem": f"Claim checker failed: {repr(exc)}",
+                "suggested_fix": "Automatically retry this claim with another source search or a smaller context.",
+                "source_quality_note": "",
+                "source_urls": [],
+            }
 
             append_event_log(
                 p.article_dir,
@@ -2113,73 +2611,106 @@ Relevant draft context:
                     "error": repr(exc),
                 },
             )
+            should_stop_after_this = "LLM_TIMEOUT" in repr(exc)
 
-            # If one claim-check call flatlines, do not spend 8 minutes each on the rest.
-            if timeout_count >= 1:
-                break
+        data["claim"] = claim.get("claim", "")
+        data["checked_at"] = now_stamp()
+        data["source_attempt_count"] = source_attempt_count
+        data["available_source_urls"] = source_urls
+        if (
+            data.get("verdict") in EVIDENCE_RETRY_VERDICTS
+            and source_attempt_count >= MAX_SEARCH_ATTEMPTS_PER_CLAIM
+            and not data.get("suggested_fix")
+        ):
+            data["suggested_fix"] = (
+                "Make this claim more conservative or remove it because automated "
+                "source search did not find enough support after multiple attempts."
+            )
+        if not data.get("source_urls") and data.get("verdict") in PASSING_CLAIM_VERDICTS:
+            data["source_urls"] = source_urls[:3]
 
-    unresolved = sum(
-        1 for c in claim_checks
-        if c.get("verdict") in {
-            "needs_qualification",
-            "unsupported",
-            "contradicted",
-            "not_enough_evidence",
-        }
-        or c.get("severity") in {"medium", "high"}
-    )
+        latest_checks[claim_id] = data
+        new_checks.append(data)
+
+        if should_stop_after_this:
+            break
+
+    claim_ids = {c.get("id") for c in claims}
+    ordered_checks = [
+        latest_checks[c.get("id")]
+        for c in claims
+        if c.get("id") in latest_checks
+    ]
+    extras = [
+        check for claim_id, check in latest_checks.items()
+        if claim_id not in claim_ids
+    ]
+    check_history = existing_checks_data.get("check_history", [])
+    if not isinstance(check_history, list):
+        check_history = []
+    check_history.extend(new_checks)
+    summary = summarize_claim_review_data(claims, ordered_checks)
 
     result = {
-        "claim_checks": claim_checks,
+        "claim_checks": ordered_checks + extras,
+        "check_history": check_history[-200:],
         "summary": {
+            **summary,
             "overall_claim_quality": (
                 "Partial claim check completed."
                 if timeout_count
-                else "Claim check completed."
+                else "Claim check round completed."
             ),
-            "unresolved_or_needs_qualification": unresolved,
-            "highest_priority_fixes": [
-                c.get("suggested_fix", "")
-                for c in claim_checks
-                if c.get("suggested_fix")
-            ][:5],
         },
         "last_updated": now_stamp(),
     }
 
     write_json(p.claim_checks, result)
+    return len(new_checks)
 
 
-def claim_revision_role(p: ArticlePaths, state: Dict[str, Any]) -> None:
+def claim_revision_role(p: ArticlePaths, state: Dict[str, Any]) -> bool:
     draft = read_text(p.draft)
     claim_checks = read_json(p.claim_checks, {})
 
     checks = claim_checks.get("claim_checks", [])
     serious_issues = [
         c for c in checks
-        if c.get("severity") in {"medium", "high"}
-        or c.get("verdict") in {"needs_qualification", "unsupported", "contradicted"}
+        if claim_check_needs_revision(c)
     ]
 
     if not serious_issues:
-        print("  -> [claim_revision] no serious claim-check issues found; keeping draft.")
-        return
+        print("  -> [claim_revision] no actionable claim-check issues found; keeping draft.")
+        return False
 
     archive_file(p.draft, p.history_dir, "draft_before_claim_revision")
 
+    focused_feedback = {
+        "claim_checks": serious_issues,
+        "summary": {
+            "highest_priority_fixes": [
+                c.get("suggested_fix", "")
+                for c in serious_issues
+                if c.get("suggested_fix")
+            ][:5],
+        },
+    }
+
     prompt = f"""
-Revise the article once to address claim-check feedback.
+Revise the article once to address actionable claim-check feedback.
 
 Do not rewrite for its own sake. Fix the scientific issues while preserving accessible language.
 
-Claim-check feedback:
-{limit_chars(json.dumps(claim_checks, indent=2, ensure_ascii=False), 14000)}
+Only use the actionable feedback below. Missing evidence should normally be handled by source-search rounds first; if the feedback says the automated search attempts are exhausted, make the claim more conservative or remove it.
+
+Actionable claim-check feedback:
+{limit_chars(json.dumps(focused_feedback, indent=2, ensure_ascii=False), 14000)}
 
 Current draft:
 {limit_chars(draft, 30000)}
 
 Instructions:
-- Correct or qualify unsupported, contradicted, or overstrong claims.
+- Correct or qualify unsupported, contradicted, overstrong, or misleading claims.
 - Preserve good accessible explanations.
 - Do not add speculative research as settled fact.
 - If an analogy was misleading, either repair it or state its limits.
@@ -2189,6 +2720,55 @@ Instructions:
 
     revised = invoke_llm(p.article_dir, "claim_revision", prompt)
     write_text(p.draft, revised)
+    invalidate_claim_review_artifacts(p, reason="claim_revision")
+    return True
+
+
+def run_claim_review_rounds(p: ArticlePaths, state: Dict[str, Any]) -> Dict[str, Any]:
+    """Search and check claims in small batches so the local model stays within context."""
+    last_summary = summarize_claim_review(p)
+
+    for round_index in range(1, MAX_CLAIM_REVIEW_ROUNDS_PER_PASS + 1):
+        last_summary = summarize_claim_review(p)
+        if last_summary.get("claim_review_complete"):
+            print("  -> [claim_review] all extracted claims are passing.")
+            break
+
+        print(
+            "  -> [claim_review] round "
+            f"{round_index}/{MAX_CLAIM_REVIEW_ROUNDS_PER_PASS}: "
+            f"checked={last_summary.get('checked_claim_count', 0)}/"
+            f"{last_summary.get('total_claims', 0)}, "
+            f"unresolved={last_summary.get('unresolved_or_needs_qualification', 0)}"
+        )
+
+        source_count = run_role(
+            p,
+            state,
+            "source_finder",
+            source_finder_role,
+            required=False,
+            default=0,
+        ) or 0
+        check_count = run_role(
+            p,
+            state,
+            "claim_checker",
+            claim_checker_role,
+            required=False,
+            default=0,
+        ) or 0
+
+        last_summary = summarize_claim_review(p)
+        if last_summary.get("actionable_issue_count", 0):
+            print("  -> [claim_review] actionable claim issue found; pausing checks for revision.")
+            break
+
+        if not source_count and not check_count:
+            print("  -> [claim_review] no automated progress this round.")
+            break
+
+    return last_summary
 
 
 def accessibility_judge_role(p: ArticlePaths, state: Dict[str, Any]) -> Dict[str, Any]:
@@ -2196,11 +2776,9 @@ def accessibility_judge_role(p: ArticlePaths, state: Dict[str, Any]) -> Dict[str
     round_num = state.get("iteration_count", 0)
 
     prompt = f"""
-Score this EasyPhysics article for accessibility using the rubric below.
+Evaluate this EasyPhysics article for accessibility.
 
-{ACCESSIBILITY_RUBRIC}
-
-Return JSON with this shape:
+Return exactly one JSON object:
 {{
   "score": 1,
   "pass": false,
@@ -2208,31 +2786,35 @@ Return JSON with this shape:
   "issues": [
     {{
       "severity": "low | medium | high",
-      "location": "section or paragraph description",
+      "location": "section name or short quote",
       "problem": "specific accessibility issue",
       "suggested_fix": "specific fix"
     }}
   ],
-  "best_next_revision": "one concise paragraph describing what to improve next"
+  "best_next_revision": "one concise paragraph"
 }}
+
+Rubric:
+{ACCESSIBILITY_RUBRIC}
+
+Rules:
+- Return an object, not a list.
+- Score must be an integer from 1 to 10.
+- A 9 means publishable with light human editing.
+- Do not give 9 or 10 if the opening is jargon-heavy.
+- Do not give 9 or 10 if math appears without plain-language interpretation.
+- Do not rewrite the article; only evaluate it.
 
 Article title: {state['title']}
 
 Draft:
-{limit_chars(draft, 34000)}
+{limit_chars(draft, 22000)}
 """.strip()
 
     raw = invoke_llm(p.article_dir, "accessibility_judge", prompt, system_extra=ACCESSIBILITY_RUBRIC, expect_json=True)
     parsed = parse_json_loose(raw, {})
     data = normalize_review_payload(parsed, "accessibility")
-    data["review_type"] = "accessibility"
-    data["round"] = round_num
-    data["created_at"] = now_stamp()
-
-    path = p.reviews_dir / f"accessibility_round_{round_num:03d}.json"
-    write_json(path, data)
-    write_text(p.article_dir / f"accessibility_judge_raw_round_{round_num:03d}.txt", raw)
-    return data
+    return persist_review_artifact(p, "accessibility", round_num, data, raw=raw)
 
 
 def rigor_judge_role(p: ArticlePaths, state: Dict[str, Any]) -> Dict[str, Any]:
@@ -2241,13 +2823,9 @@ def rigor_judge_role(p: ArticlePaths, state: Dict[str, Any]) -> Dict[str, Any]:
     round_num = state.get("iteration_count", 0)
 
     prompt = f"""
-Score this EasyPhysics article for scientific rigor using the rubric below.
+Evaluate this EasyPhysics article for scientific rigor.
 
-{RIGOR_RUBRIC}
-
-Use the claim-check results as context, but judge the final draft itself.
-
-Return JSON with this shape:
+Return exactly one JSON object:
 {{
   "score": 1,
   "pass": false,
@@ -2255,34 +2833,40 @@ Return JSON with this shape:
   "issues": [
     {{
       "severity": "low | medium | high",
-      "location": "section or paragraph description",
+      "location": "section name or short quote",
       "problem": "specific rigor issue",
       "suggested_fix": "specific fix"
     }}
   ],
-  "best_next_revision": "one concise paragraph describing what to improve next"
+  "best_next_revision": "one concise paragraph"
 }}
+
+Rubric:
+{RIGOR_RUBRIC}
+
+Rules:
+- Return an object, not a list.
+- Score must be an integer from 1 to 10.
+- A 9 means no major scientific errors and only light human editing needed.
+- Penalize misleading analogies.
+- Penalize overclaims.
+- Penalize confusing settled physics with open questions.
+- Do not demand graduate-level nuance for a beginner article.
+- Do not rewrite the article; only evaluate it.
+
+Claim-check context:
+{limit_chars(json.dumps(claim_checks, indent=2, ensure_ascii=False), 6000)}
 
 Article title: {state['title']}
 
-Claim-check context:
-{limit_chars(json.dumps(claim_checks, indent=2, ensure_ascii=False), 12000)}
-
 Draft:
-{limit_chars(draft, 34000)}
+{limit_chars(draft, 22000)}
 """.strip()
 
     raw = invoke_llm(p.article_dir, "rigor_judge", prompt, system_extra=RIGOR_RUBRIC, expect_json=True)
     parsed = parse_json_loose(raw, {})
     data = normalize_review_payload(parsed, "rigor")
-    data["review_type"] = "rigor"
-    data["round"] = round_num
-    data["created_at"] = now_stamp()
-
-    path = p.reviews_dir / f"rigor_round_{round_num:03d}.json"
-    write_json(path, data)
-    write_text(p.article_dir / f"rigor_judge_raw_round_{round_num:03d}.txt", raw)
-    return data
+    return persist_review_artifact(p, "rigor", round_num, data, raw=raw)
 
 
 def final_mdx_role(p: ArticlePaths, state: Dict[str, Any]) -> None:
@@ -2304,11 +2888,36 @@ def update_global_term_bank(article_title: str, terms: List[Dict[str, Any]]) -> 
 
     bank_path = GLOBAL_ARTIFACT_DIR / "term_bank_candidates.json"
     bank = read_json(bank_path, {"terms": []})
+    merged: Dict[Tuple[str, str, str], Dict[str, Any]] = {}
+    for term in bank.get("terms", []):
+        if not isinstance(term, dict):
+            continue
+        key = (
+            str(term.get("article_title", "")).strip().lower(),
+            str(term.get("standard_term", "")).strip().lower(),
+            str(term.get("candidate_name", "")).strip().lower(),
+        )
+        if key != ("", "", ""):
+            merged[key] = term
+
     for term in terms:
+        if not isinstance(term, dict):
+            continue
         term = dict(term)
         term["article_title"] = article_title
-        term["captured_at"] = now_stamp()
-        bank["terms"].append(term)
+        term["last_seen"] = now_stamp()
+        key = (
+            str(article_title).strip().lower(),
+            str(term.get("standard_term", "")).strip().lower(),
+            str(term.get("candidate_name", "")).strip().lower(),
+        )
+        if key == ("", "", ""):
+            continue
+        previous = merged.get(key, {})
+        term.setdefault("captured_at", previous.get("captured_at", now_stamp()))
+        merged[key] = {**previous, **term}
+
+    bank["terms"] = list(merged.values())
     bank["last_updated"] = now_stamp()
     write_json(bank_path, bank)
 
@@ -2331,7 +2940,14 @@ def gather_recent_reviews(p: ArticlePaths, max_reviews: int = 4) -> str:
 def article_is_passing(state: Dict[str, Any]) -> bool:
     a = state.get("accessibility_score")
     r = state.get("rigor_score")
-    return bool(a is not None and r is not None and int(a) >= PASSING_SCORE and int(r) >= PASSING_SCORE)
+    claim_review_passed = bool(state.get("claim_review_passed"))
+    return bool(
+        a is not None
+        and r is not None
+        and int(a) >= PASSING_SCORE
+        and int(r) >= PASSING_SCORE
+        and claim_review_passed
+    )
 
 
 def run_one_article_cycle(topic: str, force_finished: bool = False) -> Dict[str, Any]:
@@ -2353,7 +2969,19 @@ def run_one_article_cycle(topic: str, force_finished: bool = False) -> Dict[str,
     try:
         run_role(p, state, "planner", planner_role, required=False)
 
-        run_role(p, state, "writer", writer_role, required=True)
+        existing_draft_before_writer = read_text(p.draft).strip()
+        writer_required = not bool(existing_draft_before_writer)
+
+        run_role(
+            p,
+            state,
+            "writer",
+            writer_role,
+            required=writer_required,
+        )
+
+        if not read_text(p.draft).strip():
+            raise RuntimeError("No usable draft exists after writer step.")
 
         if not read_text(p.draft).strip():
             raise RuntimeError("Writer completed but draft.md is empty.")
@@ -2371,8 +2999,7 @@ def run_one_article_cycle(topic: str, force_finished: bool = False) -> Dict[str,
                 },
             )
 
-        run_role(p, state, "source_finder", source_finder_role, required=False)
-        run_role(p, state, "claim_checker", claim_checker_role, required=False)
+        run_claim_review_rounds(p, state)
 
         if not p.claim_checks.exists():
             write_json(
@@ -2382,13 +3009,26 @@ def run_one_article_cycle(topic: str, force_finished: bool = False) -> Dict[str,
                     "summary": {
                         "overall_claim_quality": "Claim checking was skipped or failed.",
                         "unresolved_or_needs_qualification": 1,
-                        "highest_priority_fixes": ["Manually review claims or rerun claim checker."],
+                        "highest_priority_fixes": [
+                            "Automatically rerun source finding and claim checking."
+                        ],
                     },
                     "last_updated": now_stamp(),
                 },
             )
 
-        run_role(p, state, "claim_revision", claim_revision_role, required=False)
+        revised_after_claims = run_role(
+            p,
+            state,
+            "claim_revision",
+            claim_revision_role,
+            required=False,
+            default=False,
+        )
+        if revised_after_claims:
+            run_role(p, state, "claim_extractor", claim_extractor_role, required=False)
+            run_claim_review_rounds(p, state)
+
         run_role(p, state, "term_collector", term_collector_role, required=False)
 
         accessibility_review = run_role(
@@ -2406,11 +3046,17 @@ def run_one_article_cycle(topic: str, force_finished: bool = False) -> Dict[str,
                         "severity": "high",
                         "location": "whole article",
                         "problem": "Accessibility judge failed.",
-                        "suggested_fix": "Rerun review manually.",
+                        "suggested_fix": "Automatically rerun accessibility review.",
                     }
                 ],
-                "best_next_revision": "Rerun accessibility review.",
+                "best_next_revision": "Automatically rerun accessibility review.",
             },
+        )
+        accessibility_review = persist_review_artifact(
+            p,
+            "accessibility",
+            state.get("iteration_count", 0),
+            accessibility_review,
         )
 
         rigor_review = run_role(
@@ -2428,11 +3074,17 @@ def run_one_article_cycle(topic: str, force_finished: bool = False) -> Dict[str,
                         "severity": "high",
                         "location": "whole article",
                         "problem": "Rigor judge failed.",
-                        "suggested_fix": "Rerun review manually.",
+                        "suggested_fix": "Automatically rerun rigor review.",
                     }
                 ],
-                "best_next_revision": "Rerun rigor review.",
+                "best_next_revision": "Automatically rerun rigor review.",
             },
+        )
+        rigor_review = persist_review_artifact(
+            p,
+            "rigor",
+            state.get("iteration_count", 0),
+            rigor_review,
         )
 
         final_mdx_role(p, state)

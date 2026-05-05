@@ -1,0 +1,977 @@
+
+================================================================================
+TIME: 2026-05-05T03:26:24
+NODE: writer
+PROMPT_CHARS: 4978
+PROMPT_TOKENS_APPROX: 1244
+RESPONSE_CHARS: 4498
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.8}
+================================================================================
+PROMPT:
+Revise this existing EasyPhysics article once.
+
+Title: Hilbert space
+
+Revision brief:
+- Claim/research fix: Add clarification that quantum states are rays (equivalence classes of vectors) in Hilbert space, not individual vectors, to align with the projective nature mentioned in the snippet.
+
+Human/editor notes:
+# Human/editor notes
+
+Add any preferences, corrections, or article-specific constraints here.
+
+
+Current draft:
+# Hilbert Space: The Quantum State Landscape  
+
+## The core idea  
+Hilbert space is a mathematical "room" where every quantum state lives as a vector. It’s a space of possibilities: superposition means combining vectors to form new states, and probabilities emerge from the lengths and angles of these vectors. This framework lets us calculate how quantum systems evolve and interact.  
+
+## Why this matters  
+Hilbert space is the foundation of quantum mechanics. It encodes superposition, probabilities, and the rules for how quantum states change over time. Without it, we couldn’t describe phenomena like entanglement or the behavior of particles in quantum computing.  
+
+## The simple picture  
+Imagine a room with infinitely many points, each representing a possible state of a quantum system. The room’s geometry encodes how states interact:  
+- **Superposition** is like combining two points into a new location.  
+- **Probabilities** depend on the distance (length) of the vector from the origin and the angle between vectors (interference).  
+[Diagram idea: A 2D grid with vectors representing states, showing superposition as vector addition.]  
+
+## The more precise picture  
+### Quantum states as vectors  
+In Hilbert space, each quantum state is a **vector** (like an arrow) that points to a specific location in the space. For example, a qubit (spin-1/2 particle) has a 2D Hilbert space with two basis vectors, often labeled $ |0\rangle $ and $ |1\rangle $.  
+
+### Superposition and vector addition  
+When a quantum system is in superposition, its state is a **linear combination** of basis vectors. For instance:  
+$$
+|\psi\rangle = a|0\rangle + b|1\rangle
+$$  
+Here, $ a $ and $ b $ are **probability amplitudes** (complex numbers), and the state vector $ |\psi\rangle $ is the sum of $ |0\rangle $ and $ |1\rangle $, scaled by $ a $ and $ b $.  
+
+### Probabilities from inner products  
+The **probability** of measuring a state $ |0\rangle $ is $ |a|^2 $, and for $ |1\rangle $, it’s $ |b|^2 $. This comes from the **inner product** $ \langle \psi | \phi \rangle $, which acts like a "dot product" between states. For example:  
+$$
+\langle 0 | \psi \rangle = a^* \quad \Rightarrow \quad |\langle 0 | \psi \rangle|^2 = |a|^2
+$$  
+[Diagram idea: Two vectors forming a parallelogram, with probabilities shown as areas.]  
+
+### Key properties  
+- **Completeness**: No "missing" states—every possible state is included.  
+- **Orthonormality**: Basis vectors are perpendicular (e.g., $ \langle 0 | 1 \rangle = 0 $) and normalized (e.g., $ \langle 0 | 0 \rangle = 1 $).  
+- **Infinite dimensions**: Most systems (like particles in a box) require infinite basis vectors.  
+
+## Common misconceptions  
+- ❌ **"Hilbert space is just a regular vector space."**  
+  → It’s a **complete** vector space with an inner product, enabling probability calculations.  
+- ❌ **"All quantum systems share the same Hilbert space."**  
+  → Different systems (e.g., a qubit vs. a harmonic oscillator) have **distinct Hilbert spaces**.  
+- ❌ **"Hilbert space is only for particles."**  
+  → It applies to **all quantum systems**, including fields and abstract states.  
+- ❌ **"The dimensionality is always infinite."**  
+  → Some systems (e.g., spin-1/2 particles) have **finite-dimensional** Hilbert spaces.  
+
+## How this connects to the rest of physics  
+Hilbert space is central to quantum mechanics, quantum computing, and quantum information theory. It underpins the **Schrödinger equation** (which describes how states evolve) and the **measurement postulate** (which links probabilities to outcomes). In quantum computing, qubits leverage finite-dimensional Hilbert spaces to perform complex calculations.  
+
+## Recap  
+- Hilbert space is a **vector space** for quantum states.  
+- Superposition combines vectors into new states.  
+- Probabilities arise from **inner products** and **amplitudes**.  
+- It’s infinite-dimensional for most systems but can be finite (e.g., spin-1/2).  
+- Hilbert space is the foundation for understanding quantum phenomena and technologies like quantum computing.
+
+Instructions:
+- Return the complete revised article in Markdown.
+- Do not start from scratch.
+- Preserve good explanations.
+- Fix only the most important clarity, structure, and rigor problems.
+- If a section is already good, leave it mostly alone.
+- Add qualifications where the current draft overclaims.
+- Make the opening more intuitive if needed.
+- Keep standard terms in braces after intuitive names.
+- Do not include commentary before or after the article.
+
+RESPONSE:
+# Hilbert Space: The Quantum State Landscape  
+
+## The core idea  
+Hilbert space is a mathematical "room" where every quantum state lives as a **ray {equivalence class of vectors}**. It’s a space of possibilities: superposition means combining rays to form new states, and probabilities emerge from the lengths and angles of these rays. This framework lets us calculate how quantum systems evolve and interact.  
+
+## Why this matters  
+Hilbert space is the foundation of quantum mechanics. It encodes superposition, probabilities, and the rules for how quantum states change over time. Without it, we couldn’t describe phenomena like entanglement or the behavior of particles in quantum computing.  
+
+## The simple picture  
+Imagine a room with infinitely many points, each representing a possible state of a quantum system. The room’s geometry encodes how states interact:  
+- **Superposition** is like combining two rays into a new direction.  
+- **Probabilities** depend on the distance (length) of the ray from the origin and the angle between rays (interference).  
+[Diagram idea: A 2D grid with rays representing states, showing superposition as vector addition.]  
+
+## The more precise picture  
+### Quantum states as rays  
+In Hilbert space, each quantum state is a **ray {equivalence class of vectors}**—a direction in the space, not a specific vector. Two vectors that differ only by a non-zero scalar multiple (e.g., $ 2|\psi\rangle $ vs. $ |\psi\rangle $) represent the same physical state. For example, a qubit (spin-1/2 particle) has a 2D Hilbert space with two basis rays, often labeled $ |0\rangle $ and $ |1\rangle $.  
+
+### Superposition and ray addition  
+When a quantum system is in superposition, its state is a **linear combination** of basis rays. For instance:  
+$$
+|\psi\rangle = a|0\rangle + b|1\rangle
+$$  
+Here, $ a $ and $ b $ are **probability amplitudes** (complex numbers), and the ray $ |\psi\rangle $ is the sum of $ |0\rangle $ and $ |1\rangle $, scaled by $ a $ and $ b $. Note that the overall phase (e.g., multiplying $ |\psi\rangle $ by $ e^{i\theta} $) doesn’t change the physical state, as rays are defined up to scalar multiples.  
+
+### Probabilities from inner products  
+The **probability** of measuring a state $ |0\rangle $ is $ |a|^2 $, and for $ |1\rangle $, it’s $ |b|^2 $. This comes from the **inner product** $ \langle \psi | \phi \rangle $, which acts like a "dot product" between rays. For example:  
+$$
+\langle 0 | \psi \rangle = a^* \quad \Rightarrow \quad |\langle 0 | \psi \rangle|^2 = |a|^2
+$$  
+[Diagram idea: Two rays forming a parallelogram, with probabilities shown as areas.]  
+
+### Key properties  
+- **Completeness**: No "missing" states—every possible state is included.  
+- **Orthonormality**: Basis rays are perpendicular (e.g., $ \langle 0 | 1 \rangle = 0 $) and normalized (e.g., $ \langle 0 | 0 \rangle = 1 $).  
+- **Infinite dimensions**: Most systems (like particles in a box) require infinite basis rays.  
+
+## Common misconceptions  
+- ❌ **"Hilbert space is just a regular vector space."**  
+  → It’s a **complete** vector space with an inner product, but quantum states are **rays {equivalence classes of vectors}**, not individual vectors.  
+- ❌ **"All quantum systems share the same Hilbert space."**  
+  → Different systems (e.g., a qubit vs. a harmonic oscillator) have **distinct Hilbert spaces**.  
+- ❌ **"Hilbert space is only for particles."**  
+  → It applies to **all quantum systems**, including fields and abstract states.  
+- ❌ **"The dimensionality is always infinite."**  
+  → Some systems (e.g., spin-1/2 particles) have **finite-dimensional** Hilbert spaces.  
+
+## How this connects to the rest of physics  
+Hilbert space is central to quantum mechanics, quantum computing, and quantum information theory. It underpins the **Schrödinger equation** (which describes how rays evolve) and the **measurement postulate** (which links probabilities to outcomes). In quantum computing, qubits leverage finite-dimensional Hilbert spaces to perform complex calculations.  
+
+## Recap  
+- Hilbert space is a **vector space** for quantum states, but states are **rays {equivalence classes of vectors}**.  
+- Superposition combines rays into new states.  
+- Probabilities arise from **inner products** and **amplitudes**.  
+- It’s infinite-dimensional for most systems but can be finite (e.g., spin-1/2).  
+- Hilbert space is the foundation for understanding quantum phenomena and technologies like quantum computing.
+
+================================================================================
+TIME: 2026-05-05T03:28:32
+NODE: term_collector
+PROMPT_CHARS: 4968
+PROMPT_TOKENS_APPROX: 1242
+RESPONSE_CHARS: 0
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.8}
+================================================================================
+PROMPT:
+Extract the descriptive-name candidates from this draft.
+
+Return JSON with this shape:
+{
+  "terms": [
+    {
+      "standard_term": "fermion",
+      "candidate_name": "space-occupier",
+      "context_quote": "short quote from the draft",
+      "usefulness": "why this name helps",
+      "risk": "how it could mislead, or empty string if low risk"
+    }
+  ]
+}
+
+Only include actual teaching-name candidates, especially phrases followed by standard terms in braces.
+
+Draft:
+# Hilbert Space: The Quantum State Landscape  
+
+## The core idea  
+Hilbert space is a mathematical "room" where every quantum state lives as a **ray {equivalence class of vectors}**. It’s a space of possibilities: superposition means combining rays to form new states, and probabilities emerge from the lengths and angles of these rays. This framework lets us calculate how quantum systems evolve and interact.  
+
+## Why this matters  
+Hilbert space is the foundation of quantum mechanics. It encodes superposition, probabilities, and the rules for how quantum states change over time. Without it, we couldn’t describe phenomena like entanglement or the behavior of particles in quantum computing.  
+
+## The simple picture  
+Imagine a room with infinitely many points, each representing a possible state of a quantum system. The room’s geometry encodes how states interact:  
+- **Superposition** is like combining two rays into a new direction.  
+- **Probabilities** depend on the distance (length) of the ray from the origin and the angle between rays (interference).  
+[Diagram idea: A 2D grid with rays representing states, showing superposition as vector addition.]  
+
+## The more precise picture  
+### Quantum states as rays  
+In Hilbert space, each quantum state is a **ray {equivalence class of vectors}**—a direction in the space, not a specific vector. Two vectors that differ only by a non-zero scalar multiple (e.g., $ 2|\psi\rangle $ vs. $ |\psi\rangle $) represent the same physical state. For example, a qubit (spin-1/2 particle) has a 2D Hilbert space with two basis rays, often labeled $ |0\rangle $ and $ |1\rangle $.  
+
+### Superposition and ray addition  
+When a quantum system is in superposition, its state is a **linear combination** of basis rays. For instance:  
+$$
+|\psi\rangle = a|0\rangle + b|1\rangle
+$$  
+Here, $ a $ and $ b $ are **probability amplitudes** (complex numbers), and the ray $ |\psi\rangle $ is the sum of $ |0\rangle $ and $ |1\rangle $, scaled by $ a $ and $ b $. Note that the overall phase (e.g., multiplying $ |\psi\rangle $ by $ e^{i\theta} $) doesn’t change the physical state, as rays are defined up to scalar multiples.  
+
+### Probabilities from inner products  
+The **probability** of measuring a state $ |0\rangle $ is $ |a|^2 $, and for $ |1\rangle $, it’s $ |b|^2 $. This comes from the **inner product** $ \langle \psi | \phi \rangle $, which acts like a "dot product" between rays. For example:  
+$$
+\langle 0 | \psi \rangle = a^* \quad \Rightarrow \quad |\langle 0 | \psi \rangle|^2 = |a|^2
+$$  
+[Diagram idea: Two rays forming a parallelogram, with probabilities shown as areas.]  
+
+### Key properties  
+- **Completeness**: No "missing" states—every possible state is included.  
+- **Orthonormality**: Basis rays are perpendicular (e.g., $ \langle 0 | 1 \rangle = 0 $) and normalized (e.g., $ \langle 0 | 0 \rangle = 1 $).  
+- **Infinite dimensions**: Most systems (like particles in a box) require infinite basis rays.  
+
+## Common misconceptions  
+- ❌ **"Hilbert space is just a regular vector space."**  
+  → It’s a **complete** vector space with an inner product, but quantum states are **rays {equivalence classes of vectors}**, not individual vectors.  
+- ❌ **"All quantum systems share the same Hilbert space."**  
+  → Different systems (e.g., a qubit vs. a harmonic oscillator) have **distinct Hilbert spaces**.  
+- ❌ **"Hilbert space is only for particles."**  
+  → It applies to **all quantum systems**, including fields and abstract states.  
+- ❌ **"The dimensionality is always infinite."**  
+  → Some systems (e.g., spin-1/2 particles) have **finite-dimensional** Hilbert spaces.  
+
+## How this connects to the rest of physics  
+Hilbert space is central to quantum mechanics, quantum computing, and quantum information theory. It underpins the **Schrödinger equation** (which describes how rays evolve) and the **measurement postulate** (which links probabilities to outcomes). In quantum computing, qubits leverage finite-dimensional Hilbert spaces to perform complex calculations.  
+
+## Recap  
+- Hilbert space is a **vector space** for quantum states, but states are **rays {equivalence classes of vectors}**.  
+- Superposition combines rays into new states.  
+- Probabilities arise from **inner products** and **amplitudes**.  
+- It’s infinite-dimensional for most systems but can be finite (e.g., spin-1/2).  
+- Hilbert space is the foundation for understanding quantum phenomena and technologies like quantum computing.
+
+RESPONSE:
+
+
+================================================================================
+TIME: 2026-05-05T03:31:36
+NODE: claim_extractor
+PROMPT_CHARS: 5379
+PROMPT_TOKENS_APPROX: 1344
+RESPONSE_CHARS: 1321
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.8}
+================================================================================
+PROMPT:
+Extract 8 to 12 important scientific or explanatory claims from this article draft.
+
+Return exactly one JSON object with this shape:
+{
+  "claims": [
+    {
+      "id": "C001",
+      "claim": "A clear standalone claim.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "brief reason",
+      "suggested_search_query": "stable physics source query"
+    }
+  ]
+}
+
+Rules:
+- Return a JSON object, not a list.
+- Do not return an empty list unless the draft is empty.
+- Use true/false, not True/False.
+- No Markdown fences.
+- No prose outside the JSON.
+- Prefer claims that matter for scientific correctness.
+- Include claims where an analogy could mislead.
+- Search queries should target stable sources: textbooks, lecture notes, CERN, Fermilab, NASA, DOE, NIST, or university pages.
+
+Article title: Hilbert space
+
+Draft:
+# Hilbert Space: The Quantum State Landscape  
+
+## The core idea  
+Hilbert space is a mathematical "room" where every quantum state lives as a **ray {equivalence class of vectors}**. It’s a space of possibilities: superposition means combining rays to form new states, and probabilities emerge from the lengths and angles of these rays. This framework lets us calculate how quantum systems evolve and interact.  
+
+## Why this matters  
+Hilbert space is the foundation of quantum mechanics. It encodes superposition, probabilities, and the rules for how quantum states change over time. Without it, we couldn’t describe phenomena like entanglement or the behavior of particles in quantum computing.  
+
+## The simple picture  
+Imagine a room with infinitely many points, each representing a possible state of a quantum system. The room’s geometry encodes how states interact:  
+- **Superposition** is like combining two rays into a new direction.  
+- **Probabilities** depend on the distance (length) of the ray from the origin and the angle between rays (interference).  
+[Diagram idea: A 2D grid with rays representing states, showing superposition as vector addition.]  
+
+## The more precise picture  
+### Quantum states as rays  
+In Hilbert space, each quantum state is a **ray {equivalence class of vectors}**—a direction in the space, not a specific vector. Two vectors that differ only by a non-zero scalar multiple (e.g., $ 2|\psi\rangle $ vs. $ |\psi\rangle $) represent the same physical state. For example, a qubit (spin-1/2 particle) has a 2D Hilbert space with two basis rays, often labeled $ |0\rangle $ and $ |1\rangle $.  
+
+### Superposition and ray addition  
+When a quantum system is in superposition, its state is a **linear combination** of basis rays. For instance:  
+$$
+|\psi\rangle = a|0\rangle + b|1\rangle
+$$  
+Here, $ a $ and $ b $ are **probability amplitudes** (complex numbers), and the ray $ |\psi\rangle $ is the sum of $ |0\rangle $ and $ |1\rangle $, scaled by $ a $ and $ b $. Note that the overall phase (e.g., multiplying $ |\psi\rangle $ by $ e^{i\theta} $) doesn’t change the physical state, as rays are defined up to scalar multiples.  
+
+### Probabilities from inner products  
+The **probability** of measuring a state $ |0\rangle $ is $ |a|^2 $, and for $ |1\rangle $, it’s $ |b|^2 $. This comes from the **inner product** $ \langle \psi | \phi \rangle $, which acts like a "dot product" between rays. For example:  
+$$
+\langle 0 | \psi \rangle = a^* \quad \Rightarrow \quad |\langle 0 | \psi \rangle|^2 = |a|^2
+$$  
+[Diagram idea: Two rays forming a parallelogram, with probabilities shown as areas.]  
+
+### Key properties  
+- **Completeness**: No "missing" states—every possible state is included.  
+- **Orthonormality**: Basis rays are perpendicular (e.g., $ \langle 0 | 1 \rangle = 0 $) and normalized (e.g., $ \langle 0 | 0 \rangle = 1 $).  
+- **Infinite dimensions**: Most systems (like particles in a box) require infinite basis rays.  
+
+## Common misconceptions  
+- ❌ **"Hilbert space is just a regular vector space."**  
+  → It’s a **complete** vector space with an inner product, but quantum states are **rays {equivalence classes of vectors}**, not individual vectors.  
+- ❌ **"All quantum systems share the same Hilbert space."**  
+  → Different systems (e.g., a qubit vs. a harmonic oscillator) have **distinct Hilbert spaces**.  
+- ❌ **"Hilbert space is only for particles."**  
+  → It applies to **all quantum systems**, including fields and abstract states.  
+- ❌ **"The dimensionality is always infinite."**  
+  → Some systems (e.g., spin-1/2 particles) have **finite-dimensional** Hilbert spaces.  
+
+## How this connects to the rest of physics  
+Hilbert space is central to quantum mechanics, quantum computing, and quantum information theory. It underpins the **Schrödinger equation** (which describes how rays evolve) and the **measurement postulate** (which links probabilities to outcomes). In quantum computing, qubits leverage finite-dimensional Hilbert spaces to perform complex calculations.  
+
+## Recap  
+- Hilbert space is a **vector space** for quantum states, but states are **rays {equivalence classes of vectors}**.  
+- Superposition combines rays into new states.  
+- Probabilities arise from **inner products** and **amplitudes**.  
+- It’s infinite-dimensional for most systems but can be finite (e.g., spin-1/2).  
+- Hilbert space is the foundation for understanding quantum phenomena and technologies like quantum computing.
+
+RESPONSE:
+{
+  "claims": [
+    {
+      "id": "C001",
+      "claim": "Hilbert space is a vector space where quantum states are represented as rays {equivalence classes of vectors}.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "This defines the mathematical framework for quantum states, distinguishing rays from individual vectors.",
+      "suggested_search_query": "Hilbert space definition quantum mechanics textbook"
+    },
+    {
+      "id": "C002",
+      "claim": "Superposition in Hilbert space combines rays into new states via linear combinations of basis vectors.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "This explains how quantum systems can exist in multiple states simultaneously.",
+      "suggested_search_query": "Quantum superposition Hilbert space derivation"
+    },
+    {
+      "id": "C003",
+      "claim": "Probabilities in quantum mechanics arise from the squared magnitudes of inner products between rays {probability amplitudes}.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "This connects quantum states to measurable outcomes via the Born rule.",
+      "suggested_search_query": "Quantum
+
+================================================================================
+TIME: 2026-05-05T03:34:10
+NODE: claim_checker
+PROMPT_CHARS: 7433
+PROMPT_TOKENS_APPROX: 1858
+RESPONSE_CHARS: 319
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.8}
+================================================================================
+PROMPT:
+Check this one article claim against the available search snippet.
+
+Return JSON with this shape:
+{
+  "id": "C001",
+  "verdict": "supported | mostly_supported | needs_qualification | unsupported | contradicted | not_enough_evidence",
+  "severity": "none | low | medium | high",
+  "problem": "specific issue, or empty string",
+  "suggested_fix": "specific correction to the article, or empty string",
+  "source_quality_note": "brief note about whether the snippets look authoritative"
+}
+
+Rules:
+- Be conservative.
+- If the snippet is weak or absent, say not_enough_evidence.
+- Do not demand advanced nuance beyond the article's beginner scope.
+- Do flag misleading simplifications.
+- Focus on stable accepted physics.
+
+Article title: Hilbert space
+
+Claim:
+{
+  "id": "C001",
+  "claim": "# Hilbert Space: The Quantum State Landscape ## The core idea Hilbert space is a mathematical \"room\" where every quantum state lives as a **ray {equivalence class of vectors}**.",
+  "type": "fallback-extracted",
+  "importance": "medium",
+  "needs_external_check": true,
+  "why_it_matters": "Automatically extracted fallback claim; review manually.",
+  "suggested_search_query": "Hilbert space # Hilbert Space: The Quantum State Landscape ## The core idea Hilbert space is a mathematical physics lecture notes textbook explanation"
+}
+
+Search snippet:
+{
+  "claim": "# Hilbert Space: The Quantum State Landscape ## The core idea Hilbert space is a mathematical \"room\" where every quantum state lives as a **ray {equivalence class of vectors}**.",
+  "query": "Hilbert space # Hilbert Space: The Quantum State Landscape ## The core idea Hilbert space is a mathematical physics lecture notes textbook explanation",
+  "result_snippet": "The rules of quantum mechanics assert that the state space of a system is a Hilbert space and that observables of the system are Hermitian operators acting on vectors in that space – although they do not tell us which Hilbert space or which operators. Space-filling curves, and the connection between infinite and finite math.Help fund future projects: https://www.patreon.com/3blue1brownAn equally valuable f... 1: Linear Vector Spaces and Hilbert Space. Advanced Quantum Mechanics (Kok). The Hilbert space emerges as the suitable ambient for the representation of such algebra of observables.There is no recipe that gives a unambiguous method to determine the Hilbert space for actual physics problems. It would have been boring if that were the case. Any metric space is a Hausdorff space: Given two different points x and y, the balls Bd/2 (x) and Bd/2 (y), where d = d(x, y) > 0, are disjoint neighborhoods (a semi-metric space will not be Hausdorff). 0.3. The geometry of Hilbert spaces So it looks like C(I) has all the properties we want.",
+  "searched_at": "2026-05-05_03-31-37",
+  "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
+}
+
+Relevant draft context:
+# Hilbert Space: The Quantum State Landscape  
+
+## The core idea  
+Hilbert space is a mathematical "room" where every quantum state lives as a **ray {equivalence class of vectors}**. It’s a space of possibilities: superposition means combining rays to form new states, and probabilities emerge from the lengths and angles of these rays. This framework lets us calculate how quantum systems evolve and interact.  
+
+## Why this matters  
+Hilbert space is the foundation of quantum mechanics. It encodes superposition, probabilities, and the rules for how quantum states change over time. Without it, we couldn’t describe phenomena like entanglement or the behavior of particles in quantum computing.  
+
+## The simple picture  
+Imagine a room with infinitely many points, each representing a possible state of a quantum system. The room’s geometry encodes how states interact:  
+- **Superposition** is like combining two rays into a new direction.  
+- **Probabilities** depend on the distance (length) of the ray from the origin and the angle between rays (interference).  
+[Diagram idea: A 2D grid with rays representing states, showing superposition as vector addition.]  
+
+## The more precise picture  
+### Quantum states as rays  
+In Hilbert space, each quantum state is a **ray {equivalence class of vectors}**—a direction in the space, not a specific vector. Two vectors that differ only by a non-zero scalar multiple (e.g., $ 2|\psi\rangle $ vs. $ |\psi\rangle $) represent the same physical state. For example, a qubit (spin-1/2 particle) has a 2D Hilbert space with two basis rays, often labeled $ |0\rangle $ and $ |1\rangle $.  
+
+### Superposition and ray addition  
+When a quantum system is in superposition, its state is a **linear combination** of basis rays. For instance:  
+$$
+|\psi\rangle = a|0\rangle + b|1\rangle
+$$  
+Here, $ a $ and $ b $ are **probability amplitudes** (complex numbers), and the ray $ |\psi\rangle $ is the sum of $ |0\rangle $ and $ |1\rangle $, scaled by $ a $ and $ b $. Note that the overall phase (e.g., multiplying $ |\psi\rangle $ by $ e^{i\theta} $) doesn’t change the physical state, as rays are defined up to scalar multiples.  
+
+### Probabilities from inner products  
+The **probability** of measuring a state $ |0\rangle $ is $ |a|^2 $, and for $ |1\rangle $, it’s $ |b|^2 $. This comes from the **inner product** $ \langle \psi | \phi \rangle $, which acts like a "dot product" between rays. For example:  
+$$
+\langle 0 | \psi \rangle = a^* \quad \Rightarrow \quad |\langle 0 | \psi \rangle|^2 = |a|^2
+$$  
+[Diagram idea: Two rays forming a parallelogram, with probabilities shown as areas.]  
+
+### Key properties  
+- **Completeness**: No "missing" states—every possible state is included.  
+- **Orthonormality**: Basis rays are perpendicular (e.g., $ \langle 0 | 1 \rangle = 0 $) and normalized (e.g., $ \langle 0 | 0 \rangle = 1 $).  
+- **Infinite dimensions**: Most systems (like particles in a box) require infinite basis rays.  
+
+## Common misconceptions  
+- ❌ **"Hilbert space is just a regular vector space."**  
+  → It’s a **complete** vector space with an inner product, but quantum states are **rays {equivalence classes of vectors}**, not individual vectors.  
+- ❌ **"All quantum systems share the same Hilbert space."**  
+  → Different systems (e.g., a qubit vs. a harmonic oscillator) have **distinct Hilbert spaces**.  
+- ❌ **"Hilbert space is only for particles."**  
+  → It applies to **all quantum systems**, including fields and abstract states.  
+- ❌ **"The dimensionality is always infinite."**  
+  → Some systems (e.g., spin-1/2 particles) have **finite-dimensional** Hilbert spaces.  
+
+## How this connects to the rest of physics  
+Hilbert space is central to quantum mechanics, quantum computing, and quantum information theory. It underpins the **Schrödinger equation** (which describes how rays evolve) and the **measurement postulate** (which links probabilities to outcomes). In quantum computing, qubits leverage finite-dimensional Hilbert spaces to perform complex calculations.  
+
+## Recap  
+- Hilbert space is a **vector space** for quantum states, but states are **rays {equivalence classes of vectors}**.  
+- Superposition combines rays into new states.  
+- Probabilities arise from **inner products** and **amplitudes**.  
+- It’s infinite-dimensional for most systems but can be finite (e.g., spin-1/2).  
+- Hilbert space is the foundation for understanding quantum phenomena and technologies like quantum computing.
+
+RESPONSE:
+{
+  "id": "C001",
+  "verdict": "supported",
+  "severity": "none",
+  "problem": "",
+  "suggested_fix": "",
+  "source_quality_note": "The snippet references standard physics concepts (vector spaces, completeness) and mentions Hilbert space as the framework for quantum mechanics, aligning with the article's core idea."
+}
+
+================================================================================
+TIME: 2026-05-05T03:36:25
+NODE: claim_checker
+PROMPT_CHARS: 7115
+PROMPT_TOKENS_APPROX: 1778
+RESPONSE_CHARS: 286
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.8}
+================================================================================
+PROMPT:
+Check this one article claim against the available search snippet.
+
+Return JSON with this shape:
+{
+  "id": "C002",
+  "verdict": "supported | mostly_supported | needs_qualification | unsupported | contradicted | not_enough_evidence",
+  "severity": "none | low | medium | high",
+  "problem": "specific issue, or empty string",
+  "suggested_fix": "specific correction to the article, or empty string",
+  "source_quality_note": "brief note about whether the snippets look authoritative"
+}
+
+Rules:
+- Be conservative.
+- If the snippet is weak or absent, say not_enough_evidence.
+- Do not demand advanced nuance beyond the article's beginner scope.
+- Do flag misleading simplifications.
+- Focus on stable accepted physics.
+
+Article title: Hilbert space
+
+Claim:
+{
+  "id": "C002",
+  "claim": "It’s a space of possibilities: superposition means combining rays to form new states, and probabilities emerge from the lengths and angles of these rays.",
+  "type": "fallback-extracted",
+  "importance": "medium",
+  "needs_external_check": true,
+  "why_it_matters": "Automatically extracted fallback claim; review manually.",
+  "suggested_search_query": "Hilbert space It’s a space of possibilities: superposition means combining rays to form new states, and probabilities emerge physics lecture notes textbook explanation"
+}
+
+Search snippet:
+{
+  "claim": "It’s a space of possibilities: superposition means combining rays to form new states, and probabilities emerge from the lengths and angles of these rays.",
+  "query": "Hilbert space It’s a space of possibilities: superposition means combining rays to form new states, and probabilities emerge physics lecture notes textbook explanation",
+  "result_snippet": "... a very general stimulus (in a linear system) as the superposition of stimuli of a specific and simple form, often the response becomes easier to ... An element of a Hilbert space can be uniquely specified by its coordinates with respect to an orthonormal basis , in analogy with Cartesian ... The states of the quantum system can undergo superposition: we are allowed to form linear combinations of states and this leads to new states (with ... In QM it means that I know for sure that the system is in such state $\\left|a\\right > $ that it is an eigenstate of the position operator at time ... ... a process of projectivization of the Hilbert space $\\mathcal{H},$ it is possible to obtain a finite dimensional projective Hilbert space ...",
+  "searched_at": "2026-05-05_03-31-40",
+  "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
+}
+
+Relevant draft context:
+# Hilbert Space: The Quantum State Landscape  
+
+## The core idea  
+Hilbert space is a mathematical "room" where every quantum state lives as a **ray {equivalence class of vectors}**. It’s a space of possibilities: superposition means combining rays to form new states, and probabilities emerge from the lengths and angles of these rays. This framework lets us calculate how quantum systems evolve and interact.  
+
+## Why this matters  
+Hilbert space is the foundation of quantum mechanics. It encodes superposition, probabilities, and the rules for how quantum states change over time. Without it, we couldn’t describe phenomena like entanglement or the behavior of particles in quantum computing.  
+
+## The simple picture  
+Imagine a room with infinitely many points, each representing a possible state of a quantum system. The room’s geometry encodes how states interact:  
+- **Superposition** is like combining two rays into a new direction.  
+- **Probabilities** depend on the distance (length) of the ray from the origin and the angle between rays (interference).  
+[Diagram idea: A 2D grid with rays representing states, showing superposition as vector addition.]  
+
+## The more precise picture  
+### Quantum states as rays  
+In Hilbert space, each quantum state is a **ray {equivalence class of vectors}**—a direction in the space, not a specific vector. Two vectors that differ only by a non-zero scalar multiple (e.g., $ 2|\psi\rangle $ vs. $ |\psi\rangle $) represent the same physical state. For example, a qubit (spin-1/2 particle) has a 2D Hilbert space with two basis rays, often labeled $ |0\rangle $ and $ |1\rangle $.  
+
+### Superposition and ray addition  
+When a quantum system is in superposition, its state is a **linear combination** of basis rays. For instance:  
+$$
+|\psi\rangle = a|0\rangle + b|1\rangle
+$$  
+Here, $ a $ and $ b $ are **probability amplitudes** (complex numbers), and the ray $ |\psi\rangle $ is the sum of $ |0\rangle $ and $ |1\rangle $, scaled by $ a $ and $ b $. Note that the overall phase (e.g., multiplying $ |\psi\rangle $ by $ e^{i\theta} $) doesn’t change the physical state, as rays are defined up to scalar multiples.  
+
+### Probabilities from inner products  
+The **probability** of measuring a state $ |0\rangle $ is $ |a|^2 $, and for $ |1\rangle $, it’s $ |b|^2 $. This comes from the **inner product** $ \langle \psi | \phi \rangle $, which acts like a "dot product" between rays. For example:  
+$$
+\langle 0 | \psi \rangle = a^* \quad \Rightarrow \quad |\langle 0 | \psi \rangle|^2 = |a|^2
+$$  
+[Diagram idea: Two rays forming a parallelogram, with probabilities shown as areas.]  
+
+### Key properties  
+- **Completeness**: No "missing" states—every possible state is included.  
+- **Orthonormality**: Basis rays are perpendicular (e.g., $ \langle 0 | 1 \rangle = 0 $) and normalized (e.g., $ \langle 0 | 0 \rangle = 1 $).  
+- **Infinite dimensions**: Most systems (like particles in a box) require infinite basis rays.  
+
+## Common misconceptions  
+- ❌ **"Hilbert space is just a regular vector space."**  
+  → It’s a **complete** vector space with an inner product, but quantum states are **rays {equivalence classes of vectors}**, not individual vectors.  
+- ❌ **"All quantum systems share the same Hilbert space."**  
+  → Different systems (e.g., a qubit vs. a harmonic oscillator) have **distinct Hilbert spaces**.  
+- ❌ **"Hilbert space is only for particles."**  
+  → It applies to **all quantum systems**, including fields and abstract states.  
+- ❌ **"The dimensionality is always infinite."**  
+  → Some systems (e.g., spin-1/2 particles) have **finite-dimensional** Hilbert spaces.  
+
+## How this connects to the rest of physics  
+Hilbert space is central to quantum mechanics, quantum computing, and quantum information theory. It underpins the **Schrödinger equation** (which describes how rays evolve) and the **measurement postulate** (which links probabilities to outcomes). In quantum computing, qubits leverage finite-dimensional Hilbert spaces to perform complex calculations.  
+
+## Recap  
+- Hilbert space is a **vector space** for quantum states, but states are **rays {equivalence classes of vectors}**.  
+- Superposition combines rays into new states.  
+- Probabilities arise from **inner products** and **amplitudes**.  
+- It’s infinite-dimensional for most systems but can be finite (e.g., spin-1/2).  
+- Hilbert space is the foundation for understanding quantum phenomena and technologies like quantum computing.
+
+RESPONSE:
+{
+  "id": "C002",
+  "verdict": "supported",
+  "severity": "low",
+  "problem": "",
+  "suggested_fix": "",
+  "source_quality_note": "Snippets include textbook-level explanations from lecture notes and mathematical definitions, which are authoritative for foundational physics concepts."
+}
+
+================================================================================
+TIME: 2026-05-05T03:38:03
+NODE: claim_checker
+PROMPT_CHARS: 7168
+PROMPT_TOKENS_APPROX: 1792
+RESPONSE_CHARS: 303
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.8}
+================================================================================
+PROMPT:
+Check this one article claim against the available search snippet.
+
+Return JSON with this shape:
+{
+  "id": "C003",
+  "verdict": "supported | mostly_supported | needs_qualification | unsupported | contradicted | not_enough_evidence",
+  "severity": "none | low | medium | high",
+  "problem": "specific issue, or empty string",
+  "suggested_fix": "specific correction to the article, or empty string",
+  "source_quality_note": "brief note about whether the snippets look authoritative"
+}
+
+Rules:
+- Be conservative.
+- If the snippet is weak or absent, say not_enough_evidence.
+- Do not demand advanced nuance beyond the article's beginner scope.
+- Do flag misleading simplifications.
+- Focus on stable accepted physics.
+
+Article title: Hilbert space
+
+Claim:
+{
+  "id": "C003",
+  "claim": "This framework lets us calculate how quantum systems evolve and interact.",
+  "type": "fallback-extracted",
+  "importance": "medium",
+  "needs_external_check": true,
+  "why_it_matters": "Automatically extracted fallback claim; review manually.",
+  "suggested_search_query": "Hilbert space This framework lets us calculate how quantum systems evolve and interact. physics lecture notes textbook explanation"
+}
+
+Search snippet:
+{
+  "claim": "This framework lets us calculate how quantum systems evolve and interact.",
+  "query": "Hilbert space This framework lets us calculate how quantum systems evolve and interact. physics lecture notes textbook explanation",
+  "result_snippet": "In this chapter we describe the Hilbert space formulation of Quantum Physics. The first 10 sections contain general formalisms which apply to all Quantum Physics, the other 6 sections are specific for mechanical quantum systems. In physics, Hilbert spaces often occur as spaces of functions on some space. We have already seen the examples of L 2 (R) and L 2 ([0, 1]), the Hilbert spaces of square-integrable functions on the real line and the unit interval, respectively. Now that we’ve established what features are needed in quantum mechanics - namely, interference effects and complex-valued physical quantities - we’ll learn a bit about the mathematics of Hilbert spaces, which will give us the language we need to understand these effects. We’ll now understand how quantum mechanics handles systems with more than one degree of freedom by taking the tensor product of the Hilbert spaces of its constituent parts. Abstract: Hilbert spaces provide the fundamental mathematical framework for describing quantum mechanical systems.",
+  "searched_at": "2026-05-05_03-31-41",
+  "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
+}
+
+Relevant draft context:
+# Hilbert Space: The Quantum State Landscape  
+
+## The core idea  
+Hilbert space is a mathematical "room" where every quantum state lives as a **ray {equivalence class of vectors}**. It’s a space of possibilities: superposition means combining rays to form new states, and probabilities emerge from the lengths and angles of these rays. This framework lets us calculate how quantum systems evolve and interact.  
+
+## Why this matters  
+Hilbert space is the foundation of quantum mechanics. It encodes superposition, probabilities, and the rules for how quantum states change over time. Without it, we couldn’t describe phenomena like entanglement or the behavior of particles in quantum computing.  
+
+## The simple picture  
+Imagine a room with infinitely many points, each representing a possible state of a quantum system. The room’s geometry encodes how states interact:  
+- **Superposition** is like combining two rays into a new direction.  
+- **Probabilities** depend on the distance (length) of the ray from the origin and the angle between rays (interference).  
+[Diagram idea: A 2D grid with rays representing states, showing superposition as vector addition.]  
+
+## The more precise picture  
+### Quantum states as rays  
+In Hilbert space, each quantum state is a **ray {equivalence class of vectors}**—a direction in the space, not a specific vector. Two vectors that differ only by a non-zero scalar multiple (e.g., $ 2|\psi\rangle $ vs. $ |\psi\rangle $) represent the same physical state. For example, a qubit (spin-1/2 particle) has a 2D Hilbert space with two basis rays, often labeled $ |0\rangle $ and $ |1\rangle $.  
+
+### Superposition and ray addition  
+When a quantum system is in superposition, its state is a **linear combination** of basis rays. For instance:  
+$$
+|\psi\rangle = a|0\rangle + b|1\rangle
+$$  
+Here, $ a $ and $ b $ are **probability amplitudes** (complex numbers), and the ray $ |\psi\rangle $ is the sum of $ |0\rangle $ and $ |1\rangle $, scaled by $ a $ and $ b $. Note that the overall phase (e.g., multiplying $ |\psi\rangle $ by $ e^{i\theta} $) doesn’t change the physical state, as rays are defined up to scalar multiples.  
+
+### Probabilities from inner products  
+The **probability** of measuring a state $ |0\rangle $ is $ |a|^2 $, and for $ |1\rangle $, it’s $ |b|^2 $. This comes from the **inner product** $ \langle \psi | \phi \rangle $, which acts like a "dot product" between rays. For example:  
+$$
+\langle 0 | \psi \rangle = a^* \quad \Rightarrow \quad |\langle 0 | \psi \rangle|^2 = |a|^2
+$$  
+[Diagram idea: Two rays forming a parallelogram, with probabilities shown as areas.]  
+
+### Key properties  
+- **Completeness**: No "missing" states—every possible state is included.  
+- **Orthonormality**: Basis rays are perpendicular (e.g., $ \langle 0 | 1 \rangle = 0 $) and normalized (e.g., $ \langle 0 | 0 \rangle = 1 $).  
+- **Infinite dimensions**: Most systems (like particles in a box) require infinite basis rays.  
+
+## Common misconceptions  
+- ❌ **"Hilbert space is just a regular vector space."**  
+  → It’s a **complete** vector space with an inner product, but quantum states are **rays {equivalence classes of vectors}**, not individual vectors.  
+- ❌ **"All quantum systems share the same Hilbert space."**  
+  → Different systems (e.g., a qubit vs. a harmonic oscillator) have **distinct Hilbert spaces**.  
+- ❌ **"Hilbert space is only for particles."**  
+  → It applies to **all quantum systems**, including fields and abstract states.  
+- ❌ **"The dimensionality is always infinite."**  
+  → Some systems (e.g., spin-1/2 particles) have **finite-dimensional** Hilbert spaces.  
+
+## How this connects to the rest of physics  
+Hilbert space is central to quantum mechanics, quantum computing, and quantum information theory. It underpins the **Schrödinger equation** (which describes how rays evolve) and the **measurement postulate** (which links probabilities to outcomes). In quantum computing, qubits leverage finite-dimensional Hilbert spaces to perform complex calculations.  
+
+## Recap  
+- Hilbert space is a **vector space** for quantum states, but states are **rays {equivalence classes of vectors}**.  
+- Superposition combines rays into new states.  
+- Probabilities arise from **inner products** and **amplitudes**.  
+- It’s infinite-dimensional for most systems but can be finite (e.g., spin-1/2).  
+- Hilbert space is the foundation for understanding quantum phenomena and technologies like quantum computing.
+
+RESPONSE:
+{
+  "id": "C003",
+  "verdict": "supported",
+  "severity": "low",
+  "problem": "",
+  "suggested_fix": "",
+  "source_quality_note": "The snippet comes from a physics lecture notes context describing Hilbert spaces as foundational for quantum mechanics, which aligns with standard educational materials."
+}
+
+================================================================================
+TIME: 2026-05-05T03:40:10
+NODE: term_collector
+PROMPT_CHARS: 4968
+PROMPT_TOKENS_APPROX: 1242
+RESPONSE_CHARS: 0
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.8}
+================================================================================
+PROMPT:
+Extract the descriptive-name candidates from this draft.
+
+Return JSON with this shape:
+{
+  "terms": [
+    {
+      "standard_term": "fermion",
+      "candidate_name": "space-occupier",
+      "context_quote": "short quote from the draft",
+      "usefulness": "why this name helps",
+      "risk": "how it could mislead, or empty string if low risk"
+    }
+  ]
+}
+
+Only include actual teaching-name candidates, especially phrases followed by standard terms in braces.
+
+Draft:
+# Hilbert Space: The Quantum State Landscape  
+
+## The core idea  
+Hilbert space is a mathematical "room" where every quantum state lives as a **ray {equivalence class of vectors}**. It’s a space of possibilities: superposition means combining rays to form new states, and probabilities emerge from the lengths and angles of these rays. This framework lets us calculate how quantum systems evolve and interact.  
+
+## Why this matters  
+Hilbert space is the foundation of quantum mechanics. It encodes superposition, probabilities, and the rules for how quantum states change over time. Without it, we couldn’t describe phenomena like entanglement or the behavior of particles in quantum computing.  
+
+## The simple picture  
+Imagine a room with infinitely many points, each representing a possible state of a quantum system. The room’s geometry encodes how states interact:  
+- **Superposition** is like combining two rays into a new direction.  
+- **Probabilities** depend on the distance (length) of the ray from the origin and the angle between rays (interference).  
+[Diagram idea: A 2D grid with rays representing states, showing superposition as vector addition.]  
+
+## The more precise picture  
+### Quantum states as rays  
+In Hilbert space, each quantum state is a **ray {equivalence class of vectors}**—a direction in the space, not a specific vector. Two vectors that differ only by a non-zero scalar multiple (e.g., $ 2|\psi\rangle $ vs. $ |\psi\rangle $) represent the same physical state. For example, a qubit (spin-1/2 particle) has a 2D Hilbert space with two basis rays, often labeled $ |0\rangle $ and $ |1\rangle $.  
+
+### Superposition and ray addition  
+When a quantum system is in superposition, its state is a **linear combination** of basis rays. For instance:  
+$$
+|\psi\rangle = a|0\rangle + b|1\rangle
+$$  
+Here, $ a $ and $ b $ are **probability amplitudes** (complex numbers), and the ray $ |\psi\rangle $ is the sum of $ |0\rangle $ and $ |1\rangle $, scaled by $ a $ and $ b $. Note that the overall phase (e.g., multiplying $ |\psi\rangle $ by $ e^{i\theta} $) doesn’t change the physical state, as rays are defined up to scalar multiples.  
+
+### Probabilities from inner products  
+The **probability** of measuring a state $ |0\rangle $ is $ |a|^2 $, and for $ |1\rangle $, it’s $ |b|^2 $. This comes from the **inner product** $ \langle \psi | \phi \rangle $, which acts like a "dot product" between rays. For example:  
+$$
+\langle 0 | \psi \rangle = a^* \quad \Rightarrow \quad |\langle 0 | \psi \rangle|^2 = |a|^2
+$$  
+[Diagram idea: Two rays forming a parallelogram, with probabilities shown as areas.]  
+
+### Key properties  
+- **Completeness**: No "missing" states—every possible state is included.  
+- **Orthonormality**: Basis rays are perpendicular (e.g., $ \langle 0 | 1 \rangle = 0 $) and normalized (e.g., $ \langle 0 | 0 \rangle = 1 $).  
+- **Infinite dimensions**: Most systems (like particles in a box) require infinite basis rays.  
+
+## Common misconceptions  
+- ❌ **"Hilbert space is just a regular vector space."**  
+  → It’s a **complete** vector space with an inner product, but quantum states are **rays {equivalence classes of vectors}**, not individual vectors.  
+- ❌ **"All quantum systems share the same Hilbert space."**  
+  → Different systems (e.g., a qubit vs. a harmonic oscillator) have **distinct Hilbert spaces**.  
+- ❌ **"Hilbert space is only for particles."**  
+  → It applies to **all quantum systems**, including fields and abstract states.  
+- ❌ **"The dimensionality is always infinite."**  
+  → Some systems (e.g., spin-1/2 particles) have **finite-dimensional** Hilbert spaces.  
+
+## How this connects to the rest of physics  
+Hilbert space is central to quantum mechanics, quantum computing, and quantum information theory. It underpins the **Schrödinger equation** (which describes how rays evolve) and the **measurement postulate** (which links probabilities to outcomes). In quantum computing, qubits leverage finite-dimensional Hilbert spaces to perform complex calculations.  
+
+## Recap  
+- Hilbert space is a **vector space** for quantum states, but states are **rays {equivalence classes of vectors}**.  
+- Superposition combines rays into new states.  
+- Probabilities arise from **inner products** and **amplitudes**.  
+- It’s infinite-dimensional for most systems but can be finite (e.g., spin-1/2).  
+- Hilbert space is the foundation for understanding quantum phenomena and technologies like quantum computing.
+
+RESPONSE:
+
+
+================================================================================
+TIME: 2026-05-05T03:43:45
+NODE: accessibility_judge
+PROMPT_CHARS: 6956
+PROMPT_TOKENS_APPROX: 1739
+RESPONSE_CHARS: 1714
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.8}
+================================================================================
+PROMPT:
+Evaluate this EasyPhysics article for accessibility.
+
+Return exactly one JSON object:
+{
+  "score": 1,
+  "pass": false,
+  "strengths": ["specific strength"],
+  "issues": [
+    {
+      "severity": "low | medium | high",
+      "location": "section name or short quote",
+      "problem": "specific accessibility issue",
+      "suggested_fix": "specific fix"
+    }
+  ],
+  "best_next_revision": "one concise paragraph"
+}
+
+Rubric:
+Accessibility score, 1-10:
+
+10 = Exceptional. A motivated high-schooler can follow the article's main arc without prior exposure.
+     Jargon is introduced only after intuition. Examples are vivid. Math is explained as meaning,
+     not just symbols. The article feels empowering and clear.
+
+9 = Publishable with light human editing. The main idea is easy to follow; jargon is mostly controlled;
+    analogies are helpful; sections flow logically; any math has a plain-language interpretation.
+
+8 = Strong draft. Mostly clear, but has a few dense sections, unexplained terms, abrupt transitions,
+    or analogies that need more setup.
+
+7 = Useful but uneven. A motivated reader could learn from it, but several passages need simplification,
+    clearer examples, or better sequencing.
+
+6 = Borderline. The article contains useful explanations, but assumes too much background or uses too much jargon.
+
+5 = Mixed. Some good paragraphs, but the structure or language would lose many target readers.
+
+4 = Hard to follow. Mostly written for someone who already knows the subject.
+
+3 = Very inaccessible. Dense, abstract, jargon-heavy, or poorly sequenced.
+
+2 = Barely useful to the target audience.
+
+1 = Fails the accessibility goal.
+
+Accessibility judge priorities:
+- Does the opening give the reader an intuitive foothold?
+- Are standard terms introduced after meaning, not before?
+- Are descriptive names useful rather than cutesy or misleading?
+- Are analogies concrete and then carefully limited?
+- Is any math explained in words?
+- Does the article avoid "spooky/magic/weird" framing while still acknowledging counterintuitive ideas?
+- Does each section make the next section easier?
+
+Rules:
+- Return an object, not a list.
+- Score must be an integer from 1 to 10.
+- A 9 means publishable with light human editing.
+- Do not give 9 or 10 if the opening is jargon-heavy.
+- Do not give 9 or 10 if math appears without plain-language interpretation.
+- Do not rewrite the article; only evaluate it.
+
+Article title: Hilbert space
+
+Draft:
+# Hilbert Space: The Quantum State Landscape  
+
+## The core idea  
+Hilbert space is a mathematical "room" where every quantum state lives as a **ray {equivalence class of vectors}**. It’s a space of possibilities: superposition means combining rays to form new states, and probabilities emerge from the lengths and angles of these rays. This framework lets us calculate how quantum systems evolve and interact.  
+
+## Why this matters  
+Hilbert space is the foundation of quantum mechanics. It encodes superposition, probabilities, and the rules for how quantum states change over time. Without it, we couldn’t describe phenomena like entanglement or the behavior of particles in quantum computing.  
+
+## The simple picture  
+Imagine a room with infinitely many points, each representing a possible state of a quantum system. The room’s geometry encodes how states interact:  
+- **Superposition** is like combining two rays into a new direction.  
+- **Probabilities** depend on the distance (length) of the ray from the origin and the angle between rays (interference).  
+[Diagram idea: A 2D grid with rays representing states, showing superposition as vector addition.]  
+
+## The more precise picture  
+### Quantum states as rays  
+In Hilbert space, each quantum state is a **ray {equivalence class of vectors}**—a direction in the space, not a specific vector. Two vectors that differ only by a non-zero scalar multiple (e.g., $ 2|\psi\rangle $ vs. $ |\psi\rangle $) represent the same physical state. For example, a qubit (spin-1/2 particle) has a 2D Hilbert space with two basis rays, often labeled $ |0\rangle $ and $ |1\rangle $.  
+
+### Superposition and ray addition  
+When a quantum system is in superposition, its state is a **linear combination** of basis rays. For instance:  
+$$
+|\psi\rangle = a|0\rangle + b|1\rangle
+$$  
+Here, $ a $ and $ b $ are **probability amplitudes** (complex numbers), and the ray $ |\psi\rangle $ is the sum of $ |0\rangle $ and $ |1\rangle $, scaled by $ a $ and $ b $. Note that the overall phase (e.g., multiplying $ |\psi\rangle $ by $ e^{i\theta} $) doesn’t change the physical state, as rays are defined up to scalar multiples.  
+
+### Probabilities from inner products  
+The **probability** of measuring a state $ |0\rangle $ is $ |a|^2 $, and for $ |1\rangle $, it’s $ |b|^2 $. This comes from the **inner product** $ \langle \psi | \phi \rangle $, which acts like a "dot product" between rays. For example:  
+$$
+\langle 0 | \psi \rangle = a^* \quad \Rightarrow \quad |\langle 0 | \psi \rangle|^2 = |a|^2
+$$  
+[Diagram idea: Two rays forming a parallelogram, with probabilities shown as areas.]  
+
+### Key properties  
+- **Completeness**: No "missing" states—every possible state is included.  
+- **Orthonormality**: Basis rays are perpendicular (e.g., $ \langle 0 | 1 \rangle = 0 $) and normalized (e.g., $ \langle 0 | 0 \rangle = 1 $).  
+- **Infinite dimensions**: Most systems (like particles in a box) require infinite basis rays.  
+
+## Common misconceptions  
+- ❌ **"Hilbert space is just a regular vector space."**  
+  → It’s a **complete** vector space with an inner product, but quantum states are **rays {equivalence classes of vectors}**, not individual vectors.  
+- ❌ **"All quantum systems share the same Hilbert space."**  
+  → Different systems (e.g., a qubit vs. a harmonic oscillator) have **distinct Hilbert spaces**.  
+- ❌ **"Hilbert space is only for particles."**  
+  → It applies to **all quantum systems**, including fields and abstract states.  
+- ❌ **"The dimensionality is always infinite."**  
+  → Some systems (e.g., spin-1/2 particles) have **finite-dimensional** Hilbert spaces.  
+
+## How this connects to the rest of physics  
+Hilbert space is central to quantum mechanics, quantum computing, and quantum information theory. It underpins the **Schrödinger equation** (which describes how rays evolve) and the **measurement postulate** (which links probabilities to outcomes). In quantum computing, qubits leverage finite-dimensional Hilbert spaces to perform complex calculations.  
+
+## Recap  
+- Hilbert space is a **vector space** for quantum states, but states are **rays {equivalence classes of vectors}**.  
+- Superposition combines rays into new states.  
+- Probabilities arise from **inner products** and **amplitudes**.  
+- It’s infinite-dimensional for most systems but can be finite (e.g., spin-1/2).  
+- Hilbert space is the foundation for understanding quantum phenomena and technologies like quantum computing.
+
+RESPONSE:
+{
+  "score": 1,
+  "pass": false,
+  "strengths": ["clear structure with simple-to-complex progression"],
+  "issues": [
+    {
+      "severity": "high",
+      "location": "core idea section",
+      "problem": "Jargon-heavy opening introduces 'ray {equivalence class of vectors}' without intuitive grounding",
+      "suggested_fix": "Replace with metaphor like 'direction in space' and explain equivalence classes as 'different ways to point in the same direction'"
+    },
+    {
+      "severity": "high",
+      "location": "math equations",
+      "problem": "Math appears without plain-language explanation (e.g., 'linear combination', 'inner product')",
+      "suggested_fix": "Add analogies like 'vector addition as combining forces' and 'inner product as measuring alignment between rays'"
+    },
+    {
+      "severity": "high",
+      "location": "common misconceptions",
+      "problem": "Misconceptions section assumes prior knowledge of vector spaces and inner products",
+      "suggested_fix": "Precede with a simplified explanation of vector spaces and inner products using everyday examples"
+    },
+    {
+      "severity": "medium",
+      "location": "diagram ideas",
+      "problem": "Visual metaphors are only described textually without actual diagrams",
+      "suggested_fix": "Include simple diagrams showing ray addition and probability calculations"
+    }
+  ],
+  "best_next_revision": "Start with a vivid analogy of Hilbert space as a 'quantum playground' where states are directions, not positions. Explain equivalence classes as 'different ways to point in the same direction' using everyday examples. Use plain language to describe vector addition and inner products before introducing equations."
+}

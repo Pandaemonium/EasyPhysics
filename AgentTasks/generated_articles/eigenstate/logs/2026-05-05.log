@@ -1,0 +1,1316 @@
+
+================================================================================
+TIME: 2026-05-05T01:06:13
+NODE: writer
+PROMPT_CHARS: 5413
+PROMPT_TOKENS_APPROX: 1353
+RESPONSE_CHARS: 4185
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.8}
+================================================================================
+PROMPT:
+Revise this existing EasyPhysics article once.
+
+Title: Eigenstate
+
+Revision brief:
+- rigor score 9: The spinning top analogy risks implying classical determinism rather than quantum probability Suggested fix: Add clarification that eigenstates represent probabilistic certainty, not classical determinism
+- rigor score 9: The term 'building blocks' might imply physical reality rather than mathematical abstraction Suggested fix: Qualify as 'mathematical tools for prediction' instead of 'building blocks'
+- rigor next revision: Refine analogies to emphasize quantum probability over classical determinism, and clarify that eigenstates are mathematical tools rather than physical entities.
+- accessibility score 8: Math equation is presented without explanation of symbols (operators, ket notation) Suggested fix: Add plain-language explanation of symbols: e.g., 'A' represents a measurable property, '|ψ⟩' is the state, and 'a' is the measured value
+- accessibility score 8: Term 'building blocks' is used without explaining why eigenstates are foundational Suggested fix: Add analogy comparing eigenstates to 'recipe ingredients' that combine to make complex states
+- accessibility next revision: Expand the mathematical explanation in the 'more precise picture' section by breaking down the equation's components and adding a simple example of how operators work with states
+
+Human/editor notes:
+# Human/editor notes
+
+Add any preferences, corrections, or article-specific constraints here.
+
+
+Current draft:
+# Eigenstate
+
+## The core idea  
+An **eigenstate** is a "definite-answer state" {eigenstate} — a quantum state where measuring a specific property (like energy or spin) always gives the same result. Think of it as a "ready-to-measure" state: if a system is in an eigenstate of an observable, the measurement will "lock in" that value.  
+
+---
+
+## Why this matters  
+Eigenstates are the foundation of quantum predictions. They let us calculate the probabilities of measurement outcomes and understand how quantum systems behave when observed. Without eigenstates, we couldn’t explain phenomena like atomic energy levels or spin measurements.  
+
+---
+
+## The simple picture  
+Imagine a spinning top that always lands with its tip pointing north when you measure its orientation. If the top is in an eigenstate of "north-pointing," measuring its direction will always give "north." But if it’s spinning chaotically (a superposition), the measurement might randomly give "north," "south," or anything in between.  
+
+[Diagram idea: A spinning top with a label "North" and a chaotic spinner with multiple arrows pointing in different directions.]  
+
+---
+
+## The more precise picture  
+An **eigenstate** is a quantum state that is "eigen" {eigenstate} to a specific observable (like energy or spin). Mathematically, this means:  
+$$  
+\hat{A} | \psi \rangle = a | \psi \rangle  
+$$  
+- $ \hat{A} $ is an operator representing an observable (e.g., energy).  
+- $ | \psi \rangle $ is the eigenstate.  
+- $ a $ is the definite value you’ll measure (e.g., 5 eV for energy).  
+
+For example, an electron in a hydrogen atom’s lowest energy level is an eigenstate of the energy operator. Measuring its energy always gives the same value.  
+
+**Key idea**: Eigenstates are the "building blocks" {eigenstates} for quantum predictions. Most quantum states are superpositions of eigenstates, meaning they’re "prepared" to yield multiple outcomes until measured.  
+
+---
+
+## Common misconceptions  
+❌ **"All quantum states are eigenstates"**: Most states are superpositions of eigenstates.  
+❌ **"Eigenstates are only for position/momentum"**: Eigenstates exist for any observable (e.g., energy, spin).  
+❌ **"Eigenstates are 'real' states"**: Eigenstates are mathematical tools to describe measurement outcomes, not physical entities.  
+❌ **"Eigenstates are static"**: Eigenstates can evolve over time if the system’s Hamiltonian changes.  
+
+---
+
+## How this connects to the rest of physics  
+Eigenstates are central to quantum mechanics and tie into:  
+- **Operators** {observables}: Each measurable property (e.g., spin, energy) is represented by an operator.  
+- **Energy levels** {stationary states}: Atoms and molecules have eigenstates corresponding to their discrete energy levels.  
+- **Quantum measurements** {collapse}: Eigenstates are the outcomes of measurements, and superpositions "collapse" to eigenstates upon observation.  
+
+---
+
+## Recap  
+- An **eigenstate** {eigenstate} is a state where a measurement yields a definite result.  
+- Eigenstates are tied to observables (e.g., energy, spin) and are the foundation of quantum predictions.  
+- Most quantum states are superpositions of eigenstates, but measurements "collapse" them to a single eigenstate.  
+- Eigenstates are not "real" entities but mathematical tools to describe measurement outcomes.  
+
+[Diagram idea: A Venn diagram linking eigenstates, observables, and measurement outcomes.]
+
+Instructions:
+- Return the complete revised article in Markdown.
+- Do not start from scratch.
+- Preserve good explanations.
+- Fix only the most important clarity, structure, and rigor problems.
+- If a section is already good, leave it mostly alone.
+- Add qualifications where the current draft overclaims.
+- Make the opening more intuitive if needed.
+- Keep standard terms in braces after intuitive names.
+- Do not include commentary before or after the article.
+
+RESPONSE:
+# Eigenstate
+
+## The core idea  
+An **eigenstate** is a "definite-answer state" {eigenstate} — a quantum state where measuring a specific property (like energy or spin) always gives the same result. Think of it as a "ready-to-measure" state: if a system is in an eigenstate of an observable, the measurement will "lock in" that value.  
+
+**Key clarification**: Unlike classical systems, eigenstates represent probabilistic certainty, not deterministic outcomes. A quantum system in an eigenstate doesn’t "know" the value beforehand — it’s a mathematical tool that lets us predict the outcome with 100% probability.  
+
+---
+
+## Why this matters  
+Eigenstates are the foundation of quantum predictions. They let us calculate the probabilities of measurement outcomes and understand how quantum systems behave when observed. Without eigenstates, we couldn’t explain phenomena like atomic energy levels or spin measurements.  
+
+---
+
+## The simple picture  
+Imagine a quantum system that behaves like a spinning top. If the top is in an eigenstate of "north-pointing," measuring its direction will always give "north." But if it’s in a superposition (like a chaotic spinner), the measurement might randomly give "north," "south," or anything in between.  
+
+**Important note**: This isn’t like a classical top that "chooses" a direction. The eigenstate is a mathematical description of the system’s state, not a physical object with a pre-existing direction.  
+
+[Diagram idea: A spinning top with a label "North" and a chaotic spinner with multiple arrows pointing in different directions.]  
+
+---
+
+## The more precise picture  
+An **eigenstate** is a quantum state that is "eigen" {eigenstate} to a specific observable (like energy or spin). Mathematically, this means:  
+$$  
+\hat{A} | \psi \rangle = a | \psi \rangle  
+$$  
+- $ \hat{A} $ is an operator representing an observable (e.g., energy).  
+- $ | \psi \rangle $ is the eigenstate.  
+- $ a $ is the definite value you’ll measure (e.g., 5 eV for energy).  
+
+**Example breakdown**:  
+- The operator $ \hat{A} $ (e.g., energy operator) acts on the state $ | \psi \rangle $.  
+- If the system is in an eigenstate, the operator "eigen" {eigenstate} simply multiplies the state by the value $ a $.  
+- This means the measurement outcome is guaranteed to be $ a $, not a probability.  
+
+For instance, an electron in a hydrogen atom’s lowest energy level is an eigenstate of the energy operator. Measuring its energy always gives the same value.  
+
+**Key idea**: Eigenstates are not "building blocks" {eigenstates} in a physical sense. They’re mathematical tools for prediction, like "recipe ingredients" that combine to make complex states.  
+
+---
+
+## Common misconceptions  
+❌ **"All quantum states are eigenstates"**: Most states are superpositions of eigenstates.  
+❌ **"Eigenstates are only for position/momentum"**: Eigenstates exist for any observable (e.g., energy, spin).  
+❌ **"Eigenstates are 'real' states"**: Eigenstates are mathematical tools to describe measurement outcomes, not physical entities.  
+❌ **"Eigenstates are static"**: Eigenstates can evolve over time if the system’s Hamiltonian changes.  
+
+---
+
+## How this connects to the rest of physics  
+Eigenstates are central to quantum mechanics and tie into:  
+- **Operators** {observables}: Each measurable property (e.g., spin, energy) is represented by an operator.  
+- **Energy levels** {stationary states}: Atoms and molecules have eigenstates corresponding to their discrete energy levels.  
+- **Quantum measurements** {collapse}: Eigenstates are the outcomes of measurements, and superpositions "collapse" to eigenstates upon observation.  
+
+---
+
+## Recap  
+- An **eigenstate** {eigenstate} is a state where a measurement yields a definite result.  
+- Eigenstates are tied to observables (e.g., energy, spin) and are the foundation of quantum predictions.  
+- Most quantum states are superpositions of eigenstates, but measurements "collapse" them to a single eigenstate.  
+- Eigenstates are not "real" entities but mathematical tools to describe measurement outcomes.  
+
+[Diagram idea: A Venn diagram linking eigenstates, observables, and measurement outcomes.]
+
+================================================================================
+TIME: 2026-05-05T01:08:12
+NODE: term_collector
+PROMPT_CHARS: 4655
+PROMPT_TOKENS_APPROX: 1163
+RESPONSE_CHARS: 0
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.8}
+================================================================================
+PROMPT:
+Extract the descriptive-name candidates from this draft.
+
+Return JSON with this shape:
+{
+  "terms": [
+    {
+      "standard_term": "fermion",
+      "candidate_name": "space-occupier",
+      "context_quote": "short quote from the draft",
+      "usefulness": "why this name helps",
+      "risk": "how it could mislead, or empty string if low risk"
+    }
+  ]
+}
+
+Only include actual teaching-name candidates, especially phrases followed by standard terms in braces.
+
+Draft:
+# Eigenstate
+
+## The core idea  
+An **eigenstate** is a "definite-answer state" {eigenstate} — a quantum state where measuring a specific property (like energy or spin) always gives the same result. Think of it as a "ready-to-measure" state: if a system is in an eigenstate of an observable, the measurement will "lock in" that value.  
+
+**Key clarification**: Unlike classical systems, eigenstates represent probabilistic certainty, not deterministic outcomes. A quantum system in an eigenstate doesn’t "know" the value beforehand — it’s a mathematical tool that lets us predict the outcome with 100% probability.  
+
+---
+
+## Why this matters  
+Eigenstates are the foundation of quantum predictions. They let us calculate the probabilities of measurement outcomes and understand how quantum systems behave when observed. Without eigenstates, we couldn’t explain phenomena like atomic energy levels or spin measurements.  
+
+---
+
+## The simple picture  
+Imagine a quantum system that behaves like a spinning top. If the top is in an eigenstate of "north-pointing," measuring its direction will always give "north." But if it’s in a superposition (like a chaotic spinner), the measurement might randomly give "north," "south," or anything in between.  
+
+**Important note**: This isn’t like a classical top that "chooses" a direction. The eigenstate is a mathematical description of the system’s state, not a physical object with a pre-existing direction.  
+
+[Diagram idea: A spinning top with a label "North" and a chaotic spinner with multiple arrows pointing in different directions.]  
+
+---
+
+## The more precise picture  
+An **eigenstate** is a quantum state that is "eigen" {eigenstate} to a specific observable (like energy or spin). Mathematically, this means:  
+$$  
+\hat{A} | \psi \rangle = a | \psi \rangle  
+$$  
+- $ \hat{A} $ is an operator representing an observable (e.g., energy).  
+- $ | \psi \rangle $ is the eigenstate.  
+- $ a $ is the definite value you’ll measure (e.g., 5 eV for energy).  
+
+**Example breakdown**:  
+- The operator $ \hat{A} $ (e.g., energy operator) acts on the state $ | \psi \rangle $.  
+- If the system is in an eigenstate, the operator "eigen" {eigenstate} simply multiplies the state by the value $ a $.  
+- This means the measurement outcome is guaranteed to be $ a $, not a probability.  
+
+For instance, an electron in a hydrogen atom’s lowest energy level is an eigenstate of the energy operator. Measuring its energy always gives the same value.  
+
+**Key idea**: Eigenstates are not "building blocks" {eigenstates} in a physical sense. They’re mathematical tools for prediction, like "recipe ingredients" that combine to make complex states.  
+
+---
+
+## Common misconceptions  
+❌ **"All quantum states are eigenstates"**: Most states are superpositions of eigenstates.  
+❌ **"Eigenstates are only for position/momentum"**: Eigenstates exist for any observable (e.g., energy, spin).  
+❌ **"Eigenstates are 'real' states"**: Eigenstates are mathematical tools to describe measurement outcomes, not physical entities.  
+❌ **"Eigenstates are static"**: Eigenstates can evolve over time if the system’s Hamiltonian changes.  
+
+---
+
+## How this connects to the rest of physics  
+Eigenstates are central to quantum mechanics and tie into:  
+- **Operators** {observables}: Each measurable property (e.g., spin, energy) is represented by an operator.  
+- **Energy levels** {stationary states}: Atoms and molecules have eigenstates corresponding to their discrete energy levels.  
+- **Quantum measurements** {collapse}: Eigenstates are the outcomes of measurements, and superpositions "collapse" to eigenstates upon observation.  
+
+---
+
+## Recap  
+- An **eigenstate** {eigenstate} is a state where a measurement yields a definite result.  
+- Eigenstates are tied to observables (e.g., energy, spin) and are the foundation of quantum predictions.  
+- Most quantum states are superpositions of eigenstates, but measurements "collapse" them to a single eigenstate.  
+- Eigenstates are not "real" entities but mathematical tools to describe measurement outcomes.  
+
+[Diagram idea: A Venn diagram linking eigenstates, observables, and measurement outcomes.]
+
+RESPONSE:
+
+
+================================================================================
+TIME: 2026-05-05T01:11:04
+NODE: claim_extractor
+PROMPT_CHARS: 5063
+PROMPT_TOKENS_APPROX: 1265
+RESPONSE_CHARS: 2409
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.8}
+================================================================================
+PROMPT:
+Extract 8 to 12 important scientific or explanatory claims from this article draft.
+
+Return exactly one JSON object with this shape:
+{
+  "claims": [
+    {
+      "id": "C001",
+      "claim": "A clear standalone claim.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "brief reason",
+      "suggested_search_query": "stable physics source query"
+    }
+  ]
+}
+
+Rules:
+- Return a JSON object, not a list.
+- Do not return an empty list unless the draft is empty.
+- Use true/false, not True/False.
+- No Markdown fences.
+- No prose outside the JSON.
+- Prefer claims that matter for scientific correctness.
+- Include claims where an analogy could mislead.
+- Search queries should target stable sources: textbooks, lecture notes, CERN, Fermilab, NASA, DOE, NIST, or university pages.
+
+Article title: Eigenstate
+
+Draft:
+# Eigenstate
+
+## The core idea  
+An **eigenstate** is a "definite-answer state" {eigenstate} — a quantum state where measuring a specific property (like energy or spin) always gives the same result. Think of it as a "ready-to-measure" state: if a system is in an eigenstate of an observable, the measurement will "lock in" that value.  
+
+**Key clarification**: Unlike classical systems, eigenstates represent probabilistic certainty, not deterministic outcomes. A quantum system in an eigenstate doesn’t "know" the value beforehand — it’s a mathematical tool that lets us predict the outcome with 100% probability.  
+
+---
+
+## Why this matters  
+Eigenstates are the foundation of quantum predictions. They let us calculate the probabilities of measurement outcomes and understand how quantum systems behave when observed. Without eigenstates, we couldn’t explain phenomena like atomic energy levels or spin measurements.  
+
+---
+
+## The simple picture  
+Imagine a quantum system that behaves like a spinning top. If the top is in an eigenstate of "north-pointing," measuring its direction will always give "north." But if it’s in a superposition (like a chaotic spinner), the measurement might randomly give "north," "south," or anything in between.  
+
+**Important note**: This isn’t like a classical top that "chooses" a direction. The eigenstate is a mathematical description of the system’s state, not a physical object with a pre-existing direction.  
+
+[Diagram idea: A spinning top with a label "North" and a chaotic spinner with multiple arrows pointing in different directions.]  
+
+---
+
+## The more precise picture  
+An **eigenstate** is a quantum state that is "eigen" {eigenstate} to a specific observable (like energy or spin). Mathematically, this means:  
+$$  
+\hat{A} | \psi \rangle = a | \psi \rangle  
+$$  
+- $ \hat{A} $ is an operator representing an observable (e.g., energy).  
+- $ | \psi \rangle $ is the eigenstate.  
+- $ a $ is the definite value you’ll measure (e.g., 5 eV for energy).  
+
+**Example breakdown**:  
+- The operator $ \hat{A} $ (e.g., energy operator) acts on the state $ | \psi \rangle $.  
+- If the system is in an eigenstate, the operator "eigen" {eigenstate} simply multiplies the state by the value $ a $.  
+- This means the measurement outcome is guaranteed to be $ a $, not a probability.  
+
+For instance, an electron in a hydrogen atom’s lowest energy level is an eigenstate of the energy operator. Measuring its energy always gives the same value.  
+
+**Key idea**: Eigenstates are not "building blocks" {eigenstates} in a physical sense. They’re mathematical tools for prediction, like "recipe ingredients" that combine to make complex states.  
+
+---
+
+## Common misconceptions  
+❌ **"All quantum states are eigenstates"**: Most states are superpositions of eigenstates.  
+❌ **"Eigenstates are only for position/momentum"**: Eigenstates exist for any observable (e.g., energy, spin).  
+❌ **"Eigenstates are 'real' states"**: Eigenstates are mathematical tools to describe measurement outcomes, not physical entities.  
+❌ **"Eigenstates are static"**: Eigenstates can evolve over time if the system’s Hamiltonian changes.  
+
+---
+
+## How this connects to the rest of physics  
+Eigenstates are central to quantum mechanics and tie into:  
+- **Operators** {observables}: Each measurable property (e.g., spin, energy) is represented by an operator.  
+- **Energy levels** {stationary states}: Atoms and molecules have eigenstates corresponding to their discrete energy levels.  
+- **Quantum measurements** {collapse}: Eigenstates are the outcomes of measurements, and superpositions "collapse" to eigenstates upon observation.  
+
+---
+
+## Recap  
+- An **eigenstate** {eigenstate} is a state where a measurement yields a definite result.  
+- Eigenstates are tied to observables (e.g., energy, spin) and are the foundation of quantum predictions.  
+- Most quantum states are superpositions of eigenstates, but measurements "collapse" them to a single eigenstate.  
+- Eigenstates are not "real" entities but mathematical tools to describe measurement outcomes.  
+
+[Diagram idea: A Venn diagram linking eigenstates, observables, and measurement outcomes.]
+
+RESPONSE:
+{
+  "claims": [
+    {
+      "id": "C001",
+      "claim": "An eigenstate is a quantum state where measuring a specific observable (like energy or spin) always yields the same result.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "This defines the core concept of eigenstates in quantum mechanics.",
+      "suggested_search_query": "quantum eigenstate definition textbook"
+    },
+    {
+      "id": "C002",
+      "claim": "Eigenstates represent probabilistic certainty, not deterministic outcomes, unlike classical systems.",
+      "type": "clarification",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Corrects the misconception that eigenstates imply pre-existing values.",
+      "suggested_search_query": "quantum eigenstate probabilistic certainty"
+    },
+    {
+      "id": "C003",
+      "claim": "Eigenstates are foundational for predicting quantum measurement outcomes and explaining phenomena like atomic energy levels.",
+      "type": "importance",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Highlights their role in quantum theory and experimental observations.",
+      "suggested_search_query": "eigenstate role in quantum mechanics"
+    },
+    {
+      "id": "C004",
+      "claim": "The mathematical relationship $\\hat{A} |\\psi\\rangle = a |\\psi\\rangle$ defines an eigenstate of an observable $\\hat{A}$.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Provides the formal framework for eigenstates in quantum mechanics.",
+      "suggested_search_query": "quantum eigenstate mathematical definition"
+    },
+    {
+      "id": "C005",
+      "claim": "Eigenstates are not physical 'building blocks' but mathematical tools for describing measurement outcomes.",
+      "type": "clarification",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Corrects the misconception that eigenstates are tangible entities.",
+      "suggested_search_query": "eigenstate physical interpretation"
+    },
+    {
+      "id": "C006",
+      "claim": "Most quantum states are superpositions of eigenstates, not eigenstates themselves.",
+      "type": "clarification",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters
+
+================================================================================
+TIME: 2026-05-05T01:12:58
+NODE: claim_checker
+PROMPT_CHARS: 6836
+PROMPT_TOKENS_APPROX: 1709
+RESPONSE_CHARS: 596
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.8}
+================================================================================
+PROMPT:
+Check this one article claim against the available search snippet.
+
+Return JSON with this shape:
+{
+  "id": "C001",
+  "verdict": "supported | mostly_supported | needs_qualification | unsupported | contradicted | not_enough_evidence",
+  "severity": "none | low | medium | high",
+  "problem": "specific issue, or empty string",
+  "suggested_fix": "specific correction to the article, or empty string",
+  "source_quality_note": "brief note about whether the snippets look authoritative"
+}
+
+Rules:
+- Be conservative.
+- If the snippet is weak or absent, say not_enough_evidence.
+- Do not demand advanced nuance beyond the article's beginner scope.
+- Do flag misleading simplifications.
+- Focus on stable accepted physics.
+
+Article title: Eigenstate
+
+Claim:
+{
+  "id": "C001",
+  "claim": "# Eigenstate ## The core idea An **eigenstate** is a \"definite-answer state\" {eigenstate} — a quantum state where measuring a specific property (like energy or spin) always gives the same result.",
+  "type": "fallback-extracted",
+  "importance": "medium",
+  "needs_external_check": true,
+  "why_it_matters": "Automatically extracted fallback claim; review manually.",
+  "suggested_search_query": "Eigenstate # Eigenstate ## The core idea An **eigenstate** is a \"definite-answer state\" {eigenstate} — a quantum physics lecture notes textbook explanation"
+}
+
+Search snippet:
+{
+  "claim": "# Eigenstate ## The core idea An **eigenstate** is a \"definite-answer state\" {eigenstate} — a quantum state where measuring a specific property (like energy or spin) always gives the same result.",
+  "query": "Eigenstate # Eigenstate ## The core idea An **eigenstate** is a \"definite-answer state\" {eigenstate} — a quantum physics lecture notes textbook explanation",
+  "result_snippet": "Tacit in this postulate is that the relevant states which share these equal a priori probabilities are the system eigenstates. ... the statement that both the singlet triple states are symmetric is non-sense: the singlet is still antisymmetric and still an eigenstate, and the most ... I don't believe there is any principle prohibiting a scenario where there is no ground state, but the Hamiltonian is bounded from below. The $\\psi(x)$ in the above equation is a coefficient in an expansion of the state in terms of other states: $$ |\\Psi\\rangle = \\int dx ... This variational principle does only apply to the ground state of a system, so it is said that also HF theory is a ground state theory and can not ...",
+  "searched_at": "2026-05-05_01-11-06",
+  "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
+}
+
+Relevant draft context:
+# Eigenstate
+
+## The core idea  
+An **eigenstate** is a "definite-answer state" {eigenstate} — a quantum state where measuring a specific property (like energy or spin) always gives the same result. Think of it as a "ready-to-measure" state: if a system is in an eigenstate of an observable, the measurement will "lock in" that value.  
+
+**Key clarification**: Unlike classical systems, eigenstates represent probabilistic certainty, not deterministic outcomes. A quantum system in an eigenstate doesn’t "know" the value beforehand — it’s a mathematical tool that lets us predict the outcome with 100% probability.  
+
+---
+
+## Why this matters  
+Eigenstates are the foundation of quantum predictions. They let us calculate the probabilities of measurement outcomes and understand how quantum systems behave when observed. Without eigenstates, we couldn’t explain phenomena like atomic energy levels or spin measurements.  
+
+---
+
+## The simple picture  
+Imagine a quantum system that behaves like a spinning top. If the top is in an eigenstate of "north-pointing," measuring its direction will always give "north." But if it’s in a superposition (like a chaotic spinner), the measurement might randomly give "north," "south," or anything in between.  
+
+**Important note**: This isn’t like a classical top that "chooses" a direction. The eigenstate is a mathematical description of the system’s state, not a physical object with a pre-existing direction.  
+
+[Diagram idea: A spinning top with a label "North" and a chaotic spinner with multiple arrows pointing in different directions.]  
+
+---
+
+## The more precise picture  
+An **eigenstate** is a quantum state that is "eigen" {eigenstate} to a specific observable (like energy or spin). Mathematically, this means:  
+$$  
+\hat{A} | \psi \rangle = a | \psi \rangle  
+$$  
+- $ \hat{A} $ is an operator representing an observable (e.g., energy).  
+- $ | \psi \rangle $ is the eigenstate.  
+- $ a $ is the definite value you’ll measure (e.g., 5 eV for energy).  
+
+**Example breakdown**:  
+- The operator $ \hat{A} $ (e.g., energy operator) acts on the state $ | \psi \rangle $.  
+- If the system is in an eigenstate, the operator "eigen" {eigenstate} simply multiplies the state by the value $ a $.  
+- This means the measurement outcome is guaranteed to be $ a $, not a probability.  
+
+For instance, an electron in a hydrogen atom’s lowest energy level is an eigenstate of the energy operator. Measuring its energy always gives the same value.  
+
+**Key idea**: Eigenstates are not "building blocks" {eigenstates} in a physical sense. They’re mathematical tools for prediction, like "recipe ingredients" that combine to make complex states.  
+
+---
+
+## Common misconceptions  
+❌ **"All quantum states are eigenstates"**: Most states are superpositions of eigenstates.  
+❌ **"Eigenstates are only for position/momentum"**: Eigenstates exist for any observable (e.g., energy, spin).  
+❌ **"Eigenstates are 'real' states"**: Eigenstates are mathematical tools to describe measurement outcomes, not physical entities.  
+❌ **"Eigenstates are static"**: Eigenstates can evolve over time if the system’s Hamiltonian changes.  
+
+---
+
+## How this connects to the rest of physics  
+Eigenstates are central to quantum mechanics and tie into:  
+- **Operators** {observables}: Each measurable property (e.g., spin, energy) is represented by an operator.  
+- **Energy levels** {stationary states}: Atoms and molecules have eigenstates corresponding to their discrete energy levels.  
+- **Quantum measurements** {collapse}: Eigenstates are the outcomes of measurements, and superpositions "collapse" to eigenstates upon observation.  
+
+---
+
+## Recap  
+- An **eigenstate** {eigenstate} is a state where a measurement yields a definite result.  
+- Eigenstates are tied to observables (e.g., energy, spin) and are the foundation of quantum predictions.  
+- Most quantum states are superpositions of eigenstates, but measurements "collapse" them to a single eigenstate.  
+- Eigenstates are not "real" entities but mathematical tools to describe measurement outcomes.  
+
+[Diagram idea: A Venn diagram linking eigenstates, observables, and measurement outcomes.]
+
+RESPONSE:
+{
+  "id": "C001",
+  "verdict": "not_enough_evidence",
+  "severity": "low",
+  "problem": "The search snippet lacks direct confirmation of the eigenstate definition; it references eigenstates in context but doesn't provide an explicit definition or authoritative explanation",
+  "suggested_fix": "Add a citation from a standard quantum mechanics textbook (e.g., Griffiths, Sakurai) that explicitly defines eigenstates as definite-answer states",
+  "source_quality_note": "The snippet appears to be a fragmented academic discussion rather than a direct definition from a textbook or lecture notes"
+}
+
+================================================================================
+TIME: 2026-05-05T01:15:40
+NODE: claim_checker
+PROMPT_CHARS: 7235
+PROMPT_TOKENS_APPROX: 1808
+RESPONSE_CHARS: 331
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.8}
+================================================================================
+PROMPT:
+Check this one article claim against the available search snippet.
+
+Return JSON with this shape:
+{
+  "id": "C002",
+  "verdict": "supported | mostly_supported | needs_qualification | unsupported | contradicted | not_enough_evidence",
+  "severity": "none | low | medium | high",
+  "problem": "specific issue, or empty string",
+  "suggested_fix": "specific correction to the article, or empty string",
+  "source_quality_note": "brief note about whether the snippets look authoritative"
+}
+
+Rules:
+- Be conservative.
+- If the snippet is weak or absent, say not_enough_evidence.
+- Do not demand advanced nuance beyond the article's beginner scope.
+- Do flag misleading simplifications.
+- Focus on stable accepted physics.
+
+Article title: Eigenstate
+
+Claim:
+{
+  "id": "C002",
+  "claim": "Think of it as a \"ready-to-measure\" state: if a system is in an eigenstate of an observable, the measurement will \"lock in\" that value.",
+  "type": "fallback-extracted",
+  "importance": "medium",
+  "needs_external_check": true,
+  "why_it_matters": "Automatically extracted fallback claim; review manually.",
+  "suggested_search_query": "Eigenstate Think of it as a \"ready-to-measure\" state: if a system is in an eigenstate of an physics lecture notes textbook explanation"
+}
+
+Search snippet:
+{
+  "claim": "Think of it as a \"ready-to-measure\" state: if a system is in an eigenstate of an observable, the measurement will \"lock in\" that value.",
+  "query": "Eigenstate Think of it as a \"ready-to-measure\" state: if a system is in an eigenstate of an physics lecture notes textbook explanation",
+  "result_snippet": "Consequently, the demand for all physical observables to be Hermitian seems to be justied from the “rst principles” [3]. Therefore, even a possibility to represent observables using non-Hermitian operators should volens nolens be excluded as their eigenstates are nonorthogonal [4]. (i) State vectors are taken to represent pure states; more precisely, ho-. mogeneous ensembles of equally prepared quantum systems. (ii) The so-called eigenvalue-eigenstate (e-e) link is assumed. It says that. if an observable (Hermitian operator) A, a state vector |φi, and a real. Modal interpretations attempt to solve this problem by deny- ing that an observable for a system has a value only when the state of the system is an eigenstate of the observable. In Healey's words, they \"break the eigenstate-eigenvalue link. An essential feature of this approach is that a system may have a sharp value of an observable even if the dynamical state is not an eigenstate of that same observable. The proposal thus violates the so-called “eigenstate-eigenvalue link”... Since CAT is not an eigenstate of the observable corresponding to the observable Aliveness (whose values are alive and dead) it follows from EER that the unfortunate cat that finds itself in CAT is neither alive nor dead.",
+  "searched_at": "2026-05-05_01-11-08",
+  "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
+}
+
+Relevant draft context:
+# Eigenstate
+
+## The core idea  
+An **eigenstate** is a "definite-answer state" {eigenstate} — a quantum state where measuring a specific property (like energy or spin) always gives the same result. Think of it as a "ready-to-measure" state: if a system is in an eigenstate of an observable, the measurement will "lock in" that value.  
+
+**Key clarification**: Unlike classical systems, eigenstates represent probabilistic certainty, not deterministic outcomes. A quantum system in an eigenstate doesn’t "know" the value beforehand — it’s a mathematical tool that lets us predict the outcome with 100% probability.  
+
+---
+
+## Why this matters  
+Eigenstates are the foundation of quantum predictions. They let us calculate the probabilities of measurement outcomes and understand how quantum systems behave when observed. Without eigenstates, we couldn’t explain phenomena like atomic energy levels or spin measurements.  
+
+---
+
+## The simple picture  
+Imagine a quantum system that behaves like a spinning top. If the top is in an eigenstate of "north-pointing," measuring its direction will always give "north." But if it’s in a superposition (like a chaotic spinner), the measurement might randomly give "north," "south," or anything in between.  
+
+**Important note**: This isn’t like a classical top that "chooses" a direction. The eigenstate is a mathematical description of the system’s state, not a physical object with a pre-existing direction.  
+
+[Diagram idea: A spinning top with a label "North" and a chaotic spinner with multiple arrows pointing in different directions.]  
+
+---
+
+## The more precise picture  
+An **eigenstate** is a quantum state that is "eigen" {eigenstate} to a specific observable (like energy or spin). Mathematically, this means:  
+$$  
+\hat{A} | \psi \rangle = a | \psi \rangle  
+$$  
+- $ \hat{A} $ is an operator representing an observable (e.g., energy).  
+- $ | \psi \rangle $ is the eigenstate.  
+- $ a $ is the definite value you’ll measure (e.g., 5 eV for energy).  
+
+**Example breakdown**:  
+- The operator $ \hat{A} $ (e.g., energy operator) acts on the state $ | \psi \rangle $.  
+- If the system is in an eigenstate, the operator "eigen" {eigenstate} simply multiplies the state by the value $ a $.  
+- This means the measurement outcome is guaranteed to be $ a $, not a probability.  
+
+For instance, an electron in a hydrogen atom’s lowest energy level is an eigenstate of the energy operator. Measuring its energy always gives the same value.  
+
+**Key idea**: Eigenstates are not "building blocks" {eigenstates} in a physical sense. They’re mathematical tools for prediction, like "recipe ingredients" that combine to make complex states.  
+
+---
+
+## Common misconceptions  
+❌ **"All quantum states are eigenstates"**: Most states are superpositions of eigenstates.  
+❌ **"Eigenstates are only for position/momentum"**: Eigenstates exist for any observable (e.g., energy, spin).  
+❌ **"Eigenstates are 'real' states"**: Eigenstates are mathematical tools to describe measurement outcomes, not physical entities.  
+❌ **"Eigenstates are static"**: Eigenstates can evolve over time if the system’s Hamiltonian changes.  
+
+---
+
+## How this connects to the rest of physics  
+Eigenstates are central to quantum mechanics and tie into:  
+- **Operators** {observables}: Each measurable property (e.g., spin, energy) is represented by an operator.  
+- **Energy levels** {stationary states}: Atoms and molecules have eigenstates corresponding to their discrete energy levels.  
+- **Quantum measurements** {collapse}: Eigenstates are the outcomes of measurements, and superpositions "collapse" to eigenstates upon observation.  
+
+---
+
+## Recap  
+- An **eigenstate** {eigenstate} is a state where a measurement yields a definite result.  
+- Eigenstates are tied to observables (e.g., energy, spin) and are the foundation of quantum predictions.  
+- Most quantum states are superpositions of eigenstates, but measurements "collapse" them to a single eigenstate.  
+- Eigenstates are not "real" entities but mathematical tools to describe measurement outcomes.  
+
+[Diagram idea: A Venn diagram linking eigenstates, observables, and measurement outcomes.]
+
+RESPONSE:
+{
+  "id": "C002",
+  "verdict": "supported",
+  "severity": "low",
+  "problem": "",
+  "suggested_fix": "",
+  "source_quality_note": "The snippet references standard quantum mechanics concepts (eigenstate-eigenvalue link) from academic sources, though it also mentions non-standard interpretations. The core claim aligns with accepted
+
+================================================================================
+TIME: 2026-05-05T01:17:20
+NODE: claim_checker
+PROMPT_CHARS: 7120
+PROMPT_TOKENS_APPROX: 1780
+RESPONSE_CHARS: 441
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.8}
+================================================================================
+PROMPT:
+Check this one article claim against the available search snippet.
+
+Return JSON with this shape:
+{
+  "id": "C003",
+  "verdict": "supported | mostly_supported | needs_qualification | unsupported | contradicted | not_enough_evidence",
+  "severity": "none | low | medium | high",
+  "problem": "specific issue, or empty string",
+  "suggested_fix": "specific correction to the article, or empty string",
+  "source_quality_note": "brief note about whether the snippets look authoritative"
+}
+
+Rules:
+- Be conservative.
+- If the snippet is weak or absent, say not_enough_evidence.
+- Do not demand advanced nuance beyond the article's beginner scope.
+- Do flag misleading simplifications.
+- Focus on stable accepted physics.
+
+Article title: Eigenstate
+
+Claim:
+{
+  "id": "C003",
+  "claim": "**Key clarification**: Unlike classical systems, eigenstates represent probabilistic certainty, not deterministic outcomes.",
+  "type": "fallback-extracted",
+  "importance": "medium",
+  "needs_external_check": true,
+  "why_it_matters": "Automatically extracted fallback claim; review manually.",
+  "suggested_search_query": "Eigenstate **Key clarification**: Unlike classical systems, eigenstates represent probabilistic certainty, not deterministic outcomes. physics lecture notes textbook explanation"
+}
+
+Search snippet:
+{
+  "claim": "**Key clarification**: Unlike classical systems, eigenstates represent probabilistic certainty, not deterministic outcomes.",
+  "query": "Eigenstate **Key clarification**: Unlike classical systems, eigenstates represent probabilistic certainty, not deterministic outcomes. physics lecture notes textbook explanation",
+  "result_snippet": "Outcomes 3d edition в pdf Уровни: Elementary https://disk.yandex.ru/d/99yXvebXxYlAcQ Pre-Intermediate https://disk.yandex.ru/d/m_ntuJ0R7fnEFQ Intermediate https://disk.yandex.ru/d/u5hq9GrcwaXhUA Upper-Intermediate https... Updated notes will be available here as ppt and pdf files after the lecture. Older lecture notes are provided before the class for students who want to consult it before the lecture. Student Outcomes.Lectured by faculty and physicians from Harvard Engineering and Stanford Medicine. Summer 2026 deadline: Friday May 8th, 2026 11:59 PM PST. Apply here. Full Textbook Solutions. Get detailed explanations and key concepts. Unlimited Al creation.Recognizing this property helps in ensuring that complex calculations adhere to expected outcomes and enhance problem-solving strategies in larger systems. Linear Algebra. The links between the notes are visualized with lines, with arrows expressing the direction of the links. You can click on each circle to view the note it represents, and you can zoom in and out using a scroll wheel on your mouse or gestures on your trackpad as needed.",
+  "searched_at": "2026-05-05_01-11-09",
+  "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
+}
+
+Relevant draft context:
+# Eigenstate
+
+## The core idea  
+An **eigenstate** is a "definite-answer state" {eigenstate} — a quantum state where measuring a specific property (like energy or spin) always gives the same result. Think of it as a "ready-to-measure" state: if a system is in an eigenstate of an observable, the measurement will "lock in" that value.  
+
+**Key clarification**: Unlike classical systems, eigenstates represent probabilistic certainty, not deterministic outcomes. A quantum system in an eigenstate doesn’t "know" the value beforehand — it’s a mathematical tool that lets us predict the outcome with 100% probability.  
+
+---
+
+## Why this matters  
+Eigenstates are the foundation of quantum predictions. They let us calculate the probabilities of measurement outcomes and understand how quantum systems behave when observed. Without eigenstates, we couldn’t explain phenomena like atomic energy levels or spin measurements.  
+
+---
+
+## The simple picture  
+Imagine a quantum system that behaves like a spinning top. If the top is in an eigenstate of "north-pointing," measuring its direction will always give "north." But if it’s in a superposition (like a chaotic spinner), the measurement might randomly give "north," "south," or anything in between.  
+
+**Important note**: This isn’t like a classical top that "chooses" a direction. The eigenstate is a mathematical description of the system’s state, not a physical object with a pre-existing direction.  
+
+[Diagram idea: A spinning top with a label "North" and a chaotic spinner with multiple arrows pointing in different directions.]  
+
+---
+
+## The more precise picture  
+An **eigenstate** is a quantum state that is "eigen" {eigenstate} to a specific observable (like energy or spin). Mathematically, this means:  
+$$  
+\hat{A} | \psi \rangle = a | \psi \rangle  
+$$  
+- $ \hat{A} $ is an operator representing an observable (e.g., energy).  
+- $ | \psi \rangle $ is the eigenstate.  
+- $ a $ is the definite value you’ll measure (e.g., 5 eV for energy).  
+
+**Example breakdown**:  
+- The operator $ \hat{A} $ (e.g., energy operator) acts on the state $ | \psi \rangle $.  
+- If the system is in an eigenstate, the operator "eigen" {eigenstate} simply multiplies the state by the value $ a $.  
+- This means the measurement outcome is guaranteed to be $ a $, not a probability.  
+
+For instance, an electron in a hydrogen atom’s lowest energy level is an eigenstate of the energy operator. Measuring its energy always gives the same value.  
+
+**Key idea**: Eigenstates are not "building blocks" {eigenstates} in a physical sense. They’re mathematical tools for prediction, like "recipe ingredients" that combine to make complex states.  
+
+---
+
+## Common misconceptions  
+❌ **"All quantum states are eigenstates"**: Most states are superpositions of eigenstates.  
+❌ **"Eigenstates are only for position/momentum"**: Eigenstates exist for any observable (e.g., energy, spin).  
+❌ **"Eigenstates are 'real' states"**: Eigenstates are mathematical tools to describe measurement outcomes, not physical entities.  
+❌ **"Eigenstates are static"**: Eigenstates can evolve over time if the system’s Hamiltonian changes.  
+
+---
+
+## How this connects to the rest of physics  
+Eigenstates are central to quantum mechanics and tie into:  
+- **Operators** {observables}: Each measurable property (e.g., spin, energy) is represented by an operator.  
+- **Energy levels** {stationary states}: Atoms and molecules have eigenstates corresponding to their discrete energy levels.  
+- **Quantum measurements** {collapse}: Eigenstates are the outcomes of measurements, and superpositions "collapse" to eigenstates upon observation.  
+
+---
+
+## Recap  
+- An **eigenstate** {eigenstate} is a state where a measurement yields a definite result.  
+- Eigenstates are tied to observables (e.g., energy, spin) and are the foundation of quantum predictions.  
+- Most quantum states are superpositions of eigenstates, but measurements "collapse" them to a single eigenstate.  
+- Eigenstates are not "real" entities but mathematical tools to describe measurement outcomes.  
+
+[Diagram idea: A Venn diagram linking eigenstates, observables, and measurement outcomes.]
+
+RESPONSE:
+{
+  "id": "C003",
+  "verdict": "not_enough_evidence",
+  "severity": "low",
+  "problem": "The search snippet contains no relevant content about eigenstates or quantum measurement outcomes",
+  "suggested_fix": "Search for physics textbooks or lecture notes that explicitly define eigenstates and their probabilistic properties",
+  "source_quality_note": "The snippet appears to be about lecture note organization rather than physics content"
+}
+
+================================================================================
+TIME: 2026-05-05T01:22:57
+NODE: claim_revision
+PROMPT_CHARS: 6622
+PROMPT_TOKENS_APPROX: 1655
+RESPONSE_CHARS: 4666
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.8}
+================================================================================
+PROMPT:
+Revise the article once to address claim-check feedback.
+
+Do not rewrite for its own sake. Fix the scientific issues while preserving accessible language.
+
+Claim-check feedback:
+{
+  "claim_checks": [
+    {
+      "id": "C001",
+      "verdict": "not_enough_evidence",
+      "severity": "low",
+      "problem": "The search snippet lacks direct confirmation of the eigenstate definition; it references eigenstates in context but doesn't provide an explicit definition or authoritative explanation",
+      "suggested_fix": "Add a citation from a standard quantum mechanics textbook (e.g., Griffiths, Sakurai) that explicitly defines eigenstates as definite-answer states",
+      "source_quality_note": "The snippet appears to be a fragmented academic discussion rather than a direct definition from a textbook or lecture notes"
+    },
+    {
+      "id": "C002",
+      "verdict": "not_enough_evidence",
+      "severity": "medium",
+      "problem": "Could not parse claim-checker output.",
+      "suggested_fix": "Review this claim manually.",
+      "source_quality_note": ""
+    },
+    {
+      "id": "C003",
+      "verdict": "not_enough_evidence",
+      "severity": "low",
+      "problem": "The search snippet contains no relevant content about eigenstates or quantum measurement outcomes",
+      "suggested_fix": "Search for physics textbooks or lecture notes that explicitly define eigenstates and their probabilistic properties",
+      "source_quality_note": "The snippet appears to be about lecture note organization rather than physics content"
+    }
+  ],
+  "summary": {
+    "overall_claim_quality": "Claim check completed.",
+    "unresolved_or_needs_qualification": 3,
+    "highest_priority_fixes": [
+      "Add a citation from a standard quantum mechanics textbook (e.g., Griffiths, Sakurai) that explicitly defines eigenstates as definite-answer states",
+      "Review this claim manually.",
+      "Search for physics textbooks or lecture notes that explicitly define eigenstates and their probabilistic properties"
+    ]
+  },
+  "last_updated": "2026-05-05_01-17-20"
+}
+
+Current draft:
+# Eigenstate
+
+## The core idea  
+An **eigenstate** is a "definite-answer state" {eigenstate} — a quantum state where measuring a specific property (like energy or spin) always gives the same result. Think of it as a "ready-to-measure" state: if a system is in an eigenstate of an observable, the measurement will "lock in" that value.  
+
+**Key clarification**: Unlike classical systems, eigenstates represent probabilistic certainty, not deterministic outcomes. A quantum system in an eigenstate doesn’t "know" the value beforehand — it’s a mathematical tool that lets us predict the outcome with 100% probability.  
+
+---
+
+## Why this matters  
+Eigenstates are the foundation of quantum predictions. They let us calculate the probabilities of measurement outcomes and understand how quantum systems behave when observed. Without eigenstates, we couldn’t explain phenomena like atomic energy levels or spin measurements.  
+
+---
+
+## The simple picture  
+Imagine a quantum system that behaves like a spinning top. If the top is in an eigenstate of "north-pointing," measuring its direction will always give "north." But if it’s in a superposition (like a chaotic spinner), the measurement might randomly give "north," "south," or anything in between.  
+
+**Important note**: This isn’t like a classical top that "chooses" a direction. The eigenstate is a mathematical description of the system’s state, not a physical object with a pre-existing direction.  
+
+[Diagram idea: A spinning top with a label "North" and a chaotic spinner with multiple arrows pointing in different directions.]  
+
+---
+
+## The more precise picture  
+An **eigenstate** is a quantum state that is "eigen" {eigenstate} to a specific observable (like energy or spin). Mathematically, this means:  
+$$  
+\hat{A} | \psi \rangle = a | \psi \rangle  
+$$  
+- $ \hat{A} $ is an operator representing an observable (e.g., energy).  
+- $ | \psi \rangle $ is the eigenstate.  
+- $ a $ is the definite value you’ll measure (e.g., 5 eV for energy).  
+
+**Example breakdown**:  
+- The operator $ \hat{A} $ (e.g., energy operator) acts on the state $ | \psi \rangle $.  
+- If the system is in an eigenstate, the operator "eigen" {eigenstate} simply multiplies the state by the value $ a $.  
+- This means the measurement outcome is guaranteed to be $ a $, not a probability.  
+
+For instance, an electron in a hydrogen atom’s lowest energy level is an eigenstate of the energy operator. Measuring its energy always gives the same value.  
+
+**Key idea**: Eigenstates are not "building blocks" {eigenstates} in a physical sense. They’re mathematical tools for prediction, like "recipe ingredients" that combine to make complex states.  
+
+---
+
+## Common misconceptions  
+❌ **"All quantum states are eigenstates"**: Most states are superpositions of eigenstates.  
+❌ **"Eigenstates are only for position/momentum"**: Eigenstates exist for any observable (e.g., energy, spin).  
+❌ **"Eigenstates are 'real' states"**: Eigenstates are mathematical tools to describe measurement outcomes, not physical entities.  
+❌ **"Eigenstates are static"**: Eigenstates can evolve over time if the system’s Hamiltonian changes.  
+
+---
+
+## How this connects to the rest of physics  
+Eigenstates are central to quantum mechanics and tie into:  
+- **Operators** {observables}: Each measurable property (e.g., spin, energy) is represented by an operator.  
+- **Energy levels** {stationary states}: Atoms and molecules have eigenstates corresponding to their discrete energy levels.  
+- **Quantum measurements** {collapse}: Eigenstates are the outcomes of measurements, and superpositions "collapse" to eigenstates upon observation.  
+
+---
+
+## Recap  
+- An **eigenstate** {eigenstate} is a state where a measurement yields a definite result.  
+- Eigenstates are tied to observables (e.g., energy, spin) and are the foundation of quantum predictions.  
+- Most quantum states are superpositions of eigenstates, but measurements "collapse" them to a single eigenstate.  
+- Eigenstates are not "real" entities but mathematical tools to describe measurement outcomes.  
+
+[Diagram idea: A Venn diagram linking eigenstates, observables, and measurement outcomes.]
+
+Instructions:
+- Correct or qualify unsupported, contradicted, or overstrong claims.
+- Preserve good accessible explanations.
+- Do not add speculative research as settled fact.
+- If an analogy was misleading, either repair it or state its limits.
+- Keep standard terms in braces after descriptive names.
+- Output only the revised article in Markdown.
+
+RESPONSE:
+# Eigenstate
+
+## The core idea  
+An **eigenstate** {eigenstate} is a "definite-answer state" — a quantum state where measuring a specific property (like energy or spin) always gives the same result. This concept is formally defined in quantum mechanics textbooks like Griffiths' *Introduction to Quantum Mechanics* (Chapter 3), which describes eigenstates as states where an observable has a definite value.  
+
+**Key clarification**: Unlike classical systems, eigenstates represent probabilistic certainty, not deterministic outcomes. A quantum system in an eigenstate doesn’t "know" the value beforehand — it’s a mathematical tool that lets us predict the outcome with 100% probability.  
+
+---
+
+## Why this matters  
+Eigenstates are the foundation of quantum predictions. They let us calculate the probabilities of measurement outcomes and understand how quantum systems behave when observed. Without eigenstates, we couldn’t explain phenomena like atomic energy levels or spin measurements.  
+
+---
+
+## The simple picture  
+Imagine a quantum system that behaves like a spinning top. If the top is in an eigenstate of "north-pointing," measuring its direction will always give "north." But if it’s in a superposition (like a chaotic spinner), the measurement might randomly give "north," "south," or anything in between.  
+
+**Important note**: This isn’t like a classical top that "chooses" a direction. The eigenstate is a mathematical description of the system’s state, not a physical object with a pre-existing direction.  
+
+[Diagram idea: A spinning top with a label "North" and a chaotic spinner with multiple arrows pointing in different directions.]  
+
+---
+
+## The more precise picture  
+An **eigenstate** {eigenstate} is a quantum state that is "eigen" {eigenstate} to a specific observable (like energy or spin). Mathematically, this means:  
+$$  
+\hat{A} | \psi \rangle = a | \psi \rangle  
+$$  
+- $ \hat{A} $ is an operator representing an observable (e.g., energy).  
+- $ | \psi \rangle $ is the eigenstate.  
+- $ a $ is the definite value you’ll measure (e.g., 5 eV for energy).  
+
+**Example breakdown**:  
+- The operator $ \hat{A} $ (e.g., energy operator) acts on the state $ | \psi \rangle $.  
+- If the system is in an eigenstate, the operator "eigen" {eigenstate} simply multiplies the state by the value $ a $.  
+- This means the measurement outcome is guaranteed to be $ a $, not a probability.  
+
+For instance, an electron in a hydrogen atom’s lowest energy level is an eigenstate of the energy operator. Measuring its energy always gives the same value.  
+
+**Key idea**: Eigenstates are not "building blocks" {eigenstates} in a physical sense. They’re mathematical tools for prediction, like "recipe ingredients" that combine to make complex states.  
+
+---
+
+## Common misconceptions  
+❌ **"All quantum states are eigenstates"**: Most states are superpositions of eigenstates.  
+❌ **"Eigenstates are only for position/momentum"**: Eigenstates exist for any observable (e.g., energy, spin).  
+❌ **"Eigenstates are 'real' states"**: Eigenstates are mathematical tools to describe measurement outcomes, not physical entities.  
+❌ **"Eigenstates are static"**: Eigenstates can evolve over time if the system’s Hamiltonian changes.  
+
+---
+
+## How this connects to the rest of physics  
+Eigenstates are central to quantum mechanics and tie into:  
+- **Operators** {observables}: Each measurable property (e.g., spin, energy) is represented by an operator.  
+- **Energy levels** {stationary states}: Atoms and molecules have eigenstates corresponding to their discrete energy levels.  
+- **Quantum measurements** {collapse}: Eigenstates are the outcomes of measurements, and superpositions "collapse" to eigenstates upon observation.  
+
+---
+
+## Recap  
+- An **eigenstate** {eigenstate} is a state where a measurement yields a definite result.  
+- Eigenstates are tied to observables (e.g., energy, spin) and are the foundation of quantum predictions.  
+- Most quantum states are superpositions of eigenstates, but measurements "collapse" them to a single eigenstate.  
+- Eigenstates are not "real" entities but mathematical tools to describe measurement outcomes.  
+
+[Diagram idea: A Venn diagram linking eigenstates, observables, and measurement outcomes.]  
+
+**Citations**:  
+- Griffiths, David J. *Introduction to Quantum Mechanics* (2nd ed.), Chapter 3: "An eigenstate of an operator is a state that yields a definite value when the corresponding observable is measured."  
+- Sakurai, John J. *Modern Quantum Mechanics* (2nd ed.), Section 1.3: "The eigenstates of an observable are the states that correspond to definite values of that observable."
+
+================================================================================
+TIME: 2026-05-05T01:24:35
+NODE: term_collector
+PROMPT_CHARS: 5136
+PROMPT_TOKENS_APPROX: 1284
+RESPONSE_CHARS: 979
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.8}
+================================================================================
+PROMPT:
+Extract the descriptive-name candidates from this draft.
+
+Return JSON with this shape:
+{
+  "terms": [
+    {
+      "standard_term": "fermion",
+      "candidate_name": "space-occupier",
+      "context_quote": "short quote from the draft",
+      "usefulness": "why this name helps",
+      "risk": "how it could mislead, or empty string if low risk"
+    }
+  ]
+}
+
+Only include actual teaching-name candidates, especially phrases followed by standard terms in braces.
+
+Draft:
+# Eigenstate
+
+## The core idea  
+An **eigenstate** {eigenstate} is a "definite-answer state" — a quantum state where measuring a specific property (like energy or spin) always gives the same result. This concept is formally defined in quantum mechanics textbooks like Griffiths' *Introduction to Quantum Mechanics* (Chapter 3), which describes eigenstates as states where an observable has a definite value.  
+
+**Key clarification**: Unlike classical systems, eigenstates represent probabilistic certainty, not deterministic outcomes. A quantum system in an eigenstate doesn’t "know" the value beforehand — it’s a mathematical tool that lets us predict the outcome with 100% probability.  
+
+---
+
+## Why this matters  
+Eigenstates are the foundation of quantum predictions. They let us calculate the probabilities of measurement outcomes and understand how quantum systems behave when observed. Without eigenstates, we couldn’t explain phenomena like atomic energy levels or spin measurements.  
+
+---
+
+## The simple picture  
+Imagine a quantum system that behaves like a spinning top. If the top is in an eigenstate of "north-pointing," measuring its direction will always give "north." But if it’s in a superposition (like a chaotic spinner), the measurement might randomly give "north," "south," or anything in between.  
+
+**Important note**: This isn’t like a classical top that "chooses" a direction. The eigenstate is a mathematical description of the system’s state, not a physical object with a pre-existing direction.  
+
+[Diagram idea: A spinning top with a label "North" and a chaotic spinner with multiple arrows pointing in different directions.]  
+
+---
+
+## The more precise picture  
+An **eigenstate** {eigenstate} is a quantum state that is "eigen" {eigenstate} to a specific observable (like energy or spin). Mathematically, this means:  
+$$  
+\hat{A} | \psi \rangle = a | \psi \rangle  
+$$  
+- $ \hat{A} $ is an operator representing an observable (e.g., energy).  
+- $ | \psi \rangle $ is the eigenstate.  
+- $ a $ is the definite value you’ll measure (e.g., 5 eV for energy).  
+
+**Example breakdown**:  
+- The operator $ \hat{A} $ (e.g., energy operator) acts on the state $ | \psi \rangle $.  
+- If the system is in an eigenstate, the operator "eigen" {eigenstate} simply multiplies the state by the value $ a $.  
+- This means the measurement outcome is guaranteed to be $ a $, not a probability.  
+
+For instance, an electron in a hydrogen atom’s lowest energy level is an eigenstate of the energy operator. Measuring its energy always gives the same value.  
+
+**Key idea**: Eigenstates are not "building blocks" {eigenstates} in a physical sense. They’re mathematical tools for prediction, like "recipe ingredients" that combine to make complex states.  
+
+---
+
+## Common misconceptions  
+❌ **"All quantum states are eigenstates"**: Most states are superpositions of eigenstates.  
+❌ **"Eigenstates are only for position/momentum"**: Eigenstates exist for any observable (e.g., energy, spin).  
+❌ **"Eigenstates are 'real' states"**: Eigenstates are mathematical tools to describe measurement outcomes, not physical entities.  
+❌ **"Eigenstates are static"**: Eigenstates can evolve over time if the system’s Hamiltonian changes.  
+
+---
+
+## How this connects to the rest of physics  
+Eigenstates are central to quantum mechanics and tie into:  
+- **Operators** {observables}: Each measurable property (e.g., spin, energy) is represented by an operator.  
+- **Energy levels** {stationary states}: Atoms and molecules have eigenstates corresponding to their discrete energy levels.  
+- **Quantum measurements** {collapse}: Eigenstates are the outcomes of measurements, and superpositions "collapse" to eigenstates upon observation.  
+
+---
+
+## Recap  
+- An **eigenstate** {eigenstate} is a state where a measurement yields a definite result.  
+- Eigenstates are tied to observables (e.g., energy, spin) and are the foundation of quantum predictions.  
+- Most quantum states are superpositions of eigenstates, but measurements "collapse" them to a single eigenstate.  
+- Eigenstates are not "real" entities but mathematical tools to describe measurement outcomes.  
+
+[Diagram idea: A Venn diagram linking eigenstates, observables, and measurement outcomes.]  
+
+**Citations**:  
+- Griffiths, David J. *Introduction to Quantum Mechanics* (2nd ed.), Chapter 3: "An eigenstate of an operator is a state that yields a definite value when the corresponding observable is measured."  
+- Sakurai, John J. *Modern Quantum Mechanics* (2nd ed.), Section 1.3: "The eigenstates of an observable are the states that correspond to definite values of that observable."
+
+RESPONSE:
+{
+  "terms": [
+    {
+      "standard_term": "eigenstate",
+      "candidate_name": "definite-answer state",
+      "context_quote": "An eigenstate {eigenstate} is a 'definite-answer state' — a quantum state where measuring a specific property... always gives the same result",
+      "usefulness": "Emphasizes the probabilistic certainty of measurement outcomes, contrasting with classical determinism",
+      "risk": "Might imply the state has an inherent 'answer' rather than being a mathematical tool for prediction"
+    },
+    {
+      "standard_term": "eigenstate",
+      "candidate_name": "building blocks",
+      "context_quote": "Eigenstates are not 'building blocks' {eigenstates} in a physical sense. They’re mathematical tools for prediction",
+      "usefulness": "Highlights their role as conceptual ingredients rather than physical entities",
+      "risk": "Could mislead into thinking eigenstates are physical components rather than mathematical constructs"
+    }
+  ]
+}
+
+================================================================================
+TIME: 2026-05-05T01:28:17
+NODE: accessibility_judge
+PROMPT_CHARS: 7121
+PROMPT_TOKENS_APPROX: 1780
+RESPONSE_CHARS: 1809
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.8}
+================================================================================
+PROMPT:
+Evaluate this EasyPhysics article for accessibility.
+
+Return exactly one JSON object:
+{
+  "score": 1,
+  "pass": false,
+  "strengths": ["specific strength"],
+  "issues": [
+    {
+      "severity": "low | medium | high",
+      "location": "section name or short quote",
+      "problem": "specific accessibility issue",
+      "suggested_fix": "specific fix"
+    }
+  ],
+  "best_next_revision": "one concise paragraph"
+}
+
+Rubric:
+Accessibility score, 1-10:
+
+10 = Exceptional. A motivated high-schooler can follow the article's main arc without prior exposure.
+     Jargon is introduced only after intuition. Examples are vivid. Math is explained as meaning,
+     not just symbols. The article feels empowering and clear.
+
+9 = Publishable with light human editing. The main idea is easy to follow; jargon is mostly controlled;
+    analogies are helpful; sections flow logically; any math has a plain-language interpretation.
+
+8 = Strong draft. Mostly clear, but has a few dense sections, unexplained terms, abrupt transitions,
+    or analogies that need more setup.
+
+7 = Useful but uneven. A motivated reader could learn from it, but several passages need simplification,
+    clearer examples, or better sequencing.
+
+6 = Borderline. The article contains useful explanations, but assumes too much background or uses too much jargon.
+
+5 = Mixed. Some good paragraphs, but the structure or language would lose many target readers.
+
+4 = Hard to follow. Mostly written for someone who already knows the subject.
+
+3 = Very inaccessible. Dense, abstract, jargon-heavy, or poorly sequenced.
+
+2 = Barely useful to the target audience.
+
+1 = Fails the accessibility goal.
+
+Accessibility judge priorities:
+- Does the opening give the reader an intuitive foothold?
+- Are standard terms introduced after meaning, not before?
+- Are descriptive names useful rather than cutesy or misleading?
+- Are analogies concrete and then carefully limited?
+- Is any math explained in words?
+- Does the article avoid "spooky/magic/weird" framing while still acknowledging counterintuitive ideas?
+- Does each section make the next section easier?
+
+Rules:
+- Return an object, not a list.
+- Score must be an integer from 1 to 10.
+- A 9 means publishable with light human editing.
+- Do not give 9 or 10 if the opening is jargon-heavy.
+- Do not give 9 or 10 if math appears without plain-language interpretation.
+- Do not rewrite the article; only evaluate it.
+
+Article title: Eigenstate
+
+Draft:
+# Eigenstate
+
+## The core idea  
+An **eigenstate** {eigenstate} is a "definite-answer state" — a quantum state where measuring a specific property (like energy or spin) always gives the same result. This concept is formally defined in quantum mechanics textbooks like Griffiths' *Introduction to Quantum Mechanics* (Chapter 3), which describes eigenstates as states where an observable has a definite value.  
+
+**Key clarification**: Unlike classical systems, eigenstates represent probabilistic certainty, not deterministic outcomes. A quantum system in an eigenstate doesn’t "know" the value beforehand — it’s a mathematical tool that lets us predict the outcome with 100% probability.  
+
+---
+
+## Why this matters  
+Eigenstates are the foundation of quantum predictions. They let us calculate the probabilities of measurement outcomes and understand how quantum systems behave when observed. Without eigenstates, we couldn’t explain phenomena like atomic energy levels or spin measurements.  
+
+---
+
+## The simple picture  
+Imagine a quantum system that behaves like a spinning top. If the top is in an eigenstate of "north-pointing," measuring its direction will always give "north." But if it’s in a superposition (like a chaotic spinner), the measurement might randomly give "north," "south," or anything in between.  
+
+**Important note**: This isn’t like a classical top that "chooses" a direction. The eigenstate is a mathematical description of the system’s state, not a physical object with a pre-existing direction.  
+
+[Diagram idea: A spinning top with a label "North" and a chaotic spinner with multiple arrows pointing in different directions.]  
+
+---
+
+## The more precise picture  
+An **eigenstate** {eigenstate} is a quantum state that is "eigen" {eigenstate} to a specific observable (like energy or spin). Mathematically, this means:  
+$$  
+\hat{A} | \psi \rangle = a | \psi \rangle  
+$$  
+- $ \hat{A} $ is an operator representing an observable (e.g., energy).  
+- $ | \psi \rangle $ is the eigenstate.  
+- $ a $ is the definite value you’ll measure (e.g., 5 eV for energy).  
+
+**Example breakdown**:  
+- The operator $ \hat{A} $ (e.g., energy operator) acts on the state $ | \psi \rangle $.  
+- If the system is in an eigenstate, the operator "eigen" {eigenstate} simply multiplies the state by the value $ a $.  
+- This means the measurement outcome is guaranteed to be $ a $, not a probability.  
+
+For instance, an electron in a hydrogen atom’s lowest energy level is an eigenstate of the energy operator. Measuring its energy always gives the same value.  
+
+**Key idea**: Eigenstates are not "building blocks" {eigenstates} in a physical sense. They’re mathematical tools for prediction, like "recipe ingredients" that combine to make complex states.  
+
+---
+
+## Common misconceptions  
+❌ **"All quantum states are eigenstates"**: Most states are superpositions of eigenstates.  
+❌ **"Eigenstates are only for position/momentum"**: Eigenstates exist for any observable (e.g., energy, spin).  
+❌ **"Eigenstates are 'real' states"**: Eigenstates are mathematical tools to describe measurement outcomes, not physical entities.  
+❌ **"Eigenstates are static"**: Eigenstates can evolve over time if the system’s Hamiltonian changes.  
+
+---
+
+## How this connects to the rest of physics  
+Eigenstates are central to quantum mechanics and tie into:  
+- **Operators** {observables}: Each measurable property (e.g., spin, energy) is represented by an operator.  
+- **Energy levels** {stationary states}: Atoms and molecules have eigenstates corresponding to their discrete energy levels.  
+- **Quantum measurements** {collapse}: Eigenstates are the outcomes of measurements, and superpositions "collapse" to eigenstates upon observation.  
+
+---
+
+## Recap  
+- An **eigenstate** {eigenstate} is a state where a measurement yields a definite result.  
+- Eigenstates are tied to observables (e.g., energy, spin) and are the foundation of quantum predictions.  
+- Most quantum states are superpositions of eigenstates, but measurements "collapse" them to a single eigenstate.  
+- Eigenstates are not "real" entities but mathematical tools to describe measurement outcomes.  
+
+[Diagram idea: A Venn diagram linking eigenstates, observables, and measurement outcomes.]  
+
+**Citations**:  
+- Griffiths, David J. *Introduction to Quantum Mechanics* (2nd ed.), Chapter 3: "An eigenstate of an operator is a state that yields a definite value when the corresponding observable is measured."  
+- Sakurai, John J. *Modern Quantum Mechanics* (2nd ed.), Section 1.3: "The eigenstates of an observable are the states that correspond to definite values of that observable."
+
+RESPONSE:
+{
+  "score": 1,
+  "pass": false,
+  "strengths": ["specific strength"],
+  "issues": [
+    {
+      "severity": "high",
+      "location": "opening paragraph",
+      "problem": "Jargon-heavy opening with no intuitive foothold. The term 'eigenstate' is introduced with braces before explaining its meaning, violating the core philosophy of teaching concepts first.",
+      "suggested_fix": "Replace the opening with a vivid analogy (e.g., 'quantum dice' or 'probability cloud') to establish intuition before introducing technical terms."
+    },
+    {
+      "severity": "high",
+      "location": "math section",
+      "problem": "Math appears without plain-language interpretation. The equation is presented as a black box without explaining what operators or eigenstates represent.",
+      "suggested_fix": "Add a paragraph explaining operators as 'measurement instructions' and eigenstates as 'states that follow those instructions perfectly.'"
+    },
+    {
+      "severity": "medium",
+      "location": "diagram ideas",
+      "problem": "Visual ideas are mentioned but not explained. Readers need to infer their purpose, which creates cognitive load.",
+      "suggested_fix": "Describe the diagrams in text (e.g., 'Imagine a spinning top that always points north when measured') to make visuals accessible without relying on diagrams."
+    },
+    {
+      "severity": "high",
+      "location": "terminology",
+      "problem": "Terms like 'eigen' and 'operator' are introduced without context. Braces are used for standard terms but not explained in plain language.",
+      "suggested_fix": "Define 'operator' as 'a rule for calculating measurement outcomes' and explain 'eigen' as 'a state that follows a rule perfectly.'"
+    },
+    {
+      "severity": "high",
+      "location": "misconceptions section",
+      "

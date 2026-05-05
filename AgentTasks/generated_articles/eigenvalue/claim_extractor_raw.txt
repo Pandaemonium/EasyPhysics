@@ -2,35 +2,26 @@
   "claims": [
     {
       "id": "C001",
-      "claim": "Eigenvalues are scaling factors that describe how much a vector is stretched or squashed by a transformation without altering its direction.",
+      "claim": "Eigenvalues are scaling factors that describe how much a vector is stretched or squashed by a transformation without changing its direction.",
       "type": "definition",
       "importance": "high",
-      "needs_external_check": false,
-      "why_it_matters": "This defines the core mathematical role of eigenvalues in linear transformations.",
-      "suggested_search_query": "linear algebra eigenvalue definition"
+      "needs_external_check": true,
+      "why_it_matters": "This defines the core mathematical concept of eigenvalues, critical for linear algebra and physics.",
+      "suggested_search_query": "eigenvalue definition linear algebra"
     },
     {
       "id": "C002",
-      "claim": "Eigenvalues simplify complex systems by focusing on 'special directions' where transformations act predictably, such as principal axes or natural frequencies.",
+      "claim": "Eigenvalues are foundational in quantum mechanics, representing measurable outcomes like energy levels.",
       "type": "application",
       "importance": "high",
-      "needs_external_check": false,
-      "why_it_matters": "This explains their utility in physics and engineering.",
-      "suggested_search_query": "eigenvalues applications in physics"
+      "needs_external_check": true,
+      "why_it_matters": "This connects eigenvalues to quantum measurement theory, a cornerstone of modern physics.",
+      "suggested_search_query": "eigenvalues in quantum mechanics"
     },
     {
       "id": "C003",
-      "claim": "The rubber band analogy illustrates eigenvalues as stretching factors for specific directions, but may misrepresent non-linear or multi-dimensional cases.",
-      "type": "analogy",
-      "importance": "medium",
-      "needs_external_check": true,
-      "why_it_matters": "Highlights potential limitations of intuitive analogies.",
-      "suggested_search_query": "eigenvalue analogies limitations"
-    },
-    {
-      "id": "C004",
-      "claim": "Mathematically, eigenvalues satisfy $ A \cdot \mathbf{v} = \lambda \cdot \mathbf{v} $, where $ A $ is a linear transformation, $ \mathbf{v} $ is an eigenvector, and $ \lambda $ is the eigenvalue.",
-      "type": "definition",
+      "claim": "In mechanical systems, eigenvalues describe how forces stretch or compress materials along specific axes.",
+      "type": "application",
       "importance": "high",
-      "needs_external_check": false,
-      "why_it_matters": "This is the fundamental equation defining eigenvalues.",
+      "needs_external_check": true,
+      "why_it_matters": "This

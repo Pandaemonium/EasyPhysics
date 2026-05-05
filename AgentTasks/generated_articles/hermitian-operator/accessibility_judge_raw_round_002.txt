@@ -1,0 +1,22 @@
+{
+  "score": 1,
+  "pass": false,
+  "strengths": ["specific strength"],
+  "issues": [
+    {
+      "severity": "high",
+      "location": "opening paragraph",
+      "problem": "Jargon-heavy opening introduces 'Hermitian operator' without intuitive context or definition",
+      "suggested_fix": "Start with a concrete analogy (e.g., 'measurement machine') and define key terms like 'operator' and 'expectation value' before introducing the concept"
+    },
+    {
+      "severity": "high",
+      "location": "math section",
+      "problem": "Math appears without plain-language interpretation of symbols like $ A^\dagger $ or complex conjugate",
+      "suggested_fix": "Add explanatory text for each symbol, e.g., 'The dagger (†) means we take the complex conjugate and transpose of the matrix'"
+    },
+    {
+      "severity": "high",
+      "location": "terms like 'eigenvalues' and 'observables'",
+      "problem": "Standard terms are introduced without definition or analogy",
+      "suggested_fix": "Define 'eigenvalues' as 'special values that pop out when you measure a quantity' and 'observables' as 'measurable properties like

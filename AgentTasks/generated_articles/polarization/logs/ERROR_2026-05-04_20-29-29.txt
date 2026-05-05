@@ -1,0 +1,9 @@
+Traceback (most recent call last):
+  File "C:\Projects\EasyPhysics\auto_generate_articles.py", line 2356, in run_one_article_cycle
+    run_role(p, state, "writer", writer_role, required=True)
+  File "C:\Projects\EasyPhysics\auto_generate_articles.py", line 1251, in run_role
+    return func(p, state)
+           ^^^^^^^^^^^^^^
+  File "C:\Projects\EasyPhysics\auto_generate_articles.py", line 1708, in writer_role
+    raise RuntimeError("Writer returned an empty draft.")
+RuntimeError: Writer returned an empty draft.

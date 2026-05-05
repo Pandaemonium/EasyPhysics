@@ -1,0 +1,79 @@
+{
+  "claims": [
+    {
+      "id": "C001",
+      "claim": "# Polarization ## The core idea Light is a wave, and like all waves, it has a direction of motion.",
+      "type": "fallback-extracted",
+      "importance": "medium",
+      "needs_external_check": true,
+      "why_it_matters": "Automatically extracted fallback claim; review manually.",
+      "suggested_search_query": "Polarization # Polarization ## The core idea Light is a wave, and like all waves, it has physics lecture notes textbook explanation"
+    },
+    {
+      "id": "C002",
+      "claim": "But light is special: it’s a **transverse wave**, meaning its electric field (and magnetic field) oscillate perpendicular to the direction it’s moving.",
+      "type": "fallback-extracted",
+      "importance": "medium",
+      "needs_external_check": true,
+      "why_it_matters": "Automatically extracted fallback claim; review manually.",
+      "suggested_search_query": "Polarization But light is special: it’s a **transverse wave**, meaning its electric field (and magnetic field) oscillate physics lecture notes textbook explanation"
+    },
+    {
+      "id": "C003",
+      "claim": "**Polarization** is the specific direction in which these electric field oscillations occur.",
+      "type": "fallback-extracted",
+      "importance": "medium",
+      "needs_external_check": true,
+      "why_it_matters": "Automatically extracted fallback claim; review manually.",
+      "suggested_search_query": "Polarization **Polarization** is the specific direction in which these electric field oscillations occur. physics lecture notes textbook explanation"
+    },
+    {
+      "id": "C004",
+      "claim": "Imagine shaking a rope side-to-side (horizontal polarization) or up-and-down (vertical polarization)—light’s polarization is like the \"orientation\" of its electric field.",
+      "type": "fallback-extracted",
+      "importance": "medium",
+      "needs_external_check": true,
+      "why_it_matters": "Automatically extracted fallback claim; review manually.",
+      "suggested_search_query": "Polarization Imagine shaking a rope side-to-side (horizontal polarization) or up-and-down (vertical polarization)—light’s polarization is like the \"orientation\" physics lecture notes textbook explanation"
+    },
+    {
+      "id": "C005",
+      "claim": "--- ## Why this matters Polarization isn’t just a curiosity—it’s everywhere!",
+      "type": "fallback-extracted",
+      "importance": "medium",
+      "needs_external_check": true,
+      "why_it_matters": "Automatically extracted fallback claim; review manually.",
+      "suggested_search_query": "Polarization --- ## Why this matters Polarization isn’t just a curiosity—it’s everywhere! physics lecture notes textbook explanation"
+    },
+    {
+      "id": "C006",
+      "claim": "Polarized sunglasses reduce glare by blocking reflected light.",
+      "type": "fallback-extracted",
+      "importance": "medium",
+      "needs_external_check": true,
+      "why_it_matters": "Automatically extracted fallback claim; review manually.",
+      "suggested_search_query": "Polarization Polarized sunglasses reduce glare by blocking reflected light. physics lecture notes textbook explanation"
+    },
+    {
+      "id": "C007",
+      "claim": "Even the light we see in the sky is partially polarized.",
+      "type": "fallback-extracted",
+      "importance": "medium",
+      "needs_external_check": true,
+      "why_it_matters": "Automatically extracted fallback claim; review manually.",
+      "suggested_search_query": "Polarization Even the light we see in the sky is partially polarized. physics lecture notes textbook explanation"
+    },
+    {
+      "id": "C008",
+      "claim": "--- ## The simple picture Think of light as a rope wave moving through space.",
+      "type": "fallback-extracted",
+      "importance": "medium",
+      "needs_external_check": true,
+      "why_it_matters": "Automatically extracted fallback claim; review manually.",
+      "suggested_search_query": "Polarization --- ## The simple picture Think of light as a rope wave moving through space. physics lecture notes textbook explanation"
+    }
+  ],
+  "last_updated": "2026-05-05_02-07-52",
+  "count": 8,
+  "parse_note": "No usable claims parsed from LLM output. Using deterministic fallback extraction from draft sentences."
+}

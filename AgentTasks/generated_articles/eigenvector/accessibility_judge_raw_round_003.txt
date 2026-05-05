@@ -1,0 +1,25 @@
+{
+  "score": 1,
+  "pass": false,
+  "strengths": ["specific strength"],
+  "issues": [
+    {
+      "severity": "high",
+      "location": "The simple picture section",
+      "problem": "Math appears without plain-language interpretation. The equation A·v = λ·v is presented without explaining what matrices/vectors represent.",
+      "suggested_fix": "Add a paragraph explaining that matrices represent linear transformations and vectors represent directions in space."
+    },
+    {
+      "severity": "high",
+      "location": "Opening section",
+      "problem": "Jargon-heavy without sufficient intuition. 'Linear transformation' is used without definition, creating a barrier for new learners.",
+      "suggested_fix": "Replace 'linear transformation' with a concrete example (e.g., stretching/skewing shapes) before introducing the term."
+    },
+    {
+      "severity": "medium",
+      "location": "Common misconceptions section",
+      "problem": "Misconceptions are presented as bullet points without sufficient context for readers unfamiliar with linear algebra fundamentals.",
+      "suggested_fix": "Reframe misconceptions as questions and pair each with a simple analogy (e.g., 'Why do springs behave differently than twisted ropes?')"
+    },
+    {
+      "severity

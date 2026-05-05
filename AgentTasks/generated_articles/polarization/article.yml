@@ -1,16 +1,15 @@
 title: Polarization
 slug: polarization
-status: error
+status: needs_revision
 finished: false
-iteration_count: 1
-accessibility_score: null
-rigor_score: null
-last_worked_on: '2026-05-04'
-last_completed_pass: null
+iteration_count: 3
+accessibility_score: 0
+rigor_score: 0
+last_worked_on: '2026-05-05'
+last_completed_pass: 2026-05-05_02-32-49
 needs:
-- outline
-- draft
-- claim_check
-- review
+- accessibility_revision
+- rigor_revision
+- claim_review
 current_draft: draft.md
-last_error: RuntimeError('Writer completed but draft.md is empty.')
+last_error: RuntimeError('Writer returned an empty draft.')

@@ -2,7 +2,7 @@
   "claims": [
     {
       "id": "C001",
-      "claim": "# Hilbert Space: The Quantum State Landscape ## The core idea Hilbert space is a mathematical \"room\" where every quantum state lives as a vector.",
+      "claim": "# Hilbert Space: The Quantum State Landscape ## The core idea Hilbert space is a mathematical \"room\" where every quantum state lives as a **ray {equivalence class of vectors}**.",
       "type": "fallback-extracted",
       "importance": "medium",
       "needs_external_check": true,
@@ -11,12 +11,12 @@
     },
     {
       "id": "C002",
-      "claim": "It’s a space of possibilities: superposition means combining vectors to form new states, and probabilities emerge from the lengths and angles of these vectors.",
+      "claim": "It’s a space of possibilities: superposition means combining rays to form new states, and probabilities emerge from the lengths and angles of these rays.",
       "type": "fallback-extracted",
       "importance": "medium",
       "needs_external_check": true,
       "why_it_matters": "Automatically extracted fallback claim; review manually.",
-      "suggested_search_query": "Hilbert space It’s a space of possibilities: superposition means combining vectors to form new states, and probabilities emerge physics lecture notes textbook explanation"
+      "suggested_search_query": "Hilbert space It’s a space of possibilities: superposition means combining rays to form new states, and probabilities emerge physics lecture notes textbook explanation"
     },
     {
       "id": "C003",
@@ -65,15 +65,15 @@
     },
     {
       "id": "C008",
-      "claim": "The room’s geometry encodes how states interact: - **Superposition** is like combining two points into a new location.",
+      "claim": "The room’s geometry encodes how states interact: - **Superposition** is like combining two rays into a new direction.",
       "type": "fallback-extracted",
       "importance": "medium",
       "needs_external_check": true,
       "why_it_matters": "Automatically extracted fallback claim; review manually.",
-      "suggested_search_query": "Hilbert space The room’s geometry encodes how states interact: - **Superposition** is like combining two points into a physics lecture notes textbook explanation"
+      "suggested_search_query": "Hilbert space The room’s geometry encodes how states interact: - **Superposition** is like combining two rays into a physics lecture notes textbook explanation"
     }
   ],
-  "last_updated": "2026-05-04_12-19-35",
+  "last_updated": "2026-05-05_03-31-36",
   "count": 8,
   "parse_note": "No usable claims parsed from LLM output. Using deterministic fallback extraction from draft sentences."
 }

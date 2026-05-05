@@ -1,0 +1,24 @@
+{
+  "claims": [
+    {
+      "id": "C001",
+      "claim": "Light is a transverse wave with electric and magnetic fields oscillating perpendicular to its direction of motion.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Establishes the foundational wave nature of light and polarization.",
+      "suggested_search_query": "transverse electromagnetic waves physics textbook"
+    },
+    {
+      "id": "C002",
+      "claim": "Polarization refers to the specific direction of electric field oscillation in light waves.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Defines polarization as a core property of light.",
+      "suggested_search_query": "polarization definition physics"
+    },
+    {
+      "id": "C003",
+      "claim": "Polarization is analogous to shaking a rope horizontally (horizontal polarization) or vertically (vertical polarization).",
+      "type":

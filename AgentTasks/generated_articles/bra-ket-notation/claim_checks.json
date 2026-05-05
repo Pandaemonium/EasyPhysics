@@ -2,25 +2,35 @@
   "claim_checks": [
     {
       "id": "C001",
-      "verdict": "supported",
+      "verdict": "mostly_supported",
       "severity": "low",
-      "problem": "",
-      "suggested_fix": "",
-      "source_quality_note": "The snippet references foundational quantum mechanics concepts and mentions Kyle Crabtree's textbook-style explanation, indicating authoritative educational sources."
+      "problem": "The claim simplifies Bra-ket notation as 'shorthand' which may imply it's merely a convenience rather than a foundational mathematical framework for quantum states and operators",
+      "suggested_fix": "Clarify that Bra-ket notation is a formalism for representing quantum states and their interactions, not just a shorthand. Emphasize its role in encoding probabilistic relationships through inner products",
+      "source_quality_note": "The snippet comes from a reliable physics context discussing quantum mechanics fundamentals, confirming the core idea while adding mathematical depth"
     },
     {
       "id": "C002",
       "verdict": "supported",
-      "severity": "none",
+      "severity": "low",
       "problem": "",
       "suggested_fix": "",
-      "source_quality_note": "The snippet contains relevant technical discussion about kets/bras in quantum contexts, though it also includes tangential topics. The core claim aligns with standard explanations."
+      "source_quality_note": "The snippet appears to be a discussion thread rather than a textbook, but it confirms the basic structure of bra-ket notation as described in the article."
+    },
+    {
+      "id": "C003",
+      "verdict": "supported",
+      "severity": "low",
+      "problem": "",
+      "suggested_fix": "",
+      "source_quality_note": "The snippet comes from stable educational explanations of bra-ket notation, consistent with standard quantum mechanics pedagogy."
     }
   ],
   "summary": {
     "overall_claim_quality": "Claim check completed.",
     "unresolved_or_needs_qualification": 0,
-    "highest_priority_fixes": []
+    "highest_priority_fixes": [
+      "Clarify that Bra-ket notation is a formalism for representing quantum states and their interactions, not just a shorthand. Emphasize its role in encoding probabilistic relationships through inner products"
+    ]
   },
-  "last_updated": "2026-05-04_12-53-15"
+  "last_updated": "2026-05-05_04-06-01"
 }
