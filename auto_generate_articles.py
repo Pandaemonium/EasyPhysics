@@ -1267,6 +1267,37 @@ def run_role(
 
         return default
 
+def normalize_review_payload(payload: Any, review_type: str) -> Dict[str, Any]:
+    if isinstance(payload, list):
+        payload = payload[0] if payload and isinstance(payload[0], dict) else {}
+
+    if not isinstance(payload, dict):
+        payload = {}
+
+    nested = payload.get("review")
+    if isinstance(nested, dict):
+        payload = {**nested, **payload}
+
+    score = (
+        payload.get("score")
+        or payload.get(f"{review_type}_score")
+        or payload.get("rating")
+        or 0
+    )
+
+    try:
+        score = int(score)
+    except Exception:
+        score = 0
+
+    return {
+        "score": max(0, min(10, score)),
+        "pass": bool(payload.get("pass", score >= PASSING_SCORE)),
+        "strengths": payload.get("strengths", []),
+        "issues": payload.get("issues", []),
+        "best_next_revision": payload.get("best_next_revision", ""),
+    }
+
 # =============================================================================
 # 4. Article state and paths
 # =============================================================================
@@ -1663,8 +1694,20 @@ Drafting instructions:
 - Output only the article in Markdown, with no commentary before or after.
 """.strip()
 
-    draft = invoke_llm(p.article_dir, "writer", prompt)
-    write_text(p.draft, draft)
+    new_draft = invoke_llm(p.article_dir, "writer", prompt)
+
+    if not new_draft.strip():
+        append_event_log(
+            p.article_dir,
+            "writer",
+            {
+                "event": "empty_writer_response",
+                "message": "Writer returned an empty draft; preserving existing draft.md.",
+            },
+        )
+        raise RuntimeError("Writer returned an empty draft.")
+
+    write_text(p.draft, new_draft)
 
 
 def term_collector_role(p: ArticlePaths, state: Dict[str, Any]) -> None:
@@ -2180,13 +2223,15 @@ Draft:
 """.strip()
 
     raw = invoke_llm(p.article_dir, "accessibility_judge", prompt, system_extra=ACCESSIBILITY_RUBRIC, expect_json=True)
-    data = parse_json_loose(raw, {"score": 0, "pass": False, "strengths": [], "issues": []})
+    parsed = parse_json_loose(raw, {})
+    data = normalize_review_payload(parsed, "accessibility")
     data["review_type"] = "accessibility"
     data["round"] = round_num
     data["created_at"] = now_stamp()
 
     path = p.reviews_dir / f"accessibility_round_{round_num:03d}.json"
     write_json(path, data)
+    write_text(p.article_dir / f"accessibility_judge_raw_round_{round_num:03d}.txt", raw)
     return data
 
 
@@ -2228,13 +2273,15 @@ Draft:
 """.strip()
 
     raw = invoke_llm(p.article_dir, "rigor_judge", prompt, system_extra=RIGOR_RUBRIC, expect_json=True)
-    data = parse_json_loose(raw, {"score": 0, "pass": False, "strengths": [], "issues": []})
+    parsed = parse_json_loose(raw, {})
+    data = normalize_review_payload(parsed, "rigor")
     data["review_type"] = "rigor"
     data["round"] = round_num
     data["created_at"] = now_stamp()
 
     path = p.reviews_dir / f"rigor_round_{round_num:03d}.json"
     write_json(path, data)
+    write_text(p.article_dir / f"rigor_judge_raw_round_{round_num:03d}.txt", raw)
     return data
 
 
