@@ -1,0 +1,45 @@
+---
+title: "Hamiltonian operator"
+slug: "hamiltonian-operator"
+---
+
+# Hamiltonian Operator  
+
+## The core idea  
+The **Hamiltonian operator** is the "energy governor" of a quantum system. It tells us the total energy (kinetic + potential) of a system and how its quantum state evolves over time. Think of it as the rulebook that defines the physics of a system.  
+
+## Why this matters  
+The Hamiltonian is the foundation of quantum dynamics. It determines how particles move, how energy is stored, and how quantum states change. Without it, we couldn’t predict the behavior of atoms, molecules, or even the universe itself.  
+
+## The simple picture  
+Imagine the Hamiltonian as a recipe for how a quantum system behaves. Just as a recipe tells you how to mix ingredients to make a cake, the Hamiltonian tells you how energy shapes the evolution of a system. For example, in a particle in a box, the Hamiltonian dictates the allowed energy levels and the way the particle’s wavefunction bounces back and forth.  
+
+[Diagram idea: A simple flowchart showing the Hamiltonian linking energy to time evolution, with arrows from "Energy" to "Time Evolution" and "Measurement Outcomes".]  
+
+## The more precise picture  
+The Hamiltonian is an **operator** that acts on quantum states to yield energy values. Mathematically, it appears in the **Schrödinger equation**:  
+$$ i\hbar \frac{\partial \psi}{\partial t} = \hat{H} \psi $$  
+Here, $ \hat{H} $ is the Hamiltonian, $ \psi $ is the wavefunction, and $ i\hbar \frac{\partial \psi}{\partial t} $ describes how the state changes over time.  
+
+The Hamiltonian encodes the total energy of a system:  
+- **Kinetic energy**: related to motion (e.g., $ -\frac{\hbar^2}{2m} \nabla^2 $ for a particle).  
+- **Potential energy**: depends on position (e.g., $ V(x) $ for a force field).  
+
+**Energy eigenstates** (like "stationary states") are solutions to $ \hat{H} \psi = E \psi $, where $ E $ is the energy of the state. These states don’t change over time, making them crucial for understanding stable systems.  
+
+[Diagram idea: A visual of the Schrödinger equation, highlighting the Hamiltonian as the "driver" of the equation.]  
+
+## Common misconceptions  
+- ❌ **The Hamiltonian is just kinetic energy**: It includes **all forms of energy** (kinetic + potential).  
+- ❌ **The Hamiltonian is a number**: It’s an **operator** that acts on quantum states, not a fixed value.  
+- ❌ **The Hamiltonian is only for particles**: It applies to **any quantum system**, including fields and abstract states.  
+- ❌ **The Hamiltonian is a matrix**: While it can be represented as a matrix in certain bases, its essence is abstract.  
+
+## How this connects to the rest of physics  
+The Hamiltonian is central to **quantum simulations**, **chemistry** (e.g., molecular bonding), and **quantum computing** (e.g., qubit dynamics). It also bridges to **classical mechanics** via the correspondence principle, where quantum Hamiltonians reduce to classical energy expressions in the limit of large systems.  
+
+## Recap  
+- The **Hamiltonian operator** governs a quantum system’s total energy and time evolution.  
+- It appears in the **Schrödinger equation** as the "driver" of quantum dynamics.  
+- Energy eigenstates are solutions to $ \hat{H} \psi = E \psi $, representing stable energy levels.  
+- The Hamiltonian is not just a number—it’s an operator that

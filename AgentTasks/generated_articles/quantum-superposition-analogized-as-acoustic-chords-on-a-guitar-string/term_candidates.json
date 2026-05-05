@@ -1,0 +1,26 @@
+{
+  "terms": [
+    {
+      "standard_term": "superposition",
+      "candidate_name": "vibrational chord",
+      "context_quote": "a quantum system is like a string: its state is a vibrational chord {superposition}",
+      "usefulness": "connects superposition to a familiar musical concept (chords) for intuitive visualization",
+      "risk": "could imply physical coexistence of states rather than mathematical combination"
+    },
+    {
+      "standard_term": "quantum state",
+      "candidate_name": "harmonic blend",
+      "context_quote": "a quantum state is a harmonic blend {quantum state} of basis states",
+      "usefulness": "emphasizes the structured combination of states through mathematical harmonics",
+      "risk": "might suggest physical blending rather than abstract linear combination"
+    },
+    {
+      "standard_term": "probability amplitude",
+      "candidate_name": "resonant possibility",
+      "context_quote": "resonant possibility {probability amplitude} α and β represent the \"weight\" of each state",
+      "usefulness": "links amplitude to the idea of potential outcomes in a physically resonant way",
+      "risk": "could imply physical resonance rather than abstract mathematical weighting"
+    }
+  ],
+  "last_updated": "2026-05-03_23-05-31"
+}

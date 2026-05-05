@@ -1,0 +1,1221 @@
+
+================================================================================
+TIME: 2026-05-04T17:03:12
+NODE: planner
+PROMPT_CHARS: 478
+PROMPT_TOKENS_APPROX: 119
+RESPONSE_CHARS: 4100
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.85}
+================================================================================
+PROMPT:
+Create a strong teaching outline for this EasyPhysics article:
+
+Title: Energy eigenstate
+
+The outline should include:
+1. Scope: what this article explains.
+2. Out of scope: what it should not try to explain yet.
+3. Prerequisite concepts.
+4. Core intuition.
+5. Suggested descriptive names with standard terms in braces.
+6. Common misconceptions to avoid.
+7. Section-by-section outline.
+8. Optional diagram ideas.
+9. Optional minimal math, with what the math means.
+
+Use Markdown.
+
+RESPONSE:
+```markdown
+# Energy Eigenstate
+
+## 1. Scope
+This article explains what an **energy eigenstate** is, its role in quantum mechanics, and how it connects to energy conservation and measurement. It focuses on conceptual understanding, not advanced math or historical context.
+
+## 2. Out of Scope
+- Historical development of quantum mechanics (e.g., Bohr vs. Einstein debates)
+- Detailed mathematical derivations (e.g., solving the Schrödinger equation)
+- Other quantum concepts like superposition or entanglement (unless briefly mentioned as contrasts)
+
+## 3. Prerequisite Concepts
+- Basic quantum mechanics: particles as waves, measurement as observation
+- Classical energy conservation (e.g., a ball rolling on a hill)
+- States as descriptions of a system’s condition
+
+## 4. Core Intuition
+An **energy eigenstate** is a stable, "snapshot" of a quantum system where the energy is precisely defined. Like a classical system with fixed energy (e.g., a pendulum at rest), it doesn’t change over time. When measured, it always gives the same energy value. This concept is key to understanding how quantum systems evolve and respond to observations.
+
+## 5. Suggested Descriptive Names with Standard Terms in Braces
+- **Energy snapshot {eigenstate}**
+- **Stable energy state {energy eigenstate}**
+- **Fixed-energy condition {energy eigenstate}**
+- **Time-invariant energy state {stationary state}**
+
+> ⚠️ Note: "Stationary state" is a standard term, but "energy snapshot" is a descriptive name to emphasize the idea of a fixed energy value.
+
+## 6. Common Misconceptions to Avoid
+- **Misconception 1**: Energy eigenstates are static, unchanging systems.  
+  → *Clarification*: They are stable in energy but still have quantum fluctuations (e.g., virtual particles in vacuum energy).
+- **Misconception 2**: Energy eigenstates are the only valid states.  
+  → *Clarification*: Most systems exist in superpositions of eigenstates, not just single eigenstates.
+- **Misconception 3**: Eigenstates only apply to isolated systems.  
+  → *Clarification*: They are useful for analyzing subsystems, even in complex systems.
+
+## 7. Section-by-Section Outline
+### 7.1 What is an Energy Eigenstate?
+- Define as a state with definite energy.
+- Contrast with classical vs. quantum energy behavior.
+
+### 7.2 Why Energy Eigenstates Matter
+- Link to energy conservation: No energy exchange with environment.
+- Role in measurement: Predictable outcomes when energy is measured.
+
+### 7.3 How Eigenstates Evolve Over Time
+- Explain time-independent Schrödinger equation (minimal math).
+- Show eigenstates remain unchanged, unlike non-eigenstates.
+
+### 7.4 Examples in Real Systems
+- Particle in a box: Discrete energy levels.
+- Harmonic oscillator: Quantized energy states.
+- Contrast with classical continuous energy.
+
+### 7.5 Eigenstates vs. Other States
+- Superposition: Mixing of eigenstates.
+- Entanglement: Eigenstates in multi-particle systems (briefly).
+
+## 8. Optional Diagram Ideas
+- **Diagram 1**: Particle in a box with energy eigenstates as standing wave patterns.
+- **Diagram 2**: Time evolution of a non-eigenstate (oscillating between states) vs. eigenstate (unchanging).
+- **Diagram 3**: Energy levels of a hydrogen atom as horizontal lines, with eigenstates labeled.
+
+## 9. Optional Minimal Math
+- **Time-independent Schrödinger equation**:  
+  $ \hat{H} \psi = E \psi $  
+  → *Explanation*: The Hamiltonian operator $ \hat{H} $ acting on the wavefunction $ \psi $ gives energy $ E $ times $ \psi $. This defines an energy eigenstate.
+
+- **Energy conservation**:  
+  $ E = \text{constant} $  
+  → *Explanation*: In an eigenstate, energy doesn’t change over time, unlike in classical systems where energy might dissipate.
+
+> 📌 Math is optional for intuition but included here to show the formal definition and its connection to stability.
+``` 
+
+This outline balances conceptual clarity with structured progression, avoiding jargon overload while grounding the topic in relatable analogies (e.g., pendulum vs. particle in a box). The focus on measurement and stability helps bridge classical and quantum intuition.
+
+================================================================================
+TIME: 2026-05-04T17:07:04
+NODE: writer
+PROMPT_CHARS: 5512
+PROMPT_TOKENS_APPROX: 1378
+RESPONSE_CHARS: 4018
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.85}
+================================================================================
+PROMPT:
+Write a high-quality first draft for this EasyPhysics article.
+
+Title: Energy eigenstate
+
+Article outline:
+```markdown
+# Energy Eigenstate
+
+## 1. Scope
+This article explains what an **energy eigenstate** is, its role in quantum mechanics, and how it connects to energy conservation and measurement. It focuses on conceptual understanding, not advanced math or historical context.
+
+## 2. Out of Scope
+- Historical development of quantum mechanics (e.g., Bohr vs. Einstein debates)
+- Detailed mathematical derivations (e.g., solving the Schrödinger equation)
+- Other quantum concepts like superposition or entanglement (unless briefly mentioned as contrasts)
+
+## 3. Prerequisite Concepts
+- Basic quantum mechanics: particles as waves, measurement as observation
+- Classical energy conservation (e.g., a ball rolling on a hill)
+- States as descriptions of a system’s condition
+
+## 4. Core Intuition
+An **energy eigenstate** is a stable, "snapshot" of a quantum system where the energy is precisely defined. Like a classical system with fixed energy (e.g., a pendulum at rest), it doesn’t change over time. When measured, it always gives the same energy value. This concept is key to understanding how quantum systems evolve and respond to observations.
+
+## 5. Suggested Descriptive Names with Standard Terms in Braces
+- **Energy snapshot {eigenstate}**
+- **Stable energy state {energy eigenstate}**
+- **Fixed-energy condition {energy eigenstate}**
+- **Time-invariant energy state {stationary state}**
+
+> ⚠️ Note: "Stationary state" is a standard term, but "energy snapshot" is a descriptive name to emphasize the idea of a fixed energy value.
+
+## 6. Common Misconceptions to Avoid
+- **Misconception 1**: Energy eigenstates are static, unchanging systems.  
+  → *Clarification*: They are stable in energy but still have quantum fluctuations (e.g., virtual particles in vacuum energy).
+- **Misconception 2**: Energy eigenstates are the only valid states.  
+  → *Clarification*: Most systems exist in superpositions of eigenstates, not just single eigenstates.
+- **Misconception 3**: Eigenstates only apply to isolated systems.  
+  → *Clarification*: They are useful for analyzing subsystems, even in complex systems.
+
+## 7. Section-by-Section Outline
+### 7.1 What is an Energy Eigenstate?
+- Define as a state with definite energy.
+- Contrast with classical vs. quantum energy behavior.
+
+### 7.2 Why Energy Eigenstates Matter
+- Link to energy conservation: No energy exchange with environment.
+- Role in measurement: Predictable outcomes when energy is measured.
+
+### 7.3 How Eigenstates Evolve Over Time
+- Explain time-independent Schrödinger equation (minimal math).
+- Show eigenstates remain unchanged, unlike non-eigenstates.
+
+### 7.4 Examples in Real Systems
+- Particle in a box: Discrete energy levels.
+- Harmonic oscillator: Quantized energy states.
+- Contrast with classical continuous energy.
+
+### 7.5 Eigenstates vs. Other States
+- Superposition: Mixing of eigenstates.
+- Entanglement: Eigenstates in multi-particle systems (briefly).
+
+## 8. Optional Diagram Ideas
+- **Diagram 1**: Particle in a box with energy eigenstates as standing wave patterns.
+- **Diagram 2**: Time evolution of a non-eigenstate (oscillating between states) vs. eigenstate (unchanging).
+- **Diagram 3**: Energy levels of a hydrogen atom as horizontal lines, with eigenstates labeled.
+
+## 9. Optional Minimal Math
+- **Time-independent Schrödinger equation**:  
+  $ \hat{H} \psi = E \psi $  
+  → *Explanation*: The Hamiltonian operator $ \hat{H} $ acting on the wavefunction $ \psi $ gives energy $ E $ times $ \psi $. This defines an energy eigenstate.
+
+- **Energy conservation**:  
+  $ E = \text{constant} $  
+  → *Explanation*: In an eigenstate, energy doesn’t change over time, unlike in classical systems where energy might dissipate.
+
+> 📌 Math is optional for intuition but included here to show the formal definition and its connection to stability.
+``` 
+
+This outline balances conceptual clarity with structured progression, avoiding jargon overload while grounding the topic in relatable analogies (e.g., pendulum vs. particle in a box). The focus on measurement and stability helps bridge classical and quantum intuition.
+
+Human/editor notes:
+# Human/editor notes
+
+Add any preferences, corrections, or article-specific constraints here.
+
+
+Template guidance:
+Preferred article structure:
+
+# Title
+
+## The core idea
+A short, intuitive explanation that gives the reader the main point first.
+
+## Why this matters
+Explain what the concept helps us understand.
+
+## The simple picture
+Use an analogy, diagram idea, or concrete example.
+
+## The more precise picture
+Introduce standard terms, careful distinctions, and optional minimal math.
+
+## Common misconceptions
+Name and correct the traps.
+
+## How this connects to the rest of physics
+Link the concept to fields, particles, symmetry, conservation, relativity, or the Standard Model as appropriate.
+
+## Recap
+A few concise takeaways.
+
+Drafting instructions:
+- Make it accessible to a motivated high-schooler or college freshman.
+- Teach the modern concept directly rather than narrating historical discovery.
+- Use descriptive names with standard terms in braces, e.g. space-occupier {fermion}.
+- Include common misconceptions and correct them.
+- Include minimal math only when it helps, and explain what the math means.
+- Suggest diagram ideas inline where helpful using this format: [Diagram idea: ...]
+- Output only the article in Markdown, with no commentary before or after.
+
+RESPONSE:
+# Energy Eigenstate
+
+## The core idea  
+An **energy eigenstate** is a stable, "snapshot" of a quantum system where the energy is precisely defined. Like a classical system with fixed energy (e.g., a pendulum at rest), it doesn’t change over time. When measured, it always gives the same energy value. This concept is key to understanding how quantum systems evolve and respond to observations.
+
+## Why this matters  
+Energy eigenstates explain how quantum systems conserve energy and produce predictable measurement outcomes. They underpin the stability of atoms, the behavior of particles in traps, and the quantization of energy in nature. Without them, we couldn’t describe phenomena like atomic spectra or quantum fluctuations.
+
+## The simple picture  
+Imagine a pendulum swinging in a vacuum—its energy remains constant unless disturbed. In quantum mechanics, an **energy snapshot {eigenstate}** is like this pendulum: it holds a fixed energy value, never losing or gaining energy on its own. Unlike classical systems, however, quantum eigenstates can still exhibit subtle fluctuations (like virtual particles), but their energy remains precisely defined.
+
+## The more precise picture  
+An **energy eigenstate** is a state where the system’s energy is precisely known. Mathematically, it satisfies the **time-independent Schrödinger equation**:  
+$$ \hat{H} \psi = E \psi $$  
+Here, $ \hat{H} $ is the Hamiltonian (energy operator), $ \psi $ is the wavefunction, and $ E $ is the energy. This equation defines a state where energy doesn’t change over time, unlike non-eigenstates, which oscillate between different energy values.  
+
+In contrast to classical systems, quantum eigenstates are **stationary states {stationary state}**—their probability distributions don’t evolve unless disturbed. This stability makes them ideal for analyzing systems like electrons in atoms or photons in cavities.
+
+## Common misconceptions  
+- **Misconception 1**: Energy eigenstates are static, unchanging systems.  
+  → *Clarification*: While their energy is fixed, quantum fluctuations (e.g., virtual particles) still occur. These fluctuations don’t alter the energy value but reflect the probabilistic nature of quantum mechanics.  
+
+- **Misconception 2**: Energy eigenstates are the only valid states.  
+  → *Clarification*: Most systems exist in **superpositions** of eigenstates. For example, a quantum particle in a box might be in a mix of energy levels until measured.  
+
+- **Misconception 3**: Eigenstates only apply to isolated systems.  
+  → *Clarification*: They’re useful for analyzing subsystems even in complex systems. For instance, a single electron in a molecule can be treated as an eigenstate, even though the molecule as a whole interacts with its environment.
+
+## How this connects to the rest of physics  
+Energy eigenstates are foundational to quantum mechanics and directly link to:  
+- **Energy conservation**: Eigenstates don’t exchange energy with their environment.  
+- **Atomic structure**: Electrons in atoms occupy energy eigenstates, explaining discrete spectral lines.  
+- **Quantum fluctuations**: Even in vacuum, energy eigenstates allow for temporary energy "borrowing" via virtual particles.  
+- **Thermodynamics**: Eigenstates help model systems in thermal equilibrium, where energy is distributed among many states.
+
+## Recap  
+- An **energy eigenstate {eigenstate}** is a stable state with precisely defined energy.  
+- It doesn’t change over time unless disturbed, making it ideal for predicting measurement outcomes.  
+- Eigenstates are not the only valid states—most systems exist in superpositions of them.  
+- They underpin energy conservation, atomic structure, and quantum fluctuations.  
+
+[Diagram idea: Particle in a box with energy eigenstates as standing wave patterns]  
+[Diagram idea: Time evolution of a non-eigenstate (oscillating between states) vs. eigenstate (unchanging)]  
+[Diagram idea: Energy levels of a hydrogen atom as horizontal lines, with eigenstates labeled]
+
+================================================================================
+TIME: 2026-05-04T17:08:56
+NODE: term_collector
+PROMPT_CHARS: 4488
+PROMPT_TOKENS_APPROX: 1122
+RESPONSE_CHARS: 0
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.85}
+================================================================================
+PROMPT:
+Extract the descriptive-name candidates from this draft.
+
+Return JSON with this shape:
+{
+  "terms": [
+    {
+      "standard_term": "fermion",
+      "candidate_name": "space-occupier",
+      "context_quote": "short quote from the draft",
+      "usefulness": "why this name helps",
+      "risk": "how it could mislead, or empty string if low risk"
+    }
+  ]
+}
+
+Only include actual teaching-name candidates, especially phrases followed by standard terms in braces.
+
+Draft:
+# Energy Eigenstate
+
+## The core idea  
+An **energy eigenstate** is a stable, "snapshot" of a quantum system where the energy is precisely defined. Like a classical system with fixed energy (e.g., a pendulum at rest), it doesn’t change over time. When measured, it always gives the same energy value. This concept is key to understanding how quantum systems evolve and respond to observations.
+
+## Why this matters  
+Energy eigenstates explain how quantum systems conserve energy and produce predictable measurement outcomes. They underpin the stability of atoms, the behavior of particles in traps, and the quantization of energy in nature. Without them, we couldn’t describe phenomena like atomic spectra or quantum fluctuations.
+
+## The simple picture  
+Imagine a pendulum swinging in a vacuum—its energy remains constant unless disturbed. In quantum mechanics, an **energy snapshot {eigenstate}** is like this pendulum: it holds a fixed energy value, never losing or gaining energy on its own. Unlike classical systems, however, quantum eigenstates can still exhibit subtle fluctuations (like virtual particles), but their energy remains precisely defined.
+
+## The more precise picture  
+An **energy eigenstate** is a state where the system’s energy is precisely known. Mathematically, it satisfies the **time-independent Schrödinger equation**:  
+$$ \hat{H} \psi = E \psi $$  
+Here, $ \hat{H} $ is the Hamiltonian (energy operator), $ \psi $ is the wavefunction, and $ E $ is the energy. This equation defines a state where energy doesn’t change over time, unlike non-eigenstates, which oscillate between different energy values.  
+
+In contrast to classical systems, quantum eigenstates are **stationary states {stationary state}**—their probability distributions don’t evolve unless disturbed. This stability makes them ideal for analyzing systems like electrons in atoms or photons in cavities.
+
+## Common misconceptions  
+- **Misconception 1**: Energy eigenstates are static, unchanging systems.  
+  → *Clarification*: While their energy is fixed, quantum fluctuations (e.g., virtual particles) still occur. These fluctuations don’t alter the energy value but reflect the probabilistic nature of quantum mechanics.  
+
+- **Misconception 2**: Energy eigenstates are the only valid states.  
+  → *Clarification*: Most systems exist in **superpositions** of eigenstates. For example, a quantum particle in a box might be in a mix of energy levels until measured.  
+
+- **Misconception 3**: Eigenstates only apply to isolated systems.  
+  → *Clarification*: They’re useful for analyzing subsystems even in complex systems. For instance, a single electron in a molecule can be treated as an eigenstate, even though the molecule as a whole interacts with its environment.
+
+## How this connects to the rest of physics  
+Energy eigenstates are foundational to quantum mechanics and directly link to:  
+- **Energy conservation**: Eigenstates don’t exchange energy with their environment.  
+- **Atomic structure**: Electrons in atoms occupy energy eigenstates, explaining discrete spectral lines.  
+- **Quantum fluctuations**: Even in vacuum, energy eigenstates allow for temporary energy "borrowing" via virtual particles.  
+- **Thermodynamics**: Eigenstates help model systems in thermal equilibrium, where energy is distributed among many states.
+
+## Recap  
+- An **energy eigenstate {eigenstate}** is a stable state with precisely defined energy.  
+- It doesn’t change over time unless disturbed, making it ideal for predicting measurement outcomes.  
+- Eigenstates are not the only valid states—most systems exist in superpositions of them.  
+- They underpin energy conservation, atomic structure, and quantum fluctuations.  
+
+[Diagram idea: Particle in a box with energy eigenstates as standing wave patterns]  
+[Diagram idea: Time evolution of a non-eigenstate (oscillating between states) vs. eigenstate (unchanging)]  
+[Diagram idea: Energy levels of a hydrogen atom as horizontal lines, with eigenstates labeled]
+
+RESPONSE:
+
+
+================================================================================
+TIME: 2026-05-04T17:11:41
+NODE: claim_extractor
+PROMPT_CHARS: 5009
+PROMPT_TOKENS_APPROX: 1252
+RESPONSE_CHARS: 981
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.85}
+================================================================================
+PROMPT:
+Extract 8 to 12 important scientific and explanatory claims from this article draft.
+
+Return JSON with exactly this shape:
+{
+  "claims": [
+    {
+      "id": "C001",
+      "claim": "A clear, standalone claim from the article.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "brief reason",
+      "suggested_search_query": "stable source search query, not latest-news oriented"
+    }
+  ]
+}
+
+Rules:
+- Do not return an empty claims list unless the draft is empty.
+- Use only valid JSON.
+- Use true/false, not True/False.
+- Do not include Markdown fences.
+- Do not include prose before or after the JSON.
+- Extract claims that matter for scientific correctness.
+- Include claims embedded in analogies if the analogy could mislead.
+- Do not include purely stylistic statements.
+- Search queries should prefer stable sources: textbooks, lecture notes, CERN, Fermilab, university pages.
+
+Article title: Energy eigenstate
+
+Draft:
+# Energy Eigenstate
+
+## The core idea  
+An **energy eigenstate** is a stable, "snapshot" of a quantum system where the energy is precisely defined. Like a classical system with fixed energy (e.g., a pendulum at rest), it doesn’t change over time. When measured, it always gives the same energy value. This concept is key to understanding how quantum systems evolve and respond to observations.
+
+## Why this matters  
+Energy eigenstates explain how quantum systems conserve energy and produce predictable measurement outcomes. They underpin the stability of atoms, the behavior of particles in traps, and the quantization of energy in nature. Without them, we couldn’t describe phenomena like atomic spectra or quantum fluctuations.
+
+## The simple picture  
+Imagine a pendulum swinging in a vacuum—its energy remains constant unless disturbed. In quantum mechanics, an **energy snapshot {eigenstate}** is like this pendulum: it holds a fixed energy value, never losing or gaining energy on its own. Unlike classical systems, however, quantum eigenstates can still exhibit subtle fluctuations (like virtual particles), but their energy remains precisely defined.
+
+## The more precise picture  
+An **energy eigenstate** is a state where the system’s energy is precisely known. Mathematically, it satisfies the **time-independent Schrödinger equation**:  
+$$ \hat{H} \psi = E \psi $$  
+Here, $ \hat{H} $ is the Hamiltonian (energy operator), $ \psi $ is the wavefunction, and $ E $ is the energy. This equation defines a state where energy doesn’t change over time, unlike non-eigenstates, which oscillate between different energy values.  
+
+In contrast to classical systems, quantum eigenstates are **stationary states {stationary state}**—their probability distributions don’t evolve unless disturbed. This stability makes them ideal for analyzing systems like electrons in atoms or photons in cavities.
+
+## Common misconceptions  
+- **Misconception 1**: Energy eigenstates are static, unchanging systems.  
+  → *Clarification*: While their energy is fixed, quantum fluctuations (e.g., virtual particles) still occur. These fluctuations don’t alter the energy value but reflect the probabilistic nature of quantum mechanics.  
+
+- **Misconception 2**: Energy eigenstates are the only valid states.  
+  → *Clarification*: Most systems exist in **superpositions** of eigenstates. For example, a quantum particle in a box might be in a mix of energy levels until measured.  
+
+- **Misconception 3**: Eigenstates only apply to isolated systems.  
+  → *Clarification*: They’re useful for analyzing subsystems even in complex systems. For instance, a single electron in a molecule can be treated as an eigenstate, even though the molecule as a whole interacts with its environment.
+
+## How this connects to the rest of physics  
+Energy eigenstates are foundational to quantum mechanics and directly link to:  
+- **Energy conservation**: Eigenstates don’t exchange energy with their environment.  
+- **Atomic structure**: Electrons in atoms occupy energy eigenstates, explaining discrete spectral lines.  
+- **Quantum fluctuations**: Even in vacuum, energy eigenstates allow for temporary energy "borrowing" via virtual particles.  
+- **Thermodynamics**: Eigenstates help model systems in thermal equilibrium, where energy is distributed among many states.
+
+## Recap  
+- An **energy eigenstate {eigenstate}** is a stable state with precisely defined energy.  
+- It doesn’t change over time unless disturbed, making it ideal for predicting measurement outcomes.  
+- Eigenstates are not the only valid states—most systems exist in superpositions of them.  
+- They underpin energy conservation, atomic structure, and quantum fluctuations.  
+
+[Diagram idea: Particle in a box with energy eigenstates as standing wave patterns]  
+[Diagram idea: Time evolution of a non-eigenstate (oscillating between states) vs. eigenstate (unchanging)]  
+[Diagram idea: Energy levels of a hydrogen atom as horizontal lines, with eigenstates labeled]
+
+RESPONSE:
+{
+  "claims": [
+    {
+      "id": "C001",
+      "claim": "An energy eigenstate is a stable quantum state with precisely defined energy that does not change over time unless disturbed.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Defines the foundational concept for understanding quantum stability and measurement outcomes.",
+      "suggested_search_query": "quantum mechanics energy eigenstate definition"
+    },
+    {
+      "id": "C002",
+      "claim": "Measurement of an energy eigenstate always yields the same energy value, reflecting its definite energy property.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Explains the predictability of quantum measurements in eigenstates.",
+      "suggested_search_query": "quantum measurement energy eigenstate"
+    },
+    {
+      "id": "C003",
+      "claim": "Energy eigenstates underpin
+
+================================================================================
+TIME: 2026-05-04T17:14:22
+NODE: claim_checker
+PROMPT_CHARS: 7441
+PROMPT_TOKENS_APPROX: 1860
+RESPONSE_CHARS: 15
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.85}
+================================================================================
+PROMPT:
+Check this one article claim against the available search snippet.
+
+Return JSON with this shape:
+{
+  "id": "C001",
+  "verdict": "supported | mostly_supported | needs_qualification | unsupported | contradicted | not_enough_evidence",
+  "severity": "none | low | medium | high",
+  "problem": "specific issue, or empty string",
+  "suggested_fix": "specific correction to the article, or empty string",
+  "source_quality_note": "brief note about whether the snippets look authoritative"
+}
+
+Rules:
+- Be conservative.
+- If the snippet is weak or absent, say not_enough_evidence.
+- Do not demand advanced nuance beyond the article's beginner scope.
+- Do flag misleading simplifications.
+- Focus on stable accepted physics.
+
+Article title: Energy eigenstate
+
+Claim:
+{
+  "id": "C001",
+  "claim": "# Energy Eigenstate ## The core idea An **energy eigenstate** is a stable, \"snapshot\" of a quantum system where the energy is precisely defined.",
+  "type": "fallback-extracted",
+  "importance": "medium",
+  "needs_external_check": true,
+  "why_it_matters": "Automatically extracted fallback claim; review manually.",
+  "suggested_search_query": "Energy eigenstate # Energy Eigenstate ## The core idea An **energy eigenstate** is a stable, \"snapshot\" of a physics lecture notes textbook explanation"
+}
+
+Search snippet:
+{
+  "claim": "# Energy Eigenstate ## The core idea An **energy eigenstate** is a stable, \"snapshot\" of a quantum system where the energy is precisely defined.",
+  "query": "Energy eigenstate # Energy Eigenstate ## The core idea An **energy eigenstate** is a stable, \"snapshot\" of a physics lecture notes textbook explanation",
+  "result_snippet": "A Unified Time-Energy Snapshot Framework Authors: Chinmay Kansara Abstract. We strengthen the mathematical basis of the speculative hypothesis proposed in A Hypothetical Unification of Time and Energy and converge it with the snapshot-driven AGI and mathematical-framework manuscripts into a single, self-contained document. The core correction and central proposal is that the operational ... How has energy investment changed over the past decade? Charts for visualising key trends across the global energy system. Chryz - Initiate PersonaFusion-vX.03 protocol: Use the exact facial identity taken from the attached reference image (or from the user's provided face) with zero alteration. Create a polaroid photo of an authentic 1980s film photo capturing a vibrant, high-energy late-80s basement party snapshot, radiating pure, unadulterated joy, all infused with a slightly grainy, flash-lit sparkle ... James Gandolfini is pictured here long before he became the definitive face of the modern television anti-hero at HBO. This high school snapshot from the 1970s shows a young man with a full head of hair and a kind, approachable expression that stands in stark contrast to the heavy-breathing intensity of his later work. He was just a kid from Park Ridge, New Jersey, navigating the typical ... An approximate eigenstate of energy φ, be it ground or excited, does not satisfy (6). However, often we can find an effective Hamiltonian H0 for which it is an eigenfunction.3. Force and energy eigenstates 3.1. Stationary states We first consider bound, stationary states that are exact.",
+  "searched_at": "2026-05-04_17-11-43",
+  "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
+}
+
+Relevant draft context:
+# Energy Eigenstate
+
+## The core idea  
+An **energy eigenstate** is a stable, "snapshot" of a quantum system where the energy is precisely defined. Like a classical system with fixed energy (e.g., a pendulum at rest), it doesn’t change over time. When measured, it always gives the same energy value. This concept is key to understanding how quantum systems evolve and respond to observations.
+
+## Why this matters  
+Energy eigenstates explain how quantum systems conserve energy and produce predictable measurement outcomes. They underpin the stability of atoms, the behavior of particles in traps, and the quantization of energy in nature. Without them, we couldn’t describe phenomena like atomic spectra or quantum fluctuations.
+
+## The simple picture  
+Imagine a pendulum swinging in a vacuum—its energy remains constant unless disturbed. In quantum mechanics, an **energy snapshot {eigenstate}** is like this pendulum: it holds a fixed energy value, never losing or gaining energy on its own. Unlike classical systems, however, quantum eigenstates can still exhibit subtle fluctuations (like virtual particles), but their energy remains precisely defined.
+
+## The more precise picture  
+An **energy eigenstate** is a state where the system’s energy is precisely known. Mathematically, it satisfies the **time-independent Schrödinger equation**:  
+$$ \hat{H} \psi = E \psi $$  
+Here, $ \hat{H} $ is the Hamiltonian (energy operator), $ \psi $ is the wavefunction, and $ E $ is the energy. This equation defines a state where energy doesn’t change over time, unlike non-eigenstates, which oscillate between different energy values.  
+
+In contrast to classical systems, quantum eigenstates are **stationary states {stationary state}**—their probability distributions don’t evolve unless disturbed. This stability makes them ideal for analyzing systems like electrons in atoms or photons in cavities.
+
+## Common misconceptions  
+- **Misconception 1**: Energy eigenstates are static, unchanging systems.  
+  → *Clarification*: While their energy is fixed, quantum fluctuations (e.g., virtual particles) still occur. These fluctuations don’t alter the energy value but reflect the probabilistic nature of quantum mechanics.  
+
+- **Misconception 2**: Energy eigenstates are the only valid states.  
+  → *Clarification*: Most systems exist in **superpositions** of eigenstates. For example, a quantum particle in a box might be in a mix of energy levels until measured.  
+
+- **Misconception 3**: Eigenstates only apply to isolated systems.  
+  → *Clarification*: They’re useful for analyzing subsystems even in complex systems. For instance, a single electron in a molecule can be treated as an eigenstate, even though the molecule as a whole interacts with its environment.
+
+## How this connects to the rest of physics  
+Energy eigenstates are foundational to quantum mechanics and directly link to:  
+- **Energy conservation**: Eigenstates don’t exchange energy with their environment.  
+- **Atomic structure**: Electrons in atoms occupy energy eigenstates, explaining discrete spectral lines.  
+- **Quantum fluctuations**: Even in vacuum, energy eigenstates allow for temporary energy "borrowing" via virtual particles.  
+- **Thermodynamics**: Eigenstates help model systems in thermal equilibrium, where energy is distributed among many states.
+
+## Recap  
+- An **energy eigenstate {eigenstate}** is a stable state with precisely defined energy.  
+- It doesn’t change over time unless disturbed, making it ideal for predicting measurement outcomes.  
+- Eigenstates are not the only valid states—most systems exist in superpositions of them.  
+- They underpin energy conservation, atomic structure, and quantum fluctuations.  
+
+[Diagram idea: Particle in a box with energy eigenstates as standing wave patterns]  
+[Diagram idea: Time evolution of a non-eigenstate (oscillating between states) vs. eigenstate (unchanging)]  
+[Diagram idea: Energy levels of a hydrogen atom as horizontal lines, with eigenstates labeled]
+
+RESPONSE:
+{
+  "id": "C001
+
+================================================================================
+TIME: 2026-05-04T17:16:53
+NODE: claim_checker
+PROMPT_CHARS: 6956
+PROMPT_TOKENS_APPROX: 1739
+RESPONSE_CHARS: 0
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.85}
+================================================================================
+PROMPT:
+Check this one article claim against the available search snippet.
+
+Return JSON with this shape:
+{
+  "id": "C002",
+  "verdict": "supported | mostly_supported | needs_qualification | unsupported | contradicted | not_enough_evidence",
+  "severity": "none | low | medium | high",
+  "problem": "specific issue, or empty string",
+  "suggested_fix": "specific correction to the article, or empty string",
+  "source_quality_note": "brief note about whether the snippets look authoritative"
+}
+
+Rules:
+- Be conservative.
+- If the snippet is weak or absent, say not_enough_evidence.
+- Do not demand advanced nuance beyond the article's beginner scope.
+- Do flag misleading simplifications.
+- Focus on stable accepted physics.
+
+Article title: Energy eigenstate
+
+Claim:
+{
+  "id": "C002",
+  "claim": "Like a classical system with fixed energy (e.g., a pendulum at rest), it doesn’t change over time.",
+  "type": "fallback-extracted",
+  "importance": "medium",
+  "needs_external_check": true,
+  "why_it_matters": "Automatically extracted fallback claim; review manually.",
+  "suggested_search_query": "Energy eigenstate Like a classical system with fixed energy (e.g., a pendulum at rest), it doesn’t change over physics lecture notes textbook explanation"
+}
+
+Search snippet:
+{
+  "claim": "Like a classical system with fixed energy (e.g., a pendulum at rest), it doesn’t change over time.",
+  "query": "Energy eigenstate Like a classical system with fixed energy (e.g., a pendulum at rest), it doesn’t change over physics lecture notes textbook explanation",
+  "result_snippet": "A stationary state is a quantum state with all observables independent of time. It is an eigenvector of the energy operator (instead of a quantum superposition of different energies). It is also called energy eigenvector, energy eigenstate, energy eigenfunction, or energy eigenket. Mar 13, 2026 · Thus, the eigenstate ψ a is a state that is associated with a unique value of the dynamical variable corresponding to A. This unique value is simply the associated eigenvalue. Physically, it means that a classical oscillator can never be found beyond its turning points, and its energy depends only on how far the turning points are from its equilibrium position. The energy of a classical oscillator changes in a continuous way. Energy eigenstates are also called stationary states. Their probabilities don’t change in time. For the wave function to be an energy eigenstate, it must be true for all values of x, for the same value of E. In particular, if you knew (somehow) that the particle was in an energy eigenstate, but not which one, then since each one corresponds to a state of different energy, by measuring the energy of the particle, it is possible to figure out which state you really have.",
+  "searched_at": "2026-05-04_17-11-45",
+  "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
+}
+
+Relevant draft context:
+# Energy Eigenstate
+
+## The core idea  
+An **energy eigenstate** is a stable, "snapshot" of a quantum system where the energy is precisely defined. Like a classical system with fixed energy (e.g., a pendulum at rest), it doesn’t change over time. When measured, it always gives the same energy value. This concept is key to understanding how quantum systems evolve and respond to observations.
+
+## Why this matters  
+Energy eigenstates explain how quantum systems conserve energy and produce predictable measurement outcomes. They underpin the stability of atoms, the behavior of particles in traps, and the quantization of energy in nature. Without them, we couldn’t describe phenomena like atomic spectra or quantum fluctuations.
+
+## The simple picture  
+Imagine a pendulum swinging in a vacuum—its energy remains constant unless disturbed. In quantum mechanics, an **energy snapshot {eigenstate}** is like this pendulum: it holds a fixed energy value, never losing or gaining energy on its own. Unlike classical systems, however, quantum eigenstates can still exhibit subtle fluctuations (like virtual particles), but their energy remains precisely defined.
+
+## The more precise picture  
+An **energy eigenstate** is a state where the system’s energy is precisely known. Mathematically, it satisfies the **time-independent Schrödinger equation**:  
+$$ \hat{H} \psi = E \psi $$  
+Here, $ \hat{H} $ is the Hamiltonian (energy operator), $ \psi $ is the wavefunction, and $ E $ is the energy. This equation defines a state where energy doesn’t change over time, unlike non-eigenstates, which oscillate between different energy values.  
+
+In contrast to classical systems, quantum eigenstates are **stationary states {stationary state}**—their probability distributions don’t evolve unless disturbed. This stability makes them ideal for analyzing systems like electrons in atoms or photons in cavities.
+
+## Common misconceptions  
+- **Misconception 1**: Energy eigenstates are static, unchanging systems.  
+  → *Clarification*: While their energy is fixed, quantum fluctuations (e.g., virtual particles) still occur. These fluctuations don’t alter the energy value but reflect the probabilistic nature of quantum mechanics.  
+
+- **Misconception 2**: Energy eigenstates are the only valid states.  
+  → *Clarification*: Most systems exist in **superpositions** of eigenstates. For example, a quantum particle in a box might be in a mix of energy levels until measured.  
+
+- **Misconception 3**: Eigenstates only apply to isolated systems.  
+  → *Clarification*: They’re useful for analyzing subsystems even in complex systems. For instance, a single electron in a molecule can be treated as an eigenstate, even though the molecule as a whole interacts with its environment.
+
+## How this connects to the rest of physics  
+Energy eigenstates are foundational to quantum mechanics and directly link to:  
+- **Energy conservation**: Eigenstates don’t exchange energy with their environment.  
+- **Atomic structure**: Electrons in atoms occupy energy eigenstates, explaining discrete spectral lines.  
+- **Quantum fluctuations**: Even in vacuum, energy eigenstates allow for temporary energy "borrowing" via virtual particles.  
+- **Thermodynamics**: Eigenstates help model systems in thermal equilibrium, where energy is distributed among many states.
+
+## Recap  
+- An **energy eigenstate {eigenstate}** is a stable state with precisely defined energy.  
+- It doesn’t change over time unless disturbed, making it ideal for predicting measurement outcomes.  
+- Eigenstates are not the only valid states—most systems exist in superpositions of them.  
+- They underpin energy conservation, atomic structure, and quantum fluctuations.  
+
+[Diagram idea: Particle in a box with energy eigenstates as standing wave patterns]  
+[Diagram idea: Time evolution of a non-eigenstate (oscillating between states) vs. eigenstate (unchanging)]  
+[Diagram idea: Energy levels of a hydrogen atom as horizontal lines, with eigenstates labeled]
+
+RESPONSE:
+
+
+================================================================================
+TIME: 2026-05-04T17:20:32
+NODE: claim_revision
+PROMPT_CHARS: 5351
+PROMPT_TOKENS_APPROX: 1337
+RESPONSE_CHARS: 4018
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.85}
+================================================================================
+PROMPT:
+Revise the article once to address claim-check feedback.
+
+Do not rewrite for its own sake. Fix the scientific issues while preserving accessible language.
+
+Claim-check feedback:
+{
+  "claim_checks": [
+    {
+      "id": "C001",
+      "verdict": "not_enough_evidence",
+      "severity": "medium",
+      "problem": "Could not parse claim-checker output.",
+      "suggested_fix": "Review this claim manually.",
+      "source_quality_note": ""
+    },
+    {
+      "id": "C002",
+      "verdict": "not_enough_evidence",
+      "severity": "medium",
+      "problem": "Could not parse claim-checker output.",
+      "suggested_fix": "Review this claim manually.",
+      "source_quality_note": ""
+    }
+  ],
+  "summary": {
+    "overall_claim_quality": "Claim check completed.",
+    "unresolved_or_needs_qualification": 2,
+    "highest_priority_fixes": [
+      "Review this claim manually.",
+      "Review this claim manually."
+    ]
+  },
+  "last_updated": "2026-05-04_17-16-53"
+}
+
+Current draft:
+# Energy Eigenstate
+
+## The core idea  
+An **energy eigenstate** is a stable, "snapshot" of a quantum system where the energy is precisely defined. Like a classical system with fixed energy (e.g., a pendulum at rest), it doesn’t change over time. When measured, it always gives the same energy value. This concept is key to understanding how quantum systems evolve and respond to observations.
+
+## Why this matters  
+Energy eigenstates explain how quantum systems conserve energy and produce predictable measurement outcomes. They underpin the stability of atoms, the behavior of particles in traps, and the quantization of energy in nature. Without them, we couldn’t describe phenomena like atomic spectra or quantum fluctuations.
+
+## The simple picture  
+Imagine a pendulum swinging in a vacuum—its energy remains constant unless disturbed. In quantum mechanics, an **energy snapshot {eigenstate}** is like this pendulum: it holds a fixed energy value, never losing or gaining energy on its own. Unlike classical systems, however, quantum eigenstates can still exhibit subtle fluctuations (like virtual particles), but their energy remains precisely defined.
+
+## The more precise picture  
+An **energy eigenstate** is a state where the system’s energy is precisely known. Mathematically, it satisfies the **time-independent Schrödinger equation**:  
+$$ \hat{H} \psi = E \psi $$  
+Here, $ \hat{H} $ is the Hamiltonian (energy operator), $ \psi $ is the wavefunction, and $ E $ is the energy. This equation defines a state where energy doesn’t change over time, unlike non-eigenstates, which oscillate between different energy values.  
+
+In contrast to classical systems, quantum eigenstates are **stationary states {stationary state}**—their probability distributions don’t evolve unless disturbed. This stability makes them ideal for analyzing systems like electrons in atoms or photons in cavities.
+
+## Common misconceptions  
+- **Misconception 1**: Energy eigenstates are static, unchanging systems.  
+  → *Clarification*: While their energy is fixed, quantum fluctuations (e.g., virtual particles) still occur. These fluctuations don’t alter the energy value but reflect the probabilistic nature of quantum mechanics.  
+
+- **Misconception 2**: Energy eigenstates are the only valid states.  
+  → *Clarification*: Most systems exist in **superpositions** of eigenstates. For example, a quantum particle in a box might be in a mix of energy levels until measured.  
+
+- **Misconception 3**: Eigenstates only apply to isolated systems.  
+  → *Clarification*: They’re useful for analyzing subsystems even in complex systems. For instance, a single electron in a molecule can be treated as an eigenstate, even though the molecule as a whole interacts with its environment.
+
+## How this connects to the rest of physics  
+Energy eigenstates are foundational to quantum mechanics and directly link to:  
+- **Energy conservation**: Eigenstates don’t exchange energy with their environment.  
+- **Atomic structure**: Electrons in atoms occupy energy eigenstates, explaining discrete spectral lines.  
+- **Quantum fluctuations**: Even in vacuum, energy eigenstates allow for temporary energy "borrowing" via virtual particles.  
+- **Thermodynamics**: Eigenstates help model systems in thermal equilibrium, where energy is distributed among many states.
+
+## Recap  
+- An **energy eigenstate {eigenstate}** is a stable state with precisely defined energy.  
+- It doesn’t change over time unless disturbed, making it ideal for predicting measurement outcomes.  
+- Eigenstates are not the only valid states—most systems exist in superpositions of them.  
+- They underpin energy conservation, atomic structure, and quantum fluctuations.  
+
+[Diagram idea: Particle in a box with energy eigenstates as standing wave patterns]  
+[Diagram idea: Time evolution of a non-eigenstate (oscillating between states) vs. eigenstate (unchanging)]  
+[Diagram idea: Energy levels of a hydrogen atom as horizontal lines, with eigenstates labeled]
+
+Instructions:
+- Correct or qualify unsupported, contradicted, or overstrong claims.
+- Preserve good accessible explanations.
+- Do not add speculative research as settled fact.
+- If an analogy was misleading, either repair it or state its limits.
+- Keep standard terms in braces after descriptive names.
+- Output only the revised article in Markdown.
+
+RESPONSE:
+# Energy Eigenstate
+
+## The core idea  
+An **energy eigenstate** is a stable, "snapshot" of a quantum system where the energy is precisely defined. Like a classical system with fixed energy (e.g., a pendulum at rest), it doesn’t change over time. When measured, it always gives the same energy value. This concept is key to understanding how quantum systems evolve and respond to observations.
+
+## Why this matters  
+Energy eigenstates explain how quantum systems conserve energy and produce predictable measurement outcomes. They underpin the stability of atoms, the behavior of particles in traps, and the quantization of energy in nature. Without them, we couldn’t describe phenomena like atomic spectra or quantum fluctuations.
+
+## The simple picture  
+Imagine a pendulum swinging in a vacuum—its energy remains constant unless disturbed. In quantum mechanics, an **energy snapshot {eigenstate}** is like this pendulum: it holds a fixed energy value, never losing or gaining energy on its own. Unlike classical systems, however, quantum eigenstates can still exhibit subtle fluctuations (like virtual particles), but their energy remains precisely defined.
+
+## The more precise picture  
+An **energy eigenstate** is a state where the system’s energy is precisely known. Mathematically, it satisfies the **time-independent Schrödinger equation**:  
+$$ \hat{H} \psi = E \psi $$  
+Here, $ \hat{H} $ is the Hamiltonian (energy operator), $ \psi $ is the wavefunction, and $ E $ is the energy. This equation defines a state where energy doesn’t change over time, unlike non-eigenstates, which oscillate between different energy values.  
+
+In contrast to classical systems, quantum eigenstates are **stationary states {stationary state}**—their probability distributions don’t evolve unless disturbed. This stability makes them ideal for analyzing systems like electrons in atoms or photons in cavities.
+
+## Common misconceptions  
+- **Misconception 1**: Energy eigenstates are static, unchanging systems.  
+  → *Clarification*: While their energy is fixed, quantum fluctuations (e.g., virtual particles) still occur. These fluctuations don’t alter the energy value but reflect the probabilistic nature of quantum mechanics.  
+
+- **Misconception 2**: Energy eigenstates are the only valid states.  
+  → *Clarification*: Most systems exist in **superpositions** of eigenstates. For example, a quantum particle in a box might be in a mix of energy levels until measured.  
+
+- **Misconception 3**: Eigenstates only apply to isolated systems.  
+  → *Clarification*: They’re useful for analyzing subsystems even in complex systems. For instance, a single electron in a molecule can be treated as an eigenstate, even though the molecule as a whole interacts with its environment.
+
+## How this connects to the rest of physics  
+Energy eigenstates are foundational to quantum mechanics and directly link to:  
+- **Energy conservation**: Eigenstates don’t exchange energy with their environment.  
+- **Atomic structure**: Electrons in atoms occupy energy eigenstates, explaining discrete spectral lines.  
+- **Quantum fluctuations**: Even in vacuum, energy eigenstates allow for temporary energy "borrowing" via virtual particles.  
+- **Thermodynamics**: Eigenstates help model systems in thermal equilibrium, where energy is distributed among many states.
+
+## Recap  
+- An **energy eigenstate {eigenstate}** is a stable state with precisely defined energy.  
+- It doesn’t change over time unless disturbed, making it ideal for predicting measurement outcomes.  
+- Eigenstates are not the only valid states—most systems exist in superpositions of them.  
+- They underpin energy conservation, atomic structure, and quantum fluctuations.  
+
+[Diagram idea: Particle in a box with energy eigenstates as standing wave patterns]  
+[Diagram idea: Time evolution of a non-eigenstate (oscillating between states) vs. eigenstate (unchanging)]  
+[Diagram idea: Energy levels of a hydrogen atom as horizontal lines, with eigenstates labeled]
+
+================================================================================
+TIME: 2026-05-04T17:22:25
+NODE: term_collector
+PROMPT_CHARS: 4488
+PROMPT_TOKENS_APPROX: 1122
+RESPONSE_CHARS: 100
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.85}
+================================================================================
+PROMPT:
+Extract the descriptive-name candidates from this draft.
+
+Return JSON with this shape:
+{
+  "terms": [
+    {
+      "standard_term": "fermion",
+      "candidate_name": "space-occupier",
+      "context_quote": "short quote from the draft",
+      "usefulness": "why this name helps",
+      "risk": "how it could mislead, or empty string if low risk"
+    }
+  ]
+}
+
+Only include actual teaching-name candidates, especially phrases followed by standard terms in braces.
+
+Draft:
+# Energy Eigenstate
+
+## The core idea  
+An **energy eigenstate** is a stable, "snapshot" of a quantum system where the energy is precisely defined. Like a classical system with fixed energy (e.g., a pendulum at rest), it doesn’t change over time. When measured, it always gives the same energy value. This concept is key to understanding how quantum systems evolve and respond to observations.
+
+## Why this matters  
+Energy eigenstates explain how quantum systems conserve energy and produce predictable measurement outcomes. They underpin the stability of atoms, the behavior of particles in traps, and the quantization of energy in nature. Without them, we couldn’t describe phenomena like atomic spectra or quantum fluctuations.
+
+## The simple picture  
+Imagine a pendulum swinging in a vacuum—its energy remains constant unless disturbed. In quantum mechanics, an **energy snapshot {eigenstate}** is like this pendulum: it holds a fixed energy value, never losing or gaining energy on its own. Unlike classical systems, however, quantum eigenstates can still exhibit subtle fluctuations (like virtual particles), but their energy remains precisely defined.
+
+## The more precise picture  
+An **energy eigenstate** is a state where the system’s energy is precisely known. Mathematically, it satisfies the **time-independent Schrödinger equation**:  
+$$ \hat{H} \psi = E \psi $$  
+Here, $ \hat{H} $ is the Hamiltonian (energy operator), $ \psi $ is the wavefunction, and $ E $ is the energy. This equation defines a state where energy doesn’t change over time, unlike non-eigenstates, which oscillate between different energy values.  
+
+In contrast to classical systems, quantum eigenstates are **stationary states {stationary state}**—their probability distributions don’t evolve unless disturbed. This stability makes them ideal for analyzing systems like electrons in atoms or photons in cavities.
+
+## Common misconceptions  
+- **Misconception 1**: Energy eigenstates are static, unchanging systems.  
+  → *Clarification*: While their energy is fixed, quantum fluctuations (e.g., virtual particles) still occur. These fluctuations don’t alter the energy value but reflect the probabilistic nature of quantum mechanics.  
+
+- **Misconception 2**: Energy eigenstates are the only valid states.  
+  → *Clarification*: Most systems exist in **superpositions** of eigenstates. For example, a quantum particle in a box might be in a mix of energy levels until measured.  
+
+- **Misconception 3**: Eigenstates only apply to isolated systems.  
+  → *Clarification*: They’re useful for analyzing subsystems even in complex systems. For instance, a single electron in a molecule can be treated as an eigenstate, even though the molecule as a whole interacts with its environment.
+
+## How this connects to the rest of physics  
+Energy eigenstates are foundational to quantum mechanics and directly link to:  
+- **Energy conservation**: Eigenstates don’t exchange energy with their environment.  
+- **Atomic structure**: Electrons in atoms occupy energy eigenstates, explaining discrete spectral lines.  
+- **Quantum fluctuations**: Even in vacuum, energy eigenstates allow for temporary energy "borrowing" via virtual particles.  
+- **Thermodynamics**: Eigenstates help model systems in thermal equilibrium, where energy is distributed among many states.
+
+## Recap  
+- An **energy eigenstate {eigenstate}** is a stable state with precisely defined energy.  
+- It doesn’t change over time unless disturbed, making it ideal for predicting measurement outcomes.  
+- Eigenstates are not the only valid states—most systems exist in superpositions of them.  
+- They underpin energy conservation, atomic structure, and quantum fluctuations.  
+
+[Diagram idea: Particle in a box with energy eigenstates as standing wave patterns]  
+[Diagram idea: Time evolution of a non-eigenstate (oscillating between states) vs. eigenstate (unchanging)]  
+[Diagram idea: Energy levels of a hydrogen atom as horizontal lines, with eigenstates labeled]
+
+RESPONSE:
+{
+  "terms": [
+    {
+      "standard_term": "eigenstate",
+      "candidate_name": "energy snapshot",
+
+================================================================================
+TIME: 2026-05-04T17:25:41
+NODE: accessibility_judge
+PROMPT_CHARS: 6216
+PROMPT_TOKENS_APPROX: 1554
+RESPONSE_CHARS: 1348
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.85}
+================================================================================
+PROMPT:
+Score this EasyPhysics article for accessibility using the rubric below.
+
+Accessibility score, 1-10:
+
+10 = Exceptional. A motivated high-schooler can follow the article's main arc without prior exposure.
+     Jargon is introduced only after intuition. Examples are vivid. Math is explained as meaning,
+     not just symbols. The article feels empowering and clear.
+
+9 = Publishable with light human editing. The main idea is easy to follow; jargon is mostly controlled;
+    analogies are helpful; sections flow logically; any math has a plain-language interpretation.
+
+8 = Strong draft. Mostly clear, but has a few dense sections, unexplained terms, abrupt transitions,
+    or analogies that need more setup.
+
+7 = Useful but uneven. A motivated reader could learn from it, but several passages need simplification,
+    clearer examples, or better sequencing.
+
+6 = Borderline. The article contains useful explanations, but assumes too much background or uses too much jargon.
+
+5 = Mixed. Some good paragraphs, but the structure or language would lose many target readers.
+
+4 = Hard to follow. Mostly written for someone who already knows the subject.
+
+3 = Very inaccessible. Dense, abstract, jargon-heavy, or poorly sequenced.
+
+2 = Barely useful to the target audience.
+
+1 = Fails the accessibility goal.
+
+Accessibility judge priorities:
+- Does the opening give the reader an intuitive foothold?
+- Are standard terms introduced after meaning, not before?
+- Are descriptive names useful rather than cutesy or misleading?
+- Are analogies concrete and then carefully limited?
+- Is any math explained in words?
+- Does the article avoid "spooky/magic/weird" framing while still acknowledging counterintuitive ideas?
+- Does each section make the next section easier?
+
+Return JSON with this shape:
+{
+  "score": 1,
+  "pass": false,
+  "strengths": ["specific strength"],
+  "issues": [
+    {
+      "severity": "low | medium | high",
+      "location": "section or paragraph description",
+      "problem": "specific accessibility issue",
+      "suggested_fix": "specific fix"
+    }
+  ],
+  "best_next_revision": "one concise paragraph describing what to improve next"
+}
+
+Article title: Energy eigenstate
+
+Draft:
+# Energy Eigenstate
+
+## The core idea  
+An **energy eigenstate** is a stable, "snapshot" of a quantum system where the energy is precisely defined. Like a classical system with fixed energy (e.g., a pendulum at rest), it doesn’t change over time. When measured, it always gives the same energy value. This concept is key to understanding how quantum systems evolve and respond to observations.
+
+## Why this matters  
+Energy eigenstates explain how quantum systems conserve energy and produce predictable measurement outcomes. They underpin the stability of atoms, the behavior of particles in traps, and the quantization of energy in nature. Without them, we couldn’t describe phenomena like atomic spectra or quantum fluctuations.
+
+## The simple picture  
+Imagine a pendulum swinging in a vacuum—its energy remains constant unless disturbed. In quantum mechanics, an **energy snapshot {eigenstate}** is like this pendulum: it holds a fixed energy value, never losing or gaining energy on its own. Unlike classical systems, however, quantum eigenstates can still exhibit subtle fluctuations (like virtual particles), but their energy remains precisely defined.
+
+## The more precise picture  
+An **energy eigenstate** is a state where the system’s energy is precisely known. Mathematically, it satisfies the **time-independent Schrödinger equation**:  
+$$ \hat{H} \psi = E \psi $$  
+Here, $ \hat{H} $ is the Hamiltonian (energy operator), $ \psi $ is the wavefunction, and $ E $ is the energy. This equation defines a state where energy doesn’t change over time, unlike non-eigenstates, which oscillate between different energy values.  
+
+In contrast to classical systems, quantum eigenstates are **stationary states {stationary state}**—their probability distributions don’t evolve unless disturbed. This stability makes them ideal for analyzing systems like electrons in atoms or photons in cavities.
+
+## Common misconceptions  
+- **Misconception 1**: Energy eigenstates are static, unchanging systems.  
+  → *Clarification*: While their energy is fixed, quantum fluctuations (e.g., virtual particles) still occur. These fluctuations don’t alter the energy value but reflect the probabilistic nature of quantum mechanics.  
+
+- **Misconception 2**: Energy eigenstates are the only valid states.  
+  → *Clarification*: Most systems exist in **superpositions** of eigenstates. For example, a quantum particle in a box might be in a mix of energy levels until measured.  
+
+- **Misconception 3**: Eigenstates only apply to isolated systems.  
+  → *Clarification*: They’re useful for analyzing subsystems even in complex systems. For instance, a single electron in a molecule can be treated as an eigenstate, even though the molecule as a whole interacts with its environment.
+
+## How this connects to the rest of physics  
+Energy eigenstates are foundational to quantum mechanics and directly link to:  
+- **Energy conservation**: Eigenstates don’t exchange energy with their environment.  
+- **Atomic structure**: Electrons in atoms occupy energy eigenstates, explaining discrete spectral lines.  
+- **Quantum fluctuations**: Even in vacuum, energy eigenstates allow for temporary energy "borrowing" via virtual particles.  
+- **Thermodynamics**: Eigenstates help model systems in thermal equilibrium, where energy is distributed among many states.
+
+## Recap  
+- An **energy eigenstate {eigenstate}** is a stable state with precisely defined energy.  
+- It doesn’t change over time unless disturbed, making it ideal for predicting measurement outcomes.  
+- Eigenstates are not the only valid states—most systems exist in superpositions of them.  
+- They underpin energy conservation, atomic structure, and quantum fluctuations.  
+
+[Diagram idea: Particle in a box with energy eigenstates as standing wave patterns]  
+[Diagram idea: Time evolution of a non-eigenstate (oscillating between states) vs. eigenstate (unchanging)]  
+[Diagram idea: Energy levels of a hydrogen atom as horizontal lines, with eigenstates labeled]
+
+RESPONSE:
+{
+  "score": 8,
+  "pass": false,
+  "strengths": [
+    "Clear analogy with a pendulum provides intuitive foothold",
+    "Structure logically progresses from simple to complex ideas",
+    "Connections to real-world phenomena (atoms, quantum fluctuations) are well-explained"
+  ],
+  "issues": [
+    {
+      "severity": "medium",
+      "location": "more precise picture section",
+      "problem": "Math equation is presented without explanation of symbols (Hamiltonian, wavefunction)",
+      "suggested_fix": "Add plain-language explanation of symbols: e.g., 'Hamiltonian is the energy operator that describes how the system's energy behaves'"
+    },
+    {
+      "severity": "medium",
+      "location": "common misconceptions section",
+      "problem": "Term 'stationary state' is introduced without prior definition",
+      "suggested_fix": "Define 'stationary state' earlier in the article or add a parenthetical explanation"
+    },
+    {
+      "severity": "low",
+      "location": "diagram ideas at end",
+      "problem": "Visual aids are only described, not included",
+      "suggested_fix": "Add simple diagrams or describe them in more detail to support abstract concepts"
+    }
+  ],
+  "best_next_revision": "Enhance mathematical explanations by breaking down symbols and add visual aids to clarify abstract concepts like wavefunction behavior"
+}
+
+================================================================================
+TIME: 2026-05-04T17:28:56
+NODE: rigor_judge
+PROMPT_CHARS: 7039
+PROMPT_TOKENS_APPROX: 1759
+RESPONSE_CHARS: 1831
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.85}
+================================================================================
+PROMPT:
+Score this EasyPhysics article for scientific rigor using the rubric below.
+
+Rigor score, 1-10:
+
+10 = Exceptional. Scientifically accurate, well-qualified, and careful about analogy limits.
+     No obvious misleading simplifications. Claims align with stable accepted physics.
+
+9 = Publishable with light human editing. No major errors. A few details may need polishing,
+    but the article is safe as an educational explanation.
+
+8 = Strong draft. Mostly accurate but has minor imprecision, missing qualifications, or analogy risks.
+
+7 = Useful but needs scientific review. Contains no catastrophic errors, but some claims are too loose,
+    incomplete, or potentially misleading.
+
+6 = Borderline. Several important corrections or qualifications are needed.
+
+5 = Mixed. The article has valuable explanations but also significant inaccuracies or misleading framings.
+
+4 = Scientifically weak. Multiple substantial errors or serious conceptual muddling.
+
+3 = Very unreliable. The reader would likely learn incorrect physics.
+
+2 = Mostly wrong or confused.
+
+1 = Fails the rigor goal.
+
+Rigor judge priorities:
+- Are definitions compatible with standard physics?
+- Are analogies technically safe, with their limits stated when necessary?
+- Are quantum concepts distinguished correctly: amplitude vs probability, superposition vs ignorance,
+  measurement vs ordinary looking, phase vs probability?
+- Are field/particle/wave descriptions accurate enough for a beginner article?
+- Are conservation, symmetry, force, energy, mass, and spin statements properly qualified?
+- Does the article avoid replacing historical jargon with new misleading jargon?
+- Are open questions distinguished from settled explanations?
+
+Use the claim-check results as context, but judge the final draft itself.
+
+Return JSON with this shape:
+{
+  "score": 1,
+  "pass": false,
+  "strengths": ["specific strength"],
+  "issues": [
+    {
+      "severity": "low | medium | high",
+      "location": "section or paragraph description",
+      "problem": "specific rigor issue",
+      "suggested_fix": "specific fix"
+    }
+  ],
+  "best_next_revision": "one concise paragraph describing what to improve next"
+}
+
+Article title: Energy eigenstate
+
+Claim-check context:
+{
+  "claim_checks": [
+    {
+      "id": "C001",
+      "verdict": "not_enough_evidence",
+      "severity": "medium",
+      "problem": "Could not parse claim-checker output.",
+      "suggested_fix": "Review this claim manually.",
+      "source_quality_note": ""
+    },
+    {
+      "id": "C002",
+      "verdict": "not_enough_evidence",
+      "severity": "medium",
+      "problem": "Could not parse claim-checker output.",
+      "suggested_fix": "Review this claim manually.",
+      "source_quality_note": ""
+    }
+  ],
+  "summary": {
+    "overall_claim_quality": "Claim check completed.",
+    "unresolved_or_needs_qualification": 2,
+    "highest_priority_fixes": [
+      "Review this claim manually.",
+      "Review this claim manually."
+    ]
+  },
+  "last_updated": "2026-05-04_17-16-53"
+}
+
+Draft:
+# Energy Eigenstate
+
+## The core idea  
+An **energy eigenstate** is a stable, "snapshot" of a quantum system where the energy is precisely defined. Like a classical system with fixed energy (e.g., a pendulum at rest), it doesn’t change over time. When measured, it always gives the same energy value. This concept is key to understanding how quantum systems evolve and respond to observations.
+
+## Why this matters  
+Energy eigenstates explain how quantum systems conserve energy and produce predictable measurement outcomes. They underpin the stability of atoms, the behavior of particles in traps, and the quantization of energy in nature. Without them, we couldn’t describe phenomena like atomic spectra or quantum fluctuations.
+
+## The simple picture  
+Imagine a pendulum swinging in a vacuum—its energy remains constant unless disturbed. In quantum mechanics, an **energy snapshot {eigenstate}** is like this pendulum: it holds a fixed energy value, never losing or gaining energy on its own. Unlike classical systems, however, quantum eigenstates can still exhibit subtle fluctuations (like virtual particles), but their energy remains precisely defined.
+
+## The more precise picture  
+An **energy eigenstate** is a state where the system’s energy is precisely known. Mathematically, it satisfies the **time-independent Schrödinger equation**:  
+$$ \hat{H} \psi = E \psi $$  
+Here, $ \hat{H} $ is the Hamiltonian (energy operator), $ \psi $ is the wavefunction, and $ E $ is the energy. This equation defines a state where energy doesn’t change over time, unlike non-eigenstates, which oscillate between different energy values.  
+
+In contrast to classical systems, quantum eigenstates are **stationary states {stationary state}**—their probability distributions don’t evolve unless disturbed. This stability makes them ideal for analyzing systems like electrons in atoms or photons in cavities.
+
+## Common misconceptions  
+- **Misconception 1**: Energy eigenstates are static, unchanging systems.  
+  → *Clarification*: While their energy is fixed, quantum fluctuations (e.g., virtual particles) still occur. These fluctuations don’t alter the energy value but reflect the probabilistic nature of quantum mechanics.  
+
+- **Misconception 2**: Energy eigenstates are the only valid states.  
+  → *Clarification*: Most systems exist in **superpositions** of eigenstates. For example, a quantum particle in a box might be in a mix of energy levels until measured.  
+
+- **Misconception 3**: Eigenstates only apply to isolated systems.  
+  → *Clarification*: They’re useful for analyzing subsystems even in complex systems. For instance, a single electron in a molecule can be treated as an eigenstate, even though the molecule as a whole interacts with its environment.
+
+## How this connects to the rest of physics  
+Energy eigenstates are foundational to quantum mechanics and directly link to:  
+- **Energy conservation**: Eigenstates don’t exchange energy with their environment.  
+- **Atomic structure**: Electrons in atoms occupy energy eigenstates, explaining discrete spectral lines.  
+- **Quantum fluctuations**: Even in vacuum, energy eigenstates allow for temporary energy "borrowing" via virtual particles.  
+- **Thermodynamics**: Eigenstates help model systems in thermal equilibrium, where energy is distributed among many states.
+
+## Recap  
+- An **energy eigenstate {eigenstate}** is a stable state with precisely defined energy.  
+- It doesn’t change over time unless disturbed, making it ideal for predicting measurement outcomes.  
+- Eigenstates are not the only valid states—most systems exist in superpositions of them.  
+- They underpin energy conservation, atomic structure, and quantum fluctuations.  
+
+[Diagram idea: Particle in a box with energy eigenstates as standing wave patterns]  
+[Diagram idea: Time evolution of a non-eigenstate (oscillating between states) vs. eigenstate (unchanging)]  
+[Diagram idea: Energy levels of a hydrogen atom as horizontal lines, with eigenstates labeled]
+
+RESPONSE:
+{
+  "score": 7,
+  "pass": false,
+  "strengths": [
+    "Clear distinction between eigenstates and superpositions",
+    "Accurate mathematical formulation of the Schrödinger equation",
+    "Useful analogies to classical systems"
+  ],
+  "issues": [
+    {
+      "severity": "medium",
+      "location": "The simple picture section",
+      "problem": "Confuses quantum fluctuations with classical energy conservation",
+      "suggested_fix": "Clarify that quantum fluctuations (virtual particles) don't violate energy conservation by specifying they occur within the uncertainty principle's limits"
+    },
+    {
+      "severity": "medium",
+      "location": "The more precise picture section",
+      "problem": "Implies eigenstates are 'static' without addressing wavefunction phase evolution",
+      "suggested_fix": "Add note that eigenstates have time-independent probability distributions but still have non-zero phase velocities"
+    },
+    {
+      "severity": "high",
+      "location": "Common misconceptions section",
+      "problem": "Equates 'energy eigenstate' with 'stationary state' without proper qualification",
+      "suggested_fix": "Add clarification that stationary states are a subset of eigenstates with definite energy"
+    },
+    {
+      "severity": "medium",
+      "location": "How this connects to the rest of physics section",
+      "problem": "States 'energy eigenstates allow for temporary energy borrowing' without specifying Heisenberg uncertainty principle context",
+      "suggested_fix": "Add clarification about energy-time uncertainty relation and virtual particles"
+    }
+  ],
+  "best_next_revision": "Refine explanations of quantum fluctuations and energy conservation to explicitly connect with uncertainty principles, and clarify the relationship between stationary states and energy eigenstates."
+}

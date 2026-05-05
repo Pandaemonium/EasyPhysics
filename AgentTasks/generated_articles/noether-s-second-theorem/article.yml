@@ -1,0 +1,14 @@
+title: Noether's second theorem
+slug: noether-s-second-theorem
+status: error
+finished: false
+iteration_count: 2
+accessibility_score: 7
+rigor_score: 0
+last_worked_on: '2026-05-04'
+last_completed_pass: 2026-05-04_07-04-34
+needs:
+- accessibility_revision
+- rigor_revision
+current_draft: draft.md
+last_error: 'LLMCallError("writer failed after 1 attempt(s): LLMCallError(''LLM_TIMEOUT_AFTER_480_SECONDS'')")'

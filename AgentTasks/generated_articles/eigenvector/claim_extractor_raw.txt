@@ -1,0 +1,35 @@
+{
+  "claims": [
+    {
+      "id": "C001",
+      "claim": "Eigenvectors are direction-keepers {eigenvectors} that only stretch or shrink under a transformation without changing direction.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "This foundational property makes eigenvectors critical for simplifying complex transformations in physics and engineering.",
+      "suggested_search_query": "linear algebra eigenvector definition textbook"
+    },
+    {
+      "id": "C002",
+      "claim": "The equation $ A \cdot \mathbf{v} = \lambda \cdot \mathbf{v} $ defines eigenvectors, where $ A $ is a transformation, $ \mathbf{v} $ is the eigenvector, and $ \lambda $ is the scaling factor.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "This mathematical relationship is central to understanding how eigenvectors behave under linear transformations.",
+      "suggested_search_query": "eigenvector eigenvalue equation derivation"
+    },
+    {
+      "id": "C003",
+      "claim": "Eigenvectors simplify complex systems by isolating directions where transformations act predictably, such as in quantum mechanics {eigenstates}.",
+      "type": "application",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "This property underpins major theories in physics and practical applications in data science.",
+      "suggested_search_query": "eigenvector applications quantum mechanics"
+    },
+    {
+      "id": "C004",
+      "claim": "Eigenvectors apply to any linear transformation, not just matrices, including rotations, reflections, and differential operators.",
+      "type": "correction",
+      "importance": "high",
+      "needs_external_check": true,

@@ -1,0 +1,597 @@
+
+================================================================================
+TIME: 2026-05-04T00:27:42
+NODE: planner
+PROMPT_CHARS: 516
+PROMPT_TOKENS_APPROX: 129
+RESPONSE_CHARS: 5037
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 64, "num_ctx": 12288, "num_predict": 3072, "temperature": 0.25, "top_p": 0.85}
+================================================================================
+PROMPT:
+Create a strong teaching outline for this EasyPhysics article:
+
+Title: The double-slit experiment without the magic or mystery
+
+The outline should include:
+1. Scope: what this article explains.
+2. Out of scope: what it should not try to explain yet.
+3. Prerequisite concepts.
+4. Core intuition.
+5. Suggested descriptive names with standard terms in braces.
+6. Common misconceptions to avoid.
+7. Section-by-section outline.
+8. Optional diagram ideas.
+9. Optional minimal math, with what the math means.
+
+Use Markdown.
+
+RESPONSE:
+# The double-slit experiment without the magic or mystery  
+
+---
+
+## 1. Scope  
+This article explains:  
+- The setup of the double-slit experiment with particles (like electrons or photons).  
+- How particles create **interference patterns** (wave-like behavior) when unobserved.  
+- How observation changes the outcome (particle-like behavior).  
+- The **wave-particle duality** concept: particles can behave as waves or particles depending on context.  
+- The role of **measurement** in shaping experimental results.  
+
+---
+
+## 2. Out of Scope  
+This article does **not** try to explain:  
+- The **Copenhagen interpretation** or other quantum philosophy debates.  
+- **Quantum superposition** or entanglement (advanced topics).  
+- The **mathematical formalism** of quantum mechanics (e.g., wavefunctions, operators).  
+- The **observer effect** as a metaphysical "consciousness" phenomenon.  
+
+---
+
+## 3. Prerequisite Concepts  
+- Basic understanding of **waves** (interference, diffraction).  
+- Basic understanding of **particles** (mass, trajectory).  
+- Familiarity with **probability** (e.g., "chance of landing in a spot").  
+- Knowledge of **light and matter** (e.g., photons, electrons).  
+
+---
+
+## 4. Core Intuition  
+The double-slit experiment reveals:  
+- **Particles can behave like waves** when unobserved, creating interference patterns.  
+- **Observation collapses** the wave-like behavior into particle-like behavior.  
+- The experiment highlights **wave-particle duality**: particles are not strictly "waves" or "particles," but have properties of both.  
+- The **role of measurement** is to determine the outcome, not to "cause" it.  
+
+---
+
+## 5. Suggested Descriptive Names with Standard Terms in Braces  
+| Descriptive Name              | Standard Term         |  
+|------------------------------|-----------------------|  
+| wave-ripple {wave}           | wave                  |  
+| particle-trajectory {particle} | particle             |  
+| interference pattern {interference} | interference       |  
+| observation effect {measurement} | measurement         |  
+| space-occupier {fermion}     | fermion               |  
+| stackable ripple {boson}     | boson                 |  
+
+---
+
+## 6. Common Misconceptions to Avoid  
+- ❌ "Particles split into two and interfere with themselves."  
+  → **Fix**: Particles don’t split; the interference pattern arises from their wave-like properties.  
+- ❌ "Observation causes collapse."  
+  → **Fix**: Observation *reveals* the particle-like behavior, not "causing" it.  
+- ❌ "The experiment proves consciousness affects reality."  
+  → **Fix**: The "observer effect" is about measurement tools, not consciousness.  
+- ❌ "Particles are either waves or particles."  
+  → **Fix**: They have properties of both, depending on how we measure them.  
+
+---
+
+## 7. Section-by-Section Outline  
+
+### **Section 1: The Setup**  
+- Describe the double-slit apparatus: light source, slits, detection screen.  
+- Use diagrams to show particle vs. wave paths.  
+- **Key idea**: Particles are fired one at a time.  
+
+### **Section 2: Wave-Like Behavior**  
+- Show how particles create an **interference pattern** (bright/dark bands).  
+- Explain **constructive/destructive interference** using simple analogies (e.g., ripples in water).  
+- **Math hint**: Path difference = wavelength × integer (constructive) or half-integer (destructive).  
+
+### **Section 3: Particle-Like Behavior**  
+- Describe what happens when detectors "observe" the path.  
+- Show how the pattern shifts to individual dots (no interference).  
+- **Key idea**: Observation reveals the particle’s path.  
+
+### **Section 4: The Role of Measurement**  
+- Contrast "unobserved" vs. "observed" outcomes.  
+- Explain that **measurement** is a tool, not a magical force.  
+- **Descriptive name**: "observation effect" {measurement}.  
+
+### **Section 5: Summary and Intuition**  
+- Reiterate **wave-particle duality**.  
+- Emphasize that the experiment is about **how we measure**, not "what particles are."  
+
+---
+
+## 8. Optional Diagram Ideas  
+1. **Double-slit setup**: Show light source, slits, and screen.  
+2. **Interference pattern**: Bright/dark bands with labels for constructive/destructive interference.  
+3. **Particle vs. wave paths**: Side-by-side diagrams of single-particle trajectories vs. wave ripples.  
+4. **Observation effect**: Split-screen showing interference vs. particle dots.  
+
+---
+
+## 9. Optional Minimal Math  
+- **Interference condition**:  
+  $ \text{Path difference} = n \lambda $ (constructive)  
+  $ \text{Path difference} = (n + 0.5) \lambda $ (destructive)  
+  → **Explanation**: The math describes where particles are likely to land, not their exact path.  
+- **Probability analogy**:  
+  $ P(\text{landing at spot}) \propto \text{amplitude}^2 $  
+  → **Explanation**: The "amplitude" is a measure of likelihood, not a physical wave.  
+
+--- 
+
+This outline balances conceptual clarity with rigor, avoiding mysticism while grounding the experiment in measurable, physical principles.
+
+================================================================================
+TIME: 2026-05-04T00:33:57
+NODE: writer
+PROMPT_CHARS: 6487
+PROMPT_TOKENS_APPROX: 1621
+RESPONSE_CHARS: 4017
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 64, "num_ctx": 12288, "num_predict": 3072, "temperature": 0.25, "top_p": 0.85}
+================================================================================
+PROMPT:
+Write a high-quality first draft for this EasyPhysics article.
+
+Title: The double-slit experiment without the magic or mystery
+
+Article outline:
+# The double-slit experiment without the magic or mystery  
+
+---
+
+## 1. Scope  
+This article explains:  
+- The setup of the double-slit experiment with particles (like electrons or photons).  
+- How particles create **interference patterns** (wave-like behavior) when unobserved.  
+- How observation changes the outcome (particle-like behavior).  
+- The **wave-particle duality** concept: particles can behave as waves or particles depending on context.  
+- The role of **measurement** in shaping experimental results.  
+
+---
+
+## 2. Out of Scope  
+This article does **not** try to explain:  
+- The **Copenhagen interpretation** or other quantum philosophy debates.  
+- **Quantum superposition** or entanglement (advanced topics).  
+- The **mathematical formalism** of quantum mechanics (e.g., wavefunctions, operators).  
+- The **observer effect** as a metaphysical "consciousness" phenomenon.  
+
+---
+
+## 3. Prerequisite Concepts  
+- Basic understanding of **waves** (interference, diffraction).  
+- Basic understanding of **particles** (mass, trajectory).  
+- Familiarity with **probability** (e.g., "chance of landing in a spot").  
+- Knowledge of **light and matter** (e.g., photons, electrons).  
+
+---
+
+## 4. Core Intuition  
+The double-slit experiment reveals:  
+- **Particles can behave like waves** when unobserved, creating interference patterns.  
+- **Observation collapses** the wave-like behavior into particle-like behavior.  
+- The experiment highlights **wave-particle duality**: particles are not strictly "waves" or "particles," but have properties of both.  
+- The **role of measurement** is to determine the outcome, not to "cause" it.  
+
+---
+
+## 5. Suggested Descriptive Names with Standard Terms in Braces  
+| Descriptive Name              | Standard Term         |  
+|------------------------------|-----------------------|  
+| wave-ripple {wave}           | wave                  |  
+| particle-trajectory {particle} | particle             |  
+| interference pattern {interference} | interference       |  
+| observation effect {measurement} | measurement         |  
+| space-occupier {fermion}     | fermion               |  
+| stackable ripple {boson}     | boson                 |  
+
+---
+
+## 6. Common Misconceptions to Avoid  
+- ❌ "Particles split into two and interfere with themselves."  
+  → **Fix**: Particles don’t split; the interference pattern arises from their wave-like properties.  
+- ❌ "Observation causes collapse."  
+  → **Fix**: Observation *reveals* the particle-like behavior, not "causing" it.  
+- ❌ "The experiment proves consciousness affects reality."  
+  → **Fix**: The "observer effect" is about measurement tools, not consciousness.  
+- ❌ "Particles are either waves or particles."  
+  → **Fix**: They have properties of both, depending on how we measure them.  
+
+---
+
+## 7. Section-by-Section Outline  
+
+### **Section 1: The Setup**  
+- Describe the double-slit apparatus: light source, slits, detection screen.  
+- Use diagrams to show particle vs. wave paths.  
+- **Key idea**: Particles are fired one at a time.  
+
+### **Section 2: Wave-Like Behavior**  
+- Show how particles create an **interference pattern** (bright/dark bands).  
+- Explain **constructive/destructive interference** using simple analogies (e.g., ripples in water).  
+- **Math hint**: Path difference = wavelength × integer (constructive) or half-integer (destructive).  
+
+### **Section 3: Particle-Like Behavior**  
+- Describe what happens when detectors "observe" the path.  
+- Show how the pattern shifts to individual dots (no interference).  
+- **Key idea**: Observation reveals the particle’s path.  
+
+### **Section 4: The Role of Measurement**  
+- Contrast "unobserved" vs. "observed" outcomes.  
+- Explain that **measurement** is a tool, not a magical force.  
+- **Descriptive name**: "observation effect" {measurement}.  
+
+### **Section 5: Summary and Intuition**  
+- Reiterate **wave-particle duality**.  
+- Emphasize that the experiment is about **how we measure**, not "what particles are."  
+
+---
+
+## 8. Optional Diagram Ideas  
+1. **Double-slit setup**: Show light source, slits, and screen.  
+2. **Interference pattern**: Bright/dark bands with labels for constructive/destructive interference.  
+3. **Particle vs. wave paths**: Side-by-side diagrams of single-particle trajectories vs. wave ripples.  
+4. **Observation effect**: Split-screen showing interference vs. particle dots.  
+
+---
+
+## 9. Optional Minimal Math  
+- **Interference condition**:  
+  $ \text{Path difference} = n \lambda $ (constructive)  
+  $ \text{Path difference} = (n + 0.5) \lambda $ (destructive)  
+  → **Explanation**: The math describes where particles are likely to land, not their exact path.  
+- **Probability analogy**:  
+  $ P(\text{landing at spot}) \propto \text{amplitude}^2 $  
+  → **Explanation**: The "amplitude" is a measure of likelihood, not a physical wave.  
+
+--- 
+
+This outline balances conceptual clarity with rigor, avoiding mysticism while grounding the experiment in measurable, physical principles.
+
+Human/editor notes:
+# Human/editor notes
+
+Add any preferences, corrections, or article-specific constraints here.
+
+
+Template guidance:
+Preferred article structure:
+
+# Title
+
+## The core idea
+A short, intuitive explanation that gives the reader the main point first.
+
+## Why this matters
+Explain what the concept helps us understand.
+
+## The simple picture
+Use an analogy, diagram idea, or concrete example.
+
+## The more precise picture
+Introduce standard terms, careful distinctions, and optional minimal math.
+
+## Common misconceptions
+Name and correct the traps.
+
+## How this connects to the rest of physics
+Link the concept to fields, particles, symmetry, conservation, relativity, or the Standard Model as appropriate.
+
+## Recap
+A few concise takeaways.
+
+Drafting instructions:
+- Make it accessible to a motivated high-schooler or college freshman.
+- Teach the modern concept directly rather than narrating historical discovery.
+- Use descriptive names with standard terms in braces, e.g. space-occupier {fermion}.
+- Include common misconceptions and correct them.
+- Include minimal math only when it helps, and explain what the math means.
+- Suggest diagram ideas inline where helpful using this format: [Diagram idea: ...]
+- Output only the article in Markdown, with no commentary before or after.
+
+RESPONSE:
+# The double-slit experiment without the magic or mystery  
+
+## The core idea  
+Particles like electrons or photons can behave like waves when unobserved, creating interference patterns. But when you try to "see" their path, they act like particles. This shows that measurement shapes what we observe, not that particles are inherently magical.  
+
+## Why this matters  
+This experiment reveals how measurement tools influence outcomes in quantum mechanics. It’s not about consciousness or hidden forces—it’s about how we design experiments to study reality. Understanding this helps us grasp the limits of classical intuition in the quantum world.  
+
+## The simple picture  
+Imagine throwing pebbles into a pond. Each pebble creates ripples that spread out and overlap. If you drop one pebble at a time, the ripples still form patterns of high and low water. Now, imagine a tiny pebble that *vanishes* when you look at it. That’s the double-slit experiment: the pebble (particle) behaves like a ripple (wave) when unobserved, but acts like a pebble when you check its path.  
+
+[Diagram idea: Side-by-side images of a single pebble creating ripples vs. a "vanishing" pebble that leaves a dot when observed.]  
+
+## The more precise picture  
+### Setup  
+A particle source (like a light bulb or electron gun) fires particles one at a time toward a barrier with two slits. A screen behind the barrier detects where the particles land.  
+
+### Wave-like behavior  
+When unobserved, particles create an **interference pattern** {interference}—a series of bright and dark bands. This happens because each particle’s wave-like properties spread through both slits, overlapping like ripples in water. The math describes where particles are likely to land:  
+- **Constructive interference** {constructive interference}: Path difference = $ n \lambda $ (bright band)  
+- **Destructive interference** {destructive interference}: Path difference = $ (n + 0.5) \lambda $ (dark band)  
+
+### Particle-like behavior  
+If you add detectors to "see" which slit the particle goes through, the interference pattern disappears. Instead, particles land as individual dots, like tiny pebbles. This is the **observation effect** {measurement}: the act of measuring reveals the particle’s path, collapsing its wave-like behavior.  
+
+[Diagram idea: Split-screen showing interference bands vs. individual dots with labels for "unobserved" and "observed".]  
+
+### Key terms  
+- **Wave-ripple** {wave}: The spread-out property of particles.  
+- **Particle-trajectory** {particle}: The path a particle takes when observed.  
+- **Observation effect** {measurement}: The role of measurement tools in shaping results.  
+
+## Common misconceptions  
+- ❌ "Particles split into two and interfere with themselves."  
+  → **Fix**: Particles don’t split. Their wave-like properties spread through both slits, creating interference.  
+- ❌ "Observation causes collapse."  
+  → **Fix**: Observation *reveals* the particle’s path, not "causing" it. The collapse is a result of measurement, not magic.  
+- ❌ "The experiment proves consciousness affects reality."  
+  → **Fix**: The "observer effect" is about measurement tools, not consciousness.  
+
+## How this connects to the rest of physics  
+This experiment highlights **wave-particle duality** {wave-particle duality}, a cornerstone of quantum mechanics. It also ties to the **Standard Model** {Standard Model}, where particles like electrons are described by wavefunctions that encode probabilities. Understanding this helps explain phenomena like **quantum tunneling** {quantum tunneling} and the behavior of **bosons** {boson} and **fermions** {fermion} in particle physics.  
+
+## Recap  
+- Particles can behave like waves (interference patterns) or particles (individual dots), depending on how we measure them.  
+- Measurement tools shape experimental results, not "consciousness" or hidden forces.  
+- The double-slit experiment is a gateway to understanding quantum mechanics’ rules, not its mysteries.
+
+================================================================================
+TIME: 2026-05-04T00:41:12
+NODE: term_collector
+PROMPT_CHARS: 4487
+PROMPT_TOKENS_APPROX: 1121
+RESPONSE_CHARS: 1080
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 64, "num_ctx": 12288, "num_predict": 3072, "temperature": 0.25, "top_p": 0.85}
+================================================================================
+PROMPT:
+Extract the descriptive-name candidates from this draft.
+
+Return JSON with this shape:
+{
+  "terms": [
+    {
+      "standard_term": "fermion",
+      "candidate_name": "space-occupier",
+      "context_quote": "short quote from the draft",
+      "usefulness": "why this name helps",
+      "risk": "how it could mislead, or empty string if low risk"
+    }
+  ]
+}
+
+Only include actual teaching-name candidates, especially phrases followed by standard terms in braces.
+
+Draft:
+# The double-slit experiment without the magic or mystery  
+
+## The core idea  
+Particles like electrons or photons can behave like waves when unobserved, creating interference patterns. But when you try to "see" their path, they act like particles. This shows that measurement shapes what we observe, not that particles are inherently magical.  
+
+## Why this matters  
+This experiment reveals how measurement tools influence outcomes in quantum mechanics. It’s not about consciousness or hidden forces—it’s about how we design experiments to study reality. Understanding this helps us grasp the limits of classical intuition in the quantum world.  
+
+## The simple picture  
+Imagine throwing pebbles into a pond. Each pebble creates ripples that spread out and overlap. If you drop one pebble at a time, the ripples still form patterns of high and low water. Now, imagine a tiny pebble that *vanishes* when you look at it. That’s the double-slit experiment: the pebble (particle) behaves like a ripple (wave) when unobserved, but acts like a pebble when you check its path.  
+
+[Diagram idea: Side-by-side images of a single pebble creating ripples vs. a "vanishing" pebble that leaves a dot when observed.]  
+
+## The more precise picture  
+### Setup  
+A particle source (like a light bulb or electron gun) fires particles one at a time toward a barrier with two slits. A screen behind the barrier detects where the particles land.  
+
+### Wave-like behavior  
+When unobserved, particles create an **interference pattern** {interference}—a series of bright and dark bands. This happens because each particle’s wave-like properties spread through both slits, overlapping like ripples in water. The math describes where particles are likely to land:  
+- **Constructive interference** {constructive interference}: Path difference = $ n \lambda $ (bright band)  
+- **Destructive interference** {destructive interference}: Path difference = $ (n + 0.5) \lambda $ (dark band)  
+
+### Particle-like behavior  
+If you add detectors to "see" which slit the particle goes through, the interference pattern disappears. Instead, particles land as individual dots, like tiny pebbles. This is the **observation effect** {measurement}: the act of measuring reveals the particle’s path, collapsing its wave-like behavior.  
+
+[Diagram idea: Split-screen showing interference bands vs. individual dots with labels for "unobserved" and "observed".]  
+
+### Key terms  
+- **Wave-ripple** {wave}: The spread-out property of particles.  
+- **Particle-trajectory** {particle}: The path a particle takes when observed.  
+- **Observation effect** {measurement}: The role of measurement tools in shaping results.  
+
+## Common misconceptions  
+- ❌ "Particles split into two and interfere with themselves."  
+  → **Fix**: Particles don’t split. Their wave-like properties spread through both slits, creating interference.  
+- ❌ "Observation causes collapse."  
+  → **Fix**: Observation *reveals* the particle’s path, not "causing" it. The collapse is a result of measurement, not magic.  
+- ❌ "The experiment proves consciousness affects reality."  
+  → **Fix**: The "observer effect" is about measurement tools, not consciousness.  
+
+## How this connects to the rest of physics  
+This experiment highlights **wave-particle duality** {wave-particle duality}, a cornerstone of quantum mechanics. It also ties to the **Standard Model** {Standard Model}, where particles like electrons are described by wavefunctions that encode probabilities. Understanding this helps explain phenomena like **quantum tunneling** {quantum tunneling} and the behavior of **bosons** {boson} and **fermions** {fermion} in particle physics.  
+
+## Recap  
+- Particles can behave like waves (interference patterns) or particles (individual dots), depending on how we measure them.  
+- Measurement tools shape experimental results, not "consciousness" or hidden forces.  
+- The double-slit experiment is a gateway to understanding quantum mechanics’ rules, not its mysteries.
+
+RESPONSE:
+{
+  "terms": [
+    {
+      "standard_term": "wave",
+      "candidate_name": "Wave-ripple",
+      "context_quote": "the pebble (particle) behaves like a ripple (wave) when unobserved",
+      "usefulness": "Helps explain wave-like behavior with an intuitive ripple analogy",
+      "risk": "Low risk; clearly an analogy for wave properties"
+    },
+    {
+      "standard_term": "particle",
+      "candidate_name": "Particle-trajectory",
+      "context_quote": "the act of measuring reveals the particle’s path, collapsing its wave-like behavior",
+      "usefulness": "Clarifies the particle’s path when observed",
+      "risk": "Low risk; directly ties to measurement outcomes"
+    },
+    {
+      "standard_term": "measurement",
+      "candidate_name": "Observation effect",
+      "context_quote": "Observation *reveals* the particle’s path, not 'causing' it. The collapse is a result of measurement, not magic",
+      "usefulness": "Avoids mystical interpretations by linking to measurement tools",
+      "risk": "Low risk; explicitly contrasts with magical explanations"
+    }
+  ]
+}
+
+================================================================================
+TIME: 2026-05-04T00:44:19
+NODE: claim_extractor
+PROMPT_CHARS: 4933
+PROMPT_TOKENS_APPROX: 1233
+RESPONSE_CHARS: 2371
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 64, "num_ctx": 12288, "num_predict": 3072, "temperature": 0.25, "top_p": 0.85}
+================================================================================
+PROMPT:
+Extract the most important scientific and explanatory claims from this article draft.
+
+Return JSON with this shape:
+{
+  "claims": [
+    {
+      "id": "C001",
+      "claim": "A clear, standalone claim from the article.",
+      "type": "definition | mechanism | analogy | mathematical | misconception-correction | scope | other",
+      "importance": "high | medium | low",
+      "needs_external_check": true,
+      "why_it_matters": "brief reason",
+      "suggested_search_query": "stable source search query, not latest-news oriented"
+    }
+  ]
+}
+
+Guidance:
+- Extract claims that matter for scientific correctness.
+- Include claims embedded in analogies if the analogy could mislead.
+- Do not include purely stylistic statements.
+- Search queries should prefer stable sources: textbooks, lecture notes, CERN, Fermilab, university pages.
+
+Article title: The double-slit experiment without the magic or mystery
+
+Draft:
+# The double-slit experiment without the magic or mystery  
+
+## The core idea  
+Particles like electrons or photons can behave like waves when unobserved, creating interference patterns. But when you try to "see" their path, they act like particles. This shows that measurement shapes what we observe, not that particles are inherently magical.  
+
+## Why this matters  
+This experiment reveals how measurement tools influence outcomes in quantum mechanics. It’s not about consciousness or hidden forces—it’s about how we design experiments to study reality. Understanding this helps us grasp the limits of classical intuition in the quantum world.  
+
+## The simple picture  
+Imagine throwing pebbles into a pond. Each pebble creates ripples that spread out and overlap. If you drop one pebble at a time, the ripples still form patterns of high and low water. Now, imagine a tiny pebble that *vanishes* when you look at it. That’s the double-slit experiment: the pebble (particle) behaves like a ripple (wave) when unobserved, but acts like a pebble when you check its path.  
+
+[Diagram idea: Side-by-side images of a single pebble creating ripples vs. a "vanishing" pebble that leaves a dot when observed.]  
+
+## The more precise picture  
+### Setup  
+A particle source (like a light bulb or electron gun) fires particles one at a time toward a barrier with two slits. A screen behind the barrier detects where the particles land.  
+
+### Wave-like behavior  
+When unobserved, particles create an **interference pattern** {interference}—a series of bright and dark bands. This happens because each particle’s wave-like properties spread through both slits, overlapping like ripples in water. The math describes where particles are likely to land:  
+- **Constructive interference** {constructive interference}: Path difference = $ n \lambda $ (bright band)  
+- **Destructive interference** {destructive interference}: Path difference = $ (n + 0.5) \lambda $ (dark band)  
+
+### Particle-like behavior  
+If you add detectors to "see" which slit the particle goes through, the interference pattern disappears. Instead, particles land as individual dots, like tiny pebbles. This is the **observation effect** {measurement}: the act of measuring reveals the particle’s path, collapsing its wave-like behavior.  
+
+[Diagram idea: Split-screen showing interference bands vs. individual dots with labels for "unobserved" and "observed".]  
+
+### Key terms  
+- **Wave-ripple** {wave}: The spread-out property of particles.  
+- **Particle-trajectory** {particle}: The path a particle takes when observed.  
+- **Observation effect** {measurement}: The role of measurement tools in shaping results.  
+
+## Common misconceptions  
+- ❌ "Particles split into two and interfere with themselves."  
+  → **Fix**: Particles don’t split. Their wave-like properties spread through both slits, creating interference.  
+- ❌ "Observation causes collapse."  
+  → **Fix**: Observation *reveals* the particle’s path, not "causing" it. The collapse is a result of measurement, not magic.  
+- ❌ "The experiment proves consciousness affects reality."  
+  → **Fix**: The "observer effect" is about measurement tools, not consciousness.  
+
+## How this connects to the rest of physics  
+This experiment highlights **wave-particle duality** {wave-particle duality}, a cornerstone of quantum mechanics. It also ties to the **Standard Model** {Standard Model}, where particles like electrons are described by wavefunctions that encode probabilities. Understanding this helps explain phenomena like **quantum tunneling** {quantum tunneling} and the behavior of **bosons** {boson} and **fermions** {fermion} in particle physics.  
+
+## Recap  
+- Particles can behave like waves (interference patterns) or particles (individual dots), depending on how we measure them.  
+- Measurement tools shape experimental results, not "consciousness" or hidden forces.  
+- The double-slit experiment is a gateway to understanding quantum mechanics’ rules, not its mysteries.
+
+RESPONSE:
+{
+  "claims": [
+    {
+      "id": "C001",
+      "claim": "Particles like electrons or photons exhibit wave-like behavior (interference patterns) when unobserved and particle-like behavior (localized dots) when measured.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "This reveals how measurement fundamentally shapes quantum outcomes, rejecting mystical interpretations.",
+      "suggested_search_query": "double-slit experiment measurement effect"
+    },
+    {
+      "id": "C002",
+      "claim": "Constructive interference occurs when path difference is $ n\\lambda $, and destructive interference occurs when path difference is $ (n + 0.5)\\lambda $.",
+      "type": "mathematical",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "This quantifies the wave-like behavior underlying interference patterns.",
+      "suggested_search_query": "double-slit interference equations"
+    },
+    {
+      "id": "C003",
+      "claim": "The 'observation effect' {measurement} reveals a particle's path, collapsing its wave-like behavior into a localized detection.",
+      "type": "mechanism",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Demonstrates how experimental design influences quantum system behavior.",
+      "suggested_search_query": "quantum measurement collapse mechanism"
+    },
+    {
+      "id": "C004",
+      "claim": "Particles do not split into two; their wave-like properties spread through both slits, creating interference without actual division.",
+      "type": "misconception-correction",
+      "importance": "medium",
+      "needs_external_check": true,
+      "why_it_matters": "Corrects a common misunderstanding about particle behavior in the experiment.",
+      "suggested_search_query": "double-slit particle splitting misconception"
+    },
+    {
+      "id": "C005",
+      "claim": "The double-slit experiment exemplifies wave-particle duality {wave-particle duality}, a foundational concept in quantum mechanics.",
+      "type": "scope",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Links the experiment to broader quantum theory and particle physics frameworks.",
+      "suggested_search_query": "wave-particle duality quantum mechanics"
+    }
+  ]
+}

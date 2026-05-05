@@ -1,0 +1,42 @@
+{
+  "claims": [
+    {
+      "id": "C001",
+      "claim": "An eigenstate is a 'definite-answer state' {eigenstate} where measuring a specific property always yields the same result.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "This defines the core concept of eigenstates in quantum mechanics.",
+      "suggested_search_query": "quantum mechanics eigenstate definition textbook"
+    },
+    {
+      "id": "C002",
+      "claim": "Eigenstates are foundational for predicting quantum measurement outcomes and understanding quantum behavior.",
+      "type": "importance",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "They enable probabilistic predictions and explain phenomena like atomic energy levels.",
+      "suggested_search_query": "role of eigenstates in quantum predictions"
+    },
+    {
+      "id": "C003",
+      "claim": "The spinning top analogy illustrates eigenstates as 'ready-to-measure' states with deterministic outcomes.",
+      "type": "analogy",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Helps visualize the contrast between eigenstates and superpositions.",
+      "suggested_search_query": "quantum eigenstate analogies"
+    },
+    {
+      "id": "C004",
+      "claim": "Mathematically, an eigenstate satisfies $\\hat{A} | \\psi \\rangle = a | \\psi \\rangle$ for an observable $\\hat{A}$.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "This equation formalizes the relationship between observables and eigenstates.",
+      "suggested_search_query": "quantum eigenstate mathematical definition"
+    },
+    {
+      "id": "C005",
+      "claim": "An electron in a hydrogen atom's lowest energy level is an eigenstate of the energy operator.",
+      "

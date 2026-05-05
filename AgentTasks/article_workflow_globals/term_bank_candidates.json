@@ -1,0 +1,329 @@
+{
+  "terms": [
+    {
+      "standard_term": "photon",
+      "candidate_name": "energy packet",
+      "context_quote": "discrete energy packets called photons {energy packet}",
+      "usefulness": "Helps students visualize photons as chunks of energy, similar to pixels in a digital image.",
+      "risk": "Might imply that photons are just packets of energy, not considering their wave-like properties.",
+      "article_title": "The pixelation of energy: why light comes in chunks",
+      "captured_at": "2026-05-03_20-56-57"
+    },
+    {
+      "standard_term": "photons",
+      "candidate_name": "discrete energy packets",
+      "context_quote": "suggesting light itself is made of photons—discrete energy packets",
+      "usefulness": "Emphasizes the quantized nature of light, linking to the pixelation analogy.",
+      "risk": "Could be seen as redundant since 'photons' already implies discrete packets.",
+      "article_title": "The pixelation of energy: why light comes in chunks",
+      "captured_at": "2026-05-03_20-56-57"
+    },
+    {
+      "standard_term": "quanta",
+      "candidate_name": "discrete packets",
+      "context_quote": "discrete packets {quanta}",
+      "usefulness": "Simplifies the concept of quanta as discrete packets, making it more relatable.",
+      "risk": "Might be confusing with 'discrete energy packets' {photons} if not clearly differentiated.",
+      "article_title": "The pixelation of energy: why light comes in chunks",
+      "captured_at": "2026-05-03_20-56-57"
+    },
+    {
+      "standard_term": "particle",
+      "candidate_name": "localized ripples",
+      "context_quote": "Particles are **localized ripples** {particle} that spread out like waves but stay distinct when detected.",
+      "usefulness": "Emphasizes the dual nature of particles as localized energy patterns that can spread like waves.",
+      "risk": "May confuse with classical ripples, but clarified by context about quantized energy and distinct identity.",
+      "article_title": "Wave-particle duality explained as localized ripples",
+      "captured_at": "2026-05-03_22-32-31"
+    },
+    {
+      "standard_term": "particle",
+      "candidate_name": "localized ripple",
+      "context_quote": "A **localized ripple** {particle} is a ripple that stays in one place (like a stone in water) but can spread out.",
+      "usefulness": "Simplifies the concept of particles as stable, localized energy patterns with wave-like behavior.",
+      "risk": "Could imply classical particle behavior, but clarified by its wave-like spreading and quantized energy.",
+      "article_title": "Wave-particle duality explained as localized ripples",
+      "captured_at": "2026-05-03_22-32-31"
+    },
+    {
+      "standard_term": "wave",
+      "candidate_name": "spread ripple",
+      "context_quote": "A **spread ripple** {wave} is a ripple that spreads out (like a pebble in water).",
+      "usefulness": "Highlights the wave-like spreading behavior of particles, making interference and diffraction intuitive.",
+      "risk": "May suggest classical waves, but clarified by its quantum nature and probabilistic behavior.",
+      "article_title": "Wave-particle duality explained as localized ripples",
+      "captured_at": "2026-05-03_22-32-31"
+    },
+    {
+      "standard_term": "photon",
+      "candidate_name": "localized ripple",
+      "context_quote": "A **photon** {localized ripple} has energy $ E = h f $, where $ h $ is Planck’s constant.",
+      "usefulness": "Ties the quantum concept of photons to the intuitive idea of localized ripples with quantized energy.",
+      "risk": "Could conflate photons with classical particles, but clarified by its wave-like spreading and energy quantization.",
+      "article_title": "Wave-particle duality explained as localized ripples",
+      "captured_at": "2026-05-03_22-32-31"
+    },
+    {
+      "standard_term": "superposition",
+      "candidate_name": "vibrational chord",
+      "context_quote": "a quantum system is like a string: its state is a vibrational chord {superposition}",
+      "usefulness": "connects superposition to a familiar musical concept (chords) for intuitive visualization",
+      "risk": "could imply physical coexistence of states rather than mathematical combination",
+      "article_title": "Quantum superposition analogized as acoustic chords on a guitar string",
+      "captured_at": "2026-05-03_23-05-31"
+    },
+    {
+      "standard_term": "quantum state",
+      "candidate_name": "harmonic blend",
+      "context_quote": "a quantum state is a harmonic blend {quantum state} of basis states",
+      "usefulness": "emphasizes the structured combination of states through mathematical harmonics",
+      "risk": "might suggest physical blending rather than abstract linear combination",
+      "article_title": "Quantum superposition analogized as acoustic chords on a guitar string",
+      "captured_at": "2026-05-03_23-05-31"
+    },
+    {
+      "standard_term": "probability amplitude",
+      "candidate_name": "resonant possibility",
+      "context_quote": "resonant possibility {probability amplitude} α and β represent the \"weight\" of each state",
+      "usefulness": "links amplitude to the idea of potential outcomes in a physically resonant way",
+      "risk": "could imply physical resonance rather than abstract mathematical weighting",
+      "article_title": "Quantum superposition analogized as acoustic chords on a guitar string",
+      "captured_at": "2026-05-03_23-05-31"
+    },
+    {
+      "standard_term": "wave packet",
+      "candidate_name": "position-waves",
+      "context_quote": "position-waves {wave packets}—localized waves that spread out in space",
+      "usefulness": "Helps visualize particles as waves with spatial localization",
+      "risk": "Could imply particles are literally waves, but clarifies they're wave descriptions",
+      "article_title": "The Heisenberg Uncertainty Principle explained through wave mechanics, not observer effect",
+      "captured_at": "2026-05-03_23-34-24"
+    },
+    {
+      "standard_term": "momentum uncertainty",
+      "candidate_name": "momentum-spread",
+      "context_quote": "a narrow position-wave {wave packet} (localized in space) has a broad momentum-spread {momentum uncertainty}",
+      "usefulness": "Makes the concept of momentum uncertainty more intuitive as a spread",
+      "risk": "Suggests momentum is a spread rather than a precise value",
+      "article_title": "The Heisenberg Uncertainty Principle explained through wave mechanics, not observer effect",
+      "captured_at": "2026-05-03_23-34-24"
+    },
+    {
+      "standard_term": "Fourier transform",
+      "candidate_name": "wave-structure",
+      "context_quote": "The wave-structure {Fourier transform} relationship",
+      "usefulness": "Links wave structure to mathematical analysis of waveforms",
+      "risk": "Could be confused with other types of structural analysis",
+      "article_title": "The Heisenberg Uncertainty Principle explained through wave mechanics, not observer effect",
+      "captured_at": "2026-05-03_23-34-24"
+    },
+    {
+      "standard_term": "entangled state",
+      "candidate_name": "correlated wave",
+      "context_quote": "Particles in an entangled state share a correlated wave {entangled state}",
+      "usefulness": "Emphasizes the shared, interconnected nature of entangled particles through a relatable metaphor",
+      "risk": "Could imply a physical wave rather than a mathematical wavefunction",
+      "article_title": "Quantum entanglement as correlated waves, removing the 'spooky action' myth",
+      "captured_at": "2026-05-04_00-04-35"
+    },
+    {
+      "standard_term": "quantum superposition",
+      "candidate_name": "superposition",
+      "context_quote": "Entangled states are a type of superposition {quantum superposition} involving multiple particles",
+      "usefulness": "Simplifies the concept while retaining the core idea of combined states",
+      "risk": "May conflate with classical superposition concepts (e.g., waves overlapping)",
+      "article_title": "Quantum entanglement as correlated waves, removing the 'spooky action' myth",
+      "captured_at": "2026-05-04_00-04-35"
+    },
+    {
+      "standard_term": "wave",
+      "candidate_name": "Wave-ripple",
+      "context_quote": "the pebble (particle) behaves like a ripple (wave) when unobserved",
+      "usefulness": "Helps explain wave-like behavior with an intuitive ripple analogy",
+      "risk": "Low risk; clearly an analogy for wave properties",
+      "article_title": "The double-slit experiment without the magic or mystery",
+      "captured_at": "2026-05-04_00-41-12"
+    },
+    {
+      "standard_term": "particle",
+      "candidate_name": "Particle-trajectory",
+      "context_quote": "the act of measuring reveals the particle’s path, collapsing its wave-like behavior",
+      "usefulness": "Clarifies the particle’s path when observed",
+      "risk": "Low risk; directly ties to measurement outcomes",
+      "article_title": "The double-slit experiment without the magic or mystery",
+      "captured_at": "2026-05-04_00-41-12"
+    },
+    {
+      "standard_term": "measurement",
+      "candidate_name": "Observation effect",
+      "context_quote": "Observation *reveals* the particle’s path, not 'causing' it. The collapse is a result of measurement, not magic",
+      "usefulness": "Avoids mystical interpretations by linking to measurement tools",
+      "risk": "Low risk; explicitly contrasts with magical explanations",
+      "article_title": "The double-slit experiment without the magic or mystery",
+      "captured_at": "2026-05-04_00-41-12"
+    },
+    {
+      "standard_term": "wavefunction",
+      "candidate_name": "probability-ripples",
+      "context_quote": "Particles are described by probability-ripples {wavefunctions}, which spread across space.",
+      "usefulness": "Helps visualize particles as ripples, making the concept more intuitive.",
+      "risk": "Might imply particles are physical ripples, but it's a metaphor for wavefunctions.",
+      "article_title": "Quantum tunneling: how waves naturally bleed through barriers",
+      "captured_at": "2026-05-04_01-09-43"
+    },
+    {
+      "standard_term": "potential barriers",
+      "candidate_name": "energy-plateau",
+      "context_quote": "A potential barrier is like a wall with a fixed energy height.",
+      "usefulness": "Provides a clear analogy for potential barriers, making it easier to grasp.",
+      "risk": "Could be misleading if taken literally as a physical plateau, but the analogy is clear.",
+      "article_title": "Quantum tunneling: how waves naturally bleed through barriers",
+      "captured_at": "2026-05-04_01-09-43"
+    },
+    {
+      "standard_term": "wavefunction",
+      "candidate_name": "probability-ripple",
+      "context_quote": "Particles are described by probability-ripples {wavefunctions}, which spread across space.",
+      "usefulness": "Makes the abstract concept of wavefunction tangible by associating it with familiar water ripples.",
+      "risk": "May imply classical wave behavior, but clarifies it's a probability distribution, not a physical ripple.",
+      "article_title": "Quantum tunneling: how waves naturally bleed through barriers",
+      "captured_at": "2026-05-04_01-16-53"
+    },
+    {
+      "standard_term": "potential barriers",
+      "candidate_name": "energy-plateau",
+      "context_quote": "A potential barrier is like a wall with a fixed energy height.",
+      "usefulness": "Visualizes barriers as flat energy regions, aligning with classical intuition for energy thresholds.",
+      "risk": "Could mislead into thinking barriers are static surfaces rather than energy landscapes.",
+      "article_title": "Quantum tunneling: how waves naturally bleed through barriers",
+      "captured_at": "2026-05-04_01-16-53"
+    },
+    {
+      "standard,term": "wavefunctions",
+      "candidate_name": "probability-ripples",
+      "context_quote": "Particles are described by probability-ripples {wavefunctions}, which spread across space.",
+      "usefulness": "Reinforces the dual nature of particles as probability distributions with wave-like properties.",
+      "risk": "Plural form might confuse with multiple wavefunctions, but context clarifies it's a single particle's description.",
+      "article_title": "Quantum tunneling: how waves naturally bleed through barriers",
+      "captured_at": "2026-05-04_01-16-53"
+    },
+    {
+      "standard_term": "fermion",
+      "candidate_name": "space-occupiers",
+      "context_quote": "Fermions (space-occupiers {fermion}) are like these people—they can’t share the same 'seat' (quantum state).",
+      "usefulness": "Emphasizes fermions' role in creating structure by occupying distinct states, aligning with the Pauli Exclusion Principle's core idea.",
+      "risk": "Could imply fermions physically occupy the same space, but the principle actually restricts quantum states, not literal spatial overlap.",
+      "article_title": "The Pauli Exclusion Principle: why you can't walk through walls",
+      "captured_at": "2026-05-04_01-33-09"
+    },
+    {
+      "standard_term": "boson",
+      "candidate_name": "stackable ripples",
+      "context_quote": "Bosons (stackable ripples {boson}), on the other hand, are like waves that can overlap and stack.",
+      "usefulness": "Highlights bosons' ability to share states, contrasting with fermions and clarifying their role in phenomena like lasers.",
+      "risk": "Might suggest bosons physically stack, but it's about quantum state overlap, not classical wave stacking.",
+      "article_title": "The Pauli Exclusion Principle: why you can't walk through walls",
+      "captured_at": "2026-05-04_01-33-09"
+    },
+    {
+      "standard_term": "superposition",
+      "candidate_name": "Quantum Overlap",
+      "context_quote": "Quantum Overlap {Superposition} is fragile and vanishes due to environmental interactions",
+      "usefulness": "Helps visualize superposition as a fragile, overlapping state that dissolves with environmental interaction",
+      "risk": "May imply physical 'overlap' rather than abstract quantum state properties",
+      "article_title": "Decoherence: why quantum overlap disappears in the macroscopic world",
+      "captured_at": "2026-05-04_02-40-49"
+    },
+    {
+      "standard_term": "decoherence",
+      "candidate_name": "Environmental Noise",
+      "context_quote": "When a quantum system interacts with its environment... it becomes entangled with those environmental 'noise' {decoherence}",
+      "usefulness": "Makes decoherence tangible as a result of environmental interference",
+      "risk": "Could mislead into thinking 'noise' is random rather than structured quantum entanglement",
+      "article_title": "Decoherence: why quantum overlap disappears in the macroscopic world",
+      "captured_at": "2026-05-04_02-40-49"
+    },
+    {
+      "standard_term": "LHV",
+      "candidate_name": "local hidden variables",
+      "context_quote": "Local hidden variables {LHV} are like pre-set instructions for particles.",
+      "usefulness": "Describes hidden variables as pre-set instructions, making the concept intuitive for beginners.",
+      "risk": "May confuse with the standard term 'local hidden variables' if not clarified, but low risk due to clear context.",
+      "article_title": "Bell's Theorem: the geometric proof against hidden variables",
+      "captured_at": "2026-05-04_03-54-45"
+    },
+    {
+      "standard_term": "Bell inequality",
+      "candidate_name": "the correlation limit",
+      "context_quote": "Bell’s inequality: the correlation limit {Bell inequality}",
+      "usefulness": "Frames Bell’s inequality as a boundary on classical correlations, helping students grasp its role in the proof.",
+      "risk": "Suggests the term is too abstract, but paired with the standard term it remains precise.",
+      "article_title": "Bell's Theorem: the geometric proof against hidden variables",
+      "captured_at": "2026-05-04_03-54-45"
+    },
+    {
+      "standard_term": "Hamiltonian",
+      "candidate_name": "energy governor",
+      "context_quote": "The Hamiltonian is the energy governor {Hamiltonian} of a system.",
+      "usefulness": "Provides an intuitive metaphor for energy's role in governing system behavior",
+      "risk": "May oversimplify the mathematical structure of Hamiltonian mechanics",
+      "article_title": "Hamiltonian",
+      "captured_at": "2026-05-04_08-03-26"
+    },
+    {
+      "standard_term": "wavefunction",
+      "candidate_name": "stackable ripple",
+      "context_quote": "In quantum mechanics, it’s a set of rules (operators) that tell a wavefunction {wavefunction} how to evolve over time.",
+      "usefulness": "Suggests quantum states as coherent, additive patterns",
+      "risk": "Could imply classical wave behavior rather than quantum superposition",
+      "article_title": "Hamiltonian",
+      "captured_at": "2026-05-04_08-03-26"
+    },
+    {
+      "standard_term": "operator",
+      "candidate_name": "energy ruler",
+      "context_quote": "The Hamiltonian is an operator {operator} that acts on wavefunctions {wavefunction} to determine how quantum states evolve.",
+      "usefulness": "Emphasizes the measurement/transform function of operators",
+      "risk": "May conflate operators with classical measuring tools",
+      "article_title": "Hamiltonian",
+      "captured_at": "2026-05-04_08-03-26"
+    },
+    {
+      "standard_term": "action integral",
+      "candidate_name": "Action",
+      "context_quote": "Action is a measure of 'effort' over time—systems choose paths that balance energy trade-offs",
+      "usefulness": "The name 'Action' intuitively suggests a balance between energy and time, aligning with its role as a weighted sum of kinetic and potential energy",
+      "risk": "May imply action is a physical quantity rather than a mathematical construct",
+      "article_title": "Least action principle",
+      "captured_at": "2026-05-04_08-19-00"
+    },
+    {
+      "standard_term": "variational principle",
+      "candidate_name": "Stationary path",
+      "context_quote": "Physical systems follow paths that make S stationary (not necessarily minimal)",
+      "usefulness": "Highlights the mathematical property of action paths being extrema, which is central to the principle",
+      "risk": "May confuse with 'stationary state' in quantum mechanics",
+      "article_title": "Least action principle",
+      "captured_at": "2026-05-04_08-19-00"
+    },
+    {
+      "standard,term": "principle of least action",
+      "candidate_name": "Energy efficiency path",
+      "context_quote": "Systems choose the route that balances the energy it uses to move and the energy stored in its position",
+      "usefulness": "Emphasizes the trade-off between energy expenditure and positional energy, making the concept more relatable",
+      "risk": "May suggest the principle is about efficiency rather than mathematical stationarity",
+      "article_title": "Least action principle",
+      "captured_at": "2026-05-04_08-19-00"
+    },
+    {
+      "standard_term": "cross-sections",
+      "candidate_name": "probability maps",
+      "context_quote": "The term 'probability maps' {cross-sections} is used to describe how quantum scattering probabilities are measured.",
+      "usefulness": "Helps visualize quantum scattering as a spatial probability distribution rather than a deterministic event",
+      "risk": "Could imply mapping physical locations instead of abstract probability spaces",
+      "article_title": "Scattering",
+      "captured_at": "2026-05-04_10-45-23"
+    }
+  ],
+  "last_updated": "2026-05-04_10-45-23"
+}

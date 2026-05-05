@@ -1,0 +1,59 @@
+{
+  "claims": [
+    {
+      "id": "C001",
+      "claim": "The Heisenberg Uncertainty Principle is a fundamental limit on simultaneously knowing a particle’s position and momentum, arising from the inherent wave structure of quantum systems.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Defines the core concept of quantum uncertainty, distinguishing it from classical measurement limitations.",
+      "suggested_search_query": "Heisenberg Uncertainty Principle wave mechanics textbook explanation"
+    },
+    {
+      "id": "C002",
+      "claim": "A narrow position-wave {wave packet} has a broad momentum-spread {momentum uncertainty}, while a broad position-wave has a narrow momentum-spread, enforced by the wave-structure {Fourier transform} relationship.",
+      "type": "mechanism",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Explains the mathematical relationship between position and momentum uncertainties.",
+      "suggested_search_query": "Fourier transform quantum uncertainty principle derivation"
+    },
+    {
+      "id": "C003",
+      "claim": "The uncertainty principle is mathematically expressed as Δx · Δp ≥ ħ/2, reflecting the wave structure of quantum systems rather than measurement limitations.",
+      "type": "mathematical",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Provides the quantitative framework for understanding quantum uncertainty.",
+      "suggested_search_query": "Heisenberg Uncertainty Principle mathematical derivation"
+    },
+    {
+      "id": "C004",
+      "claim": "The sound wave analogy illustrates that short bursts of sound (position uncertainty) correspond to broad frequency ranges (momentum uncertainty), mirroring quantum position-momentum uncertainty.",
+      "type": "analogy",
+      "importance": "medium",
+      "needs_external_check": true,
+      "why_it_matters": "Helps visualize abstract quantum concepts through familiar physical phenomena.",
+      "suggested_search_query": "sound wave analogy Heisenberg Uncertainty Principle"
+    },
+    {
+      "id": "C005",
+      "claim": "Common misconceptions include interpreting the uncertainty principle as a result of measurement disturbance or tool limitations, rather than a fundamental property of quantum systems.",
+      "type": "misconception-correction",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Clarifies the principle's nature as a foundational quantum property, not an observational limitation.",
+      "suggested_search_query": "Heisenberg Uncertainty Principle common misconceptions"
+    },
+    {
+      "id": "C006",
+      "claim": "The principle underpins quantum phenomena like tunneling and entanglement, highlighting the wave-like behavior dominating at small scales.",
+      "type": "scope",
+      "importance": "medium",
+      "needs_external_check": true,
+      "why_it_matters": "Shows the principle's broader implications in quantum mechanics.",
+      "suggested_search_query": "Heisenberg Uncertainty Principle applications quantum phenomena"
+    }
+  ],
+  "last_updated": "2026-05-03_23-37-12"
+}

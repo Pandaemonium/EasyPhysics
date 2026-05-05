@@ -1,0 +1,26 @@
+{
+  "terms": [
+    {
+      "standard_term": "photon",
+      "candidate_name": "energy packet",
+      "context_quote": "discrete energy packets called photons {energy packet}",
+      "usefulness": "Helps students visualize photons as chunks of energy, similar to pixels in a digital image.",
+      "risk": "Might imply that photons are just packets of energy, not considering their wave-like properties."
+    },
+    {
+      "standard_term": "photons",
+      "candidate_name": "discrete energy packets",
+      "context_quote": "suggesting light itself is made of photons—discrete energy packets",
+      "usefulness": "Emphasizes the quantized nature of light, linking to the pixelation analogy.",
+      "risk": "Could be seen as redundant since 'photons' already implies discrete packets."
+    },
+    {
+      "standard_term": "quanta",
+      "candidate_name": "discrete packets",
+      "context_quote": "discrete packets {quanta}",
+      "usefulness": "Simplifies the concept of quanta as discrete packets, making it more relatable.",
+      "risk": "Might be confusing with 'discrete energy packets' {photons} if not clearly differentiated."
+    }
+  ],
+  "last_updated": "2026-05-03_20-56-57"
+}

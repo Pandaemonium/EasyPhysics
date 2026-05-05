@@ -1,0 +1,1260 @@
+
+================================================================================
+TIME: 2026-05-04T16:06:36
+NODE: planner
+PROMPT_CHARS: 498
+PROMPT_TOKENS_APPROX: 124
+RESPONSE_CHARS: 5024
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.85}
+================================================================================
+PROMPT:
+Create a strong teaching outline for this EasyPhysics article:
+
+Title: Time-independent Schrodinger equation
+
+The outline should include:
+1. Scope: what this article explains.
+2. Out of scope: what it should not try to explain yet.
+3. Prerequisite concepts.
+4. Core intuition.
+5. Suggested descriptive names with standard terms in braces.
+6. Common misconceptions to avoid.
+7. Section-by-section outline.
+8. Optional diagram ideas.
+9. Optional minimal math, with what the math means.
+
+Use Markdown.
+
+RESPONSE:
+# Time-independent Schrödinger equation  
+
+---
+
+## 1. Scope  
+This article explains the **Time-independent Schrödinger equation (TISE)**, a cornerstone of quantum mechanics. It describes how to find **stationary states** (energy eigenstates) for systems with time-independent potentials. The article covers:  
+- The mathematical form of the TISE.  
+- How it separates spatial and temporal parts of the wavefunction.  
+- Examples like the particle in a box and harmonic oscillator.  
+- The physical meaning of energy eigenvalues and stationary states.  
+
+---
+
+## 2. Out of Scope  
+This article does **not** explain:  
+- The **time-dependent Schrödinger equation** (TDSE).  
+- Time evolution of quantum states beyond stationary states.  
+- Advanced systems like the hydrogen atom or spin.  
+- Philosophical interpretations of quantum mechanics (e.g., wavefunction collapse).  
+
+---
+
+## 3. Prerequisite Concepts  
+- **Wavefunction** {probability amplitude}: A mathematical description of a quantum system.  
+- **Probability distribution**: The square of the wavefunction gives the likelihood of finding a particle.  
+- **Energy eigenstates**: States where the energy is well-defined.  
+- **Separation of variables**: A technique to split complex equations into simpler parts.  
+- **Partial differential equations** (basic familiarity).  
+
+---
+
+## 4. Core Intuition  
+The **Time-independent Schrödinger equation** is a simplified version of the full Schrödinger equation, used when the potential energy doesn’t change over time. It helps find **stationary states**—situations where the probability distribution of a particle doesn’t change, only its phase. These states correspond to **quantized energy levels**, like electrons in an atom.  
+
+**Key idea**: The TISE lets us solve for the allowed energies and shapes of these stationary states, which are the "energy snapshots" of a quantum system.  
+
+---
+
+## 5. Suggested Descriptive Names with Standard Terms in Braces  
+- **Energy Snapshot Equation** {Time-independent Schrödinger equation}  
+- **Stationary State** {Energy eigenstate}  
+- **Probability Map** {Wavefunction}  
+- **Energy Level** {Quantized energy}  
+- **Phase Arrow** {Complex phase}  
+
+---
+
+## 6. Common Misconceptions to Avoid  
+- ❌ **"The TISE is a static equation."**  
+  → It’s still a differential equation; it describes how the wavefunction behaves in space, not time.  
+- ❌ **"Stationary states are static."**  
+  → The wavefunction’s **phase** still changes over time, but the **probability distribution** remains fixed.  
+- ❌ **"The wavefunction is a physical wave."**  
+  → It’s a **probability amplitude**, not a physical entity.  
+
+---
+
+## 7. Section-by-Section Outline  
+### **1. Introduction to the Time-independent Schrödinger Equation**  
+- Why we need a simplified version of the Schrödinger equation.  
+- What "time-independent" means in this context.  
+
+### **2. Deriving the TISE from the General Schrödinger Equation**  
+- How to separate time and space parts using separation of variables.  
+- The mathematical form of the TISE:  
+  $$ -\frac{\hbar^2}{2m} \nabla^2 \psi + V(x)\psi = E\psi $$  
+  → Explain each term: kinetic energy, potential energy, and energy eigenvalue.  
+
+### **3. Stationary States and Energy Eigenstates**  
+- What makes a state "stationary" (probability distribution doesn’t change).  
+- How energy eigenvalues arise from solving the TISE.  
+
+### **4. Solving the TISE: Examples**  
+- **Particle in a box**: Boundary conditions and quantized energy levels.  
+- **Harmonic oscillator**: Oscillatory wavefunctions and equally spaced energy levels.  
+
+### **5. Physical Meaning of Solutions**  
+- How energy eigenvalues relate to observable quantities (e.g., electron transitions).  
+- The role of boundary conditions in shaping wavefunctions.  
+
+### **6. Applications and Key Takeaways**  
+- Why the TISE is essential for understanding atomic and molecular structure.  
+- Summary of how it bridges classical and quantum descriptions of energy.  
+
+---
+
+## 8. Optional Diagram Ideas  
+- **Diagram 1**: Separation of variables in the Schrödinger equation (time vs. space).  
+- **Diagram 2**: Particle in a box with wavefunctions and energy levels.  
+- **Diagram 3**: Probability distribution for a stationary state (e.g., particle in a box).  
+- **Diagram 4**: Comparison of time-dependent vs. time-independent solutions.  
+
+---
+
+## 9. Optional Minimal Math  
+- **TISE equation**:  
+  $$ -\frac{\hbar^2}{2m} \nabla^2 \psi + V(x)\psi = E\psi $$  
+  → Explain that this equation finds the **allowed energies** $ E $ and corresponding **wavefunctions** $ \psi $.  
+- **Boundary conditions**: For a particle in a box, $ \psi(0) = \psi(L) = 0 $, leading to quantized energy levels.  
+- **Energy quantization**:  
+  $$ E_n = \frac{n^2 \pi^2 \hbar^2}{2mL^2} $$  
+  → Show how energy depends on quantum number $ n $ and physical parameters.  
+
+--- 
+
+This outline balances conceptual clarity with mathematical rigor, avoiding pitfalls while building on foundational knowledge.
+
+================================================================================
+TIME: 2026-05-04T16:11:26
+NODE: writer
+PROMPT_CHARS: 6456
+PROMPT_TOKENS_APPROX: 1614
+RESPONSE_CHARS: 3439
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.85}
+================================================================================
+PROMPT:
+Write a high-quality first draft for this EasyPhysics article.
+
+Title: Time-independent Schrodinger equation
+
+Article outline:
+# Time-independent Schrödinger equation  
+
+---
+
+## 1. Scope  
+This article explains the **Time-independent Schrödinger equation (TISE)**, a cornerstone of quantum mechanics. It describes how to find **stationary states** (energy eigenstates) for systems with time-independent potentials. The article covers:  
+- The mathematical form of the TISE.  
+- How it separates spatial and temporal parts of the wavefunction.  
+- Examples like the particle in a box and harmonic oscillator.  
+- The physical meaning of energy eigenvalues and stationary states.  
+
+---
+
+## 2. Out of Scope  
+This article does **not** explain:  
+- The **time-dependent Schrödinger equation** (TDSE).  
+- Time evolution of quantum states beyond stationary states.  
+- Advanced systems like the hydrogen atom or spin.  
+- Philosophical interpretations of quantum mechanics (e.g., wavefunction collapse).  
+
+---
+
+## 3. Prerequisite Concepts  
+- **Wavefunction** {probability amplitude}: A mathematical description of a quantum system.  
+- **Probability distribution**: The square of the wavefunction gives the likelihood of finding a particle.  
+- **Energy eigenstates**: States where the energy is well-defined.  
+- **Separation of variables**: A technique to split complex equations into simpler parts.  
+- **Partial differential equations** (basic familiarity).  
+
+---
+
+## 4. Core Intuition  
+The **Time-independent Schrödinger equation** is a simplified version of the full Schrödinger equation, used when the potential energy doesn’t change over time. It helps find **stationary states**—situations where the probability distribution of a particle doesn’t change, only its phase. These states correspond to **quantized energy levels**, like electrons in an atom.  
+
+**Key idea**: The TISE lets us solve for the allowed energies and shapes of these stationary states, which are the "energy snapshots" of a quantum system.  
+
+---
+
+## 5. Suggested Descriptive Names with Standard Terms in Braces  
+- **Energy Snapshot Equation** {Time-independent Schrödinger equation}  
+- **Stationary State** {Energy eigenstate}  
+- **Probability Map** {Wavefunction}  
+- **Energy Level** {Quantized energy}  
+- **Phase Arrow** {Complex phase}  
+
+---
+
+## 6. Common Misconceptions to Avoid  
+- ❌ **"The TISE is a static equation."**  
+  → It’s still a differential equation; it describes how the wavefunction behaves in space, not time.  
+- ❌ **"Stationary states are static."**  
+  → The wavefunction’s **phase** still changes over time, but the **probability distribution** remains fixed.  
+- ❌ **"The wavefunction is a physical wave."**  
+  → It’s a **probability amplitude**, not a physical entity.  
+
+---
+
+## 7. Section-by-Section Outline  
+### **1. Introduction to the Time-independent Schrödinger Equation**  
+- Why we need a simplified version of the Schrödinger equation.  
+- What "time-independent" means in this context.  
+
+### **2. Deriving the TISE from the General Schrödinger Equation**  
+- How to separate time and space parts using separation of variables.  
+- The mathematical form of the TISE:  
+  $$ -\frac{\hbar^2}{2m} \nabla^2 \psi + V(x)\psi = E\psi $$  
+  → Explain each term: kinetic energy, potential energy, and energy eigenvalue.  
+
+### **3. Stationary States and Energy Eigenstates**  
+- What makes a state "stationary" (probability distribution doesn’t change).  
+- How energy eigenvalues arise from solving the TISE.  
+
+### **4. Solving the TISE: Examples**  
+- **Particle in a box**: Boundary conditions and quantized energy levels.  
+- **Harmonic oscillator**: Oscillatory wavefunctions and equally spaced energy levels.  
+
+### **5. Physical Meaning of Solutions**  
+- How energy eigenvalues relate to observable quantities (e.g., electron transitions).  
+- The role of boundary conditions in shaping wavefunctions.  
+
+### **6. Applications and Key Takeaways**  
+- Why the TISE is essential for understanding atomic and molecular structure.  
+- Summary of how it bridges classical and quantum descriptions of energy.  
+
+---
+
+## 8. Optional Diagram Ideas  
+- **Diagram 1**: Separation of variables in the Schrödinger equation (time vs. space).  
+- **Diagram 2**: Particle in a box with wavefunctions and energy levels.  
+- **Diagram 3**: Probability distribution for a stationary state (e.g., particle in a box).  
+- **Diagram 4**: Comparison of time-dependent vs. time-independent solutions.  
+
+---
+
+## 9. Optional Minimal Math  
+- **TISE equation**:  
+  $$ -\frac{\hbar^2}{2m} \nabla^2 \psi + V(x)\psi = E\psi $$  
+  → Explain that this equation finds the **allowed energies** $ E $ and corresponding **wavefunctions** $ \psi $.  
+- **Boundary conditions**: For a particle in a box, $ \psi(0) = \psi(L) = 0 $, leading to quantized energy levels.  
+- **Energy quantization**:  
+  $$ E_n = \frac{n^2 \pi^2 \hbar^2}{2mL^2} $$  
+  → Show how energy depends on quantum number $ n $ and physical parameters.  
+
+--- 
+
+This outline balances conceptual clarity with mathematical rigor, avoiding pitfalls while building on foundational knowledge.
+
+Human/editor notes:
+# Human/editor notes
+
+Add any preferences, corrections, or article-specific constraints here.
+
+
+Template guidance:
+Preferred article structure:
+
+# Title
+
+## The core idea
+A short, intuitive explanation that gives the reader the main point first.
+
+## Why this matters
+Explain what the concept helps us understand.
+
+## The simple picture
+Use an analogy, diagram idea, or concrete example.
+
+## The more precise picture
+Introduce standard terms, careful distinctions, and optional minimal math.
+
+## Common misconceptions
+Name and correct the traps.
+
+## How this connects to the rest of physics
+Link the concept to fields, particles, symmetry, conservation, relativity, or the Standard Model as appropriate.
+
+## Recap
+A few concise takeaways.
+
+Drafting instructions:
+- Make it accessible to a motivated high-schooler or college freshman.
+- Teach the modern concept directly rather than narrating historical discovery.
+- Use descriptive names with standard terms in braces, e.g. space-occupier {fermion}.
+- Include common misconceptions and correct them.
+- Include minimal math only when it helps, and explain what the math means.
+- Suggest diagram ideas inline where helpful using this format: [Diagram idea: ...]
+- Output only the article in Markdown, with no commentary before or after.
+
+RESPONSE:
+# Time-independent Schrödinger equation  
+
+## The core idea  
+The **Time-independent Schrödinger equation (TISE)** is a simplified version of quantum mechanics that finds "energy snapshots" of particles in systems where forces don’t change over time. It reveals how particles can only have specific, quantized energy levels—like electrons in atoms—by solving for stationary states where probabilities don’t change.  
+
+## Why this matters  
+This equation is the foundation for understanding atomic structure, molecular bonding, and energy quantization in quantum systems. It explains why electrons in atoms don’t spiral into the nucleus and why light is emitted in discrete packets (photons).  
+
+## The simple picture  
+Imagine a guitar string fixed at both ends. When plucked, it vibrates at specific frequencies (notes), never at random pitches. Similarly, a particle in a box (like an electron in an atom) can only occupy specific energy levels—its "quantum notes." The TISE finds these allowed energies and their corresponding "wave shapes."  
+
+[Diagram idea: A guitar string with labeled energy levels (notes) and a particle-in-a-box analogy with wave patterns.]  
+
+## The more precise picture  
+The TISE is derived by splitting the full Schrödinger equation into **space** and **time** parts using **separation of variables**. This gives:  
+$$  
+-\frac{\hbar^2}{2m} \nabla^2 \psi + V(x)\psi = E\psi  
+$$  
+- **$ \psi $** is the **probability map** {wavefunction}, describing where a particle is likely to be.  
+- **$ V(x) $** is the **potential energy** (e.g., a box’s walls or a spring’s force).  
+- **$ E $** is the **energy level** {quantized energy}, a fixed value for each stationary state.  
+
+Solving this equation gives **stationary states** {energy eigenstates}, where the probability of finding a particle doesn’t change over time. These states are like "energy snapshots" of a system.  
+
+## Common misconceptions  
+- ❌ **"The TISE is static."**  
+  → It’s still a differential equation; it describes how the wavefunction behaves in space, not time.  
+- ❌ **"Stationary states are static."**  
+  → The **phase arrow** {complex phase} of the wavefunction still rotates over time, but the **probability map** {wavefunction}’s square (probability distribution) remains fixed.  
+- ❌ **"The wavefunction is a physical wave."**  
+  → It’s a **probability amplitude**, not a physical entity. It encodes the likelihood of finding a particle, not its actual motion.  
+
+## How this connects to the rest of physics  
+The TISE is essential for quantum mechanics and underpins the **Standard Model** of particles. It explains energy quantization in atoms, molecular bonding, and even the behavior of electrons in solids (like semiconductors). Its solutions also link to **conservation laws** and **symmetry principles** in physics.  
+
+## Recap  
+- The TISE finds **stationary states** {energy eigenstates} for systems with time-independent forces.  
+- It reveals **quantized energy levels** {discrete energy values}, like electrons in atoms.  
+- The **probability map** {wavefunction} describes where a particle is likely to be, not its physical motion.  
+- Solving the TISE requires **boundary conditions** (e.g., a particle in a box must vanish at walls).  
+
+---  
+**Next steps**: Explore how the TISE applies to real systems like the hydrogen atom or harmonic oscillator, and compare it to the full time-dependent Schrödinger equation.
+
+================================================================================
+TIME: 2026-05-04T16:13:15
+NODE: term_collector
+PROMPT_CHARS: 3909
+PROMPT_TOKENS_APPROX: 977
+RESPONSE_CHARS: 0
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.85}
+================================================================================
+PROMPT:
+Extract the descriptive-name candidates from this draft.
+
+Return JSON with this shape:
+{
+  "terms": [
+    {
+      "standard_term": "fermion",
+      "candidate_name": "space-occupier",
+      "context_quote": "short quote from the draft",
+      "usefulness": "why this name helps",
+      "risk": "how it could mislead, or empty string if low risk"
+    }
+  ]
+}
+
+Only include actual teaching-name candidates, especially phrases followed by standard terms in braces.
+
+Draft:
+# Time-independent Schrödinger equation  
+
+## The core idea  
+The **Time-independent Schrödinger equation (TISE)** is a simplified version of quantum mechanics that finds "energy snapshots" of particles in systems where forces don’t change over time. It reveals how particles can only have specific, quantized energy levels—like electrons in atoms—by solving for stationary states where probabilities don’t change.  
+
+## Why this matters  
+This equation is the foundation for understanding atomic structure, molecular bonding, and energy quantization in quantum systems. It explains why electrons in atoms don’t spiral into the nucleus and why light is emitted in discrete packets (photons).  
+
+## The simple picture  
+Imagine a guitar string fixed at both ends. When plucked, it vibrates at specific frequencies (notes), never at random pitches. Similarly, a particle in a box (like an electron in an atom) can only occupy specific energy levels—its "quantum notes." The TISE finds these allowed energies and their corresponding "wave shapes."  
+
+[Diagram idea: A guitar string with labeled energy levels (notes) and a particle-in-a-box analogy with wave patterns.]  
+
+## The more precise picture  
+The TISE is derived by splitting the full Schrödinger equation into **space** and **time** parts using **separation of variables**. This gives:  
+$$  
+-\frac{\hbar^2}{2m} \nabla^2 \psi + V(x)\psi = E\psi  
+$$  
+- **$ \psi $** is the **probability map** {wavefunction}, describing where a particle is likely to be.  
+- **$ V(x) $** is the **potential energy** (e.g., a box’s walls or a spring’s force).  
+- **$ E $** is the **energy level** {quantized energy}, a fixed value for each stationary state.  
+
+Solving this equation gives **stationary states** {energy eigenstates}, where the probability of finding a particle doesn’t change over time. These states are like "energy snapshots" of a system.  
+
+## Common misconceptions  
+- ❌ **"The TISE is static."**  
+  → It’s still a differential equation; it describes how the wavefunction behaves in space, not time.  
+- ❌ **"Stationary states are static."**  
+  → The **phase arrow** {complex phase} of the wavefunction still rotates over time, but the **probability map** {wavefunction}’s square (probability distribution) remains fixed.  
+- ❌ **"The wavefunction is a physical wave."**  
+  → It’s a **probability amplitude**, not a physical entity. It encodes the likelihood of finding a particle, not its actual motion.  
+
+## How this connects to the rest of physics  
+The TISE is essential for quantum mechanics and underpins the **Standard Model** of particles. It explains energy quantization in atoms, molecular bonding, and even the behavior of electrons in solids (like semiconductors). Its solutions also link to **conservation laws** and **symmetry principles** in physics.  
+
+## Recap  
+- The TISE finds **stationary states** {energy eigenstates} for systems with time-independent forces.  
+- It reveals **quantized energy levels** {discrete energy values}, like electrons in atoms.  
+- The **probability map** {wavefunction} describes where a particle is likely to be, not its physical motion.  
+- Solving the TISE requires **boundary conditions** (e.g., a particle in a box must vanish at walls).  
+
+---  
+**Next steps**: Explore how the TISE applies to real systems like the hydrogen atom or harmonic oscillator, and compare it to the full time-dependent Schrödinger equation.
+
+RESPONSE:
+
+
+================================================================================
+TIME: 2026-05-04T16:15:57
+NODE: claim_extractor
+PROMPT_CHARS: 4450
+PROMPT_TOKENS_APPROX: 1112
+RESPONSE_CHARS: 1315
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.85}
+================================================================================
+PROMPT:
+Extract 8 to 12 important scientific and explanatory claims from this article draft.
+
+Return JSON with exactly this shape:
+{
+  "claims": [
+    {
+      "id": "C001",
+      "claim": "A clear, standalone claim from the article.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "brief reason",
+      "suggested_search_query": "stable source search query, not latest-news oriented"
+    }
+  ]
+}
+
+Rules:
+- Do not return an empty claims list unless the draft is empty.
+- Use only valid JSON.
+- Use true/false, not True/False.
+- Do not include Markdown fences.
+- Do not include prose before or after the JSON.
+- Extract claims that matter for scientific correctness.
+- Include claims embedded in analogies if the analogy could mislead.
+- Do not include purely stylistic statements.
+- Search queries should prefer stable sources: textbooks, lecture notes, CERN, Fermilab, university pages.
+
+Article title: Time-independent Schrodinger equation
+
+Draft:
+# Time-independent Schrödinger equation  
+
+## The core idea  
+The **Time-independent Schrödinger equation (TISE)** is a simplified version of quantum mechanics that finds "energy snapshots" of particles in systems where forces don’t change over time. It reveals how particles can only have specific, quantized energy levels—like electrons in atoms—by solving for stationary states where probabilities don’t change.  
+
+## Why this matters  
+This equation is the foundation for understanding atomic structure, molecular bonding, and energy quantization in quantum systems. It explains why electrons in atoms don’t spiral into the nucleus and why light is emitted in discrete packets (photons).  
+
+## The simple picture  
+Imagine a guitar string fixed at both ends. When plucked, it vibrates at specific frequencies (notes), never at random pitches. Similarly, a particle in a box (like an electron in an atom) can only occupy specific energy levels—its "quantum notes." The TISE finds these allowed energies and their corresponding "wave shapes."  
+
+[Diagram idea: A guitar string with labeled energy levels (notes) and a particle-in-a-box analogy with wave patterns.]  
+
+## The more precise picture  
+The TISE is derived by splitting the full Schrödinger equation into **space** and **time** parts using **separation of variables**. This gives:  
+$$  
+-\frac{\hbar^2}{2m} \nabla^2 \psi + V(x)\psi = E\psi  
+$$  
+- **$ \psi $** is the **probability map** {wavefunction}, describing where a particle is likely to be.  
+- **$ V(x) $** is the **potential energy** (e.g., a box’s walls or a spring’s force).  
+- **$ E $** is the **energy level** {quantized energy}, a fixed value for each stationary state.  
+
+Solving this equation gives **stationary states** {energy eigenstates}, where the probability of finding a particle doesn’t change over time. These states are like "energy snapshots" of a system.  
+
+## Common misconceptions  
+- ❌ **"The TISE is static."**  
+  → It’s still a differential equation; it describes how the wavefunction behaves in space, not time.  
+- ❌ **"Stationary states are static."**  
+  → The **phase arrow** {complex phase} of the wavefunction still rotates over time, but the **probability map** {wavefunction}’s square (probability distribution) remains fixed.  
+- ❌ **"The wavefunction is a physical wave."**  
+  → It’s a **probability amplitude**, not a physical entity. It encodes the likelihood of finding a particle, not its actual motion.  
+
+## How this connects to the rest of physics  
+The TISE is essential for quantum mechanics and underpins the **Standard Model** of particles. It explains energy quantization in atoms, molecular bonding, and even the behavior of electrons in solids (like semiconductors). Its solutions also link to **conservation laws** and **symmetry principles** in physics.  
+
+## Recap  
+- The TISE finds **stationary states** {energy eigenstates} for systems with time-independent forces.  
+- It reveals **quantized energy levels** {discrete energy values}, like electrons in atoms.  
+- The **probability map** {wavefunction} describes where a particle is likely to be, not its physical motion.  
+- Solving the TISE requires **boundary conditions** (e.g., a particle in a box must vanish at walls).  
+
+---  
+**Next steps**: Explore how the TISE applies to real systems like the hydrogen atom or harmonic oscillator, and compare it to the full time-dependent Schrödinger equation.
+
+RESPONSE:
+{
+  "claims": [
+    {
+      "id": "C001",
+      "claim": "The Time-independent Schrödinger equation (TISE) finds stationary states {energy eigenstates} for systems with time-independent forces.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "It explains quantized energy levels in atoms and molecules.",
+      "suggested_search_query": "Time-independent Schrodinger equation stationary states"
+    },
+    {
+      "id": "C002",
+      "claim": "The TISE reveals quantized energy levels {discrete energy values}, such as electrons in atoms.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "This explains why electrons don't spiral into nuclei.",
+      "suggested_search_query": "Quantized energy levels Schrodinger equation"
+    },
+    {
+      "id": "C003",
+      "claim": "The probability map {wavefunction} describes where a particle is likely to be, not its physical motion.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Corrects the misconception that the wavefunction represents a physical wave.",
+      "suggested_search_query": "Wavefunction probability interpretation"
+    },
+    {
+      "id": "C
+
+================================================================================
+TIME: 2026-05-04T16:18:29
+NODE: claim_checker
+PROMPT_CHARS: 6477
+PROMPT_TOKENS_APPROX: 1619
+RESPONSE_CHARS: 573
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.85}
+================================================================================
+PROMPT:
+Check this one article claim against the available search snippet.
+
+Return JSON with this shape:
+{
+  "id": "C001",
+  "verdict": "supported | mostly_supported | needs_qualification | unsupported | contradicted | not_enough_evidence",
+  "severity": "none | low | medium | high",
+  "problem": "specific issue, or empty string",
+  "suggested_fix": "specific correction to the article, or empty string",
+  "source_quality_note": "brief note about whether the snippets look authoritative"
+}
+
+Rules:
+- Be conservative.
+- If the snippet is weak or absent, say not_enough_evidence.
+- Do not demand advanced nuance beyond the article's beginner scope.
+- Do flag misleading simplifications.
+- Focus on stable accepted physics.
+
+Article title: Time-independent Schrodinger equation
+
+Claim:
+{
+  "id": "C001",
+  "claim": "# Time-independent Schrödinger equation ## The core idea The **Time-independent Schrödinger equation (TISE)** is a simplified version of quantum mechanics that finds \"energy snapshots\" of particles in systems where forces don’t change over time.",
+  "type": "fallback-extracted",
+  "importance": "medium",
+  "needs_external_check": true,
+  "why_it_matters": "Automatically extracted fallback claim; review manually.",
+  "suggested_search_query": "Time-independent Schrodinger equation # Time-independent Schrödinger equation ## The core idea The **Time-independent Schrödinger equation (TISE)** is a simplified physics lecture notes textbook explanation"
+}
+
+Search snippet:
+{
+  "claim": "# Time-independent Schrödinger equation ## The core idea The **Time-independent Schrödinger equation (TISE)** is a simplified version of quantum mechanics that finds \"energy snapshots\" of particles in systems where forces don’t change over time.",
+  "query": "Time-independent Schrodinger equation # Time-independent Schrödinger equation ## The core idea The **Time-independent Schrödinger equation (TISE)** is a simplified physics lecture notes textbook explanation",
+  "result_snippet": "Time-independent equation.The time-dependent Schrödinger equation described above predicts that wave functions can form standing waves, called stationary states. About Press Copyright Contact us Creators Advertise Developers Terms Privacy Policy & Safety How... (7.8) is the Time-Independent Schrodinger Equation (TISE) in one dimension. (7.8). Recall that we did not derive the TISE, we simple constructed a differential equation that is consistent with the free-particle wave function. Time-independent Schrodinger Equation.• Time Independent Schroedinger Equation • Analytical solutions of Toy Problems. » (Almost) Free Electrons » Tightly bound electrons – infinite potential well » Electrons in a finite potential well » Tunneling through a single barrier. Independent Schrödinger Schrodinger equation Time.Homework Equations. TISE = time independent Schrodinger equation.",
+  "searched_at": "2026-05-04_16-16-00",
+  "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
+}
+
+Relevant draft context:
+# Time-independent Schrödinger equation  
+
+## The core idea  
+The **Time-independent Schrödinger equation (TISE)** is a simplified version of quantum mechanics that finds "energy snapshots" of particles in systems where forces don’t change over time. It reveals how particles can only have specific, quantized energy levels—like electrons in atoms—by solving for stationary states where probabilities don’t change.  
+
+## Why this matters  
+This equation is the foundation for understanding atomic structure, molecular bonding, and energy quantization in quantum systems. It explains why electrons in atoms don’t spiral into the nucleus and why light is emitted in discrete packets (photons).  
+
+## The simple picture  
+Imagine a guitar string fixed at both ends. When plucked, it vibrates at specific frequencies (notes), never at random pitches. Similarly, a particle in a box (like an electron in an atom) can only occupy specific energy levels—its "quantum notes." The TISE finds these allowed energies and their corresponding "wave shapes."  
+
+[Diagram idea: A guitar string with labeled energy levels (notes) and a particle-in-a-box analogy with wave patterns.]  
+
+## The more precise picture  
+The TISE is derived by splitting the full Schrödinger equation into **space** and **time** parts using **separation of variables**. This gives:  
+$$  
+-\frac{\hbar^2}{2m} \nabla^2 \psi + V(x)\psi = E\psi  
+$$  
+- **$ \psi $** is the **probability map** {wavefunction}, describing where a particle is likely to be.  
+- **$ V(x) $** is the **potential energy** (e.g., a box’s walls or a spring’s force).  
+- **$ E $** is the **energy level** {quantized energy}, a fixed value for each stationary state.  
+
+Solving this equation gives **stationary states** {energy eigenstates}, where the probability of finding a particle doesn’t change over time. These states are like "energy snapshots" of a system.  
+
+## Common misconceptions  
+- ❌ **"The TISE is static."**  
+  → It’s still a differential equation; it describes how the wavefunction behaves in space, not time.  
+- ❌ **"Stationary states are static."**  
+  → The **phase arrow** {complex phase} of the wavefunction still rotates over time, but the **probability map** {wavefunction}’s square (probability distribution) remains fixed.  
+- ❌ **"The wavefunction is a physical wave."**  
+  → It’s a **probability amplitude**, not a physical entity. It encodes the likelihood of finding a particle, not its actual motion.  
+
+## How this connects to the rest of physics  
+The TISE is essential for quantum mechanics and underpins the **Standard Model** of particles. It explains energy quantization in atoms, molecular bonding, and even the behavior of electrons in solids (like semiconductors). Its solutions also link to **conservation laws** and **symmetry principles** in physics.  
+
+## Recap  
+- The TISE finds **stationary states** {energy eigenstates} for systems with time-independent forces.  
+- It reveals **quantized energy levels** {discrete energy values}, like electrons in atoms.  
+- The **probability map** {wavefunction} describes where a particle is likely to be, not its physical motion.  
+- Solving the TISE requires **boundary conditions** (e.g., a particle in a box must vanish at walls).  
+
+---  
+**Next steps**: Explore how the TISE applies to real systems like the hydrogen atom or harmonic oscillator, and compare it to the full time-dependent Schrödinger equation.
+
+RESPONSE:
+{
+  "id": "C001",
+  "verdict": "mostly_supported",
+  "severity": "low",
+  "problem": "The claim describes the TISE as a 'simplified version of quantum mechanics' which may mislead about its scope. The TISE is a specific form of the Schrödinger equation, not a simplified framework of quantum mechanics itself.",
+  "suggested_fix": "Revise to: 'The Time-independent Schrödinger equation (TISE) is a specific form of the Schrödinger equation used for systems with time-independent forces, finding stationary states that represent energy eigenstates.'",
+  "source_quality_note
+
+================================================================================
+TIME: 2026-05-04T16:20:32
+NODE: claim_checker
+PROMPT_CHARS: 6573
+PROMPT_TOKENS_APPROX: 1643
+RESPONSE_CHARS: 288
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.85}
+================================================================================
+PROMPT:
+Check this one article claim against the available search snippet.
+
+Return JSON with this shape:
+{
+  "id": "C002",
+  "verdict": "supported | mostly_supported | needs_qualification | unsupported | contradicted | not_enough_evidence",
+  "severity": "none | low | medium | high",
+  "problem": "specific issue, or empty string",
+  "suggested_fix": "specific correction to the article, or empty string",
+  "source_quality_note": "brief note about whether the snippets look authoritative"
+}
+
+Rules:
+- Be conservative.
+- If the snippet is weak or absent, say not_enough_evidence.
+- Do not demand advanced nuance beyond the article's beginner scope.
+- Do flag misleading simplifications.
+- Focus on stable accepted physics.
+
+Article title: Time-independent Schrodinger equation
+
+Claim:
+{
+  "id": "C002",
+  "claim": "It reveals how particles can only have specific, quantized energy levels—like electrons in atoms—by solving for stationary states where probabilities don’t change.",
+  "type": "fallback-extracted",
+  "importance": "medium",
+  "needs_external_check": true,
+  "why_it_matters": "Automatically extracted fallback claim; review manually.",
+  "suggested_search_query": "Time-independent Schrodinger equation It reveals how particles can only have specific, quantized energy levels—like electrons in atoms—by solving for physics lecture notes textbook explanation"
+}
+
+Search snippet:
+{
+  "claim": "It reveals how particles can only have specific, quantized energy levels—like electrons in atoms—by solving for stationary states where probabilities don’t change.",
+  "query": "Time-independent Schrodinger equation It reveals how particles can only have specific, quantized energy levels—like electrons in atoms—by solving for physics lecture notes textbook explanation",
+  "result_snippet": "Feb 18, 2022 · The time dependent Schrödinger equation (TDSE) describes the time evolution of non-stationary quantum states. We show that the TDSE preserves probability and then study its properties in the context of a particularly interesting set of solutions, dubbed coherent states. In the next sections, we solve Schrӧdinger’s time-independent equation for three cases: a quantum particle in a box, a simple harmonic oscillator, and a quantum barrier. Nov 24, 2022 · We can start the derivation of the single-particle time-independent Schrödinger equation (TISEq) from the equation that describes the motion of a wave in classical mechanics: It is known as separation of variables. This will lead to two ordinary differential equations, one involving only time, which can be solved easily, and the second involving only the position of the particle, known as the Time-Independent Schrödinger Equation (TISE). The time-dependent equation shows how quantum states change over time, useful for non-stationary situations. The time-independent version, simpler to solve, deals with stationary states and energy levels, key for understanding atomic structure and bonding.",
+  "searched_at": "2026-05-04_16-16-01",
+  "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
+}
+
+Relevant draft context:
+# Time-independent Schrödinger equation  
+
+## The core idea  
+The **Time-independent Schrödinger equation (TISE)** is a simplified version of quantum mechanics that finds "energy snapshots" of particles in systems where forces don’t change over time. It reveals how particles can only have specific, quantized energy levels—like electrons in atoms—by solving for stationary states where probabilities don’t change.  
+
+## Why this matters  
+This equation is the foundation for understanding atomic structure, molecular bonding, and energy quantization in quantum systems. It explains why electrons in atoms don’t spiral into the nucleus and why light is emitted in discrete packets (photons).  
+
+## The simple picture  
+Imagine a guitar string fixed at both ends. When plucked, it vibrates at specific frequencies (notes), never at random pitches. Similarly, a particle in a box (like an electron in an atom) can only occupy specific energy levels—its "quantum notes." The TISE finds these allowed energies and their corresponding "wave shapes."  
+
+[Diagram idea: A guitar string with labeled energy levels (notes) and a particle-in-a-box analogy with wave patterns.]  
+
+## The more precise picture  
+The TISE is derived by splitting the full Schrödinger equation into **space** and **time** parts using **separation of variables**. This gives:  
+$$  
+-\frac{\hbar^2}{2m} \nabla^2 \psi + V(x)\psi = E\psi  
+$$  
+- **$ \psi $** is the **probability map** {wavefunction}, describing where a particle is likely to be.  
+- **$ V(x) $** is the **potential energy** (e.g., a box’s walls or a spring’s force).  
+- **$ E $** is the **energy level** {quantized energy}, a fixed value for each stationary state.  
+
+Solving this equation gives **stationary states** {energy eigenstates}, where the probability of finding a particle doesn’t change over time. These states are like "energy snapshots" of a system.  
+
+## Common misconceptions  
+- ❌ **"The TISE is static."**  
+  → It’s still a differential equation; it describes how the wavefunction behaves in space, not time.  
+- ❌ **"Stationary states are static."**  
+  → The **phase arrow** {complex phase} of the wavefunction still rotates over time, but the **probability map** {wavefunction}’s square (probability distribution) remains fixed.  
+- ❌ **"The wavefunction is a physical wave."**  
+  → It’s a **probability amplitude**, not a physical entity. It encodes the likelihood of finding a particle, not its actual motion.  
+
+## How this connects to the rest of physics  
+The TISE is essential for quantum mechanics and underpins the **Standard Model** of particles. It explains energy quantization in atoms, molecular bonding, and even the behavior of electrons in solids (like semiconductors). Its solutions also link to **conservation laws** and **symmetry principles** in physics.  
+
+## Recap  
+- The TISE finds **stationary states** {energy eigenstates} for systems with time-independent forces.  
+- It reveals **quantized energy levels** {discrete energy values}, like electrons in atoms.  
+- The **probability map** {wavefunction} describes where a particle is likely to be, not its physical motion.  
+- Solving the TISE requires **boundary conditions** (e.g., a particle in a box must vanish at walls).  
+
+---  
+**Next steps**: Explore how the TISE applies to real systems like the hydrogen atom or harmonic oscillator, and compare it to the full time-dependent Schrödinger equation.
+
+RESPONSE:
+{
+  "id": "C002",
+  "verdict": "supported",
+  "severity": "none",
+  "problem": "",
+  "suggested_fix": "",
+  "source_quality_note": "The snippets reference physics lecture notes and derivations from stable educational sources, which are authoritative for foundational quantum mechanics."
+}
+
+================================================================================
+TIME: 2026-05-04T16:24:22
+NODE: claim_revision
+PROMPT_CHARS: 4812
+PROMPT_TOKENS_APPROX: 1203
+RESPONSE_CHARS: 3677
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.85}
+================================================================================
+PROMPT:
+Revise the article once to address claim-check feedback.
+
+Do not rewrite for its own sake. Fix the scientific issues while preserving accessible language.
+
+Claim-check feedback:
+{
+  "claim_checks": [
+    {
+      "id": "C001",
+      "verdict": "not_enough_evidence",
+      "severity": "medium",
+      "problem": "Could not parse claim-checker output.",
+      "suggested_fix": "Review this claim manually.",
+      "source_quality_note": ""
+    },
+    {
+      "id": "C002",
+      "verdict": "supported",
+      "severity": "none",
+      "problem": "",
+      "suggested_fix": "",
+      "source_quality_note": "The snippets reference physics lecture notes and derivations from stable educational sources, which are authoritative for foundational quantum mechanics."
+    }
+  ],
+  "summary": {
+    "overall_claim_quality": "Claim check completed.",
+    "unresolved_or_needs_qualification": 1,
+    "highest_priority_fixes": [
+      "Review this claim manually."
+    ]
+  },
+  "last_updated": "2026-05-04_16-20-32"
+}
+
+Current draft:
+# Time-independent Schrödinger equation  
+
+## The core idea  
+The **Time-independent Schrödinger equation (TISE)** is a simplified version of quantum mechanics that finds "energy snapshots" of particles in systems where forces don’t change over time. It reveals how particles can only have specific, quantized energy levels—like electrons in atoms—by solving for stationary states where probabilities don’t change.  
+
+## Why this matters  
+This equation is the foundation for understanding atomic structure, molecular bonding, and energy quantization in quantum systems. It explains why electrons in atoms don’t spiral into the nucleus and why light is emitted in discrete packets (photons).  
+
+## The simple picture  
+Imagine a guitar string fixed at both ends. When plucked, it vibrates at specific frequencies (notes), never at random pitches. Similarly, a particle in a box (like an electron in an atom) can only occupy specific energy levels—its "quantum notes." The TISE finds these allowed energies and their corresponding "wave shapes."  
+
+[Diagram idea: A guitar string with labeled energy levels (notes) and a particle-in-a-box analogy with wave patterns.]  
+
+## The more precise picture  
+The TISE is derived by splitting the full Schrödinger equation into **space** and **time** parts using **separation of variables**. This gives:  
+$$  
+-\frac{\hbar^2}{2m} \nabla^2 \psi + V(x)\psi = E\psi  
+$$  
+- **$ \psi $** is the **probability map** {wavefunction}, describing where a particle is likely to be.  
+- **$ V(x) $** is the **potential energy** (e.g., a box’s walls or a spring’s force).  
+- **$ E $** is the **energy level** {quantized energy}, a fixed value for each stationary state.  
+
+Solving this equation gives **stationary states** {energy eigenstates}, where the probability of finding a particle doesn’t change over time. These states are like "energy snapshots" of a system.  
+
+## Common misconceptions  
+- ❌ **"The TISE is static."**  
+  → It’s still a differential equation; it describes how the wavefunction behaves in space, not time.  
+- ❌ **"Stationary states are static."**  
+  → The **phase arrow** {complex phase} of the wavefunction still rotates over time, but the **probability map** {wavefunction}’s square (probability distribution) remains fixed.  
+- ❌ **"The wavefunction is a physical wave."**  
+  → It’s a **probability amplitude**, not a physical entity. It encodes the likelihood of finding a particle, not its actual motion.  
+
+## How this connects to the rest of physics  
+The TISE is essential for quantum mechanics and underpins the **Standard Model** of particles. It explains energy quantization in atoms, molecular bonding, and even the behavior of electrons in solids (like semiconductors). Its solutions also link to **conservation laws** and **symmetry principles** in physics.  
+
+## Recap  
+- The TISE finds **stationary states** {energy eigenstates} for systems with time-independent forces.  
+- It reveals **quantized energy levels** {discrete energy values}, like electrons in atoms.  
+- The **probability map** {wavefunction} describes where a particle is likely to be, not its physical motion.  
+- Solving the TISE requires **boundary conditions** (e.g., a particle in a box must vanish at walls).  
+
+---  
+**Next steps**: Explore how the TISE applies to real systems like the hydrogen atom or harmonic oscillator, and compare it to the full time-dependent Schrödinger equation.
+
+Instructions:
+- Correct or qualify unsupported, contradicted, or overstrong claims.
+- Preserve good accessible explanations.
+- Do not add speculative research as settled fact.
+- If an analogy was misleading, either repair it or state its limits.
+- Keep standard terms in braces after descriptive names.
+- Output only the revised article in Markdown.
+
+RESPONSE:
+# Time-independent Schrödinger equation  
+
+## The core idea  
+The **Time-independent Schrödinger equation (TISE)** is a simplified version of quantum mechanics that finds "energy snapshots" of particles in systems where forces don’t change over time. It reveals how particles can only have specific, quantized energy levels—like electrons in atoms—by solving for stationary states where probabilities don’t change over time.  
+
+## Why this matters  
+This equation is the foundation for understanding atomic structure, molecular bonding, and energy quantization in quantum systems. It explains why electrons in atoms don’t spiral into the nucleus and why light is emitted in discrete packets (photons).  
+
+## The simple picture  
+Imagine a guitar string fixed at both ends. When plucked, it vibrates at specific frequencies (notes), never at random pitches. Similarly, a particle in a box (like an electron in an atom) can only occupy specific energy levels—its "quantum notes." The TISE finds these allowed energies and their corresponding "wave shapes."  
+
+[Diagram idea: A guitar string with labeled energy levels (notes) and a particle-in-a-box analogy with wave patterns.]  
+
+## The more precise picture  
+The TISE is derived by splitting the full Schrödinger equation into **space** and **time** parts using **separation of variables**. This gives:  
+$$  
+-\frac{\hbar^2}{2m} \nabla^2 \psi + V(x)\psi = E\psi  
+$$  
+- **$ \psi $** is the **probability map** {wavefunction}, describing where a particle is likely to be.  
+- **$ V(x) $** is the **potential energy** (e.g., a box’s walls or a spring’s force).  
+- **$ E $** is the **energy level** {quantized energy}, a fixed value for each stationary state.  
+
+Solving this equation gives **stationary states** {energy eigenstates}, where the probability of finding a particle doesn’t change over time. These states are like "energy snapshots" of a system.  
+
+## Common misconceptions  
+- ❌ **"The TISE is static."**  
+  → It’s still a differential equation; it describes how the wavefunction behaves in space, not time.  
+- ❌ **"Stationary states are static."**  
+  → The **phase arrow** {complex phase} of the wavefunction still rotates over time, but the **probability map** {wavefunction}’s square (probability distribution) remains fixed.  
+- ❌ **"The wavefunction is a physical wave."**  
+  → It’s a **probability amplitude**, not a physical entity. It encodes the likelihood of finding a particle, not its actual motion.  
+
+## How this connects to the rest of physics  
+The TISE is essential for quantum mechanics and underpins the **quantum theory** of particles. It explains energy quantization in atoms, molecular bonding, and the behavior of electrons in solids (like semiconductors). Its solutions also link to **conservation laws** and **symmetry principles** in physics.  
+
+## Recap  
+- The TISE finds **stationary states** {energy eigenstates} for systems with time-independent forces.  
+- It reveals **quantized energy levels** {discrete energy values}, like electrons in atoms.  
+- The **probability map** {wavefunction} describes where a particle is likely to be, not its physical motion.  
+- Solving the TISE requires **boundary conditions** (e.g., a particle in a box must vanish at walls).  
+
+---  
+**Next steps**: Explore how the TISE applies to real systems like the hydrogen atom or harmonic oscillator, and compare it to the full time-dependent Schrödinger equation.  
+
+**Note**: The TISE is a cornerstone of quantum mechanics but does not directly describe the Standard Model of particles. It provides the framework for understanding quantum systems, which is a key component of the Standard Model.
+
+================================================================================
+TIME: 2026-05-04T16:26:13
+NODE: term_collector
+PROMPT_CHARS: 4147
+PROMPT_TOKENS_APPROX: 1036
+RESPONSE_CHARS: 0
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.85}
+================================================================================
+PROMPT:
+Extract the descriptive-name candidates from this draft.
+
+Return JSON with this shape:
+{
+  "terms": [
+    {
+      "standard_term": "fermion",
+      "candidate_name": "space-occupier",
+      "context_quote": "short quote from the draft",
+      "usefulness": "why this name helps",
+      "risk": "how it could mislead, or empty string if low risk"
+    }
+  ]
+}
+
+Only include actual teaching-name candidates, especially phrases followed by standard terms in braces.
+
+Draft:
+# Time-independent Schrödinger equation  
+
+## The core idea  
+The **Time-independent Schrödinger equation (TISE)** is a simplified version of quantum mechanics that finds "energy snapshots" of particles in systems where forces don’t change over time. It reveals how particles can only have specific, quantized energy levels—like electrons in atoms—by solving for stationary states where probabilities don’t change over time.  
+
+## Why this matters  
+This equation is the foundation for understanding atomic structure, molecular bonding, and energy quantization in quantum systems. It explains why electrons in atoms don’t spiral into the nucleus and why light is emitted in discrete packets (photons).  
+
+## The simple picture  
+Imagine a guitar string fixed at both ends. When plucked, it vibrates at specific frequencies (notes), never at random pitches. Similarly, a particle in a box (like an electron in an atom) can only occupy specific energy levels—its "quantum notes." The TISE finds these allowed energies and their corresponding "wave shapes."  
+
+[Diagram idea: A guitar string with labeled energy levels (notes) and a particle-in-a-box analogy with wave patterns.]  
+
+## The more precise picture  
+The TISE is derived by splitting the full Schrödinger equation into **space** and **time** parts using **separation of variables**. This gives:  
+$$  
+-\frac{\hbar^2}{2m} \nabla^2 \psi + V(x)\psi = E\psi  
+$$  
+- **$ \psi $** is the **probability map** {wavefunction}, describing where a particle is likely to be.  
+- **$ V(x) $** is the **potential energy** (e.g., a box’s walls or a spring’s force).  
+- **$ E $** is the **energy level** {quantized energy}, a fixed value for each stationary state.  
+
+Solving this equation gives **stationary states** {energy eigenstates}, where the probability of finding a particle doesn’t change over time. These states are like "energy snapshots" of a system.  
+
+## Common misconceptions  
+- ❌ **"The TISE is static."**  
+  → It’s still a differential equation; it describes how the wavefunction behaves in space, not time.  
+- ❌ **"Stationary states are static."**  
+  → The **phase arrow** {complex phase} of the wavefunction still rotates over time, but the **probability map** {wavefunction}’s square (probability distribution) remains fixed.  
+- ❌ **"The wavefunction is a physical wave."**  
+  → It’s a **probability amplitude**, not a physical entity. It encodes the likelihood of finding a particle, not its actual motion.  
+
+## How this connects to the rest of physics  
+The TISE is essential for quantum mechanics and underpins the **quantum theory** of particles. It explains energy quantization in atoms, molecular bonding, and the behavior of electrons in solids (like semiconductors). Its solutions also link to **conservation laws** and **symmetry principles** in physics.  
+
+## Recap  
+- The TISE finds **stationary states** {energy eigenstates} for systems with time-independent forces.  
+- It reveals **quantized energy levels** {discrete energy values}, like electrons in atoms.  
+- The **probability map** {wavefunction} describes where a particle is likely to be, not its physical motion.  
+- Solving the TISE requires **boundary conditions** (e.g., a particle in a box must vanish at walls).  
+
+---  
+**Next steps**: Explore how the TISE applies to real systems like the hydrogen atom or harmonic oscillator, and compare it to the full time-dependent Schrödinger equation.  
+
+**Note**: The TISE is a cornerstone of quantum mechanics but does not directly describe the Standard Model of particles. It provides the framework for understanding quantum systems, which is a key component of the Standard Model.
+
+RESPONSE:
+
+
+================================================================================
+TIME: 2026-05-04T16:29:05
+NODE: accessibility_judge
+PROMPT_CHARS: 5895
+PROMPT_TOKENS_APPROX: 1473
+RESPONSE_CHARS: 1543
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.85}
+================================================================================
+PROMPT:
+Score this EasyPhysics article for accessibility using the rubric below.
+
+Accessibility score, 1-10:
+
+10 = Exceptional. A motivated high-schooler can follow the article's main arc without prior exposure.
+     Jargon is introduced only after intuition. Examples are vivid. Math is explained as meaning,
+     not just symbols. The article feels empowering and clear.
+
+9 = Publishable with light human editing. The main idea is easy to follow; jargon is mostly controlled;
+    analogies are helpful; sections flow logically; any math has a plain-language interpretation.
+
+8 = Strong draft. Mostly clear, but has a few dense sections, unexplained terms, abrupt transitions,
+    or analogies that need more setup.
+
+7 = Useful but uneven. A motivated reader could learn from it, but several passages need simplification,
+    clearer examples, or better sequencing.
+
+6 = Borderline. The article contains useful explanations, but assumes too much background or uses too much jargon.
+
+5 = Mixed. Some good paragraphs, but the structure or language would lose many target readers.
+
+4 = Hard to follow. Mostly written for someone who already knows the subject.
+
+3 = Very inaccessible. Dense, abstract, jargon-heavy, or poorly sequenced.
+
+2 = Barely useful to the target audience.
+
+1 = Fails the accessibility goal.
+
+Accessibility judge priorities:
+- Does the opening give the reader an intuitive foothold?
+- Are standard terms introduced after meaning, not before?
+- Are descriptive names useful rather than cutesy or misleading?
+- Are analogies concrete and then carefully limited?
+- Is any math explained in words?
+- Does the article avoid "spooky/magic/weird" framing while still acknowledging counterintuitive ideas?
+- Does each section make the next section easier?
+
+Return JSON with this shape:
+{
+  "score": 1,
+  "pass": false,
+  "strengths": ["specific strength"],
+  "issues": [
+    {
+      "severity": "low | medium | high",
+      "location": "section or paragraph description",
+      "problem": "specific accessibility issue",
+      "suggested_fix": "specific fix"
+    }
+  ],
+  "best_next_revision": "one concise paragraph describing what to improve next"
+}
+
+Article title: Time-independent Schrodinger equation
+
+Draft:
+# Time-independent Schrödinger equation  
+
+## The core idea  
+The **Time-independent Schrödinger equation (TISE)** is a simplified version of quantum mechanics that finds "energy snapshots" of particles in systems where forces don’t change over time. It reveals how particles can only have specific, quantized energy levels—like electrons in atoms—by solving for stationary states where probabilities don’t change over time.  
+
+## Why this matters  
+This equation is the foundation for understanding atomic structure, molecular bonding, and energy quantization in quantum systems. It explains why electrons in atoms don’t spiral into the nucleus and why light is emitted in discrete packets (photons).  
+
+## The simple picture  
+Imagine a guitar string fixed at both ends. When plucked, it vibrates at specific frequencies (notes), never at random pitches. Similarly, a particle in a box (like an electron in an atom) can only occupy specific energy levels—its "quantum notes." The TISE finds these allowed energies and their corresponding "wave shapes."  
+
+[Diagram idea: A guitar string with labeled energy levels (notes) and a particle-in-a-box analogy with wave patterns.]  
+
+## The more precise picture  
+The TISE is derived by splitting the full Schrödinger equation into **space** and **time** parts using **separation of variables**. This gives:  
+$$  
+-\frac{\hbar^2}{2m} \nabla^2 \psi + V(x)\psi = E\psi  
+$$  
+- **$ \psi $** is the **probability map** {wavefunction}, describing where a particle is likely to be.  
+- **$ V(x) $** is the **potential energy** (e.g., a box’s walls or a spring’s force).  
+- **$ E $** is the **energy level** {quantized energy}, a fixed value for each stationary state.  
+
+Solving this equation gives **stationary states** {energy eigenstates}, where the probability of finding a particle doesn’t change over time. These states are like "energy snapshots" of a system.  
+
+## Common misconceptions  
+- ❌ **"The TISE is static."**  
+  → It’s still a differential equation; it describes how the wavefunction behaves in space, not time.  
+- ❌ **"Stationary states are static."**  
+  → The **phase arrow** {complex phase} of the wavefunction still rotates over time, but the **probability map** {wavefunction}’s square (probability distribution) remains fixed.  
+- ❌ **"The wavefunction is a physical wave."**  
+  → It’s a **probability amplitude**, not a physical entity. It encodes the likelihood of finding a particle, not its actual motion.  
+
+## How this connects to the rest of physics  
+The TISE is essential for quantum mechanics and underpins the **quantum theory** of particles. It explains energy quantization in atoms, molecular bonding, and the behavior of electrons in solids (like semiconductors). Its solutions also link to **conservation laws** and **symmetry principles** in physics.  
+
+## Recap  
+- The TISE finds **stationary states** {energy eigenstates} for systems with time-independent forces.  
+- It reveals **quantized energy levels** {discrete energy values}, like electrons in atoms.  
+- The **probability map** {wavefunction} describes where a particle is likely to be, not its physical motion.  
+- Solving the TISE requires **boundary conditions** (e.g., a particle in a box must vanish at walls).  
+
+---  
+**Next steps**: Explore how the TISE applies to real systems like the hydrogen atom or harmonic oscillator, and compare it to the full time-dependent Schrödinger equation.  
+
+**Note**: The TISE is a cornerstone of quantum mechanics but does not directly describe the Standard Model of particles. It provides the framework for understanding quantum systems, which is a key component of the Standard Model.
+
+RESPONSE:
+{
+  "score": 8,
+  "pass": true,
+  "strengths": [
+    "Clear intuitive analogies (guitar string, particle-in-a-box) provide concrete footholds",
+    "Standard terms are introduced with descriptive names and explanations",
+    "Misconceptions section addresses common misunderstandings effectively"
+  ],
+  "issues": [
+    {
+      "severity": "medium",
+      "location": "The more precise picture section",
+      "problem": "Math equation is presented without sufficient plain-language explanation of operators and symbols",
+      "suggested_fix": "Add a paragraph explaining what the Laplacian operator represents and how the equation connects energy levels to spatial probability distributions"
+    },
+    {
+      "severity": "medium",
+      "location": "Common misconceptions section",
+      "problem": "Term 'phase arrow' {complex phase} is introduced without visual context",
+      "suggested_fix": "Add a simple diagram or analogy explaining how complex phases rotate over time while maintaining probability distributions"
+    },
+    {
+      "severity": "low",
+      "location": "Final note about Standard Model",
+      "problem": "Mentions advanced topics beyond target audience's current scope",
+      "suggested_fix": "Rephrase to focus on quantum mechanics foundations rather than particle physics"
+    }
+  ],
+  "best_next_revision": "Enhance the math explanation by breaking down the Laplacian operator and energy eigenvalue equation with analogies, and add visual context for complex phases to make abstract concepts more tangible."
+}
+
+================================================================================
+TIME: 2026-05-04T16:32:37
+NODE: rigor_judge
+PROMPT_CHARS: 6758
+PROMPT_TOKENS_APPROX: 1689
+RESPONSE_CHARS: 0
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.85}
+================================================================================
+PROMPT:
+Score this EasyPhysics article for scientific rigor using the rubric below.
+
+Rigor score, 1-10:
+
+10 = Exceptional. Scientifically accurate, well-qualified, and careful about analogy limits.
+     No obvious misleading simplifications. Claims align with stable accepted physics.
+
+9 = Publishable with light human editing. No major errors. A few details may need polishing,
+    but the article is safe as an educational explanation.
+
+8 = Strong draft. Mostly accurate but has minor imprecision, missing qualifications, or analogy risks.
+
+7 = Useful but needs scientific review. Contains no catastrophic errors, but some claims are too loose,
+    incomplete, or potentially misleading.
+
+6 = Borderline. Several important corrections or qualifications are needed.
+
+5 = Mixed. The article has valuable explanations but also significant inaccuracies or misleading framings.
+
+4 = Scientifically weak. Multiple substantial errors or serious conceptual muddling.
+
+3 = Very unreliable. The reader would likely learn incorrect physics.
+
+2 = Mostly wrong or confused.
+
+1 = Fails the rigor goal.
+
+Rigor judge priorities:
+- Are definitions compatible with standard physics?
+- Are analogies technically safe, with their limits stated when necessary?
+- Are quantum concepts distinguished correctly: amplitude vs probability, superposition vs ignorance,
+  measurement vs ordinary looking, phase vs probability?
+- Are field/particle/wave descriptions accurate enough for a beginner article?
+- Are conservation, symmetry, force, energy, mass, and spin statements properly qualified?
+- Does the article avoid replacing historical jargon with new misleading jargon?
+- Are open questions distinguished from settled explanations?
+
+Use the claim-check results as context, but judge the final draft itself.
+
+Return JSON with this shape:
+{
+  "score": 1,
+  "pass": false,
+  "strengths": ["specific strength"],
+  "issues": [
+    {
+      "severity": "low | medium | high",
+      "location": "section or paragraph description",
+      "problem": "specific rigor issue",
+      "suggested_fix": "specific fix"
+    }
+  ],
+  "best_next_revision": "one concise paragraph describing what to improve next"
+}
+
+Article title: Time-independent Schrodinger equation
+
+Claim-check context:
+{
+  "claim_checks": [
+    {
+      "id": "C001",
+      "verdict": "not_enough_evidence",
+      "severity": "medium",
+      "problem": "Could not parse claim-checker output.",
+      "suggested_fix": "Review this claim manually.",
+      "source_quality_note": ""
+    },
+    {
+      "id": "C002",
+      "verdict": "supported",
+      "severity": "none",
+      "problem": "",
+      "suggested_fix": "",
+      "source_quality_note": "The snippets reference physics lecture notes and derivations from stable educational sources, which are authoritative for foundational quantum mechanics."
+    }
+  ],
+  "summary": {
+    "overall_claim_quality": "Claim check completed.",
+    "unresolved_or_needs_qualification": 1,
+    "highest_priority_fixes": [
+      "Review this claim manually."
+    ]
+  },
+  "last_updated": "2026-05-04_16-20-32"
+}
+
+Draft:
+# Time-independent Schrödinger equation  
+
+## The core idea  
+The **Time-independent Schrödinger equation (TISE)** is a simplified version of quantum mechanics that finds "energy snapshots" of particles in systems where forces don’t change over time. It reveals how particles can only have specific, quantized energy levels—like electrons in atoms—by solving for stationary states where probabilities don’t change over time.  
+
+## Why this matters  
+This equation is the foundation for understanding atomic structure, molecular bonding, and energy quantization in quantum systems. It explains why electrons in atoms don’t spiral into the nucleus and why light is emitted in discrete packets (photons).  
+
+## The simple picture  
+Imagine a guitar string fixed at both ends. When plucked, it vibrates at specific frequencies (notes), never at random pitches. Similarly, a particle in a box (like an electron in an atom) can only occupy specific energy levels—its "quantum notes." The TISE finds these allowed energies and their corresponding "wave shapes."  
+
+[Diagram idea: A guitar string with labeled energy levels (notes) and a particle-in-a-box analogy with wave patterns.]  
+
+## The more precise picture  
+The TISE is derived by splitting the full Schrödinger equation into **space** and **time** parts using **separation of variables**. This gives:  
+$$  
+-\frac{\hbar^2}{2m} \nabla^2 \psi + V(x)\psi = E\psi  
+$$  
+- **$ \psi $** is the **probability map** {wavefunction}, describing where a particle is likely to be.  
+- **$ V(x) $** is the **potential energy** (e.g., a box’s walls or a spring’s force).  
+- **$ E $** is the **energy level** {quantized energy}, a fixed value for each stationary state.  
+
+Solving this equation gives **stationary states** {energy eigenstates}, where the probability of finding a particle doesn’t change over time. These states are like "energy snapshots" of a system.  
+
+## Common misconceptions  
+- ❌ **"The TISE is static."**  
+  → It’s still a differential equation; it describes how the wavefunction behaves in space, not time.  
+- ❌ **"Stationary states are static."**  
+  → The **phase arrow** {complex phase} of the wavefunction still rotates over time, but the **probability map** {wavefunction}’s square (probability distribution) remains fixed.  
+- ❌ **"The wavefunction is a physical wave."**  
+  → It’s a **probability amplitude**, not a physical entity. It encodes the likelihood of finding a particle, not its actual motion.  
+
+## How this connects to the rest of physics  
+The TISE is essential for quantum mechanics and underpins the **quantum theory** of particles. It explains energy quantization in atoms, molecular bonding, and the behavior of electrons in solids (like semiconductors). Its solutions also link to **conservation laws** and **symmetry principles** in physics.  
+
+## Recap  
+- The TISE finds **stationary states** {energy eigenstates} for systems with time-independent forces.  
+- It reveals **quantized energy levels** {discrete energy values}, like electrons in atoms.  
+- The **probability map** {wavefunction} describes where a particle is likely to be, not its physical motion.  
+- Solving the TISE requires **boundary conditions** (e.g., a particle in a box must vanish at walls).  
+
+---  
+**Next steps**: Explore how the TISE applies to real systems like the hydrogen atom or harmonic oscillator, and compare it to the full time-dependent Schrödinger equation.  
+
+**Note**: The TISE is a cornerstone of quantum mechanics but does not directly describe the Standard Model of particles. It provides the framework for understanding quantum systems, which is a key component of the Standard Model.
+
+RESPONSE:
+

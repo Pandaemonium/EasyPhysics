@@ -1,0 +1,972 @@
+
+================================================================================
+TIME: 2026-05-04T07:08:29
+NODE: planner
+PROMPT_CHARS: 471
+PROMPT_TOKENS_APPROX: 117
+RESPONSE_CHARS: 4469
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.85}
+================================================================================
+PROMPT:
+Create a strong teaching outline for this EasyPhysics article:
+
+Title: Lagrangian
+
+The outline should include:
+1. Scope: what this article explains.
+2. Out of scope: what it should not try to explain yet.
+3. Prerequisite concepts.
+4. Core intuition.
+5. Suggested descriptive names with standard terms in braces.
+6. Common misconceptions to avoid.
+7. Section-by-section outline.
+8. Optional diagram ideas.
+9. Optional minimal math, with what the math means.
+
+Use Markdown.
+
+RESPONSE:
+```markdown
+# Lagrangian
+
+## 1. Scope  
+This article explains the **Lagrangian formulation** of classical mechanics: a powerful framework for analyzing motion by focusing on energy differences rather than forces. It introduces the **principle of least action**, the **Lagrangian function**, and how to derive equations of motion for systems. It avoids deep mathematical derivations (e.g., variational calculus) and focuses on conceptual understanding.
+
+---
+
+## 2. Out of Scope  
+- Advanced mathematical tools like variational calculus or differential geometry.  
+- Quantum mechanics or field theory applications of the Lagrangian.  
+- Detailed derivations of the Euler-Lagrange equations (save for intuitive sketches).  
+- Comparisons to general relativity or modern physics (unless explicitly tied to foundational concepts).
+
+---
+
+## 3. Prerequisite Concepts  
+- **Newton’s laws** (especially F = ma).  
+- **Kinetic energy** (T = ½mv²) and **potential energy** (V = mgh, etc.).  
+- Basic **calculus** (derivatives, integrals).  
+- Understanding of **systems in motion** (e.g., pendulums, springs).
+
+---
+
+## 4. Core Intuition  
+The **Lagrangian** is a way to describe motion by asking: *What path does a system take to "save" energy?* Instead of tracking forces (Newton’s approach), it focuses on the **difference between kinetic and potential energy** (L = T − V) over time. Nature chooses the path that makes this energy difference "stationary" (a minimum, maximum, or saddle point). This is called the **principle of least action**, a universal rule for how systems evolve.
+
+---
+
+## 5. Suggested Descriptive Names with Standard Terms in Braces  
+- **Energy difference function** {Lagrangian}  
+- **Path of least action** {principle of least action}  
+- **Motion blueprint** {equations of motion}  
+- **Energy landscape** {potential energy}  
+- **Kinetic tracker** {kinetic energy}  
+
+---
+
+## 6. Common Misconceptions to Avoid  
+- **"Lagrangian is just a trick for solving problems"**: It’s a foundational framework, not a shortcut.  
+- **"Action is always minimized"**: Action is stationary (could be a minimum, maximum, or saddle point).  
+- **"Lagrangian replaces Newton’s laws"**: They’re complementary tools, not competitors.  
+- **"Lagrangian is about saving energy"**: It’s about finding the path that makes the action stationary, which often correlates with energy efficiency.
+
+---
+
+## 7. Section-by-Section Outline  
+### **A. Why Lagrangian?**  
+- Compare Newtonian mechanics (forces) vs. Lagrangian (energy differences).  
+- Introduce the **principle of least action** as a universal rule.  
+
+### **B. The Lagrangian Function**  
+- Define **Lagrangian** {L = T − V} as the energy difference.  
+- Use a pendulum or spring as a simple example.  
+- Diagram: Energy landscape (potential vs. kinetic).  
+
+### **C. The Principle of Least Action**  
+- Explain "action" as the integral of L over time.  
+- Intuitive analogy: A ball rolling down a hill takes the path that "balances" energy.  
+- Diagram: Multiple paths with varying action values.  
+
+### **D. Deriving Motion from the Lagrangian**  
+- Introduce the **Euler-Lagrange equation** (minimal math):  
+  ∂L/∂q − d/dt(∂L/∂q̇) = 0  
+  - Explain each term: position (q), velocity (q̇), and how the equation finds the right path.  
+- Example: Derive equations for a pendulum.  
+
+### **E. Why Use Lagrangian?**  
+- Advantages: Handles complex systems (e.g., multiple particles, constraints).  
+- Connection to modern physics: Basis for quantum mechanics and relativity.  
+
+---
+
+## 8. Optional Diagram Ideas  
+1. **Energy Landscape**: A graph of potential energy (V) vs. position, with kinetic energy (T) as the "height" of the system.  
+2. **Action Comparison**: Three paths (straight, curved, zigzag) with labels showing their action values.  
+3. **Lagrangian Flowchart**: Input (T, V) → Compute L → Apply principle of least action → Output motion.  
+4. **Pendulum Example**: A pendulum bob with labeled kinetic and potential energy at different points.  
+
+---
+
+## 9. Optional Minimal Math  
+- **Lagrangian definition**:  
+  L = T − V  
+  - *T* = kinetic energy, *V* = potential energy.  
+- **Action integral**:  
+  S = ∫ L dt  
+  - *S* is the "action," a measure of energy over time.  
+- **Euler-Lagrange equation** (simplified):  
+  ∂L/∂q − d/dt(∂L/∂q̇) = 0  
+  - *q* = position, *q̇* = velocity.  
+  - Explained as: "The system adjusts its path so that changes in energy balance out over time."  
+
+---  
+```
+
+================================================================================
+TIME: 2026-05-04T07:12:59
+NODE: writer
+PROMPT_CHARS: 5874
+PROMPT_TOKENS_APPROX: 1468
+RESPONSE_CHARS: 3990
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.85}
+================================================================================
+PROMPT:
+Write a high-quality first draft for this EasyPhysics article.
+
+Title: Lagrangian
+
+Article outline:
+```markdown
+# Lagrangian
+
+## 1. Scope  
+This article explains the **Lagrangian formulation** of classical mechanics: a powerful framework for analyzing motion by focusing on energy differences rather than forces. It introduces the **principle of least action**, the **Lagrangian function**, and how to derive equations of motion for systems. It avoids deep mathematical derivations (e.g., variational calculus) and focuses on conceptual understanding.
+
+---
+
+## 2. Out of Scope  
+- Advanced mathematical tools like variational calculus or differential geometry.  
+- Quantum mechanics or field theory applications of the Lagrangian.  
+- Detailed derivations of the Euler-Lagrange equations (save for intuitive sketches).  
+- Comparisons to general relativity or modern physics (unless explicitly tied to foundational concepts).
+
+---
+
+## 3. Prerequisite Concepts  
+- **Newton’s laws** (especially F = ma).  
+- **Kinetic energy** (T = ½mv²) and **potential energy** (V = mgh, etc.).  
+- Basic **calculus** (derivatives, integrals).  
+- Understanding of **systems in motion** (e.g., pendulums, springs).
+
+---
+
+## 4. Core Intuition  
+The **Lagrangian** is a way to describe motion by asking: *What path does a system take to "save" energy?* Instead of tracking forces (Newton’s approach), it focuses on the **difference between kinetic and potential energy** (L = T − V) over time. Nature chooses the path that makes this energy difference "stationary" (a minimum, maximum, or saddle point). This is called the **principle of least action**, a universal rule for how systems evolve.
+
+---
+
+## 5. Suggested Descriptive Names with Standard Terms in Braces  
+- **Energy difference function** {Lagrangian}  
+- **Path of least action** {principle of least action}  
+- **Motion blueprint** {equations of motion}  
+- **Energy landscape** {potential energy}  
+- **Kinetic tracker** {kinetic energy}  
+
+---
+
+## 6. Common Misconceptions to Avoid  
+- **"Lagrangian is just a trick for solving problems"**: It’s a foundational framework, not a shortcut.  
+- **"Action is always minimized"**: Action is stationary (could be a minimum, maximum, or saddle point).  
+- **"Lagrangian replaces Newton’s laws"**: They’re complementary tools, not competitors.  
+- **"Lagrangian is about saving energy"**: It’s about finding the path that makes the action stationary, which often correlates with energy efficiency.
+
+---
+
+## 7. Section-by-Section Outline  
+### **A. Why Lagrangian?**  
+- Compare Newtonian mechanics (forces) vs. Lagrangian (energy differences).  
+- Introduce the **principle of least action** as a universal rule.  
+
+### **B. The Lagrangian Function**  
+- Define **Lagrangian** {L = T − V} as the energy difference.  
+- Use a pendulum or spring as a simple example.  
+- Diagram: Energy landscape (potential vs. kinetic).  
+
+### **C. The Principle of Least Action**  
+- Explain "action" as the integral of L over time.  
+- Intuitive analogy: A ball rolling down a hill takes the path that "balances" energy.  
+- Diagram: Multiple paths with varying action values.  
+
+### **D. Deriving Motion from the Lagrangian**  
+- Introduce the **Euler-Lagrange equation** (minimal math):  
+  ∂L/∂q − d/dt(∂L/∂q̇) = 0  
+  - Explain each term: position (q), velocity (q̇), and how the equation finds the right path.  
+- Example: Derive equations for a pendulum.  
+
+### **E. Why Use Lagrangian?**  
+- Advantages: Handles complex systems (e.g., multiple particles, constraints).  
+- Connection to modern physics: Basis for quantum mechanics and relativity.  
+
+---
+
+## 8. Optional Diagram Ideas  
+1. **Energy Landscape**: A graph of potential energy (V) vs. position, with kinetic energy (T) as the "height" of the system.  
+2. **Action Comparison**: Three paths (straight, curved, zigzag) with labels showing their action values.  
+3. **Lagrangian Flowchart**: Input (T, V) → Compute L → Apply principle of least action → Output motion.  
+4. **Pendulum Example**: A pendulum bob with labeled kinetic and potential energy at different points.  
+
+---
+
+## 9. Optional Minimal Math  
+- **Lagrangian definition**:  
+  L = T − V  
+  - *T* = kinetic energy, *V* = potential energy.  
+- **Action integral**:  
+  S = ∫ L dt  
+  - *S* is the "action," a measure of energy over time.  
+- **Euler-Lagrange equation** (simplified):  
+  ∂L/∂q − d/dt(∂L/∂q̇) = 0  
+  - *q* = position, *q̇* = velocity.  
+  - Explained as: "The system adjusts its path so that changes in energy balance out over time."  
+
+---  
+```
+
+Human/editor notes:
+# Human/editor notes
+
+Add any preferences, corrections, or article-specific constraints here.
+
+
+Template guidance:
+Preferred article structure:
+
+# Title
+
+## The core idea
+A short, intuitive explanation that gives the reader the main point first.
+
+## Why this matters
+Explain what the concept helps us understand.
+
+## The simple picture
+Use an analogy, diagram idea, or concrete example.
+
+## The more precise picture
+Introduce standard terms, careful distinctions, and optional minimal math.
+
+## Common misconceptions
+Name and correct the traps.
+
+## How this connects to the rest of physics
+Link the concept to fields, particles, symmetry, conservation, relativity, or the Standard Model as appropriate.
+
+## Recap
+A few concise takeaways.
+
+Drafting instructions:
+- Make it accessible to a motivated high-schooler or college freshman.
+- Teach the modern concept directly rather than narrating historical discovery.
+- Use descriptive names with standard terms in braces, e.g. space-occupier {fermion}.
+- Include common misconceptions and correct them.
+- Include minimal math only when it helps, and explain what the math means.
+- Suggest diagram ideas inline where helpful using this format: [Diagram idea: ...]
+- Output only the article in Markdown, with no commentary before or after.
+
+RESPONSE:
+# Lagrangian  
+
+## The core idea  
+The **Lagrangian** is a way to describe motion by asking: *What path does a system take to "save" energy?* Instead of tracking forces (like Newton’s approach), it focuses on the **difference between kinetic and potential energy** (L = T − V) over time. Nature chooses the path that makes this energy difference "stationary" — a minimum, maximum, or saddle point. This is called the **principle of least action**, a universal rule for how systems evolve.  
+
+[Diagram idea: A ball rolling down a hill takes the path that "balances" energy.]  
+
+---
+
+## Why this matters  
+The Lagrangian framework is a foundational tool in physics. It simplifies complex systems (like multiple particles or constrained motion) and connects classical mechanics to modern theories like quantum mechanics and general relativity. By focusing on energy differences, it reveals deep symmetries and conservation laws that govern the universe.  
+
+---
+
+## The simple picture  
+Imagine a pendulum swinging back and forth. At the top of its arc, it has high potential energy (like a stretched spring) and low kinetic energy (no motion). At the bottom, it has low potential energy and high kinetic energy. The **Lagrangian** captures this energy difference, and the **principle of least action** tells us the pendulum will swing in the path that "balances" these energies over time.  
+
+[Diagram idea: Energy landscape with kinetic and potential energy labeled.]  
+
+---
+
+## The more precise picture  
+### **Energy difference function** {Lagrangian}  
+The **Lagrangian** {L} is defined as the difference between **kinetic energy** {T} and **potential energy** {V}:  
+$$ L = T - V $$  
+For example, a spring has kinetic energy $ T = \frac{1}{2}mv^2 $ and potential energy $ V = \frac{1}{2}kx^2 $. The Lagrangian combines these to describe the system’s motion.  
+
+### **Path of least action** {principle of least action}  
+The **action** {S} is the integral of the Lagrangian over time:  
+$$ S = \int L \, dt $$  
+Nature chooses the path that makes this action **stationary** (a minimum, maximum, or saddle point). This is the **principle of least action** — a universal rule for how systems evolve.  
+
+### **Motion blueprint** {equations of motion}  
+To find the path, we use the **Euler-Lagrange equation** (minimal math):  
+$$ \frac{\partial L}{\partial q} - \frac{d}{dt}\left(\frac{\partial L}{\partial \dot{q}}\right) = 0 $$  
+Here, $ q $ is position, $ \dot{q} $ is velocity. This equation finds the path where changes in energy balance out over time.  
+
+[Diagram idea: Flowchart: Input (T, V) → Compute L → Apply principle of least action → Output motion.]  
+
+---
+
+## Common misconceptions  
+- **"Lagrangian is just a trick for solving problems"**: It’s a foundational framework, not a shortcut.  
+- **"Action is always minimized"**: Action is stationary (could be a minimum, maximum, or saddle point).  
+- **"Lagrangian replaces Newton’s laws"**: They’re complementary tools, not competitors.  
+- **"Lagrangian is about saving energy"**: It’s about finding the path that makes the action stationary, which often correlates with energy efficiency.  
+
+---
+
+## How this connects to the rest of physics  
+The Lagrangian is the basis for **quantum mechanics** (where particles "choose" paths probabilistically) and **general relativity** (where spacetime curvature replaces forces). It also reveals **conservation laws** (like energy and momentum) through symmetry principles.  
+
+---
+
+## Recap  
+- The **Lagrangian** {L = T − V} describes motion by focusing on energy differences.  
+- The **principle of least action** {stationary action} is a universal rule for how systems evolve.  
+- The **Euler-Lagrange equation** finds the path where energy changes balance out over time.  
+- Lagrangian mechanics connects classical physics to modern theories and handles complex systems efficiently.  
+
+[Diagram idea: Pendulum example with labeled kinetic and potential energy at different points.]
+
+================================================================================
+TIME: 2026-05-04T07:14:57
+NODE: term_collector
+PROMPT_CHARS: 4460
+PROMPT_TOKENS_APPROX: 1115
+RESPONSE_CHARS: 839
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.85}
+================================================================================
+PROMPT:
+Extract the descriptive-name candidates from this draft.
+
+Return JSON with this shape:
+{
+  "terms": [
+    {
+      "standard_term": "fermion",
+      "candidate_name": "space-occupier",
+      "context_quote": "short quote from the draft",
+      "usefulness": "why this name helps",
+      "risk": "how it could mislead, or empty string if low risk"
+    }
+  ]
+}
+
+Only include actual teaching-name candidates, especially phrases followed by standard terms in braces.
+
+Draft:
+# Lagrangian  
+
+## The core idea  
+The **Lagrangian** is a way to describe motion by asking: *What path does a system take to "save" energy?* Instead of tracking forces (like Newton’s approach), it focuses on the **difference between kinetic and potential energy** (L = T − V) over time. Nature chooses the path that makes this energy difference "stationary" — a minimum, maximum, or saddle point. This is called the **principle of least action**, a universal rule for how systems evolve.  
+
+[Diagram idea: A ball rolling down a hill takes the path that "balances" energy.]  
+
+---
+
+## Why this matters  
+The Lagrangian framework is a foundational tool in physics. It simplifies complex systems (like multiple particles or constrained motion) and connects classical mechanics to modern theories like quantum mechanics and general relativity. By focusing on energy differences, it reveals deep symmetries and conservation laws that govern the universe.  
+
+---
+
+## The simple picture  
+Imagine a pendulum swinging back and forth. At the top of its arc, it has high potential energy (like a stretched spring) and low kinetic energy (no motion). At the bottom, it has low potential energy and high kinetic energy. The **Lagrangian** captures this energy difference, and the **principle of least action** tells us the pendulum will swing in the path that "balances" these energies over time.  
+
+[Diagram idea: Energy landscape with kinetic and potential energy labeled.]  
+
+---
+
+## The more precise picture  
+### **Energy difference function** {Lagrangian}  
+The **Lagrangian** {L} is defined as the difference between **kinetic energy** {T} and **potential energy** {V}:  
+$$ L = T - V $$  
+For example, a spring has kinetic energy $ T = \frac{1}{2}mv^2 $ and potential energy $ V = \frac{1}{2}kx^2 $. The Lagrangian combines these to describe the system’s motion.  
+
+### **Path of least action** {principle of least action}  
+The **action** {S} is the integral of the Lagrangian over time:  
+$$ S = \int L \, dt $$  
+Nature chooses the path that makes this action **stationary** (a minimum, maximum, or saddle point). This is the **principle of least action** — a universal rule for how systems evolve.  
+
+### **Motion blueprint** {equations of motion}  
+To find the path, we use the **Euler-Lagrange equation** (minimal math):  
+$$ \frac{\partial L}{\partial q} - \frac{d}{dt}\left(\frac{\partial L}{\partial \dot{q}}\right) = 0 $$  
+Here, $ q $ is position, $ \dot{q} $ is velocity. This equation finds the path where changes in energy balance out over time.  
+
+[Diagram idea: Flowchart: Input (T, V) → Compute L → Apply principle of least action → Output motion.]  
+
+---
+
+## Common misconceptions  
+- **"Lagrangian is just a trick for solving problems"**: It’s a foundational framework, not a shortcut.  
+- **"Action is always minimized"**: Action is stationary (could be a minimum, maximum, or saddle point).  
+- **"Lagrangian replaces Newton’s laws"**: They’re complementary tools, not competitors.  
+- **"Lagrangian is about saving energy"**: It’s about finding the path that makes the action stationary, which often correlates with energy efficiency.  
+
+---
+
+## How this connects to the rest of physics  
+The Lagrangian is the basis for **quantum mechanics** (where particles "choose" paths probabilistically) and **general relativity** (where spacetime curvature replaces forces). It also reveals **conservation laws** (like energy and momentum) through symmetry principles.  
+
+---
+
+## Recap  
+- The **Lagrangian** {L = T − V} describes motion by focusing on energy differences.  
+- The **principle of least action** {stationary action} is a universal rule for how systems evolve.  
+- The **Euler-Lagrange equation** finds the path where energy changes balance out over time.  
+- Lagrangian mechanics connects classical physics to modern theories and handles complex systems efficiently.  
+
+[Diagram idea: Pendulum example with labeled kinetic and potential energy at different points.]
+
+RESPONSE:
+{
+  "terms": [
+    {
+      "standard_term": "Lagrangian",
+      "candidate_name": "Energy difference function",
+      "context_quote": "The Lagrangian is defined as the difference between kinetic energy and potential energy (L = T − V)",
+      "usefulness": "Emphasizes the core mathematical structure of the Lagrangian as an energy difference, making its purpose intuitive",
+      "risk": "Could imply the Lagrangian is merely a numerical difference rather than a functional framework"
+    },
+    {
+      "standard_term": "principle of least action",
+      "candidate_name": "Path of least action",
+      "context_quote": "Nature chooses the path that makes this action stationary (a minimum, maximum, or saddle point)",
+      "usefulness": "Highlights the geometric intuition of finding optimal paths through energy balance",
+      "risk
+
+================================================================================
+TIME: 2026-05-04T07:17:48
+NODE: claim_extractor
+PROMPT_CHARS: 4861
+PROMPT_TOKENS_APPROX: 1215
+RESPONSE_CHARS: 1421
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.85}
+================================================================================
+PROMPT:
+Extract the most important scientific and explanatory claims from this article draft.
+
+Return JSON with this shape:
+{
+  "claims": [
+    {
+      "id": "C001",
+      "claim": "A clear, standalone claim from the article.",
+      "type": "definition | mechanism | analogy | mathematical | misconception-correction | scope | other",
+      "importance": "high | medium | low",
+      "needs_external_check": true,
+      "why_it_matters": "brief reason",
+      "suggested_search_query": "stable source search query, not latest-news oriented"
+    }
+  ]
+}
+
+Guidance:
+- Extract claims that matter for scientific correctness.
+- Include claims embedded in analogies if the analogy could mislead.
+- Do not include purely stylistic statements.
+- Search queries should prefer stable sources: textbooks, lecture notes, CERN, Fermilab, university pages.
+
+Article title: Lagrangian
+
+Draft:
+# Lagrangian  
+
+## The core idea  
+The **Lagrangian** is a way to describe motion by asking: *What path does a system take to "save" energy?* Instead of tracking forces (like Newton’s approach), it focuses on the **difference between kinetic and potential energy** (L = T − V) over time. Nature chooses the path that makes this energy difference "stationary" — a minimum, maximum, or saddle point. This is called the **principle of least action**, a universal rule for how systems evolve.  
+
+[Diagram idea: A ball rolling down a hill takes the path that "balances" energy.]  
+
+---
+
+## Why this matters  
+The Lagrangian framework is a foundational tool in physics. It simplifies complex systems (like multiple particles or constrained motion) and connects classical mechanics to modern theories like quantum mechanics and general relativity. By focusing on energy differences, it reveals deep symmetries and conservation laws that govern the universe.  
+
+---
+
+## The simple picture  
+Imagine a pendulum swinging back and forth. At the top of its arc, it has high potential energy (like a stretched spring) and low kinetic energy (no motion). At the bottom, it has low potential energy and high kinetic energy. The **Lagrangian** captures this energy difference, and the **principle of least action** tells us the pendulum will swing in the path that "balances" these energies over time.  
+
+[Diagram idea: Energy landscape with kinetic and potential energy labeled.]  
+
+---
+
+## The more precise picture  
+### **Energy difference function** {Lagrangian}  
+The **Lagrangian** {L} is defined as the difference between **kinetic energy** {T} and **potential energy** {V}:  
+$$ L = T - V $$  
+For example, a spring has kinetic energy $ T = \frac{1}{2}mv^2 $ and potential energy $ V = \frac{1}{2}kx^2 $. The Lagrangian combines these to describe the system’s motion.  
+
+### **Path of least action** {principle of least action}  
+The **action** {S} is the integral of the Lagrangian over time:  
+$$ S = \int L \, dt $$  
+Nature chooses the path that makes this action **stationary** (a minimum, maximum, or saddle point). This is the **principle of least action** — a universal rule for how systems evolve.  
+
+### **Motion blueprint** {equations of motion}  
+To find the path, we use the **Euler-Lagrange equation** (minimal math):  
+$$ \frac{\partial L}{\partial q} - \frac{d}{dt}\left(\frac{\partial L}{\partial \dot{q}}\right) = 0 $$  
+Here, $ q $ is position, $ \dot{q} $ is velocity. This equation finds the path where changes in energy balance out over time.  
+
+[Diagram idea: Flowchart: Input (T, V) → Compute L → Apply principle of least action → Output motion.]  
+
+---
+
+## Common misconceptions  
+- **"Lagrangian is just a trick for solving problems"**: It’s a foundational framework, not a shortcut.  
+- **"Action is always minimized"**: Action is stationary (could be a minimum, maximum, or saddle point).  
+- **"Lagrangian replaces Newton’s laws"**: They’re complementary tools, not competitors.  
+- **"Lagrangian is about saving energy"**: It’s about finding the path that makes the action stationary, which often correlates with energy efficiency.  
+
+---
+
+## How this connects to the rest of physics  
+The Lagrangian is the basis for **quantum mechanics** (where particles "choose" paths probabilistically) and **general relativity** (where spacetime curvature replaces forces). It also reveals **conservation laws** (like energy and momentum) through symmetry principles.  
+
+---
+
+## Recap  
+- The **Lagrangian** {L = T − V} describes motion by focusing on energy differences.  
+- The **principle of least action** {stationary action} is a universal rule for how systems evolve.  
+- The **Euler-Lagrange equation** finds the path where energy changes balance out over time.  
+- Lagrangian mechanics connects classical physics to modern theories and handles complex systems efficiently.  
+
+[Diagram idea: Pendulum example with labeled kinetic and potential energy at different points.]
+
+RESPONSE:
+{
+  "claims": [
+    {
+      "id": "C001",
+      "claim": "The Lagrangian {L} is defined as the difference between kinetic energy {T} and potential energy {V}: L = T − V.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "This formula is the foundation of Lagrangian mechanics and connects to broader physics theories.",
+      "suggested_search_query": "Lagrangian mechanics definition textbook"
+    },
+    {
+      "id": "C002",
+      "claim": "The principle of least action states that nature selects the path where the action {S} is stationary (minimum, maximum, or saddle point).",
+      "type": "mechanism",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "This principle unifies classical and modern physics, including quantum mechanics and relativity.",
+      "suggested_search_query": "principle of least action physics"
+    },
+    {
+      "id": "C003",
+      "claim": "The Euler-Lagrange equation {∂L/∂q − d/dt(∂L/∂q̇) = 0} determines the motion of a system by balancing energy changes over time.",
+      "type": "mathematical",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "This equation is central to deriving equations of motion in complex systems.",
+      "suggested_search_query": "Euler-Lagrange equation derivation"
+    },
+    {
+      "id": "C004",
+      "
+
+================================================================================
+TIME: 2026-05-04T07:19:46
+NODE: term_collector
+PROMPT_CHARS: 4460
+PROMPT_TOKENS_APPROX: 1115
+RESPONSE_CHARS: 0
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.85}
+================================================================================
+PROMPT:
+Extract the descriptive-name candidates from this draft.
+
+Return JSON with this shape:
+{
+  "terms": [
+    {
+      "standard_term": "fermion",
+      "candidate_name": "space-occupier",
+      "context_quote": "short quote from the draft",
+      "usefulness": "why this name helps",
+      "risk": "how it could mislead, or empty string if low risk"
+    }
+  ]
+}
+
+Only include actual teaching-name candidates, especially phrases followed by standard terms in braces.
+
+Draft:
+# Lagrangian  
+
+## The core idea  
+The **Lagrangian** is a way to describe motion by asking: *What path does a system take to "save" energy?* Instead of tracking forces (like Newton’s approach), it focuses on the **difference between kinetic and potential energy** (L = T − V) over time. Nature chooses the path that makes this energy difference "stationary" — a minimum, maximum, or saddle point. This is called the **principle of least action**, a universal rule for how systems evolve.  
+
+[Diagram idea: A ball rolling down a hill takes the path that "balances" energy.]  
+
+---
+
+## Why this matters  
+The Lagrangian framework is a foundational tool in physics. It simplifies complex systems (like multiple particles or constrained motion) and connects classical mechanics to modern theories like quantum mechanics and general relativity. By focusing on energy differences, it reveals deep symmetries and conservation laws that govern the universe.  
+
+---
+
+## The simple picture  
+Imagine a pendulum swinging back and forth. At the top of its arc, it has high potential energy (like a stretched spring) and low kinetic energy (no motion). At the bottom, it has low potential energy and high kinetic energy. The **Lagrangian** captures this energy difference, and the **principle of least action** tells us the pendulum will swing in the path that "balances" these energies over time.  
+
+[Diagram idea: Energy landscape with kinetic and potential energy labeled.]  
+
+---
+
+## The more precise picture  
+### **Energy difference function** {Lagrangian}  
+The **Lagrangian** {L} is defined as the difference between **kinetic energy** {T} and **potential energy** {V}:  
+$$ L = T - V $$  
+For example, a spring has kinetic energy $ T = \frac{1}{2}mv^2 $ and potential energy $ V = \frac{1}{2}kx^2 $. The Lagrangian combines these to describe the system’s motion.  
+
+### **Path of least action** {principle of least action}  
+The **action** {S} is the integral of the Lagrangian over time:  
+$$ S = \int L \, dt $$  
+Nature chooses the path that makes this action **stationary** (a minimum, maximum, or saddle point). This is the **principle of least action** — a universal rule for how systems evolve.  
+
+### **Motion blueprint** {equations of motion}  
+To find the path, we use the **Euler-Lagrange equation** (minimal math):  
+$$ \frac{\partial L}{\partial q} - \frac{d}{dt}\left(\frac{\partial L}{\partial \dot{q}}\right) = 0 $$  
+Here, $ q $ is position, $ \dot{q} $ is velocity. This equation finds the path where changes in energy balance out over time.  
+
+[Diagram idea: Flowchart: Input (T, V) → Compute L → Apply principle of least action → Output motion.]  
+
+---
+
+## Common misconceptions  
+- **"Lagrangian is just a trick for solving problems"**: It’s a foundational framework, not a shortcut.  
+- **"Action is always minimized"**: Action is stationary (could be a minimum, maximum, or saddle point).  
+- **"Lagrangian replaces Newton’s laws"**: They’re complementary tools, not competitors.  
+- **"Lagrangian is about saving energy"**: It’s about finding the path that makes the action stationary, which often correlates with energy efficiency.  
+
+---
+
+## How this connects to the rest of physics  
+The Lagrangian is the basis for **quantum mechanics** (where particles "choose" paths probabilistically) and **general relativity** (where spacetime curvature replaces forces). It also reveals **conservation laws** (like energy and momentum) through symmetry principles.  
+
+---
+
+## Recap  
+- The **Lagrangian** {L = T − V} describes motion by focusing on energy differences.  
+- The **principle of least action** {stationary action} is a universal rule for how systems evolve.  
+- The **Euler-Lagrange equation** finds the path where energy changes balance out over time.  
+- Lagrangian mechanics connects classical physics to modern theories and handles complex systems efficiently.  
+
+[Diagram idea: Pendulum example with labeled kinetic and potential energy at different points.]
+
+RESPONSE:
+
+
+================================================================================
+TIME: 2026-05-04T07:23:14
+NODE: accessibility_judge
+PROMPT_CHARS: 6181
+PROMPT_TOKENS_APPROX: 1545
+RESPONSE_CHARS: 1078
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.85}
+================================================================================
+PROMPT:
+Score this EasyPhysics article for accessibility using the rubric below.
+
+Accessibility score, 1-10:
+
+10 = Exceptional. A motivated high-schooler can follow the article's main arc without prior exposure.
+     Jargon is introduced only after intuition. Examples are vivid. Math is explained as meaning,
+     not just symbols. The article feels empowering and clear.
+
+9 = Publishable with light human editing. The main idea is easy to follow; jargon is mostly controlled;
+    analogies are helpful; sections flow logically; any math has a plain-language interpretation.
+
+8 = Strong draft. Mostly clear, but has a few dense sections, unexplained terms, abrupt transitions,
+    or analogies that need more setup.
+
+7 = Useful but uneven. A motivated reader could learn from it, but several passages need simplification,
+    clearer examples, or better sequencing.
+
+6 = Borderline. The article contains useful explanations, but assumes too much background or uses too much jargon.
+
+5 = Mixed. Some good paragraphs, but the structure or language would lose many target readers.
+
+4 = Hard to follow. Mostly written for someone who already knows the subject.
+
+3 = Very inaccessible. Dense, abstract, jargon-heavy, or poorly sequenced.
+
+2 = Barely useful to the target audience.
+
+1 = Fails the accessibility goal.
+
+Accessibility judge priorities:
+- Does the opening give the reader an intuitive foothold?
+- Are standard terms introduced after meaning, not before?
+- Are descriptive names useful rather than cutesy or misleading?
+- Are analogies concrete and then carefully limited?
+- Is any math explained in words?
+- Does the article avoid "spooky/magic/weird" framing while still acknowledging counterintuitive ideas?
+- Does each section make the next section easier?
+
+Return JSON with this shape:
+{
+  "score": 1,
+  "pass": false,
+  "strengths": ["specific strength"],
+  "issues": [
+    {
+      "severity": "low | medium | high",
+      "location": "section or paragraph description",
+      "problem": "specific accessibility issue",
+      "suggested_fix": "specific fix"
+    }
+  ],
+  "best_next_revision": "one concise paragraph describing what to improve next"
+}
+
+Article title: Lagrangian
+
+Draft:
+# Lagrangian  
+
+## The core idea  
+The **Lagrangian** is a way to describe motion by asking: *What path does a system take to "save" energy?* Instead of tracking forces (like Newton’s approach), it focuses on the **difference between kinetic and potential energy** (L = T − V) over time. Nature chooses the path that makes this energy difference "stationary" — a minimum, maximum, or saddle point. This is called the **principle of least action**, a universal rule for how systems evolve.  
+
+[Diagram idea: A ball rolling down a hill takes the path that "balances" energy.]  
+
+---
+
+## Why this matters  
+The Lagrangian framework is a foundational tool in physics. It simplifies complex systems (like multiple particles or constrained motion) and connects classical mechanics to modern theories like quantum mechanics and general relativity. By focusing on energy differences, it reveals deep symmetries and conservation laws that govern the universe.  
+
+---
+
+## The simple picture  
+Imagine a pendulum swinging back and forth. At the top of its arc, it has high potential energy (like a stretched spring) and low kinetic energy (no motion). At the bottom, it has low potential energy and high kinetic energy. The **Lagrangian** captures this energy difference, and the **principle of least action** tells us the pendulum will swing in the path that "balances" these energies over time.  
+
+[Diagram idea: Energy landscape with kinetic and potential energy labeled.]  
+
+---
+
+## The more precise picture  
+### **Energy difference function** {Lagrangian}  
+The **Lagrangian** {L} is defined as the difference between **kinetic energy** {T} and **potential energy** {V}:  
+$$ L = T - V $$  
+For example, a spring has kinetic energy $ T = \frac{1}{2}mv^2 $ and potential energy $ V = \frac{1}{2}kx^2 $. The Lagrangian combines these to describe the system’s motion.  
+
+### **Path of least action** {principle of least action}  
+The **action** {S} is the integral of the Lagrangian over time:  
+$$ S = \int L \, dt $$  
+Nature chooses the path that makes this action **stationary** (a minimum, maximum, or saddle point). This is the **principle of least action** — a universal rule for how systems evolve.  
+
+### **Motion blueprint** {equations of motion}  
+To find the path, we use the **Euler-Lagrange equation** (minimal math):  
+$$ \frac{\partial L}{\partial q} - \frac{d}{dt}\left(\frac{\partial L}{\partial \dot{q}}\right) = 0 $$  
+Here, $ q $ is position, $ \dot{q} $ is velocity. This equation finds the path where changes in energy balance out over time.  
+
+[Diagram idea: Flowchart: Input (T, V) → Compute L → Apply principle of least action → Output motion.]  
+
+---
+
+## Common misconceptions  
+- **"Lagrangian is just a trick for solving problems"**: It’s a foundational framework, not a shortcut.  
+- **"Action is always minimized"**: Action is stationary (could be a minimum, maximum, or saddle point).  
+- **"Lagrangian replaces Newton’s laws"**: They’re complementary tools, not competitors.  
+- **"Lagrangian is about saving energy"**: It’s about finding the path that makes the action stationary, which often correlates with energy efficiency.  
+
+---
+
+## How this connects to the rest of physics  
+The Lagrangian is the basis for **quantum mechanics** (where particles "choose" paths probabilistically) and **general relativity** (where spacetime curvature replaces forces). It also reveals **conservation laws** (like energy and momentum) through symmetry principles.  
+
+---
+
+## Recap  
+- The **Lagrangian** {L = T − V} describes motion by focusing on energy differences.  
+- The **principle of least action** {stationary action} is a universal rule for how systems evolve.  
+- The **Euler-Lagrange equation** finds the path where energy changes balance out over time.  
+- Lagrangian mechanics connects classical physics to modern theories and handles complex systems efficiently.  
+
+[Diagram idea: Pendulum example with labeled kinetic and potential energy at different points.]
+
+RESPONSE:
+{
+  "score": 8,
+  "pass": false,
+  "strengths": [
+    "Clear intuitive foothold with the 'energy-saving' metaphor",
+    "Logical flow from simple to precise explanations",
+    "Helpful analogies (pendulum, energy landscape)"
+  ],
+  "issues": [
+    {
+      "severity": "high",
+      "location": "core idea section",
+      "problem": "Misleading framing of 'saving energy' instead of explaining stationary action",
+      "suggested_fix": "Clarify that 'least action' refers to stationary action (not energy conservation) and explain the mathematical formulation"
+    },
+    {
+      "severity": "medium",
+      "location": "more precise picture section",
+      "problem": "Math-heavy equations without sufficient plain-language explanation",
+      "suggested_fix": "Break down the Euler-Lagrange equation into conceptual steps with analogies (e.g., balancing energy changes over time)"
+    },
+    {
+      "severity": "medium",
+      "location": "common misconceptions section",
+      "problem": "Misleading phrasing about 'saving energy' in the principle of least action",
+      "s
+
+================================================================================
+TIME: 2026-05-04T07:26:42
+NODE: rigor_judge
+PROMPT_CHARS: 6434
+PROMPT_TOKENS_APPROX: 1608
+RESPONSE_CHARS: 0
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.85}
+================================================================================
+PROMPT:
+Score this EasyPhysics article for scientific rigor using the rubric below.
+
+Rigor score, 1-10:
+
+10 = Exceptional. Scientifically accurate, well-qualified, and careful about analogy limits.
+     No obvious misleading simplifications. Claims align with stable accepted physics.
+
+9 = Publishable with light human editing. No major errors. A few details may need polishing,
+    but the article is safe as an educational explanation.
+
+8 = Strong draft. Mostly accurate but has minor imprecision, missing qualifications, or analogy risks.
+
+7 = Useful but needs scientific review. Contains no catastrophic errors, but some claims are too loose,
+    incomplete, or potentially misleading.
+
+6 = Borderline. Several important corrections or qualifications are needed.
+
+5 = Mixed. The article has valuable explanations but also significant inaccuracies or misleading framings.
+
+4 = Scientifically weak. Multiple substantial errors or serious conceptual muddling.
+
+3 = Very unreliable. The reader would likely learn incorrect physics.
+
+2 = Mostly wrong or confused.
+
+1 = Fails the rigor goal.
+
+Rigor judge priorities:
+- Are definitions compatible with standard physics?
+- Are analogies technically safe, with their limits stated when necessary?
+- Are quantum concepts distinguished correctly: amplitude vs probability, superposition vs ignorance,
+  measurement vs ordinary looking, phase vs probability?
+- Are field/particle/wave descriptions accurate enough for a beginner article?
+- Are conservation, symmetry, force, energy, mass, and spin statements properly qualified?
+- Does the article avoid replacing historical jargon with new misleading jargon?
+- Are open questions distinguished from settled explanations?
+
+Use the claim-check results as context, but judge the final draft itself.
+
+Return JSON with this shape:
+{
+  "score": 1,
+  "pass": false,
+  "strengths": ["specific strength"],
+  "issues": [
+    {
+      "severity": "low | medium | high",
+      "location": "section or paragraph description",
+      "problem": "specific rigor issue",
+      "suggested_fix": "specific fix"
+    }
+  ],
+  "best_next_revision": "one concise paragraph describing what to improve next"
+}
+
+Article title: Lagrangian
+
+Claim-check context:
+{
+  "claim_checks": [],
+  "summary": {
+    "overall_claim_quality": "Claim check completed.",
+    "unresolved_or_needs_qualification": 0,
+    "highest_priority_fixes": []
+  },
+  "last_updated": "2026-05-04_07-17-48"
+}
+
+Draft:
+# Lagrangian  
+
+## The core idea  
+The **Lagrangian** is a way to describe motion by asking: *What path does a system take to "save" energy?* Instead of tracking forces (like Newton’s approach), it focuses on the **difference between kinetic and potential energy** (L = T − V) over time. Nature chooses the path that makes this energy difference "stationary" — a minimum, maximum, or saddle point. This is called the **principle of least action**, a universal rule for how systems evolve.  
+
+[Diagram idea: A ball rolling down a hill takes the path that "balances" energy.]  
+
+---
+
+## Why this matters  
+The Lagrangian framework is a foundational tool in physics. It simplifies complex systems (like multiple particles or constrained motion) and connects classical mechanics to modern theories like quantum mechanics and general relativity. By focusing on energy differences, it reveals deep symmetries and conservation laws that govern the universe.  
+
+---
+
+## The simple picture  
+Imagine a pendulum swinging back and forth. At the top of its arc, it has high potential energy (like a stretched spring) and low kinetic energy (no motion). At the bottom, it has low potential energy and high kinetic energy. The **Lagrangian** captures this energy difference, and the **principle of least action** tells us the pendulum will swing in the path that "balances" these energies over time.  
+
+[Diagram idea: Energy landscape with kinetic and potential energy labeled.]  
+
+---
+
+## The more precise picture  
+### **Energy difference function** {Lagrangian}  
+The **Lagrangian** {L} is defined as the difference between **kinetic energy** {T} and **potential energy** {V}:  
+$$ L = T - V $$  
+For example, a spring has kinetic energy $ T = \frac{1}{2}mv^2 $ and potential energy $ V = \frac{1}{2}kx^2 $. The Lagrangian combines these to describe the system’s motion.  
+
+### **Path of least action** {principle of least action}  
+The **action** {S} is the integral of the Lagrangian over time:  
+$$ S = \int L \, dt $$  
+Nature chooses the path that makes this action **stationary** (a minimum, maximum, or saddle point). This is the **principle of least action** — a universal rule for how systems evolve.  
+
+### **Motion blueprint** {equations of motion}  
+To find the path, we use the **Euler-Lagrange equation** (minimal math):  
+$$ \frac{\partial L}{\partial q} - \frac{d}{dt}\left(\frac{\partial L}{\partial \dot{q}}\right) = 0 $$  
+Here, $ q $ is position, $ \dot{q} $ is velocity. This equation finds the path where changes in energy balance out over time.  
+
+[Diagram idea: Flowchart: Input (T, V) → Compute L → Apply principle of least action → Output motion.]  
+
+---
+
+## Common misconceptions  
+- **"Lagrangian is just a trick for solving problems"**: It’s a foundational framework, not a shortcut.  
+- **"Action is always minimized"**: Action is stationary (could be a minimum, maximum, or saddle point).  
+- **"Lagrangian replaces Newton’s laws"**: They’re complementary tools, not competitors.  
+- **"Lagrangian is about saving energy"**: It’s about finding the path that makes the action stationary, which often correlates with energy efficiency.  
+
+---
+
+## How this connects to the rest of physics  
+The Lagrangian is the basis for **quantum mechanics** (where particles "choose" paths probabilistically) and **general relativity** (where spacetime curvature replaces forces). It also reveals **conservation laws** (like energy and momentum) through symmetry principles.  
+
+---
+
+## Recap  
+- The **Lagrangian** {L = T − V} describes motion by focusing on energy differences.  
+- The **principle of least action** {stationary action} is a universal rule for how systems evolve.  
+- The **Euler-Lagrange equation** finds the path where energy changes balance out over time.  
+- Lagrangian mechanics connects classical physics to modern theories and handles complex systems efficiently.  
+
+[Diagram idea: Pendulum example with labeled kinetic and potential energy at different points.]
+
+RESPONSE:
+

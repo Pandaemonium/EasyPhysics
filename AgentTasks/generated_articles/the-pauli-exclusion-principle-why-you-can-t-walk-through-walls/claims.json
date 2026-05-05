@@ -1,0 +1,77 @@
+{
+  "claims": [
+    {
+      "id": "C001",
+      "claim": "Fermions (space-occupiers {fermion}) cannot share the same quantum state, which is the essence of the Pauli Exclusion Principle.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "This principle underpins the structure of matter and prevents collapse of atoms and stars.",
+      "suggested_search_query": "Pauli Exclusion Principle fermions quantum states"
+    },
+    {
+      "id": "C002",
+      "claim": "The Pauli Exclusion Principle creates repulsive forces between electrons in atoms, giving matter its solidity.",
+      "type": "mechanism",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Explains why objects resist compression and why walking through walls is impossible.",
+      "suggested_search_query": "Pauli Exclusion Principle solid matter"
+    },
+    {
+      "id": "C003",
+      "claim": "Quantum states are defined by (n, l, m_l, m_s) quantum numbers, and no two fermions can share identical values for all four.",
+      "type": "mathematical",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "This mathematical formulation defines the principle's application to electron configuration.",
+      "suggested_search_query": "Pauli Exclusion Principle quantum numbers"
+    },
+    {
+      "id": "C004",
+      "claim": "The principle is not about physical space but about quantum states, allowing fermions to occupy the same location if their states differ.",
+      "type": "misconception-correction",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Corrects a common misunderstanding about the principle's scope and application.",
+      "suggested_search_query": "Pauli Exclusion Principle physical space vs quantum states"
+    },
+    {
+      "id": "C005",
+      "claim": "Bosons (stackable ripples {boson}) differ from fermions by being able to occupy the same quantum state, enabling phenomena like lasers.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Highlights the fundamental distinction between particle types in quantum statistics.",
+      "suggested_search_query": "Bosons vs fermions Pauli Exclusion Principle"
+    },
+    {
+      "id": "C006",
+      "claim": "The Pauli Exclusion Principle is one of multiple forces (e.g., electromagnetic) that contribute to atomic stability.",
+      "type": "scope",
+      "importance": "medium",
+      "needs_external_check": true,
+      "why_it_matters": "Clarifies the principle's role within a broader framework of physical interactions.",
+      "suggested_search_query": "Pauli Exclusion Principle atomic stability"
+    },
+    {
+      "id": "C007",
+      "claim": "Electron shells and the periodic table arise from the Pauli Exclusion Principle's enforcement of distinct quantum states.",
+      "type": "mechanism",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Links the principle to chemical bonding and elemental properties.",
+      "suggested_search_query": "Pauli Exclusion Principle periodic table"
+    },
+    {
+      "id": "C008",
+      "claim": "White dwarfs rely on the Pauli Exclusion Principle to prevent gravitational collapse of electrons.",
+      "type": "application",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Demonstrates the principle's role in astrophysical phenomena.",
+      "suggested_search_query": "Pauli Exclusion Principle white dwarfs"
+    }
+  ],
+  "last_updated": "2026-05-04_01-36-47"
+}

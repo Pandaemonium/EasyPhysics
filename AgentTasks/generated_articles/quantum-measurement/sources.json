@@ -1,0 +1,19 @@
+{
+  "sources_by_claim": {
+    "C001": {
+      "claim": "# Quantum Measurement ## The core idea Quantum measurement is a lawful interaction that selects a definite outcome from a superposition, guided by probabilities.",
+      "query": "Quantum measurement # Quantum Measurement ## The core idea Quantum measurement is a lawful interaction that selects a physics lecture notes textbook explanation",
+      "result_snippet": "ABSTRACT Left on its own, a quantum state evolves deterministically under the Schrödinger equation, forming superpositions. Upon measurement, however, a stochastic process governed by the Born rule collapses it to a single outcome. This dual evolution of quantum states - the core of the Measurement Problem - has puzzled physicists and philosophers for nearly a century. Yet, amid the ... Starting from the pioneer's view of the quantum measurement problem, it follows the development of formalisms, the interest from philosophers for its new aspects on reality and how different interpretations of quantum mechanics have tried to support our classically working brains in understanding quantum phenomena. At the core of the measurement problem lies the principle of quantum superposition—the idea that quantum systems can exist in multiple states simultaneously until observed. The measurement problem addresses the apparent discontinuity between the deterministic unitary evolution of a quantum state and the probabilistic outcome observed upon a measurement. The quantum measurement problem has long stood as a paradox at the heart of physics: how can the unitary evolution of a superposition coexist with our experience of definite outcomes? This chapter resolves this tension by demonstrating that the empirical equivalence of superpositions and mixtures hinges on a single condition— the persistence of information about measurement results. Through ...",
+      "searched_at": "2026-05-04_13-40-36",
+      "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
+    },
+    "C002": {
+      "claim": "When a quantum system is measured, its possibilities \"collapse\" into a single, observable result, like flipping a coin that lands definitively on heads or tails.",
+      "query": "Quantum measurement When a quantum system is measured, its possibilities \"collapse\" into a single, observable result, like flipping physics lecture notes textbook explanation",
+      "result_snippet": "In various interpretations of quantum mechanics, wave function collapse, also called reduction of the state vector, [1] occurs when a wave function —initially in a superposition of several eigenstates —reduces to a single eigenstate due to interaction with the external world. Abstract Left on its own, a quantum state evolves deterministically under the Schrödinger equation, forming superpositions. Upon measurement, however, a stochastic process governed by the Born rule collapses it to a single outcome. This dual evolution of quantum states—the core of the Measurement Problem—has puzzled physicists and philosophers for nearly a century. Yet, amid the cacophony ... Wave function collapse is a mysterious phenomenon that occurs during measurement. It describes how a quantum system's state changes instantly from a superposition to a definite state. May 27, 2024 · Quantum collapse, also known as wave function collapse, occurs when a quantum system transitions from a superposition of states to a single, definite state. This phenomenon is often associated with the act of measurement or observation. It's not possible, even in principle, to perfectly predict the result of a single quantum measurement—an impossibility that scientists call \"quantum indeterminacy.\"",
+      "searched_at": "2026-05-04_13-40-38",
+      "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
+    }
+  },
+  "last_updated": "2026-05-04_13-40-38"
+}

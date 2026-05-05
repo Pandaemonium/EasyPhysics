@@ -1,0 +1,19 @@
+{
+  "sources_by_claim": {
+    "C001": {
+      "claim": "# Bra-ket Notation ## The core idea Bra-ket notation is a shorthand for quantum states and their interactions.",
+      "query": "Bra-ket notation # Bra-ket Notation ## The core idea Bra-ket notation is a shorthand for quantum states and physics lecture notes textbook explanation",
+      "result_snippet": "Bra-ket notation or Dirac notation is a notation for linear algebra and linear operators on complex vector spaces together with their dual spaces both in the finite- and infinite-dimensional cases. This critical note provides a detailed exposition of Dirac notation (also known as bra-ket notation) and Hilbert spaces, two foundational concepts in quantum mechanics and linear algebra. What is Dirac's Bra-Ket notation, and why is it so essential in Quantum Computing? 🤔 In this video, you'll learn the concept and properties of Bra-Ket notation, explained in a simple ... The Schrödinger Equation in Dirac notation H ^ | ψ = E | ψ H ^ = T ^ + V ^ = ℏ 2 2 m ∇ 2 + V ^ ∇ 2 = ∂ 2 ∂ x 2 + ∂ 2 ∂ y 2 + ∂ 2 ∂ z 2 This page titled 33.2: Bra-Ket Notation is shared under a not declared license and was authored, remixed, and/or curated by Kyle Crabtree. Bra-Ket Notation in Quantum Mechanics Bra-ket notation (Dirac notation) allows clear and powerful representation of quantum states, operations, and measurements.",
+      "searched_at": "2026-05-04_12-50-01",
+      "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
+    },
+    "C002": {
+      "claim": "It lets us write quantum states as *kets* (like `|ψ⟩`) and measurement questions as *bras* (like `⟨φ|`).",
+      "query": "Bra-ket notation It lets us write quantum states as *kets* (like `|ψ⟩`) and measurement questions as *bras* (like physics lecture notes textbook explanation",
+      "result_snippet": "begingroup$ because by your question statement it seemed like you think you understood the bra-op-ket notation, yet not the bra-ket notation. Indeed, I agree with you, standard notation is, in my personal view, already sufficiently clear and bra-ket notation should be used when it is really ... ... it is possible to give a rigorous foundation to these states, through a formalism known as rigged Hilbert spaces , where you essentially split ... What does this mean? What is the ket $|x⟩$ , is it just some kind of identity vector? And what even is a state $|\\Psi⟩$ . ... mention that the operator $M$ you wrote is not a Hermitian operator and thus, it wouldn't be the kind of operator that shows up often in quantum ...",
+      "searched_at": "2026-05-04_12-50-03",
+      "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
+    }
+  },
+  "last_updated": "2026-05-04_12-50-04"
+}

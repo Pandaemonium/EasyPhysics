@@ -1,0 +1,18 @@
+{
+  "claims": [
+    {
+      "id": "C001",
+      "claim": "The Schrödinger equation is the quantum version of Newton's laws, predicting probabilities instead of exact outcomes.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Establishes the equation's role as the fundamental framework of quantum mechanics.",
+      "suggested_search_query": "Schrödinger equation quantum mechanics foundation"
+    },
+    {
+      "id": "C002",
+      "claim": "The equation is foundational to quantum mechanics, explaining phenomena like tunneling and atomic structure.",
+      "type": "explanation",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Highlights its

@@ -1,0 +1,19 @@
+{
+  "terms": [
+    {
+      "standard_term": "entangled state",
+      "candidate_name": "correlated wave",
+      "context_quote": "Particles in an entangled state share a correlated wave {entangled state}",
+      "usefulness": "Emphasizes the shared, interconnected nature of entangled particles through a relatable metaphor",
+      "risk": "Could imply a physical wave rather than a mathematical wavefunction"
+    },
+    {
+      "standard_term": "quantum superposition",
+      "candidate_name": "superposition",
+      "context_quote": "Entangled states are a type of superposition {quantum superposition} involving multiple particles",
+      "usefulness": "Simplifies the concept while retaining the core idea of combined states",
+      "risk": "May conflate with classical superposition concepts (e.g., waves overlapping)"
+    }
+  ],
+  "last_updated": "2026-05-04_00-04-35"
+}

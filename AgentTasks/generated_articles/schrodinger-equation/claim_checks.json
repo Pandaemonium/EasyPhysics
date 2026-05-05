@@ -1,0 +1,28 @@
+{
+  "claim_checks": [
+    {
+      "id": "C001",
+      "verdict": "mostly_supported",
+      "severity": "low",
+      "problem": "Simplifies the wave function as a 'probability wave' without explicitly noting it's a mathematical tool, not a physical wave",
+      "suggested_fix": "Add clarification that the wave function is a complex-valued mathematical representation, not a physical wave, to avoid common misconceptions",
+      "source_quality_note": "Snippets from textbook explanations and historical physics papers show strong support for the core claim"
+    },
+    {
+      "id": "C002",
+      "verdict": "supported",
+      "severity": "low",
+      "problem": "",
+      "suggested_fix": "",
+      "source_quality_note": "The snippet comes from a stable educational source explaining quantum mechanics fundamentals, confirming the claim about probability calculations in the Schrödinger equation."
+    }
+  ],
+  "summary": {
+    "overall_claim_quality": "Claim check completed.",
+    "unresolved_or_needs_qualification": 0,
+    "highest_priority_fixes": [
+      "Add clarification that the wave function is a complex-valued mathematical representation, not a physical wave, to avoid common misconceptions"
+    ]
+  },
+  "last_updated": "2026-05-04_15-23-42"
+}

@@ -1,0 +1,21 @@
+{"event": "llm_start", "prompt_chars": 2419, "prompt_tokens_approx": 604, "llm_options": {"temperature": 0.25, "top_p": 0.85, "num_ctx": 8192, "num_predict": 2048, "num_batch": 32}, "timeout_seconds": 480, "time": "2026-05-04T10:21:39", "node": "planner"}
+{"event": "llm_success", "attempt": 1, "elapsed_seconds": 177.24, "response_chars": 5025, "time": "2026-05-04T10:24:36", "node": "planner"}
+{"event": "llm_start", "prompt_chars": 8378, "prompt_tokens_approx": 2094, "llm_options": {"temperature": 0.25, "top_p": 0.85, "num_ctx": 8192, "num_predict": 2048, "num_batch": 32}, "timeout_seconds": 480, "time": "2026-05-04T10:24:36", "node": "writer"}
+{"event": "llm_success", "attempt": 1, "elapsed_seconds": 270.69, "response_chars": 3886, "time": "2026-05-04T10:29:07", "node": "writer"}
+{"event": "llm_start", "prompt_chars": 6454, "prompt_tokens_approx": 1613, "llm_options": {"temperature": 0.25, "top_p": 0.85, "num_ctx": 8192, "num_predict": 768, "num_batch": 32}, "timeout_seconds": 480, "time": "2026-05-04T10:29:07", "node": "term_collector"}
+{"event": "llm_success", "attempt": 1, "elapsed_seconds": 113.14, "response_chars": 0, "time": "2026-05-04T10:31:00", "node": "term_collector"}
+{"event": "llm_start", "prompt_chars": 7518, "prompt_tokens_approx": 1879, "llm_options": {"temperature": 0.25, "top_p": 0.85, "num_ctx": 8192, "num_predict": 1024, "num_batch": 32}, "timeout_seconds": 480, "time": "2026-05-04T10:31:00", "node": "claim_extractor"}
+{"event": "llm_success", "attempt": 1, "elapsed_seconds": 166.49, "response_chars": 0, "time": "2026-05-04T10:33:46", "node": "claim_extractor"}
+{"event": "claim_parse_failed_or_empty", "raw_response_chars": 0, "raw_response_preview": "", "time": "2026-05-04T10:33:46", "node": "claim_extractor"}
+{"event": "llm_start", "prompt_chars": 9501, "prompt_tokens_approx": 2375, "llm_options": {"temperature": 0.25, "top_p": 0.85, "num_ctx": 8192, "num_predict": 768, "num_batch": 32}, "timeout_seconds": 480, "time": "2026-05-04T10:33:49", "node": "claim_checker"}
+{"event": "llm_success", "attempt": 1, "elapsed_seconds": 150.48, "response_chars": 0, "time": "2026-05-04T10:36:20", "node": "claim_checker"}
+{"event": "llm_start", "prompt_chars": 9487, "prompt_tokens_approx": 2371, "llm_options": {"temperature": 0.25, "top_p": 0.85, "num_ctx": 8192, "num_predict": 768, "num_batch": 32}, "timeout_seconds": 480, "time": "2026-05-04T10:36:20", "node": "claim_checker"}
+{"event": "llm_success", "attempt": 1, "elapsed_seconds": 131.39, "response_chars": 303, "time": "2026-05-04T10:38:31", "node": "claim_checker"}
+{"event": "llm_start", "prompt_chars": 7222, "prompt_tokens_approx": 1805, "llm_options": {"temperature": 0.25, "top_p": 0.85, "num_ctx": 8192, "num_predict": 2048, "num_batch": 32}, "timeout_seconds": 480, "time": "2026-05-04T10:38:31", "node": "claim_revision"}
+{"event": "llm_success", "attempt": 1, "elapsed_seconds": 305.33, "response_chars": 4216, "time": "2026-05-04T10:43:37", "node": "claim_revision"}
+{"event": "llm_start", "prompt_chars": 6784, "prompt_tokens_approx": 1696, "llm_options": {"temperature": 0.25, "top_p": 0.85, "num_ctx": 8192, "num_predict": 768, "num_batch": 32}, "timeout_seconds": 480, "time": "2026-05-04T10:43:37", "node": "term_collector"}
+{"event": "llm_success", "attempt": 1, "elapsed_seconds": 106.12, "response_chars": 483, "time": "2026-05-04T10:45:23", "node": "term_collector"}
+{"event": "llm_start", "prompt_chars": 10192, "prompt_tokens_approx": 2548, "llm_options": {"temperature": 0.25, "top_p": 0.85, "num_ctx": 8192, "num_predict": 1024, "num_batch": 32}, "timeout_seconds": 480, "time": "2026-05-04T10:45:23", "node": "accessibility_judge"}
+{"event": "llm_success", "attempt": 1, "elapsed_seconds": 175.09, "response_chars": 1223, "time": "2026-05-04T10:48:18", "node": "accessibility_judge"}
+{"event": "llm_start", "prompt_chars": 11013, "prompt_tokens_approx": 2753, "llm_options": {"temperature": 0.25, "top_p": 0.85, "num_ctx": 8192, "num_predict": 1024, "num_batch": 32}, "timeout_seconds": 480, "time": "2026-05-04T10:48:18", "node": "rigor_judge"}
+{"event": "llm_success", "attempt": 1, "elapsed_seconds": 209.58, "response_chars": 1309, "time": "2026-05-04T10:51:47", "node": "rigor_judge"}

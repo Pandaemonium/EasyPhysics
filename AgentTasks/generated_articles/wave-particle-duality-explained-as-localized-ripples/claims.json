@@ -1,0 +1,95 @@
+{
+  "claims": [
+    {
+      "id": "C001",
+      "claim": "Particles are localized ripples that spread like waves but remain distinct when detected.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "This foundational concept unifies wave and particle behavior in quantum mechanics.",
+      "suggested_search_query": "wave-particle duality localized ripples textbook definition"
+    },
+    {
+      "id": "C002",
+      "claim": "Wave-particle duality refers to behavior, not splitting into two entities; a localized ripple can exhibit wave-like spreading and particle-like localization.",
+      "type": "mechanism",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Corrects common misconceptions about quantum objects being both particles and waves simultaneously.",
+      "suggested_search_query": "quantum duality behavior vs substance"
+    },
+    {
+      "id": "C003",
+      "claim": "The double-slit experiment demonstrates localized ripples creating interference patterns (wave behavior) while hitting detectors as localized entities (particle behavior).",
+      "type": "experiment",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Proves the dual nature of quantum entities through observable phenomena.",
+      "suggested_search_query": "double-slit experiment wave-particle duality"
+    },
+    {
+      "id": "C004",
+      "claim": "The photoelectric effect shows localized ripples (photons) transferring quantized energy to electrons, proving particle-like energy transfer.",
+      "type": "experiment",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Establishes light's particle-like behavior and validates quantum energy quantization.",
+      "suggested_search_query": "photoelectric effect quantum explanation"
+    },
+    {
+      "id": "C005",
+      "claim": "Localized ripples have quantized energy (E = h f) and retain distinct identity, unlike classical waves.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Clarifies the unique properties of quantum ripples compared to classical wave models.",
+      "suggested_search_query": "quantum ripple energy quantization"
+    },
+    {
+      "id": "C006",
+      "claim": "Misconception: Duality means particles are both waves and particles at once. Correction: Duality refers to behavior, not splitting into two entities.",
+      "type": "misconception-correction",
+      "importance": "medium",
+      "needs_external_check": true,
+      "why_it_matters": "Addresses a common misunderstanding about quantum object identity.",
+      "suggested_search_query": "quantum duality misconception"
+    },
+    {
+      "id": "C007",
+      "claim": "Misconception: Waves are just ripples, so particles are localized ripples. Correction: Localized ripples have quantized energy and distinct identity.",
+      "type": "misconception-correction",
+      "importance": "medium",
+      "needs_external_check": true,
+      "why_it_matters": "Clarifies the non-classical nature of quantum ripples.",
+      "suggested_search_query": "quantum ripple misconceptions"
+    },
+    {
+      "id": "C008",
+      "claim": "Misconception: Particles can't be waves because they're solid. Correction: Localized ripples are energy patterns with probabilistic behavior.",
+      "type": "misconception-correction",
+      "importance": "medium",
+      "needs_external_check": true,
+      "why_it_matters": "Corrects the false dichotomy between wave and particle properties.",
+      "suggested_search_query": "quantum wave-particle solid misconception"
+    },
+    {
+      "id": "C009",
+      "claim": "Energy of a ripple is quantized: E = h f, where h is Planck's constant and f is frequency.",
+      "type": "mathematical",
+      "importance": "medium",
+      "needs_external_check": true,
+      "why_it_matters": "Defines the quantum relationship between energy and frequency for ripples.",
+      "suggested_search_query": "quantum energy frequency relation"
+    },
+    {
+      "id": "C010",
+      "claim": "The probability interpretation of ripples: The area under the ripple curve represents the likelihood of finding the ripple at a location.",
+      "type": "mathematical",
+      "importance": "medium",
+      "needs_external_check": true,
+      "why_it_matters": "Links wave behavior to probabilistic outcomes in quantum mechanics.",
+      "suggested_search_query": "quantum probability ripple interpretation"
+    }
+  ],
+  "last_updated": "2026-05-03_22-38-44"
+}

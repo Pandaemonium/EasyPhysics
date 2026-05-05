@@ -1,0 +1,16 @@
+{
+  "claims": [
+    {
+      "id": "C001",
+      "claim": "Dispersion is wavelength-dependent refraction {dispersion}, causing waves to separate.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Explains fundamental wave-material interactions",
+      "suggested_search_query": "dispersion definition physics textbook"
+    },
+    {
+      "id": "C002",
+      "claim": "Shorter wavelengths (blue light) slow more than longer wavelengths (red light) in a medium.",
+      "type": "empirical",
+      "importance":

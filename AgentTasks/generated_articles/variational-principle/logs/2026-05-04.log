@@ -1,0 +1,1278 @@
+
+================================================================================
+TIME: 2026-05-04T08:42:55
+NODE: planner
+PROMPT_CHARS: 482
+PROMPT_TOKENS_APPROX: 120
+RESPONSE_CHARS: 4369
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.85}
+================================================================================
+PROMPT:
+Create a strong teaching outline for this EasyPhysics article:
+
+Title: Variational principle
+
+The outline should include:
+1. Scope: what this article explains.
+2. Out of scope: what it should not try to explain yet.
+3. Prerequisite concepts.
+4. Core intuition.
+5. Suggested descriptive names with standard terms in braces.
+6. Common misconceptions to avoid.
+7. Section-by-section outline.
+8. Optional diagram ideas.
+9. Optional minimal math, with what the math means.
+
+Use Markdown.
+
+RESPONSE:
+# Variational Principle  
+
+---
+
+## 1. Scope  
+This article explains the **variational principle** as a universal method for finding the optimal path or state in physical systems by minimizing (or extremizing) a quantity called the **action** or **energy**. It connects classical mechanics, quantum mechanics, and other fields through a shared conceptual framework.  
+
+---
+
+## 2. Out of Scope  
+- Detailed mathematical rigor of calculus of variations (e.g., Euler-Lagrange equations).  
+- Advanced applications in quantum field theory or general relativity.  
+- Speculative interpretations of the principle (e.g., "quantum gravity" or "action at a distance").  
+
+---
+
+## 3. Prerequisite Concepts  
+- Basic understanding of energy, forces, and motion.  
+- Familiarity with calculus (integrals, derivatives).  
+- Concept of optimization (e.g., finding minima/maxima of functions).  
+
+---
+
+## 4. Core Intuition  
+The **variational principle** is a rule of nature: systems evolve along paths or states that **extremize** a specific quantity (like energy or action). Think of it as a "smart choice" made by nature to balance competing factors (e.g., speed vs. energy cost).  
+
+- **Classical Mechanics**: A particle takes the path that minimizes the **action** (a measure of energy over time).  
+- **Quantum Mechanics**: The most probable state of a system is the one that minimizes **energy**.  
+- **General Rule**: Nature "chooses" the path/state that makes the system as stable as possible.  
+
+---
+
+## 5. Suggested Descriptive Names with Standard Terms in Braces  
+- **Optimal Path Finder** {Variational Principle}  
+- **Minimum Energy Selector** {Variational Principle}  
+- **Action Extremizer** {Action}  
+- **Stability Chooser** {Energy Minimization}  
+- **Path Selector** {Calculus of Variations}  
+
+---
+
+## 6. Common Misconceptions to Avoid  
+- **Misconception 1**: The variational principle is only for classical mechanics.  
+  - **Clarification**: It applies broadly, including quantum mechanics and fluid dynamics.  
+- **Misconception 2**: The principle is about "finding the minimum" alone.  
+  - **Clarification**: It can also find **maxima** or **saddle points** (e.g., in optics).  
+- **Misconception 3**: The principle is a "magic rule" without physical meaning.  
+  - **Clarification**: It arises from the physical requirement for systems to be in stable, lowest-energy states.  
+
+---
+
+## 7. Section-by-Section Outline  
+### **Section 1: What is the Variational Principle?**  
+- Introduce the core idea: nature chooses paths/states that extremize a quantity.  
+- Use analogies: "Nature’s GPS" or "The shortest path in a maze."  
+
+### **Section 2: Classical Mechanics Example**  
+- **Brachistochrone Problem**: Find the path a particle takes to minimize travel time.  
+- **Light’s Path**: Explain how light bends to minimize travel time (Snell’s Law).  
+- **Action Integral**: Define **action** {action} as ∫L dt, where L is the Lagrangian.  
+
+### **Section 3: Quantum Mechanics Connection**  
+- **Energy Minimization**: The most probable state of a quantum system is the one with the lowest energy.  
+- **Wavefunction Collapse**: Link to the variational principle in quantum probability.  
+
+### **Section 4: Applications Beyond Mechanics**  
+- **Fluid Dynamics**: Finding the path of least resistance.  
+- **Electromagnetism**: Energy minimization in electric circuits.  
+
+### **Section 5: Mathematical Formulation (Optional)**  
+- **Calculus of Variations**: Briefly explain how to find extremal paths (e.g., Euler-Lagrange equation).  
+- **Stationary Action**: Emphasize that the principle seeks **stationary** (not necessarily minimum) values.  
+
+---
+
+## 8. Optional Diagram Ideas  
+1. **Path Comparison Diagram**: Show multiple paths between two points, highlighting the one with minimal action.  
+2. **Light Refraction Diagram**: Illustrate how light bends to minimize travel time.  
+3. **Energy Landscape**: A graph showing energy levels, with the lowest point marked as the "optimal state."  
+
+---
+
+## 9. Optional Minimal Math  
+- **Action Integral**:  
+  $$
+  S = \int_{t_1}^{t_2} L(q, \dot{q}, t) \, dt
+  $$  
+  - **Explanation**: $ S $ is the action, $ L $ is the Lagrangian (difference between kinetic and potential energy).  
+- **Stationary Condition**:  
+  $$
+  \delta S = 0
+  $$  
+  - **Explanation**: Nature chooses the path where small changes
+
+================================================================================
+TIME: 2026-05-04T08:46:32
+NODE: writer
+PROMPT_CHARS: 5785
+PROMPT_TOKENS_APPROX: 1446
+RESPONSE_CHARS: 3234
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.85}
+================================================================================
+PROMPT:
+Write a high-quality first draft for this EasyPhysics article.
+
+Title: Variational principle
+
+Article outline:
+# Variational Principle  
+
+---
+
+## 1. Scope  
+This article explains the **variational principle** as a universal method for finding the optimal path or state in physical systems by minimizing (or extremizing) a quantity called the **action** or **energy**. It connects classical mechanics, quantum mechanics, and other fields through a shared conceptual framework.  
+
+---
+
+## 2. Out of Scope  
+- Detailed mathematical rigor of calculus of variations (e.g., Euler-Lagrange equations).  
+- Advanced applications in quantum field theory or general relativity.  
+- Speculative interpretations of the principle (e.g., "quantum gravity" or "action at a distance").  
+
+---
+
+## 3. Prerequisite Concepts  
+- Basic understanding of energy, forces, and motion.  
+- Familiarity with calculus (integrals, derivatives).  
+- Concept of optimization (e.g., finding minima/maxima of functions).  
+
+---
+
+## 4. Core Intuition  
+The **variational principle** is a rule of nature: systems evolve along paths or states that **extremize** a specific quantity (like energy or action). Think of it as a "smart choice" made by nature to balance competing factors (e.g., speed vs. energy cost).  
+
+- **Classical Mechanics**: A particle takes the path that minimizes the **action** (a measure of energy over time).  
+- **Quantum Mechanics**: The most probable state of a system is the one that minimizes **energy**.  
+- **General Rule**: Nature "chooses" the path/state that makes the system as stable as possible.  
+
+---
+
+## 5. Suggested Descriptive Names with Standard Terms in Braces  
+- **Optimal Path Finder** {Variational Principle}  
+- **Minimum Energy Selector** {Variational Principle}  
+- **Action Extremizer** {Action}  
+- **Stability Chooser** {Energy Minimization}  
+- **Path Selector** {Calculus of Variations}  
+
+---
+
+## 6. Common Misconceptions to Avoid  
+- **Misconception 1**: The variational principle is only for classical mechanics.  
+  - **Clarification**: It applies broadly, including quantum mechanics and fluid dynamics.  
+- **Misconception 2**: The principle is about "finding the minimum" alone.  
+  - **Clarification**: It can also find **maxima** or **saddle points** (e.g., in optics).  
+- **Misconception 3**: The principle is a "magic rule" without physical meaning.  
+  - **Clarification**: It arises from the physical requirement for systems to be in stable, lowest-energy states.  
+
+---
+
+## 7. Section-by-Section Outline  
+### **Section 1: What is the Variational Principle?**  
+- Introduce the core idea: nature chooses paths/states that extremize a quantity.  
+- Use analogies: "Nature’s GPS" or "The shortest path in a maze."  
+
+### **Section 2: Classical Mechanics Example**  
+- **Brachistochrone Problem**: Find the path a particle takes to minimize travel time.  
+- **Light’s Path**: Explain how light bends to minimize travel time (Snell’s Law).  
+- **Action Integral**: Define **action** {action} as ∫L dt, where L is the Lagrangian.  
+
+### **Section 3: Quantum Mechanics Connection**  
+- **Energy Minimization**: The most probable state of a quantum system is the one with the lowest energy.  
+- **Wavefunction Collapse**: Link to the variational principle in quantum probability.  
+
+### **Section 4: Applications Beyond Mechanics**  
+- **Fluid Dynamics**: Finding the path of least resistance.  
+- **Electromagnetism**: Energy minimization in electric circuits.  
+
+### **Section 5: Mathematical Formulation (Optional)**  
+- **Calculus of Variations**: Briefly explain how to find extremal paths (e.g., Euler-Lagrange equation).  
+- **Stationary Action**: Emphasize that the principle seeks **stationary** (not necessarily minimum) values.  
+
+---
+
+## 8. Optional Diagram Ideas  
+1. **Path Comparison Diagram**: Show multiple paths between two points, highlighting the one with minimal action.  
+2. **Light Refraction Diagram**: Illustrate how light bends to minimize travel time.  
+3. **Energy Landscape**: A graph showing energy levels, with the lowest point marked as the "optimal state."  
+
+---
+
+## 9. Optional Minimal Math  
+- **Action Integral**:  
+  $$
+  S = \int_{t_1}^{t_2} L(q, \dot{q}, t) \, dt
+  $$  
+  - **Explanation**: $ S $ is the action, $ L $ is the Lagrangian (difference between kinetic and potential energy).  
+- **Stationary Condition**:  
+  $$
+  \delta S = 0
+  $$  
+  - **Explanation**: Nature chooses the path where small changes
+
+Human/editor notes:
+# Human/editor notes
+
+Add any preferences, corrections, or article-specific constraints here.
+
+
+Template guidance:
+Preferred article structure:
+
+# Title
+
+## The core idea
+A short, intuitive explanation that gives the reader the main point first.
+
+## Why this matters
+Explain what the concept helps us understand.
+
+## The simple picture
+Use an analogy, diagram idea, or concrete example.
+
+## The more precise picture
+Introduce standard terms, careful distinctions, and optional minimal math.
+
+## Common misconceptions
+Name and correct the traps.
+
+## How this connects to the rest of physics
+Link the concept to fields, particles, symmetry, conservation, relativity, or the Standard Model as appropriate.
+
+## Recap
+A few concise takeaways.
+
+Drafting instructions:
+- Make it accessible to a motivated high-schooler or college freshman.
+- Teach the modern concept directly rather than narrating historical discovery.
+- Use descriptive names with standard terms in braces, e.g. space-occupier {fermion}.
+- Include common misconceptions and correct them.
+- Include minimal math only when it helps, and explain what the math means.
+- Suggest diagram ideas inline where helpful using this format: [Diagram idea: ...]
+- Output only the article in Markdown, with no commentary before or after.
+
+RESPONSE:
+# Variational Principle  
+
+## The core idea  
+Nature chooses paths or states that **extremize** a key quantity—like energy or action. Think of it as a "smart choice" that balances competing factors, such as speed and energy cost. This rule applies across physics, from the motion of planets to the behavior of particles.  
+
+## Why this matters  
+The variational principle unifies seemingly different areas of physics. It explains why light bends, why objects fall, and why quantum systems settle into specific states. By focusing on "optimal" paths, it reveals a deep, universal structure in how nature operates.  
+
+## The simple picture  
+Imagine you’re navigating a maze. Instead of randomly wandering, you take the path that minimizes your time or energy. Similarly, nature "chooses" the path or state that makes the system as stable as possible. [Diagram idea: A maze with a highlighted shortest path]  
+
+## The more precise picture  
+The **variational principle** states that physical systems evolve along paths or states that **extremize** a quantity called **action** {action}. Action is calculated as the integral of the **Lagrangian** {Lagrangian} over time:  
+$$
+S = \int_{t_1}^{t_2} L(q, \dot{q}, t) \, dt
+$$  
+Here, $ L $ is the difference between kinetic and potential energy. Nature picks the path where small changes to the path don’t alter the total action (a **stationary point** {stationary point}).  
+
+- **Classical Mechanics**: A particle takes the path that minimizes action.  
+- **Quantum Mechanics**: The most probable state is the one that minimizes energy.  
+- **General Rule**: Stability drives the system toward the "optimal" configuration.  
+
+[Diagram idea: A graph showing multiple paths between two points, with the action-minimizing path highlighted]  
+
+## Common misconceptions  
+- **Misconception 1**: The principle only applies to classical mechanics.  
+  - **Clarification**: It works for quantum systems, fluids, and even electromagnetic fields.  
+- **Misconception 2**: The principle is about "finding the minimum" alone.  
+  - **Clarification**: It can also find **maxima** (e.g., light bending) or **saddle points**.  
+- **Misconception 3**: The principle is a "magic rule" without physical meaning.  
+  - **Clarification**: It arises from the physical need for systems to settle into stable, lowest-energy states.  
+
+## How this connects to the rest of physics  
+- **Classical Mechanics**: The Brachistochrone problem (fastest path for a particle) and Snell’s Law (light bending) both follow the variational principle.  
+- **Quantum Mechanics**: The **variational method** {variational method} approximates wavefunctions by minimizing energy.  
+- **Fluid Dynamics**: Fluids flow along paths that minimize resistance.  
+- **Electromagnetism**: Circuits settle into states that minimize energy.  
+
+## Recap  
+- Nature chooses paths/states that **extremize** action or energy.  
+- The principle applies to mechanics, quantum systems, and beyond.  
+- It’s not a "magic rule"—it’s a way to find stable, optimal configurations.  
+- Mathematically, it involves finding **stationary points** of the action integral.  
+
+[Diagram idea: Energy landscape with a valley representing the lowest-energy state]
+
+================================================================================
+TIME: 2026-05-04T08:48:19
+NODE: term_collector
+PROMPT_CHARS: 3704
+PROMPT_TOKENS_APPROX: 926
+RESPONSE_CHARS: 0
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.85}
+================================================================================
+PROMPT:
+Extract the descriptive-name candidates from this draft.
+
+Return JSON with this shape:
+{
+  "terms": [
+    {
+      "standard_term": "fermion",
+      "candidate_name": "space-occupier",
+      "context_quote": "short quote from the draft",
+      "usefulness": "why this name helps",
+      "risk": "how it could mislead, or empty string if low risk"
+    }
+  ]
+}
+
+Only include actual teaching-name candidates, especially phrases followed by standard terms in braces.
+
+Draft:
+# Variational Principle  
+
+## The core idea  
+Nature chooses paths or states that **extremize** a key quantity—like energy or action. Think of it as a "smart choice" that balances competing factors, such as speed and energy cost. This rule applies across physics, from the motion of planets to the behavior of particles.  
+
+## Why this matters  
+The variational principle unifies seemingly different areas of physics. It explains why light bends, why objects fall, and why quantum systems settle into specific states. By focusing on "optimal" paths, it reveals a deep, universal structure in how nature operates.  
+
+## The simple picture  
+Imagine you’re navigating a maze. Instead of randomly wandering, you take the path that minimizes your time or energy. Similarly, nature "chooses" the path or state that makes the system as stable as possible. [Diagram idea: A maze with a highlighted shortest path]  
+
+## The more precise picture  
+The **variational principle** states that physical systems evolve along paths or states that **extremize** a quantity called **action** {action}. Action is calculated as the integral of the **Lagrangian** {Lagrangian} over time:  
+$$
+S = \int_{t_1}^{t_2} L(q, \dot{q}, t) \, dt
+$$  
+Here, $ L $ is the difference between kinetic and potential energy. Nature picks the path where small changes to the path don’t alter the total action (a **stationary point** {stationary point}).  
+
+- **Classical Mechanics**: A particle takes the path that minimizes action.  
+- **Quantum Mechanics**: The most probable state is the one that minimizes energy.  
+- **General Rule**: Stability drives the system toward the "optimal" configuration.  
+
+[Diagram idea: A graph showing multiple paths between two points, with the action-minimizing path highlighted]  
+
+## Common misconceptions  
+- **Misconception 1**: The principle only applies to classical mechanics.  
+  - **Clarification**: It works for quantum systems, fluids, and even electromagnetic fields.  
+- **Misconception 2**: The principle is about "finding the minimum" alone.  
+  - **Clarification**: It can also find **maxima** (e.g., light bending) or **saddle points**.  
+- **Misconception 3**: The principle is a "magic rule" without physical meaning.  
+  - **Clarification**: It arises from the physical need for systems to settle into stable, lowest-energy states.  
+
+## How this connects to the rest of physics  
+- **Classical Mechanics**: The Brachistochrone problem (fastest path for a particle) and Snell’s Law (light bending) both follow the variational principle.  
+- **Quantum Mechanics**: The **variational method** {variational method} approximates wavefunctions by minimizing energy.  
+- **Fluid Dynamics**: Fluids flow along paths that minimize resistance.  
+- **Electromagnetism**: Circuits settle into states that minimize energy.  
+
+## Recap  
+- Nature chooses paths/states that **extremize** action or energy.  
+- The principle applies to mechanics, quantum systems, and beyond.  
+- It’s not a "magic rule"—it’s a way to find stable, optimal configurations.  
+- Mathematically, it involves finding **stationary points** of the action integral.  
+
+[Diagram idea: Energy landscape with a valley representing the lowest-energy state]
+
+RESPONSE:
+
+
+================================================================================
+TIME: 2026-05-04T08:50:58
+NODE: claim_extractor
+PROMPT_CHARS: 4229
+PROMPT_TOKENS_APPROX: 1057
+RESPONSE_CHARS: 2126
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.85}
+================================================================================
+PROMPT:
+Extract 8 to 12 important scientific and explanatory claims from this article draft.
+
+Return JSON with exactly this shape:
+{
+  "claims": [
+    {
+      "id": "C001",
+      "claim": "A clear, standalone claim from the article.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "brief reason",
+      "suggested_search_query": "stable source search query, not latest-news oriented"
+    }
+  ]
+}
+
+Rules:
+- Do not return an empty claims list unless the draft is empty.
+- Use only valid JSON.
+- Use true/false, not True/False.
+- Do not include Markdown fences.
+- Do not include prose before or after the JSON.
+- Extract claims that matter for scientific correctness.
+- Include claims embedded in analogies if the analogy could mislead.
+- Do not include purely stylistic statements.
+- Search queries should prefer stable sources: textbooks, lecture notes, CERN, Fermilab, university pages.
+
+Article title: Variational principle
+
+Draft:
+# Variational Principle  
+
+## The core idea  
+Nature chooses paths or states that **extremize** a key quantity—like energy or action. Think of it as a "smart choice" that balances competing factors, such as speed and energy cost. This rule applies across physics, from the motion of planets to the behavior of particles.  
+
+## Why this matters  
+The variational principle unifies seemingly different areas of physics. It explains why light bends, why objects fall, and why quantum systems settle into specific states. By focusing on "optimal" paths, it reveals a deep, universal structure in how nature operates.  
+
+## The simple picture  
+Imagine you’re navigating a maze. Instead of randomly wandering, you take the path that minimizes your time or energy. Similarly, nature "chooses" the path or state that makes the system as stable as possible. [Diagram idea: A maze with a highlighted shortest path]  
+
+## The more precise picture  
+The **variational principle** states that physical systems evolve along paths or states that **extremize** a quantity called **action** {action}. Action is calculated as the integral of the **Lagrangian** {Lagrangian} over time:  
+$$
+S = \int_{t_1}^{t_2} L(q, \dot{q}, t) \, dt
+$$  
+Here, $ L $ is the difference between kinetic and potential energy. Nature picks the path where small changes to the path don’t alter the total action (a **stationary point** {stationary point}).  
+
+- **Classical Mechanics**: A particle takes the path that minimizes action.  
+- **Quantum Mechanics**: The most probable state is the one that minimizes energy.  
+- **General Rule**: Stability drives the system toward the "optimal" configuration.  
+
+[Diagram idea: A graph showing multiple paths between two points, with the action-minimizing path highlighted]  
+
+## Common misconceptions  
+- **Misconception 1**: The principle only applies to classical mechanics.  
+  - **Clarification**: It works for quantum systems, fluids, and even electromagnetic fields.  
+- **Misconception 2**: The principle is about "finding the minimum" alone.  
+  - **Clarification**: It can also find **maxima** (e.g., light bending) or **saddle points**.  
+- **Misconception 3**: The principle is a "magic rule" without physical meaning.  
+  - **Clarification**: It arises from the physical need for systems to settle into stable, lowest-energy states.  
+
+## How this connects to the rest of physics  
+- **Classical Mechanics**: The Brachistochrone problem (fastest path for a particle) and Snell’s Law (light bending) both follow the variational principle.  
+- **Quantum Mechanics**: The **variational method** {variational method} approximates wavefunctions by minimizing energy.  
+- **Fluid Dynamics**: Fluids flow along paths that minimize resistance.  
+- **Electromagnetism**: Circuits settle into states that minimize energy.  
+
+## Recap  
+- Nature chooses paths/states that **extremize** action or energy.  
+- The principle applies to mechanics, quantum systems, and beyond.  
+- It’s not a "magic rule"—it’s a way to find stable, optimal configurations.  
+- Mathematically, it involves finding **stationary points** of the action integral.  
+
+[Diagram idea: Energy landscape with a valley representing the lowest-energy state]
+
+RESPONSE:
+{
+  "claims": [
+    {
+      "id": "C001",
+      "claim": "Nature chooses paths or states that extremize a key quantity, such as energy or action.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "This principle unifies physical laws across mechanics, quantum systems, and fields.",
+      "suggested_search_query": "variational principle unified physics"
+    },
+    {
+      "id": "C002",
+      "claim": "The variational principle applies to classical mechanics, quantum systems, fluids, and electromagnetic fields.",
+      "type": "application",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "It reveals a universal framework for understanding diverse physical phenomena.",
+      "suggested_search_query": "variational principle applications in physics"
+    },
+    {
+      "id": "C003",
+      "claim": "Action is defined as the integral of the Lagrangian over time, where the Lagrangian is kinetic energy minus potential energy.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "This mathematical formulation is central to classical and quantum mechanics.",
+      "suggested_search_query": "action integral Lagrangian definition"
+    },
+    {
+      "id": "C004",
+      "claim": "Physical systems evolve along paths that are stationary points of the action functional.",
+      "type": "mathematical",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "This condition ensures minimal energy or optimal stability in systems.",
+      "suggested_search_query": "stationary points action principle"
+    },
+    {
+      "id": "C005",
+      "claim": "The variational principle in classical mechanics requires paths that minimize action.",
+      "type": "application",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "It explains planetary motion and mechanical systems' behavior.",
+      "suggested_search_query": "classical mechanics variational principle"
+    },
+    {
+      "
+
+================================================================================
+TIME: 2026-05-04T08:52:56
+NODE: claim_checker
+PROMPT_CHARS: 6802
+PROMPT_TOKENS_APPROX: 1700
+RESPONSE_CHARS: 263
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.85}
+================================================================================
+PROMPT:
+Check this one article claim against the available search snippet.
+
+Return JSON with this shape:
+{
+  "id": "C001",
+  "verdict": "supported | mostly_supported | needs_qualification | unsupported | contradicted | not_enough_evidence",
+  "severity": "none | low | medium | high",
+  "problem": "specific issue, or empty string",
+  "suggested_fix": "specific correction to the article, or empty string",
+  "source_quality_note": "brief note about whether the snippets look authoritative"
+}
+
+Rules:
+- Be conservative.
+- If the snippet is weak or absent, say not_enough_evidence.
+- Do not demand advanced nuance beyond the article's beginner scope.
+- Do flag misleading simplifications.
+- Focus on stable accepted physics.
+
+Article title: Variational principle
+
+Claim:
+{
+  "id": "C001",
+  "claim": "# Variational Principle ## The core idea Nature chooses paths or states that **extremize** a key quantity—like energy or action.",
+  "type": "fallback-extracted",
+  "importance": "medium",
+  "needs_external_check": true,
+  "why_it_matters": "Automatically extracted fallback claim; review manually.",
+  "suggested_search_query": "Variational principle # Variational Principle ## The core idea Nature chooses paths or states that **extremize** a key physics lecture notes textbook explanation"
+}
+
+Search snippet:
+{
+  "claim": "# Variational Principle ## The core idea Nature chooses paths or states that **extremize** a key quantity—like energy or action.",
+  "query": "Variational principle # Variational Principle ## The core idea Nature chooses paths or states that **extremize** a key physics lecture notes textbook explanation",
+  "result_snippet": "A variational principle is a mathematical procedure that renders a physical problem solvable by the calculus of variations, which concerns finding functions that optimize the values of quantities that depend on those functions. Mar 13, 2026 · The variational principle states, quite simply, that the ground-state energy, E 0, is always less than or equal to the expectation value of H calculated with the trial wavefunction : that is, E 0 ≤ ψ | H | ψ . A variational principle is defined as a fundamental concept in mathematical physics that aims to determine the path, function, or object that maximizes or minimizes a mathematical quantity known as a functional. Feb 8, 2023 · Nature always acts by the shortest paths. The variational principles present natural phenomena as processes of optimization. Hamilton's variational principle is a fundamental statement asserting that a system's trajectory extremizes an action, forming the basis for deriving motion equations across classical, quantum, and continuum settings. Jun 24, 2021 · The book covers a wide range of variational methods in Physics starting with the Newtonian vector-based framework and moving into the principle of least action and variational methods. It is fully comprehensive in its treatment of physics theories between Newton through Einstein. This approach is known as the variational method. The variational method is much more flexible than perturbation theory. It requires no small parameters, and no exact solutions, just a Hamiltonian and a trial state. Hamilton's variational principle is a fundamental statement asserting that a system's trajectory extremizes an action, forming the basis for deriving motion equations across classical, quantum, and continuum settings.",
+  "searched_at": "2026-05-04_08-50-58",
+  "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
+}
+
+Relevant draft context:
+# Variational Principle  
+
+## The core idea  
+Nature chooses paths or states that **extremize** a key quantity—like energy or action. Think of it as a "smart choice" that balances competing factors, such as speed and energy cost. This rule applies across physics, from the motion of planets to the behavior of particles.  
+
+## Why this matters  
+The variational principle unifies seemingly different areas of physics. It explains why light bends, why objects fall, and why quantum systems settle into specific states. By focusing on "optimal" paths, it reveals a deep, universal structure in how nature operates.  
+
+## The simple picture  
+Imagine you’re navigating a maze. Instead of randomly wandering, you take the path that minimizes your time or energy. Similarly, nature "chooses" the path or state that makes the system as stable as possible. [Diagram idea: A maze with a highlighted shortest path]  
+
+## The more precise picture  
+The **variational principle** states that physical systems evolve along paths or states that **extremize** a quantity called **action** {action}. Action is calculated as the integral of the **Lagrangian** {Lagrangian} over time:  
+$$
+S = \int_{t_1}^{t_2} L(q, \dot{q}, t) \, dt
+$$  
+Here, $ L $ is the difference between kinetic and potential energy. Nature picks the path where small changes to the path don’t alter the total action (a **stationary point** {stationary point}).  
+
+- **Classical Mechanics**: A particle takes the path that minimizes action.  
+- **Quantum Mechanics**: The most probable state is the one that minimizes energy.  
+- **General Rule**: Stability drives the system toward the "optimal" configuration.  
+
+[Diagram idea: A graph showing multiple paths between two points, with the action-minimizing path highlighted]  
+
+## Common misconceptions  
+- **Misconception 1**: The principle only applies to classical mechanics.  
+  - **Clarification**: It works for quantum systems, fluids, and even electromagnetic fields.  
+- **Misconception 2**: The principle is about "finding the minimum" alone.  
+  - **Clarification**: It can also find **maxima** (e.g., light bending) or **saddle points**.  
+- **Misconception 3**: The principle is a "magic rule" without physical meaning.  
+  - **Clarification**: It arises from the physical need for systems to settle into stable, lowest-energy states.  
+
+## How this connects to the rest of physics  
+- **Classical Mechanics**: The Brachistochrone problem (fastest path for a particle) and Snell’s Law (light bending) both follow the variational principle.  
+- **Quantum Mechanics**: The **variational method** {variational method} approximates wavefunctions by minimizing energy.  
+- **Fluid Dynamics**: Fluids flow along paths that minimize resistance.  
+- **Electromagnetism**: Circuits settle into states that minimize energy.  
+
+## Recap  
+- Nature chooses paths/states that **extremize** action or energy.  
+- The principle applies to mechanics, quantum systems, and beyond.  
+- It’s not a "magic rule"—it’s a way to find stable, optimal configurations.  
+- Mathematically, it involves finding **stationary points** of the action integral.  
+
+[Diagram idea: Energy landscape with a valley representing the lowest-energy state]
+
+RESPONSE:
+{
+  "id": "C001",
+  "verdict": "supported",
+  "severity": "none",
+  "problem": "",
+  "suggested_fix": "",
+  "source_quality_note": "Snippets from lecture notes, textbooks, and physics references indicate stable, accepted explanations of variational principles."
+}
+
+================================================================================
+TIME: 2026-05-04T08:54:16
+NODE: claim_checker
+PROMPT_CHARS: 6206
+PROMPT_TOKENS_APPROX: 1551
+RESPONSE_CHARS: 502
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.85}
+================================================================================
+PROMPT:
+Check this one article claim against the available search snippet.
+
+Return JSON with this shape:
+{
+  "id": "C002",
+  "verdict": "supported | mostly_supported | needs_qualification | unsupported | contradicted | not_enough_evidence",
+  "severity": "none | low | medium | high",
+  "problem": "specific issue, or empty string",
+  "suggested_fix": "specific correction to the article, or empty string",
+  "source_quality_note": "brief note about whether the snippets look authoritative"
+}
+
+Rules:
+- Be conservative.
+- If the snippet is weak or absent, say not_enough_evidence.
+- Do not demand advanced nuance beyond the article's beginner scope.
+- Do flag misleading simplifications.
+- Focus on stable accepted physics.
+
+Article title: Variational principle
+
+Claim:
+{
+  "id": "C002",
+  "claim": "Think of it as a \"smart choice\" that balances competing factors, such as speed and energy cost.",
+  "type": "fallback-extracted",
+  "importance": "medium",
+  "needs_external_check": true,
+  "why_it_matters": "Automatically extracted fallback claim; review manually.",
+  "suggested_search_query": "Variational principle Think of it as a \"smart choice\" that balances competing factors, such as speed and energy physics lecture notes textbook explanation"
+}
+
+Search snippet:
+{
+  "claim": "Think of it as a \"smart choice\" that balances competing factors, such as speed and energy cost.",
+  "query": "Variational principle Think of it as a \"smart choice\" that balances competing factors, such as speed and energy physics lecture notes textbook explanation",
+  "result_snippet": "One such element that has gained significant traction among homeowners and interior designers alike is the designer radiator . These are no longer solely utilitarian objects; they’ve evolved into central features that can enhance the overall ambiance of a space. And the most important benefit is the fact that it lasts long, even after many washes, it still remains soft and fluffy, something you can’t possibly find with ordinary towels. Let’s see the reasons in detail why buying a luxury towel is a smart choice. Digital microwaves, such as the Black+Decker EM031MB11 Digital Microwave Oven, present several advantages over traditional microwave models. One of the primary benefits is precision cooking. Discovering Smart Home Solutions Singapore with Besmarterhome. Smart home technology is no longer a luxury; it’s becoming a necessity for modern living. But with so many options out there, how do you pick the right provider? That’s where Besmarterhome shines. rmia-Planning-For-The-Future-Why-Egg-Freezing-Is-A-Smart-Choice. Preserving possibility. Egg freezing allows women to preserve reproductive potential while planning life on personal terms. Egg freezing is not a guarantee, but the approach can be a safety net.",
+  "searched_at": "2026-05-04_08-51-02",
+  "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
+}
+
+Relevant draft context:
+# Variational Principle  
+
+## The core idea  
+Nature chooses paths or states that **extremize** a key quantity—like energy or action. Think of it as a "smart choice" that balances competing factors, such as speed and energy cost. This rule applies across physics, from the motion of planets to the behavior of particles.  
+
+## Why this matters  
+The variational principle unifies seemingly different areas of physics. It explains why light bends, why objects fall, and why quantum systems settle into specific states. By focusing on "optimal" paths, it reveals a deep, universal structure in how nature operates.  
+
+## The simple picture  
+Imagine you’re navigating a maze. Instead of randomly wandering, you take the path that minimizes your time or energy. Similarly, nature "chooses" the path or state that makes the system as stable as possible. [Diagram idea: A maze with a highlighted shortest path]  
+
+## The more precise picture  
+The **variational principle** states that physical systems evolve along paths or states that **extremize** a quantity called **action** {action}. Action is calculated as the integral of the **Lagrangian** {Lagrangian} over time:  
+$$
+S = \int_{t_1}^{t_2} L(q, \dot{q}, t) \, dt
+$$  
+Here, $ L $ is the difference between kinetic and potential energy. Nature picks the path where small changes to the path don’t alter the total action (a **stationary point** {stationary point}).  
+
+- **Classical Mechanics**: A particle takes the path that minimizes action.  
+- **Quantum Mechanics**: The most probable state is the one that minimizes energy.  
+- **General Rule**: Stability drives the system toward the "optimal" configuration.  
+
+[Diagram idea: A graph showing multiple paths between two points, with the action-minimizing path highlighted]  
+
+## Common misconceptions  
+- **Misconception 1**: The principle only applies to classical mechanics.  
+  - **Clarification**: It works for quantum systems, fluids, and even electromagnetic fields.  
+- **Misconception 2**: The principle is about "finding the minimum" alone.  
+  - **Clarification**: It can also find **maxima** (e.g., light bending) or **saddle points**.  
+- **Misconception 3**: The principle is a "magic rule" without physical meaning.  
+  - **Clarification**: It arises from the physical need for systems to settle into stable, lowest-energy states.  
+
+## How this connects to the rest of physics  
+- **Classical Mechanics**: The Brachistochrone problem (fastest path for a particle) and Snell’s Law (light bending) both follow the variational principle.  
+- **Quantum Mechanics**: The **variational method** {variational method} approximates wavefunctions by minimizing energy.  
+- **Fluid Dynamics**: Fluids flow along paths that minimize resistance.  
+- **Electromagnetism**: Circuits settle into states that minimize energy.  
+
+## Recap  
+- Nature chooses paths/states that **extremize** action or energy.  
+- The principle applies to mechanics, quantum systems, and beyond.  
+- It’s not a "magic rule"—it’s a way to find stable, optimal configurations.  
+- Mathematically, it involves finding **stationary points** of the action integral.  
+
+[Diagram idea: Energy landscape with a valley representing the lowest-energy state]
+
+RESPONSE:
+{
+  "id": "C002",
+  "verdict": "unsupported",
+  "severity": "high",
+  "problem": "The search snippet contains no relevant physics content about variational principles, instead discussing consumer products and unrelated topics",
+  "suggested_fix": "Replace the search snippet with physics textbooks or lecture notes explaining variational principles in mechanics/quantum mechanics",
+  "source_quality_note": "The snippets appear to be from commercial content rather than authoritative physics sources"
+}
+
+================================================================================
+TIME: 2026-05-04T08:59:21
+NODE: claim_revision
+PROMPT_CHARS: 4977
+PROMPT_TOKENS_APPROX: 1244
+RESPONSE_CHARS: 3234
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.85}
+================================================================================
+PROMPT:
+Revise the article once to address claim-check feedback.
+
+Do not rewrite for its own sake. Fix the scientific issues while preserving accessible language.
+
+Claim-check feedback:
+{
+  "claim_checks": [
+    {
+      "id": "C001",
+      "verdict": "supported",
+      "severity": "none",
+      "problem": "",
+      "suggested_fix": "",
+      "source_quality_note": "Snippets from lecture notes, textbooks, and physics references indicate stable, accepted explanations of variational principles."
+    },
+    {
+      "id": "C002",
+      "verdict": "unsupported",
+      "severity": "high",
+      "problem": "The search snippet contains no relevant physics content about variational principles, instead discussing consumer products and unrelated topics",
+      "suggested_fix": "Replace the search snippet with physics textbooks or lecture notes explaining variational principles in mechanics/quantum mechanics",
+      "source_quality_note": "The snippets appear to be from commercial content rather than authoritative physics sources"
+    }
+  ],
+  "summary": {
+    "overall_claim_quality": "Claim check completed.",
+    "unresolved_or_needs_qualification": 1,
+    "highest_priority_fixes": [
+      "Replace the search snippet with physics textbooks or lecture notes explaining variational principles in mechanics/quantum mechanics"
+    ]
+  },
+  "last_updated": "2026-05-04_08-54-16"
+}
+
+Current draft:
+# Variational Principle  
+
+## The core idea  
+Nature chooses paths or states that **extremize** a key quantity—like energy or action. Think of it as a "smart choice" that balances competing factors, such as speed and energy cost. This rule applies across physics, from the motion of planets to the behavior of particles.  
+
+## Why this matters  
+The variational principle unifies seemingly different areas of physics. It explains why light bends, why objects fall, and why quantum systems settle into specific states. By focusing on "optimal" paths, it reveals a deep, universal structure in how nature operates.  
+
+## The simple picture  
+Imagine you’re navigating a maze. Instead of randomly wandering, you take the path that minimizes your time or energy. Similarly, nature "chooses" the path or state that makes the system as stable as possible. [Diagram idea: A maze with a highlighted shortest path]  
+
+## The more precise picture  
+The **variational principle** states that physical systems evolve along paths or states that **extremize** a quantity called **action** {action}. Action is calculated as the integral of the **Lagrangian** {Lagrangian} over time:  
+$$
+S = \int_{t_1}^{t_2} L(q, \dot{q}, t) \, dt
+$$  
+Here, $ L $ is the difference between kinetic and potential energy. Nature picks the path where small changes to the path don’t alter the total action (a **stationary point** {stationary point}).  
+
+- **Classical Mechanics**: A particle takes the path that minimizes action.  
+- **Quantum Mechanics**: The most probable state is the one that minimizes energy.  
+- **General Rule**: Stability drives the system toward the "optimal" configuration.  
+
+[Diagram idea: A graph showing multiple paths between two points, with the action-minimizing path highlighted]  
+
+## Common misconceptions  
+- **Misconception 1**: The principle only applies to classical mechanics.  
+  - **Clarification**: It works for quantum systems, fluids, and even electromagnetic fields.  
+- **Misconception 2**: The principle is about "finding the minimum" alone.  
+  - **Clarification**: It can also find **maxima** (e.g., light bending) or **saddle points**.  
+- **Misconception 3**: The principle is a "magic rule" without physical meaning.  
+  - **Clarification**: It arises from the physical need for systems to settle into stable, lowest-energy states.  
+
+## How this connects to the rest of physics  
+- **Classical Mechanics**: The Brachistochrone problem (fastest path for a particle) and Snell’s Law (light bending) both follow the variational principle.  
+- **Quantum Mechanics**: The **variational method** {variational method} approximates wavefunctions by minimizing energy.  
+- **Fluid Dynamics**: Fluids flow along paths that minimize resistance.  
+- **Electromagnetism**: Circuits settle into states that minimize energy.  
+
+## Recap  
+- Nature chooses paths/states that **extremize** action or energy.  
+- The principle applies to mechanics, quantum systems, and beyond.  
+- It’s not a "magic rule"—it’s a way to find stable, optimal configurations.  
+- Mathematically, it involves finding **stationary points** of the action integral.  
+
+[Diagram idea: Energy landscape with a valley representing the lowest-energy state]
+
+Instructions:
+- Correct or qualify unsupported, contradicted, or overstrong claims.
+- Preserve good accessible explanations.
+- Do not add speculative research as settled fact.
+- If an analogy was misleading, either repair it or state its limits.
+- Keep standard terms in braces after descriptive names.
+- Output only the revised article in Markdown.
+
+RESPONSE:
+# Variational Principle  
+
+## The core idea  
+Nature chooses paths or states that **extremize** a key quantity—like energy or action. Think of it as a "smart choice" that balances competing factors, such as speed and energy cost. This rule applies across physics, from the motion of planets to the behavior of particles.  
+
+## Why this matters  
+The variational principle unifies seemingly different areas of physics. It explains why light bends, why objects fall, and why quantum systems settle into specific states. By focusing on "optimal" paths, it reveals a deep, universal structure in how nature operates.  
+
+## The simple picture  
+Imagine you’re navigating a maze. Instead of randomly wandering, you take the path that minimizes your time or energy. Similarly, nature "chooses" the path or state that makes the system as stable as possible. [Diagram idea: A maze with a highlighted shortest path]  
+
+## The more precise picture  
+The **variational principle** states that physical systems evolve along paths or states that **extremize** a quantity called **action** {action}. Action is calculated as the integral of the **Lagrangian** {Lagrangian} over time:  
+$$
+S = \int_{t_1}^{t_2} L(q, \dot{q}, t) \, dt
+$$  
+Here, $ L $ is the difference between kinetic and potential energy. Nature picks the path where small changes to the path don’t alter the total action (a **stationary point** {stationary point}).  
+
+- **Classical Mechanics**: A particle takes the path that minimizes action.  
+- **Quantum Mechanics**: The most probable state is the one that minimizes energy.  
+- **General Rule**: Stability drives the system toward the "optimal" configuration.  
+
+[Diagram idea: A graph showing multiple paths between two points, with the action-minimizing path highlighted]  
+
+## Common misconceptions  
+- **Misconception 1**: The principle only applies to classical mechanics.  
+  - **Clarification**: It works for quantum systems, fluids, and even electromagnetic fields.  
+- **Misconception 2**: The principle is about "finding the minimum" alone.  
+  - **Clarification**: It can also find **maxima** (e.g., light bending) or **saddle points**.  
+- **Misconception 3**: The principle is a "magic rule" without physical meaning.  
+  - **Clarification**: It arises from the physical need for systems to settle into stable, lowest-energy states.  
+
+## How this connects to the rest of physics  
+- **Classical Mechanics**: The Brachistochrone problem (fastest path for a particle) and Snell’s Law (light bending) both follow the variational principle.  
+- **Quantum Mechanics**: The **variational method** {variational method} approximates wavefunctions by minimizing energy.  
+- **Fluid Dynamics**: Fluids flow along paths that minimize resistance.  
+- **Electromagnetism**: Circuits settle into states that minimize energy.  
+
+## Recap  
+- Nature chooses paths/states that **extremize** action or energy.  
+- The principle applies to mechanics, quantum systems, and beyond.  
+- It’s not a "magic rule"—it’s a way to find stable, optimal configurations.  
+- Mathematically, it involves finding **stationary points** of the action integral.  
+
+[Diagram idea: Energy landscape with a valley representing the lowest-energy state]
+
+================================================================================
+TIME: 2026-05-04T09:01:07
+NODE: term_collector
+PROMPT_CHARS: 3704
+PROMPT_TOKENS_APPROX: 926
+RESPONSE_CHARS: 0
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.85}
+================================================================================
+PROMPT:
+Extract the descriptive-name candidates from this draft.
+
+Return JSON with this shape:
+{
+  "terms": [
+    {
+      "standard_term": "fermion",
+      "candidate_name": "space-occupier",
+      "context_quote": "short quote from the draft",
+      "usefulness": "why this name helps",
+      "risk": "how it could mislead, or empty string if low risk"
+    }
+  ]
+}
+
+Only include actual teaching-name candidates, especially phrases followed by standard terms in braces.
+
+Draft:
+# Variational Principle  
+
+## The core idea  
+Nature chooses paths or states that **extremize** a key quantity—like energy or action. Think of it as a "smart choice" that balances competing factors, such as speed and energy cost. This rule applies across physics, from the motion of planets to the behavior of particles.  
+
+## Why this matters  
+The variational principle unifies seemingly different areas of physics. It explains why light bends, why objects fall, and why quantum systems settle into specific states. By focusing on "optimal" paths, it reveals a deep, universal structure in how nature operates.  
+
+## The simple picture  
+Imagine you’re navigating a maze. Instead of randomly wandering, you take the path that minimizes your time or energy. Similarly, nature "chooses" the path or state that makes the system as stable as possible. [Diagram idea: A maze with a highlighted shortest path]  
+
+## The more precise picture  
+The **variational principle** states that physical systems evolve along paths or states that **extremize** a quantity called **action** {action}. Action is calculated as the integral of the **Lagrangian** {Lagrangian} over time:  
+$$
+S = \int_{t_1}^{t_2} L(q, \dot{q}, t) \, dt
+$$  
+Here, $ L $ is the difference between kinetic and potential energy. Nature picks the path where small changes to the path don’t alter the total action (a **stationary point** {stationary point}).  
+
+- **Classical Mechanics**: A particle takes the path that minimizes action.  
+- **Quantum Mechanics**: The most probable state is the one that minimizes energy.  
+- **General Rule**: Stability drives the system toward the "optimal" configuration.  
+
+[Diagram idea: A graph showing multiple paths between two points, with the action-minimizing path highlighted]  
+
+## Common misconceptions  
+- **Misconception 1**: The principle only applies to classical mechanics.  
+  - **Clarification**: It works for quantum systems, fluids, and even electromagnetic fields.  
+- **Misconception 2**: The principle is about "finding the minimum" alone.  
+  - **Clarification**: It can also find **maxima** (e.g., light bending) or **saddle points**.  
+- **Misconception 3**: The principle is a "magic rule" without physical meaning.  
+  - **Clarification**: It arises from the physical need for systems to settle into stable, lowest-energy states.  
+
+## How this connects to the rest of physics  
+- **Classical Mechanics**: The Brachistochrone problem (fastest path for a particle) and Snell’s Law (light bending) both follow the variational principle.  
+- **Quantum Mechanics**: The **variational method** {variational method} approximates wavefunctions by minimizing energy.  
+- **Fluid Dynamics**: Fluids flow along paths that minimize resistance.  
+- **Electromagnetism**: Circuits settle into states that minimize energy.  
+
+## Recap  
+- Nature chooses paths/states that **extremize** action or energy.  
+- The principle applies to mechanics, quantum systems, and beyond.  
+- It’s not a "magic rule"—it’s a way to find stable, optimal configurations.  
+- Mathematically, it involves finding **stationary points** of the action integral.  
+
+[Diagram idea: Energy landscape with a valley representing the lowest-energy state]
+
+RESPONSE:
+
+
+================================================================================
+TIME: 2026-05-04T09:04:20
+NODE: accessibility_judge
+PROMPT_CHARS: 5436
+PROMPT_TOKENS_APPROX: 1359
+RESPONSE_CHARS: 611
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.85}
+================================================================================
+PROMPT:
+Score this EasyPhysics article for accessibility using the rubric below.
+
+Accessibility score, 1-10:
+
+10 = Exceptional. A motivated high-schooler can follow the article's main arc without prior exposure.
+     Jargon is introduced only after intuition. Examples are vivid. Math is explained as meaning,
+     not just symbols. The article feels empowering and clear.
+
+9 = Publishable with light human editing. The main idea is easy to follow; jargon is mostly controlled;
+    analogies are helpful; sections flow logically; any math has a plain-language interpretation.
+
+8 = Strong draft. Mostly clear, but has a few dense sections, unexplained terms, abrupt transitions,
+    or analogies that need more setup.
+
+7 = Useful but uneven. A motivated reader could learn from it, but several passages need simplification,
+    clearer examples, or better sequencing.
+
+6 = Borderline. The article contains useful explanations, but assumes too much background or uses too much jargon.
+
+5 = Mixed. Some good paragraphs, but the structure or language would lose many target readers.
+
+4 = Hard to follow. Mostly written for someone who already knows the subject.
+
+3 = Very inaccessible. Dense, abstract, jargon-heavy, or poorly sequenced.
+
+2 = Barely useful to the target audience.
+
+1 = Fails the accessibility goal.
+
+Accessibility judge priorities:
+- Does the opening give the reader an intuitive foothold?
+- Are standard terms introduced after meaning, not before?
+- Are descriptive names useful rather than cutesy or misleading?
+- Are analogies concrete and then carefully limited?
+- Is any math explained in words?
+- Does the article avoid "spooky/magic/weird" framing while still acknowledging counterintuitive ideas?
+- Does each section make the next section easier?
+
+Return JSON with this shape:
+{
+  "score": 1,
+  "pass": false,
+  "strengths": ["specific strength"],
+  "issues": [
+    {
+      "severity": "low | medium | high",
+      "location": "section or paragraph description",
+      "problem": "specific accessibility issue",
+      "suggested_fix": "specific fix"
+    }
+  ],
+  "best_next_revision": "one concise paragraph describing what to improve next"
+}
+
+Article title: Variational principle
+
+Draft:
+# Variational Principle  
+
+## The core idea  
+Nature chooses paths or states that **extremize** a key quantity—like energy or action. Think of it as a "smart choice" that balances competing factors, such as speed and energy cost. This rule applies across physics, from the motion of planets to the behavior of particles.  
+
+## Why this matters  
+The variational principle unifies seemingly different areas of physics. It explains why light bends, why objects fall, and why quantum systems settle into specific states. By focusing on "optimal" paths, it reveals a deep, universal structure in how nature operates.  
+
+## The simple picture  
+Imagine you’re navigating a maze. Instead of randomly wandering, you take the path that minimizes your time or energy. Similarly, nature "chooses" the path or state that makes the system as stable as possible. [Diagram idea: A maze with a highlighted shortest path]  
+
+## The more precise picture  
+The **variational principle** states that physical systems evolve along paths or states that **extremize** a quantity called **action** {action}. Action is calculated as the integral of the **Lagrangian** {Lagrangian} over time:  
+$$
+S = \int_{t_1}^{t_2} L(q, \dot{q}, t) \, dt
+$$  
+Here, $ L $ is the difference between kinetic and potential energy. Nature picks the path where small changes to the path don’t alter the total action (a **stationary point** {stationary point}).  
+
+- **Classical Mechanics**: A particle takes the path that minimizes action.  
+- **Quantum Mechanics**: The most probable state is the one that minimizes energy.  
+- **General Rule**: Stability drives the system toward the "optimal" configuration.  
+
+[Diagram idea: A graph showing multiple paths between two points, with the action-minimizing path highlighted]  
+
+## Common misconceptions  
+- **Misconception 1**: The principle only applies to classical mechanics.  
+  - **Clarification**: It works for quantum systems, fluids, and even electromagnetic fields.  
+- **Misconception 2**: The principle is about "finding the minimum" alone.  
+  - **Clarification**: It can also find **maxima** (e.g., light bending) or **saddle points**.  
+- **Misconception 3**: The principle is a "magic rule" without physical meaning.  
+  - **Clarification**: It arises from the physical need for systems to settle into stable, lowest-energy states.  
+
+## How this connects to the rest of physics  
+- **Classical Mechanics**: The Brachistochrone problem (fastest path for a particle) and Snell’s Law (light bending) both follow the variational principle.  
+- **Quantum Mechanics**: The **variational method** {variational method} approximates wavefunctions by minimizing energy.  
+- **Fluid Dynamics**: Fluids flow along paths that minimize resistance.  
+- **Electromagnetism**: Circuits settle into states that minimize energy.  
+
+## Recap  
+- Nature chooses paths/states that **extremize** action or energy.  
+- The principle applies to mechanics, quantum systems, and beyond.  
+- It’s not a "magic rule"—it’s a way to find stable, optimal configurations.  
+- Mathematically, it involves finding **stationary points** of the action integral.  
+
+[Diagram idea: Energy landscape with a valley representing the lowest-energy state]
+
+RESPONSE:
+{
+  "score": 7,
+  "pass": false,
+  "strengths": [
+    "Clear intuitive analogies (maze navigation, energy landscapes) provide accessible footholds",
+    "Strong conceptual unification across physics domains",
+    "Well-structured progression from simple to precise explanations"
+  ],
+  "issues": [
+    {
+      "severity": "medium",
+      "location": "More precise picture section",
+      "problem": "Mathematical equation is introduced without sufficient explanation of symbols (q, dot q) or conceptual meaning of action",
+      "suggested_fix": "Add a paragraph explaining what q represents (position), dot q (
+
+================================================================================
+TIME: 2026-05-04T09:07:30
+NODE: rigor_judge
+PROMPT_CHARS: 6669
+PROMPT_TOKENS_APPROX: 1667
+RESPONSE_CHARS: 1527
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.85}
+================================================================================
+PROMPT:
+Score this EasyPhysics article for scientific rigor using the rubric below.
+
+Rigor score, 1-10:
+
+10 = Exceptional. Scientifically accurate, well-qualified, and careful about analogy limits.
+     No obvious misleading simplifications. Claims align with stable accepted physics.
+
+9 = Publishable with light human editing. No major errors. A few details may need polishing,
+    but the article is safe as an educational explanation.
+
+8 = Strong draft. Mostly accurate but has minor imprecision, missing qualifications, or analogy risks.
+
+7 = Useful but needs scientific review. Contains no catastrophic errors, but some claims are too loose,
+    incomplete, or potentially misleading.
+
+6 = Borderline. Several important corrections or qualifications are needed.
+
+5 = Mixed. The article has valuable explanations but also significant inaccuracies or misleading framings.
+
+4 = Scientifically weak. Multiple substantial errors or serious conceptual muddling.
+
+3 = Very unreliable. The reader would likely learn incorrect physics.
+
+2 = Mostly wrong or confused.
+
+1 = Fails the rigor goal.
+
+Rigor judge priorities:
+- Are definitions compatible with standard physics?
+- Are analogies technically safe, with their limits stated when necessary?
+- Are quantum concepts distinguished correctly: amplitude vs probability, superposition vs ignorance,
+  measurement vs ordinary looking, phase vs probability?
+- Are field/particle/wave descriptions accurate enough for a beginner article?
+- Are conservation, symmetry, force, energy, mass, and spin statements properly qualified?
+- Does the article avoid replacing historical jargon with new misleading jargon?
+- Are open questions distinguished from settled explanations?
+
+Use the claim-check results as context, but judge the final draft itself.
+
+Return JSON with this shape:
+{
+  "score": 1,
+  "pass": false,
+  "strengths": ["specific strength"],
+  "issues": [
+    {
+      "severity": "low | medium | high",
+      "location": "section or paragraph description",
+      "problem": "specific rigor issue",
+      "suggested_fix": "specific fix"
+    }
+  ],
+  "best_next_revision": "one concise paragraph describing what to improve next"
+}
+
+Article title: Variational principle
+
+Claim-check context:
+{
+  "claim_checks": [
+    {
+      "id": "C001",
+      "verdict": "supported",
+      "severity": "none",
+      "problem": "",
+      "suggested_fix": "",
+      "source_quality_note": "Snippets from lecture notes, textbooks, and physics references indicate stable, accepted explanations of variational principles."
+    },
+    {
+      "id": "C002",
+      "verdict": "unsupported",
+      "severity": "high",
+      "problem": "The search snippet contains no relevant physics content about variational principles, instead discussing consumer products and unrelated topics",
+      "suggested_fix": "Replace the search snippet with physics textbooks or lecture notes explaining variational principles in mechanics/quantum mechanics",
+      "source_quality_note": "The snippets appear to be from commercial content rather than authoritative physics sources"
+    }
+  ],
+  "summary": {
+    "overall_claim_quality": "Claim check completed.",
+    "unresolved_or_needs_qualification": 1,
+    "highest_priority_fixes": [
+      "Replace the search snippet with physics textbooks or lecture notes explaining variational principles in mechanics/quantum mechanics"
+    ]
+  },
+  "last_updated": "2026-05-04_08-54-16"
+}
+
+Draft:
+# Variational Principle  
+
+## The core idea  
+Nature chooses paths or states that **extremize** a key quantity—like energy or action. Think of it as a "smart choice" that balances competing factors, such as speed and energy cost. This rule applies across physics, from the motion of planets to the behavior of particles.  
+
+## Why this matters  
+The variational principle unifies seemingly different areas of physics. It explains why light bends, why objects fall, and why quantum systems settle into specific states. By focusing on "optimal" paths, it reveals a deep, universal structure in how nature operates.  
+
+## The simple picture  
+Imagine you’re navigating a maze. Instead of randomly wandering, you take the path that minimizes your time or energy. Similarly, nature "chooses" the path or state that makes the system as stable as possible. [Diagram idea: A maze with a highlighted shortest path]  
+
+## The more precise picture  
+The **variational principle** states that physical systems evolve along paths or states that **extremize** a quantity called **action** {action}. Action is calculated as the integral of the **Lagrangian** {Lagrangian} over time:  
+$$
+S = \int_{t_1}^{t_2} L(q, \dot{q}, t) \, dt
+$$  
+Here, $ L $ is the difference between kinetic and potential energy. Nature picks the path where small changes to the path don’t alter the total action (a **stationary point** {stationary point}).  
+
+- **Classical Mechanics**: A particle takes the path that minimizes action.  
+- **Quantum Mechanics**: The most probable state is the one that minimizes energy.  
+- **General Rule**: Stability drives the system toward the "optimal" configuration.  
+
+[Diagram idea: A graph showing multiple paths between two points, with the action-minimizing path highlighted]  
+
+## Common misconceptions  
+- **Misconception 1**: The principle only applies to classical mechanics.  
+  - **Clarification**: It works for quantum systems, fluids, and even electromagnetic fields.  
+- **Misconception 2**: The principle is about "finding the minimum" alone.  
+  - **Clarification**: It can also find **maxima** (e.g., light bending) or **saddle points**.  
+- **Misconception 3**: The principle is a "magic rule" without physical meaning.  
+  - **Clarification**: It arises from the physical need for systems to settle into stable, lowest-energy states.  
+
+## How this connects to the rest of physics  
+- **Classical Mechanics**: The Brachistochrone problem (fastest path for a particle) and Snell’s Law (light bending) both follow the variational principle.  
+- **Quantum Mechanics**: The **variational method** {variational method} approximates wavefunctions by minimizing energy.  
+- **Fluid Dynamics**: Fluids flow along paths that minimize resistance.  
+- **Electromagnetism**: Circuits settle into states that minimize energy.  
+
+## Recap  
+- Nature chooses paths/states that **extremize** action or energy.  
+- The principle applies to mechanics, quantum systems, and beyond.  
+- It’s not a "magic rule"—it’s a way to find stable, optimal configurations.  
+- Mathematically, it involves finding **stationary points** of the action integral.  
+
+[Diagram idea: Energy landscape with a valley representing the lowest-energy state]
+
+RESPONSE:
+{
+  "score": 7,
+  "pass": false,
+  "strengths": [
+    "Clear conceptual framework connecting classical and quantum mechanics",
+    "Useful analogies (maze navigation, energy landscapes) with intuitive explanations",
+    "Accurate mathematical formulation of the action integral"
+  ],
+  "issues": [
+    {
+      "severity": "high",
+      "location": "more precise picture section",
+      "problem": "Equating quantum variational principle with 'minimizing energy' oversimplifies the concept",
+      "suggested_fix": "Clarify that quantum variational principle involves minimizing the expectation value of energy, not just finding lowest-energy states"
+    },
+    {
+      "severity": "medium",
+      "location": "core idea section",
+      "problem": "Confuses extremization of action with extremization of energy in quantum mechanics",
+      "suggested_fix": "Distinguish between classical action extremization and quantum energy minimization"
+    },
+    {
+      "severity": "medium",
+      "location": "common misconceptions section",
+      "problem": "Implies variational principle only finds minima, but doesn't emphasize saddle points' physical relevance",
+      "suggested_fix": "Add examples of saddle points in physical systems (e.g., optical resonances)"
+    }
+  ],
+  "best_next_revision": "Refine the quantum mechanics explanation to emphasize expectation value minimization and clarify the distinction between action extremization and energy minimization, while adding context about saddle points in physical systems."
+}

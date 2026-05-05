@@ -1,0 +1,1077 @@
+
+================================================================================
+TIME: 2026-05-04T11:45:14
+NODE: planner
+PROMPT_CHARS: 472
+PROMPT_TOKENS_APPROX: 118
+RESPONSE_CHARS: 5396
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.85}
+================================================================================
+PROMPT:
+Create a strong teaching outline for this EasyPhysics article:
+
+Title: Decoherence
+
+The outline should include:
+1. Scope: what this article explains.
+2. Out of scope: what it should not try to explain yet.
+3. Prerequisite concepts.
+4. Core intuition.
+5. Suggested descriptive names with standard terms in braces.
+6. Common misconceptions to avoid.
+7. Section-by-section outline.
+8. Optional diagram ideas.
+9. Optional minimal math, with what the math means.
+
+Use Markdown.
+
+RESPONSE:
+```markdown
+# Decoherence
+
+## 1. Scope
+This article explains **decoherence** as the process by which quantum systems lose their quantum behavior (like superposition) when interacting with their environment. It clarifies how this interaction leads to the emergence of classical behavior, answering why we don’t observe quantum effects in everyday life. The focus is on conceptual understanding, not advanced math or speculative theories.
+
+---
+
+## 2. Out of Scope
+- **Many-worlds interpretation** (this article focuses on decoherence as a mechanism, not interpretations of quantum mechanics)
+- **Quantum gravity** or **quantum computing specifics** (advanced topics beyond foundational concepts)
+- **Mathematical formalism** (e.g., density matrices, master equations) unless used for minimal illustrative purposes
+
+---
+
+## 3. Prerequisite Concepts
+- **Quantum superposition** {entangled state}: A system can exist in multiple states at once.
+- **Measurement** {collapse}: Observing a system forces it into a definite state.
+- **Probability** {Born rule}: Quantum states have probabilistic outcomes.
+- **Environment** {surrounding system}: The external world interacting with a quantum system.
+
+---
+
+## 4. Core Intuition
+Decoherence is the **loss of quantum coherence** due to interactions with the environment. When a quantum system (like a particle) interacts with its surroundings (e.g., air molecules, photons), the environment "measures" the system, causing its superposition to break down. This results in **classical probabilities** (like a coin landing heads or tails) instead of quantum possibilities. It explains why macroscopic objects behave classically: their interactions with the environment suppress quantum behavior.
+
+---
+
+## 5. Suggested Descriptive Names with Standard Terms in Braces
+- **Quantum superposition** {entangled state}: A system existing in multiple states simultaneously.
+- **Environmental interaction** {decoherence}: The process of losing quantum coherence via environmental entanglement.
+- **Classical probability** {Born rule}: The outcome of a measurement when quantum coherence is lost.
+- **Quantum memory** {coherence}: The ability of a system to maintain superposition.
+- **Measurement-like interaction** {decoherence}: Environmental entanglement mimicking a measurement.
+
+---
+
+## 6. Common Misconceptions to Avoid
+- ❌ **"Decoherence is the same as wavefunction collapse."**  
+  → Decoherence is a **process** (environmental interaction), while collapse is a **result** (measurement). Decoherence doesn’t fully collapse the wavefunction but makes it appear classical.
+- ❌ **"Decoherence happens in isolation."**  
+  → Decoherence requires **interaction with the environment**; isolation preserves quantum behavior.
+- ❌ **"Decoherence explains consciousness."**  
+  → Decoherence is a **physical process**, not a philosophical or conscious phenomenon.
+
+---
+
+## 7. Section-by-Section Outline
+### **Section 1: Quantum Superposition and the Environment**
+- Explain superposition {entangled state} with examples (e.g., Schrödinger’s cat).
+- Introduce the idea that the environment (e.g., air, light) is always interacting with quantum systems.
+
+### **Section 2: The Role of Environmental Interaction**
+- Describe how the environment becomes **entangled** with the quantum system.
+- Use the analogy of a "quantum memory" {coherence} being overwritten by environmental "noise."
+
+### **Section 3: How Decoherence Works**
+- Explain that environmental interactions cause **phase correlations** to break, making superpositions unstable.
+- Use a simple analogy: A quantum coin (superposition of heads/tails) interacts with the air (environment), causing it to "land" in a definite state.
+
+### **Section 4: From Quantum to Classical**
+- Show how decoherence leads to **classical probabilities** {Born rule} instead of quantum possibilities.
+- Discuss why macroscopic objects (like a cat) never show quantum behavior: their environments suppress superposition rapidly.
+
+### **Section 5: Implications and Limits**
+- Address why decoherence doesn’t fully explain **quantum measurement** {collapse} but is a key step toward classical behavior.
+- Mention that decoherence is **not** a "final answer" but a critical piece of the puzzle.
+
+---
+
+## 8. Optional Diagram Ideas
+1. **Quantum vs. Classical Behavior**: A split diagram showing a quantum system (superposition) interacting with the environment, leading to a classical probability distribution.
+2. **Entanglement Web**: A network showing a quantum system entangled with environmental particles, illustrating how coherence is lost.
+3. **Time Evolution**: A timeline showing superposition → environmental interaction → classical probabilities.
+
+---
+
+## 9. Optional Minimal Math
+- **Probability distribution**:  
+  $ P(\text{outcome}) = |\text{amplitude}|^2 $  
+  → The math shows how quantum amplitudes become classical probabilities after decoherence.
+- **Decoherence rate**:  
+  $ \Gamma \propto \frac{1}{\tau} $  
+  → The rate at which coherence is lost depends on the environment’s "memory time" $ \tau $.
+
+---
+
+## Final Notes
+This article balances **conceptual clarity** with **intuitive analogies** to demystify decoherence. By focusing on the **environment’s role** and the **transition to classical behavior**, it avoids speculative debates while grounding students in the physical mechanisms of quantum systems.
+```
+
+================================================================================
+TIME: 2026-05-04T11:49:04
+NODE: writer
+PROMPT_CHARS: 6802
+PROMPT_TOKENS_APPROX: 1700
+RESPONSE_CHARS: 3435
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.85}
+================================================================================
+PROMPT:
+Write a high-quality first draft for this EasyPhysics article.
+
+Title: Decoherence
+
+Article outline:
+```markdown
+# Decoherence
+
+## 1. Scope
+This article explains **decoherence** as the process by which quantum systems lose their quantum behavior (like superposition) when interacting with their environment. It clarifies how this interaction leads to the emergence of classical behavior, answering why we don’t observe quantum effects in everyday life. The focus is on conceptual understanding, not advanced math or speculative theories.
+
+---
+
+## 2. Out of Scope
+- **Many-worlds interpretation** (this article focuses on decoherence as a mechanism, not interpretations of quantum mechanics)
+- **Quantum gravity** or **quantum computing specifics** (advanced topics beyond foundational concepts)
+- **Mathematical formalism** (e.g., density matrices, master equations) unless used for minimal illustrative purposes
+
+---
+
+## 3. Prerequisite Concepts
+- **Quantum superposition** {entangled state}: A system can exist in multiple states at once.
+- **Measurement** {collapse}: Observing a system forces it into a definite state.
+- **Probability** {Born rule}: Quantum states have probabilistic outcomes.
+- **Environment** {surrounding system}: The external world interacting with a quantum system.
+
+---
+
+## 4. Core Intuition
+Decoherence is the **loss of quantum coherence** due to interactions with the environment. When a quantum system (like a particle) interacts with its surroundings (e.g., air molecules, photons), the environment "measures" the system, causing its superposition to break down. This results in **classical probabilities** (like a coin landing heads or tails) instead of quantum possibilities. It explains why macroscopic objects behave classically: their interactions with the environment suppress quantum behavior.
+
+---
+
+## 5. Suggested Descriptive Names with Standard Terms in Braces
+- **Quantum superposition** {entangled state}: A system existing in multiple states simultaneously.
+- **Environmental interaction** {decoherence}: The process of losing quantum coherence via environmental entanglement.
+- **Classical probability** {Born rule}: The outcome of a measurement when quantum coherence is lost.
+- **Quantum memory** {coherence}: The ability of a system to maintain superposition.
+- **Measurement-like interaction** {decoherence}: Environmental entanglement mimicking a measurement.
+
+---
+
+## 6. Common Misconceptions to Avoid
+- ❌ **"Decoherence is the same as wavefunction collapse."**  
+  → Decoherence is a **process** (environmental interaction), while collapse is a **result** (measurement). Decoherence doesn’t fully collapse the wavefunction but makes it appear classical.
+- ❌ **"Decoherence happens in isolation."**  
+  → Decoherence requires **interaction with the environment**; isolation preserves quantum behavior.
+- ❌ **"Decoherence explains consciousness."**  
+  → Decoherence is a **physical process**, not a philosophical or conscious phenomenon.
+
+---
+
+## 7. Section-by-Section Outline
+### **Section 1: Quantum Superposition and the Environment**
+- Explain superposition {entangled state} with examples (e.g., Schrödinger’s cat).
+- Introduce the idea that the environment (e.g., air, light) is always interacting with quantum systems.
+
+### **Section 2: The Role of Environmental Interaction**
+- Describe how the environment becomes **entangled** with the quantum system.
+- Use the analogy of a "quantum memory" {coherence} being overwritten by environmental "noise."
+
+### **Section 3: How Decoherence Works**
+- Explain that environmental interactions cause **phase correlations** to break, making superpositions unstable.
+- Use a simple analogy: A quantum coin (superposition of heads/tails) interacts with the air (environment), causing it to "land" in a definite state.
+
+### **Section 4: From Quantum to Classical**
+- Show how decoherence leads to **classical probabilities** {Born rule} instead of quantum possibilities.
+- Discuss why macroscopic objects (like a cat) never show quantum behavior: their environments suppress superposition rapidly.
+
+### **Section 5: Implications and Limits**
+- Address why decoherence doesn’t fully explain **quantum measurement** {collapse} but is a key step toward classical behavior.
+- Mention that decoherence is **not** a "final answer" but a critical piece of the puzzle.
+
+---
+
+## 8. Optional Diagram Ideas
+1. **Quantum vs. Classical Behavior**: A split diagram showing a quantum system (superposition) interacting with the environment, leading to a classical probability distribution.
+2. **Entanglement Web**: A network showing a quantum system entangled with environmental particles, illustrating how coherence is lost.
+3. **Time Evolution**: A timeline showing superposition → environmental interaction → classical probabilities.
+
+---
+
+## 9. Optional Minimal Math
+- **Probability distribution**:  
+  $ P(\text{outcome}) = |\text{amplitude}|^2 $  
+  → The math shows how quantum amplitudes become classical probabilities after decoherence.
+- **Decoherence rate**:  
+  $ \Gamma \propto \frac{1}{\tau} $  
+  → The rate at which coherence is lost depends on the environment’s "memory time" $ \tau $.
+
+---
+
+## Final Notes
+This article balances **conceptual clarity** with **intuitive analogies** to demystify decoherence. By focusing on the **environment’s role** and the **transition to classical behavior**, it avoids speculative debates while grounding students in the physical mechanisms of quantum systems.
+```
+
+Human/editor notes:
+# Human/editor notes
+
+Add any preferences, corrections, or article-specific constraints here.
+
+
+Template guidance:
+Preferred article structure:
+
+# Title
+
+## The core idea
+A short, intuitive explanation that gives the reader the main point first.
+
+## Why this matters
+Explain what the concept helps us understand.
+
+## The simple picture
+Use an analogy, diagram idea, or concrete example.
+
+## The more precise picture
+Introduce standard terms, careful distinctions, and optional minimal math.
+
+## Common misconceptions
+Name and correct the traps.
+
+## How this connects to the rest of physics
+Link the concept to fields, particles, symmetry, conservation, relativity, or the Standard Model as appropriate.
+
+## Recap
+A few concise takeaways.
+
+Drafting instructions:
+- Make it accessible to a motivated high-schooler or college freshman.
+- Teach the modern concept directly rather than narrating historical discovery.
+- Use descriptive names with standard terms in braces, e.g. space-occupier {fermion}.
+- Include common misconceptions and correct them.
+- Include minimal math only when it helps, and explain what the math means.
+- Suggest diagram ideas inline where helpful using this format: [Diagram idea: ...]
+- Output only the article in Markdown, with no commentary before or after.
+
+RESPONSE:
+# Decoherence  
+
+## The core idea  
+Decoherence is the process by which quantum systems lose their quantum "memory" when interacting with their environment. It explains why we never see quantum effects like superposition in everyday life—because the environment rapidly "measures" the system, making it behave classically.  
+
+## Why this matters  
+Decoherence bridges the gap between quantum theory and the classical world. It answers a fundamental question: *Why do macroscopic objects behave predictably, while subatomic particles don’t?* By understanding decoherence, we see how quantum rules give way to classical behavior in the real world.  
+
+## The simple picture  
+Imagine a quantum coin that can be both heads and tails at once. If you toss it into the air, the air molecules (the environment) interact with the coin. These interactions act like a "measurement," forcing the coin to settle into a definite state—heads or tails. This is decoherence: the environment "erases" the quantum possibility, leaving only classical probabilities.  
+
+[Diagram idea: A quantum coin (superposition) interacting with air molecules, transitioning to a classical coin with definite heads/tails.]  
+
+## The more precise picture  
+Decoherence occurs when a quantum system becomes entangled with its environment. This entanglement disrupts the system’s ability to maintain superposition, as the environment "records" the system’s state.  
+
+- **Quantum superposition** {entangled state}: A system exists in multiple states simultaneously (e.g., a particle being in two places at once).  
+- **Environmental interaction** {decoherence}: The environment (e.g., photons, air molecules) entangles with the system, breaking its quantum coherence.  
+- **Classical probability** {Born rule}: After decoherence, the system behaves like a classical object with definite outcomes (e.g., a coin landing heads or tails).  
+
+The math of decoherence shows how quantum amplitudes {probability waves} evolve into classical probabilities:  
+$$ P(\text{outcome}) = |\text{amplitude}|^2 $$  
+This equation reveals that decoherence transforms quantum possibilities into the statistical outcomes we observe in the macroscopic world.  
+
+## Common misconceptions  
+- ❌ **"Decoherence is the same as wavefunction collapse."**  
+  → Decoherence is a **process** (environmental interaction), while collapse is a **result** (measurement). Decoherence doesn’t fully collapse the wavefunction but makes it appear classical.  
+- ❌ **"Decoherence happens in isolation."**  
+  → Decoherence requires **interaction with the environment**; isolation preserves quantum behavior.  
+- ❌ **"Decoherence explains consciousness."**  
+  → Decoherence is a **physical process**, not a philosophical or conscious phenomenon.  
+
+## How this connects to the rest of physics  
+Decoherence is central to understanding **quantum measurement** {collapse} and the **classical limit** of quantum mechanics. It also ties to **entanglement** {correlation} and **information theory**, as the environment "records" quantum information, making it inaccessible to the system.  
+
+## Recap  
+- Decoherence is the loss of quantum coherence due to environmental interactions.  
+- It explains why macroscopic objects behave classically.  
+- Decoherence transforms quantum superpositions into classical probabilities.  
+- It is a key step toward understanding the transition from quantum to classical behavior.
+
+================================================================================
+TIME: 2026-05-04T11:50:49
+NODE: term_collector
+PROMPT_CHARS: 3905
+PROMPT_TOKENS_APPROX: 976
+RESPONSE_CHARS: 0
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.85}
+================================================================================
+PROMPT:
+Extract the descriptive-name candidates from this draft.
+
+Return JSON with this shape:
+{
+  "terms": [
+    {
+      "standard_term": "fermion",
+      "candidate_name": "space-occupier",
+      "context_quote": "short quote from the draft",
+      "usefulness": "why this name helps",
+      "risk": "how it could mislead, or empty string if low risk"
+    }
+  ]
+}
+
+Only include actual teaching-name candidates, especially phrases followed by standard terms in braces.
+
+Draft:
+# Decoherence  
+
+## The core idea  
+Decoherence is the process by which quantum systems lose their quantum "memory" when interacting with their environment. It explains why we never see quantum effects like superposition in everyday life—because the environment rapidly "measures" the system, making it behave classically.  
+
+## Why this matters  
+Decoherence bridges the gap between quantum theory and the classical world. It answers a fundamental question: *Why do macroscopic objects behave predictably, while subatomic particles don’t?* By understanding decoherence, we see how quantum rules give way to classical behavior in the real world.  
+
+## The simple picture  
+Imagine a quantum coin that can be both heads and tails at once. If you toss it into the air, the air molecules (the environment) interact with the coin. These interactions act like a "measurement," forcing the coin to settle into a definite state—heads or tails. This is decoherence: the environment "erases" the quantum possibility, leaving only classical probabilities.  
+
+[Diagram idea: A quantum coin (superposition) interacting with air molecules, transitioning to a classical coin with definite heads/tails.]  
+
+## The more precise picture  
+Decoherence occurs when a quantum system becomes entangled with its environment. This entanglement disrupts the system’s ability to maintain superposition, as the environment "records" the system’s state.  
+
+- **Quantum superposition** {entangled state}: A system exists in multiple states simultaneously (e.g., a particle being in two places at once).  
+- **Environmental interaction** {decoherence}: The environment (e.g., photons, air molecules) entangles with the system, breaking its quantum coherence.  
+- **Classical probability** {Born rule}: After decoherence, the system behaves like a classical object with definite outcomes (e.g., a coin landing heads or tails).  
+
+The math of decoherence shows how quantum amplitudes {probability waves} evolve into classical probabilities:  
+$$ P(\text{outcome}) = |\text{amplitude}|^2 $$  
+This equation reveals that decoherence transforms quantum possibilities into the statistical outcomes we observe in the macroscopic world.  
+
+## Common misconceptions  
+- ❌ **"Decoherence is the same as wavefunction collapse."**  
+  → Decoherence is a **process** (environmental interaction), while collapse is a **result** (measurement). Decoherence doesn’t fully collapse the wavefunction but makes it appear classical.  
+- ❌ **"Decoherence happens in isolation."**  
+  → Decoherence requires **interaction with the environment**; isolation preserves quantum behavior.  
+- ❌ **"Decoherence explains consciousness."**  
+  → Decoherence is a **physical process**, not a philosophical or conscious phenomenon.  
+
+## How this connects to the rest of physics  
+Decoherence is central to understanding **quantum measurement** {collapse} and the **classical limit** of quantum mechanics. It also ties to **entanglement** {correlation} and **information theory**, as the environment "records" quantum information, making it inaccessible to the system.  
+
+## Recap  
+- Decoherence is the loss of quantum coherence due to environmental interactions.  
+- It explains why macroscopic objects behave classically.  
+- Decoherence transforms quantum superpositions into classical probabilities.  
+- It is a key step toward understanding the transition from quantum to classical behavior.
+
+RESPONSE:
+
+
+================================================================================
+TIME: 2026-05-04T11:53:26
+NODE: claim_extractor
+PROMPT_CHARS: 4420
+PROMPT_TOKENS_APPROX: 1105
+RESPONSE_CHARS: 1878
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.85}
+================================================================================
+PROMPT:
+Extract 8 to 12 important scientific and explanatory claims from this article draft.
+
+Return JSON with exactly this shape:
+{
+  "claims": [
+    {
+      "id": "C001",
+      "claim": "A clear, standalone claim from the article.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "brief reason",
+      "suggested_search_query": "stable source search query, not latest-news oriented"
+    }
+  ]
+}
+
+Rules:
+- Do not return an empty claims list unless the draft is empty.
+- Use only valid JSON.
+- Use true/false, not True/False.
+- Do not include Markdown fences.
+- Do not include prose before or after the JSON.
+- Extract claims that matter for scientific correctness.
+- Include claims embedded in analogies if the analogy could mislead.
+- Do not include purely stylistic statements.
+- Search queries should prefer stable sources: textbooks, lecture notes, CERN, Fermilab, university pages.
+
+Article title: Decoherence
+
+Draft:
+# Decoherence  
+
+## The core idea  
+Decoherence is the process by which quantum systems lose their quantum "memory" when interacting with their environment. It explains why we never see quantum effects like superposition in everyday life—because the environment rapidly "measures" the system, making it behave classically.  
+
+## Why this matters  
+Decoherence bridges the gap between quantum theory and the classical world. It answers a fundamental question: *Why do macroscopic objects behave predictably, while subatomic particles don’t?* By understanding decoherence, we see how quantum rules give way to classical behavior in the real world.  
+
+## The simple picture  
+Imagine a quantum coin that can be both heads and tails at once. If you toss it into the air, the air molecules (the environment) interact with the coin. These interactions act like a "measurement," forcing the coin to settle into a definite state—heads or tails. This is decoherence: the environment "erases" the quantum possibility, leaving only classical probabilities.  
+
+[Diagram idea: A quantum coin (superposition) interacting with air molecules, transitioning to a classical coin with definite heads/tails.]  
+
+## The more precise picture  
+Decoherence occurs when a quantum system becomes entangled with its environment. This entanglement disrupts the system’s ability to maintain superposition, as the environment "records" the system’s state.  
+
+- **Quantum superposition** {entangled state}: A system exists in multiple states simultaneously (e.g., a particle being in two places at once).  
+- **Environmental interaction** {decoherence}: The environment (e.g., photons, air molecules) entangles with the system, breaking its quantum coherence.  
+- **Classical probability** {Born rule}: After decoherence, the system behaves like a classical object with definite outcomes (e.g., a coin landing heads or tails).  
+
+The math of decoherence shows how quantum amplitudes {probability waves} evolve into classical probabilities:  
+$$ P(\text{outcome}) = |\text{amplitude}|^2 $$  
+This equation reveals that decoherence transforms quantum possibilities into the statistical outcomes we observe in the macroscopic world.  
+
+## Common misconceptions  
+- ❌ **"Decoherence is the same as wavefunction collapse."**  
+  → Decoherence is a **process** (environmental interaction), while collapse is a **result** (measurement). Decoherence doesn’t fully collapse the wavefunction but makes it appear classical.  
+- ❌ **"Decoherence happens in isolation."**  
+  → Decoherence requires **interaction with the environment**; isolation preserves quantum behavior.  
+- ❌ **"Decoherence explains consciousness."**  
+  → Decoherence is a **physical process**, not a philosophical or conscious phenomenon.  
+
+## How this connects to the rest of physics  
+Decoherence is central to understanding **quantum measurement** {collapse} and the **classical limit** of quantum mechanics. It also ties to **entanglement** {correlation} and **information theory**, as the environment "records" quantum information, making it inaccessible to the system.  
+
+## Recap  
+- Decoherence is the loss of quantum coherence due to environmental interactions.  
+- It explains why macroscopic objects behave classically.  
+- Decoherence transforms quantum superpositions into classical probabilities.  
+- It is a key step toward understanding the transition from quantum to classical behavior.
+
+RESPONSE:
+{
+  "claims": [
+    {
+      "id": "C001",
+      "claim": "Decoherence is the process by which quantum systems lose their quantum 'memory' through interaction with their environment.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Explains the transition from quantum to classical behavior in macroscopic systems.",
+      "suggested_search_query": "decoherence quantum mechanics textbook definition"
+    },
+    {
+      "id": "C002",
+      "claim": "Quantum superposition {entangled state} is disrupted by environmental interaction, leading to classical probabilities.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Clarifies how quantum coherence breaks down in real-world conditions.",
+      "suggested_search_query": "quantum decoherence superposition environment"
+    },
+    {
+      "id": "C003",
+      "claim": "The Born rule {classical probability} emerges as quantum amplitudes {probability waves} evolve under decoherence.",
+      "type": "mathematical",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Links quantum mathematics to observable classical statistics.",
+      "suggested_search_query": "decoherence Born rule derivation"
+    },
+    {
+      "id": "C004",
+      "claim": "Decoherence is a physical process {environmental interaction}, distinct from wavefunction collapse {quantum measurement}.",
+      "type": "clarification",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Corrects a common conceptual confusion in quantum theory.",
+      "suggested_search_query": "decoherence vs wavefunction collapse"
+    },
+    {
+      "id": "C005",
+      "claim": "Macroscopic objects behave classically because their quantum states are rapidly '
+
+================================================================================
+TIME: 2026-05-04T11:55:16
+NODE: claim_checker
+PROMPT_CHARS: 6391
+PROMPT_TOKENS_APPROX: 1597
+RESPONSE_CHARS: 297
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.85}
+================================================================================
+PROMPT:
+Check this one article claim against the available search snippet.
+
+Return JSON with this shape:
+{
+  "id": "C001",
+  "verdict": "supported | mostly_supported | needs_qualification | unsupported | contradicted | not_enough_evidence",
+  "severity": "none | low | medium | high",
+  "problem": "specific issue, or empty string",
+  "suggested_fix": "specific correction to the article, or empty string",
+  "source_quality_note": "brief note about whether the snippets look authoritative"
+}
+
+Rules:
+- Be conservative.
+- If the snippet is weak or absent, say not_enough_evidence.
+- Do not demand advanced nuance beyond the article's beginner scope.
+- Do flag misleading simplifications.
+- Focus on stable accepted physics.
+
+Article title: Decoherence
+
+Claim:
+{
+  "id": "C001",
+  "claim": "# Decoherence ## The core idea Decoherence is the process by which quantum systems lose their quantum \"memory\" when interacting with their environment.",
+  "type": "fallback-extracted",
+  "importance": "medium",
+  "needs_external_check": true,
+  "why_it_matters": "Automatically extracted fallback claim; review manually.",
+  "suggested_search_query": "Decoherence # Decoherence ## The core idea Decoherence is the process by which quantum systems lose their physics lecture notes textbook explanation"
+}
+
+Search snippet:
+{
+  "claim": "# Decoherence ## The core idea Decoherence is the process by which quantum systems lose their quantum \"memory\" when interacting with their environment.",
+  "query": "Decoherence # Decoherence ## The core idea Decoherence is the process by which quantum systems lose their physics lecture notes textbook explanation",
+  "result_snippet": "Quantum decoherence is the loss of quantum coherence.Decoherence represents an extremely fast process for macroscopic objects, since these are interacting with many microscopic objects, with an enormous number of degrees of freedom in their natural environment. Lectures on Quantum Decoherence. Jim Al-Khalili Department of Physics. University of Surrey November 8, 2022.1.1 Introducing decoherence. Classical physics has led us to the strategy of dealing with idealised isolated systems. Decoherence: The process by which quantum systems lose their coherent superpositions due to interactions with their environment, leading to classical behaviour.Decoherence explains the apparent disappearance of quantum effects in large systems. Decoherence is the process by which a quantum system loses this coherence because it interacts with its surroundings — with stray photons, fluctuating fields, imperfect control pulses, vibrations, you name it. Quantum Coherence and Decoherence: Decoherence is the process through which a quantum system loses its coherence due to environmental interactions, leading it to behave classically.",
+  "searched_at": "2026-05-04_11-53-28",
+  "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
+}
+
+Relevant draft context:
+# Decoherence  
+
+## The core idea  
+Decoherence is the process by which quantum systems lose their quantum "memory" when interacting with their environment. It explains why we never see quantum effects like superposition in everyday life—because the environment rapidly "measures" the system, making it behave classically.  
+
+## Why this matters  
+Decoherence bridges the gap between quantum theory and the classical world. It answers a fundamental question: *Why do macroscopic objects behave predictably, while subatomic particles don’t?* By understanding decoherence, we see how quantum rules give way to classical behavior in the real world.  
+
+## The simple picture  
+Imagine a quantum coin that can be both heads and tails at once. If you toss it into the air, the air molecules (the environment) interact with the coin. These interactions act like a "measurement," forcing the coin to settle into a definite state—heads or tails. This is decoherence: the environment "erases" the quantum possibility, leaving only classical probabilities.  
+
+[Diagram idea: A quantum coin (superposition) interacting with air molecules, transitioning to a classical coin with definite heads/tails.]  
+
+## The more precise picture  
+Decoherence occurs when a quantum system becomes entangled with its environment. This entanglement disrupts the system’s ability to maintain superposition, as the environment "records" the system’s state.  
+
+- **Quantum superposition** {entangled state}: A system exists in multiple states simultaneously (e.g., a particle being in two places at once).  
+- **Environmental interaction** {decoherence}: The environment (e.g., photons, air molecules) entangles with the system, breaking its quantum coherence.  
+- **Classical probability** {Born rule}: After decoherence, the system behaves like a classical object with definite outcomes (e.g., a coin landing heads or tails).  
+
+The math of decoherence shows how quantum amplitudes {probability waves} evolve into classical probabilities:  
+$$ P(\text{outcome}) = |\text{amplitude}|^2 $$  
+This equation reveals that decoherence transforms quantum possibilities into the statistical outcomes we observe in the macroscopic world.  
+
+## Common misconceptions  
+- ❌ **"Decoherence is the same as wavefunction collapse."**  
+  → Decoherence is a **process** (environmental interaction), while collapse is a **result** (measurement). Decoherence doesn’t fully collapse the wavefunction but makes it appear classical.  
+- ❌ **"Decoherence happens in isolation."**  
+  → Decoherence requires **interaction with the environment**; isolation preserves quantum behavior.  
+- ❌ **"Decoherence explains consciousness."**  
+  → Decoherence is a **physical process**, not a philosophical or conscious phenomenon.  
+
+## How this connects to the rest of physics  
+Decoherence is central to understanding **quantum measurement** {collapse} and the **classical limit** of quantum mechanics. It also ties to **entanglement** {correlation} and **information theory**, as the environment "records" quantum information, making it inaccessible to the system.  
+
+## Recap  
+- Decoherence is the loss of quantum coherence due to environmental interactions.  
+- It explains why macroscopic objects behave classically.  
+- Decoherence transforms quantum superpositions into classical probabilities.  
+- It is a key step toward understanding the transition from quantum to classical behavior.
+
+RESPONSE:
+{
+  "id": "C001",
+  "verdict": "supported",
+  "severity": "low",
+  "problem": "",
+  "suggested_fix": "",
+  "source_quality_note": "The snippet comes from a university lecture note (University of Surrey) and multiple authoritative definitions of decoherence, which are consistent with the claim."
+}
+
+================================================================================
+TIME: 2026-05-04T11:56:59
+NODE: claim_checker
+PROMPT_CHARS: 6430
+PROMPT_TOKENS_APPROX: 1607
+RESPONSE_CHARS: 520
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.85}
+================================================================================
+PROMPT:
+Check this one article claim against the available search snippet.
+
+Return JSON with this shape:
+{
+  "id": "C002",
+  "verdict": "supported | mostly_supported | needs_qualification | unsupported | contradicted | not_enough_evidence",
+  "severity": "none | low | medium | high",
+  "problem": "specific issue, or empty string",
+  "suggested_fix": "specific correction to the article, or empty string",
+  "source_quality_note": "brief note about whether the snippets look authoritative"
+}
+
+Rules:
+- Be conservative.
+- If the snippet is weak or absent, say not_enough_evidence.
+- Do not demand advanced nuance beyond the article's beginner scope.
+- Do flag misleading simplifications.
+- Focus on stable accepted physics.
+
+Article title: Decoherence
+
+Claim:
+{
+  "id": "C002",
+  "claim": "It explains why we never see quantum effects like superposition in everyday life—because the environment rapidly \"measures\" the system, making it behave classically.",
+  "type": "fallback-extracted",
+  "importance": "medium",
+  "needs_external_check": true,
+  "why_it_matters": "Automatically extracted fallback claim; review manually.",
+  "suggested_search_query": "Decoherence It explains why we never see quantum effects like superposition in everyday life—because the environment rapidly physics lecture notes textbook explanation"
+}
+
+Search snippet:
+{
+  "claim": "It explains why we never see quantum effects like superposition in everyday life—because the environment rapidly \"measures\" the system, making it behave classically.",
+  "query": "Decoherence It explains why we never see quantum effects like superposition in everyday life—because the environment rapidly physics lecture notes textbook explanation",
+  "result_snippet": "Quantum decoherence is the loss of quantum coherence. It involves generally a loss of information of a system to its environment. Quantum decoherence has been studied to understand how quantum systems convert to systems that can be explained by classical mechanics. At the heart of quantum physics lies a universe of probabilities, superpositions, and entanglements. Subatomic particles, like electrons or photons, don’t just exist in one state; they can simultaneously occupy several states or locations until observed. MIT 8.04 Quantum Physics I, Spring 2013View the complete course: http://ocw.mit.edu/8-04S13Instructor: Allan AdamsIn this lecture, Prof. Why one does not observe quantum effects like superposition in daily life is not because quantum theory breaks down for objects above a certain size, but because decoherence is brought about by inevitable coupling with the environment. Decoherence explains why we observe position eigenstates rather than momentum eigenstates, but not why we observe this particular position. See quantum-measurement-and-consciousness for extended analysis.",
+  "searched_at": "2026-05-04_11-53-30",
+  "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
+}
+
+Relevant draft context:
+# Decoherence  
+
+## The core idea  
+Decoherence is the process by which quantum systems lose their quantum "memory" when interacting with their environment. It explains why we never see quantum effects like superposition in everyday life—because the environment rapidly "measures" the system, making it behave classically.  
+
+## Why this matters  
+Decoherence bridges the gap between quantum theory and the classical world. It answers a fundamental question: *Why do macroscopic objects behave predictably, while subatomic particles don’t?* By understanding decoherence, we see how quantum rules give way to classical behavior in the real world.  
+
+## The simple picture  
+Imagine a quantum coin that can be both heads and tails at once. If you toss it into the air, the air molecules (the environment) interact with the coin. These interactions act like a "measurement," forcing the coin to settle into a definite state—heads or tails. This is decoherence: the environment "erases" the quantum possibility, leaving only classical probabilities.  
+
+[Diagram idea: A quantum coin (superposition) interacting with air molecules, transitioning to a classical coin with definite heads/tails.]  
+
+## The more precise picture  
+Decoherence occurs when a quantum system becomes entangled with its environment. This entanglement disrupts the system’s ability to maintain superposition, as the environment "records" the system’s state.  
+
+- **Quantum superposition** {entangled state}: A system exists in multiple states simultaneously (e.g., a particle being in two places at once).  
+- **Environmental interaction** {decoherence}: The environment (e.g., photons, air molecules) entangles with the system, breaking its quantum coherence.  
+- **Classical probability** {Born rule}: After decoherence, the system behaves like a classical object with definite outcomes (e.g., a coin landing heads or tails).  
+
+The math of decoherence shows how quantum amplitudes {probability waves} evolve into classical probabilities:  
+$$ P(\text{outcome}) = |\text{amplitude}|^2 $$  
+This equation reveals that decoherence transforms quantum possibilities into the statistical outcomes we observe in the macroscopic world.  
+
+## Common misconceptions  
+- ❌ **"Decoherence is the same as wavefunction collapse."**  
+  → Decoherence is a **process** (environmental interaction), while collapse is a **result** (measurement). Decoherence doesn’t fully collapse the wavefunction but makes it appear classical.  
+- ❌ **"Decoherence happens in isolation."**  
+  → Decoherence requires **interaction with the environment**; isolation preserves quantum behavior.  
+- ❌ **"Decoherence explains consciousness."**  
+  → Decoherence is a **physical process**, not a philosophical or conscious phenomenon.  
+
+## How this connects to the rest of physics  
+Decoherence is central to understanding **quantum measurement** {collapse} and the **classical limit** of quantum mechanics. It also ties to **entanglement** {correlation} and **information theory**, as the environment "records" quantum information, making it inaccessible to the system.  
+
+## Recap  
+- Decoherence is the loss of quantum coherence due to environmental interactions.  
+- It explains why macroscopic objects behave classically.  
+- Decoherence transforms quantum superpositions into classical probabilities.  
+- It is a key step toward understanding the transition from quantum to classical behavior.
+
+RESPONSE:
+{
+  "id": "C002",
+  "verdict": "supported",
+  "severity": "low",
+  "problem": "Simplification of 'environmental measurement' may imply traditional measurement collapse, whereas decoherence involves entanglement and information loss without conscious observation",
+  "suggested_fix": "Clarify that decoherence involves environmental entanglement disrupting quantum coherence, rather than the environment acting as a measurement device",
+  "source_quality_note": "MIT lecture notes are authoritative educational sources"
+}
+
+================================================================================
+TIME: 2026-05-04T11:58:45
+NODE: term_collector
+PROMPT_CHARS: 3905
+PROMPT_TOKENS_APPROX: 976
+RESPONSE_CHARS: 0
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.85}
+================================================================================
+PROMPT:
+Extract the descriptive-name candidates from this draft.
+
+Return JSON with this shape:
+{
+  "terms": [
+    {
+      "standard_term": "fermion",
+      "candidate_name": "space-occupier",
+      "context_quote": "short quote from the draft",
+      "usefulness": "why this name helps",
+      "risk": "how it could mislead, or empty string if low risk"
+    }
+  ]
+}
+
+Only include actual teaching-name candidates, especially phrases followed by standard terms in braces.
+
+Draft:
+# Decoherence  
+
+## The core idea  
+Decoherence is the process by which quantum systems lose their quantum "memory" when interacting with their environment. It explains why we never see quantum effects like superposition in everyday life—because the environment rapidly "measures" the system, making it behave classically.  
+
+## Why this matters  
+Decoherence bridges the gap between quantum theory and the classical world. It answers a fundamental question: *Why do macroscopic objects behave predictably, while subatomic particles don’t?* By understanding decoherence, we see how quantum rules give way to classical behavior in the real world.  
+
+## The simple picture  
+Imagine a quantum coin that can be both heads and tails at once. If you toss it into the air, the air molecules (the environment) interact with the coin. These interactions act like a "measurement," forcing the coin to settle into a definite state—heads or tails. This is decoherence: the environment "erases" the quantum possibility, leaving only classical probabilities.  
+
+[Diagram idea: A quantum coin (superposition) interacting with air molecules, transitioning to a classical coin with definite heads/tails.]  
+
+## The more precise picture  
+Decoherence occurs when a quantum system becomes entangled with its environment. This entanglement disrupts the system’s ability to maintain superposition, as the environment "records" the system’s state.  
+
+- **Quantum superposition** {entangled state}: A system exists in multiple states simultaneously (e.g., a particle being in two places at once).  
+- **Environmental interaction** {decoherence}: The environment (e.g., photons, air molecules) entangles with the system, breaking its quantum coherence.  
+- **Classical probability** {Born rule}: After decoherence, the system behaves like a classical object with definite outcomes (e.g., a coin landing heads or tails).  
+
+The math of decoherence shows how quantum amplitudes {probability waves} evolve into classical probabilities:  
+$$ P(\text{outcome}) = |\text{amplitude}|^2 $$  
+This equation reveals that decoherence transforms quantum possibilities into the statistical outcomes we observe in the macroscopic world.  
+
+## Common misconceptions  
+- ❌ **"Decoherence is the same as wavefunction collapse."**  
+  → Decoherence is a **process** (environmental interaction), while collapse is a **result** (measurement). Decoherence doesn’t fully collapse the wavefunction but makes it appear classical.  
+- ❌ **"Decoherence happens in isolation."**  
+  → Decoherence requires **interaction with the environment**; isolation preserves quantum behavior.  
+- ❌ **"Decoherence explains consciousness."**  
+  → Decoherence is a **physical process**, not a philosophical or conscious phenomenon.  
+
+## How this connects to the rest of physics  
+Decoherence is central to understanding **quantum measurement** {collapse} and the **classical limit** of quantum mechanics. It also ties to **entanglement** {correlation} and **information theory**, as the environment "records" quantum information, making it inaccessible to the system.  
+
+## Recap  
+- Decoherence is the loss of quantum coherence due to environmental interactions.  
+- It explains why macroscopic objects behave classically.  
+- Decoherence transforms quantum superpositions into classical probabilities.  
+- It is a key step toward understanding the transition from quantum to classical behavior.
+
+RESPONSE:
+
+
+================================================================================
+TIME: 2026-05-04T12:01:38
+NODE: accessibility_judge
+PROMPT_CHARS: 5627
+PROMPT_TOKENS_APPROX: 1406
+RESPONSE_CHARS: 1079
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.85}
+================================================================================
+PROMPT:
+Score this EasyPhysics article for accessibility using the rubric below.
+
+Accessibility score, 1-10:
+
+10 = Exceptional. A motivated high-schooler can follow the article's main arc without prior exposure.
+     Jargon is introduced only after intuition. Examples are vivid. Math is explained as meaning,
+     not just symbols. The article feels empowering and clear.
+
+9 = Publishable with light human editing. The main idea is easy to follow; jargon is mostly controlled;
+    analogies are helpful; sections flow logically; any math has a plain-language interpretation.
+
+8 = Strong draft. Mostly clear, but has a few dense sections, unexplained terms, abrupt transitions,
+    or analogies that need more setup.
+
+7 = Useful but uneven. A motivated reader could learn from it, but several passages need simplification,
+    clearer examples, or better sequencing.
+
+6 = Borderline. The article contains useful explanations, but assumes too much background or uses too much jargon.
+
+5 = Mixed. Some good paragraphs, but the structure or language would lose many target readers.
+
+4 = Hard to follow. Mostly written for someone who already knows the subject.
+
+3 = Very inaccessible. Dense, abstract, jargon-heavy, or poorly sequenced.
+
+2 = Barely useful to the target audience.
+
+1 = Fails the accessibility goal.
+
+Accessibility judge priorities:
+- Does the opening give the reader an intuitive foothold?
+- Are standard terms introduced after meaning, not before?
+- Are descriptive names useful rather than cutesy or misleading?
+- Are analogies concrete and then carefully limited?
+- Is any math explained in words?
+- Does the article avoid "spooky/magic/weird" framing while still acknowledging counterintuitive ideas?
+- Does each section make the next section easier?
+
+Return JSON with this shape:
+{
+  "score": 1,
+  "pass": false,
+  "strengths": ["specific strength"],
+  "issues": [
+    {
+      "severity": "low | medium | high",
+      "location": "section or paragraph description",
+      "problem": "specific accessibility issue",
+      "suggested_fix": "specific fix"
+    }
+  ],
+  "best_next_revision": "one concise paragraph describing what to improve next"
+}
+
+Article title: Decoherence
+
+Draft:
+# Decoherence  
+
+## The core idea  
+Decoherence is the process by which quantum systems lose their quantum "memory" when interacting with their environment. It explains why we never see quantum effects like superposition in everyday life—because the environment rapidly "measures" the system, making it behave classically.  
+
+## Why this matters  
+Decoherence bridges the gap between quantum theory and the classical world. It answers a fundamental question: *Why do macroscopic objects behave predictably, while subatomic particles don’t?* By understanding decoherence, we see how quantum rules give way to classical behavior in the real world.  
+
+## The simple picture  
+Imagine a quantum coin that can be both heads and tails at once. If you toss it into the air, the air molecules (the environment) interact with the coin. These interactions act like a "measurement," forcing the coin to settle into a definite state—heads or tails. This is decoherence: the environment "erases" the quantum possibility, leaving only classical probabilities.  
+
+[Diagram idea: A quantum coin (superposition) interacting with air molecules, transitioning to a classical coin with definite heads/tails.]  
+
+## The more precise picture  
+Decoherence occurs when a quantum system becomes entangled with its environment. This entanglement disrupts the system’s ability to maintain superposition, as the environment "records" the system’s state.  
+
+- **Quantum superposition** {entangled state}: A system exists in multiple states simultaneously (e.g., a particle being in two places at once).  
+- **Environmental interaction** {decoherence}: The environment (e.g., photons, air molecules) entangles with the system, breaking its quantum coherence.  
+- **Classical probability** {Born rule}: After decoherence, the system behaves like a classical object with definite outcomes (e.g., a coin landing heads or tails).  
+
+The math of decoherence shows how quantum amplitudes {probability waves} evolve into classical probabilities:  
+$$ P(\text{outcome}) = |\text{amplitude}|^2 $$  
+This equation reveals that decoherence transforms quantum possibilities into the statistical outcomes we observe in the macroscopic world.  
+
+## Common misconceptions  
+- ❌ **"Decoherence is the same as wavefunction collapse."**  
+  → Decoherence is a **process** (environmental interaction), while collapse is a **result** (measurement). Decoherence doesn’t fully collapse the wavefunction but makes it appear classical.  
+- ❌ **"Decoherence happens in isolation."**  
+  → Decoherence requires **interaction with the environment**; isolation preserves quantum behavior.  
+- ❌ **"Decoherence explains consciousness."**  
+  → Decoherence is a **physical process**, not a philosophical or conscious phenomenon.  
+
+## How this connects to the rest of physics  
+Decoherence is central to understanding **quantum measurement** {collapse} and the **classical limit** of quantum mechanics. It also ties to **entanglement** {correlation} and **information theory**, as the environment "records" quantum information, making it inaccessible to the system.  
+
+## Recap  
+- Decoherence is the loss of quantum coherence due to environmental interactions.  
+- It explains why macroscopic objects behave classically.  
+- Decoherence transforms quantum superpositions into classical probabilities.  
+- It is a key step toward understanding the transition from quantum to classical behavior.
+
+RESPONSE:
+{
+  "score": 8,
+  "pass": true,
+  "strengths": [
+    "Clear intuitive analogies (quantum coin) provide accessible foothold",
+    "Misconceptions section effectively clarifies common misunderstandings",
+    "Logical progression from simple to precise explanations"
+  ],
+  "issues": [
+    {
+      "severity": "medium",
+      "location": "The more precise picture section",
+      "problem": "Math equation is presented without explaining what 'amplitude' means",
+      "suggested_fix": "Add plain-language explanation that 'amplitude' represents probability waves before showing the equation"
+    },
+    {
+      "severity": "low",
+      "location": "The more precise picture section",
+      "problem": "Diagram idea is mentioned but not included",
+      "suggested_fix": "Add a simple diagram showing quantum superposition transitioning to classical states"
+    }
+  ],
+  "best_next_revision": "Expand the explanation of the probability wave concept before introducing the math equation, and include a visual diagram to reinforce the transition from quantum to classical behavior."
+}
+
+================================================================================
+TIME: 2026-05-04T12:05:07
+NODE: rigor_judge
+PROMPT_CHARS: 6930
+PROMPT_TOKENS_APPROX: 1732
+RESPONSE_CHARS: 821
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.85}
+================================================================================
+PROMPT:
+Score this EasyPhysics article for scientific rigor using the rubric below.
+
+Rigor score, 1-10:
+
+10 = Exceptional. Scientifically accurate, well-qualified, and careful about analogy limits.
+     No obvious misleading simplifications. Claims align with stable accepted physics.
+
+9 = Publishable with light human editing. No major errors. A few details may need polishing,
+    but the article is safe as an educational explanation.
+
+8 = Strong draft. Mostly accurate but has minor imprecision, missing qualifications, or analogy risks.
+
+7 = Useful but needs scientific review. Contains no catastrophic errors, but some claims are too loose,
+    incomplete, or potentially misleading.
+
+6 = Borderline. Several important corrections or qualifications are needed.
+
+5 = Mixed. The article has valuable explanations but also significant inaccuracies or misleading framings.
+
+4 = Scientifically weak. Multiple substantial errors or serious conceptual muddling.
+
+3 = Very unreliable. The reader would likely learn incorrect physics.
+
+2 = Mostly wrong or confused.
+
+1 = Fails the rigor goal.
+
+Rigor judge priorities:
+- Are definitions compatible with standard physics?
+- Are analogies technically safe, with their limits stated when necessary?
+- Are quantum concepts distinguished correctly: amplitude vs probability, superposition vs ignorance,
+  measurement vs ordinary looking, phase vs probability?
+- Are field/particle/wave descriptions accurate enough for a beginner article?
+- Are conservation, symmetry, force, energy, mass, and spin statements properly qualified?
+- Does the article avoid replacing historical jargon with new misleading jargon?
+- Are open questions distinguished from settled explanations?
+
+Use the claim-check results as context, but judge the final draft itself.
+
+Return JSON with this shape:
+{
+  "score": 1,
+  "pass": false,
+  "strengths": ["specific strength"],
+  "issues": [
+    {
+      "severity": "low | medium | high",
+      "location": "section or paragraph description",
+      "problem": "specific rigor issue",
+      "suggested_fix": "specific fix"
+    }
+  ],
+  "best_next_revision": "one concise paragraph describing what to improve next"
+}
+
+Article title: Decoherence
+
+Claim-check context:
+{
+  "claim_checks": [
+    {
+      "id": "C001",
+      "verdict": "supported",
+      "severity": "low",
+      "problem": "",
+      "suggested_fix": "",
+      "source_quality_note": "The snippet comes from a university lecture note (University of Surrey) and multiple authoritative definitions of decoherence, which are consistent with the claim."
+    },
+    {
+      "id": "C002",
+      "verdict": "supported",
+      "severity": "low",
+      "problem": "Simplification of 'environmental measurement' may imply traditional measurement collapse, whereas decoherence involves entanglement and information loss without conscious observation",
+      "suggested_fix": "Clarify that decoherence involves environmental entanglement disrupting quantum coherence, rather than the environment acting as a measurement device",
+      "source_quality_note": "MIT lecture notes are authoritative educational sources"
+    }
+  ],
+  "summary": {
+    "overall_claim_quality": "Claim check completed.",
+    "unresolved_or_needs_qualification": 0,
+    "highest_priority_fixes": [
+      "Clarify that decoherence involves environmental entanglement disrupting quantum coherence, rather than the environment acting as a measurement device"
+    ]
+  },
+  "last_updated": "2026-05-04_11-56-59"
+}
+
+Draft:
+# Decoherence  
+
+## The core idea  
+Decoherence is the process by which quantum systems lose their quantum "memory" when interacting with their environment. It explains why we never see quantum effects like superposition in everyday life—because the environment rapidly "measures" the system, making it behave classically.  
+
+## Why this matters  
+Decoherence bridges the gap between quantum theory and the classical world. It answers a fundamental question: *Why do macroscopic objects behave predictably, while subatomic particles don’t?* By understanding decoherence, we see how quantum rules give way to classical behavior in the real world.  
+
+## The simple picture  
+Imagine a quantum coin that can be both heads and tails at once. If you toss it into the air, the air molecules (the environment) interact with the coin. These interactions act like a "measurement," forcing the coin to settle into a definite state—heads or tails. This is decoherence: the environment "erases" the quantum possibility, leaving only classical probabilities.  
+
+[Diagram idea: A quantum coin (superposition) interacting with air molecules, transitioning to a classical coin with definite heads/tails.]  
+
+## The more precise picture  
+Decoherence occurs when a quantum system becomes entangled with its environment. This entanglement disrupts the system’s ability to maintain superposition, as the environment "records" the system’s state.  
+
+- **Quantum superposition** {entangled state}: A system exists in multiple states simultaneously (e.g., a particle being in two places at once).  
+- **Environmental interaction** {decoherence}: The environment (e.g., photons, air molecules) entangles with the system, breaking its quantum coherence.  
+- **Classical probability** {Born rule}: After decoherence, the system behaves like a classical object with definite outcomes (e.g., a coin landing heads or tails).  
+
+The math of decoherence shows how quantum amplitudes {probability waves} evolve into classical probabilities:  
+$$ P(\text{outcome}) = |\text{amplitude}|^2 $$  
+This equation reveals that decoherence transforms quantum possibilities into the statistical outcomes we observe in the macroscopic world.  
+
+## Common misconceptions  
+- ❌ **"Decoherence is the same as wavefunction collapse."**  
+  → Decoherence is a **process** (environmental interaction), while collapse is a **result** (measurement). Decoherence doesn’t fully collapse the wavefunction but makes it appear classical.  
+- ❌ **"Decoherence happens in isolation."**  
+  → Decoherence requires **interaction with the environment**; isolation preserves quantum behavior.  
+- ❌ **"Decoherence explains consciousness."**  
+  → Decoherence is a **physical process**, not a philosophical or conscious phenomenon.  
+
+## How this connects to the rest of physics  
+Decoherence is central to understanding **quantum measurement** {collapse} and the **classical limit** of quantum mechanics. It also ties to **entanglement** {correlation} and **information theory**, as the environment "records" quantum information, making it inaccessible to the system.  
+
+## Recap  
+- Decoherence is the loss of quantum coherence due to environmental interactions.  
+- It explains why macroscopic objects behave classically.  
+- Decoherence transforms quantum superpositions into classical probabilities.  
+- It is a key step toward understanding the transition from quantum to classical behavior.
+
+RESPONSE:
+{
+  "score": 8,
+  "pass": false,
+  "strengths": [
+    "Clear conceptual distinction between decoherence and wavefunction collapse",
+    "Accurate use of Born rule and probability interpretation",
+    "Effective common misconception section with precise corrections"
+  ],
+  "issues": [
+    {
+      "severity": "medium",
+      "location": "simple picture section",
+      "problem": "Implies environment acts as a measurement device, conflating decoherence with traditional measurement collapse",
+      "suggested_fix": "Replace 'environmental measurement' with 'environmental entanglement disrupting coherence'"
+    },
+    {
+      "severity": "medium",
+      "location": "more precise picture section",
+      "problem": "Mislabels quantum superposition as 'entangled state' {entangled state}, conflating distinct concepts",

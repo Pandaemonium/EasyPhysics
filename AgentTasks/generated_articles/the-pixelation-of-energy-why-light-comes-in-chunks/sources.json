@@ -1,0 +1,54 @@
+{
+  "sources_by_claim": {
+    "C001": {
+      "claim": "Light behaves as discrete energy packets called photons {energy quanta}, not as continuous waves.",
+      "query": "quantum nature of light Planck Einstein",
+      "result_snippet": "21.1 Planck and Quantum Nature of Light ... Physics 21.1 Planck and Quantum Nature of Light ... knows simple examples of atomic, nuclear, and quantum ... Einstein ’ s quantum theory, developed by Albert Einstein in the early 20th century, expanded upon Max Planck ’ s work on the quantization ... By the end of the 19th century, the battle over the nature of light as a wave or a collection of particles seemed over. Einstein showed that the energy of the light itself was equal to its frequency multiplied by Planck’s constant. ... of time, space and gravity, ... ... of the 20th century with Quantum Physics it was discovered that light was emitted and received in discrete amounts (Planck, 1900; Einstein,1905), ...",
+      "searched_at": "2026-05-03_20-59-59",
+      "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
+    },
+    "C002": {
+      "claim": "Energy quantization solves the ultraviolet catastrophe in blackbody radiation.",
+      "query": "blackbody radiation ultraviolet catastrophe",
+      "result_snippet": "Black-body radiation As the temperature of a black body decreases, the emitted thermal radiation decreases in intensity and its maximum moves to longer wavelengths. Shown for comparison is the classical Rayleigh-Jeans law and its ultraviolet catastrophe. The study of thermal radiation emitted by a black body founded the quantum theory of radiation. The development of this study revealed discrepancies with the predictions of classical physics ... Quantizing Electrons in the Radiator In 1900, the German physicist Max Planck (1858-1947) explained the ultraviolet catastrophe by proposing that the energy of electromagnetic waves is quantized rather than continuous. This means that for each temperature, there is a maximum intensity of radiation that is emitted in a blackbody object, corresponding to the peaks in Figure 1.2.1 , so the ... The Ultraviolet Catastrophe: Classical Physics Meets Its Limits Applications of Blackbody Radiation in Modern Science and Technology Black body Radiation and the Cosmic Microwave Background Real-World Examples: Stars as Approximate Blackbodies Experimental Approaches to Studying Black body Radiation Conclusion References Short Answer Classical physics failed to explain blackbody radiation because it assumed that energy is continuous and can take any value. Using this idea, classical theories predicted that the energy emitted at short wavelengths should become extremely large. This incorrect prediction was known as the \"ultraviolet catastrophe.\" However, experiments showed that blackbodies emit limited ...",
+      "searched_at": "2026-05-03_21-00-00",
+      "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
+    },
+    "C003": {
+      "claim": "The photoelectric effect demonstrates that light energy depends on frequency, not intensity.",
+      "query": "photoelectric effect Einstein equation",
+      "result_snippet": "The photoelectric effect is the emission of electrons from a material caused by electromagnetic radiation such as ultraviolet light. Electrons emitted in this manner are called photoelectrons. The phenomenon is studied in condensed matter physics, solid state... This is called the photoelectric effect, meaning that light (photo) produces electricity.This equation, due to Einstein in 1905, explains the properties of the photoelectric effect quantitatively. The photoelectric effect is an important concept that helps us to clearly understand the quantum nature of light and electrons. Einstein postulated that light consists of a large number of identical particles called photons.FAQs on the Einstein’s Equation of Photoelectric Effect. Understanding concepts of the Photoelectric Effect, Concepts of Einstein's Photoelectric Equations, definition, graphs and its applications to enhance your NEET Exam Preparation.2.0Photoelectric Effect Uses. Solar cell Panel for Electricity Generation. Albert Einstein, one of the greatest physicists, contributed his inevitable works and proposed many theories in different fields of physics like the special theory of relativity, concepts of the black hole, photoelectric effect, Einstein quantum theory, Einstein-Maxwell equation...",
+      "searched_at": "2026-05-03_21-00-05",
+      "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
+    },
+    "C004": {
+      "claim": "Planck's equation E = hf {energy-frequency relationship} defines photon energy in terms of frequency.",
+      "query": "Planck equation photon energy",
+      "result_snippet": "The relation accounts for the quantized nature of light and plays a key role in understanding phenomena such as the photoelectric effect and black-body radiation (where the related Planck postulate can be used to derive Planck's law). In this section, we shall define the concept of a photon of light and see how planck's equation relates the frequency and wavelength to the energy of light. A black body is an object that absorbs light of all frequencies, and if heated, a black body will emit light of a characteristic spectrum. Calculate photon energy using Planck's equation (E = hÎ½). Relate energy, frequency, and wavelength for electromagnetic radiation and quantum mechanics applications. With this photon energy calculator, you can explore the relationship between the wavelength and frequency of the photon and its energy. Read the text below to find out how to calculate the energy of a photon and what is Planck's equation. Calculate photon energy (J/eV) from frequency or wavelength using Planck's equation. Instant results, EM spectrum classification & color visualization. Free quantum physics tool.",
+      "searched_at": "2026-05-03_21-00-08",
+      "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
+    },
+    "C005": {
+      "claim": "Photons are massless but carry energy and momentum, correcting the misconception that they 'have mass'.",
+      "query": "photon mass quantum mechanics",
+      "result_snippet": "The photon concept has led to momentous advances in experimental and theoretical physics, including lasers, Bose–Einstein condensation, quantum field theory, and the probabilistic interpretation of quantum mechanics. We can say photons are Quantum of electromagnetic energy. Photons always travels with speed of light. Rest mass is zero means it cannot exist at rest. We should not talk about mass of the photons. Only its energy and momentum are well defined. Photons are the quantum particles of light, central to both classical electromagnetism and quantum mechanics. A common question arises from their seemingly paradoxical nature: If photons have zero rest mass, how can they possess energy? The mass squared of emitted photon is always negative ( m2 < 0 ) = unreal photon ! So the quantum mechanics's photon model violates basic phisycal law. We have to abandon this quantum mechanics based on unreal virtual photon. For quantum mechanics to be mechanical would require that we have a mechanical explanation of quantization, but we do not.At any rate, gravity is present throughout the experiment, and though it can be ignored as a matter of relative mass, it cannot be ignored mechanically.",
+      "searched_at": "2026-05-03_21-00-10",
+      "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
+    },
+    "C006": {
+      "claim": "Energy quantization is universal, applying to atoms, electrons, and fundamental forces {Standard Model}.",
+      "query": "quantum mechanics universality Standard Model",
+      "result_snippet": "When quantum mechanics was originally formulated, it was applied to models whose correspondence limit was non-relativistic classical mechanics. For instance, the well-known model of the quantum harmonic oscillator uses an explicitly... This is a course on the Standard Model, given to Part III (i.e. masters level) students. It assumes a basic knowledge of quantum field theory and describes the structure of the Standard Model, as well as a number of important, underlying aspects of field theory. The Standard Model is built from relativistic quantum field theories we already know about. QED is incorporated into electroweak theory, and the whole is woven together with QCD to create a single theory whose essential elements can be written in a single equation. Quantum mechanics helps people understand chemistry, because it explains how atoms interact with each other and form molecules. Many remarkable phenomena can be explained using quantum mechanics, like superfluidity. The quantum theory used to describe the micro world, and the general theory of relativity used to describe the macro world, are difficult to fit into a single framework. No one has managed to make the two mathematically compatible in the context of the Standard Model.",
+      "searched_at": "2026-05-03_21-00-11",
+      "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
+    },
+    "C007": {
+      "claim": "Quantization explains atomic spectral lines, electron energy level transitions, and modern technologies like lasers.",
+      "query": "quantum transitions atomic spectra",
+      "result_snippet": "... quantum mechanics and the Heisenberg uncertainty principle, it doesn't explain how quantum mechanics has anything to do with atomic emission spectra ... Absorption spectra are produced when matter absorbs a photon of frequency $\\nu$ whose energy is $h\\nu$ and passes from a lower energy state $E_m$ to ... This database provides access and search capability for NIST critically evaluated data on atomic energy levels, wavelengths, and transition ... ... the spectrum of the Ca atom provide information on the relative probability of spin-forbidden transitions and its dependence on the principal quantum ... ... spectral lines in the hydrogen emission ... How does quantum theory explain why atomic spectra consist of discrete lines instead of a continuous band?",
+      "searched_at": "2026-05-03_21-00-14",
+      "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
+    }
+  },
+  "last_updated": "2026-05-03_21-00-14"
+}

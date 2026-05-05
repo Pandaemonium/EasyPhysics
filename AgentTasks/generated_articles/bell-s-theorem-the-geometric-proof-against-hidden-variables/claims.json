@@ -1,0 +1,59 @@
+{
+  "claims": [
+    {
+      "id": "C001",
+      "claim": "Bell’s Theorem proves that local hidden variables {LHV} cannot explain quantum correlations, using a geometric proof based on angular measurements and inequality violations.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Establishes the impossibility of classical explanations for quantum phenomena.",
+      "suggested_search_query": "Bell's theorem local hidden variables geometric proof"
+    },
+    {
+      "id": "C002",
+      "claim": "Classical correlations obey Bell’s inequality {Bell inequality}: |A + B| ≤ 2, but quantum mechanics predicts |A + B| ≈ 2.828, violating this limit.",
+      "type": "mechanism",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Quantum predictions exceed classical limits, disproving local hidden variables.",
+      "suggested_search_query": "Bell inequality derivation quantum mechanics"
+    },
+    {
+      "id": "C003",
+      "claim": "The geometric proof uses a triangle of angles {measurement settings} to show hidden variables force outcomes within a classical correlation bound, which quantum mechanics exceeds.",
+      "type": "mechanism",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Visualizes the conflict between classical and quantum predictions.",
+      "suggested_search_query": "Bell's theorem geometric proof angles"
+    },
+    {
+      "id": "C004",
+      "claim": "Bell’s Theorem does not prove quantum mechanics is correct, but only rules out specific hidden variable theories.",
+      "type": "misconception-correction",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Corrects a common misunderstanding about the theorem’s scope.",
+      "suggested_search_query": "Bell's theorem limitations hidden variables"
+    },
+    {
+      "id": "C005",
+      "claim": "Non-locality is not proven by Bell’s Theorem; it only shows local hidden variables are impossible, not that non-locality is confirmed.",
+      "type": "misconception-correction",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Clarifies the theorem’s conclusion about locality vs. non-locality.",
+      "suggested_search_query": "Bell's theorem non-locality interpretation"
+    },
+    {
+      "id": "C006",
+      "claim": "Bell’s Theorem is foundational for understanding quantum entanglement and underpins modern quantum technologies like cryptography and computing.",
+      "type": "scope",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Highlights the theorem’s practical and theoretical significance.",
+      "suggested_search_query": "Bell's theorem applications quantum technology"
+    }
+  ],
+  "last_updated": "2026-05-04_03-57-54"
+}

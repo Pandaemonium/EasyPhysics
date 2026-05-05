@@ -1,0 +1,21 @@
+{
+  "claim_checks": [
+    {
+      "id": "C001",
+      "verdict": "not_enough_evidence",
+      "severity": "low",
+      "problem": "No claims to verify",
+      "suggested_fix": "Add specific claims to the article's 'claims' array for verification",
+      "source_quality_note": "No sources provided for validation"
+    }
+  ],
+  "summary": {
+    "overall_claim_quality": "No claims to evaluate",
+    "unresolved_or_needs_qualification": 0,
+    "highest_priority_fixes": [
+      "Populate the 'claims' array with specific statements for verification",
+      "Add citations to authoritative sources for all physical concepts"
+    ]
+  },
+  "last_updated": "2026-05-04_01-14-14"
+}

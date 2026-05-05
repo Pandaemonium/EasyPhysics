@@ -1,0 +1,79 @@
+{
+  "claims": [
+    {
+      "id": "C001",
+      "claim": "# Schrödinger Equation: The Probability Wave Recipe ## The core idea The **Schrödinger equation** is a recipe that tells us how the **probability wave** of a quantum system changes over time.",
+      "type": "fallback-extracted",
+      "importance": "medium",
+      "needs_external_check": true,
+      "why_it_matters": "Automatically extracted fallback claim; review manually.",
+      "suggested_search_query": "Schrodinger equation # Schrödinger Equation: The Probability Wave Recipe ## The core idea The **Schrödinger equation** is a physics lecture notes textbook explanation"
+    },
+    {
+      "id": "C002",
+      "claim": "Unlike classical physics, which predicts exact positions and velocities, this equation calculates the **probabilities** of finding a particle in specific places or states.",
+      "type": "fallback-extracted",
+      "importance": "medium",
+      "needs_external_check": true,
+      "why_it_matters": "Automatically extracted fallback claim; review manually.",
+      "suggested_search_query": "Schrodinger equation Unlike classical physics, which predicts exact positions and velocities, this equation calculates the **probabilities** of finding physics lecture notes textbook explanation"
+    },
+    {
+      "id": "C003",
+      "claim": "It’s the quantum version of Newton’s laws, but for probability waves instead of forces.",
+      "type": "fallback-extracted",
+      "importance": "medium",
+      "needs_external_check": true,
+      "why_it_matters": "Automatically extracted fallback claim; review manually.",
+      "suggested_search_query": "Schrodinger equation It’s the quantum version of Newton’s laws, but for probability waves instead of forces. physics lecture notes textbook explanation"
+    },
+    {
+      "id": "C004",
+      "claim": "## Why this matters This equation is the foundation of quantum mechanics.",
+      "type": "fallback-extracted",
+      "importance": "medium",
+      "needs_external_check": true,
+      "why_it_matters": "Automatically extracted fallback claim; review manually.",
+      "suggested_search_query": "Schrodinger equation ## Why this matters This equation is the foundation of quantum mechanics. physics lecture notes textbook explanation"
+    },
+    {
+      "id": "C005",
+      "claim": "It explains how particles behave like waves, how energy shapes their probabilities, and why quantum systems defy classical intuition.",
+      "type": "fallback-extracted",
+      "importance": "medium",
+      "needs_external_check": true,
+      "why_it_matters": "Automatically extracted fallback claim; review manually.",
+      "suggested_search_query": "Schrodinger equation It explains how particles behave like waves, how energy shapes their probabilities, and why quantum systems physics lecture notes textbook explanation"
+    },
+    {
+      "id": "C006",
+      "claim": "The **Schrödinger equation** is like that recipe for a quantum system.",
+      "type": "fallback-extracted",
+      "importance": "medium",
+      "needs_external_check": true,
+      "why_it_matters": "Automatically extracted fallback claim; review manually.",
+      "suggested_search_query": "Schrodinger equation The **Schrödinger equation** is like that recipe for a quantum system. physics lecture notes textbook explanation"
+    },
+    {
+      "id": "C007",
+      "claim": "It uses the system’s **energy** (ingredients) to predict how the **probability wave** (cake’s shape) changes over time.",
+      "type": "fallback-extracted",
+      "importance": "medium",
+      "needs_external_check": true,
+      "why_it_matters": "Automatically extracted fallback claim; review manually.",
+      "suggested_search_query": "Schrodinger equation It uses the system’s **energy** (ingredients) to predict how the **probability wave** (cake’s shape) changes over physics lecture notes textbook explanation"
+    },
+    {
+      "id": "C008",
+      "claim": "Unlike a cake, though, the \"wave\" isn’t physical—it’s a mathematical tool that encodes all possible outcomes.",
+      "type": "fallback-extracted",
+      "importance": "medium",
+      "needs_external_check": true,
+      "why_it_matters": "Automatically extracted fallback claim; review manually.",
+      "suggested_search_query": "Schrodinger equation Unlike a cake, though, the \"wave\" isn’t physical—it’s a mathematical tool that encodes all possible outcomes. physics lecture notes textbook explanation"
+    }
+  ],
+  "last_updated": "2026-05-04_15-19-28",
+  "count": 8,
+  "parse_note": "No usable claims parsed from LLM output. Using deterministic fallback extraction from draft sentences."
+}

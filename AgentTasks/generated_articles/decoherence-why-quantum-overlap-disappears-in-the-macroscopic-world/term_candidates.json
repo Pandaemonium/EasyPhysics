@@ -1,0 +1,19 @@
+{
+  "terms": [
+    {
+      "standard_term": "superposition",
+      "candidate_name": "Quantum Overlap",
+      "context_quote": "Quantum Overlap {Superposition} is fragile and vanishes due to environmental interactions",
+      "usefulness": "Helps visualize superposition as a fragile, overlapping state that dissolves with environmental interaction",
+      "risk": "May imply physical 'overlap' rather than abstract quantum state properties"
+    },
+    {
+      "standard_term": "decoherence",
+      "candidate_name": "Environmental Noise",
+      "context_quote": "When a quantum system interacts with its environment... it becomes entangled with those environmental 'noise' {decoherence}",
+      "usefulness": "Makes decoherence tangible as a result of environmental interference",
+      "risk": "Could mislead into thinking 'noise' is random rather than structured quantum entanglement"
+    }
+  ],
+  "last_updated": "2026-05-04_02-40-49"
+}

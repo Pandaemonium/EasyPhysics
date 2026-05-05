@@ -1,0 +1,19 @@
+{
+  "terms": [
+    {
+      "standard_term": "fermion",
+      "candidate_name": "space-occupiers",
+      "context_quote": "Fermions (space-occupiers {fermion}) are like these people—they can’t share the same 'seat' (quantum state).",
+      "usefulness": "Emphasizes fermions' role in creating structure by occupying distinct states, aligning with the Pauli Exclusion Principle's core idea.",
+      "risk": "Could imply fermions physically occupy the same space, but the principle actually restricts quantum states, not literal spatial overlap."
+    },
+    {
+      "standard_term": "boson",
+      "candidate_name": "stackable ripples",
+      "context_quote": "Bosons (stackable ripples {boson}), on the other hand, are like waves that can overlap and stack.",
+      "usefulness": "Highlights bosons' ability to share states, contrasting with fermions and clarifying their role in phenomena like lasers.",
+      "risk": "Might suggest bosons physically stack, but it's about quantum state overlap, not classical wave stacking."
+    }
+  ],
+  "last_updated": "2026-05-04_01-33-09"
+}

@@ -1,0 +1,47 @@
+{
+  "sources_by_claim": {
+    "C001": {
+      "claim": "The Heisenberg Uncertainty Principle is a fundamental limit on simultaneously knowing a particle’s position and momentum, arising from the inherent wave structure of quantum systems.",
+      "query": "Heisenberg Uncertainty Principle wave mechanics textbook explanation",
+      "result_snippet": "The wave mechanics picture of the uncertainty principle is more visually intuitive, but the more abstract matrix mechanics picture formulates it in a ... ... my abilities about your questions in three parts - firstly, what is Heisenberg uncertainty principle; secondly, why is it unique to quantum mechanics ... But this observation isn t something that allows you to circumvent or deny the Heisenberg uncertainty principle; on the contrary, the randomness and ... The wave mechanics picture of the uncertainty principle is more visually intuitive, but the more abstract matrix mechanics picture formulates it in a ... The Heisenberg uncertainty principle asserts that position and momentum cannot be simultaneously known with precision, a concept illustrated through ...",
+      "searched_at": "2026-05-03_23-37-14",
+      "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
+    },
+    "C002": {
+      "claim": "A narrow position-wave {wave packet} has a broad momentum-spread {momentum uncertainty}, while a broad position-wave has a narrow momentum-spread, enforced by the wave-structure {Fourier transform} relationship.",
+      "query": "Fourier transform quantum uncertainty principle derivation",
+      "result_snippet": "The uncertainty principle, also known as Heisenberg's indeterminacy principle, is a fundamental concept in quantum mechanics. It states that there is a limit to the precision with which certain pairs of physical properties, such as position and momentum, can be simultaneously known. 1 Introducion The Uncertainty Principle (UP) in mathematical analysis is a family of facts that state: Both function and its Fourier transform cannot be simultaneously small (see [16]). Denote the Hausdorff measure of dimension α by Hα. The following theorem is yet another manifestation of the Uncertainty Principle. Uncertainty principles and integral transforms constitute two of the most foundational and far-reaching concepts in both mathematics and physics. These principles articulate the inherent limitations in the simultaneous measurement or localization of conjugate quantities such as time and frequency in signal processing, or position and momentum in quantum mechanics. Integral transforms ... In this paper, we obtain a sharper Heisenberg-Pauli-Weyl uncertainty principle for quaternion Fourier transforms, which is also generalized partially to the case with . In addition, we introduce the so-called quaternion -ambiguity function, and obtain related Heisenberg-Pauli-Weyl uncertainty principles for this generalized ambiguity function. For the fractional Fourier transform, Heisenberg uncertainty principle helps us to deeply understand the essential characteristics of signals in the fractional domain and further expands the theoretical boundaries of signal analysis and processing. In this paper, a generalization of Heisenberg uncertainty principle for the fractional Fourier transform will be obtained.",
+      "searched_at": "2026-05-03_23-37-16",
+      "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
+    },
+    "C003": {
+      "claim": "The uncertainty principle is mathematically expressed as Δx · Δp ≥ ħ/2, reflecting the wave structure of quantum systems rather than measurement limitations.",
+      "query": "Heisenberg Uncertainty Principle mathematical derivation",
+      "result_snippet": "University of Oxford Mathematician Dr Tom Crawford derives Heisenberg ’ s Uncertainty Principle in Quantum Mechanics with assistance from ... Mathematically, the Heisenberg uncertainty principle is a lower bound on the product of uncertainties of a pair of conjugate variables. A narrowly peaked function has a widely spread transform, reflecting the mathematical underpinning of the uncertainty principle. The Heisenberg Uncertainty Principle is the mathematical expression of this duality, and it places a fundamental limit on our ability to measure the ... ... Heisenberg Uncertainty Principle notes that shortly after Heisenberg ’ s discovery of the now-eponymous relationship, “ The formal ...",
+      "searched_at": "2026-05-03_23-37-18",
+      "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
+    },
+    "C004": {
+      "claim": "The sound wave analogy illustrates that short bursts of sound (position uncertainty) correspond to broad frequency ranges (momentum uncertainty), mirroring quantum position-momentum uncertainty.",
+      "query": "sound wave analogy Heisenberg Uncertainty Principle",
+      "result_snippet": "What do you think, that Breaking Bad made up the name Heisenberg? What is Heisenberg Uncertainty Principle? – About education – About.com. It just is. The Heisenberg uncertainty principle is baked into the math of quantum mechanics as a fundamental notion of reality in the famous Heisenberg uncertainty principle isn't the only uncertainty principle out there. It can happen all the time. Heisenberg Uncertainty Principle and the Particle-Wave Duality, 2020.Heisenberg UP proposed ing with analogies (TWA) strategy introduced by in this work is not connected to the measurement Glynn, Duit, and Thiele [1], we will work with a disturbances. The uncertainty principle says that we cannot measure the position (x) and the momentum (p) of a particle with absolute precision. The more accurately we know one of these values, the less accurately we know the other.",
+      "searched_at": "2026-05-03_23-37-20",
+      "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
+    },
+    "C005": {
+      "claim": "Common misconceptions include interpreting the uncertainty principle as a result of measurement disturbance or tool limitations, rather than a fundamental property of quantum systems.",
+      "query": "Heisenberg Uncertainty Principle common misconceptions",
+      "result_snippet": "The uncertainty principle, also known as Heisenberg's indeterminacy principle, is a fundamental concept in quantum mechanics. It states that there is a limit to the precision with which certain pairs of physical properties, such as position and momentum, can be simultaneously known. The discussion revolves around common misconceptions related to Heisenberg's Uncertainty Principle (HUP), particularly in the context of how it is taught and explained in various educational resources. What is Heisenberg Uncertainty Principle? – About education – About.com. The Heisenberg Uncertainty Principle has been a staple (and an annoyance) in quantum mechanics ever since Heisenberg wrote down that irritating formula in the early 20th century. In short, it states that you cannot know both the location and the momentum of particles. Use both versions of Heisenberg’s uncertainty principle in calculations. Explain the implications of Heisenberg’s uncertainty principle for measurements. Probability Distribution. Matter and photons are waves, implying they are spread out over some distance.",
+      "searched_at": "2026-05-03_23-37-23",
+      "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
+    },
+    "C006": {
+      "claim": "The principle underpins quantum phenomena like tunneling and entanglement, highlighting the wave-like behavior dominating at small scales.",
+      "query": "Heisenberg Uncertainty Principle applications quantum phenomena",
+      "result_snippet": "Quantum Physics Understanding the Heisenberg Uncertainty Principle. In this article, study about Uncertainty Principle, Heisenberg Principle and application wave-particle duality, Velocity.In quantum physics, wave–particle duality states that any particle or quantum phenomenon can be represented as either a particle or a wave. The uncertainty principle is at the heart of many things that we observe but cannot explain using classical (non-quantum) physics. Take atoms, for example, where negatively-charged electrons orbit a positively-charged nucleus. Review 7.5 Heisenberg Uncertainty Principle for your test on Unit 7 – Quantum Mechanics. For students taking Principles of Physics III.Quantum Phenomena and Applications. Enables quantum tunneling (electrons passing through potential barriers). Was Heisenberg wrong? Heisenberg used the Uncertainty Principle to explain how measurement would destroy that classic feature of quantum mechanics, the two-slit interference pattern (more on this below).",
+      "searched_at": "2026-05-03_23-37-25",
+      "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
+    }
+  },
+  "last_updated": "2026-05-03_23-37-25"
+}

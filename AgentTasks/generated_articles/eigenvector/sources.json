@@ -1,0 +1,19 @@
+{
+  "sources_by_claim": {
+    "C001": {
+      "claim": "# Eigenvector ## The core idea Eigenvectors are **direction-keepers** {eigenvectors}: they only stretch or shrink when a transformation is applied—they never change direction.",
+      "query": "Eigenvector # Eigenvector ## The core idea Eigenvectors are **direction-keepers** {eigenvectors}: they only stretch or shrink when physics lecture notes textbook explanation",
+      "result_snippet": "4 days ago - A linear transformation's eigenvectors are those vectors that are only stretched or shrunk, with neither rotation nor shear. The corresponding eigenvalue is the factor by which an eigenvector is stretched or shrunk. If the eigenvalue is negative, the eigenvector's direction is reversed. The eigenvector's direction remains unchanged unless the eigenvalue is negative, in which case the direction is simply reversed. ... Eigenvectors are non-zero vectors that, when multiplied by a matrix, only stretch or shrink without changing ... Published December 3, 2025 July 18, 2025 - These special directions are called eigenvectors, they’re unique because when you apply a transformation (represented by a matrix), these vectors keep pointing along their original line. 3 weeks ago - Second, we find the eigenvectors for each eigenvalue by solving for the trivial solution (the nullspace) of \\(\\bf A-\\bf I\\lambda\\). Note any multiple of \\(\\bf x\\) below is a valid eigenvector to its eigenvalue. 2 weeks ago - Observable physical quantities correspond to operators, and their eigenvectors represent possible measurement states with definite values (eigenvalues). While the terms eigenvector and eigenvalue are often mentioned together, they serve distinct roles. The eigenvector is the direction vector unchanged in orientation by the transformation, whereas the eigenvalue is the scalar that stretches or compresses the eigenvector.",
+      "searched_at": "2026-05-04_09-42-01",
+      "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
+    },
+    "C002": {
+      "claim": "--- ## Why this matters Eigenvectors simplify complex transformations by isolating directions where the transformation behaves predictably.",
+      "query": "Eigenvector --- ## Why this matters Eigenvectors simplify complex transformations by isolating directions where the transformation behaves physics lecture notes textbook explanation",
+      "result_snippet": "... can ask about the behavioral and structural complexity of a stochastic process reduce to a linear algebraic framing of a time evolution governed by ... ... studied replicator systems in the context of prebiotic evolution — the evolutionary process by which macromolecules capable of producing complex ... ... to answer the question by considering the eigenmode decomposition of the housekeeping entropy production rate [ 38 , 43 , 13 , 12 , 26 ] , which is ... There are many provocative questions raised by a recognition of the connections between the transformer architecture and RG flow, and in this essay ... ... to work with directly, but by adapting the octahedron recurrence introduced for this problem by Knutson, Woodward, and myself some time ago (which is ...",
+      "searched_at": "2026-05-04_09-42-03",
+      "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
+    }
+  },
+  "last_updated": "2026-05-04_09-42-03"
+}

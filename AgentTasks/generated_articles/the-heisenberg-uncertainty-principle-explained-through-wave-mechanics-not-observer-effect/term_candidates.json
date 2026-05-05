@@ -1,0 +1,26 @@
+{
+  "terms": [
+    {
+      "standard_term": "wave packet",
+      "candidate_name": "position-waves",
+      "context_quote": "position-waves {wave packets}—localized waves that spread out in space",
+      "usefulness": "Helps visualize particles as waves with spatial localization",
+      "risk": "Could imply particles are literally waves, but clarifies they're wave descriptions"
+    },
+    {
+      "standard_term": "momentum uncertainty",
+      "candidate_name": "momentum-spread",
+      "context_quote": "a narrow position-wave {wave packet} (localized in space) has a broad momentum-spread {momentum uncertainty}",
+      "usefulness": "Makes the concept of momentum uncertainty more intuitive as a spread",
+      "risk": "Suggests momentum is a spread rather than a precise value"
+    },
+    {
+      "standard_term": "Fourier transform",
+      "candidate_name": "wave-structure",
+      "context_quote": "The wave-structure {Fourier transform} relationship",
+      "usefulness": "Links wave structure to mathematical analysis of waveforms",
+      "risk": "Could be confused with other types of structural analysis"
+    }
+  ],
+  "last_updated": "2026-05-03_23-34-24"
+}

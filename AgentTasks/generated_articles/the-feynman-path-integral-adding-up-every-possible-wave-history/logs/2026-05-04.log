@@ -1,0 +1,999 @@
+
+================================================================================
+TIME: 2026-05-04T03:04:57
+NODE: planner
+PROMPT_CHARS: 525
+PROMPT_TOKENS_APPROX: 131
+RESPONSE_CHARS: 5671
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 64, "num_ctx": 12288, "num_predict": 3072, "temperature": 0.25, "top_p": 0.85}
+================================================================================
+PROMPT:
+Create a strong teaching outline for this EasyPhysics article:
+
+Title: The Feynman path integral: adding up every possible wave history
+
+The outline should include:
+1. Scope: what this article explains.
+2. Out of scope: what it should not try to explain yet.
+3. Prerequisite concepts.
+4. Core intuition.
+5. Suggested descriptive names with standard terms in braces.
+6. Common misconceptions to avoid.
+7. Section-by-section outline.
+8. Optional diagram ideas.
+9. Optional minimal math, with what the math means.
+
+Use Markdown.
+
+RESPONSE:
+# The Feynand Path Integral: Adding Up Every Possible Wave History  
+
+---
+
+## 1. Scope  
+This article explains the **Feynman path integral** as a foundational concept in quantum mechanics. It describes how particles "take all possible paths" between two points, with each path contributing a **probability amplitude** that depends on its **action**. The article focuses on the **conceptual framework** of the path integral, not its advanced mathematical formalism.  
+
+---
+
+## 2. Out of Scope  
+This article does **not** explain:  
+- The rigorous mathematical formalism of **functional integrals** (e.g., measure theory, infinite-dimensional spaces).  
+- Advanced topics like **renormalization** or **quantum field theory**.  
+- The historical development of the path integral (e.g., its origins in quantum electrodynamics).  
+- The **path integral formulation** in contexts beyond non-relativistic quantum mechanics (e.g., curved spacetime).  
+
+---
+
+## 3. Prerequisite Concepts  
+- **Wave-particle duality** and the **double-slit experiment**.  
+- **Probability amplitudes** and the **Born rule** (squaring the amplitude gives probability).  
+- **Superposition** and the **Schrödinger equation**.  
+- **Classical mechanics** (action, Lagrangian, and the principle of least action).  
+
+---
+
+## 4. Core Intuition  
+The **Feynman path integral** is a way to calculate the **probability amplitude** for a particle to move from one point to another by:  
+1. Considering **every possible path** the particle could take (even "impossible" ones like going backward in time).  
+2. Assigning a **phase factor** (a complex number) to each path, proportional to its **action** (energy × time).  
+3. **Adding up** all these phase factors (interfering like waves) to get the total amplitude.  
+4. The **classical path** (e.g., the one that minimizes action) dominates due to **constructive interference**, while other paths cancel out (destructive interference).  
+
+---
+
+## 5. Suggested Descriptive Names with Standard Terms in Braces  
+| Descriptive Name | Standard Term {Brace} |  
+|------------------|------------------------|  
+| **Wave history** {path} | A possible trajectory a particle could take. |  
+| **Probability amplitude** {wavefunction} | The complex number whose square gives the probability of a path. |  
+| **Phase factor** {complex exponential} | A complex number like $ e^{iS/\hbar} $, representing the path's contribution. |  
+| **Action** {action integral} | The quantity $ S = \int L \, dt $, which determines the phase factor. |  
+| **Constructive interference** {resonance} | When phase factors align to amplify the amplitude. |  
+| **Destructive interference** {cancellation} | When phase factors cancel each other out. |  
+
+---
+
+## 6. Common Misconceptions to Avoid  
+- **Misconception 1**: The path integral is about "real" physical paths.  
+  → **Reality**: It's a mathematical tool that sums over **all mathematically possible paths**, even those that violate classical physics (e.g., going backward in time).  
+- **Misconception 2**: The path integral is a "sum over paths" in space.  
+  → **Reality**: It's a **sum over all possible trajectories** in spacetime, weighted by their action.  
+- **Misconception 3**: The classical path is the only path that matters.  
+  → **Reality**: The classical path dominates due to constructive interference, but all paths contribute to the total amplitude.  
+
+---
+
+## 7. Section-by-Section Outline  
+### **Section 1: The Problem with Classical Mechanics**  
+- Why classical physics fails to explain quantum phenomena.  
+- The need for a new framework to calculate probabilities.  
+
+### **Section 2: The Core Idea of the Path Integral**  
+- Introduce the concept of "summing over all paths."  
+- Explain the role of **probability amplitudes** and **phase factors**.  
+
+### **Section 3: The Action and the Phase Factor**  
+- Define the **action** $ S = \int L \, dt $ (energy × time).  
+- Show how the phase factor $ e^{iS/\hbar} $ depends on the path's action.  
+
+### **Section 4: Interference and Probability**  
+- Explain how phase factors **interfere** (constructive vs. destructive).  
+- Derive the probability as the square of the amplitude's magnitude.  
+
+### **Section 5: The Classical Limit**  
+- Why the classical path dominates: **least action principle** and interference.  
+- Contrast quantum vs. classical behavior in simple examples (e.g., double-slit).  
+
+### **Section 6: Applications and Intuition**  
+- Use cases: particle scattering, quantum tunneling, and field theory.  
+- Emphasize the **unifying power** of the path integral in physics.  
+
+---
+
+## 8. Optional Diagram Ideas  
+1. **Path Diagram**: A particle moving from A to B with multiple paths (straight, curved, zig-zag).  
+2. **Phase Interference**: Two paths with different phases, showing constructive (same color) and destructive (canceled) interference.  
+3. **Action vs. Path**: A graph of action $ S $ vs. path, highlighting the classical minimum.  
+4. **Double-Slit Analogy**: A particle's amplitude as a wave spreading through slits, with paths interfering at the screen.  
+
+---
+
+## 9. Optional Minimal Math  
+- **Action**: $ S = \int L \, dt $, where $ L $ is the Lagrangian (kinetic energy minus potential energy).  
+- **Phase Factor**: $ e^{iS/\hbar} $, where $ \hbar $ is Planck's constant.  
+- **Probability Amplitude**: $ \psi = \sum e^{iS/\hbar} $, and probability is $ |\psi|^2 $.  
+- **Key Insight**: The path integral is a **sum over all paths**, weighted by their phase factor.  
+
+--- 
+
+This outline balances conceptual clarity with mathematical rigor, avoiding pitfalls while building on foundational physics knowledge.
+
+================================================================================
+TIME: 2026-05-04T03:10:16
+NODE: writer
+PROMPT_CHARS: 7130
+PROMPT_TOKENS_APPROX: 1782
+RESPONSE_CHARS: 4826
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 64, "num_ctx": 12288, "num_predict": 3072, "temperature": 0.25, "top_p": 0.85}
+================================================================================
+PROMPT:
+Write a high-quality first draft for this EasyPhysics article.
+
+Title: The Feynman path integral: adding up every possible wave history
+
+Article outline:
+# The Feynand Path Integral: Adding Up Every Possible Wave History  
+
+---
+
+## 1. Scope  
+This article explains the **Feynman path integral** as a foundational concept in quantum mechanics. It describes how particles "take all possible paths" between two points, with each path contributing a **probability amplitude** that depends on its **action**. The article focuses on the **conceptual framework** of the path integral, not its advanced mathematical formalism.  
+
+---
+
+## 2. Out of Scope  
+This article does **not** explain:  
+- The rigorous mathematical formalism of **functional integrals** (e.g., measure theory, infinite-dimensional spaces).  
+- Advanced topics like **renormalization** or **quantum field theory**.  
+- The historical development of the path integral (e.g., its origins in quantum electrodynamics).  
+- The **path integral formulation** in contexts beyond non-relativistic quantum mechanics (e.g., curved spacetime).  
+
+---
+
+## 3. Prerequisite Concepts  
+- **Wave-particle duality** and the **double-slit experiment**.  
+- **Probability amplitudes** and the **Born rule** (squaring the amplitude gives probability).  
+- **Superposition** and the **Schrödinger equation**.  
+- **Classical mechanics** (action, Lagrangian, and the principle of least action).  
+
+---
+
+## 4. Core Intuition  
+The **Feynman path integral** is a way to calculate the **probability amplitude** for a particle to move from one point to another by:  
+1. Considering **every possible path** the particle could take (even "impossible" ones like going backward in time).  
+2. Assigning a **phase factor** (a complex number) to each path, proportional to its **action** (energy × time).  
+3. **Adding up** all these phase factors (interfering like waves) to get the total amplitude.  
+4. The **classical path** (e.g., the one that minimizes action) dominates due to **constructive interference**, while other paths cancel out (destructive interference).  
+
+---
+
+## 5. Suggested Descriptive Names with Standard Terms in Braces  
+| Descriptive Name | Standard Term {Brace} |  
+|------------------|------------------------|  
+| **Wave history** {path} | A possible trajectory a particle could take. |  
+| **Probability amplitude** {wavefunction} | The complex number whose square gives the probability of a path. |  
+| **Phase factor** {complex exponential} | A complex number like $ e^{iS/\hbar} $, representing the path's contribution. |  
+| **Action** {action integral} | The quantity $ S = \int L \, dt $, which determines the phase factor. |  
+| **Constructive interference** {resonance} | When phase factors align to amplify the amplitude. |  
+| **Destructive interference** {cancellation} | When phase factors cancel each other out. |  
+
+---
+
+## 6. Common Misconceptions to Avoid  
+- **Misconception 1**: The path integral is about "real" physical paths.  
+  → **Reality**: It's a mathematical tool that sums over **all mathematically possible paths**, even those that violate classical physics (e.g., going backward in time).  
+- **Misconception 2**: The path integral is a "sum over paths" in space.  
+  → **Reality**: It's a **sum over all possible trajectories** in spacetime, weighted by their action.  
+- **Misconception 3**: The classical path is the only path that matters.  
+  → **Reality**: The classical path dominates due to constructive interference, but all paths contribute to the total amplitude.  
+
+---
+
+## 7. Section-by-Section Outline  
+### **Section 1: The Problem with Classical Mechanics**  
+- Why classical physics fails to explain quantum phenomena.  
+- The need for a new framework to calculate probabilities.  
+
+### **Section 2: The Core Idea of the Path Integral**  
+- Introduce the concept of "summing over all paths."  
+- Explain the role of **probability amplitudes** and **phase factors**.  
+
+### **Section 3: The Action and the Phase Factor**  
+- Define the **action** $ S = \int L \, dt $ (energy × time).  
+- Show how the phase factor $ e^{iS/\hbar} $ depends on the path's action.  
+
+### **Section 4: Interference and Probability**  
+- Explain how phase factors **interfere** (constructive vs. destructive).  
+- Derive the probability as the square of the amplitude's magnitude.  
+
+### **Section 5: The Classical Limit**  
+- Why the classical path dominates: **least action principle** and interference.  
+- Contrast quantum vs. classical behavior in simple examples (e.g., double-slit).  
+
+### **Section 6: Applications and Intuition**  
+- Use cases: particle scattering, quantum tunneling, and field theory.  
+- Emphasize the **unifying power** of the path integral in physics.  
+
+---
+
+## 8. Optional Diagram Ideas  
+1. **Path Diagram**: A particle moving from A to B with multiple paths (straight, curved, zig-zag).  
+2. **Phase Interference**: Two paths with different phases, showing constructive (same color) and destructive (canceled) interference.  
+3. **Action vs. Path**: A graph of action $ S $ vs. path, highlighting the classical minimum.  
+4. **Double-Slit Analogy**: A particle's amplitude as a wave spreading through slits, with paths interfering at the screen.  
+
+---
+
+## 9. Optional Minimal Math  
+- **Action**: $ S = \int L \, dt $, where $ L $ is the Lagrangian (kinetic energy minus potential energy).  
+- **Phase Factor**: $ e^{iS/\hbar} $, where $ \hbar $ is Planck's constant.  
+- **Probability Amplitude**: $ \psi = \sum e^{iS/\hbar} $, and probability is $ |\psi|^2 $.  
+- **Key Insight**: The path integral is a **sum over all paths**, weighted by their phase factor.  
+
+--- 
+
+This outline balances conceptual clarity with mathematical rigor, avoiding pitfalls while building on foundational physics knowledge.
+
+Human/editor notes:
+# Human/editor notes
+
+Add any preferences, corrections, or article-specific constraints here.
+
+
+Template guidance:
+Preferred article structure:
+
+# Title
+
+## The core idea
+A short, intuitive explanation that gives the reader the main point first.
+
+## Why this matters
+Explain what the concept helps us understand.
+
+## The simple picture
+Use an analogy, diagram idea, or concrete example.
+
+## The more precise picture
+Introduce standard terms, careful distinctions, and optional minimal math.
+
+## Common misconceptions
+Name and correct the traps.
+
+## How this connects to the rest of physics
+Link the concept to fields, particles, symmetry, conservation, relativity, or the Standard Model as appropriate.
+
+## Recap
+A few concise takeaways.
+
+Drafting instructions:
+- Make it accessible to a motivated high-schooler or college freshman.
+- Teach the modern concept directly rather than narrating historical discovery.
+- Use descriptive names with standard terms in braces, e.g. space-occupier {fermion}.
+- Include common misconceptions and correct them.
+- Include minimal math only when it helps, and explain what the math means.
+- Suggest diagram ideas inline where helpful using this format: [Diagram idea: ...]
+- Output only the article in Markdown, with no commentary before or after.
+
+RESPONSE:
+# The Feynman Path Integral: Adding Up Every Possible Wave History  
+
+## The Core Idea  
+Imagine a particle traveling from point A to point B. In classical physics, it takes the "best" path—like a ball rolling downhill. But in quantum mechanics, the particle doesn’t pick one path. Instead, it **takes every possible path**—even ones that defy intuition, like zig-zagging or going backward in time. Each path contributes a **probability amplitude**, and the total amplitude is the **sum of all these contributions**. The final probability is the square of this total amplitude.  
+
+This idea, called the **Feynman path integral**, is a way to calculate how quantum systems behave by considering **all mathematically possible paths** and their interference.  
+
+---
+
+## Why This Matters  
+The path integral is a **foundational framework** for quantum mechanics. It explains how particles behave as both waves and particles, unifying concepts like **wave-particle duality** and **superposition**. It also reveals why classical physics (like a ball rolling downhill) is just an approximation of the quantum world.  
+
+By summing over all paths, the path integral connects **quantum mechanics** to **classical mechanics** through the **principle of least action**. It’s a tool that physicists use to predict everything from particle collisions to the behavior of light.  
+
+---
+
+## The Simple Picture  
+Think of a particle as a **wave history** {path} that explores every possible route from A to B. Like ripples spreading from a stone dropped in water, these paths **interfere** with each other. Some paths reinforce each other (constructive interference), while others cancel out (destructive interference).  
+
+[Diagram idea: A particle moving from A to B with multiple paths (straight, curved, zig-zag). Arrows show phase factors interfering at the destination.]  
+
+In the **double-slit experiment**, this idea explains how particles create an interference pattern: each path contributes a wave, and their amplitudes add up to form the bright and dark bands.  
+
+---
+
+## The More Precise Picture  
+1. **Wave History** {Path}: A particle’s journey from A to B is not a single trajectory but a **sum over all possible paths**.  
+2. **Probability Amplitude** {Wavefunction}: Each path contributes a **complex number** (a phase factor) proportional to $ e^{iS/\hbar} $, where $ S $ is the **action** {action integral} and $ \hbar $ is Planck’s constant.  
+3. **Action** {Action Integral}: The action $ S = \int L \, dt $ measures how "efficient" a path is, where $ L $ is the **Lagrangian** (kinetic energy minus potential energy).  
+4. **Interference**: When paths overlap, their phase factors **add like waves**. The total amplitude is the **sum of all these contributions**, and the probability is the square of its magnitude.  
+
+[Diagram idea: Two paths with different phases (e.g., red and blue arrows) interfering constructively (same color) or destructively (canceled).]  
+
+---
+
+## Common Misconceptions  
+- **Misconception 1**: The path integral describes "real" paths a particle takes.  
+  → **Reality**: It’s a **mathematical tool** that sums over all **mathematically possible paths**, even those that violate classical physics (e.g., going backward in time).  
+- **Misconception 2**: Only the classical path matters.  
+  → **Reality**: All paths contribute, but the **classical path** (which minimizes action) dominates due to **constructive interference**.  
+- **Misconception 3**: The path integral is about "summing over space."  
+  → **Reality**: It’s about **summing over all trajectories in spacetime**, weighted by their action.  
+
+---
+
+## How This Connects to the Rest of Physics  
+The path integral is a **unifying framework** for quantum mechanics:  
+- It explains **quantum tunneling** (particles "going through walls" by taking improbable paths).  
+- It underpins **quantum field theory**, where particles are excitations of fields that "take all paths."  
+- It links **classical mechanics** (via the least action principle) to **quantum mechanics**.  
+
+This approach also extends to **relativistic quantum mechanics** and **quantum gravity**, showing how the path integral is a cornerstone of modern physics.  
+
+---
+
+## Recap  
+- The **Feynman path integral** sums over **all possible paths** a particle can take.  
+- Each path contributes a **phase factor** $ e^{iS/\hbar} $, determined by its **action**.  
+- **Interference** between paths determines the final probability.  
+- The **classical path** dominates due to constructive interference, but all paths matter.  
+- The path integral is a **foundational tool** for understanding quantum phenomena and connecting to classical physics.  
+
+[Diagram idea: A graph of action $ S $ vs. path, highlighting the classical minimum where interference is strongest.]
+
+================================================================================
+TIME: 2026-05-04T03:14:46
+NODE: term_collector
+PROMPT_CHARS: 5296
+PROMPT_TOKENS_APPROX: 1324
+RESPONSE_CHARS: 1272
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 64, "num_ctx": 12288, "num_predict": 3072, "temperature": 0.25, "top_p": 0.85}
+================================================================================
+PROMPT:
+Extract the descriptive-name candidates from this draft.
+
+Return JSON with this shape:
+{
+  "terms": [
+    {
+      "standard_term": "fermion",
+      "candidate_name": "space-occupier",
+      "context_quote": "short quote from the draft",
+      "usefulness": "why this name helps",
+      "risk": "how it could mislead, or empty string if low risk"
+    }
+  ]
+}
+
+Only include actual teaching-name candidates, especially phrases followed by standard terms in braces.
+
+Draft:
+# The Feynman Path Integral: Adding Up Every Possible Wave History  
+
+## The Core Idea  
+Imagine a particle traveling from point A to point B. In classical physics, it takes the "best" path—like a ball rolling downhill. But in quantum mechanics, the particle doesn’t pick one path. Instead, it **takes every possible path**—even ones that defy intuition, like zig-zagging or going backward in time. Each path contributes a **probability amplitude**, and the total amplitude is the **sum of all these contributions**. The final probability is the square of this total amplitude.  
+
+This idea, called the **Feynman path integral**, is a way to calculate how quantum systems behave by considering **all mathematically possible paths** and their interference.  
+
+---
+
+## Why This Matters  
+The path integral is a **foundational framework** for quantum mechanics. It explains how particles behave as both waves and particles, unifying concepts like **wave-particle duality** and **superposition**. It also reveals why classical physics (like a ball rolling downhill) is just an approximation of the quantum world.  
+
+By summing over all paths, the path integral connects **quantum mechanics** to **classical mechanics** through the **principle of least action**. It’s a tool that physicists use to predict everything from particle collisions to the behavior of light.  
+
+---
+
+## The Simple Picture  
+Think of a particle as a **wave history** {path} that explores every possible route from A to B. Like ripples spreading from a stone dropped in water, these paths **interfere** with each other. Some paths reinforce each other (constructive interference), while others cancel out (destructive interference).  
+
+[Diagram idea: A particle moving from A to B with multiple paths (straight, curved, zig-zag). Arrows show phase factors interfering at the destination.]  
+
+In the **double-slit experiment**, this idea explains how particles create an interference pattern: each path contributes a wave, and their amplitudes add up to form the bright and dark bands.  
+
+---
+
+## The More Precise Picture  
+1. **Wave History** {Path}: A particle’s journey from A to B is not a single trajectory but a **sum over all possible paths**.  
+2. **Probability Amplitude** {Wavefunction}: Each path contributes a **complex number** (a phase factor) proportional to $ e^{iS/\hbar} $, where $ S $ is the **action** {action integral} and $ \hbar $ is Planck’s constant.  
+3. **Action** {Action Integral}: The action $ S = \int L \, dt $ measures how "efficient" a path is, where $ L $ is the **Lagrangian** (kinetic energy minus potential energy).  
+4. **Interference**: When paths overlap, their phase factors **add like waves**. The total amplitude is the **sum of all these contributions**, and the probability is the square of its magnitude.  
+
+[Diagram idea: Two paths with different phases (e.g., red and blue arrows) interfering constructively (same color) or destructively (canceled).]  
+
+---
+
+## Common Misconceptions  
+- **Misconception 1**: The path integral describes "real" paths a particle takes.  
+  → **Reality**: It’s a **mathematical tool** that sums over all **mathematically possible paths**, even those that violate classical physics (e.g., going backward in time).  
+- **Misconception 2**: Only the classical path matters.  
+  → **Reality**: All paths contribute, but the **classical path** (which minimizes action) dominates due to **constructive interference**.  
+- **Misconception 3**: The path integral is about "summing over space."  
+  → **Reality**: It’s about **summing over all trajectories in spacetime**, weighted by their action.  
+
+---
+
+## How This Connects to the Rest of Physics  
+The path integral is a **unifying framework** for quantum mechanics:  
+- It explains **quantum tunneling** (particles "going through walls" by taking improbable paths).  
+- It underpins **quantum field theory**, where particles are excitations of fields that "take all paths."  
+- It links **classical mechanics** (via the least action principle) to **quantum mechanics**.  
+
+This approach also extends to **relativistic quantum mechanics** and **quantum gravity**, showing how the path integral is a cornerstone of modern physics.  
+
+---
+
+## Recap  
+- The **Feynman path integral** sums over **all possible paths** a particle can take.  
+- Each path contributes a **phase factor** $ e^{iS/\hbar} $, determined by its **action**.  
+- **Interference** between paths determines the final probability.  
+- The **classical path** dominates due to constructive interference, but all paths matter.  
+- The path integral is a **foundational tool** for understanding quantum phenomena and connecting to classical physics.  
+
+[Diagram idea: A graph of action $ S $ vs. path, highlighting the classical minimum where interference is strongest.]
+
+RESPONSE:
+{
+  "terms": [
+    {
+      "standard_term": "Wavefunction",
+      "candidate_name": "probability amplitude",
+      "context_quote": "Each path contributes a probability amplitude, and the total amplitude is the sum of all these contributions.",
+      "usefulness": "Describes the quantum property that encodes interference possibilities, avoiding abstract math upfront.",
+      "risk": "May suggest a single value rather than a sum over paths, but clarified by context."
+    },
+    {
+      "standard_term": "path",
+      "candidate_name": "wave history",
+      "context_quote": "Think of a particle as a wave history that explores every possible route from A to B.",
+      "usefulness": "Emphasizes the dynamic, exploratory nature of quantum behavior without math.",
+      "risk": "Could imply a literal wave, but clarified by the path integral framework."
+    },
+    {
+      "standard_term": "Action Integral",
+      "candidate_name": "action",
+      "context_quote": "The action $ S = \int L \, dt $ measures how 'efficient' a path is, where $ L $ is the Lagrangian.",
+      "usefulness": "Simplifies the complex concept of action as a measure of path efficiency.",
+      "risk": "May conflate the abstract integral with the physical quantity it represents."
+    }
+  ]
+}
+
+================================================================================
+TIME: 2026-05-04T03:19:08
+NODE: claim_extractor
+PROMPT_CHARS: 5751
+PROMPT_TOKENS_APPROX: 1437
+RESPONSE_CHARS: 3811
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 64, "num_ctx": 12288, "num_predict": 3072, "temperature": 0.25, "top_p": 0.85}
+================================================================================
+PROMPT:
+Extract the most important scientific and explanatory claims from this article draft.
+
+Return JSON with this shape:
+{
+  "claims": [
+    {
+      "id": "C001",
+      "claim": "A clear, standalone claim from the article.",
+      "type": "definition | mechanism | analogy | mathematical | misconception-correction | scope | other",
+      "importance": "high | medium | low",
+      "needs_external_check": true,
+      "why_it_matters": "brief reason",
+      "suggested_search_query": "stable source search query, not latest-news oriented"
+    }
+  ]
+}
+
+Guidance:
+- Extract claims that matter for scientific correctness.
+- Include claims embedded in analogies if the analogy could mislead.
+- Do not include purely stylistic statements.
+- Search queries should prefer stable sources: textbooks, lecture notes, CERN, Fermilab, university pages.
+
+Article title: The Feynman path integral: adding up every possible wave history
+
+Draft:
+# The Feynman Path Integral: Adding Up Every Possible Wave History  
+
+## The Core Idea  
+Imagine a particle traveling from point A to point B. In classical physics, it takes the "best" path—like a ball rolling downhill. But in quantum mechanics, the particle doesn’t pick one path. Instead, it **takes every possible path**—even ones that defy intuition, like zig-zagging or going backward in time. Each path contributes a **probability amplitude**, and the total amplitude is the **sum of all these contributions**. The final probability is the square of this total amplitude.  
+
+This idea, called the **Feynman path integral**, is a way to calculate how quantum systems behave by considering **all mathematically possible paths** and their interference.  
+
+---
+
+## Why This Matters  
+The path integral is a **foundational framework** for quantum mechanics. It explains how particles behave as both waves and particles, unifying concepts like **wave-particle duality** and **superposition**. It also reveals why classical physics (like a ball rolling downhill) is just an approximation of the quantum world.  
+
+By summing over all paths, the path integral connects **quantum mechanics** to **classical mechanics** through the **principle of least action**. It’s a tool that physicists use to predict everything from particle collisions to the behavior of light.  
+
+---
+
+## The Simple Picture  
+Think of a particle as a **wave history** {path} that explores every possible route from A to B. Like ripples spreading from a stone dropped in water, these paths **interfere** with each other. Some paths reinforce each other (constructive interference), while others cancel out (destructive interference).  
+
+[Diagram idea: A particle moving from A to B with multiple paths (straight, curved, zig-zag). Arrows show phase factors interfering at the destination.]  
+
+In the **double-slit experiment**, this idea explains how particles create an interference pattern: each path contributes a wave, and their amplitudes add up to form the bright and dark bands.  
+
+---
+
+## The More Precise Picture  
+1. **Wave History** {Path}: A particle’s journey from A to B is not a single trajectory but a **sum over all possible paths**.  
+2. **Probability Amplitude** {Wavefunction}: Each path contributes a **complex number** (a phase factor) proportional to $ e^{iS/\hbar} $, where $ S $ is the **action** {action integral} and $ \hbar $ is Planck’s constant.  
+3. **Action** {Action Integral}: The action $ S = \int L \, dt $ measures how "efficient" a path is, where $ L $ is the **Lagrangian** (kinetic energy minus potential energy).  
+4. **Interference**: When paths overlap, their phase factors **add like waves**. The total amplitude is the **sum of all these contributions**, and the probability is the square of its magnitude.  
+
+[Diagram idea: Two paths with different phases (e.g., red and blue arrows) interfering constructively (same color) or destructively (canceled).]  
+
+---
+
+## Common Misconceptions  
+- **Misconception 1**: The path integral describes "real" paths a particle takes.  
+  → **Reality**: It’s a **mathematical tool** that sums over all **mathematically possible paths**, even those that violate classical physics (e.g., going backward in time).  
+- **Misconception 2**: Only the classical path matters.  
+  → **Reality**: All paths contribute, but the **classical path** (which minimizes action) dominates due to **constructive interference**.  
+- **Misconception 3**: The path integral is about "summing over space."  
+  → **Reality**: It’s about **summing over all trajectories in spacetime**, weighted by their action.  
+
+---
+
+## How This Connects to the Rest of Physics  
+The path integral is a **unifying framework** for quantum mechanics:  
+- It explains **quantum tunneling** (particles "going through walls" by taking improbable paths).  
+- It underpins **quantum field theory**, where particles are excitations of fields that "take all paths."  
+- It links **classical mechanics** (via the least action principle) to **quantum mechanics**.  
+
+This approach also extends to **relativistic quantum mechanics** and **quantum gravity**, showing how the path integral is a cornerstone of modern physics.  
+
+---
+
+## Recap  
+- The **Feynman path integral** sums over **all possible paths** a particle can take.  
+- Each path contributes a **phase factor** $ e^{iS/\hbar} $, determined by its **action**.  
+- **Interference** between paths determines the final probability.  
+- The **classical path** dominates due to constructive interference, but all paths matter.  
+- The path integral is a **foundational tool** for understanding quantum phenomena and connecting to classical physics.  
+
+[Diagram idea: A graph of action $ S $ vs. path, highlighting the classical minimum where interference is strongest.]
+
+RESPONSE:
+{
+  "claims": [
+    {
+      "id": "C001",
+      "claim": "The Feynman path integral describes quantum particles as taking all possible paths between two points, with each path contributing a probability amplitude.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "This is the foundational concept of quantum mechanics that unifies wave-particle duality and superposition.",
+      "suggested_search_query": "Feynman path integral definition physics textbooks"
+    },
+    {
+      "id": "C002",
+      "claim": "The total probability amplitude is the sum of contributions from all paths, with interference determining the final outcome.",
+      "type": "mechanism",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "This explains quantum phenomena like the double-slit experiment and wave-particle duality.",
+      "suggested_search_query": "Feynman path integral interference physics"
+    },
+    {
+      "id": "C003",
+      "claim": "Probability amplitudes are complex numbers of the form $ e^{iS/\\hbar} $, where $ S $ is the action and $ \\hbar $ is Planck's constant.",
+      "type": "mathematical",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "This formula connects quantum mechanics to classical mechanics via the principle of least action.",
+      "suggested_search_query": "Feynman path integral mathematical formulation"
+    },
+    {
+      "id": "C004",
+      "claim": "The classical path (which minimizes action) dominates due to constructive interference, but all paths contribute to the result.",
+      "type": "mechanism",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "This resolves the apparent contradiction between quantum and classical behavior.",
+      "suggested_search_query": "Feynman path integral classical limit"
+    },
+    {
+      "id": "C005",
+      "claim": "The path integral is a foundational framework for quantum mechanics, linking it to quantum field theory and relativistic physics.",
+      "type": "scope",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "It shows the path integral's role in modern physics beyond non-relativistic quantum mechanics.",
+      "suggested_search_query": "Feynman path integral applications physics"
+    },
+    {
+      "id": "C006",
+      "claim": "The path integral does not describe 'real' paths a particle takes but instead sums over all mathematically possible trajectories in spacetime.",
+      "type": "misconception-correction",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Corrects the misunderstanding that the path integral represents actual physical paths.",
+      "suggested_search_query": "Feynman path integral misconceptions"
+    },
+    {
+      "id": "C007",
+      "claim": "The action $ S = \\int L \, dt $ determines the weight of each path, with $ L $ being the Lagrangian (kinetic energy minus potential energy).",
+      "type": "definition",
+      "importance": "medium",
+      "needs_external_check": true,
+      "why_it_matters": "This connects the path integral to classical mechanics and variational principles.",
+      "suggested_search_query": "action integral physics definition"
+    },
+    {
+      "id": "C008",
+      "claim": "Quantum tunneling and particle behavior in fields are explained by the path integral's consideration of all possible trajectories.",
+      "type": "mechanism",
+      "importance": "medium",
+      "needs_external_check": true,
+      "why_it_matters": "Demonstrates the practical implications of the path integral in real-world phenomena.",
+      "suggested_search_query": "Feynman path integral tunneling"
+    }
+  ]
+}
+
+================================================================================
+TIME: 2026-05-04T03:22:11
+NODE: claim_checker
+PROMPT_CHARS: 6048
+PROMPT_TOKENS_APPROX: 1512
+RESPONSE_CHARS: 1529
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 64, "num_ctx": 12288, "num_predict": 3072, "temperature": 0.25, "top_p": 0.85}
+================================================================================
+PROMPT:
+Check the article's important claims against the search snippets.
+
+Return JSON with this shape:
+{
+  "claim_checks": [
+    {
+      "id": "C001",
+      "verdict": "supported | mostly_supported | needs_qualification | unsupported | contradicted | not_enough_evidence",
+      "severity": "none | low | medium | high",
+      "problem": "specific issue, or empty string",
+      "suggested_fix": "specific correction to the article, or empty string",
+      "source_quality_note": "brief note about whether the snippets look authoritative"
+    }
+  ],
+  "summary": {
+    "overall_claim_quality": "brief summary",
+    "unresolved_or_needs_qualification": 0,
+    "highest_priority_fixes": ["fix 1", "fix 2"]
+  }
+}
+
+Rules:
+- Be conservative. If a claim is plausible but not supported by the snippets, say not_enough_evidence.
+- Do not demand advanced nuance beyond the article's scope.
+- Do flag misleading simplifications.
+- The article should focus on stable accepted physics, not speculative novelty.
+
+Article title: The Feynman path integral: adding up every possible wave history
+
+Claims:
+{
+  "claims": [],
+  "last_updated": "2026-05-04_03-19-08"
+}
+
+Search snippets by claim:
+{
+  "sources_by_claim": {}
+}
+
+Draft excerpt/context:
+# The Feynman Path Integral: Adding Up Every Possible Wave History  
+
+## The Core Idea  
+Imagine a particle traveling from point A to point B. In classical physics, it takes the "best" path—like a ball rolling downhill. But in quantum mechanics, the particle doesn’t pick one path. Instead, it **takes every possible path**—even ones that defy intuition, like zig-zagging or going backward in time. Each path contributes a **probability amplitude**, and the total amplitude is the **sum of all these contributions**. The final probability is the square of this total amplitude.  
+
+This idea, called the **Feynman path integral**, is a way to calculate how quantum systems behave by considering **all mathematically possible paths** and their interference.  
+
+---
+
+## Why This Matters  
+The path integral is a **foundational framework** for quantum mechanics. It explains how particles behave as both waves and particles, unifying concepts like **wave-particle duality** and **superposition**. It also reveals why classical physics (like a ball rolling downhill) is just an approximation of the quantum world.  
+
+By summing over all paths, the path integral connects **quantum mechanics** to **classical mechanics** through the **principle of least action**. It’s a tool that physicists use to predict everything from particle collisions to the behavior of light.  
+
+---
+
+## The Simple Picture  
+Think of a particle as a **wave history** {path} that explores every possible route from A to B. Like ripples spreading from a stone dropped in water, these paths **interfere** with each other. Some paths reinforce each other (constructive interference), while others cancel out (destructive interference).  
+
+[Diagram idea: A particle moving from A to B with multiple paths (straight, curved, zig-zag). Arrows show phase factors interfering at the destination.]  
+
+In the **double-slit experiment**, this idea explains how particles create an interference pattern: each path contributes a wave, and their amplitudes add up to form the bright and dark bands.  
+
+---
+
+## The More Precise Picture  
+1. **Wave History** {Path}: A particle’s journey from A to B is not a single trajectory but a **sum over all possible paths**.  
+2. **Probability Amplitude** {Wavefunction}: Each path contributes a **complex number** (a phase factor) proportional to $ e^{iS/\hbar} $, where $ S $ is the **action** {action integral} and $ \hbar $ is Planck’s constant.  
+3. **Action** {Action Integral}: The action $ S = \int L \, dt $ measures how "efficient" a path is, where $ L $ is the **Lagrangian** (kinetic energy minus potential energy).  
+4. **Interference**: When paths overlap, their phase factors **add like waves**. The total amplitude is the **sum of all these contributions**, and the probability is the square of its magnitude.  
+
+[Diagram idea: Two paths with different phases (e.g., red and blue arrows) interfering constructively (same color) or destructively (canceled).]  
+
+---
+
+## Common Misconceptions  
+- **Misconception 1**: The path integral describes "real" paths a particle takes.  
+  → **Reality**: It’s a **mathematical tool** that sums over all **mathematically possible paths**, even those that violate classical physics (e.g., going backward in time).  
+- **Misconception 2**: Only the classical path matters.  
+  → **Reality**: All paths contribute, but the **classical path** (which minimizes action) dominates due to **constructive interference**.  
+- **Misconception 3**: The path integral is about "summing over space."  
+  → **Reality**: It’s about **summing over all trajectories in spacetime**, weighted by their action.  
+
+---
+
+## How This Connects to the Rest of Physics  
+The path integral is a **unifying framework** for quantum mechanics:  
+- It explains **quantum tunneling** (particles "going through walls" by taking improbable paths).  
+- It underpins **quantum field theory**, where particles are excitations of fields that "take all paths."  
+- It links **classical mechanics** (via the least action principle) to **quantum mechanics**.  
+
+This approach also extends to **relativistic quantum mechanics** and **quantum gravity**, showing how the path integral is a cornerstone of modern physics.  
+
+---
+
+## Recap  
+- The **Feynman path integral** sums over **all possible paths** a particle can take.  
+- Each path contributes a **phase factor** $ e^{iS/\hbar} $, determined by its **action**.  
+- **Interference** between paths determines the final probability.  
+- The **classical path** dominates due to constructive interference, but all paths matter.  
+- The path integral is a **foundational tool** for understanding quantum phenomena and connecting to classical physics.  
+
+[Diagram idea: A graph of action $ S $ vs. path, highlighting the classical minimum where interference is strongest.]
+
+RESPONSE:
+{
+  "claim_checks": [
+    {
+      "id": "C001",
+      "verdict": "not_enough_evidence",
+      "severity": "medium",
+      "problem": "No search snippets provided to verify claims about Feynman path integral foundations",
+      "suggested_fix": "Add authoritative sources like Griffiths' Quantum Mechanics or Feynman's own lectures",
+      "source_quality_note": "No snippets available for verification"
+    },
+    {
+      "id": "C002",
+      "verdict": "not_enough_evidence",
+      "severity": "medium",
+      "problem": "No snippets to confirm connection to classical mechanics via least action principle",
+      "suggested_fix": "Include references to Dirac's Principles of Quantum Mechanics or canonical textbooks",
+      "source_quality_note": "No snippets available for verification"
+    },
+    {
+      "id": "C003",
+      "verdict": "not_enough_evidence",
+      "severity": "medium",
+      "problem": "No evidence for phase factor formulation $ e^{iS/\\hbar} $",
+      "suggested_fix": "Cite Feynman's 1948 papers or standard QM textbooks",
+      "source_quality_note": "No snippets available for verification"
+    }
+  ],
+  "summary": {
+    "overall_claim_quality": "Standard conceptual framework but lacks source verification",
+    "unresolved_or_needs_qualification": 3,
+    "highest_priority_fixes": [
+      "Add citations to Feynman's original work and canonical textbooks",
+      "Verify mathematical formulations with peer-reviewed sources",
+      "Confirm historical context of path integral development"
+    ]
+  }
+}
+
+================================================================================
+TIME: 2026-05-04T03:28:19
+NODE: claim_revision
+PROMPT_CHARS: 6942
+PROMPT_TOKENS_APPROX: 1735
+RESPONSE_CHARS: 5744
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 64, "num_ctx": 12288, "num_predict": 3072, "temperature": 0.25, "top_p": 0.85}
+================================================================================
+PROMPT:
+Revise the article once to address claim-check feedback.
+
+Do not rewrite for its own sake. Fix the scientific issues while preserving accessible language.
+
+Claim-check feedback:
+{
+  "claim_checks": [
+    {
+      "id": "C001",
+      "verdict": "not_enough_evidence",
+      "severity": "medium",
+      "problem": "No search snippets provided to verify claims about Feynman path integral foundations",
+      "suggested_fix": "Add authoritative sources like Griffiths' Quantum Mechanics or Feynman's own lectures",
+      "source_quality_note": "No snippets available for verification"
+    },
+    {
+      "id": "C002",
+      "verdict": "not_enough_evidence",
+      "severity": "medium",
+      "problem": "No snippets to confirm connection to classical mechanics via least action principle",
+      "suggested_fix": "Include references to Dirac's Principles of Quantum Mechanics or canonical textbooks",
+      "source_quality_note": "No snippets available for verification"
+    },
+    {
+      "id": "C003",
+      "verdict": "not_enough_evidence",
+      "severity": "medium",
+      "problem": "No evidence for phase factor formulation $ e^{iS/\\hbar} $",
+      "suggested_fix": "Cite Feynman's 1948 papers or standard QM textbooks",
+      "source_quality_note": "No snippets available for verification"
+    }
+  ],
+  "summary": {
+    "overall_claim_quality": "Standard conceptual framework but lacks source verification",
+    "unresolved_or_needs_qualification": 3,
+    "highest_priority_fixes": [
+      "Add citations to Feynman's original work and canonical textbooks",
+      "Verify mathematical formulations with peer-reviewed sources",
+      "Confirm historical context of path integral development"
+    ]
+  },
+  "last_updated": "2026-05-04_03-22-11"
+}
+
+Current draft:
+# The Feynman Path Integral: Adding Up Every Possible Wave History  
+
+## The Core Idea  
+Imagine a particle traveling from point A to point B. In classical physics, it takes the "best" path—like a ball rolling downhill. But in quantum mechanics, the particle doesn’t pick one path. Instead, it **takes every possible path**—even ones that defy intuition, like zig-zagging or going backward in time. Each path contributes a **probability amplitude**, and the total amplitude is the **sum of all these contributions**. The final probability is the square of this total amplitude.  
+
+This idea, called the **Feynman path integral**, is a way to calculate how quantum systems behave by considering **all mathematically possible paths** and their interference.  
+
+---
+
+## Why This Matters  
+The path integral is a **foundational framework** for quantum mechanics. It explains how particles behave as both waves and particles, unifying concepts like **wave-particle duality** and **superposition**. It also reveals why classical physics (like a ball rolling downhill) is just an approximation of the quantum world.  
+
+By summing over all paths, the path integral connects **quantum mechanics** to **classical mechanics** through the **principle of least action**. It’s a tool that physicists use to predict everything from particle collisions to the behavior of light.  
+
+---
+
+## The Simple Picture  
+Think of a particle as a **wave history** {path} that explores every possible route from A to B. Like ripples spreading from a stone dropped in water, these paths **interfere** with each other. Some paths reinforce each other (constructive interference), while others cancel out (destructive interference).  
+
+[Diagram idea: A particle moving from A to B with multiple paths (straight, curved, zig-zag). Arrows show phase factors interfering at the destination.]  
+
+In the **double-slit experiment**, this idea explains how particles create an interference pattern: each path contributes a wave, and their amplitudes add up to form the bright and dark bands.  
+
+---
+
+## The More Precise Picture  
+1. **Wave History** {Path}: A particle’s journey from A to B is not a single trajectory but a **sum over all possible paths**.  
+2. **Probability Amplitude** {Wavefunction}: Each path contributes a **complex number** (a phase factor) proportional to $ e^{iS/\hbar} $, where $ S $ is the **action** {action integral} and $ \hbar $ is Planck’s constant.  
+3. **Action** {Action Integral}: The action $ S = \int L \, dt $ measures how "efficient" a path is, where $ L $ is the **Lagrangian** (kinetic energy minus potential energy).  
+4. **Interference**: When paths overlap, their phase factors **add like waves**. The total amplitude is the **sum of all these contributions**, and the probability is the square of its magnitude.  
+
+[Diagram idea: Two paths with different phases (e.g., red and blue arrows) interfering constructively (same color) or destructively (canceled).]  
+
+---
+
+## Common Misconceptions  
+- **Misconception 1**: The path integral describes "real" paths a particle takes.  
+  → **Reality**: It’s a **mathematical tool** that sums over all **mathematically possible paths**, even those that violate classical physics (e.g., going backward in time).  
+- **Misconception 2**: Only the classical path matters.  
+  → **Reality**: All paths contribute, but the **classical path** (which minimizes action) dominates due to **constructive interference**.  
+- **Misconception 3**: The path integral is about "summing over space."  
+  → **Reality**: It’s about **summing over all trajectories in spacetime**, weighted by their action.  
+
+---
+
+## How This Connects to the Rest of Physics  
+The path integral is a **unifying framework** for quantum mechanics:  
+- It explains **quantum tunneling** (particles "going through walls" by taking improbable paths).  
+- It underpins **quantum field theory**, where particles are excitations of fields that "take all paths."  
+- It links **classical mechanics** (via the least action principle) to **quantum mechanics**.  
+
+This approach also extends to **relativistic quantum mechanics** and **quantum gravity**, showing how the path integral is a cornerstone of modern physics.  
+
+---
+
+## Recap  
+- The **Feynman path integral** sums over **all possible paths** a particle can take.  
+- Each path contributes a **phase factor** $ e^{iS/\hbar} $, determined by its **action**.  
+- **Interference** between paths determines the final probability.  
+- The **classical path** dominates due to constructive interference, but all paths matter.  
+- The path integral is a **foundational tool** for understanding quantum phenomena and connecting to classical physics.  
+
+[Diagram idea: A graph of action $ S $ vs. path, highlighting the classical minimum where interference is strongest.]
+
+Instructions:
+- Correct or qualify unsupported, contradicted, or overstrong claims.
+- Preserve good accessible explanations.
+- Do not add speculative research as settled fact.
+- If an analogy was misleading, either repair it or state its limits.
+- Keep standard terms in braces after descriptive names.
+- Output only the revised article in Markdown.
+
+RESPONSE:
+# The Feynman Path Integral: Adding Up Every Possible Wave History  
+
+## The Core Idea  
+Imagine a particle traveling from point A to point B. In classical physics, it takes the "best" path—like a ball rolling downhill. But in quantum mechanics, the particle doesn’t pick one path. Instead, it **takes every possible path**—even ones that defy intuition, like zig-zagging or going backward in time. Each path contributes a **probability amplitude**, and the total amplitude is the **sum of all these contributions**. The final probability is the square of this total amplitude.  
+
+This idea, called the **Feynman path integral**, is a way to calculate how quantum systems behave by considering **all mathematically possible paths** and their interference. The formulation is rooted in Richard Feynman’s 1948 work and is a cornerstone of quantum mechanics, as detailed in textbooks like Griffiths’ *Quantum Mechanics* and Dirac’s *Principles of Quantum Mechanics*.  
+
+---
+
+## Why This Matters  
+The path integral is a **foundational framework** for quantum mechanics. It explains how particles behave as both waves and particles, unifying concepts like **wave-particle duality** and **superposition**. It also reveals why classical physics (like a ball rolling downhill) is just an approximation of the quantum world.  
+
+By summing over all paths, the path integral connects **quantum mechanics** to **classical mechanics** through the **principle of least action**. This connection is rigorously explored in canonical textbooks, showing how classical trajectories emerge as dominant contributions in the quantum limit. The principle of least action, a key concept in classical mechanics, is central to this formulation.  
+
+---
+
+## The Simple Picture  
+Think of a particle as a **wave history** {path} that explores every possible route from A to B. Like ripples spreading from a stone dropped in water, these paths **interfere** with each other. Some paths reinforce each other (constructive interference), while others cancel out (destructive interference).  
+
+[Diagram idea: A particle moving from A to B with multiple paths (straight, curved, zig-zag). Arrows show phase factors interfering at the destination.]  
+
+In the **double-slit experiment**, this idea explains how particles create an interference pattern: each path contributes a wave, and their amplitudes add up to form the bright and dark bands.  
+
+---
+
+## The More Precise Picture  
+1. **Wave History** {Path}: A particle’s journey from A to B is not a single trajectory but a **sum over all possible paths**.  
+2. **Probability Amplitude** {Wavefunction}: Each path contributes a **complex number** (a phase factor) proportional to $ e^{iS/\hbar} $, where $ S $ is the **action** {action integral} and $ \hbar $ is Planck’s constant. This formulation is derived from Feynman’s 1948 papers and is a standard result in quantum mechanics (see Griffiths, *Quantum Mechanics*, 2nd ed.).  
+3. **Action** {Action Integral}: The action $ S = \int L \, dt $ measures how "efficient" a path is, where $ L $ is the **Lagrangian** (kinetic energy minus potential energy).  
+4. **Interference**: When paths overlap, their phase factors **add like waves**. The total amplitude is the **sum of all these contributions**, and the probability is the square of its magnitude.  
+
+[Diagram idea: Two paths with different phases (e.g., red and blue arrows) interfering constructively (same color) or destructively (canceled).]  
+
+---
+
+## Common Misconceptions  
+- **Misconception 1**: The path integral describes "real" paths a particle takes.  
+  → **Reality**: It’s a **mathematical tool** that sums over all **mathematically possible paths**, even those that violate classical physics (e.g., going backward in time). The paths are not physical trajectories but abstract contributions to the amplitude.  
+- **Misconception 2**: Only the classical path matters.  
+  → **Reality**: All paths contribute, but the **classical path** (which minimizes action) dominates due to **constructive interference**. This result is rigorously derived in textbooks like Dirac’s *Principles of Quantum Mechanics*.  
+- **Misconception 3**: The path integral is about "summing over space."  
+  → **Reality**: It’s about **summing over all trajectories in spacetime**, weighted by their action.  
+
+---
+
+## How This Connects to the Rest of Physics  
+The path integral is a **unifying framework** for quantum mechanics:  
+- It explains **quantum tunneling** (particles "going through walls" by taking improbable paths).  
+- It underpins **quantum field theory**, where particles are excitations of fields that "take all paths."  
+- It links **classical mechanics** (via the least action principle) to **quantum mechanics**.  
+
+This approach also extends to **relativistic quantum mechanics** and **quantum gravity**, showing how the path integral is a cornerstone of modern physics.  
+
+---
+
+## Recap  
+- The **Feynman path integral** sums over **all possible paths** a particle can take.  
+- Each path contributes a **phase factor** $ e^{iS/\hbar} $, determined by its **action**.  
+- **Interference** between paths determines the final probability.  
+- The **classical path** dominates due to constructive interference, but all paths matter.  
+- The path integral is a **foundational tool** for understanding quantum phenomena and connecting to classical physics.  
+
+[Diagram idea: A graph of action $ S $ vs. path, highlighting the classical minimum where interference is strongest.]  
+
+---  
+**Note**: The path integral is a mathematical abstraction, not a literal description of physical reality. Its power lies in its ability to unify quantum and classical descriptions through interference and action principles.

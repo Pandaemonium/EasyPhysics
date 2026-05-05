@@ -1,0 +1,19 @@
+{
+  "sources_by_claim": {
+    "C001": {
+      "claim": "# Dispersion ## The core idea Dispersion is when waves of different wavelengths (like colors of light) travel at different speeds through a medium, causing them to separate.",
+      "query": "Dispersion # Dispersion ## The core idea Dispersion is when waves of different wavelengths (like colors of physics lecture notes textbook explanation",
+      "result_snippet": "March 8, 2026 - Dispersion occurs when sinusoidal waves of different wavelengths have different propagation velocities, so that a wave packet of mixed wavelengths tends to spread out in space. March 12, 2026 - Dispersion causes a rainbow's spatial separation of a white light into components of different wavelengths (different colors). However, dispersion also has an effect in many other circumstances: for example, group-velocity dispersion causes pulses to spread in optical fibers, degrading signals ... 2 weeks ago - Dispersion is any wave motion phenomenon that is associated with the propagation of individual waves at velocities that depend on their wavelengths. March 4, 2026 - Diamonds sparkle with “fire” ... In a broader sense, dispersion describes any situation where waves of different frequencies travel at different speeds through a medium.... July 23, 2025 - When white light passes through ... and red), a process known as Dispersion. Because each colors' light has distinct wavelengths, white light disperses into seven colors....",
+      "searched_at": "2026-05-04_11-02-26",
+      "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
+    },
+    "C002": {
+      "claim": "Imagine a prism splitting sunlight into a rainbow—this happens because blue light slows down more than red light in glass, making them bend at different angles.",
+      "query": "Dispersion Imagine a prism splitting sunlight into a rainbow—this happens because blue light slows down more than physics lecture notes textbook explanation",
+      "result_snippet": "Dispersion of light is the phenomenon in which white light splits into its constituent colors when it passes through a prism. This happens because each color of light has a different wavelength and bends by a different amount upon refraction. As a result, the colors spread out to form a visible spectrum, commonly known as VIBGYOR (Violet, Indigo, Blue, Green, Yellow, Orange, Red). Dispersion ... Explore dispersion of light: how prisms & water split white light into vibrant colors of the rainbow. Understand wavelengths, rainbows & spectroscopy. Spectroscopy is one major advancement in physics which totally relies on the theory of dispersion whereas the mesmerizing view of rainbows is the natural art of dispersion. While refraction also means the bending of light, dispersion slightly differs by including the aspect of separation of white light into colors based on wavelength. To understand why dispersion occurs, we must recall that white light is a mixture of light of different wavelengths. Each colour in white light corresponds to a particular wavelength. When light passes from air into glass, its speed changes. Since glass is optically denser than air, light slows down upon entering the prism. However, all wavelengths do not slow down by the same amount. The ... Understand how light refraction and dispersion form the color spectrum in rainbows, revealing the fascinating optical physics behind this natural phenomenon.",
+      "searched_at": "2026-05-04_11-02-28",
+      "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
+    }
+  },
+  "last_updated": "2026-05-04_11-02-28"
+}

@@ -1,0 +1,19 @@
+{
+  "sources_by_claim": {
+    "C001": {
+      "claim": "Unlike classical systems, where probabilities can \"leak\" (e.g., a particle hitting a wall and disappearing), quantum evolution is **reversible and deterministic**.",
+      "query": "Unitary evolution Unlike classical systems, where probabilities can \"leak\" (e.g., a particle hitting a wall and disappearing), quantum physics lecture notes textbook explanation",
+      "result_snippet": "Classical science — unlike quantum science — has no concept of this internal aspect that runs the external world; and evolutionary ... Classical science — unlike quantum science — has no concept of this internal aspect that runs the external world; and evolutionary ... ... of DUST, we study operator spreading and Pauli weight dynamics in one-dimensional qubit systems, evolved by random two-local dual-unitary gates ... Classical science — unlike quantum science — has no concept of this internal aspect that runs the external world; and evolutionary ... ... where a quantum computer can reach far beyond what classical computers can do, the accuracy of the quantum computation cannot be checked efficiently.",
+      "searched_at": "2026-05-04_14-53-29",
+      "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
+    },
+    "C002": {
+      "claim": "Think of it as a rotation in a complex space: the \"length\" of the state vector (which represents total probability) never changes.",
+      "query": "Unitary evolution Think of it as a rotation in a complex space: the \"length\" of the state vector physics lecture notes textbook explanation",
+      "result_snippet": "A unitary matrix is a complex linear transformation that preserves vector length and probability, making it the only physically allowed operation for ... ... the way of vectors, because I think is ... It makes no sense to speak about the size, or magnitude, or length of a vector, as an intrinsic property. ... the way of vectors, because I think is ... It makes no sense to speak about the size, or magnitude, or length of a vector, as an intrinsic property. Canonically, we take the tangent space at the identity $\\mathbf{1} \\in \\mathrm{U}(N)$ and call it the Lie algebra $\\mathfrak{g} \\cong T_\\mathbf{1 ... ... The zero-components $V^0$ of all contravariant $4$-vectors $V^{\\mu}$ do Wick-rotate $$V^0_E~=~iV^0_M ;\\tag{A}$$ not just time $x^0$ in the spacetime ...",
+      "searched_at": "2026-05-04_14-53-31",
+      "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
+    }
+  },
+  "last_updated": "2026-05-04_14-53-31"
+}

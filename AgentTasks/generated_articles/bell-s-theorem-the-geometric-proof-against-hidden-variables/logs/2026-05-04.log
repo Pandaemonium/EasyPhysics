@@ -1,0 +1,571 @@
+
+================================================================================
+TIME: 2026-05-04T03:47:43
+NODE: planner
+PROMPT_CHARS: 521
+PROMPT_TOKENS_APPROX: 130
+RESPONSE_CHARS: 4556
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 64, "num_ctx": 12288, "num_predict": 3072, "temperature": 0.25, "top_p": 0.85}
+================================================================================
+PROMPT:
+Create a strong teaching outline for this EasyPhysics article:
+
+Title: Bell's Theorem: the geometric proof against hidden variables
+
+The outline should include:
+1. Scope: what this article explains.
+2. Out of scope: what it should not try to explain yet.
+3. Prerequisite concepts.
+4. Core intuition.
+5. Suggested descriptive names with standard terms in braces.
+6. Common misconceptions to avoid.
+7. Section-by-section outline.
+8. Optional diagram ideas.
+9. Optional minimal math, with what the math means.
+
+Use Markdown.
+
+RESPONSE:
+# Bell's Theorem: the geometric proof against hidden variables  
+
+---
+
+## 1. Scope  
+This article explains **Bell's Theorem** and its **geometric proof** that quantum mechanics cannot be explained by **local hidden variables**. It focuses on the structure of quantum predictions and how they violate classical assumptions about reality.  
+
+---
+
+## 2. Out of Scope  
+- The history of Bell’s work or experimental tests (e.g., Aspect experiments).  
+- Technical details of quantum mechanics beyond basic principles.  
+- Interpretations of quantum mechanics (e.g., Many-Worlds, Copenhagen).  
+- Advanced math (e.g., Hilbert spaces, operator algebra).  
+
+---
+
+## 3. Prerequisite Concepts  
+- Basic understanding of **particles, waves, and probability**.  
+- Familiarity with **hidden variables** (a conceptual idea: "what determines outcomes if quantum mechanics is incomplete").  
+- Comfort with **simple algebra** and **basic geometry** (angles, triangles, coordinates).  
+
+---
+
+## 4. Core Intuition  
+Bell’s Theorem shows that **quantum mechanics defies classical logic** about how reality works. The geometric proof uses a **triangle of possible outcomes** to show that:  
+- If hidden variables exist, correlations between particles must obey a strict limit (Bell’s inequality).  
+- Quantum mechanics predicts correlations that **violate** this limit, proving hidden variables cannot explain quantum behavior.  
+
+---
+
+## 5. Suggested Descriptive Names with Standard Terms in Braces  
+| Descriptive Name                | Standard Term         |  
+|-------------------------------|-----------------------|  
+| local hidden variable {LHV}   | local hidden variable |  
+| correlation limit {Bell inequality} | Bell inequality     |  
+| space-occupier {fermion}      | fermion               |  
+| stackable ripple {boson}      | boson                 |  
+| possibility-weight {amplitude} | amplitude            |  
+
+---
+
+## 6. Common Misconceptions to Avoid  
+- **"Bell’s Theorem proves quantum mechanics is correct."** → It only rules out specific hidden variable theories.  
+- **"Quantum mechanics is spooky or magic."** → It’s lawful, but the math feels counterintuitive.  
+- **"Non-locality is proven."** → Bell’s Theorem shows **local hidden variables** are impossible, not that non-locality is confirmed.  
+
+---
+
+## 7. Section-by-Section Outline  
+### **Section 1: The Problem of Hidden Variables**  
+- What are hidden variables? (e.g., "pre-set instructions for particles").  
+- Why do physicists care? (e.g., to explain quantum randomness).  
+
+### **Section 2: The Geometry of Correlations**  
+- Imagine two particles flying in opposite directions.  
+- Use angles to represent measurement settings (e.g., 0°, 45°, 90°).  
+- Draw a triangle to represent possible outcomes.  
+
+### **Section 3: Bell’s Inequality (The Correlation Limit)**  
+- Derive the inequality: **|A + B| ≤ 2** (for classical correlations).  
+- Explain it as a "maximum possible agreement" between particles.  
+
+### **Section 4: Quantum Predictions vs. Classical Limits**  
+- Quantum mechanics predicts **|A + B| = 2.828**, violating the classical limit.  
+- Use a diagram to compare classical and quantum outcomes.  
+
+### **Section 5: The Contradiction**  
+- If hidden variables exist, quantum predictions must be wrong.  
+- But experiments confirm quantum predictions → hidden variables are invalid.  
+
+### **Section 6: Implications and Limits**  
+- Bell’s Theorem doesn’t explain quantum mechanics—it rules out a class of theories.  
+- It highlights the **non-local structure** of quantum reality.  
+
+---
+
+## 8. Optional Diagram Ideas  
+1. **Triangle of Angles**:  
+   - A triangle with three angles (0°, 45°, 90°) representing measurement settings.  
+   - Points inside the triangle show possible outcomes for hidden variables.  
+
+2. **Classical vs. Quantum Correlation Graph**:  
+   - Two lines: one for classical limits (|A + B| ≤ 2), one for quantum predictions (|A + B| ≈ 2.828).  
+
+3. **Measurement Setup**:  
+   - Two particles flying apart, with detectors at angles θ and φ.  
+
+---
+
+## 9. Optional Minimal Math  
+- **Bell’s Inequality**:  
+  $ |A + B| \leq 2 $  
+  - *Explanation*: For classical hidden variables, the sum of correlations can’t exceed 2.  
+- **Quantum Prediction**:  
+  $ |A + B| = \sqrt{2} \approx 2.828 $  
+  - *Explanation*: Quantum mechanics predicts a higher value, violating the classical limit.  
+
+--- 
+
+This outline balances conceptual clarity with structured rigor, avoiding jargon while emphasizing the **geometric intuition** behind Bell’s Theorem.
+
+================================================================================
+TIME: 2026-05-04T03:51:58
+NODE: writer
+PROMPT_CHARS: 6011
+PROMPT_TOKENS_APPROX: 1502
+RESPONSE_CHARS: 3261
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 64, "num_ctx": 12288, "num_predict": 3072, "temperature": 0.25, "top_p": 0.85}
+================================================================================
+PROMPT:
+Write a high-quality first draft for this EasyPhysics article.
+
+Title: Bell's Theorem: the geometric proof against hidden variables
+
+Article outline:
+# Bell's Theorem: the geometric proof against hidden variables  
+
+---
+
+## 1. Scope  
+This article explains **Bell's Theorem** and its **geometric proof** that quantum mechanics cannot be explained by **local hidden variables**. It focuses on the structure of quantum predictions and how they violate classical assumptions about reality.  
+
+---
+
+## 2. Out of Scope  
+- The history of Bell’s work or experimental tests (e.g., Aspect experiments).  
+- Technical details of quantum mechanics beyond basic principles.  
+- Interpretations of quantum mechanics (e.g., Many-Worlds, Copenhagen).  
+- Advanced math (e.g., Hilbert spaces, operator algebra).  
+
+---
+
+## 3. Prerequisite Concepts  
+- Basic understanding of **particles, waves, and probability**.  
+- Familiarity with **hidden variables** (a conceptual idea: "what determines outcomes if quantum mechanics is incomplete").  
+- Comfort with **simple algebra** and **basic geometry** (angles, triangles, coordinates).  
+
+---
+
+## 4. Core Intuition  
+Bell’s Theorem shows that **quantum mechanics defies classical logic** about how reality works. The geometric proof uses a **triangle of possible outcomes** to show that:  
+- If hidden variables exist, correlations between particles must obey a strict limit (Bell’s inequality).  
+- Quantum mechanics predicts correlations that **violate** this limit, proving hidden variables cannot explain quantum behavior.  
+
+---
+
+## 5. Suggested Descriptive Names with Standard Terms in Braces  
+| Descriptive Name                | Standard Term         |  
+|-------------------------------|-----------------------|  
+| local hidden variable {LHV}   | local hidden variable |  
+| correlation limit {Bell inequality} | Bell inequality     |  
+| space-occupier {fermion}      | fermion               |  
+| stackable ripple {boson}      | boson                 |  
+| possibility-weight {amplitude} | amplitude            |  
+
+---
+
+## 6. Common Misconceptions to Avoid  
+- **"Bell’s Theorem proves quantum mechanics is correct."** → It only rules out specific hidden variable theories.  
+- **"Quantum mechanics is spooky or magic."** → It’s lawful, but the math feels counterintuitive.  
+- **"Non-locality is proven."** → Bell’s Theorem shows **local hidden variables** are impossible, not that non-locality is confirmed.  
+
+---
+
+## 7. Section-by-Section Outline  
+### **Section 1: The Problem of Hidden Variables**  
+- What are hidden variables? (e.g., "pre-set instructions for particles").  
+- Why do physicists care? (e.g., to explain quantum randomness).  
+
+### **Section 2: The Geometry of Correlations**  
+- Imagine two particles flying in opposite directions.  
+- Use angles to represent measurement settings (e.g., 0°, 45°, 90°).  
+- Draw a triangle to represent possible outcomes.  
+
+### **Section 3: Bell’s Inequality (The Correlation Limit)**  
+- Derive the inequality: **|A + B| ≤ 2** (for classical correlations).  
+- Explain it as a "maximum possible agreement" between particles.  
+
+### **Section 4: Quantum Predictions vs. Classical Limits**  
+- Quantum mechanics predicts **|A + B| = 2.828**, violating the classical limit.  
+- Use a diagram to compare classical and quantum outcomes.  
+
+### **Section 5: The Contradiction**  
+- If hidden variables exist, quantum predictions must be wrong.  
+- But experiments confirm quantum predictions → hidden variables are invalid.  
+
+### **Section 6: Implications and Limits**  
+- Bell’s Theorem doesn’t explain quantum mechanics—it rules out a class of theories.  
+- It highlights the **non-local structure** of quantum reality.  
+
+---
+
+## 8. Optional Diagram Ideas  
+1. **Triangle of Angles**:  
+   - A triangle with three angles (0°, 45°, 90°) representing measurement settings.  
+   - Points inside the triangle show possible outcomes for hidden variables.  
+
+2. **Classical vs. Quantum Correlation Graph**:  
+   - Two lines: one for classical limits (|A + B| ≤ 2), one for quantum predictions (|A + B| ≈ 2.828).  
+
+3. **Measurement Setup**:  
+   - Two particles flying apart, with detectors at angles θ and φ.  
+
+---
+
+## 9. Optional Minimal Math  
+- **Bell’s Inequality**:  
+  $ |A + B| \leq 2 $  
+  - *Explanation*: For classical hidden variables, the sum of correlations can’t exceed 2.  
+- **Quantum Prediction**:  
+  $ |A + B| = \sqrt{2} \approx 2.828 $  
+  - *Explanation*: Quantum mechanics predicts a higher value, violating the classical limit.  
+
+--- 
+
+This outline balances conceptual clarity with structured rigor, avoiding jargon while emphasizing the **geometric intuition** behind Bell’s Theorem.
+
+Human/editor notes:
+# Human/editor notes
+
+Add any preferences, corrections, or article-specific constraints here.
+
+
+Template guidance:
+Preferred article structure:
+
+# Title
+
+## The core idea
+A short, intuitive explanation that gives the reader the main point first.
+
+## Why this matters
+Explain what the concept helps us understand.
+
+## The simple picture
+Use an analogy, diagram idea, or concrete example.
+
+## The more precise picture
+Introduce standard terms, careful distinctions, and optional minimal math.
+
+## Common misconceptions
+Name and correct the traps.
+
+## How this connects to the rest of physics
+Link the concept to fields, particles, symmetry, conservation, relativity, or the Standard Model as appropriate.
+
+## Recap
+A few concise takeaways.
+
+Drafting instructions:
+- Make it accessible to a motivated high-schooler or college freshman.
+- Teach the modern concept directly rather than narrating historical discovery.
+- Use descriptive names with standard terms in braces, e.g. space-occupier {fermion}.
+- Include common misconceptions and correct them.
+- Include minimal math only when it helps, and explain what the math means.
+- Suggest diagram ideas inline where helpful using this format: [Diagram idea: ...]
+- Output only the article in Markdown, with no commentary before or after.
+
+RESPONSE:
+# Bell's Theorem: the geometric proof against hidden variables  
+
+## The core idea  
+Bell’s Theorem shows that **quantum mechanics defies classical logic** about how reality works. A geometric proof using angles and correlations proves that **local hidden variables** (pre-set instructions for particles) cannot explain quantum behavior.  
+
+## Why this matters  
+This theorem challenges the idea that reality is "local" and "real" in the way classical physics assumes. It reveals that quantum mechanics describes a world where particles can influence each other instantly across distances—something classical physics cannot explain.  
+
+## The simple picture  
+Imagine two particles flying in opposite directions. When you measure their properties, they seem to "know" each other’s settings, even if they’re far apart. [Diagram idea: Triangle of Angles]  
+- Draw a triangle with three angles (0°, 45°, 90°) representing different measurement settings.  
+- If hidden variables exist, outcomes must fit inside this triangle. But quantum mechanics predicts results that **stick out** of it—proving hidden variables are impossible.  
+
+## The more precise picture  
+### Hidden variables and classical logic  
+Local hidden variables {LHV} are like pre-set instructions for particles. For example, imagine two coins flipped in secret, with results determined by hidden rules. Classical physics assumes these rules limit how correlated particles can be.  
+
+### Bell’s inequality: the correlation limit {Bell inequality}  
+Bell derived a rule for classical correlations:  
+$$ |A + B| \leq 2 $$  
+- This is a "maximum possible agreement" between particles, assuming hidden variables exist.  
+
+### Quantum predictions: breaking the limit  
+Quantum mechanics predicts:  
+$$ |A + B| = \sqrt{2} \approx 2.828 $$  
+- This violates the classical limit, showing hidden variables cannot explain quantum behavior. [Diagram idea: Classical vs. Quantum Correlation Graph]  
+
+### Geometry of the proof  
+[Diagram idea: Measurement Setup]  
+- Two particles fly apart, with detectors at angles θ and φ.  
+- The triangle of angles represents all possible measurement settings.  
+- Hidden variables force outcomes to fit inside the triangle, but quantum mechanics predicts results outside it.  
+
+## Common misconceptions  
+- **"Bell’s Theorem proves quantum mechanics is correct."** → It only rules out specific hidden variable theories.  
+- **"Quantum mechanics is spooky or magic."** → It’s lawful, but the math feels counterintuitive.  
+- **"Non-locality is proven."** → Bell’s Theorem shows **local hidden variables** are impossible, not that non-locality is confirmed.  
+
+## How this connects to the rest of physics  
+Bell’s Theorem is foundational for understanding **quantum entanglement** and the **non-local structure** of quantum reality. It underpins modern quantum technologies like cryptography and computing, and highlights the limits of classical explanations for quantum phenomena.  
+
+## Recap  
+- Bell’s Theorem rules out local hidden variables {LHV} using a geometric proof.  
+- Classical correlations obey |A + B| ≤ 2, but quantum mechanics predicts |A + B| ≈ 2.828.  
+- This violation shows quantum reality defies classical assumptions about locality and hidden rules.
+
+================================================================================
+TIME: 2026-05-04T03:54:45
+NODE: term_collector
+PROMPT_CHARS: 3731
+PROMPT_TOKENS_APPROX: 932
+RESPONSE_CHARS: 889
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 64, "num_ctx": 12288, "num_predict": 3072, "temperature": 0.25, "top_p": 0.85}
+================================================================================
+PROMPT:
+Extract the descriptive-name candidates from this draft.
+
+Return JSON with this shape:
+{
+  "terms": [
+    {
+      "standard_term": "fermion",
+      "candidate_name": "space-occupier",
+      "context_quote": "short quote from the draft",
+      "usefulness": "why this name helps",
+      "risk": "how it could mislead, or empty string if low risk"
+    }
+  ]
+}
+
+Only include actual teaching-name candidates, especially phrases followed by standard terms in braces.
+
+Draft:
+# Bell's Theorem: the geometric proof against hidden variables  
+
+## The core idea  
+Bell’s Theorem shows that **quantum mechanics defies classical logic** about how reality works. A geometric proof using angles and correlations proves that **local hidden variables** (pre-set instructions for particles) cannot explain quantum behavior.  
+
+## Why this matters  
+This theorem challenges the idea that reality is "local" and "real" in the way classical physics assumes. It reveals that quantum mechanics describes a world where particles can influence each other instantly across distances—something classical physics cannot explain.  
+
+## The simple picture  
+Imagine two particles flying in opposite directions. When you measure their properties, they seem to "know" each other’s settings, even if they’re far apart. [Diagram idea: Triangle of Angles]  
+- Draw a triangle with three angles (0°, 45°, 90°) representing different measurement settings.  
+- If hidden variables exist, outcomes must fit inside this triangle. But quantum mechanics predicts results that **stick out** of it—proving hidden variables are impossible.  
+
+## The more precise picture  
+### Hidden variables and classical logic  
+Local hidden variables {LHV} are like pre-set instructions for particles. For example, imagine two coins flipped in secret, with results determined by hidden rules. Classical physics assumes these rules limit how correlated particles can be.  
+
+### Bell’s inequality: the correlation limit {Bell inequality}  
+Bell derived a rule for classical correlations:  
+$$ |A + B| \leq 2 $$  
+- This is a "maximum possible agreement" between particles, assuming hidden variables exist.  
+
+### Quantum predictions: breaking the limit  
+Quantum mechanics predicts:  
+$$ |A + B| = \sqrt{2} \approx 2.828 $$  
+- This violates the classical limit, showing hidden variables cannot explain quantum behavior. [Diagram idea: Classical vs. Quantum Correlation Graph]  
+
+### Geometry of the proof  
+[Diagram idea: Measurement Setup]  
+- Two particles fly apart, with detectors at angles θ and φ.  
+- The triangle of angles represents all possible measurement settings.  
+- Hidden variables force outcomes to fit inside the triangle, but quantum mechanics predicts results outside it.  
+
+## Common misconceptions  
+- **"Bell’s Theorem proves quantum mechanics is correct."** → It only rules out specific hidden variable theories.  
+- **"Quantum mechanics is spooky or magic."** → It’s lawful, but the math feels counterintuitive.  
+- **"Non-locality is proven."** → Bell’s Theorem shows **local hidden variables** are impossible, not that non-locality is confirmed.  
+
+## How this connects to the rest of physics  
+Bell’s Theorem is foundational for understanding **quantum entanglement** and the **non-local structure** of quantum reality. It underpins modern quantum technologies like cryptography and computing, and highlights the limits of classical explanations for quantum phenomena.  
+
+## Recap  
+- Bell’s Theorem rules out local hidden variables {LHV} using a geometric proof.  
+- Classical correlations obey |A + B| ≤ 2, but quantum mechanics predicts |A + B| ≈ 2.828.  
+- This violation shows quantum reality defies classical assumptions about locality and hidden rules.
+
+RESPONSE:
+{
+  "terms": [
+    {
+      "standard_term": "LHV",
+      "candidate_name": "local hidden variables",
+      "context_quote": "Local hidden variables {LHV} are like pre-set instructions for particles.",
+      "usefulness": "Describes hidden variables as pre-set instructions, making the concept intuitive for beginners.",
+      "risk": "May confuse with the standard term 'local hidden variables' if not clarified, but low risk due to clear context."
+    },
+    {
+      "standard_term": "Bell inequality",
+      "candidate_name": "the correlation limit",
+      "context_quote": "Bell’s inequality: the correlation limit {Bell inequality}",
+      "usefulness": "Frames Bell’s inequality as a boundary on classical correlations, helping students grasp its role in the proof.",
+      "risk": "Suggests the term is too abstract, but paired with the standard term it remains precise."
+    }
+  ]
+}
+
+================================================================================
+TIME: 2026-05-04T03:57:54
+NODE: claim_extractor
+PROMPT_CHARS: 4182
+PROMPT_TOKENS_APPROX: 1045
+RESPONSE_CHARS: 2853
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 64, "num_ctx": 12288, "num_predict": 3072, "temperature": 0.25, "top_p": 0.85}
+================================================================================
+PROMPT:
+Extract the most important scientific and explanatory claims from this article draft.
+
+Return JSON with this shape:
+{
+  "claims": [
+    {
+      "id": "C001",
+      "claim": "A clear, standalone claim from the article.",
+      "type": "definition | mechanism | analogy | mathematical | misconception-correction | scope | other",
+      "importance": "high | medium | low",
+      "needs_external_check": true,
+      "why_it_matters": "brief reason",
+      "suggested_search_query": "stable source search query, not latest-news oriented"
+    }
+  ]
+}
+
+Guidance:
+- Extract claims that matter for scientific correctness.
+- Include claims embedded in analogies if the analogy could mislead.
+- Do not include purely stylistic statements.
+- Search queries should prefer stable sources: textbooks, lecture notes, CERN, Fermilab, university pages.
+
+Article title: Bell's Theorem: the geometric proof against hidden variables
+
+Draft:
+# Bell's Theorem: the geometric proof against hidden variables  
+
+## The core idea  
+Bell’s Theorem shows that **quantum mechanics defies classical logic** about how reality works. A geometric proof using angles and correlations proves that **local hidden variables** (pre-set instructions for particles) cannot explain quantum behavior.  
+
+## Why this matters  
+This theorem challenges the idea that reality is "local" and "real" in the way classical physics assumes. It reveals that quantum mechanics describes a world where particles can influence each other instantly across distances—something classical physics cannot explain.  
+
+## The simple picture  
+Imagine two particles flying in opposite directions. When you measure their properties, they seem to "know" each other’s settings, even if they’re far apart. [Diagram idea: Triangle of Angles]  
+- Draw a triangle with three angles (0°, 45°, 90°) representing different measurement settings.  
+- If hidden variables exist, outcomes must fit inside this triangle. But quantum mechanics predicts results that **stick out** of it—proving hidden variables are impossible.  
+
+## The more precise picture  
+### Hidden variables and classical logic  
+Local hidden variables {LHV} are like pre-set instructions for particles. For example, imagine two coins flipped in secret, with results determined by hidden rules. Classical physics assumes these rules limit how correlated particles can be.  
+
+### Bell’s inequality: the correlation limit {Bell inequality}  
+Bell derived a rule for classical correlations:  
+$$ |A + B| \leq 2 $$  
+- This is a "maximum possible agreement" between particles, assuming hidden variables exist.  
+
+### Quantum predictions: breaking the limit  
+Quantum mechanics predicts:  
+$$ |A + B| = \sqrt{2} \approx 2.828 $$  
+- This violates the classical limit, showing hidden variables cannot explain quantum behavior. [Diagram idea: Classical vs. Quantum Correlation Graph]  
+
+### Geometry of the proof  
+[Diagram idea: Measurement Setup]  
+- Two particles fly apart, with detectors at angles θ and φ.  
+- The triangle of angles represents all possible measurement settings.  
+- Hidden variables force outcomes to fit inside the triangle, but quantum mechanics predicts results outside it.  
+
+## Common misconceptions  
+- **"Bell’s Theorem proves quantum mechanics is correct."** → It only rules out specific hidden variable theories.  
+- **"Quantum mechanics is spooky or magic."** → It’s lawful, but the math feels counterintuitive.  
+- **"Non-locality is proven."** → Bell’s Theorem shows **local hidden variables** are impossible, not that non-locality is confirmed.  
+
+## How this connects to the rest of physics  
+Bell’s Theorem is foundational for understanding **quantum entanglement** and the **non-local structure** of quantum reality. It underpins modern quantum technologies like cryptography and computing, and highlights the limits of classical explanations for quantum phenomena.  
+
+## Recap  
+- Bell’s Theorem rules out local hidden variables {LHV} using a geometric proof.  
+- Classical correlations obey |A + B| ≤ 2, but quantum mechanics predicts |A + B| ≈ 2.828.  
+- This violation shows quantum reality defies classical assumptions about locality and hidden rules.
+
+RESPONSE:
+{
+  "claims": [
+    {
+      "id": "C001",
+      "claim": "Bell’s Theorem proves that local hidden variables {LHV} cannot explain quantum correlations, using a geometric proof based on angular measurements and inequality violations.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Establishes the impossibility of classical explanations for quantum phenomena.",
+      "suggested_search_query": "Bell's theorem local hidden variables geometric proof"
+    },
+    {
+      "id": "C002",
+      "claim": "Classical correlations obey Bell’s inequality {Bell inequality}: |A + B| ≤ 2, but quantum mechanics predicts |A + B| ≈ 2.828, violating this limit.",
+      "type": "mechanism",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Quantum predictions exceed classical limits, disproving local hidden variables.",
+      "suggested_search_query": "Bell inequality derivation quantum mechanics"
+    },
+    {
+      "id": "C003",
+      "claim": "The geometric proof uses a triangle of angles {measurement settings} to show hidden variables force outcomes within a classical correlation bound, which quantum mechanics exceeds.",
+      "type": "mechanism",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Visualizes the conflict between classical and quantum predictions.",
+      "suggested_search_query": "Bell's theorem geometric proof angles"
+    },
+    {
+      "id": "C004",
+      "claim": "Bell’s Theorem does not prove quantum mechanics is correct, but only rules out specific hidden variable theories.",
+      "type": "misconception-correction",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Corrects a common misunderstanding about the theorem’s scope.",
+      "suggested_search_query": "Bell's theorem limitations hidden variables"
+    },
+    {
+      "id": "C005",
+      "claim": "Non-locality is not proven by Bell’s Theorem; it only shows local hidden variables are impossible, not that non-locality is confirmed.",
+      "type": "misconception-correction",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Clarifies the theorem’s conclusion about locality vs. non-locality.",
+      "suggested_search_query": "Bell's theorem non-locality interpretation"
+    },
+    {
+      "id": "C006",
+      "claim": "Bell’s Theorem is foundational for understanding quantum entanglement and underpins modern quantum technologies like cryptography and computing.",
+      "type": "scope",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Highlights the theorem’s practical and theoretical significance.",
+      "suggested_search_query": "Bell's theorem applications quantum technology"
+    }
+  ]
+}

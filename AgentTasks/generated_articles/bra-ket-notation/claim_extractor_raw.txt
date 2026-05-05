@@ -1,0 +1,13 @@
+{
+  "claims": [
+    {
+      "id": "C001",
+      "claim": "Bra-ket notation is a shorthand for quantum states and their interactions, using kets (|ψ⟩) and bras (⟨φ|) to represent states and measurement questions.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Establishes the foundational purpose of bra-ket notation in quantum mechanics.",
+      "suggested_search_query": "bra-ket notation definition quantum mechanics"
+    },
+    {
+      "id": "C00

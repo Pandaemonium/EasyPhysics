@@ -1,0 +1,261 @@
+
+================================================================================
+TIME: 2026-05-04T11:15:51
+NODE: planner
+PROMPT_CHARS: 473
+PROMPT_TOKENS_APPROX: 118
+RESPONSE_CHARS: 3997
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.85}
+================================================================================
+PROMPT:
+Create a strong teaching outline for this EasyPhysics article:
+
+Title: Polarization
+
+The outline should include:
+1. Scope: what this article explains.
+2. Out of scope: what it should not try to explain yet.
+3. Prerequisite concepts.
+4. Core intuition.
+5. Suggested descriptive names with standard terms in braces.
+6. Common misconceptions to avoid.
+7. Section-by-section outline.
+8. Optional diagram ideas.
+9. Optional minimal math, with what the math means.
+
+Use Markdown.
+
+RESPONSE:
+```markdown
+# Polarization
+
+## 1. Scope
+This article explains **polarization** as the directional orientation of light waves, how it manifests in everyday phenomena, and its practical applications. It focuses on classical electromagnetic waves (like visible light) and avoids speculative or advanced topics.
+
+---
+
+## 2. Out of Scope
+- Polarization in non-electromagnetic waves (e.g., sound)  
+- Quantum polarization (e.g., photon spin)  
+- Mathematical formalisms beyond basic trigonometry  
+- Polarization in complex systems (e.g., liquid crystals, metamaterials)  
+
+---
+
+## 3. Prerequisite Concepts
+- Electromagnetic waves: Light as oscillating electric and magnetic fields  
+- Transverse waves: Oscillations perpendicular to wave direction  
+- Wave interference and diffraction  
+- Basic understanding of light as a wave (not a particle)  
+
+---
+
+## 4. Core Intuition
+Light is a **transverse wave**, meaning its electric field (and magnetic field) oscillate perpendicular to the direction of travel. **Polarization** describes the specific direction of these oscillations. Think of it as the "orientation" of the wave’s electric field—like a rope wave shaking side-to-side (horizontal polarization) vs. up-and-down (vertical polarization).  
+
+---
+
+## 5. Suggested Descriptive Names with Standard Terms in Braces
+- **Direction of oscillation** {polarization}  
+- **Polarizer** {polarizing filter}  
+- **Unpolarized light** {natural light}  
+- **Polarized light** {plane-polarized light}  
+- **Polarization axis** {transmission axis}  
+
+---
+
+## 6. Common Misconceptions to Avoid
+- ❌ "Polarization is about the direction light travels."  
+  → **Fix**: Polarization refers to the electric field’s direction, not the wave’s motion.  
+- ❌ "All light is polarized."  
+  → **Fix**: Natural light (e.g., sunlight) is **unpolarized**, meaning its electric field oscillates in all directions.  
+- ❌ "Polarization filters only block light."  
+  → **Fix**: Polarizers **transmit** light aligned with their axis and **block** light perpendicular to it.  
+
+---
+
+## 7. Section-by-Section Outline
+### **Section 1: What is Polarization?**
+- Introduce light as a transverse wave with electric/magnetic fields.  
+- Define polarization as the direction of the electric field’s oscillation.  
+- Use analogies: rope waves, radio antennas.  
+
+### **Section 2: Demonstrating Polarization**
+- Explain how polarizing filters work:  
+  - **Polarizer** {polarizing filter} blocks light oscillating perpendicular to its axis.  
+  - **Malus’s Law** {intensity = I₀ cos²θ} (optional, with minimal math).  
+- Demo: Polarized sunglasses reducing glare by blocking reflected light.  
+
+### **Section 3: Real-World Applications**
+- **3D movies**: Polarized glasses separate left/right images.  
+- **LCD screens**: Liquid crystals control polarization to create colors.  
+- **Nature**: Polarized light in the sky (Rayleigh scattering).  
+
+### **Section 4: Unpolarized vs. Polarized Light**
+- Contrast natural light (unpolarized) with light from lasers or reflected surfaces (polarized).  
+- Use diagrams to show electric field vectors in different directions.  
+
+---
+
+## 8. Optional Diagram Ideas
+1. **Electric field vector diagram**: Show light waves with electric fields oscillating horizontally, vertically, or diagonally.  
+2. **Polarizing filter schematic**: Illustrate how a filter blocks light perpendicular to its axis.  
+3. **Malus’s Law graph**: Plot intensity vs. angle between polarization and filter axis.  
+4. **3D movie setup**: Show how two polarizers (with perpendicular axes) create separate images.  
+
+---
+
+## 9. Optional Minimal Math
+- **Malus’s Law**:  
+  - Formula: $ I = I_0 \cos^2(\theta) $  
+  - **Explanation**: The intensity of polarized light after passing through a filter depends on the angle $ \theta $ between the light’s polarization and the filter’s axis.  
+  - **Example**: If light is polarized horizontally and the filter is vertical, $ \theta = 90^\circ $, so $ I = 0 $ (no light passes).  
+
+```
+
+================================================================================
+TIME: 2026-05-04T11:21:59
+NODE: writer
+PROMPT_CHARS: 5404
+PROMPT_TOKENS_APPROX: 1351
+RESPONSE_CHARS: 0
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.85}
+================================================================================
+PROMPT:
+Write a high-quality first draft for this EasyPhysics article.
+
+Title: Polarization
+
+Article outline:
+```markdown
+# Polarization
+
+## 1. Scope
+This article explains **polarization** as the directional orientation of light waves, how it manifests in everyday phenomena, and its practical applications. It focuses on classical electromagnetic waves (like visible light) and avoids speculative or advanced topics.
+
+---
+
+## 2. Out of Scope
+- Polarization in non-electromagnetic waves (e.g., sound)  
+- Quantum polarization (e.g., photon spin)  
+- Mathematical formalisms beyond basic trigonometry  
+- Polarization in complex systems (e.g., liquid crystals, metamaterials)  
+
+---
+
+## 3. Prerequisite Concepts
+- Electromagnetic waves: Light as oscillating electric and magnetic fields  
+- Transverse waves: Oscillations perpendicular to wave direction  
+- Wave interference and diffraction  
+- Basic understanding of light as a wave (not a particle)  
+
+---
+
+## 4. Core Intuition
+Light is a **transverse wave**, meaning its electric field (and magnetic field) oscillate perpendicular to the direction of travel. **Polarization** describes the specific direction of these oscillations. Think of it as the "orientation" of the wave’s electric field—like a rope wave shaking side-to-side (horizontal polarization) vs. up-and-down (vertical polarization).  
+
+---
+
+## 5. Suggested Descriptive Names with Standard Terms in Braces
+- **Direction of oscillation** {polarization}  
+- **Polarizer** {polarizing filter}  
+- **Unpolarized light** {natural light}  
+- **Polarized light** {plane-polarized light}  
+- **Polarization axis** {transmission axis}  
+
+---
+
+## 6. Common Misconceptions to Avoid
+- ❌ "Polarization is about the direction light travels."  
+  → **Fix**: Polarization refers to the electric field’s direction, not the wave’s motion.  
+- ❌ "All light is polarized."  
+  → **Fix**: Natural light (e.g., sunlight) is **unpolarized**, meaning its electric field oscillates in all directions.  
+- ❌ "Polarization filters only block light."  
+  → **Fix**: Polarizers **transmit** light aligned with their axis and **block** light perpendicular to it.  
+
+---
+
+## 7. Section-by-Section Outline
+### **Section 1: What is Polarization?**
+- Introduce light as a transverse wave with electric/magnetic fields.  
+- Define polarization as the direction of the electric field’s oscillation.  
+- Use analogies: rope waves, radio antennas.  
+
+### **Section 2: Demonstrating Polarization**
+- Explain how polarizing filters work:  
+  - **Polarizer** {polarizing filter} blocks light oscillating perpendicular to its axis.  
+  - **Malus’s Law** {intensity = I₀ cos²θ} (optional, with minimal math).  
+- Demo: Polarized sunglasses reducing glare by blocking reflected light.  
+
+### **Section 3: Real-World Applications**
+- **3D movies**: Polarized glasses separate left/right images.  
+- **LCD screens**: Liquid crystals control polarization to create colors.  
+- **Nature**: Polarized light in the sky (Rayleigh scattering).  
+
+### **Section 4: Unpolarized vs. Polarized Light**
+- Contrast natural light (unpolarized) with light from lasers or reflected surfaces (polarized).  
+- Use diagrams to show electric field vectors in different directions.  
+
+---
+
+## 8. Optional Diagram Ideas
+1. **Electric field vector diagram**: Show light waves with electric fields oscillating horizontally, vertically, or diagonally.  
+2. **Polarizing filter schematic**: Illustrate how a filter blocks light perpendicular to its axis.  
+3. **Malus’s Law graph**: Plot intensity vs. angle between polarization and filter axis.  
+4. **3D movie setup**: Show how two polarizers (with perpendicular axes) create separate images.  
+
+---
+
+## 9. Optional Minimal Math
+- **Malus’s Law**:  
+  - Formula: $ I = I_0 \cos^2(\theta) $  
+  - **Explanation**: The intensity of polarized light after passing through a filter depends on the angle $ \theta $ between the light’s polarization and the filter’s axis.  
+  - **Example**: If light is polarized horizontally and the filter is vertical, $ \theta = 90^\circ $, so $ I = 0 $ (no light passes).  
+
+```
+
+Human/editor notes:
+# Human/editor notes
+
+Add any preferences, corrections, or article-specific constraints here.
+
+
+Template guidance:
+Preferred article structure:
+
+# Title
+
+## The core idea
+A short, intuitive explanation that gives the reader the main point first.
+
+## Why this matters
+Explain what the concept helps us understand.
+
+## The simple picture
+Use an analogy, diagram idea, or concrete example.
+
+## The more precise picture
+Introduce standard terms, careful distinctions, and optional minimal math.
+
+## Common misconceptions
+Name and correct the traps.
+
+## How this connects to the rest of physics
+Link the concept to fields, particles, symmetry, conservation, relativity, or the Standard Model as appropriate.
+
+## Recap
+A few concise takeaways.
+
+Drafting instructions:
+- Make it accessible to a motivated high-schooler or college freshman.
+- Teach the modern concept directly rather than narrating historical discovery.
+- Use descriptive names with standard terms in braces, e.g. space-occupier {fermion}.
+- Include common misconceptions and correct them.
+- Include minimal math only when it helps, and explain what the math means.
+- Suggest diagram ideas inline where helpful using this format: [Diagram idea: ...]
+- Output only the article in Markdown, with no commentary before or after.
+
+RESPONSE:
+

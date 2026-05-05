@@ -1,0 +1,40 @@
+{
+  "terms": [
+    {
+      "standard_term": "wavefunction",
+      "candidate_name": "probability-ripples",
+      "context_quote": "Particles are described by probability-ripples {wavefunctions}, which spread across space.",
+      "usefulness": "Helps visualize particles as ripples, making the concept more intuitive.",
+      "risk": "Might imply particles are physical ripples, but it's a metaphor for wavefunctions."
+    },
+    {
+      "standard_term": "potential barriers",
+      "candidate_name": "energy-plateau",
+      "context_quote": "A potential barrier is like a wall with a fixed energy height.",
+      "usefulness": "Provides a clear analogy for potential barriers, making it easier to grasp.",
+      "risk": "Could be misleading if taken literally as a physical plateau, but the analogy is clear."
+    },
+    {
+      "standard_term": "wavefunction",
+      "candidate_name": "probability-ripple",
+      "context_quote": "Particles are described by probability-ripples {wavefunctions}, which spread across space.",
+      "usefulness": "Makes the abstract concept of wavefunction tangible by associating it with familiar water ripples.",
+      "risk": "May imply classical wave behavior, but clarifies it's a probability distribution, not a physical ripple."
+    },
+    {
+      "standard_term": "potential barriers",
+      "candidate_name": "energy-plateau",
+      "context_quote": "A potential barrier is like a wall with a fixed energy height.",
+      "usefulness": "Visualizes barriers as flat energy regions, aligning with classical intuition for energy thresholds.",
+      "risk": "Could mislead into thinking barriers are static surfaces rather than energy landscapes."
+    },
+    {
+      "standard,term": "wavefunctions",
+      "candidate_name": "probability-ripples",
+      "context_quote": "Particles are described by probability-ripples {wavefunctions}, which spread across space.",
+      "usefulness": "Reinforces the dual nature of particles as probability distributions with wave-like properties.",
+      "risk": "Plural form might confuse with multiple wavefunctions, but context clarifies it's a single particle's description."
+    }
+  ],
+  "last_updated": "2026-05-04_01-16-53"
+}

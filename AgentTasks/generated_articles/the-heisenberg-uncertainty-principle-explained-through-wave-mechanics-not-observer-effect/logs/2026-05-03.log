@@ -1,0 +1,570 @@
+
+================================================================================
+TIME: 2026-05-03T23:29:19
+NODE: planner
+PROMPT_CHARS: 551
+PROMPT_TOKENS_APPROX: 137
+RESPONSE_CHARS: 4614
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 64, "num_ctx": 12288, "num_predict": 3072, "temperature": 0.25, "top_p": 0.85}
+================================================================================
+PROMPT:
+Create a strong teaching outline for this EasyPhysics article:
+
+Title: The Heisenberg Uncertainty Principle explained through wave mechanics, not observer effect
+
+The outline should include:
+1. Scope: what this article explains.
+2. Out of scope: what it should not try to explain yet.
+3. Prerequisite concepts.
+4. Core intuition.
+5. Suggested descriptive names with standard terms in braces.
+6. Common misconceptions to avoid.
+7. Section-by-section outline.
+8. Optional diagram ideas.
+9. Optional minimal math, with what the math means.
+
+Use Markdown.
+
+RESPONSE:
+```markdown
+# The Heisenberg Uncertainty Principle Explained Through Wave Mechanics
+
+## 1. Scope
+This article explains the **Heisenberg Uncertainty Principle** as a fundamental limitation in simultaneously knowing a particle’s *position* and *momentum*, rooted in the wave-like nature of quantum systems. It focuses on **wave mechanics** (not measurement theory or observer effect) to show how the principle arises from the mathematical structure of waves.
+
+---
+
+## 2. Out of Scope
+- **Quantum measurement theory** (e.g., collapse of the wavefunction)  
+- **Observer effect** (disturbance caused by measurement)  
+- **Speculative interpretations** (e.g., consciousness causing uncertainty)  
+- **Advanced math** (e.g., operator formalism, commutators)  
+- **Applications** (e.g., quantum computing, tunneling)  
+
+---
+
+## 3. Prerequisite Concepts
+- **Wave properties**: Superposition, interference, and wavelength.  
+- **Momentum and position in classical mechanics** (e.g., momentum = mass × velocity).  
+- **Basic quantum states**: Particles are described by waves (not point-like objects).  
+- **Fourier transforms** (optional, but helpful for math section).  
+
+---
+
+## 4. Core Intuition
+The uncertainty principle is not about measurement limitations—it’s about the **inherent structure of waves**.  
+- A particle’s *position* is described by a **wave packet** (a localized wave).  
+- A **narrow wave packet** (precise position) has a **broad range of momenta** (spread in velocity).  
+- A **broad wave packet** (uncertain position) has a **narrow range of momenta** (precise velocity).  
+- This is analogous to a sound wave: a short burst of sound (narrow time) has a broad range of frequencies, while a pure tone (narrow frequency) lasts indefinitely.  
+
+---
+
+## 5. Suggested Descriptive Names with Standard Terms in Braces
+| Descriptive Name              | Standard Term       |
+|------------------------------|---------------------|
+| **Position-wave {wave packet}** | Wave packet         |
+| **Momentum-spread {momentum uncertainty}** | Momentum uncertainty |
+| **Position-spread {position uncertainty}** | Position uncertainty |
+| **Wave-structure {Fourier transform}** | Fourier transform   |
+| **Inherent limit {uncertainty principle}** | Uncertainty principle |
+
+---
+
+## 6. Common Misconceptions to Avoid
+- ❌ "The uncertainty principle is about *measurement disturbance*."  
+  → **Correct**: It’s about the *inherent wave structure* of quantum systems.  
+- ❌ "You can’t know both position and momentum at the same time."  
+  → **Correct**: You can’t *simultaneously define* them with perfect precision.  
+- ❌ "It’s a limitation of our tools."  
+  → **Correct**: It’s a *fundamental property* of quantum systems.  
+
+---
+
+## 7. Section-by-Section Outline
+### **Section 1: Waves vs. Particles**  
+- Contrast classical particles (point-like) with quantum particles (wave-like).  
+- Introduce **wave packets** as localized waves.  
+
+### **Section 2: The Wave-Structure Dilemma**  
+- Explain how a narrow wave packet (precise position) has a broad momentum spread.  
+- Use the **sound wave analogy**: short bursts vs. pure tones.  
+
+### **Section 3: Momentum and Position as Dual Properties**  
+- Define **position-spread** and **momentum-spread**.  
+- Show that precise position → broad momentum, and vice versa.  
+
+### **Section 4: The Mathematical Rule**  
+- Introduce the inequality: **Δx × Δp ≥ ħ/2** (minimal math).  
+- Explain that this is a **mathematical consequence** of wave structure.  
+
+### **Section 5: Why It’s Not About Measurement**  
+- Reiterate that the principle is **inherent to waves**, not caused by observation.  
+- Contrast with classical physics (where both can be known precisely).  
+
+---
+
+## 8. Optional Diagram Ideas
+1. **Wave Packet Visualization**:  
+   - A narrow wave packet (localized position) with broad frequency components.  
+   - A broad wave packet (spread position) with narrow frequency components.  
+
+2. **Fourier Transform Diagram**:  
+   - Show how a position-wave transforms into a momentum-wave (and vice versa).  
+
+3. **Sound Wave Analogy**:  
+   - A short burst of sound (narrow time) vs. a pure tone (narrow frequency).  
+
+---
+
+## 9. Optional Minimal Math
+- **Fourier transform relationship**:  
+  A wave’s position spread (Δx) and momentum spread (Δp) are inversely related:  
+  $$
+  \Delta x \cdot \Delta p \geq \frac{\hbar}{2}
+  $$  
+  - **What the math means**: The product of uncertainties is always at least half of Planck’s constant (ħ).  
+  - **No calculus needed**: Focus on the **proportional relationship** between spread and precision.  
+
+---
+
+```
+
+================================================================================
+TIME: 2026-05-03T23:32:40
+NODE: writer
+PROMPT_CHARS: 6099
+PROMPT_TOKENS_APPROX: 1524
+RESPONSE_CHARS: 2989
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 64, "num_ctx": 12288, "num_predict": 3072, "temperature": 0.25, "top_p": 0.85}
+================================================================================
+PROMPT:
+Write a high-quality first draft for this EasyPhysics article.
+
+Title: The Heisenberg Uncertainty Principle explained through wave mechanics, not observer effect
+
+Article outline:
+```markdown
+# The Heisenberg Uncertainty Principle Explained Through Wave Mechanics
+
+## 1. Scope
+This article explains the **Heisenberg Uncertainty Principle** as a fundamental limitation in simultaneously knowing a particle’s *position* and *momentum*, rooted in the wave-like nature of quantum systems. It focuses on **wave mechanics** (not measurement theory or observer effect) to show how the principle arises from the mathematical structure of waves.
+
+---
+
+## 2. Out of Scope
+- **Quantum measurement theory** (e.g., collapse of the wavefunction)  
+- **Observer effect** (disturbance caused by measurement)  
+- **Speculative interpretations** (e.g., consciousness causing uncertainty)  
+- **Advanced math** (e.g., operator formalism, commutators)  
+- **Applications** (e.g., quantum computing, tunneling)  
+
+---
+
+## 3. Prerequisite Concepts
+- **Wave properties**: Superposition, interference, and wavelength.  
+- **Momentum and position in classical mechanics** (e.g., momentum = mass × velocity).  
+- **Basic quantum states**: Particles are described by waves (not point-like objects).  
+- **Fourier transforms** (optional, but helpful for math section).  
+
+---
+
+## 4. Core Intuition
+The uncertainty principle is not about measurement limitations—it’s about the **inherent structure of waves**.  
+- A particle’s *position* is described by a **wave packet** (a localized wave).  
+- A **narrow wave packet** (precise position) has a **broad range of momenta** (spread in velocity).  
+- A **broad wave packet** (uncertain position) has a **narrow range of momenta** (precise velocity).  
+- This is analogous to a sound wave: a short burst of sound (narrow time) has a broad range of frequencies, while a pure tone (narrow frequency) lasts indefinitely.  
+
+---
+
+## 5. Suggested Descriptive Names with Standard Terms in Braces
+| Descriptive Name              | Standard Term       |
+|------------------------------|---------------------|
+| **Position-wave {wave packet}** | Wave packet         |
+| **Momentum-spread {momentum uncertainty}** | Momentum uncertainty |
+| **Position-spread {position uncertainty}** | Position uncertainty |
+| **Wave-structure {Fourier transform}** | Fourier transform   |
+| **Inherent limit {uncertainty principle}** | Uncertainty principle |
+
+---
+
+## 6. Common Misconceptions to Avoid
+- ❌ "The uncertainty principle is about *measurement disturbance*."  
+  → **Correct**: It’s about the *inherent wave structure* of quantum systems.  
+- ❌ "You can’t know both position and momentum at the same time."  
+  → **Correct**: You can’t *simultaneously define* them with perfect precision.  
+- ❌ "It’s a limitation of our tools."  
+  → **Correct**: It’s a *fundamental property* of quantum systems.  
+
+---
+
+## 7. Section-by-Section Outline
+### **Section 1: Waves vs. Particles**  
+- Contrast classical particles (point-like) with quantum particles (wave-like).  
+- Introduce **wave packets** as localized waves.  
+
+### **Section 2: The Wave-Structure Dilemma**  
+- Explain how a narrow wave packet (precise position) has a broad momentum spread.  
+- Use the **sound wave analogy**: short bursts vs. pure tones.  
+
+### **Section 3: Momentum and Position as Dual Properties**  
+- Define **position-spread** and **momentum-spread**.  
+- Show that precise position → broad momentum, and vice versa.  
+
+### **Section 4: The Mathematical Rule**  
+- Introduce the inequality: **Δx × Δp ≥ ħ/2** (minimal math).  
+- Explain that this is a **mathematical consequence** of wave structure.  
+
+### **Section 5: Why It’s Not About Measurement**  
+- Reiterate that the principle is **inherent to waves**, not caused by observation.  
+- Contrast with classical physics (where both can be known precisely).  
+
+---
+
+## 8. Optional Diagram Ideas
+1. **Wave Packet Visualization**:  
+   - A narrow wave packet (localized position) with broad frequency components.  
+   - A broad wave packet (spread position) with narrow frequency components.  
+
+2. **Fourier Transform Diagram**:  
+   - Show how a position-wave transforms into a momentum-wave (and vice versa).  
+
+3. **Sound Wave Analogy**:  
+   - A short burst of sound (narrow time) vs. a pure tone (narrow frequency).  
+
+---
+
+## 9. Optional Minimal Math
+- **Fourier transform relationship**:  
+  A wave’s position spread (Δx) and momentum spread (Δp) are inversely related:  
+  $$
+  \Delta x \cdot \Delta p \geq \frac{\hbar}{2}
+  $$  
+  - **What the math means**: The product of uncertainties is always at least half of Planck’s constant (ħ).  
+  - **No calculus needed**: Focus on the **proportional relationship** between spread and precision.  
+
+---
+
+```
+
+Human/editor notes:
+# Human/editor notes
+
+Add any preferences, corrections, or article-specific constraints here.
+
+
+Template guidance:
+Preferred article structure:
+
+# Title
+
+## The core idea
+A short, intuitive explanation that gives the reader the main point first.
+
+## Why this matters
+Explain what the concept helps us understand.
+
+## The simple picture
+Use an analogy, diagram idea, or concrete example.
+
+## The more precise picture
+Introduce standard terms, careful distinctions, and optional minimal math.
+
+## Common misconceptions
+Name and correct the traps.
+
+## How this connects to the rest of physics
+Link the concept to fields, particles, symmetry, conservation, relativity, or the Standard Model as appropriate.
+
+## Recap
+A few concise takeaways.
+
+Drafting instructions:
+- Make it accessible to a motivated high-schooler or college freshman.
+- Teach the modern concept directly rather than narrating historical discovery.
+- Use descriptive names with standard terms in braces, e.g. space-occupier {fermion}.
+- Include common misconceptions and correct them.
+- Include minimal math only when it helps, and explain what the math means.
+- Suggest diagram ideas inline where helpful using this format: [Diagram idea: ...]
+- Output only the article in Markdown, with no commentary before or after.
+
+RESPONSE:
+# The Heisenberg Uncertainty Principle Explained Through Wave Mechanics  
+
+## The core idea  
+The Heisenberg Uncertainty Principle is a fundamental limit on how precisely we can know a particle’s *position* and *momentum* at the same time. This isn’t about flawed tools or measurement errors—it’s about the **inherent wave structure** of quantum systems.  
+
+## Why this matters  
+This principle reveals a deep truth about the universe: particles aren’t point-like objects but waves. Understanding this limit helps us grasp how quantum systems behave and why classical physics breaks down at small scales.  
+
+## The simple picture  
+Imagine a sound wave: a short burst of sound (like a drum hit) has a broad range of frequencies, while a pure tone (like a tuning fork) lasts indefinitely. Similarly, a particle’s *position* and *momentum* are linked like time and frequency in sound waves. [Diagram idea: Short burst vs. pure tone sound wave]  
+
+## The more precise picture  
+### Waves vs. Particles  
+In classical physics, particles are point-like objects with definite positions and momenta. But in quantum mechanics, particles are described by **position-waves {wave packets}**—localized waves that spread out in space.  
+
+### The Wave-Structure Dilemma  
+A **narrow position-wave {wave packet}** (localized in space) has a **broad momentum-spread {momentum uncertainty}** (many possible velocities). Conversely, a **broad position-wave** (spread out in space) has a **narrow momentum-spread** (few possible velocities). This is mathematically enforced by the **wave-structure {Fourier transform}** relationship.  
+
+### The Mathematical Rule  
+The product of position-spread (Δx) and momentum-spread (Δp) is always at least half of Planck’s constant (ħ):  
+$$
+\Delta x \cdot \Delta p \geq \frac{\hbar}{2}
+$$  
+This inequality shows that **precise position** and **precise momentum** cannot coexist. The math reflects the wave’s inherent structure, not measurement limitations.  
+
+## Common misconceptions  
+- ❌ "The uncertainty principle is about *measurement disturbance*."  
+  → **Correct**: It’s about the *inherent wave structure* of quantum systems.  
+- ❌ "You can’t know both position and momentum at the same time."  
+  → **Correct**: You can’t *simultaneously define* them with perfect precision.  
+- ❌ "It’s a limitation of our tools."  
+  → **Correct**: It’s a *fundamental property* of quantum systems.  
+
+## How this connects to the rest of physics  
+This principle underpins quantum mechanics and explains phenomena like tunneling and quantum entanglement. It also highlights the difference between classical and quantum behavior, where waves dominate at small scales.  
+
+## Recap  
+- Particles are waves, not point-like objects.  
+- A narrow position-wave has a broad momentum-spread.  
+- The uncertainty principle is a mathematical consequence of wave structure, not measurement errors.  
+- It reflects the deep connection between position and momentum in quantum systems.
+
+================================================================================
+TIME: 2026-05-03T23:34:24
+NODE: term_collector
+PROMPT_CHARS: 3459
+PROMPT_TOKENS_APPROX: 864
+RESPONSE_CHARS: 1129
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 64, "num_ctx": 12288, "num_predict": 3072, "temperature": 0.25, "top_p": 0.85}
+================================================================================
+PROMPT:
+Extract the descriptive-name candidates from this draft.
+
+Return JSON with this shape:
+{
+  "terms": [
+    {
+      "standard_term": "fermion",
+      "candidate_name": "space-occupier",
+      "context_quote": "short quote from the draft",
+      "usefulness": "why this name helps",
+      "risk": "how it could mislead, or empty string if low risk"
+    }
+  ]
+}
+
+Only include actual teaching-name candidates, especially phrases followed by standard terms in braces.
+
+Draft:
+# The Heisenberg Uncertainty Principle Explained Through Wave Mechanics  
+
+## The core idea  
+The Heisenberg Uncertainty Principle is a fundamental limit on how precisely we can know a particle’s *position* and *momentum* at the same time. This isn’t about flawed tools or measurement errors—it’s about the **inherent wave structure** of quantum systems.  
+
+## Why this matters  
+This principle reveals a deep truth about the universe: particles aren’t point-like objects but waves. Understanding this limit helps us grasp how quantum systems behave and why classical physics breaks down at small scales.  
+
+## The simple picture  
+Imagine a sound wave: a short burst of sound (like a drum hit) has a broad range of frequencies, while a pure tone (like a tuning fork) lasts indefinitely. Similarly, a particle’s *position* and *momentum* are linked like time and frequency in sound waves. [Diagram idea: Short burst vs. pure tone sound wave]  
+
+## The more precise picture  
+### Waves vs. Particles  
+In classical physics, particles are point-like objects with definite positions and momenta. But in quantum mechanics, particles are described by **position-waves {wave packets}**—localized waves that spread out in space.  
+
+### The Wave-Structure Dilemma  
+A **narrow position-wave {wave packet}** (localized in space) has a **broad momentum-spread {momentum uncertainty}** (many possible velocities). Conversely, a **broad position-wave** (spread out in space) has a **narrow momentum-spread** (few possible velocities). This is mathematically enforced by the **wave-structure {Fourier transform}** relationship.  
+
+### The Mathematical Rule  
+The product of position-spread (Δx) and momentum-spread (Δp) is always at least half of Planck’s constant (ħ):  
+$$
+\Delta x \cdot \Delta p \geq \frac{\hbar}{2}
+$$  
+This inequality shows that **precise position** and **precise momentum** cannot coexist. The math reflects the wave’s inherent structure, not measurement limitations.  
+
+## Common misconceptions  
+- ❌ "The uncertainty principle is about *measurement disturbance*."  
+  → **Correct**: It’s about the *inherent wave structure* of quantum systems.  
+- ❌ "You can’t know both position and momentum at the same time."  
+  → **Correct**: You can’t *simultaneously define* them with perfect precision.  
+- ❌ "It’s a limitation of our tools."  
+  → **Correct**: It’s a *fundamental property* of quantum systems.  
+
+## How this connects to the rest of physics  
+This principle underpins quantum mechanics and explains phenomena like tunneling and quantum entanglement. It also highlights the difference between classical and quantum behavior, where waves dominate at small scales.  
+
+## Recap  
+- Particles are waves, not point-like objects.  
+- A narrow position-wave has a broad momentum-spread.  
+- The uncertainty principle is a mathematical consequence of wave structure, not measurement errors.  
+- It reflects the deep connection between position and momentum in quantum systems.
+
+RESPONSE:
+{
+  "terms": [
+    {
+      "standard_term": "wave packet",
+      "candidate_name": "position-waves",
+      "context_quote": "position-waves {wave packets}—localized waves that spread out in space",
+      "usefulness": "Helps visualize particles as waves with spatial localization",
+      "risk": "Could imply particles are literally waves, but clarifies they're wave descriptions"
+    },
+    {
+      "standard_term": "momentum uncertainty",
+      "candidate_name": "momentum-spread",
+      "context_quote": "a narrow position-wave {wave packet} (localized in space) has a broad momentum-spread {momentum uncertainty}",
+      "usefulness": "Makes the concept of momentum uncertainty more intuitive as a spread",
+      "risk": "Suggests momentum is a spread rather than a precise value"
+    },
+    {
+      "standard_term": "Fourier transform",
+      "candidate_name": "wave-structure",
+      "context_quote": "The wave-structure {Fourier transform} relationship",
+      "usefulness": "Links wave structure to mathematical analysis of waveforms",
+      "risk": "Could be confused with other types of structural analysis"
+    }
+  ]
+}
+
+================================================================================
+TIME: 2026-05-03T23:37:12
+NODE: claim_extractor
+PROMPT_CHARS: 3940
+PROMPT_TOKENS_APPROX: 985
+RESPONSE_CHARS: 3194
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 64, "num_ctx": 12288, "num_predict": 3072, "temperature": 0.25, "top_p": 0.85}
+================================================================================
+PROMPT:
+Extract the most important scientific and explanatory claims from this article draft.
+
+Return JSON with this shape:
+{
+  "claims": [
+    {
+      "id": "C001",
+      "claim": "A clear, standalone claim from the article.",
+      "type": "definition | mechanism | analogy | mathematical | misconception-correction | scope | other",
+      "importance": "high | medium | low",
+      "needs_external_check": true,
+      "why_it_matters": "brief reason",
+      "suggested_search_query": "stable source search query, not latest-news oriented"
+    }
+  ]
+}
+
+Guidance:
+- Extract claims that matter for scientific correctness.
+- Include claims embedded in analogies if the analogy could mislead.
+- Do not include purely stylistic statements.
+- Search queries should prefer stable sources: textbooks, lecture notes, CERN, Fermilab, university pages.
+
+Article title: The Heisenberg Uncertainty Principle explained through wave mechanics, not observer effect
+
+Draft:
+# The Heisenberg Uncertainty Principle Explained Through Wave Mechanics  
+
+## The core idea  
+The Heisenberg Uncertainty Principle is a fundamental limit on how precisely we can know a particle’s *position* and *momentum* at the same time. This isn’t about flawed tools or measurement errors—it’s about the **inherent wave structure** of quantum systems.  
+
+## Why this matters  
+This principle reveals a deep truth about the universe: particles aren’t point-like objects but waves. Understanding this limit helps us grasp how quantum systems behave and why classical physics breaks down at small scales.  
+
+## The simple picture  
+Imagine a sound wave: a short burst of sound (like a drum hit) has a broad range of frequencies, while a pure tone (like a tuning fork) lasts indefinitely. Similarly, a particle’s *position* and *momentum* are linked like time and frequency in sound waves. [Diagram idea: Short burst vs. pure tone sound wave]  
+
+## The more precise picture  
+### Waves vs. Particles  
+In classical physics, particles are point-like objects with definite positions and momenta. But in quantum mechanics, particles are described by **position-waves {wave packets}**—localized waves that spread out in space.  
+
+### The Wave-Structure Dilemma  
+A **narrow position-wave {wave packet}** (localized in space) has a **broad momentum-spread {momentum uncertainty}** (many possible velocities). Conversely, a **broad position-wave** (spread out in space) has a **narrow momentum-spread** (few possible velocities). This is mathematically enforced by the **wave-structure {Fourier transform}** relationship.  
+
+### The Mathematical Rule  
+The product of position-spread (Δx) and momentum-spread (Δp) is always at least half of Planck’s constant (ħ):  
+$$
+\Delta x \cdot \Delta p \geq \frac{\hbar}{2}
+$$  
+This inequality shows that **precise position** and **precise momentum** cannot coexist. The math reflects the wave’s inherent structure, not measurement limitations.  
+
+## Common misconceptions  
+- ❌ "The uncertainty principle is about *measurement disturbance*."  
+  → **Correct**: It’s about the *inherent wave structure* of quantum systems.  
+- ❌ "You can’t know both position and momentum at the same time."  
+  → **Correct**: You can’t *simultaneously define* them with perfect precision.  
+- ❌ "It’s a limitation of our tools."  
+  → **Correct**: It’s a *fundamental property* of quantum systems.  
+
+## How this connects to the rest of physics  
+This principle underpins quantum mechanics and explains phenomena like tunneling and quantum entanglement. It also highlights the difference between classical and quantum behavior, where waves dominate at small scales.  
+
+## Recap  
+- Particles are waves, not point-like objects.  
+- A narrow position-wave has a broad momentum-spread.  
+- The uncertainty principle is a mathematical consequence of wave structure, not measurement errors.  
+- It reflects the deep connection between position and momentum in quantum systems.
+
+RESPONSE:
+{
+  "claims": [
+    {
+      "id": "C001",
+      "claim": "The Heisenberg Uncertainty Principle is a fundamental limit on simultaneously knowing a particle’s position and momentum, arising from the inherent wave structure of quantum systems.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Defines the core concept of quantum uncertainty, distinguishing it from classical measurement limitations.",
+      "suggested_search_query": "Heisenberg Uncertainty Principle wave mechanics textbook explanation"
+    },
+    {
+      "id": "C002",
+      "claim": "A narrow position-wave {wave packet} has a broad momentum-spread {momentum uncertainty}, while a broad position-wave has a narrow momentum-spread, enforced by the wave-structure {Fourier transform} relationship.",
+      "type": "mechanism",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Explains the mathematical relationship between position and momentum uncertainties.",
+      "suggested_search_query": "Fourier transform quantum uncertainty principle derivation"
+    },
+    {
+      "id": "C003",
+      "claim": "The uncertainty principle is mathematically expressed as Δx · Δp ≥ ħ/2, reflecting the wave structure of quantum systems rather than measurement limitations.",
+      "type": "mathematical",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Provides the quantitative framework for understanding quantum uncertainty.",
+      "suggested_search_query": "Heisenberg Uncertainty Principle mathematical derivation"
+    },
+    {
+      "id": "C004",
+      "claim": "The sound wave analogy illustrates that short bursts of sound (position uncertainty) correspond to broad frequency ranges (momentum uncertainty), mirroring quantum position-momentum uncertainty.",
+      "type": "analogy",
+      "importance": "medium",
+      "needs_external_check": true,
+      "why_it_matters": "Helps visualize abstract quantum concepts through familiar physical phenomena.",
+      "suggested_search_query": "sound wave analogy Heisenberg Uncertainty Principle"
+    },
+    {
+      "id": "C005",
+      "claim": "Common misconceptions include interpreting the uncertainty principle as a result of measurement disturbance or tool limitations, rather than a fundamental property of quantum systems.",
+      "type": "misconception-correction",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Clarifies the principle's nature as a foundational quantum property, not an observational limitation.",
+      "suggested_search_query": "Heisenberg Uncertainty Principle common misconceptions"
+    },
+    {
+      "id": "C006",
+      "claim": "The principle underpins quantum phenomena like tunneling and entanglement, highlighting the wave-like behavior dominating at small scales.",
+      "type": "scope",
+      "importance": "medium",
+      "needs_external_check": true,
+      "why_it_matters": "Shows the principle's broader implications in quantum mechanics.",
+      "suggested_search_query": "Heisenberg Uncertainty Principle applications quantum phenomena"
+    }
+  ]
+}

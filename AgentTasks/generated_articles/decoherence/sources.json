@@ -1,0 +1,19 @@
+{
+  "sources_by_claim": {
+    "C001": {
+      "claim": "# Decoherence ## The core idea Decoherence is the process by which quantum systems lose their quantum \"memory\" when interacting with their environment.",
+      "query": "Decoherence # Decoherence ## The core idea Decoherence is the process by which quantum systems lose their physics lecture notes textbook explanation",
+      "result_snippet": "Quantum decoherence is the loss of quantum coherence.Decoherence represents an extremely fast process for macroscopic objects, since these are interacting with many microscopic objects, with an enormous number of degrees of freedom in their natural environment. Lectures on Quantum Decoherence. Jim Al-Khalili Department of Physics. University of Surrey November 8, 2022.1.1 Introducing decoherence. Classical physics has led us to the strategy of dealing with idealised isolated systems. Decoherence: The process by which quantum systems lose their coherent superpositions due to interactions with their environment, leading to classical behaviour.Decoherence explains the apparent disappearance of quantum effects in large systems. Decoherence is the process by which a quantum system loses this coherence because it interacts with its surroundings — with stray photons, fluctuating fields, imperfect control pulses, vibrations, you name it. Quantum Coherence and Decoherence: Decoherence is the process through which a quantum system loses its coherence due to environmental interactions, leading it to behave classically.",
+      "searched_at": "2026-05-04_11-53-28",
+      "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
+    },
+    "C002": {
+      "claim": "It explains why we never see quantum effects like superposition in everyday life—because the environment rapidly \"measures\" the system, making it behave classically.",
+      "query": "Decoherence It explains why we never see quantum effects like superposition in everyday life—because the environment rapidly physics lecture notes textbook explanation",
+      "result_snippet": "Quantum decoherence is the loss of quantum coherence. It involves generally a loss of information of a system to its environment. Quantum decoherence has been studied to understand how quantum systems convert to systems that can be explained by classical mechanics. At the heart of quantum physics lies a universe of probabilities, superpositions, and entanglements. Subatomic particles, like electrons or photons, don’t just exist in one state; they can simultaneously occupy several states or locations until observed. MIT 8.04 Quantum Physics I, Spring 2013View the complete course: http://ocw.mit.edu/8-04S13Instructor: Allan AdamsIn this lecture, Prof. Why one does not observe quantum effects like superposition in daily life is not because quantum theory breaks down for objects above a certain size, but because decoherence is brought about by inevitable coupling with the environment. Decoherence explains why we observe position eigenstates rather than momentum eigenstates, but not why we observe this particular position. See quantum-measurement-and-consciousness for extended analysis.",
+      "searched_at": "2026-05-04_11-53-30",
+      "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
+    }
+  },
+  "last_updated": "2026-05-04_11-53-31"
+}

@@ -1,0 +1,77 @@
+{
+  "claims": [
+    {
+      "id": "C001",
+      "claim": "Quantum entanglement is a shared wavefunction between particles, not 'spooky action' at a distance.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Corrects the misconception that entanglement involves instantaneous communication",
+      "suggested_search_query": "quantum entanglement wavefunction shared state"
+    },
+    {
+      "id": "C002",
+      "claim": "Measuring an entangled particle reveals pre-existing correlations rather than transmitting information.",
+      "type": "mechanism",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Clarifies that entanglement doesn't violate relativity's light-speed limit",
+      "suggested_search_query": "quantum measurement entanglement relativity"
+    },
+    {
+      "id": "C003",
+      "claim": "The entangled state |ψ> = (|0>|1> + |1>|0>)/√2 describes particles with linked probabilities.",
+      "type": "mathematical",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Formalizes the mathematical structure of entanglement",
+      "suggested_search_query": "quantum entangled state mathematical representation"
+    },
+    {
+      "id": "C004",
+      "claim": "Probability amplitudes {complex numbers} determine measurement outcomes via |amplitude|² = probability.",
+      "type": "mathematical",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Establishes the foundation for quantum probability calculations",
+      "suggested_search_query": "quantum probability amplitude mathematics"
+    },
+    {
+      "id": "C005",
+      "claim": "Entanglement is a type of quantum superposition {entangled state} involving multiple particles.",
+      "type": "definition",
+      "importance": "medium",
+      "needs_external_check": true,
+      "why_it_matters": "Connects entanglement to broader quantum state concepts",
+      "suggested_search_query": "quantum superposition entangled states"
+    },
+    {
+      "id": "C006",
+      "claim": "The 'spooky action' misconception arises from misinterpreting wavefunction collapse {quantum measurement} as communication.",
+      "type": "misconception-correction",
+      "importance": "medium",
+      "needs_external_check": true,
+      "why_it_matters": "Addresses a common conceptual error in quantum interpretation",
+      "suggested_search_query": "quantum entanglement spooky action misconception"
+    },
+    {
+      "id": "C007",
+      "claim": "Entangled particles are described by a single wavefunction, not physical connections across space.",
+      "type": "definition",
+      "importance": "medium",
+      "needs_external_check": true,
+      "why_it_matters": "Clarifies the non-local nature of quantum states",
+      "suggested_search_query": "quantum entanglement wavefunction non-locality"
+    },
+    {
+      "id": "C008",
+      "claim": "Quantum entanglement underpins technologies like quantum cryptography without faster-than-light signaling.",
+      "type": "scope",
+      "importance": "medium",
+      "needs_external_check": true,
+      "why_it_matters": "Highlights practical applications of entanglement",
+      "suggested_search_query": "quantum entanglement applications cryptography"
+    }
+  ],
+  "last_updated": "2026-05-04_00-07-58"
+}

@@ -1,0 +1,1101 @@
+
+================================================================================
+TIME: 2026-05-04T14:21:16
+NODE: planner
+PROMPT_CHARS: 479
+PROMPT_TOKENS_APPROX: 119
+RESPONSE_CHARS: 4151
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.85}
+================================================================================
+PROMPT:
+Create a strong teaching outline for this EasyPhysics article:
+
+Title: Hermitian operator
+
+The outline should include:
+1. Scope: what this article explains.
+2. Out of scope: what it should not try to explain yet.
+3. Prerequisite concepts.
+4. Core intuition.
+5. Suggested descriptive names with standard terms in braces.
+6. Common misconceptions to avoid.
+7. Section-by-section outline.
+8. Optional diagram ideas.
+9. Optional minimal math, with what the math means.
+
+Use Markdown.
+
+RESPONSE:
+```markdown
+# Hermitian Operator
+
+## 1. Scope
+This article explains what a **Hermitian operator** is, why it's special in quantum mechanics, and how it connects to measurable physical quantities. It focuses on the conceptual role of Hermitian operators in ensuring real-valued outcomes for measurements.
+
+---
+
+## 2. Out of Scope
+- Detailed mathematical proofs (e.g., why Hermitian operators have real eigenvalues)
+- Advanced topics like the spectral theorem or infinite-dimensional spaces
+- Non-Hermitian operators (unless briefly contrasted)
+- Specific examples like position/momentum operators (unless used for intuition)
+
+---
+
+## 3. Prerequisite Concepts
+- **Quantum states** (wavefunctions, vectors in Hilbert space)
+- **Operators** (rules for transforming states)
+- **Measurement** (collapsing a state to an eigenstate)
+- **Complex numbers** (for wavefunction amplitudes)
+
+---
+
+## 4. Core Intuition
+A **Hermitian operator** is a special kind of rule that governs how we *measure* physical quantities in quantum mechanics. Its key property is that it guarantees:
+- **Real outcomes**: When you measure a quantity (like position or energy), the result is a real number, not a complex one.
+- **Orthogonal eigenstates**: The possible outcomes (eigenvalues) correspond to distinct, non-overlapping states (eigenvectors).
+
+Think of it as a "measurement machine" that always gives answers you can write down on paper, not just abstract numbers.
+
+---
+
+## 5. Suggested Descriptive Names with Standard Terms in Braces
+- **Measurement-Representing Operator** {Hermitian Operator}
+- **Real-Value-Ensuring** {Hermitian}
+- **Observable-Linked Rule** {Hermitian Operator}
+- **Symmetric-Action Transformer** {Hermitian Operator}
+
+---
+
+## 6. Common Misconceptions to Avoid
+- ❌ "All operators are Hermitian": Only specific operators (like position or energy) are Hermitian; others (like some Hamiltonians in open systems) are not.
+- ❌ "Hermitian means symmetric": In finite dimensions, Hermitian operators are symmetric, but in infinite dimensions, they require stricter conditions.
+- ❌ "Hermitian operators always have real eigenvalues": This is true *only* when the operator is defined on a suitable space (e.g., square-integrable functions).
+
+---
+
+## 7. Section-by-Section Outline
+### 7.1 What is a Hermitian Operator?
+- Define as a linear operator satisfying $ A = A^\dagger $ (conjugate transpose).
+- Contrast with non-Hermitian operators (e.g., rotation matrices).
+
+### 7.2 Why Hermitian Operators Matter
+- Link to **observables** (measurable quantities like position, momentum, energy).
+- Explain how real eigenvalues ensure physical measurements don’t produce imaginary numbers.
+
+### 7.3 The Real-Value Guarantee
+- Use the equation $ \langle \psi | A | \psi \rangle = \text{real number} $.
+- Introduce the idea of **self-adjointness** {Hermitian} as the mathematical reason for real outcomes.
+
+### 7.4 Orthogonal Eigenstates
+- Show how eigenvectors of Hermitian operators are orthogonal (non-overlapping).
+- Relate to the idea of distinct measurement outcomes.
+
+### 7.5 Example: The Identity Operator
+- Simple Hermitian operator with all eigenvalues = 1.
+- Contrast with non-Hermitian operators (e.g., a rotation matrix).
+
+---
+
+## 8. Optional Diagram Ideas
+- **Matrix Representation**: A Hermitian matrix (e.g., [[2, 1-i], [1+i, 3]]) and its conjugate transpose.
+- **Eigenvalue Spectrum**: A real number line showing eigenvalues of a Hermitian operator.
+- **Measurement Process**: A quantum state collapsing to an eigenstate of a Hermitian operator.
+
+---
+
+## 9. Optional Minimal Math
+- **Definition**: $ A = A^\dagger $, where $ A^\dagger $ is the conjugate transpose of $ A $.
+- **Inner Product**: $ \langle \psi | A | \phi \rangle = \langle \phi | A | \psi \rangle^* $ (complex conjugate).
+- **Eigenvalue Equation**: $ A |\psi\rangle = \lambda |\psi\rangle $, where $ \lambda $ is real.
+
+**What the math means**:  
+- The equation $ A = A^\dagger $ ensures the operator "commutes" with its mirror image (conjugate transpose), guaranteeing real outcomes.  
+- The inner product symmetry ensures the measurement result is a real number, not a complex one.
+```
+
+================================================================================
+TIME: 2026-05-04T14:26:14
+NODE: writer
+PROMPT_CHARS: 5564
+PROMPT_TOKENS_APPROX: 1391
+RESPONSE_CHARS: 3887
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.85}
+================================================================================
+PROMPT:
+Write a high-quality first draft for this EasyPhysics article.
+
+Title: Hermitian operator
+
+Article outline:
+```markdown
+# Hermitian Operator
+
+## 1. Scope
+This article explains what a **Hermitian operator** is, why it's special in quantum mechanics, and how it connects to measurable physical quantities. It focuses on the conceptual role of Hermitian operators in ensuring real-valued outcomes for measurements.
+
+---
+
+## 2. Out of Scope
+- Detailed mathematical proofs (e.g., why Hermitian operators have real eigenvalues)
+- Advanced topics like the spectral theorem or infinite-dimensional spaces
+- Non-Hermitian operators (unless briefly contrasted)
+- Specific examples like position/momentum operators (unless used for intuition)
+
+---
+
+## 3. Prerequisite Concepts
+- **Quantum states** (wavefunctions, vectors in Hilbert space)
+- **Operators** (rules for transforming states)
+- **Measurement** (collapsing a state to an eigenstate)
+- **Complex numbers** (for wavefunction amplitudes)
+
+---
+
+## 4. Core Intuition
+A **Hermitian operator** is a special kind of rule that governs how we *measure* physical quantities in quantum mechanics. Its key property is that it guarantees:
+- **Real outcomes**: When you measure a quantity (like position or energy), the result is a real number, not a complex one.
+- **Orthogonal eigenstates**: The possible outcomes (eigenvalues) correspond to distinct, non-overlapping states (eigenvectors).
+
+Think of it as a "measurement machine" that always gives answers you can write down on paper, not just abstract numbers.
+
+---
+
+## 5. Suggested Descriptive Names with Standard Terms in Braces
+- **Measurement-Representing Operator** {Hermitian Operator}
+- **Real-Value-Ensuring** {Hermitian}
+- **Observable-Linked Rule** {Hermitian Operator}
+- **Symmetric-Action Transformer** {Hermitian Operator}
+
+---
+
+## 6. Common Misconceptions to Avoid
+- ❌ "All operators are Hermitian": Only specific operators (like position or energy) are Hermitian; others (like some Hamiltonians in open systems) are not.
+- ❌ "Hermitian means symmetric": In finite dimensions, Hermitian operators are symmetric, but in infinite dimensions, they require stricter conditions.
+- ❌ "Hermitian operators always have real eigenvalues": This is true *only* when the operator is defined on a suitable space (e.g., square-integrable functions).
+
+---
+
+## 7. Section-by-Section Outline
+### 7.1 What is a Hermitian Operator?
+- Define as a linear operator satisfying $ A = A^\dagger $ (conjugate transpose).
+- Contrast with non-Hermitian operators (e.g., rotation matrices).
+
+### 7.2 Why Hermitian Operators Matter
+- Link to **observables** (measurable quantities like position, momentum, energy).
+- Explain how real eigenvalues ensure physical measurements don’t produce imaginary numbers.
+
+### 7.3 The Real-Value Guarantee
+- Use the equation $ \langle \psi | A | \psi \rangle = \text{real number} $.
+- Introduce the idea of **self-adjointness** {Hermitian} as the mathematical reason for real outcomes.
+
+### 7.4 Orthogonal Eigenstates
+- Show how eigenvectors of Hermitian operators are orthogonal (non-overlapping).
+- Relate to the idea of distinct measurement outcomes.
+
+### 7.5 Example: The Identity Operator
+- Simple Hermitian operator with all eigenvalues = 1.
+- Contrast with non-Hermitian operators (e.g., a rotation matrix).
+
+---
+
+## 8. Optional Diagram Ideas
+- **Matrix Representation**: A Hermitian matrix (e.g., [[2, 1-i], [1+i, 3]]) and its conjugate transpose.
+- **Eigenvalue Spectrum**: A real number line showing eigenvalues of a Hermitian operator.
+- **Measurement Process**: A quantum state collapsing to an eigenstate of a Hermitian operator.
+
+---
+
+## 9. Optional Minimal Math
+- **Definition**: $ A = A^\dagger $, where $ A^\dagger $ is the conjugate transpose of $ A $.
+- **Inner Product**: $ \langle \psi | A | \phi \rangle = \langle \phi | A | \psi \rangle^* $ (complex conjugate).
+- **Eigenvalue Equation**: $ A |\psi\rangle = \lambda |\psi\rangle $, where $ \lambda $ is real.
+
+**What the math means**:  
+- The equation $ A = A^\dagger $ ensures the operator "commutes" with its mirror image (conjugate transpose), guaranteeing real outcomes.  
+- The inner product symmetry ensures the measurement result is a real number, not a complex one.
+```
+
+Human/editor notes:
+# Human/editor notes
+
+Add any preferences, corrections, or article-specific constraints here.
+
+
+Template guidance:
+Preferred article structure:
+
+# Title
+
+## The core idea
+A short, intuitive explanation that gives the reader the main point first.
+
+## Why this matters
+Explain what the concept helps us understand.
+
+## The simple picture
+Use an analogy, diagram idea, or concrete example.
+
+## The more precise picture
+Introduce standard terms, careful distinctions, and optional minimal math.
+
+## Common misconceptions
+Name and correct the traps.
+
+## How this connects to the rest of physics
+Link the concept to fields, particles, symmetry, conservation, relativity, or the Standard Model as appropriate.
+
+## Recap
+A few concise takeaways.
+
+Drafting instructions:
+- Make it accessible to a motivated high-schooler or college freshman.
+- Teach the modern concept directly rather than narrating historical discovery.
+- Use descriptive names with standard terms in braces, e.g. space-occupier {fermion}.
+- Include common misconceptions and correct them.
+- Include minimal math only when it helps, and explain what the math means.
+- Suggest diagram ideas inline where helpful using this format: [Diagram idea: ...]
+- Output only the article in Markdown, with no commentary before or after.
+
+RESPONSE:
+# Hermitian Operator  
+
+## The Core Idea  
+A **Hermitian operator** is a special rule in quantum mechanics that ensures measurements give real numbers—like position, energy, or momentum—instead of complex, abstract values. It’s the mathematical backbone of all measurable physical quantities.  
+
+## Why This Matters  
+In quantum mechanics, physical quantities (like energy or position) must have real-number outcomes when measured. Hermitian operators guarantee this by linking to **observables** (measurable properties) and ensuring that the results of experiments are concrete, not imaginary. Without them, quantum predictions would involve complex numbers that don’t match reality.  
+
+## The Simple Picture  
+Imagine a "measurement machine" that always gives answers you can write down on paper. A Hermitian operator is like that machine: it transforms quantum states in a way that ensures the result is a real number. If you tried to measure something with a non-Hermitian operator, the result might be a complex number—like a "half-real, half-imaginary" answer, which doesn’t make physical sense.  
+
+[Diagram idea: A simple machine with a "real-number output" label, contrasting with a "complex-number output" machine.]  
+
+## The More Precise Picture  
+A **Hermitian operator** is a linear operator that satisfies the condition $ A = A^\dagger $, where $ A^\dagger $ is the **conjugate transpose** of $ A $. This symmetry ensures two key properties:  
+1. **Real eigenvalues**: When you measure a quantity (like energy), the result is a real number (e.g., 5 eV, not 5 + 3i eV).  
+2. **Orthogonal eigenvectors**: The possible outcomes (eigenvalues) correspond to distinct, non-overlapping states (eigenvectors).  
+
+For example, the **position operator** (which gives the location of a particle) is Hermitian. Its eigenstates are wavefunctions localized at specific positions, and the eigenvalues are real numbers representing those positions.  
+
+**Minimal Math**:  
+- Definition: $ A = A^\dagger $ (conjugate transpose).  
+- Inner product symmetry: $ \langle \psi | A | \phi \rangle = \langle \phi | A | \psi \rangle^* $ (complex conjugate).  
+- Eigenvalue equation: $ A |\psi\rangle = \lambda |\psi\rangle $, where $ \lambda $ is real.  
+
+**What the math means**:  
+- The equation $ A = A^\dagger $ ensures the operator "commutes" with its mirror image (conjugate transpose), guaranteeing real outcomes.  
+- The inner product symmetry ensures the measurement result is a real number, not a complex one.  
+
+## Common Misconceptions  
+- ❌ "All operators are Hermitian": Only specific operators (like position or energy) are Hermitian; others (like some Hamiltonians in open systems) are not.  
+- ❌ "Hermitian means symmetric": In finite dimensions, Hermitian operators are symmetric, but in infinite dimensions, they require stricter conditions (e.g., boundary behavior).  
+- ❌ "Hermitian operators always have real eigenvalues": This is true *only* when the operator is defined on a suitable space (e.g., square-integrable functions).  
+
+## How This Connects to Physics  
+Hermitian operators are the foundation of **observables** in quantum mechanics. Every measurable quantity—position, momentum, energy, spin—corresponds to a Hermitian operator. They also underpin the **spectral theorem**, which links operators to their eigenvalues and eigenvectors, ensuring that quantum measurements yield definite results.  
+
+## Recap  
+- A **Hermitian operator** ensures measurements give real numbers.  
+- It links to **observables** (measurable quantities) and guarantees real eigenvalues.  
+- Its eigenvectors are orthogonal, reflecting distinct measurement outcomes.  
+- Mathematically, it satisfies $ A = A^\dagger $, ensuring symmetry in its action.  
+
+[Diagram idea: A real number line showing eigenvalues of a Hermitian operator, with orthogonal eigenvectors as perpendicular vectors.]
+
+================================================================================
+TIME: 2026-05-04T14:28:08
+NODE: term_collector
+PROMPT_CHARS: 4357
+PROMPT_TOKENS_APPROX: 1089
+RESPONSE_CHARS: 0
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.85}
+================================================================================
+PROMPT:
+Extract the descriptive-name candidates from this draft.
+
+Return JSON with this shape:
+{
+  "terms": [
+    {
+      "standard_term": "fermion",
+      "candidate_name": "space-occupier",
+      "context_quote": "short quote from the draft",
+      "usefulness": "why this name helps",
+      "risk": "how it could mislead, or empty string if low risk"
+    }
+  ]
+}
+
+Only include actual teaching-name candidates, especially phrases followed by standard terms in braces.
+
+Draft:
+# Hermitian Operator  
+
+## The Core Idea  
+A **Hermitian operator** is a special rule in quantum mechanics that ensures measurements give real numbers—like position, energy, or momentum—instead of complex, abstract values. It’s the mathematical backbone of all measurable physical quantities.  
+
+## Why This Matters  
+In quantum mechanics, physical quantities (like energy or position) must have real-number outcomes when measured. Hermitian operators guarantee this by linking to **observables** (measurable properties) and ensuring that the results of experiments are concrete, not imaginary. Without them, quantum predictions would involve complex numbers that don’t match reality.  
+
+## The Simple Picture  
+Imagine a "measurement machine" that always gives answers you can write down on paper. A Hermitian operator is like that machine: it transforms quantum states in a way that ensures the result is a real number. If you tried to measure something with a non-Hermitian operator, the result might be a complex number—like a "half-real, half-imaginary" answer, which doesn’t make physical sense.  
+
+[Diagram idea: A simple machine with a "real-number output" label, contrasting with a "complex-number output" machine.]  
+
+## The More Precise Picture  
+A **Hermitian operator** is a linear operator that satisfies the condition $ A = A^\dagger $, where $ A^\dagger $ is the **conjugate transpose** of $ A $. This symmetry ensures two key properties:  
+1. **Real eigenvalues**: When you measure a quantity (like energy), the result is a real number (e.g., 5 eV, not 5 + 3i eV).  
+2. **Orthogonal eigenvectors**: The possible outcomes (eigenvalues) correspond to distinct, non-overlapping states (eigenvectors).  
+
+For example, the **position operator** (which gives the location of a particle) is Hermitian. Its eigenstates are wavefunctions localized at specific positions, and the eigenvalues are real numbers representing those positions.  
+
+**Minimal Math**:  
+- Definition: $ A = A^\dagger $ (conjugate transpose).  
+- Inner product symmetry: $ \langle \psi | A | \phi \rangle = \langle \phi | A | \psi \rangle^* $ (complex conjugate).  
+- Eigenvalue equation: $ A |\psi\rangle = \lambda |\psi\rangle $, where $ \lambda $ is real.  
+
+**What the math means**:  
+- The equation $ A = A^\dagger $ ensures the operator "commutes" with its mirror image (conjugate transpose), guaranteeing real outcomes.  
+- The inner product symmetry ensures the measurement result is a real number, not a complex one.  
+
+## Common Misconceptions  
+- ❌ "All operators are Hermitian": Only specific operators (like position or energy) are Hermitian; others (like some Hamiltonians in open systems) are not.  
+- ❌ "Hermitian means symmetric": In finite dimensions, Hermitian operators are symmetric, but in infinite dimensions, they require stricter conditions (e.g., boundary behavior).  
+- ❌ "Hermitian operators always have real eigenvalues": This is true *only* when the operator is defined on a suitable space (e.g., square-integrable functions).  
+
+## How This Connects to Physics  
+Hermitian operators are the foundation of **observables** in quantum mechanics. Every measurable quantity—position, momentum, energy, spin—corresponds to a Hermitian operator. They also underpin the **spectral theorem**, which links operators to their eigenvalues and eigenvectors, ensuring that quantum measurements yield definite results.  
+
+## Recap  
+- A **Hermitian operator** ensures measurements give real numbers.  
+- It links to **observables** (measurable quantities) and guarantees real eigenvalues.  
+- Its eigenvectors are orthogonal, reflecting distinct measurement outcomes.  
+- Mathematically, it satisfies $ A = A^\dagger $, ensuring symmetry in its action.  
+
+[Diagram idea: A real number line showing eigenvalues of a Hermitian operator, with orthogonal eigenvectors as perpendicular vectors.]
+
+RESPONSE:
+
+
+================================================================================
+TIME: 2026-05-04T14:30:57
+NODE: claim_extractor
+PROMPT_CHARS: 4879
+PROMPT_TOKENS_APPROX: 1219
+RESPONSE_CHARS: 1410
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.85}
+================================================================================
+PROMPT:
+Extract 8 to 12 important scientific and explanatory claims from this article draft.
+
+Return JSON with exactly this shape:
+{
+  "claims": [
+    {
+      "id": "C001",
+      "claim": "A clear, standalone claim from the article.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "brief reason",
+      "suggested_search_query": "stable source search query, not latest-news oriented"
+    }
+  ]
+}
+
+Rules:
+- Do not return an empty claims list unless the draft is empty.
+- Use only valid JSON.
+- Use true/false, not True/False.
+- Do not include Markdown fences.
+- Do not include prose before or after the JSON.
+- Extract claims that matter for scientific correctness.
+- Include claims embedded in analogies if the analogy could mislead.
+- Do not include purely stylistic statements.
+- Search queries should prefer stable sources: textbooks, lecture notes, CERN, Fermilab, university pages.
+
+Article title: Hermitian operator
+
+Draft:
+# Hermitian Operator  
+
+## The Core Idea  
+A **Hermitian operator** is a special rule in quantum mechanics that ensures measurements give real numbers—like position, energy, or momentum—instead of complex, abstract values. It’s the mathematical backbone of all measurable physical quantities.  
+
+## Why This Matters  
+In quantum mechanics, physical quantities (like energy or position) must have real-number outcomes when measured. Hermitian operators guarantee this by linking to **observables** (measurable properties) and ensuring that the results of experiments are concrete, not imaginary. Without them, quantum predictions would involve complex numbers that don’t match reality.  
+
+## The Simple Picture  
+Imagine a "measurement machine" that always gives answers you can write down on paper. A Hermitian operator is like that machine: it transforms quantum states in a way that ensures the result is a real number. If you tried to measure something with a non-Hermitian operator, the result might be a complex number—like a "half-real, half-imaginary" answer, which doesn’t make physical sense.  
+
+[Diagram idea: A simple machine with a "real-number output" label, contrasting with a "complex-number output" machine.]  
+
+## The More Precise Picture  
+A **Hermitian operator** is a linear operator that satisfies the condition $ A = A^\dagger $, where $ A^\dagger $ is the **conjugate transpose** of $ A $. This symmetry ensures two key properties:  
+1. **Real eigenvalues**: When you measure a quantity (like energy), the result is a real number (e.g., 5 eV, not 5 + 3i eV).  
+2. **Orthogonal eigenvectors**: The possible outcomes (eigenvalues) correspond to distinct, non-overlapping states (eigenvectors).  
+
+For example, the **position operator** (which gives the location of a particle) is Hermitian. Its eigenstates are wavefunctions localized at specific positions, and the eigenvalues are real numbers representing those positions.  
+
+**Minimal Math**:  
+- Definition: $ A = A^\dagger $ (conjugate transpose).  
+- Inner product symmetry: $ \langle \psi | A | \phi \rangle = \langle \phi | A | \psi \rangle^* $ (complex conjugate).  
+- Eigenvalue equation: $ A |\psi\rangle = \lambda |\psi\rangle $, where $ \lambda $ is real.  
+
+**What the math means**:  
+- The equation $ A = A^\dagger $ ensures the operator "commutes" with its mirror image (conjugate transpose), guaranteeing real outcomes.  
+- The inner product symmetry ensures the measurement result is a real number, not a complex one.  
+
+## Common Misconceptions  
+- ❌ "All operators are Hermitian": Only specific operators (like position or energy) are Hermitian; others (like some Hamiltonians in open systems) are not.  
+- ❌ "Hermitian means symmetric": In finite dimensions, Hermitian operators are symmetric, but in infinite dimensions, they require stricter conditions (e.g., boundary behavior).  
+- ❌ "Hermitian operators always have real eigenvalues": This is true *only* when the operator is defined on a suitable space (e.g., square-integrable functions).  
+
+## How This Connects to Physics  
+Hermitian operators are the foundation of **observables** in quantum mechanics. Every measurable quantity—position, momentum, energy, spin—corresponds to a Hermitian operator. They also underpin the **spectral theorem**, which links operators to their eigenvalues and eigenvectors, ensuring that quantum measurements yield definite results.  
+
+## Recap  
+- A **Hermitian operator** ensures measurements give real numbers.  
+- It links to **observables** (measurable quantities) and guarantees real eigenvalues.  
+- Its eigenvectors are orthogonal, reflecting distinct measurement outcomes.  
+- Mathematically, it satisfies $ A = A^\dagger $, ensuring symmetry in its action.  
+
+[Diagram idea: A real number line showing eigenvalues of a Hermitian operator, with orthogonal eigenvectors as perpendicular vectors.]
+
+RESPONSE:
+{
+  "claims": [
+    {
+      "id": "C001",
+      "claim": "A Hermitian operator ensures measurements in quantum mechanics yield real numbers, such as position or energy, rather than complex values.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Real-number outcomes are essential for physical measurements to align with experimental results.",
+      "suggested_search_query": "Hermitian operator definition quantum mechanics"
+    },
+    {
+      "id": "C002",
+      "claim": "Hermitian operators are mathematically linked to observables, ensuring measurable physical quantities correspond to real eigenvalues.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "This connection guarantees quantum predictions match empirical observations.",
+      "suggested_search_query": "Hermitian operators observables quantum mechanics"
+    },
+    {
+      "id": "C003",
+      "claim": "The analogy of a 'measurement machine' illustrates how Hermitian operators produce real-number outputs, contrasting with non-Hermitian operators that might yield complex results.",
+      "type": "analogy",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "This analogy clarifies the physical significance of Hermitian operators despite potential abstraction.",
+
+================================================================================
+TIME: 2026-05-04T14:32:48
+NODE: claim_checker
+PROMPT_CHARS: 6581
+PROMPT_TOKENS_APPROX: 1645
+RESPONSE_CHARS: 360
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.85}
+================================================================================
+PROMPT:
+Check this one article claim against the available search snippet.
+
+Return JSON with this shape:
+{
+  "id": "C001",
+  "verdict": "supported | mostly_supported | needs_qualification | unsupported | contradicted | not_enough_evidence",
+  "severity": "none | low | medium | high",
+  "problem": "specific issue, or empty string",
+  "suggested_fix": "specific correction to the article, or empty string",
+  "source_quality_note": "brief note about whether the snippets look authoritative"
+}
+
+Rules:
+- Be conservative.
+- If the snippet is weak or absent, say not_enough_evidence.
+- Do not demand advanced nuance beyond the article's beginner scope.
+- Do flag misleading simplifications.
+- Focus on stable accepted physics.
+
+Article title: Hermitian operator
+
+Claim:
+{
+  "id": "C001",
+  "claim": "# Hermitian Operator ## The Core Idea A **Hermitian operator** is a special rule in quantum mechanics that ensures measurements give real numbers—like position, energy, or momentum—instead of complex, abstract values.",
+  "type": "fallback-extracted",
+  "importance": "medium",
+  "needs_external_check": true,
+  "why_it_matters": "Automatically extracted fallback claim; review manually.",
+  "suggested_search_query": "Hermitian operator # Hermitian Operator ## The Core Idea A **Hermitian operator** is a special rule in quantum physics lecture notes textbook explanation"
+}
+
+Search snippet:
+{
+  "claim": "# Hermitian Operator ## The Core Idea A **Hermitian operator** is a special rule in quantum mechanics that ensures measurements give real numbers—like position, energy, or momentum—instead of complex, abstract values.",
+  "query": "Hermitian operator # Hermitian Operator ## The Core Idea A **Hermitian operator** is a special rule in quantum physics lecture notes textbook explanation",
+  "result_snippet": "The description of the procedure including the ... In … quantum mechanics [a physical variable ] is represented by a Hermitian operator. The description of the procedure including the ... In … quantum mechanics [a physical variable ] is represented by a Hermitian operator. An operator is called bounded operator , if there is a \\in \\mathbb{R} such that for all psi \\in D(T) $$ ||T\\psi|| \\,\\leq \\,C \\cdot ||\\psi|| $$ Those ... ... the most fundamental ideas in the studies on non-Hermitian systems is the similarity transformation, which maps a pseudo-Hermitian system to the ... Partial integrability occurs only in the non-Hermitian sector, whereas the Hermitian subclass retains the all-or-nothing picture.",
+  "searched_at": "2026-05-04_14-30-59",
+  "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
+}
+
+Relevant draft context:
+# Hermitian Operator  
+
+## The Core Idea  
+A **Hermitian operator** is a special rule in quantum mechanics that ensures measurements give real numbers—like position, energy, or momentum—instead of complex, abstract values. It’s the mathematical backbone of all measurable physical quantities.  
+
+## Why This Matters  
+In quantum mechanics, physical quantities (like energy or position) must have real-number outcomes when measured. Hermitian operators guarantee this by linking to **observables** (measurable properties) and ensuring that the results of experiments are concrete, not imaginary. Without them, quantum predictions would involve complex numbers that don’t match reality.  
+
+## The Simple Picture  
+Imagine a "measurement machine" that always gives answers you can write down on paper. A Hermitian operator is like that machine: it transforms quantum states in a way that ensures the result is a real number. If you tried to measure something with a non-Hermitian operator, the result might be a complex number—like a "half-real, half-imaginary" answer, which doesn’t make physical sense.  
+
+[Diagram idea: A simple machine with a "real-number output" label, contrasting with a "complex-number output" machine.]  
+
+## The More Precise Picture  
+A **Hermitian operator** is a linear operator that satisfies the condition $ A = A^\dagger $, where $ A^\dagger $ is the **conjugate transpose** of $ A $. This symmetry ensures two key properties:  
+1. **Real eigenvalues**: When you measure a quantity (like energy), the result is a real number (e.g., 5 eV, not 5 + 3i eV).  
+2. **Orthogonal eigenvectors**: The possible outcomes (eigenvalues) correspond to distinct, non-overlapping states (eigenvectors).  
+
+For example, the **position operator** (which gives the location of a particle) is Hermitian. Its eigenstates are wavefunctions localized at specific positions, and the eigenvalues are real numbers representing those positions.  
+
+**Minimal Math**:  
+- Definition: $ A = A^\dagger $ (conjugate transpose).  
+- Inner product symmetry: $ \langle \psi | A | \phi \rangle = \langle \phi | A | \psi \rangle^* $ (complex conjugate).  
+- Eigenvalue equation: $ A |\psi\rangle = \lambda |\psi\rangle $, where $ \lambda $ is real.  
+
+**What the math means**:  
+- The equation $ A = A^\dagger $ ensures the operator "commutes" with its mirror image (conjugate transpose), guaranteeing real outcomes.  
+- The inner product symmetry ensures the measurement result is a real number, not a complex one.  
+
+## Common Misconceptions  
+- ❌ "All operators are Hermitian": Only specific operators (like position or energy) are Hermitian; others (like some Hamiltonians in open systems) are not.  
+- ❌ "Hermitian means symmetric": In finite dimensions, Hermitian operators are symmetric, but in infinite dimensions, they require stricter conditions (e.g., boundary behavior).  
+- ❌ "Hermitian operators always have real eigenvalues": This is true *only* when the operator is defined on a suitable space (e.g., square-integrable functions).  
+
+## How This Connects to Physics  
+Hermitian operators are the foundation of **observables** in quantum mechanics. Every measurable quantity—position, momentum, energy, spin—corresponds to a Hermitian operator. They also underpin the **spectral theorem**, which links operators to their eigenvalues and eigenvectors, ensuring that quantum measurements yield definite results.  
+
+## Recap  
+- A **Hermitian operator** ensures measurements give real numbers.  
+- It links to **observables** (measurable quantities) and guarantees real eigenvalues.  
+- Its eigenvectors are orthogonal, reflecting distinct measurement outcomes.  
+- Mathematically, it satisfies $ A = A^\dagger $, ensuring symmetry in its action.  
+
+[Diagram idea: A real number line showing eigenvalues of a Hermitian operator, with orthogonal eigenvectors as perpendicular vectors.]
+
+RESPONSE:
+{
+  "id": "C001",
+  "verdict": "supported",
+  "severity": "low",
+  "problem": "",
+  "suggested_fix": "",
+  "source_quality_note": "The snippet appears to reference stable quantum mechanics concepts, though the exact source isn't clearly identified. The mathematical formulation of Hermitian operators and their real eigenvalue property are well-established."
+}
+
+================================================================================
+TIME: 2026-05-04T14:34:20
+NODE: claim_checker
+PROMPT_CHARS: 6676
+PROMPT_TOKENS_APPROX: 1669
+RESPONSE_CHARS: 697
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.85}
+================================================================================
+PROMPT:
+Check this one article claim against the available search snippet.
+
+Return JSON with this shape:
+{
+  "id": "C002",
+  "verdict": "supported | mostly_supported | needs_qualification | unsupported | contradicted | not_enough_evidence",
+  "severity": "none | low | medium | high",
+  "problem": "specific issue, or empty string",
+  "suggested_fix": "specific correction to the article, or empty string",
+  "source_quality_note": "brief note about whether the snippets look authoritative"
+}
+
+Rules:
+- Be conservative.
+- If the snippet is weak or absent, say not_enough_evidence.
+- Do not demand advanced nuance beyond the article's beginner scope.
+- Do flag misleading simplifications.
+- Focus on stable accepted physics.
+
+Article title: Hermitian operator
+
+Claim:
+{
+  "id": "C002",
+  "claim": "## Why This Matters In quantum mechanics, physical quantities (like energy or position) must have real-number outcomes when measured.",
+  "type": "fallback-extracted",
+  "importance": "medium",
+  "needs_external_check": true,
+  "why_it_matters": "Automatically extracted fallback claim; review manually.",
+  "suggested_search_query": "Hermitian operator ## Why This Matters In quantum mechanics, physical quantities (like energy or position) must have real-number physics lecture notes textbook explanation"
+}
+
+Search snippet:
+{
+  "claim": "## Why This Matters In quantum mechanics, physical quantities (like energy or position) must have real-number outcomes when measured.",
+  "query": "Hermitian operator ## Why This Matters In quantum mechanics, physical quantities (like energy or position) must have real-number physics lecture notes textbook explanation",
+  "result_snippet": "Quantum mechanics arose gradually from theories to explain observations that could not be reconciled with classical physics, such as Max Planck's solution in 1900 to the black-body radiation problem... In this video, we will investigate whether the position operator and the momentum operator really are Hermitian operators. While the position operator looks ... Most operators in quantum mechanics are of a special kind called Hermitian. This section lists their most important properties. An operator is called Hermitian when it can always be flipped over to the other side if it appears in a inner product Hermitian Operators correspond to observable physical quantities in quantum mechanics, such as energy, position, and momentum. Physical variables must have real expectation values, which implies that the operators representing them are equal to their own Hermitian conjugate. Operators with this property are called Hermitian operators.",
+  "searched_at": "2026-05-04_14-31-01",
+  "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
+}
+
+Relevant draft context:
+# Hermitian Operator  
+
+## The Core Idea  
+A **Hermitian operator** is a special rule in quantum mechanics that ensures measurements give real numbers—like position, energy, or momentum—instead of complex, abstract values. It’s the mathematical backbone of all measurable physical quantities.  
+
+## Why This Matters  
+In quantum mechanics, physical quantities (like energy or position) must have real-number outcomes when measured. Hermitian operators guarantee this by linking to **observables** (measurable properties) and ensuring that the results of experiments are concrete, not imaginary. Without them, quantum predictions would involve complex numbers that don’t match reality.  
+
+## The Simple Picture  
+Imagine a "measurement machine" that always gives answers you can write down on paper. A Hermitian operator is like that machine: it transforms quantum states in a way that ensures the result is a real number. If you tried to measure something with a non-Hermitian operator, the result might be a complex number—like a "half-real, half-imaginary" answer, which doesn’t make physical sense.  
+
+[Diagram idea: A simple machine with a "real-number output" label, contrasting with a "complex-number output" machine.]  
+
+## The More Precise Picture  
+A **Hermitian operator** is a linear operator that satisfies the condition $ A = A^\dagger $, where $ A^\dagger $ is the **conjugate transpose** of $ A $. This symmetry ensures two key properties:  
+1. **Real eigenvalues**: When you measure a quantity (like energy), the result is a real number (e.g., 5 eV, not 5 + 3i eV).  
+2. **Orthogonal eigenvectors**: The possible outcomes (eigenvalues) correspond to distinct, non-overlapping states (eigenvectors).  
+
+For example, the **position operator** (which gives the location of a particle) is Hermitian. Its eigenstates are wavefunctions localized at specific positions, and the eigenvalues are real numbers representing those positions.  
+
+**Minimal Math**:  
+- Definition: $ A = A^\dagger $ (conjugate transpose).  
+- Inner product symmetry: $ \langle \psi | A | \phi \rangle = \langle \phi | A | \psi \rangle^* $ (complex conjugate).  
+- Eigenvalue equation: $ A |\psi\rangle = \lambda |\psi\rangle $, where $ \lambda $ is real.  
+
+**What the math means**:  
+- The equation $ A = A^\dagger $ ensures the operator "commutes" with its mirror image (conjugate transpose), guaranteeing real outcomes.  
+- The inner product symmetry ensures the measurement result is a real number, not a complex one.  
+
+## Common Misconceptions  
+- ❌ "All operators are Hermitian": Only specific operators (like position or energy) are Hermitian; others (like some Hamiltonians in open systems) are not.  
+- ❌ "Hermitian means symmetric": In finite dimensions, Hermitian operators are symmetric, but in infinite dimensions, they require stricter conditions (e.g., boundary behavior).  
+- ❌ "Hermitian operators always have real eigenvalues": This is true *only* when the operator is defined on a suitable space (e.g., square-integrable functions).  
+
+## How This Connects to Physics  
+Hermitian operators are the foundation of **observables** in quantum mechanics. Every measurable quantity—position, momentum, energy, spin—corresponds to a Hermitian operator. They also underpin the **spectral theorem**, which links operators to their eigenvalues and eigenvectors, ensuring that quantum measurements yield definite results.  
+
+## Recap  
+- A **Hermitian operator** ensures measurements give real numbers.  
+- It links to **observables** (measurable quantities) and guarantees real eigenvalues.  
+- Its eigenvectors are orthogonal, reflecting distinct measurement outcomes.  
+- Mathematically, it satisfies $ A = A^\dagger $, ensuring symmetry in its action.  
+
+[Diagram idea: A real number line showing eigenvalues of a Hermitian operator, with orthogonal eigenvectors as perpendicular vectors.]
+
+RESPONSE:
+{
+  "id": "C002",
+  "verdict": "supported",
+  "severity": "low",
+  "problem": "The article generalizes 'real-number outcomes' to all measurements, while the snippet specifies 'real expectation values' for Hermitian operators. This is a minor oversimplification but acceptable for a beginner audience.",
+  "suggested_fix": "Clarify that Hermitian operators ensure real expectation values for measurements, not necessarily every individual measurement outcome (which can involve probabilistic distributions).",
+  "source_quality_note": "The snippet is from a physics lecture context discussing Hermitian operators and their connection to observables, which is an authoritative educational source."
+}
+
+================================================================================
+TIME: 2026-05-04T14:36:14
+NODE: term_collector
+PROMPT_CHARS: 4357
+PROMPT_TOKENS_APPROX: 1089
+RESPONSE_CHARS: 0
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.85}
+================================================================================
+PROMPT:
+Extract the descriptive-name candidates from this draft.
+
+Return JSON with this shape:
+{
+  "terms": [
+    {
+      "standard_term": "fermion",
+      "candidate_name": "space-occupier",
+      "context_quote": "short quote from the draft",
+      "usefulness": "why this name helps",
+      "risk": "how it could mislead, or empty string if low risk"
+    }
+  ]
+}
+
+Only include actual teaching-name candidates, especially phrases followed by standard terms in braces.
+
+Draft:
+# Hermitian Operator  
+
+## The Core Idea  
+A **Hermitian operator** is a special rule in quantum mechanics that ensures measurements give real numbers—like position, energy, or momentum—instead of complex, abstract values. It’s the mathematical backbone of all measurable physical quantities.  
+
+## Why This Matters  
+In quantum mechanics, physical quantities (like energy or position) must have real-number outcomes when measured. Hermitian operators guarantee this by linking to **observables** (measurable properties) and ensuring that the results of experiments are concrete, not imaginary. Without them, quantum predictions would involve complex numbers that don’t match reality.  
+
+## The Simple Picture  
+Imagine a "measurement machine" that always gives answers you can write down on paper. A Hermitian operator is like that machine: it transforms quantum states in a way that ensures the result is a real number. If you tried to measure something with a non-Hermitian operator, the result might be a complex number—like a "half-real, half-imaginary" answer, which doesn’t make physical sense.  
+
+[Diagram idea: A simple machine with a "real-number output" label, contrasting with a "complex-number output" machine.]  
+
+## The More Precise Picture  
+A **Hermitian operator** is a linear operator that satisfies the condition $ A = A^\dagger $, where $ A^\dagger $ is the **conjugate transpose** of $ A $. This symmetry ensures two key properties:  
+1. **Real eigenvalues**: When you measure a quantity (like energy), the result is a real number (e.g., 5 eV, not 5 + 3i eV).  
+2. **Orthogonal eigenvectors**: The possible outcomes (eigenvalues) correspond to distinct, non-overlapping states (eigenvectors).  
+
+For example, the **position operator** (which gives the location of a particle) is Hermitian. Its eigenstates are wavefunctions localized at specific positions, and the eigenvalues are real numbers representing those positions.  
+
+**Minimal Math**:  
+- Definition: $ A = A^\dagger $ (conjugate transpose).  
+- Inner product symmetry: $ \langle \psi | A | \phi \rangle = \langle \phi | A | \psi \rangle^* $ (complex conjugate).  
+- Eigenvalue equation: $ A |\psi\rangle = \lambda |\psi\rangle $, where $ \lambda $ is real.  
+
+**What the math means**:  
+- The equation $ A = A^\dagger $ ensures the operator "commutes" with its mirror image (conjugate transpose), guaranteeing real outcomes.  
+- The inner product symmetry ensures the measurement result is a real number, not a complex one.  
+
+## Common Misconceptions  
+- ❌ "All operators are Hermitian": Only specific operators (like position or energy) are Hermitian; others (like some Hamiltonians in open systems) are not.  
+- ❌ "Hermitian means symmetric": In finite dimensions, Hermitian operators are symmetric, but in infinite dimensions, they require stricter conditions (e.g., boundary behavior).  
+- ❌ "Hermitian operators always have real eigenvalues": This is true *only* when the operator is defined on a suitable space (e.g., square-integrable functions).  
+
+## How This Connects to Physics  
+Hermitian operators are the foundation of **observables** in quantum mechanics. Every measurable quantity—position, momentum, energy, spin—corresponds to a Hermitian operator. They also underpin the **spectral theorem**, which links operators to their eigenvalues and eigenvectors, ensuring that quantum measurements yield definite results.  
+
+## Recap  
+- A **Hermitian operator** ensures measurements give real numbers.  
+- It links to **observables** (measurable quantities) and guarantees real eigenvalues.  
+- Its eigenvectors are orthogonal, reflecting distinct measurement outcomes.  
+- Mathematically, it satisfies $ A = A^\dagger $, ensuring symmetry in its action.  
+
+[Diagram idea: A real number line showing eigenvalues of a Hermitian operator, with orthogonal eigenvectors as perpendicular vectors.]
+
+RESPONSE:
+
+
+================================================================================
+TIME: 2026-05-04T14:39:35
+NODE: accessibility_judge
+PROMPT_CHARS: 6086
+PROMPT_TOKENS_APPROX: 1521
+RESPONSE_CHARS: 1581
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.85}
+================================================================================
+PROMPT:
+Score this EasyPhysics article for accessibility using the rubric below.
+
+Accessibility score, 1-10:
+
+10 = Exceptional. A motivated high-schooler can follow the article's main arc without prior exposure.
+     Jargon is introduced only after intuition. Examples are vivid. Math is explained as meaning,
+     not just symbols. The article feels empowering and clear.
+
+9 = Publishable with light human editing. The main idea is easy to follow; jargon is mostly controlled;
+    analogies are helpful; sections flow logically; any math has a plain-language interpretation.
+
+8 = Strong draft. Mostly clear, but has a few dense sections, unexplained terms, abrupt transitions,
+    or analogies that need more setup.
+
+7 = Useful but uneven. A motivated reader could learn from it, but several passages need simplification,
+    clearer examples, or better sequencing.
+
+6 = Borderline. The article contains useful explanations, but assumes too much background or uses too much jargon.
+
+5 = Mixed. Some good paragraphs, but the structure or language would lose many target readers.
+
+4 = Hard to follow. Mostly written for someone who already knows the subject.
+
+3 = Very inaccessible. Dense, abstract, jargon-heavy, or poorly sequenced.
+
+2 = Barely useful to the target audience.
+
+1 = Fails the accessibility goal.
+
+Accessibility judge priorities:
+- Does the opening give the reader an intuitive foothold?
+- Are standard terms introduced after meaning, not before?
+- Are descriptive names useful rather than cutesy or misleading?
+- Are analogies concrete and then carefully limited?
+- Is any math explained in words?
+- Does the article avoid "spooky/magic/weird" framing while still acknowledging counterintuitive ideas?
+- Does each section make the next section easier?
+
+Return JSON with this shape:
+{
+  "score": 1,
+  "pass": false,
+  "strengths": ["specific strength"],
+  "issues": [
+    {
+      "severity": "low | medium | high",
+      "location": "section or paragraph description",
+      "problem": "specific accessibility issue",
+      "suggested_fix": "specific fix"
+    }
+  ],
+  "best_next_revision": "one concise paragraph describing what to improve next"
+}
+
+Article title: Hermitian operator
+
+Draft:
+# Hermitian Operator  
+
+## The Core Idea  
+A **Hermitian operator** is a special rule in quantum mechanics that ensures measurements give real numbers—like position, energy, or momentum—instead of complex, abstract values. It’s the mathematical backbone of all measurable physical quantities.  
+
+## Why This Matters  
+In quantum mechanics, physical quantities (like energy or position) must have real-number outcomes when measured. Hermitian operators guarantee this by linking to **observables** (measurable properties) and ensuring that the results of experiments are concrete, not imaginary. Without them, quantum predictions would involve complex numbers that don’t match reality.  
+
+## The Simple Picture  
+Imagine a "measurement machine" that always gives answers you can write down on paper. A Hermitian operator is like that machine: it transforms quantum states in a way that ensures the result is a real number. If you tried to measure something with a non-Hermitian operator, the result might be a complex number—like a "half-real, half-imaginary" answer, which doesn’t make physical sense.  
+
+[Diagram idea: A simple machine with a "real-number output" label, contrasting with a "complex-number output" machine.]  
+
+## The More Precise Picture  
+A **Hermitian operator** is a linear operator that satisfies the condition $ A = A^\dagger $, where $ A^\dagger $ is the **conjugate transpose** of $ A $. This symmetry ensures two key properties:  
+1. **Real eigenvalues**: When you measure a quantity (like energy), the result is a real number (e.g., 5 eV, not 5 + 3i eV).  
+2. **Orthogonal eigenvectors**: The possible outcomes (eigenvalues) correspond to distinct, non-overlapping states (eigenvectors).  
+
+For example, the **position operator** (which gives the location of a particle) is Hermitian. Its eigenstates are wavefunctions localized at specific positions, and the eigenvalues are real numbers representing those positions.  
+
+**Minimal Math**:  
+- Definition: $ A = A^\dagger $ (conjugate transpose).  
+- Inner product symmetry: $ \langle \psi | A | \phi \rangle = \langle \phi | A | \psi \rangle^* $ (complex conjugate).  
+- Eigenvalue equation: $ A |\psi\rangle = \lambda |\psi\rangle $, where $ \lambda $ is real.  
+
+**What the math means**:  
+- The equation $ A = A^\dagger $ ensures the operator "commutes" with its mirror image (conjugate transpose), guaranteeing real outcomes.  
+- The inner product symmetry ensures the measurement result is a real number, not a complex one.  
+
+## Common Misconceptions  
+- ❌ "All operators are Hermitian": Only specific operators (like position or energy) are Hermitian; others (like some Hamiltonians in open systems) are not.  
+- ❌ "Hermitian means symmetric": In finite dimensions, Hermitian operators are symmetric, but in infinite dimensions, they require stricter conditions (e.g., boundary behavior).  
+- ❌ "Hermitian operators always have real eigenvalues": This is true *only* when the operator is defined on a suitable space (e.g., square-integrable functions).  
+
+## How This Connects to Physics  
+Hermitian operators are the foundation of **observables** in quantum mechanics. Every measurable quantity—position, momentum, energy, spin—corresponds to a Hermitian operator. They also underpin the **spectral theorem**, which links operators to their eigenvalues and eigenvectors, ensuring that quantum measurements yield definite results.  
+
+## Recap  
+- A **Hermitian operator** ensures measurements give real numbers.  
+- It links to **observables** (measurable quantities) and guarantees real eigenvalues.  
+- Its eigenvectors are orthogonal, reflecting distinct measurement outcomes.  
+- Mathematically, it satisfies $ A = A^\dagger $, ensuring symmetry in its action.  
+
+[Diagram idea: A real number line showing eigenvalues of a Hermitian operator, with orthogonal eigenvectors as perpendicular vectors.]
+
+RESPONSE:
+{
+  "score": 8,
+  "pass": false,
+  "strengths": [
+    "Clear intuitive analogy of the 'measurement machine' provides a concrete foothold",
+    "Math is explained in plain language with clear connections to physical meaning",
+    "Structure flows logically from core idea to technical details and applications"
+  ],
+  "issues": [
+    {
+      "severity": "medium",
+      "location": "The More Precise Picture section",
+      "problem": "Technical terms like 'conjugate transpose' and 'inner product symmetry' are introduced without prior explanation",
+      "suggested_fix": "Add a brief explanation of these terms using analogies (e.g., 'conjugate transpose' as a mirror-image operation)"
+    },
+    {
+      "severity": "medium",
+      "location": "Minimal Math section",
+      "problem": "Equations are presented without sufficient contextual framing for readers unfamiliar with linear algebra",
+      "suggested_fix": "Pair each equation with a verbal explanation of its physical significance (e.g., 'This equation ensures the operator's symmetry')"
+    },
+    {
+      "severity": "low",
+      "location": "Diagram ideas",
+      "problem": "Visual concepts are mentioned but not integrated into the text",
+      "suggested_fix": "Describe diagrams in text (e.g., 'Imagine a number line with orthogonal vectors representing distinct measurement outcomes')"
+    }
+  ],
+  "best_next_revision": "Simplify the mathematical explanations by adding analogies for abstract concepts like conjugate transpose, and integrate visual concepts directly into the text to maintain accessibility"
+}
+
+================================================================================
+TIME: 2026-05-04T14:42:09
+NODE: rigor_judge
+PROMPT_CHARS: 7663
+PROMPT_TOKENS_APPROX: 1915
+RESPONSE_CHARS: 1496
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.85}
+================================================================================
+PROMPT:
+Score this EasyPhysics article for scientific rigor using the rubric below.
+
+Rigor score, 1-10:
+
+10 = Exceptional. Scientifically accurate, well-qualified, and careful about analogy limits.
+     No obvious misleading simplifications. Claims align with stable accepted physics.
+
+9 = Publishable with light human editing. No major errors. A few details may need polishing,
+    but the article is safe as an educational explanation.
+
+8 = Strong draft. Mostly accurate but has minor imprecision, missing qualifications, or analogy risks.
+
+7 = Useful but needs scientific review. Contains no catastrophic errors, but some claims are too loose,
+    incomplete, or potentially misleading.
+
+6 = Borderline. Several important corrections or qualifications are needed.
+
+5 = Mixed. The article has valuable explanations but also significant inaccuracies or misleading framings.
+
+4 = Scientifically weak. Multiple substantial errors or serious conceptual muddling.
+
+3 = Very unreliable. The reader would likely learn incorrect physics.
+
+2 = Mostly wrong or confused.
+
+1 = Fails the rigor goal.
+
+Rigor judge priorities:
+- Are definitions compatible with standard physics?
+- Are analogies technically safe, with their limits stated when necessary?
+- Are quantum concepts distinguished correctly: amplitude vs probability, superposition vs ignorance,
+  measurement vs ordinary looking, phase vs probability?
+- Are field/particle/wave descriptions accurate enough for a beginner article?
+- Are conservation, symmetry, force, energy, mass, and spin statements properly qualified?
+- Does the article avoid replacing historical jargon with new misleading jargon?
+- Are open questions distinguished from settled explanations?
+
+Use the claim-check results as context, but judge the final draft itself.
+
+Return JSON with this shape:
+{
+  "score": 1,
+  "pass": false,
+  "strengths": ["specific strength"],
+  "issues": [
+    {
+      "severity": "low | medium | high",
+      "location": "section or paragraph description",
+      "problem": "specific rigor issue",
+      "suggested_fix": "specific fix"
+    }
+  ],
+  "best_next_revision": "one concise paragraph describing what to improve next"
+}
+
+Article title: Hermitian operator
+
+Claim-check context:
+{
+  "claim_checks": [
+    {
+      "id": "C001",
+      "verdict": "supported",
+      "severity": "low",
+      "problem": "",
+      "suggested_fix": "",
+      "source_quality_note": "The snippet appears to reference stable quantum mechanics concepts, though the exact source isn't clearly identified. The mathematical formulation of Hermitian operators and their real eigenvalue property are well-established."
+    },
+    {
+      "id": "C002",
+      "verdict": "supported",
+      "severity": "low",
+      "problem": "The article generalizes 'real-number outcomes' to all measurements, while the snippet specifies 'real expectation values' for Hermitian operators. This is a minor oversimplification but acceptable for a beginner audience.",
+      "suggested_fix": "Clarify that Hermitian operators ensure real expectation values for measurements, not necessarily every individual measurement outcome (which can involve probabilistic distributions).",
+      "source_quality_note": "The snippet is from a physics lecture context discussing Hermitian operators and their connection to observables, which is an authoritative educational source."
+    }
+  ],
+  "summary": {
+    "overall_claim_quality": "Claim check completed.",
+    "unresolved_or_needs_qualification": 0,
+    "highest_priority_fixes": [
+      "Clarify that Hermitian operators ensure real expectation values for measurements, not necessarily every individual measurement outcome (which can involve probabilistic distributions)."
+    ]
+  },
+  "last_updated": "2026-05-04_14-34-20"
+}
+
+Draft:
+# Hermitian Operator  
+
+## The Core Idea  
+A **Hermitian operator** is a special rule in quantum mechanics that ensures measurements give real numbers—like position, energy, or momentum—instead of complex, abstract values. It’s the mathematical backbone of all measurable physical quantities.  
+
+## Why This Matters  
+In quantum mechanics, physical quantities (like energy or position) must have real-number outcomes when measured. Hermitian operators guarantee this by linking to **observables** (measurable properties) and ensuring that the results of experiments are concrete, not imaginary. Without them, quantum predictions would involve complex numbers that don’t match reality.  
+
+## The Simple Picture  
+Imagine a "measurement machine" that always gives answers you can write down on paper. A Hermitian operator is like that machine: it transforms quantum states in a way that ensures the result is a real number. If you tried to measure something with a non-Hermitian operator, the result might be a complex number—like a "half-real, half-imaginary" answer, which doesn’t make physical sense.  
+
+[Diagram idea: A simple machine with a "real-number output" label, contrasting with a "complex-number output" machine.]  
+
+## The More Precise Picture  
+A **Hermitian operator** is a linear operator that satisfies the condition $ A = A^\dagger $, where $ A^\dagger $ is the **conjugate transpose** of $ A $. This symmetry ensures two key properties:  
+1. **Real eigenvalues**: When you measure a quantity (like energy), the result is a real number (e.g., 5 eV, not 5 + 3i eV).  
+2. **Orthogonal eigenvectors**: The possible outcomes (eigenvalues) correspond to distinct, non-overlapping states (eigenvectors).  
+
+For example, the **position operator** (which gives the location of a particle) is Hermitian. Its eigenstates are wavefunctions localized at specific positions, and the eigenvalues are real numbers representing those positions.  
+
+**Minimal Math**:  
+- Definition: $ A = A^\dagger $ (conjugate transpose).  
+- Inner product symmetry: $ \langle \psi | A | \phi \rangle = \langle \phi | A | \psi \rangle^* $ (complex conjugate).  
+- Eigenvalue equation: $ A |\psi\rangle = \lambda |\psi\rangle $, where $ \lambda $ is real.  
+
+**What the math means**:  
+- The equation $ A = A^\dagger $ ensures the operator "commutes" with its mirror image (conjugate transpose), guaranteeing real outcomes.  
+- The inner product symmetry ensures the measurement result is a real number, not a complex one.  
+
+## Common Misconceptions  
+- ❌ "All operators are Hermitian": Only specific operators (like position or energy) are Hermitian; others (like some Hamiltonians in open systems) are not.  
+- ❌ "Hermitian means symmetric": In finite dimensions, Hermitian operators are symmetric, but in infinite dimensions, they require stricter conditions (e.g., boundary behavior).  
+- ❌ "Hermitian operators always have real eigenvalues": This is true *only* when the operator is defined on a suitable space (e.g., square-integrable functions).  
+
+## How This Connects to Physics  
+Hermitian operators are the foundation of **observables** in quantum mechanics. Every measurable quantity—position, momentum, energy, spin—corresponds to a Hermitian operator. They also underpin the **spectral theorem**, which links operators to their eigenvalues and eigenvectors, ensuring that quantum measurements yield definite results.  
+
+## Recap  
+- A **Hermitian operator** ensures measurements give real numbers.  
+- It links to **observables** (measurable quantities) and guarantees real eigenvalues.  
+- Its eigenvectors are orthogonal, reflecting distinct measurement outcomes.  
+- Mathematically, it satisfies $ A = A^\dagger $, ensuring symmetry in its action.  
+
+[Diagram idea: A real number line showing eigenvalues of a Hermitian operator, with orthogonal eigenvectors as perpendicular vectors.]
+
+RESPONSE:
+{
+  "score": 9,
+  "pass": true,
+  "strengths": [
+    "Accurate definitions of Hermitian operators and their properties (real eigenvalues, orthogonal eigenvectors)",
+    "Clear distinction between Hermitian operators and non-Hermitian ones",
+    "Use of intuitive analogies (measurement machine) without misleading simplifications",
+    "Correct mathematical formulation with proper explanation of conjugate transpose"
+  ],
+  "issues": [
+    {
+      "severity": "low",
+      "location": "Why This Matters section",
+      "problem": "Generalizes 'real-number outcomes' to all measurements, while the claim check specifies 'real expectation values' for Hermitian operators",
+      "suggested_fix": "Clarify that Hermitian operators ensure real expectation values for measurements, not necessarily every individual measurement outcome (which can involve probabilistic distributions)"
+    },
+    {
+      "severity": "medium",
+      "location": "Common Misconceptions section",
+      "problem": "States 'Hermitian means symmetric' without qualifying that this is only true in finite dimensions",
+      "suggested_fix": "Add clarification that Hermitian operators are symmetric in finite dimensions but require stricter conditions in infinite dimensions"
+    }
+  ],
+  "best_next_revision": "Refine the explanation of measurement outcomes to emphasize real expectation values rather than individual outcomes, and add clarification about dimensionality requirements for symmetry in Hermitian operators."
+}

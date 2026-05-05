@@ -1,0 +1,26 @@
+{
+  "terms": [
+    {
+      "standard_term": "Hamiltonian",
+      "candidate_name": "energy governor",
+      "context_quote": "The Hamiltonian is the energy governor {Hamiltonian} of a system.",
+      "usefulness": "Provides an intuitive metaphor for energy's role in governing system behavior",
+      "risk": "May oversimplify the mathematical structure of Hamiltonian mechanics"
+    },
+    {
+      "standard_term": "wavefunction",
+      "candidate_name": "stackable ripple",
+      "context_quote": "In quantum mechanics, it’s a set of rules (operators) that tell a wavefunction {wavefunction} how to evolve over time.",
+      "usefulness": "Suggests quantum states as coherent, additive patterns",
+      "risk": "Could imply classical wave behavior rather than quantum superposition"
+    },
+    {
+      "standard_term": "operator",
+      "candidate_name": "energy ruler",
+      "context_quote": "The Hamiltonian is an operator {operator} that acts on wavefunctions {wavefunction} to determine how quantum states evolve.",
+      "usefulness": "Emphasizes the measurement/transform function of operators",
+      "risk": "May conflate operators with classical measuring tools"
+    }
+  ],
+  "last_updated": "2026-05-04_08-03-26"
+}

@@ -1,0 +1,23 @@
+{
+  "claims": [
+    {
+      "id": "C001",
+      "claim": "An energy eigenstate is a stable quantum state with precisely defined energy that does not change over time unless disturbed.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Defines the foundational concept for understanding quantum stability and measurement outcomes.",
+      "suggested_search_query": "quantum mechanics energy eigenstate definition"
+    },
+    {
+      "id": "C002",
+      "claim": "Measurement of an energy eigenstate always yields the same energy value, reflecting its definite energy property.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Explains the predictability of quantum measurements in eigenstates.",
+      "suggested_search_query": "quantum measurement energy eigenstate"
+    },
+    {
+      "id": "C003",
+      "claim": "Energy eigenstates underpin

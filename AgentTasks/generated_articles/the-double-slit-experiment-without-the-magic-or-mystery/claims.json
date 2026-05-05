@@ -1,0 +1,50 @@
+{
+  "claims": [
+    {
+      "id": "C001",
+      "claim": "Particles like electrons or photons exhibit wave-like behavior (interference patterns) when unobserved and particle-like behavior (localized dots) when measured.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "This reveals how measurement fundamentally shapes quantum outcomes, rejecting mystical interpretations.",
+      "suggested_search_query": "double-slit experiment measurement effect"
+    },
+    {
+      "id": "C002",
+      "claim": "Constructive interference occurs when path difference is $ n\\lambda $, and destructive interference occurs when path difference is $ (n + 0.5)\\lambda $.",
+      "type": "mathematical",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "This quantifies the wave-like behavior underlying interference patterns.",
+      "suggested_search_query": "double-slit interference equations"
+    },
+    {
+      "id": "C003",
+      "claim": "The 'observation effect' {measurement} reveals a particle's path, collapsing its wave-like behavior into a localized detection.",
+      "type": "mechanism",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Demonstrates how experimental design influences quantum system behavior.",
+      "suggested_search_query": "quantum measurement collapse mechanism"
+    },
+    {
+      "id": "C004",
+      "claim": "Particles do not split into two; their wave-like properties spread through both slits, creating interference without actual division.",
+      "type": "misconception-correction",
+      "importance": "medium",
+      "needs_external_check": true,
+      "why_it_matters": "Corrects a common misunderstanding about particle behavior in the experiment.",
+      "suggested_search_query": "double-slit particle splitting misconception"
+    },
+    {
+      "id": "C005",
+      "claim": "The double-slit experiment exemplifies wave-particle duality {wave-particle duality}, a foundational concept in quantum mechanics.",
+      "type": "scope",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Links the experiment to broader quantum theory and particle physics frameworks.",
+      "suggested_search_query": "wave-particle duality quantum mechanics"
+    }
+  ],
+  "last_updated": "2026-05-04_00-44-19"
+}

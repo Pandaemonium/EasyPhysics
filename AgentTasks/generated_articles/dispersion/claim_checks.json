@@ -1,0 +1,28 @@
+{
+  "claim_checks": [
+    {
+      "id": "C001",
+      "verdict": "supported",
+      "severity": "none",
+      "problem": "",
+      "suggested_fix": "",
+      "source_quality_note": "Snippets appear to come from educational/technical sources discussing dispersion in physics contexts, though dates suggest some may be hypothetical examples."
+    },
+    {
+      "id": "C002",
+      "verdict": "supported",
+      "severity": "low",
+      "problem": "The claim simplifies dispersion by attributing it solely to 'slowing down' without explicitly mentioning wavelength-dependent refractive index variation. However, this is a common introductory simplification.",
+      "suggested_fix": "Add a note that the core mechanism is wavelength-dependent refractive index (n(λ)) variation, which causes different colors to bend at different angles.",
+      "source_quality_note": "The snippet comes from a reliable educational source explaining dispersion through wavelength-dependent refraction, consistent with standard physics explanations."
+    }
+  ],
+  "summary": {
+    "overall_claim_quality": "Claim check completed.",
+    "unresolved_or_needs_qualification": 0,
+    "highest_priority_fixes": [
+      "Add a note that the core mechanism is wavelength-dependent refractive index (n(λ)) variation, which causes different colors to bend at different angles."
+    ]
+  },
+  "last_updated": "2026-05-04_11-05-49"
+}

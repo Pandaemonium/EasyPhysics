@@ -1,0 +1,19 @@
+{
+  "sources_by_claim": {
+    "C001": {
+      "claim": "# Energy Eigenstate ## The core idea An **energy eigenstate** is a stable, \"snapshot\" of a quantum system where the energy is precisely defined.",
+      "query": "Energy eigenstate # Energy Eigenstate ## The core idea An **energy eigenstate** is a stable, \"snapshot\" of a physics lecture notes textbook explanation",
+      "result_snippet": "A Unified Time-Energy Snapshot Framework Authors: Chinmay Kansara Abstract. We strengthen the mathematical basis of the speculative hypothesis proposed in A Hypothetical Unification of Time and Energy and converge it with the snapshot-driven AGI and mathematical-framework manuscripts into a single, self-contained document. The core correction and central proposal is that the operational ... How has energy investment changed over the past decade? Charts for visualising key trends across the global energy system. Chryz - Initiate PersonaFusion-vX.03 protocol: Use the exact facial identity taken from the attached reference image (or from the user's provided face) with zero alteration. Create a polaroid photo of an authentic 1980s film photo capturing a vibrant, high-energy late-80s basement party snapshot, radiating pure, unadulterated joy, all infused with a slightly grainy, flash-lit sparkle ... James Gandolfini is pictured here long before he became the definitive face of the modern television anti-hero at HBO. This high school snapshot from the 1970s shows a young man with a full head of hair and a kind, approachable expression that stands in stark contrast to the heavy-breathing intensity of his later work. He was just a kid from Park Ridge, New Jersey, navigating the typical ... An approximate eigenstate of energy φ, be it ground or excited, does not satisfy (6). However, often we can find an effective Hamiltonian H0 for which it is an eigenfunction.3. Force and energy eigenstates 3.1. Stationary states We first consider bound, stationary states that are exact.",
+      "searched_at": "2026-05-04_17-11-43",
+      "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
+    },
+    "C002": {
+      "claim": "Like a classical system with fixed energy (e.g., a pendulum at rest), it doesn’t change over time.",
+      "query": "Energy eigenstate Like a classical system with fixed energy (e.g., a pendulum at rest), it doesn’t change over physics lecture notes textbook explanation",
+      "result_snippet": "A stationary state is a quantum state with all observables independent of time. It is an eigenvector of the energy operator (instead of a quantum superposition of different energies). It is also called energy eigenvector, energy eigenstate, energy eigenfunction, or energy eigenket. Mar 13, 2026 · Thus, the eigenstate ψ a is a state that is associated with a unique value of the dynamical variable corresponding to A. This unique value is simply the associated eigenvalue. Physically, it means that a classical oscillator can never be found beyond its turning points, and its energy depends only on how far the turning points are from its equilibrium position. The energy of a classical oscillator changes in a continuous way. Energy eigenstates are also called stationary states. Their probabilities don’t change in time. For the wave function to be an energy eigenstate, it must be true for all values of x, for the same value of E. In particular, if you knew (somehow) that the particle was in an energy eigenstate, but not which one, then since each one corresponds to a state of different energy, by measuring the energy of the particle, it is possible to figure out which state you really have.",
+      "searched_at": "2026-05-04_17-11-45",
+      "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
+    }
+  },
+  "last_updated": "2026-05-04_17-11-45"
+}

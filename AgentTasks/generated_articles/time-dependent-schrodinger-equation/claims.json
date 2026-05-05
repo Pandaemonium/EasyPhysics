@@ -1,0 +1,79 @@
+{
+  "claims": [
+    {
+      "id": "C001",
+      "claim": "# Time-dependent Schrödinger equation ## The core idea The **time-dependent Schrödinger equation (TDSE)** is the \"quantum clock\" that tells us how a particle’s probability wave evolves over time.",
+      "type": "fallback-extracted",
+      "importance": "medium",
+      "needs_external_check": true,
+      "why_it_matters": "Automatically extracted fallback claim; review manually.",
+      "suggested_search_query": "Time-dependent Schrodinger equation # Time-dependent Schrödinger equation ## The core idea The **time-dependent Schrödinger equation (TDSE)** is the \"quantum physics lecture notes textbook explanation"
+    },
+    {
+      "id": "C002",
+      "claim": "It’s the rulebook for how quantum systems change, blending energy, time, and wave-like behavior into a single mathematical recipe.",
+      "type": "fallback-extracted",
+      "importance": "medium",
+      "needs_external_check": true,
+      "why_it_matters": "Automatically extracted fallback claim; review manually.",
+      "suggested_search_query": "Time-dependent Schrodinger equation It’s the rulebook for how quantum systems change, blending energy, time, and wave-like behavior into a physics lecture notes textbook explanation"
+    },
+    {
+      "id": "C003",
+      "claim": "## Why this matters In classical physics, we use Newton’s laws to predict how objects move.",
+      "type": "fallback-extracted",
+      "importance": "medium",
+      "needs_external_check": true,
+      "why_it_matters": "Automatically extracted fallback claim; review manually.",
+      "suggested_search_query": "Time-dependent Schrodinger equation ## Why this matters In classical physics, we use Newton’s laws to predict how objects move. physics lecture notes textbook explanation"
+    },
+    {
+      "id": "C004",
+      "claim": "In quantum physics, the TDSE replaces those laws with a probabilistic, wave-based rule.",
+      "type": "fallback-extracted",
+      "importance": "medium",
+      "needs_external_check": true,
+      "why_it_matters": "Automatically extracted fallback claim; review manually.",
+      "suggested_search_query": "Time-dependent Schrodinger equation In quantum physics, the TDSE replaces those laws with a probabilistic, wave-based rule. physics lecture notes textbook explanation"
+    },
+    {
+      "id": "C005",
+      "claim": "It explains how particles spread out, interfere, and change over time—fundamental to understanding atoms, molecules, and even quantum computing.",
+      "type": "fallback-extracted",
+      "importance": "medium",
+      "needs_external_check": true,
+      "why_it_matters": "Automatically extracted fallback claim; review manually.",
+      "suggested_search_query": "Time-dependent Schrodinger equation It explains how particles spread out, interfere, and change over time—fundamental to understanding atoms, molecules, and physics lecture notes textbook explanation"
+    },
+    {
+      "id": "C006",
+      "claim": "## The simple picture Imagine a recipe for baking a cake: the ingredients (energy, forces) and the oven (time) work together to shape the final result.",
+      "type": "fallback-extracted",
+      "importance": "medium",
+      "needs_external_check": true,
+      "why_it_matters": "Automatically extracted fallback claim; review manually.",
+      "suggested_search_query": "Time-dependent Schrodinger equation ## The simple picture Imagine a recipe for baking a cake: the ingredients (energy, forces) and physics lecture notes textbook explanation"
+    },
+    {
+      "id": "C007",
+      "claim": "The TDSE is like that recipe: it tells us how the \"probability cake\" of a particle changes as time passes.",
+      "type": "fallback-extracted",
+      "importance": "medium",
+      "needs_external_check": true,
+      "why_it_matters": "Automatically extracted fallback claim; review manually.",
+      "suggested_search_query": "Time-dependent Schrodinger equation The TDSE is like that recipe: it tells us how the \"probability cake\" of a particle physics lecture notes textbook explanation"
+    },
+    {
+      "id": "C008",
+      "claim": "Think of it as a \"rotating knob\" that twists the wavefunction’s phase.",
+      "type": "fallback-extracted",
+      "importance": "medium",
+      "needs_external_check": true,
+      "why_it_matters": "Automatically extracted fallback claim; review manually.",
+      "suggested_search_query": "Time-dependent Schrodinger equation Think of it as a \"rotating knob\" that twists the wavefunction’s phase. physics lecture notes textbook explanation"
+    }
+  ],
+  "last_updated": "2026-05-04_15-44-18",
+  "count": 8,
+  "parse_note": "No usable claims parsed from LLM output. Using deterministic fallback extraction from draft sentences."
+}

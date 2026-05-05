@@ -1,0 +1,79 @@
+{
+  "claims": [
+    {
+      "id": "C001",
+      "claim": "# Observable Operator ## The core idea An **observable operator** is a mathematical tool that encodes how a physical quantity (like position or energy) behaves in a quantum system.",
+      "type": "fallback-extracted",
+      "importance": "medium",
+      "needs_external_check": true,
+      "why_it_matters": "Automatically extracted fallback claim; review manually.",
+      "suggested_search_query": "Observable operator # Observable Operator ## The core idea An **observable operator** is a mathematical tool that encodes physics lecture notes textbook explanation"
+    },
+    {
+      "id": "C002",
+      "claim": "This framework explains why quantum measurements yield probabilistic results.",
+      "type": "fallback-extracted",
+      "importance": "medium",
+      "needs_external_check": true,
+      "why_it_matters": "Automatically extracted fallback claim; review manually.",
+      "suggested_search_query": "Observable operator This framework explains why quantum measurements yield probabilistic results. physics lecture notes textbook explanation"
+    },
+    {
+      "id": "C003",
+      "claim": "## Why this matters Observable operators are the foundation of quantum mechanics.",
+      "type": "fallback-extracted",
+      "importance": "medium",
+      "needs_external_check": true,
+      "why_it_matters": "Automatically extracted fallback claim; review manually.",
+      "suggested_search_query": "Observable operator ## Why this matters Observable operators are the foundation of quantum mechanics. physics lecture notes textbook explanation"
+    },
+    {
+      "id": "C004",
+      "claim": "They connect abstract mathematical tools to real-world measurements, allowing us to predict outcomes of experiments like measuring a particle’s position or energy.",
+      "type": "fallback-extracted",
+      "importance": "medium",
+      "needs_external_check": true,
+      "why_it_matters": "Automatically extracted fallback claim; review manually.",
+      "suggested_search_query": "Observable operator They connect abstract mathematical tools to real-world measurements, allowing us to predict outcomes of experiments like physics lecture notes textbook explanation"
+    },
+    {
+      "id": "C005",
+      "claim": "Without operators, we couldn’t explain phenomena like quantum randomness or the collapse of wavefunctions during measurement.",
+      "type": "fallback-extracted",
+      "importance": "medium",
+      "needs_external_check": true,
+      "why_it_matters": "Automatically extracted fallback claim; review manually.",
+      "suggested_search_query": "Observable operator Without operators, we couldn’t explain phenomena like quantum randomness or the collapse of wavefunctions during measurement. physics lecture notes textbook explanation"
+    },
+    {
+      "id": "C006",
+      "claim": "The **observable operator** is like the dice itself: it defines the possible outcomes (e.g., numbers 1–6).",
+      "type": "fallback-extracted",
+      "importance": "medium",
+      "needs_external_check": true,
+      "why_it_matters": "Automatically extracted fallback claim; review manually.",
+      "suggested_search_query": "Observable operator The **observable operator** is like the dice itself: it defines the possible outcomes (e.g., numbers 1–6). physics lecture notes textbook explanation"
+    },
+    {
+      "id": "C007",
+      "claim": "The **eigenvalues** are the numbers on the dice, and the **eigenstates** are the states where the system \"lands\" after the roll.",
+      "type": "fallback-extracted",
+      "importance": "medium",
+      "needs_external_check": true,
+      "why_it_matters": "Automatically extracted fallback claim; review manually.",
+      "suggested_search_query": "Observable operator The **eigenvalues** are the numbers on the dice, and the **eigenstates** are the states where the physics lecture notes textbook explanation"
+    },
+    {
+      "id": "C008",
+      "claim": "[Diagram idea: Dice with quantum states labeled as eigenstates and eigenvalues] ## The more precise picture An **observable operator** {operator} is a mathematical object that acts on a **wavefunction** {wavefunction} to yield possible measurement results.",
+      "type": "fallback-extracted",
+      "importance": "medium",
+      "needs_external_check": true,
+      "why_it_matters": "Automatically extracted fallback claim; review manually.",
+      "suggested_search_query": "Observable operator [Diagram idea: Dice with quantum states labeled as eigenstates and eigenvalues] ## The more precise picture physics lecture notes textbook explanation"
+    }
+  ],
+  "last_updated": "2026-05-04_14-04-48",
+  "count": 8,
+  "parse_note": "No usable claims parsed from LLM output. Using deterministic fallback extraction from draft sentences."
+}

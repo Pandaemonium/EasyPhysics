@@ -1,0 +1,22 @@
+# Dependencies
+CurriculumWeb/node_modules
+
+# Production
+CurriculumWeb/build
+
+# Generated files
+CurriculumWeb/.docusaurus
+CurriculumWeb/.cache-loader
+
+# Misc
+CurriculumWeb/.DS_Store
+CurriculumWeb/.env.local
+CurriculumWeb/.env.development.local
+CurriculumWeb/.env.test.local
+CurriculumWeb/.env.production.local
+
+CurriculumWeb/npm-debug.log*
+CurriculumWeb/yarn-debug.log*
+CurriculumWeb/yarn-error.log*
+
+archive/

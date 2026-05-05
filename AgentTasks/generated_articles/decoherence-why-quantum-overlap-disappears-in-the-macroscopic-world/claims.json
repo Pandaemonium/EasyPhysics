@@ -1,0 +1,68 @@
+{
+  "claims": [
+    {
+      "id": "C001",
+      "claim": "Decoherence is the process by which quantum systems lose their superposition due to interactions with environmental noise, transitioning to classical behavior.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "This defines the core mechanism explaining the transition from quantum to classical behavior in macroscopic systems.",
+      "suggested_search_query": "decoherence quantum mechanics textbook definition"
+    },
+    {
+      "id": "C002",
+      "claim": "Environmental interactions cause phase scrambling, which destroys quantum interference and makes superposition unobservable.",
+      "type": "mechanism",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "This explains how decoherence mathematically erases quantum coherence through environmental coupling.",
+      "suggested_search_query": "decoherence phase scrambling mechanism"
+    },
+    {
+      "id": "C003",
+      "claim": "Macroscopic objects behave classically not because of their size, but due to the exponential number of environmental interactions that rapidly destroy quantum overlap.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Corrects the misconception that size alone causes classical behavior, emphasizing interaction complexity.",
+      "suggested_search_query": "macroscopic decoherence size vs interactions"
+    },
+    {
+      "id": "C004",
+      "claim": "The equation for interference (Interference ∝ Amplitude₁ × Amplitude₂) shows how environmental interactions randomize amplitudes, canceling quantum superposition.",
+      "type": "mathematical",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Provides the quantitative framework for understanding how decoherence suppresses interference terms.",
+      "suggested_search_query": "decoherence interference equation"
+    },
+    {
+      "id": "C005",
+      "claim": "Decoherence is a continuous, gradual process caused by environmental interactions, not an abrupt wavefunction collapse.",
+      "type": "misconception-correction",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Clarifies a common misunderstanding about the nature of decoherence versus measurement collapse.",
+      "suggested_search_query": "decoherence vs wavefunction collapse"
+    },
+    {
+      "id": "C006",
+      "claim": "The symphony-cacophony analogy illustrates how environmental interactions scramble quantum superposition into classical definite states.",
+      "type": "analogy",
+      "importance": "medium",
+      "needs_external_check": true,
+      "why_it_matters": "Highlights the conceptual challenge of visualizing quantum-to-classical transition through an accessible metaphor.",
+      "suggested_search_query": "decoherence symphony analogy"
+    },
+    {
+      "id": "C007",
+      "claim": "Decoherence is central to quantum computing, as engineers must mitigate it to maintain qubit coherence.",
+      "type": "scope",
+      "importance": "medium",
+      "needs_external_check": true,
+      "why_it_matters": "Demonstrates practical relevance beyond theoretical physics.",
+      "suggested_search_query": "decoherence quantum computing applications"
+    }
+  ],
+  "last_updated": "2026-05-04_02-44-05"
+}

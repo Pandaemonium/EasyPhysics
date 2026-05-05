@@ -1,0 +1,1081 @@
+
+================================================================================
+TIME: 2026-05-04T13:53:56
+NODE: planner
+PROMPT_CHARS: 480
+PROMPT_TOKENS_APPROX: 120
+RESPONSE_CHARS: 4649
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.85}
+================================================================================
+PROMPT:
+Create a strong teaching outline for this EasyPhysics article:
+
+Title: Observable operator
+
+The outline should include:
+1. Scope: what this article explains.
+2. Out of scope: what it should not try to explain yet.
+3. Prerequisite concepts.
+4. Core intuition.
+5. Suggested descriptive names with standard terms in braces.
+6. Common misconceptions to avoid.
+7. Section-by-section outline.
+8. Optional diagram ideas.
+9. Optional minimal math, with what the math means.
+
+Use Markdown.
+
+RESPONSE:
+```markdown
+# Observable Operator
+
+## 1. Scope
+This article explains what an **observable operator** is in quantum mechanics, how it connects to measurable physical quantities, and its role in predicting outcomes of experiments. It focuses on the conceptual structure of operators as tools for representing observables like position, momentum, and energy.
+
+---
+
+## 2. Out of Scope
+- Advanced mathematical formalism (e.g., Hilbert spaces, tensor products)
+- Historical development of quantum mechanics
+- Non-physical or speculative concepts (e.g., quantum gravity, multiverse theories)
+- Specific applications (e.g., quantum computing, particle physics)
+
+---
+
+## 3. Prerequisite Concepts
+- **Wavefunction**: A mathematical description of a quantum system’s state.
+- **Superposition**: A system can exist in multiple states simultaneously.
+- **Measurement**: The process of observing a quantum system, which alters its state.
+- **Operators in math**: Tools for transforming mathematical objects (e.g., derivatives, matrices).
+
+---
+
+## 4. Core Intuition
+An **observable operator** is a mathematical tool that encodes how a physical quantity (like position or energy) behaves in a quantum system. When you measure an observable, the system “chooses” a specific value (called an **eigenvalue**) from the operator’s possible outcomes. The operator’s **eigenstates** are the states where the system has a definite value of the observable. This framework explains why quantum measurements yield probabilistic results.
+
+---
+
+## 5. Suggested Descriptive Names with Standard Terms in Braces
+- **Measurement Transformer** {operator}: A tool that transforms a quantum state into a measurable outcome.
+- **Outcome Predictor** {observable}: A physical quantity (e.g., position, momentum) that can be measured.
+- **Definite-Value State** {eigenstate}: A state where the system has a specific value of an observable.
+- **Result-Selector** {eigenvalue}: The specific value (e.g., 5 eV) obtained from a measurement.
+
+---
+
+## 6. Common Misconceptions to Avoid
+- **Operators are just math**: They have deep physical meaning as tools for predicting measurement outcomes.
+- **All measurements are the same**: Different observables (e.g., position vs. momentum) have distinct operators and rules.
+- **Operators always have real eigenvalues**: While observables must have real eigenvalues, operators in general can have complex ones (e.g., angular momentum).
+- **Measurement “randomizes” the system**: The collapse to an eigenstate is a fundamental rule, not a side effect.
+
+---
+
+## 7. Section-by-Section Outline
+### 1. **What is an Observable Operator?**
+   - Introduce the idea of operators as "measurement tools."
+   - Contrast classical vs. quantum observables (e.g., position is a continuous variable in classical physics, but in quantum mechanics, it’s represented by an operator).
+
+### 2. **How Operators Predict Measurement Outcomes**
+   - Explain that operators act on wavefunctions to yield possible measurement results.
+   - Use the equation: **Aψ = aψ** (operator A acting on state ψ gives eigenvalue a).
+
+### 3. **Eigenvalues and Eigenstates**
+   - Define eigenvalues (possible measurement results) and eigenstates (states with definite values).
+   - Use the analogy: A quantum system “chooses” an eigenstate when measured, like a dice roll selects a number.
+
+### 4. **The Measurement Process**
+   - Describe how measurement collapses the wavefunction to an eigenstate.
+   - Highlight the probabilistic nature: The probability of a result depends on the overlap between the system’s state and the eigenstate.
+
+### 5. **Examples of Observable Operators**
+   - Position operator {x}, momentum operator {p}, energy operator {Hamiltonian}.
+   - Contrast operators for different observables (e.g., position vs. momentum have non-commuting operators).
+
+---
+
+## 8. Optional Diagram Ideas
+- **Operator-Action Diagram**: Show an operator (e.g., a matrix) acting on a wavefunction vector, producing an eigenstate.
+- **Measurement Outcome Tree**: Illustrate how a system’s state branches into possible eigenstates with probabilities.
+- **Operator vs. Classical Quantity**: Side-by-side comparison of a classical variable (e.g., a thermometer) vs. a quantum operator (e.g., position operator).
+
+---
+
+## 9. Optional Minimal Math
+- **Operator Equation**:  
+  $ A|\psi\rangle = a|\psi\rangle $  
+  *Explanation*: Operator A acting on state |ψ⟩ yields eigenvalue a and eigenstate |ψ⟩.
+- **Expectation Value**:  
+  $ \langle A \rangle = \sum a_i |c_i|^2 $  
+  *Explanation*: The average value of observable A is the sum of possible outcomes weighted by their probabilities.
+
+```
+
+================================================================================
+TIME: 2026-05-04T14:00:05
+NODE: writer
+PROMPT_CHARS: 6063
+PROMPT_TOKENS_APPROX: 1515
+RESPONSE_CHARS: 4042
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.85}
+================================================================================
+PROMPT:
+Write a high-quality first draft for this EasyPhysics article.
+
+Title: Observable operator
+
+Article outline:
+```markdown
+# Observable Operator
+
+## 1. Scope
+This article explains what an **observable operator** is in quantum mechanics, how it connects to measurable physical quantities, and its role in predicting outcomes of experiments. It focuses on the conceptual structure of operators as tools for representing observables like position, momentum, and energy.
+
+---
+
+## 2. Out of Scope
+- Advanced mathematical formalism (e.g., Hilbert spaces, tensor products)
+- Historical development of quantum mechanics
+- Non-physical or speculative concepts (e.g., quantum gravity, multiverse theories)
+- Specific applications (e.g., quantum computing, particle physics)
+
+---
+
+## 3. Prerequisite Concepts
+- **Wavefunction**: A mathematical description of a quantum system’s state.
+- **Superposition**: A system can exist in multiple states simultaneously.
+- **Measurement**: The process of observing a quantum system, which alters its state.
+- **Operators in math**: Tools for transforming mathematical objects (e.g., derivatives, matrices).
+
+---
+
+## 4. Core Intuition
+An **observable operator** is a mathematical tool that encodes how a physical quantity (like position or energy) behaves in a quantum system. When you measure an observable, the system “chooses” a specific value (called an **eigenvalue**) from the operator’s possible outcomes. The operator’s **eigenstates** are the states where the system has a definite value of the observable. This framework explains why quantum measurements yield probabilistic results.
+
+---
+
+## 5. Suggested Descriptive Names with Standard Terms in Braces
+- **Measurement Transformer** {operator}: A tool that transforms a quantum state into a measurable outcome.
+- **Outcome Predictor** {observable}: A physical quantity (e.g., position, momentum) that can be measured.
+- **Definite-Value State** {eigenstate}: A state where the system has a specific value of an observable.
+- **Result-Selector** {eigenvalue}: The specific value (e.g., 5 eV) obtained from a measurement.
+
+---
+
+## 6. Common Misconceptions to Avoid
+- **Operators are just math**: They have deep physical meaning as tools for predicting measurement outcomes.
+- **All measurements are the same**: Different observables (e.g., position vs. momentum) have distinct operators and rules.
+- **Operators always have real eigenvalues**: While observables must have real eigenvalues, operators in general can have complex ones (e.g., angular momentum).
+- **Measurement “randomizes” the system**: The collapse to an eigenstate is a fundamental rule, not a side effect.
+
+---
+
+## 7. Section-by-Section Outline
+### 1. **What is an Observable Operator?**
+   - Introduce the idea of operators as "measurement tools."
+   - Contrast classical vs. quantum observables (e.g., position is a continuous variable in classical physics, but in quantum mechanics, it’s represented by an operator).
+
+### 2. **How Operators Predict Measurement Outcomes**
+   - Explain that operators act on wavefunctions to yield possible measurement results.
+   - Use the equation: **Aψ = aψ** (operator A acting on state ψ gives eigenvalue a).
+
+### 3. **Eigenvalues and Eigenstates**
+   - Define eigenvalues (possible measurement results) and eigenstates (states with definite values).
+   - Use the analogy: A quantum system “chooses” an eigenstate when measured, like a dice roll selects a number.
+
+### 4. **The Measurement Process**
+   - Describe how measurement collapses the wavefunction to an eigenstate.
+   - Highlight the probabilistic nature: The probability of a result depends on the overlap between the system’s state and the eigenstate.
+
+### 5. **Examples of Observable Operators**
+   - Position operator {x}, momentum operator {p}, energy operator {Hamiltonian}.
+   - Contrast operators for different observables (e.g., position vs. momentum have non-commuting operators).
+
+---
+
+## 8. Optional Diagram Ideas
+- **Operator-Action Diagram**: Show an operator (e.g., a matrix) acting on a wavefunction vector, producing an eigenstate.
+- **Measurement Outcome Tree**: Illustrate how a system’s state branches into possible eigenstates with probabilities.
+- **Operator vs. Classical Quantity**: Side-by-side comparison of a classical variable (e.g., a thermometer) vs. a quantum operator (e.g., position operator).
+
+---
+
+## 9. Optional Minimal Math
+- **Operator Equation**:  
+  $ A|\psi\rangle = a|\psi\rangle $  
+  *Explanation*: Operator A acting on state |ψ⟩ yields eigenvalue a and eigenstate |ψ⟩.
+- **Expectation Value**:  
+  $ \langle A \rangle = \sum a_i |c_i|^2 $  
+  *Explanation*: The average value of observable A is the sum of possible outcomes weighted by their probabilities.
+
+```
+
+Human/editor notes:
+# Human/editor notes
+
+Add any preferences, corrections, or article-specific constraints here.
+
+
+Template guidance:
+Preferred article structure:
+
+# Title
+
+## The core idea
+A short, intuitive explanation that gives the reader the main point first.
+
+## Why this matters
+Explain what the concept helps us understand.
+
+## The simple picture
+Use an analogy, diagram idea, or concrete example.
+
+## The more precise picture
+Introduce standard terms, careful distinctions, and optional minimal math.
+
+## Common misconceptions
+Name and correct the traps.
+
+## How this connects to the rest of physics
+Link the concept to fields, particles, symmetry, conservation, relativity, or the Standard Model as appropriate.
+
+## Recap
+A few concise takeaways.
+
+Drafting instructions:
+- Make it accessible to a motivated high-schooler or college freshman.
+- Teach the modern concept directly rather than narrating historical discovery.
+- Use descriptive names with standard terms in braces, e.g. space-occupier {fermion}.
+- Include common misconceptions and correct them.
+- Include minimal math only when it helps, and explain what the math means.
+- Suggest diagram ideas inline where helpful using this format: [Diagram idea: ...]
+- Output only the article in Markdown, with no commentary before or after.
+
+RESPONSE:
+# Observable Operator
+
+## The core idea  
+An **observable operator** is a mathematical tool that encodes how a physical quantity (like position or energy) behaves in a quantum system. When you measure an observable, the system "chooses" a specific value (called an **eigenvalue**) from the operator’s possible outcomes. This framework explains why quantum measurements yield probabilistic results.
+
+## Why this matters  
+Observable operators are the foundation of quantum mechanics. They connect abstract mathematical tools to real-world measurements, allowing us to predict outcomes of experiments like measuring a particle’s position or energy. Without operators, we couldn’t explain phenomena like quantum randomness or the collapse of wavefunctions during measurement.
+
+## The simple picture  
+Imagine a quantum system as a dice roll. The **observable operator** is like the dice itself: it defines the possible outcomes (e.g., numbers 1–6). When you "roll" the dice (perform a measurement), the system randomly selects one outcome (e.g., rolling a 3). The **eigenvalues** are the numbers on the dice, and the **eigenstates** are the states where the system "lands" after the roll.  
+
+[Diagram idea: Dice with quantum states labeled as eigenstates and eigenvalues]
+
+## The more precise picture  
+An **observable operator** {operator} is a mathematical object that acts on a **wavefunction** {wavefunction} to yield possible measurement results. When the operator acts on a state, it may produce a **definite-value state** {eigenstate}, where the system has a specific value of the observable (e.g., position = 5 meters). This is described by the equation:  
+$$ A|\psi\rangle = a|\psi\rangle $$  
+*Explanation*: Operator $ A $ (e.g., position operator {x}) acting on state $ |\psi\rangle $ gives eigenvalue $ a $ (e.g., 5 meters) and eigenstate $ |\psi\rangle $.  
+
+The **expectation value** {expectation value} of an observable is the average result you’d get from many measurements:  
+$$ \langle A \rangle = \sum a_i |c_i|^2 $$  
+*Explanation*: The average value of observable $ A $ is the sum of possible outcomes $ a_i $ weighted by their probabilities $ |c_i|^2 $.
+
+## Common misconceptions  
+- **Operators are just math**: They are not abstract symbols—they encode physical rules for how observables behave.  
+- **All measurements are the same**: Different observables (e.g., position vs. momentum) have distinct operators and rules. For example, the position operator {x} and momentum operator {p} don’t commute, leading to the **uncertainty principle**.  
+- **Operators always have real eigenvalues**: While observables must have real eigenvalues, operators in general can have complex ones (e.g., angular momentum operator).  
+- **Measurement “randomizes” the system**: The collapse to an eigenstate is a fundamental rule, not a side effect. It’s a core feature of quantum mechanics.
+
+## How this connects to the rest of physics  
+Observable operators are central to quantum mechanics and its applications. They link to:  
+- **Wavefunction** {wavefunction}: Operators act on wavefunctions to predict measurement outcomes.  
+- **Superposition**: A system in superposition can have multiple eigenstates, each with a probability of being measured.  
+- **Measurement process**: The collapse to an eigenstate is a key rule in quantum theory.  
+- **Examples**: Position operator {x}, momentum operator {p}, and Hamiltonian {energy operator} are fundamental observables.  
+
+## Recap  
+- An **observable operator** {operator} encodes how a physical quantity behaves in a quantum system.  
+- When measured, a system "chooses" an **eigenvalue** {eigenvalue} from the operator’s possible outcomes.  
+- The **eigenstate** {eigenstate} is the state where the system has a definite value of the observable.  
+- Operators like position {x}, momentum {p}, and energy {Hamiltonian} are essential for predicting quantum measurements.  
+- Measurement outcomes are probabilistic, governed by the overlap between the system’s state and the eigenstate.
+
+================================================================================
+TIME: 2026-05-04T14:01:59
+NODE: term_collector
+PROMPT_CHARS: 4512
+PROMPT_TOKENS_APPROX: 1128
+RESPONSE_CHARS: 0
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.85}
+================================================================================
+PROMPT:
+Extract the descriptive-name candidates from this draft.
+
+Return JSON with this shape:
+{
+  "terms": [
+    {
+      "standard_term": "fermion",
+      "candidate_name": "space-occupier",
+      "context_quote": "short quote from the draft",
+      "usefulness": "why this name helps",
+      "risk": "how it could mislead, or empty string if low risk"
+    }
+  ]
+}
+
+Only include actual teaching-name candidates, especially phrases followed by standard terms in braces.
+
+Draft:
+# Observable Operator
+
+## The core idea  
+An **observable operator** is a mathematical tool that encodes how a physical quantity (like position or energy) behaves in a quantum system. When you measure an observable, the system "chooses" a specific value (called an **eigenvalue**) from the operator’s possible outcomes. This framework explains why quantum measurements yield probabilistic results.
+
+## Why this matters  
+Observable operators are the foundation of quantum mechanics. They connect abstract mathematical tools to real-world measurements, allowing us to predict outcomes of experiments like measuring a particle’s position or energy. Without operators, we couldn’t explain phenomena like quantum randomness or the collapse of wavefunctions during measurement.
+
+## The simple picture  
+Imagine a quantum system as a dice roll. The **observable operator** is like the dice itself: it defines the possible outcomes (e.g., numbers 1–6). When you "roll" the dice (perform a measurement), the system randomly selects one outcome (e.g., rolling a 3). The **eigenvalues** are the numbers on the dice, and the **eigenstates** are the states where the system "lands" after the roll.  
+
+[Diagram idea: Dice with quantum states labeled as eigenstates and eigenvalues]
+
+## The more precise picture  
+An **observable operator** {operator} is a mathematical object that acts on a **wavefunction** {wavefunction} to yield possible measurement results. When the operator acts on a state, it may produce a **definite-value state** {eigenstate}, where the system has a specific value of the observable (e.g., position = 5 meters). This is described by the equation:  
+$$ A|\psi\rangle = a|\psi\rangle $$  
+*Explanation*: Operator $ A $ (e.g., position operator {x}) acting on state $ |\psi\rangle $ gives eigenvalue $ a $ (e.g., 5 meters) and eigenstate $ |\psi\rangle $.  
+
+The **expectation value** {expectation value} of an observable is the average result you’d get from many measurements:  
+$$ \langle A \rangle = \sum a_i |c_i|^2 $$  
+*Explanation*: The average value of observable $ A $ is the sum of possible outcomes $ a_i $ weighted by their probabilities $ |c_i|^2 $.
+
+## Common misconceptions  
+- **Operators are just math**: They are not abstract symbols—they encode physical rules for how observables behave.  
+- **All measurements are the same**: Different observables (e.g., position vs. momentum) have distinct operators and rules. For example, the position operator {x} and momentum operator {p} don’t commute, leading to the **uncertainty principle**.  
+- **Operators always have real eigenvalues**: While observables must have real eigenvalues, operators in general can have complex ones (e.g., angular momentum operator).  
+- **Measurement “randomizes” the system**: The collapse to an eigenstate is a fundamental rule, not a side effect. It’s a core feature of quantum mechanics.
+
+## How this connects to the rest of physics  
+Observable operators are central to quantum mechanics and its applications. They link to:  
+- **Wavefunction** {wavefunction}: Operators act on wavefunctions to predict measurement outcomes.  
+- **Superposition**: A system in superposition can have multiple eigenstates, each with a probability of being measured.  
+- **Measurement process**: The collapse to an eigenstate is a key rule in quantum theory.  
+- **Examples**: Position operator {x}, momentum operator {p}, and Hamiltonian {energy operator} are fundamental observables.  
+
+## Recap  
+- An **observable operator** {operator} encodes how a physical quantity behaves in a quantum system.  
+- When measured, a system "chooses" an **eigenvalue** {eigenvalue} from the operator’s possible outcomes.  
+- The **eigenstate** {eigenstate} is the state where the system has a definite value of the observable.  
+- Operators like position {x}, momentum {p}, and energy {Hamiltonian} are essential for predicting quantum measurements.  
+- Measurement outcomes are probabilistic, governed by the overlap between the system’s state and the eigenstate.
+
+RESPONSE:
+
+
+================================================================================
+TIME: 2026-05-04T14:04:48
+NODE: claim_extractor
+PROMPT_CHARS: 5035
+PROMPT_TOKENS_APPROX: 1258
+RESPONSE_CHARS: 1240
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.85}
+================================================================================
+PROMPT:
+Extract 8 to 12 important scientific and explanatory claims from this article draft.
+
+Return JSON with exactly this shape:
+{
+  "claims": [
+    {
+      "id": "C001",
+      "claim": "A clear, standalone claim from the article.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "brief reason",
+      "suggested_search_query": "stable source search query, not latest-news oriented"
+    }
+  ]
+}
+
+Rules:
+- Do not return an empty claims list unless the draft is empty.
+- Use only valid JSON.
+- Use true/false, not True/False.
+- Do not include Markdown fences.
+- Do not include prose before or after the JSON.
+- Extract claims that matter for scientific correctness.
+- Include claims embedded in analogies if the analogy could mislead.
+- Do not include purely stylistic statements.
+- Search queries should prefer stable sources: textbooks, lecture notes, CERN, Fermilab, university pages.
+
+Article title: Observable operator
+
+Draft:
+# Observable Operator
+
+## The core idea  
+An **observable operator** is a mathematical tool that encodes how a physical quantity (like position or energy) behaves in a quantum system. When you measure an observable, the system "chooses" a specific value (called an **eigenvalue**) from the operator’s possible outcomes. This framework explains why quantum measurements yield probabilistic results.
+
+## Why this matters  
+Observable operators are the foundation of quantum mechanics. They connect abstract mathematical tools to real-world measurements, allowing us to predict outcomes of experiments like measuring a particle’s position or energy. Without operators, we couldn’t explain phenomena like quantum randomness or the collapse of wavefunctions during measurement.
+
+## The simple picture  
+Imagine a quantum system as a dice roll. The **observable operator** is like the dice itself: it defines the possible outcomes (e.g., numbers 1–6). When you "roll" the dice (perform a measurement), the system randomly selects one outcome (e.g., rolling a 3). The **eigenvalues** are the numbers on the dice, and the **eigenstates** are the states where the system "lands" after the roll.  
+
+[Diagram idea: Dice with quantum states labeled as eigenstates and eigenvalues]
+
+## The more precise picture  
+An **observable operator** {operator} is a mathematical object that acts on a **wavefunction** {wavefunction} to yield possible measurement results. When the operator acts on a state, it may produce a **definite-value state** {eigenstate}, where the system has a specific value of the observable (e.g., position = 5 meters). This is described by the equation:  
+$$ A|\psi\rangle = a|\psi\rangle $$  
+*Explanation*: Operator $ A $ (e.g., position operator {x}) acting on state $ |\psi\rangle $ gives eigenvalue $ a $ (e.g., 5 meters) and eigenstate $ |\psi\rangle $.  
+
+The **expectation value** {expectation value} of an observable is the average result you’d get from many measurements:  
+$$ \langle A \rangle = \sum a_i |c_i|^2 $$  
+*Explanation*: The average value of observable $ A $ is the sum of possible outcomes $ a_i $ weighted by their probabilities $ |c_i|^2 $.
+
+## Common misconceptions  
+- **Operators are just math**: They are not abstract symbols—they encode physical rules for how observables behave.  
+- **All measurements are the same**: Different observables (e.g., position vs. momentum) have distinct operators and rules. For example, the position operator {x} and momentum operator {p} don’t commute, leading to the **uncertainty principle**.  
+- **Operators always have real eigenvalues**: While observables must have real eigenvalues, operators in general can have complex ones (e.g., angular momentum operator).  
+- **Measurement “randomizes” the system**: The collapse to an eigenstate is a fundamental rule, not a side effect. It’s a core feature of quantum mechanics.
+
+## How this connects to the rest of physics  
+Observable operators are central to quantum mechanics and its applications. They link to:  
+- **Wavefunction** {wavefunction}: Operators act on wavefunctions to predict measurement outcomes.  
+- **Superposition**: A system in superposition can have multiple eigenstates, each with a probability of being measured.  
+- **Measurement process**: The collapse to an eigenstate is a key rule in quantum theory.  
+- **Examples**: Position operator {x}, momentum operator {p}, and Hamiltonian {energy operator} are fundamental observables.  
+
+## Recap  
+- An **observable operator** {operator} encodes how a physical quantity behaves in a quantum system.  
+- When measured, a system "chooses" an **eigenvalue** {eigenvalue} from the operator’s possible outcomes.  
+- The **eigenstate** {eigenstate} is the state where the system has a definite value of the observable.  
+- Operators like position {x}, momentum {p}, and energy {Hamiltonian} are essential for predicting quantum measurements.  
+- Measurement outcomes are probabilistic, governed by the overlap between the system’s state and the eigenstate.
+
+RESPONSE:
+{
+  "claims": [
+    {
+      "id": "C001",
+      "claim": "An observable operator encodes how a physical quantity behaves in a quantum system.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Defines the role of operators in quantum mechanics",
+      "suggested_search_query": "quantum observable operator definition"
+    },
+    {
+      "id": "C002",
+      "claim": "Measuring an observable causes the system to randomly select an eigenvalue from the operator's possible outcomes.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Explains probabilistic measurement outcomes",
+      "suggested_search_query": "quantum measurement eigenvalue selection"
+    },
+    {
+      "id": "C003",
+      "claim": "The eigenstate is the state where the system has a definite value of the observable.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Clarifies the concept of definite measurement results",
+      "suggested_search_query": "quantum eigenstate definition"
+    },
+    {
+      "id": "C004",
+      "claim": "Operators like position {x},
+
+================================================================================
+TIME: 2026-05-04T14:07:00
+NODE: claim_checker
+PROMPT_CHARS: 7798
+PROMPT_TOKENS_APPROX: 1949
+RESPONSE_CHARS: 561
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.85}
+================================================================================
+PROMPT:
+Check this one article claim against the available search snippet.
+
+Return JSON with this shape:
+{
+  "id": "C001",
+  "verdict": "supported | mostly_supported | needs_qualification | unsupported | contradicted | not_enough_evidence",
+  "severity": "none | low | medium | high",
+  "problem": "specific issue, or empty string",
+  "suggested_fix": "specific correction to the article, or empty string",
+  "source_quality_note": "brief note about whether the snippets look authoritative"
+}
+
+Rules:
+- Be conservative.
+- If the snippet is weak or absent, say not_enough_evidence.
+- Do not demand advanced nuance beyond the article's beginner scope.
+- Do flag misleading simplifications.
+- Focus on stable accepted physics.
+
+Article title: Observable operator
+
+Claim:
+{
+  "id": "C001",
+  "claim": "# Observable Operator ## The core idea An **observable operator** is a mathematical tool that encodes how a physical quantity (like position or energy) behaves in a quantum system.",
+  "type": "fallback-extracted",
+  "importance": "medium",
+  "needs_external_check": true,
+  "why_it_matters": "Automatically extracted fallback claim; review manually.",
+  "suggested_search_query": "Observable operator # Observable Operator ## The core idea An **observable operator** is a mathematical tool that encodes physics lecture notes textbook explanation"
+}
+
+Search snippet:
+{
+  "claim": "# Observable Operator ## The core idea An **observable operator** is a mathematical tool that encodes how a physical quantity (like position or energy) behaves in a quantum system.",
+  "query": "Observable operator # Observable Operator ## The core idea An **observable operator** is a mathematical tool that encodes physics lecture notes textbook explanation",
+  "result_snippet": "1 week ago - Observables assign values to outcomes of particular measurements, corresponding to the eigenvalue of the operator. If these outcomes represent physically allowable states (i.e. those that belong to the Hilbert space) the eigenvalues are real; however, the converse is not necessarily true. January 4, 2026 - The mathematical formulation of quantum mechanics (QM) is built upon the concept of an operator. Physical pure states in quantum mechanics are represented as unit-norm vectors (probabilities are normalized to one) in a special complex Hilbert space. Time evolution in this vector space is given by the application of the evolution operator. Any observable, i.e., any quantity which can be measured in a physical experiment, should be associated with a self-adjoint linear operator. November 3, 2025 - The quantum mechanical observer is tied to the issue of observer effect, where\n\n...[TRUNCATED]...\n\n position of an electron bound within an atom as \"observable\". Instead, his principal quantities of interest were the frequencies of light emitted or absorbed by atoms. The uncertainty principle dates to this period. It is frequently attributed to Heisenberg, who introduced the concept in analyzing a thought experiment where one attempts to measure an electron's position and momentum simultaneously. However, Heisenberg did not give precise mathematical definitions of what the \"uncertainty\" in these measurements meant. 2 weeks ago - The quantum mechanical observer is tied to the issue of observer effect, where a measurement necessarily requires interacting with the physical object being measured, affecting its properties through the interaction. The term \"observable\" has gained a technical meaning, denoting a self-adjoint operator that represents the possible results of a random variable.",
+  "searched_at": "2026-05-04_14-04-49",
+  "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
+}
+
+Relevant draft context:
+# Observable Operator
+
+## The core idea  
+An **observable operator** is a mathematical tool that encodes how a physical quantity (like position or energy) behaves in a quantum system. When you measure an observable, the system "chooses" a specific value (called an **eigenvalue**) from the operator’s possible outcomes. This framework explains why quantum measurements yield probabilistic results.
+
+## Why this matters  
+Observable operators are the foundation of quantum mechanics. They connect abstract mathematical tools to real-world measurements, allowing us to predict outcomes of experiments like measuring a particle’s position or energy. Without operators, we couldn’t explain phenomena like quantum randomness or the collapse of wavefunctions during measurement.
+
+## The simple picture  
+Imagine a quantum system as a dice roll. The **observable operator** is like the dice itself: it defines the possible outcomes (e.g., numbers 1–6). When you "roll" the dice (perform a measurement), the system randomly selects one outcome (e.g., rolling a 3). The **eigenvalues** are the numbers on the dice, and the **eigenstates** are the states where the system "lands" after the roll.  
+
+[Diagram idea: Dice with quantum states labeled as eigenstates and eigenvalues]
+
+## The more precise picture  
+An **observable operator** {operator} is a mathematical object that acts on a **wavefunction** {wavefunction} to yield possible measurement results. When the operator acts on a state, it may produce a **definite-value state** {eigenstate}, where the system has a specific value of the observable (e.g., position = 5 meters). This is described by the equation:  
+$$ A|\psi\rangle = a|\psi\rangle $$  
+*Explanation*: Operator $ A $ (e.g., position operator {x}) acting on state $ |\psi\rangle $ gives eigenvalue $ a $ (e.g., 5 meters) and eigenstate $ |\psi\rangle $.  
+
+The **expectation value** {expectation value} of an observable is the average result you’d get from many measurements:  
+$$ \langle A \rangle = \sum a_i |c_i|^2 $$  
+*Explanation*: The average value of observable $ A $ is the sum of possible outcomes $ a_i $ weighted by their probabilities $ |c_i|^2 $.
+
+## Common misconceptions  
+- **Operators are just math**: They are not abstract symbols—they encode physical rules for how observables behave.  
+- **All measurements are the same**: Different observables (e.g., position vs. momentum) have distinct operators and rules. For example, the position operator {x} and momentum operator {p} don’t commute, leading to the **uncertainty principle**.  
+- **Operators always have real eigenvalues**: While observables must have real eigenvalues, operators in general can have complex ones (e.g., angular momentum operator).  
+- **Measurement “randomizes” the system**: The collapse to an eigenstate is a fundamental rule, not a side effect. It’s a core feature of quantum mechanics.
+
+## How this connects to the rest of physics  
+Observable operators are central to quantum mechanics and its applications. They link to:  
+- **Wavefunction** {wavefunction}: Operators act on wavefunctions to predict measurement outcomes.  
+- **Superposition**: A system in superposition can have multiple eigenstates, each with a probability of being measured.  
+- **Measurement process**: The collapse to an eigenstate is a key rule in quantum theory.  
+- **Examples**: Position operator {x}, momentum operator {p}, and Hamiltonian {energy operator} are fundamental observables.  
+
+## Recap  
+- An **observable operator** {operator} encodes how a physical quantity behaves in a quantum system.  
+- When measured, a system "chooses" an **eigenvalue** {eigenvalue} from the operator’s possible outcomes.  
+- The **eigenstate** {eigenstate} is the state where the system has a definite value of the observable.  
+- Operators like position {x}, momentum {p}, and energy {Hamiltonian} are essential for predicting quantum measurements.  
+- Measurement outcomes are probabilistic, governed by the overlap between the system’s state and the eigenstate.
+
+RESPONSE:
+{
+  "id": "C001",
+  "verdict": "supported",
+  "severity": "low",
+  "problem": "The claim is accurate but could benefit from specifying that observables are self-adjoint operators (Hermitian) to ensure real eigenvalues for measurable quantities",
+  "suggested_fix": "Add: '...that corresponds to a self-adjoint operator, ensuring real eigenvalues for physically measurable outcomes.'",
+  "source_quality_note": "The snippet contains authoritative explanations from quantum mechanics foundations, including references to Hilbert spaces and operator properties."
+}
+
+================================================================================
+TIME: 2026-05-04T14:08:55
+NODE: claim_checker
+PROMPT_CHARS: 6944
+PROMPT_TOKENS_APPROX: 1736
+RESPONSE_CHARS: 472
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.85}
+================================================================================
+PROMPT:
+Check this one article claim against the available search snippet.
+
+Return JSON with this shape:
+{
+  "id": "C002",
+  "verdict": "supported | mostly_supported | needs_qualification | unsupported | contradicted | not_enough_evidence",
+  "severity": "none | low | medium | high",
+  "problem": "specific issue, or empty string",
+  "suggested_fix": "specific correction to the article, or empty string",
+  "source_quality_note": "brief note about whether the snippets look authoritative"
+}
+
+Rules:
+- Be conservative.
+- If the snippet is weak or absent, say not_enough_evidence.
+- Do not demand advanced nuance beyond the article's beginner scope.
+- Do flag misleading simplifications.
+- Focus on stable accepted physics.
+
+Article title: Observable operator
+
+Claim:
+{
+  "id": "C002",
+  "claim": "This framework explains why quantum measurements yield probabilistic results.",
+  "type": "fallback-extracted",
+  "importance": "medium",
+  "needs_external_check": true,
+  "why_it_matters": "Automatically extracted fallback claim; review manually.",
+  "suggested_search_query": "Observable operator This framework explains why quantum measurements yield probabilistic results. physics lecture notes textbook explanation"
+}
+
+Search snippet:
+{
+  "claim": "This framework explains why quantum measurements yield probabilistic results.",
+  "query": "Observable operator This framework explains why quantum measurements yield probabilistic results. physics lecture notes textbook explanation",
+  "result_snippet": "9 Explanatory notes. 10 References. 11 Further reading.Quantum mechanics arose gradually from theories to explain observations that could not be reconciled with classical physics, such as Max Planck's solution in 1900 to the black-body radiation problem, and the correspondence... MIT 8.04 Quantum Physics I, Spring 2013View the complete course: http://ocw.mit.edu/8-04S13Instructor: Allan AdamsIn this lecture, Prof. Why measure in a different basis at all? Different measurement bases reveal complementary aspects of quantum states. This complementarity arises from the probabilistic nature of quantum measurement: we observe outcomes with specific probabilities via the Born rule... is the probability that the measurement yields the result Sz = -U>2. The subscript on the probability indicates the measured value. For the spin component measurements, we will usually abbreviate this to, for example, P+ for an Sz = +U>2 result or P-y for an Sy = -U>2 measurement. Measurement Results as \"Random\": While quantum measurements are inherently probabilistic, they are not truly random in the traditional sense. The measurement outcomes are determined by the wave function and the specific interaction with the measuring apparatus.",
+  "searched_at": "2026-05-04_14-04-50",
+  "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
+}
+
+Relevant draft context:
+# Observable Operator
+
+## The core idea  
+An **observable operator** is a mathematical tool that encodes how a physical quantity (like position or energy) behaves in a quantum system. When you measure an observable, the system "chooses" a specific value (called an **eigenvalue**) from the operator’s possible outcomes. This framework explains why quantum measurements yield probabilistic results.
+
+## Why this matters  
+Observable operators are the foundation of quantum mechanics. They connect abstract mathematical tools to real-world measurements, allowing us to predict outcomes of experiments like measuring a particle’s position or energy. Without operators, we couldn’t explain phenomena like quantum randomness or the collapse of wavefunctions during measurement.
+
+## The simple picture  
+Imagine a quantum system as a dice roll. The **observable operator** is like the dice itself: it defines the possible outcomes (e.g., numbers 1–6). When you "roll" the dice (perform a measurement), the system randomly selects one outcome (e.g., rolling a 3). The **eigenvalues** are the numbers on the dice, and the **eigenstates** are the states where the system "lands" after the roll.  
+
+[Diagram idea: Dice with quantum states labeled as eigenstates and eigenvalues]
+
+## The more precise picture  
+An **observable operator** {operator} is a mathematical object that acts on a **wavefunction** {wavefunction} to yield possible measurement results. When the operator acts on a state, it may produce a **definite-value state** {eigenstate}, where the system has a specific value of the observable (e.g., position = 5 meters). This is described by the equation:  
+$$ A|\psi\rangle = a|\psi\rangle $$  
+*Explanation*: Operator $ A $ (e.g., position operator {x}) acting on state $ |\psi\rangle $ gives eigenvalue $ a $ (e.g., 5 meters) and eigenstate $ |\psi\rangle $.  
+
+The **expectation value** {expectation value} of an observable is the average result you’d get from many measurements:  
+$$ \langle A \rangle = \sum a_i |c_i|^2 $$  
+*Explanation*: The average value of observable $ A $ is the sum of possible outcomes $ a_i $ weighted by their probabilities $ |c_i|^2 $.
+
+## Common misconceptions  
+- **Operators are just math**: They are not abstract symbols—they encode physical rules for how observables behave.  
+- **All measurements are the same**: Different observables (e.g., position vs. momentum) have distinct operators and rules. For example, the position operator {x} and momentum operator {p} don’t commute, leading to the **uncertainty principle**.  
+- **Operators always have real eigenvalues**: While observables must have real eigenvalues, operators in general can have complex ones (e.g., angular momentum operator).  
+- **Measurement “randomizes” the system**: The collapse to an eigenstate is a fundamental rule, not a side effect. It’s a core feature of quantum mechanics.
+
+## How this connects to the rest of physics  
+Observable operators are central to quantum mechanics and its applications. They link to:  
+- **Wavefunction** {wavefunction}: Operators act on wavefunctions to predict measurement outcomes.  
+- **Superposition**: A system in superposition can have multiple eigenstates, each with a probability of being measured.  
+- **Measurement process**: The collapse to an eigenstate is a key rule in quantum theory.  
+- **Examples**: Position operator {x}, momentum operator {p}, and Hamiltonian {energy operator} are fundamental observables.  
+
+## Recap  
+- An **observable operator** {operator} encodes how a physical quantity behaves in a quantum system.  
+- When measured, a system "chooses" an **eigenvalue** {eigenvalue} from the operator’s possible outcomes.  
+- The **eigenstate** {eigenstate} is the state where the system has a definite value of the observable.  
+- Operators like position {x}, momentum {p}, and energy {Hamiltonian} are essential for predicting quantum measurements.  
+- Measurement outcomes are probabilistic, governed by the overlap between the system’s state and the eigenstate.
+
+RESPONSE:
+{
+  "id": "C002",
+  "verdict": "supported",
+  "severity": "low",
+  "problem": "The snippet does not explicitly mention 'observable operator' terminology, but supports the core idea through Born rule and measurement probability concepts",
+  "suggested_fix": "Clarify that the framework includes observable operators and the Born rule as the mathematical basis for probabilistic outcomes",
+  "source_quality_note": "MIT lecture notes are authoritative educational sources"
+}
+
+================================================================================
+TIME: 2026-05-04T14:10:50
+NODE: term_collector
+PROMPT_CHARS: 4512
+PROMPT_TOKENS_APPROX: 1128
+RESPONSE_CHARS: 0
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.85}
+================================================================================
+PROMPT:
+Extract the descriptive-name candidates from this draft.
+
+Return JSON with this shape:
+{
+  "terms": [
+    {
+      "standard_term": "fermion",
+      "candidate_name": "space-occupier",
+      "context_quote": "short quote from the draft",
+      "usefulness": "why this name helps",
+      "risk": "how it could mislead, or empty string if low risk"
+    }
+  ]
+}
+
+Only include actual teaching-name candidates, especially phrases followed by standard terms in braces.
+
+Draft:
+# Observable Operator
+
+## The core idea  
+An **observable operator** is a mathematical tool that encodes how a physical quantity (like position or energy) behaves in a quantum system. When you measure an observable, the system "chooses" a specific value (called an **eigenvalue**) from the operator’s possible outcomes. This framework explains why quantum measurements yield probabilistic results.
+
+## Why this matters  
+Observable operators are the foundation of quantum mechanics. They connect abstract mathematical tools to real-world measurements, allowing us to predict outcomes of experiments like measuring a particle’s position or energy. Without operators, we couldn’t explain phenomena like quantum randomness or the collapse of wavefunctions during measurement.
+
+## The simple picture  
+Imagine a quantum system as a dice roll. The **observable operator** is like the dice itself: it defines the possible outcomes (e.g., numbers 1–6). When you "roll" the dice (perform a measurement), the system randomly selects one outcome (e.g., rolling a 3). The **eigenvalues** are the numbers on the dice, and the **eigenstates** are the states where the system "lands" after the roll.  
+
+[Diagram idea: Dice with quantum states labeled as eigenstates and eigenvalues]
+
+## The more precise picture  
+An **observable operator** {operator} is a mathematical object that acts on a **wavefunction** {wavefunction} to yield possible measurement results. When the operator acts on a state, it may produce a **definite-value state** {eigenstate}, where the system has a specific value of the observable (e.g., position = 5 meters). This is described by the equation:  
+$$ A|\psi\rangle = a|\psi\rangle $$  
+*Explanation*: Operator $ A $ (e.g., position operator {x}) acting on state $ |\psi\rangle $ gives eigenvalue $ a $ (e.g., 5 meters) and eigenstate $ |\psi\rangle $.  
+
+The **expectation value** {expectation value} of an observable is the average result you’d get from many measurements:  
+$$ \langle A \rangle = \sum a_i |c_i|^2 $$  
+*Explanation*: The average value of observable $ A $ is the sum of possible outcomes $ a_i $ weighted by their probabilities $ |c_i|^2 $.
+
+## Common misconceptions  
+- **Operators are just math**: They are not abstract symbols—they encode physical rules for how observables behave.  
+- **All measurements are the same**: Different observables (e.g., position vs. momentum) have distinct operators and rules. For example, the position operator {x} and momentum operator {p} don’t commute, leading to the **uncertainty principle**.  
+- **Operators always have real eigenvalues**: While observables must have real eigenvalues, operators in general can have complex ones (e.g., angular momentum operator).  
+- **Measurement “randomizes” the system**: The collapse to an eigenstate is a fundamental rule, not a side effect. It’s a core feature of quantum mechanics.
+
+## How this connects to the rest of physics  
+Observable operators are central to quantum mechanics and its applications. They link to:  
+- **Wavefunction** {wavefunction}: Operators act on wavefunctions to predict measurement outcomes.  
+- **Superposition**: A system in superposition can have multiple eigenstates, each with a probability of being measured.  
+- **Measurement process**: The collapse to an eigenstate is a key rule in quantum theory.  
+- **Examples**: Position operator {x}, momentum operator {p}, and Hamiltonian {energy operator} are fundamental observables.  
+
+## Recap  
+- An **observable operator** {operator} encodes how a physical quantity behaves in a quantum system.  
+- When measured, a system "chooses" an **eigenvalue** {eigenvalue} from the operator’s possible outcomes.  
+- The **eigenstate** {eigenstate} is the state where the system has a definite value of the observable.  
+- Operators like position {x}, momentum {p}, and energy {Hamiltonian} are essential for predicting quantum measurements.  
+- Measurement outcomes are probabilistic, governed by the overlap between the system’s state and the eigenstate.
+
+RESPONSE:
+
+
+================================================================================
+TIME: 2026-05-04T14:14:03
+NODE: accessibility_judge
+PROMPT_CHARS: 6242
+PROMPT_TOKENS_APPROX: 1560
+RESPONSE_CHARS: 1630
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.85}
+================================================================================
+PROMPT:
+Score this EasyPhysics article for accessibility using the rubric below.
+
+Accessibility score, 1-10:
+
+10 = Exceptional. A motivated high-schooler can follow the article's main arc without prior exposure.
+     Jargon is introduced only after intuition. Examples are vivid. Math is explained as meaning,
+     not just symbols. The article feels empowering and clear.
+
+9 = Publishable with light human editing. The main idea is easy to follow; jargon is mostly controlled;
+    analogies are helpful; sections flow logically; any math has a plain-language interpretation.
+
+8 = Strong draft. Mostly clear, but has a few dense sections, unexplained terms, abrupt transitions,
+    or analogies that need more setup.
+
+7 = Useful but uneven. A motivated reader could learn from it, but several passages need simplification,
+    clearer examples, or better sequencing.
+
+6 = Borderline. The article contains useful explanations, but assumes too much background or uses too much jargon.
+
+5 = Mixed. Some good paragraphs, but the structure or language would lose many target readers.
+
+4 = Hard to follow. Mostly written for someone who already knows the subject.
+
+3 = Very inaccessible. Dense, abstract, jargon-heavy, or poorly sequenced.
+
+2 = Barely useful to the target audience.
+
+1 = Fails the accessibility goal.
+
+Accessibility judge priorities:
+- Does the opening give the reader an intuitive foothold?
+- Are standard terms introduced after meaning, not before?
+- Are descriptive names useful rather than cutesy or misleading?
+- Are analogies concrete and then carefully limited?
+- Is any math explained in words?
+- Does the article avoid "spooky/magic/weird" framing while still acknowledging counterintuitive ideas?
+- Does each section make the next section easier?
+
+Return JSON with this shape:
+{
+  "score": 1,
+  "pass": false,
+  "strengths": ["specific strength"],
+  "issues": [
+    {
+      "severity": "low | medium | high",
+      "location": "section or paragraph description",
+      "problem": "specific accessibility issue",
+      "suggested_fix": "specific fix"
+    }
+  ],
+  "best_next_revision": "one concise paragraph describing what to improve next"
+}
+
+Article title: Observable operator
+
+Draft:
+# Observable Operator
+
+## The core idea  
+An **observable operator** is a mathematical tool that encodes how a physical quantity (like position or energy) behaves in a quantum system. When you measure an observable, the system "chooses" a specific value (called an **eigenvalue**) from the operator’s possible outcomes. This framework explains why quantum measurements yield probabilistic results.
+
+## Why this matters  
+Observable operators are the foundation of quantum mechanics. They connect abstract mathematical tools to real-world measurements, allowing us to predict outcomes of experiments like measuring a particle’s position or energy. Without operators, we couldn’t explain phenomena like quantum randomness or the collapse of wavefunctions during measurement.
+
+## The simple picture  
+Imagine a quantum system as a dice roll. The **observable operator** is like the dice itself: it defines the possible outcomes (e.g., numbers 1–6). When you "roll" the dice (perform a measurement), the system randomly selects one outcome (e.g., rolling a 3). The **eigenvalues** are the numbers on the dice, and the **eigenstates** are the states where the system "lands" after the roll.  
+
+[Diagram idea: Dice with quantum states labeled as eigenstates and eigenvalues]
+
+## The more precise picture  
+An **observable operator** {operator} is a mathematical object that acts on a **wavefunction** {wavefunction} to yield possible measurement results. When the operator acts on a state, it may produce a **definite-value state** {eigenstate}, where the system has a specific value of the observable (e.g., position = 5 meters). This is described by the equation:  
+$$ A|\psi\rangle = a|\psi\rangle $$  
+*Explanation*: Operator $ A $ (e.g., position operator {x}) acting on state $ |\psi\rangle $ gives eigenvalue $ a $ (e.g., 5 meters) and eigenstate $ |\psi\rangle $.  
+
+The **expectation value** {expectation value} of an observable is the average result you’d get from many measurements:  
+$$ \langle A \rangle = \sum a_i |c_i|^2 $$  
+*Explanation*: The average value of observable $ A $ is the sum of possible outcomes $ a_i $ weighted by their probabilities $ |c_i|^2 $.
+
+## Common misconceptions  
+- **Operators are just math**: They are not abstract symbols—they encode physical rules for how observables behave.  
+- **All measurements are the same**: Different observables (e.g., position vs. momentum) have distinct operators and rules. For example, the position operator {x} and momentum operator {p} don’t commute, leading to the **uncertainty principle**.  
+- **Operators always have real eigenvalues**: While observables must have real eigenvalues, operators in general can have complex ones (e.g., angular momentum operator).  
+- **Measurement “randomizes” the system**: The collapse to an eigenstate is a fundamental rule, not a side effect. It’s a core feature of quantum mechanics.
+
+## How this connects to the rest of physics  
+Observable operators are central to quantum mechanics and its applications. They link to:  
+- **Wavefunction** {wavefunction}: Operators act on wavefunctions to predict measurement outcomes.  
+- **Superposition**: A system in superposition can have multiple eigenstates, each with a probability of being measured.  
+- **Measurement process**: The collapse to an eigenstate is a key rule in quantum theory.  
+- **Examples**: Position operator {x}, momentum operator {p}, and Hamiltonian {energy operator} are fundamental observables.  
+
+## Recap  
+- An **observable operator** {operator} encodes how a physical quantity behaves in a quantum system.  
+- When measured, a system "chooses" an **eigenvalue** {eigenvalue} from the operator’s possible outcomes.  
+- The **eigenstate** {eigenstate} is the state where the system has a definite value of the observable.  
+- Operators like position {x}, momentum {p}, and energy {Hamiltonian} are essential for predicting quantum measurements.  
+- Measurement outcomes are probabilistic, governed by the overlap between the system’s state and the eigenstate.
+
+RESPONSE:
+{
+  "score": 7,
+  "pass": false,
+  "strengths": [
+    "Clear dice analogy provides intuitive foothold",
+    "Math is explained with plain-language interpretations",
+    "Common misconceptions are explicitly addressed"
+  ],
+  "issues": [
+    {
+      "severity": "medium",
+      "location": "core idea section",
+      "problem": "Key term 'observable operator' is introduced without sufficient conceptual groundwork",
+      "suggested_fix": "Add a brief explanation of what an operator is before defining 'observable operator'"
+    },
+    {
+      "severity": "medium",
+      "location": "simple picture section",
+      "problem": "Terms like 'eigenstate' and 'eigenvalue' are used without clear connection to the dice analogy",
+      "suggested_fix": "Clarify how eigenvalues/eigenstates map to dice outcomes with explicit examples"
+    },
+    {
+      "severity": "high",
+      "location": "more precise picture section",
+      "problem": "Math-heavy equations lack visual anchors for beginners",
+      "suggested_fix": "Add diagram suggestions for each equation and break down the operator equation step-by-step"
+    },
+    {
+      "severity": "medium",
+      "location": "common misconceptions section",
+      "problem": "Complex concepts like non-commuting operators are presented without prior context",
+      "suggested_fix": "Add a simple explanation of what 'non-commuting' means before discussing the uncertainty principle"
+    }
+  ],
+  "best_next_revision": "Enhance the analogy-to-math connections by adding visual metaphors for equations and explicitly linking abstract terms to the dice analogy throughout the article"
+}
+
+================================================================================
+TIME: 2026-05-04T14:17:49
+NODE: rigor_judge
+PROMPT_CHARS: 7865
+PROMPT_TOKENS_APPROX: 1966
+RESPONSE_CHARS: 1024
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.85}
+================================================================================
+PROMPT:
+Score this EasyPhysics article for scientific rigor using the rubric below.
+
+Rigor score, 1-10:
+
+10 = Exceptional. Scientifically accurate, well-qualified, and careful about analogy limits.
+     No obvious misleading simplifications. Claims align with stable accepted physics.
+
+9 = Publishable with light human editing. No major errors. A few details may need polishing,
+    but the article is safe as an educational explanation.
+
+8 = Strong draft. Mostly accurate but has minor imprecision, missing qualifications, or analogy risks.
+
+7 = Useful but needs scientific review. Contains no catastrophic errors, but some claims are too loose,
+    incomplete, or potentially misleading.
+
+6 = Borderline. Several important corrections or qualifications are needed.
+
+5 = Mixed. The article has valuable explanations but also significant inaccuracies or misleading framings.
+
+4 = Scientifically weak. Multiple substantial errors or serious conceptual muddling.
+
+3 = Very unreliable. The reader would likely learn incorrect physics.
+
+2 = Mostly wrong or confused.
+
+1 = Fails the rigor goal.
+
+Rigor judge priorities:
+- Are definitions compatible with standard physics?
+- Are analogies technically safe, with their limits stated when necessary?
+- Are quantum concepts distinguished correctly: amplitude vs probability, superposition vs ignorance,
+  measurement vs ordinary looking, phase vs probability?
+- Are field/particle/wave descriptions accurate enough for a beginner article?
+- Are conservation, symmetry, force, energy, mass, and spin statements properly qualified?
+- Does the article avoid replacing historical jargon with new misleading jargon?
+- Are open questions distinguished from settled explanations?
+
+Use the claim-check results as context, but judge the final draft itself.
+
+Return JSON with this shape:
+{
+  "score": 1,
+  "pass": false,
+  "strengths": ["specific strength"],
+  "issues": [
+    {
+      "severity": "low | medium | high",
+      "location": "section or paragraph description",
+      "problem": "specific rigor issue",
+      "suggested_fix": "specific fix"
+    }
+  ],
+  "best_next_revision": "one concise paragraph describing what to improve next"
+}
+
+Article title: Observable operator
+
+Claim-check context:
+{
+  "claim_checks": [
+    {
+      "id": "C001",
+      "verdict": "supported",
+      "severity": "low",
+      "problem": "The claim is accurate but could benefit from specifying that observables are self-adjoint operators (Hermitian) to ensure real eigenvalues for measurable quantities",
+      "suggested_fix": "Add: '...that corresponds to a self-adjoint operator, ensuring real eigenvalues for physically measurable outcomes.'",
+      "source_quality_note": "The snippet contains authoritative explanations from quantum mechanics foundations, including references to Hilbert spaces and operator properties."
+    },
+    {
+      "id": "C002",
+      "verdict": "supported",
+      "severity": "low",
+      "problem": "The snippet does not explicitly mention 'observable operator' terminology, but supports the core idea through Born rule and measurement probability concepts",
+      "suggested_fix": "Clarify that the framework includes observable operators and the Born rule as the mathematical basis for probabilistic outcomes",
+      "source_quality_note": "MIT lecture notes are authoritative educational sources"
+    }
+  ],
+  "summary": {
+    "overall_claim_quality": "Claim check completed.",
+    "unresolved_or_needs_qualification": 0,
+    "highest_priority_fixes": [
+      "Add: '...that corresponds to a self-adjoint operator, ensuring real eigenvalues for physically measurable outcomes.'",
+      "Clarify that the framework includes observable operators and the Born rule as the mathematical basis for probabilistic outcomes"
+    ]
+  },
+  "last_updated": "2026-05-04_14-08-55"
+}
+
+Draft:
+# Observable Operator
+
+## The core idea  
+An **observable operator** is a mathematical tool that encodes how a physical quantity (like position or energy) behaves in a quantum system. When you measure an observable, the system "chooses" a specific value (called an **eigenvalue**) from the operator’s possible outcomes. This framework explains why quantum measurements yield probabilistic results.
+
+## Why this matters  
+Observable operators are the foundation of quantum mechanics. They connect abstract mathematical tools to real-world measurements, allowing us to predict outcomes of experiments like measuring a particle’s position or energy. Without operators, we couldn’t explain phenomena like quantum randomness or the collapse of wavefunctions during measurement.
+
+## The simple picture  
+Imagine a quantum system as a dice roll. The **observable operator** is like the dice itself: it defines the possible outcomes (e.g., numbers 1–6). When you "roll" the dice (perform a measurement), the system randomly selects one outcome (e.g., rolling a 3). The **eigenvalues** are the numbers on the dice, and the **eigenstates** are the states where the system "lands" after the roll.  
+
+[Diagram idea: Dice with quantum states labeled as eigenstates and eigenvalues]
+
+## The more precise picture  
+An **observable operator** {operator} is a mathematical object that acts on a **wavefunction** {wavefunction} to yield possible measurement results. When the operator acts on a state, it may produce a **definite-value state** {eigenstate}, where the system has a specific value of the observable (e.g., position = 5 meters). This is described by the equation:  
+$$ A|\psi\rangle = a|\psi\rangle $$  
+*Explanation*: Operator $ A $ (e.g., position operator {x}) acting on state $ |\psi\rangle $ gives eigenvalue $ a $ (e.g., 5 meters) and eigenstate $ |\psi\rangle $.  
+
+The **expectation value** {expectation value} of an observable is the average result you’d get from many measurements:  
+$$ \langle A \rangle = \sum a_i |c_i|^2 $$  
+*Explanation*: The average value of observable $ A $ is the sum of possible outcomes $ a_i $ weighted by their probabilities $ |c_i|^2 $.
+
+## Common misconceptions  
+- **Operators are just math**: They are not abstract symbols—they encode physical rules for how observables behave.  
+- **All measurements are the same**: Different observables (e.g., position vs. momentum) have distinct operators and rules. For example, the position operator {x} and momentum operator {p} don’t commute, leading to the **uncertainty principle**.  
+- **Operators always have real eigenvalues**: While observables must have real eigenvalues, operators in general can have complex ones (e.g., angular momentum operator).  
+- **Measurement “randomizes” the system**: The collapse to an eigenstate is a fundamental rule, not a side effect. It’s a core feature of quantum mechanics.
+
+## How this connects to the rest of physics  
+Observable operators are central to quantum mechanics and its applications. They link to:  
+- **Wavefunction** {wavefunction}: Operators act on wavefunctions to predict measurement outcomes.  
+- **Superposition**: A system in superposition can have multiple eigenstates, each with a probability of being measured.  
+- **Measurement process**: The collapse to an eigenstate is a key rule in quantum theory.  
+- **Examples**: Position operator {x}, momentum operator {p}, and Hamiltonian {energy operator} are fundamental observables.  
+
+## Recap  
+- An **observable operator** {operator} encodes how a physical quantity behaves in a quantum system.  
+- When measured, a system "chooses" an **eigenvalue** {eigenvalue} from the operator’s possible outcomes.  
+- The **eigenstate** {eigenstate} is the state where the system has a definite value of the observable.  
+- Operators like position {x}, momentum {p}, and energy {Hamiltonian} are essential for predicting quantum measurements.  
+- Measurement outcomes are probabilistic, governed by the overlap between the system’s state and the eigenstate.
+
+RESPONSE:
+{
+  "score": 8,
+  "pass": true,
+  "strengths": [
+    "Clear conceptual framework connecting operators to measurement outcomes",
+    "Use of intuitive analogies (dice roll) with explicit probabilistic interpretation",
+    "Correct distinction between eigenvalues/eigenstates and measurement process"
+  ],
+  "issues": [
+    {
+      "severity": "medium",
+      "location": "The more precise picture section",
+      "problem": "Lacks explicit mention of self-adjoint operators (Hermitian) for observables",
+      "suggested_fix": "Add: '...that corresponds to a self-adjoint operator, ensuring real eigenvalues for physically measurable outcomes.'"
+    },
+    {
+      "severity": "low",
+      "location": "Core idea section",
+      "problem": "Could clarify the role of the Born rule in connecting operators to probabilities",
+      "suggested_fix": "Add: '...and the Born rule provides the mathematical basis for calculating measurement probabilities.'"
+    }
+  ],
+  "best_next_revision": "Explicitly define observables as self

@@ -1,0 +1,37 @@
+{
+  "claims": [
+    {
+      "id": "C001",
+      "claim": "Hilbert space is a mathematical vector space where all quantum states reside as vectors.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Establishes the foundational framework for quantum mechanics",
+      "suggested_search_query": "Hilbert space definition quantum mechanics"
+    },
+    {
+      "id": "C002",
+      "claim": "Superposition in quantum systems corresponds to vector addition in Hilbert space.",
+      "type": "concept",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Explains how quantum states combine probabilistically",
+      "suggested_search_query": "quantum superposition Hilbert space"
+    },
+    {
+      "id": "C003",
+      "claim": "Probabilities in quantum mechanics arise from the squared magnitudes of vector components and their relative angles.",
+      "type": "calculation",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Defines how measurement outcomes are determined",
+      "suggested_search_query": "quantum probability Hilbert space"
+    },
+    {
+      "id": "C004",
+      "claim": "Hilbert space is essential for describing quantum evolution, entanglement, and measurement processes.",
+      "type": "application",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Underpins core quantum phenomena",
+      "suggested_search_query": "Hilbert space quantum mechanics

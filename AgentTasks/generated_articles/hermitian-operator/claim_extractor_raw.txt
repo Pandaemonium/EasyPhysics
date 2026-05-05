@@ -1,0 +1,27 @@
+{
+  "claims": [
+    {
+      "id": "C001",
+      "claim": "A Hermitian operator ensures measurements in quantum mechanics yield real numbers, such as position or energy, rather than complex values.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Real-number outcomes are essential for physical measurements to align with experimental results.",
+      "suggested_search_query": "Hermitian operator definition quantum mechanics"
+    },
+    {
+      "id": "C002",
+      "claim": "Hermitian operators are mathematically linked to observables, ensuring measurable physical quantities correspond to real eigenvalues.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "This connection guarantees quantum predictions match empirical observations.",
+      "suggested_search_query": "Hermitian operators observables quantum mechanics"
+    },
+    {
+      "id": "C003",
+      "claim": "The analogy of a 'measurement machine' illustrates how Hermitian operators produce real-number outputs, contrasting with non-Hermitian operators that might yield complex results.",
+      "type": "analogy",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "This analogy clarifies the physical significance of Hermitian operators despite potential abstraction.",

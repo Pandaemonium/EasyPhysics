@@ -1,0 +1,19 @@
+{
+  "sources_by_claim": {
+    "C001": {
+      "claim": "# Eigenstate ## The core idea An **eigenstate** is a \"definite-answer state\" {eigenstate} — a quantum state where measuring a specific property (like energy or spin) always gives the same result.",
+      "query": "Eigenstate # Eigenstate ## The core idea An **eigenstate** is a \"definite-answer state\" {eigenstate} — a quantum physics lecture notes textbook explanation",
+      "result_snippet": "Tacit in this postulate is that the relevant states which share these equal a priori probabilities are the system eigenstates. ... the statement that both the singlet triple states are symmetric is non-sense: the singlet is still antisymmetric and still an eigenstate, and the most ... I don't believe there is any principle prohibiting a scenario where there is no ground state, but the Hamiltonian is bounded from below. The $\\psi(x)$ in the above equation is a coefficient in an expansion of the state in terms of other states: $$ |\\Psi\\rangle = \\int dx ... This variational principle does only apply to the ground state of a system, so it is said that also HF theory is a ground state theory and can not ...",
+      "searched_at": "2026-05-04_10-10-05",
+      "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
+    },
+    "C002": {
+      "claim": "Think of it as a \"ready-to-measure\" state: if a system is in an eigenstate of an observable, the measurement will \"lock in\" that value.",
+      "query": "Eigenstate Think of it as a \"ready-to-measure\" state: if a system is in an eigenstate of an physics lecture notes textbook explanation",
+      "result_snippet": "purpose of this note to explain why we think that their. responses miss the point of our original objection. Since Elby's, Bub's, and Healey's papers contain.observable of a system has a value when and only when. the state of that system is an eigenstate of that. Modal interpretations attempt to solve this problem by deny- ing that an observable for a system has a value only when the state of the system is an eigenstate of the observable. In Healey's words, they \"break the eigenstate-eigenvalue link. Now you’re ready to measure. Pin all the way around each new hem at this measurement. Remember, the inseam is the length of the line that runs from the crotch to the bottom of the pant leg. The inseam and outseam often get mixed up. Similarly, the state of a system corresponding to M ’s introspection of her perception of a non-superpositional x-spin down result will beSo, by putting an electron in an eigenstate of z-spin through an x-spin detector, we. can measure this observable property λ But the GRW post-collapse state (5) is not an eigenstate of the property \"displaying a single definite measurement outcome\". That's because neither of the components have mod-square equal to one - one of the components is close to one while the other is close to zero.",
+      "searched_at": "2026-05-04_10-10-07",
+      "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
+    }
+  },
+  "last_updated": "2026-05-04_10-10-08"
+}

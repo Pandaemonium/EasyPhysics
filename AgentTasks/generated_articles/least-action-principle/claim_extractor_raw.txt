@@ -1,0 +1,32 @@
+{
+  "claims": [
+    {
+      "id": "C001",
+      "claim": "The least action principle states that physical systems evolve along paths that minimize a quantity called action.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "This principle unifies classical mechanics and connects to modern physics frameworks.",
+      "suggested_search_query": "least action principle definition physics"
+    },
+    {
+      "id": "C002",
+      "claim": "Action is a measure of 'effort' over time, defined as the integral of kinetic energy minus potential energy over a path.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "This mathematical formulation underpins the variational approach to mechanics.",
+      "suggested_search_query": "action integral physics definition"
+    },
+    {
+      "id": "C003",
+      "claim": "The least action principle is a fundamental law of nature, equivalent to Newton's laws in classical mechanics.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "It reveals deep symmetries and conservation laws in physics.",
+      "suggested_search_query": "least action principle fundamental law"
+    },
+    {
+      "id": "C004",
+      "claim": "Physical systems follow paths where the action is stationary (not necessarily minimal), including minima, maxima, or saddle points.",

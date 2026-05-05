@@ -1,0 +1,29 @@
+{
+  "claim_checks": [
+    {
+      "id": "C001",
+      "verdict": "not_enough_evidence",
+      "severity": "medium",
+      "problem": "Could not parse claim-checker output.",
+      "suggested_fix": "Review this claim manually.",
+      "source_quality_note": ""
+    },
+    {
+      "id": "C002",
+      "verdict": "supported",
+      "severity": "low",
+      "problem": "Metaphorical phrasing may oversimplify the equation's mathematical structure, but the core claim aligns with standard explanations",
+      "suggested_fix": "Clarify that the TDSE is a specific differential equation (iħ∂ψ/∂t = Hψ) rather than a metaphorical 'recipe', while retaining the intuitive 'rulebook' analogy",
+      "source_quality_note": "Britannica AI is a reputable authoritative source"
+    }
+  ],
+  "summary": {
+    "overall_claim_quality": "Claim check completed.",
+    "unresolved_or_needs_qualification": 1,
+    "highest_priority_fixes": [
+      "Review this claim manually.",
+      "Clarify that the TDSE is a specific differential equation (iħ∂ψ/∂t = Hψ) rather than a metaphorical 'recipe', while retaining the intuitive 'rulebook' analogy"
+    ]
+  },
+  "last_updated": "2026-05-04_15-49-03"
+}

@@ -1,0 +1,26 @@
+{
+  "claim_checks": [
+    {
+      "id": "C001",
+      "verdict": "supported",
+      "severity": "low",
+      "problem": "",
+      "suggested_fix": "",
+      "source_quality_note": "The snippet references foundational quantum mechanics concepts and mentions Kyle Crabtree's textbook-style explanation, indicating authoritative educational sources."
+    },
+    {
+      "id": "C002",
+      "verdict": "supported",
+      "severity": "none",
+      "problem": "",
+      "suggested_fix": "",
+      "source_quality_note": "The snippet contains relevant technical discussion about kets/bras in quantum contexts, though it also includes tangential topics. The core claim aligns with standard explanations."
+    }
+  ],
+  "summary": {
+    "overall_claim_quality": "Claim check completed.",
+    "unresolved_or_needs_qualification": 0,
+    "highest_priority_fixes": []
+  },
+  "last_updated": "2026-05-04_12-53-15"
+}

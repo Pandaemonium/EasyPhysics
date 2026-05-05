@@ -1,0 +1,44 @@
+# Energy Eigenstate
+
+## The core idea  
+An **energy eigenstate** is a stable, "snapshot" of a quantum system where the energy is precisely defined. Like a classical system with fixed energy (e.g., a pendulum at rest), it doesn’t change over time. When measured, it always gives the same energy value. This concept is key to understanding how quantum systems evolve and respond to observations.
+
+## Why this matters  
+Energy eigenstates explain how quantum systems conserve energy and produce predictable measurement outcomes. They underpin the stability of atoms, the behavior of particles in traps, and the quantization of energy in nature. Without them, we couldn’t describe phenomena like atomic spectra or quantum fluctuations.
+
+## The simple picture  
+Imagine a pendulum swinging in a vacuum—its energy remains constant unless disturbed. In quantum mechanics, an **energy snapshot {eigenstate}** is like this pendulum: it holds a fixed energy value, never losing or gaining energy on its own. Unlike classical systems, however, quantum eigenstates can still exhibit subtle fluctuations (like virtual particles), but their energy remains precisely defined.
+
+## The more precise picture  
+An **energy eigenstate** is a state where the system’s energy is precisely known. Mathematically, it satisfies the **time-independent Schrödinger equation**:  
+$$ \hat{H} \psi = E \psi $$  
+Here, $ \hat{H} $ is the Hamiltonian (energy operator), $ \psi $ is the wavefunction, and $ E $ is the energy. This equation defines a state where energy doesn’t change over time, unlike non-eigenstates, which oscillate between different energy values.  
+
+In contrast to classical systems, quantum eigenstates are **stationary states {stationary state}**—their probability distributions don’t evolve unless disturbed. This stability makes them ideal for analyzing systems like electrons in atoms or photons in cavities.
+
+## Common misconceptions  
+- **Misconception 1**: Energy eigenstates are static, unchanging systems.  
+  → *Clarification*: While their energy is fixed, quantum fluctuations (e.g., virtual particles) still occur. These fluctuations don’t alter the energy value but reflect the probabilistic nature of quantum mechanics.  
+
+- **Misconception 2**: Energy eigenstates are the only valid states.  
+  → *Clarification*: Most systems exist in **superpositions** of eigenstates. For example, a quantum particle in a box might be in a mix of energy levels until measured.  
+
+- **Misconception 3**: Eigenstates only apply to isolated systems.  
+  → *Clarification*: They’re useful for analyzing subsystems even in complex systems. For instance, a single electron in a molecule can be treated as an eigenstate, even though the molecule as a whole interacts with its environment.
+
+## How this connects to the rest of physics  
+Energy eigenstates are foundational to quantum mechanics and directly link to:  
+- **Energy conservation**: Eigenstates don’t exchange energy with their environment.  
+- **Atomic structure**: Electrons in atoms occupy energy eigenstates, explaining discrete spectral lines.  
+- **Quantum fluctuations**: Even in vacuum, energy eigenstates allow for temporary energy "borrowing" via virtual particles.  
+- **Thermodynamics**: Eigenstates help model systems in thermal equilibrium, where energy is distributed among many states.
+
+## Recap  
+- An **energy eigenstate {eigenstate}** is a stable state with precisely defined energy.  
+- It doesn’t change over time unless disturbed, making it ideal for predicting measurement outcomes.  
+- Eigenstates are not the only valid states—most systems exist in superpositions of them.  
+- They underpin energy conservation, atomic structure, and quantum fluctuations.  
+
+[Diagram idea: Particle in a box with energy eigenstates as standing wave patterns]  
+[Diagram idea: Time evolution of a non-eigenstate (oscillating between states) vs. eigenstate (unchanging)]  
+[Diagram idea: Energy levels of a hydrogen atom as horizontal lines, with eigenstates labeled]

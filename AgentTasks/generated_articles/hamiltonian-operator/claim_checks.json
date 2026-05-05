@@ -1,0 +1,28 @@
+{
+  "claim_checks": [
+    {
+      "id": "C001",
+      "verdict": "mostly_supported",
+      "severity": "low",
+      "problem": "The search snippet does not explicitly confirm the 'energy governor' metaphor but provides relevant technical context about the Hamiltonian's role in energy and time evolution",
+      "suggested_fix": "Clarify that the 'energy governor' is an analogy for the Hamiltonian's role in determining energy and dynamics, while noting its mathematical formulation in the Schrödinger equation",
+      "source_quality_note": "The snippet includes educational resources (Numerade, correspondence principle) but also unrelated content about 'Bosa' which may dilute authority"
+    },
+    {
+      "id": "C002",
+      "verdict": "supported",
+      "severity": "low",
+      "problem": "",
+      "suggested_fix": "",
+      "source_quality_note": "The snippet contains authoritative physics explanations from a textbook-style source, including direct references to kinetic/potential energy summation and Schrödinger equation time evolution."
+    }
+  ],
+  "summary": {
+    "overall_claim_quality": "Claim check completed.",
+    "unresolved_or_needs_qualification": 0,
+    "highest_priority_fixes": [
+      "Clarify that the 'energy governor' is an analogy for the Hamiltonian's role in determining energy and dynamics, while noting its mathematical formulation in the Schrödinger equation"
+    ]
+  },
+  "last_updated": "2026-05-04_16-51-30"
+}

@@ -1,0 +1,58 @@
+# Bra-ket Notation
+
+## The core idea  
+Bra-ket notation is a shorthand for quantum states and their interactions. It lets us write quantum states as *kets* (like `|ψ⟩`) and measurement questions as *bras* (like `⟨φ|`). The inner product `⟨φ|ψ⟩` encodes the probability amplitude for transitioning from state `|ψ⟩` to outcome `|φ⟩`, which squares to the probability of that outcome.
+
+---
+
+## Why this matters  
+This notation is essential for calculating probabilities in quantum mechanics. It simplifies writing and manipulating quantum states, making it easier to predict how measurements will affect systems like particles or photons.
+
+---
+
+## The simple picture  
+Imagine a quantum state as a vector pointing in a direction of possibilities (a *ket*). A "measurement question" (a *bra*) asks, "How much of this vector points in the direction of state `|φ⟩`?" The answer, `⟨φ|ψ⟩`, is a probability amplitude—its square tells you the chance of measuring `|φ⟩`.
+
+[Diagram idea: Draw a vector `|ψ⟩` as an arrow and a "measurement probe" `⟨φ|` as a question mark pointing in the same or opposite direction.]
+
+---
+
+## The more precise picture  
+### Kets and Bras  
+- A *ket* `|ψ⟩` represents a quantum state, like a vector in a space of possibilities.  
+- A *bra* `⟨φ|` represents a measurement question: "What is the chance of ending up in state `|φ⟩`?"  
+
+### Inner Products as Probability Amplitudes  
+The inner product `⟨φ|ψ⟩` is the **probability amplitude** for transitioning from `|ψ⟩` to `|φ⟩`. It’s calculated as:  
+`⟨φ|ψ⟩ = |φ⟩† |ψ⟩`  
+(where `†` means conjugate transpose).  
+
+### Probability Calculation  
+The probability of measuring `|φ⟩` when the system is in `|ψ⟩` is:  
+`P(measure |φ⟩) = |⟨φ|ψ⟩|²`  
+
+[Diagram idea: Show `⟨φ|ψ⟩` as the projection of `|ψ⟩` onto `|φ⟩`, with magnitude squared as the probability.]
+
+---
+
+## Common misconceptions  
+- ❌ "Bra-ket notation is just fancy vector notation"  
+  → It’s more than that—it encodes **probabilistic relationships** between states.  
+- ❌ "The inner product `⟨φ|ψ⟩` is the probability"  
+  → It’s the **probability amplitude**; the square of its magnitude is the probability.  
+- ❌ "Bra-ket notation only applies to quantum mechanics"  
+  → It’s also used in classical signal processing, but this article focuses on quantum contexts.  
+
+---
+
+## How this connects to the rest of physics  
+Bra-ket notation is foundational for quantum mechanics, enabling calculations of measurement outcomes and state overlaps. It underpins concepts like superposition, entanglement, and quantum computing. In broader physics, it connects to Hilbert spaces (advanced linear algebra) and the mathematical formalism of quantum field theory.
+
+---
+
+## Recap  
+- **Kets** (`|ψ⟩`) represent quantum states.  
+- **Bras** (`⟨φ|`) represent measurement questions.  
+- The **inner product** `⟨φ|ψ⟩` is a probability amplitude.  
+- `|⟨φ|ψ⟩|²` gives the probability of measuring `|φ⟩` from `|ψ⟩`.  
+- Bra-ket notation simplifies quantum probability calculations.

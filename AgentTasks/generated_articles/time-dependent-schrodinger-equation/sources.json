@@ -1,0 +1,19 @@
+{
+  "sources_by_claim": {
+    "C001": {
+      "claim": "# Time-dependent Schrödinger equation ## The core idea The **time-dependent Schrödinger equation (TDSE)** is the \"quantum clock\" that tells us how a particle’s probability wave evolves over time.",
+      "query": "Time-dependent Schrodinger equation # Time-dependent Schrödinger equation ## The core idea The **time-dependent Schrödinger equation (TDSE)** is the \"quantum physics lecture notes textbook explanation",
+      "result_snippet": "Time-dependent Schrödinger equation (general).The time-dependent Schrödinger equation described above predicts that wave functions can form standing waves, called stationary states. MIT 8.04 Quantum Physics I, Spring 2013View the complete course: http://ocw.mit.edu/8-04S13Instructor: Allan AdamsIn this lecture, Prof. Introduction To Quantum Mechanics Cambridge Core. Schrödinger’s Cat is a thought experiment illustrating quantum superposition. It states if you put a cat in a box with something lethal that is controlled by a random quantum event, the cat is both dead and alive until you open the box and observe it. The solution to Schrödinger's equation yielded the quantum mechanical model of the atom. The quantization of electron energy is required to solve the equation.",
+      "searched_at": "2026-05-04_15-44-19",
+      "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
+    },
+    "C002": {
+      "claim": "It’s the rulebook for how quantum systems change, blending energy, time, and wave-like behavior into a single mathematical recipe.",
+      "query": "Time-dependent Schrodinger equation It’s the rulebook for how quantum systems change, blending energy, time, and wave-like behavior into a physics lecture notes textbook explanation",
+      "result_snippet": "The time-dependent Schrödinger equation described above predicts that wave functions can form standing waves, called stationary states. The Schrodinger's Time Independent Equation is crucial in articulating quantum mechanical systems that are not explicitly dependent on time. This equation provides insight into the stationary states of quantum systems by examining how wave functions behave within these states. the time-dependent Schrödinger equation reduces to the time-independent form.Britannica AI. chevron_right. Quantum mechanics - Time-Dependent, Schrodinger, Equation. The time-dependent Schrödinger equation, is used to find the time dependence of the wavefunction. This equation relates the energy to the first time derivative analogous to the classical wave … The time dependent Schrodinger equation is what you use to evolve state vectors forward in time, whether your Hamiltonian is explicitly time-dependent or not. $\\endgroup$.",
+      "searched_at": "2026-05-04_15-44-21",
+      "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
+    }
+  },
+  "last_updated": "2026-05-04_15-44-21"
+}

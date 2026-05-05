@@ -1,0 +1,41 @@
+---
+title: "Unitary evolution"
+slug: "unitary-evolution"
+---
+
+# Unitary Evolution  
+
+## The core idea  
+Quantum systems evolve over time in a way that **preserves total probability**. Unlike classical systems, where probabilities can "leak" (e.g., a particle hitting a wall and disappearing), quantum evolution is **reversible and deterministic**. Think of it as a rotation in a complex space: the "length" of the state vector (which represents total probability) never changes.  
+
+## Why this matters  
+Unitary evolution is the **fundamental law** governing how quantum states change. It ensures that probabilities always add up to 100%, making quantum mechanics mathematically consistent. This structure underpins quantum computing, quantum cryptography, and the reversibility of quantum processes—contrasting sharply with classical physics, where information can be lost.  
+
+## The simple picture  
+Imagine a spinning top in a complex plane. The top’s position (a quantum state) rotates over time, but its distance from the center (total probability) never changes. In classical physics, a ball rolling downhill might "disappear" over time (losing probability), but in quantum mechanics, the ball’s "shadow" (probability) always fills the space it could occupy.  
+
+[Diagram idea: Hilbert Space Rotation – A vector (state) rotates in a complex plane, with arrows showing unitary transformations.]  
+
+## The more precise picture  
+Quantum states are vectors in a Hilbert space. Unitary evolution is described by a **unitary operator** $ U $, which transforms the state $ |\psi(0)\rangle $ at time $ t=0 $ into $ |\psi(t)\rangle = U|\psi(0)\rangle $.  
+
+- **Probability conservation**: The total probability $ \langle \psi(t)|\psi(t) \rangle = 1 $ always holds because $ U^\dagger U = I $ (identity matrix). This ensures the "length" of the state vector never changes.  
+- **Hamiltonian connection**: Energy dictates the direction of evolution via $ U = e^{-iHt/\hbar} $, where $ H $ is the Hamiltonian (energy operator).  
+
+[Minimal math: Probability conservation: $ \langle \psi(t)|\psi(t) \rangle = \langle \psi(0)|U^\dagger U|\psi(0) \rangle = \langle \psi(0)|\psi(0) \rangle = 1 $.]  
+
+## Common misconceptions  
+- ❌ **"Unitary evolution is just a mathematical trick"** – It’s a **fundamental law** of nature, not an approximation.  
+- ❌ **"Quantum systems behave like classical systems"** – Probabilities are conserved, not deterministic. Classical systems can lose information (e.g., a particle hitting a wall), but quantum systems never do.  
+- ❌ **"Unitary evolution is irreversible"** – Unitary operators have inverse counterparts (unlike dissipative processes like friction).  
+
+[Diagram idea: Probability Conservation – A pie chart showing total probability remains 100% over time.]  
+
+## How this connects to the rest of physics  
+Unitary evolution is tied to **time-translation symmetry** and **energy conservation**. It’s the quantum analog of classical mechanics’ deterministic laws, but with a key difference: probabilities are conserved, not definite outcomes. This structure is essential for understanding quantum computing (where operations must preserve information) and the reversibility of quantum processes.  
+
+## Recap  
+- Unitary evolution preserves total probability, unlike classical systems.  
+- It’s governed by unitary operators, which ensure reversibility.  
+- Energy (via the Hamiltonian) determines the direction of evolution.  
+- This law is foundational to quantum mechanics and distinguishes it from classical physics.

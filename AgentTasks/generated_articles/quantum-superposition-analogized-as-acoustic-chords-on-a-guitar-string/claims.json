@@ -1,0 +1,77 @@
+{
+  "claims": [
+    {
+      "id": "C001",
+      "claim": "Quantum superposition is like a vibrational chord {superposition}: a combination of states rather than physical coexistence.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Clarifies the core concept of superposition as a mathematical combination, avoiding misleading interpretations.",
+      "suggested_search_query": "quantum superposition analogy guitar string"
+    },
+    {
+      "id": "C002",
+      "claim": "A quantum state is a harmonic blend {quantum state} of basis states, mathematically represented as |ψ⟩ = α|0⟩ + β|1⟩.",
+      "type": "mathematical",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Provides the formal structure for understanding superposition and probability amplitudes.",
+      "suggested_search_query": "quantum state representation mathematical"
+    },
+    {
+      "id": "C003",
+      "claim": "Measurement selects one outcome from a superposition, analogous to plucking a string to reveal a specific harmonic.",
+      "type": "mechanism",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Explains how quantum systems transition from superposition to definite outcomes.",
+      "suggested_search_query": "quantum measurement process"
+    },
+    {
+      "id": "C004",
+      "claim": "Superposition is foundational for quantum computing and interference phenomena.",
+      "type": "scope",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Highlights real-world applications and theoretical significance.",
+      "suggested_search_query": "quantum superposition applications"
+    },
+    {
+      "id": "C005",
+      "claim": "A chord is not 'multiple notes at once' but a single sound with layered harmonics, analogous to quantum superposition.",
+      "type": "analogy",
+      "importance": "medium",
+      "needs_external_check": true,
+      "why_it_matters": "Corrects a common misconception about musical chords and their relation to superposition.",
+      "suggested_search_query": "music theory chords vs superposition"
+    },
+    {
+      "id": "C006",
+      "claim": "Quantum states are not classical probabilities; superposition involves coherent combinations that enable interference.",
+      "type": "misconception-correction",
+      "importance": "medium",
+      "needs_external_check": true,
+      "why_it_matters": "Distinguishes quantum superposition from classical statistical mixtures.",
+      "suggested_search_query": "quantum probability vs classical probability"
+    },
+    {
+      "id": "C007",
+      "claim": "The total probability amplitude is normalized: |α|² + |β|² = 1, analogous to harmonic energy distribution in a chord.",
+      "type": "mathematical",
+      "importance": "medium",
+      "needs_external_check": true,
+      "why_it_matters": "Establishes the physical meaning of probability amplitudes in quantum mechanics.",
+      "suggested_search_query": "quantum probability normalization"
+    },
+    {
+      "id": "C008",
+      "claim": "Measurement does not 'destroy' superposition but selects one state from the combination, akin to plucking a string.",
+      "type": "mechanism",
+      "importance": "medium",
+      "needs_external_check": true,
+      "why_it_matters": "Avoids the collapse metaphor, focusing on selection rather than destruction.",
+      "suggested_search_query": "quantum measurement selection process"
+    }
+  ],
+  "last_updated": "2026-05-03_23-09-46"
+}

@@ -1,0 +1,32 @@
+{
+  "claims": [
+    {
+      "id": "C001",
+      "claim": "An observable operator encodes how a physical quantity behaves in a quantum system.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Defines the role of operators in quantum mechanics",
+      "suggested_search_query": "quantum observable operator definition"
+    },
+    {
+      "id": "C002",
+      "claim": "Measuring an observable causes the system to randomly select an eigenvalue from the operator's possible outcomes.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Explains probabilistic measurement outcomes",
+      "suggested_search_query": "quantum measurement eigenvalue selection"
+    },
+    {
+      "id": "C003",
+      "claim": "The eigenstate is the state where the system has a definite value of the observable.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Clarifies the concept of definite measurement results",
+      "suggested_search_query": "quantum eigenstate definition"
+    },
+    {
+      "id": "C004",
+      "claim": "Operators like position {x},

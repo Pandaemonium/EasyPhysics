@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "C:\Projects\EasyPhysics\auto_generate_articles.py", line 2309, in run_one_article_cycle
+    run_role(p, state, "writer", writer_role, required=True)
+  File "C:\Projects\EasyPhysics\auto_generate_articles.py", line 1251, in run_role
+    return func(p, state)
+           ^^^^^^^^^^^^^^
+  File "C:\Projects\EasyPhysics\auto_generate_articles.py", line 1666, in writer_role
+    draft = invoke_llm(p.article_dir, "writer", prompt)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Projects\EasyPhysics\auto_generate_articles.py", line 1559, in invoke_llm
+    raise LLMCallError(f"{node_name} failed after {LLM_MAX_RETRIES + 1} attempt(s): {last_error}")
+LLMCallError: writer failed after 1 attempt(s): LLMCallError('LLM_TIMEOUT_AFTER_480_SECONDS')

@@ -1,0 +1,33 @@
+{
+  "terms": [
+    {
+      "standard_term": "particle",
+      "candidate_name": "localized ripples",
+      "context_quote": "Particles are **localized ripples** {particle} that spread out like waves but stay distinct when detected.",
+      "usefulness": "Emphasizes the dual nature of particles as localized energy patterns that can spread like waves.",
+      "risk": "May confuse with classical ripples, but clarified by context about quantized energy and distinct identity."
+    },
+    {
+      "standard_term": "particle",
+      "candidate_name": "localized ripple",
+      "context_quote": "A **localized ripple** {particle} is a ripple that stays in one place (like a stone in water) but can spread out.",
+      "usefulness": "Simplifies the concept of particles as stable, localized energy patterns with wave-like behavior.",
+      "risk": "Could imply classical particle behavior, but clarified by its wave-like spreading and quantized energy."
+    },
+    {
+      "standard_term": "wave",
+      "candidate_name": "spread ripple",
+      "context_quote": "A **spread ripple** {wave} is a ripple that spreads out (like a pebble in water).",
+      "usefulness": "Highlights the wave-like spreading behavior of particles, making interference and diffraction intuitive.",
+      "risk": "May suggest classical waves, but clarified by its quantum nature and probabilistic behavior."
+    },
+    {
+      "standard_term": "photon",
+      "candidate_name": "localized ripple",
+      "context_quote": "A **photon** {localized ripple} has energy $ E = h f $, where $ h $ is Planck’s constant.",
+      "usefulness": "Ties the quantum concept of photons to the intuitive idea of localized ripples with quantized energy.",
+      "risk": "Could conflate photons with classical particles, but clarified by its wave-like spreading and energy quantization."
+    }
+  ],
+  "last_updated": "2026-05-03_22-32-31"
+}

@@ -1,0 +1,19 @@
+{
+  "terms": [
+    {
+      "standard_term": "LHV",
+      "candidate_name": "local hidden variables",
+      "context_quote": "Local hidden variables {LHV} are like pre-set instructions for particles.",
+      "usefulness": "Describes hidden variables as pre-set instructions, making the concept intuitive for beginners.",
+      "risk": "May confuse with the standard term 'local hidden variables' if not clarified, but low risk due to clear context."
+    },
+    {
+      "standard_term": "Bell inequality",
+      "candidate_name": "the correlation limit",
+      "context_quote": "Bell’s inequality: the correlation limit {Bell inequality}",
+      "usefulness": "Frames Bell’s inequality as a boundary on classical correlations, helping students grasp its role in the proof.",
+      "risk": "Suggests the term is too abstract, but paired with the standard term it remains precise."
+    }
+  ],
+  "last_updated": "2026-05-04_03-54-45"
+}

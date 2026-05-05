@@ -1,0 +1,1224 @@
+
+================================================================================
+TIME: 2026-05-04T15:10:13
+NODE: planner
+PROMPT_CHARS: 481
+PROMPT_TOKENS_APPROX: 120
+RESPONSE_CHARS: 5455
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.85}
+================================================================================
+PROMPT:
+Create a strong teaching outline for this EasyPhysics article:
+
+Title: Schrodinger equation
+
+The outline should include:
+1. Scope: what this article explains.
+2. Out of scope: what it should not try to explain yet.
+3. Prerequisite concepts.
+4. Core intuition.
+5. Suggested descriptive names with standard terms in braces.
+6. Common misconceptions to avoid.
+7. Section-by-section outline.
+8. Optional diagram ideas.
+9. Optional minimal math, with what the math means.
+
+Use Markdown.
+
+RESPONSE:
+# Schrödinger Equation: The Probability Wave Recipe  
+
+---
+
+## 1. Scope  
+This article explains the **Schrödinger equation** as the fundamental "probability wave recipe" in quantum mechanics. It describes how quantum systems evolve over time, using a mathematical equation to predict the probabilities of finding particles in specific states. The focus is on its role in quantum mechanics, not its derivation or advanced mathematical formalism.  
+
+---
+
+## 2. Out of Scope  
+- **Relativistic quantum mechanics** (e.g., Dirac equation)  
+- **Quantum field theory** or **quantum computing** (unless briefly mentioned)  
+- **Historical context** of its discovery  
+- **Functional analysis** or **operator theory** (advanced math)  
+- **Specific applications** like quantum tunneling or the hydrogen atom (unless used as examples)  
+
+---
+
+## 3. Prerequisite Concepts  
+- **Wave-particle duality** (particles behave like waves)  
+- **Probability** (basic concepts: probability distributions, expectation values)  
+- **Calculus basics** (derivatives, integrals)  
+- **Energy conservation** (kinetic and potential energy)  
+- **Complex numbers** (real and imaginary parts, Euler’s formula)  
+
+---
+
+## 4. Core Intuition  
+The **Schrödinger equation** is a mathematical recipe that tells us how the **probability wave** of a quantum system changes over time.  
+- It balances **kinetic energy** (motion) and **potential energy** (position-dependent forces).  
+- The equation’s solution, the **wave function**, encodes all possible information about a system.  
+- Unlike classical physics, it predicts **probabilities**, not definite outcomes.  
+- It’s the "quantum version" of Newton’s laws, but for probability waves.  
+
+---
+
+## 5. Suggested Descriptive Names with Standard Terms in Braces  
+| Descriptive Name               | Standard Term         |  
+|-------------------------------|-----------------------|  
+| Probability wave recipe       | Schrödinger equation  |  
+| Quantum state recipe          | Schrödinger equation  |  
+| Time-evolution recipe         | Schrödinger equation  |  
+| Probability wave              | Wave function         |  
+| Energy balance                | Hamiltonian          |  
+| Quantum state                 | State vector         |  
+| Probability density           | Probability amplitude |  
+
+---
+
+## 6. Common Misconceptions to Avoid  
+- ❌ **The equation describes particles as literal waves.**  
+  → It describes a **probability wave**—a mathematical tool, not a physical wave.  
+- ❌ **The wave function is a physical wave.**  
+  → It’s a **complex-valued function** that encodes probabilities.  
+- ❌ **The equation predicts exact positions.**  
+  → It predicts **probabilities** of finding a particle in a specific location.  
+- ❌ **The equation is a literal "wave equation."**  
+  → It’s a **probability equation** with complex numbers.  
+
+---
+
+## 7. Section-by-Section Outline  
+### **1. Quantum States and Probability Waves**  
+- What is a **quantum state**?  
+- The **wave function** as a probability wave {probability amplitude}.  
+- How probability waves differ from classical waves.  
+
+### **2. The Schrödinger Equation as a Recipe**  
+- Introduce the equation as a "recipe" for time evolution.  
+- Compare to classical equations (e.g., Newton’s laws).  
+- Explain the role of the **Hamiltonian** {energy balance}.  
+
+### **3. Time-Dependent vs. Time-Independent Versions**  
+- **Time-dependent** equation: Full recipe for evolving probabilities.  
+- **Time-independent** equation: Simplified version for steady states.  
+- Example: Particle in a box {infinite potential well}.  
+
+### **4. The Hamiltonian and Energy**  
+- What is the **Hamiltonian** {energy operator}?  
+- How it combines kinetic and potential energy.  
+- Example: Harmonic oscillator.  
+
+### **5. Probability Interpretation**  
+- The **square of the wave function** gives probability density.  
+- Why probabilities matter in quantum mechanics.  
+
+### **6. Applications and Implications**  
+- How the equation explains phenomena like tunneling.  
+- Why it’s essential for modern physics (e.g., semiconductors, lasers).  
+
+---
+
+## 8. Optional Diagram Ideas  
+1. **Wave Function Over Time**: A graph showing how a probability wave evolves.  
+2. **Classical vs. Quantum Equations**: Side-by-side comparison of Newton’s laws and the Schrödinger equation.  
+3. **Particle in a Box**: A diagram of a particle confined to a region with infinite potential walls.  
+4. **Probability Density**: A 3D plot of the wave function’s square.  
+
+---
+
+## 9. Optional Minimal Math  
+### **Basic Form of the Equation**  
+$$
+i\hbar \frac{\partial \psi}{\partial t} = \hat{H} \psi
+$$  
+- **i** is the imaginary unit (sqrt(-1)).  
+- **ħ** is the reduced Planck constant (a tiny number).  
+- **ψ** is the wave function (probability wave).  
+- **Ĥ** is the Hamiltonian operator (energy balance).  
+
+### **Time-Independent Version**  
+$$
+\hat{H} \psi = E \psi
+$$  
+- **E** is the energy of the system (a constant).  
+- This finds "stationary states" where probabilities don’t change over time.  
+
+### **Explanation of Math**  
+- The equation balances how the wave function changes over time (left side) with the total energy (right side).  
+- The imaginary unit **i** ensures the wave function oscillates, reflecting quantum probabilities.  
+
+--- 
+
+This outline balances conceptual clarity with minimal math, avoiding pitfalls while building intuition for quantum mechanics.
+
+================================================================================
+TIME: 2026-05-04T15:14:48
+NODE: writer
+PROMPT_CHARS: 6870
+PROMPT_TOKENS_APPROX: 1717
+RESPONSE_CHARS: 3731
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.85}
+================================================================================
+PROMPT:
+Write a high-quality first draft for this EasyPhysics article.
+
+Title: Schrodinger equation
+
+Article outline:
+# Schrödinger Equation: The Probability Wave Recipe  
+
+---
+
+## 1. Scope  
+This article explains the **Schrödinger equation** as the fundamental "probability wave recipe" in quantum mechanics. It describes how quantum systems evolve over time, using a mathematical equation to predict the probabilities of finding particles in specific states. The focus is on its role in quantum mechanics, not its derivation or advanced mathematical formalism.  
+
+---
+
+## 2. Out of Scope  
+- **Relativistic quantum mechanics** (e.g., Dirac equation)  
+- **Quantum field theory** or **quantum computing** (unless briefly mentioned)  
+- **Historical context** of its discovery  
+- **Functional analysis** or **operator theory** (advanced math)  
+- **Specific applications** like quantum tunneling or the hydrogen atom (unless used as examples)  
+
+---
+
+## 3. Prerequisite Concepts  
+- **Wave-particle duality** (particles behave like waves)  
+- **Probability** (basic concepts: probability distributions, expectation values)  
+- **Calculus basics** (derivatives, integrals)  
+- **Energy conservation** (kinetic and potential energy)  
+- **Complex numbers** (real and imaginary parts, Euler’s formula)  
+
+---
+
+## 4. Core Intuition  
+The **Schrödinger equation** is a mathematical recipe that tells us how the **probability wave** of a quantum system changes over time.  
+- It balances **kinetic energy** (motion) and **potential energy** (position-dependent forces).  
+- The equation’s solution, the **wave function**, encodes all possible information about a system.  
+- Unlike classical physics, it predicts **probabilities**, not definite outcomes.  
+- It’s the "quantum version" of Newton’s laws, but for probability waves.  
+
+---
+
+## 5. Suggested Descriptive Names with Standard Terms in Braces  
+| Descriptive Name               | Standard Term         |  
+|-------------------------------|-----------------------|  
+| Probability wave recipe       | Schrödinger equation  |  
+| Quantum state recipe          | Schrödinger equation  |  
+| Time-evolution recipe         | Schrödinger equation  |  
+| Probability wave              | Wave function         |  
+| Energy balance                | Hamiltonian          |  
+| Quantum state                 | State vector         |  
+| Probability density           | Probability amplitude |  
+
+---
+
+## 6. Common Misconceptions to Avoid  
+- ❌ **The equation describes particles as literal waves.**  
+  → It describes a **probability wave**—a mathematical tool, not a physical wave.  
+- ❌ **The wave function is a physical wave.**  
+  → It’s a **complex-valued function** that encodes probabilities.  
+- ❌ **The equation predicts exact positions.**  
+  → It predicts **probabilities** of finding a particle in a specific location.  
+- ❌ **The equation is a literal "wave equation."**  
+  → It’s a **probability equation** with complex numbers.  
+
+---
+
+## 7. Section-by-Section Outline  
+### **1. Quantum States and Probability Waves**  
+- What is a **quantum state**?  
+- The **wave function** as a probability wave {probability amplitude}.  
+- How probability waves differ from classical waves.  
+
+### **2. The Schrödinger Equation as a Recipe**  
+- Introduce the equation as a "recipe" for time evolution.  
+- Compare to classical equations (e.g., Newton’s laws).  
+- Explain the role of the **Hamiltonian** {energy balance}.  
+
+### **3. Time-Dependent vs. Time-Independent Versions**  
+- **Time-dependent** equation: Full recipe for evolving probabilities.  
+- **Time-independent** equation: Simplified version for steady states.  
+- Example: Particle in a box {infinite potential well}.  
+
+### **4. The Hamiltonian and Energy**  
+- What is the **Hamiltonian** {energy operator}?  
+- How it combines kinetic and potential energy.  
+- Example: Harmonic oscillator.  
+
+### **5. Probability Interpretation**  
+- The **square of the wave function** gives probability density.  
+- Why probabilities matter in quantum mechanics.  
+
+### **6. Applications and Implications**  
+- How the equation explains phenomena like tunneling.  
+- Why it’s essential for modern physics (e.g., semiconductors, lasers).  
+
+---
+
+## 8. Optional Diagram Ideas  
+1. **Wave Function Over Time**: A graph showing how a probability wave evolves.  
+2. **Classical vs. Quantum Equations**: Side-by-side comparison of Newton’s laws and the Schrödinger equation.  
+3. **Particle in a Box**: A diagram of a particle confined to a region with infinite potential walls.  
+4. **Probability Density**: A 3D plot of the wave function’s square.  
+
+---
+
+## 9. Optional Minimal Math  
+### **Basic Form of the Equation**  
+$$
+i\hbar \frac{\partial \psi}{\partial t} = \hat{H} \psi
+$$  
+- **i** is the imaginary unit (sqrt(-1)).  
+- **ħ** is the reduced Planck constant (a tiny number).  
+- **ψ** is the wave function (probability wave).  
+- **Ĥ** is the Hamiltonian operator (energy balance).  
+
+### **Time-Independent Version**  
+$$
+\hat{H} \psi = E \psi
+$$  
+- **E** is the energy of the system (a constant).  
+- This finds "stationary states" where probabilities don’t change over time.  
+
+### **Explanation of Math**  
+- The equation balances how the wave function changes over time (left side) with the total energy (right side).  
+- The imaginary unit **i** ensures the wave function oscillates, reflecting quantum probabilities.  
+
+--- 
+
+This outline balances conceptual clarity with minimal math, avoiding pitfalls while building intuition for quantum mechanics.
+
+Human/editor notes:
+# Human/editor notes
+
+Add any preferences, corrections, or article-specific constraints here.
+
+
+Template guidance:
+Preferred article structure:
+
+# Title
+
+## The core idea
+A short, intuitive explanation that gives the reader the main point first.
+
+## Why this matters
+Explain what the concept helps us understand.
+
+## The simple picture
+Use an analogy, diagram idea, or concrete example.
+
+## The more precise picture
+Introduce standard terms, careful distinctions, and optional minimal math.
+
+## Common misconceptions
+Name and correct the traps.
+
+## How this connects to the rest of physics
+Link the concept to fields, particles, symmetry, conservation, relativity, or the Standard Model as appropriate.
+
+## Recap
+A few concise takeaways.
+
+Drafting instructions:
+- Make it accessible to a motivated high-schooler or college freshman.
+- Teach the modern concept directly rather than narrating historical discovery.
+- Use descriptive names with standard terms in braces, e.g. space-occupier {fermion}.
+- Include common misconceptions and correct them.
+- Include minimal math only when it helps, and explain what the math means.
+- Suggest diagram ideas inline where helpful using this format: [Diagram idea: ...]
+- Output only the article in Markdown, with no commentary before or after.
+
+RESPONSE:
+# Schrödinger Equation: The Probability Wave Recipe  
+
+## The core idea  
+The **Schrödinger equation** is a recipe that tells us how the **probability wave** of a quantum system changes over time. Unlike classical physics, which predicts exact positions and velocities, this equation calculates the **probabilities** of finding a particle in specific places or states. It’s the quantum version of Newton’s laws, but for probability waves instead of forces.  
+
+## Why this matters  
+This equation is the foundation of quantum mechanics. It explains how particles behave like waves, how energy shapes their probabilities, and why quantum systems defy classical intuition. Without it, we couldn’t understand phenomena like tunneling, atomic structure, or the behavior of electrons in materials.  
+
+## The simple picture  
+Imagine a cake recipe that tells you how the cake’s shape evolves as it bakes. The **Schrödinger equation** is like that recipe for a quantum system. It uses the system’s **energy** (ingredients) to predict how the **probability wave** (cake’s shape) changes over time. Unlike a cake, though, the "wave" isn’t physical—it’s a mathematical tool that encodes all possible outcomes.  
+
+[Diagram idea: A probability wave spreading out over time, like ripples in a pond, but with labels showing "probability density" and "energy balance"]  
+
+## The more precise picture  
+The **Schrödinger equation** is written as:  
+$$
+i\hbar \frac{\partial \psi}{\partial t} = \hat{H} \psi
+$$  
+- **ψ** (psi) is the **probability wave** {wave function}, a complex-valued function that encodes all possible outcomes.  
+- **i** is the imaginary unit (sqrt(-1)), which ensures the wave oscillates like a probability.  
+- **ħ** (h-bar) is a tiny constant that links energy to time.  
+- **Ĥ** (Hamiltonian) {energy balance} is the "recipe" that combines **kinetic energy** (motion) and **potential energy** (position-dependent forces).  
+
+There are two versions:  
+1. **Time-dependent**: Full recipe for evolving probabilities (e.g., a particle in motion).  
+2. **Time-independent**: Simplified version for steady states (e.g., an electron in an atom).  
+
+[Diagram idea: Side-by-side comparison of Newton’s laws (classical) and the Schrödinger equation (quantum), showing how both predict motion but with different tools]  
+
+## Common misconceptions  
+- ❌ **The equation describes particles as literal waves.**  
+  → It describes a **probability wave**—a mathematical tool, not a physical wave.  
+- ❌ **The wave function is a physical wave.**  
+  → It’s a **complex-valued function** that encodes probabilities, not a wave in space.  
+- ❌ **The equation predicts exact positions.**  
+  → It predicts **probabilities** of finding a particle in a specific location.  
+- ❌ **The equation is a literal "wave equation."**  
+  → It’s a **probability equation** with complex numbers, not a classical wave equation.  
+
+## How this connects to the rest of physics  
+The Schrödinger equation underpins modern technology:  
+- **Semiconductors** (how electrons behave in materials).  
+- **Lasers** (quantum transitions in atoms).  
+- **Quantum computing** (qubits and superposition).  
+
+It also ties to **energy conservation** (Hamiltonian) and **symmetry principles** in physics. While it’s not used in relativity or quantum field theory, it’s the starting point for understanding quantum systems.  
+
+## Recap  
+- The **Schrödinger equation** is the "probability wave recipe" for quantum systems.  
+- It calculates **probabilities**, not exact outcomes, using energy and complex numbers.  
+- The **wave function** {ψ} encodes all possible information about a system.  
+- It’s essential for understanding everything from atoms to modern technology.
+
+================================================================================
+TIME: 2026-05-04T15:16:41
+NODE: term_collector
+PROMPT_CHARS: 4201
+PROMPT_TOKENS_APPROX: 1050
+RESPONSE_CHARS: 0
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.85}
+================================================================================
+PROMPT:
+Extract the descriptive-name candidates from this draft.
+
+Return JSON with this shape:
+{
+  "terms": [
+    {
+      "standard_term": "fermion",
+      "candidate_name": "space-occupier",
+      "context_quote": "short quote from the draft",
+      "usefulness": "why this name helps",
+      "risk": "how it could mislead, or empty string if low risk"
+    }
+  ]
+}
+
+Only include actual teaching-name candidates, especially phrases followed by standard terms in braces.
+
+Draft:
+# Schrödinger Equation: The Probability Wave Recipe  
+
+## The core idea  
+The **Schrödinger equation** is a recipe that tells us how the **probability wave** of a quantum system changes over time. Unlike classical physics, which predicts exact positions and velocities, this equation calculates the **probabilities** of finding a particle in specific places or states. It’s the quantum version of Newton’s laws, but for probability waves instead of forces.  
+
+## Why this matters  
+This equation is the foundation of quantum mechanics. It explains how particles behave like waves, how energy shapes their probabilities, and why quantum systems defy classical intuition. Without it, we couldn’t understand phenomena like tunneling, atomic structure, or the behavior of electrons in materials.  
+
+## The simple picture  
+Imagine a cake recipe that tells you how the cake’s shape evolves as it bakes. The **Schrödinger equation** is like that recipe for a quantum system. It uses the system’s **energy** (ingredients) to predict how the **probability wave** (cake’s shape) changes over time. Unlike a cake, though, the "wave" isn’t physical—it’s a mathematical tool that encodes all possible outcomes.  
+
+[Diagram idea: A probability wave spreading out over time, like ripples in a pond, but with labels showing "probability density" and "energy balance"]  
+
+## The more precise picture  
+The **Schrödinger equation** is written as:  
+$$
+i\hbar \frac{\partial \psi}{\partial t} = \hat{H} \psi
+$$  
+- **ψ** (psi) is the **probability wave** {wave function}, a complex-valued function that encodes all possible outcomes.  
+- **i** is the imaginary unit (sqrt(-1)), which ensures the wave oscillates like a probability.  
+- **ħ** (h-bar) is a tiny constant that links energy to time.  
+- **Ĥ** (Hamiltonian) {energy balance} is the "recipe" that combines **kinetic energy** (motion) and **potential energy** (position-dependent forces).  
+
+There are two versions:  
+1. **Time-dependent**: Full recipe for evolving probabilities (e.g., a particle in motion).  
+2. **Time-independent**: Simplified version for steady states (e.g., an electron in an atom).  
+
+[Diagram idea: Side-by-side comparison of Newton’s laws (classical) and the Schrödinger equation (quantum), showing how both predict motion but with different tools]  
+
+## Common misconceptions  
+- ❌ **The equation describes particles as literal waves.**  
+  → It describes a **probability wave**—a mathematical tool, not a physical wave.  
+- ❌ **The wave function is a physical wave.**  
+  → It’s a **complex-valued function** that encodes probabilities, not a wave in space.  
+- ❌ **The equation predicts exact positions.**  
+  → It predicts **probabilities** of finding a particle in a specific location.  
+- ❌ **The equation is a literal "wave equation."**  
+  → It’s a **probability equation** with complex numbers, not a classical wave equation.  
+
+## How this connects to the rest of physics  
+The Schrödinger equation underpins modern technology:  
+- **Semiconductors** (how electrons behave in materials).  
+- **Lasers** (quantum transitions in atoms).  
+- **Quantum computing** (qubits and superposition).  
+
+It also ties to **energy conservation** (Hamiltonian) and **symmetry principles** in physics. While it’s not used in relativity or quantum field theory, it’s the starting point for understanding quantum systems.  
+
+## Recap  
+- The **Schrödinger equation** is the "probability wave recipe" for quantum systems.  
+- It calculates **probabilities**, not exact outcomes, using energy and complex numbers.  
+- The **wave function** {ψ} encodes all possible information about a system.  
+- It’s essential for understanding everything from atoms to modern technology.
+
+RESPONSE:
+
+
+================================================================================
+TIME: 2026-05-04T15:19:28
+NODE: claim_extractor
+PROMPT_CHARS: 4725
+PROMPT_TOKENS_APPROX: 1181
+RESPONSE_CHARS: 756
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.85}
+================================================================================
+PROMPT:
+Extract 8 to 12 important scientific and explanatory claims from this article draft.
+
+Return JSON with exactly this shape:
+{
+  "claims": [
+    {
+      "id": "C001",
+      "claim": "A clear, standalone claim from the article.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "brief reason",
+      "suggested_search_query": "stable source search query, not latest-news oriented"
+    }
+  ]
+}
+
+Rules:
+- Do not return an empty claims list unless the draft is empty.
+- Use only valid JSON.
+- Use true/false, not True/False.
+- Do not include Markdown fences.
+- Do not include prose before or after the JSON.
+- Extract claims that matter for scientific correctness.
+- Include claims embedded in analogies if the analogy could mislead.
+- Do not include purely stylistic statements.
+- Search queries should prefer stable sources: textbooks, lecture notes, CERN, Fermilab, university pages.
+
+Article title: Schrodinger equation
+
+Draft:
+# Schrödinger Equation: The Probability Wave Recipe  
+
+## The core idea  
+The **Schrödinger equation** is a recipe that tells us how the **probability wave** of a quantum system changes over time. Unlike classical physics, which predicts exact positions and velocities, this equation calculates the **probabilities** of finding a particle in specific places or states. It’s the quantum version of Newton’s laws, but for probability waves instead of forces.  
+
+## Why this matters  
+This equation is the foundation of quantum mechanics. It explains how particles behave like waves, how energy shapes their probabilities, and why quantum systems defy classical intuition. Without it, we couldn’t understand phenomena like tunneling, atomic structure, or the behavior of electrons in materials.  
+
+## The simple picture  
+Imagine a cake recipe that tells you how the cake’s shape evolves as it bakes. The **Schrödinger equation** is like that recipe for a quantum system. It uses the system’s **energy** (ingredients) to predict how the **probability wave** (cake’s shape) changes over time. Unlike a cake, though, the "wave" isn’t physical—it’s a mathematical tool that encodes all possible outcomes.  
+
+[Diagram idea: A probability wave spreading out over time, like ripples in a pond, but with labels showing "probability density" and "energy balance"]  
+
+## The more precise picture  
+The **Schrödinger equation** is written as:  
+$$
+i\hbar \frac{\partial \psi}{\partial t} = \hat{H} \psi
+$$  
+- **ψ** (psi) is the **probability wave** {wave function}, a complex-valued function that encodes all possible outcomes.  
+- **i** is the imaginary unit (sqrt(-1)), which ensures the wave oscillates like a probability.  
+- **ħ** (h-bar) is a tiny constant that links energy to time.  
+- **Ĥ** (Hamiltonian) {energy balance} is the "recipe" that combines **kinetic energy** (motion) and **potential energy** (position-dependent forces).  
+
+There are two versions:  
+1. **Time-dependent**: Full recipe for evolving probabilities (e.g., a particle in motion).  
+2. **Time-independent**: Simplified version for steady states (e.g., an electron in an atom).  
+
+[Diagram idea: Side-by-side comparison of Newton’s laws (classical) and the Schrödinger equation (quantum), showing how both predict motion but with different tools]  
+
+## Common misconceptions  
+- ❌ **The equation describes particles as literal waves.**  
+  → It describes a **probability wave**—a mathematical tool, not a physical wave.  
+- ❌ **The wave function is a physical wave.**  
+  → It’s a **complex-valued function** that encodes probabilities, not a wave in space.  
+- ❌ **The equation predicts exact positions.**  
+  → It predicts **probabilities** of finding a particle in a specific location.  
+- ❌ **The equation is a literal "wave equation."**  
+  → It’s a **probability equation** with complex numbers, not a classical wave equation.  
+
+## How this connects to the rest of physics  
+The Schrödinger equation underpins modern technology:  
+- **Semiconductors** (how electrons behave in materials).  
+- **Lasers** (quantum transitions in atoms).  
+- **Quantum computing** (qubits and superposition).  
+
+It also ties to **energy conservation** (Hamiltonian) and **symmetry principles** in physics. While it’s not used in relativity or quantum field theory, it’s the starting point for understanding quantum systems.  
+
+## Recap  
+- The **Schrödinger equation** is the "probability wave recipe" for quantum systems.  
+- It calculates **probabilities**, not exact outcomes, using energy and complex numbers.  
+- The **wave function** {ψ} encodes all possible information about a system.  
+- It’s essential for understanding everything from atoms to modern technology.
+
+RESPONSE:
+{
+  "claims": [
+    {
+      "id": "C001",
+      "claim": "The Schrödinger equation is the quantum version of Newton's laws, predicting probabilities instead of exact outcomes.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Establishes the equation's role as the fundamental framework of quantum mechanics.",
+      "suggested_search_query": "Schrödinger equation quantum mechanics foundation"
+    },
+    {
+      "id": "C002",
+      "claim": "The equation is foundational to quantum mechanics, explaining phenomena like tunneling and atomic structure.",
+      "type": "explanation",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Highlights its
+
+================================================================================
+TIME: 2026-05-04T15:22:08
+NODE: claim_checker
+PROMPT_CHARS: 7514
+PROMPT_TOKENS_APPROX: 1878
+RESPONSE_CHARS: 510
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.85}
+================================================================================
+PROMPT:
+Check this one article claim against the available search snippet.
+
+Return JSON with this shape:
+{
+  "id": "C001",
+  "verdict": "supported | mostly_supported | needs_qualification | unsupported | contradicted | not_enough_evidence",
+  "severity": "none | low | medium | high",
+  "problem": "specific issue, or empty string",
+  "suggested_fix": "specific correction to the article, or empty string",
+  "source_quality_note": "brief note about whether the snippets look authoritative"
+}
+
+Rules:
+- Be conservative.
+- If the snippet is weak or absent, say not_enough_evidence.
+- Do not demand advanced nuance beyond the article's beginner scope.
+- Do flag misleading simplifications.
+- Focus on stable accepted physics.
+
+Article title: Schrodinger equation
+
+Claim:
+{
+  "id": "C001",
+  "claim": "# Schrödinger Equation: The Probability Wave Recipe ## The core idea The **Schrödinger equation** is a recipe that tells us how the **probability wave** of a quantum system changes over time.",
+  "type": "fallback-extracted",
+  "importance": "medium",
+  "needs_external_check": true,
+  "why_it_matters": "Automatically extracted fallback claim; review manually.",
+  "suggested_search_query": "Schrodinger equation # Schrödinger Equation: The Probability Wave Recipe ## The core idea The **Schrödinger equation** is a physics lecture notes textbook explanation"
+}
+
+Search snippet:
+{
+  "claim": "# Schrödinger Equation: The Probability Wave Recipe ## The core idea The **Schrödinger equation** is a recipe that tells us how the **probability wave** of a quantum system changes over time.",
+  "query": "Schrodinger equation # Schrödinger Equation: The Probability Wave Recipe ## The core idea The **Schrödinger equation** is a physics lecture notes textbook explanation",
+  "result_snippet": "1 week ago - These are used for calculational convenience and do not represent physical states. Thus, a position-space wave function ... {\\displaystyle \\Psi (x,t)} as used above can be written as the inner product of a time-dependent state vector ... The form of the Schrödinger equation depends on the physical situation. 3 weeks ago - Not all introductory textbooks take the long route and introduce the full Hilbert space machinery, but the focus is on the non-relativistic Schrödinger equation in position representation for certain standard potentials. The following constraints on the wave function are sometimes explicitly formulated for the calculations and physical interpretation to make sense: 2 weeks ago - In January 1926, Schrödinger published in Annalen der Physik the paper \"Quantisierung als Eigenwertproblem\" (Quantization as an Eigenvalue Problem) on wave mechanics and presented w\n\n...[TRUNCATED]...\n\n equation. In this paper, he gave a \"derivation\" of the wave equation for time-independent systems and showed that it gave the correct energy eigenvalues for a hydrogen-like atom. This paper has been universally celebrated as one of the most important achievements of the twentieth century and created a revolution in most areas of quantum mechanics and indeed of all physics and chemistry. March 30, 2026 - Essentially a wave equation, the Schrödinger equation describes the form of the probability waves (or wave functions [see de Broglie wave]) that govern the motion of small particles, and it specifies how these waves are altered by external influences... February 5, 2026 - Here we derive the Schrödinger ... probability amplitude to find the particle at time t at point r→ and the relations E=ℏω, p→=ℏk→ expressing particle energy and momentum in terms of the frequency and wave vector of ...",
+  "searched_at": "2026-05-04_15-19-29",
+  "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
+}
+
+Relevant draft context:
+# Schrödinger Equation: The Probability Wave Recipe  
+
+## The core idea  
+The **Schrödinger equation** is a recipe that tells us how the **probability wave** of a quantum system changes over time. Unlike classical physics, which predicts exact positions and velocities, this equation calculates the **probabilities** of finding a particle in specific places or states. It’s the quantum version of Newton’s laws, but for probability waves instead of forces.  
+
+## Why this matters  
+This equation is the foundation of quantum mechanics. It explains how particles behave like waves, how energy shapes their probabilities, and why quantum systems defy classical intuition. Without it, we couldn’t understand phenomena like tunneling, atomic structure, or the behavior of electrons in materials.  
+
+## The simple picture  
+Imagine a cake recipe that tells you how the cake’s shape evolves as it bakes. The **Schrödinger equation** is like that recipe for a quantum system. It uses the system’s **energy** (ingredients) to predict how the **probability wave** (cake’s shape) changes over time. Unlike a cake, though, the "wave" isn’t physical—it’s a mathematical tool that encodes all possible outcomes.  
+
+[Diagram idea: A probability wave spreading out over time, like ripples in a pond, but with labels showing "probability density" and "energy balance"]  
+
+## The more precise picture  
+The **Schrödinger equation** is written as:  
+$$
+i\hbar \frac{\partial \psi}{\partial t} = \hat{H} \psi
+$$  
+- **ψ** (psi) is the **probability wave** {wave function}, a complex-valued function that encodes all possible outcomes.  
+- **i** is the imaginary unit (sqrt(-1)), which ensures the wave oscillates like a probability.  
+- **ħ** (h-bar) is a tiny constant that links energy to time.  
+- **Ĥ** (Hamiltonian) {energy balance} is the "recipe" that combines **kinetic energy** (motion) and **potential energy** (position-dependent forces).  
+
+There are two versions:  
+1. **Time-dependent**: Full recipe for evolving probabilities (e.g., a particle in motion).  
+2. **Time-independent**: Simplified version for steady states (e.g., an electron in an atom).  
+
+[Diagram idea: Side-by-side comparison of Newton’s laws (classical) and the Schrödinger equation (quantum), showing how both predict motion but with different tools]  
+
+## Common misconceptions  
+- ❌ **The equation describes particles as literal waves.**  
+  → It describes a **probability wave**—a mathematical tool, not a physical wave.  
+- ❌ **The wave function is a physical wave.**  
+  → It’s a **complex-valued function** that encodes probabilities, not a wave in space.  
+- ❌ **The equation predicts exact positions.**  
+  → It predicts **probabilities** of finding a particle in a specific location.  
+- ❌ **The equation is a literal "wave equation."**  
+  → It’s a **probability equation** with complex numbers, not a classical wave equation.  
+
+## How this connects to the rest of physics  
+The Schrödinger equation underpins modern technology:  
+- **Semiconductors** (how electrons behave in materials).  
+- **Lasers** (quantum transitions in atoms).  
+- **Quantum computing** (qubits and superposition).  
+
+It also ties to **energy conservation** (Hamiltonian) and **symmetry principles** in physics. While it’s not used in relativity or quantum field theory, it’s the starting point for understanding quantum systems.  
+
+## Recap  
+- The **Schrödinger equation** is the "probability wave recipe" for quantum systems.  
+- It calculates **probabilities**, not exact outcomes, using energy and complex numbers.  
+- The **wave function** {ψ} encodes all possible information about a system.  
+- It’s essential for understanding everything from atoms to modern technology.
+
+RESPONSE:
+{
+  "id": "C001",
+  "verdict": "mostly_supported",
+  "severity": "low",
+  "problem": "Simplifies the wave function as a 'probability wave' without explicitly noting it's a mathematical tool, not a physical wave",
+  "suggested_fix": "Add clarification that the wave function is a complex-valued mathematical representation, not a physical wave, to avoid common misconceptions",
+  "source_quality_note": "Snippets from textbook explanations and historical physics papers show strong support for the core claim"
+}
+
+================================================================================
+TIME: 2026-05-04T15:23:42
+NODE: claim_checker
+PROMPT_CHARS: 7185
+PROMPT_TOKENS_APPROX: 1796
+RESPONSE_CHARS: 308
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.85}
+================================================================================
+PROMPT:
+Check this one article claim against the available search snippet.
+
+Return JSON with this shape:
+{
+  "id": "C002",
+  "verdict": "supported | mostly_supported | needs_qualification | unsupported | contradicted | not_enough_evidence",
+  "severity": "none | low | medium | high",
+  "problem": "specific issue, or empty string",
+  "suggested_fix": "specific correction to the article, or empty string",
+  "source_quality_note": "brief note about whether the snippets look authoritative"
+}
+
+Rules:
+- Be conservative.
+- If the snippet is weak or absent, say not_enough_evidence.
+- Do not demand advanced nuance beyond the article's beginner scope.
+- Do flag misleading simplifications.
+- Focus on stable accepted physics.
+
+Article title: Schrodinger equation
+
+Claim:
+{
+  "id": "C002",
+  "claim": "Unlike classical physics, which predicts exact positions and velocities, this equation calculates the **probabilities** of finding a particle in specific places or states.",
+  "type": "fallback-extracted",
+  "importance": "medium",
+  "needs_external_check": true,
+  "why_it_matters": "Automatically extracted fallback claim; review manually.",
+  "suggested_search_query": "Schrodinger equation Unlike classical physics, which predicts exact positions and velocities, this equation calculates the **probabilities** of finding physics lecture notes textbook explanation"
+}
+
+Search snippet:
+{
+  "claim": "Unlike classical physics, which predicts exact positions and velocities, this equation calculates the **probabilities** of finding a particle in specific places or states.",
+  "query": "Schrodinger equation Unlike classical physics, which predicts exact positions and velocities, this equation calculates the **probabilities** of finding physics lecture notes textbook explanation",
+  "result_snippet": "It is named after Erwin Schrödinger, an Austrian physicist, who postulated the equation in 1925 and published it in 1926, forming the basis for the work that resulted in his Nobel Prize in Physics in 1933. [2][3][4] Conceptually, the Schrödinger equation is the quantum counterpart of Newton's second law in classical mechanics. The Schrodinger equation is one of the foundational equations in quantum mechanics, describing how fundamental particles like electrons behave on a microscopic scale. In quantum mechanics, particles are treated as waves spread out over space. It differs from classical mechanics, where objects have specific positions and velocities. The Schrödinger equation governs how quantum wavefunctions evolve in time. Full study note: time-dependent and time-independent forms, examples, interpretation, and modern applications. Schrödinger's path to the quantum mechanical wave equation was heuristic and guided more by physical intuition than formal deduction. Here we derive the Schrödinger equation for the particle's wave function Ψ, assuming that the complex function Ψ(t,r→) has a meaning of the probability amplitude to find the particle at time t at point r→ and the relations E=ℏω, p→=ℏk→ ... There is a certain probability of finding the particle at a given location, and the overall pattern is called a probability distribution. Those who developed quantum mechanics devised equations that predicted the probability distribution in various circumstances.",
+  "searched_at": "2026-05-04_15-19-31",
+  "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
+}
+
+Relevant draft context:
+# Schrödinger Equation: The Probability Wave Recipe  
+
+## The core idea  
+The **Schrödinger equation** is a recipe that tells us how the **probability wave** of a quantum system changes over time. Unlike classical physics, which predicts exact positions and velocities, this equation calculates the **probabilities** of finding a particle in specific places or states. It’s the quantum version of Newton’s laws, but for probability waves instead of forces.  
+
+## Why this matters  
+This equation is the foundation of quantum mechanics. It explains how particles behave like waves, how energy shapes their probabilities, and why quantum systems defy classical intuition. Without it, we couldn’t understand phenomena like tunneling, atomic structure, or the behavior of electrons in materials.  
+
+## The simple picture  
+Imagine a cake recipe that tells you how the cake’s shape evolves as it bakes. The **Schrödinger equation** is like that recipe for a quantum system. It uses the system’s **energy** (ingredients) to predict how the **probability wave** (cake’s shape) changes over time. Unlike a cake, though, the "wave" isn’t physical—it’s a mathematical tool that encodes all possible outcomes.  
+
+[Diagram idea: A probability wave spreading out over time, like ripples in a pond, but with labels showing "probability density" and "energy balance"]  
+
+## The more precise picture  
+The **Schrödinger equation** is written as:  
+$$
+i\hbar \frac{\partial \psi}{\partial t} = \hat{H} \psi
+$$  
+- **ψ** (psi) is the **probability wave** {wave function}, a complex-valued function that encodes all possible outcomes.  
+- **i** is the imaginary unit (sqrt(-1)), which ensures the wave oscillates like a probability.  
+- **ħ** (h-bar) is a tiny constant that links energy to time.  
+- **Ĥ** (Hamiltonian) {energy balance} is the "recipe" that combines **kinetic energy** (motion) and **potential energy** (position-dependent forces).  
+
+There are two versions:  
+1. **Time-dependent**: Full recipe for evolving probabilities (e.g., a particle in motion).  
+2. **Time-independent**: Simplified version for steady states (e.g., an electron in an atom).  
+
+[Diagram idea: Side-by-side comparison of Newton’s laws (classical) and the Schrödinger equation (quantum), showing how both predict motion but with different tools]  
+
+## Common misconceptions  
+- ❌ **The equation describes particles as literal waves.**  
+  → It describes a **probability wave**—a mathematical tool, not a physical wave.  
+- ❌ **The wave function is a physical wave.**  
+  → It’s a **complex-valued function** that encodes probabilities, not a wave in space.  
+- ❌ **The equation predicts exact positions.**  
+  → It predicts **probabilities** of finding a particle in a specific location.  
+- ❌ **The equation is a literal "wave equation."**  
+  → It’s a **probability equation** with complex numbers, not a classical wave equation.  
+
+## How this connects to the rest of physics  
+The Schrödinger equation underpins modern technology:  
+- **Semiconductors** (how electrons behave in materials).  
+- **Lasers** (quantum transitions in atoms).  
+- **Quantum computing** (qubits and superposition).  
+
+It also ties to **energy conservation** (Hamiltonian) and **symmetry principles** in physics. While it’s not used in relativity or quantum field theory, it’s the starting point for understanding quantum systems.  
+
+## Recap  
+- The **Schrödinger equation** is the "probability wave recipe" for quantum systems.  
+- It calculates **probabilities**, not exact outcomes, using energy and complex numbers.  
+- The **wave function** {ψ} encodes all possible information about a system.  
+- It’s essential for understanding everything from atoms to modern technology.
+
+RESPONSE:
+{
+  "id": "C002",
+  "verdict": "supported",
+  "severity": "low",
+  "problem": "",
+  "suggested_fix": "",
+  "source_quality_note": "The snippet comes from a stable educational source explaining quantum mechanics fundamentals, confirming the claim about probability calculations in the Schrödinger equation."
+}
+
+================================================================================
+TIME: 2026-05-04T15:25:35
+NODE: term_collector
+PROMPT_CHARS: 4201
+PROMPT_TOKENS_APPROX: 1050
+RESPONSE_CHARS: 0
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.85}
+================================================================================
+PROMPT:
+Extract the descriptive-name candidates from this draft.
+
+Return JSON with this shape:
+{
+  "terms": [
+    {
+      "standard_term": "fermion",
+      "candidate_name": "space-occupier",
+      "context_quote": "short quote from the draft",
+      "usefulness": "why this name helps",
+      "risk": "how it could mislead, or empty string if low risk"
+    }
+  ]
+}
+
+Only include actual teaching-name candidates, especially phrases followed by standard terms in braces.
+
+Draft:
+# Schrödinger Equation: The Probability Wave Recipe  
+
+## The core idea  
+The **Schrödinger equation** is a recipe that tells us how the **probability wave** of a quantum system changes over time. Unlike classical physics, which predicts exact positions and velocities, this equation calculates the **probabilities** of finding a particle in specific places or states. It’s the quantum version of Newton’s laws, but for probability waves instead of forces.  
+
+## Why this matters  
+This equation is the foundation of quantum mechanics. It explains how particles behave like waves, how energy shapes their probabilities, and why quantum systems defy classical intuition. Without it, we couldn’t understand phenomena like tunneling, atomic structure, or the behavior of electrons in materials.  
+
+## The simple picture  
+Imagine a cake recipe that tells you how the cake’s shape evolves as it bakes. The **Schrödinger equation** is like that recipe for a quantum system. It uses the system’s **energy** (ingredients) to predict how the **probability wave** (cake’s shape) changes over time. Unlike a cake, though, the "wave" isn’t physical—it’s a mathematical tool that encodes all possible outcomes.  
+
+[Diagram idea: A probability wave spreading out over time, like ripples in a pond, but with labels showing "probability density" and "energy balance"]  
+
+## The more precise picture  
+The **Schrödinger equation** is written as:  
+$$
+i\hbar \frac{\partial \psi}{\partial t} = \hat{H} \psi
+$$  
+- **ψ** (psi) is the **probability wave** {wave function}, a complex-valued function that encodes all possible outcomes.  
+- **i** is the imaginary unit (sqrt(-1)), which ensures the wave oscillates like a probability.  
+- **ħ** (h-bar) is a tiny constant that links energy to time.  
+- **Ĥ** (Hamiltonian) {energy balance} is the "recipe" that combines **kinetic energy** (motion) and **potential energy** (position-dependent forces).  
+
+There are two versions:  
+1. **Time-dependent**: Full recipe for evolving probabilities (e.g., a particle in motion).  
+2. **Time-independent**: Simplified version for steady states (e.g., an electron in an atom).  
+
+[Diagram idea: Side-by-side comparison of Newton’s laws (classical) and the Schrödinger equation (quantum), showing how both predict motion but with different tools]  
+
+## Common misconceptions  
+- ❌ **The equation describes particles as literal waves.**  
+  → It describes a **probability wave**—a mathematical tool, not a physical wave.  
+- ❌ **The wave function is a physical wave.**  
+  → It’s a **complex-valued function** that encodes probabilities, not a wave in space.  
+- ❌ **The equation predicts exact positions.**  
+  → It predicts **probabilities** of finding a particle in a specific location.  
+- ❌ **The equation is a literal "wave equation."**  
+  → It’s a **probability equation** with complex numbers, not a classical wave equation.  
+
+## How this connects to the rest of physics  
+The Schrödinger equation underpins modern technology:  
+- **Semiconductors** (how electrons behave in materials).  
+- **Lasers** (quantum transitions in atoms).  
+- **Quantum computing** (qubits and superposition).  
+
+It also ties to **energy conservation** (Hamiltonian) and **symmetry principles** in physics. While it’s not used in relativity or quantum field theory, it’s the starting point for understanding quantum systems.  
+
+## Recap  
+- The **Schrödinger equation** is the "probability wave recipe" for quantum systems.  
+- It calculates **probabilities**, not exact outcomes, using energy and complex numbers.  
+- The **wave function** {ψ} encodes all possible information about a system.  
+- It’s essential for understanding everything from atoms to modern technology.
+
+RESPONSE:
+
+
+================================================================================
+TIME: 2026-05-04T15:28:56
+NODE: accessibility_judge
+PROMPT_CHARS: 5932
+PROMPT_TOKENS_APPROX: 1483
+RESPONSE_CHARS: 1256
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.85}
+================================================================================
+PROMPT:
+Score this EasyPhysics article for accessibility using the rubric below.
+
+Accessibility score, 1-10:
+
+10 = Exceptional. A motivated high-schooler can follow the article's main arc without prior exposure.
+     Jargon is introduced only after intuition. Examples are vivid. Math is explained as meaning,
+     not just symbols. The article feels empowering and clear.
+
+9 = Publishable with light human editing. The main idea is easy to follow; jargon is mostly controlled;
+    analogies are helpful; sections flow logically; any math has a plain-language interpretation.
+
+8 = Strong draft. Mostly clear, but has a few dense sections, unexplained terms, abrupt transitions,
+    or analogies that need more setup.
+
+7 = Useful but uneven. A motivated reader could learn from it, but several passages need simplification,
+    clearer examples, or better sequencing.
+
+6 = Borderline. The article contains useful explanations, but assumes too much background or uses too much jargon.
+
+5 = Mixed. Some good paragraphs, but the structure or language would lose many target readers.
+
+4 = Hard to follow. Mostly written for someone who already knows the subject.
+
+3 = Very inaccessible. Dense, abstract, jargon-heavy, or poorly sequenced.
+
+2 = Barely useful to the target audience.
+
+1 = Fails the accessibility goal.
+
+Accessibility judge priorities:
+- Does the opening give the reader an intuitive foothold?
+- Are standard terms introduced after meaning, not before?
+- Are descriptive names useful rather than cutesy or misleading?
+- Are analogies concrete and then carefully limited?
+- Is any math explained in words?
+- Does the article avoid "spooky/magic/weird" framing while still acknowledging counterintuitive ideas?
+- Does each section make the next section easier?
+
+Return JSON with this shape:
+{
+  "score": 1,
+  "pass": false,
+  "strengths": ["specific strength"],
+  "issues": [
+    {
+      "severity": "low | medium | high",
+      "location": "section or paragraph description",
+      "problem": "specific accessibility issue",
+      "suggested_fix": "specific fix"
+    }
+  ],
+  "best_next_revision": "one concise paragraph describing what to improve next"
+}
+
+Article title: Schrodinger equation
+
+Draft:
+# Schrödinger Equation: The Probability Wave Recipe  
+
+## The core idea  
+The **Schrödinger equation** is a recipe that tells us how the **probability wave** of a quantum system changes over time. Unlike classical physics, which predicts exact positions and velocities, this equation calculates the **probabilities** of finding a particle in specific places or states. It’s the quantum version of Newton’s laws, but for probability waves instead of forces.  
+
+## Why this matters  
+This equation is the foundation of quantum mechanics. It explains how particles behave like waves, how energy shapes their probabilities, and why quantum systems defy classical intuition. Without it, we couldn’t understand phenomena like tunneling, atomic structure, or the behavior of electrons in materials.  
+
+## The simple picture  
+Imagine a cake recipe that tells you how the cake’s shape evolves as it bakes. The **Schrödinger equation** is like that recipe for a quantum system. It uses the system’s **energy** (ingredients) to predict how the **probability wave** (cake’s shape) changes over time. Unlike a cake, though, the "wave" isn’t physical—it’s a mathematical tool that encodes all possible outcomes.  
+
+[Diagram idea: A probability wave spreading out over time, like ripples in a pond, but with labels showing "probability density" and "energy balance"]  
+
+## The more precise picture  
+The **Schrödinger equation** is written as:  
+$$
+i\hbar \frac{\partial \psi}{\partial t} = \hat{H} \psi
+$$  
+- **ψ** (psi) is the **probability wave** {wave function}, a complex-valued function that encodes all possible outcomes.  
+- **i** is the imaginary unit (sqrt(-1)), which ensures the wave oscillates like a probability.  
+- **ħ** (h-bar) is a tiny constant that links energy to time.  
+- **Ĥ** (Hamiltonian) {energy balance} is the "recipe" that combines **kinetic energy** (motion) and **potential energy** (position-dependent forces).  
+
+There are two versions:  
+1. **Time-dependent**: Full recipe for evolving probabilities (e.g., a particle in motion).  
+2. **Time-independent**: Simplified version for steady states (e.g., an electron in an atom).  
+
+[Diagram idea: Side-by-side comparison of Newton’s laws (classical) and the Schrödinger equation (quantum), showing how both predict motion but with different tools]  
+
+## Common misconceptions  
+- ❌ **The equation describes particles as literal waves.**  
+  → It describes a **probability wave**—a mathematical tool, not a physical wave.  
+- ❌ **The wave function is a physical wave.**  
+  → It’s a **complex-valued function** that encodes probabilities, not a wave in space.  
+- ❌ **The equation predicts exact positions.**  
+  → It predicts **probabilities** of finding a particle in a specific location.  
+- ❌ **The equation is a literal "wave equation."**  
+  → It’s a **probability equation** with complex numbers, not a classical wave equation.  
+
+## How this connects to the rest of physics  
+The Schrödinger equation underpins modern technology:  
+- **Semiconductors** (how electrons behave in materials).  
+- **Lasers** (quantum transitions in atoms).  
+- **Quantum computing** (qubits and superposition).  
+
+It also ties to **energy conservation** (Hamiltonian) and **symmetry principles** in physics. While it’s not used in relativity or quantum field theory, it’s the starting point for understanding quantum systems.  
+
+## Recap  
+- The **Schrödinger equation** is the "probability wave recipe" for quantum systems.  
+- It calculates **probabilities**, not exact outcomes, using energy and complex numbers.  
+- The **wave function** {ψ} encodes all possible information about a system.  
+- It’s essential for understanding everything from atoms to modern technology.
+
+RESPONSE:
+{
+  "score": 8,
+  "pass": false,
+  "strengths": [
+    "The cake recipe analogy provides a vivid intuitive foothold for quantum probability",
+    "Misconceptions are explicitly addressed with clear corrections",
+    "Connections to real-world applications (semiconductors, lasers) make the topic relevant"
+  ],
+  "issues": [
+    {
+      "severity": "medium",
+      "location": "more precise picture section",
+      "problem": "The term 'Hamiltonian' is introduced as 'energy balance' without explaining its physical meaning",
+      "suggested_fix": "Add a brief explanation that the Hamiltonian represents the total energy of the system (kinetic + potential) and its role in determining probability evolution"
+    },
+    {
+      "severity": "medium",
+      "location": "core idea section",
+      "problem": "The equation is presented without sufficient context about why it's needed beyond the analogy",
+      "suggested_fix": "Add a sentence explaining that the equation formalizes how quantum probabilities evolve over time, analogous to how Newton's laws describe classical motion"
+    },
+    {
+      "severity": "low",
+      "location": "math section",
+      "problem": "The equation is presented without explanation of why complex numbers are necessary
+
+================================================================================
+TIME: 2026-05-04T15:31:48
+NODE: rigor_judge
+PROMPT_CHARS: 7228
+PROMPT_TOKENS_APPROX: 1807
+RESPONSE_CHARS: 1327
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.85}
+================================================================================
+PROMPT:
+Score this EasyPhysics article for scientific rigor using the rubric below.
+
+Rigor score, 1-10:
+
+10 = Exceptional. Scientifically accurate, well-qualified, and careful about analogy limits.
+     No obvious misleading simplifications. Claims align with stable accepted physics.
+
+9 = Publishable with light human editing. No major errors. A few details may need polishing,
+    but the article is safe as an educational explanation.
+
+8 = Strong draft. Mostly accurate but has minor imprecision, missing qualifications, or analogy risks.
+
+7 = Useful but needs scientific review. Contains no catastrophic errors, but some claims are too loose,
+    incomplete, or potentially misleading.
+
+6 = Borderline. Several important corrections or qualifications are needed.
+
+5 = Mixed. The article has valuable explanations but also significant inaccuracies or misleading framings.
+
+4 = Scientifically weak. Multiple substantial errors or serious conceptual muddling.
+
+3 = Very unreliable. The reader would likely learn incorrect physics.
+
+2 = Mostly wrong or confused.
+
+1 = Fails the rigor goal.
+
+Rigor judge priorities:
+- Are definitions compatible with standard physics?
+- Are analogies technically safe, with their limits stated when necessary?
+- Are quantum concepts distinguished correctly: amplitude vs probability, superposition vs ignorance,
+  measurement vs ordinary looking, phase vs probability?
+- Are field/particle/wave descriptions accurate enough for a beginner article?
+- Are conservation, symmetry, force, energy, mass, and spin statements properly qualified?
+- Does the article avoid replacing historical jargon with new misleading jargon?
+- Are open questions distinguished from settled explanations?
+
+Use the claim-check results as context, but judge the final draft itself.
+
+Return JSON with this shape:
+{
+  "score": 1,
+  "pass": false,
+  "strengths": ["specific strength"],
+  "issues": [
+    {
+      "severity": "low | medium | high",
+      "location": "section or paragraph description",
+      "problem": "specific rigor issue",
+      "suggested_fix": "specific fix"
+    }
+  ],
+  "best_next_revision": "one concise paragraph describing what to improve next"
+}
+
+Article title: Schrodinger equation
+
+Claim-check context:
+{
+  "claim_checks": [
+    {
+      "id": "C001",
+      "verdict": "mostly_supported",
+      "severity": "low",
+      "problem": "Simplifies the wave function as a 'probability wave' without explicitly noting it's a mathematical tool, not a physical wave",
+      "suggested_fix": "Add clarification that the wave function is a complex-valued mathematical representation, not a physical wave, to avoid common misconceptions",
+      "source_quality_note": "Snippets from textbook explanations and historical physics papers show strong support for the core claim"
+    },
+    {
+      "id": "C002",
+      "verdict": "supported",
+      "severity": "low",
+      "problem": "",
+      "suggested_fix": "",
+      "source_quality_note": "The snippet comes from a stable educational source explaining quantum mechanics fundamentals, confirming the claim about probability calculations in the Schrödinger equation."
+    }
+  ],
+  "summary": {
+    "overall_claim_quality": "Claim check completed.",
+    "unresolved_or_needs_qualification": 0,
+    "highest_priority_fixes": [
+      "Add clarification that the wave function is a complex-valued mathematical representation, not a physical wave, to avoid common misconceptions"
+    ]
+  },
+  "last_updated": "2026-05-04_15-23-42"
+}
+
+Draft:
+# Schrödinger Equation: The Probability Wave Recipe  
+
+## The core idea  
+The **Schrödinger equation** is a recipe that tells us how the **probability wave** of a quantum system changes over time. Unlike classical physics, which predicts exact positions and velocities, this equation calculates the **probabilities** of finding a particle in specific places or states. It’s the quantum version of Newton’s laws, but for probability waves instead of forces.  
+
+## Why this matters  
+This equation is the foundation of quantum mechanics. It explains how particles behave like waves, how energy shapes their probabilities, and why quantum systems defy classical intuition. Without it, we couldn’t understand phenomena like tunneling, atomic structure, or the behavior of electrons in materials.  
+
+## The simple picture  
+Imagine a cake recipe that tells you how the cake’s shape evolves as it bakes. The **Schrödinger equation** is like that recipe for a quantum system. It uses the system’s **energy** (ingredients) to predict how the **probability wave** (cake’s shape) changes over time. Unlike a cake, though, the "wave" isn’t physical—it’s a mathematical tool that encodes all possible outcomes.  
+
+[Diagram idea: A probability wave spreading out over time, like ripples in a pond, but with labels showing "probability density" and "energy balance"]  
+
+## The more precise picture  
+The **Schrödinger equation** is written as:  
+$$
+i\hbar \frac{\partial \psi}{\partial t} = \hat{H} \psi
+$$  
+- **ψ** (psi) is the **probability wave** {wave function}, a complex-valued function that encodes all possible outcomes.  
+- **i** is the imaginary unit (sqrt(-1)), which ensures the wave oscillates like a probability.  
+- **ħ** (h-bar) is a tiny constant that links energy to time.  
+- **Ĥ** (Hamiltonian) {energy balance} is the "recipe" that combines **kinetic energy** (motion) and **potential energy** (position-dependent forces).  
+
+There are two versions:  
+1. **Time-dependent**: Full recipe for evolving probabilities (e.g., a particle in motion).  
+2. **Time-independent**: Simplified version for steady states (e.g., an electron in an atom).  
+
+[Diagram idea: Side-by-side comparison of Newton’s laws (classical) and the Schrödinger equation (quantum), showing how both predict motion but with different tools]  
+
+## Common misconceptions  
+- ❌ **The equation describes particles as literal waves.**  
+  → It describes a **probability wave**—a mathematical tool, not a physical wave.  
+- ❌ **The wave function is a physical wave.**  
+  → It’s a **complex-valued function** that encodes probabilities, not a wave in space.  
+- ❌ **The equation predicts exact positions.**  
+  → It predicts **probabilities** of finding a particle in a specific location.  
+- ❌ **The equation is a literal "wave equation."**  
+  → It’s a **probability equation** with complex numbers, not a classical wave equation.  
+
+## How this connects to the rest of physics  
+The Schrödinger equation underpins modern technology:  
+- **Semiconductors** (how electrons behave in materials).  
+- **Lasers** (quantum transitions in atoms).  
+- **Quantum computing** (qubits and superposition).  
+
+It also ties to **energy conservation** (Hamiltonian) and **symmetry principles** in physics. While it’s not used in relativity or quantum field theory, it’s the starting point for understanding quantum systems.  
+
+## Recap  
+- The **Schrödinger equation** is the "probability wave recipe" for quantum systems.  
+- It calculates **probabilities**, not exact outcomes, using energy and complex numbers.  
+- The **wave function** {ψ} encodes all possible information about a system.  
+- It’s essential for understanding everything from atoms to modern technology.
+
+RESPONSE:
+{
+  "score": 8,
+  "pass": false,
+  "strengths": [
+    "Clear distinction between classical and quantum probability concepts",
+    "Effective use of analogies with explicit misconception corrections",
+    "Accurate mathematical representation of the Schrödinger equation"
+  ],
+  "issues": [
+    {
+      "severity": "medium",
+      "location": "core idea section",
+      "problem": "The article describes the wave function as a 'probability wave' without sufficient emphasis on its complex-valued nature and mathematical abstraction",
+      "suggested_fix": "Add explicit clarification that the wave function is a complex-valued mathematical tool, not a physical wave, and explain how its square gives probability density"
+    },
+    {
+      "severity": "low",
+      "location": "more precise picture section",
+      "problem": "The term 'probability wave' is used without explicitly differentiating it from classical wave concepts",
+      "suggested_fix": "Add a footnote or parenthetical clarification distinguishing quantum probability waves from classical physical waves"
+    }
+  ],
+  "best_next_revision": "Enhance the explanation of the wave function's complex-valued nature and its relationship to probability density, ensuring the distinction between mathematical abstraction and physical reality is clearly emphasized"
+}

@@ -1,0 +1,121 @@
+
+================================================================================
+TIME: 2026-05-03T23:56:53
+NODE: planner
+PROMPT_CHARS: 536
+PROMPT_TOKENS_APPROX: 134
+RESPONSE_CHARS: 4772
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 64, "num_ctx": 12288, "num_predict": 3072, "temperature": 0.25, "top_p": 0.85}
+================================================================================
+PROMPT:
+Create a strong teaching outline for this EasyPhysics article:
+
+Title: Quantum entanglement as correlated waves, removing the 'spooky action' myth
+
+The outline should include:
+1. Scope: what this article explains.
+2. Out of scope: what it should not try to explain yet.
+3. Prerequisite concepts.
+4. Core intuition.
+5. Suggested descriptive names with standard terms in braces.
+6. Common misconceptions to avoid.
+7. Section-by-section outline.
+8. Optional diagram ideas.
+9. Optional minimal math, with what the math means.
+
+Use Markdown.
+
+RESPONSE:
+```markdown
+# Quantum Entanglement as Correlated Waves: Removing the "Spooky Action" Myth
+
+## 1. Scope: What This Article Explains  
+This article explains **quantum entanglement** as a phenomenon where two particles share a single, interconnected wavefunction. It clarifies how entangled particles exhibit correlated outcomes when measured, without requiring "spooky action at a distance." The focus is on building intuition about waves, shared states, and how quantum mechanics avoids paradoxes through mathematical structure.
+
+---
+
+## 2. Out of Scope: What This Article Does *Not* Explain  
+- **Interpretations of quantum mechanics** (e.g., many-worlds, Copenhagen)  
+- **Bell's theorem** or experimental tests (e.g., Aspect's experiments)  
+- **Quantum computing applications** or technical details of quantum protocols  
+- **Philosophical debates** about reality or locality  
+
+---
+
+## 3. Prerequisite Concepts  
+- **Wave properties** (e.g., interference, superposition)  
+- **Probability** and how outcomes are determined by wave amplitudes  
+- **Particles vs. waves** (basic duality)  
+- **Measurement** in quantum systems (collapse of the wavefunction)  
+
+---
+
+## 4. Core Intuition  
+Quantum entanglement is **not "spooky action"** but a natural consequence of particles sharing a single, interconnected wavefunction. When two particles are entangled:  
+- Their states are described by a **shared wavefunction** {entangled state}.  
+- Measuring one particle instantly determines the state of the other, but this is **not communication**—it’s a reflection of their pre-existing correlation.  
+- The wavefunction encodes all possible outcomes, and measurement "chooses" one outcome probabilistically.  
+
+---
+
+## 5. Suggested Descriptive Names with Standard Terms in Braces  
+| Descriptive Name              | Standard Term {Term} | Notes |  
+|------------------------------|----------------------|-------|  
+| **Correlated wave**          | entangled state      | Emphasizes shared wavefunction |  
+| **Shared wavefunction**       | entangled state      | Highlights interconnectedness |  
+| **Wave correlation**          | entanglement         | Simplifies the idea of linked outcomes |  
+| **Possibility-weight**        | amplitude            | Describes probability in wavefunction |  
+| **Phase-arrow**              | complex phase        | Visualizes wave interference |  
+
+---
+
+## 6. Common Misconceptions to Avoid  
+- ❌ **"Entanglement allows faster-than-light communication"**: No—correlations are pre-existing, not transmitted.  
+- ❌ **"Entangled particles are 'connected' in space"**: They’re described by a single wavefunction, not a physical link.  
+- ❌ **"The wavefunction is a physical object"**: It’s a mathematical tool for calculating probabilities.  
+- ❌ **"Entanglement is 'spooky action'"**: It’s a natural consequence of shared wavefunction math.  
+
+---
+
+## 7. Section-by-Section Outline  
+### **Section 1: Waves and Superposition**  
+- Review basic wave properties (e.g., interference, probability amplitudes).  
+- Introduce superposition: particles exist in multiple states until measured.  
+
+### **Section 2: Entangled States as Shared Waves**  
+- Explain how two particles can share a single wavefunction {entangled state}.  
+- Use the example: `|ψ> = (|0>|1> + |1>|0>)/√2` (minimal math below).  
+
+### **Section 3: Measurement and Collapse**  
+- Describe how measuring one particle "collapses" the shared wavefunction.  
+- Emphasize that outcomes are probabilistic, not deterministic.  
+
+### **Section 4: Debunking "Spooky Action"**  
+- Contrast quantum correlations with classical correlations.  
+- Explain that no information is transmitted faster than light.  
+
+### **Section 5: Real-World Implications**  
+- Briefly mention applications (e.g., quantum cryptography) without technical details.  
+- Reiterate that entanglement is a mathematical structure, not magic.  
+
+---
+
+## 8. Optional Diagram Ideas  
+1. **Shared Wavefunction Diagram**: Two particles with a single wavefunction splitting into correlated states.  
+2. **Measurement Collapse**: A wave splitting into two paths, then collapsing to one outcome.  
+3. **Classical vs. Quantum Correlation**: Side-by-side comparisons of correlated dice rolls vs. entangled particles.  
+
+---
+
+## 9. Optional Minimal Math  
+- **Entangled state equation**:  
+  `|ψ> = (|0>|1> + |1>|0>)/√2`  
+  - This represents a shared wavefunction where particles are in opposite states.  
+  - The `1/√2` normalizes probabilities (each outcome has 50% chance).  
+- **Probability amplitude**:  
+  `|amplitude|² = probability`  
+  - The square of the amplitude gives the chance of measuring a specific outcome.  
+
+**Note**: Math is optional for intuition but helps formalize the shared wavefunction idea.  
+```

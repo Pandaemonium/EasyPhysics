@@ -1,0 +1,1274 @@
+
+================================================================================
+TIME: 2026-05-04T08:13:32
+NODE: planner
+PROMPT_CHARS: 483
+PROMPT_TOKENS_APPROX: 120
+RESPONSE_CHARS: 4429
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.85}
+================================================================================
+PROMPT:
+Create a strong teaching outline for this EasyPhysics article:
+
+Title: Least action principle
+
+The outline should include:
+1. Scope: what this article explains.
+2. Out of scope: what it should not try to explain yet.
+3. Prerequisite concepts.
+4. Core intuition.
+5. Suggested descriptive names with standard terms in braces.
+6. Common misconceptions to avoid.
+7. Section-by-section outline.
+8. Optional diagram ideas.
+9. Optional minimal math, with what the math means.
+
+Use Markdown.
+
+RESPONSE:
+# Least Action Principle: Teaching Outline  
+
+---
+
+## 1. Scope  
+This article explains the **least action principle** as a foundational concept in physics that unifies the behavior of systems in classical mechanics. It describes how physical systems evolve by choosing paths that minimize a quantity called **action**, and how this principle connects to Newton’s laws and energy conservation.  
+
+---
+
+## 2. Out of Scope  
+- **Quantum mechanics**: The least action principle is not directly applicable in quantum systems (though it has analogs).  
+- **Historical development**: This article avoids the 17th–18th century origins of the principle.  
+- **Advanced math**: Variational calculus or Lagrangian mechanics are not explored in depth.  
+- **Specific applications**: Examples like optics or electromagnetism are not covered here.  
+
+---
+
+## 3. Prerequisite Concepts  
+- **Forces and motion**: Newton’s laws of motion.  
+- **Energy**: Kinetic and potential energy, conservation of energy.  
+- **Basic calculus**: Understanding integrals and derivatives (optional, but helpful).  
+
+---
+
+## 4. Core Intuition  
+The **least action principle** is a way to predict how systems move by asking: *Which path does a system take to minimize "action" over time?*  
+- **Action** is a measure of energy over time, combining kinetic and potential energy.  
+- The principle is not about finding the shortest path or fastest route, but the path that balances energy trade-offs.  
+- **Analogy**: Imagine a ball rolling downhill—its path is determined by the "effort" (action) it takes to move, not just distance or speed.  
+
+---
+
+## 5. Suggested Descriptive Names with Standard Terms in Braces  
+| Descriptive Name               | Standard Term         |  
+|-------------------------------|-----------------------|  
+| **Path of minimal effort**    | Least action principle|  
+| **Energy efficiency path**    | Principle of least action|  
+| **Optimal trajectory**        | Action integral       |  
+| **Stationary path**           | Variational principle |  
+
+---
+
+## 6. Common Misconceptions to Avoid  
+- ❌ "Least action means the path with the least distance or time."  
+  → Action is a weighted sum of energy and time, not just distance or speed.  
+- ❌ "All systems choose the path with the least action."  
+  → Some systems have **stationary points** (minima, maxima, or saddle points) in action.  
+- ❌ "The principle is a rule of thumb, not a law."  
+  → It is a **fundamental law** of nature, equivalent to Newton’s laws in classical mechanics.  
+
+---
+
+## 7. Section-by-Section Outline  
+### **Section 1: What is Action?**  
+- Define action as a quantity combining energy and time.  
+- Use the formula: **Action = ∫(Kinetic Energy − Potential Energy) dt**.  
+- Explain that action is not directly measurable but is a tool for prediction.  
+
+### **Section 2: The Principle in Action**  
+- Introduce the idea: Systems choose paths that make action **stationary** (not necessarily minimal).  
+- Contrast with Newton’s laws: Derive equations of motion using the least action principle.  
+
+### **Section 3: Examples**  
+- **Projectile motion**: Show how a ball follows the path of least action.  
+- **Pendulum**: Demonstrate energy trade-offs between kinetic and potential energy.  
+
+### **Section 4: Why It Matters**  
+- Link to energy conservation and Newton’s laws.  
+- Mention its role in unifying physics (e.g., optics, mechanics).  
+
+---
+
+## 8. Optional Diagram Ideas  
+- **Diagram 1**: A graph showing action vs. possible paths, highlighting the minimum.  
+- **Diagram 2**: A ball rolling on a hill, with arrows showing energy trade-offs.  
+- **Diagram 3**: Side-by-side comparison of Newton’s approach vs. least action principle.  
+
+---
+
+## 9. Optional Minimal Math  
+- **Action integral**:  
+  $ S = \int_{t_1}^{t_2} (KE - PE) \, dt $  
+  → *The actual path is the one that makes S as small as possible.*  
+- **Variation concept**:  
+  $ \delta S = 0 $  
+  → *The path is "stationary" under small changes (like a hilltop or valley).*  
+- **Explanation**:  
+  The math finds the path where tiny adjustments to the trajectory don’t change the total action. This is like finding the "lowest point" on a landscape.  
+
+--- 
+
+This outline balances conceptual clarity with intuitive language, avoiding jargon while introducing key terms. It prepares readers to explore deeper topics like Lagrangian mechanics or quantum field theory later.
+
+================================================================================
+TIME: 2026-05-04T08:17:19
+NODE: writer
+PROMPT_CHARS: 5846
+PROMPT_TOKENS_APPROX: 1461
+RESPONSE_CHARS: 2862
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.85}
+================================================================================
+PROMPT:
+Write a high-quality first draft for this EasyPhysics article.
+
+Title: Least action principle
+
+Article outline:
+# Least Action Principle: Teaching Outline  
+
+---
+
+## 1. Scope  
+This article explains the **least action principle** as a foundational concept in physics that unifies the behavior of systems in classical mechanics. It describes how physical systems evolve by choosing paths that minimize a quantity called **action**, and how this principle connects to Newton’s laws and energy conservation.  
+
+---
+
+## 2. Out of Scope  
+- **Quantum mechanics**: The least action principle is not directly applicable in quantum systems (though it has analogs).  
+- **Historical development**: This article avoids the 17th–18th century origins of the principle.  
+- **Advanced math**: Variational calculus or Lagrangian mechanics are not explored in depth.  
+- **Specific applications**: Examples like optics or electromagnetism are not covered here.  
+
+---
+
+## 3. Prerequisite Concepts  
+- **Forces and motion**: Newton’s laws of motion.  
+- **Energy**: Kinetic and potential energy, conservation of energy.  
+- **Basic calculus**: Understanding integrals and derivatives (optional, but helpful).  
+
+---
+
+## 4. Core Intuition  
+The **least action principle** is a way to predict how systems move by asking: *Which path does a system take to minimize "action" over time?*  
+- **Action** is a measure of energy over time, combining kinetic and potential energy.  
+- The principle is not about finding the shortest path or fastest route, but the path that balances energy trade-offs.  
+- **Analogy**: Imagine a ball rolling downhill—its path is determined by the "effort" (action) it takes to move, not just distance or speed.  
+
+---
+
+## 5. Suggested Descriptive Names with Standard Terms in Braces  
+| Descriptive Name               | Standard Term         |  
+|-------------------------------|-----------------------|  
+| **Path of minimal effort**    | Least action principle|  
+| **Energy efficiency path**    | Principle of least action|  
+| **Optimal trajectory**        | Action integral       |  
+| **Stationary path**           | Variational principle |  
+
+---
+
+## 6. Common Misconceptions to Avoid  
+- ❌ "Least action means the path with the least distance or time."  
+  → Action is a weighted sum of energy and time, not just distance or speed.  
+- ❌ "All systems choose the path with the least action."  
+  → Some systems have **stationary points** (minima, maxima, or saddle points) in action.  
+- ❌ "The principle is a rule of thumb, not a law."  
+  → It is a **fundamental law** of nature, equivalent to Newton’s laws in classical mechanics.  
+
+---
+
+## 7. Section-by-Section Outline  
+### **Section 1: What is Action?**  
+- Define action as a quantity combining energy and time.  
+- Use the formula: **Action = ∫(Kinetic Energy − Potential Energy) dt**.  
+- Explain that action is not directly measurable but is a tool for prediction.  
+
+### **Section 2: The Principle in Action**  
+- Introduce the idea: Systems choose paths that make action **stationary** (not necessarily minimal).  
+- Contrast with Newton’s laws: Derive equations of motion using the least action principle.  
+
+### **Section 3: Examples**  
+- **Projectile motion**: Show how a ball follows the path of least action.  
+- **Pendulum**: Demonstrate energy trade-offs between kinetic and potential energy.  
+
+### **Section 4: Why It Matters**  
+- Link to energy conservation and Newton’s laws.  
+- Mention its role in unifying physics (e.g., optics, mechanics).  
+
+---
+
+## 8. Optional Diagram Ideas  
+- **Diagram 1**: A graph showing action vs. possible paths, highlighting the minimum.  
+- **Diagram 2**: A ball rolling on a hill, with arrows showing energy trade-offs.  
+- **Diagram 3**: Side-by-side comparison of Newton’s approach vs. least action principle.  
+
+---
+
+## 9. Optional Minimal Math  
+- **Action integral**:  
+  $ S = \int_{t_1}^{t_2} (KE - PE) \, dt $  
+  → *The actual path is the one that makes S as small as possible.*  
+- **Variation concept**:  
+  $ \delta S = 0 $  
+  → *The path is "stationary" under small changes (like a hilltop or valley).*  
+- **Explanation**:  
+  The math finds the path where tiny adjustments to the trajectory don’t change the total action. This is like finding the "lowest point" on a landscape.  
+
+--- 
+
+This outline balances conceptual clarity with intuitive language, avoiding jargon while introducing key terms. It prepares readers to explore deeper topics like Lagrangian mechanics or quantum field theory later.
+
+Human/editor notes:
+# Human/editor notes
+
+Add any preferences, corrections, or article-specific constraints here.
+
+
+Template guidance:
+Preferred article structure:
+
+# Title
+
+## The core idea
+A short, intuitive explanation that gives the reader the main point first.
+
+## Why this matters
+Explain what the concept helps us understand.
+
+## The simple picture
+Use an analogy, diagram idea, or concrete example.
+
+## The more precise picture
+Introduce standard terms, careful distinctions, and optional minimal math.
+
+## Common misconceptions
+Name and correct the traps.
+
+## How this connects to the rest of physics
+Link the concept to fields, particles, symmetry, conservation, relativity, or the Standard Model as appropriate.
+
+## Recap
+A few concise takeaways.
+
+Drafting instructions:
+- Make it accessible to a motivated high-schooler or college freshman.
+- Teach the modern concept directly rather than narrating historical discovery.
+- Use descriptive names with standard terms in braces, e.g. space-occupier {fermion}.
+- Include common misconceptions and correct them.
+- Include minimal math only when it helps, and explain what the math means.
+- Suggest diagram ideas inline where helpful using this format: [Diagram idea: ...]
+- Output only the article in Markdown, with no commentary before or after.
+
+RESPONSE:
+# Least Action Principle  
+
+## The core idea  
+Physical systems move in ways that minimize a quantity called **action**. Think of action as a measure of "effort" over time—systems choose paths that balance energy trade-offs, not just the shortest or fastest route.  
+
+## Why this matters  
+The least action principle is a **fundamental law** of nature that unifies classical mechanics. It explains how objects move, why energy is conserved, and connects to deeper ideas in physics like relativity and quantum mechanics.  
+
+## The simple picture  
+Imagine a ball rolling downhill. It doesn’t just take the shortest path—it chooses the route that balances the energy it uses to move and the energy stored in its position. This balance is the **least action principle** in action.  
+[Diagram idea: A ball rolling on a hill, with arrows showing energy trade-offs between kinetic and potential energy.]  
+
+## The more precise picture  
+**Action** is a quantity defined as:  
+$$  
+S = \int_{t_1}^{t_2} (KE - PE) \, dt  
+$$  
+where $ KE $ is kinetic energy, $ PE $ is potential energy, and the integral is taken over time.  
+
+Physical systems follow paths that make $ S $ **stationary** (not necessarily minimal). This means tiny changes to the path don’t alter the total action, like finding a hilltop or valley.  
+
+This principle is equivalent to Newton’s laws of motion. For example, a ball’s curved path under gravity arises from minimizing the action integral.  
+
+**Key terms**:  
+- **Action** {action integral}  
+- **Stationary path** {variational principle}  
+- **Energy efficiency path** {principle of least action}  
+
+## Common misconceptions  
+- ❌ "Least action means the path with the least distance or time."  
+  → Action is a weighted sum of energy and time, not just distance or speed.  
+- ❌ "All systems choose the path with the least action."  
+  → Some systems have **stationary points** (minima, maxima, or saddle points) in action.  
+- ❌ "The principle is a rule of thumb, not a law."  
+  → It is a **fundamental law** of nature, equivalent to Newton’s laws in classical mechanics.  
+
+## How this connects to the rest of physics  
+- **Lagrangian mechanics**: The least action principle is the foundation of this framework, used to derive equations of motion for complex systems.  
+- **Optics**: Light follows paths that minimize action (Fermat’s principle), linking classical mechanics to wave behavior.  
+- **Symmetry and conservation**: The principle reveals deep connections between symmetries (like time translation) and conservation laws (like energy).  
+
+## Recap  
+- Action is a balance of energy and time over a path.  
+- Systems choose paths that make action **stationary**, not necessarily minimal.  
+- The principle unifies classical mechanics and connects to advanced physics.  
+- It’s a **fundamental law**, not a guess or approximation.
+
+================================================================================
+TIME: 2026-05-04T08:18:59
+NODE: term_collector
+PROMPT_CHARS: 3332
+PROMPT_TOKENS_APPROX: 833
+RESPONSE_CHARS: 1375
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.85}
+================================================================================
+PROMPT:
+Extract the descriptive-name candidates from this draft.
+
+Return JSON with this shape:
+{
+  "terms": [
+    {
+      "standard_term": "fermion",
+      "candidate_name": "space-occupier",
+      "context_quote": "short quote from the draft",
+      "usefulness": "why this name helps",
+      "risk": "how it could mislead, or empty string if low risk"
+    }
+  ]
+}
+
+Only include actual teaching-name candidates, especially phrases followed by standard terms in braces.
+
+Draft:
+# Least Action Principle  
+
+## The core idea  
+Physical systems move in ways that minimize a quantity called **action**. Think of action as a measure of "effort" over time—systems choose paths that balance energy trade-offs, not just the shortest or fastest route.  
+
+## Why this matters  
+The least action principle is a **fundamental law** of nature that unifies classical mechanics. It explains how objects move, why energy is conserved, and connects to deeper ideas in physics like relativity and quantum mechanics.  
+
+## The simple picture  
+Imagine a ball rolling downhill. It doesn’t just take the shortest path—it chooses the route that balances the energy it uses to move and the energy stored in its position. This balance is the **least action principle** in action.  
+[Diagram idea: A ball rolling on a hill, with arrows showing energy trade-offs between kinetic and potential energy.]  
+
+## The more precise picture  
+**Action** is a quantity defined as:  
+$$  
+S = \int_{t_1}^{t_2} (KE - PE) \, dt  
+$$  
+where $ KE $ is kinetic energy, $ PE $ is potential energy, and the integral is taken over time.  
+
+Physical systems follow paths that make $ S $ **stationary** (not necessarily minimal). This means tiny changes to the path don’t alter the total action, like finding a hilltop or valley.  
+
+This principle is equivalent to Newton’s laws of motion. For example, a ball’s curved path under gravity arises from minimizing the action integral.  
+
+**Key terms**:  
+- **Action** {action integral}  
+- **Stationary path** {variational principle}  
+- **Energy efficiency path** {principle of least action}  
+
+## Common misconceptions  
+- ❌ "Least action means the path with the least distance or time."  
+  → Action is a weighted sum of energy and time, not just distance or speed.  
+- ❌ "All systems choose the path with the least action."  
+  → Some systems have **stationary points** (minima, maxima, or saddle points) in action.  
+- ❌ "The principle is a rule of thumb, not a law."  
+  → It is a **fundamental law** of nature, equivalent to Newton’s laws in classical mechanics.  
+
+## How this connects to the rest of physics  
+- **Lagrangian mechanics**: The least action principle is the foundation of this framework, used to derive equations of motion for complex systems.  
+- **Optics**: Light follows paths that minimize action (Fermat’s principle), linking classical mechanics to wave behavior.  
+- **Symmetry and conservation**: The principle reveals deep connections between symmetries (like time translation) and conservation laws (like energy).  
+
+## Recap  
+- Action is a balance of energy and time over a path.  
+- Systems choose paths that make action **stationary**, not necessarily minimal.  
+- The principle unifies classical mechanics and connects to advanced physics.  
+- It’s a **fundamental law**, not a guess or approximation.
+
+RESPONSE:
+{
+  "terms": [
+    {
+      "standard_term": "action integral",
+      "candidate_name": "Action",
+      "context_quote": "Action is a measure of 'effort' over time—systems choose paths that balance energy trade-offs",
+      "usefulness": "The name 'Action' intuitively suggests a balance between energy and time, aligning with its role as a weighted sum of kinetic and potential energy",
+      "risk": "May imply action is a physical quantity rather than a mathematical construct"
+    },
+    {
+      "standard_term": "variational principle",
+      "candidate_name": "Stationary path",
+      "context_quote": "Physical systems follow paths that make S stationary (not necessarily minimal)",
+      "usefulness": "Highlights the mathematical property of action paths being extrema, which is central to the principle",
+      "risk": "May confuse with 'stationary state' in quantum mechanics"
+    },
+    {
+      "standard,term": "principle of least action",
+      "candidate_name": "Energy efficiency path",
+      "context_quote": "Systems choose the route that balances the energy it uses to move and the energy stored in its position",
+      "usefulness": "Emphasizes the trade-off between energy expenditure and positional energy, making the concept more relatable",
+      "risk": "May suggest the principle is about efficiency rather than mathematical stationarity"
+    }
+  ]
+}
+
+================================================================================
+TIME: 2026-05-04T08:21:32
+NODE: claim_extractor
+PROMPT_CHARS: 3858
+PROMPT_TOKENS_APPROX: 964
+RESPONSE_CHARS: 1492
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.85}
+================================================================================
+PROMPT:
+Extract 8 to 12 important scientific and explanatory claims from this article draft.
+
+Return JSON with exactly this shape:
+{
+  "claims": [
+    {
+      "id": "C001",
+      "claim": "A clear, standalone claim from the article.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "brief reason",
+      "suggested_search_query": "stable source search query, not latest-news oriented"
+    }
+  ]
+}
+
+Rules:
+- Do not return an empty claims list unless the draft is empty.
+- Use only valid JSON.
+- Use true/false, not True/False.
+- Do not include Markdown fences.
+- Do not include prose before or after the JSON.
+- Extract claims that matter for scientific correctness.
+- Include claims embedded in analogies if the analogy could mislead.
+- Do not include purely stylistic statements.
+- Search queries should prefer stable sources: textbooks, lecture notes, CERN, Fermilab, university pages.
+
+Article title: Least action principle
+
+Draft:
+# Least Action Principle  
+
+## The core idea  
+Physical systems move in ways that minimize a quantity called **action**. Think of action as a measure of "effort" over time—systems choose paths that balance energy trade-offs, not just the shortest or fastest route.  
+
+## Why this matters  
+The least action principle is a **fundamental law** of nature that unifies classical mechanics. It explains how objects move, why energy is conserved, and connects to deeper ideas in physics like relativity and quantum mechanics.  
+
+## The simple picture  
+Imagine a ball rolling downhill. It doesn’t just take the shortest path—it chooses the route that balances the energy it uses to move and the energy stored in its position. This balance is the **least action principle** in action.  
+[Diagram idea: A ball rolling on a hill, with arrows showing energy trade-offs between kinetic and potential energy.]  
+
+## The more precise picture  
+**Action** is a quantity defined as:  
+$$  
+S = \int_{t_1}^{t_2} (KE - PE) \, dt  
+$$  
+where $ KE $ is kinetic energy, $ PE $ is potential energy, and the integral is taken over time.  
+
+Physical systems follow paths that make $ S $ **stationary** (not necessarily minimal). This means tiny changes to the path don’t alter the total action, like finding a hilltop or valley.  
+
+This principle is equivalent to Newton’s laws of motion. For example, a ball’s curved path under gravity arises from minimizing the action integral.  
+
+**Key terms**:  
+- **Action** {action integral}  
+- **Stationary path** {variational principle}  
+- **Energy efficiency path** {principle of least action}  
+
+## Common misconceptions  
+- ❌ "Least action means the path with the least distance or time."  
+  → Action is a weighted sum of energy and time, not just distance or speed.  
+- ❌ "All systems choose the path with the least action."  
+  → Some systems have **stationary points** (minima, maxima, or saddle points) in action.  
+- ❌ "The principle is a rule of thumb, not a law."  
+  → It is a **fundamental law** of nature, equivalent to Newton’s laws in classical mechanics.  
+
+## How this connects to the rest of physics  
+- **Lagrangian mechanics**: The least action principle is the foundation of this framework, used to derive equations of motion for complex systems.  
+- **Optics**: Light follows paths that minimize action (Fermat’s principle), linking classical mechanics to wave behavior.  
+- **Symmetry and conservation**: The principle reveals deep connections between symmetries (like time translation) and conservation laws (like energy).  
+
+## Recap  
+- Action is a balance of energy and time over a path.  
+- Systems choose paths that make action **stationary**, not necessarily minimal.  
+- The principle unifies classical mechanics and connects to advanced physics.  
+- It’s a **fundamental law**, not a guess or approximation.
+
+RESPONSE:
+{
+  "claims": [
+    {
+      "id": "C001",
+      "claim": "The least action principle states that physical systems evolve along paths that minimize a quantity called action.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "This principle unifies classical mechanics and connects to modern physics frameworks.",
+      "suggested_search_query": "least action principle definition physics"
+    },
+    {
+      "id": "C002",
+      "claim": "Action is a measure of 'effort' over time, defined as the integral of kinetic energy minus potential energy over a path.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "This mathematical formulation underpins the variational approach to mechanics.",
+      "suggested_search_query": "action integral physics definition"
+    },
+    {
+      "id": "C003",
+      "claim": "The least action principle is a fundamental law of nature, equivalent to Newton's laws in classical mechanics.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "It reveals deep symmetries and conservation laws in physics.",
+      "suggested_search_query": "least action principle fundamental law"
+    },
+    {
+      "id": "C004",
+      "claim": "Physical systems follow paths where the action is stationary (not necessarily minimal), including minima, maxima, or saddle points.",
+
+================================================================================
+TIME: 2026-05-04T08:23:42
+NODE: claim_checker
+PROMPT_CHARS: 6053
+PROMPT_TOKENS_APPROX: 1513
+RESPONSE_CHARS: 719
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.85}
+================================================================================
+PROMPT:
+Check this one article claim against the available search snippet.
+
+Return JSON with this shape:
+{
+  "id": "C001",
+  "verdict": "supported | mostly_supported | needs_qualification | unsupported | contradicted | not_enough_evidence",
+  "severity": "none | low | medium | high",
+  "problem": "specific issue, or empty string",
+  "suggested_fix": "specific correction to the article, or empty string",
+  "source_quality_note": "brief note about whether the snippets look authoritative"
+}
+
+Rules:
+- Be conservative.
+- If the snippet is weak or absent, say not_enough_evidence.
+- Do not demand advanced nuance beyond the article's beginner scope.
+- Do flag misleading simplifications.
+- Focus on stable accepted physics.
+
+Article title: Least action principle
+
+Claim:
+{
+  "id": "C001",
+  "claim": "Think of action as a measure of \"effort\" over time—systems choose paths that balance energy trade-offs, not just the shortest or fastest route.",
+  "type": "fallback-extracted",
+  "importance": "medium",
+  "needs_external_check": true,
+  "why_it_matters": "Automatically extracted fallback claim; review manually.",
+  "suggested_search_query": "Least action principle Think of action as a measure of \"effort\" over time—systems choose paths that balance energy trade-offs, physics lecture notes textbook explanation"
+}
+
+Search snippet:
+{
+  "claim": "Think of action as a measure of \"effort\" over time—systems choose paths that balance energy trade-offs, not just the shortest or fastest route.",
+  "query": "Least action principle Think of action as a measure of \"effort\" over time—systems choose paths that balance energy trade-offs, physics lecture notes textbook explanation",
+  "result_snippet": "Darwin & Evolution: Organisms that survive tend to use minimal energy for maximum return (e.g., cheetahs conserving energy between sprints). Physics: The Principle of Least Action, developed by Maupertuis and Euler (1700s), suggests that systems follow paths that minimize the total action—an early version of the least effort idea. Classical physics is grounded in the Principle of Least Action, yet no comparably general variational framework exists for far-from-equilibrium, dissipative, and path- dependent systems. We introduce the Minimum Effort Principle, formalized through the Minimum Effort Transition Path (METP), which characterizes the empirically realized trajectories connecting dynamically coherent states in ... The Least Effort Principle posits that organisms, whether biological entities or complex systems, will naturally select the path of action that requires the minimum expenditure of resources--primarily energy, time, and attention--to achieve a desired outcome. Tonight, in my Radical Hope community of practice, we explored the Law of Least Effort — showing up across Taoism (Wu Wei), physics (Least Action), and psychology (Zipf's Principle). Find out why the brain chooses the least effort and how that forms habits. A journey into the brain's energy saving, psychoanalysis, and evolution.",
+  "searched_at": "2026-05-04_08-21-33",
+  "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
+}
+
+Relevant draft context:
+# Least Action Principle  
+
+## The core idea  
+Physical systems move in ways that minimize a quantity called **action**. Think of action as a measure of "effort" over time—systems choose paths that balance energy trade-offs, not just the shortest or fastest route.  
+
+## Why this matters  
+The least action principle is a **fundamental law** of nature that unifies classical mechanics. It explains how objects move, why energy is conserved, and connects to deeper ideas in physics like relativity and quantum mechanics.  
+
+## The simple picture  
+Imagine a ball rolling downhill. It doesn’t just take the shortest path—it chooses the route that balances the energy it uses to move and the energy stored in its position. This balance is the **least action principle** in action.  
+[Diagram idea: A ball rolling on a hill, with arrows showing energy trade-offs between kinetic and potential energy.]  
+
+## The more precise picture  
+**Action** is a quantity defined as:  
+$$  
+S = \int_{t_1}^{t_2} (KE - PE) \, dt  
+$$  
+where $ KE $ is kinetic energy, $ PE $ is potential energy, and the integral is taken over time.  
+
+Physical systems follow paths that make $ S $ **stationary** (not necessarily minimal). This means tiny changes to the path don’t alter the total action, like finding a hilltop or valley.  
+
+This principle is equivalent to Newton’s laws of motion. For example, a ball’s curved path under gravity arises from minimizing the action integral.  
+
+**Key terms**:  
+- **Action** {action integral}  
+- **Stationary path** {variational principle}  
+- **Energy efficiency path** {principle of least action}  
+
+## Common misconceptions  
+- ❌ "Least action means the path with the least distance or time."  
+  → Action is a weighted sum of energy and time, not just distance or speed.  
+- ❌ "All systems choose the path with the least action."  
+  → Some systems have **stationary points** (minima, maxima, or saddle points) in action.  
+- ❌ "The principle is a rule of thumb, not a law."  
+  → It is a **fundamental law** of nature, equivalent to Newton’s laws in classical mechanics.  
+
+## How this connects to the rest of physics  
+- **Lagrangian mechanics**: The least action principle is the foundation of this framework, used to derive equations of motion for complex systems.  
+- **Optics**: Light follows paths that minimize action (Fermat’s principle), linking classical mechanics to wave behavior.  
+- **Symmetry and conservation**: The principle reveals deep connections between symmetries (like time translation) and conservation laws (like energy).  
+
+## Recap  
+- Action is a balance of energy and time over a path.  
+- Systems choose paths that make action **stationary**, not necessarily minimal.  
+- The principle unifies classical mechanics and connects to advanced physics.  
+- It’s a **fundamental law**, not a guess or approximation.
+
+RESPONSE:
+{
+  "id": "C001",
+  "verdict": "mostly_supported",
+  "severity": "medium",
+  "problem": "The claim simplifies 'stationary action' as a balance of energy trade-offs, but the precise formulation requires mathematical rigor (variational principle) and acknowledges saddle points/maxima beyond just minimization.",
+  "suggested_fix": "Clarify that action is stationary (not necessarily minimal) and explain the variational principle with the Euler-Lagrange equation as the mathematical foundation.",
+  "source_quality_note": "The snippet mixes physics history with interdisciplinary interpretations; the core principle of least action is supported but contextualized with modern extensions like Minimum Effort Principle."
+}
+
+================================================================================
+TIME: 2026-05-04T08:25:34
+NODE: claim_checker
+PROMPT_CHARS: 5404
+PROMPT_TOKENS_APPROX: 1351
+RESPONSE_CHARS: 679
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.85}
+================================================================================
+PROMPT:
+Check this one article claim against the available search snippet.
+
+Return JSON with this shape:
+{
+  "id": "C002",
+  "verdict": "supported | mostly_supported | needs_qualification | unsupported | contradicted | not_enough_evidence",
+  "severity": "none | low | medium | high",
+  "problem": "specific issue, or empty string",
+  "suggested_fix": "specific correction to the article, or empty string",
+  "source_quality_note": "brief note about whether the snippets look authoritative"
+}
+
+Rules:
+- Be conservative.
+- If the snippet is weak or absent, say not_enough_evidence.
+- Do not demand advanced nuance beyond the article's beginner scope.
+- Do flag misleading simplifications.
+- Focus on stable accepted physics.
+
+Article title: Least action principle
+
+Claim:
+{
+  "id": "C002",
+  "claim": "## Why this matters The least action principle is a **fundamental law** of nature that unifies classical mechanics.",
+  "type": "fallback-extracted",
+  "importance": "medium",
+  "needs_external_check": true,
+  "why_it_matters": "Automatically extracted fallback claim; review manually.",
+  "suggested_search_query": "Least action principle ## Why this matters The least action principle is a **fundamental law** of nature that unifies physics lecture notes textbook explanation"
+}
+
+Search snippet:
+{
+  "claim": "## Why this matters The least action principle is a **fundamental law** of nature that unifies classical mechanics.",
+  "query": "Least action principle ## Why this matters The least action principle is a **fundamental law** of nature that unifies physics lecture notes textbook explanation",
+  "result_snippet": "This article explores the principle of least action, a fundamental concept in physics that states that the path taken by a physical system is the one ... Has the principle of least action been subjected to confirmation and invariance tests similar to other laws? Is least action a property of this ... The discussion centers on the differing opinions regarding the physical meaning of the Principle of Least Action (PLA), with some physicists viewing ... The principle of least action – or, more accurately, the principle of stationary action – is a variational principle that, when applied to the ... After thinking about it for awhile, you realize that this implies that the Principle of Least Action isn't really the Principle of Least Action at ...",
+  "searched_at": "2026-05-04_08-21-36",
+  "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
+}
+
+Relevant draft context:
+# Least Action Principle  
+
+## The core idea  
+Physical systems move in ways that minimize a quantity called **action**. Think of action as a measure of "effort" over time—systems choose paths that balance energy trade-offs, not just the shortest or fastest route.  
+
+## Why this matters  
+The least action principle is a **fundamental law** of nature that unifies classical mechanics. It explains how objects move, why energy is conserved, and connects to deeper ideas in physics like relativity and quantum mechanics.  
+
+## The simple picture  
+Imagine a ball rolling downhill. It doesn’t just take the shortest path—it chooses the route that balances the energy it uses to move and the energy stored in its position. This balance is the **least action principle** in action.  
+[Diagram idea: A ball rolling on a hill, with arrows showing energy trade-offs between kinetic and potential energy.]  
+
+## The more precise picture  
+**Action** is a quantity defined as:  
+$$  
+S = \int_{t_1}^{t_2} (KE - PE) \, dt  
+$$  
+where $ KE $ is kinetic energy, $ PE $ is potential energy, and the integral is taken over time.  
+
+Physical systems follow paths that make $ S $ **stationary** (not necessarily minimal). This means tiny changes to the path don’t alter the total action, like finding a hilltop or valley.  
+
+This principle is equivalent to Newton’s laws of motion. For example, a ball’s curved path under gravity arises from minimizing the action integral.  
+
+**Key terms**:  
+- **Action** {action integral}  
+- **Stationary path** {variational principle}  
+- **Energy efficiency path** {principle of least action}  
+
+## Common misconceptions  
+- ❌ "Least action means the path with the least distance or time."  
+  → Action is a weighted sum of energy and time, not just distance or speed.  
+- ❌ "All systems choose the path with the least action."  
+  → Some systems have **stationary points** (minima, maxima, or saddle points) in action.  
+- ❌ "The principle is a rule of thumb, not a law."  
+  → It is a **fundamental law** of nature, equivalent to Newton’s laws in classical mechanics.  
+
+## How this connects to the rest of physics  
+- **Lagrangian mechanics**: The least action principle is the foundation of this framework, used to derive equations of motion for complex systems.  
+- **Optics**: Light follows paths that minimize action (Fermat’s principle), linking classical mechanics to wave behavior.  
+- **Symmetry and conservation**: The principle reveals deep connections between symmetries (like time translation) and conservation laws (like energy).  
+
+## Recap  
+- Action is a balance of energy and time over a path.  
+- Systems choose paths that make action **stationary**, not necessarily minimal.  
+- The principle unifies classical mechanics and connects to advanced physics.  
+- It’s a **fundamental law**, not a guess or approximation.
+
+RESPONSE:
+{
+  "id": "C002",
+  "verdict": "mostly_supported",
+  "severity": "medium",
+  "problem": "The claim refers to the principle as a 'fundamental law' which may oversimplify its status; while it is a fundamental principle, some physicists debate whether it qualifies as a 'law' in the traditional sense.",
+  "suggested_fix": "Clarify that the principle is a 'fundamental principle' rather than a 'law,' while retaining its role as a unifying framework for classical mechanics.",
+  "source_quality_note": "The snippet references stable physics concepts and variational principles, though it includes some debate about interpretation which reflects ongoing philosophical discussions."
+}
+
+================================================================================
+TIME: 2026-05-04T08:30:20
+NODE: claim_revision
+PROMPT_CHARS: 5429
+PROMPT_TOKENS_APPROX: 1357
+RESPONSE_CHARS: 3219
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.85}
+================================================================================
+PROMPT:
+Revise the article once to address claim-check feedback.
+
+Do not rewrite for its own sake. Fix the scientific issues while preserving accessible language.
+
+Claim-check feedback:
+{
+  "claim_checks": [
+    {
+      "id": "C001",
+      "verdict": "mostly_supported",
+      "severity": "medium",
+      "problem": "The claim simplifies 'stationary action' as a balance of energy trade-offs, but the precise formulation requires mathematical rigor (variational principle) and acknowledges saddle points/maxima beyond just minimization.",
+      "suggested_fix": "Clarify that action is stationary (not necessarily minimal) and explain the variational principle with the Euler-Lagrange equation as the mathematical foundation.",
+      "source_quality_note": "The snippet mixes physics history with interdisciplinary interpretations; the core principle of least action is supported but contextualized with modern extensions like Minimum Effort Principle."
+    },
+    {
+      "id": "C002",
+      "verdict": "mostly_supported",
+      "severity": "medium",
+      "problem": "The claim refers to the principle as a 'fundamental law' which may oversimplify its status; while it is a fundamental principle, some physicists debate whether it qualifies as a 'law' in the traditional sense.",
+      "suggested_fix": "Clarify that the principle is a 'fundamental principle' rather than a 'law,' while retaining its role as a unifying framework for classical mechanics.",
+      "source_quality_note": "The snippet references stable physics concepts and variational principles, though it includes some debate about interpretation which reflects ongoing philosophical discussions."
+    }
+  ],
+  "summary": {
+    "overall_claim_quality": "Claim check completed.",
+    "unresolved_or_needs_qualification": 2,
+    "highest_priority_fixes": [
+      "Clarify that action is stationary (not necessarily minimal) and explain the variational principle with the Euler-Lagrange equation as the mathematical foundation.",
+      "Clarify that the principle is a 'fundamental principle' rather than a 'law,' while retaining its role as a unifying framework for classical mechanics."
+    ]
+  },
+  "last_updated": "2026-05-04_08-25-34"
+}
+
+Current draft:
+# Least Action Principle  
+
+## The core idea  
+Physical systems move in ways that minimize a quantity called **action**. Think of action as a measure of "effort" over time—systems choose paths that balance energy trade-offs, not just the shortest or fastest route.  
+
+## Why this matters  
+The least action principle is a **fundamental law** of nature that unifies classical mechanics. It explains how objects move, why energy is conserved, and connects to deeper ideas in physics like relativity and quantum mechanics.  
+
+## The simple picture  
+Imagine a ball rolling downhill. It doesn’t just take the shortest path—it chooses the route that balances the energy it uses to move and the energy stored in its position. This balance is the **least action principle** in action.  
+[Diagram idea: A ball rolling on a hill, with arrows showing energy trade-offs between kinetic and potential energy.]  
+
+## The more precise picture  
+**Action** is a quantity defined as:  
+$$  
+S = \int_{t_1}^{t_2} (KE - PE) \, dt  
+$$  
+where $ KE $ is kinetic energy, $ PE $ is potential energy, and the integral is taken over time.  
+
+Physical systems follow paths that make $ S $ **stationary** (not necessarily minimal). This means tiny changes to the path don’t alter the total action, like finding a hilltop or valley.  
+
+This principle is equivalent to Newton’s laws of motion. For example, a ball’s curved path under gravity arises from minimizing the action integral.  
+
+**Key terms**:  
+- **Action** {action integral}  
+- **Stationary path** {variational principle}  
+- **Energy efficiency path** {principle of least action}  
+
+## Common misconceptions  
+- ❌ "Least action means the path with the least distance or time."  
+  → Action is a weighted sum of energy and time, not just distance or speed.  
+- ❌ "All systems choose the path with the least action."  
+  → Some systems have **stationary points** (minima, maxima, or saddle points) in action.  
+- ❌ "The principle is a rule of thumb, not a law."  
+  → It is a **fundamental law** of nature, equivalent to Newton’s laws in classical mechanics.  
+
+## How this connects to the rest of physics  
+- **Lagrangian mechanics**: The least action principle is the foundation of this framework, used to derive equations of motion for complex systems.  
+- **Optics**: Light follows paths that minimize action (Fermat’s principle), linking classical mechanics to wave behavior.  
+- **Symmetry and conservation**: The principle reveals deep connections between symmetries (like time translation) and conservation laws (like energy).  
+
+## Recap  
+- Action is a balance of energy and time over a path.  
+- Systems choose paths that make action **stationary**, not necessarily minimal.  
+- The principle unifies classical mechanics and connects to advanced physics.  
+- It’s a **fundamental law**, not a guess or approximation.
+
+Instructions:
+- Correct or qualify unsupported, contradicted, or overstrong claims.
+- Preserve good accessible explanations.
+- Do not add speculative research as settled fact.
+- If an analogy was misleading, either repair it or state its limits.
+- Keep standard terms in braces after descriptive names.
+- Output only the revised article in Markdown.
+
+RESPONSE:
+# Least Action Principle  
+
+## The core idea  
+Physical systems move in ways that minimize a quantity called **action**. Think of action as a measure of "effort" over time—systems choose paths that balance energy trade-offs, not just the shortest or fastest route.  
+
+## Why this matters  
+The least action principle is a **fundamental principle** of nature that unifies classical mechanics. It explains how objects move, why energy is conserved, and connects to deeper ideas in physics like relativity and quantum mechanics. While some physicists debate whether it qualifies as a "law" in the traditional sense, it remains a cornerstone of theoretical physics as a unifying framework.  
+
+## The simple picture  
+Imagine a ball rolling downhill. It doesn’t just take the shortest path—it chooses the route that balances the energy it uses to move and the energy stored in its position. This balance is the **least action principle** in action.  
+[Diagram idea: A ball rolling on a hill, with arrows showing energy trade-offs between kinetic and potential energy.]  
+
+## The more precise picture  
+**Action** is a quantity defined as:  
+$$  
+S = \int_{t_1}^{t_2} (KE - PE) \, dt  
+$$  
+where $ KE $ is kinetic energy, $ PE $ is potential energy, and the integral is taken over time.  
+
+Physical systems follow paths that make $ S $ **stationary** (not necessarily minimal). This means tiny changes to the path don’t alter the total action, like finding a hilltop or valley. The principle is derived from the **variational principle**, where the path is determined by solving the **Euler-Lagrange equation**, which ensures that the action is stationary.  
+
+This principle is equivalent to Newton’s laws of motion. For example, a ball’s curved path under gravity arises from minimizing the action integral.  
+
+**Key terms**:  
+- **Action** {action integral}  
+- **Stationary path** {variational principle}  
+- **Energy efficiency path** {principle of least action}  
+
+## Common misconceptions  
+- ❌ "Least action means the path with the least distance or time."  
+  → Action is a weighted sum of energy and time, not just distance or speed.  
+- ❌ "All systems choose the path with the least action."  
+  → Some systems have **stationary points** (minima, maxima, or saddle points) in action.  
+- ❌ "The principle is a rule of thumb, not a law."  
+  → It is a **fundamental principle** of nature, equivalent to Newton’s laws in classical mechanics.  
+
+## How this connects to the rest of physics  
+- **Lagrangian mechanics**: The least action principle is the foundation of this framework, used to derive equations of motion for complex systems.  
+- **Optics**: Light follows paths that minimize action (Fermat’s principle), linking classical mechanics to wave behavior.  
+- **Symmetry and conservation**: The principle reveals deep connections between symmetries (like time translation) and conservation laws (like energy).  
+
+## Recap  
+- Action is a balance of energy and time over a path.  
+- Systems choose paths that make action **stationary**, not necessarily minimal.  
+- The principle unifies classical mechanics and connects to advanced physics.  
+- It’s a **fundamental principle**, not a guess or approximation.
+
+================================================================================
+TIME: 2026-05-04T08:32:05
+NODE: term_collector
+PROMPT_CHARS: 3689
+PROMPT_TOKENS_APPROX: 922
+RESPONSE_CHARS: 0
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.85}
+================================================================================
+PROMPT:
+Extract the descriptive-name candidates from this draft.
+
+Return JSON with this shape:
+{
+  "terms": [
+    {
+      "standard_term": "fermion",
+      "candidate_name": "space-occupier",
+      "context_quote": "short quote from the draft",
+      "usefulness": "why this name helps",
+      "risk": "how it could mislead, or empty string if low risk"
+    }
+  ]
+}
+
+Only include actual teaching-name candidates, especially phrases followed by standard terms in braces.
+
+Draft:
+# Least Action Principle  
+
+## The core idea  
+Physical systems move in ways that minimize a quantity called **action**. Think of action as a measure of "effort" over time—systems choose paths that balance energy trade-offs, not just the shortest or fastest route.  
+
+## Why this matters  
+The least action principle is a **fundamental principle** of nature that unifies classical mechanics. It explains how objects move, why energy is conserved, and connects to deeper ideas in physics like relativity and quantum mechanics. While some physicists debate whether it qualifies as a "law" in the traditional sense, it remains a cornerstone of theoretical physics as a unifying framework.  
+
+## The simple picture  
+Imagine a ball rolling downhill. It doesn’t just take the shortest path—it chooses the route that balances the energy it uses to move and the energy stored in its position. This balance is the **least action principle** in action.  
+[Diagram idea: A ball rolling on a hill, with arrows showing energy trade-offs between kinetic and potential energy.]  
+
+## The more precise picture  
+**Action** is a quantity defined as:  
+$$  
+S = \int_{t_1}^{t_2} (KE - PE) \, dt  
+$$  
+where $ KE $ is kinetic energy, $ PE $ is potential energy, and the integral is taken over time.  
+
+Physical systems follow paths that make $ S $ **stationary** (not necessarily minimal). This means tiny changes to the path don’t alter the total action, like finding a hilltop or valley. The principle is derived from the **variational principle**, where the path is determined by solving the **Euler-Lagrange equation**, which ensures that the action is stationary.  
+
+This principle is equivalent to Newton’s laws of motion. For example, a ball’s curved path under gravity arises from minimizing the action integral.  
+
+**Key terms**:  
+- **Action** {action integral}  
+- **Stationary path** {variational principle}  
+- **Energy efficiency path** {principle of least action}  
+
+## Common misconceptions  
+- ❌ "Least action means the path with the least distance or time."  
+  → Action is a weighted sum of energy and time, not just distance or speed.  
+- ❌ "All systems choose the path with the least action."  
+  → Some systems have **stationary points** (minima, maxima, or saddle points) in action.  
+- ❌ "The principle is a rule of thumb, not a law."  
+  → It is a **fundamental principle** of nature, equivalent to Newton’s laws in classical mechanics.  
+
+## How this connects to the rest of physics  
+- **Lagrangian mechanics**: The least action principle is the foundation of this framework, used to derive equations of motion for complex systems.  
+- **Optics**: Light follows paths that minimize action (Fermat’s principle), linking classical mechanics to wave behavior.  
+- **Symmetry and conservation**: The principle reveals deep connections between symmetries (like time translation) and conservation laws (like energy).  
+
+## Recap  
+- Action is a balance of energy and time over a path.  
+- Systems choose paths that make action **stationary**, not necessarily minimal.  
+- The principle unifies classical mechanics and connects to advanced physics.  
+- It’s a **fundamental principle**, not a guess or approximation.
+
+RESPONSE:
+
+
+================================================================================
+TIME: 2026-05-04T08:35:16
+NODE: accessibility_judge
+PROMPT_CHARS: 5422
+PROMPT_TOKENS_APPROX: 1355
+RESPONSE_CHARS: 842
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.85}
+================================================================================
+PROMPT:
+Score this EasyPhysics article for accessibility using the rubric below.
+
+Accessibility score, 1-10:
+
+10 = Exceptional. A motivated high-schooler can follow the article's main arc without prior exposure.
+     Jargon is introduced only after intuition. Examples are vivid. Math is explained as meaning,
+     not just symbols. The article feels empowering and clear.
+
+9 = Publishable with light human editing. The main idea is easy to follow; jargon is mostly controlled;
+    analogies are helpful; sections flow logically; any math has a plain-language interpretation.
+
+8 = Strong draft. Mostly clear, but has a few dense sections, unexplained terms, abrupt transitions,
+    or analogies that need more setup.
+
+7 = Useful but uneven. A motivated reader could learn from it, but several passages need simplification,
+    clearer examples, or better sequencing.
+
+6 = Borderline. The article contains useful explanations, but assumes too much background or uses too much jargon.
+
+5 = Mixed. Some good paragraphs, but the structure or language would lose many target readers.
+
+4 = Hard to follow. Mostly written for someone who already knows the subject.
+
+3 = Very inaccessible. Dense, abstract, jargon-heavy, or poorly sequenced.
+
+2 = Barely useful to the target audience.
+
+1 = Fails the accessibility goal.
+
+Accessibility judge priorities:
+- Does the opening give the reader an intuitive foothold?
+- Are standard terms introduced after meaning, not before?
+- Are descriptive names useful rather than cutesy or misleading?
+- Are analogies concrete and then carefully limited?
+- Is any math explained in words?
+- Does the article avoid "spooky/magic/weird" framing while still acknowledging counterintuitive ideas?
+- Does each section make the next section easier?
+
+Return JSON with this shape:
+{
+  "score": 1,
+  "pass": false,
+  "strengths": ["specific strength"],
+  "issues": [
+    {
+      "severity": "low | medium | high",
+      "location": "section or paragraph description",
+      "problem": "specific accessibility issue",
+      "suggested_fix": "specific fix"
+    }
+  ],
+  "best_next_revision": "one concise paragraph describing what to improve next"
+}
+
+Article title: Least action principle
+
+Draft:
+# Least Action Principle  
+
+## The core idea  
+Physical systems move in ways that minimize a quantity called **action**. Think of action as a measure of "effort" over time—systems choose paths that balance energy trade-offs, not just the shortest or fastest route.  
+
+## Why this matters  
+The least action principle is a **fundamental principle** of nature that unifies classical mechanics. It explains how objects move, why energy is conserved, and connects to deeper ideas in physics like relativity and quantum mechanics. While some physicists debate whether it qualifies as a "law" in the traditional sense, it remains a cornerstone of theoretical physics as a unifying framework.  
+
+## The simple picture  
+Imagine a ball rolling downhill. It doesn’t just take the shortest path—it chooses the route that balances the energy it uses to move and the energy stored in its position. This balance is the **least action principle** in action.  
+[Diagram idea: A ball rolling on a hill, with arrows showing energy trade-offs between kinetic and potential energy.]  
+
+## The more precise picture  
+**Action** is a quantity defined as:  
+$$  
+S = \int_{t_1}^{t_2} (KE - PE) \, dt  
+$$  
+where $ KE $ is kinetic energy, $ PE $ is potential energy, and the integral is taken over time.  
+
+Physical systems follow paths that make $ S $ **stationary** (not necessarily minimal). This means tiny changes to the path don’t alter the total action, like finding a hilltop or valley. The principle is derived from the **variational principle**, where the path is determined by solving the **Euler-Lagrange equation**, which ensures that the action is stationary.  
+
+This principle is equivalent to Newton’s laws of motion. For example, a ball’s curved path under gravity arises from minimizing the action integral.  
+
+**Key terms**:  
+- **Action** {action integral}  
+- **Stationary path** {variational principle}  
+- **Energy efficiency path** {principle of least action}  
+
+## Common misconceptions  
+- ❌ "Least action means the path with the least distance or time."  
+  → Action is a weighted sum of energy and time, not just distance or speed.  
+- ❌ "All systems choose the path with the least action."  
+  → Some systems have **stationary points** (minima, maxima, or saddle points) in action.  
+- ❌ "The principle is a rule of thumb, not a law."  
+  → It is a **fundamental principle** of nature, equivalent to Newton’s laws in classical mechanics.  
+
+## How this connects to the rest of physics  
+- **Lagrangian mechanics**: The least action principle is the foundation of this framework, used to derive equations of motion for complex systems.  
+- **Optics**: Light follows paths that minimize action (Fermat’s principle), linking classical mechanics to wave behavior.  
+- **Symmetry and conservation**: The principle reveals deep connections between symmetries (like time translation) and conservation laws (like energy).  
+
+## Recap  
+- Action is a balance of energy and time over a path.  
+- Systems choose paths that make action **stationary**, not necessarily minimal.  
+- The principle unifies classical mechanics and connects to advanced physics.  
+- It’s a **fundamental principle**, not a guess or approximation.
+
+RESPONSE:
+{
+  "score": 8,
+  "pass": false,
+  "strengths": [
+    "Clear intuitive foothold with the ball rolling downhill analogy",
+    "Standard terms introduced after conceptual explanation",
+    "Strong connections to broader physics concepts like optics and symmetry"
+  ],
+  "issues": [
+    {
+      "severity": "medium",
+      "location": "more precise picture section",
+      "problem": "Math equation is presented without sufficient explanation of integral notation",
+      "suggested_fix": "Add a brief explanation of what the integral represents (accumulated energy difference over time)"
+    },
+    {
+      "severity": "medium",
+      "location": "key terms section",
+      "problem": "Term 'stationary path' is defined only through its standard name without conceptual explanation",
+      "suggested_fix": "Clarify that 'stationary path' means
+
+================================================================================
+TIME: 2026-05-04T08:38:54
+NODE: rigor_judge
+PROMPT_CHARS: 7479
+PROMPT_TOKENS_APPROX: 1869
+RESPONSE_CHARS: 23
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.85}
+================================================================================
+PROMPT:
+Score this EasyPhysics article for scientific rigor using the rubric below.
+
+Rigor score, 1-10:
+
+10 = Exceptional. Scientifically accurate, well-qualified, and careful about analogy limits.
+     No obvious misleading simplifications. Claims align with stable accepted physics.
+
+9 = Publishable with light human editing. No major errors. A few details may need polishing,
+    but the article is safe as an educational explanation.
+
+8 = Strong draft. Mostly accurate but has minor imprecision, missing qualifications, or analogy risks.
+
+7 = Useful but needs scientific review. Contains no catastrophic errors, but some claims are too loose,
+    incomplete, or potentially misleading.
+
+6 = Borderline. Several important corrections or qualifications are needed.
+
+5 = Mixed. The article has valuable explanations but also significant inaccuracies or misleading framings.
+
+4 = Scientifically weak. Multiple substantial errors or serious conceptual muddling.
+
+3 = Very unreliable. The reader would likely learn incorrect physics.
+
+2 = Mostly wrong or confused.
+
+1 = Fails the rigor goal.
+
+Rigor judge priorities:
+- Are definitions compatible with standard physics?
+- Are analogies technically safe, with their limits stated when necessary?
+- Are quantum concepts distinguished correctly: amplitude vs probability, superposition vs ignorance,
+  measurement vs ordinary looking, phase vs probability?
+- Are field/particle/wave descriptions accurate enough for a beginner article?
+- Are conservation, symmetry, force, energy, mass, and spin statements properly qualified?
+- Does the article avoid replacing historical jargon with new misleading jargon?
+- Are open questions distinguished from settled explanations?
+
+Use the claim-check results as context, but judge the final draft itself.
+
+Return JSON with this shape:
+{
+  "score": 1,
+  "pass": false,
+  "strengths": ["specific strength"],
+  "issues": [
+    {
+      "severity": "low | medium | high",
+      "location": "section or paragraph description",
+      "problem": "specific rigor issue",
+      "suggested_fix": "specific fix"
+    }
+  ],
+  "best_next_revision": "one concise paragraph describing what to improve next"
+}
+
+Article title: Least action principle
+
+Claim-check context:
+{
+  "claim_checks": [
+    {
+      "id": "C001",
+      "verdict": "mostly_supported",
+      "severity": "medium",
+      "problem": "The claim simplifies 'stationary action' as a balance of energy trade-offs, but the precise formulation requires mathematical rigor (variational principle) and acknowledges saddle points/maxima beyond just minimization.",
+      "suggested_fix": "Clarify that action is stationary (not necessarily minimal) and explain the variational principle with the Euler-Lagrange equation as the mathematical foundation.",
+      "source_quality_note": "The snippet mixes physics history with interdisciplinary interpretations; the core principle of least action is supported but contextualized with modern extensions like Minimum Effort Principle."
+    },
+    {
+      "id": "C002",
+      "verdict": "mostly_supported",
+      "severity": "medium",
+      "problem": "The claim refers to the principle as a 'fundamental law' which may oversimplify its status; while it is a fundamental principle, some physicists debate whether it qualifies as a 'law' in the traditional sense.",
+      "suggested_fix": "Clarify that the principle is a 'fundamental principle' rather than a 'law,' while retaining its role as a unifying framework for classical mechanics.",
+      "source_quality_note": "The snippet references stable physics concepts and variational principles, though it includes some debate about interpretation which reflects ongoing philosophical discussions."
+    }
+  ],
+  "summary": {
+    "overall_claim_quality": "Claim check completed.",
+    "unresolved_or_needs_qualification": 2,
+    "highest_priority_fixes": [
+      "Clarify that action is stationary (not necessarily minimal) and explain the variational principle with the Euler-Lagrange equation as the mathematical foundation.",
+      "Clarify that the principle is a 'fundamental principle' rather than a 'law,' while retaining its role as a unifying framework for classical mechanics."
+    ]
+  },
+  "last_updated": "2026-05-04_08-25-34"
+}
+
+Draft:
+# Least Action Principle  
+
+## The core idea  
+Physical systems move in ways that minimize a quantity called **action**. Think of action as a measure of "effort" over time—systems choose paths that balance energy trade-offs, not just the shortest or fastest route.  
+
+## Why this matters  
+The least action principle is a **fundamental principle** of nature that unifies classical mechanics. It explains how objects move, why energy is conserved, and connects to deeper ideas in physics like relativity and quantum mechanics. While some physicists debate whether it qualifies as a "law" in the traditional sense, it remains a cornerstone of theoretical physics as a unifying framework.  
+
+## The simple picture  
+Imagine a ball rolling downhill. It doesn’t just take the shortest path—it chooses the route that balances the energy it uses to move and the energy stored in its position. This balance is the **least action principle** in action.  
+[Diagram idea: A ball rolling on a hill, with arrows showing energy trade-offs between kinetic and potential energy.]  
+
+## The more precise picture  
+**Action** is a quantity defined as:  
+$$  
+S = \int_{t_1}^{t_2} (KE - PE) \, dt  
+$$  
+where $ KE $ is kinetic energy, $ PE $ is potential energy, and the integral is taken over time.  
+
+Physical systems follow paths that make $ S $ **stationary** (not necessarily minimal). This means tiny changes to the path don’t alter the total action, like finding a hilltop or valley. The principle is derived from the **variational principle**, where the path is determined by solving the **Euler-Lagrange equation**, which ensures that the action is stationary.  
+
+This principle is equivalent to Newton’s laws of motion. For example, a ball’s curved path under gravity arises from minimizing the action integral.  
+
+**Key terms**:  
+- **Action** {action integral}  
+- **Stationary path** {variational principle}  
+- **Energy efficiency path** {principle of least action}  
+
+## Common misconceptions  
+- ❌ "Least action means the path with the least distance or time."  
+  → Action is a weighted sum of energy and time, not just distance or speed.  
+- ❌ "All systems choose the path with the least action."  
+  → Some systems have **stationary points** (minima, maxima, or saddle points) in action.  
+- ❌ "The principle is a rule of thumb, not a law."  
+  → It is a **fundamental principle** of nature, equivalent to Newton’s laws in classical mechanics.  
+
+## How this connects to the rest of physics  
+- **Lagrangian mechanics**: The least action principle is the foundation of this framework, used to derive equations of motion for complex systems.  
+- **Optics**: Light follows paths that minimize action (Fermat’s principle), linking classical mechanics to wave behavior.  
+- **Symmetry and conservation**: The principle reveals deep connections between symmetries (like time translation) and conservation laws (like energy).  
+
+## Recap  
+- Action is a balance of energy and time over a path.  
+- Systems choose paths that make action **stationary**, not necessarily minimal.  
+- The principle unifies classical mechanics and connects to advanced physics.  
+- It’s a **fundamental principle**, not a guess or approximation.
+
+RESPONSE:
+{
+  "score": 8,
+  "pass

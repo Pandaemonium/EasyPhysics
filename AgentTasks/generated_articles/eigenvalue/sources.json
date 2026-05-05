@@ -1,0 +1,19 @@
+{
+  "sources_by_claim": {
+    "C001": {
+      "claim": "# Eigenvalue ## The core idea Eigenvalues are **scaling factors** that tell you how much a vector is stretched or squashed when a transformation is applied—*without changing its direction*.",
+      "query": "Eigenvalue # Eigenvalue ## The core idea Eigenvalues are **scaling factors** that tell you how much a physics lecture notes textbook explanation",
+      "result_snippet": "More generally, the eigenvalue is degenerate and the probability is given by.In the language of linear algebra, this equation is an eigenvalue equation. Therefore, the wave function is an eigenfunction of the Hamiltonian operator with corresponding eigenvalue(s). About Press Copyright Contact us Creators Advertise Developers Terms Privacy Policy & Safety How YouTube works Test new features. New laws of physics build on or modify existing laws and theoretical research. What is the difference between eigenvalues and E eigenvectors? These lecture notes — including figures — are made while attending the lecture and have not been edited afterwards. To make note taking using LaTeX viable, I had four goals in mind",
+      "searched_at": "2026-05-04_09-17-56",
+      "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
+    },
+    "C002": {
+      "claim": "## Why this matters Eigenvalues help us understand how systems respond to forces, rotations, or vibrations.",
+      "query": "Eigenvalue ## Why this matters Eigenvalues help us understand how systems respond to forces, rotations, or vibrations. physics lecture notes textbook explanation",
+      "result_snippet": "If the linear transformation is expressed in the form of an n × n matrix A, then the eigenvalue equation for a linear transformation above can be rewritten as the matrix multiplication where the eigenvector v is an n × 1 matrix. For a matrix, eigenvalues and eigenvectors can be used to decompose the matrix —for example by diagonalizing it. Eigenvalues and eigenvectors describe the special directions a matrix transformation preserves and the factor it scales them by. They're among the most consequential concepts in linear algebra. Once you understand them, you have a structural vocabulary for principal component analysis, dynamical systems, quantum mechanics, vibration analysis, recommender systems, and Google's original ... This page explains eigenstates and eigenvalues of Hermitian operators in quantum mechanics, where eigenstates remain proportional after the operator acts on them, and eigenvalues are real. It covers … Short Answer: An eigenvalue in vibration analysis represents the square of the natural frequency of a vibrating system. It is obtained by solving the characteristic equation that relates the stiffness and mass of the system. Each eigenvalue corresponds to one mode of vibration, and the number of eigenvalues equals the number of degrees of freedom of the system. In simple terms, eigenvalues are ... Eigenvalues and eigenvectors play a crucial role in a wide range of applications across engineering and science. Fields like control theory, vibration analysis, electric circuits, advanced dynamics, and quantum mechanics frequently rely on these concepts.",
+      "searched_at": "2026-05-04_09-17-57",
+      "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
+    }
+  },
+  "last_updated": "2026-05-04_09-17-58"
+}

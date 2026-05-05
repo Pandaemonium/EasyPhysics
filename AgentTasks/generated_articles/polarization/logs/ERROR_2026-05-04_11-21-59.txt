@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "C:\Projects\EasyPhysics\auto_generate_articles.py", line 2312, in run_one_article_cycle
+    raise RuntimeError("Writer completed but draft.md is empty.")
+RuntimeError: Writer completed but draft.md is empty.

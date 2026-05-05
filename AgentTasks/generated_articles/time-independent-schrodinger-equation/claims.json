@@ -1,0 +1,79 @@
+{
+  "claims": [
+    {
+      "id": "C001",
+      "claim": "# Time-independent Schrödinger equation ## The core idea The **Time-independent Schrödinger equation (TISE)** is a simplified version of quantum mechanics that finds \"energy snapshots\" of particles in systems where forces don’t change over time.",
+      "type": "fallback-extracted",
+      "importance": "medium",
+      "needs_external_check": true,
+      "why_it_matters": "Automatically extracted fallback claim; review manually.",
+      "suggested_search_query": "Time-independent Schrodinger equation # Time-independent Schrödinger equation ## The core idea The **Time-independent Schrödinger equation (TISE)** is a simplified physics lecture notes textbook explanation"
+    },
+    {
+      "id": "C002",
+      "claim": "It reveals how particles can only have specific, quantized energy levels—like electrons in atoms—by solving for stationary states where probabilities don’t change.",
+      "type": "fallback-extracted",
+      "importance": "medium",
+      "needs_external_check": true,
+      "why_it_matters": "Automatically extracted fallback claim; review manually.",
+      "suggested_search_query": "Time-independent Schrodinger equation It reveals how particles can only have specific, quantized energy levels—like electrons in atoms—by solving for physics lecture notes textbook explanation"
+    },
+    {
+      "id": "C003",
+      "claim": "## Why this matters This equation is the foundation for understanding atomic structure, molecular bonding, and energy quantization in quantum systems.",
+      "type": "fallback-extracted",
+      "importance": "medium",
+      "needs_external_check": true,
+      "why_it_matters": "Automatically extracted fallback claim; review manually.",
+      "suggested_search_query": "Time-independent Schrodinger equation ## Why this matters This equation is the foundation for understanding atomic structure, molecular bonding, and physics lecture notes textbook explanation"
+    },
+    {
+      "id": "C004",
+      "claim": "It explains why electrons in atoms don’t spiral into the nucleus and why light is emitted in discrete packets (photons).",
+      "type": "fallback-extracted",
+      "importance": "medium",
+      "needs_external_check": true,
+      "why_it_matters": "Automatically extracted fallback claim; review manually.",
+      "suggested_search_query": "Time-independent Schrodinger equation It explains why electrons in atoms don’t spiral into the nucleus and why light is emitted physics lecture notes textbook explanation"
+    },
+    {
+      "id": "C005",
+      "claim": "This gives: $$ -\\frac{\\hbar^2}{2m} \\nabla^2 \\psi + V(x)\\psi = E\\psi $$ - **$ \\psi $** is the **probability map** {wavefunction}, describing where a particle is likely to be.",
+      "type": "fallback-extracted",
+      "importance": "medium",
+      "needs_external_check": true,
+      "why_it_matters": "Automatically extracted fallback claim; review manually.",
+      "suggested_search_query": "Time-independent Schrodinger equation This gives: $$ -\\frac{\\hbar^2}{2m} \\nabla^2 \\psi + V(x)\\psi = E\\psi $$ - **$ \\psi $** is physics lecture notes textbook explanation"
+    },
+    {
+      "id": "C006",
+      "claim": "- **$ V(x) $** is the **potential energy** (e.g., a box’s walls or a spring’s force).",
+      "type": "fallback-extracted",
+      "importance": "medium",
+      "needs_external_check": true,
+      "why_it_matters": "Automatically extracted fallback claim; review manually.",
+      "suggested_search_query": "Time-independent Schrodinger equation - **$ V(x) $** is the **potential energy** (e.g., a box’s walls or a spring’s force). physics lecture notes textbook explanation"
+    },
+    {
+      "id": "C007",
+      "claim": "- **$ E $** is the **energy level** {quantized energy}, a fixed value for each stationary state.",
+      "type": "fallback-extracted",
+      "importance": "medium",
+      "needs_external_check": true,
+      "why_it_matters": "Automatically extracted fallback claim; review manually.",
+      "suggested_search_query": "Time-independent Schrodinger equation - **$ E $** is the **energy level** {quantized energy}, a fixed value for each stationary physics lecture notes textbook explanation"
+    },
+    {
+      "id": "C008",
+      "claim": "Solving this equation gives **stationary states** {energy eigenstates}, where the probability of finding a particle doesn’t change over time.",
+      "type": "fallback-extracted",
+      "importance": "medium",
+      "needs_external_check": true,
+      "why_it_matters": "Automatically extracted fallback claim; review manually.",
+      "suggested_search_query": "Time-independent Schrodinger equation Solving this equation gives **stationary states** {energy eigenstates}, where the probability of finding a particle doesn’t physics lecture notes textbook explanation"
+    }
+  ],
+  "last_updated": "2026-05-04_16-15-57",
+  "count": 8,
+  "parse_note": "No usable claims parsed from LLM output. Using deterministic fallback extraction from draft sentences."
+}

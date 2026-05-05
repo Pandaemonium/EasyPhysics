@@ -1,0 +1,26 @@
+{
+  "terms": [
+    {
+      "standard_term": "action integral",
+      "candidate_name": "Action",
+      "context_quote": "Action is a measure of 'effort' over time—systems choose paths that balance energy trade-offs",
+      "usefulness": "The name 'Action' intuitively suggests a balance between energy and time, aligning with its role as a weighted sum of kinetic and potential energy",
+      "risk": "May imply action is a physical quantity rather than a mathematical construct"
+    },
+    {
+      "standard_term": "variational principle",
+      "candidate_name": "Stationary path",
+      "context_quote": "Physical systems follow paths that make S stationary (not necessarily minimal)",
+      "usefulness": "Highlights the mathematical property of action paths being extrema, which is central to the principle",
+      "risk": "May confuse with 'stationary state' in quantum mechanics"
+    },
+    {
+      "standard,term": "principle of least action",
+      "candidate_name": "Energy efficiency path",
+      "context_quote": "Systems choose the route that balances the energy it uses to move and the energy stored in its position",
+      "usefulness": "Emphasizes the trade-off between energy expenditure and positional energy, making the concept more relatable",
+      "risk": "May suggest the principle is about efficiency rather than mathematical stationarity"
+    }
+  ],
+  "last_updated": "2026-05-04_08-32-05"
+}

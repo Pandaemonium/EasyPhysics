@@ -1,0 +1,16 @@
+title: 'Bell''s Theorem: the geometric proof against hidden variables'
+slug: bell-s-theorem-the-geometric-proof-against-hidden-variables
+status: error
+finished: false
+iteration_count: 1
+accessibility_score: null
+rigor_score: null
+last_worked_on: '2026-05-04'
+last_completed_pass: null
+needs:
+- outline
+- draft
+- claim_check
+- review
+current_draft: draft.md
+last_error: 'LLMCallError("claim_checker failed after 2 attempt(s): LLMCallError(''LLM_TIMEOUT_AFTER_480_SECONDS'')")'

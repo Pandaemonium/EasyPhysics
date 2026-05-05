@@ -1,0 +1,16 @@
+title: 'The Feynman path integral: adding up every possible wave history'
+slug: the-feynman-path-integral-adding-up-every-possible-wave-history
+status: error
+finished: false
+iteration_count: 1
+accessibility_score: null
+rigor_score: null
+last_worked_on: '2026-05-04'
+last_completed_pass: null
+needs:
+- outline
+- draft
+- claim_check
+- review
+current_draft: draft.md
+last_error: 'LLMCallError("term_collector failed after 2 attempt(s): LLMCallError(''LLM_TIMEOUT_AFTER_480_SECONDS'')")'

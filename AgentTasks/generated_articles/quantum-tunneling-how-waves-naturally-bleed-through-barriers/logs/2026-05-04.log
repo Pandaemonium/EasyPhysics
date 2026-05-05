@@ -1,0 +1,1173 @@
+
+================================================================================
+TIME: 2026-05-04T01:03:48
+NODE: planner
+PROMPT_CHARS: 522
+PROMPT_TOKENS_APPROX: 130
+RESPONSE_CHARS: 4984
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 64, "num_ctx": 12288, "num_predict": 3072, "temperature": 0.25, "top_p": 0.85}
+================================================================================
+PROMPT:
+Create a strong teaching outline for this EasyPhysics article:
+
+Title: Quantum tunneling: how waves naturally bleed through barriers
+
+The outline should include:
+1. Scope: what this article explains.
+2. Out of scope: what it should not try to explain yet.
+3. Prerequisite concepts.
+4. Core intuition.
+5. Suggested descriptive names with standard terms in braces.
+6. Common misconceptions to avoid.
+7. Section-by-section outline.
+8. Optional diagram ideas.
+9. Optional minimal math, with what the math means.
+
+Use Markdown.
+
+RESPONSE:
+```markdown
+# Quantum Tunneling: How Waves Naturally Bleed Through Barriers
+
+## 1. Scope: What This Article Explains  
+This article explains **quantum tunneling** as a natural consequence of wave behavior in quantum systems. It focuses on:  
+- How quantum waves (not particles) can "bleed through" barriers they classically shouldn’t.  
+- The role of probability in determining tunneling likelihood.  
+- The intuitive structure of the wavefunction as a probability-ripple.  
+- Real-world examples like alpha decay and scanning tunneling microscopes.  
+
+---
+
+## 2. Out of Scope: What This Article Does *Not* Explain  
+- The mathematical form of the Schrödinger equation (save for minimal hints).  
+- Advanced applications (e.g., tunneling in semiconductors or quantum computing).  
+- Interpretations of quantum mechanics (e.g., many-worlds, Copenhagen).  
+- Tunneling in relativistic or high-energy physics.  
+
+---
+
+## 3. Prerequisite Concepts  
+- **Wave-particle duality**: Particles behave like waves in quantum systems.  
+- **Probability in quantum mechanics**: Outcomes are described by probability-ripples {wavefunctions}.  
+- **Potential barriers**: Regions where particles lose energy (e.g., a wall).  
+- **Superposition**: A system can exist in multiple states at once.  
+
+---
+
+## 4. Core Intuition  
+Quantum tunneling arises from the **wave-like nature of particles**. Even if a particle doesn’t have enough energy to climb a barrier, its probability-ripple {wavefunction} can extend beyond the barrier. This creates a "leak" where the wavefunction’s amplitude {probability density} is nonzero on the other side.  
+
+**Key idea**: *The wavefunction is a probability-ripple that naturally spreads, even through barriers. Tunneling is just the wave bleeding through—no magic, just math.*  
+
+---
+
+## 5. Suggested Descriptive Names with Standard Terms in Braces  
+| Descriptive Name              | Standard Term       |  
+|------------------------------|---------------------|  
+| Barrier-bleed {tunneling}    |                     |  
+| Probability-ripple {wavefunction} |                     |  
+| Energy-plateau {potential barrier} |                     |  
+| Wave-leak {quantum tunneling} |                     |  
+| Spread-possibility {superposition} |                     |  
+
+---
+
+## 6. Common Misconceptions to Avoid  
+- ❌ "Particles pass through barriers like bullets." → **Correct**: It’s the probability-ripple {wavefunction} that spreads, not the particle itself.  
+- ❌ "Tunneling is a magical loophole." → **Correct**: It’s a natural consequence of wave behavior and probability.  
+- ❌ "Particles are in two places at once." → **Correct**: The wavefunction describes possibilities, not actual positions.  
+- ❌ "Tunneling requires no energy." → **Correct**: The particle still loses energy, but the wavefunction’s spread allows it to "leak" through.  
+
+---
+
+## 7. Section-by-Section Outline  
+### **Section 1: Waves vs. Particles**  
+- Recap wave-particle duality.  
+- Introduce the idea that particles are described by probability-ripples {wavefunctions}.  
+
+### **Section 2: The Barrier Problem**  
+- Define an energy-plateau {potential barrier} (e.g., a wall).  
+- Contrast classical vs. quantum behavior: classical particles bounce, quantum waves "leak."  
+
+### **Section 3: Probability-Ripple Spreading**  
+- Explain how the probability-ripple {wavefunction} spreads beyond a barrier.  
+- Use the pond-wave analogy: a ripple can spread around a barrier, even if it’s too weak to climb.  
+
+### **Section 4: Tunneling as a Natural Leak**  
+- Describe the mathematical structure of the wavefunction’s decay beyond the barrier.  
+- Introduce the idea of a "leak" where the probability-ripple {wavefunction} is nonzero on the other side.  
+
+### **Section 5: Real-World Examples**  
+- Alpha decay: particles tunnel out of atomic nuclei.  
+- Scanning tunneling microscopes: electrons tunnel between tips and surfaces.  
+
+### **Section 6: Why It’s Not Magic**  
+- Reiterate that tunneling is a lawful consequence of wave behavior.  
+- Contrast with classical intuition: no "spooky action," just probability.  
+
+---
+
+## 8. Optional Diagram Ideas  
+1. **Wave-Barrier Interaction**: A diagram showing a probability-ripple {wavefunction} spreading around a barrier.  
+2. **Probability Distribution**: Before/after tunneling, showing the wavefunction’s amplitude {probability density} on both sides.  
+3. **Potential Barrier Graph**: A graph of energy vs. position, with the wavefunction’s decay beyond the barrier.  
+
+---
+
+## 9. Optional Minimal Math  
+- **Probability formula**:  
+  $ P = |\psi(x)|^2 $  
+  *The probability of finding a particle at position x is the square of the wavefunction’s amplitude.*  
+
+- **Tunneling probability decay**:  
+  $ P \propto e^{-2\gamma L} $  
+  *The chance of tunneling decreases exponentially with barrier width (L) and energy mismatch (γ).*  
+
+  *Note*: This is a simplified version of the exponential decay in quantum mechanics.  
+```
+
+================================================================================
+TIME: 2026-05-04T01:08:05
+NODE: writer
+PROMPT_CHARS: 6440
+PROMPT_TOKENS_APPROX: 1610
+RESPONSE_CHARS: 3504
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 64, "num_ctx": 12288, "num_predict": 3072, "temperature": 0.25, "top_p": 0.85}
+================================================================================
+PROMPT:
+Write a high-quality first draft for this EasyPhysics article.
+
+Title: Quantum tunneling: how waves naturally bleed through barriers
+
+Article outline:
+```markdown
+# Quantum Tunneling: How Waves Naturally Bleed Through Barriers
+
+## 1. Scope: What This Article Explains  
+This article explains **quantum tunneling** as a natural consequence of wave behavior in quantum systems. It focuses on:  
+- How quantum waves (not particles) can "bleed through" barriers they classically shouldn’t.  
+- The role of probability in determining tunneling likelihood.  
+- The intuitive structure of the wavefunction as a probability-ripple.  
+- Real-world examples like alpha decay and scanning tunneling microscopes.  
+
+---
+
+## 2. Out of Scope: What This Article Does *Not* Explain  
+- The mathematical form of the Schrödinger equation (save for minimal hints).  
+- Advanced applications (e.g., tunneling in semiconductors or quantum computing).  
+- Interpretations of quantum mechanics (e.g., many-worlds, Copenhagen).  
+- Tunneling in relativistic or high-energy physics.  
+
+---
+
+## 3. Prerequisite Concepts  
+- **Wave-particle duality**: Particles behave like waves in quantum systems.  
+- **Probability in quantum mechanics**: Outcomes are described by probability-ripples {wavefunctions}.  
+- **Potential barriers**: Regions where particles lose energy (e.g., a wall).  
+- **Superposition**: A system can exist in multiple states at once.  
+
+---
+
+## 4. Core Intuition  
+Quantum tunneling arises from the **wave-like nature of particles**. Even if a particle doesn’t have enough energy to climb a barrier, its probability-ripple {wavefunction} can extend beyond the barrier. This creates a "leak" where the wavefunction’s amplitude {probability density} is nonzero on the other side.  
+
+**Key idea**: *The wavefunction is a probability-ripple that naturally spreads, even through barriers. Tunneling is just the wave bleeding through—no magic, just math.*  
+
+---
+
+## 5. Suggested Descriptive Names with Standard Terms in Braces  
+| Descriptive Name              | Standard Term       |  
+|------------------------------|---------------------|  
+| Barrier-bleed {tunneling}    |                     |  
+| Probability-ripple {wavefunction} |                     |  
+| Energy-plateau {potential barrier} |                     |  
+| Wave-leak {quantum tunneling} |                     |  
+| Spread-possibility {superposition} |                     |  
+
+---
+
+## 6. Common Misconceptions to Avoid  
+- ❌ "Particles pass through barriers like bullets." → **Correct**: It’s the probability-ripple {wavefunction} that spreads, not the particle itself.  
+- ❌ "Tunneling is a magical loophole." → **Correct**: It’s a natural consequence of wave behavior and probability.  
+- ❌ "Particles are in two places at once." → **Correct**: The wavefunction describes possibilities, not actual positions.  
+- ❌ "Tunneling requires no energy." → **Correct**: The particle still loses energy, but the wavefunction’s spread allows it to "leak" through.  
+
+---
+
+## 7. Section-by-Section Outline  
+### **Section 1: Waves vs. Particles**  
+- Recap wave-particle duality.  
+- Introduce the idea that particles are described by probability-ripples {wavefunctions}.  
+
+### **Section 2: The Barrier Problem**  
+- Define an energy-plateau {potential barrier} (e.g., a wall).  
+- Contrast classical vs. quantum behavior: classical particles bounce, quantum waves "leak."  
+
+### **Section 3: Probability-Ripple Spreading**  
+- Explain how the probability-ripple {wavefunction} spreads beyond a barrier.  
+- Use the pond-wave analogy: a ripple can spread around a barrier, even if it’s too weak to climb.  
+
+### **Section 4: Tunneling as a Natural Leak**  
+- Describe the mathematical structure of the wavefunction’s decay beyond the barrier.  
+- Introduce the idea of a "leak" where the probability-ripple {wavefunction} is nonzero on the other side.  
+
+### **Section 5: Real-World Examples**  
+- Alpha decay: particles tunnel out of atomic nuclei.  
+- Scanning tunneling microscopes: electrons tunnel between tips and surfaces.  
+
+### **Section 6: Why It’s Not Magic**  
+- Reiterate that tunneling is a lawful consequence of wave behavior.  
+- Contrast with classical intuition: no "spooky action," just probability.  
+
+---
+
+## 8. Optional Diagram Ideas  
+1. **Wave-Barrier Interaction**: A diagram showing a probability-ripple {wavefunction} spreading around a barrier.  
+2. **Probability Distribution**: Before/after tunneling, showing the wavefunction’s amplitude {probability density} on both sides.  
+3. **Potential Barrier Graph**: A graph of energy vs. position, with the wavefunction’s decay beyond the barrier.  
+
+---
+
+## 9. Optional Minimal Math  
+- **Probability formula**:  
+  $ P = |\psi(x)|^2 $  
+  *The probability of finding a particle at position x is the square of the wavefunction’s amplitude.*  
+
+- **Tunneling probability decay**:  
+  $ P \propto e^{-2\gamma L} $  
+  *The chance of tunneling decreases exponentially with barrier width (L) and energy mismatch (γ).*  
+
+  *Note*: This is a simplified version of the exponential decay in quantum mechanics.  
+```
+
+Human/editor notes:
+# Human/editor notes
+
+Add any preferences, corrections, or article-specific constraints here.
+
+
+Template guidance:
+Preferred article structure:
+
+# Title
+
+## The core idea
+A short, intuitive explanation that gives the reader the main point first.
+
+## Why this matters
+Explain what the concept helps us understand.
+
+## The simple picture
+Use an analogy, diagram idea, or concrete example.
+
+## The more precise picture
+Introduce standard terms, careful distinctions, and optional minimal math.
+
+## Common misconceptions
+Name and correct the traps.
+
+## How this connects to the rest of physics
+Link the concept to fields, particles, symmetry, conservation, relativity, or the Standard Model as appropriate.
+
+## Recap
+A few concise takeaways.
+
+Drafting instructions:
+- Make it accessible to a motivated high-schooler or college freshman.
+- Teach the modern concept directly rather than narrating historical discovery.
+- Use descriptive names with standard terms in braces, e.g. space-occupier {fermion}.
+- Include common misconceptions and correct them.
+- Include minimal math only when it helps, and explain what the math means.
+- Suggest diagram ideas inline where helpful using this format: [Diagram idea: ...]
+- Output only the article in Markdown, with no commentary before or after.
+
+RESPONSE:
+# Quantum Tunneling: How Waves Naturally Bleed Through Barriers  
+
+## The core idea  
+Quantum tunneling is when a particle’s probability-ripple {wavefunction} spreads beyond a barrier it classically couldn’t climb. Like a pond ripple bleeding through a wall, the wavefunction’s spread allows particles to "leak" through barriers—no magic, just math.  
+
+## Why this matters  
+Quantum tunneling explains phenomena like:  
+- **Alpha decay**: Nuclei tunnel out radioactive particles.  
+- **Scanning tunneling microscopes**: Electrons tunnel between tips and surfaces to image atoms.  
+- **Semiconductors**: Tunneling enables electronic devices.  
+It shows how quantum waves defy classical intuition, revealing the probabilistic nature of reality.  
+
+## The simple picture  
+Imagine a pond ripple hitting a wall. Classically, the ripple bounces back. But in quantum mechanics, the ripple *leaks* through the wall, spreading to the other side. This is tunneling: the wavefunction’s spread lets particles exist on both sides of a barrier.  
+
+[Diagram idea: A pond ripple spreading around a barrier, with labels "Classical: Bounce" vs. "Quantum: Leak"]  
+
+## The more precise picture  
+### 1. Probability-ripples {wavefunctions}  
+Particles are described by probability-ripples {wavefunctions}, which spread across space. Even if a particle lacks energy to climb a barrier, its wavefunction can extend beyond it.  
+
+### 2. Energy-plateau {potential barriers}  
+A potential barrier is like a wall with a fixed energy height. Classically, particles with less energy bounce back. Quantum mechanically, the wavefunction decays exponentially beyond the barrier, leaving a nonzero probability of finding the particle on the other side.  
+
+### 3. Tunneling probability  
+The chance of tunneling depends on:  
+- **Barrier width**: Thicker barriers reduce the leak.  
+- **Energy mismatch**: The higher the energy gap, the smaller the leak.  
+Mathematically, the probability decays as:  
+$$ P \propto e^{-2\gamma L} $$  
+where $ L $ is barrier width and $ \gamma $ relates to energy mismatch.  
+
+[Diagram idea: A graph of energy vs. position, with the wavefunction’s exponential decay beyond the barrier]  
+
+## Common misconceptions  
+- ❌ "Particles pass through barriers like bullets." → **Correct**: The wavefunction spreads, not the particle itself.  
+- ❌ "Tunneling is a magical loophole." → **Correct**: It’s a natural consequence of wave behavior and probability.  
+- ❌ "Particles are in two places at once." → **Correct**: The wavefunction describes possibilities, not actual positions.  
+- ❌ "Tunneling requires no energy." → **Correct**: The particle still loses energy, but the wavefunction’s spread allows it to "leak" through.  
+
+## How this connects to the rest of physics  
+- **Wave-particle duality**: Tunneling is a direct consequence of particles behaving like waves.  
+- **Probability in quantum mechanics**: The wavefunction encodes all possible outcomes.  
+- **Applications**: Tunneling underpins nuclear decay, microscopes, and semiconductor technology.  
+
+## Recap  
+- Quantum tunneling is a natural wave behavior, not magic.  
+- Particles are described by probability-ripples {wavefunctions} that spread beyond barriers.  
+- Tunneling explains real-world phenomena like alpha decay and scanning microscopes.  
+- It’s a lawful consequence of quantum mechanics, not a loophole.  
+
+---  
+**Next steps**: Explore how tunneling relates to energy conservation, or dive into the math of wavefunction decay.
+
+================================================================================
+TIME: 2026-05-04T01:09:43
+NODE: term_collector
+PROMPT_CHARS: 3974
+PROMPT_TOKENS_APPROX: 993
+RESPONSE_CHARS: 822
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 64, "num_ctx": 12288, "num_predict": 3072, "temperature": 0.25, "top_p": 0.85}
+================================================================================
+PROMPT:
+Extract the descriptive-name candidates from this draft.
+
+Return JSON with this shape:
+{
+  "terms": [
+    {
+      "standard_term": "fermion",
+      "candidate_name": "space-occupier",
+      "context_quote": "short quote from the draft",
+      "usefulness": "why this name helps",
+      "risk": "how it could mislead, or empty string if low risk"
+    }
+  ]
+}
+
+Only include actual teaching-name candidates, especially phrases followed by standard terms in braces.
+
+Draft:
+# Quantum Tunneling: How Waves Naturally Bleed Through Barriers  
+
+## The core idea  
+Quantum tunneling is when a particle’s probability-ripple {wavefunction} spreads beyond a barrier it classically couldn’t climb. Like a pond ripple bleeding through a wall, the wavefunction’s spread allows particles to "leak" through barriers—no magic, just math.  
+
+## Why this matters  
+Quantum tunneling explains phenomena like:  
+- **Alpha decay**: Nuclei tunnel out radioactive particles.  
+- **Scanning tunneling microscopes**: Electrons tunnel between tips and surfaces to image atoms.  
+- **Semiconductors**: Tunneling enables electronic devices.  
+It shows how quantum waves defy classical intuition, revealing the probabilistic nature of reality.  
+
+## The simple picture  
+Imagine a pond ripple hitting a wall. Classically, the ripple bounces back. But in quantum mechanics, the ripple *leaks* through the wall, spreading to the other side. This is tunneling: the wavefunction’s spread lets particles exist on both sides of a barrier.  
+
+[Diagram idea: A pond ripple spreading around a barrier, with labels "Classical: Bounce" vs. "Quantum: Leak"]  
+
+## The more precise picture  
+### 1. Probability-ripples {wavefunctions}  
+Particles are described by probability-ripples {wavefunctions}, which spread across space. Even if a particle lacks energy to climb a barrier, its wavefunction can extend beyond it.  
+
+### 2. Energy-plateau {potential barriers}  
+A potential barrier is like a wall with a fixed energy height. Classically, particles with less energy bounce back. Quantum mechanically, the wavefunction decays exponentially beyond the barrier, leaving a nonzero probability of finding the particle on the other side.  
+
+### 3. Tunneling probability  
+The chance of tunneling depends on:  
+- **Barrier width**: Thicker barriers reduce the leak.  
+- **Energy mismatch**: The higher the energy gap, the smaller the leak.  
+Mathematically, the probability decays as:  
+$$ P \propto e^{-2\gamma L} $$  
+where $ L $ is barrier width and $ \gamma $ relates to energy mismatch.  
+
+[Diagram idea: A graph of energy vs. position, with the wavefunction’s exponential decay beyond the barrier]  
+
+## Common misconceptions  
+- ❌ "Particles pass through barriers like bullets." → **Correct**: The wavefunction spreads, not the particle itself.  
+- ❌ "Tunneling is a magical loophole." → **Correct**: It’s a natural consequence of wave behavior and probability.  
+- ❌ "Particles are in two places at once." → **Correct**: The wavefunction describes possibilities, not actual positions.  
+- ❌ "Tunneling requires no energy." → **Correct**: The particle still loses energy, but the wavefunction’s spread allows it to "leak" through.  
+
+## How this connects to the rest of physics  
+- **Wave-particle duality**: Tunneling is a direct consequence of particles behaving like waves.  
+- **Probability in quantum mechanics**: The wavefunction encodes all possible outcomes.  
+- **Applications**: Tunneling underpins nuclear decay, microscopes, and semiconductor technology.  
+
+## Recap  
+- Quantum tunneling is a natural wave behavior, not magic.  
+- Particles are described by probability-ripples {wavefunctions} that spread beyond barriers.  
+- Tunneling explains real-world phenomena like alpha decay and scanning microscopes.  
+- It’s a lawful consequence of quantum mechanics, not a loophole.  
+
+---  
+**Next steps**: Explore how tunneling relates to energy conservation, or dive into the math of wavefunction decay.
+
+RESPONSE:
+{
+  "terms": [
+    {
+      "standard_term": "wavefunction",
+      "candidate_name": "probability-ripples",
+      "context_quote": "Particles are described by probability-ripples {wavefunctions}, which spread across space.",
+      "usefulness": "Helps visualize particles as ripples, making the concept more intuitive.",
+      "risk": "Might imply particles are physical ripples, but it's a metaphor for wavefunctions."
+    },
+    {
+      "standard_term": "potential barriers",
+      "candidate_name": "energy-plateau",
+      "context_quote": "A potential barrier is like a wall with a fixed energy height.",
+      "usefulness": "Provides a clear analogy for potential barriers, making it easier to grasp.",
+      "risk": "Could be misleading if taken literally as a physical plateau, but the analogy is clear."
+    }
+  ]
+}
+
+================================================================================
+TIME: 2026-05-04T01:12:50
+NODE: claim_extractor
+PROMPT_CHARS: 4426
+PROMPT_TOKENS_APPROX: 1106
+RESPONSE_CHARS: 3085
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 64, "num_ctx": 12288, "num_predict": 3072, "temperature": 0.25, "top_p": 0.85}
+================================================================================
+PROMPT:
+Extract the most important scientific and explanatory claims from this article draft.
+
+Return JSON with this shape:
+{
+  "claims": [
+    {
+      "id": "C001",
+      "claim": "A clear, standalone claim from the article.",
+      "type": "definition | mechanism | analogy | mathematical | misconception-correction | scope | other",
+      "importance": "high | medium | low",
+      "needs_external_check": true,
+      "why_it_matters": "brief reason",
+      "suggested_search_query": "stable source search query, not latest-news oriented"
+    }
+  ]
+}
+
+Guidance:
+- Extract claims that matter for scientific correctness.
+- Include claims embedded in analogies if the analogy could mislead.
+- Do not include purely stylistic statements.
+- Search queries should prefer stable sources: textbooks, lecture notes, CERN, Fermilab, university pages.
+
+Article title: Quantum tunneling: how waves naturally bleed through barriers
+
+Draft:
+# Quantum Tunneling: How Waves Naturally Bleed Through Barriers  
+
+## The core idea  
+Quantum tunneling is when a particle’s probability-ripple {wavefunction} spreads beyond a barrier it classically couldn’t climb. Like a pond ripple bleeding through a wall, the wavefunction’s spread allows particles to "leak" through barriers—no magic, just math.  
+
+## Why this matters  
+Quantum tunneling explains phenomena like:  
+- **Alpha decay**: Nuclei tunnel out radioactive particles.  
+- **Scanning tunneling microscopes**: Electrons tunnel between tips and surfaces to image atoms.  
+- **Semiconductors**: Tunneling enables electronic devices.  
+It shows how quantum waves defy classical intuition, revealing the probabilistic nature of reality.  
+
+## The simple picture  
+Imagine a pond ripple hitting a wall. Classically, the ripple bounces back. But in quantum mechanics, the ripple *leaks* through the wall, spreading to the other side. This is tunneling: the wavefunction’s spread lets particles exist on both sides of a barrier.  
+
+[Diagram idea: A pond ripple spreading around a barrier, with labels "Classical: Bounce" vs. "Quantum: Leak"]  
+
+## The more precise picture  
+### 1. Probability-ripples {wavefunctions}  
+Particles are described by probability-ripples {wavefunctions}, which spread across space. Even if a particle lacks energy to climb a barrier, its wavefunction can extend beyond it.  
+
+### 2. Energy-plateau {potential barriers}  
+A potential barrier is like a wall with a fixed energy height. Classically, particles with less energy bounce back. Quantum mechanically, the wavefunction decays exponentially beyond the barrier, leaving a nonzero probability of finding the particle on the other side.  
+
+### 3. Tunneling probability  
+The chance of tunneling depends on:  
+- **Barrier width**: Thicker barriers reduce the leak.  
+- **Energy mismatch**: The higher the energy gap, the smaller the leak.  
+Mathematically, the probability decays as:  
+$$ P \propto e^{-2\gamma L} $$  
+where $ L $ is barrier width and $ \gamma $ relates to energy mismatch.  
+
+[Diagram idea: A graph of energy vs. position, with the wavefunction’s exponential decay beyond the barrier]  
+
+## Common misconceptions  
+- ❌ "Particles pass through barriers like bullets." → **Correct**: The wavefunction spreads, not the particle itself.  
+- ❌ "Tunneling is a magical loophole." → **Correct**: It’s a natural consequence of wave behavior and probability.  
+- ❌ "Particles are in two places at once." → **Correct**: The wavefunction describes possibilities, not actual positions.  
+- ❌ "Tunneling requires no energy." → **Correct**: The particle still loses energy, but the wavefunction’s spread allows it to "leak" through.  
+
+## How this connects to the rest of physics  
+- **Wave-particle duality**: Tunneling is a direct consequence of particles behaving like waves.  
+- **Probability in quantum mechanics**: The wavefunction encodes all possible outcomes.  
+- **Applications**: Tunneling underpins nuclear decay, microscopes, and semiconductor technology.  
+
+## Recap  
+- Quantum tunneling is a natural wave behavior, not magic.  
+- Particles are described by probability-ripples {wavefunctions} that spread beyond barriers.  
+- Tunneling explains real-world phenomena like alpha decay and scanning microscopes.  
+- It’s a lawful consequence of quantum mechanics, not a loophole.  
+
+---  
+**Next steps**: Explore how tunneling relates to energy conservation, or dive into the math of wavefunction decay.
+
+RESPONSE:
+{
+  "claims": [
+    {
+      "id": "C001",
+      "claim": "Quantum tunneling occurs when a particle's probability-ripple {wavefunction} spreads beyond a barrier it classically couldn't overcome.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Defines the core mechanism of quantum tunneling, foundational to quantum mechanics.",
+      "suggested_search_query": "quantum tunneling wavefunction definition"
+    },
+    {
+      "id": "C002",
+      "claim": "The tunneling probability decays exponentially with barrier width and energy mismatch, following $ P \propto e^{-2\gamma L} $.",
+      "type": "mathematical",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Quantifies the likelihood of tunneling, critical for engineering applications.",
+      "suggested_search_query": "quantum tunneling probability formula"
+    },
+    {
+      "id": "C003",
+      "claim": "Quantum tunneling explains phenomena like alpha decay, scanning tunneling microscopes, and semiconductor behavior.",
+      "type": "mechanism",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Demonstrates real-world relevance and technological impact.",
+      "suggested_search_query": "applications of quantum tunneling"
+    },
+    {
+      "id": "C004",
+      "claim": "Particles are not 'in two places at once' but described by probability-ripples {wavefunctions} that encode all possible outcomes.",
+      "type": "misconception-correction",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Corrects a common misunderstanding about quantum particles.",
+      "suggested_search_query": "quantum particles vs wavefunctions"
+    },
+    {
+      "id": "C005",
+      "claim": "Tunneling is a natural consequence of wave behavior, not a magical loophole, and preserves energy conservation laws.",
+      "type": "scope",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Clarifies tunneling's lawful basis in physics.",
+      "suggested_search_query": "quantum tunneling energy conservation"
+    },
+    {
+      "id": "C006",
+      "claim": "A potential barrier {energy-plateau} is a region where the wavefunction decays exponentially, leaving a nonzero probability of tunneling.",
+      "type": "mechanism",
+      "importance": "medium",
+      "needs_external_check": true,
+      "why_it_matters": "Describes the spatial behavior of wavefunctions in barriers.",
+      "suggested_search_query": "quantum potential barrier physics"
+    },
+    {
+      "id": "C007",
+      "claim": "The analogy of a pond ripple leaking through a wall accurately illustrates tunneling but must not be overextended to imply particles 'pass through' barriers.",
+      "type": "analogy",
+      "importance": "medium",
+      "needs_external_check": true,
+      "why_it_matters": "Highlights the intuitive limits of classical analogies.",
+      "suggested_search_query": "quantum tunneling pond ripple analogy"
+    }
+  ]
+}
+
+================================================================================
+TIME: 2026-05-04T01:14:14
+NODE: claim_checker
+PROMPT_CHARS: 4723
+PROMPT_TOKENS_APPROX: 1180
+RESPONSE_CHARS: 633
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 64, "num_ctx": 12288, "num_predict": 3072, "temperature": 0.25, "top_p": 0.85}
+================================================================================
+PROMPT:
+Check the article's important claims against the search snippets.
+
+Return JSON with this shape:
+{
+  "claim_checks": [
+    {
+      "id": "C001",
+      "verdict": "supported | mostly_supported | needs_qualification | unsupported | contradicted | not_enough_evidence",
+      "severity": "none | low | medium | high",
+      "problem": "specific issue, or empty string",
+      "suggested_fix": "specific correction to the article, or empty string",
+      "source_quality_note": "brief note about whether the snippets look authoritative"
+    }
+  ],
+  "summary": {
+    "overall_claim_quality": "brief summary",
+    "unresolved_or_needs_qualification": 0,
+    "highest_priority_fixes": ["fix 1", "fix 2"]
+  }
+}
+
+Rules:
+- Be conservative. If a claim is plausible but not supported by the snippets, say not_enough_evidence.
+- Do not demand advanced nuance beyond the article's scope.
+- Do flag misleading simplifications.
+- The article should focus on stable accepted physics, not speculative novelty.
+
+Article title: Quantum tunneling: how waves naturally bleed through barriers
+
+Claims:
+{
+  "claims": [],
+  "last_updated": "2026-05-04_01-12-50"
+}
+
+Search snippets by claim:
+{
+  "sources_by_claim": {}
+}
+
+Draft excerpt/context:
+# Quantum Tunneling: How Waves Naturally Bleed Through Barriers  
+
+## The core idea  
+Quantum tunneling is when a particle’s probability-ripple {wavefunction} spreads beyond a barrier it classically couldn’t climb. Like a pond ripple bleeding through a wall, the wavefunction’s spread allows particles to "leak" through barriers—no magic, just math.  
+
+## Why this matters  
+Quantum tunneling explains phenomena like:  
+- **Alpha decay**: Nuclei tunnel out radioactive particles.  
+- **Scanning tunneling microscopes**: Electrons tunnel between tips and surfaces to image atoms.  
+- **Semiconductors**: Tunneling enables electronic devices.  
+It shows how quantum waves defy classical intuition, revealing the probabilistic nature of reality.  
+
+## The simple picture  
+Imagine a pond ripple hitting a wall. Classically, the ripple bounces back. But in quantum mechanics, the ripple *leaks* through the wall, spreading to the other side. This is tunneling: the wavefunction’s spread lets particles exist on both sides of a barrier.  
+
+[Diagram idea: A pond ripple spreading around a barrier, with labels "Classical: Bounce" vs. "Quantum: Leak"]  
+
+## The more precise picture  
+### 1. Probability-ripples {wavefunctions}  
+Particles are described by probability-ripples {wavefunctions}, which spread across space. Even if a particle lacks energy to climb a barrier, its wavefunction can extend beyond it.  
+
+### 2. Energy-plateau {potential barriers}  
+A potential barrier is like a wall with a fixed energy height. Classically, particles with less energy bounce back. Quantum mechanically, the wavefunction decays exponentially beyond the barrier, leaving a nonzero probability of finding the particle on the other side.  
+
+### 3. Tunneling probability  
+The chance of tunneling depends on:  
+- **Barrier width**: Thicker barriers reduce the leak.  
+- **Energy mismatch**: The higher the energy gap, the smaller the leak.  
+Mathematically, the probability decays as:  
+$$ P \propto e^{-2\gamma L} $$  
+where $ L $ is barrier width and $ \gamma $ relates to energy mismatch.  
+
+[Diagram idea: A graph of energy vs. position, with the wavefunction’s exponential decay beyond the barrier]  
+
+## Common misconceptions  
+- ❌ "Particles pass through barriers like bullets." → **Correct**: The wavefunction spreads, not the particle itself.  
+- ❌ "Tunneling is a magical loophole." → **Correct**: It’s a natural consequence of wave behavior and probability.  
+- ❌ "Particles are in two places at once." → **Correct**: The wavefunction describes possibilities, not actual positions.  
+- ❌ "Tunneling requires no energy." → **Correct**: The particle still loses energy, but the wavefunction’s spread allows it to "leak" through.  
+
+## How this connects to the rest of physics  
+- **Wave-particle duality**: Tunneling is a direct consequence of particles behaving like waves.  
+- **Probability in quantum mechanics**: The wavefunction encodes all possible outcomes.  
+- **Applications**: Tunneling underpins nuclear decay, microscopes, and semiconductor technology.  
+
+## Recap  
+- Quantum tunneling is a natural wave behavior, not magic.  
+- Particles are described by probability-ripples {wavefunctions} that spread beyond barriers.  
+- Tunneling explains real-world phenomena like alpha decay and scanning microscopes.  
+- It’s a lawful consequence of quantum mechanics, not a loophole.  
+
+---  
+**Next steps**: Explore how tunneling relates to energy conservation, or dive into the math of wavefunction decay.
+
+RESPONSE:
+{
+  "claim_checks": [
+    {
+      "id": "C001",
+      "verdict": "not_enough_evidence",
+      "severity": "low",
+      "problem": "No claims to verify",
+      "suggested_fix": "Add specific claims to the article's 'claims' array for verification",
+      "source_quality_note": "No sources provided for validation"
+    }
+  ],
+  "summary": {
+    "overall_claim_quality": "No claims to evaluate",
+    "unresolved_or_needs_qualification": 0,
+    "highest_priority_fixes": [
+      "Populate the 'claims' array with specific statements for verification",
+      "Add citations to authoritative sources for all physical concepts"
+    ]
+  }
+}
+
+================================================================================
+TIME: 2026-05-04T01:16:53
+NODE: term_collector
+PROMPT_CHARS: 3974
+PROMPT_TOKENS_APPROX: 993
+RESPONSE_CHARS: 1361
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 64, "num_ctx": 12288, "num_predict": 3072, "temperature": 0.25, "top_p": 0.85}
+================================================================================
+PROMPT:
+Extract the descriptive-name candidates from this draft.
+
+Return JSON with this shape:
+{
+  "terms": [
+    {
+      "standard_term": "fermion",
+      "candidate_name": "space-occupier",
+      "context_quote": "short quote from the draft",
+      "usefulness": "why this name helps",
+      "risk": "how it could mislead, or empty string if low risk"
+    }
+  ]
+}
+
+Only include actual teaching-name candidates, especially phrases followed by standard terms in braces.
+
+Draft:
+# Quantum Tunneling: How Waves Naturally Bleed Through Barriers  
+
+## The core idea  
+Quantum tunneling is when a particle’s probability-ripple {wavefunction} spreads beyond a barrier it classically couldn’t climb. Like a pond ripple bleeding through a wall, the wavefunction’s spread allows particles to "leak" through barriers—no magic, just math.  
+
+## Why this matters  
+Quantum tunneling explains phenomena like:  
+- **Alpha decay**: Nuclei tunnel out radioactive particles.  
+- **Scanning tunneling microscopes**: Electrons tunnel between tips and surfaces to image atoms.  
+- **Semiconductors**: Tunneling enables electronic devices.  
+It shows how quantum waves defy classical intuition, revealing the probabilistic nature of reality.  
+
+## The simple picture  
+Imagine a pond ripple hitting a wall. Classically, the ripple bounces back. But in quantum mechanics, the ripple *leaks* through the wall, spreading to the other side. This is tunneling: the wavefunction’s spread lets particles exist on both sides of a barrier.  
+
+[Diagram idea: A pond ripple spreading around a barrier, with labels "Classical: Bounce" vs. "Quantum: Leak"]  
+
+## The more precise picture  
+### 1. Probability-ripples {wavefunctions}  
+Particles are described by probability-ripples {wavefunctions}, which spread across space. Even if a particle lacks energy to climb a barrier, its wavefunction can extend beyond it.  
+
+### 2. Energy-plateau {potential barriers}  
+A potential barrier is like a wall with a fixed energy height. Classically, particles with less energy bounce back. Quantum mechanically, the wavefunction decays exponentially beyond the barrier, leaving a nonzero probability of finding the particle on the other side.  
+
+### 3. Tunneling probability  
+The chance of tunneling depends on:  
+- **Barrier width**: Thicker barriers reduce the leak.  
+- **Energy mismatch**: The higher the energy gap, the smaller the leak.  
+Mathematically, the probability decays as:  
+$$ P \propto e^{-2\gamma L} $$  
+where $ L $ is barrier width and $ \gamma $ relates to energy mismatch.  
+
+[Diagram idea: A graph of energy vs. position, with the wavefunction’s exponential decay beyond the barrier]  
+
+## Common misconceptions  
+- ❌ "Particles pass through barriers like bullets." → **Correct**: The wavefunction spreads, not the particle itself.  
+- ❌ "Tunneling is a magical loophole." → **Correct**: It’s a natural consequence of wave behavior and probability.  
+- ❌ "Particles are in two places at once." → **Correct**: The wavefunction describes possibilities, not actual positions.  
+- ❌ "Tunneling requires no energy." → **Correct**: The particle still loses energy, but the wavefunction’s spread allows it to "leak" through.  
+
+## How this connects to the rest of physics  
+- **Wave-particle duality**: Tunneling is a direct consequence of particles behaving like waves.  
+- **Probability in quantum mechanics**: The wavefunction encodes all possible outcomes.  
+- **Applications**: Tunneling underpins nuclear decay, microscopes, and semiconductor technology.  
+
+## Recap  
+- Quantum tunneling is a natural wave behavior, not magic.  
+- Particles are described by probability-ripples {wavefunctions} that spread beyond barriers.  
+- Tunneling explains real-world phenomena like alpha decay and scanning microscopes.  
+- It’s a lawful consequence of quantum mechanics, not a loophole.  
+
+---  
+**Next steps**: Explore how tunneling relates to energy conservation, or dive into the math of wavefunction decay.
+
+RESPONSE:
+{
+  "terms": [
+    {
+      "standard_term": "wavefunction",
+      "candidate_name": "probability-ripple",
+      "context_quote": "Particles are described by probability-ripples {wavefunctions}, which spread across space.",
+      "usefulness": "Makes the abstract concept of wavefunction tangible by associating it with familiar water ripples.",
+      "risk": "May imply classical wave behavior, but clarifies it's a probability distribution, not a physical ripple."
+    },
+    {
+      "standard_term": "potential barriers",
+      "candidate_name": "energy-plateau",
+      "context_quote": "A potential barrier is like a wall with a fixed energy height.",
+      "usefulness": "Visualizes barriers as flat energy regions, aligning with classical intuition for energy thresholds.",
+      "risk": "Could mislead into thinking barriers are static surfaces rather than energy landscapes."
+    },
+    {
+      "standard,term": "wavefunctions",
+      "candidate_name": "probability-ripples",
+      "context_quote": "Particles are described by probability-ripples {wavefunctions}, which spread across space.",
+      "usefulness": "Reinforces the dual nature of particles as probability distributions with wave-like properties.",
+      "risk": "Plural form might confuse with multiple wavefunctions, but context clarifies it's a single particle's description."
+    }
+  ]
+}
+
+================================================================================
+TIME: 2026-05-04T01:19:53
+NODE: accessibility_judge
+PROMPT_CHARS: 5746
+PROMPT_TOKENS_APPROX: 1436
+RESPONSE_CHARS: 1550
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 64, "num_ctx": 12288, "num_predict": 3072, "temperature": 0.25, "top_p": 0.85}
+================================================================================
+PROMPT:
+Score this EasyPhysics article for accessibility using the rubric below.
+
+Accessibility score, 1-10:
+
+10 = Exceptional. A motivated high-schooler can follow the article's main arc without prior exposure.
+     Jargon is introduced only after intuition. Examples are vivid. Math is explained as meaning,
+     not just symbols. The article feels empowering and clear.
+
+9 = Publishable with light human editing. The main idea is easy to follow; jargon is mostly controlled;
+    analogies are helpful; sections flow logically; any math has a plain-language interpretation.
+
+8 = Strong draft. Mostly clear, but has a few dense sections, unexplained terms, abrupt transitions,
+    or analogies that need more setup.
+
+7 = Useful but uneven. A motivated reader could learn from it, but several passages need simplification,
+    clearer examples, or better sequencing.
+
+6 = Borderline. The article contains useful explanations, but assumes too much background or uses too much jargon.
+
+5 = Mixed. Some good paragraphs, but the structure or language would lose many target readers.
+
+4 = Hard to follow. Mostly written for someone who already knows the subject.
+
+3 = Very inaccessible. Dense, abstract, jargon-heavy, or poorly sequenced.
+
+2 = Barely useful to the target audience.
+
+1 = Fails the accessibility goal.
+
+Accessibility judge priorities:
+- Does the opening give the reader an intuitive foothold?
+- Are standard terms introduced after meaning, not before?
+- Are descriptive names useful rather than cutesy or misleading?
+- Are analogies concrete and then carefully limited?
+- Is any math explained in words?
+- Does the article avoid "spooky/magic/weird" framing while still acknowledging counterintuitive ideas?
+- Does each section make the next section easier?
+
+Return JSON with this shape:
+{
+  "score": 1,
+  "pass": false,
+  "strengths": ["specific strength"],
+  "issues": [
+    {
+      "severity": "low | medium | high",
+      "location": "section or paragraph description",
+      "problem": "specific accessibility issue",
+      "suggested_fix": "specific fix"
+    }
+  ],
+  "best_next_revision": "one concise paragraph describing what to improve next"
+}
+
+Article title: Quantum tunneling: how waves naturally bleed through barriers
+
+Draft:
+# Quantum Tunneling: How Waves Naturally Bleed Through Barriers  
+
+## The core idea  
+Quantum tunneling is when a particle’s probability-ripple {wavefunction} spreads beyond a barrier it classically couldn’t climb. Like a pond ripple bleeding through a wall, the wavefunction’s spread allows particles to "leak" through barriers—no magic, just math.  
+
+## Why this matters  
+Quantum tunneling explains phenomena like:  
+- **Alpha decay**: Nuclei tunnel out radioactive particles.  
+- **Scanning tunneling microscopes**: Electrons tunnel between tips and surfaces to image atoms.  
+- **Semiconductors**: Tunneling enables electronic devices.  
+It shows how quantum waves defy classical intuition, revealing the probabilistic nature of reality.  
+
+## The simple picture  
+Imagine a pond ripple hitting a wall. Classically, the ripple bounces back. But in quantum mechanics, the ripple *leaks* through the wall, spreading to the other side. This is tunneling: the wavefunction’s spread lets particles exist on both sides of a barrier.  
+
+[Diagram idea: A pond ripple spreading around a barrier, with labels "Classical: Bounce" vs. "Quantum: Leak"]  
+
+## The more precise picture  
+### 1. Probability-ripples {wavefunctions}  
+Particles are described by probability-ripples {wavefunctions}, which spread across space. Even if a particle lacks energy to climb a barrier, its wavefunction can extend beyond it.  
+
+### 2. Energy-plateau {potential barriers}  
+A potential barrier is like a wall with a fixed energy height. Classically, particles with less energy bounce back. Quantum mechanically, the wavefunction decays exponentially beyond the barrier, leaving a nonzero probability of finding the particle on the other side.  
+
+### 3. Tunneling probability  
+The chance of tunneling depends on:  
+- **Barrier width**: Thicker barriers reduce the leak.  
+- **Energy mismatch**: The higher the energy gap, the smaller the leak.  
+Mathematically, the probability decays as:  
+$$ P \propto e^{-2\gamma L} $$  
+where $ L $ is barrier width and $ \gamma $ relates to energy mismatch.  
+
+[Diagram idea: A graph of energy vs. position, with the wavefunction’s exponential decay beyond the barrier]  
+
+## Common misconceptions  
+- ❌ "Particles pass through barriers like bullets." → **Correct**: The wavefunction spreads, not the particle itself.  
+- ❌ "Tunneling is a magical loophole." → **Correct**: It’s a natural consequence of wave behavior and probability.  
+- ❌ "Particles are in two places at once." → **Correct**: The wavefunction describes possibilities, not actual positions.  
+- ❌ "Tunneling requires no energy." → **Correct**: The particle still loses energy, but the wavefunction’s spread allows it to "leak" through.  
+
+## How this connects to the rest of physics  
+- **Wave-particle duality**: Tunneling is a direct consequence of particles behaving like waves.  
+- **Probability in quantum mechanics**: The wavefunction encodes all possible outcomes.  
+- **Applications**: Tunneling underpins nuclear decay, microscopes, and semiconductor technology.  
+
+## Recap  
+- Quantum tunneling is a natural wave behavior, not magic.  
+- Particles are described by probability-ripples {wavefunctions} that spread beyond barriers.  
+- Tunneling explains real-world phenomena like alpha decay and scanning microscopes.  
+- It’s a lawful consequence of quantum mechanics, not a loophole.  
+
+---  
+**Next steps**: Explore how tunneling relates to energy conservation, or dive into the math of wavefunction decay.
+
+RESPONSE:
+{
+  "score": 9,
+  "pass": true,
+  "strengths": [
+    "Intuitive pond ripple analogy grounds the concept physically",
+    "Clear distinction between classical and quantum behavior",
+    "Math is contextualized with plain-language explanations",
+    "Common misconceptions are explicitly addressed"
+  ],
+  "issues": [
+    {
+      "severity": "medium",
+      "location": "section on 'energy-plateau {potential barriers}'",
+      "problem": "Descriptive term 'energy-plateau' could mislead about the actual shape of potential barriers",
+      "suggested_fix": "Clarify that potential barriers are more accurately described as 'energy-steps' {potential barriers} with abrupt changes"
+    },
+    {
+      "severity": "medium",
+      "location": "tunneling probability equation",
+      "problem": "Equation is presented without prior explanation of exponential decay context",
+      "suggested_fix": "Add a brief explanation that exponential decay describes how probability diminishes with distance"
+    },
+    {
+      "severity": "low",
+      "location": "section on 'probability-ripples {wavefunctions}'",
+      "problem": "Descriptive term 'probability-ripples' might confuse with classical waves",
+      "suggested_fix": "Add a parenthetical clarification that these are quantum probability waves, not classical water waves"
+    }
+  ],
+  "best_next_revision": "Refine descriptive terminology to ensure clarity while maintaining intuitive language, and add a simple explanation of exponential decay before presenting the tunneling probability equation."
+}
+
+================================================================================
+TIME: 2026-05-04T01:23:26
+NODE: rigor_judge
+PROMPT_CHARS: 6456
+PROMPT_TOKENS_APPROX: 1614
+RESPONSE_CHARS: 1680
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 64, "num_ctx": 12288, "num_predict": 3072, "temperature": 0.25, "top_p": 0.85}
+================================================================================
+PROMPT:
+Score this EasyPhysics article for scientific rigor using the rubric below.
+
+Rigor score, 1-10:
+
+10 = Exceptional. Scientifically accurate, well-qualified, and careful about analogy limits.
+     No obvious misleading simplifications. Claims align with stable accepted physics.
+
+9 = Publishable with light human editing. No major errors. A few details may need polishing,
+    but the article is safe as an educational explanation.
+
+8 = Strong draft. Mostly accurate but has minor imprecision, missing qualifications, or analogy risks.
+
+7 = Useful but needs scientific review. Contains no catastrophic errors, but some claims are too loose,
+    incomplete, or potentially misleading.
+
+6 = Borderline. Several important corrections or qualifications are needed.
+
+5 = Mixed. The article has valuable explanations but also significant inaccuracies or misleading framings.
+
+4 = Scientifically weak. Multiple substantial errors or serious conceptual muddling.
+
+3 = Very unreliable. The reader would likely learn incorrect physics.
+
+2 = Mostly wrong or confused.
+
+1 = Fails the rigor goal.
+
+Rigor judge priorities:
+- Are definitions compatible with standard physics?
+- Are analogies technically safe, with their limits stated when necessary?
+- Are quantum concepts distinguished correctly: amplitude vs probability, superposition vs ignorance,
+  measurement vs ordinary looking, phase vs probability?
+- Are field/particle/wave descriptions accurate enough for a beginner article?
+- Are conservation, symmetry, force, energy, mass, and spin statements properly qualified?
+- Does the article avoid replacing historical jargon with new misleading jargon?
+- Are open questions distinguished from settled explanations?
+
+Use the claim-check results as context, but judge the final draft itself.
+
+Return JSON with this shape:
+{
+  "score": 1,
+  "pass": false,
+  "strengths": ["specific strength"],
+  "issues": [
+    {
+      "severity": "low | medium | high",
+      "location": "section or paragraph description",
+      "problem": "specific rigor issue",
+      "suggested_fix": "specific fix"
+    }
+  ],
+  "best_next_revision": "one concise paragraph describing what to improve next"
+}
+
+Article title: Quantum tunneling: how waves naturally bleed through barriers
+
+Claim-check context:
+{
+  "claim_checks": [
+    {
+      "id": "C001",
+      "verdict": "not_enough_evidence",
+      "severity": "low",
+      "problem": "No claims to verify",
+      "suggested_fix": "Add specific claims to the article's 'claims' array for verification",
+      "source_quality_note": "No sources provided for validation"
+    }
+  ],
+  "summary": {
+    "overall_claim_quality": "No claims to evaluate",
+    "unresolved_or_needs_qualification": 0,
+    "highest_priority_fixes": [
+      "Populate the 'claims' array with specific statements for verification",
+      "Add citations to authoritative sources for all physical concepts"
+    ]
+  },
+  "last_updated": "2026-05-04_01-14-14"
+}
+
+Draft:
+# Quantum Tunneling: How Waves Naturally Bleed Through Barriers  
+
+## The core idea  
+Quantum tunneling is when a particle’s probability-ripple {wavefunction} spreads beyond a barrier it classically couldn’t climb. Like a pond ripple bleeding through a wall, the wavefunction’s spread allows particles to "leak" through barriers—no magic, just math.  
+
+## Why this matters  
+Quantum tunneling explains phenomena like:  
+- **Alpha decay**: Nuclei tunnel out radioactive particles.  
+- **Scanning tunneling microscopes**: Electrons tunnel between tips and surfaces to image atoms.  
+- **Semiconductors**: Tunneling enables electronic devices.  
+It shows how quantum waves defy classical intuition, revealing the probabilistic nature of reality.  
+
+## The simple picture  
+Imagine a pond ripple hitting a wall. Classically, the ripple bounces back. But in quantum mechanics, the ripple *leaks* through the wall, spreading to the other side. This is tunneling: the wavefunction’s spread lets particles exist on both sides of a barrier.  
+
+[Diagram idea: A pond ripple spreading around a barrier, with labels "Classical: Bounce" vs. "Quantum: Leak"]  
+
+## The more precise picture  
+### 1. Probability-ripples {wavefunctions}  
+Particles are described by probability-ripples {wavefunctions}, which spread across space. Even if a particle lacks energy to climb a barrier, its wavefunction can extend beyond it.  
+
+### 2. Energy-plateau {potential barriers}  
+A potential barrier is like a wall with a fixed energy height. Classically, particles with less energy bounce back. Quantum mechanically, the wavefunction decays exponentially beyond the barrier, leaving a nonzero probability of finding the particle on the other side.  
+
+### 3. Tunneling probability  
+The chance of tunneling depends on:  
+- **Barrier width**: Thicker barriers reduce the leak.  
+- **Energy mismatch**: The higher the energy gap, the smaller the leak.  
+Mathematically, the probability decays as:  
+$$ P \propto e^{-2\gamma L} $$  
+where $ L $ is barrier width and $ \gamma $ relates to energy mismatch.  
+
+[Diagram idea: A graph of energy vs. position, with the wavefunction’s exponential decay beyond the barrier]  
+
+## Common misconceptions  
+- ❌ "Particles pass through barriers like bullets." → **Correct**: The wavefunction spreads, not the particle itself.  
+- ❌ "Tunneling is a magical loophole." → **Correct**: It’s a natural consequence of wave behavior and probability.  
+- ❌ "Particles are in two places at once." → **Correct**: The wavefunction describes possibilities, not actual positions.  
+- ❌ "Tunneling requires no energy." → **Correct**: The particle still loses energy, but the wavefunction’s spread allows it to "leak" through.  
+
+## How this connects to the rest of physics  
+- **Wave-particle duality**: Tunneling is a direct consequence of particles behaving like waves.  
+- **Probability in quantum mechanics**: The wavefunction encodes all possible outcomes.  
+- **Applications**: Tunneling underpins nuclear decay, microscopes, and semiconductor technology.  
+
+## Recap  
+- Quantum tunneling is a natural wave behavior, not magic.  
+- Particles are described by probability-ripples {wavefunctions} that spread beyond barriers.  
+- Tunneling explains real-world phenomena like alpha decay and scanning microscopes.  
+- It’s a lawful consequence of quantum mechanics, not a loophole.  
+
+---  
+**Next steps**: Explore how tunneling relates to energy conservation, or dive into the math of wavefunction decay.
+
+RESPONSE:
+{
+  "score": 7,
+  "pass": false,
+  "strengths": [
+    "Accurate conceptual framework aligns with standard quantum mechanics",
+    "Clear distinction between classical intuition and quantum behavior",
+    "Useful real-world applications and connections to broader physics"
+  ],
+  "issues": [
+    {
+      "severity": "medium",
+      "location": "core idea section",
+      "problem": "Analogy of 'bleeding through barriers' lacks explicit qualification of its metaphorical nature",
+      "suggested_fix": "Add disclaimer that the pond ripple analogy is simplified and not literal"
+    },
+    {
+      "severity": "medium",
+      "location": "more precise picture section",
+      "problem": "Missing explanation of how wavefunction decay relates to the Schrödinger equation",
+      "suggested_fix": "Add brief mention of the mathematical foundation for exponential decay"
+    },
+    {
+      "severity": "low",
+      "location": "common misconceptions section",
+      "problem": "Misconception about 'particles being in two places at once' is addressed but could be clarified",
+      "suggested_fix": "Explicitly state that the wavefunction describes probability distribution, not actual particle location"
+    },
+    {
+      "severity": "high",
+      "location": "entire article",
+      "problem": "Lacks specific claims for verification and citations to authoritative sources",
+      "suggested_fix": "Populate claims array with verifiable statements and add references to standard textbooks"
+    }
+  ],
+  "best_next_revision": "Add specific claims for verification, clarify analogy boundaries, and include citations to authoritative physics sources to strengthen scientific rigor."
+}

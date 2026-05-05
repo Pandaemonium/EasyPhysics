@@ -1,0 +1,44 @@
+{
+  "claims": [
+    {
+      "id": "C001",
+      "claim": "The Hamiltonian operator governs the total energy and time evolution of a quantum system.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Fundamental to quantum dynamics and energy prediction",
+      "suggested_search_query": "Hamiltonian operator quantum mechanics textbook"
+    },
+    {
+      "id": "C002",
+      "claim": "The Hamiltonian appears in the Schrödinger equation as the driver of quantum time evolution.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Core equation for quantum state prediction",
+      "suggested_search_query": "Schrödinger equation Hamiltonian role"
+    },
+    {
+      "id": "C003",
+      "claim": "The Hamiltonian encodes both kinetic and potential energy components of a system.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Defines total energy in quantum systems",
+      "suggested_search_query": "Hamiltonian energy components quantum mechanics"
+    },
+    {
+      "id": "C004",
+      "claim": "Energy eigenstates are solutions to $ \hat{H} \psi = E \psi $, representing stable energy levels.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Critical for understanding quantum stability",
+      "suggested_search_query": "Energy eigenstates Hamiltonian equation"
+    },
+    {
+      "id": "C005",
+      "claim": "The Hamiltonian is an operator, not a fixed number, that acts on quantum states.",
+      "type": "misconception",
+      "importance": "high",
+      "needs_external_check

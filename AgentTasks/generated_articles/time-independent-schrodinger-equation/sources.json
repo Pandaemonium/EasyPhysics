@@ -1,0 +1,19 @@
+{
+  "sources_by_claim": {
+    "C001": {
+      "claim": "# Time-independent Schrödinger equation ## The core idea The **Time-independent Schrödinger equation (TISE)** is a simplified version of quantum mechanics that finds \"energy snapshots\" of particles in systems where forces don’t change over time.",
+      "query": "Time-independent Schrodinger equation # Time-independent Schrödinger equation ## The core idea The **Time-independent Schrödinger equation (TISE)** is a simplified physics lecture notes textbook explanation",
+      "result_snippet": "Time-independent equation.The time-dependent Schrödinger equation described above predicts that wave functions can form standing waves, called stationary states. About Press Copyright Contact us Creators Advertise Developers Terms Privacy Policy & Safety How... (7.8) is the Time-Independent Schrodinger Equation (TISE) in one dimension. (7.8). Recall that we did not derive the TISE, we simple constructed a differential equation that is consistent with the free-particle wave function. Time-independent Schrodinger Equation.• Time Independent Schroedinger Equation • Analytical solutions of Toy Problems. » (Almost) Free Electrons » Tightly bound electrons – infinite potential well » Electrons in a finite potential well » Tunneling through a single barrier. Independent Schrödinger Schrodinger equation Time.Homework Equations. TISE = time independent Schrodinger equation.",
+      "searched_at": "2026-05-04_16-16-00",
+      "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
+    },
+    "C002": {
+      "claim": "It reveals how particles can only have specific, quantized energy levels—like electrons in atoms—by solving for stationary states where probabilities don’t change.",
+      "query": "Time-independent Schrodinger equation It reveals how particles can only have specific, quantized energy levels—like electrons in atoms—by solving for physics lecture notes textbook explanation",
+      "result_snippet": "Feb 18, 2022 · The time dependent Schrödinger equation (TDSE) describes the time evolution of non-stationary quantum states. We show that the TDSE preserves probability and then study its properties in the context of a particularly interesting set of solutions, dubbed coherent states. In the next sections, we solve Schrӧdinger’s time-independent equation for three cases: a quantum particle in a box, a simple harmonic oscillator, and a quantum barrier. Nov 24, 2022 · We can start the derivation of the single-particle time-independent Schrödinger equation (TISEq) from the equation that describes the motion of a wave in classical mechanics: It is known as separation of variables. This will lead to two ordinary differential equations, one involving only time, which can be solved easily, and the second involving only the position of the particle, known as the Time-Independent Schrödinger Equation (TISE). The time-dependent equation shows how quantum states change over time, useful for non-stationary situations. The time-independent version, simpler to solve, deals with stationary states and energy levels, key for understanding atomic structure and bonding.",
+      "searched_at": "2026-05-04_16-16-01",
+      "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
+    }
+  },
+  "last_updated": "2026-05-04_16-16-02"
+}

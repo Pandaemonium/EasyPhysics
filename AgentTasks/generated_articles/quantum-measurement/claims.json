@@ -1,0 +1,79 @@
+{
+  "claims": [
+    {
+      "id": "C001",
+      "claim": "# Quantum Measurement ## The core idea Quantum measurement is a lawful interaction that selects a definite outcome from a superposition, guided by probabilities.",
+      "type": "fallback-extracted",
+      "importance": "medium",
+      "needs_external_check": true,
+      "why_it_matters": "Automatically extracted fallback claim; review manually.",
+      "suggested_search_query": "Quantum measurement # Quantum Measurement ## The core idea Quantum measurement is a lawful interaction that selects a physics lecture notes textbook explanation"
+    },
+    {
+      "id": "C002",
+      "claim": "When a quantum system is measured, its possibilities \"collapse\" into a single, observable result, like flipping a coin that lands definitively on heads or tails.",
+      "type": "fallback-extracted",
+      "importance": "medium",
+      "needs_external_check": true,
+      "why_it_matters": "Automatically extracted fallback claim; review manually.",
+      "suggested_search_query": "Quantum measurement When a quantum system is measured, its possibilities \"collapse\" into a single, observable result, like flipping physics lecture notes textbook explanation"
+    },
+    {
+      "id": "C003",
+      "claim": "## Why this matters This process explains how quantum systems—like particles or waves—transition from abstract possibilities to concrete realities.",
+      "type": "fallback-extracted",
+      "importance": "medium",
+      "needs_external_check": true,
+      "why_it_matters": "Automatically extracted fallback claim; review manually.",
+      "suggested_search_query": "Quantum measurement ## Why this matters This process explains how quantum systems—like particles or waves—transition from abstract possibilities physics lecture notes textbook explanation"
+    },
+    {
+      "id": "C004",
+      "claim": "It bridges the gap between the strange, probabilistic world of quantum mechanics and the classical world we experience, where outcomes are definite.",
+      "type": "fallback-extracted",
+      "importance": "medium",
+      "needs_external_check": true,
+      "why_it_matters": "Automatically extracted fallback claim; review manually.",
+      "suggested_search_query": "Quantum measurement It bridges the gap between the strange, probabilistic world of quantum mechanics and the classical world physics lecture notes textbook explanation"
+    },
+    {
+      "id": "C005",
+      "claim": "When you flip it, the coin \"chooses\" a side, like a wave collapsing into a single ripple.",
+      "type": "fallback-extracted",
+      "importance": "medium",
+      "needs_external_check": true,
+      "why_it_matters": "Automatically extracted fallback claim; review manually.",
+      "suggested_search_query": "Quantum measurement When you flip it, the coin \"chooses\" a side, like a wave collapsing into a single physics lecture notes textbook explanation"
+    },
+    {
+      "id": "C006",
+      "claim": "This choice isn’t random—it’s guided by the \"weights\" of each possibility, like how a heavier coin might land more often.",
+      "type": "fallback-extracted",
+      "importance": "medium",
+      "needs_external_check": true,
+      "why_it_matters": "Automatically extracted fallback claim; review manually.",
+      "suggested_search_query": "Quantum measurement This choice isn’t random—it’s guided by the \"weights\" of each possibility, like how a heavier coin physics lecture notes textbook explanation"
+    },
+    {
+      "id": "C007",
+      "claim": "**Wavefunction collapse** A quantum system is described by a **wavefunction** {wavefunction}, which encodes all possible outcomes as a **superposition** {superposition}.",
+      "type": "fallback-extracted",
+      "importance": "medium",
+      "needs_external_check": true,
+      "why_it_matters": "Automatically extracted fallback claim; review manually.",
+      "suggested_search_query": "Quantum measurement **Wavefunction collapse** A quantum system is described by a **wavefunction** {wavefunction}, which encodes all possible outcomes physics lecture notes textbook explanation"
+    },
+    {
+      "id": "C008",
+      "claim": "When measured, the wavefunction **collapses** {wavefunction collapse} into a single definite state, like a particle choosing a specific position.",
+      "type": "fallback-extracted",
+      "importance": "medium",
+      "needs_external_check": true,
+      "why_it_matters": "Automatically extracted fallback claim; review manually.",
+      "suggested_search_query": "Quantum measurement When measured, the wavefunction **collapses** {wavefunction collapse} into a single definite state, like a particle choosing physics lecture notes textbook explanation"
+    }
+  ],
+  "last_updated": "2026-05-04_13-40-36",
+  "count": 8,
+  "parse_note": "No usable claims parsed from LLM output. Using deterministic fallback extraction from draft sentences."
+}

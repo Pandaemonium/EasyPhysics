@@ -1,0 +1,61 @@
+{
+  "sources_by_claim": {
+    "C001": {
+      "claim": "Quantum superposition is like a vibrational chord {superposition}: a combination of states rather than physical coexistence.",
+      "query": "quantum superposition analogy guitar string",
+      "result_snippet": "To recover a classical physical quantity, one must use the Born rule - and there is nothing analog to the Born rule in the guitar string metaphor. The sound energy is transmitted to the body of the guitar via the sound bridge where the strings terminate on a board that is glued to the face of ... You can also generate standing waves by plucking a guitar string with varying strengths, until you find standing waves with different numbers of ... However, quantum computing isn ’ t like a supercar that surpasses the speed of old model cars; instead, it’s more like a boat designed for an ... Quantum analog simulators \" are a newish topic that some groups are working on, and I am asking a more general question of why exactly classical ...",
+      "searched_at": "2026-05-03_23-09-48",
+      "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
+    },
+    "C002": {
+      "claim": "A quantum state is a harmonic blend {quantum state} of basis states, mathematically represented as |ψ⟩ = α|0⟩ + β|1⟩.",
+      "query": "quantum state representation mathematical",
+      "result_snippet": "... quantum physics , a quantum state is a ... The same physical quantum state can be expressed mathematically in different ways called representations . In control engineering and system identification , a state-space representation is a mathematical model of a physical system specified as a set of ... ... representation of states and operators, ... This section describes the Hilbert space which underpins the representation of optical states under study. In quantum mechanics , a quantum state is a mathematical entity that fully describes the condition of a physical system , encoding the probabilities ... ... quantum physics , a quantum state is a ... The same physical quantum state can be expressed mathematically in different ways called representations .",
+      "searched_at": "2026-05-03_23-09-50",
+      "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
+    },
+    "C003": {
+      "claim": "Measurement selects one outcome from a superposition, analogous to plucking a string to reveal a specific harmonic.",
+      "query": "quantum measurement process",
+      "result_snippet": "This is an oversimplification, since the physical implementation of a quantum measurement may involve a process like the absorption of a photon ... Decoherence time is very short for macroscopic objects like detectors, but it does not explain why quantum measurements yield single outcomes. Title: Quantum measurements are physical processes. ... View a PDF of the paper titled Quantum measurements are physical processes. The new paradigm of measurement-based quantum computation, where the processing of quantum information takes place by rounds of simple measurements ... However, in quantum mechanics, measurement plays an active role in defining the outcome. When a quantum system is measured, its superposition ...",
+      "searched_at": "2026-05-03_23-09-54",
+      "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
+    },
+    "C004": {
+      "claim": "Superposition is foundational for quantum computing and interference phenomena.",
+      "query": "quantum superposition applications",
+      "result_snippet": "Quantum superposition is a fundamental principle of quantum mechanics that states that linear combinations of solutions to the Schrödinger equation are also solutions of the... Welcome to Part 2 of our series on the basics and practical applications of quantum computing. Today's discussion will focus on the key concept of quantum superposition. MIT 8.04 Quantum Physics I, Spring 2013View the complete course: http://ocw.mit.edu/8-04S13Instructor: Allan AdamsIn this lecture, Prof. 67% of breakthrough quantum applications directly exploit superposition principles23 commercial quantum systems now operational, all leveraging superposition847 quantum physicists surveyed reveal 73% expect superposition breakthroughs within 24 months Discover what Quantum AI is and how it combines quantum computing with artificial intelligence to revolutionize problem-solving, security, and future technologies.",
+      "searched_at": "2026-05-03_23-09-55",
+      "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
+    },
+    "C005": {
+      "claim": "A chord is not 'multiple notes at once' but a single sound with layered harmonics, analogous to quantum superposition.",
+      "query": "music theory chords vs superposition",
+      "result_snippet": "Correlations between quantum theory and music theory—specifically between principles of quantum computing and musical harmony—can lead to new understandings and new methodologies for music theorists and composers. Apr 19, 2024 · The quantum principle of superposition is shown to be closely related to different interpretations of musical meaning. Superposition is implemented directly in the authors' simulations of quantum computing, as applied in the decision-making processes of computer-generated music composition. I would like to use it again in my next assignment. I was wondering about whether there was any theory about what combinations of chords work really well together, and what sort of effect they produce. 10 Non-Chord Tones 11 Melodic Analysis 12 Form in Popular Music 13 Phrases in Combination 14 Accompanimental Textures 15 Creating Contrast Between Sections 16 Figured Bass 17 Se\n\n...[TRUNCATED]...\n\n when writing music. Jul 4, 2025 · Superposition is vital for almost every aspect of musical performance and production. It underpins how different sound elements blend, clash, or complement each other. Harmony and Chords: When musicians play notes that form a chord (e.g., C-E-G), the individual sound waves of each note superimpose. 10 Non-Chord Tones 11 Melodic Analysis 12 Form in Popular Music 13 Phrases in Combination 14 Accompanimental Textures 15 Creating Contrast Between Sections 16 Figured Bass 17 Secondary Dominant Chords 18 Secondary Diminished Chords 19 Mode Mixture 20 The Neapolitan Chord 21 Augmented Sixth Chords 22 Modulation 23 Enharmonic Modulation 24 Binary ... Feb 14, 2024 · In this post we will explore what chords are in music and music theory, how to write them and build them, how to invert chords and how to label the chords and also how to use them when writing music.",
+      "searched_at": "2026-05-03_23-09-57",
+      "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
+    },
+    "C006": {
+      "claim": "Quantum states are not classical probabilities; superposition involves coherent combinations that enable interference.",
+      "query": "quantum probability vs classical probability",
+      "result_snippet": "m theory shares with classical probability theory many im-portant properties. I show that this common core regards at least the following six areas, and I provide details on each of these: the logic of propositions, symmet. A comparison of the common core and the major differences between classical and quantum probability theories, with examples and applications. The lecture explores the role of logical structure, consistency, reasoning, intervention, and agent-dependency in quantum mechanics and quantum computing. Dec 1, 2009 · The above examples strongly suggest that there is in fact no consistent alternative to quantum theory as we know it: Any non-classical probability theory other than quantum theory in complex Hilbert space likely violates basic physical desiderata. What changes with quantum probability is the perspective: in classical probability, these results are coherence conditions among the experimental data; in quantum probability, they are conditions for the existence of a given mathematical model permitting description the experimental data. Apr 25, 2025 · In classical systems, the probability is due to the fact that the same macrostate can be realized in different ways as a microstate. Despite the radical differences between quantum and classical systems, I show that the same can be applied to quantum systems, and the result is the Born rule.",
+      "searched_at": "2026-05-03_23-09-58",
+      "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
+    },
+    "C007": {
+      "claim": "The total probability amplitude is normalized: |α|² + |β|² = 1, analogous to harmonic energy distribution in a chord.",
+      "query": "quantum probability normalization",
+      "result_snippet": "In the simplest cases, normalization of ratings means adjusting values measured on different scales to a notionally common scale, often prior to averaging. Normalisation guarantees that the total probability of finding a quantum particle in all space sums to one. Normalization of Wave Functions. Total probability must equal one—achieved by requiring. Before I started studying quantum mechanics, I thought I knew what normalization was. Just pulling off Google, here's a definition that matches what I've understood normalization to mean Far from being a mere geometric artifact, π emerges as a structural constant governing the normalization, symmetry, and completeness of quantum probability spaces.",
+      "searched_at": "2026-05-03_23-10-00",
+      "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
+    },
+    "C008": {
+      "claim": "Measurement does not 'destroy' superposition but selects one state from the combination, akin to plucking a string.",
+      "query": "quantum measurement selection process",
+      "result_snippet": "Quantum contextuality means measurement outcomes depend on what else is measured simultaneously. This shapes how consciousness might select among quantum possibilities. We demonstrate that the contextuality of measurement selection can enhance the precision of quantum metrology with a simple linear optical experiment. Contextuality is a nonclassical property known as a resource for various quantum information processing tasks. The measurement process in quantum me-chanics is clearly predictive.lected measurements [3, 4], where y is xed, here not any selection is imposed on the second measurement. Measurement quantum mechanics, the theory of a quantum system which undergoes a. measurement process, is introduced by a loop of mathematical equivalencies connecting pre-. viously proposed approaches. The unique phenomenological parameter of the theory is linked. Because this half-selection process is common to all nonlocal correlation methods including Bell inequality violations and Franson-type nonlocal correlation, both quantum erasers and the quantum eraser-based nonlocal correlation are the so-called quantum illusion via a measurement...",
+      "searched_at": "2026-05-03_23-10-01",
+      "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
+    }
+  },
+  "last_updated": "2026-05-03_23-10-02"
+}

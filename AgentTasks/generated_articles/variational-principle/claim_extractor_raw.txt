@@ -1,0 +1,49 @@
+{
+  "claims": [
+    {
+      "id": "C001",
+      "claim": "Nature chooses paths or states that extremize a key quantity, such as energy or action.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "This principle unifies physical laws across mechanics, quantum systems, and fields.",
+      "suggested_search_query": "variational principle unified physics"
+    },
+    {
+      "id": "C002",
+      "claim": "The variational principle applies to classical mechanics, quantum systems, fluids, and electromagnetic fields.",
+      "type": "application",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "It reveals a universal framework for understanding diverse physical phenomena.",
+      "suggested_search_query": "variational principle applications in physics"
+    },
+    {
+      "id": "C003",
+      "claim": "Action is defined as the integral of the Lagrangian over time, where the Lagrangian is kinetic energy minus potential energy.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "This mathematical formulation is central to classical and quantum mechanics.",
+      "suggested_search_query": "action integral Lagrangian definition"
+    },
+    {
+      "id": "C004",
+      "claim": "Physical systems evolve along paths that are stationary points of the action functional.",
+      "type": "mathematical",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "This condition ensures minimal energy or optimal stability in systems.",
+      "suggested_search_query": "stationary points action principle"
+    },
+    {
+      "id": "C005",
+      "claim": "The variational principle in classical mechanics requires paths that minimize action.",
+      "type": "application",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "It explains planetary motion and mechanical systems' behavior.",
+      "suggested_search_query": "classical mechanics variational principle"
+    },
+    {
+      "

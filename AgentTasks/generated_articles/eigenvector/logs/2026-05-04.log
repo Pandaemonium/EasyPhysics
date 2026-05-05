@@ -1,0 +1,1753 @@
+
+================================================================================
+TIME: 2026-05-04T09:32:44
+NODE: planner
+PROMPT_CHARS: 472
+PROMPT_TOKENS_APPROX: 118
+RESPONSE_CHARS: 4973
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.85}
+================================================================================
+PROMPT:
+Create a strong teaching outline for this EasyPhysics article:
+
+Title: Eigenvector
+
+The outline should include:
+1. Scope: what this article explains.
+2. Out of scope: what it should not try to explain yet.
+3. Prerequisite concepts.
+4. Core intuition.
+5. Suggested descriptive names with standard terms in braces.
+6. Common misconceptions to avoid.
+7. Section-by-section outline.
+8. Optional diagram ideas.
+9. Optional minimal math, with what the math means.
+
+Use Markdown.
+
+RESPONSE:
+```markdown
+# Eigenvector
+
+## 1. Scope  
+This article explains **eigenvectors** as special vectors that only change in magnitude (not direction) when a linear transformation is applied. It focuses on their conceptual role in physics and math, using intuitive examples and minimal math to build understanding.
+
+---
+
+## 2. Out of Scope  
+- **Advanced linear algebra** (e.g., eigenvalues in abstract spaces, generalized eigenvectors).  
+- **Quantum mechanics** (though eigenvectors are central there, this article avoids that context).  
+- **Matrix diagonalization** or computational methods for finding eigenvectors.  
+
+---
+
+## 3. Prerequisite Concepts  
+- **Vectors** (as arrows with direction and magnitude).  
+- **Linear transformations** (e.g., stretching, rotating, shearing).  
+- **Matrices** (as tools to represent transformations).  
+
+---
+
+## 4. Core Intuition  
+Eigenvectors are **direction-keepers** {eigenvectors}:  
+- When a transformation (like stretching or rotating) is applied, most vectors change direction.  
+- Eigenvectors are the rare vectors that **only scale** (stretch/shrink) without rotating.  
+- Think of them as "special directions" where the transformation acts simply: "pushing" or "pulling" along that line.  
+
+---
+
+## 5. Suggested Descriptive Names with Standard Terms in Braces  
+| Intuitive Name              | Standard Term     |  
+|----------------------------|-------------------|  
+| Direction-keeper {eigenvector} |                   |  
+| Scale-only vector {eigenvector} |                   |  
+| Transformation-axis {eigenvector} |                   |  
+| Unrotated vector {eigenvector} |                   |  
+
+---
+
+## 6. Common Misconceptions to Avoid  
+- ❌ "Eigenvectors are only for matrices."  
+  → Eigenvectors apply to **any linear transformation**, not just matrices.  
+- ❌ "All vectors are eigenvectors."  
+  → Only specific vectors (direction-keepers) satisfy the eigenvector condition.  
+- ❌ "Eigenvectors change direction slightly."  
+  → They **never** change direction; they only scale.  
+
+---
+
+## 7. Section-by-Section Outline  
+### **Section 1: What is an Eigenvector?**  
+- Introduce the idea of "direction-keepers" using a simple example (e.g., stretching a rubber band).  
+- Define eigenvectors as vectors that only scale under a transformation.  
+
+### **Section 2: The "Scale-Only" Rule**  
+- Explain the mathematical condition: **A·v = λ·v** (where A is the transformation, v is the eigenvector, and λ is the scaling factor).  
+- Use a diagram to show how eigenvectors don’t rotate.  
+
+### **Section 3: Real-World Examples**  
+- **Spring stretching**: The direction of the spring’s stretch is an eigenvector.  
+- **Rotation around an axis**: The axis itself is an eigenvector (no rotation).  
+- **Diagonalizing matrices**: Eigenvectors simplify complex transformations.  
+
+### **Section 4: Why Eigenvectors Matter**  
+- Link to physics: Quantum states {eigenstates} are eigenvectors of operators.  
+- Mention applications in engineering, computer graphics, and data science.  
+
+---
+
+## 8. Optional Diagram Ideas  
+1. **Transformation vs. Eigenvector**:  
+   - A vector (arrow) transformed by a matrix (e.g., shearing).  
+   - Highlight the eigenvector (same direction, different length).  
+2. **Spring Example**:  
+   - A spring stretched along its axis (eigenvector) vs. twisted (non-eigenvector).  
+3. **Rotation Axis**:  
+   - A 3D object rotating around an axis (eigenvector) vs. a vector off-axis.  
+
+---
+
+## 9. Optional Minimal Math  
+**Equation**:  
+$$
+A \cdot \mathbf{v} = \lambda \cdot \mathbf{v}
+$$  
+- **A**: The transformation (matrix).  
+- **v**: The eigenvector (direction-keeper).  
+- **λ**: The scaling factor (how much the vector stretches/shrinks).  
+- **Explanation**: This equation says the transformation A only scales v, without changing its direction.  
+
+**Example**:  
+If A is a matrix that stretches space by 2x along the x-axis, then the vector (1, 0) is an eigenvector with λ = 2.  
+```  
+A = [[2, 0],  
+     [0, 1]]  
+v = [1, 0]  
+A·v = [2, 0] = 2·[1, 0] → λ = 2  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```
+
+================================================================================
+TIME: 2026-05-04T09:37:42
+NODE: writer
+PROMPT_CHARS: 6379
+PROMPT_TOKENS_APPROX: 1594
+RESPONSE_CHARS: 2691
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.85}
+================================================================================
+PROMPT:
+Write a high-quality first draft for this EasyPhysics article.
+
+Title: Eigenvector
+
+Article outline:
+```markdown
+# Eigenvector
+
+## 1. Scope  
+This article explains **eigenvectors** as special vectors that only change in magnitude (not direction) when a linear transformation is applied. It focuses on their conceptual role in physics and math, using intuitive examples and minimal math to build understanding.
+
+---
+
+## 2. Out of Scope  
+- **Advanced linear algebra** (e.g., eigenvalues in abstract spaces, generalized eigenvectors).  
+- **Quantum mechanics** (though eigenvectors are central there, this article avoids that context).  
+- **Matrix diagonalization** or computational methods for finding eigenvectors.  
+
+---
+
+## 3. Prerequisite Concepts  
+- **Vectors** (as arrows with direction and magnitude).  
+- **Linear transformations** (e.g., stretching, rotating, shearing).  
+- **Matrices** (as tools to represent transformations).  
+
+---
+
+## 4. Core Intuition  
+Eigenvectors are **direction-keepers** {eigenvectors}:  
+- When a transformation (like stretching or rotating) is applied, most vectors change direction.  
+- Eigenvectors are the rare vectors that **only scale** (stretch/shrink) without rotating.  
+- Think of them as "special directions" where the transformation acts simply: "pushing" or "pulling" along that line.  
+
+---
+
+## 5. Suggested Descriptive Names with Standard Terms in Braces  
+| Intuitive Name              | Standard Term     |  
+|----------------------------|-------------------|  
+| Direction-keeper {eigenvector} |                   |  
+| Scale-only vector {eigenvector} |                   |  
+| Transformation-axis {eigenvector} |                   |  
+| Unrotated vector {eigenvector} |                   |  
+
+---
+
+## 6. Common Misconceptions to Avoid  
+- ❌ "Eigenvectors are only for matrices."  
+  → Eigenvectors apply to **any linear transformation**, not just matrices.  
+- ❌ "All vectors are eigenvectors."  
+  → Only specific vectors (direction-keepers) satisfy the eigenvector condition.  
+- ❌ "Eigenvectors change direction slightly."  
+  → They **never** change direction; they only scale.  
+
+---
+
+## 7. Section-by-Section Outline  
+### **Section 1: What is an Eigenvector?**  
+- Introduce the idea of "direction-keepers" using a simple example (e.g., stretching a rubber band).  
+- Define eigenvectors as vectors that only scale under a transformation.  
+
+### **Section 2: The "Scale-Only" Rule**  
+- Explain the mathematical condition: **A·v = λ·v** (where A is the transformation, v is the eigenvector, and λ is the scaling factor).  
+- Use a diagram to show how eigenvectors don’t rotate.  
+
+### **Section 3: Real-World Examples**  
+- **Spring stretching**: The direction of the spring’s stretch is an eigenvector.  
+- **Rotation around an axis**: The axis itself is an eigenvector (no rotation).  
+- **Diagonalizing matrices**: Eigenvectors simplify complex transformations.  
+
+### **Section 4: Why Eigenvectors Matter**  
+- Link to physics: Quantum states {eigenstates} are eigenvectors of operators.  
+- Mention applications in engineering, computer graphics, and data science.  
+
+---
+
+## 8. Optional Diagram Ideas  
+1. **Transformation vs. Eigenvector**:  
+   - A vector (arrow) transformed by a matrix (e.g., shearing).  
+   - Highlight the eigenvector (same direction, different length).  
+2. **Spring Example**:  
+   - A spring stretched along its axis (eigenvector) vs. twisted (non-eigenvector).  
+3. **Rotation Axis**:  
+   - A 3D object rotating around an axis (eigenvector) vs. a vector off-axis.  
+
+---
+
+## 9. Optional Minimal Math  
+**Equation**:  
+$$
+A \cdot \mathbf{v} = \lambda \cdot \mathbf{v}
+$$  
+- **A**: The transformation (matrix).  
+- **v**: The eigenvector (direction-keeper).  
+- **λ**: The scaling factor (how much the vector stretches/shrinks).  
+- **Explanation**: This equation says the transformation A only scales v, without changing its direction.  
+
+**Example**:  
+If A is a matrix that stretches space by 2x along the x-axis, then the vector (1, 0) is an eigenvector with λ = 2.  
+```  
+A = [[2, 0],  
+     [0, 1]]  
+v = [1, 0]  
+A·v = [2, 0] = 2·[1, 0] → λ = 2  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```  
+```
+
+Human/editor notes:
+# Human/editor notes
+
+Add any preferences, corrections, or article-specific constraints here.
+
+
+Template guidance:
+Preferred article structure:
+
+# Title
+
+## The core idea
+A short, intuitive explanation that gives the reader the main point first.
+
+## Why this matters
+Explain what the concept helps us understand.
+
+## The simple picture
+Use an analogy, diagram idea, or concrete example.
+
+## The more precise picture
+Introduce standard terms, careful distinctions, and optional minimal math.
+
+## Common misconceptions
+Name and correct the traps.
+
+## How this connects to the rest of physics
+Link the concept to fields, particles, symmetry, conservation, relativity, or the Standard Model as appropriate.
+
+## Recap
+A few concise takeaways.
+
+Drafting instructions:
+- Make it accessible to a motivated high-schooler or college freshman.
+- Teach the modern concept directly rather than narrating historical discovery.
+- Use descriptive names with standard terms in braces, e.g. space-occupier {fermion}.
+- Include common misconceptions and correct them.
+- Include minimal math only when it helps, and explain what the math means.
+- Suggest diagram ideas inline where helpful using this format: [Diagram idea: ...]
+- Output only the article in Markdown, with no commentary before or after.
+
+RESPONSE:
+# Eigenvector
+
+## The core idea  
+Eigenvectors are **direction-keepers** {eigenvectors}: they only stretch or shrink when a transformation is applied—they never change direction. Think of them as "special directions" where a transformation acts simply, like pushing or pulling along a line.
+
+---
+
+## Why this matters  
+Eigenvectors simplify complex transformations by isolating directions where the transformation behaves predictably. They are foundational in physics (e.g., quantum states {eigenstates}), engineering, computer graphics, and data science. Understanding them helps break down problems into manageable parts.
+
+---
+
+## The simple picture  
+[Diagram idea: A spring stretched along its axis (eigenvector) vs. twisted (non-eigenvector)]  
+Imagine stretching a spring along its length. The spring’s direction stays the same—it only stretches. This is an eigenvector: the transformation (stretching) acts like a "slider" along that line, never rotating the direction.
+
+---
+
+## The more precise picture  
+Eigenvectors satisfy the equation:  
+$$
+A \cdot \mathbf{v} = \lambda \cdot \mathbf{v}
+$$  
+- **A**: The transformation (e.g., a matrix).  
+- **v**: The eigenvector (direction-keeper).  
+- **λ**: The scaling factor (how much the vector stretches/shrinks).  
+
+**Example**:  
+If A is a matrix that stretches space by 2x along the x-axis, then the vector (1, 0) is an eigenvector with λ = 2.  
+```  
+A = [[2, 0],  
+     [0, 1]]  
+v = [1, 0]  
+A·v = [2, 0] = 2·[1, 0] → λ = 2  
+```  
+
+---
+
+## Common misconceptions  
+- ❌ "Eigenvectors are only for matrices."  
+  → Eigenvectors apply to **any linear transformation**, not just matrices.  
+- ❌ "All vectors are eigenvectors."  
+  → Only specific vectors (direction-keepers) satisfy the eigenvector condition.  
+- ❌ "Eigenvectors change direction slightly."  
+  → They **never** change direction; they only scale.  
+
+---
+
+## How this connects to the rest of physics  
+- **Quantum mechanics**: Quantum states {eigenstates} are eigenvectors of operators (e.g., energy or momentum).  
+- **Engineering**: Eigenvectors describe modes of vibration in structures.  
+- **Computer graphics**: They simplify 3D transformations (e.g., rotating objects around an axis).  
+- **Data science**: Principal component analysis (PCA) uses eigenvectors to find patterns in data.  
+
+---
+
+## Recap  
+- Eigenvectors are **direction-keepers** {eigenvectors} that only scale under a transformation.  
+- They simplify complex systems by isolating predictable directions.  
+- Key equation: $ A \cdot \mathbf{v} = \lambda \cdot \mathbf{v} $.  
+- Avoid common traps: eigenvectors aren’t limited to matrices, not all vectors are eigenvectors, and they never rotate.
+
+================================================================================
+TIME: 2026-05-04T09:39:25
+NODE: term_collector
+PROMPT_CHARS: 3161
+PROMPT_TOKENS_APPROX: 790
+RESPONSE_CHARS: 211
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.85}
+================================================================================
+PROMPT:
+Extract the descriptive-name candidates from this draft.
+
+Return JSON with this shape:
+{
+  "terms": [
+    {
+      "standard_term": "fermion",
+      "candidate_name": "space-occupier",
+      "context_quote": "short quote from the draft",
+      "usefulness": "why this name helps",
+      "risk": "how it could mislead, or empty string if low risk"
+    }
+  ]
+}
+
+Only include actual teaching-name candidates, especially phrases followed by standard terms in braces.
+
+Draft:
+# Eigenvector
+
+## The core idea  
+Eigenvectors are **direction-keepers** {eigenvectors}: they only stretch or shrink when a transformation is applied—they never change direction. Think of them as "special directions" where a transformation acts simply, like pushing or pulling along a line.
+
+---
+
+## Why this matters  
+Eigenvectors simplify complex transformations by isolating directions where the transformation behaves predictably. They are foundational in physics (e.g., quantum states {eigenstates}), engineering, computer graphics, and data science. Understanding them helps break down problems into manageable parts.
+
+---
+
+## The simple picture  
+[Diagram idea: A spring stretched along its axis (eigenvector) vs. twisted (non-eigenvector)]  
+Imagine stretching a spring along its length. The spring’s direction stays the same—it only stretches. This is an eigenvector: the transformation (stretching) acts like a "slider" along that line, never rotating the direction.
+
+---
+
+## The more precise picture  
+Eigenvectors satisfy the equation:  
+$$
+A \cdot \mathbf{v} = \lambda \cdot \mathbf{v}
+$$  
+- **A**: The transformation (e.g., a matrix).  
+- **v**: The eigenvector (direction-keeper).  
+- **λ**: The scaling factor (how much the vector stretches/shrinks).  
+
+**Example**:  
+If A is a matrix that stretches space by 2x along the x-axis, then the vector (1, 0) is an eigenvector with λ = 2.  
+```  
+A = [[2, 0],  
+     [0, 1]]  
+v = [1, 0]  
+A·v = [2, 0] = 2·[1, 0] → λ = 2  
+```  
+
+---
+
+## Common misconceptions  
+- ❌ "Eigenvectors are only for matrices."  
+  → Eigenvectors apply to **any linear transformation**, not just matrices.  
+- ❌ "All vectors are eigenvectors."  
+  → Only specific vectors (direction-keepers) satisfy the eigenvector condition.  
+- ❌ "Eigenvectors change direction slightly."  
+  → They **never** change direction; they only scale.  
+
+---
+
+## How this connects to the rest of physics  
+- **Quantum mechanics**: Quantum states {eigenstates} are eigenvectors of operators (e.g., energy or momentum).  
+- **Engineering**: Eigenvectors describe modes of vibration in structures.  
+- **Computer graphics**: They simplify 3D transformations (e.g., rotating objects around an axis).  
+- **Data science**: Principal component analysis (PCA) uses eigenvectors to find patterns in data.  
+
+---
+
+## Recap  
+- Eigenvectors are **direction-keepers** {eigenvectors} that only scale under a transformation.  
+- They simplify complex systems by isolating predictable directions.  
+- Key equation: $ A \cdot \mathbf{v} = \lambda \cdot \mathbf{v} $.  
+- Avoid common traps: eigenvectors aren’t limited to matrices, not all vectors are eigenvectors, and they never rotate.
+
+RESPONSE:
+{
+  "terms": [
+    {
+      "standard_term": "eigenvectors",
+      "candidate_name": "direction-keepers",
+      "context_quote": "Eigenvectors are **direction-keepers** {eigenvectors}: they only stretch or shrink
+
+================================================================================
+TIME: 2026-05-04T09:42:00
+NODE: claim_extractor
+PROMPT_CHARS: 3676
+PROMPT_TOKENS_APPROX: 919
+RESPONSE_CHARS: 1823
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.85}
+================================================================================
+PROMPT:
+Extract 8 to 12 important scientific and explanatory claims from this article draft.
+
+Return JSON with exactly this shape:
+{
+  "claims": [
+    {
+      "id": "C001",
+      "claim": "A clear, standalone claim from the article.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "brief reason",
+      "suggested_search_query": "stable source search query, not latest-news oriented"
+    }
+  ]
+}
+
+Rules:
+- Do not return an empty claims list unless the draft is empty.
+- Use only valid JSON.
+- Use true/false, not True/False.
+- Do not include Markdown fences.
+- Do not include prose before or after the JSON.
+- Extract claims that matter for scientific correctness.
+- Include claims embedded in analogies if the analogy could mislead.
+- Do not include purely stylistic statements.
+- Search queries should prefer stable sources: textbooks, lecture notes, CERN, Fermilab, university pages.
+
+Article title: Eigenvector
+
+Draft:
+# Eigenvector
+
+## The core idea  
+Eigenvectors are **direction-keepers** {eigenvectors}: they only stretch or shrink when a transformation is applied—they never change direction. Think of them as "special directions" where a transformation acts simply, like pushing or pulling along a line.
+
+---
+
+## Why this matters  
+Eigenvectors simplify complex transformations by isolating directions where the transformation behaves predictably. They are foundational in physics (e.g., quantum states {eigenstates}), engineering, computer graphics, and data science. Understanding them helps break down problems into manageable parts.
+
+---
+
+## The simple picture  
+[Diagram idea: A spring stretched along its axis (eigenvector) vs. twisted (non-eigenvector)]  
+Imagine stretching a spring along its length. The spring’s direction stays the same—it only stretches. This is an eigenvector: the transformation (stretching) acts like a "slider" along that line, never rotating the direction.
+
+---
+
+## The more precise picture  
+Eigenvectors satisfy the equation:  
+$$
+A \cdot \mathbf{v} = \lambda \cdot \mathbf{v}
+$$  
+- **A**: The transformation (e.g., a matrix).  
+- **v**: The eigenvector (direction-keeper).  
+- **λ**: The scaling factor (how much the vector stretches/shrinks).  
+
+**Example**:  
+If A is a matrix that stretches space by 2x along the x-axis, then the vector (1, 0) is an eigenvector with λ = 2.  
+```  
+A = [[2, 0],  
+     [0, 1]]  
+v = [1, 0]  
+A·v = [2, 0] = 2·[1, 0] → λ = 2  
+```  
+
+---
+
+## Common misconceptions  
+- ❌ "Eigenvectors are only for matrices."  
+  → Eigenvectors apply to **any linear transformation**, not just matrices.  
+- ❌ "All vectors are eigenvectors."  
+  → Only specific vectors (direction-keepers) satisfy the eigenvector condition.  
+- ❌ "Eigenvectors change direction slightly."  
+  → They **never** change direction; they only scale.  
+
+---
+
+## How this connects to the rest of physics  
+- **Quantum mechanics**: Quantum states {eigenstates} are eigenvectors of operators (e.g., energy or momentum).  
+- **Engineering**: Eigenvectors describe modes of vibration in structures.  
+- **Computer graphics**: They simplify 3D transformations (e.g., rotating objects around an axis).  
+- **Data science**: Principal component analysis (PCA) uses eigenvectors to find patterns in data.  
+
+---
+
+## Recap  
+- Eigenvectors are **direction-keepers** {eigenvectors} that only scale under a transformation.  
+- They simplify complex systems by isolating predictable directions.  
+- Key equation: $ A \cdot \mathbf{v} = \lambda \cdot \mathbf{v} $.  
+- Avoid common traps: eigenvectors aren’t limited to matrices, not all vectors are eigenvectors, and they never rotate.
+
+RESPONSE:
+{
+  "claims": [
+    {
+      "id": "C001",
+      "claim": "Eigenvectors are direction-keepers {eigenvectors} that only stretch or shrink under a transformation without changing direction.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "This foundational property makes eigenvectors critical for simplifying complex transformations in physics and engineering.",
+      "suggested_search_query": "linear algebra eigenvector definition textbook"
+    },
+    {
+      "id": "C002",
+      "claim": "The equation $ A \cdot \mathbf{v} = \lambda \cdot \mathbf{v} $ defines eigenvectors, where $ A $ is a transformation, $ \mathbf{v} $ is the eigenvector, and $ \lambda $ is the scaling factor.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "This mathematical relationship is central to understanding how eigenvectors behave under linear transformations.",
+      "suggested_search_query": "eigenvector eigenvalue equation derivation"
+    },
+    {
+      "id": "C003",
+      "claim": "Eigenvectors simplify complex systems by isolating directions where transformations act predictably, such as in quantum mechanics {eigenstates}.",
+      "type": "application",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "This property underpins major theories in physics and practical applications in data science.",
+      "suggested_search_query": "eigenvector applications quantum mechanics"
+    },
+    {
+      "id": "C004",
+      "claim": "Eigenvectors apply to any linear transformation, not just matrices, including rotations, reflections, and differential operators.",
+      "type": "correction",
+      "importance": "high",
+      "needs_external_check": true,
+
+================================================================================
+TIME: 2026-05-04T09:43:36
+NODE: claim_checker
+PROMPT_CHARS: 6063
+PROMPT_TOKENS_APPROX: 1515
+RESPONSE_CHARS: 593
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.85}
+================================================================================
+PROMPT:
+Check this one article claim against the available search snippet.
+
+Return JSON with this shape:
+{
+  "id": "C001",
+  "verdict": "supported | mostly_supported | needs_qualification | unsupported | contradicted | not_enough_evidence",
+  "severity": "none | low | medium | high",
+  "problem": "specific issue, or empty string",
+  "suggested_fix": "specific correction to the article, or empty string",
+  "source_quality_note": "brief note about whether the snippets look authoritative"
+}
+
+Rules:
+- Be conservative.
+- If the snippet is weak or absent, say not_enough_evidence.
+- Do not demand advanced nuance beyond the article's beginner scope.
+- Do flag misleading simplifications.
+- Focus on stable accepted physics.
+
+Article title: Eigenvector
+
+Claim:
+{
+  "id": "C001",
+  "claim": "# Eigenvector ## The core idea Eigenvectors are **direction-keepers** {eigenvectors}: they only stretch or shrink when a transformation is applied—they never change direction.",
+  "type": "fallback-extracted",
+  "importance": "medium",
+  "needs_external_check": true,
+  "why_it_matters": "Automatically extracted fallback claim; review manually.",
+  "suggested_search_query": "Eigenvector # Eigenvector ## The core idea Eigenvectors are **direction-keepers** {eigenvectors}: they only stretch or shrink when physics lecture notes textbook explanation"
+}
+
+Search snippet:
+{
+  "claim": "# Eigenvector ## The core idea Eigenvectors are **direction-keepers** {eigenvectors}: they only stretch or shrink when a transformation is applied—they never change direction.",
+  "query": "Eigenvector # Eigenvector ## The core idea Eigenvectors are **direction-keepers** {eigenvectors}: they only stretch or shrink when physics lecture notes textbook explanation",
+  "result_snippet": "4 days ago - A linear transformation's eigenvectors are those vectors that are only stretched or shrunk, with neither rotation nor shear. The corresponding eigenvalue is the factor by which an eigenvector is stretched or shrunk. If the eigenvalue is negative, the eigenvector's direction is reversed. The eigenvector's direction remains unchanged unless the eigenvalue is negative, in which case the direction is simply reversed. ... Eigenvectors are non-zero vectors that, when multiplied by a matrix, only stretch or shrink without changing ... Published December 3, 2025 July 18, 2025 - These special directions are called eigenvectors, they’re unique because when you apply a transformation (represented by a matrix), these vectors keep pointing along their original line. 3 weeks ago - Second, we find the eigenvectors for each eigenvalue by solving for the trivial solution (the nullspace) of \\(\\bf A-\\bf I\\lambda\\). Note any multiple of \\(\\bf x\\) below is a valid eigenvector to its eigenvalue. 2 weeks ago - Observable physical quantities correspond to operators, and their eigenvectors represent possible measurement states with definite values (eigenvalues). While the terms eigenvector and eigenvalue are often mentioned together, they serve distinct roles. The eigenvector is the direction vector unchanged in orientation by the transformation, whereas the eigenvalue is the scalar that stretches or compresses the eigenvector.",
+  "searched_at": "2026-05-04_09-42-01",
+  "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
+}
+
+Relevant draft context:
+# Eigenvector
+
+## The core idea  
+Eigenvectors are **direction-keepers** {eigenvectors}: they only stretch or shrink when a transformation is applied—they never change direction. Think of them as "special directions" where a transformation acts simply, like pushing or pulling along a line.
+
+---
+
+## Why this matters  
+Eigenvectors simplify complex transformations by isolating directions where the transformation behaves predictably. They are foundational in physics (e.g., quantum states {eigenstates}), engineering, computer graphics, and data science. Understanding them helps break down problems into manageable parts.
+
+---
+
+## The simple picture  
+[Diagram idea: A spring stretched along its axis (eigenvector) vs. twisted (non-eigenvector)]  
+Imagine stretching a spring along its length. The spring’s direction stays the same—it only stretches. This is an eigenvector: the transformation (stretching) acts like a "slider" along that line, never rotating the direction.
+
+---
+
+## The more precise picture  
+Eigenvectors satisfy the equation:  
+$$
+A \cdot \mathbf{v} = \lambda \cdot \mathbf{v}
+$$  
+- **A**: The transformation (e.g., a matrix).  
+- **v**: The eigenvector (direction-keeper).  
+- **λ**: The scaling factor (how much the vector stretches/shrinks).  
+
+**Example**:  
+If A is a matrix that stretches space by 2x along the x-axis, then the vector (1, 0) is an eigenvector with λ = 2.  
+```  
+A = [[2, 0],  
+     [0, 1]]  
+v = [1, 0]  
+A·v = [2, 0] = 2·[1, 0] → λ = 2  
+```  
+
+---
+
+## Common misconceptions  
+- ❌ "Eigenvectors are only for matrices."  
+  → Eigenvectors apply to **any linear transformation**, not just matrices.  
+- ❌ "All vectors are eigenvectors."  
+  → Only specific vectors (direction-keepers) satisfy the eigenvector condition.  
+- ❌ "Eigenvectors change direction slightly."  
+  → They **never** change direction; they only scale.  
+
+---
+
+## How this connects to the rest of physics  
+- **Quantum mechanics**: Quantum states {eigenstates} are eigenvectors of operators (e.g., energy or momentum).  
+- **Engineering**: Eigenvectors describe modes of vibration in structures.  
+- **Computer graphics**: They simplify 3D transformations (e.g., rotating objects around an axis).  
+- **Data science**: Principal component analysis (PCA) uses eigenvectors to find patterns in data.  
+
+---
+
+## Recap  
+- Eigenvectors are **direction-keepers** {eigenvectors} that only scale under a transformation.  
+- They simplify complex systems by isolating predictable directions.  
+- Key equation: $ A \cdot \mathbf{v} = \lambda \cdot \mathbf{v} $.  
+- Avoid common traps: eigenvectors aren’t limited to matrices, not all vectors are eigenvectors, and they never rotate.
+
+RESPONSE:
+{
+  "id": "C001",
+  "verdict": "needs_qualification",
+  "severity": "medium",
+  "problem": "The claim states eigenvectors 'never change direction' but the search snippet clarifies that negative eigenvalues reverse direction. The article's absolute statement is misleading.",
+  "suggested_fix": "Update the claim to: 'Eigenvectors are direction-keepers {eigenvectors}: they only stretch/shrink or reverse direction when a transformation is applied.'",
+  "source_quality_note": "The snippets come from authoritative physics education sources discussing linear transformations and eigenvalues."
+}
+
+================================================================================
+TIME: 2026-05-04T09:45:02
+NODE: claim_checker
+PROMPT_CHARS: 5334
+PROMPT_TOKENS_APPROX: 1333
+RESPONSE_CHARS: 556
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.85}
+================================================================================
+PROMPT:
+Check this one article claim against the available search snippet.
+
+Return JSON with this shape:
+{
+  "id": "C002",
+  "verdict": "supported | mostly_supported | needs_qualification | unsupported | contradicted | not_enough_evidence",
+  "severity": "none | low | medium | high",
+  "problem": "specific issue, or empty string",
+  "suggested_fix": "specific correction to the article, or empty string",
+  "source_quality_note": "brief note about whether the snippets look authoritative"
+}
+
+Rules:
+- Be conservative.
+- If the snippet is weak or absent, say not_enough_evidence.
+- Do not demand advanced nuance beyond the article's beginner scope.
+- Do flag misleading simplifications.
+- Focus on stable accepted physics.
+
+Article title: Eigenvector
+
+Claim:
+{
+  "id": "C002",
+  "claim": "--- ## Why this matters Eigenvectors simplify complex transformations by isolating directions where the transformation behaves predictably.",
+  "type": "fallback-extracted",
+  "importance": "medium",
+  "needs_external_check": true,
+  "why_it_matters": "Automatically extracted fallback claim; review manually.",
+  "suggested_search_query": "Eigenvector --- ## Why this matters Eigenvectors simplify complex transformations by isolating directions where the transformation behaves physics lecture notes textbook explanation"
+}
+
+Search snippet:
+{
+  "claim": "--- ## Why this matters Eigenvectors simplify complex transformations by isolating directions where the transformation behaves predictably.",
+  "query": "Eigenvector --- ## Why this matters Eigenvectors simplify complex transformations by isolating directions where the transformation behaves physics lecture notes textbook explanation",
+  "result_snippet": "... can ask about the behavioral and structural complexity of a stochastic process reduce to a linear algebraic framing of a time evolution governed by ... ... studied replicator systems in the context of prebiotic evolution — the evolutionary process by which macromolecules capable of producing complex ... ... to answer the question by considering the eigenmode decomposition of the housekeeping entropy production rate [ 38 , 43 , 13 , 12 , 26 ] , which is ... There are many provocative questions raised by a recognition of the connections between the transformer architecture and RG flow, and in this essay ... ... to work with directly, but by adapting the octahedron recurrence introduced for this problem by Knutson, Woodward, and myself some time ago (which is ...",
+  "searched_at": "2026-05-04_09-42-03",
+  "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
+}
+
+Relevant draft context:
+# Eigenvector
+
+## The core idea  
+Eigenvectors are **direction-keepers** {eigenvectors}: they only stretch or shrink when a transformation is applied—they never change direction. Think of them as "special directions" where a transformation acts simply, like pushing or pulling along a line.
+
+---
+
+## Why this matters  
+Eigenvectors simplify complex transformations by isolating directions where the transformation behaves predictably. They are foundational in physics (e.g., quantum states {eigenstates}), engineering, computer graphics, and data science. Understanding them helps break down problems into manageable parts.
+
+---
+
+## The simple picture  
+[Diagram idea: A spring stretched along its axis (eigenvector) vs. twisted (non-eigenvector)]  
+Imagine stretching a spring along its length. The spring’s direction stays the same—it only stretches. This is an eigenvector: the transformation (stretching) acts like a "slider" along that line, never rotating the direction.
+
+---
+
+## The more precise picture  
+Eigenvectors satisfy the equation:  
+$$
+A \cdot \mathbf{v} = \lambda \cdot \mathbf{v}
+$$  
+- **A**: The transformation (e.g., a matrix).  
+- **v**: The eigenvector (direction-keeper).  
+- **λ**: The scaling factor (how much the vector stretches/shrinks).  
+
+**Example**:  
+If A is a matrix that stretches space by 2x along the x-axis, then the vector (1, 0) is an eigenvector with λ = 2.  
+```  
+A = [[2, 0],  
+     [0, 1]]  
+v = [1, 0]  
+A·v = [2, 0] = 2·[1, 0] → λ = 2  
+```  
+
+---
+
+## Common misconceptions  
+- ❌ "Eigenvectors are only for matrices."  
+  → Eigenvectors apply to **any linear transformation**, not just matrices.  
+- ❌ "All vectors are eigenvectors."  
+  → Only specific vectors (direction-keepers) satisfy the eigenvector condition.  
+- ❌ "Eigenvectors change direction slightly."  
+  → They **never** change direction; they only scale.  
+
+---
+
+## How this connects to the rest of physics  
+- **Quantum mechanics**: Quantum states {eigenstates} are eigenvectors of operators (e.g., energy or momentum).  
+- **Engineering**: Eigenvectors describe modes of vibration in structures.  
+- **Computer graphics**: They simplify 3D transformations (e.g., rotating objects around an axis).  
+- **Data science**: Principal component analysis (PCA) uses eigenvectors to find patterns in data.  
+
+---
+
+## Recap  
+- Eigenvectors are **direction-keepers** {eigenvectors} that only scale under a transformation.  
+- They simplify complex systems by isolating predictable directions.  
+- Key equation: $ A \cdot \mathbf{v} = \lambda \cdot \mathbf{v} $.  
+- Avoid common traps: eigenvectors aren’t limited to matrices, not all vectors are eigenvectors, and they never rotate.
+
+RESPONSE:
+{
+  "id": "C002",
+  "verdict": "not_enough_evidence",
+  "severity": "low",
+  "problem": "The search snippet lacks direct confirmation of the claim's core idea about eigenvectors simplifying transformations by isolating predictable directions",
+  "suggested_fix": "Add clarification that the claim aligns with standard linear algebra explanations but requires explicit confirmation from physics textbooks",
+  "source_quality_note": "The snippet focuses on specialized applications (entropy production, RG flow) rather than general linear algebra concepts"
+}
+
+================================================================================
+TIME: 2026-05-04T09:49:23
+NODE: claim_revision
+PROMPT_CHARS: 4989
+PROMPT_TOKENS_APPROX: 1247
+RESPONSE_CHARS: 3393
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.85}
+================================================================================
+PROMPT:
+Revise the article once to address claim-check feedback.
+
+Do not rewrite for its own sake. Fix the scientific issues while preserving accessible language.
+
+Claim-check feedback:
+{
+  "claim_checks": [
+    {
+      "id": "C001",
+      "verdict": "needs_qualification",
+      "severity": "medium",
+      "problem": "The claim states eigenvectors 'never change direction' but the search snippet clarifies that negative eigenvalues reverse direction. The article's absolute statement is misleading.",
+      "suggested_fix": "Update the claim to: 'Eigenvectors are direction-keepers {eigenvectors}: they only stretch/shrink or reverse direction when a transformation is applied.'",
+      "source_quality_note": "The snippets come from authoritative physics education sources discussing linear transformations and eigenvalues."
+    },
+    {
+      "id": "C002",
+      "verdict": "not_enough_evidence",
+      "severity": "low",
+      "problem": "The search snippet lacks direct confirmation of the claim's core idea about eigenvectors simplifying transformations by isolating predictable directions",
+      "suggested_fix": "Add clarification that the claim aligns with standard linear algebra explanations but requires explicit confirmation from physics textbooks",
+      "source_quality_note": "The snippet focuses on specialized applications (entropy production, RG flow) rather than general linear algebra concepts"
+    }
+  ],
+  "summary": {
+    "overall_claim_quality": "Claim check completed.",
+    "unresolved_or_needs_qualification": 2,
+    "highest_priority_fixes": [
+      "Update the claim to: 'Eigenvectors are direction-keepers {eigenvectors}: they only stretch/shrink or reverse direction when a transformation is applied.'",
+      "Add clarification that the claim aligns with standard linear algebra explanations but requires explicit confirmation from physics textbooks"
+    ]
+  },
+  "last_updated": "2026-05-04_09-45-02"
+}
+
+Current draft:
+# Eigenvector
+
+## The core idea  
+Eigenvectors are **direction-keepers** {eigenvectors}: they only stretch or shrink when a transformation is applied—they never change direction. Think of them as "special directions" where a transformation acts simply, like pushing or pulling along a line.
+
+---
+
+## Why this matters  
+Eigenvectors simplify complex transformations by isolating directions where the transformation behaves predictably. They are foundational in physics (e.g., quantum states {eigenstates}), engineering, computer graphics, and data science. Understanding them helps break down problems into manageable parts.
+
+---
+
+## The simple picture  
+[Diagram idea: A spring stretched along its axis (eigenvector) vs. twisted (non-eigenvector)]  
+Imagine stretching a spring along its length. The spring’s direction stays the same—it only stretches. This is an eigenvector: the transformation (stretching) acts like a "slider" along that line, never rotating the direction.
+
+---
+
+## The more precise picture  
+Eigenvectors satisfy the equation:  
+$$
+A \cdot \mathbf{v} = \lambda \cdot \mathbf{v}
+$$  
+- **A**: The transformation (e.g., a matrix).  
+- **v**: The eigenvector (direction-keeper).  
+- **λ**: The scaling factor (how much the vector stretches/shrinks).  
+
+**Example**:  
+If A is a matrix that stretches space by 2x along the x-axis, then the vector (1, 0) is an eigenvector with λ = 2.  
+```  
+A = [[2, 0],  
+     [0, 1]]  
+v = [1, 0]  
+A·v = [2, 0] = 2·[1, 0] → λ = 2  
+```  
+
+---
+
+## Common misconceptions  
+- ❌ "Eigenvectors are only for matrices."  
+  → Eigenvectors apply to **any linear transformation**, not just matrices.  
+- ❌ "All vectors are eigenvectors."  
+  → Only specific vectors (direction-keepers) satisfy the eigenvector condition.  
+- ❌ "Eigenvectors change direction slightly."  
+  → They **never** change direction; they only scale.  
+
+---
+
+## How this connects to the rest of physics  
+- **Quantum mechanics**: Quantum states {eigenstates} are eigenvectors of operators (e.g., energy or momentum).  
+- **Engineering**: Eigenvectors describe modes of vibration in structures.  
+- **Computer graphics**: They simplify 3D transformations (e.g., rotating objects around an axis).  
+- **Data science**: Principal component analysis (PCA) uses eigenvectors to find patterns in data.  
+
+---
+
+## Recap  
+- Eigenvectors are **direction-keepers** {eigenvectors} that only scale under a transformation.  
+- They simplify complex systems by isolating predictable directions.  
+- Key equation: $ A \cdot \mathbf{v} = \lambda \cdot \mathbf{v} $.  
+- Avoid common traps: eigenvectors aren’t limited to matrices, not all vectors are eigenvectors, and they never rotate.
+
+Instructions:
+- Correct or qualify unsupported, contradicted, or overstrong claims.
+- Preserve good accessible explanations.
+- Do not add speculative research as settled fact.
+- If an analogy was misleading, either repair it or state its limits.
+- Keep standard terms in braces after descriptive names.
+- Output only the revised article in Markdown.
+
+RESPONSE:
+# Eigenvector
+
+## The core idea  
+Eigenvectors are **direction-keepers** {eigenvectors}: they only stretch, shrink, or reverse direction when a transformation is applied. Think of them as "special directions" where a transformation acts simply, like pushing or pulling along a line. For example, a negative eigenvalue would flip the direction (e.g., compressing a spring in the opposite direction), while a positive eigenvalue would scale it without flipping.
+
+---
+
+## Why this matters  
+Eigenvectors simplify complex transformations by isolating directions where the transformation behaves predictably. This concept is foundational in physics (e.g., quantum states {eigenstates}), engineering, computer graphics, and data science. While the general idea of eigenvectors is well-established in linear algebra, their specific applications in physics require confirmation from textbooks, such as their role in describing quantum systems or structural vibrations.
+
+---
+
+## The simple picture  
+[Diagram idea: A spring stretched along its axis (eigenvector) vs. twisted (non-eigenvector)]  
+Imagine stretching a spring along its length. The spring’s direction stays the same—it only stretches. This is an eigenvector: the transformation (stretching) acts like a "slider" along that line. If the spring were compressed (negative eigenvalue), its direction would reverse, but it would still remain aligned with the axis.
+
+---
+
+## The more precise picture  
+Eigenvectors satisfy the equation:  
+$$
+A \cdot \mathbf{v} = \lambda \cdot \mathbf{v}
+$$  
+- **A**: The transformation (e.g., a matrix).  
+- **v**: The eigenvector (direction-keeper).  
+- **λ**: The scaling factor (how much the vector stretches/shrinks, or reverses direction if negative).  
+
+**Example**:  
+If A is a matrix that stretches space by 2x along the x-axis, then the vector (1, 0) is an eigenvector with λ = 2.  
+```  
+A = [[2, 0],  
+     [0, 1]]  
+v = [1, 0]  
+A·v = [2, 0] = 2·[1, 0] → λ = 2  
+```  
+If A instead flips the x-axis (λ = -1), the vector (1, 0) would become (-1, 0), reversing direction while staying aligned with the axis.
+
+---
+
+## Common misconceptions  
+- ❌ "Eigenvectors are only for matrices."  
+  → Eigenvectors apply to **any linear transformation**, not just matrices.  
+- ❌ "All vectors are eigenvectors."  
+  → Only specific vectors (direction-keepers) satisfy the eigenvector condition.  
+- ❌ "Eigenvectors change direction slightly."  
+  → They **only** scale or reverse direction; they never rotate unpredictably.  
+
+---
+
+## How this connects to the rest of physics  
+- **Quantum mechanics**: Quantum states {eigenstates} are eigenvectors of operators (e.g., energy or momentum).  
+- **Engineering**: Eigenvectors describe modes of vibration in structures.  
+- **Computer graphics**: They simplify 3D transformations (e.g., rotating objects around an axis).  
+- **Data science**: Principal component analysis (PCA) uses eigenvectors to find patterns in data.  
+
+---
+
+## Recap  
+- Eigenvectors are **direction-keepers** {eigenvectors} that only scale or reverse direction under a transformation.  
+- They simplify complex systems by isolating predictable directions.  
+- Key equation: $ A \cdot \mathbf{v} = \lambda \cdot \mathbf{v} $.  
+- Avoid common traps: eigenvectors aren’t limited to matrices, not all vectors are eigenvectors, and they only scale or reverse direction—never rotate unpredictably.
+
+================================================================================
+TIME: 2026-05-04T09:51:14
+NODE: term_collector
+PROMPT_CHARS: 3863
+PROMPT_TOKENS_APPROX: 965
+RESPONSE_CHARS: 889
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.85}
+================================================================================
+PROMPT:
+Extract the descriptive-name candidates from this draft.
+
+Return JSON with this shape:
+{
+  "terms": [
+    {
+      "standard_term": "fermion",
+      "candidate_name": "space-occupier",
+      "context_quote": "short quote from the draft",
+      "usefulness": "why this name helps",
+      "risk": "how it could mislead, or empty string if low risk"
+    }
+  ]
+}
+
+Only include actual teaching-name candidates, especially phrases followed by standard terms in braces.
+
+Draft:
+# Eigenvector
+
+## The core idea  
+Eigenvectors are **direction-keepers** {eigenvectors}: they only stretch, shrink, or reverse direction when a transformation is applied. Think of them as "special directions" where a transformation acts simply, like pushing or pulling along a line. For example, a negative eigenvalue would flip the direction (e.g., compressing a spring in the opposite direction), while a positive eigenvalue would scale it without flipping.
+
+---
+
+## Why this matters  
+Eigenvectors simplify complex transformations by isolating directions where the transformation behaves predictably. This concept is foundational in physics (e.g., quantum states {eigenstates}), engineering, computer graphics, and data science. While the general idea of eigenvectors is well-established in linear algebra, their specific applications in physics require confirmation from textbooks, such as their role in describing quantum systems or structural vibrations.
+
+---
+
+## The simple picture  
+[Diagram idea: A spring stretched along its axis (eigenvector) vs. twisted (non-eigenvector)]  
+Imagine stretching a spring along its length. The spring’s direction stays the same—it only stretches. This is an eigenvector: the transformation (stretching) acts like a "slider" along that line. If the spring were compressed (negative eigenvalue), its direction would reverse, but it would still remain aligned with the axis.
+
+---
+
+## The more precise picture  
+Eigenvectors satisfy the equation:  
+$$
+A \cdot \mathbf{v} = \lambda \cdot \mathbf{v}
+$$  
+- **A**: The transformation (e.g., a matrix).  
+- **v**: The eigenvector (direction-keeper).  
+- **λ**: The scaling factor (how much the vector stretches/shrinks, or reverses direction if negative).  
+
+**Example**:  
+If A is a matrix that stretches space by 2x along the x-axis, then the vector (1, 0) is an eigenvector with λ = 2.  
+```  
+A = [[2, 0],  
+     [0, 1]]  
+v = [1, 0]  
+A·v = [2, 0] = 2·[1, 0] → λ = 2  
+```  
+If A instead flips the x-axis (λ = -1), the vector (1, 0) would become (-1, 0), reversing direction while staying aligned with the axis.
+
+---
+
+## Common misconceptions  
+- ❌ "Eigenvectors are only for matrices."  
+  → Eigenvectors apply to **any linear transformation**, not just matrices.  
+- ❌ "All vectors are eigenvectors."  
+  → Only specific vectors (direction-keepers) satisfy the eigenvector condition.  
+- ❌ "Eigenvectors change direction slightly."  
+  → They **only** scale or reverse direction; they never rotate unpredictably.  
+
+---
+
+## How this connects to the rest of physics  
+- **Quantum mechanics**: Quantum states {eigenstates} are eigenvectors of operators (e.g., energy or momentum).  
+- **Engineering**: Eigenvectors describe modes of vibration in structures.  
+- **Computer graphics**: They simplify 3D transformations (e.g., rotating objects around an axis).  
+- **Data science**: Principal component analysis (PCA) uses eigenvectors to find patterns in data.  
+
+---
+
+## Recap  
+- Eigenvectors are **direction-keepers** {eigenvectors} that only scale or reverse direction under a transformation.  
+- They simplify complex systems by isolating predictable directions.  
+- Key equation: $ A \cdot \mathbf{v} = \lambda \cdot \mathbf{v} $.  
+- Avoid common traps: eigenvectors aren’t limited to matrices, not all vectors are eigenvectors, and they only scale or reverse direction—never rotate unpredictably.
+
+RESPONSE:
+{
+  "terms": [
+    {
+      "standard_term": "eigenvectors",
+      "candidate_name": "direction-keepers",
+      "context_quote": "Eigenvectors are **direction-keepers** {eigenvectors}: they only stretch, shrink, or reverse direction when a transformation is applied.",
+      "usefulness": "Emphasizes the core behavior of eigenvectors as directions that resist complex transformation effects, making their role intuitive.",
+      "risk": "Could imply all vectors preserve direction, but the draft clarifies this is only true for specific eigenvectors."
+    },
+    {
+      "standard_term": "eigenstates",
+      "candidate_name": "Quantum states",
+      "context_quote": "This concept is foundational in physics (e.g., quantum states {eigenstates}), engineering, computer graphics, and data science.",
+      "usefulness": "Links eigenstates to quantum mechanics intuitively by framing them as
+
+================================================================================
+TIME: 2026-05-04T09:54:19
+NODE: accessibility_judge
+PROMPT_CHARS: 5585
+PROMPT_TOKENS_APPROX: 1396
+RESPONSE_CHARS: 1309
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.85}
+================================================================================
+PROMPT:
+Score this EasyPhysics article for accessibility using the rubric below.
+
+Accessibility score, 1-10:
+
+10 = Exceptional. A motivated high-schooler can follow the article's main arc without prior exposure.
+     Jargon is introduced only after intuition. Examples are vivid. Math is explained as meaning,
+     not just symbols. The article feels empowering and clear.
+
+9 = Publishable with light human editing. The main idea is easy to follow; jargon is mostly controlled;
+    analogies are helpful; sections flow logically; any math has a plain-language interpretation.
+
+8 = Strong draft. Mostly clear, but has a few dense sections, unexplained terms, abrupt transitions,
+    or analogies that need more setup.
+
+7 = Useful but uneven. A motivated reader could learn from it, but several passages need simplification,
+    clearer examples, or better sequencing.
+
+6 = Borderline. The article contains useful explanations, but assumes too much background or uses too much jargon.
+
+5 = Mixed. Some good paragraphs, but the structure or language would lose many target readers.
+
+4 = Hard to follow. Mostly written for someone who already knows the subject.
+
+3 = Very inaccessible. Dense, abstract, jargon-heavy, or poorly sequenced.
+
+2 = Barely useful to the target audience.
+
+1 = Fails the accessibility goal.
+
+Accessibility judge priorities:
+- Does the opening give the reader an intuitive foothold?
+- Are standard terms introduced after meaning, not before?
+- Are descriptive names useful rather than cutesy or misleading?
+- Are analogies concrete and then carefully limited?
+- Is any math explained in words?
+- Does the article avoid "spooky/magic/weird" framing while still acknowledging counterintuitive ideas?
+- Does each section make the next section easier?
+
+Return JSON with this shape:
+{
+  "score": 1,
+  "pass": false,
+  "strengths": ["specific strength"],
+  "issues": [
+    {
+      "severity": "low | medium | high",
+      "location": "section or paragraph description",
+      "problem": "specific accessibility issue",
+      "suggested_fix": "specific fix"
+    }
+  ],
+  "best_next_revision": "one concise paragraph describing what to improve next"
+}
+
+Article title: Eigenvector
+
+Draft:
+# Eigenvector
+
+## The core idea  
+Eigenvectors are **direction-keepers** {eigenvectors}: they only stretch, shrink, or reverse direction when a transformation is applied. Think of them as "special directions" where a transformation acts simply, like pushing or pulling along a line. For example, a negative eigenvalue would flip the direction (e.g., compressing a spring in the opposite direction), while a positive eigenvalue would scale it without flipping.
+
+---
+
+## Why this matters  
+Eigenvectors simplify complex transformations by isolating directions where the transformation behaves predictably. This concept is foundational in physics (e.g., quantum states {eigenstates}), engineering, computer graphics, and data science. While the general idea of eigenvectors is well-established in linear algebra, their specific applications in physics require confirmation from textbooks, such as their role in describing quantum systems or structural vibrations.
+
+---
+
+## The simple picture  
+[Diagram idea: A spring stretched along its axis (eigenvector) vs. twisted (non-eigenvector)]  
+Imagine stretching a spring along its length. The spring’s direction stays the same—it only stretches. This is an eigenvector: the transformation (stretching) acts like a "slider" along that line. If the spring were compressed (negative eigenvalue), its direction would reverse, but it would still remain aligned with the axis.
+
+---
+
+## The more precise picture  
+Eigenvectors satisfy the equation:  
+$$
+A \cdot \mathbf{v} = \lambda \cdot \mathbf{v}
+$$  
+- **A**: The transformation (e.g., a matrix).  
+- **v**: The eigenvector (direction-keeper).  
+- **λ**: The scaling factor (how much the vector stretches/shrinks, or reverses direction if negative).  
+
+**Example**:  
+If A is a matrix that stretches space by 2x along the x-axis, then the vector (1, 0) is an eigenvector with λ = 2.  
+```  
+A = [[2, 0],  
+     [0, 1]]  
+v = [1, 0]  
+A·v = [2, 0] = 2·[1, 0] → λ = 2  
+```  
+If A instead flips the x-axis (λ = -1), the vector (1, 0) would become (-1, 0), reversing direction while staying aligned with the axis.
+
+---
+
+## Common misconceptions  
+- ❌ "Eigenvectors are only for matrices."  
+  → Eigenvectors apply to **any linear transformation**, not just matrices.  
+- ❌ "All vectors are eigenvectors."  
+  → Only specific vectors (direction-keepers) satisfy the eigenvector condition.  
+- ❌ "Eigenvectors change direction slightly."  
+  → They **only** scale or reverse direction; they never rotate unpredictably.  
+
+---
+
+## How this connects to the rest of physics  
+- **Quantum mechanics**: Quantum states {eigenstates} are eigenvectors of operators (e.g., energy or momentum).  
+- **Engineering**: Eigenvectors describe modes of vibration in structures.  
+- **Computer graphics**: They simplify 3D transformations (e.g., rotating objects around an axis).  
+- **Data science**: Principal component analysis (PCA) uses eigenvectors to find patterns in data.  
+
+---
+
+## Recap  
+- Eigenvectors are **direction-keepers** {eigenvectors} that only scale or reverse direction under a transformation.  
+- They simplify complex systems by isolating predictable directions.  
+- Key equation: $ A \cdot \mathbf{v} = \lambda \cdot \mathbf{v} $.  
+- Avoid common traps: eigenvectors aren’t limited to matrices, not all vectors are eigenvectors, and they only scale or reverse direction—never rotate unpredictably.
+
+RESPONSE:
+{
+  "score": 8,
+  "pass": false,
+  "strengths": [
+    "Clear intuitive analogy with the spring example",
+    "Math is explained with plain-language interpretations",
+    "Logical flow from core concept to applications"
+  ],
+  "issues": [
+    {
+      "severity": "medium",
+      "location": "Why this matters section",
+      "problem": "Mentions 'quantum states {eigenstates}' without defining eigenstates in context",
+      "suggested_fix": "Add a brief explanation of eigenstates as special quantum states that correspond to measurable properties"
+    },
+    {
+      "severity": "low",
+      "location": "Simple picture section",
+      "problem": "Diagram idea is mentioned but not included",
+      "suggested_fix": "Add a simple diagram showing eigenvector behavior with labeled components"
+    },
+    {
+      "severity": "medium",
+      "location": "Common misconceptions section",
+      "problem": "Misconception about eigenvectors applying only to matrices is addressed, but could be more explicit",
+      "suggested_fix": "Clarify that eigenvectors apply to any linear transformation (e.g., rotations, reflections) not just matrices"
+    }
+  ],
+  "best_next_revision": "Add a definition of eigenstates in the quantum mechanics context and include a visual diagram to reinforce the eigenvector concept"
+}
+
+================================================================================
+TIME: 2026-05-04T09:58:02
+NODE: rigor_judge
+PROMPT_CHARS: 7373
+PROMPT_TOKENS_APPROX: 1843
+RESPONSE_CHARS: 0
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.85}
+================================================================================
+PROMPT:
+Score this EasyPhysics article for scientific rigor using the rubric below.
+
+Rigor score, 1-10:
+
+10 = Exceptional. Scientifically accurate, well-qualified, and careful about analogy limits.
+     No obvious misleading simplifications. Claims align with stable accepted physics.
+
+9 = Publishable with light human editing. No major errors. A few details may need polishing,
+    but the article is safe as an educational explanation.
+
+8 = Strong draft. Mostly accurate but has minor imprecision, missing qualifications, or analogy risks.
+
+7 = Useful but needs scientific review. Contains no catastrophic errors, but some claims are too loose,
+    incomplete, or potentially misleading.
+
+6 = Borderline. Several important corrections or qualifications are needed.
+
+5 = Mixed. The article has valuable explanations but also significant inaccuracies or misleading framings.
+
+4 = Scientifically weak. Multiple substantial errors or serious conceptual muddling.
+
+3 = Very unreliable. The reader would likely learn incorrect physics.
+
+2 = Mostly wrong or confused.
+
+1 = Fails the rigor goal.
+
+Rigor judge priorities:
+- Are definitions compatible with standard physics?
+- Are analogies technically safe, with their limits stated when necessary?
+- Are quantum concepts distinguished correctly: amplitude vs probability, superposition vs ignorance,
+  measurement vs ordinary looking, phase vs probability?
+- Are field/particle/wave descriptions accurate enough for a beginner article?
+- Are conservation, symmetry, force, energy, mass, and spin statements properly qualified?
+- Does the article avoid replacing historical jargon with new misleading jargon?
+- Are open questions distinguished from settled explanations?
+
+Use the claim-check results as context, but judge the final draft itself.
+
+Return JSON with this shape:
+{
+  "score": 1,
+  "pass": false,
+  "strengths": ["specific strength"],
+  "issues": [
+    {
+      "severity": "low | medium | high",
+      "location": "section or paragraph description",
+      "problem": "specific rigor issue",
+      "suggested_fix": "specific fix"
+    }
+  ],
+  "best_next_revision": "one concise paragraph describing what to improve next"
+}
+
+Article title: Eigenvector
+
+Claim-check context:
+{
+  "claim_checks": [
+    {
+      "id": "C001",
+      "verdict": "needs_qualification",
+      "severity": "medium",
+      "problem": "The claim states eigenvectors 'never change direction' but the search snippet clarifies that negative eigenvalues reverse direction. The article's absolute statement is misleading.",
+      "suggested_fix": "Update the claim to: 'Eigenvectors are direction-keepers {eigenvectors}: they only stretch/shrink or reverse direction when a transformation is applied.'",
+      "source_quality_note": "The snippets come from authoritative physics education sources discussing linear transformations and eigenvalues."
+    },
+    {
+      "id": "C002",
+      "verdict": "not_enough_evidence",
+      "severity": "low",
+      "problem": "The search snippet lacks direct confirmation of the claim's core idea about eigenvectors simplifying transformations by isolating predictable directions",
+      "suggested_fix": "Add clarification that the claim aligns with standard linear algebra explanations but requires explicit confirmation from physics textbooks",
+      "source_quality_note": "The snippet focuses on specialized applications (entropy production, RG flow) rather than general linear algebra concepts"
+    }
+  ],
+  "summary": {
+    "overall_claim_quality": "Claim check completed.",
+    "unresolved_or_needs_qualification": 2,
+    "highest_priority_fixes": [
+      "Update the claim to: 'Eigenvectors are direction-keepers {eigenvectors}: they only stretch/shrink or reverse direction when a transformation is applied.'",
+      "Add clarification that the claim aligns with standard linear algebra explanations but requires explicit confirmation from physics textbooks"
+    ]
+  },
+  "last_updated": "2026-05-04_09-45-02"
+}
+
+Draft:
+# Eigenvector
+
+## The core idea  
+Eigenvectors are **direction-keepers** {eigenvectors}: they only stretch, shrink, or reverse direction when a transformation is applied. Think of them as "special directions" where a transformation acts simply, like pushing or pulling along a line. For example, a negative eigenvalue would flip the direction (e.g., compressing a spring in the opposite direction), while a positive eigenvalue would scale it without flipping.
+
+---
+
+## Why this matters  
+Eigenvectors simplify complex transformations by isolating directions where the transformation behaves predictably. This concept is foundational in physics (e.g., quantum states {eigenstates}), engineering, computer graphics, and data science. While the general idea of eigenvectors is well-established in linear algebra, their specific applications in physics require confirmation from textbooks, such as their role in describing quantum systems or structural vibrations.
+
+---
+
+## The simple picture  
+[Diagram idea: A spring stretched along its axis (eigenvector) vs. twisted (non-eigenvector)]  
+Imagine stretching a spring along its length. The spring’s direction stays the same—it only stretches. This is an eigenvector: the transformation (stretching) acts like a "slider" along that line. If the spring were compressed (negative eigenvalue), its direction would reverse, but it would still remain aligned with the axis.
+
+---
+
+## The more precise picture  
+Eigenvectors satisfy the equation:  
+$$
+A \cdot \mathbf{v} = \lambda \cdot \mathbf{v}
+$$  
+- **A**: The transformation (e.g., a matrix).  
+- **v**: The eigenvector (direction-keeper).  
+- **λ**: The scaling factor (how much the vector stretches/shrinks, or reverses direction if negative).  
+
+**Example**:  
+If A is a matrix that stretches space by 2x along the x-axis, then the vector (1, 0) is an eigenvector with λ = 2.  
+```  
+A = [[2, 0],  
+     [0, 1]]  
+v = [1, 0]  
+A·v = [2, 0] = 2·[1, 0] → λ = 2  
+```  
+If A instead flips the x-axis (λ = -1), the vector (1, 0) would become (-1, 0), reversing direction while staying aligned with the axis.
+
+---
+
+## Common misconceptions  
+- ❌ "Eigenvectors are only for matrices."  
+  → Eigenvectors apply to **any linear transformation**, not just matrices.  
+- ❌ "All vectors are eigenvectors."  
+  → Only specific vectors (direction-keepers) satisfy the eigenvector condition.  
+- ❌ "Eigenvectors change direction slightly."  
+  → They **only** scale or reverse direction; they never rotate unpredictably.  
+
+---
+
+## How this connects to the rest of physics  
+- **Quantum mechanics**: Quantum states {eigenstates} are eigenvectors of operators (e.g., energy or momentum).  
+- **Engineering**: Eigenvectors describe modes of vibration in structures.  
+- **Computer graphics**: They simplify 3D transformations (e.g., rotating objects around an axis).  
+- **Data science**: Principal component analysis (PCA) uses eigenvectors to find patterns in data.  
+
+---
+
+## Recap  
+- Eigenvectors are **direction-keepers** {eigenvectors} that only scale or reverse direction under a transformation.  
+- They simplify complex systems by isolating predictable directions.  
+- Key equation: $ A \cdot \mathbf{v} = \lambda \cdot \mathbf{v} $.  
+- Avoid common traps: eigenvectors aren’t limited to matrices, not all vectors are eigenvectors, and they only scale or reverse direction—never rotate unpredictably.
+
+RESPONSE:
+

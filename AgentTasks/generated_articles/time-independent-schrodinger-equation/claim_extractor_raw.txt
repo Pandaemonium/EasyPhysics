@@ -1,0 +1,31 @@
+{
+  "claims": [
+    {
+      "id": "C001",
+      "claim": "The Time-independent Schrödinger equation (TISE) finds stationary states {energy eigenstates} for systems with time-independent forces.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "It explains quantized energy levels in atoms and molecules.",
+      "suggested_search_query": "Time-independent Schrodinger equation stationary states"
+    },
+    {
+      "id": "C002",
+      "claim": "The TISE reveals quantized energy levels {discrete energy values}, such as electrons in atoms.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "This explains why electrons don't spiral into nuclei.",
+      "suggested_search_query": "Quantized energy levels Schrodinger equation"
+    },
+    {
+      "id": "C003",
+      "claim": "The probability map {wavefunction} describes where a particle is likely to be, not its physical motion.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Corrects the misconception that the wavefunction represents a physical wave.",
+      "suggested_search_query": "Wavefunction probability interpretation"
+    },
+    {
+      "id": "C

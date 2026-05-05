@@ -1,0 +1,79 @@
+{
+  "claims": [
+    {
+      "id": "C001",
+      "claim": "Think of action as a measure of \"effort\" over time—systems choose paths that balance energy trade-offs, not just the shortest or fastest route.",
+      "type": "fallback-extracted",
+      "importance": "medium",
+      "needs_external_check": true,
+      "why_it_matters": "Automatically extracted fallback claim; review manually.",
+      "suggested_search_query": "Least action principle Think of action as a measure of \"effort\" over time—systems choose paths that balance energy trade-offs, physics lecture notes textbook explanation"
+    },
+    {
+      "id": "C002",
+      "claim": "## Why this matters The least action principle is a **fundamental law** of nature that unifies classical mechanics.",
+      "type": "fallback-extracted",
+      "importance": "medium",
+      "needs_external_check": true,
+      "why_it_matters": "Automatically extracted fallback claim; review manually.",
+      "suggested_search_query": "Least action principle ## Why this matters The least action principle is a **fundamental law** of nature that unifies physics lecture notes textbook explanation"
+    },
+    {
+      "id": "C003",
+      "claim": "It explains how objects move, why energy is conserved, and connects to deeper ideas in physics like relativity and quantum mechanics.",
+      "type": "fallback-extracted",
+      "importance": "medium",
+      "needs_external_check": true,
+      "why_it_matters": "Automatically extracted fallback claim; review manually.",
+      "suggested_search_query": "Least action principle It explains how objects move, why energy is conserved, and connects to deeper ideas in physics physics lecture notes textbook explanation"
+    },
+    {
+      "id": "C004",
+      "claim": "It doesn’t just take the shortest path—it chooses the route that balances the energy it uses to move and the energy stored in its position.",
+      "type": "fallback-extracted",
+      "importance": "medium",
+      "needs_external_check": true,
+      "why_it_matters": "Automatically extracted fallback claim; review manually.",
+      "suggested_search_query": "Least action principle It doesn’t just take the shortest path—it chooses the route that balances the energy it uses physics lecture notes textbook explanation"
+    },
+    {
+      "id": "C005",
+      "claim": "This balance is the **least action principle** in action.",
+      "type": "fallback-extracted",
+      "importance": "medium",
+      "needs_external_check": true,
+      "why_it_matters": "Automatically extracted fallback claim; review manually.",
+      "suggested_search_query": "Least action principle This balance is the **least action principle** in action. physics lecture notes textbook explanation"
+    },
+    {
+      "id": "C006",
+      "claim": "This means tiny changes to the path don’t alter the total action, like finding a hilltop or valley.",
+      "type": "fallback-extracted",
+      "importance": "medium",
+      "needs_external_check": true,
+      "why_it_matters": "Automatically extracted fallback claim; review manually.",
+      "suggested_search_query": "Least action principle This means tiny changes to the path don’t alter the total action, like finding a hilltop physics lecture notes textbook explanation"
+    },
+    {
+      "id": "C007",
+      "claim": "This principle is equivalent to Newton’s laws of motion.",
+      "type": "fallback-extracted",
+      "importance": "medium",
+      "needs_external_check": true,
+      "why_it_matters": "Automatically extracted fallback claim; review manually.",
+      "suggested_search_query": "Least action principle This principle is equivalent to Newton’s laws of motion. physics lecture notes textbook explanation"
+    },
+    {
+      "id": "C008",
+      "claim": "- ❌ \"The principle is a rule of thumb, not a law.\" → It is a **fundamental law** of nature, equivalent to Newton’s laws in classical mechanics.",
+      "type": "fallback-extracted",
+      "importance": "medium",
+      "needs_external_check": true,
+      "why_it_matters": "Automatically extracted fallback claim; review manually.",
+      "suggested_search_query": "Least action principle - ❌ \"The principle is a rule of thumb, not a law.\" → It is a physics lecture notes textbook explanation"
+    }
+  ],
+  "last_updated": "2026-05-04_08-21-32",
+  "count": 8,
+  "parse_note": "No usable claims parsed from LLM output. Using deterministic fallback extraction from draft sentences."
+}

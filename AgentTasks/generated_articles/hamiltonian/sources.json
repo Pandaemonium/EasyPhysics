@@ -1,0 +1,19 @@
+{
+  "sources_by_claim": {
+    "C001": {
+      "claim": "# Hamiltonian ## The core idea The **Hamiltonian** is the **energy governor** {Hamiltonian} of a system.",
+      "query": "Hamiltonian # Hamiltonian ## The core idea The **Hamiltonian** is the **energy governor** {Hamiltonian} of a system. physics lecture notes textbook explanation",
+      "result_snippet": "January 24, 2026 - In quantum mechanics, the Hamiltonian of a system is an operator corresponding to the total energy of that system, including both kinetic energy and potential energy. Its spectrum, the system's energy spectrum or its set of energy eigenvalues, is the set of possible outcomes obtainable from ... April 2, 2026 - Any smooth real-valued function H on a symplectic manifold can be used to define a Hamiltonian system. The function H is known as \"the Hamiltonian\" or \"the energy function.\" The symplectic manifold is then called the phase space. November 30, 2025 - The Hamiltonian of this system does not depend on time and thus the energy of the system is conserved. 3 days ago - For a system of multiple particles, each one will have a phase-space trajectory that traces out an ellipse corresponding to the particle's energy. The frequency at which the ellipse is traced is given by the ... {\\displaystyle \\omega } in the Hamiltonian, independent of any differences in energy. 1 week ago - {\\displaystyle H} is the system's Hamiltonian giving the system's energy.",
+      "searched_at": "2026-05-04_07-57-28",
+      "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
+    },
+    "C002": {
+      "claim": "It tells a system how to change over time by using its total energy as the main rulebook.",
+      "query": "Hamiltonian It tells a system how to change over time by using its total energy as the physics lecture notes textbook explanation",
+      "result_snippet": "The Hamiltonian helps us understand how a system changes over time and use this understanding to predict its future. Hamiltonian mechanics offers an intuitive description of how conservative mechanical systems evolve over time by representing their states as points ... ... to quantum mechanics, and even to classical mechanics (dealing with Lagrangians and Hamiltonians), but rather to the basic Newtonian mechanics: ... But the energy levels of atoms are given by it because it represents the total energy of the atom. ... are quite right to say that the Hamiltonian is ... ... how the $q_i$ s and $p_i$ s undergo a ‘dance to the music of time’, a dance in which, as some $q_i$ s or $p_i$ s increase in value, others ...",
+      "searched_at": "2026-05-04_07-57-31",
+      "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
+    }
+  },
+  "last_updated": "2026-05-04_07-57-32"
+}

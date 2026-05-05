@@ -1,0 +1,46 @@
+---
+title: "Projection"
+slug: "projection"
+---
+
+# Projection  
+
+## The core idea  
+Projection is a way to find how much of one vector points in a specific direction. Imagine shining a light perpendicular to a wall—the shadow of a vector on the wall is its projection. This tells you how much of the vector is "aligned" with that direction.  
+
+## Why this matters  
+Projection helps us break down complex motions, forces, or velocities into simpler parts. For example, when you pull a box at an angle, only part of your force actually moves the box forward. Projection lets us calculate that useful part.  
+
+## The simple picture  
+[Diagram idea: A vector pointing at an angle, with its shadow (projection) on a wall perpendicular to the light source.]  
+Think of a flashlight shining on a wall. The vector is like a stick tilted from the wall. Its shadow on the wall is its projection—the part of the stick that’s "facing" the wall.  
+
+## The more precise picture  
+The projection of vector **A** onto direction **B** is a vector that tells you how much of **A** points in **B**’s direction.  
+- **Magnitude**: $ |\text{proj}_B A| = |A| \cos\theta $, where $ \theta $ is the angle between **A** and **B**.  
+- **Direction**: Same as **B** (or opposite if $ \theta > 90^\circ $).  
+
+The **dot product** {dot product} connects projection to math:  
+$$
+A \cdot B = |A||B| \cos\theta = |A| \cdot (\text{proj}_B A) \cdot |B| / |B| = |\text{proj}_B A| \cdot |B|
+$$  
+This shows the dot product {dot product} is the projection **scaled** by the length of **B**.  
+
+## Common misconceptions  
+- ❌ **Projection is the same as magnitude**: No! Projection is a vector {vector} (has direction), not just a number.  
+- ❌ **Projection depends only on angle**: Yes, but the vector’s own length also matters. A longer vector has a larger projection.  
+- ❌ **Projection is always positive**: No! If the angle is obtuse ($ \theta > 90^\circ $), the projection is negative, meaning it points opposite to **B**.  
+- ❌ **Projection is the same as the dot product**: The dot product {dot product} is the projection **multiplied by** the length of **B**.  
+
+## How this connects to physics  
+- **Force components**: When you pull a box at an angle, only the projection of your force in the horizontal direction does work.  
+- **Velocity in directions**: In projectile motion, the horizontal velocity is the projection of the initial velocity onto the horizontal axis.  
+- **Work**: Work done by a force is $ W = F_{\text{parallel}} \times \text{distance} $, where $ F_{\text{parallel}} $ is the projection of the force.  
+
+## Recap  
+- Projection answers: *"How much of this vector is pointing in this direction?"*  
+- It’s a vector {vector}, not just a number, and depends on both the angle and the vector’s length.  
+- The dot product {dot product} is the projection scaled by the target vector’s length.  
+- Use projection to split forces, velocities, or motions into useful parts.  
+
+**Note**: This article focuses on *vector projection* {projection} in physics, distinct from psychological concepts like "projection" in mental health. The mathematical and physical definitions here are grounded in standard physics pedagogy.

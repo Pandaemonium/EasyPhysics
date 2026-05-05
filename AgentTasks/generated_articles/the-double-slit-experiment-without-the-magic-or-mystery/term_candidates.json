@@ -1,0 +1,26 @@
+{
+  "terms": [
+    {
+      "standard_term": "wave",
+      "candidate_name": "Wave-ripple",
+      "context_quote": "the pebble (particle) behaves like a ripple (wave) when unobserved",
+      "usefulness": "Helps explain wave-like behavior with an intuitive ripple analogy",
+      "risk": "Low risk; clearly an analogy for wave properties"
+    },
+    {
+      "standard_term": "particle",
+      "candidate_name": "Particle-trajectory",
+      "context_quote": "the act of measuring reveals the particle’s path, collapsing its wave-like behavior",
+      "usefulness": "Clarifies the particle’s path when observed",
+      "risk": "Low risk; directly ties to measurement outcomes"
+    },
+    {
+      "standard_term": "measurement",
+      "candidate_name": "Observation effect",
+      "context_quote": "Observation *reveals* the particle’s path, not 'causing' it. The collapse is a result of measurement, not magic",
+      "usefulness": "Avoids mystical interpretations by linking to measurement tools",
+      "risk": "Low risk; explicitly contrasts with magical explanations"
+    }
+  ],
+  "last_updated": "2026-05-04_00-41-12"
+}

@@ -1,0 +1,581 @@
+
+================================================================================
+TIME: 2026-05-03T20:46:38
+NODE: planner
+================================================================================
+PROMPT:
+Create a strong teaching outline for this EasyPhysics article:
+
+Title: The pixelation of energy: why light comes in chunks
+
+The outline should include:
+1. Scope: what this article explains.
+2. Out of scope: what it should not try to explain yet.
+3. Prerequisite concepts.
+4. Core intuition.
+5. Suggested descriptive names with standard terms in braces.
+6. Common misconceptions to avoid.
+7. Section-by-section outline.
+8. Optional diagram ideas.
+9. Optional minimal math, with what the math means.
+
+Use Markdown.
+
+RESPONSE:
+# The Pixelation of Energy: Why Light Comes in Chunks  
+
+---
+
+## 1. Scope  
+This article explains **why light behaves as if it comes in discrete chunks** (photons), even though it appears continuous. It introduces the idea of **quantized energy** and connects it to historical puzzles like the photoelectric effect and blackbody radiation.  
+
+---
+
+## 2. Out of Scope  
+- **Wave-particle duality** (e.g., light as both wave and particle)  
+- **Quantum field theory** or advanced quantum mechanics  
+- **Photons as particles** (focus on energy quantization, not particle behavior)  
+- **Mathematical formalism** beyond basic algebra  
+
+---
+
+## 3. Prerequisite Concepts  
+- Basic wave properties (e.g., frequency, wavelength)  
+- Energy as a measurable quantity (e.g., kinetic energy, heat)  
+- Understanding of the **photoelectric effect** (from earlier lessons)  
+- Familiarity with **algebra** (e.g., proportional relationships)  
+
+---
+
+## 4. Core Intuition  
+Light is not a smooth, continuous wave but behaves as if it’s made of **discrete energy packets** called **photons**. This "pixelation" of energy explains phenomena like:  
+- The **photoelectric effect** (light only ejects electrons if it exceeds a threshold frequency).  
+- **Blackbody radiation** (classical physics couldn’t explain the spectrum of emitted light).  
+- **Quantum leaps** (energy transitions in atoms occur in discrete steps).  
+
+---
+
+## 5. Suggested Descriptive Names with Standard Terms in Braces  
+| Descriptive Name         | Standard Term | Notes |  
+|--------------------------|---------------|-------|  
+| **Energy packet**       | photon        | Avoid "particle" to prevent confusion with wave behavior. |  
+| **Quantized energy**    | discrete energy levels | Emphasize "chunks" over "levels." |  
+| **Pixelation of light** | quantization   | Use metaphor to make abstract ideas tangible. |  
+| **Threshold frequency** | work function  | Link to the photoelectric effect. |  
+
+---
+
+## 6. Common Misconceptions to Avoid  
+- **"Light is made of particles"**: Light behaves like particles in some experiments, but it’s not "made of" them.  
+- **"Photons have mass"**: Photons are massless but carry energy and momentum.  
+- **"Quantization applies only to light"**: Energy quantization is a universal principle (e.g., atoms, electrons).  
+- **"All light behaves the same"**: Different frequencies (colors) of light have different energy per photon.  
+
+---
+
+## 7. Section-by-Section Outline  
+### **Section 1: The Problem with Classical Physics**  
+- Describe how classical wave theory failed to explain blackbody radiation and the photoelectric effect.  
+- Introduce the **ultraviolet catastrophe** and the "photoelectric puzzle."  
+
+### **Section 2: Planck’s Quantum Leap**  
+- Explain Planck’s hypothesis: energy is emitted/absorbed in **discrete packets** (quanta).  
+- Derive **E = hf** (energy = frequency × Planck’s constant).  
+- Use analogy: "Light is like a staircase—only certain energy steps are allowed."  
+
+### **Section 3: Einstein’s Photon Hypothesis**  
+- Link Planck’s quanta to **photons** as particles of light.  
+- Explain the photoelectric effect using **E_photon = work function + kinetic energy**.  
+- Contrast with classical wave theory: "Light’s energy isn’t spread out, it’s in chunks."  
+
+### **Section 4: Experiments Confirming Quantization**  
+- Describe the **photoelectric effect** and **Compton scattering** as evidence.  
+- Mention **blackbody spectra** matching quantized predictions.  
+
+### **Section 5: Implications and Limits**  
+- Discuss how quantization applies to all energy (e.g., atoms, electrons).  
+- Note: "Quantization is a rule, not a magic trick—there’s a lawful structure to it."  
+
+---
+
+## 8. Optional Diagram Ideas  
+1. **Timeline of Light Understanding**: Classical wave theory → Planck’s quanta → Einstein’s photons.  
+2. **Photoelectric Effect Diagram**: Incoming photons, energy levels, ejected electrons.  
+3. **Continuous vs. Quantized Energy**: A graph showing smooth vs. stepped energy absorption.  
+4. **Photon Energy vs. Frequency**: Plot E = hf with labeled axes.  
+
+---
+
+## 9. Optional Minimal Math  
+### **Planck’s Equation**:  
+**E = hf**  
+- **E**: Energy of a photon (in joules)  
+- **h**: Planck’s constant (6.626 × 10⁻³⁴ J·s)  
+- **f**: Frequency of light (in hertz)  
+- **Meaning**: Energy is directly proportional to frequency—higher frequency light has more energetic photons.  
+
+### **Photoelectric Effect Equation**:  
+**E_photon = Work Function + Kinetic Energy**  
+- **E_photon = hf**  
+- **Work Function**: Minimum energy needed to eject an electron.  
+- **Kinetic Energy**: Energy of the ejected electron.  
+- **Meaning**: Only photons with energy ≥ work function can eject electrons.  
+
+--- 
+
+This outline balances conceptual clarity with intuitive metaphors, avoiding jargon while grounding the idea of quantization in observable phenomena.
+
+================================================================================
+TIME: 2026-05-03T20:52:22
+NODE: writer
+================================================================================
+PROMPT:
+Write a high-quality first draft for this EasyPhysics article.
+
+Title: The pixelation of energy: why light comes in chunks
+
+Article outline:
+# The Pixelation of Energy: Why Light Comes in Chunks  
+
+---
+
+## 1. Scope  
+This article explains **why light behaves as if it comes in discrete chunks** (photons), even though it appears continuous. It introduces the idea of **quantized energy** and connects it to historical puzzles like the photoelectric effect and blackbody radiation.  
+
+---
+
+## 2. Out of Scope  
+- **Wave-particle duality** (e.g., light as both wave and particle)  
+- **Quantum field theory** or advanced quantum mechanics  
+- **Photons as particles** (focus on energy quantization, not particle behavior)  
+- **Mathematical formalism** beyond basic algebra  
+
+---
+
+## 3. Prerequisite Concepts  
+- Basic wave properties (e.g., frequency, wavelength)  
+- Energy as a measurable quantity (e.g., kinetic energy, heat)  
+- Understanding of the **photoelectric effect** (from earlier lessons)  
+- Familiarity with **algebra** (e.g., proportional relationships)  
+
+---
+
+## 4. Core Intuition  
+Light is not a smooth, continuous wave but behaves as if it’s made of **discrete energy packets** called **photons**. This "pixelation" of energy explains phenomena like:  
+- The **photoelectric effect** (light only ejects electrons if it exceeds a threshold frequency).  
+- **Blackbody radiation** (classical physics couldn’t explain the spectrum of emitted light).  
+- **Quantum leaps** (energy transitions in atoms occur in discrete steps).  
+
+---
+
+## 5. Suggested Descriptive Names with Standard Terms in Braces  
+| Descriptive Name         | Standard Term | Notes |  
+|--------------------------|---------------|-------|  
+| **Energy packet**       | photon        | Avoid "particle" to prevent confusion with wave behavior. |  
+| **Quantized energy**    | discrete energy levels | Emphasize "chunks" over "levels." |  
+| **Pixelation of light** | quantization   | Use metaphor to make abstract ideas tangible. |  
+| **Threshold frequency** | work function  | Link to the photoelectric effect. |  
+
+---
+
+## 6. Common Misconceptions to Avoid  
+- **"Light is made of particles"**: Light behaves like particles in some experiments, but it’s not "made of" them.  
+- **"Photons have mass"**: Photons are massless but carry energy and momentum.  
+- **"Quantization applies only to light"**: Energy quantization is a universal principle (e.g., atoms, electrons).  
+- **"All light behaves the same"**: Different frequencies (colors) of light have different energy per photon.  
+
+---
+
+## 7. Section-by-Section Outline  
+### **Section 1: The Problem with Classical Physics**  
+- Describe how classical wave theory failed to explain blackbody radiation and the photoelectric effect.  
+- Introduce the **ultraviolet catastrophe** and the "photoelectric puzzle."  
+
+### **Section 2: Planck’s Quantum Leap**  
+- Explain Planck’s hypothesis: energy is emitted/absorbed in **discrete packets** (quanta).  
+- Derive **E = hf** (energy = frequency × Planck’s constant).  
+- Use analogy: "Light is like a staircase—only certain energy steps are allowed."  
+
+### **Section 3: Einstein’s Photon Hypothesis**  
+- Link Planck’s quanta to **photons** as particles of light.  
+- Explain the photoelectric effect using **E_photon = work function + kinetic energy**.  
+- Contrast with classical wave theory: "Light’s energy isn’t spread out, it’s in chunks."  
+
+### **Section 4: Experiments Confirming Quantization**  
+- Describe the **photoelectric effect** and **Compton scattering** as evidence.  
+- Mention **blackbody spectra** matching quantized predictions.  
+
+### **Section 5: Implications and Limits**  
+- Discuss how quantization applies to all energy (e.g., atoms, electrons).  
+- Note: "Quantization is a rule, not a magic trick—there’s a lawful structure to it."  
+
+---
+
+## 8. Optional Diagram Ideas  
+1. **Timeline of Light Understanding**: Classical wave theory → Planck’s quanta → Einstein’s photons.  
+2. **Photoelectric Effect Diagram**: Incoming photons, energy levels, ejected electrons.  
+3. **Continuous vs. Quantized Energy**: A graph showing smooth vs. stepped energy absorption.  
+4. **Photon Energy vs. Frequency**: Plot E = hf with labeled axes.  
+
+---
+
+## 9. Optional Minimal Math  
+### **Planck’s Equation**:  
+**E = hf**  
+- **E**: Energy of a photon (in joules)  
+- **h**: Planck’s constant (6.626 × 10⁻³⁴ J·s)  
+- **f**: Frequency of light (in hertz)  
+- **Meaning**: Energy is directly proportional to frequency—higher frequency light has more energetic photons.  
+
+### **Photoelectric Effect Equation**:  
+**E_photon = Work Function + Kinetic Energy**  
+- **E_photon = hf**  
+- **Work Function**: Minimum energy needed to eject an electron.  
+- **Kinetic Energy**: Energy of the ejected electron.  
+- **Meaning**: Only photons with energy ≥ work function can eject electrons.  
+
+--- 
+
+This outline balances conceptual clarity with intuitive metaphors, avoiding jargon while grounding the idea of quantization in observable phenomena.
+
+Human/editor notes:
+# Human/editor notes
+
+Add any preferences, corrections, or article-specific constraints here.
+
+
+Template guidance:
+Preferred article structure:
+
+# Title
+
+## The core idea
+A short, intuitive explanation that gives the reader the main point first.
+
+## Why this matters
+Explain what the concept helps us understand.
+
+## The simple picture
+Use an analogy, diagram idea, or concrete example.
+
+## The more precise picture
+Introduce standard terms, careful distinctions, and optional minimal math.
+
+## Common misconceptions
+Name and correct the traps.
+
+## How this connects to the rest of physics
+Link the concept to fields, particles, symmetry, conservation, relativity, or the Standard Model as appropriate.
+
+## Recap
+A few concise takeaways.
+
+Drafting instructions:
+- Make it accessible to a motivated high-schooler or college freshman.
+- Teach the modern concept directly rather than narrating historical discovery.
+- Use descriptive names with standard terms in braces, e.g. space-occupier {fermion}.
+- Include common misconceptions and correct them.
+- Include minimal math only when it helps, and explain what the math means.
+- Suggest diagram ideas inline where helpful using this format: [Diagram idea: ...]
+- Output only the article in Markdown, with no commentary before or after.
+
+RESPONSE:
+# The Pixelation of Energy: Why Light Comes in Chunks  
+
+## The core idea  
+Light isn’t a smooth, continuous wave—it behaves as if it’s made of **discrete energy packets** called **photons**. This "pixelation" of energy explains why light interacts with matter in surprising ways, like ejecting electrons from metals or glowing with specific colors.  
+
+## Why this matters  
+This idea of **quantized energy** solved two big puzzles:  
+1. **Blackbody radiation**: Classical physics predicted infinite energy at high frequencies (the "ultraviolet catastrophe"), but real objects glow with a finite spectrum.  
+2. **Photoelectric effect**: Light only ejects electrons if it exceeds a threshold frequency, not if it’s brighter.  
+These puzzles revealed that energy isn’t spread out like water—it comes in chunks.  
+
+## The simple picture  
+Imagine a digital photo: it looks smooth, but it’s actually made of tiny pixels. Similarly, light isn’t a continuous wave—it’s like a staircase: only certain "steps" of energy are allowed. Each step is a **photon**, and its energy depends on the light’s color (frequency).  
+
+[Diagram idea: A staircase with labeled steps showing "Energy packet" {photon} at each level.]  
+
+## The more precise picture  
+### Planck’s quantum leap  
+In 1900, Max Planck proposed that energy is emitted/absorbed in **discrete packets** (quanta). He introduced the equation:  
+**E = hf**  
+- **E**: Energy of a photon (in joules)  
+- **h**: Planck’s constant (6.626 × 10⁻³⁴ J·s)  
+- **f**: Frequency of light (in hertz)  
+This means higher-frequency light (like blue) has more energetic photons than lower-frequency light (like red).  
+
+### Einstein’s photon hypothesis  
+Albert Einstein extended this idea in 1905, suggesting light itself is made of **photons**—discrete energy packets. This explained the **photoelectric effect**:  
+**E_photon = Work Function + Kinetic Energy**  
+- **E_photon = hf**  
+- **Work Function**: Minimum energy needed to eject an electron.  
+- **Kinetic Energy**: Energy of the ejected electron.  
+Only photons with energy ≥ work function can free electrons, no matter how bright the light is.  
+
+[Diagram idea: A graph showing energy absorption as a staircase (quantized) vs. a smooth curve (classical physics).]  
+
+## Common misconceptions  
+- **"Light is made of particles"**: Light behaves like particles in some experiments, but it’s not "made of" them. It’s a wave in some contexts, a particle in others.  
+- **"Photons have mass"**: Photons are massless but carry energy and momentum.  
+- **"Quantization applies only to light"**: Energy quantization is universal—atoms, electrons, and even gravity (in some theories) follow this rule.  
+- **"All light behaves the same"**: Different frequencies (colors) of light have different energy per photon.  
+
+## How this connects to the rest of physics  
+The idea that energy comes in chunks is foundational to **quantum mechanics**. It explains how atoms emit light at specific frequencies (spectral lines), how electrons jump between energy levels, and even how modern technologies like lasers and solar cells work. This principle also underpins the **Standard Model** of particle physics, where particles like electrons and photons exchange energy in discrete steps.  
+
+## Recap  
+- Light’s energy is **quantized**—it comes in discrete packets called **photons** {energy packet}.  
+- Higher-frequency light (blue) has more energetic photons than lower-frequency light (red).  
+- Quantization explains the **photoelectric effect**, **blackbody radiation**, and quantum leaps in atoms.  
+- Energy quantization isn’t limited to light—it’s a universal rule in physics.
+
+================================================================================
+TIME: 2026-05-03T20:56:57
+NODE: term_collector
+================================================================================
+PROMPT:
+Extract the descriptive-name candidates from this draft.
+
+Return JSON with this shape:
+{
+  "terms": [
+    {
+      "standard_term": "fermion",
+      "candidate_name": "space-occupier",
+      "context_quote": "short quote from the draft",
+      "usefulness": "why this name helps",
+      "risk": "how it could mislead, or empty string if low risk"
+    }
+  ]
+}
+
+Only include actual teaching-name candidates, especially phrases followed by standard terms in braces.
+
+Draft:
+# The Pixelation of Energy: Why Light Comes in Chunks  
+
+## The core idea  
+Light isn’t a smooth, continuous wave—it behaves as if it’s made of **discrete energy packets** called **photons**. This "pixelation" of energy explains why light interacts with matter in surprising ways, like ejecting electrons from metals or glowing with specific colors.  
+
+## Why this matters  
+This idea of **quantized energy** solved two big puzzles:  
+1. **Blackbody radiation**: Classical physics predicted infinite energy at high frequencies (the "ultraviolet catastrophe"), but real objects glow with a finite spectrum.  
+2. **Photoelectric effect**: Light only ejects electrons if it exceeds a threshold frequency, not if it’s brighter.  
+These puzzles revealed that energy isn’t spread out like water—it comes in chunks.  
+
+## The simple picture  
+Imagine a digital photo: it looks smooth, but it’s actually made of tiny pixels. Similarly, light isn’t a continuous wave—it’s like a staircase: only certain "steps" of energy are allowed. Each step is a **photon**, and its energy depends on the light’s color (frequency).  
+
+[Diagram idea: A staircase with labeled steps showing "Energy packet" {photon} at each level.]  
+
+## The more precise picture  
+### Planck’s quantum leap  
+In 1900, Max Planck proposed that energy is emitted/absorbed in **discrete packets** (quanta). He introduced the equation:  
+**E = hf**  
+- **E**: Energy of a photon (in joules)  
+- **h**: Planck’s constant (6.626 × 10⁻³⁴ J·s)  
+- **f**: Frequency of light (in hertz)  
+This means higher-frequency light (like blue) has more energetic photons than lower-frequency light (like red).  
+
+### Einstein’s photon hypothesis  
+Albert Einstein extended this idea in 1905, suggesting light itself is made of **photons**—discrete energy packets. This explained the **photoelectric effect**:  
+**E_photon = Work Function + Kinetic Energy**  
+- **E_photon = hf**  
+- **Work Function**: Minimum energy needed to eject an electron.  
+- **Kinetic Energy**: Energy of the ejected electron.  
+Only photons with energy ≥ work function can free electrons, no matter how bright the light is.  
+
+[Diagram idea: A graph showing energy absorption as a staircase (quantized) vs. a smooth curve (classical physics).]  
+
+## Common misconceptions  
+- **"Light is made of particles"**: Light behaves like particles in some experiments, but it’s not "made of" them. It’s a wave in some contexts, a particle in others.  
+- **"Photons have mass"**: Photons are massless but carry energy and momentum.  
+- **"Quantization applies only to light"**: Energy quantization is universal—atoms, electrons, and even gravity (in some theories) follow this rule.  
+- **"All light behaves the same"**: Different frequencies (colors) of light have different energy per photon.  
+
+## How this connects to the rest of physics  
+The idea that energy comes in chunks is foundational to **quantum mechanics**. It explains how atoms emit light at specific frequencies (spectral lines), how electrons jump between energy levels, and even how modern technologies like lasers and solar cells work. This principle also underpins the **Standard Model** of particle physics, where particles like electrons and photons exchange energy in discrete steps.  
+
+## Recap  
+- Light’s energy is **quantized**—it comes in discrete packets called **photons** {energy packet}.  
+- Higher-frequency light (blue) has more energetic photons than lower-frequency light (red).  
+- Quantization explains the **photoelectric effect**, **blackbody radiation**, and quantum leaps in atoms.  
+- Energy quantization isn’t limited to light—it’s a universal rule in physics.
+
+RESPONSE:
+{
+  "terms": [
+    {
+      "standard_term": "photon",
+      "candidate_name": "energy packet",
+      "context_quote": "discrete energy packets called photons {energy packet}",
+      "usefulness": "Helps students visualize photons as chunks of energy, similar to pixels in a digital image.",
+      "risk": "Might imply that photons are just packets of energy, not considering their wave-like properties."
+    },
+    {
+      "standard_term": "photons",
+      "candidate_name": "discrete energy packets",
+      "context_quote": "suggesting light itself is made of photons—discrete energy packets",
+      "usefulness": "Emphasizes the quantized nature of light, linking to the pixelation analogy.",
+      "risk": "Could be seen as redundant since 'photons' already implies discrete packets."
+    },
+    {
+      "standard_term": "quanta",
+      "candidate_name": "discrete packets",
+      "context_quote": "discrete packets {quanta}",
+      "usefulness": "Simplifies the concept of quanta as discrete packets, making it more relatable.",
+      "risk": "Might be confusing with 'discrete energy packets' {photons} if not clearly differentiated."
+    }
+  ]
+}
+
+================================================================================
+TIME: 2026-05-03T20:59:57
+NODE: claim_extractor
+================================================================================
+PROMPT:
+Extract the most important scientific and explanatory claims from this article draft.
+
+Return JSON with this shape:
+{
+  "claims": [
+    {
+      "id": "C001",
+      "claim": "A clear, standalone claim from the article.",
+      "type": "definition | mechanism | analogy | mathematical | misconception-correction | scope | other",
+      "importance": "high | medium | low",
+      "needs_external_check": true,
+      "why_it_matters": "brief reason",
+      "suggested_search_query": "stable source search query, not latest-news oriented"
+    }
+  ]
+}
+
+Guidance:
+- Extract claims that matter for scientific correctness.
+- Include claims embedded in analogies if the analogy could mislead.
+- Do not include purely stylistic statements.
+- Search queries should prefer stable sources: textbooks, lecture notes, CERN, Fermilab, university pages.
+
+Article title: The pixelation of energy: why light comes in chunks
+
+Draft:
+# The Pixelation of Energy: Why Light Comes in Chunks  
+
+## The core idea  
+Light isn’t a smooth, continuous wave—it behaves as if it’s made of **discrete energy packets** called **photons**. This "pixelation" of energy explains why light interacts with matter in surprising ways, like ejecting electrons from metals or glowing with specific colors.  
+
+## Why this matters  
+This idea of **quantized energy** solved two big puzzles:  
+1. **Blackbody radiation**: Classical physics predicted infinite energy at high frequencies (the "ultraviolet catastrophe"), but real objects glow with a finite spectrum.  
+2. **Photoelectric effect**: Light only ejects electrons if it exceeds a threshold frequency, not if it’s brighter.  
+These puzzles revealed that energy isn’t spread out like water—it comes in chunks.  
+
+## The simple picture  
+Imagine a digital photo: it looks smooth, but it’s actually made of tiny pixels. Similarly, light isn’t a continuous wave—it’s like a staircase: only certain "steps" of energy are allowed. Each step is a **photon**, and its energy depends on the light’s color (frequency).  
+
+[Diagram idea: A staircase with labeled steps showing "Energy packet" {photon} at each level.]  
+
+## The more precise picture  
+### Planck’s quantum leap  
+In 1900, Max Planck proposed that energy is emitted/absorbed in **discrete packets** (quanta). He introduced the equation:  
+**E = hf**  
+- **E**: Energy of a photon (in joules)  
+- **h**: Planck’s constant (6.626 × 10⁻³⁴ J·s)  
+- **f**: Frequency of light (in hertz)  
+This means higher-frequency light (like blue) has more energetic photons than lower-frequency light (like red).  
+
+### Einstein’s photon hypothesis  
+Albert Einstein extended this idea in 1905, suggesting light itself is made of **photons**—discrete energy packets. This explained the **photoelectric effect**:  
+**E_photon = Work Function + Kinetic Energy**  
+- **E_photon = hf**  
+- **Work Function**: Minimum energy needed to eject an electron.  
+- **Kinetic Energy**: Energy of the ejected electron.  
+Only photons with energy ≥ work function can free electrons, no matter how bright the light is.  
+
+[Diagram idea: A graph showing energy absorption as a staircase (quantized) vs. a smooth curve (classical physics).]  
+
+## Common misconceptions  
+- **"Light is made of particles"**: Light behaves like particles in some experiments, but it’s not "made of" them. It’s a wave in some contexts, a particle in others.  
+- **"Photons have mass"**: Photons are massless but carry energy and momentum.  
+- **"Quantization applies only to light"**: Energy quantization is universal—atoms, electrons, and even gravity (in some theories) follow this rule.  
+- **"All light behaves the same"**: Different frequencies (colors) of light have different energy per photon.  
+
+## How this connects to the rest of physics  
+The idea that energy comes in chunks is foundational to **quantum mechanics**. It explains how atoms emit light at specific frequencies (spectral lines), how electrons jump between energy levels, and even how modern technologies like lasers and solar cells work. This principle also underpins the **Standard Model** of particle physics, where particles like electrons and photons exchange energy in discrete steps.  
+
+## Recap  
+- Light’s energy is **quantized**—it comes in discrete packets called **photons** {energy packet}.  
+- Higher-frequency light (blue) has more energetic photons than lower-frequency light (red).  
+- Quantization explains the **photoelectric effect**, **blackbody radiation**, and quantum leaps in atoms.  
+- Energy quantization isn’t limited to light—it’s a universal rule in physics.
+
+RESPONSE:
+{
+  "claims": [
+    {
+      "id": "C001",
+      "claim": "Light behaves as discrete energy packets called photons {energy quanta}, not as continuous waves.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "This quantization explains phenomena like the photoelectric effect and blackbody radiation.",
+      "suggested_search_query": "quantum nature of light Planck Einstein"
+    },
+    {
+      "id": "C002",
+      "claim": "Energy quantization solves the ultraviolet catastrophe in blackbody radiation.",
+      "type": "mechanism",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Classical continuous energy models predict infinite energy at high frequencies, but quantization resolves this.",
+      "suggested_search_query": "blackbody radiation ultraviolet catastrophe"
+    },
+    {
+      "id": "C003",
+      "claim": "The photoelectric effect demonstrates that light energy depends on frequency, not intensity.",
+      "type": "mechanism",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Proves photons have discrete energy levels (E = hf) and challenges classical wave theory.",
+      "suggested_search_query": "photoelectric effect Einstein equation"
+    },
+    {
+      "id": "C004",
+      "claim": "Planck's equation E = hf {energy-frequency relationship} defines photon energy in terms of frequency.",
+      "type": "mathematical",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Quantifies the discrete energy levels of photons and their dependence on light frequency.",
+      "suggested_search_query": "Planck equation photon energy"
+    },
+    {
+      "id": "C005",
+      "claim": "Photons are massless but carry energy and momentum, correcting the misconception that they 'have mass'.",
+      "type": "misconception-correction",
+      "importance": "medium",
+      "needs_external_check": true,
+      "why_it_matters": "Addresses common confusion about photon properties in quantum mechanics.",
+      "suggested_search_query": "photon mass quantum mechanics"
+    },
+    {
+      "id": "C006",
+      "claim": "Energy quantization is universal, applying to atoms, electrons, and fundamental forces {Standard Model}.",
+      "type": "scope",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Establishes quantization as a foundational principle across all physical systems.",
+      "suggested_search_query": "quantum mechanics universality Standard Model"
+    },
+    {
+      "id": "C007",
+      "claim": "Quantization explains atomic spectral lines, electron energy level transitions, and modern technologies like lasers.",
+      "type": "mechanism",
+      "importance": "medium",
+      "needs_external_check": true,
+      "why_it_matters": "Links quantization to observable phenomena and technological applications.",
+      "suggested_search_query": "quantum transitions atomic spectra"
+    }
+  ]
+}

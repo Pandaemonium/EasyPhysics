@@ -1,0 +1,95 @@
+{
+  "claims": [
+    {
+      "id": "C001",
+      "claim": "Quantum spin is an intrinsic property of particles, not a physical rotation, and is fundamental to their identity and interactions.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Establishes the foundational concept of spin as a non-classical property.",
+      "suggested_search_query": "quantum spin intrinsic angular momentum definition"
+    },
+    {
+      "id": "C002",
+      "claim": "Spin is quantized, with discrete values like ±ħ/2 for spin-½ particles, and has no continuous range of possible values.",
+      "type": "mathematical",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Clarifies the quantization of spin, critical for quantum mechanics.",
+      "suggested_search_query": "quantum spin quantization eigenvalues"
+    },
+    {
+      "id": "C003",
+      "claim": "Spin operators (S_x, S_y, S_z) describe spin behavior mathematically, with eigenvalues corresponding to measurable outcomes.",
+      "type": "mathematical",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Links spin to observable quantum measurements.",
+      "suggested_search_query": "spin operators eigenvalues quantum mechanics"
+    },
+    {
+      "id": "C004",
+      "claim": "Spin states exist in superposition until measured, reflecting quantum uncertainty.",
+      "type": "mechanism",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Explains the probabilistic nature of spin measurements.",
+      "suggested_search_query": "quantum spin superposition measurement"
+    },
+    {
+      "id": "C005",
+      "claim": "The 'spinning top' analogy is misleading and should be avoided, as quantum spin has no classical counterpart.",
+      "type": "misconception-correction",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Corrects a common conceptual error in teaching spin.",
+      "suggested_search_query": "quantum spin spinning top analogy misconception"
+    },
+    {
+      "id": "C006",
+      "claim": "Spin determines quantum statistics: fermions (spin-½) obey the Pauli exclusion principle, while bosons (spin-1/0) do not.",
+      "type": "mechanism",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Connects spin to particle behavior in quantum systems.",
+      "suggested_search_query": "spin quantum statistics fermions bosons"
+    },
+    {
+      "id": "C007",
+      "claim": "Spin is essential for magnetic interactions, influencing phenomena like electron spin resonance and material magnetism.",
+      "type": "scope",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Highlights spin's role in applied physics and materials science.",
+      "suggested_search_query": "quantum spin magnetic interactions applications"
+    },
+    {
+      "id": "C008",
+      "claim": "Particles with spin do not have physical size; spin is an intrinsic property independent of spatial extent.",
+      "type": "misconception-correction",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Corrects a misunderstanding about spin's relation to particle size.",
+      "suggested_search_query": "quantum spin particle size misconception"
+    },
+    {
+      "id": "C009",
+      "claim": "Spin is tied to symmetry principles in physics, affecting conservation laws and particle interactions.",
+      "type": "scope",
+      "importance": "medium",
+      "needs_external_check": true,
+      "why_it_matters": "Links spin to broader theoretical frameworks in physics.",
+      "suggested_search_query": "quantum spin symmetry conservation laws"
+    },
+    {
+      "id": "C010",
+      "claim": "Spin-½ particles (like electrons) have eigenvalues of S_z = ±ħ/2, while spin-1 particles (like photons) have different quantization.",
+      "type": "mathematical",
+      "importance": "medium",
+      "needs_external_check": true,
+      "why_it_matters": "Provides specific examples of spin quantization.",
+      "suggested_search_query": "spin-½ eigenvalues quantum particles"
+    }
+  ],
+  "last_updated": "2026-05-04_02-11-15"
+}

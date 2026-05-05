@@ -1,0 +1,861 @@
+
+================================================================================
+TIME: 2026-05-04T06:45:42
+NODE: planner
+PROMPT_CHARS: 485
+PROMPT_TOKENS_APPROX: 121
+RESPONSE_CHARS: 4964
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.85}
+================================================================================
+PROMPT:
+Create a strong teaching outline for this EasyPhysics article:
+
+Title: Noether's second theorem
+
+The outline should include:
+1. Scope: what this article explains.
+2. Out of scope: what it should not try to explain yet.
+3. Prerequisite concepts.
+4. Core intuition.
+5. Suggested descriptive names with standard terms in braces.
+6. Common misconceptions to avoid.
+7. Section-by-section outline.
+8. Optional diagram ideas.
+9. Optional minimal math, with what the math means.
+
+Use Markdown.
+
+RESPONSE:
+```markdown
+# Noether's Second Theorem
+
+## 1. Scope
+This article explains **Noether's second theorem**, which connects **symmetries in the action** (the integral of the Lagrangian over time) to **constraints on the equations of motion**. It clarifies how these symmetries generate conservation laws and shape the structure of physical laws. The focus is on the mathematical and conceptual framework, not specific applications or historical context.
+
+---
+
+## 2. Out of Scope
+- **Noether's first theorem** (symmetries → conservation laws like energy/momentum).
+- **Historical context** of Noether's work.
+- **Quantum mechanics** applications (unless directly tied to classical variational principles).
+- **Speculative physics** or open research questions.
+
+---
+
+## 3. Prerequisite Concepts
+- **Variational principles**: How physical systems minimize/maximize the action.
+- **Lagrangian mechanics**: The role of the Lagrangian $ L(q, \dot{q}, t) $ in describing motion.
+- **Calculus of variations**: How small changes in paths affect the action.
+- **Conservation laws**: Basic understanding of how symmetries lead to conserved quantities (e.g., energy from time symmetry).
+
+---
+
+## 4. Core Intuition
+Noether's second theorem reveals that **symmetries in the action** (like invariance under time translations or spatial rotations) **impose constraints** on the equations of motion. These constraints ensure that the system's behavior is consistent with the symmetry, even when the symmetry isn't explicitly preserved in the dynamics. This is a deeper, more structural relationship than the first theorem, which links symmetries to conserved quantities.
+
+---
+
+## 5. Suggested Descriptive Names with Standard Terms in Braces
+- **Symmetry constraint {Noether's second theorem}**
+- **Equation-generating symmetry {Noether's second theorem}**
+- **Action-invariant constraint {Noether's second theorem}**
+- **Variational symmetry {Noether's second theorem}**
+
+---
+
+## 6. Common Misconceptions to Avoid
+- **Confusing it with the first theorem**: The second theorem is about constraints on equations of motion, not direct conservation laws.
+- **Thinking it applies only to conservation laws**: It underpins the structure of physical laws, including non-conservation scenarios (e.g., dissipation in non-conservative systems).
+- **Ignoring the variational principle**: The theorem relies on the action's role in defining physical behavior, not just symmetries themselves.
+
+---
+
+## 7. Section-by-Section Outline
+### **Section 1: Variational Principles and the Action**
+- Explain the action $ S = \int L \, dt $ as the "recipe" for physical motion.
+- Introduce the principle of least action: Nature chooses paths that extremize $ S $.
+
+### **Section 2: Symmetries in the Action**
+- Define **variational symmetry**: A transformation that leaves the action unchanged (e.g., shifting time or space).
+- Contrast with "explicit symmetry" (e.g., a system rotating in space).
+
+### **Section 3: Statement of Noether's Second Theorem**
+- Explain that **symmetries impose constraints** on the equations of motion (Euler-Lagrange equations).
+- Highlight that these constraints are **not conservation laws** but structural rules for the system.
+
+### **Section 4: Mathematical Formulation (Minimal Math)**
+- Derive how a symmetry $ q \to q + \epsilon \eta(t) $ affects the action.
+- Show that the variation $ \delta S = 0 $ leads to a **constraint equation** involving the Lagrangian and its derivatives.
+
+### **Section 5: Examples and Implications**
+- **Example 1**: Time translation symmetry → energy conservation (but via the second theorem, not the first).
+- **Example 2**: Gauge symmetries in electromagnetism → constraints on Maxwell's equations.
+- **Implication**: The theorem ensures that symmetries are "built into" the equations of motion, not just external properties.
+
+---
+
+## 8. Optional Diagram Ideas
+- **Diagram 1**: Action functional $ S $ as a "mountain" with paths as valleys; symmetries as horizontal shifts that leave the height unchanged.
+- **Diagram 2**: A symmetry transformation (e.g., rotating coordinates) applied to a system, showing how the action remains invariant.
+- **Diagram 3**: Euler-Lagrange equations with a symmetry constraint highlighted as a "rule" the system must follow.
+
+---
+
+## 9. Optional Minimal Math
+- **Variation of the action**:  
+  $$
+  \delta S = \int \left( \frac{\partial L}{\partial q} \delta q + \frac{\partial L}{\partial \dot{q}} \delta \dot{q} \right) dt = 0
+  $$  
+  *This equation encodes how small changes in the path affect the action. Symmetries make $ \delta S = 0 $ automatically, imposing constraints on the system.*
+
+- **Constraint from symmetry**:  
+  $$
+  \frac{\partial L}{\partial q} \cdot \eta(t) + \frac{\partial L}{\partial \dot{q}} \cdot \frac{d\eta}{dt} = 0
+  $$  
+  *This equation shows how a symmetry $ \eta(t) $ forces a relationship between the Lagrangian and its derivatives, shaping the equations of motion.*
+```
+
+================================================================================
+TIME: 2026-05-04T06:50:36
+NODE: writer
+PROMPT_CHARS: 6383
+PROMPT_TOKENS_APPROX: 1595
+RESPONSE_CHARS: 4633
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.85}
+================================================================================
+PROMPT:
+Write a high-quality first draft for this EasyPhysics article.
+
+Title: Noether's second theorem
+
+Article outline:
+```markdown
+# Noether's Second Theorem
+
+## 1. Scope
+This article explains **Noether's second theorem**, which connects **symmetries in the action** (the integral of the Lagrangian over time) to **constraints on the equations of motion**. It clarifies how these symmetries generate conservation laws and shape the structure of physical laws. The focus is on the mathematical and conceptual framework, not specific applications or historical context.
+
+---
+
+## 2. Out of Scope
+- **Noether's first theorem** (symmetries → conservation laws like energy/momentum).
+- **Historical context** of Noether's work.
+- **Quantum mechanics** applications (unless directly tied to classical variational principles).
+- **Speculative physics** or open research questions.
+
+---
+
+## 3. Prerequisite Concepts
+- **Variational principles**: How physical systems minimize/maximize the action.
+- **Lagrangian mechanics**: The role of the Lagrangian $ L(q, \dot{q}, t) $ in describing motion.
+- **Calculus of variations**: How small changes in paths affect the action.
+- **Conservation laws**: Basic understanding of how symmetries lead to conserved quantities (e.g., energy from time symmetry).
+
+---
+
+## 4. Core Intuition
+Noether's second theorem reveals that **symmetries in the action** (like invariance under time translations or spatial rotations) **impose constraints** on the equations of motion. These constraints ensure that the system's behavior is consistent with the symmetry, even when the symmetry isn't explicitly preserved in the dynamics. This is a deeper, more structural relationship than the first theorem, which links symmetries to conserved quantities.
+
+---
+
+## 5. Suggested Descriptive Names with Standard Terms in Braces
+- **Symmetry constraint {Noether's second theorem}**
+- **Equation-generating symmetry {Noether's second theorem}**
+- **Action-invariant constraint {Noether's second theorem}**
+- **Variational symmetry {Noether's second theorem}**
+
+---
+
+## 6. Common Misconceptions to Avoid
+- **Confusing it with the first theorem**: The second theorem is about constraints on equations of motion, not direct conservation laws.
+- **Thinking it applies only to conservation laws**: It underpins the structure of physical laws, including non-conservation scenarios (e.g., dissipation in non-conservative systems).
+- **Ignoring the variational principle**: The theorem relies on the action's role in defining physical behavior, not just symmetries themselves.
+
+---
+
+## 7. Section-by-Section Outline
+### **Section 1: Variational Principles and the Action**
+- Explain the action $ S = \int L \, dt $ as the "recipe" for physical motion.
+- Introduce the principle of least action: Nature chooses paths that extremize $ S $.
+
+### **Section 2: Symmetries in the Action**
+- Define **variational symmetry**: A transformation that leaves the action unchanged (e.g., shifting time or space).
+- Contrast with "explicit symmetry" (e.g., a system rotating in space).
+
+### **Section 3: Statement of Noether's Second Theorem**
+- Explain that **symmetries impose constraints** on the equations of motion (Euler-Lagrange equations).
+- Highlight that these constraints are **not conservation laws** but structural rules for the system.
+
+### **Section 4: Mathematical Formulation (Minimal Math)**
+- Derive how a symmetry $ q \to q + \epsilon \eta(t) $ affects the action.
+- Show that the variation $ \delta S = 0 $ leads to a **constraint equation** involving the Lagrangian and its derivatives.
+
+### **Section 5: Examples and Implications**
+- **Example 1**: Time translation symmetry → energy conservation (but via the second theorem, not the first).
+- **Example 2**: Gauge symmetries in electromagnetism → constraints on Maxwell's equations.
+- **Implication**: The theorem ensures that symmetries are "built into" the equations of motion, not just external properties.
+
+---
+
+## 8. Optional Diagram Ideas
+- **Diagram 1**: Action functional $ S $ as a "mountain" with paths as valleys; symmetries as horizontal shifts that leave the height unchanged.
+- **Diagram 2**: A symmetry transformation (e.g., rotating coordinates) applied to a system, showing how the action remains invariant.
+- **Diagram 3**: Euler-Lagrange equations with a symmetry constraint highlighted as a "rule" the system must follow.
+
+---
+
+## 9. Optional Minimal Math
+- **Variation of the action**:  
+  $$
+  \delta S = \int \left( \frac{\partial L}{\partial q} \delta q + \frac{\partial L}{\partial \dot{q}} \delta \dot{q} \right) dt = 0
+  $$  
+  *This equation encodes how small changes in the path affect the action. Symmetries make $ \delta S = 0 $ automatically, imposing constraints on the system.*
+
+- **Constraint from symmetry**:  
+  $$
+  \frac{\partial L}{\partial q} \cdot \eta(t) + \frac{\partial L}{\partial \dot{q}} \cdot \frac{d\eta}{dt} = 0
+  $$  
+  *This equation shows how a symmetry $ \eta(t) $ forces a relationship between the Lagrangian and its derivatives, shaping the equations of motion.*
+```
+
+Human/editor notes:
+# Human/editor notes
+
+Add any preferences, corrections, or article-specific constraints here.
+
+
+Template guidance:
+Preferred article structure:
+
+# Title
+
+## The core idea
+A short, intuitive explanation that gives the reader the main point first.
+
+## Why this matters
+Explain what the concept helps us understand.
+
+## The simple picture
+Use an analogy, diagram idea, or concrete example.
+
+## The more precise picture
+Introduce standard terms, careful distinctions, and optional minimal math.
+
+## Common misconceptions
+Name and correct the traps.
+
+## How this connects to the rest of physics
+Link the concept to fields, particles, symmetry, conservation, relativity, or the Standard Model as appropriate.
+
+## Recap
+A few concise takeaways.
+
+Drafting instructions:
+- Make it accessible to a motivated high-schooler or college freshman.
+- Teach the modern concept directly rather than narrating historical discovery.
+- Use descriptive names with standard terms in braces, e.g. space-occupier {fermion}.
+- Include common misconceptions and correct them.
+- Include minimal math only when it helps, and explain what the math means.
+- Suggest diagram ideas inline where helpful using this format: [Diagram idea: ...]
+- Output only the article in Markdown, with no commentary before or after.
+
+RESPONSE:
+# Noether's Second Theorem  
+
+## The core idea  
+Noether's second theorem reveals that **symmetries in the action** (the integral of the Lagrangian over time) **impose structural constraints** on the equations of motion. These constraints ensure that the system’s behavior is consistent with the symmetry, even when the symmetry isn’t explicitly preserved in the dynamics. Unlike the first theorem, which links symmetries to conservation laws, this theorem explains how symmetries shape the **rules** governing physical systems.  
+
+## Why this matters  
+This theorem underpins the **mathematical structure** of physics. It shows that symmetries are not just abstract properties but **built-in rules** that define how systems evolve. Without these constraints, physical laws would lack consistency, and phenomena like gauge symmetries in electromagnetism or the behavior of fields in relativity would not emerge.  
+
+## The simple picture  
+Imagine the action $ S $ as a "mountain" with paths as valleys. A **variational symmetry** is like a horizontal shift that leaves the mountain’s height unchanged. While the path might twist, the total "energy" (action) stays the same. This symmetry forces the system to follow a rule: **the equations of motion must respect this symmetry**, even if the symmetry isn’t visible in the system’s explicit dynamics. [Diagram idea: Action functional $ S $ as a mountain with horizontal symmetry shifts.]  
+
+## The more precise picture  
+### Variational principles and the action  
+The action $ S = \int L \, dt $ is the "recipe" for physical motion. Nature chooses paths that extremize $ S $, meaning small changes in the path don’t alter the total action. This principle defines how systems evolve.  
+
+### Symmetries in the action  
+A **variational symmetry** is a transformation (e.g., shifting time or rotating space) that leaves the action unchanged. For example, if the Lagrangian $ L $ is invariant under $ q \to q + \epsilon \eta(t) $, the action $ S $ remains the same. This is different from an "explicit symmetry" (e.g., a system rotating in space), which might not preserve the Lagrangian directly.  
+
+### Statement of Noether's second theorem  
+When the action has a symmetry, the **equations of motion** (Euler-Lagrange equations) must satisfy a **constraint**. This constraint is not a conservation law (like energy or momentum) but a **structural rule** that ensures the symmetry is "built into" the system. For instance, gauge symmetries in electromagnetism generate constraints on Maxwell’s equations, ensuring the theory remains consistent.  
+
+### Mathematical formulation (minimal math)  
+Consider a symmetry $ q \to q + \epsilon \eta(t) $. The variation of the action $ \delta S = 0 $ leads to:  
+$$
+\frac{\partial L}{\partial q} \cdot \eta(t) + \frac{\partial L}{\partial \dot{q}} \cdot \frac{d\eta}{dt} = 0
+$$  
+This equation shows how the symmetry forces a relationship between the Lagrangian and its derivatives, shaping the equations of motion.  
+
+## Common misconceptions  
+- **Confusing it with the first theorem**: The second theorem is about **constraints on equations of motion**, not direct conservation laws. For example, time translation symmetry leads to energy conservation via the first theorem, but the second theorem ensures the equations of motion respect the symmetry.  
+- **Thinking it applies only to conservation laws**: The theorem applies to **any symmetry** in the action, including non-conservative systems (e.g., friction). It ensures the system’s structure aligns with the symmetry, even if energy isn’t conserved.  
+- **Ignoring the variational principle**: The theorem relies on the action’s role in defining physical behavior. Symmetries alone don’t impose constraints—only when they act on the action.  
+
+## How this connects to the rest of physics  
+Noether's second theorem is foundational for:  
+- **Field theories**: Gauge symmetries (e.g., electromagnetism) generate constraints that define the behavior of fields.  
+- **Relativity**: Symmetries under Lorentz transformations shape spacetime structure.  
+- **Quantum mechanics**: The theorem’s constraints underpin the mathematical framework of quantum field theory.  
+
+## Recap  
+- **Symmetries in the action** impose structural constraints on equations of motion.  
+- These constraints ensure physical laws are consistent with symmetries, even when symmetries aren’t explicitly preserved.  
+- The theorem explains how symmetries shape the **rules** of physics, not just conservation laws.  
+- Minimal math shows how symmetries force relationships between the Lagrangian and its derivatives.
+
+================================================================================
+TIME: 2026-05-04T06:52:37
+NODE: term_collector
+PROMPT_CHARS: 5103
+PROMPT_TOKENS_APPROX: 1275
+RESPONSE_CHARS: 0
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.85}
+================================================================================
+PROMPT:
+Extract the descriptive-name candidates from this draft.
+
+Return JSON with this shape:
+{
+  "terms": [
+    {
+      "standard_term": "fermion",
+      "candidate_name": "space-occupier",
+      "context_quote": "short quote from the draft",
+      "usefulness": "why this name helps",
+      "risk": "how it could mislead, or empty string if low risk"
+    }
+  ]
+}
+
+Only include actual teaching-name candidates, especially phrases followed by standard terms in braces.
+
+Draft:
+# Noether's Second Theorem  
+
+## The core idea  
+Noether's second theorem reveals that **symmetries in the action** (the integral of the Lagrangian over time) **impose structural constraints** on the equations of motion. These constraints ensure that the system’s behavior is consistent with the symmetry, even when the symmetry isn’t explicitly preserved in the dynamics. Unlike the first theorem, which links symmetries to conservation laws, this theorem explains how symmetries shape the **rules** governing physical systems.  
+
+## Why this matters  
+This theorem underpins the **mathematical structure** of physics. It shows that symmetries are not just abstract properties but **built-in rules** that define how systems evolve. Without these constraints, physical laws would lack consistency, and phenomena like gauge symmetries in electromagnetism or the behavior of fields in relativity would not emerge.  
+
+## The simple picture  
+Imagine the action $ S $ as a "mountain" with paths as valleys. A **variational symmetry** is like a horizontal shift that leaves the mountain’s height unchanged. While the path might twist, the total "energy" (action) stays the same. This symmetry forces the system to follow a rule: **the equations of motion must respect this symmetry**, even if the symmetry isn’t visible in the system’s explicit dynamics. [Diagram idea: Action functional $ S $ as a mountain with horizontal symmetry shifts.]  
+
+## The more precise picture  
+### Variational principles and the action  
+The action $ S = \int L \, dt $ is the "recipe" for physical motion. Nature chooses paths that extremize $ S $, meaning small changes in the path don’t alter the total action. This principle defines how systems evolve.  
+
+### Symmetries in the action  
+A **variational symmetry** is a transformation (e.g., shifting time or rotating space) that leaves the action unchanged. For example, if the Lagrangian $ L $ is invariant under $ q \to q + \epsilon \eta(t) $, the action $ S $ remains the same. This is different from an "explicit symmetry" (e.g., a system rotating in space), which might not preserve the Lagrangian directly.  
+
+### Statement of Noether's second theorem  
+When the action has a symmetry, the **equations of motion** (Euler-Lagrange equations) must satisfy a **constraint**. This constraint is not a conservation law (like energy or momentum) but a **structural rule** that ensures the symmetry is "built into" the system. For instance, gauge symmetries in electromagnetism generate constraints on Maxwell’s equations, ensuring the theory remains consistent.  
+
+### Mathematical formulation (minimal math)  
+Consider a symmetry $ q \to q + \epsilon \eta(t) $. The variation of the action $ \delta S = 0 $ leads to:  
+$$
+\frac{\partial L}{\partial q} \cdot \eta(t) + \frac{\partial L}{\partial \dot{q}} \cdot \frac{d\eta}{dt} = 0
+$$  
+This equation shows how the symmetry forces a relationship between the Lagrangian and its derivatives, shaping the equations of motion.  
+
+## Common misconceptions  
+- **Confusing it with the first theorem**: The second theorem is about **constraints on equations of motion**, not direct conservation laws. For example, time translation symmetry leads to energy conservation via the first theorem, but the second theorem ensures the equations of motion respect the symmetry.  
+- **Thinking it applies only to conservation laws**: The theorem applies to **any symmetry** in the action, including non-conservative systems (e.g., friction). It ensures the system’s structure aligns with the symmetry, even if energy isn’t conserved.  
+- **Ignoring the variational principle**: The theorem relies on the action’s role in defining physical behavior. Symmetries alone don’t impose constraints—only when they act on the action.  
+
+## How this connects to the rest of physics  
+Noether's second theorem is foundational for:  
+- **Field theories**: Gauge symmetries (e.g., electromagnetism) generate constraints that define the behavior of fields.  
+- **Relativity**: Symmetries under Lorentz transformations shape spacetime structure.  
+- **Quantum mechanics**: The theorem’s constraints underpin the mathematical framework of quantum field theory.  
+
+## Recap  
+- **Symmetries in the action** impose structural constraints on equations of motion.  
+- These constraints ensure physical laws are consistent with symmetries, even when symmetries aren’t explicitly preserved.  
+- The theorem explains how symmetries shape the **rules** of physics, not just conservation laws.  
+- Minimal math shows how symmetries force relationships between the Lagrangian and its derivatives.
+
+RESPONSE:
+
+
+================================================================================
+TIME: 2026-05-04T06:55:32
+NODE: claim_extractor
+PROMPT_CHARS: 5518
+PROMPT_TOKENS_APPROX: 1379
+RESPONSE_CHARS: 2225
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.85}
+================================================================================
+PROMPT:
+Extract the most important scientific and explanatory claims from this article draft.
+
+Return JSON with this shape:
+{
+  "claims": [
+    {
+      "id": "C001",
+      "claim": "A clear, standalone claim from the article.",
+      "type": "definition | mechanism | analogy | mathematical | misconception-correction | scope | other",
+      "importance": "high | medium | low",
+      "needs_external_check": true,
+      "why_it_matters": "brief reason",
+      "suggested_search_query": "stable source search query, not latest-news oriented"
+    }
+  ]
+}
+
+Guidance:
+- Extract claims that matter for scientific correctness.
+- Include claims embedded in analogies if the analogy could mislead.
+- Do not include purely stylistic statements.
+- Search queries should prefer stable sources: textbooks, lecture notes, CERN, Fermilab, university pages.
+
+Article title: Noether's second theorem
+
+Draft:
+# Noether's Second Theorem  
+
+## The core idea  
+Noether's second theorem reveals that **symmetries in the action** (the integral of the Lagrangian over time) **impose structural constraints** on the equations of motion. These constraints ensure that the system’s behavior is consistent with the symmetry, even when the symmetry isn’t explicitly preserved in the dynamics. Unlike the first theorem, which links symmetries to conservation laws, this theorem explains how symmetries shape the **rules** governing physical systems.  
+
+## Why this matters  
+This theorem underpins the **mathematical structure** of physics. It shows that symmetries are not just abstract properties but **built-in rules** that define how systems evolve. Without these constraints, physical laws would lack consistency, and phenomena like gauge symmetries in electromagnetism or the behavior of fields in relativity would not emerge.  
+
+## The simple picture  
+Imagine the action $ S $ as a "mountain" with paths as valleys. A **variational symmetry** is like a horizontal shift that leaves the mountain’s height unchanged. While the path might twist, the total "energy" (action) stays the same. This symmetry forces the system to follow a rule: **the equations of motion must respect this symmetry**, even if the symmetry isn’t visible in the system’s explicit dynamics. [Diagram idea: Action functional $ S $ as a mountain with horizontal symmetry shifts.]  
+
+## The more precise picture  
+### Variational principles and the action  
+The action $ S = \int L \, dt $ is the "recipe" for physical motion. Nature chooses paths that extremize $ S $, meaning small changes in the path don’t alter the total action. This principle defines how systems evolve.  
+
+### Symmetries in the action  
+A **variational symmetry** is a transformation (e.g., shifting time or rotating space) that leaves the action unchanged. For example, if the Lagrangian $ L $ is invariant under $ q \to q + \epsilon \eta(t) $, the action $ S $ remains the same. This is different from an "explicit symmetry" (e.g., a system rotating in space), which might not preserve the Lagrangian directly.  
+
+### Statement of Noether's second theorem  
+When the action has a symmetry, the **equations of motion** (Euler-Lagrange equations) must satisfy a **constraint**. This constraint is not a conservation law (like energy or momentum) but a **structural rule** that ensures the symmetry is "built into" the system. For instance, gauge symmetries in electromagnetism generate constraints on Maxwell’s equations, ensuring the theory remains consistent.  
+
+### Mathematical formulation (minimal math)  
+Consider a symmetry $ q \to q + \epsilon \eta(t) $. The variation of the action $ \delta S = 0 $ leads to:  
+$$
+\frac{\partial L}{\partial q} \cdot \eta(t) + \frac{\partial L}{\partial \dot{q}} \cdot \frac{d\eta}{dt} = 0
+$$  
+This equation shows how the symmetry forces a relationship between the Lagrangian and its derivatives, shaping the equations of motion.  
+
+## Common misconceptions  
+- **Confusing it with the first theorem**: The second theorem is about **constraints on equations of motion**, not direct conservation laws. For example, time translation symmetry leads to energy conservation via the first theorem, but the second theorem ensures the equations of motion respect the symmetry.  
+- **Thinking it applies only to conservation laws**: The theorem applies to **any symmetry** in the action, including non-conservative systems (e.g., friction). It ensures the system’s structure aligns with the symmetry, even if energy isn’t conserved.  
+- **Ignoring the variational principle**: The theorem relies on the action’s role in defining physical behavior. Symmetries alone don’t impose constraints—only when they act on the action.  
+
+## How this connects to the rest of physics  
+Noether's second theorem is foundational for:  
+- **Field theories**: Gauge symmetries (e.g., electromagnetism) generate constraints that define the behavior of fields.  
+- **Relativity**: Symmetries under Lorentz transformations shape spacetime structure.  
+- **Quantum mechanics**: The theorem’s constraints underpin the mathematical framework of quantum field theory.  
+
+## Recap  
+- **Symmetries in the action** impose structural constraints on equations of motion.  
+- These constraints ensure physical laws are consistent with symmetries, even when symmetries aren’t explicitly preserved.  
+- The theorem explains how symmetries shape the **rules** of physics, not just conservation laws.  
+- Minimal math shows how symmetries force relationships between the Lagrangian and its derivatives.
+
+RESPONSE:
+{
+  "claims": [
+    {
+      "id": "C001",
+      "claim": "Symmetries in the action impose structural constraints on the equations of motion, ensuring physical laws align with symmetries even when dynamics do not explicitly preserve them.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "This defines how symmetries shape physical systems' rules, distinguishing Noether's second theorem from conservation laws.",
+      "suggested_search_query": "Noether's second theorem structural constraints equations of motion"
+    },
+    {
+      "id": "C002",
+      "claim": "Variational symmetries (transformations leaving the action unchanged) force relationships between the Lagrangian and its derivatives, shaping the Euler-Lagrange equations.",
+      "type": "mathematical",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "This mathematically formalizes how symmetries constrain dynamics, critical for field theories and relativity.",
+      "suggested_search_query": "Noether's second theorem mathematical formulation Lagrangian"
+    },
+    {
+      "id": "C003",
+      "claim": "The 'mountain' analogy for action functional misleads if it suggests symmetries only preserve energy, ignoring their role in defining system structure.",
+      "type": "analogy",
+      "importance": "medium",
+      "needs_external_check": true,
+      "why_it_matters": "Clarifies limits of intuitive analogies in variational principles.",
+      "suggested_search_query": "Noether's theorem action functional analogy limitations"
+    },
+    {
+      "id": "C004",
+      "claim": "Noether's second theorem underpins gauge symmetries in electromagnetism and Lorentz invariance in relativity by enforcing structural consistency.",
+      "type": "scope",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Demonstrates theorem's foundational role in modern physics frameworks.",
+      "suggested_search_query": "Noether's second theorem gauge symmetries relativity"
+    },
+    {
+      "id": "C005",
+      "claim": "Common misconception: The theorem applies only to conservation laws, but it actually governs any
+
+================================================================================
+TIME: 2026-05-04T06:57:33
+NODE: term_collector
+PROMPT_CHARS: 5103
+PROMPT_TOKENS_APPROX: 1275
+RESPONSE_CHARS: 0
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.85}
+================================================================================
+PROMPT:
+Extract the descriptive-name candidates from this draft.
+
+Return JSON with this shape:
+{
+  "terms": [
+    {
+      "standard_term": "fermion",
+      "candidate_name": "space-occupier",
+      "context_quote": "short quote from the draft",
+      "usefulness": "why this name helps",
+      "risk": "how it could mislead, or empty string if low risk"
+    }
+  ]
+}
+
+Only include actual teaching-name candidates, especially phrases followed by standard terms in braces.
+
+Draft:
+# Noether's Second Theorem  
+
+## The core idea  
+Noether's second theorem reveals that **symmetries in the action** (the integral of the Lagrangian over time) **impose structural constraints** on the equations of motion. These constraints ensure that the system’s behavior is consistent with the symmetry, even when the symmetry isn’t explicitly preserved in the dynamics. Unlike the first theorem, which links symmetries to conservation laws, this theorem explains how symmetries shape the **rules** governing physical systems.  
+
+## Why this matters  
+This theorem underpins the **mathematical structure** of physics. It shows that symmetries are not just abstract properties but **built-in rules** that define how systems evolve. Without these constraints, physical laws would lack consistency, and phenomena like gauge symmetries in electromagnetism or the behavior of fields in relativity would not emerge.  
+
+## The simple picture  
+Imagine the action $ S $ as a "mountain" with paths as valleys. A **variational symmetry** is like a horizontal shift that leaves the mountain’s height unchanged. While the path might twist, the total "energy" (action) stays the same. This symmetry forces the system to follow a rule: **the equations of motion must respect this symmetry**, even if the symmetry isn’t visible in the system’s explicit dynamics. [Diagram idea: Action functional $ S $ as a mountain with horizontal symmetry shifts.]  
+
+## The more precise picture  
+### Variational principles and the action  
+The action $ S = \int L \, dt $ is the "recipe" for physical motion. Nature chooses paths that extremize $ S $, meaning small changes in the path don’t alter the total action. This principle defines how systems evolve.  
+
+### Symmetries in the action  
+A **variational symmetry** is a transformation (e.g., shifting time or rotating space) that leaves the action unchanged. For example, if the Lagrangian $ L $ is invariant under $ q \to q + \epsilon \eta(t) $, the action $ S $ remains the same. This is different from an "explicit symmetry" (e.g., a system rotating in space), which might not preserve the Lagrangian directly.  
+
+### Statement of Noether's second theorem  
+When the action has a symmetry, the **equations of motion** (Euler-Lagrange equations) must satisfy a **constraint**. This constraint is not a conservation law (like energy or momentum) but a **structural rule** that ensures the symmetry is "built into" the system. For instance, gauge symmetries in electromagnetism generate constraints on Maxwell’s equations, ensuring the theory remains consistent.  
+
+### Mathematical formulation (minimal math)  
+Consider a symmetry $ q \to q + \epsilon \eta(t) $. The variation of the action $ \delta S = 0 $ leads to:  
+$$
+\frac{\partial L}{\partial q} \cdot \eta(t) + \frac{\partial L}{\partial \dot{q}} \cdot \frac{d\eta}{dt} = 0
+$$  
+This equation shows how the symmetry forces a relationship between the Lagrangian and its derivatives, shaping the equations of motion.  
+
+## Common misconceptions  
+- **Confusing it with the first theorem**: The second theorem is about **constraints on equations of motion**, not direct conservation laws. For example, time translation symmetry leads to energy conservation via the first theorem, but the second theorem ensures the equations of motion respect the symmetry.  
+- **Thinking it applies only to conservation laws**: The theorem applies to **any symmetry** in the action, including non-conservative systems (e.g., friction). It ensures the system’s structure aligns with the symmetry, even if energy isn’t conserved.  
+- **Ignoring the variational principle**: The theorem relies on the action’s role in defining physical behavior. Symmetries alone don’t impose constraints—only when they act on the action.  
+
+## How this connects to the rest of physics  
+Noether's second theorem is foundational for:  
+- **Field theories**: Gauge symmetries (e.g., electromagnetism) generate constraints that define the behavior of fields.  
+- **Relativity**: Symmetries under Lorentz transformations shape spacetime structure.  
+- **Quantum mechanics**: The theorem’s constraints underpin the mathematical framework of quantum field theory.  
+
+## Recap  
+- **Symmetries in the action** impose structural constraints on equations of motion.  
+- These constraints ensure physical laws are consistent with symmetries, even when symmetries aren’t explicitly preserved.  
+- The theorem explains how symmetries shape the **rules** of physics, not just conservation laws.  
+- Minimal math shows how symmetries force relationships between the Lagrangian and its derivatives.
+
+RESPONSE:
+
+
+================================================================================
+TIME: 2026-05-04T07:01:00
+NODE: accessibility_judge
+PROMPT_CHARS: 6838
+PROMPT_TOKENS_APPROX: 1709
+RESPONSE_CHARS: 1686
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.85}
+================================================================================
+PROMPT:
+Score this EasyPhysics article for accessibility using the rubric below.
+
+Accessibility score, 1-10:
+
+10 = Exceptional. A motivated high-schooler can follow the article's main arc without prior exposure.
+     Jargon is introduced only after intuition. Examples are vivid. Math is explained as meaning,
+     not just symbols. The article feels empowering and clear.
+
+9 = Publishable with light human editing. The main idea is easy to follow; jargon is mostly controlled;
+    analogies are helpful; sections flow logically; any math has a plain-language interpretation.
+
+8 = Strong draft. Mostly clear, but has a few dense sections, unexplained terms, abrupt transitions,
+    or analogies that need more setup.
+
+7 = Useful but uneven. A motivated reader could learn from it, but several passages need simplification,
+    clearer examples, or better sequencing.
+
+6 = Borderline. The article contains useful explanations, but assumes too much background or uses too much jargon.
+
+5 = Mixed. Some good paragraphs, but the structure or language would lose many target readers.
+
+4 = Hard to follow. Mostly written for someone who already knows the subject.
+
+3 = Very inaccessible. Dense, abstract, jargon-heavy, or poorly sequenced.
+
+2 = Barely useful to the target audience.
+
+1 = Fails the accessibility goal.
+
+Accessibility judge priorities:
+- Does the opening give the reader an intuitive foothold?
+- Are standard terms introduced after meaning, not before?
+- Are descriptive names useful rather than cutesy or misleading?
+- Are analogies concrete and then carefully limited?
+- Is any math explained in words?
+- Does the article avoid "spooky/magic/weird" framing while still acknowledging counterintuitive ideas?
+- Does each section make the next section easier?
+
+Return JSON with this shape:
+{
+  "score": 1,
+  "pass": false,
+  "strengths": ["specific strength"],
+  "issues": [
+    {
+      "severity": "low | medium | high",
+      "location": "section or paragraph description",
+      "problem": "specific accessibility issue",
+      "suggested_fix": "specific fix"
+    }
+  ],
+  "best_next_revision": "one concise paragraph describing what to improve next"
+}
+
+Article title: Noether's second theorem
+
+Draft:
+# Noether's Second Theorem  
+
+## The core idea  
+Noether's second theorem reveals that **symmetries in the action** (the integral of the Lagrangian over time) **impose structural constraints** on the equations of motion. These constraints ensure that the system’s behavior is consistent with the symmetry, even when the symmetry isn’t explicitly preserved in the dynamics. Unlike the first theorem, which links symmetries to conservation laws, this theorem explains how symmetries shape the **rules** governing physical systems.  
+
+## Why this matters  
+This theorem underpins the **mathematical structure** of physics. It shows that symmetries are not just abstract properties but **built-in rules** that define how systems evolve. Without these constraints, physical laws would lack consistency, and phenomena like gauge symmetries in electromagnetism or the behavior of fields in relativity would not emerge.  
+
+## The simple picture  
+Imagine the action $ S $ as a "mountain" with paths as valleys. A **variational symmetry** is like a horizontal shift that leaves the mountain’s height unchanged. While the path might twist, the total "energy" (action) stays the same. This symmetry forces the system to follow a rule: **the equations of motion must respect this symmetry**, even if the symmetry isn’t visible in the system’s explicit dynamics. [Diagram idea: Action functional $ S $ as a mountain with horizontal symmetry shifts.]  
+
+## The more precise picture  
+### Variational principles and the action  
+The action $ S = \int L \, dt $ is the "recipe" for physical motion. Nature chooses paths that extremize $ S $, meaning small changes in the path don’t alter the total action. This principle defines how systems evolve.  
+
+### Symmetries in the action  
+A **variational symmetry** is a transformation (e.g., shifting time or rotating space) that leaves the action unchanged. For example, if the Lagrangian $ L $ is invariant under $ q \to q + \epsilon \eta(t) $, the action $ S $ remains the same. This is different from an "explicit symmetry" (e.g., a system rotating in space), which might not preserve the Lagrangian directly.  
+
+### Statement of Noether's second theorem  
+When the action has a symmetry, the **equations of motion** (Euler-Lagrange equations) must satisfy a **constraint**. This constraint is not a conservation law (like energy or momentum) but a **structural rule** that ensures the symmetry is "built into" the system. For instance, gauge symmetries in electromagnetism generate constraints on Maxwell’s equations, ensuring the theory remains consistent.  
+
+### Mathematical formulation (minimal math)  
+Consider a symmetry $ q \to q + \epsilon \eta(t) $. The variation of the action $ \delta S = 0 $ leads to:  
+$$
+\frac{\partial L}{\partial q} \cdot \eta(t) + \frac{\partial L}{\partial \dot{q}} \cdot \frac{d\eta}{dt} = 0
+$$  
+This equation shows how the symmetry forces a relationship between the Lagrangian and its derivatives, shaping the equations of motion.  
+
+## Common misconceptions  
+- **Confusing it with the first theorem**: The second theorem is about **constraints on equations of motion**, not direct conservation laws. For example, time translation symmetry leads to energy conservation via the first theorem, but the second theorem ensures the equations of motion respect the symmetry.  
+- **Thinking it applies only to conservation laws**: The theorem applies to **any symmetry** in the action, including non-conservative systems (e.g., friction). It ensures the system’s structure aligns with the symmetry, even if energy isn’t conserved.  
+- **Ignoring the variational principle**: The theorem relies on the action’s role in defining physical behavior. Symmetries alone don’t impose constraints—only when they act on the action.  
+
+## How this connects to the rest of physics  
+Noether's second theorem is foundational for:  
+- **Field theories**: Gauge symmetries (e.g., electromagnetism) generate constraints that define the behavior of fields.  
+- **Relativity**: Symmetries under Lorentz transformations shape spacetime structure.  
+- **Quantum mechanics**: The theorem’s constraints underpin the mathematical framework of quantum field theory.  
+
+## Recap  
+- **Symmetries in the action** impose structural constraints on equations of motion.  
+- These constraints ensure physical laws are consistent with symmetries, even when symmetries aren’t explicitly preserved.  
+- The theorem explains how symmetries shape the **rules** of physics, not just conservation laws.  
+- Minimal math shows how symmetries force relationships between the Lagrangian and its derivatives.
+
+RESPONSE:
+{
+  "score": 7,
+  "pass": false,
+  "strengths": [
+    "Clear structural organization with intuitive metaphors (mountain analogy)",
+    "Distinguishes Noether's second theorem from the first theorem effectively",
+    "Connects to broader physics concepts like gauge symmetry and relativity"
+  ],
+  "issues": [
+    {
+      "severity": "medium",
+      "location": "opening section",
+      "problem": "Lacks intuitive foothold for beginners - introduces abstract concepts without concrete examples",
+      "suggested_fix": "Add a simple analogy like 'symmetry as a rulebook for physical systems'"
+    },
+    {
+      "severity": "high",
+      "location": "mathematical formulation section",
+      "problem": "Equation presented without explanation of its physical meaning",
+      "suggested_fix": "Break down the equation with verbal explanation of each term's role"
+    },
+    {
+      "severity": "medium",
+      "location": "common misconceptions section",
+      "problem": "Examples (gauge symmetry, Lorentz transformations) assume prior knowledge",
+      "suggested_fix": "Use simpler examples like spring systems or planetary motion"
+    },
+    {
+      "severity": "low",
+      "location": "terminology",
+      "problem": "Terms like 'variational symmetry' are introduced without clear definition",
+      "suggested_fix": "Define terms with analogies (e.g., 'variational symmetry' as a rule that doesn't change the system's total energy)"
+    }
+  ],
+  "best_next_revision": "Add a simple physical example (like a pendulum or spring) to illustrate how symmetries constrain motion, then explain the mountain analogy with a visual diagram showing how different paths obey symmetry rules"
+}
+
+================================================================================
+TIME: 2026-05-04T07:04:34
+NODE: rigor_judge
+PROMPT_CHARS: 7091
+PROMPT_TOKENS_APPROX: 1772
+RESPONSE_CHARS: 0
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.85}
+================================================================================
+PROMPT:
+Score this EasyPhysics article for scientific rigor using the rubric below.
+
+Rigor score, 1-10:
+
+10 = Exceptional. Scientifically accurate, well-qualified, and careful about analogy limits.
+     No obvious misleading simplifications. Claims align with stable accepted physics.
+
+9 = Publishable with light human editing. No major errors. A few details may need polishing,
+    but the article is safe as an educational explanation.
+
+8 = Strong draft. Mostly accurate but has minor imprecision, missing qualifications, or analogy risks.
+
+7 = Useful but needs scientific review. Contains no catastrophic errors, but some claims are too loose,
+    incomplete, or potentially misleading.
+
+6 = Borderline. Several important corrections or qualifications are needed.
+
+5 = Mixed. The article has valuable explanations but also significant inaccuracies or misleading framings.
+
+4 = Scientifically weak. Multiple substantial errors or serious conceptual muddling.
+
+3 = Very unreliable. The reader would likely learn incorrect physics.
+
+2 = Mostly wrong or confused.
+
+1 = Fails the rigor goal.
+
+Rigor judge priorities:
+- Are definitions compatible with standard physics?
+- Are analogies technically safe, with their limits stated when necessary?
+- Are quantum concepts distinguished correctly: amplitude vs probability, superposition vs ignorance,
+  measurement vs ordinary looking, phase vs probability?
+- Are field/particle/wave descriptions accurate enough for a beginner article?
+- Are conservation, symmetry, force, energy, mass, and spin statements properly qualified?
+- Does the article avoid replacing historical jargon with new misleading jargon?
+- Are open questions distinguished from settled explanations?
+
+Use the claim-check results as context, but judge the final draft itself.
+
+Return JSON with this shape:
+{
+  "score": 1,
+  "pass": false,
+  "strengths": ["specific strength"],
+  "issues": [
+    {
+      "severity": "low | medium | high",
+      "location": "section or paragraph description",
+      "problem": "specific rigor issue",
+      "suggested_fix": "specific fix"
+    }
+  ],
+  "best_next_revision": "one concise paragraph describing what to improve next"
+}
+
+Article title: Noether's second theorem
+
+Claim-check context:
+{
+  "claim_checks": [],
+  "summary": {
+    "overall_claim_quality": "Claim check completed.",
+    "unresolved_or_needs_qualification": 0,
+    "highest_priority_fixes": []
+  },
+  "last_updated": "2026-05-04_06-55-32"
+}
+
+Draft:
+# Noether's Second Theorem  
+
+## The core idea  
+Noether's second theorem reveals that **symmetries in the action** (the integral of the Lagrangian over time) **impose structural constraints** on the equations of motion. These constraints ensure that the system’s behavior is consistent with the symmetry, even when the symmetry isn’t explicitly preserved in the dynamics. Unlike the first theorem, which links symmetries to conservation laws, this theorem explains how symmetries shape the **rules** governing physical systems.  
+
+## Why this matters  
+This theorem underpins the **mathematical structure** of physics. It shows that symmetries are not just abstract properties but **built-in rules** that define how systems evolve. Without these constraints, physical laws would lack consistency, and phenomena like gauge symmetries in electromagnetism or the behavior of fields in relativity would not emerge.  
+
+## The simple picture  
+Imagine the action $ S $ as a "mountain" with paths as valleys. A **variational symmetry** is like a horizontal shift that leaves the mountain’s height unchanged. While the path might twist, the total "energy" (action) stays the same. This symmetry forces the system to follow a rule: **the equations of motion must respect this symmetry**, even if the symmetry isn’t visible in the system’s explicit dynamics. [Diagram idea: Action functional $ S $ as a mountain with horizontal symmetry shifts.]  
+
+## The more precise picture  
+### Variational principles and the action  
+The action $ S = \int L \, dt $ is the "recipe" for physical motion. Nature chooses paths that extremize $ S $, meaning small changes in the path don’t alter the total action. This principle defines how systems evolve.  
+
+### Symmetries in the action  
+A **variational symmetry** is a transformation (e.g., shifting time or rotating space) that leaves the action unchanged. For example, if the Lagrangian $ L $ is invariant under $ q \to q + \epsilon \eta(t) $, the action $ S $ remains the same. This is different from an "explicit symmetry" (e.g., a system rotating in space), which might not preserve the Lagrangian directly.  
+
+### Statement of Noether's second theorem  
+When the action has a symmetry, the **equations of motion** (Euler-Lagrange equations) must satisfy a **constraint**. This constraint is not a conservation law (like energy or momentum) but a **structural rule** that ensures the symmetry is "built into" the system. For instance, gauge symmetries in electromagnetism generate constraints on Maxwell’s equations, ensuring the theory remains consistent.  
+
+### Mathematical formulation (minimal math)  
+Consider a symmetry $ q \to q + \epsilon \eta(t) $. The variation of the action $ \delta S = 0 $ leads to:  
+$$
+\frac{\partial L}{\partial q} \cdot \eta(t) + \frac{\partial L}{\partial \dot{q}} \cdot \frac{d\eta}{dt} = 0
+$$  
+This equation shows how the symmetry forces a relationship between the Lagrangian and its derivatives, shaping the equations of motion.  
+
+## Common misconceptions  
+- **Confusing it with the first theorem**: The second theorem is about **constraints on equations of motion**, not direct conservation laws. For example, time translation symmetry leads to energy conservation via the first theorem, but the second theorem ensures the equations of motion respect the symmetry.  
+- **Thinking it applies only to conservation laws**: The theorem applies to **any symmetry** in the action, including non-conservative systems (e.g., friction). It ensures the system’s structure aligns with the symmetry, even if energy isn’t conserved.  
+- **Ignoring the variational principle**: The theorem relies on the action’s role in defining physical behavior. Symmetries alone don’t impose constraints—only when they act on the action.  
+
+## How this connects to the rest of physics  
+Noether's second theorem is foundational for:  
+- **Field theories**: Gauge symmetries (e.g., electromagnetism) generate constraints that define the behavior of fields.  
+- **Relativity**: Symmetries under Lorentz transformations shape spacetime structure.  
+- **Quantum mechanics**: The theorem’s constraints underpin the mathematical framework of quantum field theory.  
+
+## Recap  
+- **Symmetries in the action** impose structural constraints on equations of motion.  
+- These constraints ensure physical laws are consistent with symmetries, even when symmetries aren’t explicitly preserved.  
+- The theorem explains how symmetries shape the **rules** of physics, not just conservation laws.  
+- Minimal math shows how symmetries force relationships between the Lagrangian and its derivatives.
+
+RESPONSE:
+
