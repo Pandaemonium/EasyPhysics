@@ -1,0 +1,79 @@
+{
+  "claims": [
+    {
+      "id": "C001",
+      "claim": "# Eigenvalue ## The core idea Eigenvalues are **scaling factors** that tell you how much a vector is stretched or squashed when a transformation is applied—*without changing its direction*.",
+      "type": "fallback-extracted",
+      "importance": "medium",
+      "needs_external_check": true,
+      "why_it_matters": "Automatically extracted fallback claim; keep it in the claim-check pipeline.",
+      "suggested_search_query": "Eigenvalue # Eigenvalue ## The core idea Eigenvalues are **scaling factors** that tell you how much a physics lecture notes textbook explanation"
+    },
+    {
+      "id": "C002",
+      "claim": "This concept is foundational in **linear algebra**, where eigenvalues describe how transformations act on vectors, and it plays a central role in **quantum mechanics**, where they represent measurable outcomes like energy levels.",
+      "type": "fallback-extracted",
+      "importance": "medium",
+      "needs_external_check": true,
+      "why_it_matters": "Automatically extracted fallback claim; keep it in the claim-check pipeline.",
+      "suggested_search_query": "Eigenvalue This concept is foundational in **linear algebra**, where eigenvalues describe how transformations act on vectors, and physics lecture notes textbook explanation"
+    },
+    {
+      "id": "C003",
+      "claim": "## Why this matters Eigenvalues help us understand how systems respond to forces, rotations, or vibrations.",
+      "type": "fallback-extracted",
+      "importance": "medium",
+      "needs_external_check": true,
+      "why_it_matters": "Automatically extracted fallback claim; keep it in the claim-check pipeline.",
+      "suggested_search_query": "Eigenvalue ## Why this matters Eigenvalues help us understand how systems respond to forces, rotations, or vibrations. physics lecture notes textbook explanation"
+    },
+    {
+      "id": "C004",
+      "claim": "They simplify complex interactions by focusing on \"special directions\" where changes are straightforward.",
+      "type": "fallback-extracted",
+      "importance": "medium",
+      "needs_external_check": true,
+      "why_it_matters": "Automatically extracted fallback claim; keep it in the claim-check pipeline.",
+      "suggested_search_query": "Eigenvalue They simplify complex interactions by focusing on \"special directions\" where changes are straightforward. physics lecture notes textbook explanation"
+    },
+    {
+      "id": "C005",
+      "claim": "Eigenvalues determine the **direction and magnitude** of these forces (e.g., principal stresses in a beam under load).",
+      "type": "fallback-extracted",
+      "importance": "medium",
+      "needs_external_check": true,
+      "why_it_matters": "Automatically extracted fallback claim; keep it in the claim-check pipeline.",
+      "suggested_search_query": "Eigenvalue Eigenvalues determine the **direction and magnitude** of these forces (e.g., principal stresses in a beam under physics lecture notes textbook explanation"
+    },
+    {
+      "id": "C006",
+      "claim": "A stress tensor is a linear transformation that encodes how forces act on a material, and its eigenvalues quantify the maximum and minimum forces experienced along specific directions.",
+      "type": "fallback-extracted",
+      "importance": "medium",
+      "needs_external_check": true,
+      "why_it_matters": "Automatically extracted fallback claim; keep it in the claim-check pipeline.",
+      "suggested_search_query": "Eigenvalue A stress tensor is a linear transformation that encodes how forces act on a material, and physics lecture notes textbook explanation"
+    },
+    {
+      "id": "C007",
+      "claim": "These frequencies are directly tied to the **forces** that excite the system.",
+      "type": "fallback-extracted",
+      "importance": "medium",
+      "needs_external_check": true,
+      "why_it_matters": "Automatically extracted fallback claim; keep it in the claim-check pipeline.",
+      "suggested_search_query": "Eigenvalue These frequencies are directly tied to the **forces** that excite the system. physics lecture notes textbook explanation"
+    },
+    {
+      "id": "C008",
+      "claim": "For instance, a tuning fork’s vibration at a specific frequency corresponds to an eigenvalue of its mechanical system, and external forces (like striking the fork) drive the system to resonate at that frequency.",
+      "type": "fallback-extracted",
+      "importance": "medium",
+      "needs_external_check": true,
+      "why_it_matters": "Automatically extracted fallback claim; keep it in the claim-check pipeline.",
+      "suggested_search_query": "Eigenvalue For instance, a tuning fork’s vibration at a specific frequency corresponds to an eigenvalue of its physics lecture notes textbook explanation"
+    }
+  ],
+  "last_updated": "2026-05-05_14-18-35",
+  "count": 8,
+  "parse_note": "No usable claims parsed from LLM output. Using deterministic fallback extraction from draft sentences."
+}

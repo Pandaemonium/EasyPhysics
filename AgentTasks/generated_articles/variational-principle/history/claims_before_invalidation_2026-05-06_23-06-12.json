@@ -1,0 +1,34 @@
+{
+  "claims": [
+    {
+      "id": "C001",
+      "claim": "The variational principle identifies extremal paths or states where key quantities are minimized or maximized.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "This framework unifies classical and quantum mechanics through a shared mathematical structure.",
+      "suggested_search_query": "variational principle physics textbook definition"
+    },
+    {
+      "id": "C002",
+      "claim": "In classical mechanics, the variational principle applies to action {action}, while in quantum systems, it relates to the expectation value of energy {expectation value}.",
+      "type": "comparison",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Distinguishes how the principle manifests in different physical domains.",
+      "suggested_search_query": "classical vs quantum variational principle"
+    },
+    {
+      "id": "C003",
+      "claim": "The term 'extremize' includes both minima and maxima, not just strict minima.",
+      "type": "clarification",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Avoids misinterpretation of extremize",
+      "suggested_search_query": "variational principle extremize definition"
+    }
+  ],
+  "last_updated": "2026-05-06_21-11-44",
+  "count": 3,
+  "parse_note": ""
+}

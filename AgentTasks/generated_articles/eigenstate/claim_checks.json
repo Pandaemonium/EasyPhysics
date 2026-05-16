@@ -1,38 +1,20 @@
 {
-  "claim_checks": [
-    {
-      "id": "C001",
-      "verdict": "not_enough_evidence",
-      "severity": "low",
-      "problem": "The search snippet lacks direct confirmation of the eigenstate definition; it references eigenstates in context but doesn't provide an explicit definition or authoritative explanation",
-      "suggested_fix": "Add a citation from a standard quantum mechanics textbook (e.g., Griffiths, Sakurai) that explicitly defines eigenstates as definite-answer states",
-      "source_quality_note": "The snippet appears to be a fragmented academic discussion rather than a direct definition from a textbook or lecture notes"
-    },
-    {
-      "id": "C002",
-      "verdict": "not_enough_evidence",
-      "severity": "medium",
-      "problem": "Could not parse claim-checker output.",
-      "suggested_fix": "Review this claim manually.",
-      "source_quality_note": ""
-    },
-    {
-      "id": "C003",
-      "verdict": "not_enough_evidence",
-      "severity": "low",
-      "problem": "The search snippet contains no relevant content about eigenstates or quantum measurement outcomes",
-      "suggested_fix": "Search for physics textbooks or lecture notes that explicitly define eigenstates and their probabilistic properties",
-      "source_quality_note": "The snippet appears to be about lecture note organization rather than physics content"
-    }
-  ],
+  "claim_checks": [],
+  "check_history": [],
   "summary": {
-    "overall_claim_quality": "Claim check completed.",
-    "unresolved_or_needs_qualification": 3,
-    "highest_priority_fixes": [
-      "Add a citation from a standard quantum mechanics textbook (e.g., Griffiths, Sakurai) that explicitly defines eigenstates as definite-answer states",
-      "Review this claim manually.",
-      "Search for physics textbooks or lecture notes that explicitly define eigenstates and their probabilistic properties"
-    ]
+    "total_claims": 0,
+    "checked_claim_count": 0,
+    "passing_claim_count": 0,
+    "unchecked_claim_count": 0,
+    "unresolved_or_needs_qualification": 0,
+    "actionable_issue_count": 0,
+    "evidence_retry_count": 0,
+    "claim_review_complete": false,
+    "unchecked_claim_ids": [],
+    "actionable_claim_ids": [],
+    "evidence_retry_claim_ids": [],
+    "highest_priority_fixes": [],
+    "overall_claim_quality": "No claim-check work selected this round."
   },
-  "last_updated": "2026-05-05_01-17-20"
+  "last_updated": "2026-05-05_17-37-30"
 }

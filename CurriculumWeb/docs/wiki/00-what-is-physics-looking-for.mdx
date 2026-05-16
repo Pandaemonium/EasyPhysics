@@ -1,0 +1,81 @@
+---
+title: "What Is Physics Looking For?"
+slug: /wiki/what-is-physics-looking-for
+sidebar_label: "What Physics Looks For"
+description: "A first lesson on physics as the search for reliable structure."
+prerequisites: []
+glossary_terms:
+  - physics
+  - system
+  - model
+status: draft
+---
+
+import ConceptFlow from '@site/src/components/ConceptFlow';
+import KnowledgeCheck from '@site/src/components/KnowledgeCheck';
+import LessonNav from '@site/src/components/LessonNav';
+import Term from '@site/src/components/Term';
+
+# What Is Physics Looking For?
+
+If you drop a ball, turn on a lamp, heat a cup of water, or watch a planet move, many details change. The color of the table might not matter. The day of the week might not matter. The exact person doing the experiment might not matter.
+
+<Term name="physics">Physics</Term> starts by asking a sharp question:
+
+**What stays reliable while the situation changes?**
+
+That is why physics is not just a warehouse of facts. It is a search for structure. A good physical idea lets you change the example and still recognize the same rule underneath.
+
+<ConceptFlow />
+
+## A Simple First Map
+
+This first path follows a small chain of ideas:
+
+<div className="lesson-sketch" aria-label="A simple physics path from state to conservation">
+  <div className="lesson-sketch__row">
+    <span className="lesson-sketch__pill">state</span>
+    <span className="lesson-sketch__arrow">-&gt;</span>
+    <span className="lesson-sketch__pill">change</span>
+    <span className="lesson-sketch__arrow">-&gt;</span>
+    <span className="lesson-sketch__pill">symmetry</span>
+    <span className="lesson-sketch__arrow">-&gt;</span>
+    <span className="lesson-sketch__pill">conservation</span>
+  </div>
+</div>
+
+A <Term name="system">system</Term> is the part of the world we are tracking. A <Term name="model">model</Term> is the useful description we choose for that system. The model is never the whole universe in full detail. It is the part of the description that helps us answer a question.
+
+For a falling ball, the model might track height and speed. For a chess game, it might track the pieces on the board and whose turn it is. For weather, it might track temperature, pressure, humidity, and wind.
+
+Different questions need different descriptions. Physics begins when we choose the description carefully enough that change becomes understandable.
+
+<KnowledgeCheck
+  question="Which sentence best captures what this lesson says physics is trying to find?"
+  options={[
+    {
+      label: 'A',
+      text: 'A list of all visible details in every situation.',
+      correct: false,
+      feedback: 'Physics often ignores details that do not affect the question. A useful model keeps the right information, not all information.',
+    },
+    {
+      label: 'B',
+      text: 'Reliable structure that remains useful as situations change.',
+      correct: true,
+      feedback: 'That is the heart of this path. Physics looks for rules and quantities that stay meaningful across changing examples.',
+    },
+    {
+      label: 'C',
+      text: 'The names of the people who discovered each law.',
+      correct: false,
+      feedback: 'History can be helpful, but this path starts with the structure of the ideas, not the order of discovery.',
+    },
+  ]}
+/>
+
+<LessonNav
+  nextLabel="What Is a State?"
+  nextTo="/docs/wiki/what-is-a-state"
+  note="Next we need a word for the information a model uses right now."
+/>

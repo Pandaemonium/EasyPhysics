@@ -1,0 +1,97 @@
+{
+  "claims": [
+    {
+      "id": "C001",
+      "claim": "Eigenvalues are scaling factors that describe how vectors are stretched or squashed by linear transformations.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "This defines the core mathematical role of eigenvalues in linear algebra and physics.",
+      "suggested_search_query": "linear algebra eigenvalue definition textbook"
+    },
+    {
+      "id": "C002",
+      "claim": "Eigenvalues can be complex numbers, introducing rotational effects in addition to scaling.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Complex eigenvalues are critical for understanding oscillatory systems in quantum mechanics.",
+      "suggested_search_query": "complex eigenvalues quantum mechanics"
+    },
+    {
+      "id": "C003",
+      "claim": "Eigenvalues are foundational to both linear algebra and quantum mechanics, representing measurable physical quantities.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "This connects eigenvalues to core scientific frameworks across disciplines.",
+      "suggested_search_query": "eigenvalues quantum mechanics textbook"
+    },
+    {
+      "id": "C004",
+      "claim": "Eigenvalues simplify complex systems by focusing on special directions where transformations act purely as scalars.",
+      "type": "application",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "This explains their utility in analyzing mechanical and vibrational systems.",
+      "suggested_search_query": "eigenvalues simplifying physical systems"
+    },
+    {
+      "id": "C005",
+      "claim": "In mechanical systems, stress tensors use eigenvalues to determine principal stresses and force directions.",
+      "type": "application",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "This links eigenvalues to material science and structural analysis.",
+      "suggested_search_query": "stress tensor eigenvalues materials science"
+    },
+    {
+      "id": "C006",
+      "claim": "Eigenvalues determine natural frequencies in vibrational systems, such as guitar string modes.",
+      "type": "application",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "This connects eigenvalues to acoustics and resonance phenomena.",
+      "suggested_search_query": "vibrational modes eigenvalues"
+    },
+    {
+      "id": "C007",
+      "claim": "Eigenvalues identify symmetry axes in rotational systems, such as a spinning top's rotation axis.",
+      "type": "application",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "This explains their role in understanding torque and rotational dynamics.",
+      "suggested_search_query": "rotational eigenvalues torque"
+    },
+    {
+      "id": "C008",
+      "claim": "The equation A·v = λ·v defines eigenvalues, where A is a linear transformation, v is an eigenvector, and λ is the eigenvalue.",
+      "type": "mathematical",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "This is the fundamental mathematical relationship for eigenvalues.",
+      "suggested_search_query": "eigenvalue equation linear algebra"
+    },
+    {
+      "id": "C009",
+      "claim": "Real eigenvalues scale vectors without changing their direction, while complex eigenvalues introduce rotational components.",
+      "type": "nuance",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "This clarifies the distinction between real and complex eigenvalues.",
+      "suggested_search_query": "real vs complex eigenvalues"
+    },
+    {
+      "id": "C010",
+      "claim": "The initial claim about eigenvalues as 'scaling without direction' is accurate only for real eigenvalues, not complex ones.",
+      "type": "clarification",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "This corrects a potential misconception about eigenvalue behavior.",
+      "suggested_search_query": "eigenvalue direction misconception"
+    }
+  ],
+  "last_updated": "2026-05-05_14-53-00",
+  "count": 10,
+  "parse_note": ""
+}

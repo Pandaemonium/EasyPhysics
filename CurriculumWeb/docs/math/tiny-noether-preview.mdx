@@ -1,0 +1,74 @@
+---
+title: "Math Lens: Tiny Noether Preview"
+slug: /math/tiny-noether-preview
+sidebar_label: "Tiny Noether Preview"
+description: "An optional math lens on why smooth sameness can become conservation."
+prerequisites:
+  - conservation-memory-of-symmetry
+glossary_terms:
+  - noether-theorem
+  - continuous-symmetry
+  - conservation-law
+status: draft
+---
+
+import KnowledgeCheck from '@site/src/components/KnowledgeCheck';
+import LessonNav from '@site/src/components/LessonNav';
+import Term from '@site/src/components/Term';
+
+# Math Lens: Tiny Noether Preview
+
+This is not the full proof of <Term name="noether-theorem">Noether's theorem</Term>. It is a small preview of why the theorem is plausible.
+
+Suppose a system has a rule that scores possible histories. In advanced mechanics, that score is called the action. The real motion is the history that makes this score stable against tiny allowed changes.
+
+Now imagine the score does not change when you smoothly shift something:
+
+```text
+tiny shift -> same score rule
+```
+
+That smooth sameness puts a restriction on how the system can change. The restriction shows up as a quantity that stays fixed along the motion.
+
+That is the rough bridge:
+
+```text
+continuous symmetry -> constraint on motion -> conserved quantity
+```
+
+## Why "Continuous" Matters
+
+A one-step symmetry can be important, but Noether's theorem uses symmetries that can be varied by tiny amounts. Tiny changes let the math compare neighboring possibilities. That comparison is what turns sameness into a conserved flow.
+
+For now, keep the slogan:
+
+**Smooth sameness in the rulebook becomes a protected quantity in the motion.**
+
+<KnowledgeCheck
+  question="What is the key extra feature Noether's theorem needs from a symmetry?"
+  options={[
+    {
+      label: 'A',
+      text: 'The symmetry should be continuous, so it can be changed by tiny amounts.',
+      correct: true,
+      feedback: 'Yes. The tiny-change structure is what lets the math connect sameness to conservation.',
+    },
+    {
+      label: 'B',
+      text: 'The symmetry should be visually beautiful.',
+      correct: false,
+      feedback: 'Visual beauty is not the key. The theorem uses continuous sameness of the rule.',
+    },
+    {
+      label: 'C',
+      text: 'The symmetry should make the system stop moving.',
+      correct: false,
+      feedback: "Noether's theorem is about conserved quantities during motion, not about freezing motion.",
+    },
+  ]}
+/>
+
+<LessonNav
+  nextLabel="return to Conservation"
+  nextTo="/docs/wiki/conservation-memory-of-symmetry"
+/>

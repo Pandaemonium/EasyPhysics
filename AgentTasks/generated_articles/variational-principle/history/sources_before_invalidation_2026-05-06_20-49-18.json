@@ -1,0 +1,793 @@
+{
+  "sources_by_claim": {
+    "C001": {
+      "claim": "# Variational Principle ## The core idea The variational principle is a framework that identifies paths or states where key quantities are **extremized**—meaning they are either **minimized** or **maximized**.",
+      "search_attempts": [
+        {
+          "status": "ok",
+          "query": "Variational principle # Variational Principle ## The core idea The variational principle is a framework that identifies paths physics lecture notes textbook explanation",
+          "results": [
+            {
+              "title": "Variational principle - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Variational_principle",
+              "domain": "en.wikipedia.org",
+              "snippet": "1 week ago - A variational principle is a mathematical procedure that renders a physical problem solvable by the calculus of variations, which concerns finding functions that optimize the values of quantities that depend on those functions. For example, the problem of determining the shape of a hanging ..."
+            },
+            {
+              "title": "History of variational principles in physics - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/History_of_variational_principles_in_physics",
+              "domain": "en.wikipedia.org",
+              "snippet": "1 week ago - In physics, a variational principle is a method for describing the state or dynamics of a physical system, by identifying it as an extremum (minimum, maximum or saddle point) of a functional. Variational methods are exploited in many modern software applications to simulate matter and light."
+            },
+            {
+              "title": "Variational method (quantum mechanics) - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Variational_method_(quantum_mechanics)",
+              "domain": "en.wikipedia.org",
+              "snippet": "November 21, 2025 - In quantum mechanics, the variational method is one way of finding approximations to the lowest energy eigenstate or ground state, and some excited states. This allows calculating approximate wavefunctions such as molecular orbitals. The basis for this method is the variational principle."
+            },
+            {
+              "title": "Calculus of variations - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Calculus_of_variations",
+              "domain": "en.wikipedia.org",
+              "snippet": "March 18, 2026 - Functions that maximize or minimize functionals may be found using the Euler–Lagrange equation of the calculus of variations. A simple example of such a problem is to find the curve of shortest length connecting two points. If there are no constraints, the solution is a straight line between the points. However, if the curve is constrained to lie on a surface in space, then the solution is less obvious, and possibly many solutions may exist. Such solutions are known as geodesics. A related problem is posed by Fermat's principle: light follows the path of shortest optical length connecting two points, which depends upon the material of the medium."
+            },
+            {
+              "title": "Action principles - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Action_principles",
+              "domain": "en.wikipedia.org",
+              "snippet": "March 24, 2026 - Some textbooks write (δW)E = 0 as ΔS0, to emphasize that the variation used in this form of the action principle differs from Hamilton's variation. Here the total energy E is fixed during the variation, but not the time, the reverse of the constraints on Hamilton's principle. Consequently, the same path and end points take different times and energies in the two forms."
+            }
+          ],
+          "urls": [
+            "https://en.wikipedia.org/wiki/Variational_principle",
+            "https://en.wikipedia.org/wiki/History_of_variational_principles_in_physics",
+            "https://en.wikipedia.org/wiki/Variational_method_(quantum_mechanics)",
+            "https://en.wikipedia.org/wiki/Calculus_of_variations",
+            "https://en.wikipedia.org/wiki/Action_principles"
+          ],
+          "result_snippet": "[1] Variational principle - Wikipedia\nURL: https://en.wikipedia.org/wiki/Variational_principle\nSnippet: 1 week ago - A variational principle is a mathematical procedure that renders a physical problem solvable by the calculus of variations, which concerns finding functions that optimize the values of quantities that depend on those functions. For example, the problem of determining the shape of a hanging ...\n\n[2] History of variational principles in physics - Wikipedia\nURL: https://en.wikipedia.org/wiki/History_of_variational_principles_in_physics\nSnippet: 1 week ago - In physics, a variational principle is a method for describing the state or dynamics of a physical system, by identifying it as an extremum (minimum, maximum or saddle point) of a functional. Variational methods are exploited in many modern software applications to simulate matter and light.\n\n[3] Variational method (quantum mechanics) - Wikipedia\nURL: https://en.wikipedia.org/wiki/Variational_method_(quantum_mechanics)\nSnippet: November 21, 2025 - In quantum mechanics, the variational method is one way of finding approximations to the lowest energy eigenstate or ground state, and some excited states. This allows calculating approximate wavefunctions such as molecular orbitals. The basis for this method is the variational principle.\n\n[4] Calculus of variations - Wikipedia\nURL: https://en.wikipedia.org/wiki/Calculus_of_variations\nSnippet: March 18, 2026 - Functions that maximize or minimize functionals may be found using the Euler–Lagrange equation of the calculus of variations. A simple example of such a problem is to find the curve of shortest length connecting two points. If there are no constraints, the solution is a straight line between the points. However, if the curve is constrained to lie on a surface in space, then the solution is less obvious, and possibly many solutions may exist. Such solutions are known as geodesics. A related problem is posed by Fermat's principle: light follows the path of shortest optical length connecting two points, which depends upon the material of the medium.\n\n[5] Action principles - Wikipedia\nURL: https://en.wikipedia.org/wiki/Action_principles\nSnippet: March 24, 2026 - Some textbooks write (δW)E = 0 as ΔS0, to emphasize that the variation used in this form of the action principle differs from Hamilton's variation. Here the total energy E is fixed during the variation, but not the time, the reverse of the constraints on Hamilton's principle. Consequently, the same path and end points take different times and energies in the two forms.",
+          "searched_at": "2026-05-05_12-51-38",
+          "attempt_number": 1
+        },
+        {
+          "status": "ok",
+          "query": "Variational principle # Variational Principle ## The core idea The variational principle is a framework that identifies paths or states university physics lecture notes textbook",
+          "results": [
+            {
+              "title": "[2102.00392] Variational Principle for Stochastic Mechanics",
+              "url": "https://arxiv.org/abs/2102.00392",
+              "domain": "arxiv.org",
+              "snippet": "Abstract: Stochastic mechanics is regarded as a physical theory to explain quantum mechanics with classical terms such that some of the quantum ..."
+            },
+            {
+              "title": "[1909.10064] Ontological Foundations of the Variational",
+              "url": "https://arxiv.org/abs/1909.10064",
+              "domain": "arxiv.org",
+              "snippet": "Abstract: In this paper, I consider the issue of how two mathematical models of modern physics, the variational principles and the quantum path ..."
+            },
+            {
+              "title": "[1205.0865] The principle of stationary action in the calculus",
+              "url": "https://arXiv.org/abs/1205.0865",
+              "domain": "arxiv.org",
+              "snippet": "Abstract: We review some techniques from non-linear analysis in order to investigate critical paths for the action functional in the calculus of ..."
+            },
+            {
+              "title": "A unified variational framework for the inverse Kohn–Sham",
+              "url": "https://arxiv.org/html/2603.23452v1",
+              "domain": "arxiv.org",
+              "snippet": "More precisely, inverse KS theory is anchored here in the density-constrained inner noninteracting variational problem that appears within the Levy ..."
+            },
+            {
+              "title": "[2111.05176] The Variational Quantum Eigensolver: a review of",
+              "url": "https://arxiv.org/abs/2111.05176",
+              "domain": "arxiv.org",
+              "snippet": "Abstract: The variational quantum eigensolver (or VQE) uses the variational principle to compute the ground state energy of a Hamiltonian, a problem ..."
+            }
+          ],
+          "urls": [
+            "https://arxiv.org/abs/2102.00392",
+            "https://arxiv.org/abs/1909.10064",
+            "https://arXiv.org/abs/1205.0865",
+            "https://arxiv.org/html/2603.23452v1",
+            "https://arxiv.org/abs/2111.05176"
+          ],
+          "result_snippet": "[1] [2102.00392] Variational Principle for Stochastic Mechanics\nURL: https://arxiv.org/abs/2102.00392\nSnippet: Abstract: Stochastic mechanics is regarded as a physical theory to explain quantum mechanics with classical terms such that some of the quantum ...\n\n[2] [1909.10064] Ontological Foundations of the Variational\nURL: https://arxiv.org/abs/1909.10064\nSnippet: Abstract: In this paper, I consider the issue of how two mathematical models of modern physics, the variational principles and the quantum path ...\n\n[3] [1205.0865] The principle of stationary action in the calculus\nURL: https://arXiv.org/abs/1205.0865\nSnippet: Abstract: We review some techniques from non-linear analysis in order to investigate critical paths for the action functional in the calculus of ...\n\n[4] A unified variational framework for the inverse Kohn–Sham\nURL: https://arxiv.org/html/2603.23452v1\nSnippet: More precisely, inverse KS theory is anchored here in the density-constrained inner noninteracting variational problem that appears within the Levy ...\n\n[5] [2111.05176] The Variational Quantum Eigensolver: a review of\nURL: https://arxiv.org/abs/2111.05176\nSnippet: Abstract: The variational quantum eigensolver (or VQE) uses the variational principle to compute the ground state energy of a Hamiltonian, a problem ...",
+          "searched_at": "2026-05-05_12-59-51",
+          "attempt_number": 2
+        },
+        {
+          "status": "ok",
+          "query": "Variational principle # Variational Principle ## The core idea The variational principle is a framework that identifies paths or states site:edu physics",
+          "results": [
+            {
+              "title": "[1909.10064] Ontological Foundations of the Variational",
+              "url": "https://arxiv.org/abs/1909.10064",
+              "domain": "arxiv.org",
+              "snippet": "Abstract: In this paper, I consider the issue of how two mathematical models of modern physics, the variational principles and the quantum path ..."
+            },
+            {
+              "title": "[2102.00392] Variational Principle for Stochastic Mechanics",
+              "url": "https://arxiv.org/abs/2102.00392",
+              "domain": "arxiv.org",
+              "snippet": "Abstract: Stochastic mechanics is regarded as a physical theory to explain quantum mechanics with classical terms such that some of the quantum ..."
+            },
+            {
+              "title": "[1205.0865] The principle of stationary action in the calculus",
+              "url": "https://arXiv.org/abs/1205.0865",
+              "domain": "arxiv.org",
+              "snippet": "Abstract: We review some techniques from non-linear analysis in order to investigate critical paths for the action functional in the calculus of ..."
+            },
+            {
+              "title": "A unified variational framework for the inverse Kohn–Sham",
+              "url": "https://arxiv.org/html/2603.23452v1",
+              "domain": "arxiv.org",
+              "snippet": "More precisely, inverse KS theory is anchored here in the density-constrained inner noninteracting variational problem that appears within the Levy ..."
+            },
+            {
+              "title": "[2111.05176] The Variational Quantum Eigensolver: a review of",
+              "url": "https://arxiv.org/abs/2111.05176",
+              "domain": "arxiv.org",
+              "snippet": "Abstract: The variational quantum eigensolver (or VQE) uses the variational principle to compute the ground state energy of a Hamiltonian, a problem ..."
+            }
+          ],
+          "urls": [
+            "https://arxiv.org/abs/1909.10064",
+            "https://arxiv.org/abs/2102.00392",
+            "https://arXiv.org/abs/1205.0865",
+            "https://arxiv.org/html/2603.23452v1",
+            "https://arxiv.org/abs/2111.05176"
+          ],
+          "result_snippet": "[1] [1909.10064] Ontological Foundations of the Variational\nURL: https://arxiv.org/abs/1909.10064\nSnippet: Abstract: In this paper, I consider the issue of how two mathematical models of modern physics, the variational principles and the quantum path ...\n\n[2] [2102.00392] Variational Principle for Stochastic Mechanics\nURL: https://arxiv.org/abs/2102.00392\nSnippet: Abstract: Stochastic mechanics is regarded as a physical theory to explain quantum mechanics with classical terms such that some of the quantum ...\n\n[3] [1205.0865] The principle of stationary action in the calculus\nURL: https://arXiv.org/abs/1205.0865\nSnippet: Abstract: We review some techniques from non-linear analysis in order to investigate critical paths for the action functional in the calculus of ...\n\n[4] A unified variational framework for the inverse Kohn–Sham\nURL: https://arxiv.org/html/2603.23452v1\nSnippet: More precisely, inverse KS theory is anchored here in the density-constrained inner noninteracting variational problem that appears within the Levy ...\n\n[5] [2111.05176] The Variational Quantum Eigensolver: a review of\nURL: https://arxiv.org/abs/2111.05176\nSnippet: Abstract: The variational quantum eigensolver (or VQE) uses the variational principle to compute the ground state energy of a Hamiltonian, a problem ...",
+          "searched_at": "2026-05-05_13-08-03",
+          "attempt_number": 3
+        }
+      ],
+      "query": "Variational principle # Variational Principle ## The core idea The variational principle is a framework that identifies paths or states site:edu physics",
+      "search_status": "ok",
+      "result_snippet": "[1] [1909.10064] Ontological Foundations of the Variational\nURL: https://arxiv.org/abs/1909.10064\nSnippet: Abstract: In this paper, I consider the issue of how two mathematical models of modern physics, the variational principles and the quantum path ...\n\n[2] [2102.00392] Variational Principle for Stochastic Mechanics\nURL: https://arxiv.org/abs/2102.00392\nSnippet: Abstract: Stochastic mechanics is regarded as a physical theory to explain quantum mechanics with classical terms such that some of the quantum ...\n\n[3] [1205.0865] The principle of stationary action in the calculus\nURL: https://arXiv.org/abs/1205.0865\nSnippet: Abstract: We review some techniques from non-linear analysis in order to investigate critical paths for the action functional in the calculus of ...\n\n[4] A unified variational framework for the inverse Kohn–Sham\nURL: https://arxiv.org/html/2603.23452v1\nSnippet: More precisely, inverse KS theory is anchored here in the density-constrained inner noninteracting variational problem that appears within the Levy ...\n\n[5] [2111.05176] The Variational Quantum Eigensolver: a review of\nURL: https://arxiv.org/abs/2111.05176\nSnippet: Abstract: The variational quantum eigensolver (or VQE) uses the variational principle to compute the ground state energy of a Hamiltonian, a problem ...",
+      "results": [
+        {
+          "title": "[1909.10064] Ontological Foundations of the Variational",
+          "url": "https://arxiv.org/abs/1909.10064",
+          "domain": "arxiv.org",
+          "snippet": "Abstract: In this paper, I consider the issue of how two mathematical models of modern physics, the variational principles and the quantum path ..."
+        },
+        {
+          "title": "[2102.00392] Variational Principle for Stochastic Mechanics",
+          "url": "https://arxiv.org/abs/2102.00392",
+          "domain": "arxiv.org",
+          "snippet": "Abstract: Stochastic mechanics is regarded as a physical theory to explain quantum mechanics with classical terms such that some of the quantum ..."
+        },
+        {
+          "title": "[1205.0865] The principle of stationary action in the calculus",
+          "url": "https://arXiv.org/abs/1205.0865",
+          "domain": "arxiv.org",
+          "snippet": "Abstract: We review some techniques from non-linear analysis in order to investigate critical paths for the action functional in the calculus of ..."
+        },
+        {
+          "title": "A unified variational framework for the inverse Kohn–Sham",
+          "url": "https://arxiv.org/html/2603.23452v1",
+          "domain": "arxiv.org",
+          "snippet": "More precisely, inverse KS theory is anchored here in the density-constrained inner noninteracting variational problem that appears within the Levy ..."
+        },
+        {
+          "title": "[2111.05176] The Variational Quantum Eigensolver: a review of",
+          "url": "https://arxiv.org/abs/2111.05176",
+          "domain": "arxiv.org",
+          "snippet": "Abstract: The variational quantum eigensolver (or VQE) uses the variational principle to compute the ground state energy of a Hamiltonian, a problem ..."
+        }
+      ],
+      "urls": [
+        "https://arxiv.org/abs/1909.10064",
+        "https://arxiv.org/abs/2102.00392",
+        "https://arXiv.org/abs/1205.0865",
+        "https://arxiv.org/html/2603.23452v1",
+        "https://arxiv.org/abs/2111.05176"
+      ],
+      "attempt_count": 3,
+      "searched_at": "2026-05-05_13-08-03",
+      "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
+    },
+    "C002": {
+      "claim": "In classical mechanics, this applies to **action** {action}, while in quantum systems, it relates to the **expectation value of energy** {expectation value}.",
+      "search_attempts": [
+        {
+          "status": "ok",
+          "query": "Variational principle In classical mechanics, this applies to **action** {action}, while in quantum systems, it relates to the physics lecture notes textbook explanation",
+          "results": [
+            {
+              "title": "Variational Principles in Classical Mechanics: Hamilton's and D ...",
+              "url": "https://quizlet.com/study-guides/variational-principles-in-classical-mechanics-hamilton-s-and-905d3119-edb8-4f6b-bb81-01f7df27f7b6",
+              "domain": "quizlet.com",
+              "snippet": "Overview of Variational Principles Introduction to Variational Principles Variational principles are fundamental concepts in mechanics that provide a framework for deriving equations of motion. They contrast with differential principles, such as D'Alembert's principle, which focuses on instantaneous states and virtual displacements."
+            },
+            {
+              "title": "Variational Principles in Physical Systems - Trust Atoms",
+              "url": "https://www.trustatoms.com/variational-principles-in-physical-systems/",
+              "domain": "trustatoms.com",
+              "snippet": "Variational principles explain how physical systems optimize action, time, and energy. Learn how least action unifies classical mechanics, relativity, optics, and quantum physics."
+            },
+            {
+              "title": "13.1: Variational Principle - Physics LibreTexts",
+              "url": "https://phys.libretexts.org/Bookshelves/Quantum_Mechanics/Introductory_Quantum_Mechanics_(Fitzpatrick)/13:_Variational_Methods/13.01:_Variational_Principle",
+              "domain": "phys.libretexts.org",
+              "snippet": "This page describes the variational principle, which asserts that the ground-state energy \\\\(E_0\\\\) of a quantum system is at most the expectation value of the Hamiltonian \\\\(H\\\\) derived from a …"
+            },
+            {
+              "title": "Calculus of Variations and Hamilton's Principle | Jiho's Blog",
+              "url": "https://berryjune07.github.io/physics/calculus-of-variations-and-hamiltons-principle.html",
+              "domain": "berryjune07.github.io",
+              "snippet": "Hamilton's principle, also known as the principle of least action, states that the actual path taken by a system between two configurations at times t 1 t1 and t 2 t2 is the one that makes the action functional stationary."
+            },
+            {
+              "title": "Energy Method and Variational Principles | Springer Nature Link",
+              "url": "https://link.springer.com/chapter/10.1007/978-3-031-99254-4_2",
+              "domain": "link.springer.com",
+              "snippet": "This chapter introduces the fundamental concepts and solution methods of the energy method and variational principles. The energy method describes mechanical laws in terms of energy variation, while variational principles represent physical laws in a variational form, both transforming elastic mechanics problems into functional extremum problems. It elaborates on the definitions of functionals ..."
+            }
+          ],
+          "urls": [
+            "https://quizlet.com/study-guides/variational-principles-in-classical-mechanics-hamilton-s-and-905d3119-edb8-4f6b-bb81-01f7df27f7b6",
+            "https://www.trustatoms.com/variational-principles-in-physical-systems/",
+            "https://phys.libretexts.org/Bookshelves/Quantum_Mechanics/Introductory_Quantum_Mechanics_(Fitzpatrick)/13:_Variational_Methods/13.01:_Variational_Principle",
+            "https://berryjune07.github.io/physics/calculus-of-variations-and-hamiltons-principle.html",
+            "https://link.springer.com/chapter/10.1007/978-3-031-99254-4_2"
+          ],
+          "result_snippet": "[1] Variational Principles in Classical Mechanics: Hamilton's and D ...\nURL: https://quizlet.com/study-guides/variational-principles-in-classical-mechanics-hamilton-s-and-905d3119-edb8-4f6b-bb81-01f7df27f7b6\nSnippet: Overview of Variational Principles Introduction to Variational Principles Variational principles are fundamental concepts in mechanics that provide a framework for deriving equations of motion. They contrast with differential principles, such as D'Alembert's principle, which focuses on instantaneous states and virtual displacements.\n\n[2] Variational Principles in Physical Systems - Trust Atoms\nURL: https://www.trustatoms.com/variational-principles-in-physical-systems/\nSnippet: Variational principles explain how physical systems optimize action, time, and energy. Learn how least action unifies classical mechanics, relativity, optics, and quantum physics.\n\n[3] 13.1: Variational Principle - Physics LibreTexts\nURL: https://phys.libretexts.org/Bookshelves/Quantum_Mechanics/Introductory_Quantum_Mechanics_(Fitzpatrick)/13:_Variational_Methods/13.01:_Variational_Principle\nSnippet: This page describes the variational principle, which asserts that the ground-state energy \\\\(E_0\\\\) of a quantum system is at most the expectation value of the Hamiltonian \\\\(H\\\\) derived from a …\n\n[4] Calculus of Variations and Hamilton's Principle | Jiho's Blog\nURL: https://berryjune07.github.io/physics/calculus-of-variations-and-hamiltons-principle.html\nSnippet: Hamilton's principle, also known as the principle of least action, states that the actual path taken by a system between two configurations at times t 1 t1 and t 2 t2 is the one that makes the action functional stationary.\n\n[5] Energy Method and Variational Principles | Springer Nature Link\nURL: https://link.springer.com/chapter/10.1007/978-3-031-99254-4_2\nSnippet: This chapter introduces the fundamental concepts and solution methods of the energy method and variational principles. The energy method describes mechanical laws in terms of energy variation, while variational principles represent physical laws in a variational form, both transforming elastic mechanics problems into functional extremum problems. It elaborates on the definitions of functionals ...",
+          "searched_at": "2026-05-05_12-51-41",
+          "attempt_number": 1
+        }
+      ],
+      "query": "Variational principle In classical mechanics, this applies to **action** {action}, while in quantum systems, it relates to the physics lecture notes textbook explanation",
+      "search_status": "ok",
+      "result_snippet": "[1] Variational Principles in Classical Mechanics: Hamilton's and D ...\nURL: https://quizlet.com/study-guides/variational-principles-in-classical-mechanics-hamilton-s-and-905d3119-edb8-4f6b-bb81-01f7df27f7b6\nSnippet: Overview of Variational Principles Introduction to Variational Principles Variational principles are fundamental concepts in mechanics that provide a framework for deriving equations of motion. They contrast with differential principles, such as D'Alembert's principle, which focuses on instantaneous states and virtual displacements.\n\n[2] Variational Principles in Physical Systems - Trust Atoms\nURL: https://www.trustatoms.com/variational-principles-in-physical-systems/\nSnippet: Variational principles explain how physical systems optimize action, time, and energy. Learn how least action unifies classical mechanics, relativity, optics, and quantum physics.\n\n[3] 13.1: Variational Principle - Physics LibreTexts\nURL: https://phys.libretexts.org/Bookshelves/Quantum_Mechanics/Introductory_Quantum_Mechanics_(Fitzpatrick)/13:_Variational_Methods/13.01:_Variational_Principle\nSnippet: This page describes the variational principle, which asserts that the ground-state energy \\\\(E_0\\\\) of a quantum system is at most the expectation value of the Hamiltonian \\\\(H\\\\) derived from a …\n\n[4] Calculus of Variations and Hamilton's Principle | Jiho's Blog\nURL: https://berryjune07.github.io/physics/calculus-of-variations-and-hamiltons-principle.html\nSnippet: Hamilton's principle, also known as the principle of least action, states that the actual path taken by a system between two configurations at times t 1 t1 and t 2 t2 is the one that makes the action functional stationary.\n\n[5] Energy Method and Variational Principles | Springer Nature Link\nURL: https://link.springer.com/chapter/10.1007/978-3-031-99254-4_2\nSnippet: This chapter introduces the fundamental concepts and solution methods of the energy method and variational principles. The energy method describes mechanical laws in terms of energy variation, while variational principles represent physical laws in a variational form, both transforming elastic mechanics problems into functional extremum problems. It elaborates on the definitions of functionals ...",
+      "results": [
+        {
+          "title": "Variational Principles in Classical Mechanics: Hamilton's and D ...",
+          "url": "https://quizlet.com/study-guides/variational-principles-in-classical-mechanics-hamilton-s-and-905d3119-edb8-4f6b-bb81-01f7df27f7b6",
+          "domain": "quizlet.com",
+          "snippet": "Overview of Variational Principles Introduction to Variational Principles Variational principles are fundamental concepts in mechanics that provide a framework for deriving equations of motion. They contrast with differential principles, such as D'Alembert's principle, which focuses on instantaneous states and virtual displacements."
+        },
+        {
+          "title": "Variational Principles in Physical Systems - Trust Atoms",
+          "url": "https://www.trustatoms.com/variational-principles-in-physical-systems/",
+          "domain": "trustatoms.com",
+          "snippet": "Variational principles explain how physical systems optimize action, time, and energy. Learn how least action unifies classical mechanics, relativity, optics, and quantum physics."
+        },
+        {
+          "title": "13.1: Variational Principle - Physics LibreTexts",
+          "url": "https://phys.libretexts.org/Bookshelves/Quantum_Mechanics/Introductory_Quantum_Mechanics_(Fitzpatrick)/13:_Variational_Methods/13.01:_Variational_Principle",
+          "domain": "phys.libretexts.org",
+          "snippet": "This page describes the variational principle, which asserts that the ground-state energy \\\\(E_0\\\\) of a quantum system is at most the expectation value of the Hamiltonian \\\\(H\\\\) derived from a …"
+        },
+        {
+          "title": "Calculus of Variations and Hamilton's Principle | Jiho's Blog",
+          "url": "https://berryjune07.github.io/physics/calculus-of-variations-and-hamiltons-principle.html",
+          "domain": "berryjune07.github.io",
+          "snippet": "Hamilton's principle, also known as the principle of least action, states that the actual path taken by a system between two configurations at times t 1 t1 and t 2 t2 is the one that makes the action functional stationary."
+        },
+        {
+          "title": "Energy Method and Variational Principles | Springer Nature Link",
+          "url": "https://link.springer.com/chapter/10.1007/978-3-031-99254-4_2",
+          "domain": "link.springer.com",
+          "snippet": "This chapter introduces the fundamental concepts and solution methods of the energy method and variational principles. The energy method describes mechanical laws in terms of energy variation, while variational principles represent physical laws in a variational form, both transforming elastic mechanics problems into functional extremum problems. It elaborates on the definitions of functionals ..."
+        }
+      ],
+      "urls": [
+        "https://quizlet.com/study-guides/variational-principles-in-classical-mechanics-hamilton-s-and-905d3119-edb8-4f6b-bb81-01f7df27f7b6",
+        "https://www.trustatoms.com/variational-principles-in-physical-systems/",
+        "https://phys.libretexts.org/Bookshelves/Quantum_Mechanics/Introductory_Quantum_Mechanics_(Fitzpatrick)/13:_Variational_Methods/13.01:_Variational_Principle",
+        "https://berryjune07.github.io/physics/calculus-of-variations-and-hamiltons-principle.html",
+        "https://link.springer.com/chapter/10.1007/978-3-031-99254-4_2"
+      ],
+      "attempt_count": 1,
+      "searched_at": "2026-05-05_12-51-41",
+      "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
+    },
+    "C003": {
+      "claim": "Think of it as a \"smart choice\" that balances competing factors, such as speed and energy cost.",
+      "search_attempts": [
+        {
+          "status": "ok",
+          "query": "Variational principle Think of it as a \"smart choice\" that balances competing factors, such as speed and energy physics lecture notes textbook explanation",
+          "results": [
+            {
+              "title": "The Variational Method - University of Udine",
+              "url": "https://www.fisica.uniud.it/~giannozz/Didattica/MQ/LectureNotes/mq-cap4.pdf",
+              "domain": "fisica.uniud.it",
+              "snippet": "In the following we will consider the variational principle and its consequences. This constitutes, together with suitable approximations for the electron-electron interactions, the basis for most practical approaches to the solution of the Schrodinger equation in condensed-matter physics."
+            },
+            {
+              "title": "Aster Flower Guide: Meaning, Care, and Bloom Secrets -",
+              "url": "https://legendbio.co.uk/aster-flower/",
+              "domain": "legendbio.co.uk",
+              "snippet": "Beyond its aesthetic appeal, the aster flower carries layers of symbolism, care requirements, and botanical significance that make it a favorite ..."
+            },
+            {
+              "title": "7 Unconventional Money-Saving Strategies When Booking New York",
+              "url": "https://www.mightytravels.com/2024/11/7-unconventional-money-saving-strategies-when-booking-new-york-departure-flights/",
+              "domain": "mightytravels.com",
+              "snippet": "But like any initiative, its usefulness and effectiveness might depend on factors such as schedule reliability and frequency of service, particularly ..."
+            },
+            {
+              "title": "Gulf Stream Info Network -",
+              "url": "https://www.gulfstreamshutdown.com/",
+              "domain": "gulfstreamshutdown.com",
+              "snippet": "Platforms such as mqmbet often provide both options, ensuring that players can choose the format that maximizes confidence and comfort during ..."
+            },
+            {
+              "title": "MITY Informational Hub",
+              "url": "https://www.miniatyyrisirkus.com/",
+              "domain": "miniatyyrisirkus.com",
+              "snippet": "... flow while crafting unique decorations that will impress everyone at your Christmas party! Your guests will have such a great core memory of being at ..."
+            }
+          ],
+          "urls": [
+            "https://www.fisica.uniud.it/~giannozz/Didattica/MQ/LectureNotes/mq-cap4.pdf",
+            "https://legendbio.co.uk/aster-flower/",
+            "https://www.mightytravels.com/2024/11/7-unconventional-money-saving-strategies-when-booking-new-york-departure-flights/",
+            "https://www.gulfstreamshutdown.com/",
+            "https://www.miniatyyrisirkus.com/"
+          ],
+          "result_snippet": "[1] The Variational Method - University of Udine\nURL: https://www.fisica.uniud.it/~giannozz/Didattica/MQ/LectureNotes/mq-cap4.pdf\nSnippet: In the following we will consider the variational principle and its consequences. This constitutes, together with suitable approximations for the electron-electron interactions, the basis for most practical approaches to the solution of the Schrodinger equation in condensed-matter physics.\n\n[2] Aster Flower Guide: Meaning, Care, and Bloom Secrets -\nURL: https://legendbio.co.uk/aster-flower/\nSnippet: Beyond its aesthetic appeal, the aster flower carries layers of symbolism, care requirements, and botanical significance that make it a favorite ...\n\n[3] 7 Unconventional Money-Saving Strategies When Booking New York\nURL: https://www.mightytravels.com/2024/11/7-unconventional-money-saving-strategies-when-booking-new-york-departure-flights/\nSnippet: But like any initiative, its usefulness and effectiveness might depend on factors such as schedule reliability and frequency of service, particularly ...\n\n[4] Gulf Stream Info Network -\nURL: https://www.gulfstreamshutdown.com/\nSnippet: Platforms such as mqmbet often provide both options, ensuring that players can choose the format that maximizes confidence and comfort during ...\n\n[5] MITY Informational Hub\nURL: https://www.miniatyyrisirkus.com/\nSnippet: ... flow while crafting unique decorations that will impress everyone at your Christmas party! Your guests will have such a great core memory of being at ...",
+          "searched_at": "2026-05-05_12-51-45",
+          "attempt_number": 1
+        }
+      ],
+      "query": "Variational principle Think of it as a \"smart choice\" that balances competing factors, such as speed and energy physics lecture notes textbook explanation",
+      "search_status": "ok",
+      "result_snippet": "[1] The Variational Method - University of Udine\nURL: https://www.fisica.uniud.it/~giannozz/Didattica/MQ/LectureNotes/mq-cap4.pdf\nSnippet: In the following we will consider the variational principle and its consequences. This constitutes, together with suitable approximations for the electron-electron interactions, the basis for most practical approaches to the solution of the Schrodinger equation in condensed-matter physics.\n\n[2] Aster Flower Guide: Meaning, Care, and Bloom Secrets -\nURL: https://legendbio.co.uk/aster-flower/\nSnippet: Beyond its aesthetic appeal, the aster flower carries layers of symbolism, care requirements, and botanical significance that make it a favorite ...\n\n[3] 7 Unconventional Money-Saving Strategies When Booking New York\nURL: https://www.mightytravels.com/2024/11/7-unconventional-money-saving-strategies-when-booking-new-york-departure-flights/\nSnippet: But like any initiative, its usefulness and effectiveness might depend on factors such as schedule reliability and frequency of service, particularly ...\n\n[4] Gulf Stream Info Network -\nURL: https://www.gulfstreamshutdown.com/\nSnippet: Platforms such as mqmbet often provide both options, ensuring that players can choose the format that maximizes confidence and comfort during ...\n\n[5] MITY Informational Hub\nURL: https://www.miniatyyrisirkus.com/\nSnippet: ... flow while crafting unique decorations that will impress everyone at your Christmas party! Your guests will have such a great core memory of being at ...",
+      "results": [
+        {
+          "title": "The Variational Method - University of Udine",
+          "url": "https://www.fisica.uniud.it/~giannozz/Didattica/MQ/LectureNotes/mq-cap4.pdf",
+          "domain": "fisica.uniud.it",
+          "snippet": "In the following we will consider the variational principle and its consequences. This constitutes, together with suitable approximations for the electron-electron interactions, the basis for most practical approaches to the solution of the Schrodinger equation in condensed-matter physics."
+        },
+        {
+          "title": "Aster Flower Guide: Meaning, Care, and Bloom Secrets -",
+          "url": "https://legendbio.co.uk/aster-flower/",
+          "domain": "legendbio.co.uk",
+          "snippet": "Beyond its aesthetic appeal, the aster flower carries layers of symbolism, care requirements, and botanical significance that make it a favorite ..."
+        },
+        {
+          "title": "7 Unconventional Money-Saving Strategies When Booking New York",
+          "url": "https://www.mightytravels.com/2024/11/7-unconventional-money-saving-strategies-when-booking-new-york-departure-flights/",
+          "domain": "mightytravels.com",
+          "snippet": "But like any initiative, its usefulness and effectiveness might depend on factors such as schedule reliability and frequency of service, particularly ..."
+        },
+        {
+          "title": "Gulf Stream Info Network -",
+          "url": "https://www.gulfstreamshutdown.com/",
+          "domain": "gulfstreamshutdown.com",
+          "snippet": "Platforms such as mqmbet often provide both options, ensuring that players can choose the format that maximizes confidence and comfort during ..."
+        },
+        {
+          "title": "MITY Informational Hub",
+          "url": "https://www.miniatyyrisirkus.com/",
+          "domain": "miniatyyrisirkus.com",
+          "snippet": "... flow while crafting unique decorations that will impress everyone at your Christmas party! Your guests will have such a great core memory of being at ..."
+        }
+      ],
+      "urls": [
+        "https://www.fisica.uniud.it/~giannozz/Didattica/MQ/LectureNotes/mq-cap4.pdf",
+        "https://legendbio.co.uk/aster-flower/",
+        "https://www.mightytravels.com/2024/11/7-unconventional-money-saving-strategies-when-booking-new-york-departure-flights/",
+        "https://www.gulfstreamshutdown.com/",
+        "https://www.miniatyyrisirkus.com/"
+      ],
+      "attempt_count": 1,
+      "searched_at": "2026-05-05_12-51-45",
+      "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
+    },
+    "C004": {
+      "claim": "Similarly, physical systems often settle into configurations where a key quantity is optimized, though this isn’t always a strict \"minimum\" (it could also be a maximum or saddle point).",
+      "search_attempts": [
+        {
+          "status": "ok",
+          "query": "Variational principle Similarly, physical systems often settle into configurations where a key quantity is optimized, though this isn’t physics lecture notes textbook explanation",
+          "results": [
+            {
+              "title": "Energy Method and Variational Principles | Springer Nature Link",
+              "url": "https://link.springer.com/chapter/10.1007/978-3-031-99254-4_2",
+              "domain": "link.springer.com",
+              "snippet": "This chapter introduces the fundamental concepts and solution methods of the energy method and variational principles. The energy method describes mechanical laws in terms of energy variation, while variational principles represent physical laws in a variational form, both transforming elastic mechanics problems into functional extremum problems."
+            },
+            {
+              "title": "Variational Principles in Physical Systems - Trust Atoms",
+              "url": "https://www.trustatoms.com/variational-principles-in-physical-systems/",
+              "domain": "trustatoms.com",
+              "snippet": "Variational principles explain how physical systems optimize action, time, and energy. Learn how least action unifies classical mechanics, relativity, optics, and quantum physics."
+            },
+            {
+              "title": "13.1: Variational Principle - Physics LibreTexts",
+              "url": "https://phys.libretexts.org/Bookshelves/Quantum_Mechanics/Introductory_Quantum_Mechanics_(Fitzpatrick)/13:_Variational_Methods/13.01:_Variational_Principle",
+              "domain": "phys.libretexts.org",
+              "snippet": "This page describes the variational principle, which asserts that the ground-state energy \\\\(E_0\\\\) of a quantum system is at most the expectation value of the Hamiltonian \\\\(H\\\\) derived from a …"
+            },
+            {
+              "title": "Mastering Variational Principles in Mechanics",
+              "url": "https://www.numberanalytics.com/blog/variational-principles-computational-mechanics-guide",
+              "domain": "numberanalytics.com",
+              "snippet": "Variational principles are fundamental concepts in physics and engineering that provide a powerful framework for analyzing and solving problems in mechanics. At its core, a variational principle is a statement that some quantity, often energy-related, is minimized or maximized under certain conditions."
+            },
+            {
+              "title": "Variational and Extremum Principles in Macroscopic Systems",
+              "url": "https://www.sciencedirect.com/book/edited-volume/9780080444888/variational-and-extremum-principles-in-macroscopic-systems",
+              "domain": "sciencedirect.com",
+              "snippet": "The main goal of Variational and Extremum Principles in Macroscopic Systems is to collect various mathematical formulations and examples of physical reasoning that involve both basic theoretical aspects and applications of variational and extremum approaches to systems of the macroscopic world."
+            }
+          ],
+          "urls": [
+            "https://link.springer.com/chapter/10.1007/978-3-031-99254-4_2",
+            "https://www.trustatoms.com/variational-principles-in-physical-systems/",
+            "https://phys.libretexts.org/Bookshelves/Quantum_Mechanics/Introductory_Quantum_Mechanics_(Fitzpatrick)/13:_Variational_Methods/13.01:_Variational_Principle",
+            "https://www.numberanalytics.com/blog/variational-principles-computational-mechanics-guide",
+            "https://www.sciencedirect.com/book/edited-volume/9780080444888/variational-and-extremum-principles-in-macroscopic-systems"
+          ],
+          "result_snippet": "[1] Energy Method and Variational Principles | Springer Nature Link\nURL: https://link.springer.com/chapter/10.1007/978-3-031-99254-4_2\nSnippet: This chapter introduces the fundamental concepts and solution methods of the energy method and variational principles. The energy method describes mechanical laws in terms of energy variation, while variational principles represent physical laws in a variational form, both transforming elastic mechanics problems into functional extremum problems.\n\n[2] Variational Principles in Physical Systems - Trust Atoms\nURL: https://www.trustatoms.com/variational-principles-in-physical-systems/\nSnippet: Variational principles explain how physical systems optimize action, time, and energy. Learn how least action unifies classical mechanics, relativity, optics, and quantum physics.\n\n[3] 13.1: Variational Principle - Physics LibreTexts\nURL: https://phys.libretexts.org/Bookshelves/Quantum_Mechanics/Introductory_Quantum_Mechanics_(Fitzpatrick)/13:_Variational_Methods/13.01:_Variational_Principle\nSnippet: This page describes the variational principle, which asserts that the ground-state energy \\\\(E_0\\\\) of a quantum system is at most the expectation value of the Hamiltonian \\\\(H\\\\) derived from a …\n\n[4] Mastering Variational Principles in Mechanics\nURL: https://www.numberanalytics.com/blog/variational-principles-computational-mechanics-guide\nSnippet: Variational principles are fundamental concepts in physics and engineering that provide a powerful framework for analyzing and solving problems in mechanics. At its core, a variational principle is a statement that some quantity, often energy-related, is minimized or maximized under certain conditions.\n\n[5] Variational and Extremum Principles in Macroscopic Systems\nURL: https://www.sciencedirect.com/book/edited-volume/9780080444888/variational-and-extremum-principles-in-macroscopic-systems\nSnippet: The main goal of Variational and Extremum Principles in Macroscopic Systems is to collect various mathematical formulations and examples of physical reasoning that involve both basic theoretical aspects and applications of variational and extremum approaches to systems of the macroscopic world.",
+          "searched_at": "2026-05-05_12-59-55",
+          "attempt_number": 1
+        }
+      ],
+      "query": "Variational principle Similarly, physical systems often settle into configurations where a key quantity is optimized, though this isn’t physics lecture notes textbook explanation",
+      "search_status": "ok",
+      "result_snippet": "[1] Energy Method and Variational Principles | Springer Nature Link\nURL: https://link.springer.com/chapter/10.1007/978-3-031-99254-4_2\nSnippet: This chapter introduces the fundamental concepts and solution methods of the energy method and variational principles. The energy method describes mechanical laws in terms of energy variation, while variational principles represent physical laws in a variational form, both transforming elastic mechanics problems into functional extremum problems.\n\n[2] Variational Principles in Physical Systems - Trust Atoms\nURL: https://www.trustatoms.com/variational-principles-in-physical-systems/\nSnippet: Variational principles explain how physical systems optimize action, time, and energy. Learn how least action unifies classical mechanics, relativity, optics, and quantum physics.\n\n[3] 13.1: Variational Principle - Physics LibreTexts\nURL: https://phys.libretexts.org/Bookshelves/Quantum_Mechanics/Introductory_Quantum_Mechanics_(Fitzpatrick)/13:_Variational_Methods/13.01:_Variational_Principle\nSnippet: This page describes the variational principle, which asserts that the ground-state energy \\\\(E_0\\\\) of a quantum system is at most the expectation value of the Hamiltonian \\\\(H\\\\) derived from a …\n\n[4] Mastering Variational Principles in Mechanics\nURL: https://www.numberanalytics.com/blog/variational-principles-computational-mechanics-guide\nSnippet: Variational principles are fundamental concepts in physics and engineering that provide a powerful framework for analyzing and solving problems in mechanics. At its core, a variational principle is a statement that some quantity, often energy-related, is minimized or maximized under certain conditions.\n\n[5] Variational and Extremum Principles in Macroscopic Systems\nURL: https://www.sciencedirect.com/book/edited-volume/9780080444888/variational-and-extremum-principles-in-macroscopic-systems\nSnippet: The main goal of Variational and Extremum Principles in Macroscopic Systems is to collect various mathematical formulations and examples of physical reasoning that involve both basic theoretical aspects and applications of variational and extremum approaches to systems of the macroscopic world.",
+      "results": [
+        {
+          "title": "Energy Method and Variational Principles | Springer Nature Link",
+          "url": "https://link.springer.com/chapter/10.1007/978-3-031-99254-4_2",
+          "domain": "link.springer.com",
+          "snippet": "This chapter introduces the fundamental concepts and solution methods of the energy method and variational principles. The energy method describes mechanical laws in terms of energy variation, while variational principles represent physical laws in a variational form, both transforming elastic mechanics problems into functional extremum problems."
+        },
+        {
+          "title": "Variational Principles in Physical Systems - Trust Atoms",
+          "url": "https://www.trustatoms.com/variational-principles-in-physical-systems/",
+          "domain": "trustatoms.com",
+          "snippet": "Variational principles explain how physical systems optimize action, time, and energy. Learn how least action unifies classical mechanics, relativity, optics, and quantum physics."
+        },
+        {
+          "title": "13.1: Variational Principle - Physics LibreTexts",
+          "url": "https://phys.libretexts.org/Bookshelves/Quantum_Mechanics/Introductory_Quantum_Mechanics_(Fitzpatrick)/13:_Variational_Methods/13.01:_Variational_Principle",
+          "domain": "phys.libretexts.org",
+          "snippet": "This page describes the variational principle, which asserts that the ground-state energy \\\\(E_0\\\\) of a quantum system is at most the expectation value of the Hamiltonian \\\\(H\\\\) derived from a …"
+        },
+        {
+          "title": "Mastering Variational Principles in Mechanics",
+          "url": "https://www.numberanalytics.com/blog/variational-principles-computational-mechanics-guide",
+          "domain": "numberanalytics.com",
+          "snippet": "Variational principles are fundamental concepts in physics and engineering that provide a powerful framework for analyzing and solving problems in mechanics. At its core, a variational principle is a statement that some quantity, often energy-related, is minimized or maximized under certain conditions."
+        },
+        {
+          "title": "Variational and Extremum Principles in Macroscopic Systems",
+          "url": "https://www.sciencedirect.com/book/edited-volume/9780080444888/variational-and-extremum-principles-in-macroscopic-systems",
+          "domain": "sciencedirect.com",
+          "snippet": "The main goal of Variational and Extremum Principles in Macroscopic Systems is to collect various mathematical formulations and examples of physical reasoning that involve both basic theoretical aspects and applications of variational and extremum approaches to systems of the macroscopic world."
+        }
+      ],
+      "urls": [
+        "https://link.springer.com/chapter/10.1007/978-3-031-99254-4_2",
+        "https://www.trustatoms.com/variational-principles-in-physical-systems/",
+        "https://phys.libretexts.org/Bookshelves/Quantum_Mechanics/Introductory_Quantum_Mechanics_(Fitzpatrick)/13:_Variational_Methods/13.01:_Variational_Principle",
+        "https://www.numberanalytics.com/blog/variational-principles-computational-mechanics-guide",
+        "https://www.sciencedirect.com/book/edited-volume/9780080444888/variational-and-extremum-principles-in-macroscopic-systems"
+      ],
+      "attempt_count": 1,
+      "searched_at": "2026-05-05_12-59-55",
+      "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
+    },
+    "C005": {
+      "claim": "**What is \"action\"?** In classical mechanics, action is a measure of energy cost over time.",
+      "search_attempts": [
+        {
+          "status": "ok",
+          "query": "Variational principle **What is \"action\"?** In classical mechanics, action is a measure of energy cost over time. physics lecture notes textbook explanation",
+          "results": [
+            {
+              "title": "Action (physics) - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Action_(physics)",
+              "domain": "en.wikipedia.org",
+              "snippet": "Action is significant because it is an input to the principle of stationary action , an approach to classical mechanics that is simpler for multiple ..."
+            },
+            {
+              "title": "Stationary-action principle - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Stationary-action_principle",
+              "domain": "en.wikipedia.org",
+              "snippet": "... action principle – also known as the principle of least action – is a variational principle that, when applied to the action of a mechanical ..."
+            },
+            {
+              "title": "classical mechanics - Action and Action integral: Different",
+              "url": "https://physics.stackexchange.com/questions/127320/action-and-action-integral-different-kinds-of-variational-principles",
+              "domain": "physics.stackexchange.com",
+              "snippet": "What Goldstein calls the Hamilton's variational principle is often also called the the principle of least/extremal/stationary action $\\int L~\\mathrm ..."
+            },
+            {
+              "title": "classical mechanics - Is minimizing the action same as",
+              "url": "https://physics.stackexchange.com/questions/572994/is-minimizing-the-action-same-as-minimizing-the-energy",
+              "domain": "physics.stackexchange.com",
+              "snippet": "So, what the action is, in the case of a single spring? I would say (in simple words) that the action of the spring is the total sum of the energy ..."
+            },
+            {
+              "title": "classical mechanics - Why the Principle of Least Action? -",
+              "url": "https://physics.stackexchange.com/questions/15899/why-the-principle-of-least-action",
+              "domain": "physics.stackexchange.com",
+              "snippet": "That being said, I think the most intuitive way to approach action principles is through the principle of least (i.e."
+            }
+          ],
+          "urls": [
+            "https://en.wikipedia.org/wiki/Action_(physics)",
+            "https://en.wikipedia.org/wiki/Stationary-action_principle",
+            "https://physics.stackexchange.com/questions/127320/action-and-action-integral-different-kinds-of-variational-principles",
+            "https://physics.stackexchange.com/questions/572994/is-minimizing-the-action-same-as-minimizing-the-energy",
+            "https://physics.stackexchange.com/questions/15899/why-the-principle-of-least-action"
+          ],
+          "result_snippet": "[1] Action (physics) - Wikipedia\nURL: https://en.wikipedia.org/wiki/Action_(physics)\nSnippet: Action is significant because it is an input to the principle of stationary action , an approach to classical mechanics that is simpler for multiple ...\n\n[2] Stationary-action principle - Wikipedia\nURL: https://en.wikipedia.org/wiki/Stationary-action_principle\nSnippet: ... action principle – also known as the principle of least action – is a variational principle that, when applied to the action of a mechanical ...\n\n[3] classical mechanics - Action and Action integral: Different\nURL: https://physics.stackexchange.com/questions/127320/action-and-action-integral-different-kinds-of-variational-principles\nSnippet: What Goldstein calls the Hamilton's variational principle is often also called the the principle of least/extremal/stationary action $\\int L~\\mathrm ...\n\n[4] classical mechanics - Is minimizing the action same as\nURL: https://physics.stackexchange.com/questions/572994/is-minimizing-the-action-same-as-minimizing-the-energy\nSnippet: So, what the action is, in the case of a single spring? I would say (in simple words) that the action of the spring is the total sum of the energy ...\n\n[5] classical mechanics - Why the Principle of Least Action? -\nURL: https://physics.stackexchange.com/questions/15899/why-the-principle-of-least-action\nSnippet: That being said, I think the most intuitive way to approach action principles is through the principle of least (i.e.",
+          "searched_at": "2026-05-05_12-59-57",
+          "attempt_number": 1
+        }
+      ],
+      "query": "Variational principle **What is \"action\"?** In classical mechanics, action is a measure of energy cost over time. physics lecture notes textbook explanation",
+      "search_status": "ok",
+      "result_snippet": "[1] Action (physics) - Wikipedia\nURL: https://en.wikipedia.org/wiki/Action_(physics)\nSnippet: Action is significant because it is an input to the principle of stationary action , an approach to classical mechanics that is simpler for multiple ...\n\n[2] Stationary-action principle - Wikipedia\nURL: https://en.wikipedia.org/wiki/Stationary-action_principle\nSnippet: ... action principle – also known as the principle of least action – is a variational principle that, when applied to the action of a mechanical ...\n\n[3] classical mechanics - Action and Action integral: Different\nURL: https://physics.stackexchange.com/questions/127320/action-and-action-integral-different-kinds-of-variational-principles\nSnippet: What Goldstein calls the Hamilton's variational principle is often also called the the principle of least/extremal/stationary action $\\int L~\\mathrm ...\n\n[4] classical mechanics - Is minimizing the action same as\nURL: https://physics.stackexchange.com/questions/572994/is-minimizing-the-action-same-as-minimizing-the-energy\nSnippet: So, what the action is, in the case of a single spring? I would say (in simple words) that the action of the spring is the total sum of the energy ...\n\n[5] classical mechanics - Why the Principle of Least Action? -\nURL: https://physics.stackexchange.com/questions/15899/why-the-principle-of-least-action\nSnippet: That being said, I think the most intuitive way to approach action principles is through the principle of least (i.e.",
+      "results": [
+        {
+          "title": "Action (physics) - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Action_(physics)",
+          "domain": "en.wikipedia.org",
+          "snippet": "Action is significant because it is an input to the principle of stationary action , an approach to classical mechanics that is simpler for multiple ..."
+        },
+        {
+          "title": "Stationary-action principle - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Stationary-action_principle",
+          "domain": "en.wikipedia.org",
+          "snippet": "... action principle – also known as the principle of least action – is a variational principle that, when applied to the action of a mechanical ..."
+        },
+        {
+          "title": "classical mechanics - Action and Action integral: Different",
+          "url": "https://physics.stackexchange.com/questions/127320/action-and-action-integral-different-kinds-of-variational-principles",
+          "domain": "physics.stackexchange.com",
+          "snippet": "What Goldstein calls the Hamilton's variational principle is often also called the the principle of least/extremal/stationary action $\\int L~\\mathrm ..."
+        },
+        {
+          "title": "classical mechanics - Is minimizing the action same as",
+          "url": "https://physics.stackexchange.com/questions/572994/is-minimizing-the-action-same-as-minimizing-the-energy",
+          "domain": "physics.stackexchange.com",
+          "snippet": "So, what the action is, in the case of a single spring? I would say (in simple words) that the action of the spring is the total sum of the energy ..."
+        },
+        {
+          "title": "classical mechanics - Why the Principle of Least Action? -",
+          "url": "https://physics.stackexchange.com/questions/15899/why-the-principle-of-least-action",
+          "domain": "physics.stackexchange.com",
+          "snippet": "That being said, I think the most intuitive way to approach action principles is through the principle of least (i.e."
+        }
+      ],
+      "urls": [
+        "https://en.wikipedia.org/wiki/Action_(physics)",
+        "https://en.wikipedia.org/wiki/Stationary-action_principle",
+        "https://physics.stackexchange.com/questions/127320/action-and-action-integral-different-kinds-of-variational-principles",
+        "https://physics.stackexchange.com/questions/572994/is-minimizing-the-action-same-as-minimizing-the-energy",
+        "https://physics.stackexchange.com/questions/15899/why-the-principle-of-least-action"
+      ],
+      "attempt_count": 1,
+      "searched_at": "2026-05-05_12-59-57",
+      "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
+    },
+    "C006": {
+      "claim": "This principle is foundational in physics, connecting diverse phenomena through a shared mathematical structure.",
+      "search_attempts": [
+        {
+          "status": "ok",
+          "query": "Variational principle This principle is foundational in physics, connecting diverse phenomena through a shared mathematical structure. physics lecture notes textbook explanation",
+          "results": [
+            {
+              "title": "13.1: Variational Principle - Physics LibreTexts",
+              "url": "https://phys.libretexts.org/Bookshelves/Quantum_Mechanics/Introductory_Quantum_Mechanics_(Fitzpatrick)/13:_Variational_Methods/13.01:_Variational_Principle",
+              "domain": "phys.libretexts.org",
+              "snippet": "This page titled 13.1: Variational Principle is shared under a CC BY-NC-SA 4.0 license and was authored, remixed, and/or curated by Richard Fitzpatrick via source content that was edited to the style and standards of the LibreTexts platform."
+            },
+            {
+              "title": "Energy Method and Variational Principles | Springer Nature Link",
+              "url": "https://link.springer.com/chapter/10.1007/978-3-031-99254-4_2",
+              "domain": "link.springer.com",
+              "snippet": "This chapter introduces the fundamental concepts and solution methods of the energy method and variational principles. The energy method describes mechanical laws in terms of energy variation, while variational principles represent physical laws in a variational form, both transforming elastic mechanics problems into functional extremum problems. It elaborates on the definitions of functionals ..."
+            },
+            {
+              "title": "Physics:Variational principle - HandWiki",
+              "url": "https://handwiki.org/wiki/Physics:Variational+principle",
+              "domain": "handwiki.org",
+              "snippet": "In science and especially in mathematical studies, a variational principle is one that enables a problem to be solved using calculus of variations, which concerns finding functions that optimize the values of quantities that depend on those functions. For example, the problem of determining the shape of a hanging chain suspended at both ends—a catenary —can be solved using variational ..."
+            },
+            {
+              "title": "Variational Principles in Physical Systems - Trust Atoms",
+              "url": "https://www.trustatoms.com/variational-principles-in-physical-systems/",
+              "domain": "trustatoms.com",
+              "snippet": "Variational principles explain how physical systems optimize action, time, and energy. Learn how least action unifies classical mechanics, relativity, optics, and quantum physics."
+            },
+            {
+              "title": "Calculus of Variations and Hamilton's Principle | Jiho's Blog",
+              "url": "https://berryjune07.github.io/physics/calculus-of-variations-and-hamiltons-principle.html",
+              "domain": "berryjune07.github.io",
+              "snippet": "Calculus of Variations Fundamental Lemma of the Calculus of Variations Euler-Lagrange Equation Generalization δ δ Notation Hamilton's Principle Systems with Holonomic Constraints Systems with Semi-Holonomic Constraints Calculus of Variations Calculus of variations is a field of mathematical analysis that deals with maximizing or minimizing functionals, which are mappings from a set of ..."
+            }
+          ],
+          "urls": [
+            "https://phys.libretexts.org/Bookshelves/Quantum_Mechanics/Introductory_Quantum_Mechanics_(Fitzpatrick)/13:_Variational_Methods/13.01:_Variational_Principle",
+            "https://link.springer.com/chapter/10.1007/978-3-031-99254-4_2",
+            "https://handwiki.org/wiki/Physics:Variational+principle",
+            "https://www.trustatoms.com/variational-principles-in-physical-systems/",
+            "https://berryjune07.github.io/physics/calculus-of-variations-and-hamiltons-principle.html"
+          ],
+          "result_snippet": "[1] 13.1: Variational Principle - Physics LibreTexts\nURL: https://phys.libretexts.org/Bookshelves/Quantum_Mechanics/Introductory_Quantum_Mechanics_(Fitzpatrick)/13:_Variational_Methods/13.01:_Variational_Principle\nSnippet: This page titled 13.1: Variational Principle is shared under a CC BY-NC-SA 4.0 license and was authored, remixed, and/or curated by Richard Fitzpatrick via source content that was edited to the style and standards of the LibreTexts platform.\n\n[2] Energy Method and Variational Principles | Springer Nature Link\nURL: https://link.springer.com/chapter/10.1007/978-3-031-99254-4_2\nSnippet: This chapter introduces the fundamental concepts and solution methods of the energy method and variational principles. The energy method describes mechanical laws in terms of energy variation, while variational principles represent physical laws in a variational form, both transforming elastic mechanics problems into functional extremum problems. It elaborates on the definitions of functionals ...\n\n[3] Physics:Variational principle - HandWiki\nURL: https://handwiki.org/wiki/Physics:Variational+principle\nSnippet: In science and especially in mathematical studies, a variational principle is one that enables a problem to be solved using calculus of variations, which concerns finding functions that optimize the values of quantities that depend on those functions. For example, the problem of determining the shape of a hanging chain suspended at both ends—a catenary —can be solved using variational ...\n\n[4] Variational Principles in Physical Systems - Trust Atoms\nURL: https://www.trustatoms.com/variational-principles-in-physical-systems/\nSnippet: Variational principles explain how physical systems optimize action, time, and energy. Learn how least action unifies classical mechanics, relativity, optics, and quantum physics.\n\n[5] Calculus of Variations and Hamilton's Principle | Jiho's Blog\nURL: https://berryjune07.github.io/physics/calculus-of-variations-and-hamiltons-principle.html\nSnippet: Calculus of Variations Fundamental Lemma of the Calculus of Variations Euler-Lagrange Equation Generalization δ δ Notation Hamilton's Principle Systems with Holonomic Constraints Systems with Semi-Holonomic Constraints Calculus of Variations Calculus of variations is a field of mathematical analysis that deals with maximizing or minimizing functionals, which are mappings from a set of ...",
+          "searched_at": "2026-05-05_13-08-05",
+          "attempt_number": 1
+        }
+      ],
+      "query": "Variational principle This principle is foundational in physics, connecting diverse phenomena through a shared mathematical structure. physics lecture notes textbook explanation",
+      "search_status": "ok",
+      "result_snippet": "[1] 13.1: Variational Principle - Physics LibreTexts\nURL: https://phys.libretexts.org/Bookshelves/Quantum_Mechanics/Introductory_Quantum_Mechanics_(Fitzpatrick)/13:_Variational_Methods/13.01:_Variational_Principle\nSnippet: This page titled 13.1: Variational Principle is shared under a CC BY-NC-SA 4.0 license and was authored, remixed, and/or curated by Richard Fitzpatrick via source content that was edited to the style and standards of the LibreTexts platform.\n\n[2] Energy Method and Variational Principles | Springer Nature Link\nURL: https://link.springer.com/chapter/10.1007/978-3-031-99254-4_2\nSnippet: This chapter introduces the fundamental concepts and solution methods of the energy method and variational principles. The energy method describes mechanical laws in terms of energy variation, while variational principles represent physical laws in a variational form, both transforming elastic mechanics problems into functional extremum problems. It elaborates on the definitions of functionals ...\n\n[3] Physics:Variational principle - HandWiki\nURL: https://handwiki.org/wiki/Physics:Variational+principle\nSnippet: In science and especially in mathematical studies, a variational principle is one that enables a problem to be solved using calculus of variations, which concerns finding functions that optimize the values of quantities that depend on those functions. For example, the problem of determining the shape of a hanging chain suspended at both ends—a catenary —can be solved using variational ...\n\n[4] Variational Principles in Physical Systems - Trust Atoms\nURL: https://www.trustatoms.com/variational-principles-in-physical-systems/\nSnippet: Variational principles explain how physical systems optimize action, time, and energy. Learn how least action unifies classical mechanics, relativity, optics, and quantum physics.\n\n[5] Calculus of Variations and Hamilton's Principle | Jiho's Blog\nURL: https://berryjune07.github.io/physics/calculus-of-variations-and-hamiltons-principle.html\nSnippet: Calculus of Variations Fundamental Lemma of the Calculus of Variations Euler-Lagrange Equation Generalization δ δ Notation Hamilton's Principle Systems with Holonomic Constraints Systems with Semi-Holonomic Constraints Calculus of Variations Calculus of variations is a field of mathematical analysis that deals with maximizing or minimizing functionals, which are mappings from a set of ...",
+      "results": [
+        {
+          "title": "13.1: Variational Principle - Physics LibreTexts",
+          "url": "https://phys.libretexts.org/Bookshelves/Quantum_Mechanics/Introductory_Quantum_Mechanics_(Fitzpatrick)/13:_Variational_Methods/13.01:_Variational_Principle",
+          "domain": "phys.libretexts.org",
+          "snippet": "This page titled 13.1: Variational Principle is shared under a CC BY-NC-SA 4.0 license and was authored, remixed, and/or curated by Richard Fitzpatrick via source content that was edited to the style and standards of the LibreTexts platform."
+        },
+        {
+          "title": "Energy Method and Variational Principles | Springer Nature Link",
+          "url": "https://link.springer.com/chapter/10.1007/978-3-031-99254-4_2",
+          "domain": "link.springer.com",
+          "snippet": "This chapter introduces the fundamental concepts and solution methods of the energy method and variational principles. The energy method describes mechanical laws in terms of energy variation, while variational principles represent physical laws in a variational form, both transforming elastic mechanics problems into functional extremum problems. It elaborates on the definitions of functionals ..."
+        },
+        {
+          "title": "Physics:Variational principle - HandWiki",
+          "url": "https://handwiki.org/wiki/Physics:Variational+principle",
+          "domain": "handwiki.org",
+          "snippet": "In science and especially in mathematical studies, a variational principle is one that enables a problem to be solved using calculus of variations, which concerns finding functions that optimize the values of quantities that depend on those functions. For example, the problem of determining the shape of a hanging chain suspended at both ends—a catenary —can be solved using variational ..."
+        },
+        {
+          "title": "Variational Principles in Physical Systems - Trust Atoms",
+          "url": "https://www.trustatoms.com/variational-principles-in-physical-systems/",
+          "domain": "trustatoms.com",
+          "snippet": "Variational principles explain how physical systems optimize action, time, and energy. Learn how least action unifies classical mechanics, relativity, optics, and quantum physics."
+        },
+        {
+          "title": "Calculus of Variations and Hamilton's Principle | Jiho's Blog",
+          "url": "https://berryjune07.github.io/physics/calculus-of-variations-and-hamiltons-principle.html",
+          "domain": "berryjune07.github.io",
+          "snippet": "Calculus of Variations Fundamental Lemma of the Calculus of Variations Euler-Lagrange Equation Generalization δ δ Notation Hamilton's Principle Systems with Holonomic Constraints Systems with Semi-Holonomic Constraints Calculus of Variations Calculus of variations is a field of mathematical analysis that deals with maximizing or minimizing functionals, which are mappings from a set of ..."
+        }
+      ],
+      "urls": [
+        "https://phys.libretexts.org/Bookshelves/Quantum_Mechanics/Introductory_Quantum_Mechanics_(Fitzpatrick)/13:_Variational_Methods/13.01:_Variational_Principle",
+        "https://link.springer.com/chapter/10.1007/978-3-031-99254-4_2",
+        "https://handwiki.org/wiki/Physics:Variational+principle",
+        "https://www.trustatoms.com/variational-principles-in-physical-systems/",
+        "https://berryjune07.github.io/physics/calculus-of-variations-and-hamiltons-principle.html"
+      ],
+      "attempt_count": 1,
+      "searched_at": "2026-05-05_13-08-05",
+      "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
+    },
+    "C007": {
+      "claim": "## Why this matters The variational principle unifies seemingly different areas of physics.",
+      "search_attempts": [
+        {
+          "status": "ok",
+          "query": "Variational principle ## Why this matters The variational principle unifies seemingly different areas of physics. physics lecture notes textbook explanation",
+          "results": [
+            {
+              "title": "Sympathetic Vibratory Physics | Vibratory Physics - The",
+              "url": "https://svpwiki.com/Vibratory-Physics---The-Connecting-Link-between-Mind-and-Matter",
+              "domain": "svpwiki.com",
+              "snippet": "... of vibratory physics , we may look into some of his views, notwithstanding the fact that, whatever truths there may be in them, they are approached ..."
+            },
+            {
+              "title": "Is Renate Loll's Approach to Quantum Gravity the Key to",
+              "url": "https://www.physicsforums.com/threads/is-renate-lolls-approach-to-quantum-gravity-the-key-to-unifying-physics.95958/",
+              "domain": "physicsforums.com",
+              "snippet": "... the paradox of having two incompatible theories—quantum theory and general relativity—that elegantly describe different aspects of physical ..."
+            },
+            {
+              "title": "Does the Principle of Least Action Have a Physical Meaning?",
+              "url": "https://www.physicsforums.com/threads/does-the-principle-of-least-action-have-a-physical-meaning.952920/",
+              "domain": "physicsforums.com",
+              "snippet": "The discussion centers on the differing opinions regarding the physical meaning of the Principle of Least Action (PLA), with some physicists viewing ..."
+            },
+            {
+              "title": "\"The world explored, the world suffered\" Philosophy",
+              "url": "https://michaelrdjames.org/Philosophy+Education+Humanism+Psychoanalysis+Religion+Psychology/ecclesiastes/",
+              "domain": "michaelrdjames.org",
+              "snippet": "In such a context his silence on the matter of the restoration of the account of the second most dangerous tyrant on this planet(Trump) is also truly ..."
+            },
+            {
+              "title": "Shaping Sounds 2: Why Poor Acoustics Ruin Spaces and How",
+              "url": "https://beegraphy.com/blog/shaping-sounds-2/",
+              "domain": "beegraphy.com",
+              "snippet": "The reflections return at slightly ... The distinction may seem subtle, but mathematically driven variation leads to different scattering behavior."
+            }
+          ],
+          "urls": [
+            "https://svpwiki.com/Vibratory-Physics---The-Connecting-Link-between-Mind-and-Matter",
+            "https://www.physicsforums.com/threads/is-renate-lolls-approach-to-quantum-gravity-the-key-to-unifying-physics.95958/",
+            "https://www.physicsforums.com/threads/does-the-principle-of-least-action-have-a-physical-meaning.952920/",
+            "https://michaelrdjames.org/Philosophy+Education+Humanism+Psychoanalysis+Religion+Psychology/ecclesiastes/",
+            "https://beegraphy.com/blog/shaping-sounds-2/"
+          ],
+          "result_snippet": "[1] Sympathetic Vibratory Physics | Vibratory Physics - The\nURL: https://svpwiki.com/Vibratory-Physics---The-Connecting-Link-between-Mind-and-Matter\nSnippet: ... of vibratory physics , we may look into some of his views, notwithstanding the fact that, whatever truths there may be in them, they are approached ...\n\n[2] Is Renate Loll's Approach to Quantum Gravity the Key to\nURL: https://www.physicsforums.com/threads/is-renate-lolls-approach-to-quantum-gravity-the-key-to-unifying-physics.95958/\nSnippet: ... the paradox of having two incompatible theories—quantum theory and general relativity—that elegantly describe different aspects of physical ...\n\n[3] Does the Principle of Least Action Have a Physical Meaning?\nURL: https://www.physicsforums.com/threads/does-the-principle-of-least-action-have-a-physical-meaning.952920/\nSnippet: The discussion centers on the differing opinions regarding the physical meaning of the Principle of Least Action (PLA), with some physicists viewing ...\n\n[4] \"The world explored, the world suffered\" Philosophy\nURL: https://michaelrdjames.org/Philosophy+Education+Humanism+Psychoanalysis+Religion+Psychology/ecclesiastes/\nSnippet: In such a context his silence on the matter of the restoration of the account of the second most dangerous tyrant on this planet(Trump) is also truly ...\n\n[5] Shaping Sounds 2: Why Poor Acoustics Ruin Spaces and How\nURL: https://beegraphy.com/blog/shaping-sounds-2/\nSnippet: The reflections return at slightly ... The distinction may seem subtle, but mathematically driven variation leads to different scattering behavior.",
+          "searched_at": "2026-05-05_13-08-09",
+          "attempt_number": 1
+        }
+      ],
+      "query": "Variational principle ## Why this matters The variational principle unifies seemingly different areas of physics. physics lecture notes textbook explanation",
+      "search_status": "ok",
+      "result_snippet": "[1] Sympathetic Vibratory Physics | Vibratory Physics - The\nURL: https://svpwiki.com/Vibratory-Physics---The-Connecting-Link-between-Mind-and-Matter\nSnippet: ... of vibratory physics , we may look into some of his views, notwithstanding the fact that, whatever truths there may be in them, they are approached ...\n\n[2] Is Renate Loll's Approach to Quantum Gravity the Key to\nURL: https://www.physicsforums.com/threads/is-renate-lolls-approach-to-quantum-gravity-the-key-to-unifying-physics.95958/\nSnippet: ... the paradox of having two incompatible theories—quantum theory and general relativity—that elegantly describe different aspects of physical ...\n\n[3] Does the Principle of Least Action Have a Physical Meaning?\nURL: https://www.physicsforums.com/threads/does-the-principle-of-least-action-have-a-physical-meaning.952920/\nSnippet: The discussion centers on the differing opinions regarding the physical meaning of the Principle of Least Action (PLA), with some physicists viewing ...\n\n[4] \"The world explored, the world suffered\" Philosophy\nURL: https://michaelrdjames.org/Philosophy+Education+Humanism+Psychoanalysis+Religion+Psychology/ecclesiastes/\nSnippet: In such a context his silence on the matter of the restoration of the account of the second most dangerous tyrant on this planet(Trump) is also truly ...\n\n[5] Shaping Sounds 2: Why Poor Acoustics Ruin Spaces and How\nURL: https://beegraphy.com/blog/shaping-sounds-2/\nSnippet: The reflections return at slightly ... The distinction may seem subtle, but mathematically driven variation leads to different scattering behavior.",
+      "results": [
+        {
+          "title": "Sympathetic Vibratory Physics | Vibratory Physics - The",
+          "url": "https://svpwiki.com/Vibratory-Physics---The-Connecting-Link-between-Mind-and-Matter",
+          "domain": "svpwiki.com",
+          "snippet": "... of vibratory physics , we may look into some of his views, notwithstanding the fact that, whatever truths there may be in them, they are approached ..."
+        },
+        {
+          "title": "Is Renate Loll's Approach to Quantum Gravity the Key to",
+          "url": "https://www.physicsforums.com/threads/is-renate-lolls-approach-to-quantum-gravity-the-key-to-unifying-physics.95958/",
+          "domain": "physicsforums.com",
+          "snippet": "... the paradox of having two incompatible theories—quantum theory and general relativity—that elegantly describe different aspects of physical ..."
+        },
+        {
+          "title": "Does the Principle of Least Action Have a Physical Meaning?",
+          "url": "https://www.physicsforums.com/threads/does-the-principle-of-least-action-have-a-physical-meaning.952920/",
+          "domain": "physicsforums.com",
+          "snippet": "The discussion centers on the differing opinions regarding the physical meaning of the Principle of Least Action (PLA), with some physicists viewing ..."
+        },
+        {
+          "title": "\"The world explored, the world suffered\" Philosophy",
+          "url": "https://michaelrdjames.org/Philosophy+Education+Humanism+Psychoanalysis+Religion+Psychology/ecclesiastes/",
+          "domain": "michaelrdjames.org",
+          "snippet": "In such a context his silence on the matter of the restoration of the account of the second most dangerous tyrant on this planet(Trump) is also truly ..."
+        },
+        {
+          "title": "Shaping Sounds 2: Why Poor Acoustics Ruin Spaces and How",
+          "url": "https://beegraphy.com/blog/shaping-sounds-2/",
+          "domain": "beegraphy.com",
+          "snippet": "The reflections return at slightly ... The distinction may seem subtle, but mathematically driven variation leads to different scattering behavior."
+        }
+      ],
+      "urls": [
+        "https://svpwiki.com/Vibratory-Physics---The-Connecting-Link-between-Mind-and-Matter",
+        "https://www.physicsforums.com/threads/is-renate-lolls-approach-to-quantum-gravity-the-key-to-unifying-physics.95958/",
+        "https://www.physicsforums.com/threads/does-the-principle-of-least-action-have-a-physical-meaning.952920/",
+        "https://michaelrdjames.org/Philosophy+Education+Humanism+Psychoanalysis+Religion+Psychology/ecclesiastes/",
+        "https://beegraphy.com/blog/shaping-sounds-2/"
+      ],
+      "attempt_count": 1,
+      "searched_at": "2026-05-05_13-08-09",
+      "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
+    }
+  },
+  "summary": {
+    "total_claims": 8,
+    "checked_claim_count": 1,
+    "passing_claim_count": 0,
+    "unchecked_claim_count": 7,
+    "unresolved_or_needs_qualification": 8,
+    "actionable_issue_count": 0,
+    "evidence_retry_count": 1,
+    "claim_review_complete": false,
+    "unchecked_claim_ids": [
+      "C002",
+      "C003",
+      "C004",
+      "C005",
+      "C006",
+      "C007",
+      "C008"
+    ],
+    "actionable_claim_ids": [],
+    "evidence_retry_claim_ids": [
+      "C001"
+    ],
+    "highest_priority_fixes": []
+  },
+  "last_updated": "2026-05-05_13-08-09"
+}

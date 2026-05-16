@@ -1,12 +1,18 @@
 title: Scattering
 slug: scattering
-status: finished
-finished: true
-iteration_count: 1
-accessibility_score: 9
-rigor_score: 9
-last_worked_on: '2026-05-04'
-last_completed_pass: 2026-05-04_10-51-47
+status: needs_revision
+finished: false
+iteration_count: 2
+accessibility_score: 0
+rigor_score: 0
+claim_review_passed: false
+claim_total_count: 0
+claim_checked_count: 0
+claim_unchecked_count: 0
+claim_unresolved_count: 0
+last_worked_on: '2026-05-05'
+last_completed_pass: 2026-05-05_19-33-44
 needs:
-- claim_review
+- accessibility_revision
+- rigor_revision
 current_draft: draft.md

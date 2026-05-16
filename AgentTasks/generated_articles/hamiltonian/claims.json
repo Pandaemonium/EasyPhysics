@@ -2,78 +2,51 @@
   "claims": [
     {
       "id": "C001",
-      "claim": "# Hamiltonian ## The core idea The **Hamiltonian** {Hamiltonian} is the **total energy rulebook** {Hamiltonian} of a system.",
-      "type": "fallback-extracted",
-      "importance": "medium",
+      "claim": "The Hamiltonian is a total energy framework {Hamiltonian} governing motion in classical mechanics via Hamilton’s equations {Hamilton’s equations}.",
+      "type": "definition",
+      "importance": "high",
       "needs_external_check": true,
-      "why_it_matters": "Automatically extracted fallback claim; review manually.",
-      "suggested_search_query": "Hamiltonian # Hamiltonian ## The core idea The **Hamiltonian** {Hamiltonian} is the **total energy rulebook** {Hamiltonian} of physics lecture notes textbook explanation"
+      "why_it_matters": "Establishes the Hamiltonian as the central mathematical structure for classical dynamics.",
+      "suggested_search_query": "Hamiltonian classical mechanics definition"
     },
     {
       "id": "C002",
-      "claim": "It encodes the system’s total energy (kinetic + potential) as the fundamental quantity that determines how the system evolves over time.",
-      "type": "fallback-extracted",
-      "importance": "medium",
+      "claim": "In quantum mechanics, the Hamiltonian is an operator {operator} that dictates how probability maps {wavefunction} evolve over time.",
+      "type": "definition",
+      "importance": "high",
       "needs_external_check": true,
-      "why_it_matters": "Automatically extracted fallback claim; review manually.",
-      "suggested_search_query": "Hamiltonian It encodes the system’s total energy (kinetic + potential) as the fundamental quantity that determines how physics lecture notes textbook explanation"
+      "why_it_matters": "Defines the quantum Hamiltonian’s role in time evolution of quantum states.",
+      "suggested_search_query": "quantum Hamiltonian operator"
     },
     {
       "id": "C003",
-      "claim": "Think of it as a recipe: the ingredients are the system’s energy, and the steps are how that energy shapes motion and time evolution.",
-      "type": "fallback-extracted",
-      "importance": "medium",
+      "claim": "The classical Hamiltonian is a scalar value, while the quantum Hamiltonian is an operator {operator} that transforms wavefunctions.",
+      "type": "key_distinction",
+      "importance": "high",
       "needs_external_check": true,
-      "why_it_matters": "Automatically extracted fallback claim; review manually.",
-      "suggested_search_query": "Hamiltonian Think of it as a recipe: the ingredients are the system’s energy, and the steps are physics lecture notes textbook explanation"
+      "why_it_matters": "Highlights the fundamental mathematical difference between classical and quantum formulations.",
+      "suggested_search_query": "classical vs quantum Hamiltonian difference"
     },
     {
       "id": "C004",
-      "claim": "## Why this matters The Hamiltonian is the central tool for understanding how physical systems move, change, and interact.",
-      "type": "fallback-extracted",
-      "importance": "medium",
+      "claim": "The Hamiltonian provides a unified approach to analyzing motion and interactions in both classical and quantum systems.",
+      "type": "unifying_concept",
+      "importance": "high",
       "needs_external_check": true,
-      "why_it_matters": "Automatically extracted fallback claim; review manually.",
-      "suggested_search_query": "Hamiltonian ## Why this matters The Hamiltonian is the central tool for understanding how physical systems move, physics lecture notes textbook explanation"
+      "why_it_matters": "Emphasizes its role as a bridge between physics domains.",
+      "suggested_search_query": "Hamiltonian unifying concept physics"
     },
     {
       "id": "C005",
-      "claim": "Whether you’re studying a swinging pendulum or a quantum particle, the Hamiltonian connects forces, energy, and motion—making it essential for predicting the behavior of everything from atoms to galaxies.",
-      "type": "fallback-extracted",
+      "claim": "The Hamiltonian formalism reveals deep symmetries and conservation laws through its connection to Noether’s theorem {Noether’s theorem}.",
+      "type": "other",
       "importance": "medium",
       "needs_external_check": true,
-      "why_it_matters": "Automatically extracted fallback claim; review manually.",
-      "suggested_search_query": "Hamiltonian Whether you’re studying a swinging pendulum or a quantum particle, the Hamiltonian connects forces, energy, and physics lecture notes textbook explanation"
-    },
-    {
-      "id": "C006",
-      "claim": "## The simple picture [Diagram idea: Energy Balance Sheet] Imagine the Hamiltonian as a kitchen recipe.",
-      "type": "fallback-extracted",
-      "importance": "medium",
-      "needs_external_check": true,
-      "why_it_matters": "Automatically extracted fallback claim; review manually.",
-      "suggested_search_query": "Hamiltonian ## The simple picture [Diagram idea: Energy Balance Sheet] Imagine the Hamiltonian as a kitchen recipe. physics lecture notes textbook explanation"
-    },
-    {
-      "id": "C007",
-      "claim": "In classical mechanics, it’s a list of ingredients (kinetic + potential energy) and steps (how energy converts between motion and position).",
-      "type": "fallback-extracted",
-      "importance": "medium",
-      "needs_external_check": true,
-      "why_it_matters": "Automatically extracted fallback claim; review manually.",
-      "suggested_search_query": "Hamiltonian In classical mechanics, it’s a list of ingredients (kinetic + potential energy) and steps (how energy physics lecture notes textbook explanation"
-    },
-    {
-      "id": "C008",
-      "claim": "In quantum mechanics, it’s a set of rules (operators) that tell a wavefunction {wavefunction} how to evolve over time.",
-      "type": "fallback-extracted",
-      "importance": "medium",
-      "needs_external_check": true,
-      "why_it_matters": "Automatically extracted fallback claim; review manually.",
-      "suggested_search_query": "Hamiltonian In quantum mechanics, it’s a set of rules (operators) that tell a wavefunction {wavefunction} how to physics lecture notes textbook explanation"
+      "why_it_matters": "",
+      "suggested_search_query": "Hamiltonian The Hamiltonian formalism reveals deep symmetries and conservation laws through its connection to Noether’s theorem {Noether’s physics lecture notes textbook explanation"
     }
   ],
-  "last_updated": "2026-05-04_22-38-43",
-  "count": 8,
-  "parse_note": "No usable claims parsed from LLM output. Using deterministic fallback extraction from draft sentences."
+  "last_updated": "2026-05-06_12-18-45",
+  "count": 5,
+  "parse_note": ""
 }

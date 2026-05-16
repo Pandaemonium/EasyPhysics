@@ -1,26 +1,18 @@
 {
-  "sources_by_claim": {
-    "C001": {
-      "claim": "# Eigenstate ## The core idea An **eigenstate** is a \"definite-answer state\" {eigenstate} — a quantum state where measuring a specific property (like energy or spin) always gives the same result.",
-      "query": "Eigenstate # Eigenstate ## The core idea An **eigenstate** is a \"definite-answer state\" {eigenstate} — a quantum physics lecture notes textbook explanation",
-      "result_snippet": "Tacit in this postulate is that the relevant states which share these equal a priori probabilities are the system eigenstates. ... the statement that both the singlet triple states are symmetric is non-sense: the singlet is still antisymmetric and still an eigenstate, and the most ... I don't believe there is any principle prohibiting a scenario where there is no ground state, but the Hamiltonian is bounded from below. The $\\psi(x)$ in the above equation is a coefficient in an expansion of the state in terms of other states: $$ |\\Psi\\rangle = \\int dx ... This variational principle does only apply to the ground state of a system, so it is said that also HF theory is a ground state theory and can not ...",
-      "searched_at": "2026-05-05_01-11-06",
-      "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
-    },
-    "C002": {
-      "claim": "Think of it as a \"ready-to-measure\" state: if a system is in an eigenstate of an observable, the measurement will \"lock in\" that value.",
-      "query": "Eigenstate Think of it as a \"ready-to-measure\" state: if a system is in an eigenstate of an physics lecture notes textbook explanation",
-      "result_snippet": "Consequently, the demand for all physical observables to be Hermitian seems to be justied from the “rst principles” [3]. Therefore, even a possibility to represent observables using non-Hermitian operators should volens nolens be excluded as their eigenstates are nonorthogonal [4]. (i) State vectors are taken to represent pure states; more precisely, ho-. mogeneous ensembles of equally prepared quantum systems. (ii) The so-called eigenvalue-eigenstate (e-e) link is assumed. It says that. if an observable (Hermitian operator) A, a state vector |φi, and a real. Modal interpretations attempt to solve this problem by deny- ing that an observable for a system has a value only when the state of the system is an eigenstate of the observable. In Healey's words, they \"break the eigenstate-eigenvalue link. An essential feature of this approach is that a system may have a sharp value of an observable even if the dynamical state is not an eigenstate of that same observable. The proposal thus violates the so-called “eigenstate-eigenvalue link”... Since CAT is not an eigenstate of the observable corresponding to the observable Aliveness (whose values are alive and dead) it follows from EER that the unfortunate cat that finds itself in CAT is neither alive nor dead.",
-      "searched_at": "2026-05-05_01-11-08",
-      "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
-    },
-    "C003": {
-      "claim": "**Key clarification**: Unlike classical systems, eigenstates represent probabilistic certainty, not deterministic outcomes.",
-      "query": "Eigenstate **Key clarification**: Unlike classical systems, eigenstates represent probabilistic certainty, not deterministic outcomes. physics lecture notes textbook explanation",
-      "result_snippet": "Outcomes 3d edition в pdf Уровни: Elementary https://disk.yandex.ru/d/99yXvebXxYlAcQ Pre-Intermediate https://disk.yandex.ru/d/m_ntuJ0R7fnEFQ Intermediate https://disk.yandex.ru/d/u5hq9GrcwaXhUA Upper-Intermediate https... Updated notes will be available here as ppt and pdf files after the lecture. Older lecture notes are provided before the class for students who want to consult it before the lecture. Student Outcomes.Lectured by faculty and physicians from Harvard Engineering and Stanford Medicine. Summer 2026 deadline: Friday May 8th, 2026 11:59 PM PST. Apply here. Full Textbook Solutions. Get detailed explanations and key concepts. Unlimited Al creation.Recognizing this property helps in ensuring that complex calculations adhere to expected outcomes and enhance problem-solving strategies in larger systems. Linear Algebra. The links between the notes are visualized with lines, with arrows expressing the direction of the links. You can click on each circle to view the note it represents, and you can zoom in and out using a scroll wheel on your mouse or gestures on your trackpad as needed.",
-      "searched_at": "2026-05-05_01-11-09",
-      "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
-    }
+  "sources_by_claim": {},
+  "summary": {
+    "total_claims": 0,
+    "checked_claim_count": 0,
+    "passing_claim_count": 0,
+    "unchecked_claim_count": 0,
+    "unresolved_or_needs_qualification": 0,
+    "actionable_issue_count": 0,
+    "evidence_retry_count": 0,
+    "claim_review_complete": false,
+    "unchecked_claim_ids": [],
+    "actionable_claim_ids": [],
+    "evidence_retry_claim_ids": [],
+    "highest_priority_fixes": []
   },
-  "last_updated": "2026-05-05_01-11-10"
+  "last_updated": "2026-05-05_17-37-30"
 }

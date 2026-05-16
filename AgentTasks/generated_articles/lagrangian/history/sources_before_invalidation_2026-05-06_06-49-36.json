@@ -1,0 +1,501 @@
+{
+  "sources_by_claim": {
+    "C001": {
+      "claim": "The Lagrangian {L} is defined as the difference between kinetic energy {T} and potential energy {V}: L = T − V.",
+      "search_attempts": [
+        {
+          "status": "ok",
+          "query": "Lagrangian mechanics definition physics textbook",
+          "results": [
+            {
+              "title": "Lagrangian mechanics - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Lagrangian_mechanics",
+              "domain": "en.wikipedia.org",
+              "snippet": "In physics, Lagrangian mechanics is an alternate formulation of classical mechanics founded on the d'Alembert principle of virtual work. It was introduced by the Italian-French mathematician and astronomer Joseph-Louis Lagrange in his presentation to the Turin Academy of Science in 1760 [1] culminating in his 1788 grand opus, Mécanique ..."
+            },
+            {
+              "title": "13.8: More Lagrangian Mechanics Examples - Physics LibreTexts",
+              "url": "https://phys.libretexts.org/Bookshelves/Classical_Mechanics/Classical_Mechanics_(Tatum)/13:_Lagrangian_Mechanics/13.08:_More_Lagrangian_Mechanics_Examples",
+              "domain": "phys.libretexts.org",
+              "snippet": "This page titled 13.8: More Lagrangian Mechanics Examples is shared under a CC BY-NC 4.0 license and was authored, remixed, and/or curated by Jeremy Tatum via source content that was edited to the style and standards of the LibreTexts platform."
+            },
+            {
+              "title": "Lagrangian and Hamiltonian Mechanics - Durham",
+              "url": "https://maths.dur.ac.uk/users/inaki.garcia-etxebarria/MPII/Lectures.html",
+              "domain": "maths.dur.ac.uk",
+              "snippet": "As a consequence, many of the concepts used in the formulation of quantum mechanics already make an appearance in the Lagrangian and Hamiltonian frameworks. Additionally, understanding the classical solutions for a given quantum mechanical system can often serve as a first step towards its full quantum mechanical solution."
+            },
+            {
+              "title": "Classical Mechanics | Artemio González-López - Taylor & Francis eBooks",
+              "url": "https://www.taylorfrancis.com/books/mono/10.1201/9781003600633/classical-mechanics-artemio-gonzález–lópez",
+              "domain": "taylorfrancis.com",
+              "snippet": "Classical Mechanics is a textbook for undergraduate students majoring in Physics (or Mathematics and Physics). The book introduces the main ideas and concepts of Newtonian, Lagrangian, and Hamiltonian mechanics, including the basics of rigid body motion and relativistic dynamics, at an intermediate to advanced level."
+            },
+            {
+              "title": "An Introduction to Lagrangian Mechanics",
+              "url": "https://trappedflux.substack.com/p/an-introduction-to-lagrangian-mechanics",
+              "domain": "trappedflux.substack.com",
+              "snippet": "Lagrangian Mechanics The foundation of Lagrangian mechanics is the principle of stationary action. This is the formalisation of a notion that most of us intuitively have: nature seems to take the path of least resistance. To define this properly, first let's define the action."
+            }
+          ],
+          "urls": [
+            "https://en.wikipedia.org/wiki/Lagrangian_mechanics",
+            "https://phys.libretexts.org/Bookshelves/Classical_Mechanics/Classical_Mechanics_(Tatum)/13:_Lagrangian_Mechanics/13.08:_More_Lagrangian_Mechanics_Examples",
+            "https://maths.dur.ac.uk/users/inaki.garcia-etxebarria/MPII/Lectures.html",
+            "https://www.taylorfrancis.com/books/mono/10.1201/9781003600633/classical-mechanics-artemio-gonzález–lópez",
+            "https://trappedflux.substack.com/p/an-introduction-to-lagrangian-mechanics"
+          ],
+          "result_snippet": "[1] Lagrangian mechanics - Wikipedia\nURL: https://en.wikipedia.org/wiki/Lagrangian_mechanics\nSnippet: In physics, Lagrangian mechanics is an alternate formulation of classical mechanics founded on the d'Alembert principle of virtual work. It was introduced by the Italian-French mathematician and astronomer Joseph-Louis Lagrange in his presentation to the Turin Academy of Science in 1760 [1] culminating in his 1788 grand opus, Mécanique ...\n\n[2] 13.8: More Lagrangian Mechanics Examples - Physics LibreTexts\nURL: https://phys.libretexts.org/Bookshelves/Classical_Mechanics/Classical_Mechanics_(Tatum)/13:_Lagrangian_Mechanics/13.08:_More_Lagrangian_Mechanics_Examples\nSnippet: This page titled 13.8: More Lagrangian Mechanics Examples is shared under a CC BY-NC 4.0 license and was authored, remixed, and/or curated by Jeremy Tatum via source content that was edited to the style and standards of the LibreTexts platform.\n\n[3] Lagrangian and Hamiltonian Mechanics - Durham\nURL: https://maths.dur.ac.uk/users/inaki.garcia-etxebarria/MPII/Lectures.html\nSnippet: As a consequence, many of the concepts used in the formulation of quantum mechanics already make an appearance in the Lagrangian and Hamiltonian frameworks. Additionally, understanding the classical solutions for a given quantum mechanical system can often serve as a first step towards its full quantum mechanical solution.\n\n[4] Classical Mechanics | Artemio González-López - Taylor & Francis eBooks\nURL: https://www.taylorfrancis.com/books/mono/10.1201/9781003600633/classical-mechanics-artemio-gonzález–lópez\nSnippet: Classical Mechanics is a textbook for undergraduate students majoring in Physics (or Mathematics and Physics). The book introduces the main ideas and concepts of Newtonian, Lagrangian, and Hamiltonian mechanics, including the basics of rigid body motion and relativistic dynamics, at an intermediate to advanced level.\n\n[5] An Introduction to Lagrangian Mechanics\nURL: https://trappedflux.substack.com/p/an-introduction-to-lagrangian-mechanics\nSnippet: Lagrangian Mechanics The foundation of Lagrangian mechanics is the principle of stationary action. This is the formalisation of a notion that most of us intuitively have: nature seems to take the path of least resistance. To define this properly, first let's define the action.",
+          "searched_at": "2026-05-06_04-54-27",
+          "attempt_number": 1
+        },
+        {
+          "status": "ok",
+          "query": "Lagrangian The Lagrangian {L} is defined as the difference between kinetic energy {T} and potential energy {V}: L = university physics lecture notes textbook",
+          "results": [
+            {
+              "title": "Lagrangian mechanics - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Lagrangian_mechanics",
+              "domain": "en.wikipedia.org",
+              "snippet": "March 27, 2026 - Lagrangian mechanics describes a mechanical system as a pair (M, L) consisting of a configuration space M and a smooth function ... {\\textstyle L} within that space called a Lagrangian. For many systems, L = T − V, where T and V are the kinetic and potential energy of the system, respectively."
+            },
+            {
+              "title": "Hamiltonian mechanics - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Hamiltonian_mechanics",
+              "domain": "en.wikipedia.org",
+              "snippet": "April 2, 2026 - {\\displaystyle H(p,q)} of the Hamiltonian is the total energy of the system, in this case the sum of kinetic and potential energy, traditionally denoted T and V, respectively. Here p is the momentum mv and q is the space coordinate."
+            },
+            {
+              "title": "Lagrangian (field theory) - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Lagrangian_(field_theory)",
+              "domain": "en.wikipedia.org",
+              "snippet": "3 weeks ago - A large variety of physical systems have been formulated in terms of Lagrangians over fields. Below is a sampling of some of the most common ones found in physics textbooks on field theory. ... {\\displaystyle {\\mathcal {L}}(\\mathbf {x} ,t)=-{1 \\over 8\\pi G}(\\nabla \\Phi (\\mathbf {x} ,t))^{2}-\\rho (\\mathbf {x} ,t)\\Phi (\\mathbf {x} ,t)} where Φ is the gravitational potential, ρ is the mass density, and G in m3·kg−1·s−2 is the gravitational constant."
+            },
+            {
+              "title": "Relativistic Lagrangian mechanics - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Relativistic_Lagrangian_mechanics",
+              "domain": "en.wikipedia.org",
+              "snippet": "February 11, 2026 - in the non-relativistic limit when v is small, the higher order terms not shown are negligible, and the Lagrangian is the non-relativistic kinetic energy as it should be. The remaining term is the negative of the particle's rest energy, a constant ..."
+            },
+            {
+              "title": "Action (physics) - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Action_(physics)",
+              "domain": "en.wikipedia.org",
+              "snippet": "March 24, 2026 - Newton's equations of motion for ... action continues to work. The energy difference in the simple action definition, kinetic minus potential energy, is generalized and called the Lagrangian for more complex cases...."
+            }
+          ],
+          "urls": [
+            "https://en.wikipedia.org/wiki/Lagrangian_mechanics",
+            "https://en.wikipedia.org/wiki/Hamiltonian_mechanics",
+            "https://en.wikipedia.org/wiki/Lagrangian_(field_theory)",
+            "https://en.wikipedia.org/wiki/Relativistic_Lagrangian_mechanics",
+            "https://en.wikipedia.org/wiki/Action_(physics)"
+          ],
+          "result_snippet": "[1] Lagrangian mechanics - Wikipedia\nURL: https://en.wikipedia.org/wiki/Lagrangian_mechanics\nSnippet: March 27, 2026 - Lagrangian mechanics describes a mechanical system as a pair (M, L) consisting of a configuration space M and a smooth function ... {\\textstyle L} within that space called a Lagrangian. For many systems, L = T − V, where T and V are the kinetic and potential energy of the system, respectively.\n\n[2] Hamiltonian mechanics - Wikipedia\nURL: https://en.wikipedia.org/wiki/Hamiltonian_mechanics\nSnippet: April 2, 2026 - {\\displaystyle H(p,q)} of the Hamiltonian is the total energy of the system, in this case the sum of kinetic and potential energy, traditionally denoted T and V, respectively. Here p is the momentum mv and q is the space coordinate.\n\n[3] Lagrangian (field theory) - Wikipedia\nURL: https://en.wikipedia.org/wiki/Lagrangian_(field_theory)\nSnippet: 3 weeks ago - A large variety of physical systems have been formulated in terms of Lagrangians over fields. Below is a sampling of some of the most common ones found in physics textbooks on field theory. ... {\\displaystyle {\\mathcal {L}}(\\mathbf {x} ,t)=-{1 \\over 8\\pi G}(\\nabla \\Phi (\\mathbf {x} ,t))^{2}-\\rho (\\mathbf {x} ,t)\\Phi (\\mathbf {x} ,t)} where Φ is the gravitational potential, ρ is the mass density, and G in m3·kg−1·s−2 is the gravitational constant.\n\n[4] Relativistic Lagrangian mechanics - Wikipedia\nURL: https://en.wikipedia.org/wiki/Relativistic_Lagrangian_mechanics\nSnippet: February 11, 2026 - in the non-relativistic limit when v is small, the higher order terms not shown are negligible, and the Lagrangian is the non-relativistic kinetic energy as it should be. The remaining term is the negative of the particle's rest energy, a constant ...\n\n[5] Action (physics) - Wikipedia\nURL: https://en.wikipedia.org/wiki/Action_(physics)\nSnippet: March 24, 2026 - Newton's equations of motion for ... action continues to work. The energy difference in the simple action definition, kinetic minus potential energy, is generalized and called the Lagrangian for more complex cases....",
+          "searched_at": "2026-05-06_05-30-59",
+          "attempt_number": 2
+        },
+        {
+          "status": "ok",
+          "query": "Lagrangian The Lagrangian {L} is defined as the difference between kinetic energy {T} and potential energy {V}: L = site:edu physics",
+          "results": [
+            {
+              "title": "Lecture: Lagrangian Mechanics 1 1 Lecture: Lagrangian MechanicsLagrange Handout - MIT OpenCourseWareLecture Notes on Lagrangian Mechanics (A Work in Progress)Phys mechanics / lagrangian-mechanics - City University of ...Lagrange's Equation - University of Texas at AustinLAGRANGIAN MECHANICS - UC Santa BarbaraLecture Notes on Lagrangian Mechanics (A Work in Progress)LAGRANGIAN MECHANICS - UC Santa BarbaraLagrange Handout - MIT OpenCourseWareLagrange Handout - MIT OpenCourseWareLagrangian Formulation",
+              "url": "https://www.academia.edu/7208579/Lecture_Lagrangian_Mechanics_1_1_Lecture_Lagrangian_Mechanics",
+              "domain": "academia.edu",
+              "snippet": "Jan 9, 2025 · It elaborates on the significance of configuration space, the definition of the Lagrangian as the difference between kinetic and potential energy, and how it facilitates the derivation of equations of motion through the Euler-Lagrange equation. The left hand side of Equation 4.2 is a function of only T and V, the potential energy and kinetic energy and is straightforward to evaluate once the analyst has found T & V. As V (φ) specifies a vector at each point φ ∈ M, we call V a vector field. The solution φ(t) to these coupled ODEs, subject to some set of initial conditions φ(0), is what we mean by the motion of the system, also called an integral curve. Phys mechanics / lagrangian-mechanics It is helpful to introduce a function , called the Lagrangian, which is defined as the difference between the kinetic and potential energies of the dynamical system under investigation: Fi\n\n...[TRUNCATED]...\n\n equations of motion of a dynamical system using Lagrange equations, one must first determine the number of degrees of freedom, ‘d’, and then choose a set of ‘d’ generalized coordinates, which make up a complete and independent set. formulate the Lagrangian L = T − V where T is the kinetic energy and V is the potential energy. How do you calculate a Lagrangian equation? formulate the Lagrangian L = T − V where T is the kinetic energy and V is the potential energy. The Lagrangian is a function of generalized coordinates qj and generalized velocities q : (4.1) where d is the number of degrees of freedom. The Lagrange Equations are then: The following theorem is one of the most used “principles” in physics, in classical/quan-tum/mechanics/field theory, as it lets us translate between the notions of symmetry and conserved quantities, i.e., an observable quantity that does not change in time."
+            },
+            {
+              "title": "Lagrange Handout - MIT OpenCourseWare",
+              "url": "https://ocw.mit.edu/courses/2-003sc-engineering-dynamics-fall-2011/d1984062464dcc3df68b5741fd37192b_MIT2_003SCF11_Lagrange.pdf",
+              "domain": "ocw.mit.edu",
+              "snippet": "The left hand side of Equation 4.2 is a function of only T and V, the potential energy and kinetic energy and is straightforward to evaluate once the analyst has found T & V."
+            },
+            {
+              "title": "Lecture Notes on Lagrangian Mechanics (A Work in Progress)",
+              "url": "https://courses.physics.ucsd.edu/2022/Fall/physics110a/LECTURES/MECHANICS_110.pdf",
+              "domain": "courses.physics.ucsd.edu",
+              "snippet": "As V (φ) specifies a vector at each point φ ∈ M, we call V a vector field. The solution φ(t) to these coupled ODEs, subject to some set of initial conditions φ(0), is what we mean by the motion of the system, also called an integral curve."
+            },
+            {
+              "title": "Phys mechanics / lagrangian-mechanics - City University of ...",
+              "url": "https://hedberg.ccnysites.cuny.edu/viewers/slides.php?course=mechanics&topic=lagrangian-mechanics&l=cal",
+              "domain": "hedberg.ccnysites.cuny.edu",
+              "snippet": "Phys mechanics / lagrangian-mechanics"
+            },
+            {
+              "title": "LAGRANGIAN MECHANICS - UC Santa Barbara",
+              "url": "https://web.physics.ucsb.edu/~dfolsom/CS32/lagrangian_mechanics.pdf",
+              "domain": "web.physics.ucsb.edu",
+              "snippet": "Find “transformation equations” between coordinate systems In each coordinate system: Express U and T in terms of coordinates Calculate the equations of motion → interpret the results"
+            }
+          ],
+          "urls": [
+            "https://www.academia.edu/7208579/Lecture_Lagrangian_Mechanics_1_1_Lecture_Lagrangian_Mechanics",
+            "https://ocw.mit.edu/courses/2-003sc-engineering-dynamics-fall-2011/d1984062464dcc3df68b5741fd37192b_MIT2_003SCF11_Lagrange.pdf",
+            "https://courses.physics.ucsd.edu/2022/Fall/physics110a/LECTURES/MECHANICS_110.pdf",
+            "https://hedberg.ccnysites.cuny.edu/viewers/slides.php?course=mechanics&topic=lagrangian-mechanics&l=cal",
+            "https://web.physics.ucsb.edu/~dfolsom/CS32/lagrangian_mechanics.pdf"
+          ],
+          "result_snippet": "[1] Lecture: Lagrangian Mechanics 1 1 Lecture: Lagrangian MechanicsLagrange Handout - MIT OpenCourseWareLecture Notes on Lagrangian Mechanics (A Work in Progress)Phys mechanics / lagrangian-mechanics - City University of ...Lagrange's Equation - University of Texas at AustinLAGRANGIAN MECHANICS - UC Santa BarbaraLecture Notes on Lagrangian Mechanics (A Work in Progress)LAGRANGIAN MECHANICS - UC Santa BarbaraLagrange Handout - MIT OpenCourseWareLagrange Handout - MIT OpenCourseWareLagrangian Formulation\nURL: https://www.academia.edu/7208579/Lecture_Lagrangian_Mechanics_1_1_Lecture_Lagrangian_Mechanics\nSnippet: Jan 9, 2025 · It elaborates on the significance of configuration space, the definition of the Lagrangian as the difference between kinetic and potential energy, and how it facilitates the derivation of equations of motion through the Euler-Lagrange equation. The left hand side of Equation 4.2 is a function of only T and V, the potential energy and kinetic energy and is straightforward to evaluate once the analyst has found T & V. As V (φ) specifies a vector at each point φ ∈ M, we call V a vector field. The solution φ(t) to these coupled ODEs, subject to some set of initial conditions φ(0), is what we mean by the motion of the system, also called an integral curve. Phys mechanics / lagrangian-mechanics It is helpful to introduce a function , called the Lagrangian, which is defined as the difference between the kinetic and potential energies of the dynamical system under investigation: Fi\n\n...[TRUNCATED]...\n\n equations of motion of a dynamical system using Lagrange equations, one must first determine the number of degrees of freedom, ‘d’, and then choose a set of ‘d’ generalized coordinates, which make up a complete and independent set. formulate the Lagrangian L = \n\n...[TRUNCATED]...\n\nian L = T − V where T is the kinetic energy and V is the potential energy. The Lagrangian is a function of generalized coordinates qj and generalized velocities q : (4.1) where d is the number of degrees of freedom. The Lagrange Equations are then: The following theorem is one of the most used “principles” in physics, in classical/quan-tum/mechanics/field theory, as it lets us translate between the notions of symmetry and conserved quantities, i.e., an observable quantity that does not change in time.\n\n[2] Lagrange Handout - MIT OpenCourseWare\nURL: https://ocw.mit.edu/courses/2-003sc-engineering-dynamics-fall-2011/d1984062464dcc3df68b5741fd37192b_MIT2_003SCF11_Lagrange.pdf\nSnippet: The left hand side of Equation 4.2 is a function of only T and V, the potential energy and kinetic energy and is straightforward to evaluate once the analyst has found T & V.\n\n[3] Lecture Notes on Lagrangian Mechanics (A Work in Progress)\nURL: https://courses.physics.ucsd.edu/2022/Fall/physics110a/LECTURES/MECHANICS_110.pdf\nSnippet: As V (φ) specifies a vector at each point φ ∈ M, we call V a vector field. The solution φ(t) to these coupled ODEs, subject to some set of initial conditions φ(0), is what we mean by the motion of the system, also called an integral curve.\n\n[4] Phys mechanics / lagrangian-mechanics - City University of ...\nURL: https://hedberg.ccnysites.cuny.edu/viewers/slides.php?course=mechanics&topic=lagrangian-mechanics&l=cal\nSnippet: Phys mechanics / lagrangian-mechanics\n\n[5] LAGRANGIAN MECHANICS - UC Santa Barbara\nURL: https://web.physics.ucsb.edu/~dfolsom/CS32/lagrangian_mechanics.pdf\nSnippet: Find “transformation equations” between coordinate systems In each coordinate system: Express U and T in terms of coordinates Calculate the equations of motion → interpret the results",
+          "searched_at": "2026-05-06_06-07-24",
+          "attempt_number": 3
+        }
+      ],
+      "query": "Lagrangian The Lagrangian {L} is defined as the difference between kinetic energy {T} and potential energy {V}: L = site:edu physics",
+      "search_status": "ok",
+      "result_snippet": "[1] Lecture: Lagrangian Mechanics 1 1 Lecture: Lagrangian MechanicsLagrange Handout - MIT OpenCourseWareLecture Notes on Lagrangian Mechanics (A Work in Progress)Phys mechanics / lagrangian-mechanics - City University of ...Lagrange's Equation - University of Texas at AustinLAGRANGIAN MECHANICS - UC Santa BarbaraLecture Notes on Lagrangian Mechanics (A Work in Progress)LAGRANGIAN MECHANICS - UC Santa BarbaraLagrange Handout - MIT OpenCourseWareLagrange Handout - MIT OpenCourseWareLagrangian Formulation\nURL: https://www.academia.edu/7208579/Lecture_Lagrangian_Mechanics_1_1_Lecture_Lagrangian_Mechanics\nSnippet: Jan 9, 2025 · It elaborates on the significance of configuration space, the definition of the Lagrangian as the difference between kinetic and potential energy, and how it facilitates the derivation of equations of motion through the Euler-Lagrange equation. The left hand side of Equation 4.2 is a function of only T and V, the potential energy and kinetic energy and is straightforward to evaluate once the analyst has found T & V. As V (φ) specifies a vector at each point φ ∈ M, we call V a vector field. The solution φ(t) to these coupled ODEs, subject to some set of initial conditions φ(0), is what we mean by the motion of the system, also called an integral curve. Phys mechanics / lagrangian-mechanics It is helpful to introduce a function , called the Lagrangian, which is defined as the difference between the kinetic and potential energies of the dynamical system under investigation: Fi\n\n...[TRUNCATED]...\n\n equations of motion of a dynamical system using Lagrange equations, one must first determine the number of degrees of freedom, ‘d’, and then choose a set of ‘d’ generalized coordinates, which make up a complete and independent set. formulate the Lagrangian L = \n\n...[TRUNCATED]...\n\nian L = T − V where T is the kinetic energy and V is the potential energy. The Lagrangian is a function of generalized coordinates qj and generalized velocities q : (4.1) where d is the number of degrees of freedom. The Lagrange Equations are then: The following theorem is one of the most used “principles” in physics, in classical/quan-tum/mechanics/field theory, as it lets us translate between the notions of symmetry and conserved quantities, i.e., an observable quantity that does not change in time.\n\n[2] Lagrange Handout - MIT OpenCourseWare\nURL: https://ocw.mit.edu/courses/2-003sc-engineering-dynamics-fall-2011/d1984062464dcc3df68b5741fd37192b_MIT2_003SCF11_Lagrange.pdf\nSnippet: The left hand side of Equation 4.2 is a function of only T and V, the potential energy and kinetic energy and is straightforward to evaluate once the analyst has found T & V.\n\n[3] Lecture Notes on Lagrangian Mechanics (A Work in Progress)\nURL: https://courses.physics.ucsd.edu/2022/Fall/physics110a/LECTURES/MECHANICS_110.pdf\nSnippet: As V (φ) specifies a vector at each point φ ∈ M, we call V a vector field. The solution φ(t) to these coupled ODEs, subject to some set of initial conditions φ(0), is what we mean by the motion of the system, also called an integral curve.\n\n[4] Phys mechanics / lagrangian-mechanics - City University of ...\nURL: https://hedberg.ccnysites.cuny.edu/viewers/slides.php?course=mechanics&topic=lagrangian-mechanics&l=cal\nSnippet: Phys mechanics / lagrangian-mechanics\n\n[5] LAGRANGIAN MECHANICS - UC Santa Barbara\nURL: https://web.physics.ucsb.edu/~dfolsom/CS32/lagrangian_mechanics.pdf\nSnippet: Find “transformation equations” between coordinate systems In each coordinate system: Express U and T in terms of coordinates Calculate the equations of motion → interpret the results",
+      "results": [
+        {
+          "title": "Lecture: Lagrangian Mechanics 1 1 Lecture: Lagrangian MechanicsLagrange Handout - MIT OpenCourseWareLecture Notes on Lagrangian Mechanics (A Work in Progress)Phys mechanics / lagrangian-mechanics - City University of ...Lagrange's Equation - University of Texas at AustinLAGRANGIAN MECHANICS - UC Santa BarbaraLecture Notes on Lagrangian Mechanics (A Work in Progress)LAGRANGIAN MECHANICS - UC Santa BarbaraLagrange Handout - MIT OpenCourseWareLagrange Handout - MIT OpenCourseWareLagrangian Formulation",
+          "url": "https://www.academia.edu/7208579/Lecture_Lagrangian_Mechanics_1_1_Lecture_Lagrangian_Mechanics",
+          "domain": "academia.edu",
+          "snippet": "Jan 9, 2025 · It elaborates on the significance of configuration space, the definition of the Lagrangian as the difference between kinetic and potential energy, and how it facilitates the derivation of equations of motion through the Euler-Lagrange equation. The left hand side of Equation 4.2 is a function of only T and V, the potential energy and kinetic energy and is straightforward to evaluate once the analyst has found T & V. As V (φ) specifies a vector at each point φ ∈ M, we call V a vector field. The solution φ(t) to these coupled ODEs, subject to some set of initial conditions φ(0), is what we mean by the motion of the system, also called an integral curve. Phys mechanics / lagrangian-mechanics It is helpful to introduce a function , called the Lagrangian, which is defined as the difference between the kinetic and potential energies of the dynamical system under investigation: Fi\n\n...[TRUNCATED]...\n\n equations of motion of a dynamical system using Lagrange equations, one must first determine the number of degrees of freedom, ‘d’, and then choose a set of ‘d’ generalized coordinates, which make up a complete and independent set. formulate the Lagrangian L = T − V where T is the kinetic energy and V is the potential energy. How do you calculate a Lagrangian equation? formulate the Lagrangian L = T − V where T is the kinetic energy and V is the potential energy. The Lagrangian is a function of generalized coordinates qj and generalized velocities q : (4.1) where d is the number of degrees of freedom. The Lagrange Equations are then: The following theorem is one of the most used “principles” in physics, in classical/quan-tum/mechanics/field theory, as it lets us translate between the notions of symmetry and conserved quantities, i.e., an observable quantity that does not change in time."
+        },
+        {
+          "title": "Lagrange Handout - MIT OpenCourseWare",
+          "url": "https://ocw.mit.edu/courses/2-003sc-engineering-dynamics-fall-2011/d1984062464dcc3df68b5741fd37192b_MIT2_003SCF11_Lagrange.pdf",
+          "domain": "ocw.mit.edu",
+          "snippet": "The left hand side of Equation 4.2 is a function of only T and V, the potential energy and kinetic energy and is straightforward to evaluate once the analyst has found T & V."
+        },
+        {
+          "title": "Lecture Notes on Lagrangian Mechanics (A Work in Progress)",
+          "url": "https://courses.physics.ucsd.edu/2022/Fall/physics110a/LECTURES/MECHANICS_110.pdf",
+          "domain": "courses.physics.ucsd.edu",
+          "snippet": "As V (φ) specifies a vector at each point φ ∈ M, we call V a vector field. The solution φ(t) to these coupled ODEs, subject to some set of initial conditions φ(0), is what we mean by the motion of the system, also called an integral curve."
+        },
+        {
+          "title": "Phys mechanics / lagrangian-mechanics - City University of ...",
+          "url": "https://hedberg.ccnysites.cuny.edu/viewers/slides.php?course=mechanics&topic=lagrangian-mechanics&l=cal",
+          "domain": "hedberg.ccnysites.cuny.edu",
+          "snippet": "Phys mechanics / lagrangian-mechanics"
+        },
+        {
+          "title": "LAGRANGIAN MECHANICS - UC Santa Barbara",
+          "url": "https://web.physics.ucsb.edu/~dfolsom/CS32/lagrangian_mechanics.pdf",
+          "domain": "web.physics.ucsb.edu",
+          "snippet": "Find “transformation equations” between coordinate systems In each coordinate system: Express U and T in terms of coordinates Calculate the equations of motion → interpret the results"
+        }
+      ],
+      "urls": [
+        "https://www.academia.edu/7208579/Lecture_Lagrangian_Mechanics_1_1_Lecture_Lagrangian_Mechanics",
+        "https://ocw.mit.edu/courses/2-003sc-engineering-dynamics-fall-2011/d1984062464dcc3df68b5741fd37192b_MIT2_003SCF11_Lagrange.pdf",
+        "https://courses.physics.ucsd.edu/2022/Fall/physics110a/LECTURES/MECHANICS_110.pdf",
+        "https://hedberg.ccnysites.cuny.edu/viewers/slides.php?course=mechanics&topic=lagrangian-mechanics&l=cal",
+        "https://web.physics.ucsb.edu/~dfolsom/CS32/lagrangian_mechanics.pdf"
+      ],
+      "attempt_count": 3,
+      "searched_at": "2026-05-06_06-07-24",
+      "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
+    },
+    "C002": {
+      "claim": "The principle of stationary action states that nature selects the path where the action {S} (integral of the Lagrangian over time) is stationary (minimum, maximum, or saddle point).",
+      "search_attempts": [
+        {
+          "status": "ok",
+          "query": "principle of stationary action physics derivation",
+          "results": [
+            {
+              "title": "Action principles - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Action_principles",
+              "domain": "en.wikipedia.org",
+              "snippet": "March 24, 2026 - Action principles start with an energy function called a Lagrangian describing the physical system. The accumulated value of this energy function between two states of the system is called the action. Action principles apply the calculus of variation to the action. The action depends on the energy function, and the energy function depends on the position, motion, and interactions in the system: variation of the action allows the derivation of the equations of motion without vectors or forces."
+            },
+            {
+              "title": "Hamilton's principle - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Hamilton's_principle",
+              "domain": "en.wikipedia.org",
+              "snippet": "March 14, 2026 - In physics, Hamilton's principle is William Rowan Hamilton's formulation of the principle of stationary action. It states that the dynamics of a physical system are determined by a variational problem for a functional based on a single function, the Lagrangian, which may contain all physical information concerning the system and the forces acting on it. The variational problem is equivalent to and allows for the derivation of the differential equations of motion of the physical system."
+            },
+            {
+              "title": "Action (physics) - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Action_(physics)",
+              "domain": "en.wikipedia.org",
+              "snippet": "March 24, 2026 - According to Hamilton's principle, the true evolution qtrue(t) is an evolution for which the action 𝒮[q(t)] is stationary (a minimum, maximum, or a saddle point). This principle results in the equations of motion in Lagrangian mechanics. In addition to the action functional, there is another ..."
+            },
+            {
+              "title": "Einstein–Hilbert action - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Einstein–Hilbert_action",
+              "domain": "en.wikipedia.org",
+              "snippet": "January 14, 2026 - The Einstein–Hilbert action in general relativity yields the Einstein field equations through the principle of stationary action. With the ... {\\displaystyle c} is the speed of light in vacuum. If it converges, the integral is taken over the whole spacetime."
+            },
+            {
+              "title": "Lagrangian mechanics - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Lagrangian_mechanics",
+              "domain": "en.wikipedia.org",
+              "snippet": "March 27, 2026 - The stationary action principle requires that the action functional of the system derived from L must remain at a stationary point (specifically, a maximum, minimum, or saddle point) throughout the time evolution of the system."
+            }
+          ],
+          "urls": [
+            "https://en.wikipedia.org/wiki/Action_principles",
+            "https://en.wikipedia.org/wiki/Hamilton's_principle",
+            "https://en.wikipedia.org/wiki/Action_(physics)",
+            "https://en.wikipedia.org/wiki/Einstein–Hilbert_action",
+            "https://en.wikipedia.org/wiki/Lagrangian_mechanics"
+          ],
+          "result_snippet": "[1] Action principles - Wikipedia\nURL: https://en.wikipedia.org/wiki/Action_principles\nSnippet: March 24, 2026 - Action principles start with an energy function called a Lagrangian describing the physical system. The accumulated value of this energy function between two states of the system is called the action. Action principles apply the calculus of variation to the action. The action depends on the energy function, and the energy function depends on the position, motion, and interactions in the system: variation of the action allows the derivation of the equations of motion without vectors or forces.\n\n[2] Hamilton's principle - Wikipedia\nURL: https://en.wikipedia.org/wiki/Hamilton's_principle\nSnippet: March 14, 2026 - In physics, Hamilton's principle is William Rowan Hamilton's formulation of the principle of stationary action. It states that the dynamics of a physical system are determined by a variational problem for a functional based on a single function, the Lagrangian, which may contain all physical information concerning the system and the forces acting on it. The variational problem is equivalent to and allows for the derivation of the differential equations of motion of the physical system.\n\n[3] Action (physics) - Wikipedia\nURL: https://en.wikipedia.org/wiki/Action_(physics)\nSnippet: March 24, 2026 - According to Hamilton's principle, the true evolution qtrue(t) is an evolution for which the action 𝒮[q(t)] is stationary (a minimum, maximum, or a saddle point). This principle results in the equations of motion in Lagrangian mechanics. In addition to the action functional, there is another ...\n\n[4] Einstein–Hilbert action - Wikipedia\nURL: https://en.wikipedia.org/wiki/Einstein–Hilbert_action\nSnippet: January 14, 2026 - The Einstein–Hilbert action in general relativity yields the Einstein field equations through the principle of stationary action. With the ... {\\displaystyle c} is the speed of light in vacuum. If it converges, the integral is taken over the whole spacetime.\n\n[5] Lagrangian mechanics - Wikipedia\nURL: https://en.wikipedia.org/wiki/Lagrangian_mechanics\nSnippet: March 27, 2026 - The stationary action principle requires that the action functional of the system derived from L must remain at a stationary point (specifically, a maximum, minimum, or saddle point) throughout the time evolution of the system.",
+          "searched_at": "2026-05-06_04-54-32",
+          "attempt_number": 1
+        }
+      ],
+      "query": "principle of stationary action physics derivation",
+      "search_status": "ok",
+      "result_snippet": "[1] Action principles - Wikipedia\nURL: https://en.wikipedia.org/wiki/Action_principles\nSnippet: March 24, 2026 - Action principles start with an energy function called a Lagrangian describing the physical system. The accumulated value of this energy function between two states of the system is called the action. Action principles apply the calculus of variation to the action. The action depends on the energy function, and the energy function depends on the position, motion, and interactions in the system: variation of the action allows the derivation of the equations of motion without vectors or forces.\n\n[2] Hamilton's principle - Wikipedia\nURL: https://en.wikipedia.org/wiki/Hamilton's_principle\nSnippet: March 14, 2026 - In physics, Hamilton's principle is William Rowan Hamilton's formulation of the principle of stationary action. It states that the dynamics of a physical system are determined by a variational problem for a functional based on a single function, the Lagrangian, which may contain all physical information concerning the system and the forces acting on it. The variational problem is equivalent to and allows for the derivation of the differential equations of motion of the physical system.\n\n[3] Action (physics) - Wikipedia\nURL: https://en.wikipedia.org/wiki/Action_(physics)\nSnippet: March 24, 2026 - According to Hamilton's principle, the true evolution qtrue(t) is an evolution for which the action 𝒮[q(t)] is stationary (a minimum, maximum, or a saddle point). This principle results in the equations of motion in Lagrangian mechanics. In addition to the action functional, there is another ...\n\n[4] Einstein–Hilbert action - Wikipedia\nURL: https://en.wikipedia.org/wiki/Einstein–Hilbert_action\nSnippet: January 14, 2026 - The Einstein–Hilbert action in general relativity yields the Einstein field equations through the principle of stationary action. With the ... {\\displaystyle c} is the speed of light in vacuum. If it converges, the integral is taken over the whole spacetime.\n\n[5] Lagrangian mechanics - Wikipedia\nURL: https://en.wikipedia.org/wiki/Lagrangian_mechanics\nSnippet: March 27, 2026 - The stationary action principle requires that the action functional of the system derived from L must remain at a stationary point (specifically, a maximum, minimum, or saddle point) throughout the time evolution of the system.",
+      "results": [
+        {
+          "title": "Action principles - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Action_principles",
+          "domain": "en.wikipedia.org",
+          "snippet": "March 24, 2026 - Action principles start with an energy function called a Lagrangian describing the physical system. The accumulated value of this energy function between two states of the system is called the action. Action principles apply the calculus of variation to the action. The action depends on the energy function, and the energy function depends on the position, motion, and interactions in the system: variation of the action allows the derivation of the equations of motion without vectors or forces."
+        },
+        {
+          "title": "Hamilton's principle - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Hamilton's_principle",
+          "domain": "en.wikipedia.org",
+          "snippet": "March 14, 2026 - In physics, Hamilton's principle is William Rowan Hamilton's formulation of the principle of stationary action. It states that the dynamics of a physical system are determined by a variational problem for a functional based on a single function, the Lagrangian, which may contain all physical information concerning the system and the forces acting on it. The variational problem is equivalent to and allows for the derivation of the differential equations of motion of the physical system."
+        },
+        {
+          "title": "Action (physics) - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Action_(physics)",
+          "domain": "en.wikipedia.org",
+          "snippet": "March 24, 2026 - According to Hamilton's principle, the true evolution qtrue(t) is an evolution for which the action 𝒮[q(t)] is stationary (a minimum, maximum, or a saddle point). This principle results in the equations of motion in Lagrangian mechanics. In addition to the action functional, there is another ..."
+        },
+        {
+          "title": "Einstein–Hilbert action - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Einstein–Hilbert_action",
+          "domain": "en.wikipedia.org",
+          "snippet": "January 14, 2026 - The Einstein–Hilbert action in general relativity yields the Einstein field equations through the principle of stationary action. With the ... {\\displaystyle c} is the speed of light in vacuum. If it converges, the integral is taken over the whole spacetime."
+        },
+        {
+          "title": "Lagrangian mechanics - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Lagrangian_mechanics",
+          "domain": "en.wikipedia.org",
+          "snippet": "March 27, 2026 - The stationary action principle requires that the action functional of the system derived from L must remain at a stationary point (specifically, a maximum, minimum, or saddle point) throughout the time evolution of the system."
+        }
+      ],
+      "urls": [
+        "https://en.wikipedia.org/wiki/Action_principles",
+        "https://en.wikipedia.org/wiki/Hamilton's_principle",
+        "https://en.wikipedia.org/wiki/Action_(physics)",
+        "https://en.wikipedia.org/wiki/Einstein–Hilbert_action",
+        "https://en.wikipedia.org/wiki/Lagrangian_mechanics"
+      ],
+      "attempt_count": 1,
+      "searched_at": "2026-05-06_04-54-32",
+      "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
+    },
+    "C003": {
+      "claim": "The Lagrangian framework reveals conservation laws (e.g., energy, momentum) as consequences of symmetries in space and time.",
+      "search_attempts": [
+        {
+          "status": "ok",
+          "query": "Noether's theorem Lagrangian symmetry",
+          "results": [
+            {
+              "title": "Noether's theorem - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Noether's_theorem",
+              "domain": "en.wikipedia.org",
+              "snippet": "Noether's theorem states that every continuous symmetry of the action of a physical system with conservative forces has a corresponding conservation law. This is the first of two theorems (see Noether's second theorem) published by the mathematician Emmy Noether in 1918. [1] The action of a physical system is the integral over time of a Lagrangian function, from which the system's behavior can ..."
+            },
+            {
+              "title": "Noether's theorem in nLab - ncatlab.org",
+              "url": "https://ncatlab.org/nlab/show/Noether's+theorem",
+              "domain": "ncatlab.org",
+              "snippet": "What is commonly called Noether's theorem or Noether's first theorem is a theorem due to Emmy Noether (Noether 1918) which makes precise and asserts that to every continuous symmetry of the Lagrangian physical system (prequantum field theory) there is naturally associated a conservation law stating the conservation of a charge (conserved ..."
+            },
+            {
+              "title": "Constraints on symmetries for Lagrangian formulation of Noether's theorem",
+              "url": "https://physics.stackexchange.com/questions/871082/constraints-on-symmetries-for-lagrangian-formulation-of-noethers-theorem",
+              "domain": "physics.stackexchange.com",
+              "snippet": "In other words, the Euler-Lagrange equations cannot be used to obtain the (quasi)symmetry itself; it is a non-trivial property of the Lagrangian. Otherwise, since any variation is a quasisymmetry on-shell, the resultant conservation law is trivial. Let's recall the derivation of Noether's theorem."
+            },
+            {
+              "title": "Conservation Laws from Symmetry - ccrma.stanford.edu",
+              "url": "https://ccrma.stanford.edu/~jos/Lagrangians/Conservation_Laws_Symmetry.html",
+              "domain": "ccrma.stanford.edu",
+              "snippet": "This profound connection between symmetries and conservation laws is Noether's theorem (Emmy Noether, 1918)."
+            },
+            {
+              "title": "Beyond Lagrangians: Noether's theorem in gradient flow PDEs",
+              "url": "https://link.aps.org/doi/10.1103/5jbb-df5h",
+              "domain": "link.aps.org",
+              "snippet": "Noether's theorem is traditionally applied to Lagrangian systems to identify conserved quantities. In this work, we apply Noether's theorem instead to a broad class of non-Lagrangian gradient flow partial differential equations (PDEs) arising in physics, showing how continuous symmetries constrain the evolution of such systems and, in certain special cases, still give rise to conserved ..."
+            }
+          ],
+          "urls": [
+            "https://en.wikipedia.org/wiki/Noether's_theorem",
+            "https://ncatlab.org/nlab/show/Noether's+theorem",
+            "https://physics.stackexchange.com/questions/871082/constraints-on-symmetries-for-lagrangian-formulation-of-noethers-theorem",
+            "https://ccrma.stanford.edu/~jos/Lagrangians/Conservation_Laws_Symmetry.html",
+            "https://link.aps.org/doi/10.1103/5jbb-df5h"
+          ],
+          "result_snippet": "[1] Noether's theorem - Wikipedia\nURL: https://en.wikipedia.org/wiki/Noether's_theorem\nSnippet: Noether's theorem states that every continuous symmetry of the action of a physical system with conservative forces has a corresponding conservation law. This is the first of two theorems (see Noether's second theorem) published by the mathematician Emmy Noether in 1918. [1] The action of a physical system is the integral over time of a Lagrangian function, from which the system's behavior can ...\n\n[2] Noether's theorem in nLab - ncatlab.org\nURL: https://ncatlab.org/nlab/show/Noether's+theorem\nSnippet: What is commonly called Noether's theorem or Noether's first theorem is a theorem due to Emmy Noether (Noether 1918) which makes precise and asserts that to every continuous symmetry of the Lagrangian physical system (prequantum field theory) there is naturally associated a conservation law stating the conservation of a charge (conserved ...\n\n[3] Constraints on symmetries for Lagrangian formulation of Noether's theorem\nURL: https://physics.stackexchange.com/questions/871082/constraints-on-symmetries-for-lagrangian-formulation-of-noethers-theorem\nSnippet: In other words, the Euler-Lagrange equations cannot be used to obtain the (quasi)symmetry itself; it is a non-trivial property of the Lagrangian. Otherwise, since any variation is a quasisymmetry on-shell, the resultant conservation law is trivial. Let's recall the derivation of Noether's theorem.\n\n[4] Conservation Laws from Symmetry - ccrma.stanford.edu\nURL: https://ccrma.stanford.edu/~jos/Lagrangians/Conservation_Laws_Symmetry.html\nSnippet: This profound connection between symmetries and conservation laws is Noether's theorem (Emmy Noether, 1918).\n\n[5] Beyond Lagrangians: Noether's theorem in gradient flow PDEs\nURL: https://link.aps.org/doi/10.1103/5jbb-df5h\nSnippet: Noether's theorem is traditionally applied to Lagrangian systems to identify conserved quantities. In this work, we apply Noether's theorem instead to a broad class of non-Lagrangian gradient flow partial differential equations (PDEs) arising in physics, showing how continuous symmetries constrain the evolution of such systems and, in certain special cases, still give rise to conserved ...",
+          "searched_at": "2026-05-06_04-54-36",
+          "attempt_number": 1
+        }
+      ],
+      "query": "Noether's theorem Lagrangian symmetry",
+      "search_status": "ok",
+      "result_snippet": "[1] Noether's theorem - Wikipedia\nURL: https://en.wikipedia.org/wiki/Noether's_theorem\nSnippet: Noether's theorem states that every continuous symmetry of the action of a physical system with conservative forces has a corresponding conservation law. This is the first of two theorems (see Noether's second theorem) published by the mathematician Emmy Noether in 1918. [1] The action of a physical system is the integral over time of a Lagrangian function, from which the system's behavior can ...\n\n[2] Noether's theorem in nLab - ncatlab.org\nURL: https://ncatlab.org/nlab/show/Noether's+theorem\nSnippet: What is commonly called Noether's theorem or Noether's first theorem is a theorem due to Emmy Noether (Noether 1918) which makes precise and asserts that to every continuous symmetry of the Lagrangian physical system (prequantum field theory) there is naturally associated a conservation law stating the conservation of a charge (conserved ...\n\n[3] Constraints on symmetries for Lagrangian formulation of Noether's theorem\nURL: https://physics.stackexchange.com/questions/871082/constraints-on-symmetries-for-lagrangian-formulation-of-noethers-theorem\nSnippet: In other words, the Euler-Lagrange equations cannot be used to obtain the (quasi)symmetry itself; it is a non-trivial property of the Lagrangian. Otherwise, since any variation is a quasisymmetry on-shell, the resultant conservation law is trivial. Let's recall the derivation of Noether's theorem.\n\n[4] Conservation Laws from Symmetry - ccrma.stanford.edu\nURL: https://ccrma.stanford.edu/~jos/Lagrangians/Conservation_Laws_Symmetry.html\nSnippet: This profound connection between symmetries and conservation laws is Noether's theorem (Emmy Noether, 1918).\n\n[5] Beyond Lagrangians: Noether's theorem in gradient flow PDEs\nURL: https://link.aps.org/doi/10.1103/5jbb-df5h\nSnippet: Noether's theorem is traditionally applied to Lagrangian systems to identify conserved quantities. In this work, we apply Noether's theorem instead to a broad class of non-Lagrangian gradient flow partial differential equations (PDEs) arising in physics, showing how continuous symmetries constrain the evolution of such systems and, in certain special cases, still give rise to conserved ...",
+      "results": [
+        {
+          "title": "Noether's theorem - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Noether's_theorem",
+          "domain": "en.wikipedia.org",
+          "snippet": "Noether's theorem states that every continuous symmetry of the action of a physical system with conservative forces has a corresponding conservation law. This is the first of two theorems (see Noether's second theorem) published by the mathematician Emmy Noether in 1918. [1] The action of a physical system is the integral over time of a Lagrangian function, from which the system's behavior can ..."
+        },
+        {
+          "title": "Noether's theorem in nLab - ncatlab.org",
+          "url": "https://ncatlab.org/nlab/show/Noether's+theorem",
+          "domain": "ncatlab.org",
+          "snippet": "What is commonly called Noether's theorem or Noether's first theorem is a theorem due to Emmy Noether (Noether 1918) which makes precise and asserts that to every continuous symmetry of the Lagrangian physical system (prequantum field theory) there is naturally associated a conservation law stating the conservation of a charge (conserved ..."
+        },
+        {
+          "title": "Constraints on symmetries for Lagrangian formulation of Noether's theorem",
+          "url": "https://physics.stackexchange.com/questions/871082/constraints-on-symmetries-for-lagrangian-formulation-of-noethers-theorem",
+          "domain": "physics.stackexchange.com",
+          "snippet": "In other words, the Euler-Lagrange equations cannot be used to obtain the (quasi)symmetry itself; it is a non-trivial property of the Lagrangian. Otherwise, since any variation is a quasisymmetry on-shell, the resultant conservation law is trivial. Let's recall the derivation of Noether's theorem."
+        },
+        {
+          "title": "Conservation Laws from Symmetry - ccrma.stanford.edu",
+          "url": "https://ccrma.stanford.edu/~jos/Lagrangians/Conservation_Laws_Symmetry.html",
+          "domain": "ccrma.stanford.edu",
+          "snippet": "This profound connection between symmetries and conservation laws is Noether's theorem (Emmy Noether, 1918)."
+        },
+        {
+          "title": "Beyond Lagrangians: Noether's theorem in gradient flow PDEs",
+          "url": "https://link.aps.org/doi/10.1103/5jbb-df5h",
+          "domain": "link.aps.org",
+          "snippet": "Noether's theorem is traditionally applied to Lagrangian systems to identify conserved quantities. In this work, we apply Noether's theorem instead to a broad class of non-Lagrangian gradient flow partial differential equations (PDEs) arising in physics, showing how continuous symmetries constrain the evolution of such systems and, in certain special cases, still give rise to conserved ..."
+        }
+      ],
+      "urls": [
+        "https://en.wikipedia.org/wiki/Noether's_theorem",
+        "https://ncatlab.org/nlab/show/Noether's+theorem",
+        "https://physics.stackexchange.com/questions/871082/constraints-on-symmetries-for-lagrangian-formulation-of-noethers-theorem",
+        "https://ccrma.stanford.edu/~jos/Lagrangians/Conservation_Laws_Symmetry.html",
+        "https://link.aps.org/doi/10.1103/5jbb-df5h"
+      ],
+      "attempt_count": 1,
+      "searched_at": "2026-05-06_04-54-36",
+      "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
+    },
+    "C004": {
+      "claim": "The Euler-Lagrange equation {d/dt(∂L/∂q̇) − ∂L/∂q = 0} provides the mathematical prescription for deriving equations of motion from the Lagrangian.",
+      "search_attempts": [
+        {
+          "status": "ok",
+          "query": "Euler-Lagrange equation derivation",
+          "results": [
+            {
+              "title": "Euler–Lagrange equation - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Euler–Lagrange_equation",
+              "domain": "en.wikipedia.org",
+              "snippet": "The derivation of the one-dimensional Euler–Lagrange equation is one of the classic proofs in mathematics. It relies on the fundamental lemma of calculus of variations."
+            },
+            {
+              "title": "11.3: Derivation of the Euler-Lagrange Equation - Engineering ...",
+              "url": "https://eng.libretexts.org/Bookshelves/Electrical_Engineering/Electro-Optics/Direct_Energy_(Mitofsky)/11:_Calculus_of_Variations/11.03:_Derivation_of_the_Euler-Lagrange_Equation",
+              "domain": "eng.libretexts.org",
+              "snippet": "This page covers the derivation and significance of the Euler-Lagrange equation from the Principle of Least Action, emphasizing its connection to Hamilton's equations."
+            },
+            {
+              "title": "Euler-Lagrange Differential Equation - from Wolfram MathWorld",
+              "url": "https://mathworld.wolfram.com/Euler-LagrangeDifferentialEquation.html",
+              "domain": "mathworld.wolfram.com",
+              "snippet": "4 days ago · The Euler-Lagrange differential equation is the fundamental equation of calculus of variations."
+            },
+            {
+              "title": "Classical Mechanics LECTURE 25: THE LAGRANGE EQUATION DERIVED ...",
+              "url": "https://users.physics.ox.ac.uk/~harnew/lectures/lecture25-mechanics-handout.pdf",
+              "domain": "users.physics.ox.ac.uk",
+              "snippet": "OUTLINE : 25. THE LAGRANGE EQUATION DERIVED VIA THE CALCULUS OF VARIATIONS 25.1 The Lagrangian : simplest illustration"
+            },
+            {
+              "title": "Variational Calculus Part 2: The Euler-Lagrange Equation",
+              "url": "https://jiha-kim.github.io/crash-courses/variational-calculus/2-euler-lagrange-equation/",
+              "domain": "jiha-kim.github.io",
+              "snippet": "The derivation of the Euler-Lagrange equation is a monumental step in variational calculus. It converts the problem of optimizing over an infinite-dimensional space of functions into the more familiar problem of solving a differential equation."
+            }
+          ],
+          "urls": [
+            "https://en.wikipedia.org/wiki/Euler–Lagrange_equation",
+            "https://eng.libretexts.org/Bookshelves/Electrical_Engineering/Electro-Optics/Direct_Energy_(Mitofsky)/11:_Calculus_of_Variations/11.03:_Derivation_of_the_Euler-Lagrange_Equation",
+            "https://mathworld.wolfram.com/Euler-LagrangeDifferentialEquation.html",
+            "https://users.physics.ox.ac.uk/~harnew/lectures/lecture25-mechanics-handout.pdf",
+            "https://jiha-kim.github.io/crash-courses/variational-calculus/2-euler-lagrange-equation/"
+          ],
+          "result_snippet": "[1] Euler–Lagrange equation - Wikipedia\nURL: https://en.wikipedia.org/wiki/Euler–Lagrange_equation\nSnippet: The derivation of the one-dimensional Euler–Lagrange equation is one of the classic proofs in mathematics. It relies on the fundamental lemma of calculus of variations.\n\n[2] 11.3: Derivation of the Euler-Lagrange Equation - Engineering ...\nURL: https://eng.libretexts.org/Bookshelves/Electrical_Engineering/Electro-Optics/Direct_Energy_(Mitofsky)/11:_Calculus_of_Variations/11.03:_Derivation_of_the_Euler-Lagrange_Equation\nSnippet: This page covers the derivation and significance of the Euler-Lagrange equation from the Principle of Least Action, emphasizing its connection to Hamilton's equations.\n\n[3] Euler-Lagrange Differential Equation - from Wolfram MathWorld\nURL: https://mathworld.wolfram.com/Euler-LagrangeDifferentialEquation.html\nSnippet: 4 days ago · The Euler-Lagrange differential equation is the fundamental equation of calculus of variations.\n\n[4] Classical Mechanics LECTURE 25: THE LAGRANGE EQUATION DERIVED ...\nURL: https://users.physics.ox.ac.uk/~harnew/lectures/lecture25-mechanics-handout.pdf\nSnippet: OUTLINE : 25. THE LAGRANGE EQUATION DERIVED VIA THE CALCULUS OF VARIATIONS 25.1 The Lagrangian : simplest illustration\n\n[5] Variational Calculus Part 2: The Euler-Lagrange Equation\nURL: https://jiha-kim.github.io/crash-courses/variational-calculus/2-euler-lagrange-equation/\nSnippet: The derivation of the Euler-Lagrange equation is a monumental step in variational calculus. It converts the problem of optimizing over an infinite-dimensional space of functions into the more familiar problem of solving a differential equation.",
+          "searched_at": "2026-05-06_05-31-01",
+          "attempt_number": 1
+        }
+      ],
+      "query": "Euler-Lagrange equation derivation",
+      "search_status": "ok",
+      "result_snippet": "[1] Euler–Lagrange equation - Wikipedia\nURL: https://en.wikipedia.org/wiki/Euler–Lagrange_equation\nSnippet: The derivation of the one-dimensional Euler–Lagrange equation is one of the classic proofs in mathematics. It relies on the fundamental lemma of calculus of variations.\n\n[2] 11.3: Derivation of the Euler-Lagrange Equation - Engineering ...\nURL: https://eng.libretexts.org/Bookshelves/Electrical_Engineering/Electro-Optics/Direct_Energy_(Mitofsky)/11:_Calculus_of_Variations/11.03:_Derivation_of_the_Euler-Lagrange_Equation\nSnippet: This page covers the derivation and significance of the Euler-Lagrange equation from the Principle of Least Action, emphasizing its connection to Hamilton's equations.\n\n[3] Euler-Lagrange Differential Equation - from Wolfram MathWorld\nURL: https://mathworld.wolfram.com/Euler-LagrangeDifferentialEquation.html\nSnippet: 4 days ago · The Euler-Lagrange differential equation is the fundamental equation of calculus of variations.\n\n[4] Classical Mechanics LECTURE 25: THE LAGRANGE EQUATION DERIVED ...\nURL: https://users.physics.ox.ac.uk/~harnew/lectures/lecture25-mechanics-handout.pdf\nSnippet: OUTLINE : 25. THE LAGRANGE EQUATION DERIVED VIA THE CALCULUS OF VARIATIONS 25.1 The Lagrangian : simplest illustration\n\n[5] Variational Calculus Part 2: The Euler-Lagrange Equation\nURL: https://jiha-kim.github.io/crash-courses/variational-calculus/2-euler-lagrange-equation/\nSnippet: The derivation of the Euler-Lagrange equation is a monumental step in variational calculus. It converts the problem of optimizing over an infinite-dimensional space of functions into the more familiar problem of solving a differential equation.",
+      "results": [
+        {
+          "title": "Euler–Lagrange equation - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Euler–Lagrange_equation",
+          "domain": "en.wikipedia.org",
+          "snippet": "The derivation of the one-dimensional Euler–Lagrange equation is one of the classic proofs in mathematics. It relies on the fundamental lemma of calculus of variations."
+        },
+        {
+          "title": "11.3: Derivation of the Euler-Lagrange Equation - Engineering ...",
+          "url": "https://eng.libretexts.org/Bookshelves/Electrical_Engineering/Electro-Optics/Direct_Energy_(Mitofsky)/11:_Calculus_of_Variations/11.03:_Derivation_of_the_Euler-Lagrange_Equation",
+          "domain": "eng.libretexts.org",
+          "snippet": "This page covers the derivation and significance of the Euler-Lagrange equation from the Principle of Least Action, emphasizing its connection to Hamilton's equations."
+        },
+        {
+          "title": "Euler-Lagrange Differential Equation - from Wolfram MathWorld",
+          "url": "https://mathworld.wolfram.com/Euler-LagrangeDifferentialEquation.html",
+          "domain": "mathworld.wolfram.com",
+          "snippet": "4 days ago · The Euler-Lagrange differential equation is the fundamental equation of calculus of variations."
+        },
+        {
+          "title": "Classical Mechanics LECTURE 25: THE LAGRANGE EQUATION DERIVED ...",
+          "url": "https://users.physics.ox.ac.uk/~harnew/lectures/lecture25-mechanics-handout.pdf",
+          "domain": "users.physics.ox.ac.uk",
+          "snippet": "OUTLINE : 25. THE LAGRANGE EQUATION DERIVED VIA THE CALCULUS OF VARIATIONS 25.1 The Lagrangian : simplest illustration"
+        },
+        {
+          "title": "Variational Calculus Part 2: The Euler-Lagrange Equation",
+          "url": "https://jiha-kim.github.io/crash-courses/variational-calculus/2-euler-lagrange-equation/",
+          "domain": "jiha-kim.github.io",
+          "snippet": "The derivation of the Euler-Lagrange equation is a monumental step in variational calculus. It converts the problem of optimizing over an infinite-dimensional space of functions into the more familiar problem of solving a differential equation."
+        }
+      ],
+      "urls": [
+        "https://en.wikipedia.org/wiki/Euler–Lagrange_equation",
+        "https://eng.libretexts.org/Bookshelves/Electrical_Engineering/Electro-Optics/Direct_Energy_(Mitofsky)/11:_Calculus_of_Variations/11.03:_Derivation_of_the_Euler-Lagrange_Equation",
+        "https://mathworld.wolfram.com/Euler-LagrangeDifferentialEquation.html",
+        "https://users.physics.ox.ac.uk/~harnew/lectures/lecture25-mechanics-handout.pdf",
+        "https://jiha-kim.github.io/crash-courses/variational-calculus/2-euler-lagrange-equation/"
+      ],
+      "attempt_count": 1,
+      "searched_at": "2026-05-06_05-31-01",
+      "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
+    }
+  },
+  "summary": {
+    "total_claims": 4,
+    "checked_claim_count": 1,
+    "passing_claim_count": 0,
+    "unchecked_claim_count": 3,
+    "unresolved_or_needs_qualification": 4,
+    "actionable_issue_count": 0,
+    "evidence_retry_count": 1,
+    "claim_review_complete": false,
+    "unchecked_claim_ids": [
+      "C002",
+      "C003",
+      "C004"
+    ],
+    "actionable_claim_ids": [],
+    "evidence_retry_claim_ids": [
+      "C001"
+    ],
+    "highest_priority_fixes": []
+  },
+  "last_updated": "2026-05-06_06-07-25"
+}

@@ -3,10 +3,11 @@
     {
       "standard_term": "cross-sections",
       "candidate_name": "probability maps",
-      "context_quote": "The term 'probability maps' {cross-sections} is used to describe how quantum scattering probabilities are measured.",
-      "usefulness": "Helps visualize quantum scattering as a spatial probability distribution rather than a deterministic event",
-      "risk": "Could imply mapping physical locations instead of abstract probability spaces"
+      "context_quote": "electrons scattering off a crystal reveal its atomic structure through probability maps {cross-sections}, which are a standard measure of interaction probability in scattering theory",
+      "usefulness": "Provides intuitive imagery for abstract quantum probability concepts, linking them to tangible 'maps' of interaction likelihood",
+      "risk": "Could imply probability is a spatial distribution rather than a mathematical amplitude, potentially confusing with classical probability concepts",
+      "last_seen": "2026-05-05_18-45-18"
     }
   ],
-  "last_updated": "2026-05-04_10-45-23"
+  "last_updated": "2026-05-05_18-45-18"
 }

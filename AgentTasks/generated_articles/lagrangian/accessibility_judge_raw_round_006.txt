@@ -1,0 +1,32 @@
+{
+  "score": 3,
+  "pass": false,
+  "strengths": ["clear analogy of ball rolling down hill", "diagram ideas for visual learners"],
+  "issues": [
+    {
+      "severity": "high",
+      "location": "core idea section",
+      "problem": "Jargon-heavy opening with no intuitive foothold. Terms like 'stationary action' and 'principle of stationary action' are introduced without explanation.",
+      "suggested_fix": "Start with a concrete example of a ball rolling down a hill, then explicitly define 'action' as a measure of energy difference over time."
+    },
+    {
+      "severity": "high",
+      "location": "math section",
+      "problem": "Equations appear without plain-language interpretation. The Euler-Lagrange equation is presented as 'minimal math' without explaining its purpose or meaning.",
+      "suggested_fix": "Add a paragraph explaining that the equation finds the path where energy changes balance, using the pendulum example as context."
+    },
+    {
+      "severity": "medium",
+      "location": "more precise picture section",
+      "problem": "Technical terms like 'action' and 'principle of stationary action' are introduced without prior definition or analogy.",
+      "suggested_fix": "Define 'action' as a measure of energy difference over time, then explain how nature chooses paths where this measure doesn't change."
+    },
+    {
+      "severity": "high",
+      "location": "opening paragraph",
+      "problem": "The core idea is framed as a 'universal rule' without explaining why this balance is fundamental to physics.",
+      "suggested_fix": "Add a sentence about how this principle unifies different physical phenomena (e.g., light bending, pendulum motion) through energy balance."
+    }
+  ],
+  "best_next_revision": "Start with a vivid analogy of a ball rolling down a hill, explicitly define 'action' as a measure of energy difference over time, and explain the Euler-Lagrange equation using the pendulum example to show how it balances energy changes. Add diagrams to visualize energy curves and action paths."
+}

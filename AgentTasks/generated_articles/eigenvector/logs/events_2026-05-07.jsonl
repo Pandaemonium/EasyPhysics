@@ -1,0 +1,4 @@
+{"event": "llm_start", "prompt_chars": 7433, "prompt_tokens_approx": 1858, "llm_options": {"temperature": 0.25, "top_p": 0.8, "num_ctx": 8192, "num_predict": 2048, "num_batch": 32, "keep_alive": -1}, "timeout_seconds": 720, "max_retries": 2, "time": "2026-05-07T07:52:58", "node": "writer"}
+{"event": "llm_success", "attempt": 1, "elapsed_seconds": 370.45, "response_chars": 5430, "time": "2026-05-07T07:59:08", "node": "writer"}
+{"event": "claim_artifacts_invalidated", "reason": "writer_revision", "archived": ["claims.json", "sources.json", "claim_checks.json"], "time": "2026-05-07T07:59:08", "node": "claim_review"}
+{"event": "llm_start", "prompt_chars": 7998, "prompt_tokens_approx": 1999, "llm_options": {"temperature": 0.25, "top_p": 0.8, "num_ctx": 8192, "num_predict": 768, "num_batch": 32, "keep_alive": -1, "format": "json"}, "timeout_seconds": 720, "max_retries": 2, "time": "2026-05-07T07:59:08", "node": "term_collector"}

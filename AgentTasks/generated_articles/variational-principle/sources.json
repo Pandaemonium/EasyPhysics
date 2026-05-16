@@ -1,26 +1,501 @@
 {
   "sources_by_claim": {
     "C001": {
-      "claim": "# Variational Principle ## The core idea Nature chooses paths or states that **extremize** a key quantity—like action in classical mechanics or the **expectation value of energy** in quantum systems.",
-      "query": "Variational principle # Variational Principle ## The core idea Nature chooses paths or states that **extremize** a key physics lecture notes textbook explanation",
-      "result_snippet": "The variational principle states, quite simply, that the ground-state energy, E 0, is always less than or equal to the expectation value of H calculated with the trial wavefunction : that is, This chapter introduces the fundamental concepts and solution methods of the energy method and variational principles. The energy method describes mechanical laws in terms of energy variation, while variational principles represent physical laws in a variational form, both transforming elastic mechanics problems into functional extremum problems. Variational principles explain how physical systems optimize action, time, and energy. Learn how least action unifies classical mechanics, relativity, optics, and quantum physics. The Variational Principle is a fundamental concept in Quantum Mechanics that states that the expectation value of the energy of a quantum system is always greater than or equal to the true ground state energy. Find important definitions, questions, notes, meanings, examples, exercises and tests below for Variational Principle - Approximate Methods of Quantum Mechanics, Physical Chemistry,.",
-      "searched_at": "2026-05-04_23-40-59",
+      "claim": "The variational principle is a mathematical framework that can be used to find extremal paths or states.",
+      "search_attempts": [
+        {
+          "status": "ok",
+          "query": "variational principle definition physics textbook",
+          "results": [
+            {
+              "title": "13.1: Variational Principle - Physics LibreTexts",
+              "url": "https://phys.libretexts.org/Bookshelves/Quantum_Mechanics/Introductory_Quantum_Mechanics_(Fitzpatrick)/13:_Variational_Methods/13.01:_Variational_Principle",
+              "domain": "phys.libretexts.org",
+              "snippet": "This page titled 13.1: Variational Principle is shared under a CC BY-NC-SA 4.0 license and was authored, remixed, and/or curated by Richard Fitzpatrick via source content that was edited to the style and standards of the LibreTexts platform."
+            },
+            {
+              "title": "Mastering Variational Principle in Quantum Mechanics",
+              "url": "https://www.numberanalytics.com/blog/variational-principle-quantum-mechanics-guide",
+              "domain": "numberanalytics.com",
+              "snippet": "Introduction to Variational Principle The Variational Principle is a fundamental concept in Quantum Mechanics that plays a crucial role in understanding the behavior of quantum systems. In this section, we will explore the definition, significance, and historical background of the Variational Principle, as well as its importance in Quantum Mechanics. Definition and Significance of Variational ..."
+            },
+            {
+              "title": "Variational Principles in Physical Systems - Trust Atoms",
+              "url": "https://www.trustatoms.com/variational-principles-in-physical-systems/",
+              "domain": "trustatoms.com",
+              "snippet": "Variational principles explain how physical systems optimize action, time, and energy. Learn how least action unifies classical mechanics, relativity, optics, and quantum physics."
+            },
+            {
+              "title": "Variational and Extremum Principles in Macroscopic Systems",
+              "url": "https://www.sciencedirect.com/book/edited-volume/9780080444888/variational-and-extremum-principles-in-macroscopic-systems",
+              "domain": "sciencedirect.com",
+              "snippet": "Description Recent years have seen a growing trend to derive models of macroscopic phenomena encountered in the fields of engineering, physics, chemistry, ecology, self-organisation theory and econophysics from various variational or extremum principles."
+            },
+            {
+              "title": "Energy Method and Variational Principles - Springer",
+              "url": "https://link.springer.com/chapter/10.1007/978-3-031-99254-4_2",
+              "domain": "link.springer.com",
+              "snippet": "This chapter introduces the fundamental concepts and solution methods of the energy method and variational principles. The energy method describes mechanical laws in terms of energy variation, while variational principles represent physical laws in a variational form, both transforming elastic mechanics problems into functional extremum problems. It elaborates on the definitions of functionals ..."
+            }
+          ],
+          "urls": [
+            "https://phys.libretexts.org/Bookshelves/Quantum_Mechanics/Introductory_Quantum_Mechanics_(Fitzpatrick)/13:_Variational_Methods/13.01:_Variational_Principle",
+            "https://www.numberanalytics.com/blog/variational-principle-quantum-mechanics-guide",
+            "https://www.trustatoms.com/variational-principles-in-physical-systems/",
+            "https://www.sciencedirect.com/book/edited-volume/9780080444888/variational-and-extremum-principles-in-macroscopic-systems",
+            "https://link.springer.com/chapter/10.1007/978-3-031-99254-4_2"
+          ],
+          "result_snippet": "[1] 13.1: Variational Principle - Physics LibreTexts\nURL: https://phys.libretexts.org/Bookshelves/Quantum_Mechanics/Introductory_Quantum_Mechanics_(Fitzpatrick)/13:_Variational_Methods/13.01:_Variational_Principle\nSnippet: This page titled 13.1: Variational Principle is shared under a CC BY-NC-SA 4.0 license and was authored, remixed, and/or curated by Richard Fitzpatrick via source content that was edited to the style and standards of the LibreTexts platform.\n\n[2] Mastering Variational Principle in Quantum Mechanics\nURL: https://www.numberanalytics.com/blog/variational-principle-quantum-mechanics-guide\nSnippet: Introduction to Variational Principle The Variational Principle is a fundamental concept in Quantum Mechanics that plays a crucial role in understanding the behavior of quantum systems. In this section, we will explore the definition, significance, and historical background of the Variational Principle, as well as its importance in Quantum Mechanics. Definition and Significance of Variational ...\n\n[3] Variational Principles in Physical Systems - Trust Atoms\nURL: https://www.trustatoms.com/variational-principles-in-physical-systems/\nSnippet: Variational principles explain how physical systems optimize action, time, and energy. Learn how least action unifies classical mechanics, relativity, optics, and quantum physics.\n\n[4] Variational and Extremum Principles in Macroscopic Systems\nURL: https://www.sciencedirect.com/book/edited-volume/9780080444888/variational-and-extremum-principles-in-macroscopic-systems\nSnippet: Description Recent years have seen a growing trend to derive models of macroscopic phenomena encountered in the fields of engineering, physics, chemistry, ecology, self-organisation theory and econophysics from various variational or extremum principles.\n\n[5] Energy Method and Variational Principles - Springer\nURL: https://link.springer.com/chapter/10.1007/978-3-031-99254-4_2\nSnippet: This chapter introduces the fundamental concepts and solution methods of the energy method and variational principles. The energy method describes mechanical laws in terms of energy variation, while variational principles represent physical laws in a variational form, both transforming elastic mechanics problems into functional extremum problems. It elaborates on the definitions of functionals ...",
+          "searched_at": "2026-05-06_23-26-00",
+          "attempt_number": 1
+        },
+        {
+          "status": "ok",
+          "query": "Variational principle The variational principle is a mathematical framework that can be used to find extremal paths or states. university physics lecture notes textbook",
+          "results": [
+            {
+              "title": "Calculus of variations - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Calculus_of_Variations",
+              "domain": "en.wikipedia.org",
+              "snippet": "The calculus of variations (or variational calculus) is a field of mathematical analysis that uses variations, which are small changes in functions and functionals, to find maxima and minima of functionals: mappings from a set of functions to the real numbers."
+            },
+            {
+              "title": "13.1: Variational Principle - Physics LibreTexts",
+              "url": "https://phys.libretexts.org/Bookshelves/Quantum_Mechanics/Introductory_Quantum_Mechanics_(Fitzpatrick)/13:_Variational_Methods/13.01:_Variational_Principle",
+              "domain": "phys.libretexts.org",
+              "snippet": "The variational principle states, quite simply, that the ground-state energy, E 0, is always less than or equal to the expectation value of H calculated with the trial wavefunction : that is,"
+            },
+            {
+              "title": "Variational and Extremum Principles in Macroscopic Systems",
+              "url": "https://www.sciencedirect.com/book/edited-volume/9780080444888/variational-and-extremum-principles-in-macroscopic-systems",
+              "domain": "sciencedirect.com",
+              "snippet": "The main goal of Variational and Extremum Principles in Macroscopic Systems is to collect various mathematical formulations and examples of physical reasoning that involve both basic theoretical aspects and applications of variational and extremum approaches to systems of the macroscopic world."
+            },
+            {
+              "title": "[2601.01262] From Fermat's Principle to Physics-Informed Neural ...",
+              "url": "https://arxiv.org/abs/2601.01262",
+              "domain": "arxiv.org",
+              "snippet": "Variational principles are a unifying mathematical framework across many areas of physics, yet their instruction at the undergraduate level remains primarily analytical. This work presents a pedagogically oriented and computationally enhanced approach to variational modeling that integrates contemporary tools including gradient descent, automatic differentiation, and Physics-Informed Neural ..."
+            },
+            {
+              "title": "Variational Principles of Physics and the Infinite Ramsey Theory",
+              "url": "https://www.academia.edu/113196952/Variational_Principles_of_Physics_and_the_Infinite_Ramsey_Theory",
+              "domain": "academia.edu",
+              "snippet": "The synthesis of variational principles and Infinite Ramsey Theory redefines classical and quantum mechanics frameworks. Hamilton's Least Action Principle establishes stationary action for actual trajectories in configurational space. Infinite Ramsey Theorem confirms the existence of monochromatic cliques in bi-colored graphs of actual and trial paths. Maupertuis's principle and its quantum ..."
+            }
+          ],
+          "urls": [
+            "https://en.wikipedia.org/wiki/Calculus_of_Variations",
+            "https://phys.libretexts.org/Bookshelves/Quantum_Mechanics/Introductory_Quantum_Mechanics_(Fitzpatrick)/13:_Variational_Methods/13.01:_Variational_Principle",
+            "https://www.sciencedirect.com/book/edited-volume/9780080444888/variational-and-extremum-principles-in-macroscopic-systems",
+            "https://arxiv.org/abs/2601.01262",
+            "https://www.academia.edu/113196952/Variational_Principles_of_Physics_and_the_Infinite_Ramsey_Theory"
+          ],
+          "result_snippet": "[1] Calculus of variations - Wikipedia\nURL: https://en.wikipedia.org/wiki/Calculus_of_Variations\nSnippet: The calculus of variations (or variational calculus) is a field of mathematical analysis that uses variations, which are small changes in functions and functionals, to find maxima and minima of functionals: mappings from a set of functions to the real numbers.\n\n[2] 13.1: Variational Principle - Physics LibreTexts\nURL: https://phys.libretexts.org/Bookshelves/Quantum_Mechanics/Introductory_Quantum_Mechanics_(Fitzpatrick)/13:_Variational_Methods/13.01:_Variational_Principle\nSnippet: The variational principle states, quite simply, that the ground-state energy, E 0, is always less than or equal to the expectation value of H calculated with the trial wavefunction : that is,\n\n[3] Variational and Extremum Principles in Macroscopic Systems\nURL: https://www.sciencedirect.com/book/edited-volume/9780080444888/variational-and-extremum-principles-in-macroscopic-systems\nSnippet: The main goal of Variational and Extremum Principles in Macroscopic Systems is to collect various mathematical formulations and examples of physical reasoning that involve both basic theoretical aspects and applications of variational and extremum approaches to systems of the macroscopic world.\n\n[4] [2601.01262] From Fermat's Principle to Physics-Informed Neural ...\nURL: https://arxiv.org/abs/2601.01262\nSnippet: Variational principles are a unifying mathematical framework across many areas of physics, yet their instruction at the undergraduate level remains primarily analytical. This work presents a pedagogically oriented and computationally enhanced approach to variational modeling that integrates contemporary tools including gradient descent, automatic differentiation, and Physics-Informed Neural ...\n\n[5] Variational Principles of Physics and the Infinite Ramsey Theory\nURL: https://www.academia.edu/113196952/Variational_Principles_of_Physics_and_the_Infinite_Ramsey_Theory\nSnippet: The synthesis of variational principles and Infinite Ramsey Theory redefines classical and quantum mechanics frameworks. Hamilton's Least Action Principle establishes stationary action for actual trajectories in configurational space. Infinite Ramsey Theorem confirms the existence of monochromatic cliques in bi-colored graphs of actual and trial paths. Maupertuis's principle and its quantum ...",
+          "searched_at": "2026-05-07_00-02-27",
+          "attempt_number": 2
+        },
+        {
+          "status": "ok",
+          "query": "Variational principle The variational principle is a mathematical framework that can be used to find extremal paths or states. site:edu physics",
+          "results": [
+            {
+              "title": "CLASSIC THEORY OF CALCULUS OF VARIATION LONG CHEN",
+              "url": "https://www.math.uci.edu/~chenlong/290C/2_classicalTheory.pdf",
+              "domain": "math.uci.edu",
+              "snippet": "June 4, 2025 - functional in a neighborhood of the extremal. Throughout this section, we assume that the · Lagrangian L is twice continuously differentiable, ensuring that the second variation exists"
+            },
+            {
+              "title": "Principles and Applications of Variational Methods",
+              "url": "https://mitpress.mit.edu/9780262020091/principles-and-applications-of-variational-methods/",
+              "domain": "mitpress.mit.edu",
+              "snippet": "October 22, 2025 - Variational methods attempt to answer the question: Given an equation and some presumably good “guesses” about the form of the solution, how should one p..."
+            },
+            {
+              "title": "(PDF) Calculus of Variations and the Euler Lagrange Equations",
+              "url": "https://www.academia.edu/12936948/Calculus_of_Variations_and_the_Euler_Lagrange_Equations",
+              "domain": "academia.edu",
+              "snippet": "October 12, 2025 - With the starting point of an extremal Action functional, the groundwork of particle physics and condensed matter physics has been laid out [5], [9]. This formal- ism is the building block of functional analysis, and while it is deeply appreciated for its applications, it has led to a sophistication of analysis unlike any other formalism. CALCULUS OF VARIATIONS, HAMILTON’S PRINCIPLE AND THE EULER-LAGRANGE EQUATIONS15 † † † References [1] van Brunt, Bruce."
+            },
+            {
+              "title": "Variational principles for spin systems and the Kirchhoff rod",
+              "url": "https://authors.library.caltech.edu/records/a4vge-0m197",
+              "domain": "authors.library.caltech.edu",
+              "snippet": "4 weeks ago - We obtain the affine Euler-Poincaré equations by standard Lagrangian reduction and deduce the associated Clebsch-constrained variational principle. These results are illustrated in deriving the equations of motion for continuum spin systems and Kirchhoff's rod, where they provide a unified ..."
+            },
+            {
+              "title": "(PDF) The principle of stationary action in the calculus of variations",
+              "url": "https://www.academia.edu/53062740/The_principle_of_stationary_action_in_the_calculus_of_variations",
+              "domain": "academia.edu",
+              "snippet": "October 11, 2025 - We finally prove that solutions of the Schrödinger equation can be obtained as extremals of a non differentiable variational principle, leading to an extended Hamilton's principle of least action for quantum mechanics. We compare this approach with the scale relativity theory of Nottale, which assumes a fractal structure of space-time. ... Lesson for the module Mathematical Physics II, Dept of Physics, University of York - Years 2005 - 2007"
+            }
+          ],
+          "urls": [
+            "https://www.math.uci.edu/~chenlong/290C/2_classicalTheory.pdf",
+            "https://mitpress.mit.edu/9780262020091/principles-and-applications-of-variational-methods/",
+            "https://www.academia.edu/12936948/Calculus_of_Variations_and_the_Euler_Lagrange_Equations",
+            "https://authors.library.caltech.edu/records/a4vge-0m197",
+            "https://www.academia.edu/53062740/The_principle_of_stationary_action_in_the_calculus_of_variations"
+          ],
+          "result_snippet": "[1] CLASSIC THEORY OF CALCULUS OF VARIATION LONG CHEN\nURL: https://www.math.uci.edu/~chenlong/290C/2_classicalTheory.pdf\nSnippet: June 4, 2025 - functional in a neighborhood of the extremal. Throughout this section, we assume that the · Lagrangian L is twice continuously differentiable, ensuring that the second variation exists\n\n[2] Principles and Applications of Variational Methods\nURL: https://mitpress.mit.edu/9780262020091/principles-and-applications-of-variational-methods/\nSnippet: October 22, 2025 - Variational methods attempt to answer the question: Given an equation and some presumably good “guesses” about the form of the solution, how should one p...\n\n[3] (PDF) Calculus of Variations and the Euler Lagrange Equations\nURL: https://www.academia.edu/12936948/Calculus_of_Variations_and_the_Euler_Lagrange_Equations\nSnippet: October 12, 2025 - With the starting point of an extremal Action functional, the groundwork of particle physics and condensed matter physics has been laid out [5], [9]. This formal- ism is the building block of functional analysis, and while it is deeply appreciated for its applications, it has led to a sophistication of analysis unlike any other formalism. CALCULUS OF VARIATIONS, HAMILTON’S PRINCIPLE AND THE EULER-LAGRANGE EQUATIONS15 † † † References [1] van Brunt, Bruce.\n\n[4] Variational principles for spin systems and the Kirchhoff rod\nURL: https://authors.library.caltech.edu/records/a4vge-0m197\nSnippet: 4 weeks ago - We obtain the affine Euler-Poincaré equations by standard Lagrangian reduction and deduce the associated Clebsch-constrained variational principle. These results are illustrated in deriving the equations of motion for continuum spin systems and Kirchhoff's rod, where they provide a unified ...\n\n[5] (PDF) The principle of stationary action in the calculus of variations\nURL: https://www.academia.edu/53062740/The_principle_of_stationary_action_in_the_calculus_of_variations\nSnippet: October 11, 2025 - We finally prove that solutions of the Schrödinger equation can be obtained as extremals of a non differentiable variational principle, leading to an extended Hamilton's principle of least action for quantum mechanics. We compare this approach with the scale relativity theory of Nottale, which assumes a fractal structure of space-time. ... Lesson for the module Mathematical Physics II, Dept of Physics, University of York - Years 2005 - 2007",
+          "searched_at": "2026-05-07_00-38-55",
+          "attempt_number": 3
+        }
+      ],
+      "query": "Variational principle The variational principle is a mathematical framework that can be used to find extremal paths or states. site:edu physics",
+      "search_status": "ok",
+      "result_snippet": "[1] CLASSIC THEORY OF CALCULUS OF VARIATION LONG CHEN\nURL: https://www.math.uci.edu/~chenlong/290C/2_classicalTheory.pdf\nSnippet: June 4, 2025 - functional in a neighborhood of the extremal. Throughout this section, we assume that the · Lagrangian L is twice continuously differentiable, ensuring that the second variation exists\n\n[2] Principles and Applications of Variational Methods\nURL: https://mitpress.mit.edu/9780262020091/principles-and-applications-of-variational-methods/\nSnippet: October 22, 2025 - Variational methods attempt to answer the question: Given an equation and some presumably good “guesses” about the form of the solution, how should one p...\n\n[3] (PDF) Calculus of Variations and the Euler Lagrange Equations\nURL: https://www.academia.edu/12936948/Calculus_of_Variations_and_the_Euler_Lagrange_Equations\nSnippet: October 12, 2025 - With the starting point of an extremal Action functional, the groundwork of particle physics and condensed matter physics has been laid out [5], [9]. This formal- ism is the building block of functional analysis, and while it is deeply appreciated for its applications, it has led to a sophistication of analysis unlike any other formalism. CALCULUS OF VARIATIONS, HAMILTON’S PRINCIPLE AND THE EULER-LAGRANGE EQUATIONS15 † † † References [1] van Brunt, Bruce.\n\n[4] Variational principles for spin systems and the Kirchhoff rod\nURL: https://authors.library.caltech.edu/records/a4vge-0m197\nSnippet: 4 weeks ago - We obtain the affine Euler-Poincaré equations by standard Lagrangian reduction and deduce the associated Clebsch-constrained variational principle. These results are illustrated in deriving the equations of motion for continuum spin systems and Kirchhoff's rod, where they provide a unified ...\n\n[5] (PDF) The principle of stationary action in the calculus of variations\nURL: https://www.academia.edu/53062740/The_principle_of_stationary_action_in_the_calculus_of_variations\nSnippet: October 11, 2025 - We finally prove that solutions of the Schrödinger equation can be obtained as extremals of a non differentiable variational principle, leading to an extended Hamilton's principle of least action for quantum mechanics. We compare this approach with the scale relativity theory of Nottale, which assumes a fractal structure of space-time. ... Lesson for the module Mathematical Physics II, Dept of Physics, University of York - Years 2005 - 2007",
+      "results": [
+        {
+          "title": "CLASSIC THEORY OF CALCULUS OF VARIATION LONG CHEN",
+          "url": "https://www.math.uci.edu/~chenlong/290C/2_classicalTheory.pdf",
+          "domain": "math.uci.edu",
+          "snippet": "June 4, 2025 - functional in a neighborhood of the extremal. Throughout this section, we assume that the · Lagrangian L is twice continuously differentiable, ensuring that the second variation exists"
+        },
+        {
+          "title": "Principles and Applications of Variational Methods",
+          "url": "https://mitpress.mit.edu/9780262020091/principles-and-applications-of-variational-methods/",
+          "domain": "mitpress.mit.edu",
+          "snippet": "October 22, 2025 - Variational methods attempt to answer the question: Given an equation and some presumably good “guesses” about the form of the solution, how should one p..."
+        },
+        {
+          "title": "(PDF) Calculus of Variations and the Euler Lagrange Equations",
+          "url": "https://www.academia.edu/12936948/Calculus_of_Variations_and_the_Euler_Lagrange_Equations",
+          "domain": "academia.edu",
+          "snippet": "October 12, 2025 - With the starting point of an extremal Action functional, the groundwork of particle physics and condensed matter physics has been laid out [5], [9]. This formal- ism is the building block of functional analysis, and while it is deeply appreciated for its applications, it has led to a sophistication of analysis unlike any other formalism. CALCULUS OF VARIATIONS, HAMILTON’S PRINCIPLE AND THE EULER-LAGRANGE EQUATIONS15 † † † References [1] van Brunt, Bruce."
+        },
+        {
+          "title": "Variational principles for spin systems and the Kirchhoff rod",
+          "url": "https://authors.library.caltech.edu/records/a4vge-0m197",
+          "domain": "authors.library.caltech.edu",
+          "snippet": "4 weeks ago - We obtain the affine Euler-Poincaré equations by standard Lagrangian reduction and deduce the associated Clebsch-constrained variational principle. These results are illustrated in deriving the equations of motion for continuum spin systems and Kirchhoff's rod, where they provide a unified ..."
+        },
+        {
+          "title": "(PDF) The principle of stationary action in the calculus of variations",
+          "url": "https://www.academia.edu/53062740/The_principle_of_stationary_action_in_the_calculus_of_variations",
+          "domain": "academia.edu",
+          "snippet": "October 11, 2025 - We finally prove that solutions of the Schrödinger equation can be obtained as extremals of a non differentiable variational principle, leading to an extended Hamilton's principle of least action for quantum mechanics. We compare this approach with the scale relativity theory of Nottale, which assumes a fractal structure of space-time. ... Lesson for the module Mathematical Physics II, Dept of Physics, University of York - Years 2005 - 2007"
+        }
+      ],
+      "urls": [
+        "https://www.math.uci.edu/~chenlong/290C/2_classicalTheory.pdf",
+        "https://mitpress.mit.edu/9780262020091/principles-and-applications-of-variational-methods/",
+        "https://www.academia.edu/12936948/Calculus_of_Variations_and_the_Euler_Lagrange_Equations",
+        "https://authors.library.caltech.edu/records/a4vge-0m197",
+        "https://www.academia.edu/53062740/The_principle_of_stationary_action_in_the_calculus_of_variations"
+      ],
+      "attempt_count": 3,
+      "searched_at": "2026-05-07_00-38-55",
       "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
     },
     "C002": {
-      "claim": "Think of it as a \"smart choice\" that balances competing factors, such as speed and energy cost.",
-      "query": "Variational principle Think of it as a \"smart choice\" that balances competing factors, such as speed and energy physics lecture notes textbook explanation",
-      "result_snippet": "Beyond its aesthetic appeal, the aster flower carries layers of symbolism, care requirements, and botanical significance that make it a favorite ... Platforms such as mqmbet often provide both options, ensuring that players can choose the format that maximizes confidence and comfort during ... ... flow while crafting unique decorations that will impress everyone at your Christmas party! Your guests will have such a great core memory of being at ... Gamified elements, such as progress tracking and performance metrics, further motivate learners and create a sense of achievement. ... As a Test of Intelligence Sports betting becomes an intellectual test of knowledge and understanding. It requires extensive knowledge of teams, ...",
-      "searched_at": "2026-05-04_23-41-01",
+      "claim": "In classical mechanics, the variational principle applies to the extremization of action {action}.",
+      "search_attempts": [
+        {
+          "status": "ok",
+          "query": "action variational principle classical mechanics",
+          "results": [
+            {
+              "title": "Action principles - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Action_principles",
+              "domain": "en.wikipedia.org",
+              "snippet": "March 24, 2026 - Action principles start with an energy function called a Lagrangian describing the physical system. The accumulated value of this energy function between two states of the system is called the action. Action principles apply the calculus of variation to the action."
+            },
+            {
+              "title": "History of variational principles in physics - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/History_of_variational_principles_in_physics",
+              "domain": "en.wikipedia.org",
+              "snippet": "1 week ago - In physics, a variational principle is a method for describing the state or dynamics of a physical system, by identifying it as an extremum (minimum, maximum or saddle point) of a functional. Variational methods are exploited in many modern software applications to simulate matter and light."
+            },
+            {
+              "title": "Variational principle - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Variational_principle",
+              "domain": "en.wikipedia.org",
+              "snippet": "1 week ago - The first application of the variational technique, albeit as a special-case rather than a general principle, was James Bernoulli's solution of the brachistochrone problem in 1718. Pierre Louis Maupertuis generalized Fermat's concept to mechanics, in the form of a principle of least action."
+            },
+            {
+              "title": "Hamilton's principle - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Hamilton's_principle",
+              "domain": "en.wikipedia.org",
+              "snippet": "March 14, 2026 - It states that the dynamics of a physical system are determined by a variational problem for a functional based on a single function, the Lagrangian, which may contain all physical information concerning the system and the forces acting on it."
+            },
+            {
+              "title": "Calculus of variations - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Calculus_of_variations",
+              "domain": "en.wikipedia.org",
+              "snippet": "March 18, 2026 - This is the essential content of the Hamilton–Jacobi theory, which applies to more general variational problems. ... {\\displaystyle U} its potential energy. Hamilton's principle (or the action principle) states that the motion of a conservative holonomic (integrable constraints) mechanical system is such that the action integral"
+            }
+          ],
+          "urls": [
+            "https://en.wikipedia.org/wiki/Action_principles",
+            "https://en.wikipedia.org/wiki/History_of_variational_principles_in_physics",
+            "https://en.wikipedia.org/wiki/Variational_principle",
+            "https://en.wikipedia.org/wiki/Hamilton's_principle",
+            "https://en.wikipedia.org/wiki/Calculus_of_variations"
+          ],
+          "result_snippet": "[1] Action principles - Wikipedia\nURL: https://en.wikipedia.org/wiki/Action_principles\nSnippet: March 24, 2026 - Action principles start with an energy function called a Lagrangian describing the physical system. The accumulated value of this energy function between two states of the system is called the action. Action principles apply the calculus of variation to the action.\n\n[2] History of variational principles in physics - Wikipedia\nURL: https://en.wikipedia.org/wiki/History_of_variational_principles_in_physics\nSnippet: 1 week ago - In physics, a variational principle is a method for describing the state or dynamics of a physical system, by identifying it as an extremum (minimum, maximum or saddle point) of a functional. Variational methods are exploited in many modern software applications to simulate matter and light.\n\n[3] Variational principle - Wikipedia\nURL: https://en.wikipedia.org/wiki/Variational_principle\nSnippet: 1 week ago - The first application of the variational technique, albeit as a special-case rather than a general principle, was James Bernoulli's solution of the brachistochrone problem in 1718. Pierre Louis Maupertuis generalized Fermat's concept to mechanics, in the form of a principle of least action.\n\n[4] Hamilton's principle - Wikipedia\nURL: https://en.wikipedia.org/wiki/Hamilton's_principle\nSnippet: March 14, 2026 - It states that the dynamics of a physical system are determined by a variational problem for a functional based on a single function, the Lagrangian, which may contain all physical information concerning the system and the forces acting on it.\n\n[5] Calculus of variations - Wikipedia\nURL: https://en.wikipedia.org/wiki/Calculus_of_variations\nSnippet: March 18, 2026 - This is the essential content of the Hamilton–Jacobi theory, which applies to more general variational problems. ... {\\displaystyle U} its potential energy. Hamilton's principle (or the action principle) states that the motion of a conservative holonomic (integrable constraints) mechanical system is such that the action integral",
+          "searched_at": "2026-05-06_23-26-01",
+          "attempt_number": 1
+        }
+      ],
+      "query": "action variational principle classical mechanics",
+      "search_status": "ok",
+      "result_snippet": "[1] Action principles - Wikipedia\nURL: https://en.wikipedia.org/wiki/Action_principles\nSnippet: March 24, 2026 - Action principles start with an energy function called a Lagrangian describing the physical system. The accumulated value of this energy function between two states of the system is called the action. Action principles apply the calculus of variation to the action.\n\n[2] History of variational principles in physics - Wikipedia\nURL: https://en.wikipedia.org/wiki/History_of_variational_principles_in_physics\nSnippet: 1 week ago - In physics, a variational principle is a method for describing the state or dynamics of a physical system, by identifying it as an extremum (minimum, maximum or saddle point) of a functional. Variational methods are exploited in many modern software applications to simulate matter and light.\n\n[3] Variational principle - Wikipedia\nURL: https://en.wikipedia.org/wiki/Variational_principle\nSnippet: 1 week ago - The first application of the variational technique, albeit as a special-case rather than a general principle, was James Bernoulli's solution of the brachistochrone problem in 1718. Pierre Louis Maupertuis generalized Fermat's concept to mechanics, in the form of a principle of least action.\n\n[4] Hamilton's principle - Wikipedia\nURL: https://en.wikipedia.org/wiki/Hamilton's_principle\nSnippet: March 14, 2026 - It states that the dynamics of a physical system are determined by a variational problem for a functional based on a single function, the Lagrangian, which may contain all physical information concerning the system and the forces acting on it.\n\n[5] Calculus of variations - Wikipedia\nURL: https://en.wikipedia.org/wiki/Calculus_of_variations\nSnippet: March 18, 2026 - This is the essential content of the Hamilton–Jacobi theory, which applies to more general variational problems. ... {\\displaystyle U} its potential energy. Hamilton's principle (or the action principle) states that the motion of a conservative holonomic (integrable constraints) mechanical system is such that the action integral",
+      "results": [
+        {
+          "title": "Action principles - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Action_principles",
+          "domain": "en.wikipedia.org",
+          "snippet": "March 24, 2026 - Action principles start with an energy function called a Lagrangian describing the physical system. The accumulated value of this energy function between two states of the system is called the action. Action principles apply the calculus of variation to the action."
+        },
+        {
+          "title": "History of variational principles in physics - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/History_of_variational_principles_in_physics",
+          "domain": "en.wikipedia.org",
+          "snippet": "1 week ago - In physics, a variational principle is a method for describing the state or dynamics of a physical system, by identifying it as an extremum (minimum, maximum or saddle point) of a functional. Variational methods are exploited in many modern software applications to simulate matter and light."
+        },
+        {
+          "title": "Variational principle - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Variational_principle",
+          "domain": "en.wikipedia.org",
+          "snippet": "1 week ago - The first application of the variational technique, albeit as a special-case rather than a general principle, was James Bernoulli's solution of the brachistochrone problem in 1718. Pierre Louis Maupertuis generalized Fermat's concept to mechanics, in the form of a principle of least action."
+        },
+        {
+          "title": "Hamilton's principle - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Hamilton's_principle",
+          "domain": "en.wikipedia.org",
+          "snippet": "March 14, 2026 - It states that the dynamics of a physical system are determined by a variational problem for a functional based on a single function, the Lagrangian, which may contain all physical information concerning the system and the forces acting on it."
+        },
+        {
+          "title": "Calculus of variations - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Calculus_of_variations",
+          "domain": "en.wikipedia.org",
+          "snippet": "March 18, 2026 - This is the essential content of the Hamilton–Jacobi theory, which applies to more general variational problems. ... {\\displaystyle U} its potential energy. Hamilton's principle (or the action principle) states that the motion of a conservative holonomic (integrable constraints) mechanical system is such that the action integral"
+        }
+      ],
+      "urls": [
+        "https://en.wikipedia.org/wiki/Action_principles",
+        "https://en.wikipedia.org/wiki/History_of_variational_principles_in_physics",
+        "https://en.wikipedia.org/wiki/Variational_principle",
+        "https://en.wikipedia.org/wiki/Hamilton's_principle",
+        "https://en.wikipedia.org/wiki/Calculus_of_variations"
+      ],
+      "attempt_count": 1,
+      "searched_at": "2026-05-06_23-26-01",
       "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
     },
     "C003": {
-      "claim": "This rule applies across physics, from the motion of planets to the behavior of particles.",
-      "query": "Variational principle This rule applies across physics, from the motion of planets to the behavior of particles. physics lecture notes textbook explanation",
-      "result_snippet": "A variational principle is a mathematical procedure that renders a physical problem solvable by the calculus of variations, which concerns finding functions that optimize the values of quantities that depend on those functions. This revised and enhanced new edition of a well-established textbook provides a balanced overview of various areas of theoretical physics based on the use of variational principles. A variational principle is a mathematical procedure that renders a physical problem solvable by the calculus of variations, which concerns finding functions that optimize the values of quantities that depend on those functions. Jun 24, 2021 · The book covers a wide range of variational methods in Physics starting with the Newtonian vector-based framework and moving into the principle of least action and variational methods. It is fully comprehensive in its treatment of physics theories\n\n...[TRUNCATED]...\n\nl principle, was James Bernoulli 's solution of the brachistochrone problem in 1718. : 68 Pierre Louis Maupertuis generalized Fermat's concept to mechanics, : 97 in the form of a principle of least action. Mar 23, 2023 · This book is an English translation from a Hungarian book designed for graduate and postgraduate students about the use of variational principles in theoretical physics. Unlike many academic... Variational principles provide a deep and elegant framework for understanding the dynamics of physical systems. By focusing on the action and its variations, these principles unify various branches of physics and offer powerful methods for deriving the equations of motion. A variational principle is defined as a fundamental concept in mathematical physics that aims to determine the path, function, or object that maximizes or minimizes a mathematical quantity known as a functional.",
-      "searched_at": "2026-05-04_23-41-03",
+      "claim": "In quantum mechanics, the variational principle relates to the extremization of the expectation value of energy {expectation value}.",
+      "search_attempts": [
+        {
+          "status": "ok",
+          "query": "expectation value variational principle quantum mechanics",
+          "results": [
+            {
+              "title": "Variational method (quantum mechanics) - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Variational_method_(quantum_mechanics)",
+              "domain": "en.wikipedia.org",
+              "snippet": "The basis for this method is the variational principle. [2][3] The method consists of choosing a \"trial wavefunction \" depending on one or more parameters, and finding the values of these parameters for which the expectation value of the energy is the lowest possible."
+            },
+            {
+              "title": "13.1: Variational Principle - Physics LibreTexts",
+              "url": "https://phys.libretexts.org/Bookshelves/Quantum_Mechanics/Introductory_Quantum_Mechanics_(Fitzpatrick)/13:_Variational_Methods/13.01:_Variational_Principle",
+              "domain": "phys.libretexts.org",
+              "snippet": "Mar 13, 2026 · This page describes the variational principle, which asserts that the ground-state energy \\ (E_0\\) of a quantum system is at most the expectation value of the Hamiltonian \\ (H\\) derived from a …"
+            },
+            {
+              "title": "Expectation Values in Quantum Mechanics - HyperPhysics",
+              "url": "http://www.hyperphysics.phy-astr.gsu.edu/hbase/quantum/expect.html",
+              "domain": "hyperphysics.phy-astr.gsu.edu",
+              "snippet": "To relate a quantum mechanical calculation to something you can observe in the laboratory, the \"expectation value\" of the measurable parameter is calculated. For the position x, the expectation value is defined as. This integral can be interpreted as the average value of x that we would expect to obtain from a large number of measurements."
+            },
+            {
+              "title": "8 The Variational Principle - School of Physics and Astronomy",
+              "url": "https://www2.ph.ed.ac.uk/~gja/qp/qp8.pdf",
+              "domain": "www2.ph.ed.ac.uk",
+              "snippet": "Now, consider the expectation value of the energy h ˆHi. We know from the variational principle that h ˆHi ≥ Eo. If we define a functional F [ρ(r)] = MinS(Φ)h ˆHi, then it follows that F [ρ] ≥ Eo."
+            },
+            {
+              "title": "The Variational Method: Solved Problems - UW Faculty Web Server",
+              "url": "https://faculty.washington.edu/seattle/physics541/13solved.pdf",
+              "domain": "faculty.washington.edu",
+              "snippet": "(d) Calculate the expectation value of the total energy for this trial wavefunction in the harmonic oscillator potential by adding the expectation values of the kinetic and potential energy = + ."
+            }
+          ],
+          "urls": [
+            "https://en.wikipedia.org/wiki/Variational_method_(quantum_mechanics)",
+            "https://phys.libretexts.org/Bookshelves/Quantum_Mechanics/Introductory_Quantum_Mechanics_(Fitzpatrick)/13:_Variational_Methods/13.01:_Variational_Principle",
+            "http://www.hyperphysics.phy-astr.gsu.edu/hbase/quantum/expect.html",
+            "https://www2.ph.ed.ac.uk/~gja/qp/qp8.pdf",
+            "https://faculty.washington.edu/seattle/physics541/13solved.pdf"
+          ],
+          "result_snippet": "[1] Variational method (quantum mechanics) - Wikipedia\nURL: https://en.wikipedia.org/wiki/Variational_method_(quantum_mechanics)\nSnippet: The basis for this method is the variational principle. [2][3] The method consists of choosing a \"trial wavefunction \" depending on one or more parameters, and finding the values of these parameters for which the expectation value of the energy is the lowest possible.\n\n[2] 13.1: Variational Principle - Physics LibreTexts\nURL: https://phys.libretexts.org/Bookshelves/Quantum_Mechanics/Introductory_Quantum_Mechanics_(Fitzpatrick)/13:_Variational_Methods/13.01:_Variational_Principle\nSnippet: Mar 13, 2026 · This page describes the variational principle, which asserts that the ground-state energy \\ (E_0\\) of a quantum system is at most the expectation value of the Hamiltonian \\ (H\\) derived from a …\n\n[3] Expectation Values in Quantum Mechanics - HyperPhysics\nURL: http://www.hyperphysics.phy-astr.gsu.edu/hbase/quantum/expect.html\nSnippet: To relate a quantum mechanical calculation to something you can observe in the laboratory, the \"expectation value\" of the measurable parameter is calculated. For the position x, the expectation value is defined as. This integral can be interpreted as the average value of x that we would expect to obtain from a large number of measurements.\n\n[4] 8 The Variational Principle - School of Physics and Astronomy\nURL: https://www2.ph.ed.ac.uk/~gja/qp/qp8.pdf\nSnippet: Now, consider the expectation value of the energy h ˆHi. We know from the variational principle that h ˆHi ≥ Eo. If we define a functional F [ρ(r)] = MinS(Φ)h ˆHi, then it follows that F [ρ] ≥ Eo.\n\n[5] The Variational Method: Solved Problems - UW Faculty Web Server\nURL: https://faculty.washington.edu/seattle/physics541/13solved.pdf\nSnippet: (d) Calculate the expectation value of the total energy for this trial wavefunction in the harmonic oscillator potential by adding the expectation values of the kinetic and potential energy = + .",
+          "searched_at": "2026-05-06_23-26-03",
+          "attempt_number": 1
+        }
+      ],
+      "query": "expectation value variational principle quantum mechanics",
+      "search_status": "ok",
+      "result_snippet": "[1] Variational method (quantum mechanics) - Wikipedia\nURL: https://en.wikipedia.org/wiki/Variational_method_(quantum_mechanics)\nSnippet: The basis for this method is the variational principle. [2][3] The method consists of choosing a \"trial wavefunction \" depending on one or more parameters, and finding the values of these parameters for which the expectation value of the energy is the lowest possible.\n\n[2] 13.1: Variational Principle - Physics LibreTexts\nURL: https://phys.libretexts.org/Bookshelves/Quantum_Mechanics/Introductory_Quantum_Mechanics_(Fitzpatrick)/13:_Variational_Methods/13.01:_Variational_Principle\nSnippet: Mar 13, 2026 · This page describes the variational principle, which asserts that the ground-state energy \\ (E_0\\) of a quantum system is at most the expectation value of the Hamiltonian \\ (H\\) derived from a …\n\n[3] Expectation Values in Quantum Mechanics - HyperPhysics\nURL: http://www.hyperphysics.phy-astr.gsu.edu/hbase/quantum/expect.html\nSnippet: To relate a quantum mechanical calculation to something you can observe in the laboratory, the \"expectation value\" of the measurable parameter is calculated. For the position x, the expectation value is defined as. This integral can be interpreted as the average value of x that we would expect to obtain from a large number of measurements.\n\n[4] 8 The Variational Principle - School of Physics and Astronomy\nURL: https://www2.ph.ed.ac.uk/~gja/qp/qp8.pdf\nSnippet: Now, consider the expectation value of the energy h ˆHi. We know from the variational principle that h ˆHi ≥ Eo. If we define a functional F [ρ(r)] = MinS(Φ)h ˆHi, then it follows that F [ρ] ≥ Eo.\n\n[5] The Variational Method: Solved Problems - UW Faculty Web Server\nURL: https://faculty.washington.edu/seattle/physics541/13solved.pdf\nSnippet: (d) Calculate the expectation value of the total energy for this trial wavefunction in the harmonic oscillator potential by adding the expectation values of the kinetic and potential energy = + .",
+      "results": [
+        {
+          "title": "Variational method (quantum mechanics) - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Variational_method_(quantum_mechanics)",
+          "domain": "en.wikipedia.org",
+          "snippet": "The basis for this method is the variational principle. [2][3] The method consists of choosing a \"trial wavefunction \" depending on one or more parameters, and finding the values of these parameters for which the expectation value of the energy is the lowest possible."
+        },
+        {
+          "title": "13.1: Variational Principle - Physics LibreTexts",
+          "url": "https://phys.libretexts.org/Bookshelves/Quantum_Mechanics/Introductory_Quantum_Mechanics_(Fitzpatrick)/13:_Variational_Methods/13.01:_Variational_Principle",
+          "domain": "phys.libretexts.org",
+          "snippet": "Mar 13, 2026 · This page describes the variational principle, which asserts that the ground-state energy \\ (E_0\\) of a quantum system is at most the expectation value of the Hamiltonian \\ (H\\) derived from a …"
+        },
+        {
+          "title": "Expectation Values in Quantum Mechanics - HyperPhysics",
+          "url": "http://www.hyperphysics.phy-astr.gsu.edu/hbase/quantum/expect.html",
+          "domain": "hyperphysics.phy-astr.gsu.edu",
+          "snippet": "To relate a quantum mechanical calculation to something you can observe in the laboratory, the \"expectation value\" of the measurable parameter is calculated. For the position x, the expectation value is defined as. This integral can be interpreted as the average value of x that we would expect to obtain from a large number of measurements."
+        },
+        {
+          "title": "8 The Variational Principle - School of Physics and Astronomy",
+          "url": "https://www2.ph.ed.ac.uk/~gja/qp/qp8.pdf",
+          "domain": "www2.ph.ed.ac.uk",
+          "snippet": "Now, consider the expectation value of the energy h ˆHi. We know from the variational principle that h ˆHi ≥ Eo. If we define a functional F [ρ(r)] = MinS(Φ)h ˆHi, then it follows that F [ρ] ≥ Eo."
+        },
+        {
+          "title": "The Variational Method: Solved Problems - UW Faculty Web Server",
+          "url": "https://faculty.washington.edu/seattle/physics541/13solved.pdf",
+          "domain": "faculty.washington.edu",
+          "snippet": "(d) Calculate the expectation value of the total energy for this trial wavefunction in the harmonic oscillator potential by adding the expectation values of the kinetic and potential energy = + ."
+        }
+      ],
+      "urls": [
+        "https://en.wikipedia.org/wiki/Variational_method_(quantum_mechanics)",
+        "https://phys.libretexts.org/Bookshelves/Quantum_Mechanics/Introductory_Quantum_Mechanics_(Fitzpatrick)/13:_Variational_Methods/13.01:_Variational_Principle",
+        "http://www.hyperphysics.phy-astr.gsu.edu/hbase/quantum/expect.html",
+        "https://www2.ph.ed.ac.uk/~gja/qp/qp8.pdf",
+        "https://faculty.washington.edu/seattle/physics541/13solved.pdf"
+      ],
+      "attempt_count": 1,
+      "searched_at": "2026-05-06_23-26-03",
+      "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
+    },
+    "C004": {
+      "claim": "In quantum mechanics, the variational principle relates to the extremization of the expectation value of energy {expectation value}.",
+      "search_attempts": [
+        {
+          "status": "ok",
+          "query": "expectation value variational principle quantum mechanics",
+          "results": [
+            {
+              "title": "Variational method (quantum mechanics) - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Variational_method_(quantum_mechanics)",
+              "domain": "en.wikipedia.org",
+              "snippet": "Another facet in variational principles in quantum mechanics is that since {\\displaystyle \\Psi } and {\\displaystyle \\Psi ^{\\dagger }} can be varied ..."
+            },
+            {
+              "title": "The variational principle and the quantum mechanical",
+              "url": "https://scipython.com/books/book2/chapter-8-scipy/problems/the-variational-principle-and-the-quantum-mechanical-particle-in-a-box/",
+              "domain": "scipython.com",
+              "snippet": "An approximate solution may be arrived at using the variational principle by minimizing the expectation value of the energy of a trial wavefunction ..."
+            },
+            {
+              "title": "energy - Variational principle quantum mechanics: trial wave",
+              "url": "https://physics.stackexchange.com/questions/656575/variational-principle-quantum-mechanics-trial-wave-function-is-not-expressed-by",
+              "domain": "physics.stackexchange.com",
+              "snippet": "Variational principle quantum mechanics: trial wave function is not expressed by basis of eigenfunctions ... variational principle say, for instance, ..."
+            },
+            {
+              "title": "quantum mechanics - Finding an approximate expectation value",
+              "url": "https://physics.stackexchange.com/questions/285778/finding-an-approximate-expectation-value-langle-e-0-hatoe-0-rangle-when-i",
+              "domain": "physics.stackexchange.com",
+              "snippet": "How should I interpret the expectation value $\\langle x p\\rangle$ in quantum mechanics? ... expectation value given by ..."
+            },
+            {
+              "title": "Variational Principle | Applications of Quantum Mechanics",
+              "url": "https://quantum.lassp.cornell.edu/lecture/variational_principle",
+              "domain": "quantum.lassp.cornell.edu",
+              "snippet": "It is possible that the variational principle was covered in PHYS 3316, but it is so important that it bears repeating."
+            }
+          ],
+          "urls": [
+            "https://en.wikipedia.org/wiki/Variational_method_(quantum_mechanics)",
+            "https://scipython.com/books/book2/chapter-8-scipy/problems/the-variational-principle-and-the-quantum-mechanical-particle-in-a-box/",
+            "https://physics.stackexchange.com/questions/656575/variational-principle-quantum-mechanics-trial-wave-function-is-not-expressed-by",
+            "https://physics.stackexchange.com/questions/285778/finding-an-approximate-expectation-value-langle-e-0-hatoe-0-rangle-when-i",
+            "https://quantum.lassp.cornell.edu/lecture/variational_principle"
+          ],
+          "result_snippet": "[1] Variational method (quantum mechanics) - Wikipedia\nURL: https://en.wikipedia.org/wiki/Variational_method_(quantum_mechanics)\nSnippet: Another facet in variational principles in quantum mechanics is that since {\\displaystyle \\Psi } and {\\displaystyle \\Psi ^{\\dagger }} can be varied ...\n\n[2] The variational principle and the quantum mechanical\nURL: https://scipython.com/books/book2/chapter-8-scipy/problems/the-variational-principle-and-the-quantum-mechanical-particle-in-a-box/\nSnippet: An approximate solution may be arrived at using the variational principle by minimizing the expectation value of the energy of a trial wavefunction ...\n\n[3] energy - Variational principle quantum mechanics: trial wave\nURL: https://physics.stackexchange.com/questions/656575/variational-principle-quantum-mechanics-trial-wave-function-is-not-expressed-by\nSnippet: Variational principle quantum mechanics: trial wave function is not expressed by basis of eigenfunctions ... variational principle say, for instance, ...\n\n[4] quantum mechanics - Finding an approximate expectation value\nURL: https://physics.stackexchange.com/questions/285778/finding-an-approximate-expectation-value-langle-e-0-hatoe-0-rangle-when-i\nSnippet: How should I interpret the expectation value $\\langle x p\\rangle$ in quantum mechanics? ... expectation value given by ...\n\n[5] Variational Principle | Applications of Quantum Mechanics\nURL: https://quantum.lassp.cornell.edu/lecture/variational_principle\nSnippet: It is possible that the variational principle was covered in PHYS 3316, but it is so important that it bears repeating.",
+          "searched_at": "2026-05-07_00-02-29",
+          "attempt_number": 1
+        }
+      ],
+      "query": "expectation value variational principle quantum mechanics",
+      "search_status": "ok",
+      "result_snippet": "[1] Variational method (quantum mechanics) - Wikipedia\nURL: https://en.wikipedia.org/wiki/Variational_method_(quantum_mechanics)\nSnippet: Another facet in variational principles in quantum mechanics is that since {\\displaystyle \\Psi } and {\\displaystyle \\Psi ^{\\dagger }} can be varied ...\n\n[2] The variational principle and the quantum mechanical\nURL: https://scipython.com/books/book2/chapter-8-scipy/problems/the-variational-principle-and-the-quantum-mechanical-particle-in-a-box/\nSnippet: An approximate solution may be arrived at using the variational principle by minimizing the expectation value of the energy of a trial wavefunction ...\n\n[3] energy - Variational principle quantum mechanics: trial wave\nURL: https://physics.stackexchange.com/questions/656575/variational-principle-quantum-mechanics-trial-wave-function-is-not-expressed-by\nSnippet: Variational principle quantum mechanics: trial wave function is not expressed by basis of eigenfunctions ... variational principle say, for instance, ...\n\n[4] quantum mechanics - Finding an approximate expectation value\nURL: https://physics.stackexchange.com/questions/285778/finding-an-approximate-expectation-value-langle-e-0-hatoe-0-rangle-when-i\nSnippet: How should I interpret the expectation value $\\langle x p\\rangle$ in quantum mechanics? ... expectation value given by ...\n\n[5] Variational Principle | Applications of Quantum Mechanics\nURL: https://quantum.lassp.cornell.edu/lecture/variational_principle\nSnippet: It is possible that the variational principle was covered in PHYS 3316, but it is so important that it bears repeating.",
+      "results": [
+        {
+          "title": "Variational method (quantum mechanics) - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Variational_method_(quantum_mechanics)",
+          "domain": "en.wikipedia.org",
+          "snippet": "Another facet in variational principles in quantum mechanics is that since {\\displaystyle \\Psi } and {\\displaystyle \\Psi ^{\\dagger }} can be varied ..."
+        },
+        {
+          "title": "The variational principle and the quantum mechanical",
+          "url": "https://scipython.com/books/book2/chapter-8-scipy/problems/the-variational-principle-and-the-quantum-mechanical-particle-in-a-box/",
+          "domain": "scipython.com",
+          "snippet": "An approximate solution may be arrived at using the variational principle by minimizing the expectation value of the energy of a trial wavefunction ..."
+        },
+        {
+          "title": "energy - Variational principle quantum mechanics: trial wave",
+          "url": "https://physics.stackexchange.com/questions/656575/variational-principle-quantum-mechanics-trial-wave-function-is-not-expressed-by",
+          "domain": "physics.stackexchange.com",
+          "snippet": "Variational principle quantum mechanics: trial wave function is not expressed by basis of eigenfunctions ... variational principle say, for instance, ..."
+        },
+        {
+          "title": "quantum mechanics - Finding an approximate expectation value",
+          "url": "https://physics.stackexchange.com/questions/285778/finding-an-approximate-expectation-value-langle-e-0-hatoe-0-rangle-when-i",
+          "domain": "physics.stackexchange.com",
+          "snippet": "How should I interpret the expectation value $\\langle x p\\rangle$ in quantum mechanics? ... expectation value given by ..."
+        },
+        {
+          "title": "Variational Principle | Applications of Quantum Mechanics",
+          "url": "https://quantum.lassp.cornell.edu/lecture/variational_principle",
+          "domain": "quantum.lassp.cornell.edu",
+          "snippet": "It is possible that the variational principle was covered in PHYS 3316, but it is so important that it bears repeating."
+        }
+      ],
+      "urls": [
+        "https://en.wikipedia.org/wiki/Variational_method_(quantum_mechanics)",
+        "https://scipython.com/books/book2/chapter-8-scipy/problems/the-variational-principle-and-the-quantum-mechanical-particle-in-a-box/",
+        "https://physics.stackexchange.com/questions/656575/variational-principle-quantum-mechanics-trial-wave-function-is-not-expressed-by",
+        "https://physics.stackexchange.com/questions/285778/finding-an-approximate-expectation-value-langle-e-0-hatoe-0-rangle-when-i",
+        "https://quantum.lassp.cornell.edu/lecture/variational_principle"
+      ],
+      "attempt_count": 1,
+      "searched_at": "2026-05-07_00-02-29",
       "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
     }
   },
-  "last_updated": "2026-05-04_23-41-03"
+  "summary": {
+    "total_claims": 4,
+    "checked_claim_count": 1,
+    "passing_claim_count": 0,
+    "unchecked_claim_count": 3,
+    "unresolved_or_needs_qualification": 4,
+    "actionable_issue_count": 0,
+    "evidence_retry_count": 1,
+    "claim_review_complete": false,
+    "unchecked_claim_ids": [
+      "C002",
+      "C003",
+      "C004"
+    ],
+    "actionable_claim_ids": [],
+    "evidence_retry_claim_ids": [
+      "C001"
+    ],
+    "highest_priority_fixes": []
+  },
+  "last_updated": "2026-05-07_00-38-56"
 }

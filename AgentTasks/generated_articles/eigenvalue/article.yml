@@ -2,14 +2,20 @@ title: Eigenvalue
 slug: eigenvalue
 status: needs_revision
 finished: false
-iteration_count: 3
-accessibility_score: 0
+iteration_count: 5
+accessibility_score: 4
 rigor_score: 0
-last_worked_on: '2026-05-05'
-last_completed_pass: 2026-05-05_00-26-57
+claim_review_passed: false
+claim_total_count: 2
+claim_checked_count: 1
+claim_unchecked_count: 1
+claim_unresolved_count: 2
+last_worked_on: '2026-05-07'
+last_completed_pass: 2026-05-07_07-52-58
 needs:
 - accessibility_revision
 - rigor_revision
-- claim_review
+- claim_check
+- claim_revision
 current_draft: draft.md
 last_error: 'LLMCallError("writer failed after 1 attempt(s): LLMCallError(''LLM_TIMEOUT_AFTER_480_SECONDS'')")'

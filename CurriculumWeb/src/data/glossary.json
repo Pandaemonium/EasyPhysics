@@ -1,0 +1,122 @@
+{
+  "physics": {
+    "standard": "physics",
+    "intuitive": "search for reliable structure",
+    "definition": "The study of how physical systems behave, with special attention to rules and quantities that stay reliable across changes."
+  },
+  "system": {
+    "standard": "physical system",
+    "intuitive": "the part we are tracking",
+    "definition": "The piece of the world a model chooses to describe, such as a ball, a room, a pendulum, or a beam of light."
+  },
+  "model": {
+    "standard": "model",
+    "intuitive": "useful description",
+    "definition": "A simplified description that keeps the information needed for a question and leaves out details that do not matter much for that question."
+  },
+  "state": {
+    "standard": "state",
+    "intuitive": "enough-now description",
+    "definition": "The information a model needs about a system right now in order to answer the question it is built for."
+  },
+  "change-rule": {
+    "standard": "dynamics",
+    "intuitive": "rule of change",
+    "definition": "A rule that says how a state can change into another state."
+  },
+  "symmetry": {
+    "standard": "symmetry",
+    "intuitive": "change that does not matter",
+    "definition": "A change in setup or description that leaves the relevant rule unchanged."
+  },
+  "continuous-symmetry": {
+    "standard": "continuous symmetry",
+    "intuitive": "smooth sameness",
+    "definition": "A symmetry that can be changed by any tiny amount, such as shifting an experiment a little in space."
+  },
+  "conservation-law": {
+    "standard": "conservation law",
+    "intuitive": "protected quantity rule",
+    "definition": "A statement that some quantity stays fixed while a system changes."
+  },
+  "energy": {
+    "standard": "energy",
+    "intuitive": "time-sameness bookkeeping",
+    "definition": "A conserved quantity associated with rules that do not change over time."
+  },
+  "momentum": {
+    "standard": "momentum",
+    "intuitive": "place-sameness bookkeeping",
+    "definition": "A conserved quantity associated with rules that do not change from place to place."
+  },
+  "angular-momentum": {
+    "standard": "angular momentum",
+    "intuitive": "direction-sameness bookkeeping",
+    "definition": "A conserved quantity associated with rules that do not change when directions are rotated."
+  },
+  "noether-theorem": {
+    "standard": "Noether's theorem",
+    "intuitive": "sameness becomes conservation",
+    "definition": "The result that continuous symmetries of the action correspond to conserved quantities."
+  },
+  "coordinate": {
+    "standard": "coordinate",
+    "intuitive": "address number",
+    "definition": "A number used to describe where something is or how much of a chosen direction it has."
+  },
+  "function": {
+    "standard": "function",
+    "intuitive": "input-output rule",
+    "definition": "A rule that takes an input and assigns an output."
+  },
+  "variable": {
+    "standard": "variable",
+    "intuitive": "changeable slot",
+    "definition": "A symbol that can stand for different possible values."
+  },
+  "field": {
+    "standard": "field",
+    "intuitive": "value spread across space",
+    "definition": "A physical quantity with a value at many points in space, or more precisely in spacetime."
+  },
+  "particle": {
+    "standard": "particle",
+    "intuitive": "countable field ripple",
+    "definition": "In modern physics, a stable countable excitation of a field."
+  },
+  "interaction": {
+    "standard": "interaction",
+    "intuitive": "mutual change rule",
+    "definition": "A rule describing how physical systems or fields affect one another."
+  },
+  "geometry": {
+    "standard": "geometry",
+    "intuitive": "rules of distance and direction",
+    "definition": "The structure that tells us how positions, directions, intervals, and paths are measured."
+  },
+  "fermion": {
+    "standard": "fermion",
+    "intuitive": "space-occupier",
+    "definition": "A particle type that obeys the Pauli exclusion principle and helps matter have structure."
+  },
+  "boson": {
+    "standard": "boson",
+    "intuitive": "force-carrier",
+    "definition": "A particle type that can share the same quantum state with identical particles and often carries interactions."
+  },
+  "quantum-superposition": {
+    "standard": "quantum superposition",
+    "intuitive": "state overlap",
+    "definition": "A quantum state built from multiple possible basis states before a measurement asks for one kind of answer."
+  },
+  "wave-particle-duality": {
+    "standard": "wave-particle duality",
+    "intuitive": "granular wave behavior",
+    "definition": "The fact that quantum objects have wave-like structure while also producing countable measurement events."
+  },
+  "geodesic": {
+    "standard": "geodesic",
+    "intuitive": "straightest possible path",
+    "definition": "The path an object follows when it moves freely through flat or curved geometry."
+  }
+}

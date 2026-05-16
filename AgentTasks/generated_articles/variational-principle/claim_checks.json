@@ -4,34 +4,103 @@
       "id": "C001",
       "verdict": "not_enough_evidence",
       "severity": "medium",
-      "problem": "Could not parse claim-checker output.",
-      "suggested_fix": "Review this claim manually.",
-      "source_quality_note": ""
-    },
+      "problem": "Claim checker failed: LLMCallError(\"claim_checker failed after 3 attempt(s): LLMCallError('LLM_TIMEOUT_AFTER_720_SECONDS')\")",
+      "suggested_fix": "Automatically retry this claim with another source search or a smaller context.",
+      "source_quality_note": "",
+      "source_urls": [],
+      "claim": "The variational principle is a mathematical framework that can be used to find extremal paths or states.",
+      "checked_at": "2026-05-07_01-15-20",
+      "source_attempt_count": 3,
+      "available_source_urls": [
+        "https://www.math.uci.edu/~chenlong/290C/2_classicalTheory.pdf",
+        "https://mitpress.mit.edu/9780262020091/principles-and-applications-of-variational-methods/",
+        "https://www.academia.edu/12936948/Calculus_of_Variations_and_the_Euler_Lagrange_Equations",
+        "https://authors.library.caltech.edu/records/a4vge-0m197",
+        "https://www.academia.edu/53062740/The_principle_of_stationary_action_in_the_calculus_of_variations"
+      ]
+    }
+  ],
+  "check_history": [
     {
-      "id": "C002",
+      "id": "C001",
       "verdict": "not_enough_evidence",
-      "severity": "low",
-      "problem": "Search snippet is unrelated to physics or variational principle",
-      "suggested_fix": "Use a physics textbook or lecture note snippet instead of unrelated content",
-      "source_quality_note": "The snippet appears to be from a non-physical context (flowers, betting, Christmas) rather than authoritative physics sources"
+      "severity": "medium",
+      "problem": "Claim checker failed: LLMCallError(\"claim_checker failed after 3 attempt(s): LLMCallError('LLM_TIMEOUT_AFTER_720_SECONDS')\")",
+      "suggested_fix": "Automatically retry this claim with another source search or a smaller context.",
+      "source_quality_note": "",
+      "source_urls": [],
+      "claim": "The variational principle is a mathematical framework that can be used to find extremal paths or states.",
+      "checked_at": "2026-05-07_00-02-26",
+      "source_attempt_count": 1,
+      "available_source_urls": [
+        "https://phys.libretexts.org/Bookshelves/Quantum_Mechanics/Introductory_Quantum_Mechanics_(Fitzpatrick)/13:_Variational_Methods/13.01:_Variational_Principle",
+        "https://www.numberanalytics.com/blog/variational-principle-quantum-mechanics-guide",
+        "https://www.trustatoms.com/variational-principles-in-physical-systems/",
+        "https://www.sciencedirect.com/book/edited-volume/9780080444888/variational-and-extremum-principles-in-macroscopic-systems",
+        "https://link.springer.com/chapter/10.1007/978-3-031-99254-4_2"
+      ]
     },
     {
-      "id": "C003",
-      "verdict": "supported",
-      "severity": "none",
-      "problem": "",
-      "suggested_fix": "",
-      "source_quality_note": "The snippet references authoritative textbook explanations and historical physics developments, confirming the claim's validity."
+      "id": "C001",
+      "verdict": "not_enough_evidence",
+      "severity": "medium",
+      "problem": "Claim checker failed: LLMCallError(\"claim_checker failed after 3 attempt(s): LLMCallError('LLM_TIMEOUT_AFTER_720_SECONDS')\")",
+      "suggested_fix": "Automatically retry this claim with another source search or a smaller context.",
+      "source_quality_note": "",
+      "source_urls": [],
+      "claim": "The variational principle is a mathematical framework that can be used to find extremal paths or states.",
+      "checked_at": "2026-05-07_00-38-52",
+      "source_attempt_count": 2,
+      "available_source_urls": [
+        "https://en.wikipedia.org/wiki/Calculus_of_Variations",
+        "https://phys.libretexts.org/Bookshelves/Quantum_Mechanics/Introductory_Quantum_Mechanics_(Fitzpatrick)/13:_Variational_Methods/13.01:_Variational_Principle",
+        "https://www.sciencedirect.com/book/edited-volume/9780080444888/variational-and-extremum-principles-in-macroscopic-systems",
+        "https://arxiv.org/abs/2601.01262",
+        "https://www.academia.edu/113196952/Variational_Principles_of_Physics_and_the_Infinite_Ramsey_Theory"
+      ]
+    },
+    {
+      "id": "C001",
+      "verdict": "not_enough_evidence",
+      "severity": "medium",
+      "problem": "Claim checker failed: LLMCallError(\"claim_checker failed after 3 attempt(s): LLMCallError('LLM_TIMEOUT_AFTER_720_SECONDS')\")",
+      "suggested_fix": "Automatically retry this claim with another source search or a smaller context.",
+      "source_quality_note": "",
+      "source_urls": [],
+      "claim": "The variational principle is a mathematical framework that can be used to find extremal paths or states.",
+      "checked_at": "2026-05-07_01-15-20",
+      "source_attempt_count": 3,
+      "available_source_urls": [
+        "https://www.math.uci.edu/~chenlong/290C/2_classicalTheory.pdf",
+        "https://mitpress.mit.edu/9780262020091/principles-and-applications-of-variational-methods/",
+        "https://www.academia.edu/12936948/Calculus_of_Variations_and_the_Euler_Lagrange_Equations",
+        "https://authors.library.caltech.edu/records/a4vge-0m197",
+        "https://www.academia.edu/53062740/The_principle_of_stationary_action_in_the_calculus_of_variations"
+      ]
     }
   ],
   "summary": {
-    "overall_claim_quality": "Claim check completed.",
-    "unresolved_or_needs_qualification": 2,
+    "total_claims": 4,
+    "checked_claim_count": 1,
+    "passing_claim_count": 0,
+    "unchecked_claim_count": 3,
+    "unresolved_or_needs_qualification": 4,
+    "actionable_issue_count": 1,
+    "evidence_retry_count": 0,
+    "claim_review_complete": false,
+    "unchecked_claim_ids": [
+      "C002",
+      "C003",
+      "C004"
+    ],
+    "actionable_claim_ids": [
+      "C001"
+    ],
+    "evidence_retry_claim_ids": [],
     "highest_priority_fixes": [
-      "Review this claim manually.",
-      "Use a physics textbook or lecture note snippet instead of unrelated content"
-    ]
+      "Automatically retry this claim with another source search or a smaller context."
+    ],
+    "overall_claim_quality": "Partial claim check completed."
   },
-  "last_updated": "2026-05-04_23-44-53"
+  "last_updated": "2026-05-07_01-15-20"
 }

@@ -1,0 +1,112 @@
+{
+  "claim_checks": [
+    {
+      "id": "C001",
+      "verdict": "not_enough_evidence",
+      "severity": "medium",
+      "problem": "Claim checker failed: LLMCallError(\"claim_checker failed after 1 attempt(s): LLMCallError('LLM_TIMEOUT_AFTER_480_SECONDS')\")",
+      "suggested_fix": "Automatically retry this claim with another source search or a smaller context.",
+      "source_quality_note": "",
+      "source_urls": [],
+      "claim": "Eigenvalues are scaling factors that describe how vectors are stretched or squashed by linear transformations.",
+      "checked_at": "2026-05-05_15-17-35",
+      "source_attempt_count": 3,
+      "available_source_urls": [
+        "https://courses.physics.illinois.edu/cs357/sp2024/notes/ref-12-eigen.html",
+        "https://web.physics.utah.edu/~detar/lessons/linalg/linalg/node3.html",
+        "https://mathbooks.unl.edu/LinearAlgebra/Section-Describing-Eigenvalues-and-Eigenvectors.html",
+        "https://books.physics.oregonstate.edu/LinAlg/ch3.html",
+        "https://mathresearch.utsa.edu/wiki/index.php?title=Eigenvalues_and_Eigenvectors"
+      ]
+    }
+  ],
+  "check_history": [
+    {
+      "id": "C001",
+      "verdict": "not_enough_evidence",
+      "severity": "medium",
+      "problem": "Claim checker failed: LLMCallError(\"claim_checker failed after 1 attempt(s): LLMCallError('LLM_TIMEOUT_AFTER_480_SECONDS')\")",
+      "suggested_fix": "Automatically retry this claim with another source search or a smaller context.",
+      "source_quality_note": "",
+      "source_urls": [],
+      "claim": "Eigenvalues are scaling factors that describe how vectors are stretched or squashed by linear transformations.",
+      "checked_at": "2026-05-05_15-01-11",
+      "source_attempt_count": 1,
+      "available_source_urls": [
+        "https://en.wikipedia.org/wiki/Eigenvalues_and_eigenvectors",
+        "https://math.libretexts.org/Bookshelves/Linear_Algebra/Linear_Algebra_with_Applications_(Nicholson)/03:_Determinants_and_Diagonalization/3.03:_Eigenvalues_and_Eigenvectors",
+        "https://www.geeksforgeeks.org/engineering-mathematics/eigen-values/",
+        "https://www.infobooks.org/free-pdf-books/math/linear-algebra/",
+        "https://www.physicsmathcomputing.com/linear-algebra-eigenvalues-and-eigenvectors"
+      ]
+    },
+    {
+      "id": "C001",
+      "verdict": "not_enough_evidence",
+      "severity": "medium",
+      "problem": "Claim checker failed: LLMCallError(\"claim_checker failed after 1 attempt(s): LLMCallError('LLM_TIMEOUT_AFTER_480_SECONDS')\")",
+      "suggested_fix": "Automatically retry this claim with another source search or a smaller context.",
+      "source_quality_note": "",
+      "source_urls": [],
+      "claim": "Eigenvalues are scaling factors that describe how vectors are stretched or squashed by linear transformations.",
+      "checked_at": "2026-05-05_15-09-24",
+      "source_attempt_count": 2,
+      "available_source_urls": [
+        "https://en.wikipedia.org/wiki/Eigenvalues_and_eigenvectors",
+        "https://phys.libretexts.org/Courses/University_of_California_Davis/UCD:_Physics_9D__Modern_Physics/7:_Matter_Waves/7.4:_Eigenstates_and_Eigenvalues",
+        "https://gauravtiwari.org/study-notes/eigenvalues-and-eigenvectors/",
+        "https://link.springer.com/rwe/10.1007/978-981-96-8165-5_8-1",
+        "https://www.geeksforgeeks.org/engineering-mathematics/eigen-values/"
+      ]
+    },
+    {
+      "id": "C001",
+      "verdict": "not_enough_evidence",
+      "severity": "medium",
+      "problem": "Claim checker failed: LLMCallError(\"claim_checker failed after 1 attempt(s): LLMCallError('LLM_TIMEOUT_AFTER_480_SECONDS')\")",
+      "suggested_fix": "Automatically retry this claim with another source search or a smaller context.",
+      "source_quality_note": "",
+      "source_urls": [],
+      "claim": "Eigenvalues are scaling factors that describe how vectors are stretched or squashed by linear transformations.",
+      "checked_at": "2026-05-05_15-17-35",
+      "source_attempt_count": 3,
+      "available_source_urls": [
+        "https://courses.physics.illinois.edu/cs357/sp2024/notes/ref-12-eigen.html",
+        "https://web.physics.utah.edu/~detar/lessons/linalg/linalg/node3.html",
+        "https://mathbooks.unl.edu/LinearAlgebra/Section-Describing-Eigenvalues-and-Eigenvectors.html",
+        "https://books.physics.oregonstate.edu/LinAlg/ch3.html",
+        "https://mathresearch.utsa.edu/wiki/index.php?title=Eigenvalues_and_Eigenvectors"
+      ]
+    }
+  ],
+  "summary": {
+    "total_claims": 10,
+    "checked_claim_count": 1,
+    "passing_claim_count": 0,
+    "unchecked_claim_count": 9,
+    "unresolved_or_needs_qualification": 10,
+    "actionable_issue_count": 1,
+    "evidence_retry_count": 0,
+    "claim_review_complete": false,
+    "unchecked_claim_ids": [
+      "C002",
+      "C003",
+      "C004",
+      "C005",
+      "C006",
+      "C007",
+      "C008",
+      "C009",
+      "C010"
+    ],
+    "actionable_claim_ids": [
+      "C001"
+    ],
+    "evidence_retry_claim_ids": [],
+    "highest_priority_fixes": [
+      "Automatically retry this claim with another source search or a smaller context."
+    ],
+    "overall_claim_quality": "Partial claim check completed."
+  },
+  "last_updated": "2026-05-05_15-17-35"
+}

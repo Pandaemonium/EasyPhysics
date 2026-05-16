@@ -1,0 +1,32 @@
+{
+  "score": 3,
+  "pass": false,
+  "strengths": ["mountain analogy for action", "clear contrast between first/second theorem"],
+  "issues": [
+    {
+      "severity": "high",
+      "location": "core idea section",
+      "problem": "Jargon-heavy without foundational explanation (symmetries, conservation laws, global/local symmetries)",
+      "suggested_fix": "Add analogies for 'symmetry' and 'conservation law' before introducing technical terms"
+    },
+    {
+      "severity": "high",
+      "location": "more precise picture section",
+      "problem": "Math appears without plain-language interpretation (action, Lagrangian, Euler-Lagrange equations)",
+      "suggested_fix": "Explain each symbol's meaning with physical examples before equations"
+    },
+    {
+      "severity": "medium",
+      "location": "pendulum example",
+      "problem": "Confusing connection between time translation symmetry and constraint enforcement",
+      "suggested_fix": "Use a simpler system (e.g., charged particle in electric field) to demonstrate symmetry constraints"
+    },
+    {
+      "severity": "high",
+      "location": "opening paragraph",
+      "problem": "Introduces Noether's first theorem without explaining its basic premise",
+      "suggested_fix": "Start with a simple conservation law example (e.g., momentum conservation) to ground the concept"
+    }
+  ],
+  "best_next_revision": "Begin with a relatable example of conservation law (e.g., ice skater spinning) to explain symmetry-consequence relationship, then gradually introduce technical terms with analogies and minimal math."
+}

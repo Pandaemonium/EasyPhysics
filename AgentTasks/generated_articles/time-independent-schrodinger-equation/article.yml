@@ -5,6 +5,11 @@ finished: false
 iteration_count: 1
 accessibility_score: 8
 rigor_score: 0
+claim_review_passed: false
+claim_total_count: 8
+claim_checked_count: 2
+claim_unchecked_count: 6
+claim_unresolved_count: 7
 last_worked_on: '2026-05-04'
 last_completed_pass: 2026-05-04_16-32-37
 needs:

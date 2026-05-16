@@ -1,0 +1,20 @@
+{
+  "node": "rigor_judge",
+  "created_at": "2026-05-05_18-28-06",
+  "error": "LLMCallError(\"rigor_judge failed after 2 attempt(s): LLMCallError('LLM_TIMEOUT_AFTER_720_SECONDS')\")",
+  "traceback": "Traceback (most recent call last):\n  File \"C:\\Projects\\EasyPhysics\\auto_generate_articles.py\", line 1388, in run_role\n    return func(p, state)\n           ^^^^^^^^^^^^^^\n  File \"C:\\Projects\\EasyPhysics\\auto_generate_articles.py\", line 2974, in rigor_judge_role\n    raw = invoke_llm(p.article_dir, \"rigor_judge\", prompt, system_extra=RIGOR_RUBRIC, expect_json=True)\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Projects\\EasyPhysics\\auto_generate_articles.py\", line 2001, in invoke_llm\n    raise LLMCallError(f\"{node_name} failed after {max_retries + 1} attempt(s): {last_error}\")\nLLMCallError: rigor_judge failed after 2 attempt(s): LLMCallError('LLM_TIMEOUT_AFTER_720_SECONDS')\n",
+  "default_returned": {
+    "score": 0,
+    "pass": false,
+    "strengths": [],
+    "issues": [
+      {
+        "severity": "high",
+        "location": "whole article",
+        "problem": "Rigor judge failed.",
+        "suggested_fix": "Automatically rerun rigor review."
+      }
+    ],
+    "best_next_revision": "Automatically rerun rigor review."
+  }
+}

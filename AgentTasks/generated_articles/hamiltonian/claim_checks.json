@@ -2,35 +2,106 @@
   "claim_checks": [
     {
       "id": "C001",
-      "verdict": "supported",
-      "severity": "none",
-      "problem": "",
-      "suggested_fix": "",
-      "source_quality_note": "The snippet comes from a reliable physics education source explaining Hamiltonian mechanics and quantum mechanics concepts."
-    },
-    {
-      "id": "C002",
-      "verdict": "supported",
-      "severity": "high",
-      "problem": "",
-      "suggested_fix": "",
-      "source_quality_note": "The snippet references stable physics concepts and mentions ISO standards, indicating authoritative educational sources."
-    },
-    {
-      "id": "C003",
       "verdict": "not_enough_evidence",
-      "severity": "low",
-      "problem": "The search snippet does not explicitly address the recipe analogy for Hamiltonian, though it discusses energy concepts",
-      "suggested_fix": "Find a physics textbook or lecture that explicitly uses the recipe analogy for Hamiltonian",
-      "source_quality_note": "The snippet includes MIT OCW and Feynman Lectures references which are authoritative, but lacks direct support for the specific claim"
+      "severity": "medium",
+      "problem": "Claim checker failed: LLMCallError(\"claim_checker failed after 3 attempt(s): LLMCallError('LLM_TIMEOUT_AFTER_720_SECONDS')\")",
+      "suggested_fix": "Automatically retry this claim with another source search or a smaller context.",
+      "source_quality_note": "",
+      "source_urls": [],
+      "claim": "The Hamiltonian is a total energy framework {Hamiltonian} governing motion in classical mechanics via Hamilton’s equations {Hamilton’s equations}.",
+      "checked_at": "2026-05-06_14-08-06",
+      "source_attempt_count": 3,
+      "available_source_urls": [
+        "https://en.wikipedia.org/wiki/Hamiltonian_mechanics",
+        "https://en.wikipedia.org/wiki/Hamilton's_equations",
+        "https://grokipedia.com/page/Hamiltonian_mechanics",
+        "https://handwiki.org/wiki/Physics:Hamiltonian_mechanics",
+        "https://www.wikiwand.com/en/articles/Hamiltonian_mechanics"
+      ]
+    }
+  ],
+  "check_history": [
+    {
+      "id": "C001",
+      "verdict": "not_enough_evidence",
+      "severity": "medium",
+      "problem": "Claim checker failed: LLMCallError(\"claim_checker failed after 3 attempt(s): LLMCallError('LLM_TIMEOUT_AFTER_720_SECONDS')\")",
+      "suggested_fix": "Automatically retry this claim with another source search or a smaller context.",
+      "source_quality_note": "",
+      "source_urls": [],
+      "claim": "The Hamiltonian is a total energy framework {Hamiltonian} governing motion in classical mechanics via Hamilton’s equations {Hamilton’s equations}.",
+      "checked_at": "2026-05-06_12-55-14",
+      "source_attempt_count": 1,
+      "available_source_urls": [
+        "https://grokipedia.com/page/Hamiltonian_mechanics",
+        "https://www.wikiwand.com/en/articles/Hamiltonian_mechanics",
+        "https://handwiki.org/wiki/Physics:Hamiltonian_mechanics",
+        "https://physics.stackexchange.com/questions/168100/help-understanding-what-the-hamiltonian-signifies-for-the-action-compared-with-t",
+        "https://physics.stackexchange.com/questions/488218/what-is-a-hamiltonian-of-a-system"
+      ]
+    },
+    {
+      "id": "C001",
+      "verdict": "not_enough_evidence",
+      "severity": "medium",
+      "problem": "Claim checker failed: LLMCallError(\"claim_checker failed after 3 attempt(s): LLMCallError('LLM_TIMEOUT_AFTER_720_SECONDS')\")",
+      "suggested_fix": "Automatically retry this claim with another source search or a smaller context.",
+      "source_quality_note": "",
+      "source_urls": [],
+      "claim": "The Hamiltonian is a total energy framework {Hamiltonian} governing motion in classical mechanics via Hamilton’s equations {Hamilton’s equations}.",
+      "checked_at": "2026-05-06_13-31-42",
+      "source_attempt_count": 2,
+      "available_source_urls": [
+        "https://en.wikipedia.org/wiki/Hamiltonian_mechanics",
+        "https://en.wikipedia.org/wiki/Hamilton's_equations",
+        "https://grokipedia.com/page/Hamiltonian_mechanics",
+        "https://www.wikiwand.com/en/articles/Hamiltonian_mechanics",
+        "https://handwiki.org/wiki/Physics:Hamiltonian_mechanics"
+      ]
+    },
+    {
+      "id": "C001",
+      "verdict": "not_enough_evidence",
+      "severity": "medium",
+      "problem": "Claim checker failed: LLMCallError(\"claim_checker failed after 3 attempt(s): LLMCallError('LLM_TIMEOUT_AFTER_720_SECONDS')\")",
+      "suggested_fix": "Automatically retry this claim with another source search or a smaller context.",
+      "source_quality_note": "",
+      "source_urls": [],
+      "claim": "The Hamiltonian is a total energy framework {Hamiltonian} governing motion in classical mechanics via Hamilton’s equations {Hamilton’s equations}.",
+      "checked_at": "2026-05-06_14-08-06",
+      "source_attempt_count": 3,
+      "available_source_urls": [
+        "https://en.wikipedia.org/wiki/Hamiltonian_mechanics",
+        "https://en.wikipedia.org/wiki/Hamilton's_equations",
+        "https://grokipedia.com/page/Hamiltonian_mechanics",
+        "https://handwiki.org/wiki/Physics:Hamiltonian_mechanics",
+        "https://www.wikiwand.com/en/articles/Hamiltonian_mechanics"
+      ]
     }
   ],
   "summary": {
-    "overall_claim_quality": "Claim check completed.",
-    "unresolved_or_needs_qualification": 2,
+    "total_claims": 5,
+    "checked_claim_count": 1,
+    "passing_claim_count": 0,
+    "unchecked_claim_count": 4,
+    "unresolved_or_needs_qualification": 5,
+    "actionable_issue_count": 1,
+    "evidence_retry_count": 0,
+    "claim_review_complete": false,
+    "unchecked_claim_ids": [
+      "C002",
+      "C003",
+      "C004",
+      "C005"
+    ],
+    "actionable_claim_ids": [
+      "C001"
+    ],
+    "evidence_retry_claim_ids": [],
     "highest_priority_fixes": [
-      "Find a physics textbook or lecture that explicitly uses the recipe analogy for Hamiltonian"
-    ]
+      "Automatically retry this claim with another source search or a smaller context."
+    ],
+    "overall_claim_quality": "Partial claim check completed."
   },
-  "last_updated": "2026-05-04_22-43-20"
+  "last_updated": "2026-05-06_14-08-06"
 }

@@ -1,0 +1,327 @@
+{
+  "sources_by_claim": {
+    "C001": {
+      "claim": "Just as a rulebook ensures a game is played fairly, symmetries in the action (the integral of the Lagrangian over time) ensure that a system’s behavior follows consistent rules.",
+      "query": "Noether's second theorem Just as a rulebook ensures a game is played fairly, symmetries in the action (the integral physics lecture notes textbook explanation",
+      "result_snippet": "Noether's theorem states that every continuous symmetry of the action of a physical system with conservative forces has a corresponding conservation law. This is the first of two theorems (see Noether's second theorem) published by the mathematician Emmy Noether in 1918. [1] The action of a physical system is the integral over time of a Lagrangian function, from which the system's behavior can ... More than that, Noether's theorem provides a systematic way to derive these conserved quantities directly from the symmetries. Many familiar conservation laws in physics correspond precisely to symmetries of the underlying dynamics. Through symmetry of the action under global spacetime translations, Noether's first theorem infamously entails an energy-momentum tensor (EMT) that is neither symmetric nor gauge-invariant. In a prior work [Phys. Rev. D 106, 125012 (2022)], I had obtained a symmetric and gauge-invariant EMT by using Noether's second theorem instead, with local spacetime translations as the symmetry group ... The last ones are referred to as strong Noether symmetries, and the ultimate objective is establishing the corresponding version of Noether's Theorem, linking them to their corresponding dissipated quantities. A similar partial analysis of these subjects but in the k -contact framework of action-dependent field theories is found in [28, 29]. Noether's theorem is kinda confusing, at least it was to me, for a while. Roughly, it says that for any continuous symmetry in a system, there's a conserved quantity.",
+      "searched_at": "2026-05-04_21-18-42",
+      "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
+    },
+    "C002": {
+      "claim": "## Why this matters Noether's second theorem explains how **symmetries are built into the mathematical structure of physics**.",
+      "query": "Noether's second theorem ## Why this matters Noether's second theorem explains how **symmetries are built into the mathematical structure physics lecture notes textbook explanation",
+      "result_snippet": "[1] Noether's theorem - Wikipedia\nURL: https://en.wikipedia.org/wiki/Noether's_theorem\nSnippet: Noether's theorem is used in theoretical physics and the calculus of variations. It reveals the fundamental relation between the symmetries of a physical system and the conservation laws.\n\n[2] The most beautiful idea in physics - Noether's Theorem - YouTube\nURL: https://www.youtube.com/watch?v=CxlHLqJ9I0A\nSnippet: Homework:-What do you think of this idea? Have you heard of it before? -Maybe you’ve heard about things like super symmetry in physics- try find out how that...\n\n[3] Particle Ptuesdays (0/16): A Custom Textbook for the... | Medium\nURL: https://medium.com/@arturormk/particle-ptuesdays-0-16-a-custom-textbook-for-the-standard-model-b8e4d2529388\nSnippet: Some already know Noether’s theorem.In physics, symmetry does not merely mean visual balance. It means that something can be transformed while the relevant structure remains unchanged.\n\n[4] Quora - A place to share knowledge and better understand the world\nURL: https://www.quora.com/\nSnippet: Quora is a place to gain and share knowledge. It's a platform to ask questions and connect with people who contribute unique insights and quality answers. This empowers people to learn from each other and to better understand the world.\n\n[5] hyperphysics.phy-astr.gsu.edu/hbase/electric/thevenin.html\nURL: http://hyperphysics.phy-astr.gsu.edu/hbase/electric/thevenin.html\nSnippet: Thevenin's Theorem - HyperPhysics hyperphysics.phy-astr.gsu.edu.",
+      "searched_at": "2026-05-05_07-38-45",
+      "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it.",
+      "search_attempts": [
+        {
+          "status": "ok",
+          "query": "Noether's second theorem ## Why this matters Noether's second theorem explains how **symmetries are built into the mathematical structure physics lecture notes textbook explanation",
+          "results": [
+            {
+              "title": "Noether's theorem - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Noether's_theorem",
+              "domain": "en.wikipedia.org",
+              "snippet": "Noether's theorem is used in theoretical physics and the calculus of variations. It reveals the fundamental relation between the symmetries of a physical system and the conservation laws."
+            },
+            {
+              "title": "The most beautiful idea in physics - Noether's Theorem - YouTube",
+              "url": "https://www.youtube.com/watch?v=CxlHLqJ9I0A",
+              "domain": "youtube.com",
+              "snippet": "Homework:-What do you think of this idea? Have you heard of it before? -Maybe you’ve heard about things like super symmetry in physics- try find out how that..."
+            },
+            {
+              "title": "Particle Ptuesdays (0/16): A Custom Textbook for the... | Medium",
+              "url": "https://medium.com/@arturormk/particle-ptuesdays-0-16-a-custom-textbook-for-the-standard-model-b8e4d2529388",
+              "domain": "medium.com",
+              "snippet": "Some already know Noether’s theorem.In physics, symmetry does not merely mean visual balance. It means that something can be transformed while the relevant structure remains unchanged."
+            },
+            {
+              "title": "Quora - A place to share knowledge and better understand the world",
+              "url": "https://www.quora.com/",
+              "domain": "quora.com",
+              "snippet": "Quora is a place to gain and share knowledge. It's a platform to ask questions and connect with people who contribute unique insights and quality answers. This empowers people to learn from each other and to better understand the world."
+            },
+            {
+              "title": "hyperphysics.phy-astr.gsu.edu/hbase/electric/thevenin.html",
+              "url": "http://hyperphysics.phy-astr.gsu.edu/hbase/electric/thevenin.html",
+              "domain": "hyperphysics.phy-astr.gsu.edu",
+              "snippet": "Thevenin's Theorem - HyperPhysics hyperphysics.phy-astr.gsu.edu."
+            }
+          ],
+          "urls": [
+            "https://en.wikipedia.org/wiki/Noether's_theorem",
+            "https://www.youtube.com/watch?v=CxlHLqJ9I0A",
+            "https://medium.com/@arturormk/particle-ptuesdays-0-16-a-custom-textbook-for-the-standard-model-b8e4d2529388",
+            "https://www.quora.com/",
+            "http://hyperphysics.phy-astr.gsu.edu/hbase/electric/thevenin.html"
+          ],
+          "result_snippet": "[1] Noether's theorem - Wikipedia\nURL: https://en.wikipedia.org/wiki/Noether's_theorem\nSnippet: Noether's theorem is used in theoretical physics and the calculus of variations. It reveals the fundamental relation between the symmetries of a physical system and the conservation laws.\n\n[2] The most beautiful idea in physics - Noether's Theorem - YouTube\nURL: https://www.youtube.com/watch?v=CxlHLqJ9I0A\nSnippet: Homework:-What do you think of this idea? Have you heard of it before? -Maybe you’ve heard about things like super symmetry in physics- try find out how that...\n\n[3] Particle Ptuesdays (0/16): A Custom Textbook for the... | Medium\nURL: https://medium.com/@arturormk/particle-ptuesdays-0-16-a-custom-textbook-for-the-standard-model-b8e4d2529388\nSnippet: Some already know Noether’s theorem.In physics, symmetry does not merely mean visual balance. It means that something can be transformed while the relevant structure remains unchanged.\n\n[4] Quora - A place to share knowledge and better understand the world\nURL: https://www.quora.com/\nSnippet: Quora is a place to gain and share knowledge. It's a platform to ask questions and connect with people who contribute unique insights and quality answers. This empowers people to learn from each other and to better understand the world.\n\n[5] hyperphysics.phy-astr.gsu.edu/hbase/electric/thevenin.html\nURL: http://hyperphysics.phy-astr.gsu.edu/hbase/electric/thevenin.html\nSnippet: Thevenin's Theorem - HyperPhysics hyperphysics.phy-astr.gsu.edu.",
+          "searched_at": "2026-05-05_07-38-45",
+          "attempt_number": 1
+        }
+      ],
+      "search_status": "ok",
+      "results": [
+        {
+          "title": "Noether's theorem - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Noether's_theorem",
+          "domain": "en.wikipedia.org",
+          "snippet": "Noether's theorem is used in theoretical physics and the calculus of variations. It reveals the fundamental relation between the symmetries of a physical system and the conservation laws."
+        },
+        {
+          "title": "The most beautiful idea in physics - Noether's Theorem - YouTube",
+          "url": "https://www.youtube.com/watch?v=CxlHLqJ9I0A",
+          "domain": "youtube.com",
+          "snippet": "Homework:-What do you think of this idea? Have you heard of it before? -Maybe you’ve heard about things like super symmetry in physics- try find out how that..."
+        },
+        {
+          "title": "Particle Ptuesdays (0/16): A Custom Textbook for the... | Medium",
+          "url": "https://medium.com/@arturormk/particle-ptuesdays-0-16-a-custom-textbook-for-the-standard-model-b8e4d2529388",
+          "domain": "medium.com",
+          "snippet": "Some already know Noether’s theorem.In physics, symmetry does not merely mean visual balance. It means that something can be transformed while the relevant structure remains unchanged."
+        },
+        {
+          "title": "Quora - A place to share knowledge and better understand the world",
+          "url": "https://www.quora.com/",
+          "domain": "quora.com",
+          "snippet": "Quora is a place to gain and share knowledge. It's a platform to ask questions and connect with people who contribute unique insights and quality answers. This empowers people to learn from each other and to better understand the world."
+        },
+        {
+          "title": "hyperphysics.phy-astr.gsu.edu/hbase/electric/thevenin.html",
+          "url": "http://hyperphysics.phy-astr.gsu.edu/hbase/electric/thevenin.html",
+          "domain": "hyperphysics.phy-astr.gsu.edu",
+          "snippet": "Thevenin's Theorem - HyperPhysics hyperphysics.phy-astr.gsu.edu."
+        }
+      ],
+      "urls": [
+        "https://en.wikipedia.org/wiki/Noether's_theorem",
+        "https://www.youtube.com/watch?v=CxlHLqJ9I0A",
+        "https://medium.com/@arturormk/particle-ptuesdays-0-16-a-custom-textbook-for-the-standard-model-b8e4d2529388",
+        "https://www.quora.com/",
+        "http://hyperphysics.phy-astr.gsu.edu/hbase/electric/thevenin.html"
+      ],
+      "attempt_count": 1
+    },
+    "C003": {
+      "claim": "It ensures that physical laws are consistent across all scenarios, even when symmetries aren’t directly visible.",
+      "query": "Noether's second theorem It ensures that physical laws are consistent across all scenarios, even when symmetries aren’t directly visible. physics lecture notes textbook explanation",
+      "result_snippet": "[1] Noether's theorem - Wikipedia\nURL: https://en.wikipedia.org/wiki/Noether's_theorem\nSnippet: Noether's theorem is used in theoretical physics and the calculus of variations. It reveals the fundamental relation between the symmetries of a physical system and the conservation laws.\n\n[2] How Noether’s Theorem Revolutionized Physics | Quanta Magazine\nURL: https://www.quantamagazine.org/how-noethers-theorem-revolutionized-physics-20250207/\nSnippet: Emmy Noether showed that fundamental physical laws are just a consequence of simple symmetries.Noether discovered that conservation laws aren’t fundamental axioms of the universe. Instead, they emerge from deeper symmetries.\n\n[3] Noether's Theorem: The Hidden Link Between Symmetry and Physics\nURL: https://www.kroneckerwallis.com/emmy-noethers-theorem-how-symmetry-creates-conservation-laws/\nSnippet: Physical laws exhibit symmetry when they remain unchanged under certain transformations. Here are key examples: Time translation symmetry: Physical laws don’t change with time. An experiment performed today gives the same results as the same experiment tomorrow.\n\n[4] lagrangian formalism - What is Noether's Second Theorem?\nURL: https://physics.stackexchange.com/questions/560382/what-is-noethers-second-theorem\nSnippet: Noether's second theorem generalizes point 3: gauge symmetries of the action correspond to redundant Euler-Lagrange equations, which lead to undetermined time evolution. The simplest example of Noether's second theorem in field theory is electromagnetism.\n\n[5] In her short life, mathematician Emmy Noether changed the face of...\nURL: https://www.sciencenews.org/article/emmy-noether-theorem-legacy-physics-math\nSnippet: Noether linked two important concepts in physics: conservation laws and symmetries.The laws of physics are symmetric in space, time and rotation. According to Noether’s theorem, those symmetries suggest that momentum, energy and angular momentum are conserved.",
+      "searched_at": "2026-05-05_07-38-47",
+      "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it.",
+      "search_attempts": [
+        {
+          "status": "ok",
+          "query": "Noether's second theorem It ensures that physical laws are consistent across all scenarios, even when symmetries aren’t directly visible. physics lecture notes textbook explanation",
+          "results": [
+            {
+              "title": "Noether's theorem - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Noether's_theorem",
+              "domain": "en.wikipedia.org",
+              "snippet": "Noether's theorem is used in theoretical physics and the calculus of variations. It reveals the fundamental relation between the symmetries of a physical system and the conservation laws."
+            },
+            {
+              "title": "How Noether’s Theorem Revolutionized Physics | Quanta Magazine",
+              "url": "https://www.quantamagazine.org/how-noethers-theorem-revolutionized-physics-20250207/",
+              "domain": "quantamagazine.org",
+              "snippet": "Emmy Noether showed that fundamental physical laws are just a consequence of simple symmetries.Noether discovered that conservation laws aren’t fundamental axioms of the universe. Instead, they emerge from deeper symmetries."
+            },
+            {
+              "title": "Noether's Theorem: The Hidden Link Between Symmetry and Physics",
+              "url": "https://www.kroneckerwallis.com/emmy-noethers-theorem-how-symmetry-creates-conservation-laws/",
+              "domain": "kroneckerwallis.com",
+              "snippet": "Physical laws exhibit symmetry when they remain unchanged under certain transformations. Here are key examples: Time translation symmetry: Physical laws don’t change with time. An experiment performed today gives the same results as the same experiment tomorrow."
+            },
+            {
+              "title": "lagrangian formalism - What is Noether's Second Theorem?",
+              "url": "https://physics.stackexchange.com/questions/560382/what-is-noethers-second-theorem",
+              "domain": "physics.stackexchange.com",
+              "snippet": "Noether's second theorem generalizes point 3: gauge symmetries of the action correspond to redundant Euler-Lagrange equations, which lead to undetermined time evolution. The simplest example of Noether's second theorem in field theory is electromagnetism."
+            },
+            {
+              "title": "In her short life, mathematician Emmy Noether changed the face of...",
+              "url": "https://www.sciencenews.org/article/emmy-noether-theorem-legacy-physics-math",
+              "domain": "sciencenews.org",
+              "snippet": "Noether linked two important concepts in physics: conservation laws and symmetries.The laws of physics are symmetric in space, time and rotation. According to Noether’s theorem, those symmetries suggest that momentum, energy and angular momentum are conserved."
+            }
+          ],
+          "urls": [
+            "https://en.wikipedia.org/wiki/Noether's_theorem",
+            "https://www.quantamagazine.org/how-noethers-theorem-revolutionized-physics-20250207/",
+            "https://www.kroneckerwallis.com/emmy-noethers-theorem-how-symmetry-creates-conservation-laws/",
+            "https://physics.stackexchange.com/questions/560382/what-is-noethers-second-theorem",
+            "https://www.sciencenews.org/article/emmy-noether-theorem-legacy-physics-math"
+          ],
+          "result_snippet": "[1] Noether's theorem - Wikipedia\nURL: https://en.wikipedia.org/wiki/Noether's_theorem\nSnippet: Noether's theorem is used in theoretical physics and the calculus of variations. It reveals the fundamental relation between the symmetries of a physical system and the conservation laws.\n\n[2] How Noether’s Theorem Revolutionized Physics | Quanta Magazine\nURL: https://www.quantamagazine.org/how-noethers-theorem-revolutionized-physics-20250207/\nSnippet: Emmy Noether showed that fundamental physical laws are just a consequence of simple symmetries.Noether discovered that conservation laws aren’t fundamental axioms of the universe. Instead, they emerge from deeper symmetries.\n\n[3] Noether's Theorem: The Hidden Link Between Symmetry and Physics\nURL: https://www.kroneckerwallis.com/emmy-noethers-theorem-how-symmetry-creates-conservation-laws/\nSnippet: Physical laws exhibit symmetry when they remain unchanged under certain transformations. Here are key examples: Time translation symmetry: Physical laws don’t change with time. An experiment performed today gives the same results as the same experiment tomorrow.\n\n[4] lagrangian formalism - What is Noether's Second Theorem?\nURL: https://physics.stackexchange.com/questions/560382/what-is-noethers-second-theorem\nSnippet: Noether's second theorem generalizes point 3: gauge symmetries of the action correspond to redundant Euler-Lagrange equations, which lead to undetermined time evolution. The simplest example of Noether's second theorem in field theory is electromagnetism.\n\n[5] In her short life, mathematician Emmy Noether changed the face of...\nURL: https://www.sciencenews.org/article/emmy-noether-theorem-legacy-physics-math\nSnippet: Noether linked two important concepts in physics: conservation laws and symmetries.The laws of physics are symmetric in space, time and rotation. According to Noether’s theorem, those symmetries suggest that momentum, energy and angular momentum are conserved.",
+          "searched_at": "2026-05-05_07-38-47",
+          "attempt_number": 1
+        }
+      ],
+      "search_status": "ok",
+      "results": [
+        {
+          "title": "Noether's theorem - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Noether's_theorem",
+          "domain": "en.wikipedia.org",
+          "snippet": "Noether's theorem is used in theoretical physics and the calculus of variations. It reveals the fundamental relation between the symmetries of a physical system and the conservation laws."
+        },
+        {
+          "title": "How Noether’s Theorem Revolutionized Physics | Quanta Magazine",
+          "url": "https://www.quantamagazine.org/how-noethers-theorem-revolutionized-physics-20250207/",
+          "domain": "quantamagazine.org",
+          "snippet": "Emmy Noether showed that fundamental physical laws are just a consequence of simple symmetries.Noether discovered that conservation laws aren’t fundamental axioms of the universe. Instead, they emerge from deeper symmetries."
+        },
+        {
+          "title": "Noether's Theorem: The Hidden Link Between Symmetry and Physics",
+          "url": "https://www.kroneckerwallis.com/emmy-noethers-theorem-how-symmetry-creates-conservation-laws/",
+          "domain": "kroneckerwallis.com",
+          "snippet": "Physical laws exhibit symmetry when they remain unchanged under certain transformations. Here are key examples: Time translation symmetry: Physical laws don’t change with time. An experiment performed today gives the same results as the same experiment tomorrow."
+        },
+        {
+          "title": "lagrangian formalism - What is Noether's Second Theorem?",
+          "url": "https://physics.stackexchange.com/questions/560382/what-is-noethers-second-theorem",
+          "domain": "physics.stackexchange.com",
+          "snippet": "Noether's second theorem generalizes point 3: gauge symmetries of the action correspond to redundant Euler-Lagrange equations, which lead to undetermined time evolution. The simplest example of Noether's second theorem in field theory is electromagnetism."
+        },
+        {
+          "title": "In her short life, mathematician Emmy Noether changed the face of...",
+          "url": "https://www.sciencenews.org/article/emmy-noether-theorem-legacy-physics-math",
+          "domain": "sciencenews.org",
+          "snippet": "Noether linked two important concepts in physics: conservation laws and symmetries.The laws of physics are symmetric in space, time and rotation. According to Noether’s theorem, those symmetries suggest that momentum, energy and angular momentum are conserved."
+        }
+      ],
+      "urls": [
+        "https://en.wikipedia.org/wiki/Noether's_theorem",
+        "https://www.quantamagazine.org/how-noethers-theorem-revolutionized-physics-20250207/",
+        "https://www.kroneckerwallis.com/emmy-noethers-theorem-how-symmetry-creates-conservation-laws/",
+        "https://physics.stackexchange.com/questions/560382/what-is-noethers-second-theorem",
+        "https://www.sciencenews.org/article/emmy-noether-theorem-legacy-physics-math"
+      ],
+      "attempt_count": 1
+    },
+    "C004": {
+      "claim": "For instance, the symmetry of spacetime under Lorentz transformations (the rulebook for relativity) shapes how objects move at high speeds.",
+      "search_attempts": [
+        {
+          "status": "ok",
+          "query": "Noether's second theorem For instance, the symmetry of spacetime under Lorentz transformations (the rulebook for relativity) shapes how objects physics lecture notes textbook explanation",
+          "results": [
+            {
+              "title": "Noether's second theorem - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Noether's_second_theorem",
+              "domain": "en.wikipedia.org",
+              "snippet": "In mathematics and theoretical physics, Noether's second theorem relates symmetries of an action functional with a system of differential equations. [1] The theorem is named after its discoverer, Emmy Noether."
+            },
+            {
+              "title": "Noether's Theorem in a Nutshell - Department of Mathematics",
+              "url": "https://math.ucr.edu/home/baez/noether.html",
+              "domain": "math.ucr.edu",
+              "snippet": "However, it's an important step, and to handle time-dependent symmetries, we need a somewhat fancier version of Noether's theorem. A simple example comes when you consider the conserved quantities associated to Lorentz transformations!"
+            },
+            {
+              "title": "3.3 Noether’s Theorem (Classical Part) - uni-frankfurt.de",
+              "url": "https://itp.uni-frankfurt.de/~hees/hgs-hire-lectweek17/noether-goldstone.pdf",
+              "domain": "itp.uni-frankfurt.de",
+              "snippet": "The conservation of the three mixed temporal-spatial components of J originates from the invariance under boost transformations. So this is the relativistic analogue of the centre of mass motion in the nonrelativistic case."
+            },
+            {
+              "title": "Noether's Theorem | Symmetry and Conservation Laws",
+              "url": "https://modern-physics.org/noethers-theorem/",
+              "domain": "modern-physics.org",
+              "snippet": "Explore Noether's Theorem, linking symmetries to conservation laws, and understand its impact on energy, momentum, and angular momentum conservation."
+            },
+            {
+              "title": "Noether’s Theorem: How Symmetry Shapes Physics",
+              "url": "https://www.cantorsparadise.com/noethers-theorem-how-symmetry-shapes-physics-53c416c1f19c",
+              "domain": "cantorsparadise.com",
+              "snippet": "Jun 10, 2020 · Recall that Hilbert and Klein had realised that under certain circumstances, energy was not conserved by general relativity. We know that energy is usually conserved, so, using Noether’s theorem, what symmetry is invoked by conservation of energy?"
+            }
+          ],
+          "urls": [
+            "https://en.wikipedia.org/wiki/Noether's_second_theorem",
+            "https://math.ucr.edu/home/baez/noether.html",
+            "https://itp.uni-frankfurt.de/~hees/hgs-hire-lectweek17/noether-goldstone.pdf",
+            "https://modern-physics.org/noethers-theorem/",
+            "https://www.cantorsparadise.com/noethers-theorem-how-symmetry-shapes-physics-53c416c1f19c"
+          ],
+          "result_snippet": "[1] Noether's second theorem - Wikipedia\nURL: https://en.wikipedia.org/wiki/Noether's_second_theorem\nSnippet: In mathematics and theoretical physics, Noether's second theorem relates symmetries of an action functional with a system of differential equations. [1] The theorem is named after its discoverer, Emmy Noether.\n\n[2] Noether's Theorem in a Nutshell - Department of Mathematics\nURL: https://math.ucr.edu/home/baez/noether.html\nSnippet: However, it's an important step, and to handle time-dependent symmetries, we need a somewhat fancier version of Noether's theorem. A simple example comes when you consider the conserved quantities associated to Lorentz transformations!\n\n[3] 3.3 Noether’s Theorem (Classical Part) - uni-frankfurt.de\nURL: https://itp.uni-frankfurt.de/~hees/hgs-hire-lectweek17/noether-goldstone.pdf\nSnippet: The conservation of the three mixed temporal-spatial components of J originates from the invariance under boost transformations. So this is the relativistic analogue of the centre of mass motion in the nonrelativistic case.\n\n[4] Noether's Theorem | Symmetry and Conservation Laws\nURL: https://modern-physics.org/noethers-theorem/\nSnippet: Explore Noether's Theorem, linking symmetries to conservation laws, and understand its impact on energy, momentum, and angular momentum conservation.\n\n[5] Noether’s Theorem: How Symmetry Shapes Physics\nURL: https://www.cantorsparadise.com/noethers-theorem-how-symmetry-shapes-physics-53c416c1f19c\nSnippet: Jun 10, 2020 · Recall that Hilbert and Klein had realised that under certain circumstances, energy was not conserved by general relativity. We know that energy is usually conserved, so, using Noether’s theorem, what symmetry is invoked by conservation of energy?",
+          "searched_at": "2026-05-05_07-38-48",
+          "attempt_number": 1
+        }
+      ],
+      "query": "Noether's second theorem For instance, the symmetry of spacetime under Lorentz transformations (the rulebook for relativity) shapes how objects physics lecture notes textbook explanation",
+      "search_status": "ok",
+      "result_snippet": "[1] Noether's second theorem - Wikipedia\nURL: https://en.wikipedia.org/wiki/Noether's_second_theorem\nSnippet: In mathematics and theoretical physics, Noether's second theorem relates symmetries of an action functional with a system of differential equations. [1] The theorem is named after its discoverer, Emmy Noether.\n\n[2] Noether's Theorem in a Nutshell - Department of Mathematics\nURL: https://math.ucr.edu/home/baez/noether.html\nSnippet: However, it's an important step, and to handle time-dependent symmetries, we need a somewhat fancier version of Noether's theorem. A simple example comes when you consider the conserved quantities associated to Lorentz transformations!\n\n[3] 3.3 Noether’s Theorem (Classical Part) - uni-frankfurt.de\nURL: https://itp.uni-frankfurt.de/~hees/hgs-hire-lectweek17/noether-goldstone.pdf\nSnippet: The conservation of the three mixed temporal-spatial components of J originates from the invariance under boost transformations. So this is the relativistic analogue of the centre of mass motion in the nonrelativistic case.\n\n[4] Noether's Theorem | Symmetry and Conservation Laws\nURL: https://modern-physics.org/noethers-theorem/\nSnippet: Explore Noether's Theorem, linking symmetries to conservation laws, and understand its impact on energy, momentum, and angular momentum conservation.\n\n[5] Noether’s Theorem: How Symmetry Shapes Physics\nURL: https://www.cantorsparadise.com/noethers-theorem-how-symmetry-shapes-physics-53c416c1f19c\nSnippet: Jun 10, 2020 · Recall that Hilbert and Klein had realised that under certain circumstances, energy was not conserved by general relativity. We know that energy is usually conserved, so, using Noether’s theorem, what symmetry is invoked by conservation of energy?",
+      "results": [
+        {
+          "title": "Noether's second theorem - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Noether's_second_theorem",
+          "domain": "en.wikipedia.org",
+          "snippet": "In mathematics and theoretical physics, Noether's second theorem relates symmetries of an action functional with a system of differential equations. [1] The theorem is named after its discoverer, Emmy Noether."
+        },
+        {
+          "title": "Noether's Theorem in a Nutshell - Department of Mathematics",
+          "url": "https://math.ucr.edu/home/baez/noether.html",
+          "domain": "math.ucr.edu",
+          "snippet": "However, it's an important step, and to handle time-dependent symmetries, we need a somewhat fancier version of Noether's theorem. A simple example comes when you consider the conserved quantities associated to Lorentz transformations!"
+        },
+        {
+          "title": "3.3 Noether’s Theorem (Classical Part) - uni-frankfurt.de",
+          "url": "https://itp.uni-frankfurt.de/~hees/hgs-hire-lectweek17/noether-goldstone.pdf",
+          "domain": "itp.uni-frankfurt.de",
+          "snippet": "The conservation of the three mixed temporal-spatial components of J originates from the invariance under boost transformations. So this is the relativistic analogue of the centre of mass motion in the nonrelativistic case."
+        },
+        {
+          "title": "Noether's Theorem | Symmetry and Conservation Laws",
+          "url": "https://modern-physics.org/noethers-theorem/",
+          "domain": "modern-physics.org",
+          "snippet": "Explore Noether's Theorem, linking symmetries to conservation laws, and understand its impact on energy, momentum, and angular momentum conservation."
+        },
+        {
+          "title": "Noether’s Theorem: How Symmetry Shapes Physics",
+          "url": "https://www.cantorsparadise.com/noethers-theorem-how-symmetry-shapes-physics-53c416c1f19c",
+          "domain": "cantorsparadise.com",
+          "snippet": "Jun 10, 2020 · Recall that Hilbert and Klein had realised that under certain circumstances, energy was not conserved by general relativity. We know that energy is usually conserved, so, using Noether’s theorem, what symmetry is invoked by conservation of energy?"
+        }
+      ],
+      "urls": [
+        "https://en.wikipedia.org/wiki/Noether's_second_theorem",
+        "https://math.ucr.edu/home/baez/noether.html",
+        "https://itp.uni-frankfurt.de/~hees/hgs-hire-lectweek17/noether-goldstone.pdf",
+        "https://modern-physics.org/noethers-theorem/",
+        "https://www.cantorsparadise.com/noethers-theorem-how-symmetry-shapes-physics-53c416c1f19c"
+      ],
+      "attempt_count": 1,
+      "searched_at": "2026-05-05_07-38-48",
+      "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
+    }
+  },
+  "last_updated": "2026-05-05_07-38-49",
+  "summary": {
+    "total_claims": 8,
+    "checked_claim_count": 3,
+    "passing_claim_count": 0,
+    "unchecked_claim_count": 5,
+    "unresolved_or_needs_qualification": 8,
+    "actionable_issue_count": 1,
+    "evidence_retry_count": 2,
+    "claim_review_complete": false,
+    "unchecked_claim_ids": [
+      "C004",
+      "C005",
+      "C006",
+      "C007",
+      "C008"
+    ],
+    "actionable_claim_ids": [
+      "C001"
+    ],
+    "evidence_retry_claim_ids": [
+      "C002",
+      "C003"
+    ],
+    "highest_priority_fixes": [
+      "Clarify that the rulebook analogy corresponds to Noether's first theorem. For the second theorem, emphasize constraints on equations of motion from local symmetries (e.g., gauge symmetries) rather than conservation laws."
+    ]
+  }
+}

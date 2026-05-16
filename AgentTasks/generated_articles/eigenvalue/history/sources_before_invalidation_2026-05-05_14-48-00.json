@@ -1,0 +1,793 @@
+{
+  "sources_by_claim": {
+    "C001": {
+      "claim": "# Eigenvalue ## The core idea Eigenvalues are **scaling factors** that tell you how much a vector is stretched or squashed when a transformation is applied—*without changing its direction*.",
+      "search_attempts": [
+        {
+          "status": "ok",
+          "query": "Eigenvalue # Eigenvalue ## The core idea Eigenvalues are **scaling factors** that tell you how much a physics lecture notes textbook explanation",
+          "results": [
+            {
+              "title": "Eigenvalues and eigenvectors - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Eigenvalues_and_eigenvectors",
+              "domain": "en.wikipedia.org",
+              "snippet": "Applying T to the eigenvector only scales the eigenvector by the scalar value λ, called an eigenvalue. This condition can be written as the equation referred to as the eigenvalue equation or eigenequation. In general, λ may be any scalar."
+            },
+            {
+              "title": "Eigenvalues and Eigenvectors: Definition, Examples & Uses ...",
+              "url": "https://gauravtiwari.org/study-notes/eigenvalues-and-eigenvectors/",
+              "domain": "gauravtiwari.org",
+              "snippet": "2 days ago · Eigenvalues and eigenvectors explained: characteristic polynomial, computation, geometric meaning, diagonalization, and applications in PCA and physics."
+            },
+            {
+              "title": "Eigenvalue -- from Wolfram MathWorld",
+              "url": "https://mathworld.wolfram.com/Eigenvalue.html",
+              "domain": "mathworld.wolfram.com",
+              "snippet": "3 days ago · Eigenvalues are a special set of scalars associated with a linear system of equations (i.e., a matrix equation) that are sometimes also known as characteristic roots, characteristic values (Hoffman and Kunze 1971), proper values, or latent roots (Marcus and Minc 1988, p. 144)."
+            },
+            {
+              "title": "Eigenvalues and Eigenvectors - CS 357",
+              "url": "https://courses.physics.illinois.edu/cs357/sp2024/notes/ref-12-eigen.html",
+              "domain": "courses.physics.illinois.edu",
+              "snippet": "An eigenvalue of an n × n matrix A is a scalar λ such that A x = λ x for some non-zero vector x. The eigenvalue λ can be any real or complex scalar, (which we write λ ∈ R or λ ∈ C)."
+            },
+            {
+              "title": "Eigenvectors and Eigenvalues - Explained Visually",
+              "url": "https://setosa.io/ev/eigenvectors-and-eigenvalues/",
+              "domain": "setosa.io",
+              "snippet": "Eigenvalues are fundamental properties of a matrix (or a linear transformation it represents) that reveal how the matrix stretches or shrinks certain vectors (eigenvectors) without changing their direction."
+            }
+          ],
+          "urls": [
+            "https://en.wikipedia.org/wiki/Eigenvalues_and_eigenvectors",
+            "https://gauravtiwari.org/study-notes/eigenvalues-and-eigenvectors/",
+            "https://mathworld.wolfram.com/Eigenvalue.html",
+            "https://courses.physics.illinois.edu/cs357/sp2024/notes/ref-12-eigen.html",
+            "https://setosa.io/ev/eigenvectors-and-eigenvalues/"
+          ],
+          "result_snippet": "[1] Eigenvalues and eigenvectors - Wikipedia\nURL: https://en.wikipedia.org/wiki/Eigenvalues_and_eigenvectors\nSnippet: Applying T to the eigenvector only scales the eigenvector by the scalar value λ, called an eigenvalue. This condition can be written as the equation referred to as the eigenvalue equation or eigenequation. In general, λ may be any scalar.\n\n[2] Eigenvalues and Eigenvectors: Definition, Examples & Uses ...\nURL: https://gauravtiwari.org/study-notes/eigenvalues-and-eigenvectors/\nSnippet: 2 days ago · Eigenvalues and eigenvectors explained: characteristic polynomial, computation, geometric meaning, diagonalization, and applications in PCA and physics.\n\n[3] Eigenvalue -- from Wolfram MathWorld\nURL: https://mathworld.wolfram.com/Eigenvalue.html\nSnippet: 3 days ago · Eigenvalues are a special set of scalars associated with a linear system of equations (i.e., a matrix equation) that are sometimes also known as characteristic roots, characteristic values (Hoffman and Kunze 1971), proper values, or latent roots (Marcus and Minc 1988, p. 144).\n\n[4] Eigenvalues and Eigenvectors - CS 357\nURL: https://courses.physics.illinois.edu/cs357/sp2024/notes/ref-12-eigen.html\nSnippet: An eigenvalue of an n × n matrix A is a scalar λ such that A x = λ x for some non-zero vector x. The eigenvalue λ can be any real or complex scalar, (which we write λ ∈ R or λ ∈ C).\n\n[5] Eigenvectors and Eigenvalues - Explained Visually\nURL: https://setosa.io/ev/eigenvectors-and-eigenvalues/\nSnippet: Eigenvalues are fundamental properties of a matrix (or a linear transformation it represents) that reveal how the matrix stretches or shrinks certain vectors (eigenvectors) without changing their direction.",
+          "searched_at": "2026-05-05_14-18-36",
+          "attempt_number": 1
+        },
+        {
+          "status": "ok",
+          "query": "Eigenvalue # Eigenvalue ## The core idea Eigenvalues are **scaling factors** that tell you how much a vector is university physics lecture notes textbook",
+          "results": [
+            {
+              "title": "Eigenvalues and eigenvectors - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Eigenvalues_and_eigenvectors",
+              "domain": "en.wikipedia.org",
+              "snippet": "Applying T to the eigenvector only scales the eigenvector by the scalar value λ, called an eigenvalue. This condition can be written as the equation referred to as the eigenvalue equation or eigenequation. In general, λ may be any scalar."
+            },
+            {
+              "title": "Eigenvalues and Eigenvectors: Definition, Examples & Uses ...",
+              "url": "https://gauravtiwari.org/study-notes/eigenvalues-and-eigenvectors/",
+              "domain": "gauravtiwari.org",
+              "snippet": "2 days ago · Eigenvalues and eigenvectors explained: characteristic polynomial, computation, geometric meaning, diagonalization, and applications in PCA and physics."
+            },
+            {
+              "title": "Eigenvalues and Eigenvectors - CS 357",
+              "url": "https://courses.physics.illinois.edu/cs357/sp2024/notes/ref-12-eigen.html",
+              "domain": "courses.physics.illinois.edu",
+              "snippet": "An eigenvalue of an n × n matrix A is a scalar λ such that A x = λ x for some non-zero vector x. The eigenvalue λ can be any real or complex scalar, (which we write λ ∈ R or λ ∈ C). Eigenvalues can be complex even if all the entries of the matrix A are real."
+            },
+            {
+              "title": "Chapter 6 Eigenvalues and Eigenvectors - MIT Mathematics",
+              "url": "https://math.mit.edu/~gs/linearalgebra/ila6/ila6_6_1.pdf",
+              "domain": "math.mit.edu",
+              "snippet": "Eigenvalues and eigenvectors are a new way to see into the heart of a matrix. To explain eigenvalues, we ﬁrst explain eigenvectors. Almost all vectors will change direction, when they are multiplied by A.Certain exceptional vectorsxare in the same direction asAx. Those are the “eigenvectors”."
+            },
+            {
+              "title": "5.1: Eigenvalues and Eigenvectors - Mathematics LibreTexts",
+              "url": "https://math.libretexts.org/Bookshelves/Linear_Algebra/Interactive_Linear_Algebra_(Margalit_and_Rabinoff)/05:_Eigenvalues_and_Eigenvectors/5.01:_Eigenvalues_and_Eigenvectors",
+              "domain": "math.libretexts.org",
+              "snippet": "This page explains eigenvalues and eigenvectors in linear algebra, detailing their definitions, significance, and processes for finding them. It discusses how eigenvectors result from matrix …"
+            }
+          ],
+          "urls": [
+            "https://en.wikipedia.org/wiki/Eigenvalues_and_eigenvectors",
+            "https://gauravtiwari.org/study-notes/eigenvalues-and-eigenvectors/",
+            "https://courses.physics.illinois.edu/cs357/sp2024/notes/ref-12-eigen.html",
+            "https://math.mit.edu/~gs/linearalgebra/ila6/ila6_6_1.pdf",
+            "https://math.libretexts.org/Bookshelves/Linear_Algebra/Interactive_Linear_Algebra_(Margalit_and_Rabinoff)/05:_Eigenvalues_and_Eigenvectors/5.01:_Eigenvalues_and_Eigenvectors"
+          ],
+          "result_snippet": "[1] Eigenvalues and eigenvectors - Wikipedia\nURL: https://en.wikipedia.org/wiki/Eigenvalues_and_eigenvectors\nSnippet: Applying T to the eigenvector only scales the eigenvector by the scalar value λ, called an eigenvalue. This condition can be written as the equation referred to as the eigenvalue equation or eigenequation. In general, λ may be any scalar.\n\n[2] Eigenvalues and Eigenvectors: Definition, Examples & Uses ...\nURL: https://gauravtiwari.org/study-notes/eigenvalues-and-eigenvectors/\nSnippet: 2 days ago · Eigenvalues and eigenvectors explained: characteristic polynomial, computation, geometric meaning, diagonalization, and applications in PCA and physics.\n\n[3] Eigenvalues and Eigenvectors - CS 357\nURL: https://courses.physics.illinois.edu/cs357/sp2024/notes/ref-12-eigen.html\nSnippet: An eigenvalue of an n × n matrix A is a scalar λ such that A x = λ x for some non-zero vector x. The eigenvalue λ can be any real or complex scalar, (which we write λ ∈ R or λ ∈ C). Eigenvalues can be complex even if all the entries of the matrix A are real.\n\n[4] Chapter 6 Eigenvalues and Eigenvectors - MIT Mathematics\nURL: https://math.mit.edu/~gs/linearalgebra/ila6/ila6_6_1.pdf\nSnippet: Eigenvalues and eigenvectors are a new way to see into the heart of a matrix. To explain eigenvalues, we ﬁrst explain eigenvectors. Almost all vectors will change direction, when they are multiplied by A.Certain exceptional vectorsxare in the same direction asAx. Those are the “eigenvectors”.\n\n[5] 5.1: Eigenvalues and Eigenvectors - Mathematics LibreTexts\nURL: https://math.libretexts.org/Bookshelves/Linear_Algebra/Interactive_Linear_Algebra_(Margalit_and_Rabinoff)/05:_Eigenvalues_and_Eigenvectors/5.01:_Eigenvalues_and_Eigenvectors\nSnippet: This page explains eigenvalues and eigenvectors in linear algebra, detailing their definitions, significance, and processes for finding them. It discusses how eigenvectors result from matrix …",
+          "searched_at": "2026-05-05_14-26-46",
+          "attempt_number": 2
+        },
+        {
+          "status": "ok",
+          "query": "Eigenvalue # Eigenvalue ## The core idea Eigenvalues are **scaling factors** that tell you how much a vector is site:edu physics",
+          "results": [
+            {
+              "title": "MATHEMATICA Tutorial, Part 2.1: Eigenvalues - Brown University",
+              "url": "https://www.cfm.brown.edu/people/dobrush/am34/Mathematica/ch1/eigen.html",
+              "domain": "cfm.brown.edu",
+              "snippet": "Eigenvalues (translated from German, meaning \"proper values\") are a special set of scalars associated with every square matrix that are sometimes also known as characteristic roots, characteristic values, or proper values. Each eigenvalue is paired with a corresponding set of so-called eigenvectors. The determination of the eigenvalues and eigenvectors of a system is extremely important in ..."
+            },
+            {
+              "title": "2.10. Computing Eigenvalues and Eigenvectors: the Power Method, and a ...",
+              "url": "https://lemesurierb.people.charleston.edu/numerical-methods-and-analysis-python/main/linear-algebra-8-eigenproblems-python.html",
+              "domain": "lemesurierb.people.charleston.edu",
+              "snippet": "2.10.1. The Power Method # The basic tool is the Power Method, which will usually but not always succeed in computing the eigenvalue of largest magnitude, λ 1, and a corresponding eigenvector v → 1. Its success mainly involves assuming there being a unique largest eigenvalue: λ 1> λ i for i> 1."
+            },
+            {
+              "title": "Eigenvalues and eigenvectors - MIT",
+              "url": "https://www.mit.edu/~ashrstnv/eigenvalues-vectors.html",
+              "domain": "mit.edu",
+              "snippet": "Eigenvalues and eigenvectors If λ λ is an eigenvalue of the matrix M M, then for some family of vectors all lying on the same line, M v = λ v Mv = λv. Page generated 10/21/2025, 03:57:28 PM."
+            },
+            {
+              "title": "Finding Eigenvectors: Fast and Nontraditional Approach",
+              "url": "https://www.academia.edu/41822491/Finding_Eigenvectors_Fast_and_Nontraditional_Approach",
+              "domain": "academia.edu",
+              "snippet": "According to this definition, an eigenvalue can be self-complementary when a matrix has repeated eigenvalues and will be useful when calculating eigenvectors for repeated eigenvalues."
+            },
+            {
+              "title": "21. Eigenvalues and Eigenvectors | MIT Learn",
+              "url": "https://learn.mit.edu/search?resource=11957",
+              "domain": "learn.mit.edu",
+              "snippet": "21. Eigenvalues and Eigenvectors New on MIT Learn Universal AI A self-paced program that takes learners from AI fundamentals to practical, industry-relevant applications. No technical background required."
+            }
+          ],
+          "urls": [
+            "https://www.cfm.brown.edu/people/dobrush/am34/Mathematica/ch1/eigen.html",
+            "https://lemesurierb.people.charleston.edu/numerical-methods-and-analysis-python/main/linear-algebra-8-eigenproblems-python.html",
+            "https://www.mit.edu/~ashrstnv/eigenvalues-vectors.html",
+            "https://www.academia.edu/41822491/Finding_Eigenvectors_Fast_and_Nontraditional_Approach",
+            "https://learn.mit.edu/search?resource=11957"
+          ],
+          "result_snippet": "[1] MATHEMATICA Tutorial, Part 2.1: Eigenvalues - Brown University\nURL: https://www.cfm.brown.edu/people/dobrush/am34/Mathematica/ch1/eigen.html\nSnippet: Eigenvalues (translated from German, meaning \"proper values\") are a special set of scalars associated with every square matrix that are sometimes also known as characteristic roots, characteristic values, or proper values. Each eigenvalue is paired with a corresponding set of so-called eigenvectors. The determination of the eigenvalues and eigenvectors of a system is extremely important in ...\n\n[2] 2.10. Computing Eigenvalues and Eigenvectors: the Power Method, and a ...\nURL: https://lemesurierb.people.charleston.edu/numerical-methods-and-analysis-python/main/linear-algebra-8-eigenproblems-python.html\nSnippet: 2.10.1. The Power Method # The basic tool is the Power Method, which will usually but not always succeed in computing the eigenvalue of largest magnitude, λ 1, and a corresponding eigenvector v → 1. Its success mainly involves assuming there being a unique largest eigenvalue: λ 1> λ i for i> 1.\n\n[3] Eigenvalues and eigenvectors - MIT\nURL: https://www.mit.edu/~ashrstnv/eigenvalues-vectors.html\nSnippet: Eigenvalues and eigenvectors If λ λ is an eigenvalue of the matrix M M, then for some family of vectors all lying on the same line, M v = λ v Mv = λv. Page generated 10/21/2025, 03:57:28 PM.\n\n[4] Finding Eigenvectors: Fast and Nontraditional Approach\nURL: https://www.academia.edu/41822491/Finding_Eigenvectors_Fast_and_Nontraditional_Approach\nSnippet: According to this definition, an eigenvalue can be self-complementary when a matrix has repeated eigenvalues and will be useful when calculating eigenvectors for repeated eigenvalues.\n\n[5] 21. Eigenvalues and Eigenvectors | MIT Learn\nURL: https://learn.mit.edu/search?resource=11957\nSnippet: 21. Eigenvalues and Eigenvectors New on MIT Learn Universal AI A self-paced program that takes learners from AI fundamentals to practical, industry-relevant applications. No technical background required.",
+          "searched_at": "2026-05-05_14-34-59",
+          "attempt_number": 3
+        }
+      ],
+      "query": "Eigenvalue # Eigenvalue ## The core idea Eigenvalues are **scaling factors** that tell you how much a vector is site:edu physics",
+      "search_status": "ok",
+      "result_snippet": "[1] MATHEMATICA Tutorial, Part 2.1: Eigenvalues - Brown University\nURL: https://www.cfm.brown.edu/people/dobrush/am34/Mathematica/ch1/eigen.html\nSnippet: Eigenvalues (translated from German, meaning \"proper values\") are a special set of scalars associated with every square matrix that are sometimes also known as characteristic roots, characteristic values, or proper values. Each eigenvalue is paired with a corresponding set of so-called eigenvectors. The determination of the eigenvalues and eigenvectors of a system is extremely important in ...\n\n[2] 2.10. Computing Eigenvalues and Eigenvectors: the Power Method, and a ...\nURL: https://lemesurierb.people.charleston.edu/numerical-methods-and-analysis-python/main/linear-algebra-8-eigenproblems-python.html\nSnippet: 2.10.1. The Power Method # The basic tool is the Power Method, which will usually but not always succeed in computing the eigenvalue of largest magnitude, λ 1, and a corresponding eigenvector v → 1. Its success mainly involves assuming there being a unique largest eigenvalue: λ 1> λ i for i> 1.\n\n[3] Eigenvalues and eigenvectors - MIT\nURL: https://www.mit.edu/~ashrstnv/eigenvalues-vectors.html\nSnippet: Eigenvalues and eigenvectors If λ λ is an eigenvalue of the matrix M M, then for some family of vectors all lying on the same line, M v = λ v Mv = λv. Page generated 10/21/2025, 03:57:28 PM.\n\n[4] Finding Eigenvectors: Fast and Nontraditional Approach\nURL: https://www.academia.edu/41822491/Finding_Eigenvectors_Fast_and_Nontraditional_Approach\nSnippet: According to this definition, an eigenvalue can be self-complementary when a matrix has repeated eigenvalues and will be useful when calculating eigenvectors for repeated eigenvalues.\n\n[5] 21. Eigenvalues and Eigenvectors | MIT Learn\nURL: https://learn.mit.edu/search?resource=11957\nSnippet: 21. Eigenvalues and Eigenvectors New on MIT Learn Universal AI A self-paced program that takes learners from AI fundamentals to practical, industry-relevant applications. No technical background required.",
+      "results": [
+        {
+          "title": "MATHEMATICA Tutorial, Part 2.1: Eigenvalues - Brown University",
+          "url": "https://www.cfm.brown.edu/people/dobrush/am34/Mathematica/ch1/eigen.html",
+          "domain": "cfm.brown.edu",
+          "snippet": "Eigenvalues (translated from German, meaning \"proper values\") are a special set of scalars associated with every square matrix that are sometimes also known as characteristic roots, characteristic values, or proper values. Each eigenvalue is paired with a corresponding set of so-called eigenvectors. The determination of the eigenvalues and eigenvectors of a system is extremely important in ..."
+        },
+        {
+          "title": "2.10. Computing Eigenvalues and Eigenvectors: the Power Method, and a ...",
+          "url": "https://lemesurierb.people.charleston.edu/numerical-methods-and-analysis-python/main/linear-algebra-8-eigenproblems-python.html",
+          "domain": "lemesurierb.people.charleston.edu",
+          "snippet": "2.10.1. The Power Method # The basic tool is the Power Method, which will usually but not always succeed in computing the eigenvalue of largest magnitude, λ 1, and a corresponding eigenvector v → 1. Its success mainly involves assuming there being a unique largest eigenvalue: λ 1> λ i for i> 1."
+        },
+        {
+          "title": "Eigenvalues and eigenvectors - MIT",
+          "url": "https://www.mit.edu/~ashrstnv/eigenvalues-vectors.html",
+          "domain": "mit.edu",
+          "snippet": "Eigenvalues and eigenvectors If λ λ is an eigenvalue of the matrix M M, then for some family of vectors all lying on the same line, M v = λ v Mv = λv. Page generated 10/21/2025, 03:57:28 PM."
+        },
+        {
+          "title": "Finding Eigenvectors: Fast and Nontraditional Approach",
+          "url": "https://www.academia.edu/41822491/Finding_Eigenvectors_Fast_and_Nontraditional_Approach",
+          "domain": "academia.edu",
+          "snippet": "According to this definition, an eigenvalue can be self-complementary when a matrix has repeated eigenvalues and will be useful when calculating eigenvectors for repeated eigenvalues."
+        },
+        {
+          "title": "21. Eigenvalues and Eigenvectors | MIT Learn",
+          "url": "https://learn.mit.edu/search?resource=11957",
+          "domain": "learn.mit.edu",
+          "snippet": "21. Eigenvalues and Eigenvectors New on MIT Learn Universal AI A self-paced program that takes learners from AI fundamentals to practical, industry-relevant applications. No technical background required."
+        }
+      ],
+      "urls": [
+        "https://www.cfm.brown.edu/people/dobrush/am34/Mathematica/ch1/eigen.html",
+        "https://lemesurierb.people.charleston.edu/numerical-methods-and-analysis-python/main/linear-algebra-8-eigenproblems-python.html",
+        "https://www.mit.edu/~ashrstnv/eigenvalues-vectors.html",
+        "https://www.academia.edu/41822491/Finding_Eigenvectors_Fast_and_Nontraditional_Approach",
+        "https://learn.mit.edu/search?resource=11957"
+      ],
+      "attempt_count": 3,
+      "searched_at": "2026-05-05_14-34-59",
+      "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
+    },
+    "C002": {
+      "claim": "This concept is foundational in **linear algebra**, where eigenvalues describe how transformations act on vectors, and it plays a central role in **quantum mechanics**, where they represent measurable outcomes like energy levels.",
+      "search_attempts": [
+        {
+          "status": "ok",
+          "query": "Eigenvalue This concept is foundational in **linear algebra**, where eigenvalues describe how transformations act on vectors, and physics lecture notes textbook explanation",
+          "results": [
+            {
+              "title": "Eigenvalues and eigenvectors - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Eigenvalues_and_eigenvectors",
+              "domain": "en.wikipedia.org",
+              "snippet": "If the eigenvalue is negative, the eigenvector's direction is reversed. [1] The eigenvectors and eigenvalues of a linear transformation serve to characterize it, and so they play important roles in all areas where linear algebra is applied, from geology to quantum mechanics."
+            },
+            {
+              "title": "4.1: An introduction to Eigenvalues and Eigenvectors",
+              "url": "https://math.libretexts.org/Bookshelves/Linear_Algebra/Understanding_Linear_Algebra_(Austin)/04:_Eigenvalues_and_eigenvectors/4.01:_An_introduction_to_eigenvalues_and_eigenvectors",
+              "domain": "math.libretexts.org",
+              "snippet": "The point here is to develop an intuitive understanding of eigenvalues and eigenvectors and explain how they can be used to simplify some problems that we have previously encountered. In the rest of this chapter, we will develop this concept into a richer theory and illustrate its use with more meaningful examples."
+            },
+            {
+              "title": "Eigenvalues and Eigenvectors - GeeksforGeeks",
+              "url": "https://www.geeksforgeeks.org/engineering-mathematics/eigen-values/",
+              "domain": "geeksforgeeks.org",
+              "snippet": "Eigenvalues and eigenvectors are fundamental concepts in linear algebra, used in various applications such as matrix diagonalization, stability analysis, and data analysis (e.g., Principal Component Analysis). They are associated with a square matrix and provide insights into its properties."
+            },
+            {
+              "title": "Linear algebra - Eigenvectors, Matrices, Vectors | Britannica",
+              "url": "https://www.britannica.com/science/linear-algebra/Eigenvectors",
+              "domain": "britannica.com",
+              "snippet": "Linear algebra - Eigenvectors, Matrices, Vectors: When studying linear transformations, it is extremely useful to find nonzero vectors whose direction is left unchanged by the transformation. These are called eigenvectors (also known as characteristic vectors). If v is an eigenvector for the linear transformation T, then T(v) = λv for some scalar λ. This scalar is called an eigenvalue. The ..."
+            },
+            {
+              "title": "Understanding Eigenvalues and Eigenvectors in Linear Algebra",
+              "url": "https://www.slideserve.com/mgoins/lecture-16-eigenvalues-and-eigenvectors-powerpoint-ppt-presentation",
+              "domain": "slideserve.com",
+              "snippet": "Explore the concepts of eigenvalues and eigenvectors, diagonalization of matrices, and orthogonal diagonalization in elementary linear algebra. Learn about symmetric matrices and their properties in relation to eigenvalues. Understand the geometric interpretation of eigenvectors and their impact on linear transformations."
+            }
+          ],
+          "urls": [
+            "https://en.wikipedia.org/wiki/Eigenvalues_and_eigenvectors",
+            "https://math.libretexts.org/Bookshelves/Linear_Algebra/Understanding_Linear_Algebra_(Austin)/04:_Eigenvalues_and_eigenvectors/4.01:_An_introduction_to_eigenvalues_and_eigenvectors",
+            "https://www.geeksforgeeks.org/engineering-mathematics/eigen-values/",
+            "https://www.britannica.com/science/linear-algebra/Eigenvectors",
+            "https://www.slideserve.com/mgoins/lecture-16-eigenvalues-and-eigenvectors-powerpoint-ppt-presentation"
+          ],
+          "result_snippet": "[1] Eigenvalues and eigenvectors - Wikipedia\nURL: https://en.wikipedia.org/wiki/Eigenvalues_and_eigenvectors\nSnippet: If the eigenvalue is negative, the eigenvector's direction is reversed. [1] The eigenvectors and eigenvalues of a linear transformation serve to characterize it, and so they play important roles in all areas where linear algebra is applied, from geology to quantum mechanics.\n\n[2] 4.1: An introduction to Eigenvalues and Eigenvectors\nURL: https://math.libretexts.org/Bookshelves/Linear_Algebra/Understanding_Linear_Algebra_(Austin)/04:_Eigenvalues_and_eigenvectors/4.01:_An_introduction_to_eigenvalues_and_eigenvectors\nSnippet: The point here is to develop an intuitive understanding of eigenvalues and eigenvectors and explain how they can be used to simplify some problems that we have previously encountered. In the rest of this chapter, we will develop this concept into a richer theory and illustrate its use with more meaningful examples.\n\n[3] Eigenvalues and Eigenvectors - GeeksforGeeks\nURL: https://www.geeksforgeeks.org/engineering-mathematics/eigen-values/\nSnippet: Eigenvalues and eigenvectors are fundamental concepts in linear algebra, used in various applications such as matrix diagonalization, stability analysis, and data analysis (e.g., Principal Component Analysis). They are associated with a square matrix and provide insights into its properties.\n\n[4] Linear algebra - Eigenvectors, Matrices, Vectors | Britannica\nURL: https://www.britannica.com/science/linear-algebra/Eigenvectors\nSnippet: Linear algebra - Eigenvectors, Matrices, Vectors: When studying linear transformations, it is extremely useful to find nonzero vectors whose direction is left unchanged by the transformation. These are called eigenvectors (also known as characteristic vectors). If v is an eigenvector for the linear transformation T, then T(v) = λv for some scalar λ. This scalar is called an eigenvalue. The ...\n\n[5] Understanding Eigenvalues and Eigenvectors in Linear Algebra\nURL: https://www.slideserve.com/mgoins/lecture-16-eigenvalues-and-eigenvectors-powerpoint-ppt-presentation\nSnippet: Explore the concepts of eigenvalues and eigenvectors, diagonalization of matrices, and orthogonal diagonalization in elementary linear algebra. Learn about symmetric matrices and their properties in relation to eigenvalues. Understand the geometric interpretation of eigenvectors and their impact on linear transformations.",
+          "searched_at": "2026-05-05_14-18-38",
+          "attempt_number": 1
+        }
+      ],
+      "query": "Eigenvalue This concept is foundational in **linear algebra**, where eigenvalues describe how transformations act on vectors, and physics lecture notes textbook explanation",
+      "search_status": "ok",
+      "result_snippet": "[1] Eigenvalues and eigenvectors - Wikipedia\nURL: https://en.wikipedia.org/wiki/Eigenvalues_and_eigenvectors\nSnippet: If the eigenvalue is negative, the eigenvector's direction is reversed. [1] The eigenvectors and eigenvalues of a linear transformation serve to characterize it, and so they play important roles in all areas where linear algebra is applied, from geology to quantum mechanics.\n\n[2] 4.1: An introduction to Eigenvalues and Eigenvectors\nURL: https://math.libretexts.org/Bookshelves/Linear_Algebra/Understanding_Linear_Algebra_(Austin)/04:_Eigenvalues_and_eigenvectors/4.01:_An_introduction_to_eigenvalues_and_eigenvectors\nSnippet: The point here is to develop an intuitive understanding of eigenvalues and eigenvectors and explain how they can be used to simplify some problems that we have previously encountered. In the rest of this chapter, we will develop this concept into a richer theory and illustrate its use with more meaningful examples.\n\n[3] Eigenvalues and Eigenvectors - GeeksforGeeks\nURL: https://www.geeksforgeeks.org/engineering-mathematics/eigen-values/\nSnippet: Eigenvalues and eigenvectors are fundamental concepts in linear algebra, used in various applications such as matrix diagonalization, stability analysis, and data analysis (e.g., Principal Component Analysis). They are associated with a square matrix and provide insights into its properties.\n\n[4] Linear algebra - Eigenvectors, Matrices, Vectors | Britannica\nURL: https://www.britannica.com/science/linear-algebra/Eigenvectors\nSnippet: Linear algebra - Eigenvectors, Matrices, Vectors: When studying linear transformations, it is extremely useful to find nonzero vectors whose direction is left unchanged by the transformation. These are called eigenvectors (also known as characteristic vectors). If v is an eigenvector for the linear transformation T, then T(v) = λv for some scalar λ. This scalar is called an eigenvalue. The ...\n\n[5] Understanding Eigenvalues and Eigenvectors in Linear Algebra\nURL: https://www.slideserve.com/mgoins/lecture-16-eigenvalues-and-eigenvectors-powerpoint-ppt-presentation\nSnippet: Explore the concepts of eigenvalues and eigenvectors, diagonalization of matrices, and orthogonal diagonalization in elementary linear algebra. Learn about symmetric matrices and their properties in relation to eigenvalues. Understand the geometric interpretation of eigenvectors and their impact on linear transformations.",
+      "results": [
+        {
+          "title": "Eigenvalues and eigenvectors - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Eigenvalues_and_eigenvectors",
+          "domain": "en.wikipedia.org",
+          "snippet": "If the eigenvalue is negative, the eigenvector's direction is reversed. [1] The eigenvectors and eigenvalues of a linear transformation serve to characterize it, and so they play important roles in all areas where linear algebra is applied, from geology to quantum mechanics."
+        },
+        {
+          "title": "4.1: An introduction to Eigenvalues and Eigenvectors",
+          "url": "https://math.libretexts.org/Bookshelves/Linear_Algebra/Understanding_Linear_Algebra_(Austin)/04:_Eigenvalues_and_eigenvectors/4.01:_An_introduction_to_eigenvalues_and_eigenvectors",
+          "domain": "math.libretexts.org",
+          "snippet": "The point here is to develop an intuitive understanding of eigenvalues and eigenvectors and explain how they can be used to simplify some problems that we have previously encountered. In the rest of this chapter, we will develop this concept into a richer theory and illustrate its use with more meaningful examples."
+        },
+        {
+          "title": "Eigenvalues and Eigenvectors - GeeksforGeeks",
+          "url": "https://www.geeksforgeeks.org/engineering-mathematics/eigen-values/",
+          "domain": "geeksforgeeks.org",
+          "snippet": "Eigenvalues and eigenvectors are fundamental concepts in linear algebra, used in various applications such as matrix diagonalization, stability analysis, and data analysis (e.g., Principal Component Analysis). They are associated with a square matrix and provide insights into its properties."
+        },
+        {
+          "title": "Linear algebra - Eigenvectors, Matrices, Vectors | Britannica",
+          "url": "https://www.britannica.com/science/linear-algebra/Eigenvectors",
+          "domain": "britannica.com",
+          "snippet": "Linear algebra - Eigenvectors, Matrices, Vectors: When studying linear transformations, it is extremely useful to find nonzero vectors whose direction is left unchanged by the transformation. These are called eigenvectors (also known as characteristic vectors). If v is an eigenvector for the linear transformation T, then T(v) = λv for some scalar λ. This scalar is called an eigenvalue. The ..."
+        },
+        {
+          "title": "Understanding Eigenvalues and Eigenvectors in Linear Algebra",
+          "url": "https://www.slideserve.com/mgoins/lecture-16-eigenvalues-and-eigenvectors-powerpoint-ppt-presentation",
+          "domain": "slideserve.com",
+          "snippet": "Explore the concepts of eigenvalues and eigenvectors, diagonalization of matrices, and orthogonal diagonalization in elementary linear algebra. Learn about symmetric matrices and their properties in relation to eigenvalues. Understand the geometric interpretation of eigenvectors and their impact on linear transformations."
+        }
+      ],
+      "urls": [
+        "https://en.wikipedia.org/wiki/Eigenvalues_and_eigenvectors",
+        "https://math.libretexts.org/Bookshelves/Linear_Algebra/Understanding_Linear_Algebra_(Austin)/04:_Eigenvalues_and_eigenvectors/4.01:_An_introduction_to_eigenvalues_and_eigenvectors",
+        "https://www.geeksforgeeks.org/engineering-mathematics/eigen-values/",
+        "https://www.britannica.com/science/linear-algebra/Eigenvectors",
+        "https://www.slideserve.com/mgoins/lecture-16-eigenvalues-and-eigenvectors-powerpoint-ppt-presentation"
+      ],
+      "attempt_count": 1,
+      "searched_at": "2026-05-05_14-18-38",
+      "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
+    },
+    "C003": {
+      "claim": "## Why this matters Eigenvalues help us understand how systems respond to forces, rotations, or vibrations.",
+      "search_attempts": [
+        {
+          "status": "ok",
+          "query": "Eigenvalue ## Why this matters Eigenvalues help us understand how systems respond to forces, rotations, or vibrations. physics lecture notes textbook explanation",
+          "results": [
+            {
+              "title": "Eigenvalues and eigenvectors - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Eigenvalues_and_eigenvectors",
+              "domain": "en.wikipedia.org",
+              "snippet": "5 days ago - Originally used to study principal axes of the rotational motion of rigid bodies, eigenvalues and eigenvectors have a wide range of applications, for example in stability analysis, vibration analysis, atomic orbitals, facial recognition, and matrix diagonalization."
+            },
+            {
+              "title": "Eigenfunction - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Eigenfunction",
+              "domain": "en.wikipedia.org",
+              "snippet": "November 12, 2025 - In the study of signals and systems, an eigenfunction of a system is a signal f(t) that, when input into the system, produces a response y(t) = λf(t), where λ is a complex scalar eigenvalue."
+            },
+            {
+              "title": "Eigenvalue perturbation - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Eigenvalue_perturbation",
+              "domain": "en.wikipedia.org",
+              "snippet": "March 4, 2026 - In mathematics, an eigenvalue perturbation problem is that of finding the eigenvectors and eigenvalues of a system ... {\\displaystyle A_{0}x_{0}=\\lambda _{0}x_{0}} . This is useful for studying how sensitive the original system's eigenvectors and eigenvalues ..."
+            },
+            {
+              "title": "Applications of Eigenvalues and Eigenvectors - GeeksforGeeks",
+              "url": "https://www.geeksforgeeks.org/engineering-mathematics/applications-of-eigenvalues-and-eigenvectors/",
+              "domain": "geeksforgeeks.org",
+              "snippet": "December 3, 2025 - No matter how you push it, the swing always moves back and forth in the same pattern. The eigenvalue tells us how fast or slow the swing moves when pushed. Eigenvalue (Speed of Motion): Determines the natural frequency of the swing’s movement."
+            },
+            {
+              "title": "Eigenvalues and eigenfunctions | Principles of Physics IV Class Notes | Fiveable",
+              "url": "https://fiveable.me/principles-of-physics-iv/unit-3/eigenvalues-eigenfunctions/study-guide/lxTFa1aB02VWk6JF",
+              "domain": "fiveable.me",
+              "snippet": "August 22, 2025 - Eigenfunctions comprise special wavefunctions that when acted upon by a quantum mechanical operator yield the same function multiplied by a scalar (eigenvalue) ... Completeness property allows arbitrary wavefunctions to be expressed as linear combinations of operator eigenfunctions · Enables ..."
+            }
+          ],
+          "urls": [
+            "https://en.wikipedia.org/wiki/Eigenvalues_and_eigenvectors",
+            "https://en.wikipedia.org/wiki/Eigenfunction",
+            "https://en.wikipedia.org/wiki/Eigenvalue_perturbation",
+            "https://www.geeksforgeeks.org/engineering-mathematics/applications-of-eigenvalues-and-eigenvectors/",
+            "https://fiveable.me/principles-of-physics-iv/unit-3/eigenvalues-eigenfunctions/study-guide/lxTFa1aB02VWk6JF"
+          ],
+          "result_snippet": "[1] Eigenvalues and eigenvectors - Wikipedia\nURL: https://en.wikipedia.org/wiki/Eigenvalues_and_eigenvectors\nSnippet: 5 days ago - Originally used to study principal axes of the rotational motion of rigid bodies, eigenvalues and eigenvectors have a wide range of applications, for example in stability analysis, vibration analysis, atomic orbitals, facial recognition, and matrix diagonalization.\n\n[2] Eigenfunction - Wikipedia\nURL: https://en.wikipedia.org/wiki/Eigenfunction\nSnippet: November 12, 2025 - In the study of signals and systems, an eigenfunction of a system is a signal f(t) that, when input into the system, produces a response y(t) = λf(t), where λ is a complex scalar eigenvalue.\n\n[3] Eigenvalue perturbation - Wikipedia\nURL: https://en.wikipedia.org/wiki/Eigenvalue_perturbation\nSnippet: March 4, 2026 - In mathematics, an eigenvalue perturbation problem is that of finding the eigenvectors and eigenvalues of a system ... {\\displaystyle A_{0}x_{0}=\\lambda _{0}x_{0}} . This is useful for studying how sensitive the original system's eigenvectors and eigenvalues ...\n\n[4] Applications of Eigenvalues and Eigenvectors - GeeksforGeeks\nURL: https://www.geeksforgeeks.org/engineering-mathematics/applications-of-eigenvalues-and-eigenvectors/\nSnippet: December 3, 2025 - No matter how you push it, the swing always moves back and forth in the same pattern. The eigenvalue tells us how fast or slow the swing moves when pushed. Eigenvalue (Speed of Motion): Determines the natural frequency of the swing’s movement.\n\n[5] Eigenvalues and eigenfunctions | Principles of Physics IV Class Notes | Fiveable\nURL: https://fiveable.me/principles-of-physics-iv/unit-3/eigenvalues-eigenfunctions/study-guide/lxTFa1aB02VWk6JF\nSnippet: August 22, 2025 - Eigenfunctions comprise special wavefunctions that when acted upon by a quantum mechanical operator yield the same function multiplied by a scalar (eigenvalue) ... Completeness property allows arbitrary wavefunctions to be expressed as linear combinations of operator eigenfunctions · Enables ...",
+          "searched_at": "2026-05-05_14-18-40",
+          "attempt_number": 1
+        }
+      ],
+      "query": "Eigenvalue ## Why this matters Eigenvalues help us understand how systems respond to forces, rotations, or vibrations. physics lecture notes textbook explanation",
+      "search_status": "ok",
+      "result_snippet": "[1] Eigenvalues and eigenvectors - Wikipedia\nURL: https://en.wikipedia.org/wiki/Eigenvalues_and_eigenvectors\nSnippet: 5 days ago - Originally used to study principal axes of the rotational motion of rigid bodies, eigenvalues and eigenvectors have a wide range of applications, for example in stability analysis, vibration analysis, atomic orbitals, facial recognition, and matrix diagonalization.\n\n[2] Eigenfunction - Wikipedia\nURL: https://en.wikipedia.org/wiki/Eigenfunction\nSnippet: November 12, 2025 - In the study of signals and systems, an eigenfunction of a system is a signal f(t) that, when input into the system, produces a response y(t) = λf(t), where λ is a complex scalar eigenvalue.\n\n[3] Eigenvalue perturbation - Wikipedia\nURL: https://en.wikipedia.org/wiki/Eigenvalue_perturbation\nSnippet: March 4, 2026 - In mathematics, an eigenvalue perturbation problem is that of finding the eigenvectors and eigenvalues of a system ... {\\displaystyle A_{0}x_{0}=\\lambda _{0}x_{0}} . This is useful for studying how sensitive the original system's eigenvectors and eigenvalues ...\n\n[4] Applications of Eigenvalues and Eigenvectors - GeeksforGeeks\nURL: https://www.geeksforgeeks.org/engineering-mathematics/applications-of-eigenvalues-and-eigenvectors/\nSnippet: December 3, 2025 - No matter how you push it, the swing always moves back and forth in the same pattern. The eigenvalue tells us how fast or slow the swing moves when pushed. Eigenvalue (Speed of Motion): Determines the natural frequency of the swing’s movement.\n\n[5] Eigenvalues and eigenfunctions | Principles of Physics IV Class Notes | Fiveable\nURL: https://fiveable.me/principles-of-physics-iv/unit-3/eigenvalues-eigenfunctions/study-guide/lxTFa1aB02VWk6JF\nSnippet: August 22, 2025 - Eigenfunctions comprise special wavefunctions that when acted upon by a quantum mechanical operator yield the same function multiplied by a scalar (eigenvalue) ... Completeness property allows arbitrary wavefunctions to be expressed as linear combinations of operator eigenfunctions · Enables ...",
+      "results": [
+        {
+          "title": "Eigenvalues and eigenvectors - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Eigenvalues_and_eigenvectors",
+          "domain": "en.wikipedia.org",
+          "snippet": "5 days ago - Originally used to study principal axes of the rotational motion of rigid bodies, eigenvalues and eigenvectors have a wide range of applications, for example in stability analysis, vibration analysis, atomic orbitals, facial recognition, and matrix diagonalization."
+        },
+        {
+          "title": "Eigenfunction - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Eigenfunction",
+          "domain": "en.wikipedia.org",
+          "snippet": "November 12, 2025 - In the study of signals and systems, an eigenfunction of a system is a signal f(t) that, when input into the system, produces a response y(t) = λf(t), where λ is a complex scalar eigenvalue."
+        },
+        {
+          "title": "Eigenvalue perturbation - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Eigenvalue_perturbation",
+          "domain": "en.wikipedia.org",
+          "snippet": "March 4, 2026 - In mathematics, an eigenvalue perturbation problem is that of finding the eigenvectors and eigenvalues of a system ... {\\displaystyle A_{0}x_{0}=\\lambda _{0}x_{0}} . This is useful for studying how sensitive the original system's eigenvectors and eigenvalues ..."
+        },
+        {
+          "title": "Applications of Eigenvalues and Eigenvectors - GeeksforGeeks",
+          "url": "https://www.geeksforgeeks.org/engineering-mathematics/applications-of-eigenvalues-and-eigenvectors/",
+          "domain": "geeksforgeeks.org",
+          "snippet": "December 3, 2025 - No matter how you push it, the swing always moves back and forth in the same pattern. The eigenvalue tells us how fast or slow the swing moves when pushed. Eigenvalue (Speed of Motion): Determines the natural frequency of the swing’s movement."
+        },
+        {
+          "title": "Eigenvalues and eigenfunctions | Principles of Physics IV Class Notes | Fiveable",
+          "url": "https://fiveable.me/principles-of-physics-iv/unit-3/eigenvalues-eigenfunctions/study-guide/lxTFa1aB02VWk6JF",
+          "domain": "fiveable.me",
+          "snippet": "August 22, 2025 - Eigenfunctions comprise special wavefunctions that when acted upon by a quantum mechanical operator yield the same function multiplied by a scalar (eigenvalue) ... Completeness property allows arbitrary wavefunctions to be expressed as linear combinations of operator eigenfunctions · Enables ..."
+        }
+      ],
+      "urls": [
+        "https://en.wikipedia.org/wiki/Eigenvalues_and_eigenvectors",
+        "https://en.wikipedia.org/wiki/Eigenfunction",
+        "https://en.wikipedia.org/wiki/Eigenvalue_perturbation",
+        "https://www.geeksforgeeks.org/engineering-mathematics/applications-of-eigenvalues-and-eigenvectors/",
+        "https://fiveable.me/principles-of-physics-iv/unit-3/eigenvalues-eigenfunctions/study-guide/lxTFa1aB02VWk6JF"
+      ],
+      "attempt_count": 1,
+      "searched_at": "2026-05-05_14-18-40",
+      "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
+    },
+    "C004": {
+      "claim": "They simplify complex interactions by focusing on \"special directions\" where changes are straightforward.",
+      "search_attempts": [
+        {
+          "status": "ok",
+          "query": "Eigenvalue They simplify complex interactions by focusing on \"special directions\" where changes are straightforward. physics lecture notes textbook explanation",
+          "results": [
+            {
+              "title": "Eigenvalues and eigenvectors arise when we study how linear ...",
+              "url": "https://www.facebook.com/reel/782178491121621/",
+              "domain": "facebook.com",
+              "snippet": "Instead of tracking how every point moves, we can focus on these special directions and understand the transformation more clearly. Eigenvalues and eigenvectors play a central role in many areas of mathematics and applied science."
+            },
+            {
+              "title": "Fast recovery of parametric eigenvalues depending on several",
+              "url": "https://arxiv.org/html/2505.06141v2",
+              "domain": "arxiv.org",
+              "snippet": "EPs are special degeneracies corresponding to specific values of the system parameters for which both eigenvalues and eigenvectors coalesce ..."
+            },
+            {
+              "title": "Spectral simplicity of apparent complexity. I. The",
+              "url": "https://pubs.aip.org/aip/cha/article/28/3/033115/684965/Spectral-simplicity-of-apparent-complexity-I-The",
+              "domain": "pubs.aip.org",
+              "snippet": "... one can ask about the behavioral and structural complexity of a stochastic process reduce to a linear algebraic framing of a time evolution governed ..."
+            },
+            {
+              "title": "The Math Behind Artificial Intelligence: A Guide to AI",
+              "url": "https://www.freecodecamp.org/news/the-math-behind-artificial-intelligence-book",
+              "domain": "freecodecamp.org",
+              "snippet": "So just keep in mind that, even though concepts like integral calculus and eigenvalues/eigenvectors might not be widely used in AI, they’ll help ..."
+            },
+            {
+              "title": "Three generations of Fermions from octonions Clifford alegbras",
+              "url": "https://www.physicsforums.com/threads/three-generations-of-fermions-from-octonions-clifford-alegbras.1013986/",
+              "domain": "physicsforums.com",
+              "snippet": "... by selecting a special direction, and the action of this projector on the basis of C⊗S can be used to uniquely split the algebra into three complex ..."
+            }
+          ],
+          "urls": [
+            "https://www.facebook.com/reel/782178491121621/",
+            "https://arxiv.org/html/2505.06141v2",
+            "https://pubs.aip.org/aip/cha/article/28/3/033115/684965/Spectral-simplicity-of-apparent-complexity-I-The",
+            "https://www.freecodecamp.org/news/the-math-behind-artificial-intelligence-book",
+            "https://www.physicsforums.com/threads/three-generations-of-fermions-from-octonions-clifford-alegbras.1013986/"
+          ],
+          "result_snippet": "[1] Eigenvalues and eigenvectors arise when we study how linear ...\nURL: https://www.facebook.com/reel/782178491121621/\nSnippet: Instead of tracking how every point moves, we can focus on these special directions and understand the transformation more clearly. Eigenvalues and eigenvectors play a central role in many areas of mathematics and applied science.\n\n[2] Fast recovery of parametric eigenvalues depending on several\nURL: https://arxiv.org/html/2505.06141v2\nSnippet: EPs are special degeneracies corresponding to specific values of the system parameters for which both eigenvalues and eigenvectors coalesce ...\n\n[3] Spectral simplicity of apparent complexity. I. The\nURL: https://pubs.aip.org/aip/cha/article/28/3/033115/684965/Spectral-simplicity-of-apparent-complexity-I-The\nSnippet: ... one can ask about the behavioral and structural complexity of a stochastic process reduce to a linear algebraic framing of a time evolution governed ...\n\n[4] The Math Behind Artificial Intelligence: A Guide to AI\nURL: https://www.freecodecamp.org/news/the-math-behind-artificial-intelligence-book\nSnippet: So just keep in mind that, even though concepts like integral calculus and eigenvalues/eigenvectors might not be widely used in AI, they’ll help ...\n\n[5] Three generations of Fermions from octonions Clifford alegbras\nURL: https://www.physicsforums.com/threads/three-generations-of-fermions-from-octonions-clifford-alegbras.1013986/\nSnippet: ... by selecting a special direction, and the action of this projector on the basis of C⊗S can be used to uniquely split the algebra into three complex ...",
+          "searched_at": "2026-05-05_14-26-50",
+          "attempt_number": 1
+        }
+      ],
+      "query": "Eigenvalue They simplify complex interactions by focusing on \"special directions\" where changes are straightforward. physics lecture notes textbook explanation",
+      "search_status": "ok",
+      "result_snippet": "[1] Eigenvalues and eigenvectors arise when we study how linear ...\nURL: https://www.facebook.com/reel/782178491121621/\nSnippet: Instead of tracking how every point moves, we can focus on these special directions and understand the transformation more clearly. Eigenvalues and eigenvectors play a central role in many areas of mathematics and applied science.\n\n[2] Fast recovery of parametric eigenvalues depending on several\nURL: https://arxiv.org/html/2505.06141v2\nSnippet: EPs are special degeneracies corresponding to specific values of the system parameters for which both eigenvalues and eigenvectors coalesce ...\n\n[3] Spectral simplicity of apparent complexity. I. The\nURL: https://pubs.aip.org/aip/cha/article/28/3/033115/684965/Spectral-simplicity-of-apparent-complexity-I-The\nSnippet: ... one can ask about the behavioral and structural complexity of a stochastic process reduce to a linear algebraic framing of a time evolution governed ...\n\n[4] The Math Behind Artificial Intelligence: A Guide to AI\nURL: https://www.freecodecamp.org/news/the-math-behind-artificial-intelligence-book\nSnippet: So just keep in mind that, even though concepts like integral calculus and eigenvalues/eigenvectors might not be widely used in AI, they’ll help ...\n\n[5] Three generations of Fermions from octonions Clifford alegbras\nURL: https://www.physicsforums.com/threads/three-generations-of-fermions-from-octonions-clifford-alegbras.1013986/\nSnippet: ... by selecting a special direction, and the action of this projector on the basis of C⊗S can be used to uniquely split the algebra into three complex ...",
+      "results": [
+        {
+          "title": "Eigenvalues and eigenvectors arise when we study how linear ...",
+          "url": "https://www.facebook.com/reel/782178491121621/",
+          "domain": "facebook.com",
+          "snippet": "Instead of tracking how every point moves, we can focus on these special directions and understand the transformation more clearly. Eigenvalues and eigenvectors play a central role in many areas of mathematics and applied science."
+        },
+        {
+          "title": "Fast recovery of parametric eigenvalues depending on several",
+          "url": "https://arxiv.org/html/2505.06141v2",
+          "domain": "arxiv.org",
+          "snippet": "EPs are special degeneracies corresponding to specific values of the system parameters for which both eigenvalues and eigenvectors coalesce ..."
+        },
+        {
+          "title": "Spectral simplicity of apparent complexity. I. The",
+          "url": "https://pubs.aip.org/aip/cha/article/28/3/033115/684965/Spectral-simplicity-of-apparent-complexity-I-The",
+          "domain": "pubs.aip.org",
+          "snippet": "... one can ask about the behavioral and structural complexity of a stochastic process reduce to a linear algebraic framing of a time evolution governed ..."
+        },
+        {
+          "title": "The Math Behind Artificial Intelligence: A Guide to AI",
+          "url": "https://www.freecodecamp.org/news/the-math-behind-artificial-intelligence-book",
+          "domain": "freecodecamp.org",
+          "snippet": "So just keep in mind that, even though concepts like integral calculus and eigenvalues/eigenvectors might not be widely used in AI, they’ll help ..."
+        },
+        {
+          "title": "Three generations of Fermions from octonions Clifford alegbras",
+          "url": "https://www.physicsforums.com/threads/three-generations-of-fermions-from-octonions-clifford-alegbras.1013986/",
+          "domain": "physicsforums.com",
+          "snippet": "... by selecting a special direction, and the action of this projector on the basis of C⊗S can be used to uniquely split the algebra into three complex ..."
+        }
+      ],
+      "urls": [
+        "https://www.facebook.com/reel/782178491121621/",
+        "https://arxiv.org/html/2505.06141v2",
+        "https://pubs.aip.org/aip/cha/article/28/3/033115/684965/Spectral-simplicity-of-apparent-complexity-I-The",
+        "https://www.freecodecamp.org/news/the-math-behind-artificial-intelligence-book",
+        "https://www.physicsforums.com/threads/three-generations-of-fermions-from-octonions-clifford-alegbras.1013986/"
+      ],
+      "attempt_count": 1,
+      "searched_at": "2026-05-05_14-26-50",
+      "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
+    },
+    "C005": {
+      "claim": "Eigenvalues determine the **direction and magnitude** of these forces (e.g., principal stresses in a beam under load).",
+      "search_attempts": [
+        {
+          "status": "ok",
+          "query": "Eigenvalue Eigenvalues determine the **direction and magnitude** of these forces (e.g., principal stresses in a beam under physics lecture notes textbook explanation",
+          "results": [
+            {
+              "title": "Stress (mechanics) - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Stress_(mechanics)",
+              "domain": "en.wikipedia.org",
+              "snippet": "Stress may exist in the absence of external forces; such built-in stress is important, for example, in prestressed concrete and tempered glass ."
+            },
+            {
+              "title": "Plane stress - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Plane_stress",
+              "domain": "en.wikipedia.org",
+              "snippet": "Mathematically, the stress at some point in the material is a plane stress if one of the three principal stresses (the eigenvalues of the Cauchy ..."
+            },
+            {
+              "title": "Principal component analysis - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Principal_component_analysis",
+              "domain": "en.wikipedia.org",
+              "snippet": "These directions (i.e., principal components) constitute an orthonormal basis in which different individual dimensions of the data are linearly ..."
+            },
+            {
+              "title": "Solving engineering eigenvalue problems with neural networks",
+              "url": "https://arxiv.org/html/2506.04375v1",
+              "domain": "arxiv.org",
+              "snippet": "In the setting of random processes, the stationary distribution of a Markov Chain is governed by an eigenvalue problem [ 41 ] , and the eigenfunctions ..."
+            },
+            {
+              "title": "Plane stress - Alchetron, The Free Social Encyclopedia",
+              "url": "https://alchetron.com/Plane-stress",
+              "domain": "alchetron.com",
+              "snippet": "... the infinitesimal element is oriented in the direction of the principal planes, thus the stresses acting on the rectangular element are principal ..."
+            }
+          ],
+          "urls": [
+            "https://en.wikipedia.org/wiki/Stress_(mechanics)",
+            "https://en.wikipedia.org/wiki/Plane_stress",
+            "https://en.wikipedia.org/wiki/Principal_component_analysis",
+            "https://arxiv.org/html/2506.04375v1",
+            "https://alchetron.com/Plane-stress"
+          ],
+          "result_snippet": "[1] Stress (mechanics) - Wikipedia\nURL: https://en.wikipedia.org/wiki/Stress_(mechanics)\nSnippet: Stress may exist in the absence of external forces; such built-in stress is important, for example, in prestressed concrete and tempered glass .\n\n[2] Plane stress - Wikipedia\nURL: https://en.wikipedia.org/wiki/Plane_stress\nSnippet: Mathematically, the stress at some point in the material is a plane stress if one of the three principal stresses (the eigenvalues of the Cauchy ...\n\n[3] Principal component analysis - Wikipedia\nURL: https://en.wikipedia.org/wiki/Principal_component_analysis\nSnippet: These directions (i.e., principal components) constitute an orthonormal basis in which different individual dimensions of the data are linearly ...\n\n[4] Solving engineering eigenvalue problems with neural networks\nURL: https://arxiv.org/html/2506.04375v1\nSnippet: In the setting of random processes, the stationary distribution of a Markov Chain is governed by an eigenvalue problem [ 41 ] , and the eigenfunctions ...\n\n[5] Plane stress - Alchetron, The Free Social Encyclopedia\nURL: https://alchetron.com/Plane-stress\nSnippet: ... the infinitesimal element is oriented in the direction of the principal planes, thus the stresses acting on the rectangular element are principal ...",
+          "searched_at": "2026-05-05_14-26-53",
+          "attempt_number": 1
+        }
+      ],
+      "query": "Eigenvalue Eigenvalues determine the **direction and magnitude** of these forces (e.g., principal stresses in a beam under physics lecture notes textbook explanation",
+      "search_status": "ok",
+      "result_snippet": "[1] Stress (mechanics) - Wikipedia\nURL: https://en.wikipedia.org/wiki/Stress_(mechanics)\nSnippet: Stress may exist in the absence of external forces; such built-in stress is important, for example, in prestressed concrete and tempered glass .\n\n[2] Plane stress - Wikipedia\nURL: https://en.wikipedia.org/wiki/Plane_stress\nSnippet: Mathematically, the stress at some point in the material is a plane stress if one of the three principal stresses (the eigenvalues of the Cauchy ...\n\n[3] Principal component analysis - Wikipedia\nURL: https://en.wikipedia.org/wiki/Principal_component_analysis\nSnippet: These directions (i.e., principal components) constitute an orthonormal basis in which different individual dimensions of the data are linearly ...\n\n[4] Solving engineering eigenvalue problems with neural networks\nURL: https://arxiv.org/html/2506.04375v1\nSnippet: In the setting of random processes, the stationary distribution of a Markov Chain is governed by an eigenvalue problem [ 41 ] , and the eigenfunctions ...\n\n[5] Plane stress - Alchetron, The Free Social Encyclopedia\nURL: https://alchetron.com/Plane-stress\nSnippet: ... the infinitesimal element is oriented in the direction of the principal planes, thus the stresses acting on the rectangular element are principal ...",
+      "results": [
+        {
+          "title": "Stress (mechanics) - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Stress_(mechanics)",
+          "domain": "en.wikipedia.org",
+          "snippet": "Stress may exist in the absence of external forces; such built-in stress is important, for example, in prestressed concrete and tempered glass ."
+        },
+        {
+          "title": "Plane stress - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Plane_stress",
+          "domain": "en.wikipedia.org",
+          "snippet": "Mathematically, the stress at some point in the material is a plane stress if one of the three principal stresses (the eigenvalues of the Cauchy ..."
+        },
+        {
+          "title": "Principal component analysis - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Principal_component_analysis",
+          "domain": "en.wikipedia.org",
+          "snippet": "These directions (i.e., principal components) constitute an orthonormal basis in which different individual dimensions of the data are linearly ..."
+        },
+        {
+          "title": "Solving engineering eigenvalue problems with neural networks",
+          "url": "https://arxiv.org/html/2506.04375v1",
+          "domain": "arxiv.org",
+          "snippet": "In the setting of random processes, the stationary distribution of a Markov Chain is governed by an eigenvalue problem [ 41 ] , and the eigenfunctions ..."
+        },
+        {
+          "title": "Plane stress - Alchetron, The Free Social Encyclopedia",
+          "url": "https://alchetron.com/Plane-stress",
+          "domain": "alchetron.com",
+          "snippet": "... the infinitesimal element is oriented in the direction of the principal planes, thus the stresses acting on the rectangular element are principal ..."
+        }
+      ],
+      "urls": [
+        "https://en.wikipedia.org/wiki/Stress_(mechanics)",
+        "https://en.wikipedia.org/wiki/Plane_stress",
+        "https://en.wikipedia.org/wiki/Principal_component_analysis",
+        "https://arxiv.org/html/2506.04375v1",
+        "https://alchetron.com/Plane-stress"
+      ],
+      "attempt_count": 1,
+      "searched_at": "2026-05-05_14-26-53",
+      "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
+    },
+    "C006": {
+      "claim": "A stress tensor is a linear transformation that encodes how forces act on a material, and its eigenvalues quantify the maximum and minimum forces experienced along specific directions.",
+      "search_attempts": [
+        {
+          "status": "ok",
+          "query": "Eigenvalue A stress tensor is a linear transformation that encodes how forces act on a material, and physics lecture notes textbook explanation",
+          "results": [
+            {
+              "title": "stress strain - How can a physical quantity be neither vector",
+              "url": "https://physics.stackexchange.com/questions/640059/how-can-a-physical-quantity-be-neither-vector-nor-scalar",
+              "domain": "physics.stackexchange.com",
+              "snippet": "The meaning of the statement that the stress tensor is not a vector refers uniquely to the fact that it is neither a direction nor a force."
+            },
+            {
+              "title": "Threshold Resolvent Singularities and the Infrared Structure of",
+              "url": "https://arxiv.org/html/2511.05345v2",
+              "domain": "arxiv.org",
+              "snippet": "The present work identifies a geometric threshold on an asymptotically flat spatial slice that determines whether linearized gravitational ..."
+            },
+            {
+              "title": "On Exotic Materials in 3D Linear Elasticity with High Symmetry",
+              "url": "https://arxiv.org/html/2603.12019v1",
+              "domain": "arxiv.org",
+              "snippet": "That is, an anisotropic orthotropic elasticity tensor whose restriction to its purely deviatoric part is isotropic—a property that is, generically, ..."
+            },
+            {
+              "title": "Max Planck Institute for the Physics of Complex Systems: Frank",
+              "url": "https://www.pks.mpg.de/de/biological-physics/frank-juelicher",
+              "domain": "pks.mpg.de",
+              "snippet": "... two examples of chemical processes, mono-molecular and bi-molecular reactions, and show that at an optimal condensate volume, reaction yield is ..."
+            },
+            {
+              "title": "NeST: Neural Stress Tensor Tomography by leveraging 3D",
+              "url": "https://dl.acm.org/doi/10.1145/3723873",
+              "domain": "dl.acm.org",
+              "snippet": "... is an optical phenomenon that ... First, the stress at each point is a \\(3\\times 3\\) tensor, but each ray only encodes a \\(2\\times 2\\) projection."
+            }
+          ],
+          "urls": [
+            "https://physics.stackexchange.com/questions/640059/how-can-a-physical-quantity-be-neither-vector-nor-scalar",
+            "https://arxiv.org/html/2511.05345v2",
+            "https://arxiv.org/html/2603.12019v1",
+            "https://www.pks.mpg.de/de/biological-physics/frank-juelicher",
+            "https://dl.acm.org/doi/10.1145/3723873"
+          ],
+          "result_snippet": "[1] stress strain - How can a physical quantity be neither vector\nURL: https://physics.stackexchange.com/questions/640059/how-can-a-physical-quantity-be-neither-vector-nor-scalar\nSnippet: The meaning of the statement that the stress tensor is not a vector refers uniquely to the fact that it is neither a direction nor a force.\n\n[2] Threshold Resolvent Singularities and the Infrared Structure of\nURL: https://arxiv.org/html/2511.05345v2\nSnippet: The present work identifies a geometric threshold on an asymptotically flat spatial slice that determines whether linearized gravitational ...\n\n[3] On Exotic Materials in 3D Linear Elasticity with High Symmetry\nURL: https://arxiv.org/html/2603.12019v1\nSnippet: That is, an anisotropic orthotropic elasticity tensor whose restriction to its purely deviatoric part is isotropic—a property that is, generically, ...\n\n[4] Max Planck Institute for the Physics of Complex Systems: Frank\nURL: https://www.pks.mpg.de/de/biological-physics/frank-juelicher\nSnippet: ... two examples of chemical processes, mono-molecular and bi-molecular reactions, and show that at an optimal condensate volume, reaction yield is ...\n\n[5] NeST: Neural Stress Tensor Tomography by leveraging 3D\nURL: https://dl.acm.org/doi/10.1145/3723873\nSnippet: ... is an optical phenomenon that ... First, the stress at each point is a \\(3\\times 3\\) tensor, but each ray only encodes a \\(2\\times 2\\) projection.",
+          "searched_at": "2026-05-05_14-35-03",
+          "attempt_number": 1
+        }
+      ],
+      "query": "Eigenvalue A stress tensor is a linear transformation that encodes how forces act on a material, and physics lecture notes textbook explanation",
+      "search_status": "ok",
+      "result_snippet": "[1] stress strain - How can a physical quantity be neither vector\nURL: https://physics.stackexchange.com/questions/640059/how-can-a-physical-quantity-be-neither-vector-nor-scalar\nSnippet: The meaning of the statement that the stress tensor is not a vector refers uniquely to the fact that it is neither a direction nor a force.\n\n[2] Threshold Resolvent Singularities and the Infrared Structure of\nURL: https://arxiv.org/html/2511.05345v2\nSnippet: The present work identifies a geometric threshold on an asymptotically flat spatial slice that determines whether linearized gravitational ...\n\n[3] On Exotic Materials in 3D Linear Elasticity with High Symmetry\nURL: https://arxiv.org/html/2603.12019v1\nSnippet: That is, an anisotropic orthotropic elasticity tensor whose restriction to its purely deviatoric part is isotropic—a property that is, generically, ...\n\n[4] Max Planck Institute for the Physics of Complex Systems: Frank\nURL: https://www.pks.mpg.de/de/biological-physics/frank-juelicher\nSnippet: ... two examples of chemical processes, mono-molecular and bi-molecular reactions, and show that at an optimal condensate volume, reaction yield is ...\n\n[5] NeST: Neural Stress Tensor Tomography by leveraging 3D\nURL: https://dl.acm.org/doi/10.1145/3723873\nSnippet: ... is an optical phenomenon that ... First, the stress at each point is a \\(3\\times 3\\) tensor, but each ray only encodes a \\(2\\times 2\\) projection.",
+      "results": [
+        {
+          "title": "stress strain - How can a physical quantity be neither vector",
+          "url": "https://physics.stackexchange.com/questions/640059/how-can-a-physical-quantity-be-neither-vector-nor-scalar",
+          "domain": "physics.stackexchange.com",
+          "snippet": "The meaning of the statement that the stress tensor is not a vector refers uniquely to the fact that it is neither a direction nor a force."
+        },
+        {
+          "title": "Threshold Resolvent Singularities and the Infrared Structure of",
+          "url": "https://arxiv.org/html/2511.05345v2",
+          "domain": "arxiv.org",
+          "snippet": "The present work identifies a geometric threshold on an asymptotically flat spatial slice that determines whether linearized gravitational ..."
+        },
+        {
+          "title": "On Exotic Materials in 3D Linear Elasticity with High Symmetry",
+          "url": "https://arxiv.org/html/2603.12019v1",
+          "domain": "arxiv.org",
+          "snippet": "That is, an anisotropic orthotropic elasticity tensor whose restriction to its purely deviatoric part is isotropic—a property that is, generically, ..."
+        },
+        {
+          "title": "Max Planck Institute for the Physics of Complex Systems: Frank",
+          "url": "https://www.pks.mpg.de/de/biological-physics/frank-juelicher",
+          "domain": "pks.mpg.de",
+          "snippet": "... two examples of chemical processes, mono-molecular and bi-molecular reactions, and show that at an optimal condensate volume, reaction yield is ..."
+        },
+        {
+          "title": "NeST: Neural Stress Tensor Tomography by leveraging 3D",
+          "url": "https://dl.acm.org/doi/10.1145/3723873",
+          "domain": "dl.acm.org",
+          "snippet": "... is an optical phenomenon that ... First, the stress at each point is a \\(3\\times 3\\) tensor, but each ray only encodes a \\(2\\times 2\\) projection."
+        }
+      ],
+      "urls": [
+        "https://physics.stackexchange.com/questions/640059/how-can-a-physical-quantity-be-neither-vector-nor-scalar",
+        "https://arxiv.org/html/2511.05345v2",
+        "https://arxiv.org/html/2603.12019v1",
+        "https://www.pks.mpg.de/de/biological-physics/frank-juelicher",
+        "https://dl.acm.org/doi/10.1145/3723873"
+      ],
+      "attempt_count": 1,
+      "searched_at": "2026-05-05_14-35-03",
+      "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
+    },
+    "C007": {
+      "claim": "These frequencies are directly tied to the **forces** that excite the system.",
+      "search_attempts": [
+        {
+          "status": "ok",
+          "query": "Eigenvalue These frequencies are directly tied to the **forces** that excite the system. physics lecture notes textbook explanation",
+          "results": [
+            {
+              "title": "Thermodynamic Foundations – Introduction to Aerospace",
+              "url": "https://eaglepubs.erau.edu/introductiontoaerospaceflightvehicles/chapter/thermodynamic-foundations/",
+              "domain": "eaglepubs.erau.edu",
+              "snippet": "He was an engineer for the Armstrong Siddeley Company, the Hunting Percival Aircraft Company, and the de Havilland Aircraft Company."
+            },
+            {
+              "title": "Threshold Resolvent Singularities and the Infrared Structure of",
+              "url": "https://arxiv.org/html/2511.05345v2",
+              "domain": "arxiv.org",
+              "snippet": "To identify the geometric origin of infrared structure in linearized gravity, we begin with the operator that governs stationary tensor perturbations ..."
+            },
+            {
+              "title": "236 questions with answers in POWER SYSTEMS ANALYSIS | Science",
+              "url": "https://www.researchgate.net/topic/Power-Systems-Analysis",
+              "domain": "researchgate.net",
+              "snippet": "In economic systems, reactive power is equivalent to the reserves that are required to maintain the stability of the system."
+            },
+            {
+              "title": "Basics of power system dynamics and stability | Intended and",
+              "url": "https://digital-library.theiet.org/doi/10.1049/PBPO231E_ch2",
+              "domain": "digital-library.theiet.org",
+              "snippet": "In the following section, the formal definition of power system stability is presented, and the various types of power system stability are ..."
+            },
+            {
+              "title": "Basics of power system dynamics and stability | Intended and",
+              "url": "https://digital-library.theiet.org/doi/abs/10.1049/PBPO231E_ch2?cookieSet=1",
+              "domain": "digital-library.theiet.org",
+              "snippet": "In the following section, the formal definition of power system stability is presented, and the various types of power system stability are ..."
+            }
+          ],
+          "urls": [
+            "https://eaglepubs.erau.edu/introductiontoaerospaceflightvehicles/chapter/thermodynamic-foundations/",
+            "https://arxiv.org/html/2511.05345v2",
+            "https://www.researchgate.net/topic/Power-Systems-Analysis",
+            "https://digital-library.theiet.org/doi/10.1049/PBPO231E_ch2",
+            "https://digital-library.theiet.org/doi/abs/10.1049/PBPO231E_ch2?cookieSet=1"
+          ],
+          "result_snippet": "[1] Thermodynamic Foundations – Introduction to Aerospace\nURL: https://eaglepubs.erau.edu/introductiontoaerospaceflightvehicles/chapter/thermodynamic-foundations/\nSnippet: He was an engineer for the Armstrong Siddeley Company, the Hunting Percival Aircraft Company, and the de Havilland Aircraft Company.\n\n[2] Threshold Resolvent Singularities and the Infrared Structure of\nURL: https://arxiv.org/html/2511.05345v2\nSnippet: To identify the geometric origin of infrared structure in linearized gravity, we begin with the operator that governs stationary tensor perturbations ...\n\n[3] 236 questions with answers in POWER SYSTEMS ANALYSIS | Science\nURL: https://www.researchgate.net/topic/Power-Systems-Analysis\nSnippet: In economic systems, reactive power is equivalent to the reserves that are required to maintain the stability of the system.\n\n[4] Basics of power system dynamics and stability | Intended and\nURL: https://digital-library.theiet.org/doi/10.1049/PBPO231E_ch2\nSnippet: In the following section, the formal definition of power system stability is presented, and the various types of power system stability are ...\n\n[5] Basics of power system dynamics and stability | Intended and\nURL: https://digital-library.theiet.org/doi/abs/10.1049/PBPO231E_ch2?cookieSet=1\nSnippet: In the following section, the formal definition of power system stability is presented, and the various types of power system stability are ...",
+          "searched_at": "2026-05-05_14-35-07",
+          "attempt_number": 1
+        }
+      ],
+      "query": "Eigenvalue These frequencies are directly tied to the **forces** that excite the system. physics lecture notes textbook explanation",
+      "search_status": "ok",
+      "result_snippet": "[1] Thermodynamic Foundations – Introduction to Aerospace\nURL: https://eaglepubs.erau.edu/introductiontoaerospaceflightvehicles/chapter/thermodynamic-foundations/\nSnippet: He was an engineer for the Armstrong Siddeley Company, the Hunting Percival Aircraft Company, and the de Havilland Aircraft Company.\n\n[2] Threshold Resolvent Singularities and the Infrared Structure of\nURL: https://arxiv.org/html/2511.05345v2\nSnippet: To identify the geometric origin of infrared structure in linearized gravity, we begin with the operator that governs stationary tensor perturbations ...\n\n[3] 236 questions with answers in POWER SYSTEMS ANALYSIS | Science\nURL: https://www.researchgate.net/topic/Power-Systems-Analysis\nSnippet: In economic systems, reactive power is equivalent to the reserves that are required to maintain the stability of the system.\n\n[4] Basics of power system dynamics and stability | Intended and\nURL: https://digital-library.theiet.org/doi/10.1049/PBPO231E_ch2\nSnippet: In the following section, the formal definition of power system stability is presented, and the various types of power system stability are ...\n\n[5] Basics of power system dynamics and stability | Intended and\nURL: https://digital-library.theiet.org/doi/abs/10.1049/PBPO231E_ch2?cookieSet=1\nSnippet: In the following section, the formal definition of power system stability is presented, and the various types of power system stability are ...",
+      "results": [
+        {
+          "title": "Thermodynamic Foundations – Introduction to Aerospace",
+          "url": "https://eaglepubs.erau.edu/introductiontoaerospaceflightvehicles/chapter/thermodynamic-foundations/",
+          "domain": "eaglepubs.erau.edu",
+          "snippet": "He was an engineer for the Armstrong Siddeley Company, the Hunting Percival Aircraft Company, and the de Havilland Aircraft Company."
+        },
+        {
+          "title": "Threshold Resolvent Singularities and the Infrared Structure of",
+          "url": "https://arxiv.org/html/2511.05345v2",
+          "domain": "arxiv.org",
+          "snippet": "To identify the geometric origin of infrared structure in linearized gravity, we begin with the operator that governs stationary tensor perturbations ..."
+        },
+        {
+          "title": "236 questions with answers in POWER SYSTEMS ANALYSIS | Science",
+          "url": "https://www.researchgate.net/topic/Power-Systems-Analysis",
+          "domain": "researchgate.net",
+          "snippet": "In economic systems, reactive power is equivalent to the reserves that are required to maintain the stability of the system."
+        },
+        {
+          "title": "Basics of power system dynamics and stability | Intended and",
+          "url": "https://digital-library.theiet.org/doi/10.1049/PBPO231E_ch2",
+          "domain": "digital-library.theiet.org",
+          "snippet": "In the following section, the formal definition of power system stability is presented, and the various types of power system stability are ..."
+        },
+        {
+          "title": "Basics of power system dynamics and stability | Intended and",
+          "url": "https://digital-library.theiet.org/doi/abs/10.1049/PBPO231E_ch2?cookieSet=1",
+          "domain": "digital-library.theiet.org",
+          "snippet": "In the following section, the formal definition of power system stability is presented, and the various types of power system stability are ..."
+        }
+      ],
+      "urls": [
+        "https://eaglepubs.erau.edu/introductiontoaerospaceflightvehicles/chapter/thermodynamic-foundations/",
+        "https://arxiv.org/html/2511.05345v2",
+        "https://www.researchgate.net/topic/Power-Systems-Analysis",
+        "https://digital-library.theiet.org/doi/10.1049/PBPO231E_ch2",
+        "https://digital-library.theiet.org/doi/abs/10.1049/PBPO231E_ch2?cookieSet=1"
+      ],
+      "attempt_count": 1,
+      "searched_at": "2026-05-05_14-35-07",
+      "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
+    }
+  },
+  "summary": {
+    "total_claims": 8,
+    "checked_claim_count": 1,
+    "passing_claim_count": 0,
+    "unchecked_claim_count": 7,
+    "unresolved_or_needs_qualification": 8,
+    "actionable_issue_count": 0,
+    "evidence_retry_count": 1,
+    "claim_review_complete": false,
+    "unchecked_claim_ids": [
+      "C002",
+      "C003",
+      "C004",
+      "C005",
+      "C006",
+      "C007",
+      "C008"
+    ],
+    "actionable_claim_ids": [],
+    "evidence_retry_claim_ids": [
+      "C001"
+    ],
+    "highest_priority_fixes": []
+  },
+  "last_updated": "2026-05-05_14-35-08"
+}

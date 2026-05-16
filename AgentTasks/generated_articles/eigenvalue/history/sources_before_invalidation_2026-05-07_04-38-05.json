@@ -1,0 +1,404 @@
+{
+  "sources_by_claim": {
+    "C001": {
+      "claim": "Eigenvalues are scaling factors that describe how a vector is stretched or squashed by a linear transformation, potentially introducing rotational effects with complex eigenvalues.",
+      "search_attempts": [
+        {
+          "status": "ok",
+          "query": "eigenvalue definition linear algebra",
+          "results": [
+            {
+              "title": "eigenvalue - definition and meaning",
+              "url": "https://www.wordnik.com/words/eigenvalue",
+              "domain": "wordnik.com",
+              "snippet": "noun linear algebra The change in magnitude of a vector that does not change in direction under a given linear transformation ; a scalar factor by ..."
+            },
+            {
+              "title": "Eigenvalue Definition | DeepAI",
+              "url": "https://deep.ai/machine-learning-glossary-and-terms/eigenvalue",
+              "domain": "deep.ai",
+              "snippet": "Eigenvalues are a crucial concept in linear algebra with profound implications in various fields such as physics, engineering, and computer science."
+            },
+            {
+              "title": "Eigenvalue Definition | DeepAI",
+              "url": "https://deepai.org/machine-learning-glossary-and-terms/eigenvalue",
+              "domain": "deepai.org",
+              "snippet": "Eigenvalues are a crucial concept in linear algebra with profound implications in various fields such as physics, engineering, and computer science."
+            },
+            {
+              "title": "linear algebra - The definition of simple eigenvalue -",
+              "url": "https://math.stackexchange.com/questions/4240470/the-definition-of-simple-eigenvalue",
+              "domain": "math.stackexchange.com",
+              "snippet": "We have that, if an eigenvalue is simple in definition 1, it will be simple in definition 2, but the opposite is not true."
+            },
+            {
+              "title": "linear algebra - How/why does definition of eigenvalue/vector",
+              "url": "https://math.stackexchange.com/questions/4854441/how-why-does-definition-of-eigenvalue-vector-implicitly-require-a-choice-of-inne",
+              "domain": "math.stackexchange.com",
+              "snippet": "Specifically, I don't see how the definition of eigenvalues/vectors of a linear function depends in any way on choosing an inner product."
+            }
+          ],
+          "urls": [
+            "https://www.wordnik.com/words/eigenvalue",
+            "https://deep.ai/machine-learning-glossary-and-terms/eigenvalue",
+            "https://deepai.org/machine-learning-glossary-and-terms/eigenvalue",
+            "https://math.stackexchange.com/questions/4240470/the-definition-of-simple-eigenvalue",
+            "https://math.stackexchange.com/questions/4854441/how-why-does-definition-of-eigenvalue-vector-implicitly-require-a-choice-of-inne"
+          ],
+          "result_snippet": "[1] eigenvalue - definition and meaning\nURL: https://www.wordnik.com/words/eigenvalue\nSnippet: noun linear algebra The change in magnitude of a vector that does not change in direction under a given linear transformation ; a scalar factor by ...\n\n[2] Eigenvalue Definition | DeepAI\nURL: https://deep.ai/machine-learning-glossary-and-terms/eigenvalue\nSnippet: Eigenvalues are a crucial concept in linear algebra with profound implications in various fields such as physics, engineering, and computer science.\n\n[3] Eigenvalue Definition | DeepAI\nURL: https://deepai.org/machine-learning-glossary-and-terms/eigenvalue\nSnippet: Eigenvalues are a crucial concept in linear algebra with profound implications in various fields such as physics, engineering, and computer science.\n\n[4] linear algebra - The definition of simple eigenvalue -\nURL: https://math.stackexchange.com/questions/4240470/the-definition-of-simple-eigenvalue\nSnippet: We have that, if an eigenvalue is simple in definition 1, it will be simple in definition 2, but the opposite is not true.\n\n[5] linear algebra - How/why does definition of eigenvalue/vector\nURL: https://math.stackexchange.com/questions/4854441/how-why-does-definition-of-eigenvalue-vector-implicitly-require-a-choice-of-inne\nSnippet: Specifically, I don't see how the definition of eigenvalues/vectors of a linear function depends in any way on choosing an inner product.",
+          "searched_at": "2026-05-07_02-43-50",
+          "attempt_number": 1
+        },
+        {
+          "status": "ok",
+          "query": "Eigenvalue Eigenvalues are scaling factors that describe how a vector is stretched or squashed by a linear transformation, potentially university physics lecture notes textbook",
+          "results": [
+            {
+              "title": "What is an Eigenvector and Eigenvalue?",
+              "url": "https://www.analyticsvidhya.com/blog/2024/12/eigenvector-and-eigenvalue/",
+              "domain": "analyticsvidhya.com",
+              "snippet": "Linear algebra is a cornerstone of many advanced mathematical concepts and is extensively used in data science, machine learning, computer vision ..."
+            },
+            {
+              "title": "Eigenvalue Calculator | Find Eigenvalues & Eigenvectors",
+              "url": "https://matrixcalculator.com/eigenvalue-calculator/",
+              "domain": "matrixcalculator.com",
+              "snippet": "These values mean that there are certain special vectors that $A$ stretches by a factor of 3 or by a factor of 1 (i.e."
+            },
+            {
+              "title": "Eigenvalues and eigenvectors | peterbloem.nl",
+              "url": "https://peterbloem.nl/blog/pca-2",
+              "domain": "peterbloem.nl",
+              "snippet": "That is, each unit vector defines an approximation of $\\x_\\gc{i}$, and the objective is to keep the distance between the reconstruction and the ..."
+            },
+            {
+              "title": "linear algebra - What is the geometric meaning of singular",
+              "url": "https://math.stackexchange.com/questions/166021/what-is-the-geometric-meaning-of-singular-matrix",
+              "domain": "math.stackexchange.com",
+              "snippet": "It 'stretches' or 'scale' a vector in each of its eigenvector directions by factor of eigenvalues, which could be a complex number."
+            },
+            {
+              "title": "Understanding Eigenvectors: Your Guide to Hidden Directions",
+              "url": "https://techtonicshifts.blog/2026/02/08/how-a-rubber-toy-taught-me-more-about-ai-and-politics-than-any-tech-conference/",
+              "domain": "techtonicshifts.blog",
+              "snippet": "Eigenschaft means a property or attribute, something that belongs to a thing by nature – and no, it’s not ‘eigen-shaft’ you dirty, I know ..."
+            }
+          ],
+          "urls": [
+            "https://www.analyticsvidhya.com/blog/2024/12/eigenvector-and-eigenvalue/",
+            "https://matrixcalculator.com/eigenvalue-calculator/",
+            "https://peterbloem.nl/blog/pca-2",
+            "https://math.stackexchange.com/questions/166021/what-is-the-geometric-meaning-of-singular-matrix",
+            "https://techtonicshifts.blog/2026/02/08/how-a-rubber-toy-taught-me-more-about-ai-and-politics-than-any-tech-conference/"
+          ],
+          "result_snippet": "[1] What is an Eigenvector and Eigenvalue?\nURL: https://www.analyticsvidhya.com/blog/2024/12/eigenvector-and-eigenvalue/\nSnippet: Linear algebra is a cornerstone of many advanced mathematical concepts and is extensively used in data science, machine learning, computer vision ...\n\n[2] Eigenvalue Calculator | Find Eigenvalues & Eigenvectors\nURL: https://matrixcalculator.com/eigenvalue-calculator/\nSnippet: These values mean that there are certain special vectors that $A$ stretches by a factor of 3 or by a factor of 1 (i.e.\n\n[3] Eigenvalues and eigenvectors | peterbloem.nl\nURL: https://peterbloem.nl/blog/pca-2\nSnippet: That is, each unit vector defines an approximation of $\\x_\\gc{i}$, and the objective is to keep the distance between the reconstruction and the ...\n\n[4] linear algebra - What is the geometric meaning of singular\nURL: https://math.stackexchange.com/questions/166021/what-is-the-geometric-meaning-of-singular-matrix\nSnippet: It 'stretches' or 'scale' a vector in each of its eigenvector directions by factor of eigenvalues, which could be a complex number.\n\n[5] Understanding Eigenvectors: Your Guide to Hidden Directions\nURL: https://techtonicshifts.blog/2026/02/08/how-a-rubber-toy-taught-me-more-about-ai-and-politics-than-any-tech-conference/\nSnippet: Eigenschaft means a property or attribute, something that belongs to a thing by nature – and no, it’s not ‘eigen-shaft’ you dirty, I know ...",
+          "searched_at": "2026-05-07_03-20-21",
+          "attempt_number": 2
+        },
+        {
+          "status": "ok",
+          "query": "Eigenvalue Eigenvalues are scaling factors that describe how a vector is stretched or squashed by a linear transformation, potentially site:edu physics",
+          "results": [
+            {
+              "title": "MATHEMATICA Tutorial, Part 2.1: Eigenvalues - Brown University",
+              "url": "https://www.cfm.brown.edu/people/dobrush/am34/Mathematica/ch1/eigen.html",
+              "domain": "cfm.brown.edu",
+              "snippet": "Eigenvalues (translated from German, meaning \"proper values\") are a special set of scalars associated with every square matrix that are sometimes also known as characteristic roots, characteristic values, or proper values. Each eigenvalue is paired with a corresponding set of so-called eigenvectors. The determination of the eigenvalues and eigenvectors of a system is extremely important in ..."
+            },
+            {
+              "title": "Eigenvalues and eigenvectors - MIT",
+              "url": "https://www.mit.edu/~ashrstnv/eigenvalues-vectors.html",
+              "domain": "mit.edu",
+              "snippet": "Eigenvalues and eigenvectors If λ λ is an eigenvalue of the matrix M M, then for some family of vectors all lying on the same line, M v = λ v Mv = λv. Page generated 10/21/2025, 03:57:28 PM."
+            },
+            {
+              "title": "(PDF) On Eigenvalue And Eigenvector Perceptions of Undergraduate Pre ...",
+              "url": "https://www.academia.edu/143716742/On_Eigenvalue_And_Eigenvector_Perceptions_of_Undergraduate_Pre_service_Mathematics_Teachers",
+              "domain": "academia.edu",
+              "snippet": "In one of the questions given to the students, there is a vector in the plane and the image of that vector under a linear transformation. An eigenvalue of the matrix corresponding to the linear transformation and an eigenvector corresponding to this eigenvalue is expected to be easily and accurately expressed by the students."
+            },
+            {
+              "title": "Eigenvalues and Eigenvectors Solver - people.tamu.edu",
+              "url": "https://people.tamu.edu/~kapita/eigens.html",
+              "domain": "people.tamu.edu",
+              "snippet": "A web-based tool to compute the eigenvalues and eigenvectors of a square matrix A. Enter matrix size and elements to get the eigenvalues with algebraic multiplicities (if 2 or more) and corresponding eigenvectors as column vectors, with complex eigenvectors in a + bi form, scaled so the smallest (by magnitude) non-positive number is a 1 for real eigenvectors, or the smallest magnitude non-zero ..."
+            },
+            {
+              "title": "21. Eigenvalues and Eigenvectors | MIT Learn",
+              "url": "https://learn.mit.edu/search?resource=11957",
+              "domain": "learn.mit.edu",
+              "snippet": "21. Eigenvalues and Eigenvectors New on MIT Learn Universal AI A self-paced program that takes learners from AI fundamentals to practical, industry-relevant applications. No technical background required."
+            }
+          ],
+          "urls": [
+            "https://www.cfm.brown.edu/people/dobrush/am34/Mathematica/ch1/eigen.html",
+            "https://www.mit.edu/~ashrstnv/eigenvalues-vectors.html",
+            "https://www.academia.edu/143716742/On_Eigenvalue_And_Eigenvector_Perceptions_of_Undergraduate_Pre_service_Mathematics_Teachers",
+            "https://people.tamu.edu/~kapita/eigens.html",
+            "https://learn.mit.edu/search?resource=11957"
+          ],
+          "result_snippet": "[1] MATHEMATICA Tutorial, Part 2.1: Eigenvalues - Brown University\nURL: https://www.cfm.brown.edu/people/dobrush/am34/Mathematica/ch1/eigen.html\nSnippet: Eigenvalues (translated from German, meaning \"proper values\") are a special set of scalars associated with every square matrix that are sometimes also known as characteristic roots, characteristic values, or proper values. Each eigenvalue is paired with a corresponding set of so-called eigenvectors. The determination of the eigenvalues and eigenvectors of a system is extremely important in ...\n\n[2] Eigenvalues and eigenvectors - MIT\nURL: https://www.mit.edu/~ashrstnv/eigenvalues-vectors.html\nSnippet: Eigenvalues and eigenvectors If λ λ is an eigenvalue of the matrix M M, then for some family of vectors all lying on the same line, M v = λ v Mv = λv. Page generated 10/21/2025, 03:57:28 PM.\n\n[3] (PDF) On Eigenvalue And Eigenvector Perceptions of Undergraduate Pre ...\nURL: https://www.academia.edu/143716742/On_Eigenvalue_And_Eigenvector_Perceptions_of_Undergraduate_Pre_service_Mathematics_Teachers\nSnippet: In one of the questions given to the students, there is a vector in the plane and the image of that vector under a linear transformation. An eigenvalue of the matrix corresponding to the linear transformation and an eigenvector corresponding to this eigenvalue is expected to be easily and accurately expressed by the students.\n\n[4] Eigenvalues and Eigenvectors Solver - people.tamu.edu\nURL: https://people.tamu.edu/~kapita/eigens.html\nSnippet: A web-based tool to compute the eigenvalues and eigenvectors of a square matrix A. Enter matrix size and elements to get the eigenvalues with algebraic multiplicities (if 2 or more) and corresponding eigenvectors as column vectors, with complex eigenvectors in a + bi form, scaled so the smallest (by magnitude) non-positive number is a 1 for real eigenvectors, or the smallest magnitude non-zero ...\n\n[5] 21. Eigenvalues and Eigenvectors | MIT Learn\nURL: https://learn.mit.edu/search?resource=11957\nSnippet: 21. Eigenvalues and Eigenvectors New on MIT Learn Universal AI A self-paced program that takes learners from AI fundamentals to practical, industry-relevant applications. No technical background required.",
+          "searched_at": "2026-05-07_03-56-48",
+          "attempt_number": 3
+        }
+      ],
+      "query": "Eigenvalue Eigenvalues are scaling factors that describe how a vector is stretched or squashed by a linear transformation, potentially site:edu physics",
+      "search_status": "ok",
+      "result_snippet": "[1] MATHEMATICA Tutorial, Part 2.1: Eigenvalues - Brown University\nURL: https://www.cfm.brown.edu/people/dobrush/am34/Mathematica/ch1/eigen.html\nSnippet: Eigenvalues (translated from German, meaning \"proper values\") are a special set of scalars associated with every square matrix that are sometimes also known as characteristic roots, characteristic values, or proper values. Each eigenvalue is paired with a corresponding set of so-called eigenvectors. The determination of the eigenvalues and eigenvectors of a system is extremely important in ...\n\n[2] Eigenvalues and eigenvectors - MIT\nURL: https://www.mit.edu/~ashrstnv/eigenvalues-vectors.html\nSnippet: Eigenvalues and eigenvectors If λ λ is an eigenvalue of the matrix M M, then for some family of vectors all lying on the same line, M v = λ v Mv = λv. Page generated 10/21/2025, 03:57:28 PM.\n\n[3] (PDF) On Eigenvalue And Eigenvector Perceptions of Undergraduate Pre ...\nURL: https://www.academia.edu/143716742/On_Eigenvalue_And_Eigenvector_Perceptions_of_Undergraduate_Pre_service_Mathematics_Teachers\nSnippet: In one of the questions given to the students, there is a vector in the plane and the image of that vector under a linear transformation. An eigenvalue of the matrix corresponding to the linear transformation and an eigenvector corresponding to this eigenvalue is expected to be easily and accurately expressed by the students.\n\n[4] Eigenvalues and Eigenvectors Solver - people.tamu.edu\nURL: https://people.tamu.edu/~kapita/eigens.html\nSnippet: A web-based tool to compute the eigenvalues and eigenvectors of a square matrix A. Enter matrix size and elements to get the eigenvalues with algebraic multiplicities (if 2 or more) and corresponding eigenvectors as column vectors, with complex eigenvectors in a + bi form, scaled so the smallest (by magnitude) non-positive number is a 1 for real eigenvectors, or the smallest magnitude non-zero ...\n\n[5] 21. Eigenvalues and Eigenvectors | MIT Learn\nURL: https://learn.mit.edu/search?resource=11957\nSnippet: 21. Eigenvalues and Eigenvectors New on MIT Learn Universal AI A self-paced program that takes learners from AI fundamentals to practical, industry-relevant applications. No technical background required.",
+      "results": [
+        {
+          "title": "MATHEMATICA Tutorial, Part 2.1: Eigenvalues - Brown University",
+          "url": "https://www.cfm.brown.edu/people/dobrush/am34/Mathematica/ch1/eigen.html",
+          "domain": "cfm.brown.edu",
+          "snippet": "Eigenvalues (translated from German, meaning \"proper values\") are a special set of scalars associated with every square matrix that are sometimes also known as characteristic roots, characteristic values, or proper values. Each eigenvalue is paired with a corresponding set of so-called eigenvectors. The determination of the eigenvalues and eigenvectors of a system is extremely important in ..."
+        },
+        {
+          "title": "Eigenvalues and eigenvectors - MIT",
+          "url": "https://www.mit.edu/~ashrstnv/eigenvalues-vectors.html",
+          "domain": "mit.edu",
+          "snippet": "Eigenvalues and eigenvectors If λ λ is an eigenvalue of the matrix M M, then for some family of vectors all lying on the same line, M v = λ v Mv = λv. Page generated 10/21/2025, 03:57:28 PM."
+        },
+        {
+          "title": "(PDF) On Eigenvalue And Eigenvector Perceptions of Undergraduate Pre ...",
+          "url": "https://www.academia.edu/143716742/On_Eigenvalue_And_Eigenvector_Perceptions_of_Undergraduate_Pre_service_Mathematics_Teachers",
+          "domain": "academia.edu",
+          "snippet": "In one of the questions given to the students, there is a vector in the plane and the image of that vector under a linear transformation. An eigenvalue of the matrix corresponding to the linear transformation and an eigenvector corresponding to this eigenvalue is expected to be easily and accurately expressed by the students."
+        },
+        {
+          "title": "Eigenvalues and Eigenvectors Solver - people.tamu.edu",
+          "url": "https://people.tamu.edu/~kapita/eigens.html",
+          "domain": "people.tamu.edu",
+          "snippet": "A web-based tool to compute the eigenvalues and eigenvectors of a square matrix A. Enter matrix size and elements to get the eigenvalues with algebraic multiplicities (if 2 or more) and corresponding eigenvectors as column vectors, with complex eigenvectors in a + bi form, scaled so the smallest (by magnitude) non-positive number is a 1 for real eigenvectors, or the smallest magnitude non-zero ..."
+        },
+        {
+          "title": "21. Eigenvalues and Eigenvectors | MIT Learn",
+          "url": "https://learn.mit.edu/search?resource=11957",
+          "domain": "learn.mit.edu",
+          "snippet": "21. Eigenvalues and Eigenvectors New on MIT Learn Universal AI A self-paced program that takes learners from AI fundamentals to practical, industry-relevant applications. No technical background required."
+        }
+      ],
+      "urls": [
+        "https://www.cfm.brown.edu/people/dobrush/am34/Mathematica/ch1/eigen.html",
+        "https://www.mit.edu/~ashrstnv/eigenvalues-vectors.html",
+        "https://www.academia.edu/143716742/On_Eigenvalue_And_Eigenvector_Perceptions_of_Undergraduate_Pre_service_Mathematics_Teachers",
+        "https://people.tamu.edu/~kapita/eigens.html",
+        "https://learn.mit.edu/search?resource=11957"
+      ],
+      "attempt_count": 3,
+      "searched_at": "2026-05-07_03-56-48",
+      "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
+    },
+    "C002": {
+      "claim": "Eigenvalues are foundational in linear algebra and central to quantum mechanics, where they represent measurable outcomes like energy levels.",
+      "search_attempts": [
+        {
+          "status": "ok",
+          "query": "eigenvalues quantum mechanics applications",
+          "results": [
+            {
+              "title": "What are the applications of Eigenvalue and eigenvector? -",
+              "url": "https://math.answers.com/math-and-arithmetic/What_are_the_applications_of_Eigenvalue_and_eigenvector",
+              "domain": "math.answers.com",
+              "snippet": "Eigenvalues and eigenvectors have numerous applications across various fields. In physics, they are used in quantum mechanics to describe states ..."
+            },
+            {
+              "title": "Chemical applications of variational quantum eigenvalue-based",
+              "url": "https://pubs.aip.org/aip/apr/article/12/3/031304/3351224/Chemical-applications-of-variational-quantum",
+              "domain": "pubs.aip.org",
+              "snippet": "Paudel , Yuhua Duan; Chemical applications of variational quantum eigenvalue-based quantum algorithms: Perspective and survey."
+            },
+            {
+              "title": "Eigenvalue Equation • Quantum Zeitgeist",
+              "url": "https://quantumzeitgeist.com/tag/eigenvalue-equation/",
+              "domain": "quantumzeitgeist.com",
+              "snippet": "Quantum Computing leverages the principles of quantum mechanics to perform some complex calculations exponentially faster than traditional computers."
+            },
+            {
+              "title": "Eigenvalue Problem • Quantum Zeitgeist",
+              "url": "https://quantumzeitgeist.com/tag/eigenvalue-problem/",
+              "domain": "quantumzeitgeist.com",
+              "snippet": "As the next evolution in computational science, quantum computing leverages the principles of quantum mechanics to perform complex calculations ..."
+            },
+            {
+              "title": "Applications of Eigenvalues and Eigenvectors - GeeksforGeeks",
+              "url": "https://www.geeksforgeeks.org/engineering-mathematics/applications-of-eigenvalues-and-eigenvectors/",
+              "domain": "geeksforgeeks.org",
+              "snippet": "Also, Mechanical engineers utilize eigenvalues and eigenvectors to analyze dynamic systems such as rotating machinery and vehicle dynamics."
+            }
+          ],
+          "urls": [
+            "https://math.answers.com/math-and-arithmetic/What_are_the_applications_of_Eigenvalue_and_eigenvector",
+            "https://pubs.aip.org/aip/apr/article/12/3/031304/3351224/Chemical-applications-of-variational-quantum",
+            "https://quantumzeitgeist.com/tag/eigenvalue-equation/",
+            "https://quantumzeitgeist.com/tag/eigenvalue-problem/",
+            "https://www.geeksforgeeks.org/engineering-mathematics/applications-of-eigenvalues-and-eigenvectors/"
+          ],
+          "result_snippet": "[1] What are the applications of Eigenvalue and eigenvector? -\nURL: https://math.answers.com/math-and-arithmetic/What_are_the_applications_of_Eigenvalue_and_eigenvector\nSnippet: Eigenvalues and eigenvectors have numerous applications across various fields. In physics, they are used in quantum mechanics to describe states ...\n\n[2] Chemical applications of variational quantum eigenvalue-based\nURL: https://pubs.aip.org/aip/apr/article/12/3/031304/3351224/Chemical-applications-of-variational-quantum\nSnippet: Paudel , Yuhua Duan; Chemical applications of variational quantum eigenvalue-based quantum algorithms: Perspective and survey.\n\n[3] Eigenvalue Equation • Quantum Zeitgeist\nURL: https://quantumzeitgeist.com/tag/eigenvalue-equation/\nSnippet: Quantum Computing leverages the principles of quantum mechanics to perform some complex calculations exponentially faster than traditional computers.\n\n[4] Eigenvalue Problem • Quantum Zeitgeist\nURL: https://quantumzeitgeist.com/tag/eigenvalue-problem/\nSnippet: As the next evolution in computational science, quantum computing leverages the principles of quantum mechanics to perform complex calculations ...\n\n[5] Applications of Eigenvalues and Eigenvectors - GeeksforGeeks\nURL: https://www.geeksforgeeks.org/engineering-mathematics/applications-of-eigenvalues-and-eigenvectors/\nSnippet: Also, Mechanical engineers utilize eigenvalues and eigenvectors to analyze dynamic systems such as rotating machinery and vehicle dynamics.",
+          "searched_at": "2026-05-07_02-43-53",
+          "attempt_number": 1
+        }
+      ],
+      "query": "eigenvalues quantum mechanics applications",
+      "search_status": "ok",
+      "result_snippet": "[1] What are the applications of Eigenvalue and eigenvector? -\nURL: https://math.answers.com/math-and-arithmetic/What_are_the_applications_of_Eigenvalue_and_eigenvector\nSnippet: Eigenvalues and eigenvectors have numerous applications across various fields. In physics, they are used in quantum mechanics to describe states ...\n\n[2] Chemical applications of variational quantum eigenvalue-based\nURL: https://pubs.aip.org/aip/apr/article/12/3/031304/3351224/Chemical-applications-of-variational-quantum\nSnippet: Paudel , Yuhua Duan; Chemical applications of variational quantum eigenvalue-based quantum algorithms: Perspective and survey.\n\n[3] Eigenvalue Equation • Quantum Zeitgeist\nURL: https://quantumzeitgeist.com/tag/eigenvalue-equation/\nSnippet: Quantum Computing leverages the principles of quantum mechanics to perform some complex calculations exponentially faster than traditional computers.\n\n[4] Eigenvalue Problem • Quantum Zeitgeist\nURL: https://quantumzeitgeist.com/tag/eigenvalue-problem/\nSnippet: As the next evolution in computational science, quantum computing leverages the principles of quantum mechanics to perform complex calculations ...\n\n[5] Applications of Eigenvalues and Eigenvectors - GeeksforGeeks\nURL: https://www.geeksforgeeks.org/engineering-mathematics/applications-of-eigenvalues-and-eigenvectors/\nSnippet: Also, Mechanical engineers utilize eigenvalues and eigenvectors to analyze dynamic systems such as rotating machinery and vehicle dynamics.",
+      "results": [
+        {
+          "title": "What are the applications of Eigenvalue and eigenvector? -",
+          "url": "https://math.answers.com/math-and-arithmetic/What_are_the_applications_of_Eigenvalue_and_eigenvector",
+          "domain": "math.answers.com",
+          "snippet": "Eigenvalues and eigenvectors have numerous applications across various fields. In physics, they are used in quantum mechanics to describe states ..."
+        },
+        {
+          "title": "Chemical applications of variational quantum eigenvalue-based",
+          "url": "https://pubs.aip.org/aip/apr/article/12/3/031304/3351224/Chemical-applications-of-variational-quantum",
+          "domain": "pubs.aip.org",
+          "snippet": "Paudel , Yuhua Duan; Chemical applications of variational quantum eigenvalue-based quantum algorithms: Perspective and survey."
+        },
+        {
+          "title": "Eigenvalue Equation • Quantum Zeitgeist",
+          "url": "https://quantumzeitgeist.com/tag/eigenvalue-equation/",
+          "domain": "quantumzeitgeist.com",
+          "snippet": "Quantum Computing leverages the principles of quantum mechanics to perform some complex calculations exponentially faster than traditional computers."
+        },
+        {
+          "title": "Eigenvalue Problem • Quantum Zeitgeist",
+          "url": "https://quantumzeitgeist.com/tag/eigenvalue-problem/",
+          "domain": "quantumzeitgeist.com",
+          "snippet": "As the next evolution in computational science, quantum computing leverages the principles of quantum mechanics to perform complex calculations ..."
+        },
+        {
+          "title": "Applications of Eigenvalues and Eigenvectors - GeeksforGeeks",
+          "url": "https://www.geeksforgeeks.org/engineering-mathematics/applications-of-eigenvalues-and-eigenvectors/",
+          "domain": "geeksforgeeks.org",
+          "snippet": "Also, Mechanical engineers utilize eigenvalues and eigenvectors to analyze dynamic systems such as rotating machinery and vehicle dynamics."
+        }
+      ],
+      "urls": [
+        "https://math.answers.com/math-and-arithmetic/What_are_the_applications_of_Eigenvalue_and_eigenvector",
+        "https://pubs.aip.org/aip/apr/article/12/3/031304/3351224/Chemical-applications-of-variational-quantum",
+        "https://quantumzeitgeist.com/tag/eigenvalue-equation/",
+        "https://quantumzeitgeist.com/tag/eigenvalue-problem/",
+        "https://www.geeksforgeeks.org/engineering-mathematics/applications-of-eigenvalues-and-eigenvectors/"
+      ],
+      "attempt_count": 1,
+      "searched_at": "2026-05-07_02-43-53",
+      "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
+    },
+    "C003": {
+      "claim": "In mechanical systems, eigenvalues of a stress tensor determine principal stresses, revealing directions and magnitudes of strongest forces acting on materials.",
+      "search_attempts": [
+        {
+          "status": "ok",
+          "query": "eigenvalues stress tensor applications",
+          "results": [
+            {
+              "title": "Cauchy stress tensor - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Cauchy_stress_tensor",
+              "domain": "en.wikipedia.org",
+              "snippet": "There are certain invariants associated with the stress tensor, whose values do not depend upon the coordinate system chosen, or the area element upon which the stress tensor operates. These are the three eigenvalues of the stress tensor, which are called the principal stresses."
+            },
+            {
+              "title": "Eigenvalues and eigenvectors - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Eigenvalues_and_eigenvectors",
+              "domain": "en.wikipedia.org",
+              "snippet": "In solid mechanics, the stress tensor is symmetric and so can be decomposed into a diagonal tensor with the eigenvalues on the diagonal and eigenvectors as a basis."
+            },
+            {
+              "title": "A note on eigenvalue of tensors and its application - Springer",
+              "url": "https://link.springer.com/article/10.21136/AM.2025.0022-25",
+              "domain": "link.springer.com",
+              "snippet": "The tensor eigenvalue problem has been widely studied in recent years. In this paper, several new properties of eigenvalues and determinants of tensors are explored. We also proposed a formula to compute the determinant of a tensor as a mimic of the matrix determinant. The Perron-Frobenius theorem, one of the most important results in non-negative matrix theory, is proposed for the class of ..."
+            },
+            {
+              "title": "2.1: Stress Tensor - Engineering LibreTexts",
+              "url": "https://eng.libretexts.org/Bookshelves/Mechanical_Engineering/Structural_Mechanics_(Wierzbicki)/02:_The_Concept_of_Stress,_Generalized_Stresses_and_Equilibrium/2.01:_Stress_Tensor",
+              "domain": "eng.libretexts.org",
+              "snippet": "The transformation of the stress tensor from one coordinate system to the other is the subject Recitation 1 where the relation between Equation 2.1.6 and Equation 2.1.7 will be derived in a different way."
+            },
+            {
+              "title": "Applications of Eigenvalues and Eigenvectors - GeeksforGeeks",
+              "url": "https://www.geeksforgeeks.org/engineering-mathematics/applications-of-eigenvalues-and-eigenvectors/",
+              "domain": "geeksforgeeks.org",
+              "snippet": "Eigenvalues and eigenvectors play a crucial role in a wide range of applications across engineering and science. Fields like control theory, vibration analysis, electric circuits, advanced dynamics, and quantum mechanics frequently rely on these concepts."
+            }
+          ],
+          "urls": [
+            "https://en.wikipedia.org/wiki/Cauchy_stress_tensor",
+            "https://en.wikipedia.org/wiki/Eigenvalues_and_eigenvectors",
+            "https://link.springer.com/article/10.21136/AM.2025.0022-25",
+            "https://eng.libretexts.org/Bookshelves/Mechanical_Engineering/Structural_Mechanics_(Wierzbicki)/02:_The_Concept_of_Stress,_Generalized_Stresses_and_Equilibrium/2.01:_Stress_Tensor",
+            "https://www.geeksforgeeks.org/engineering-mathematics/applications-of-eigenvalues-and-eigenvectors/"
+          ],
+          "result_snippet": "[1] Cauchy stress tensor - Wikipedia\nURL: https://en.wikipedia.org/wiki/Cauchy_stress_tensor\nSnippet: There are certain invariants associated with the stress tensor, whose values do not depend upon the coordinate system chosen, or the area element upon which the stress tensor operates. These are the three eigenvalues of the stress tensor, which are called the principal stresses.\n\n[2] Eigenvalues and eigenvectors - Wikipedia\nURL: https://en.wikipedia.org/wiki/Eigenvalues_and_eigenvectors\nSnippet: In solid mechanics, the stress tensor is symmetric and so can be decomposed into a diagonal tensor with the eigenvalues on the diagonal and eigenvectors as a basis.\n\n[3] A note on eigenvalue of tensors and its application - Springer\nURL: https://link.springer.com/article/10.21136/AM.2025.0022-25\nSnippet: The tensor eigenvalue problem has been widely studied in recent years. In this paper, several new properties of eigenvalues and determinants of tensors are explored. We also proposed a formula to compute the determinant of a tensor as a mimic of the matrix determinant. The Perron-Frobenius theorem, one of the most important results in non-negative matrix theory, is proposed for the class of ...\n\n[4] 2.1: Stress Tensor - Engineering LibreTexts\nURL: https://eng.libretexts.org/Bookshelves/Mechanical_Engineering/Structural_Mechanics_(Wierzbicki)/02:_The_Concept_of_Stress,_Generalized_Stresses_and_Equilibrium/2.01:_Stress_Tensor\nSnippet: The transformation of the stress tensor from one coordinate system to the other is the subject Recitation 1 where the relation between Equation 2.1.6 and Equation 2.1.7 will be derived in a different way.\n\n[5] Applications of Eigenvalues and Eigenvectors - GeeksforGeeks\nURL: https://www.geeksforgeeks.org/engineering-mathematics/applications-of-eigenvalues-and-eigenvectors/\nSnippet: Eigenvalues and eigenvectors play a crucial role in a wide range of applications across engineering and science. Fields like control theory, vibration analysis, electric circuits, advanced dynamics, and quantum mechanics frequently rely on these concepts.",
+          "searched_at": "2026-05-07_02-43-54",
+          "attempt_number": 1
+        }
+      ],
+      "query": "eigenvalues stress tensor applications",
+      "search_status": "ok",
+      "result_snippet": "[1] Cauchy stress tensor - Wikipedia\nURL: https://en.wikipedia.org/wiki/Cauchy_stress_tensor\nSnippet: There are certain invariants associated with the stress tensor, whose values do not depend upon the coordinate system chosen, or the area element upon which the stress tensor operates. These are the three eigenvalues of the stress tensor, which are called the principal stresses.\n\n[2] Eigenvalues and eigenvectors - Wikipedia\nURL: https://en.wikipedia.org/wiki/Eigenvalues_and_eigenvectors\nSnippet: In solid mechanics, the stress tensor is symmetric and so can be decomposed into a diagonal tensor with the eigenvalues on the diagonal and eigenvectors as a basis.\n\n[3] A note on eigenvalue of tensors and its application - Springer\nURL: https://link.springer.com/article/10.21136/AM.2025.0022-25\nSnippet: The tensor eigenvalue problem has been widely studied in recent years. In this paper, several new properties of eigenvalues and determinants of tensors are explored. We also proposed a formula to compute the determinant of a tensor as a mimic of the matrix determinant. The Perron-Frobenius theorem, one of the most important results in non-negative matrix theory, is proposed for the class of ...\n\n[4] 2.1: Stress Tensor - Engineering LibreTexts\nURL: https://eng.libretexts.org/Bookshelves/Mechanical_Engineering/Structural_Mechanics_(Wierzbicki)/02:_The_Concept_of_Stress,_Generalized_Stresses_and_Equilibrium/2.01:_Stress_Tensor\nSnippet: The transformation of the stress tensor from one coordinate system to the other is the subject Recitation 1 where the relation between Equation 2.1.6 and Equation 2.1.7 will be derived in a different way.\n\n[5] Applications of Eigenvalues and Eigenvectors - GeeksforGeeks\nURL: https://www.geeksforgeeks.org/engineering-mathematics/applications-of-eigenvalues-and-eigenvectors/\nSnippet: Eigenvalues and eigenvectors play a crucial role in a wide range of applications across engineering and science. Fields like control theory, vibration analysis, electric circuits, advanced dynamics, and quantum mechanics frequently rely on these concepts.",
+      "results": [
+        {
+          "title": "Cauchy stress tensor - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Cauchy_stress_tensor",
+          "domain": "en.wikipedia.org",
+          "snippet": "There are certain invariants associated with the stress tensor, whose values do not depend upon the coordinate system chosen, or the area element upon which the stress tensor operates. These are the three eigenvalues of the stress tensor, which are called the principal stresses."
+        },
+        {
+          "title": "Eigenvalues and eigenvectors - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Eigenvalues_and_eigenvectors",
+          "domain": "en.wikipedia.org",
+          "snippet": "In solid mechanics, the stress tensor is symmetric and so can be decomposed into a diagonal tensor with the eigenvalues on the diagonal and eigenvectors as a basis."
+        },
+        {
+          "title": "A note on eigenvalue of tensors and its application - Springer",
+          "url": "https://link.springer.com/article/10.21136/AM.2025.0022-25",
+          "domain": "link.springer.com",
+          "snippet": "The tensor eigenvalue problem has been widely studied in recent years. In this paper, several new properties of eigenvalues and determinants of tensors are explored. We also proposed a formula to compute the determinant of a tensor as a mimic of the matrix determinant. The Perron-Frobenius theorem, one of the most important results in non-negative matrix theory, is proposed for the class of ..."
+        },
+        {
+          "title": "2.1: Stress Tensor - Engineering LibreTexts",
+          "url": "https://eng.libretexts.org/Bookshelves/Mechanical_Engineering/Structural_Mechanics_(Wierzbicki)/02:_The_Concept_of_Stress,_Generalized_Stresses_and_Equilibrium/2.01:_Stress_Tensor",
+          "domain": "eng.libretexts.org",
+          "snippet": "The transformation of the stress tensor from one coordinate system to the other is the subject Recitation 1 where the relation between Equation 2.1.6 and Equation 2.1.7 will be derived in a different way."
+        },
+        {
+          "title": "Applications of Eigenvalues and Eigenvectors - GeeksforGeeks",
+          "url": "https://www.geeksforgeeks.org/engineering-mathematics/applications-of-eigenvalues-and-eigenvectors/",
+          "domain": "geeksforgeeks.org",
+          "snippet": "Eigenvalues and eigenvectors play a crucial role in a wide range of applications across engineering and science. Fields like control theory, vibration analysis, electric circuits, advanced dynamics, and quantum mechanics frequently rely on these concepts."
+        }
+      ],
+      "urls": [
+        "https://en.wikipedia.org/wiki/Cauchy_stress_tensor",
+        "https://en.wikipedia.org/wiki/Eigenvalues_and_eigenvectors",
+        "https://link.springer.com/article/10.21136/AM.2025.0022-25",
+        "https://eng.libretexts.org/Bookshelves/Mechanical_Engineering/Structural_Mechanics_(Wierzbicki)/02:_The_Concept_of_Stress,_Generalized_Stresses_and_Equilibrium/2.01:_Stress_Tensor",
+        "https://www.geeksforgeeks.org/engineering-mathematics/applications-of-eigenvalues-and-eigenvectors/"
+      ],
+      "attempt_count": 1,
+      "searched_at": "2026-05-07_02-43-54",
+      "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
+    }
+  },
+  "summary": {
+    "total_claims": 3,
+    "checked_claim_count": 1,
+    "passing_claim_count": 0,
+    "unchecked_claim_count": 2,
+    "unresolved_or_needs_qualification": 3,
+    "actionable_issue_count": 0,
+    "evidence_retry_count": 1,
+    "claim_review_complete": false,
+    "unchecked_claim_ids": [
+      "C002",
+      "C003"
+    ],
+    "actionable_claim_ids": [],
+    "evidence_retry_claim_ids": [
+      "C001"
+    ],
+    "highest_priority_fixes": []
+  },
+  "last_updated": "2026-05-07_03-56-49"
+}

@@ -1,0 +1,112 @@
+{
+  "claim_checks": [
+    {
+      "id": "C001",
+      "verdict": "not_enough_evidence",
+      "severity": "medium",
+      "problem": "Claim checker failed: LLMCallError(\"claim_checker failed after 3 attempt(s): LLMCallError('LLM_TIMEOUT_AFTER_720_SECONDS')\")",
+      "suggested_fix": "Automatically retry this claim with another source search or a smaller context.",
+      "source_quality_note": "",
+      "source_urls": [],
+      "claim": "The principle of stationary action states that physical systems follow paths where the action is extremized (minima, maxima, or saddle points).",
+      "checked_at": "2026-05-06_17-23-22",
+      "source_attempt_count": 3,
+      "available_source_urls": [
+        "https://www.feynmanlectures.caltech.edu/II_19.html",
+        "http://galileoandeinstein.physics.virginia.edu/7010/CM_04_HamiltonsPrinciple.html",
+        "https://liberzon.csl.illinois.edu/teaching/cvoc/node36.html",
+        "https://faculty.washington.edu/seattle/physics541/2012-path-integrals/feynman-thesis.pdf",
+        "https://scipp-legacy.pbsci.ucsc.edu/~dine/ph105/feynman_action.pdf"
+      ]
+    }
+  ],
+  "check_history": [
+    {
+      "id": "C001",
+      "verdict": "not_enough_evidence",
+      "severity": "medium",
+      "problem": "Claim checker failed: LLMCallError(\"claim_checker failed after 3 attempt(s): LLMCallError('LLM_TIMEOUT_AFTER_720_SECONDS')\")",
+      "suggested_fix": "Automatically retry this claim with another source search or a smaller context.",
+      "source_quality_note": "",
+      "source_urls": [],
+      "claim": "The principle of stationary action states that physical systems follow paths where the action is extremized (minima, maxima, or saddle points).",
+      "checked_at": "2026-05-06_16-10-24",
+      "source_attempt_count": 1,
+      "available_source_urls": [
+        "https://en.wikipedia.org/wiki/Euler–Lagrange_equation",
+        "https://www.sciencedirect.com/book/edited-volume/9780080444888/variational-and-extremum-principles-in-macroscopic-systems",
+        "https://paribeshregmi.medium.com/the-principle-of-stationary-action-c69237bd4ea2",
+        "https://encyclopedai.stavros.io/entries/principle-of-stationary-action/",
+        "https://askfilo.com/user-question-answers-smart-solutions/state-and-explain-fermats-principle-of-extremum-path-and-3435343439383331"
+      ]
+    },
+    {
+      "id": "C001",
+      "verdict": "not_enough_evidence",
+      "severity": "medium",
+      "problem": "Claim checker failed: LLMCallError(\"claim_checker failed after 3 attempt(s): LLMCallError('LLM_TIMEOUT_AFTER_720_SECONDS')\")",
+      "suggested_fix": "Automatically retry this claim with another source search or a smaller context.",
+      "source_quality_note": "",
+      "source_urls": [],
+      "claim": "The principle of stationary action states that physical systems follow paths where the action is extremized (minima, maxima, or saddle points).",
+      "checked_at": "2026-05-06_16-46-54",
+      "source_attempt_count": 2,
+      "available_source_urls": [
+        "https://link.springer.com/article/10.1007/s40042-025-01484-6",
+        "https://encyclopedai.stavros.io/entries/principle-of-least-action/",
+        "https://psujet.github.io/posts/lagrangian/",
+        "https://www.youtube.com/watch?v=ZLFJQXd-Q70",
+        "https://www.numberanalytics.com/blog/least-action-principle-depth-vector-calculus"
+      ]
+    },
+    {
+      "id": "C001",
+      "verdict": "not_enough_evidence",
+      "severity": "medium",
+      "problem": "Claim checker failed: LLMCallError(\"claim_checker failed after 3 attempt(s): LLMCallError('LLM_TIMEOUT_AFTER_720_SECONDS')\")",
+      "suggested_fix": "Automatically retry this claim with another source search or a smaller context.",
+      "source_quality_note": "",
+      "source_urls": [],
+      "claim": "The principle of stationary action states that physical systems follow paths where the action is extremized (minima, maxima, or saddle points).",
+      "checked_at": "2026-05-06_17-23-22",
+      "source_attempt_count": 3,
+      "available_source_urls": [
+        "https://www.feynmanlectures.caltech.edu/II_19.html",
+        "http://galileoandeinstein.physics.virginia.edu/7010/CM_04_HamiltonsPrinciple.html",
+        "https://liberzon.csl.illinois.edu/teaching/cvoc/node36.html",
+        "https://faculty.washington.edu/seattle/physics541/2012-path-integrals/feynman-thesis.pdf",
+        "https://scipp-legacy.pbsci.ucsc.edu/~dine/ph105/feynman_action.pdf"
+      ]
+    }
+  ],
+  "summary": {
+    "total_claims": 10,
+    "checked_claim_count": 1,
+    "passing_claim_count": 0,
+    "unchecked_claim_count": 9,
+    "unresolved_or_needs_qualification": 10,
+    "actionable_issue_count": 1,
+    "evidence_retry_count": 0,
+    "claim_review_complete": false,
+    "unchecked_claim_ids": [
+      "C002",
+      "C003",
+      "C004",
+      "C005",
+      "C006",
+      "C007",
+      "C008",
+      "C009",
+      "C010"
+    ],
+    "actionable_claim_ids": [
+      "C001"
+    ],
+    "evidence_retry_claim_ids": [],
+    "highest_priority_fixes": [
+      "Automatically retry this claim with another source search or a smaller context."
+    ],
+    "overall_claim_quality": "Partial claim check completed."
+  },
+  "last_updated": "2026-05-06_17-23-22"
+}

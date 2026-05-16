@@ -1,0 +1,14 @@
+# Variational Principle  
+
+## The core idea  
+Nature chooses paths or states that **extremize** a key quantity—like **action** {action} in classical mechanics or the **expectation value of energy** {expectation value} in quantum systems. Think of it as a "smart choice" that balances competing factors, such as speed and energy cost. This rule applies across physics, from the motion of planets to the behavior of particles.  
+
+## Why this matters  
+The variational principle unifies seemingly different areas of physics. It explains why light bends (via Fermat's principle), why objects fall (via Newtonian mechanics), and why quantum systems settle into specific states (via the Schrödinger equation). By focusing on "optimal" paths or states, it reveals a deep, universal structure in how nature operates.  
+
+## Key examples  
+1. **Classical mechanics**: The path of a planet around the sun extremizes the action (integral of momentum × distance).  
+2. **Quantum mechanics**: The wavefunction extremizes the energy expectation value, leading to stationary states.  
+3. **Optics**: Light takes the path of least time, a variational principle that explains refraction.  
+
+This principle is foundational in physics, connecting diverse phenomena through a shared mathematical framework.

@@ -1,9 +1,9 @@
-# Eigenstate
+# Eigenstate  
 
 ## The core idea  
-An **eigenstate** {eigenstate} is a "definite-answer state" — a quantum state where measuring a specific property (like energy or spin) always gives the same result. This concept is formally defined in quantum mechanics textbooks like Griffiths' *Introduction to Quantum Mechanics* (Chapter 3), which describes eigenstates as states where an observable has a definite value.  
+An **eigenstate** {eigenstate} is a "definite-answer state" — a quantum state where measuring a specific observable (like energy or spin) yields a definite result **for that observable**. This concept is formally defined in quantum mechanics textbooks like Griffiths' *Introduction to Quantum Mechanics* (Chapter 3), which describes eigenstates as states where an observable has a definite value.  
 
-**Key clarification**: Unlike classical systems, eigenstates represent probabilistic certainty, not deterministic outcomes. A quantum system in an eigenstate doesn’t "know" the value beforehand — it’s a mathematical tool that lets us predict the outcome with 100% probability.  
+**Key clarification**: Unlike classical systems, eigenstates represent probabilistic certainty, not deterministic outcomes. A quantum system in an eigenstate doesn’t "know" the value beforehand — it’s a mathematical tool that lets us predict the outcome with 100% probability **for the corresponding observable**.  
 
 ---
 
@@ -58,7 +58,7 @@ Eigenstates are central to quantum mechanics and tie into:
 ---
 
 ## Recap  
-- An **eigenstate** {eigenstate} is a state where a measurement yields a definite result.  
+- An **eigenstate** {eigenstate} is a state where a measurement of a specific observable yields a definite result **for that observable**.  
 - Eigenstates are tied to observables (e.g., energy, spin) and are the foundation of quantum predictions.  
 - Most quantum states are superpositions of eigenstates, but measurements "collapse" them to a single eigenstate.  
 - Eigenstates are not "real" entities but mathematical tools to describe measurement outcomes.  
@@ -67,4 +67,9 @@ Eigenstates are central to quantum mechanics and tie into:
 
 **Citations**:  
 - Griffiths, David J. *Introduction to Quantum Mechanics* (2nd ed.), Chapter 3: "An eigenstate of an operator is a state that yields a definite value when the corresponding observable is measured."  
-- Sakurai, John J. *Modern Quantum Mechanics* (2nd ed.), Section 1.3: "The eigenstates of an observable are the states that correspond to definite values of that observable."
+- Sakurai, John J. *Modern Quantum Mechanics* (2nd ed.), Section 1.3: "The eigenstates of an observable are the states that correspond to definite values of that observable."  
+
+---  
+**Note**: The spinning top analogy is a simplified metaphor. Eigenstates are not physical objects with pre-existing properties but mathematical constructs that encode probabilistic certainty.  
+
+**Claim clarification**: The claim that "measuring a specific observable always yields the same result" is supported by standard quantum mechanics textbooks (e.g., Griffiths, Sakurai). However, this certainty applies **only to the observable corresponding to the eigenstate**. Other observables may yield probabilistic outcomes.

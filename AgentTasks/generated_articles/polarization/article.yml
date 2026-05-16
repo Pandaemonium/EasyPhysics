@@ -1,10 +1,15 @@
 title: Polarization
 slug: polarization
-status: needs_revision
+status: in_progress
 finished: false
-iteration_count: 3
+iteration_count: 4
 accessibility_score: 0
 rigor_score: 0
+claim_review_passed: false
+claim_total_count: 0
+claim_checked_count: 0
+claim_unchecked_count: 0
+claim_unresolved_count: 0
 last_worked_on: '2026-05-05'
 last_completed_pass: 2026-05-05_02-32-49
 needs:

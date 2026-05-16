@@ -2,14 +2,20 @@ title: Least action principle
 slug: least-action-principle
 status: needs_revision
 finished: false
-iteration_count: 3
-accessibility_score: 0
+iteration_count: 5
+accessibility_score: 1
 rigor_score: 0
-last_worked_on: '2026-05-04'
-last_completed_pass: 2026-05-04_23-32-19
+claim_review_passed: false
+claim_total_count: 11
+claim_checked_count: 1
+claim_unchecked_count: 10
+claim_unresolved_count: 11
+last_worked_on: '2026-05-06'
+last_completed_pass: 2026-05-06_20-43-53
 needs:
 - accessibility_revision
 - rigor_revision
-- claim_review
+- claim_check
+- claim_revision
 current_draft: draft.md
 last_error: 'LLMCallError("writer failed after 1 attempt(s): LLMCallError(''LLM_TIMEOUT_AFTER_480_SECONDS'')")'

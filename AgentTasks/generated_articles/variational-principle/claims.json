@@ -2,60 +2,42 @@
   "claims": [
     {
       "id": "C001",
-      "claim": "# Variational Principle ## The core idea Nature chooses paths or states that **extremize** a key quantity—like action in classical mechanics or the **expectation value of energy** in quantum systems.",
-      "type": "fallback-extracted",
-      "importance": "medium",
+      "claim": "The variational principle is a mathematical framework that can be used to find extremal paths or states.",
+      "type": "definition",
+      "importance": "high",
       "needs_external_check": true,
-      "why_it_matters": "Automatically extracted fallback claim; review manually.",
-      "suggested_search_query": "Variational principle # Variational Principle ## The core idea Nature chooses paths or states that **extremize** a key physics lecture notes textbook explanation"
+      "why_it_matters": "This defines the core concept and scope of the principle.",
+      "suggested_search_query": "variational principle definition physics textbook"
     },
     {
       "id": "C002",
-      "claim": "Think of it as a \"smart choice\" that balances competing factors, such as speed and energy cost.",
-      "type": "fallback-extracted",
-      "importance": "medium",
+      "claim": "In classical mechanics, the variational principle applies to the extremization of action {action}.",
+      "type": "definition",
+      "importance": "high",
       "needs_external_check": true,
-      "why_it_matters": "Automatically extracted fallback claim; review manually.",
-      "suggested_search_query": "Variational principle Think of it as a \"smart choice\" that balances competing factors, such as speed and energy physics lecture notes textbook explanation"
+      "why_it_matters": "Action is a foundational quantity in classical mechanics.",
+      "suggested_search_query": "action variational principle classical mechanics"
     },
     {
       "id": "C003",
-      "claim": "This rule applies across physics, from the motion of planets to the behavior of particles.",
-      "type": "fallback-extracted",
-      "importance": "medium",
+      "claim": "In quantum mechanics, the variational principle relates to the extremization of the expectation value of energy {expectation value}.",
+      "type": "definition",
+      "importance": "high",
       "needs_external_check": true,
-      "why_it_matters": "Automatically extracted fallback claim; review manually.",
-      "suggested_search_query": "Variational principle This rule applies across physics, from the motion of planets to the behavior of particles. physics lecture notes textbook explanation"
+      "why_it_matters": "This connects the principle to quantum systems.",
+      "suggested_search_query": "expectation value variational principle quantum mechanics"
     },
     {
       "id": "C004",
-      "claim": "## Why this matters The variational principle unifies seemingly different areas of physics.",
-      "type": "fallback-extracted",
-      "importance": "medium",
+      "claim": "In quantum mechanics, the variational principle relates to the extremization of the expectation value of energy {expectation value}.",
+      "type": "definition",
+      "importance": "high",
       "needs_external_check": true,
-      "why_it_matters": "Automatically extracted fallback claim; review manually.",
-      "suggested_search_query": "Variational principle ## Why this matters The variational principle unifies seemingly different areas of physics. physics lecture notes textbook explanation"
-    },
-    {
-      "id": "C005",
-      "claim": "It explains why light bends, why objects fall, and why quantum systems settle into specific states.",
-      "type": "fallback-extracted",
-      "importance": "medium",
-      "needs_external_check": true,
-      "why_it_matters": "Automatically extracted fallback claim; review manually.",
-      "suggested_search_query": "Variational principle It explains why light bends, why objects fall, and why quantum systems settle into specific states. physics lecture notes textbook explanation"
-    },
-    {
-      "id": "C006",
-      "claim": "By focusing on \"optimal\" paths or states, it reveals a deep, universal structure in how nature operates.",
-      "type": "fallback-extracted",
-      "importance": "medium",
-      "needs_external_check": true,
-      "why_it_matters": "Automatically extracted fallback claim; review manually.",
-      "suggested_search_query": "Variational principle By focusing on \"optimal\" paths or states, it reveals a deep, universal structure in how nature physics lecture notes textbook explanation"
+      "why_it_matters": "This connects the principle to quantum systems.",
+      "suggested_search_query": "expectation value variational principle quantum mechanics"
     }
   ],
-  "last_updated": "2026-05-04_23-40-58",
-  "count": 6,
-  "parse_note": "No usable claims parsed from LLM output. Using deterministic fallback extraction from draft sentences."
+  "last_updated": "2026-05-06_23-25-58",
+  "count": 4,
+  "parse_note": ""
 }

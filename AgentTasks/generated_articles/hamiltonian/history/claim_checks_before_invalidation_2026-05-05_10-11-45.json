@@ -1,0 +1,36 @@
+{
+  "claim_checks": [
+    {
+      "id": "C001",
+      "verdict": "supported",
+      "severity": "none",
+      "problem": "",
+      "suggested_fix": "",
+      "source_quality_note": "The snippet comes from a reliable physics education source explaining Hamiltonian mechanics and quantum mechanics concepts."
+    },
+    {
+      "id": "C002",
+      "verdict": "supported",
+      "severity": "high",
+      "problem": "",
+      "suggested_fix": "",
+      "source_quality_note": "The snippet references stable physics concepts and mentions ISO standards, indicating authoritative educational sources."
+    },
+    {
+      "id": "C003",
+      "verdict": "not_enough_evidence",
+      "severity": "low",
+      "problem": "The search snippet does not explicitly address the recipe analogy for Hamiltonian, though it discusses energy concepts",
+      "suggested_fix": "Find a physics textbook or lecture that explicitly uses the recipe analogy for Hamiltonian",
+      "source_quality_note": "The snippet includes MIT OCW and Feynman Lectures references which are authoritative, but lacks direct support for the specific claim"
+    }
+  ],
+  "summary": {
+    "overall_claim_quality": "Claim check completed.",
+    "unresolved_or_needs_qualification": 2,
+    "highest_priority_fixes": [
+      "Find a physics textbook or lecture that explicitly uses the recipe analogy for Hamiltonian"
+    ]
+  },
+  "last_updated": "2026-05-04_22-43-20"
+}

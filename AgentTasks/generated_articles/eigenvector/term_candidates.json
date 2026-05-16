@@ -4,16 +4,18 @@
       "standard_term": "eigenvectors",
       "candidate_name": "direction-keepers",
       "context_quote": "Eigenvectors are **direction-keepers** {eigenvectors}: they only stretch, shrink, or reverse direction when a **linear transformation** is applied.",
-      "usefulness": "Emphasizes the invariant directional behavior of eigenvectors, making their role in linear transformations intuitive.",
-      "risk": "Could imply eigenvectors are exclusively about geometric directions, but they apply broadly to any linear transformation."
+      "usefulness": "Helps visualize eigenvectors as directions that remain invariant under transformations, making abstract math more tangible.",
+      "risk": "Could imply eigenvectors are only about direction, but they also involve scaling factors (eigenvalues).",
+      "last_seen": "2026-05-05_16-03-09"
     },
     {
       "standard_term": "eigenstates",
       "candidate_name": "quantum states",
-      "context_quote": "This concept is foundational in physics (e.g., quantum states {eigenstates}), engineering, computer graphics, and data science.",
-      "usefulness": "Links eigenvectors to quantum mechanics intuitively, highlighting their role in representing stable, predictable states.",
-      "risk": "May suggest all quantum states are eigenvectors, but eigenstates are a specific subset of quantum states."
+      "context_quote": "Quantum states {eigenstates} are special states in quantum mechanics that correspond to definite measurable properties (e.g., energy levels).",
+      "usefulness": "Connects eigenvectors to quantum mechanics concepts, clarifying their physical significance in measurable systems.",
+      "risk": "May conflate quantum states with other types of states in physics, but the context makes the connection clear.",
+      "last_seen": "2026-05-05_16-03-09"
     }
   ],
-  "last_updated": "2026-05-05_00-50-48"
+  "last_updated": "2026-05-05_16-03-09"
 }

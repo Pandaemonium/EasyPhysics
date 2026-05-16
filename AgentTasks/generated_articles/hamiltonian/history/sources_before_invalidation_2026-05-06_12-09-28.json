@@ -1,0 +1,795 @@
+{
+  "sources_by_claim": {
+    "C001": {
+      "claim": "The Hamiltonian is a total energy rulebook {Hamiltonian} that governs how energy shapes motion and time evolution in both classical and quantum systems.",
+      "search_attempts": [
+        {
+          "status": "ok",
+          "query": "Hamiltonian definition in classical and quantum mechanics",
+          "results": [
+            {
+              "title": "Hamiltonian mechanics - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Hamiltonian_mechanics",
+              "domain": "en.wikipedia.org",
+              "snippet": "April 2, 2026 - In physics, Hamiltonian mechanics is a reformulation of Lagrangian mechanics that emerged in 1833. Introduced by Sir William Rowan Hamilton, Hamiltonian mechanics replaces (generalized) velocities ... {\\displaystyle {\\dot {q}}^{i}} used in Lagrangian mechanics with (generalized) momenta."
+            },
+            {
+              "title": "Hamiltonian (quantum mechanics) - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Hamiltonian_(quantum_mechanics)",
+              "domain": "en.wikipedia.org",
+              "snippet": "January 24, 2026 - The Hamiltonian takes different ... analogy with classical mechanics, the Hamiltonian is commonly expressed as the sum of operators corresponding to the kinetic and potential energies of a system in the form..."
+            },
+            {
+              "title": "Hamiltonian - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Hamiltonian",
+              "domain": "en.wikipedia.org",
+              "snippet": "March 7, 2026 - Hamiltonian (mechanics), a function that represents the total energy of a system · Hamiltonian (quantum mechanics), an operator corresponding to the total energy of that system · Dyall Hamiltonian, a modified Hamiltonian with two-electron nature · Molecular Hamiltonian, the Hamiltonian operator ..."
+            },
+            {
+              "title": "Hamiltonian system - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Hamiltonian_system",
+              "domain": "en.wikipedia.org",
+              "snippet": "November 30, 2025 - A Hamiltonian system is a dynamical system governed by Hamilton's equations. In physics, this dynamical system describes the evolution of a physical system such as a planetary system or an electron in an electromagnetic field."
+            },
+            {
+              "title": "Molecular Hamiltonian - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Molecular_Hamiltonian",
+              "domain": "en.wikipedia.org",
+              "snippet": "September 29, 2025 - In classical mechanics it is easy to separate off the COM motion of a system of point masses. Classically the motion of the COM is uncoupled from the other motions. The COM moves uniformly (i.e., with constant velocity) through space as if it were a point particle with mass equal to the sum Mtot of the masses of all the particles. In quantum mechanics a free particle has as state function a plane wave function, which is a non-square-integrable function of well-defined momentum."
+            }
+          ],
+          "urls": [
+            "https://en.wikipedia.org/wiki/Hamiltonian_mechanics",
+            "https://en.wikipedia.org/wiki/Hamiltonian_(quantum_mechanics)",
+            "https://en.wikipedia.org/wiki/Hamiltonian",
+            "https://en.wikipedia.org/wiki/Hamiltonian_system",
+            "https://en.wikipedia.org/wiki/Molecular_Hamiltonian"
+          ],
+          "result_snippet": "[1] Hamiltonian mechanics - Wikipedia\nURL: https://en.wikipedia.org/wiki/Hamiltonian_mechanics\nSnippet: April 2, 2026 - In physics, Hamiltonian mechanics is a reformulation of Lagrangian mechanics that emerged in 1833. Introduced by Sir William Rowan Hamilton, Hamiltonian mechanics replaces (generalized) velocities ... {\\displaystyle {\\dot {q}}^{i}} used in Lagrangian mechanics with (generalized) momenta.\n\n[2] Hamiltonian (quantum mechanics) - Wikipedia\nURL: https://en.wikipedia.org/wiki/Hamiltonian_(quantum_mechanics)\nSnippet: January 24, 2026 - The Hamiltonian takes different ... analogy with classical mechanics, the Hamiltonian is commonly expressed as the sum of operators corresponding to the kinetic and potential energies of a system in the form...\n\n[3] Hamiltonian - Wikipedia\nURL: https://en.wikipedia.org/wiki/Hamiltonian\nSnippet: March 7, 2026 - Hamiltonian (mechanics), a function that represents the total energy of a system · Hamiltonian (quantum mechanics), an operator corresponding to the total energy of that system · Dyall Hamiltonian, a modified Hamiltonian with two-electron nature · Molecular Hamiltonian, the Hamiltonian operator ...\n\n[4] Hamiltonian system - Wikipedia\nURL: https://en.wikipedia.org/wiki/Hamiltonian_system\nSnippet: November 30, 2025 - A Hamiltonian system is a dynamical system governed by Hamilton's equations. In physics, this dynamical system describes the evolution of a physical system such as a planetary system or an electron in an electromagnetic field.\n\n[5] Molecular Hamiltonian - Wikipedia\nURL: https://en.wikipedia.org/wiki/Molecular_Hamiltonian\nSnippet: September 29, 2025 - In classical mechanics it is easy to separate off the COM motion of a system of point masses. Classically the motion of the COM is uncoupled from the other motions. The COM moves uniformly (i.e., with constant velocity) through space as if it were a point particle with mass equal to the sum Mtot of the masses of all the particles. In quantum mechanics a free particle has as state function a plane wave function, which is a non-square-integrable function of well-defined momentum.",
+          "searched_at": "2026-05-06_10-16-39",
+          "attempt_number": 1
+        },
+        {
+          "status": "ok",
+          "query": "Hamiltonian The Hamiltonian is a total energy rulebook {Hamiltonian} that governs how energy shapes motion and time evolution in university physics lecture notes textbook",
+          "results": [
+            {
+              "title": "Hamiltonian (quantum mechanics) - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Hamiltonian_(quantum_mechanics)",
+              "domain": "en.wikipedia.org",
+              "snippet": "In quantum mechanics, the Hamiltonian of a system is an operator corresponding to the total energy of that system, including both kinetic energy and potential energy. Its spectrum, the system's energy spectrum or its set of energy eigenvalues, is the set of possible outcomes obtainable from a measurement of the system's total energy. Due to its close relation to the energy spectrum and time ..."
+            },
+            {
+              "title": "Chapter 4: Energy and the Hamiltonian - Quantum Mechanics",
+              "url": "https://paulskrzypczyk.github.io/qm-lecturenotes-new/energy/",
+              "domain": "paulskrzypczyk.github.io",
+              "snippet": "We will reintroduce the Hamiltonian operator (the total-energy operator), in the context of mechanics, its associated eigenvalue equation, and discuss the important notion of bound and non-bound states, and their distinct description within quantum mechanics. 4.1 The Hamiltonian What different types of energy can a particle have?"
+            },
+            {
+              "title": "Physics:Hamiltonian mechanics - HandWiki",
+              "url": "https://handwiki.org/wiki/Physics:Hamiltonian_mechanics",
+              "domain": "handwiki.org",
+              "snippet": "A simple interpretation of Hamiltonian mechanics comes from its application on a one-dimensional system consisting of one nonrelativistic particle of mass m. The value H (p, q) of the Hamiltonian is the total energy of the system, in this case the sum of kinetic and potential energy, traditionally denoted T and V, respectively. Here p is the momentum mv and q is the space coordinate. Then ℋ ..."
+            },
+            {
+              "title": "Hamiltonian (physics) - EncyclopedAI",
+              "url": "https://encyclopedai.stavros.io/entries/hamiltonian-(physics)/",
+              "domain": "encyclopedai.stavros.io",
+              "snippet": "The Hamiltonian ($\\mathcal {H}$) is a fundamental quantity in theoretical physics, representing the total energy of a physical system, and is central to both classical mechanics and quantum mechanics. In classical mechanics, it is derived from the Lagrangian ($\\mathcal {L}$) via the Legendre transformation. In quantum mechanics, the Hamiltonian operator governs the time evolution of the system ..."
+            },
+            {
+              "title": "Lagrangian and Hamiltonian Mechanics - Durham",
+              "url": "https://maths.dur.ac.uk/users/inaki.garcia-etxebarria/MPII/Lectures.html",
+              "domain": "maths.dur.ac.uk",
+              "snippet": "The equations of motion do not change if we modify the Lagrangian by addition of a total derivative of a function of coordinates and time. That is, \\ [L \\to L + \\frac {dF (q_1,\\ldots,q_N,t)} {dt}\\] does not affect the equations of motion."
+            }
+          ],
+          "urls": [
+            "https://en.wikipedia.org/wiki/Hamiltonian_(quantum_mechanics)",
+            "https://paulskrzypczyk.github.io/qm-lecturenotes-new/energy/",
+            "https://handwiki.org/wiki/Physics:Hamiltonian_mechanics",
+            "https://encyclopedai.stavros.io/entries/hamiltonian-(physics)/",
+            "https://maths.dur.ac.uk/users/inaki.garcia-etxebarria/MPII/Lectures.html"
+          ],
+          "result_snippet": "[1] Hamiltonian (quantum mechanics) - Wikipedia\nURL: https://en.wikipedia.org/wiki/Hamiltonian_(quantum_mechanics)\nSnippet: In quantum mechanics, the Hamiltonian of a system is an operator corresponding to the total energy of that system, including both kinetic energy and potential energy. Its spectrum, the system's energy spectrum or its set of energy eigenvalues, is the set of possible outcomes obtainable from a measurement of the system's total energy. Due to its close relation to the energy spectrum and time ...\n\n[2] Chapter 4: Energy and the Hamiltonian - Quantum Mechanics\nURL: https://paulskrzypczyk.github.io/qm-lecturenotes-new/energy/\nSnippet: We will reintroduce the Hamiltonian operator (the total-energy operator), in the context of mechanics, its associated eigenvalue equation, and discuss the important notion of bound and non-bound states, and their distinct description within quantum mechanics. 4.1 The Hamiltonian What different types of energy can a particle have?\n\n[3] Physics:Hamiltonian mechanics - HandWiki\nURL: https://handwiki.org/wiki/Physics:Hamiltonian_mechanics\nSnippet: A simple interpretation of Hamiltonian mechanics comes from its application on a one-dimensional system consisting of one nonrelativistic particle of mass m. The value H (p, q) of the Hamiltonian is the total energy of the system, in this case the sum of kinetic and potential energy, traditionally denoted T and V, respectively. Here p is the momentum mv and q is the space coordinate. Then ℋ ...\n\n[4] Hamiltonian (physics) - EncyclopedAI\nURL: https://encyclopedai.stavros.io/entries/hamiltonian-(physics)/\nSnippet: The Hamiltonian ($\\mathcal {H}$) is a fundamental quantity in theoretical physics, representing the total energy of a physical system, and is central to both classical mechanics and quantum mechanics. In classical mechanics, it is derived from the Lagrangian ($\\mathcal {L}$) via the Legendre transformation. In quantum mechanics, the Hamiltonian operator governs the time evolution of the system ...\n\n[5] Lagrangian and Hamiltonian Mechanics - Durham\nURL: https://maths.dur.ac.uk/users/inaki.garcia-etxebarria/MPII/Lectures.html\nSnippet: The equations of motion do not change if we modify the Lagrangian by addition of a total derivative of a function of coordinates and time. That is, \\ [L \\to L + \\frac {dF (q_1,\\ldots,q_N,t)} {dt}\\] does not affect the equations of motion.",
+          "searched_at": "2026-05-06_10-53-06",
+          "attempt_number": 2
+        },
+        {
+          "status": "ok",
+          "query": "Hamiltonian The Hamiltonian is a total energy rulebook {Hamiltonian} that governs how energy shapes motion and time evolution in site:edu physics",
+          "results": [
+            {
+              "title": "MATHEMATICA tutorial, Part 2: Hamilton Principle",
+              "url": "https://www.cfm.brown.edu/people/dobrush/am34/Mathematica/intro/hamilton.html",
+              "domain": "cfm.brown.edu",
+              "snippet": "March 21, 2026 - The Hamiltonian is defined in terms of Lagrangian \\( L({\\bf q}, \\dot{\\bf q}, t) \\) by · \\[ H({\\bf p}, {\\bf q}, t) = \\sum_{i=1}^n p_i \\,\\frac{{\\text d} q_i}{{\\text d}t} - L({\\bf q}, \\dot{\\bf q}, t) , \\] where pi are generalized momentum and are related to the generalized coordinates q by \\( p_i = \\frac{{\\text d}L({\\bf q}, \\dot{\\bf q}, t)}{{\\text d} \\dot{q}_i} . \\) The equations of motion follow from"
+            },
+            {
+              "title": "(PDF) Lagrangian and Hamiltonian formulation for analyzing RL, RC, RLC, LC circuits and magnetically coupled circuits",
+              "url": "https://www.academia.edu/38868163/Lagrangian_and_Hamiltonian_formulation_for_analyzing_RL_RC_RLC_LC_circuits_and_magnetically_coupled_circuits",
+              "domain": "academia.edu",
+              "snippet": "October 12, 2025 - Telephone +46 (0)31 772 1000 Cover: Magnetic field lines between the primary and secondary coil in a wireless energy transfer system simulated in COMSOL. ... M any physical systems, including mechanical, electrical, electromechanical, fluid, and thermal systems, can be modeled by the Lagrangian and Hamiltonian equations of motion [1]- ."
+            },
+            {
+              "title": "(PDF) Hamiltonian formulation of general relativity and post-Newtonian dynamics of compact binaries",
+              "url": "https://www.academia.edu/95305257/Hamiltonian_formulation_of_general_relativity_and_post_Newtonian_dynamics_of_compact_binaries",
+              "domain": "academia.edu",
+              "snippet": "August 17, 2025 - We apply canonical transformations to eliminate the non-physical divergences and spurious logarithmic behaviours of the Hamiltonian, and use the latter to derive the gauge-invariant binding energy and the scattering angle, in special kinematic regimes. 21 C.1 Non-spinning sector up to 3PN 21 C.2 Spin-orbit sector up to N 2 LO 22 ... The present paper studies the post-Newtonian dynamics of N-body problem in general relativity. We derive covariant equations of translational and rotational motion of N extended bodies having arbitrary distribution of mass and velocity of matter by employing the set of global and local coordinate charts on curved spacetime manifold M of N-body system along with the mathematical apparatus of the Cartesian symmetric trace-free tensors and Blanchet-Damour multipole formalism."
+            },
+            {
+              "title": "(PDF) Hamilton, Hamiltonian Mechanics, and Causation",
+              "url": "https://www.academia.edu/104231712/Hamilton_Hamiltonian_Mechanics_and_Causation",
+              "domain": "academia.edu",
+              "snippet": "May 8, 2025 - It consists of ten lectures from basic laws of motion to advanced topics such as the Hamiltonian formalism of classical mechanics. Here We start our discussion with Aristotelian Physics showing it's irreversibility contrary to Newtonian Physics. We explored Lagrangian formalism and worked out some examples to show the relation between time depedency of Lagrangian and Energy conservation."
+            },
+            {
+              "title": "Generalized Hamiltonian Mechanics Research Papers - Academia.edu",
+              "url": "https://www.academia.edu/Documents/in/Generalized_Hamiltonian_Mechanics",
+              "domain": "academia.edu",
+              "snippet": "August 2, 2025 - lightbulbAbout this topicGeneralized Hamiltonian Mechanics is a reformulation of classical mechanics that extends Hamiltonian principles to systems with constraints and generalized coordinates. It utilizes Hamilton's equations to describe the evolution of dynamical systems, emphasizing the role of energy and phase space, and provides a framework for analyzing both conservative and non-conservative systems."
+            }
+          ],
+          "urls": [
+            "https://www.cfm.brown.edu/people/dobrush/am34/Mathematica/intro/hamilton.html",
+            "https://www.academia.edu/38868163/Lagrangian_and_Hamiltonian_formulation_for_analyzing_RL_RC_RLC_LC_circuits_and_magnetically_coupled_circuits",
+            "https://www.academia.edu/95305257/Hamiltonian_formulation_of_general_relativity_and_post_Newtonian_dynamics_of_compact_binaries",
+            "https://www.academia.edu/104231712/Hamilton_Hamiltonian_Mechanics_and_Causation",
+            "https://www.academia.edu/Documents/in/Generalized_Hamiltonian_Mechanics"
+          ],
+          "result_snippet": "[1] MATHEMATICA tutorial, Part 2: Hamilton Principle\nURL: https://www.cfm.brown.edu/people/dobrush/am34/Mathematica/intro/hamilton.html\nSnippet: March 21, 2026 - The Hamiltonian is defined in terms of Lagrangian \\( L({\\bf q}, \\dot{\\bf q}, t) \\) by · \\[ H({\\bf p}, {\\bf q}, t) = \\sum_{i=1}^n p_i \\,\\frac{{\\text d} q_i}{{\\text d}t} - L({\\bf q}, \\dot{\\bf q}, t) , \\] where pi are generalized momentum and are related to the generalized coordinates q by \\( p_i = \\frac{{\\text d}L({\\bf q}, \\dot{\\bf q}, t)}{{\\text d} \\dot{q}_i} . \\) The equations of motion follow from\n\n[2] (PDF) Lagrangian and Hamiltonian formulation for analyzing RL, RC, RLC, LC circuits and magnetically coupled circuits\nURL: https://www.academia.edu/38868163/Lagrangian_and_Hamiltonian_formulation_for_analyzing_RL_RC_RLC_LC_circuits_and_magnetically_coupled_circuits\nSnippet: October 12, 2025 - Telephone +46 (0)31 772 1000 Cover: Magnetic field lines between the primary and secondary coil in a wireless energy transfer system simulated in COMSOL. ... M any physical systems, including mechanical, electrical, electromechanical, fluid, and thermal systems, can be modeled by the Lagrangian and Hamiltonian equations of motion [1]- .\n\n[3] (PDF) Hamiltonian formulation of general relativity and post-Newtonian dynamics of compact binaries\nURL: https://www.academia.edu/95305257/Hamiltonian_formulation_of_general_relativity_and_post_Newtonian_dynamics_of_compact_binaries\nSnippet: August 17, 2025 - We apply canonical transformations to eliminate the non-physical divergences and spurious logarithmic behaviours of the Hamiltonian, and use the latter to derive the gauge-invariant binding energy and the scattering angle, in special kinematic regimes. 21 C.1 Non-spinning sector up to 3PN 21 C.2 Spin-orbit sector up to N 2 LO 22 ... The present paper studies the post-Newtonian dynamics of N-body problem in general relativity. We derive covariant equations of translational and rotational motion of N extended bodies having arbitrary distribution of mass and velocity of matter by employing the set of global and local coordinate charts on curved spacetime manifold M of N-body system along with the mathematical apparatus of the Cartesian symmetric trace-free tensors and Blanchet-Damour multipole formalism.\n\n[4] (PDF) Hamilton, Hamiltonian Mechanics, and Causation\nURL: https://www.academia.edu/104231712/Hamilton_Hamiltonian_Mechanics_and_Causation\nSnippet: May 8, 2025 - It consists of ten lectures from basic laws of motion to advanced topics such as the Hamiltonian formalism of classical mechanics. Here We start our discussion with Aristotelian Physics showing it's irreversibility contrary to Newtonian Physics. We explored Lagrangian formalism and worked out some examples to show the relation between time depedency of Lagrangian and Energy conservation.\n\n[5] Generalized Hamiltonian Mechanics Research Papers - Academia.edu\nURL: https://www.academia.edu/Documents/in/Generalized_Hamiltonian_Mechanics\nSnippet: August 2, 2025 - lightbulbAbout this topicGeneralized Hamiltonian Mechanics is a reformulation of classical mechanics that extends Hamiltonian principles to systems with constraints and generalized coordinates. It utilizes Hamilton's equations to describe the evolution of dynamical systems, emphasizing the role of energy and phase space, and provides a framework for analyzing both conservative and non-conservative systems.",
+          "searched_at": "2026-05-06_11-29-38",
+          "attempt_number": 3
+        }
+      ],
+      "query": "Hamiltonian The Hamiltonian is a total energy rulebook {Hamiltonian} that governs how energy shapes motion and time evolution in site:edu physics",
+      "search_status": "ok",
+      "result_snippet": "[1] MATHEMATICA tutorial, Part 2: Hamilton Principle\nURL: https://www.cfm.brown.edu/people/dobrush/am34/Mathematica/intro/hamilton.html\nSnippet: March 21, 2026 - The Hamiltonian is defined in terms of Lagrangian \\( L({\\bf q}, \\dot{\\bf q}, t) \\) by · \\[ H({\\bf p}, {\\bf q}, t) = \\sum_{i=1}^n p_i \\,\\frac{{\\text d} q_i}{{\\text d}t} - L({\\bf q}, \\dot{\\bf q}, t) , \\] where pi are generalized momentum and are related to the generalized coordinates q by \\( p_i = \\frac{{\\text d}L({\\bf q}, \\dot{\\bf q}, t)}{{\\text d} \\dot{q}_i} . \\) The equations of motion follow from\n\n[2] (PDF) Lagrangian and Hamiltonian formulation for analyzing RL, RC, RLC, LC circuits and magnetically coupled circuits\nURL: https://www.academia.edu/38868163/Lagrangian_and_Hamiltonian_formulation_for_analyzing_RL_RC_RLC_LC_circuits_and_magnetically_coupled_circuits\nSnippet: October 12, 2025 - Telephone +46 (0)31 772 1000 Cover: Magnetic field lines between the primary and secondary coil in a wireless energy transfer system simulated in COMSOL. ... M any physical systems, including mechanical, electrical, electromechanical, fluid, and thermal systems, can be modeled by the Lagrangian and Hamiltonian equations of motion [1]- .\n\n[3] (PDF) Hamiltonian formulation of general relativity and post-Newtonian dynamics of compact binaries\nURL: https://www.academia.edu/95305257/Hamiltonian_formulation_of_general_relativity_and_post_Newtonian_dynamics_of_compact_binaries\nSnippet: August 17, 2025 - We apply canonical transformations to eliminate the non-physical divergences and spurious logarithmic behaviours of the Hamiltonian, and use the latter to derive the gauge-invariant binding energy and the scattering angle, in special kinematic regimes. 21 C.1 Non-spinning sector up to 3PN 21 C.2 Spin-orbit sector up to N 2 LO 22 ... The present paper studies the post-Newtonian dynamics of N-body problem in general relativity. We derive covariant equations of translational and rotational motion of N extended bodies having arbitrary distribution of mass and velocity of matter by employing the set of global and local coordinate charts on curved spacetime manifold M of N-body system along with the mathematical apparatus of the Cartesian symmetric trace-free tensors and Blanchet-Damour multipole formalism.\n\n[4] (PDF) Hamilton, Hamiltonian Mechanics, and Causation\nURL: https://www.academia.edu/104231712/Hamilton_Hamiltonian_Mechanics_and_Causation\nSnippet: May 8, 2025 - It consists of ten lectures from basic laws of motion to advanced topics such as the Hamiltonian formalism of classical mechanics. Here We start our discussion with Aristotelian Physics showing it's irreversibility contrary to Newtonian Physics. We explored Lagrangian formalism and worked out some examples to show the relation between time depedency of Lagrangian and Energy conservation.\n\n[5] Generalized Hamiltonian Mechanics Research Papers - Academia.edu\nURL: https://www.academia.edu/Documents/in/Generalized_Hamiltonian_Mechanics\nSnippet: August 2, 2025 - lightbulbAbout this topicGeneralized Hamiltonian Mechanics is a reformulation of classical mechanics that extends Hamiltonian principles to systems with constraints and generalized coordinates. It utilizes Hamilton's equations to describe the evolution of dynamical systems, emphasizing the role of energy and phase space, and provides a framework for analyzing both conservative and non-conservative systems.",
+      "results": [
+        {
+          "title": "MATHEMATICA tutorial, Part 2: Hamilton Principle",
+          "url": "https://www.cfm.brown.edu/people/dobrush/am34/Mathematica/intro/hamilton.html",
+          "domain": "cfm.brown.edu",
+          "snippet": "March 21, 2026 - The Hamiltonian is defined in terms of Lagrangian \\( L({\\bf q}, \\dot{\\bf q}, t) \\) by · \\[ H({\\bf p}, {\\bf q}, t) = \\sum_{i=1}^n p_i \\,\\frac{{\\text d} q_i}{{\\text d}t} - L({\\bf q}, \\dot{\\bf q}, t) , \\] where pi are generalized momentum and are related to the generalized coordinates q by \\( p_i = \\frac{{\\text d}L({\\bf q}, \\dot{\\bf q}, t)}{{\\text d} \\dot{q}_i} . \\) The equations of motion follow from"
+        },
+        {
+          "title": "(PDF) Lagrangian and Hamiltonian formulation for analyzing RL, RC, RLC, LC circuits and magnetically coupled circuits",
+          "url": "https://www.academia.edu/38868163/Lagrangian_and_Hamiltonian_formulation_for_analyzing_RL_RC_RLC_LC_circuits_and_magnetically_coupled_circuits",
+          "domain": "academia.edu",
+          "snippet": "October 12, 2025 - Telephone +46 (0)31 772 1000 Cover: Magnetic field lines between the primary and secondary coil in a wireless energy transfer system simulated in COMSOL. ... M any physical systems, including mechanical, electrical, electromechanical, fluid, and thermal systems, can be modeled by the Lagrangian and Hamiltonian equations of motion [1]- ."
+        },
+        {
+          "title": "(PDF) Hamiltonian formulation of general relativity and post-Newtonian dynamics of compact binaries",
+          "url": "https://www.academia.edu/95305257/Hamiltonian_formulation_of_general_relativity_and_post_Newtonian_dynamics_of_compact_binaries",
+          "domain": "academia.edu",
+          "snippet": "August 17, 2025 - We apply canonical transformations to eliminate the non-physical divergences and spurious logarithmic behaviours of the Hamiltonian, and use the latter to derive the gauge-invariant binding energy and the scattering angle, in special kinematic regimes. 21 C.1 Non-spinning sector up to 3PN 21 C.2 Spin-orbit sector up to N 2 LO 22 ... The present paper studies the post-Newtonian dynamics of N-body problem in general relativity. We derive covariant equations of translational and rotational motion of N extended bodies having arbitrary distribution of mass and velocity of matter by employing the set of global and local coordinate charts on curved spacetime manifold M of N-body system along with the mathematical apparatus of the Cartesian symmetric trace-free tensors and Blanchet-Damour multipole formalism."
+        },
+        {
+          "title": "(PDF) Hamilton, Hamiltonian Mechanics, and Causation",
+          "url": "https://www.academia.edu/104231712/Hamilton_Hamiltonian_Mechanics_and_Causation",
+          "domain": "academia.edu",
+          "snippet": "May 8, 2025 - It consists of ten lectures from basic laws of motion to advanced topics such as the Hamiltonian formalism of classical mechanics. Here We start our discussion with Aristotelian Physics showing it's irreversibility contrary to Newtonian Physics. We explored Lagrangian formalism and worked out some examples to show the relation between time depedency of Lagrangian and Energy conservation."
+        },
+        {
+          "title": "Generalized Hamiltonian Mechanics Research Papers - Academia.edu",
+          "url": "https://www.academia.edu/Documents/in/Generalized_Hamiltonian_Mechanics",
+          "domain": "academia.edu",
+          "snippet": "August 2, 2025 - lightbulbAbout this topicGeneralized Hamiltonian Mechanics is a reformulation of classical mechanics that extends Hamiltonian principles to systems with constraints and generalized coordinates. It utilizes Hamilton's equations to describe the evolution of dynamical systems, emphasizing the role of energy and phase space, and provides a framework for analyzing both conservative and non-conservative systems."
+        }
+      ],
+      "urls": [
+        "https://www.cfm.brown.edu/people/dobrush/am34/Mathematica/intro/hamilton.html",
+        "https://www.academia.edu/38868163/Lagrangian_and_Hamiltonian_formulation_for_analyzing_RL_RC_RLC_LC_circuits_and_magnetically_coupled_circuits",
+        "https://www.academia.edu/95305257/Hamiltonian_formulation_of_general_relativity_and_post_Newtonian_dynamics_of_compact_binaries",
+        "https://www.academia.edu/104231712/Hamilton_Hamiltonian_Mechanics_and_Causation",
+        "https://www.academia.edu/Documents/in/Generalized_Hamiltonian_Mechanics"
+      ],
+      "attempt_count": 3,
+      "searched_at": "2026-05-06_11-29-38",
+      "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
+    },
+    "C002": {
+      "claim": "In classical mechanics, the Hamiltonian {Hamiltonian} is the sum of kinetic and potential energy, determining motion via Hamilton’s equations {Hamilton’s equations}.",
+      "search_attempts": [
+        {
+          "status": "ok",
+          "query": "Hamiltonian classical mechanics formula",
+          "results": [
+            {
+              "title": "Hamiltonian mechanics - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Hamiltonian_mechanics",
+              "domain": "en.wikipedia.org",
+              "snippet": "April 2, 2026 - Instead of simply looking at the algebra of smooth functions over a symplectic manifold, Hamiltonian mechanics can be formulated on general commutative unital real Poisson algebras. A state is a continuous linear functional on the Poisson algebra (equipped with some suitable topology) such that for any element A of the algebra, A2 maps to a nonnegative real number. A further generalization is given by Nambu dynamics. Hamilton's equations above work well for classical mechanics, but not for quantum mechanics, since the differential equations discussed assume that one can specify the exact position and momentum of the particle simultaneously at any point in time."
+            },
+            {
+              "title": "Hamilton–Jacobi equation - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Hamilton–Jacobi_equation",
+              "domain": "en.wikipedia.org",
+              "snippet": "3 days ago - In physics, the Hamilton–Jacobi equation, named after William Rowan Hamilton and Carl Gustav Jacob Jacobi, is an alternative formulation of classical mechanics, equivalent to other formulations such as Newton's laws of motion, Lagrangian mechanics and Hamiltonian mechanics."
+            },
+            {
+              "title": "Hamiltonian (quantum mechanics) - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Hamiltonian_(quantum_mechanics)",
+              "domain": "en.wikipedia.org",
+              "snippet": "January 24, 2026 - The Hamiltonian takes different forms and can be simplified in some cases by taking into account the concrete characteristics of the system under analysis, such as single or several particles in the system, interaction between particles, kind of potential energy, time varying potential or time independent one. By analogy with classical mechanics, the Hamiltonian is commonly expressed as the sum of operators corresponding to the kinetic and potential energies of a system in the form"
+            },
+            {
+              "title": "Hamiltonian system - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Hamiltonian_system",
+              "domain": "en.wikipedia.org",
+              "snippet": "November 30, 2025 - A Hamiltonian system is a dynamical system governed by Hamilton's equations. In physics, this dynamical system describes the evolution of a physical system such as a planetary system or an electron in an electromagnetic field. These systems can be studied in both Hamiltonian mechanics and dynamical systems theory."
+            },
+            {
+              "title": "Hamilton's principle - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Hamilton's_principle",
+              "domain": "en.wikipedia.org",
+              "snippet": "March 14, 2026 - In physics, Hamilton's principle is William Rowan Hamilton's formulation of the principle of stationary action. It states that the dynamics of a physical system are determined by a variational problem for a functional based on a single function, the Lagrangian, which may contain all physical ..."
+            }
+          ],
+          "urls": [
+            "https://en.wikipedia.org/wiki/Hamiltonian_mechanics",
+            "https://en.wikipedia.org/wiki/Hamilton–Jacobi_equation",
+            "https://en.wikipedia.org/wiki/Hamiltonian_(quantum_mechanics)",
+            "https://en.wikipedia.org/wiki/Hamiltonian_system",
+            "https://en.wikipedia.org/wiki/Hamilton's_principle"
+          ],
+          "result_snippet": "[1] Hamiltonian mechanics - Wikipedia\nURL: https://en.wikipedia.org/wiki/Hamiltonian_mechanics\nSnippet: April 2, 2026 - Instead of simply looking at the algebra of smooth functions over a symplectic manifold, Hamiltonian mechanics can be formulated on general commutative unital real Poisson algebras. A state is a continuous linear functional on the Poisson algebra (equipped with some suitable topology) such that for any element A of the algebra, A2 maps to a nonnegative real number. A further generalization is given by Nambu dynamics. Hamilton's equations above work well for classical mechanics, but not for quantum mechanics, since the differential equations discussed assume that one can specify the exact position and momentum of the particle simultaneously at any point in time.\n\n[2] Hamilton–Jacobi equation - Wikipedia\nURL: https://en.wikipedia.org/wiki/Hamilton–Jacobi_equation\nSnippet: 3 days ago - In physics, the Hamilton–Jacobi equation, named after William Rowan Hamilton and Carl Gustav Jacob Jacobi, is an alternative formulation of classical mechanics, equivalent to other formulations such as Newton's laws of motion, Lagrangian mechanics and Hamiltonian mechanics.\n\n[3] Hamiltonian (quantum mechanics) - Wikipedia\nURL: https://en.wikipedia.org/wiki/Hamiltonian_(quantum_mechanics)\nSnippet: January 24, 2026 - The Hamiltonian takes different forms and can be simplified in some cases by taking into account the concrete characteristics of the system under analysis, such as single or several particles in the system, interaction between particles, kind of potential energy, time varying potential or time independent one. By analogy with classical mechanics, the Hamiltonian is commonly expressed as the sum of operators corresponding to the kinetic and potential energies of a system in the form\n\n[4] Hamiltonian system - Wikipedia\nURL: https://en.wikipedia.org/wiki/Hamiltonian_system\nSnippet: November 30, 2025 - A Hamiltonian system is a dynamical system governed by Hamilton's equations. In physics, this dynamical system describes the evolution of a physical system such as a planetary system or an electron in an electromagnetic field. These systems can be studied in both Hamiltonian mechanics and dynamical systems theory.\n\n[5] Hamilton's principle - Wikipedia\nURL: https://en.wikipedia.org/wiki/Hamilton's_principle\nSnippet: March 14, 2026 - In physics, Hamilton's principle is William Rowan Hamilton's formulation of the principle of stationary action. It states that the dynamics of a physical system are determined by a variational problem for a functional based on a single function, the Lagrangian, which may contain all physical ...",
+          "searched_at": "2026-05-06_10-16-40",
+          "attempt_number": 1
+        }
+      ],
+      "query": "Hamiltonian classical mechanics formula",
+      "search_status": "ok",
+      "result_snippet": "[1] Hamiltonian mechanics - Wikipedia\nURL: https://en.wikipedia.org/wiki/Hamiltonian_mechanics\nSnippet: April 2, 2026 - Instead of simply looking at the algebra of smooth functions over a symplectic manifold, Hamiltonian mechanics can be formulated on general commutative unital real Poisson algebras. A state is a continuous linear functional on the Poisson algebra (equipped with some suitable topology) such that for any element A of the algebra, A2 maps to a nonnegative real number. A further generalization is given by Nambu dynamics. Hamilton's equations above work well for classical mechanics, but not for quantum mechanics, since the differential equations discussed assume that one can specify the exact position and momentum of the particle simultaneously at any point in time.\n\n[2] Hamilton–Jacobi equation - Wikipedia\nURL: https://en.wikipedia.org/wiki/Hamilton–Jacobi_equation\nSnippet: 3 days ago - In physics, the Hamilton–Jacobi equation, named after William Rowan Hamilton and Carl Gustav Jacob Jacobi, is an alternative formulation of classical mechanics, equivalent to other formulations such as Newton's laws of motion, Lagrangian mechanics and Hamiltonian mechanics.\n\n[3] Hamiltonian (quantum mechanics) - Wikipedia\nURL: https://en.wikipedia.org/wiki/Hamiltonian_(quantum_mechanics)\nSnippet: January 24, 2026 - The Hamiltonian takes different forms and can be simplified in some cases by taking into account the concrete characteristics of the system under analysis, such as single or several particles in the system, interaction between particles, kind of potential energy, time varying potential or time independent one. By analogy with classical mechanics, the Hamiltonian is commonly expressed as the sum of operators corresponding to the kinetic and potential energies of a system in the form\n\n[4] Hamiltonian system - Wikipedia\nURL: https://en.wikipedia.org/wiki/Hamiltonian_system\nSnippet: November 30, 2025 - A Hamiltonian system is a dynamical system governed by Hamilton's equations. In physics, this dynamical system describes the evolution of a physical system such as a planetary system or an electron in an electromagnetic field. These systems can be studied in both Hamiltonian mechanics and dynamical systems theory.\n\n[5] Hamilton's principle - Wikipedia\nURL: https://en.wikipedia.org/wiki/Hamilton's_principle\nSnippet: March 14, 2026 - In physics, Hamilton's principle is William Rowan Hamilton's formulation of the principle of stationary action. It states that the dynamics of a physical system are determined by a variational problem for a functional based on a single function, the Lagrangian, which may contain all physical ...",
+      "results": [
+        {
+          "title": "Hamiltonian mechanics - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Hamiltonian_mechanics",
+          "domain": "en.wikipedia.org",
+          "snippet": "April 2, 2026 - Instead of simply looking at the algebra of smooth functions over a symplectic manifold, Hamiltonian mechanics can be formulated on general commutative unital real Poisson algebras. A state is a continuous linear functional on the Poisson algebra (equipped with some suitable topology) such that for any element A of the algebra, A2 maps to a nonnegative real number. A further generalization is given by Nambu dynamics. Hamilton's equations above work well for classical mechanics, but not for quantum mechanics, since the differential equations discussed assume that one can specify the exact position and momentum of the particle simultaneously at any point in time."
+        },
+        {
+          "title": "Hamilton–Jacobi equation - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Hamilton–Jacobi_equation",
+          "domain": "en.wikipedia.org",
+          "snippet": "3 days ago - In physics, the Hamilton–Jacobi equation, named after William Rowan Hamilton and Carl Gustav Jacob Jacobi, is an alternative formulation of classical mechanics, equivalent to other formulations such as Newton's laws of motion, Lagrangian mechanics and Hamiltonian mechanics."
+        },
+        {
+          "title": "Hamiltonian (quantum mechanics) - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Hamiltonian_(quantum_mechanics)",
+          "domain": "en.wikipedia.org",
+          "snippet": "January 24, 2026 - The Hamiltonian takes different forms and can be simplified in some cases by taking into account the concrete characteristics of the system under analysis, such as single or several particles in the system, interaction between particles, kind of potential energy, time varying potential or time independent one. By analogy with classical mechanics, the Hamiltonian is commonly expressed as the sum of operators corresponding to the kinetic and potential energies of a system in the form"
+        },
+        {
+          "title": "Hamiltonian system - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Hamiltonian_system",
+          "domain": "en.wikipedia.org",
+          "snippet": "November 30, 2025 - A Hamiltonian system is a dynamical system governed by Hamilton's equations. In physics, this dynamical system describes the evolution of a physical system such as a planetary system or an electron in an electromagnetic field. These systems can be studied in both Hamiltonian mechanics and dynamical systems theory."
+        },
+        {
+          "title": "Hamilton's principle - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Hamilton's_principle",
+          "domain": "en.wikipedia.org",
+          "snippet": "March 14, 2026 - In physics, Hamilton's principle is William Rowan Hamilton's formulation of the principle of stationary action. It states that the dynamics of a physical system are determined by a variational problem for a functional based on a single function, the Lagrangian, which may contain all physical ..."
+        }
+      ],
+      "urls": [
+        "https://en.wikipedia.org/wiki/Hamiltonian_mechanics",
+        "https://en.wikipedia.org/wiki/Hamilton–Jacobi_equation",
+        "https://en.wikipedia.org/wiki/Hamiltonian_(quantum_mechanics)",
+        "https://en.wikipedia.org/wiki/Hamiltonian_system",
+        "https://en.wikipedia.org/wiki/Hamilton's_principle"
+      ],
+      "attempt_count": 1,
+      "searched_at": "2026-05-06_10-16-40",
+      "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
+    },
+    "C003": {
+      "claim": "In quantum mechanics, the Hamiltonian {Hamiltonian} is an operator {operator} that acts on wavefunctions {wavefunction} to predict time evolution.",
+      "search_attempts": [
+        {
+          "status": "ok",
+          "query": "Hamiltonian operator in quantum mechanics",
+          "results": [
+            {
+              "title": "Hamiltonian (quantum mechanics) - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Hamiltonian_(quantum_mechanics)",
+              "domain": "en.wikipedia.org",
+              "snippet": "In quantum mechanics , the Hamiltonian of a system is an operator corresponding to the total energy of that system, including both kinetic energy and ..."
+            },
+            {
+              "title": "What Is the Hamiltonian Operator in Quantum Mechanics? -",
+              "url": "https://biologyinsights.com/what-is-the-hamiltonian-operator-in-quantum-mechanics/",
+              "domain": "biologyinsights.com",
+              "snippet": "The Hamiltonian operator, denoted by the symbol $\\hat{H}$, is a fundamental concept in quantum mechanics. ... Hamiltonian operator plays a central ..."
+            },
+            {
+              "title": "Hamiltonian Operator | Quatomic",
+              "url": "https://www.quatomic.com/composer/reference/operators/hamiltonian-operator/",
+              "domain": "quatomic.com",
+              "snippet": "The Hamiltonian Operator is the quantum mechanical operator that changes the Hamitonian to an operator. ... In the example below, the ..."
+            },
+            {
+              "title": "The Hamiltonian Operator - Quantum Chemistry - PSIBERG",
+              "url": "https://psiberg.com/hamiltonian-operator/",
+              "domain": "psiberg.com",
+              "snippet": "... Hamiltonian operator is a fundamental operator in quantum ... In quantum mechanics, the Hamiltonian is an operator for the total energy of a system."
+            },
+            {
+              "title": "Quantum Mechanical Operators - Quantum Chemistry - PSIBERG",
+              "url": "https://psiberg.com/quantum-mechanical-operators/",
+              "domain": "psiberg.com",
+              "snippet": "Hamiltonian is the energy operator in quantum mechanics., It is applied in Schrodinger ’ s wave equation to get eigenvalues for energy."
+            }
+          ],
+          "urls": [
+            "https://en.wikipedia.org/wiki/Hamiltonian_(quantum_mechanics)",
+            "https://biologyinsights.com/what-is-the-hamiltonian-operator-in-quantum-mechanics/",
+            "https://www.quatomic.com/composer/reference/operators/hamiltonian-operator/",
+            "https://psiberg.com/hamiltonian-operator/",
+            "https://psiberg.com/quantum-mechanical-operators/"
+          ],
+          "result_snippet": "[1] Hamiltonian (quantum mechanics) - Wikipedia\nURL: https://en.wikipedia.org/wiki/Hamiltonian_(quantum_mechanics)\nSnippet: In quantum mechanics , the Hamiltonian of a system is an operator corresponding to the total energy of that system, including both kinetic energy and ...\n\n[2] What Is the Hamiltonian Operator in Quantum Mechanics? -\nURL: https://biologyinsights.com/what-is-the-hamiltonian-operator-in-quantum-mechanics/\nSnippet: The Hamiltonian operator, denoted by the symbol $\\hat{H}$, is a fundamental concept in quantum mechanics. ... Hamiltonian operator plays a central ...\n\n[3] Hamiltonian Operator | Quatomic\nURL: https://www.quatomic.com/composer/reference/operators/hamiltonian-operator/\nSnippet: The Hamiltonian Operator is the quantum mechanical operator that changes the Hamitonian to an operator. ... In the example below, the ...\n\n[4] The Hamiltonian Operator - Quantum Chemistry - PSIBERG\nURL: https://psiberg.com/hamiltonian-operator/\nSnippet: ... Hamiltonian operator is a fundamental operator in quantum ... In quantum mechanics, the Hamiltonian is an operator for the total energy of a system.\n\n[5] Quantum Mechanical Operators - Quantum Chemistry - PSIBERG\nURL: https://psiberg.com/quantum-mechanical-operators/\nSnippet: Hamiltonian is the energy operator in quantum mechanics., It is applied in Schrodinger ’ s wave equation to get eigenvalues for energy.",
+          "searched_at": "2026-05-06_10-16-43",
+          "attempt_number": 1
+        }
+      ],
+      "query": "Hamiltonian operator in quantum mechanics",
+      "search_status": "ok",
+      "result_snippet": "[1] Hamiltonian (quantum mechanics) - Wikipedia\nURL: https://en.wikipedia.org/wiki/Hamiltonian_(quantum_mechanics)\nSnippet: In quantum mechanics , the Hamiltonian of a system is an operator corresponding to the total energy of that system, including both kinetic energy and ...\n\n[2] What Is the Hamiltonian Operator in Quantum Mechanics? -\nURL: https://biologyinsights.com/what-is-the-hamiltonian-operator-in-quantum-mechanics/\nSnippet: The Hamiltonian operator, denoted by the symbol $\\hat{H}$, is a fundamental concept in quantum mechanics. ... Hamiltonian operator plays a central ...\n\n[3] Hamiltonian Operator | Quatomic\nURL: https://www.quatomic.com/composer/reference/operators/hamiltonian-operator/\nSnippet: The Hamiltonian Operator is the quantum mechanical operator that changes the Hamitonian to an operator. ... In the example below, the ...\n\n[4] The Hamiltonian Operator - Quantum Chemistry - PSIBERG\nURL: https://psiberg.com/hamiltonian-operator/\nSnippet: ... Hamiltonian operator is a fundamental operator in quantum ... In quantum mechanics, the Hamiltonian is an operator for the total energy of a system.\n\n[5] Quantum Mechanical Operators - Quantum Chemistry - PSIBERG\nURL: https://psiberg.com/quantum-mechanical-operators/\nSnippet: Hamiltonian is the energy operator in quantum mechanics., It is applied in Schrodinger ’ s wave equation to get eigenvalues for energy.",
+      "results": [
+        {
+          "title": "Hamiltonian (quantum mechanics) - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Hamiltonian_(quantum_mechanics)",
+          "domain": "en.wikipedia.org",
+          "snippet": "In quantum mechanics , the Hamiltonian of a system is an operator corresponding to the total energy of that system, including both kinetic energy and ..."
+        },
+        {
+          "title": "What Is the Hamiltonian Operator in Quantum Mechanics? -",
+          "url": "https://biologyinsights.com/what-is-the-hamiltonian-operator-in-quantum-mechanics/",
+          "domain": "biologyinsights.com",
+          "snippet": "The Hamiltonian operator, denoted by the symbol $\\hat{H}$, is a fundamental concept in quantum mechanics. ... Hamiltonian operator plays a central ..."
+        },
+        {
+          "title": "Hamiltonian Operator | Quatomic",
+          "url": "https://www.quatomic.com/composer/reference/operators/hamiltonian-operator/",
+          "domain": "quatomic.com",
+          "snippet": "The Hamiltonian Operator is the quantum mechanical operator that changes the Hamitonian to an operator. ... In the example below, the ..."
+        },
+        {
+          "title": "The Hamiltonian Operator - Quantum Chemistry - PSIBERG",
+          "url": "https://psiberg.com/hamiltonian-operator/",
+          "domain": "psiberg.com",
+          "snippet": "... Hamiltonian operator is a fundamental operator in quantum ... In quantum mechanics, the Hamiltonian is an operator for the total energy of a system."
+        },
+        {
+          "title": "Quantum Mechanical Operators - Quantum Chemistry - PSIBERG",
+          "url": "https://psiberg.com/quantum-mechanical-operators/",
+          "domain": "psiberg.com",
+          "snippet": "Hamiltonian is the energy operator in quantum mechanics., It is applied in Schrodinger ’ s wave equation to get eigenvalues for energy."
+        }
+      ],
+      "urls": [
+        "https://en.wikipedia.org/wiki/Hamiltonian_(quantum_mechanics)",
+        "https://biologyinsights.com/what-is-the-hamiltonian-operator-in-quantum-mechanics/",
+        "https://www.quatomic.com/composer/reference/operators/hamiltonian-operator/",
+        "https://psiberg.com/hamiltonian-operator/",
+        "https://psiberg.com/quantum-mechanical-operators/"
+      ],
+      "attempt_count": 1,
+      "searched_at": "2026-05-06_10-16-43",
+      "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
+    },
+    "C004": {
+      "claim": "The Hamiltonian {Hamiltonian} connects forces, energy, and motion, making it essential for predicting system behavior from atoms to galaxies.",
+      "search_attempts": [
+        {
+          "status": "ok",
+          "query": "Hamiltonian importance in physics",
+          "results": [
+            {
+              "title": "Hamiltonian (quantum mechanics) - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Hamiltonian_(quantum_mechanics)",
+              "domain": "en.wikipedia.org",
+              "snippet": "... Hamiltonian is time-independent, { U ( t ) } {\\displaystyle \\{U(t)\\}} form a one parameter unitary group (more than a semigroup ); this gives rise to ..."
+            },
+            {
+              "title": "The Hamiltonian: A Mathematical Key to Understanding",
+              "url": "https://vinodsblog.com/2022/02/04/the-hamiltonian-a-mathematical-key-to-understanding-natures-symphony/",
+              "domain": "vinodsblog.com",
+              "snippet": "The Hamiltonian is an important notion in both classical and quantum physics for understanding how objects move and act in the real world."
+            },
+            {
+              "title": "PCM article: Hamiltonians | What's new",
+              "url": "https://terrytao.wordpress.com/2008/03/07/pcm-article-hamiltonians/",
+              "domain": "terrytao.wordpress.com",
+              "snippet": "One of these is the term “ Hamiltonian ” , which is used in all the standard types of physical mechanics (classical or quantum ..."
+            },
+            {
+              "title": "Physics:Hamiltonian mechanics - HandWiki",
+              "url": "https://handwiki.org/wiki/Physics:Hamiltonian_mechanics",
+              "domain": "handwiki.org",
+              "snippet": "In physics , Hamiltonian mechanics is a reformulation of Lagrangian mechanics that emerged in 1833. ... important special case consists of those ..."
+            },
+            {
+              "title": "quantum mechanics - Fundamental Understanding of Hamiltonians -",
+              "url": "https://physics.stackexchange.com/questions/606278/fundamental-understanding-of-hamiltonians",
+              "domain": "physics.stackexchange.com",
+              "snippet": "In the context of quantum computing what matters is that by changing the Hamiltonian of a quantum system, you can in principle perform arbitrary ..."
+            }
+          ],
+          "urls": [
+            "https://en.wikipedia.org/wiki/Hamiltonian_(quantum_mechanics)",
+            "https://vinodsblog.com/2022/02/04/the-hamiltonian-a-mathematical-key-to-understanding-natures-symphony/",
+            "https://terrytao.wordpress.com/2008/03/07/pcm-article-hamiltonians/",
+            "https://handwiki.org/wiki/Physics:Hamiltonian_mechanics",
+            "https://physics.stackexchange.com/questions/606278/fundamental-understanding-of-hamiltonians"
+          ],
+          "result_snippet": "[1] Hamiltonian (quantum mechanics) - Wikipedia\nURL: https://en.wikipedia.org/wiki/Hamiltonian_(quantum_mechanics)\nSnippet: ... Hamiltonian is time-independent, { U ( t ) } {\\displaystyle \\{U(t)\\}} form a one parameter unitary group (more than a semigroup ); this gives rise to ...\n\n[2] The Hamiltonian: A Mathematical Key to Understanding\nURL: https://vinodsblog.com/2022/02/04/the-hamiltonian-a-mathematical-key-to-understanding-natures-symphony/\nSnippet: The Hamiltonian is an important notion in both classical and quantum physics for understanding how objects move and act in the real world.\n\n[3] PCM article: Hamiltonians | What's new\nURL: https://terrytao.wordpress.com/2008/03/07/pcm-article-hamiltonians/\nSnippet: One of these is the term “ Hamiltonian ” , which is used in all the standard types of physical mechanics (classical or quantum ...\n\n[4] Physics:Hamiltonian mechanics - HandWiki\nURL: https://handwiki.org/wiki/Physics:Hamiltonian_mechanics\nSnippet: In physics , Hamiltonian mechanics is a reformulation of Lagrangian mechanics that emerged in 1833. ... important special case consists of those ...\n\n[5] quantum mechanics - Fundamental Understanding of Hamiltonians -\nURL: https://physics.stackexchange.com/questions/606278/fundamental-understanding-of-hamiltonians\nSnippet: In the context of quantum computing what matters is that by changing the Hamiltonian of a quantum system, you can in principle perform arbitrary ...",
+          "searched_at": "2026-05-06_10-53-09",
+          "attempt_number": 1
+        }
+      ],
+      "query": "Hamiltonian importance in physics",
+      "search_status": "ok",
+      "result_snippet": "[1] Hamiltonian (quantum mechanics) - Wikipedia\nURL: https://en.wikipedia.org/wiki/Hamiltonian_(quantum_mechanics)\nSnippet: ... Hamiltonian is time-independent, { U ( t ) } {\\displaystyle \\{U(t)\\}} form a one parameter unitary group (more than a semigroup ); this gives rise to ...\n\n[2] The Hamiltonian: A Mathematical Key to Understanding\nURL: https://vinodsblog.com/2022/02/04/the-hamiltonian-a-mathematical-key-to-understanding-natures-symphony/\nSnippet: The Hamiltonian is an important notion in both classical and quantum physics for understanding how objects move and act in the real world.\n\n[3] PCM article: Hamiltonians | What's new\nURL: https://terrytao.wordpress.com/2008/03/07/pcm-article-hamiltonians/\nSnippet: One of these is the term “ Hamiltonian ” , which is used in all the standard types of physical mechanics (classical or quantum ...\n\n[4] Physics:Hamiltonian mechanics - HandWiki\nURL: https://handwiki.org/wiki/Physics:Hamiltonian_mechanics\nSnippet: In physics , Hamiltonian mechanics is a reformulation of Lagrangian mechanics that emerged in 1833. ... important special case consists of those ...\n\n[5] quantum mechanics - Fundamental Understanding of Hamiltonians -\nURL: https://physics.stackexchange.com/questions/606278/fundamental-understanding-of-hamiltonians\nSnippet: In the context of quantum computing what matters is that by changing the Hamiltonian of a quantum system, you can in principle perform arbitrary ...",
+      "results": [
+        {
+          "title": "Hamiltonian (quantum mechanics) - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Hamiltonian_(quantum_mechanics)",
+          "domain": "en.wikipedia.org",
+          "snippet": "... Hamiltonian is time-independent, { U ( t ) } {\\displaystyle \\{U(t)\\}} form a one parameter unitary group (more than a semigroup ); this gives rise to ..."
+        },
+        {
+          "title": "The Hamiltonian: A Mathematical Key to Understanding",
+          "url": "https://vinodsblog.com/2022/02/04/the-hamiltonian-a-mathematical-key-to-understanding-natures-symphony/",
+          "domain": "vinodsblog.com",
+          "snippet": "The Hamiltonian is an important notion in both classical and quantum physics for understanding how objects move and act in the real world."
+        },
+        {
+          "title": "PCM article: Hamiltonians | What's new",
+          "url": "https://terrytao.wordpress.com/2008/03/07/pcm-article-hamiltonians/",
+          "domain": "terrytao.wordpress.com",
+          "snippet": "One of these is the term “ Hamiltonian ” , which is used in all the standard types of physical mechanics (classical or quantum ..."
+        },
+        {
+          "title": "Physics:Hamiltonian mechanics - HandWiki",
+          "url": "https://handwiki.org/wiki/Physics:Hamiltonian_mechanics",
+          "domain": "handwiki.org",
+          "snippet": "In physics , Hamiltonian mechanics is a reformulation of Lagrangian mechanics that emerged in 1833. ... important special case consists of those ..."
+        },
+        {
+          "title": "quantum mechanics - Fundamental Understanding of Hamiltonians -",
+          "url": "https://physics.stackexchange.com/questions/606278/fundamental-understanding-of-hamiltonians",
+          "domain": "physics.stackexchange.com",
+          "snippet": "In the context of quantum computing what matters is that by changing the Hamiltonian of a quantum system, you can in principle perform arbitrary ..."
+        }
+      ],
+      "urls": [
+        "https://en.wikipedia.org/wiki/Hamiltonian_(quantum_mechanics)",
+        "https://vinodsblog.com/2022/02/04/the-hamiltonian-a-mathematical-key-to-understanding-natures-symphony/",
+        "https://terrytao.wordpress.com/2008/03/07/pcm-article-hamiltonians/",
+        "https://handwiki.org/wiki/Physics:Hamiltonian_mechanics",
+        "https://physics.stackexchange.com/questions/606278/fundamental-understanding-of-hamiltonians"
+      ],
+      "attempt_count": 1,
+      "searched_at": "2026-05-06_10-53-09",
+      "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
+    },
+    "C005": {
+      "claim": "The probability map {wavefunction} is a mathematical description of a quantum system’s state, not a physical object.",
+      "search_attempts": [
+        {
+          "status": "ok",
+          "query": "Wavefunction definition in quantum mechanics",
+          "results": [
+            {
+              "title": "wavefunction - Wiktionary, the free dictionary",
+              "url": "https://en.wiktionary.org/wiki/wavefunction",
+              "domain": "en.wiktionary.org",
+              "snippet": "... quantum mechanical wave ... The interpretation of the wavefunction was one of the thorny issues facing the early pioneers of quantum theory."
+            },
+            {
+              "title": "Wavefunction in the context of quantum physics • Physics",
+              "url": "https://www.physicsforums.com/threads/wavefunction-in-the-context-of-quantum-physics.1083738/",
+              "domain": "physicsforums.com",
+              "snippet": "On the definition of wavefunction as representation of the quantum state in an implied basis. ... In your example, the particle (the quantum system ..."
+            },
+            {
+              "title": "quantum mechanics - What is the meaning of the wavefunction? -",
+              "url": "https://physics.stackexchange.com/questions/733639/what-is-the-meaning-of-the-wavefunction",
+              "domain": "physics.stackexchange.com",
+              "snippet": "Instead, we must turn to quantum mechanics, which differs from classical physics in one fundamental way - the existence of incompatible observables ."
+            },
+            {
+              "title": "wavefunction - The role of the \"observer\" in quantum",
+              "url": "https://physics.stackexchange.com/questions/413364/the-role-of-the-observer-in-quantum-theory",
+              "domain": "physics.stackexchange.com",
+              "snippet": "... of postulates intrinsic in every quantum mechanical ... One is forced to the conclusion that , quantum mechanically, observer= recorded-interaction."
+            },
+            {
+              "title": "Quantum mechanics/Course - Wikiversity",
+              "url": "https://en.wikiversity.org/wiki/Quantum_mechanics/Course",
+              "domain": "en.wikiversity.org",
+              "snippet": "In order to study elementary quantum mechanics you must ideally have an understanding of the following mathematical ideas:"
+            }
+          ],
+          "urls": [
+            "https://en.wiktionary.org/wiki/wavefunction",
+            "https://www.physicsforums.com/threads/wavefunction-in-the-context-of-quantum-physics.1083738/",
+            "https://physics.stackexchange.com/questions/733639/what-is-the-meaning-of-the-wavefunction",
+            "https://physics.stackexchange.com/questions/413364/the-role-of-the-observer-in-quantum-theory",
+            "https://en.wikiversity.org/wiki/Quantum_mechanics/Course"
+          ],
+          "result_snippet": "[1] wavefunction - Wiktionary, the free dictionary\nURL: https://en.wiktionary.org/wiki/wavefunction\nSnippet: ... quantum mechanical wave ... The interpretation of the wavefunction was one of the thorny issues facing the early pioneers of quantum theory.\n\n[2] Wavefunction in the context of quantum physics • Physics\nURL: https://www.physicsforums.com/threads/wavefunction-in-the-context-of-quantum-physics.1083738/\nSnippet: On the definition of wavefunction as representation of the quantum state in an implied basis. ... In your example, the particle (the quantum system ...\n\n[3] quantum mechanics - What is the meaning of the wavefunction? -\nURL: https://physics.stackexchange.com/questions/733639/what-is-the-meaning-of-the-wavefunction\nSnippet: Instead, we must turn to quantum mechanics, which differs from classical physics in one fundamental way - the existence of incompatible observables .\n\n[4] wavefunction - The role of the \"observer\" in quantum\nURL: https://physics.stackexchange.com/questions/413364/the-role-of-the-observer-in-quantum-theory\nSnippet: ... of postulates intrinsic in every quantum mechanical ... One is forced to the conclusion that , quantum mechanically, observer= recorded-interaction.\n\n[5] Quantum mechanics/Course - Wikiversity\nURL: https://en.wikiversity.org/wiki/Quantum_mechanics/Course\nSnippet: In order to study elementary quantum mechanics you must ideally have an understanding of the following mathematical ideas:",
+          "searched_at": "2026-05-06_10-53-12",
+          "attempt_number": 1
+        }
+      ],
+      "query": "Wavefunction definition in quantum mechanics",
+      "search_status": "ok",
+      "result_snippet": "[1] wavefunction - Wiktionary, the free dictionary\nURL: https://en.wiktionary.org/wiki/wavefunction\nSnippet: ... quantum mechanical wave ... The interpretation of the wavefunction was one of the thorny issues facing the early pioneers of quantum theory.\n\n[2] Wavefunction in the context of quantum physics • Physics\nURL: https://www.physicsforums.com/threads/wavefunction-in-the-context-of-quantum-physics.1083738/\nSnippet: On the definition of wavefunction as representation of the quantum state in an implied basis. ... In your example, the particle (the quantum system ...\n\n[3] quantum mechanics - What is the meaning of the wavefunction? -\nURL: https://physics.stackexchange.com/questions/733639/what-is-the-meaning-of-the-wavefunction\nSnippet: Instead, we must turn to quantum mechanics, which differs from classical physics in one fundamental way - the existence of incompatible observables .\n\n[4] wavefunction - The role of the \"observer\" in quantum\nURL: https://physics.stackexchange.com/questions/413364/the-role-of-the-observer-in-quantum-theory\nSnippet: ... of postulates intrinsic in every quantum mechanical ... One is forced to the conclusion that , quantum mechanically, observer= recorded-interaction.\n\n[5] Quantum mechanics/Course - Wikiversity\nURL: https://en.wikiversity.org/wiki/Quantum_mechanics/Course\nSnippet: In order to study elementary quantum mechanics you must ideally have an understanding of the following mathematical ideas:",
+      "results": [
+        {
+          "title": "wavefunction - Wiktionary, the free dictionary",
+          "url": "https://en.wiktionary.org/wiki/wavefunction",
+          "domain": "en.wiktionary.org",
+          "snippet": "... quantum mechanical wave ... The interpretation of the wavefunction was one of the thorny issues facing the early pioneers of quantum theory."
+        },
+        {
+          "title": "Wavefunction in the context of quantum physics • Physics",
+          "url": "https://www.physicsforums.com/threads/wavefunction-in-the-context-of-quantum-physics.1083738/",
+          "domain": "physicsforums.com",
+          "snippet": "On the definition of wavefunction as representation of the quantum state in an implied basis. ... In your example, the particle (the quantum system ..."
+        },
+        {
+          "title": "quantum mechanics - What is the meaning of the wavefunction? -",
+          "url": "https://physics.stackexchange.com/questions/733639/what-is-the-meaning-of-the-wavefunction",
+          "domain": "physics.stackexchange.com",
+          "snippet": "Instead, we must turn to quantum mechanics, which differs from classical physics in one fundamental way - the existence of incompatible observables ."
+        },
+        {
+          "title": "wavefunction - The role of the \"observer\" in quantum",
+          "url": "https://physics.stackexchange.com/questions/413364/the-role-of-the-observer-in-quantum-theory",
+          "domain": "physics.stackexchange.com",
+          "snippet": "... of postulates intrinsic in every quantum mechanical ... One is forced to the conclusion that , quantum mechanically, observer= recorded-interaction."
+        },
+        {
+          "title": "Quantum mechanics/Course - Wikiversity",
+          "url": "https://en.wikiversity.org/wiki/Quantum_mechanics/Course",
+          "domain": "en.wikiversity.org",
+          "snippet": "In order to study elementary quantum mechanics you must ideally have an understanding of the following mathematical ideas:"
+        }
+      ],
+      "urls": [
+        "https://en.wiktionary.org/wiki/wavefunction",
+        "https://www.physicsforums.com/threads/wavefunction-in-the-context-of-quantum-physics.1083738/",
+        "https://physics.stackexchange.com/questions/733639/what-is-the-meaning-of-the-wavefunction",
+        "https://physics.stackexchange.com/questions/413364/the-role-of-the-observer-in-quantum-theory",
+        "https://en.wikiversity.org/wiki/Quantum_mechanics/Course"
+      ],
+      "attempt_count": 1,
+      "searched_at": "2026-05-06_10-53-12",
+      "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
+    },
+    "C006": {
+      "claim": "An operator {operator} is a rule that transforms mathematical objects, such as wavefunctions {wavefunction}, in quantum mechanics.",
+      "search_attempts": [
+        {
+          "status": "ok",
+          "query": "Operator definition in quantum mechanics",
+          "results": [
+            {
+              "title": "Operator (physics) - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Operator_(physics)",
+              "domain": "en.wikipedia.org",
+              "snippet": "Operators are even more important in quantum mechanics, where they form an intrinsic part of the formulation of the theory. They play a central role in describing observables (measurable quantities like energy, momentum, etc.)."
+            },
+            {
+              "title": "3.5: Operators - Physics LibreTexts",
+              "url": "https://phys.libretexts.org/Bookshelves/Quantum_Mechanics/Introductory_Quantum_Mechanics_(Fitzpatrick)/03:_Fundamentals_of_Quantum_Mechanics/3.05:_Operators",
+              "domain": "phys.libretexts.org",
+              "snippet": "Mar 13, 2026 · This page discusses operators as key components in quantum mechanics, highlighting their properties like linearity and non-commutativity. It explains the significance of Hermitian operators for real …"
+            },
+            {
+              "title": "Operators in quantum mechanics - Mathematics for Quantum Physics",
+              "url": "https://mathforquantum.quantumtinkerer.tudelft.nl/5_operators_QM/",
+              "domain": "mathforquantum.quantumtinkerer.tudelft.nl",
+              "snippet": "Operators in quantum mechanics are mathematical entities used to represent physical processes that result in the change of the state vector of the system, such as the evolution of these states with time."
+            },
+            {
+              "title": "Operators in Quantum Mechanics - HyperPhysics",
+              "url": "http://www.hyperphysics.phy-astr.gsu.edu/hbase/quantum/qmoper.html",
+              "domain": "hyperphysics.phy-astr.gsu.edu",
+              "snippet": "Part of the development of quantum mechanics is the establishment of the operators associated with the parameters needed to describe the system. Some of those operators are listed below."
+            },
+            {
+              "title": "Operators in Quantum",
+              "url": "https://web.ics.purdue.edu/~ibilion/www.zabaras.com/Courses/MAE715/LecturesPDF/MAE715-Operators.pdf",
+              "domain": "web.ics.purdue.edu",
+              "snippet": "Here the quantum number n describes the eigenvalues of H, whereas l and m describe the eigenvalues of the operators L2 (angular momentum) and of its z-component (Lz)."
+            }
+          ],
+          "urls": [
+            "https://en.wikipedia.org/wiki/Operator_(physics)",
+            "https://phys.libretexts.org/Bookshelves/Quantum_Mechanics/Introductory_Quantum_Mechanics_(Fitzpatrick)/03:_Fundamentals_of_Quantum_Mechanics/3.05:_Operators",
+            "https://mathforquantum.quantumtinkerer.tudelft.nl/5_operators_QM/",
+            "http://www.hyperphysics.phy-astr.gsu.edu/hbase/quantum/qmoper.html",
+            "https://web.ics.purdue.edu/~ibilion/www.zabaras.com/Courses/MAE715/LecturesPDF/MAE715-Operators.pdf"
+          ],
+          "result_snippet": "[1] Operator (physics) - Wikipedia\nURL: https://en.wikipedia.org/wiki/Operator_(physics)\nSnippet: Operators are even more important in quantum mechanics, where they form an intrinsic part of the formulation of the theory. They play a central role in describing observables (measurable quantities like energy, momentum, etc.).\n\n[2] 3.5: Operators - Physics LibreTexts\nURL: https://phys.libretexts.org/Bookshelves/Quantum_Mechanics/Introductory_Quantum_Mechanics_(Fitzpatrick)/03:_Fundamentals_of_Quantum_Mechanics/3.05:_Operators\nSnippet: Mar 13, 2026 · This page discusses operators as key components in quantum mechanics, highlighting their properties like linearity and non-commutativity. It explains the significance of Hermitian operators for real …\n\n[3] Operators in quantum mechanics - Mathematics for Quantum Physics\nURL: https://mathforquantum.quantumtinkerer.tudelft.nl/5_operators_QM/\nSnippet: Operators in quantum mechanics are mathematical entities used to represent physical processes that result in the change of the state vector of the system, such as the evolution of these states with time.\n\n[4] Operators in Quantum Mechanics - HyperPhysics\nURL: http://www.hyperphysics.phy-astr.gsu.edu/hbase/quantum/qmoper.html\nSnippet: Part of the development of quantum mechanics is the establishment of the operators associated with the parameters needed to describe the system. Some of those operators are listed below.\n\n[5] Operators in Quantum\nURL: https://web.ics.purdue.edu/~ibilion/www.zabaras.com/Courses/MAE715/LecturesPDF/MAE715-Operators.pdf\nSnippet: Here the quantum number n describes the eigenvalues of H, whereas l and m describe the eigenvalues of the operators L2 (angular momentum) and of its z-component (Lz).",
+          "searched_at": "2026-05-06_11-29-40",
+          "attempt_number": 1
+        }
+      ],
+      "query": "Operator definition in quantum mechanics",
+      "search_status": "ok",
+      "result_snippet": "[1] Operator (physics) - Wikipedia\nURL: https://en.wikipedia.org/wiki/Operator_(physics)\nSnippet: Operators are even more important in quantum mechanics, where they form an intrinsic part of the formulation of the theory. They play a central role in describing observables (measurable quantities like energy, momentum, etc.).\n\n[2] 3.5: Operators - Physics LibreTexts\nURL: https://phys.libretexts.org/Bookshelves/Quantum_Mechanics/Introductory_Quantum_Mechanics_(Fitzpatrick)/03:_Fundamentals_of_Quantum_Mechanics/3.05:_Operators\nSnippet: Mar 13, 2026 · This page discusses operators as key components in quantum mechanics, highlighting their properties like linearity and non-commutativity. It explains the significance of Hermitian operators for real …\n\n[3] Operators in quantum mechanics - Mathematics for Quantum Physics\nURL: https://mathforquantum.quantumtinkerer.tudelft.nl/5_operators_QM/\nSnippet: Operators in quantum mechanics are mathematical entities used to represent physical processes that result in the change of the state vector of the system, such as the evolution of these states with time.\n\n[4] Operators in Quantum Mechanics - HyperPhysics\nURL: http://www.hyperphysics.phy-astr.gsu.edu/hbase/quantum/qmoper.html\nSnippet: Part of the development of quantum mechanics is the establishment of the operators associated with the parameters needed to describe the system. Some of those operators are listed below.\n\n[5] Operators in Quantum\nURL: https://web.ics.purdue.edu/~ibilion/www.zabaras.com/Courses/MAE715/LecturesPDF/MAE715-Operators.pdf\nSnippet: Here the quantum number n describes the eigenvalues of H, whereas l and m describe the eigenvalues of the operators L2 (angular momentum) and of its z-component (Lz).",
+      "results": [
+        {
+          "title": "Operator (physics) - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Operator_(physics)",
+          "domain": "en.wikipedia.org",
+          "snippet": "Operators are even more important in quantum mechanics, where they form an intrinsic part of the formulation of the theory. They play a central role in describing observables (measurable quantities like energy, momentum, etc.)."
+        },
+        {
+          "title": "3.5: Operators - Physics LibreTexts",
+          "url": "https://phys.libretexts.org/Bookshelves/Quantum_Mechanics/Introductory_Quantum_Mechanics_(Fitzpatrick)/03:_Fundamentals_of_Quantum_Mechanics/3.05:_Operators",
+          "domain": "phys.libretexts.org",
+          "snippet": "Mar 13, 2026 · This page discusses operators as key components in quantum mechanics, highlighting their properties like linearity and non-commutativity. It explains the significance of Hermitian operators for real …"
+        },
+        {
+          "title": "Operators in quantum mechanics - Mathematics for Quantum Physics",
+          "url": "https://mathforquantum.quantumtinkerer.tudelft.nl/5_operators_QM/",
+          "domain": "mathforquantum.quantumtinkerer.tudelft.nl",
+          "snippet": "Operators in quantum mechanics are mathematical entities used to represent physical processes that result in the change of the state vector of the system, such as the evolution of these states with time."
+        },
+        {
+          "title": "Operators in Quantum Mechanics - HyperPhysics",
+          "url": "http://www.hyperphysics.phy-astr.gsu.edu/hbase/quantum/qmoper.html",
+          "domain": "hyperphysics.phy-astr.gsu.edu",
+          "snippet": "Part of the development of quantum mechanics is the establishment of the operators associated with the parameters needed to describe the system. Some of those operators are listed below."
+        },
+        {
+          "title": "Operators in Quantum",
+          "url": "https://web.ics.purdue.edu/~ibilion/www.zabaras.com/Courses/MAE715/LecturesPDF/MAE715-Operators.pdf",
+          "domain": "web.ics.purdue.edu",
+          "snippet": "Here the quantum number n describes the eigenvalues of H, whereas l and m describe the eigenvalues of the operators L2 (angular momentum) and of its z-component (Lz)."
+        }
+      ],
+      "urls": [
+        "https://en.wikipedia.org/wiki/Operator_(physics)",
+        "https://phys.libretexts.org/Bookshelves/Quantum_Mechanics/Introductory_Quantum_Mechanics_(Fitzpatrick)/03:_Fundamentals_of_Quantum_Mechanics/3.05:_Operators",
+        "https://mathforquantum.quantumtinkerer.tudelft.nl/5_operators_QM/",
+        "http://www.hyperphysics.phy-astr.gsu.edu/hbase/quantum/qmoper.html",
+        "https://web.ics.purdue.edu/~ibilion/www.zabaras.com/Courses/MAE715/LecturesPDF/MAE715-Operators.pdf"
+      ],
+      "attempt_count": 1,
+      "searched_at": "2026-05-06_11-29-40",
+      "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
+    },
+    "C008": {
+      "claim": "Hamilton’s equations {Hamilton’s equations} describe how position and momentum change over time in classical systems.",
+      "search_attempts": [
+        {
+          "status": "ok",
+          "query": "Hamilton's equations derivation",
+          "results": [
+            {
+              "title": "homework and exercises - Deriving Hamilton's equations from",
+              "url": "https://physics.stackexchange.com/questions/248544/deriving-hamiltons-equations-from-kdv-hamiltonian",
+              "domain": "physics.stackexchange.com",
+              "snippet": "Deriving Hamilton s equations from KdV Hamiltonian ... Deriving Klein-Gordon from Hamilton s equations for fields using functional derivatives"
+            },
+            {
+              "title": "classical mechanics - Derivation of Hamilton's eqs. from",
+              "url": "https://physics.stackexchange.com/questions/355801/derivation-of-hamiltons-eqs-from-stationarity-principle",
+              "domain": "physics.stackexchange.com",
+              "snippet": "... Itzykson & Zuber p.3 the Hamilton equations are derived. ... A step in the derivation of the Euler-Lagrange equations using Hamilton s Principle"
+            },
+            {
+              "title": "homework and exercises - Hamilton's Equations - Physics",
+              "url": "https://physics.stackexchange.com/questions/230535/hamiltons-equations",
+              "domain": "physics.stackexchange.com",
+              "snippet": "The last step of this derivation of Hamilton's Equations is what's making me doubt it. ... in the derivation of Hamilton s equation in Goldstein"
+            },
+            {
+              "title": "classical mechanics - Derivation of Hamilton-Jacobi (HJ)",
+              "url": "https://physics.stackexchange.com/questions/746008/derivation-of-hamilton-jacobi-hj-equation",
+              "domain": "physics.stackexchange.com",
+              "snippet": "In the Derivation of Hamilton Jacobi Equation , I didn't understand the bold parts: ... Hamilton's principal function $^1$ $S\\equiv F$ is the sole ..."
+            },
+            {
+              "title": "classical mechanics - Deriving Hamilton's Principle from",
+              "url": "https://physics.stackexchange.com/questions/765744/deriving-hamiltons-principle-from-lagranges-equations",
+              "domain": "physics.stackexchange.com",
+              "snippet": "I'm trying to derive Hamilton's Principle from Lagrange's Equations, as I've heard they're logically equivalent statements, and am stuck on a final ..."
+            }
+          ],
+          "urls": [
+            "https://physics.stackexchange.com/questions/248544/deriving-hamiltons-equations-from-kdv-hamiltonian",
+            "https://physics.stackexchange.com/questions/355801/derivation-of-hamiltons-eqs-from-stationarity-principle",
+            "https://physics.stackexchange.com/questions/230535/hamiltons-equations",
+            "https://physics.stackexchange.com/questions/746008/derivation-of-hamilton-jacobi-hj-equation",
+            "https://physics.stackexchange.com/questions/765744/deriving-hamiltons-principle-from-lagranges-equations"
+          ],
+          "result_snippet": "[1] homework and exercises - Deriving Hamilton's equations from\nURL: https://physics.stackexchange.com/questions/248544/deriving-hamiltons-equations-from-kdv-hamiltonian\nSnippet: Deriving Hamilton s equations from KdV Hamiltonian ... Deriving Klein-Gordon from Hamilton s equations for fields using functional derivatives\n\n[2] classical mechanics - Derivation of Hamilton's eqs. from\nURL: https://physics.stackexchange.com/questions/355801/derivation-of-hamiltons-eqs-from-stationarity-principle\nSnippet: ... Itzykson & Zuber p.3 the Hamilton equations are derived. ... A step in the derivation of the Euler-Lagrange equations using Hamilton s Principle\n\n[3] homework and exercises - Hamilton's Equations - Physics\nURL: https://physics.stackexchange.com/questions/230535/hamiltons-equations\nSnippet: The last step of this derivation of Hamilton's Equations is what's making me doubt it. ... in the derivation of Hamilton s equation in Goldstein\n\n[4] classical mechanics - Derivation of Hamilton-Jacobi (HJ)\nURL: https://physics.stackexchange.com/questions/746008/derivation-of-hamilton-jacobi-hj-equation\nSnippet: In the Derivation of Hamilton Jacobi Equation , I didn't understand the bold parts: ... Hamilton's principal function $^1$ $S\\equiv F$ is the sole ...\n\n[5] classical mechanics - Deriving Hamilton's Principle from\nURL: https://physics.stackexchange.com/questions/765744/deriving-hamiltons-principle-from-lagranges-equations\nSnippet: I'm trying to derive Hamilton's Principle from Lagrange's Equations, as I've heard they're logically equivalent statements, and am stuck on a final ...",
+          "searched_at": "2026-05-06_11-29-43",
+          "attempt_number": 1
+        }
+      ],
+      "query": "Hamilton's equations derivation",
+      "search_status": "ok",
+      "result_snippet": "[1] homework and exercises - Deriving Hamilton's equations from\nURL: https://physics.stackexchange.com/questions/248544/deriving-hamiltons-equations-from-kdv-hamiltonian\nSnippet: Deriving Hamilton s equations from KdV Hamiltonian ... Deriving Klein-Gordon from Hamilton s equations for fields using functional derivatives\n\n[2] classical mechanics - Derivation of Hamilton's eqs. from\nURL: https://physics.stackexchange.com/questions/355801/derivation-of-hamiltons-eqs-from-stationarity-principle\nSnippet: ... Itzykson & Zuber p.3 the Hamilton equations are derived. ... A step in the derivation of the Euler-Lagrange equations using Hamilton s Principle\n\n[3] homework and exercises - Hamilton's Equations - Physics\nURL: https://physics.stackexchange.com/questions/230535/hamiltons-equations\nSnippet: The last step of this derivation of Hamilton's Equations is what's making me doubt it. ... in the derivation of Hamilton s equation in Goldstein\n\n[4] classical mechanics - Derivation of Hamilton-Jacobi (HJ)\nURL: https://physics.stackexchange.com/questions/746008/derivation-of-hamilton-jacobi-hj-equation\nSnippet: In the Derivation of Hamilton Jacobi Equation , I didn't understand the bold parts: ... Hamilton's principal function $^1$ $S\\equiv F$ is the sole ...\n\n[5] classical mechanics - Deriving Hamilton's Principle from\nURL: https://physics.stackexchange.com/questions/765744/deriving-hamiltons-principle-from-lagranges-equations\nSnippet: I'm trying to derive Hamilton's Principle from Lagrange's Equations, as I've heard they're logically equivalent statements, and am stuck on a final ...",
+      "results": [
+        {
+          "title": "homework and exercises - Deriving Hamilton's equations from",
+          "url": "https://physics.stackexchange.com/questions/248544/deriving-hamiltons-equations-from-kdv-hamiltonian",
+          "domain": "physics.stackexchange.com",
+          "snippet": "Deriving Hamilton s equations from KdV Hamiltonian ... Deriving Klein-Gordon from Hamilton s equations for fields using functional derivatives"
+        },
+        {
+          "title": "classical mechanics - Derivation of Hamilton's eqs. from",
+          "url": "https://physics.stackexchange.com/questions/355801/derivation-of-hamiltons-eqs-from-stationarity-principle",
+          "domain": "physics.stackexchange.com",
+          "snippet": "... Itzykson & Zuber p.3 the Hamilton equations are derived. ... A step in the derivation of the Euler-Lagrange equations using Hamilton s Principle"
+        },
+        {
+          "title": "homework and exercises - Hamilton's Equations - Physics",
+          "url": "https://physics.stackexchange.com/questions/230535/hamiltons-equations",
+          "domain": "physics.stackexchange.com",
+          "snippet": "The last step of this derivation of Hamilton's Equations is what's making me doubt it. ... in the derivation of Hamilton s equation in Goldstein"
+        },
+        {
+          "title": "classical mechanics - Derivation of Hamilton-Jacobi (HJ)",
+          "url": "https://physics.stackexchange.com/questions/746008/derivation-of-hamilton-jacobi-hj-equation",
+          "domain": "physics.stackexchange.com",
+          "snippet": "In the Derivation of Hamilton Jacobi Equation , I didn't understand the bold parts: ... Hamilton's principal function $^1$ $S\\equiv F$ is the sole ..."
+        },
+        {
+          "title": "classical mechanics - Deriving Hamilton's Principle from",
+          "url": "https://physics.stackexchange.com/questions/765744/deriving-hamiltons-principle-from-lagranges-equations",
+          "domain": "physics.stackexchange.com",
+          "snippet": "I'm trying to derive Hamilton's Principle from Lagrange's Equations, as I've heard they're logically equivalent statements, and am stuck on a final ..."
+        }
+      ],
+      "urls": [
+        "https://physics.stackexchange.com/questions/248544/deriving-hamiltons-equations-from-kdv-hamiltonian",
+        "https://physics.stackexchange.com/questions/355801/derivation-of-hamiltons-eqs-from-stationarity-principle",
+        "https://physics.stackexchange.com/questions/230535/hamiltons-equations",
+        "https://physics.stackexchange.com/questions/746008/derivation-of-hamilton-jacobi-hj-equation",
+        "https://physics.stackexchange.com/questions/765744/deriving-hamiltons-principle-from-lagranges-equations"
+      ],
+      "attempt_count": 1,
+      "searched_at": "2026-05-06_11-29-43",
+      "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
+    }
+  },
+  "summary": {
+    "total_claims": 10,
+    "checked_claim_count": 1,
+    "passing_claim_count": 0,
+    "unchecked_claim_count": 9,
+    "unresolved_or_needs_qualification": 10,
+    "actionable_issue_count": 0,
+    "evidence_retry_count": 1,
+    "claim_review_complete": false,
+    "unchecked_claim_ids": [
+      "C002",
+      "C003",
+      "C004",
+      "C005",
+      "C006",
+      "C007",
+      "C008",
+      "C009",
+      "C010"
+    ],
+    "actionable_claim_ids": [],
+    "evidence_retry_claim_ids": [
+      "C001"
+    ],
+    "highest_priority_fixes": []
+  },
+  "last_updated": "2026-05-06_11-29-43"
+}

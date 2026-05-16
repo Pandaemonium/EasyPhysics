@@ -1,0 +1,18 @@
+{
+  "sources_by_claim": {},
+  "summary": {
+    "total_claims": 0,
+    "checked_claim_count": 0,
+    "passing_claim_count": 0,
+    "unchecked_claim_count": 0,
+    "unresolved_or_needs_qualification": 0,
+    "actionable_issue_count": 0,
+    "evidence_retry_count": 0,
+    "claim_review_complete": false,
+    "unchecked_claim_ids": [],
+    "actionable_claim_ids": [],
+    "evidence_retry_claim_ids": [],
+    "highest_priority_fixes": []
+  },
+  "last_updated": "2026-05-05_16-01-01"
+}

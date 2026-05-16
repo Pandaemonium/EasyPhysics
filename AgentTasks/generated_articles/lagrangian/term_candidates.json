@@ -1,4 +1,37 @@
 {
-  "terms": [],
-  "last_updated": "2026-05-04_22-12-56"
+  "terms": [
+    {
+      "standard_term": "Lagrangian",
+      "candidate_name": "Energy difference function",
+      "context_quote": "The Lagrangian {L} is typically defined as the difference between kinetic energy {T} and potential energy {V} in classical mechanics: L = T − V",
+      "usefulness": "Emphasizes the Lagrangian's role as a measure of energy imbalance, making its purpose intuitive as a tool for tracking energy changes",
+      "risk": "Could imply the Lagrangian is merely a static difference, whereas it's fundamentally about dynamic energy evolution over time",
+      "last_seen": "2026-05-06_08-51-23"
+    },
+    {
+      "standard_term": "principle of stationary action",
+      "candidate_name": "Path of stationary action",
+      "context_quote": "Nature chooses the path that makes this action stationary (a minimum, maximum, or saddle point). This is called the principle of stationary action",
+      "usefulness": "Clarifies the principle as a rule for selecting paths based on energy change stability, avoiding confusion with 'least action' shorthand",
+      "risk": "May mislead by suggesting stationary action is always a minimum, whereas it can be any extremum",
+      "last_seen": "2026-05-06_08-51-23"
+    },
+    {
+      "standard_term": "equations of motion",
+      "candidate_name": "Motion blueprint",
+      "context_quote": "To find the path, we use the Euler-Lagrange equation... This equation finds the path where changes in energy balance out over time",
+      "usefulness": "Frames equations of motion as a design plan for system behavior, aligning with the intuitive idea of 'blueprint' as a construction guide",
+      "risk": "Could imply equations are prescriptive rather than descriptive, but this aligns with their role in predicting motion",
+      "last_seen": "2026-05-06_08-51-23"
+    },
+    {
+      "standard_term": "Hamiltonian",
+      "candidate_name": "Energy total function",
+      "context_quote": "The Hamiltonian {H} represents the total energy of a system as the sum of kinetic and potential energies: H = T + V",
+      "usefulness": "Emphasizes the Hamiltonian as a complete energy description, clarifying its role in quantum mechanics",
+      "risk": "Might suggest the Hamiltonian is a static value rather than a dynamic operator",
+      "last_seen": "2026-05-06_04-37-38"
+    }
+  ],
+  "last_updated": "2026-05-06_08-51-23"
 }

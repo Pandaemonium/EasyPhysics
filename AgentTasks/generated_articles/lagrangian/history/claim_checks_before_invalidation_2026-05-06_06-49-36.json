@@ -1,0 +1,106 @@
+{
+  "claim_checks": [
+    {
+      "id": "C001",
+      "verdict": "not_enough_evidence",
+      "severity": "medium",
+      "problem": "Claim checker failed: LLMCallError(\"claim_checker failed after 3 attempt(s): LLMCallError('LLM_TIMEOUT_AFTER_720_SECONDS')\")",
+      "suggested_fix": "Automatically retry this claim with another source search or a smaller context.",
+      "source_quality_note": "",
+      "source_urls": [],
+      "claim": "The Lagrangian {L} is defined as the difference between kinetic energy {T} and potential energy {V}: L = T − V.",
+      "checked_at": "2026-05-06_06-43-47",
+      "source_attempt_count": 3,
+      "available_source_urls": [
+        "https://www.academia.edu/7208579/Lecture_Lagrangian_Mechanics_1_1_Lecture_Lagrangian_Mechanics",
+        "https://ocw.mit.edu/courses/2-003sc-engineering-dynamics-fall-2011/d1984062464dcc3df68b5741fd37192b_MIT2_003SCF11_Lagrange.pdf",
+        "https://courses.physics.ucsd.edu/2022/Fall/physics110a/LECTURES/MECHANICS_110.pdf",
+        "https://hedberg.ccnysites.cuny.edu/viewers/slides.php?course=mechanics&topic=lagrangian-mechanics&l=cal",
+        "https://web.physics.ucsb.edu/~dfolsom/CS32/lagrangian_mechanics.pdf"
+      ]
+    }
+  ],
+  "check_history": [
+    {
+      "id": "C001",
+      "verdict": "not_enough_evidence",
+      "severity": "medium",
+      "problem": "Claim checker failed: LLMCallError(\"claim_checker failed after 3 attempt(s): LLMCallError('LLM_TIMEOUT_AFTER_720_SECONDS')\")",
+      "suggested_fix": "Automatically retry this claim with another source search or a smaller context.",
+      "source_quality_note": "",
+      "source_urls": [],
+      "claim": "The Lagrangian {L} is defined as the difference between kinetic energy {T} and potential energy {V}: L = T − V.",
+      "checked_at": "2026-05-06_05-30-58",
+      "source_attempt_count": 1,
+      "available_source_urls": [
+        "https://en.wikipedia.org/wiki/Lagrangian_mechanics",
+        "https://phys.libretexts.org/Bookshelves/Classical_Mechanics/Classical_Mechanics_(Tatum)/13:_Lagrangian_Mechanics/13.08:_More_Lagrangian_Mechanics_Examples",
+        "https://maths.dur.ac.uk/users/inaki.garcia-etxebarria/MPII/Lectures.html",
+        "https://www.taylorfrancis.com/books/mono/10.1201/9781003600633/classical-mechanics-artemio-gonzález–lópez",
+        "https://trappedflux.substack.com/p/an-introduction-to-lagrangian-mechanics"
+      ]
+    },
+    {
+      "id": "C001",
+      "verdict": "not_enough_evidence",
+      "severity": "medium",
+      "problem": "Claim checker failed: LLMCallError(\"claim_checker failed after 3 attempt(s): LLMCallError('LLM_TIMEOUT_AFTER_720_SECONDS')\")",
+      "suggested_fix": "Automatically retry this claim with another source search or a smaller context.",
+      "source_quality_note": "",
+      "source_urls": [],
+      "claim": "The Lagrangian {L} is defined as the difference between kinetic energy {T} and potential energy {V}: L = T − V.",
+      "checked_at": "2026-05-06_06-07-23",
+      "source_attempt_count": 2,
+      "available_source_urls": [
+        "https://en.wikipedia.org/wiki/Lagrangian_mechanics",
+        "https://en.wikipedia.org/wiki/Hamiltonian_mechanics",
+        "https://en.wikipedia.org/wiki/Lagrangian_(field_theory)",
+        "https://en.wikipedia.org/wiki/Relativistic_Lagrangian_mechanics",
+        "https://en.wikipedia.org/wiki/Action_(physics)"
+      ]
+    },
+    {
+      "id": "C001",
+      "verdict": "not_enough_evidence",
+      "severity": "medium",
+      "problem": "Claim checker failed: LLMCallError(\"claim_checker failed after 3 attempt(s): LLMCallError('LLM_TIMEOUT_AFTER_720_SECONDS')\")",
+      "suggested_fix": "Automatically retry this claim with another source search or a smaller context.",
+      "source_quality_note": "",
+      "source_urls": [],
+      "claim": "The Lagrangian {L} is defined as the difference between kinetic energy {T} and potential energy {V}: L = T − V.",
+      "checked_at": "2026-05-06_06-43-47",
+      "source_attempt_count": 3,
+      "available_source_urls": [
+        "https://www.academia.edu/7208579/Lecture_Lagrangian_Mechanics_1_1_Lecture_Lagrangian_Mechanics",
+        "https://ocw.mit.edu/courses/2-003sc-engineering-dynamics-fall-2011/d1984062464dcc3df68b5741fd37192b_MIT2_003SCF11_Lagrange.pdf",
+        "https://courses.physics.ucsd.edu/2022/Fall/physics110a/LECTURES/MECHANICS_110.pdf",
+        "https://hedberg.ccnysites.cuny.edu/viewers/slides.php?course=mechanics&topic=lagrangian-mechanics&l=cal",
+        "https://web.physics.ucsb.edu/~dfolsom/CS32/lagrangian_mechanics.pdf"
+      ]
+    }
+  ],
+  "summary": {
+    "total_claims": 4,
+    "checked_claim_count": 1,
+    "passing_claim_count": 0,
+    "unchecked_claim_count": 3,
+    "unresolved_or_needs_qualification": 4,
+    "actionable_issue_count": 1,
+    "evidence_retry_count": 0,
+    "claim_review_complete": false,
+    "unchecked_claim_ids": [
+      "C002",
+      "C003",
+      "C004"
+    ],
+    "actionable_claim_ids": [
+      "C001"
+    ],
+    "evidence_retry_claim_ids": [],
+    "highest_priority_fixes": [
+      "Automatically retry this claim with another source search or a smaller context."
+    ],
+    "overall_claim_quality": "Partial claim check completed."
+  },
+  "last_updated": "2026-05-06_06-43-47"
+}

@@ -1,0 +1,795 @@
+{
+  "sources_by_claim": {
+    "C001": {
+      "claim": "An eigenstate is a quantum state where measuring a specific observable (like energy or spin) always yields the same result.",
+      "search_attempts": [
+        {
+          "status": "ok",
+          "query": "quantum mechanics eigenstate definition Griffiths",
+          "results": [
+            {
+              "title": "Quantum state - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Introduction_to_eigenstates",
+              "domain": "en.wikipedia.org",
+              "snippet": "December 11, 2025 - For example, it is possible to ... physicists call an eigenstate) with eigenvalue 1 kg⋅m/s would be a quantum state with a definite, well-defined value of momentum of 1 kg⋅m/s, with no quantum uncertainty...."
+            },
+            {
+              "title": "Glossary of elementary quantum mechanics - Wikipedia",
+              "url": "https://translate.google.com/translate?client=srp&hl=pt&sl=en&tl=pt&u=https://en.wikipedia.org/wiki/Glossary_of_elementary_quantum_mechanics",
+              "domain": "translate.google.com",
+              "snippet": "January 1, 2026 - A theorem connecting the classical mechanics and result derived from Schrödinger equation. ... The canonical commutation relations are the commutators between canonically conjugate variables. For example, position ... ^ Some textbooks (e.g. Cohen Tannoudji, Liboff) define \"stationary state\" as \"an eigenstate of a Hamiltonian\" without specific to bound states. ... Griffiths, David J. (2004). Introduction to Quantum ..."
+            },
+            {
+              "title": "Quantum mechanics - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Quantum_mechanics",
+              "domain": "en.wikipedia.org",
+              "snippet": "1 week ago - A quantum state can be an eigenvector of an observable, in which case it is called an eigenstate, and the associated eigenvalue corresponds to the value of the observable in that eigenstate."
+            },
+            {
+              "title": "Quantum harmonic oscillator - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Quantum_harmonic_oscillator",
+              "domain": "en.wikipedia.org",
+              "snippet": "1 week ago - In the phase space formulation of quantum mechanics, eigenstates of the quantum harmonic oscillator in several different representations of the quasiprobability distribution can be written in closed form."
+            },
+            {
+              "title": "Introduction to Quantum Mechanics (book) - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Introduction_to_Quantum_Mechanics_(book)",
+              "domain": "en.wikipedia.org",
+              "snippet": "January 30, 2026 - Introduction to Quantum Mechanics, often called Griffiths, is an introductory textbook on quantum mechanics by David J. Griffiths. The book is considered a standard undergraduate textbook in the subject. After publishing the first edition of the textbook in 1995, Pearson Education released ..."
+            }
+          ],
+          "urls": [
+            "https://en.wikipedia.org/wiki/Introduction_to_eigenstates",
+            "https://translate.google.com/translate?client=srp&hl=pt&sl=en&tl=pt&u=https://en.wikipedia.org/wiki/Glossary_of_elementary_quantum_mechanics",
+            "https://en.wikipedia.org/wiki/Quantum_mechanics",
+            "https://en.wikipedia.org/wiki/Quantum_harmonic_oscillator",
+            "https://en.wikipedia.org/wiki/Introduction_to_Quantum_Mechanics_(book)"
+          ],
+          "result_snippet": "[1] Quantum state - Wikipedia\nURL: https://en.wikipedia.org/wiki/Introduction_to_eigenstates\nSnippet: December 11, 2025 - For example, it is possible to ... physicists call an eigenstate) with eigenvalue 1 kg⋅m/s would be a quantum state with a definite, well-defined value of momentum of 1 kg⋅m/s, with no quantum uncertainty....\n\n[2] Glossary of elementary quantum mechanics - Wikipedia\nURL: https://translate.google.com/translate?client=srp&hl=pt&sl=en&tl=pt&u=https://en.wikipedia.org/wiki/Glossary_of_elementary_quantum_mechanics\nSnippet: January 1, 2026 - A theorem connecting the classical mechanics and result derived from Schrödinger equation. ... The canonical commutation relations are the commutators between canonically conjugate variables. For example, position ... ^ Some textbooks (e.g. Cohen Tannoudji, Liboff) define \"stationary state\" as \"an eigenstate of a Hamiltonian\" without specific to bound states. ... Griffiths, David J. (2004). Introduction to Quantum ...\n\n[3] Quantum mechanics - Wikipedia\nURL: https://en.wikipedia.org/wiki/Quantum_mechanics\nSnippet: 1 week ago - A quantum state can be an eigenvector of an observable, in which case it is called an eigenstate, and the associated eigenvalue corresponds to the value of the observable in that eigenstate.\n\n[4] Quantum harmonic oscillator - Wikipedia\nURL: https://en.wikipedia.org/wiki/Quantum_harmonic_oscillator\nSnippet: 1 week ago - In the phase space formulation of quantum mechanics, eigenstates of the quantum harmonic oscillator in several different representations of the quasiprobability distribution can be written in closed form.\n\n[5] Introduction to Quantum Mechanics (book) - Wikipedia\nURL: https://en.wikipedia.org/wiki/Introduction_to_Quantum_Mechanics_(book)\nSnippet: January 30, 2026 - Introduction to Quantum Mechanics, often called Griffiths, is an introductory textbook on quantum mechanics by David J. Griffiths. The book is considered a standard undergraduate textbook in the subject. After publishing the first edition of the textbook in 1995, Pearson Education released ...",
+          "searched_at": "2026-05-05_16-59-10",
+          "attempt_number": 1
+        },
+        {
+          "status": "ok",
+          "query": "Eigenstate An eigenstate is a quantum state where measuring a specific observable (like energy or spin) always yields the university physics lecture notes textbook",
+          "results": [
+            {
+              "title": "7.4: Eigenstates and Eigenvalues - Physics LibreTexts",
+              "url": "https://phys.libretexts.org/Courses/University_of_California_Davis/UCD:_Physics_9D__Modern_Physics/7:_Matter_Waves/7.4:_Eigenstates_and_Eigenvalues",
+              "domain": "phys.libretexts.org",
+              "snippet": "Once the physical quantity is measured, then the quantum state changes from a probabilistic description to a specific one, and that can only be one of the ones that was \"allowed\" by the physical situation. There is one other thing we should say about observable values in quantum theory before moving on."
+            },
+            {
+              "title": "Chapter 4: Energy and the Hamiltonian - Quantum Mechanics",
+              "url": "https://paulskrzypczyk.github.io/qm-lecturenotes-new/energy/",
+              "domain": "paulskrzypczyk.github.io",
+              "snippet": "We will reintroduce the Hamiltonian operator (the total-energy operator), in the context of mechanics, its associated eigenvalue equation, and discuss the important notion of bound and non-bound states, and their distinct description within quantum mechanics. 4.1 The Hamiltonian What different types of energy can a particle have?"
+            },
+            {
+              "title": "Understand eigenstates and Eigenvalues",
+              "url": "https://app.studyraid.com/en/read/51921/2478017/eigenstates-and-eigenvalues",
+              "domain": "app.studyraid.com",
+              "snippet": "When you measure a property of a quantum system, like its energy or spin, the outcome isn't random. Quantum mechanics predicts that the only possible results you can get are specific, discrete values. These special values are called eigenvalues. Each eigenvalue corresponds to a specific state of the system, known as an eigenstate. Think of it like this: a guitar string can only vibrate at ..."
+            },
+            {
+              "title": "2.4 Properties of Energy Eigenstates ‣ Chapter 2 Quantum Mechanics in ...",
+              "url": "https://lachlan.dk/lecture-notes/quantum-mechanics/one-dimension/properties-of-energy-eigenstates.html",
+              "domain": "lachlan.dk",
+              "snippet": "If the particle's energy is measured, its state will instantly and non-deterministically collapse into one of the energy eigenstates. For example when measuring the energy of the two-energy state above, we can tell from the coefficients that we have 50 % probability to measure E 1 and 50 % probability to measure E 2."
+            },
+            {
+              "title": "3.8: Eigenstates and Eigenvalues - Physics LibreTexts",
+              "url": "https://phys.libretexts.org/Bookshelves/Quantum_Mechanics/Introductory_Quantum_Mechanics_(Fitzpatrick)/03:_Fundamentals_of_Quantum_Mechanics/3.08:_Eigenstates_and_Eigenvalues",
+              "domain": "phys.libretexts.org",
+              "snippet": "This page explains eigenstates and eigenvalues of Hermitian operators in quantum mechanics, where eigenstates remain proportional after the operator acts on them, and eigenvalues are real. It covers …"
+            }
+          ],
+          "urls": [
+            "https://phys.libretexts.org/Courses/University_of_California_Davis/UCD:_Physics_9D__Modern_Physics/7:_Matter_Waves/7.4:_Eigenstates_and_Eigenvalues",
+            "https://paulskrzypczyk.github.io/qm-lecturenotes-new/energy/",
+            "https://app.studyraid.com/en/read/51921/2478017/eigenstates-and-eigenvalues",
+            "https://lachlan.dk/lecture-notes/quantum-mechanics/one-dimension/properties-of-energy-eigenstates.html",
+            "https://phys.libretexts.org/Bookshelves/Quantum_Mechanics/Introductory_Quantum_Mechanics_(Fitzpatrick)/03:_Fundamentals_of_Quantum_Mechanics/3.08:_Eigenstates_and_Eigenvalues"
+          ],
+          "result_snippet": "[1] 7.4: Eigenstates and Eigenvalues - Physics LibreTexts\nURL: https://phys.libretexts.org/Courses/University_of_California_Davis/UCD:_Physics_9D__Modern_Physics/7:_Matter_Waves/7.4:_Eigenstates_and_Eigenvalues\nSnippet: Once the physical quantity is measured, then the quantum state changes from a probabilistic description to a specific one, and that can only be one of the ones that was \"allowed\" by the physical situation. There is one other thing we should say about observable values in quantum theory before moving on.\n\n[2] Chapter 4: Energy and the Hamiltonian - Quantum Mechanics\nURL: https://paulskrzypczyk.github.io/qm-lecturenotes-new/energy/\nSnippet: We will reintroduce the Hamiltonian operator (the total-energy operator), in the context of mechanics, its associated eigenvalue equation, and discuss the important notion of bound and non-bound states, and their distinct description within quantum mechanics. 4.1 The Hamiltonian What different types of energy can a particle have?\n\n[3] Understand eigenstates and Eigenvalues\nURL: https://app.studyraid.com/en/read/51921/2478017/eigenstates-and-eigenvalues\nSnippet: When you measure a property of a quantum system, like its energy or spin, the outcome isn't random. Quantum mechanics predicts that the only possible results you can get are specific, discrete values. These special values are called eigenvalues. Each eigenvalue corresponds to a specific state of the system, known as an eigenstate. Think of it like this: a guitar string can only vibrate at ...\n\n[4] 2.4 Properties of Energy Eigenstates ‣ Chapter 2 Quantum Mechanics in ...\nURL: https://lachlan.dk/lecture-notes/quantum-mechanics/one-dimension/properties-of-energy-eigenstates.html\nSnippet: If the particle's energy is measured, its state will instantly and non-deterministically collapse into one of the energy eigenstates. For example when measuring the energy of the two-energy state above, we can tell from the coefficients that we have 50 % probability to measure E 1 and 50 % probability to measure E 2.\n\n[5] 3.8: Eigenstates and Eigenvalues - Physics LibreTexts\nURL: https://phys.libretexts.org/Bookshelves/Quantum_Mechanics/Introductory_Quantum_Mechanics_(Fitzpatrick)/03:_Fundamentals_of_Quantum_Mechanics/3.08:_Eigenstates_and_Eigenvalues\nSnippet: This page explains eigenstates and eigenvalues of Hermitian operators in quantum mechanics, where eigenstates remain proportional after the operator acts on them, and eigenvalues are real. It covers …",
+          "searched_at": "2026-05-05_17-07-18",
+          "attempt_number": 2
+        },
+        {
+          "status": "ok",
+          "query": "Eigenstate An eigenstate is a quantum state where measuring a specific observable (like energy or spin) always yields the site:edu physics",
+          "results": [
+            {
+              "title": "Eigenstates and Eigenvalues",
+              "url": "https://farside.ph.utexas.edu/teaching/qmech/Quantum/node40.html",
+              "domain": "farside.ph.utexas.edu",
+              "snippet": "Thus, the eigenstate is a state which is associated with a unique value of the dynamical variable corresponding to . This unique value is simply the associated eigenvalue."
+            },
+            {
+              "title": "CHM 305 - Lecture 5 - Quantum Operators and Eigenfunctions",
+              "url": "https://weichman.princeton.edu/wp-content/uploads/2024/10/chm305_2024_lecture5.pdf",
+              "domain": "weichman.princeton.edu",
+              "snippet": "In quantum mechanics, eigenvalues are always real and represent measurable values of the observable. Using the Hamiltonian operator as an example, our observable is energy and the eigenvalue En represents the energy of the system when it is in the ψn(x) eigenstate (or stationary state)."
+            },
+            {
+              "title": "Eigenvalues and Eigenfunctions - HyperPhysics",
+              "url": "http://www.hyperphysics.phy-astr.gsu.edu/hbase/quantum/eigen.html",
+              "domain": "hyperphysics.phy-astr.gsu.edu",
+              "snippet": "To obtain specific values for physical parameters, for example energy, you operate on the wavefunction with the quantum mechanical operator associated with that parameter. The operator associated with energy is the Hamiltonian, and the operation on the wavefunction is the Schrodinger equation."
+            },
+            {
+              "title": "Quantum Mechanics - University of Tennessee",
+              "url": "https://labs.phys.utk.edu/mbreinig/phys222core/modules/m10/quantum_mechanics.html",
+              "domain": "labs.phys.utk.edu",
+              "snippet": "In quantum mechanics, a measurement of an observable yields a value, called an eigenvalue of the observable. Right after the measurement, the state of the system is an eigenstate of the observable, which means that the value of the observable is exactly known."
+            },
+            {
+              "title": "Quantum Physics II, Lecture Notes 1 - MIT OpenCourseWare",
+              "url": "https://ocw.mit.edu/courses/8-05-quantum-physics-ii-fall-2013/61bc31b8d8bf0680c322733910a71aa0_MIT8_05F13_Chap_01.pdf",
+              "domain": "ocw.mit.edu",
+              "snippet": "A solution ψ(x) associated with an energy E is called an energy eigenstate of energy E. The set of all allowed values of E is called the spectrum of the Hamiltonian Hˆ ."
+            }
+          ],
+          "urls": [
+            "https://farside.ph.utexas.edu/teaching/qmech/Quantum/node40.html",
+            "https://weichman.princeton.edu/wp-content/uploads/2024/10/chm305_2024_lecture5.pdf",
+            "http://www.hyperphysics.phy-astr.gsu.edu/hbase/quantum/eigen.html",
+            "https://labs.phys.utk.edu/mbreinig/phys222core/modules/m10/quantum_mechanics.html",
+            "https://ocw.mit.edu/courses/8-05-quantum-physics-ii-fall-2013/61bc31b8d8bf0680c322733910a71aa0_MIT8_05F13_Chap_01.pdf"
+          ],
+          "result_snippet": "[1] Eigenstates and Eigenvalues\nURL: https://farside.ph.utexas.edu/teaching/qmech/Quantum/node40.html\nSnippet: Thus, the eigenstate is a state which is associated with a unique value of the dynamical variable corresponding to . This unique value is simply the associated eigenvalue.\n\n[2] CHM 305 - Lecture 5 - Quantum Operators and Eigenfunctions\nURL: https://weichman.princeton.edu/wp-content/uploads/2024/10/chm305_2024_lecture5.pdf\nSnippet: In quantum mechanics, eigenvalues are always real and represent measurable values of the observable. Using the Hamiltonian operator as an example, our observable is energy and the eigenvalue En represents the energy of the system when it is in the ψn(x) eigenstate (or stationary state).\n\n[3] Eigenvalues and Eigenfunctions - HyperPhysics\nURL: http://www.hyperphysics.phy-astr.gsu.edu/hbase/quantum/eigen.html\nSnippet: To obtain specific values for physical parameters, for example energy, you operate on the wavefunction with the quantum mechanical operator associated with that parameter. The operator associated with energy is the Hamiltonian, and the operation on the wavefunction is the Schrodinger equation.\n\n[4] Quantum Mechanics - University of Tennessee\nURL: https://labs.phys.utk.edu/mbreinig/phys222core/modules/m10/quantum_mechanics.html\nSnippet: In quantum mechanics, a measurement of an observable yields a value, called an eigenvalue of the observable. Right after the measurement, the state of the system is an eigenstate of the observable, which means that the value of the observable is exactly known.\n\n[5] Quantum Physics II, Lecture Notes 1 - MIT OpenCourseWare\nURL: https://ocw.mit.edu/courses/8-05-quantum-physics-ii-fall-2013/61bc31b8d8bf0680c322733910a71aa0_MIT8_05F13_Chap_01.pdf\nSnippet: A solution ψ(x) associated with an energy E is called an energy eigenstate of energy E. The set of all allowed values of E is called the spectrum of the Hamiltonian Hˆ .",
+          "searched_at": "2026-05-05_17-15-26",
+          "attempt_number": 3
+        }
+      ],
+      "query": "Eigenstate An eigenstate is a quantum state where measuring a specific observable (like energy or spin) always yields the site:edu physics",
+      "search_status": "ok",
+      "result_snippet": "[1] Eigenstates and Eigenvalues\nURL: https://farside.ph.utexas.edu/teaching/qmech/Quantum/node40.html\nSnippet: Thus, the eigenstate is a state which is associated with a unique value of the dynamical variable corresponding to . This unique value is simply the associated eigenvalue.\n\n[2] CHM 305 - Lecture 5 - Quantum Operators and Eigenfunctions\nURL: https://weichman.princeton.edu/wp-content/uploads/2024/10/chm305_2024_lecture5.pdf\nSnippet: In quantum mechanics, eigenvalues are always real and represent measurable values of the observable. Using the Hamiltonian operator as an example, our observable is energy and the eigenvalue En represents the energy of the system when it is in the ψn(x) eigenstate (or stationary state).\n\n[3] Eigenvalues and Eigenfunctions - HyperPhysics\nURL: http://www.hyperphysics.phy-astr.gsu.edu/hbase/quantum/eigen.html\nSnippet: To obtain specific values for physical parameters, for example energy, you operate on the wavefunction with the quantum mechanical operator associated with that parameter. The operator associated with energy is the Hamiltonian, and the operation on the wavefunction is the Schrodinger equation.\n\n[4] Quantum Mechanics - University of Tennessee\nURL: https://labs.phys.utk.edu/mbreinig/phys222core/modules/m10/quantum_mechanics.html\nSnippet: In quantum mechanics, a measurement of an observable yields a value, called an eigenvalue of the observable. Right after the measurement, the state of the system is an eigenstate of the observable, which means that the value of the observable is exactly known.\n\n[5] Quantum Physics II, Lecture Notes 1 - MIT OpenCourseWare\nURL: https://ocw.mit.edu/courses/8-05-quantum-physics-ii-fall-2013/61bc31b8d8bf0680c322733910a71aa0_MIT8_05F13_Chap_01.pdf\nSnippet: A solution ψ(x) associated with an energy E is called an energy eigenstate of energy E. The set of all allowed values of E is called the spectrum of the Hamiltonian Hˆ .",
+      "results": [
+        {
+          "title": "Eigenstates and Eigenvalues",
+          "url": "https://farside.ph.utexas.edu/teaching/qmech/Quantum/node40.html",
+          "domain": "farside.ph.utexas.edu",
+          "snippet": "Thus, the eigenstate is a state which is associated with a unique value of the dynamical variable corresponding to . This unique value is simply the associated eigenvalue."
+        },
+        {
+          "title": "CHM 305 - Lecture 5 - Quantum Operators and Eigenfunctions",
+          "url": "https://weichman.princeton.edu/wp-content/uploads/2024/10/chm305_2024_lecture5.pdf",
+          "domain": "weichman.princeton.edu",
+          "snippet": "In quantum mechanics, eigenvalues are always real and represent measurable values of the observable. Using the Hamiltonian operator as an example, our observable is energy and the eigenvalue En represents the energy of the system when it is in the ψn(x) eigenstate (or stationary state)."
+        },
+        {
+          "title": "Eigenvalues and Eigenfunctions - HyperPhysics",
+          "url": "http://www.hyperphysics.phy-astr.gsu.edu/hbase/quantum/eigen.html",
+          "domain": "hyperphysics.phy-astr.gsu.edu",
+          "snippet": "To obtain specific values for physical parameters, for example energy, you operate on the wavefunction with the quantum mechanical operator associated with that parameter. The operator associated with energy is the Hamiltonian, and the operation on the wavefunction is the Schrodinger equation."
+        },
+        {
+          "title": "Quantum Mechanics - University of Tennessee",
+          "url": "https://labs.phys.utk.edu/mbreinig/phys222core/modules/m10/quantum_mechanics.html",
+          "domain": "labs.phys.utk.edu",
+          "snippet": "In quantum mechanics, a measurement of an observable yields a value, called an eigenvalue of the observable. Right after the measurement, the state of the system is an eigenstate of the observable, which means that the value of the observable is exactly known."
+        },
+        {
+          "title": "Quantum Physics II, Lecture Notes 1 - MIT OpenCourseWare",
+          "url": "https://ocw.mit.edu/courses/8-05-quantum-physics-ii-fall-2013/61bc31b8d8bf0680c322733910a71aa0_MIT8_05F13_Chap_01.pdf",
+          "domain": "ocw.mit.edu",
+          "snippet": "A solution ψ(x) associated with an energy E is called an energy eigenstate of energy E. The set of all allowed values of E is called the spectrum of the Hamiltonian Hˆ ."
+        }
+      ],
+      "urls": [
+        "https://farside.ph.utexas.edu/teaching/qmech/Quantum/node40.html",
+        "https://weichman.princeton.edu/wp-content/uploads/2024/10/chm305_2024_lecture5.pdf",
+        "http://www.hyperphysics.phy-astr.gsu.edu/hbase/quantum/eigen.html",
+        "https://labs.phys.utk.edu/mbreinig/phys222core/modules/m10/quantum_mechanics.html",
+        "https://ocw.mit.edu/courses/8-05-quantum-physics-ii-fall-2013/61bc31b8d8bf0680c322733910a71aa0_MIT8_05F13_Chap_01.pdf"
+      ],
+      "attempt_count": 3,
+      "searched_at": "2026-05-05_17-15-26",
+      "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
+    },
+    "C002": {
+      "claim": "Eigenstates are mathematically defined by the equation $\\hat{A} | \\psi \\rangle = a | \\psi \\rangle$, where $\\hat{A}$ is an observable operator and $a$ is the definite measurement value.",
+      "search_attempts": [
+        {
+          "status": "ok",
+          "query": "quantum eigenstate mathematical definition Sakurai",
+          "results": [
+            {
+              "title": "Bra-ket notation - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Bra–ket_notation",
+              "domain": "en.wikipedia.org",
+              "snippet": "The mathematical structure of quantum mechanics is based in large part on linear algebra: Wave functions and other quantum states can be represented as vectors in a separable complex Hilbert space. (The exact structure of this Hilbert space depends on the situation.) In bra-ket notation, for example, an electron might be in the \"state\" |ψ ."
+            },
+            {
+              "title": "3.8: Eigenstates and Eigenvalues - Physics LibreTexts",
+              "url": "https://phys.libretexts.org/Bookshelves/Quantum_Mechanics/Introductory_Quantum_Mechanics_(Fitzpatrick)/03:_Fundamentals_of_Quantum_Mechanics/3.08:_Eigenstates_and_Eigenvalues",
+              "domain": "phys.libretexts.org",
+              "snippet": "This page explains eigenstates and eigenvalues of Hermitian operators in quantum mechanics, where eigenstates remain proportional after the operator acts on them, and eigenvalues are real. It covers …"
+            },
+            {
+              "title": "Chapter 4: Energy and the Hamiltonian - Quantum Mechanics",
+              "url": "https://paulskrzypczyk.github.io/qm-lecturenotes-new/energy/",
+              "domain": "paulskrzypczyk.github.io",
+              "snippet": "Much of the intricacies of how quantum particles behave derives, ultimately, from the fact that these two contributions to energy are incompatible with each other. 4.2 Energy eigenstates A quantum state where the particle has definite energy corresponds to an eigenstate of the Hamiltonian H ^ H ^."
+            },
+            {
+              "title": "Eigenvectors and Eigenvalues: The Quantum Computing Secret Sauce",
+              "url": "https://dev.to/malcolmlow/eigenvectors-and-eigenvalues-the-quantum-computing-secret-sauce-no-phd-required-2dpa",
+              "domain": "dev.to",
+              "snippet": "Eigenvectors and Eigenvalues: The Quantum Computing Secret Sauce Ever wondered what makes quantum computers so powerful? At the heart of quantum mechanics—and thus quantum computing—lies a pair of mathematical twins: eigenvectors and eigenvalues. Don't worry, no advanced linear algebra background needed. Let's break it down with everyday analogies."
+            },
+            {
+              "title": "Sakurai Solutions 1-23-26 | PDF | Eigenvalues And Eigenvectors ...",
+              "url": "https://www.scribd.com/document/345840938/Sakurai-Solutions-1-23-26",
+              "domain": "scribd.com",
+              "snippet": "Sakurai Solutions 1-23-26 This document contains notes from an NRQM class. It summarizes two problems, 23 and 26, regarding characteristic polynomials and eigenvectors of matrices and using unitary transformations to diagonalize matrices."
+            }
+          ],
+          "urls": [
+            "https://en.wikipedia.org/wiki/Bra–ket_notation",
+            "https://phys.libretexts.org/Bookshelves/Quantum_Mechanics/Introductory_Quantum_Mechanics_(Fitzpatrick)/03:_Fundamentals_of_Quantum_Mechanics/3.08:_Eigenstates_and_Eigenvalues",
+            "https://paulskrzypczyk.github.io/qm-lecturenotes-new/energy/",
+            "https://dev.to/malcolmlow/eigenvectors-and-eigenvalues-the-quantum-computing-secret-sauce-no-phd-required-2dpa",
+            "https://www.scribd.com/document/345840938/Sakurai-Solutions-1-23-26"
+          ],
+          "result_snippet": "[1] Bra-ket notation - Wikipedia\nURL: https://en.wikipedia.org/wiki/Bra–ket_notation\nSnippet: The mathematical structure of quantum mechanics is based in large part on linear algebra: Wave functions and other quantum states can be represented as vectors in a separable complex Hilbert space. (The exact structure of this Hilbert space depends on the situation.) In bra-ket notation, for example, an electron might be in the \"state\" |ψ .\n\n[2] 3.8: Eigenstates and Eigenvalues - Physics LibreTexts\nURL: https://phys.libretexts.org/Bookshelves/Quantum_Mechanics/Introductory_Quantum_Mechanics_(Fitzpatrick)/03:_Fundamentals_of_Quantum_Mechanics/3.08:_Eigenstates_and_Eigenvalues\nSnippet: This page explains eigenstates and eigenvalues of Hermitian operators in quantum mechanics, where eigenstates remain proportional after the operator acts on them, and eigenvalues are real. It covers …\n\n[3] Chapter 4: Energy and the Hamiltonian - Quantum Mechanics\nURL: https://paulskrzypczyk.github.io/qm-lecturenotes-new/energy/\nSnippet: Much of the intricacies of how quantum particles behave derives, ultimately, from the fact that these two contributions to energy are incompatible with each other. 4.2 Energy eigenstates A quantum state where the particle has definite energy corresponds to an eigenstate of the Hamiltonian H ^ H ^.\n\n[4] Eigenvectors and Eigenvalues: The Quantum Computing Secret Sauce\nURL: https://dev.to/malcolmlow/eigenvectors-and-eigenvalues-the-quantum-computing-secret-sauce-no-phd-required-2dpa\nSnippet: Eigenvectors and Eigenvalues: The Quantum Computing Secret Sauce Ever wondered what makes quantum computers so powerful? At the heart of quantum mechanics—and thus quantum computing—lies a pair of mathematical twins: eigenvectors and eigenvalues. Don't worry, no advanced linear algebra background needed. Let's break it down with everyday analogies.\n\n[5] Sakurai Solutions 1-23-26 | PDF | Eigenvalues And Eigenvectors ...\nURL: https://www.scribd.com/document/345840938/Sakurai-Solutions-1-23-26\nSnippet: Sakurai Solutions 1-23-26 This document contains notes from an NRQM class. It summarizes two problems, 23 and 26, regarding characteristic polynomials and eigenvectors of matrices and using unitary transformations to diagonalize matrices.",
+          "searched_at": "2026-05-05_16-59-12",
+          "attempt_number": 1
+        }
+      ],
+      "query": "quantum eigenstate mathematical definition Sakurai",
+      "search_status": "ok",
+      "result_snippet": "[1] Bra-ket notation - Wikipedia\nURL: https://en.wikipedia.org/wiki/Bra–ket_notation\nSnippet: The mathematical structure of quantum mechanics is based in large part on linear algebra: Wave functions and other quantum states can be represented as vectors in a separable complex Hilbert space. (The exact structure of this Hilbert space depends on the situation.) In bra-ket notation, for example, an electron might be in the \"state\" |ψ .\n\n[2] 3.8: Eigenstates and Eigenvalues - Physics LibreTexts\nURL: https://phys.libretexts.org/Bookshelves/Quantum_Mechanics/Introductory_Quantum_Mechanics_(Fitzpatrick)/03:_Fundamentals_of_Quantum_Mechanics/3.08:_Eigenstates_and_Eigenvalues\nSnippet: This page explains eigenstates and eigenvalues of Hermitian operators in quantum mechanics, where eigenstates remain proportional after the operator acts on them, and eigenvalues are real. It covers …\n\n[3] Chapter 4: Energy and the Hamiltonian - Quantum Mechanics\nURL: https://paulskrzypczyk.github.io/qm-lecturenotes-new/energy/\nSnippet: Much of the intricacies of how quantum particles behave derives, ultimately, from the fact that these two contributions to energy are incompatible with each other. 4.2 Energy eigenstates A quantum state where the particle has definite energy corresponds to an eigenstate of the Hamiltonian H ^ H ^.\n\n[4] Eigenvectors and Eigenvalues: The Quantum Computing Secret Sauce\nURL: https://dev.to/malcolmlow/eigenvectors-and-eigenvalues-the-quantum-computing-secret-sauce-no-phd-required-2dpa\nSnippet: Eigenvectors and Eigenvalues: The Quantum Computing Secret Sauce Ever wondered what makes quantum computers so powerful? At the heart of quantum mechanics—and thus quantum computing—lies a pair of mathematical twins: eigenvectors and eigenvalues. Don't worry, no advanced linear algebra background needed. Let's break it down with everyday analogies.\n\n[5] Sakurai Solutions 1-23-26 | PDF | Eigenvalues And Eigenvectors ...\nURL: https://www.scribd.com/document/345840938/Sakurai-Solutions-1-23-26\nSnippet: Sakurai Solutions 1-23-26 This document contains notes from an NRQM class. It summarizes two problems, 23 and 26, regarding characteristic polynomials and eigenvectors of matrices and using unitary transformations to diagonalize matrices.",
+      "results": [
+        {
+          "title": "Bra-ket notation - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Bra–ket_notation",
+          "domain": "en.wikipedia.org",
+          "snippet": "The mathematical structure of quantum mechanics is based in large part on linear algebra: Wave functions and other quantum states can be represented as vectors in a separable complex Hilbert space. (The exact structure of this Hilbert space depends on the situation.) In bra-ket notation, for example, an electron might be in the \"state\" |ψ ."
+        },
+        {
+          "title": "3.8: Eigenstates and Eigenvalues - Physics LibreTexts",
+          "url": "https://phys.libretexts.org/Bookshelves/Quantum_Mechanics/Introductory_Quantum_Mechanics_(Fitzpatrick)/03:_Fundamentals_of_Quantum_Mechanics/3.08:_Eigenstates_and_Eigenvalues",
+          "domain": "phys.libretexts.org",
+          "snippet": "This page explains eigenstates and eigenvalues of Hermitian operators in quantum mechanics, where eigenstates remain proportional after the operator acts on them, and eigenvalues are real. It covers …"
+        },
+        {
+          "title": "Chapter 4: Energy and the Hamiltonian - Quantum Mechanics",
+          "url": "https://paulskrzypczyk.github.io/qm-lecturenotes-new/energy/",
+          "domain": "paulskrzypczyk.github.io",
+          "snippet": "Much of the intricacies of how quantum particles behave derives, ultimately, from the fact that these two contributions to energy are incompatible with each other. 4.2 Energy eigenstates A quantum state where the particle has definite energy corresponds to an eigenstate of the Hamiltonian H ^ H ^."
+        },
+        {
+          "title": "Eigenvectors and Eigenvalues: The Quantum Computing Secret Sauce",
+          "url": "https://dev.to/malcolmlow/eigenvectors-and-eigenvalues-the-quantum-computing-secret-sauce-no-phd-required-2dpa",
+          "domain": "dev.to",
+          "snippet": "Eigenvectors and Eigenvalues: The Quantum Computing Secret Sauce Ever wondered what makes quantum computers so powerful? At the heart of quantum mechanics—and thus quantum computing—lies a pair of mathematical twins: eigenvectors and eigenvalues. Don't worry, no advanced linear algebra background needed. Let's break it down with everyday analogies."
+        },
+        {
+          "title": "Sakurai Solutions 1-23-26 | PDF | Eigenvalues And Eigenvectors ...",
+          "url": "https://www.scribd.com/document/345840938/Sakurai-Solutions-1-23-26",
+          "domain": "scribd.com",
+          "snippet": "Sakurai Solutions 1-23-26 This document contains notes from an NRQM class. It summarizes two problems, 23 and 26, regarding characteristic polynomials and eigenvectors of matrices and using unitary transformations to diagonalize matrices."
+        }
+      ],
+      "urls": [
+        "https://en.wikipedia.org/wiki/Bra–ket_notation",
+        "https://phys.libretexts.org/Bookshelves/Quantum_Mechanics/Introductory_Quantum_Mechanics_(Fitzpatrick)/03:_Fundamentals_of_Quantum_Mechanics/3.08:_Eigenstates_and_Eigenvalues",
+        "https://paulskrzypczyk.github.io/qm-lecturenotes-new/energy/",
+        "https://dev.to/malcolmlow/eigenvectors-and-eigenvalues-the-quantum-computing-secret-sauce-no-phd-required-2dpa",
+        "https://www.scribd.com/document/345840938/Sakurai-Solutions-1-23-26"
+      ],
+      "attempt_count": 1,
+      "searched_at": "2026-05-05_16-59-12",
+      "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
+    },
+    "C003": {
+      "claim": "Eigenstates are not physical entities but mathematical tools that encode probabilistic certainty for measurement outcomes.",
+      "search_attempts": [
+        {
+          "status": "ok",
+          "query": "eigenstate vs physical reality quantum mechanics",
+          "results": [
+            {
+              "title": "Wave function collapse - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Wave_function_collapse",
+              "domain": "en.wikipedia.org",
+              "snippet": "In various interpretations of quantum mechanics, wave function collapse, also called reduction of the state vector, [1] occurs when a wave function —initially in a superposition of several eigenstates —reduces to a single eigenstate due to interaction with the external world."
+            },
+            {
+              "title": "3.8: Eigenstates and Eigenvalues - Physics LibreTexts",
+              "url": "https://phys.libretexts.org/Bookshelves/Quantum_Mechanics/Introductory_Quantum_Mechanics_(Fitzpatrick)/03:_Fundamentals_of_Quantum_Mechanics/3.08:_Eigenstates_and_Eigenvalues",
+              "domain": "phys.libretexts.org",
+              "snippet": "Mar 13, 2026 · This page explains eigenstates and eigenvalues of Hermitian operators in quantum mechanics, where eigenstates remain proportional after the operator acts on them, and eigenvalues are real."
+            },
+            {
+              "title": "Eigenstates and eigenvalues | Intro to Quantum Mechanics I ...",
+              "url": "https://fiveable.me/introduction-quantum-mechanics-i/unit-5/eigenstates-eigenvalues/study-guide/qWAm5BY36JSn8UMX",
+              "domain": "fiveable.me",
+              "snippet": "These ideas form the foundation for quantum superposition and help us solve complex problems. By breaking down quantum states into eigenstates, we can better understand and analyze the behavior of particles and systems in quantum mechanics."
+            },
+            {
+              "title": "What Is an Eigenstate? Definition, Types, and Properties",
+              "url": "https://scienceinsights.org/what-is-an-eigenstate-definition-types-and-properties/",
+              "domain": "scienceinsights.org",
+              "snippet": "Mar 13, 2026 · In quantum mechanics, particles don’t usually have fixed values for things like energy, position, or spin. Instead, they exist in fuzzy combinations of possibilities. An eigenstate is the exception: it’s a state where one particular property has a precise, predictable value."
+            },
+            {
+              "title": "1 The foundations of quantum mechanics - Stanford University",
+              "url": "https://web.stanford.edu/~oas/SI/QM/atkins_mqm_ch01.pdf",
+              "domain": "web.stanford.edu",
+              "snippet": "Operators in quantum mechanics namical variable that can be measured. The principal mathematical difference between classical mechanics and quantum mechan-ics is that whereas in the former physical observables are represented by functions (such as position as a function of time), in quantum mechanics they are"
+            }
+          ],
+          "urls": [
+            "https://en.wikipedia.org/wiki/Wave_function_collapse",
+            "https://phys.libretexts.org/Bookshelves/Quantum_Mechanics/Introductory_Quantum_Mechanics_(Fitzpatrick)/03:_Fundamentals_of_Quantum_Mechanics/3.08:_Eigenstates_and_Eigenvalues",
+            "https://fiveable.me/introduction-quantum-mechanics-i/unit-5/eigenstates-eigenvalues/study-guide/qWAm5BY36JSn8UMX",
+            "https://scienceinsights.org/what-is-an-eigenstate-definition-types-and-properties/",
+            "https://web.stanford.edu/~oas/SI/QM/atkins_mqm_ch01.pdf"
+          ],
+          "result_snippet": "[1] Wave function collapse - Wikipedia\nURL: https://en.wikipedia.org/wiki/Wave_function_collapse\nSnippet: In various interpretations of quantum mechanics, wave function collapse, also called reduction of the state vector, [1] occurs when a wave function —initially in a superposition of several eigenstates —reduces to a single eigenstate due to interaction with the external world.\n\n[2] 3.8: Eigenstates and Eigenvalues - Physics LibreTexts\nURL: https://phys.libretexts.org/Bookshelves/Quantum_Mechanics/Introductory_Quantum_Mechanics_(Fitzpatrick)/03:_Fundamentals_of_Quantum_Mechanics/3.08:_Eigenstates_and_Eigenvalues\nSnippet: Mar 13, 2026 · This page explains eigenstates and eigenvalues of Hermitian operators in quantum mechanics, where eigenstates remain proportional after the operator acts on them, and eigenvalues are real.\n\n[3] Eigenstates and eigenvalues | Intro to Quantum Mechanics I ...\nURL: https://fiveable.me/introduction-quantum-mechanics-i/unit-5/eigenstates-eigenvalues/study-guide/qWAm5BY36JSn8UMX\nSnippet: These ideas form the foundation for quantum superposition and help us solve complex problems. By breaking down quantum states into eigenstates, we can better understand and analyze the behavior of particles and systems in quantum mechanics.\n\n[4] What Is an Eigenstate? Definition, Types, and Properties\nURL: https://scienceinsights.org/what-is-an-eigenstate-definition-types-and-properties/\nSnippet: Mar 13, 2026 · In quantum mechanics, particles don’t usually have fixed values for things like energy, position, or spin. Instead, they exist in fuzzy combinations of possibilities. An eigenstate is the exception: it’s a state where one particular property has a precise, predictable value.\n\n[5] 1 The foundations of quantum mechanics - Stanford University\nURL: https://web.stanford.edu/~oas/SI/QM/atkins_mqm_ch01.pdf\nSnippet: Operators in quantum mechanics namical variable that can be measured. The principal mathematical difference between classical mechanics and quantum mechan-ics is that whereas in the former physical observables are represented by functions (such as position as a function of time), in quantum mechanics they are",
+          "searched_at": "2026-05-05_16-59-13",
+          "attempt_number": 1
+        }
+      ],
+      "query": "eigenstate vs physical reality quantum mechanics",
+      "search_status": "ok",
+      "result_snippet": "[1] Wave function collapse - Wikipedia\nURL: https://en.wikipedia.org/wiki/Wave_function_collapse\nSnippet: In various interpretations of quantum mechanics, wave function collapse, also called reduction of the state vector, [1] occurs when a wave function —initially in a superposition of several eigenstates —reduces to a single eigenstate due to interaction with the external world.\n\n[2] 3.8: Eigenstates and Eigenvalues - Physics LibreTexts\nURL: https://phys.libretexts.org/Bookshelves/Quantum_Mechanics/Introductory_Quantum_Mechanics_(Fitzpatrick)/03:_Fundamentals_of_Quantum_Mechanics/3.08:_Eigenstates_and_Eigenvalues\nSnippet: Mar 13, 2026 · This page explains eigenstates and eigenvalues of Hermitian operators in quantum mechanics, where eigenstates remain proportional after the operator acts on them, and eigenvalues are real.\n\n[3] Eigenstates and eigenvalues | Intro to Quantum Mechanics I ...\nURL: https://fiveable.me/introduction-quantum-mechanics-i/unit-5/eigenstates-eigenvalues/study-guide/qWAm5BY36JSn8UMX\nSnippet: These ideas form the foundation for quantum superposition and help us solve complex problems. By breaking down quantum states into eigenstates, we can better understand and analyze the behavior of particles and systems in quantum mechanics.\n\n[4] What Is an Eigenstate? Definition, Types, and Properties\nURL: https://scienceinsights.org/what-is-an-eigenstate-definition-types-and-properties/\nSnippet: Mar 13, 2026 · In quantum mechanics, particles don’t usually have fixed values for things like energy, position, or spin. Instead, they exist in fuzzy combinations of possibilities. An eigenstate is the exception: it’s a state where one particular property has a precise, predictable value.\n\n[5] 1 The foundations of quantum mechanics - Stanford University\nURL: https://web.stanford.edu/~oas/SI/QM/atkins_mqm_ch01.pdf\nSnippet: Operators in quantum mechanics namical variable that can be measured. The principal mathematical difference between classical mechanics and quantum mechan-ics is that whereas in the former physical observables are represented by functions (such as position as a function of time), in quantum mechanics they are",
+      "results": [
+        {
+          "title": "Wave function collapse - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Wave_function_collapse",
+          "domain": "en.wikipedia.org",
+          "snippet": "In various interpretations of quantum mechanics, wave function collapse, also called reduction of the state vector, [1] occurs when a wave function —initially in a superposition of several eigenstates —reduces to a single eigenstate due to interaction with the external world."
+        },
+        {
+          "title": "3.8: Eigenstates and Eigenvalues - Physics LibreTexts",
+          "url": "https://phys.libretexts.org/Bookshelves/Quantum_Mechanics/Introductory_Quantum_Mechanics_(Fitzpatrick)/03:_Fundamentals_of_Quantum_Mechanics/3.08:_Eigenstates_and_Eigenvalues",
+          "domain": "phys.libretexts.org",
+          "snippet": "Mar 13, 2026 · This page explains eigenstates and eigenvalues of Hermitian operators in quantum mechanics, where eigenstates remain proportional after the operator acts on them, and eigenvalues are real."
+        },
+        {
+          "title": "Eigenstates and eigenvalues | Intro to Quantum Mechanics I ...",
+          "url": "https://fiveable.me/introduction-quantum-mechanics-i/unit-5/eigenstates-eigenvalues/study-guide/qWAm5BY36JSn8UMX",
+          "domain": "fiveable.me",
+          "snippet": "These ideas form the foundation for quantum superposition and help us solve complex problems. By breaking down quantum states into eigenstates, we can better understand and analyze the behavior of particles and systems in quantum mechanics."
+        },
+        {
+          "title": "What Is an Eigenstate? Definition, Types, and Properties",
+          "url": "https://scienceinsights.org/what-is-an-eigenstate-definition-types-and-properties/",
+          "domain": "scienceinsights.org",
+          "snippet": "Mar 13, 2026 · In quantum mechanics, particles don’t usually have fixed values for things like energy, position, or spin. Instead, they exist in fuzzy combinations of possibilities. An eigenstate is the exception: it’s a state where one particular property has a precise, predictable value."
+        },
+        {
+          "title": "1 The foundations of quantum mechanics - Stanford University",
+          "url": "https://web.stanford.edu/~oas/SI/QM/atkins_mqm_ch01.pdf",
+          "domain": "web.stanford.edu",
+          "snippet": "Operators in quantum mechanics namical variable that can be measured. The principal mathematical difference between classical mechanics and quantum mechan-ics is that whereas in the former physical observables are represented by functions (such as position as a function of time), in quantum mechanics they are"
+        }
+      ],
+      "urls": [
+        "https://en.wikipedia.org/wiki/Wave_function_collapse",
+        "https://phys.libretexts.org/Bookshelves/Quantum_Mechanics/Introductory_Quantum_Mechanics_(Fitzpatrick)/03:_Fundamentals_of_Quantum_Mechanics/3.08:_Eigenstates_and_Eigenvalues",
+        "https://fiveable.me/introduction-quantum-mechanics-i/unit-5/eigenstates-eigenvalues/study-guide/qWAm5BY36JSn8UMX",
+        "https://scienceinsights.org/what-is-an-eigenstate-definition-types-and-properties/",
+        "https://web.stanford.edu/~oas/SI/QM/atkins_mqm_ch01.pdf"
+      ],
+      "attempt_count": 1,
+      "searched_at": "2026-05-05_16-59-13",
+      "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
+    },
+    "C005": {
+      "claim": "Eigenstates are foundational to explaining atomic energy levels and discrete quantum transitions.",
+      "search_attempts": [
+        {
+          "status": "ok",
+          "query": "eigenstate atomic energy levels examples",
+          "results": [
+            {
+              "title": "Energy level - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Energy_level",
+              "domain": "en.wikipedia.org",
+              "snippet": "February 20, 2026 - Informally, these states correspond ... and so on). Elementary examples that show mathematically how energy levels come about are the particle in a box and the quantum harmonic oscillator...."
+            },
+            {
+              "title": "Degenerate energy levels - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Degenerate_energy_levels",
+              "domain": "en.wikipedia.org",
+              "snippet": "January 19, 2026 - The symmetry multiplets in this case are the Landau levels which are infinitely degenerate. In atomic physics, the bound states of an electron in a hydrogen atom show us useful examples of degeneracy. In this case, the Hamiltonian commutes with the total orbital angular momentum ... The energy levels in the hydrogen atom depend only on the principal quantum number n."
+            },
+            {
+              "title": "Hydrogen atom - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Hydrogen_atom",
+              "domain": "en.wikipedia.org",
+              "snippet": "December 31, 2025 - Again the Dirac equation may be solved analytically in the special case of a two-body system, such as the hydrogen atom. The resulting solution quantum states now must be classified by the total angular momentum number j (arising through the coupling between electron spin and orbital angular momentum). States of the same j and the same n are still degenerate. Thus, direct analytical solution of Dirac equation predicts 2S( ... 1/2) levels of hydrogen to have exactly the same energy, which is in a contradiction with observations (Lamb–Retherford experiment)."
+            },
+            {
+              "title": "Quantum harmonic oscillator - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Quantum_harmonic_oscillator",
+              "domain": "en.wikipedia.org",
+              "snippet": "1 week ago - First, the energies are quantized, meaning that only discrete energy values (integer-plus-half multiples of ħω) are possible; this is a general feature of quantum-mechanical systems when a particle is confined. Second, these discrete energy levels are equally spaced, unlike in the Bohr model of the atom, or the particle in a box."
+            },
+            {
+              "title": "Wave function - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Wave_function",
+              "domain": "en.wikipedia.org",
+              "snippet": "3 weeks ago - In the case of non separable Hamiltonians, energy eigenstates are said to be some linear combination of such states, which need not be factorizable; examples include a particle in a magnetic field, and spin–orbit coupling."
+            }
+          ],
+          "urls": [
+            "https://en.wikipedia.org/wiki/Energy_level",
+            "https://en.wikipedia.org/wiki/Degenerate_energy_levels",
+            "https://en.wikipedia.org/wiki/Hydrogen_atom",
+            "https://en.wikipedia.org/wiki/Quantum_harmonic_oscillator",
+            "https://en.wikipedia.org/wiki/Wave_function"
+          ],
+          "result_snippet": "[1] Energy level - Wikipedia\nURL: https://en.wikipedia.org/wiki/Energy_level\nSnippet: February 20, 2026 - Informally, these states correspond ... and so on). Elementary examples that show mathematically how energy levels come about are the particle in a box and the quantum harmonic oscillator....\n\n[2] Degenerate energy levels - Wikipedia\nURL: https://en.wikipedia.org/wiki/Degenerate_energy_levels\nSnippet: January 19, 2026 - The symmetry multiplets in this case are the Landau levels which are infinitely degenerate. In atomic physics, the bound states of an electron in a hydrogen atom show us useful examples of degeneracy. In this case, the Hamiltonian commutes with the total orbital angular momentum ... The energy levels in the hydrogen atom depend only on the principal quantum number n.\n\n[3] Hydrogen atom - Wikipedia\nURL: https://en.wikipedia.org/wiki/Hydrogen_atom\nSnippet: December 31, 2025 - Again the Dirac equation may be solved analytically in the special case of a two-body system, such as the hydrogen atom. The resulting solution quantum states now must be classified by the total angular momentum number j (arising through the coupling between electron spin and orbital angular momentum). States of the same j and the same n are still degenerate. Thus, direct analytical solution of Dirac equation predicts 2S( ... 1/2) levels of hydrogen to have exactly the same energy, which is in a contradiction with observations (Lamb–Retherford experiment).\n\n[4] Quantum harmonic oscillator - Wikipedia\nURL: https://en.wikipedia.org/wiki/Quantum_harmonic_oscillator\nSnippet: 1 week ago - First, the energies are quantized, meaning that only discrete energy values (integer-plus-half multiples of ħω) are possible; this is a general feature of quantum-mechanical systems when a particle is confined. Second, these discrete energy levels are equally spaced, unlike in the Bohr model of the atom, or the particle in a box.\n\n[5] Wave function - Wikipedia\nURL: https://en.wikipedia.org/wiki/Wave_function\nSnippet: 3 weeks ago - In the case of non separable Hamiltonians, energy eigenstates are said to be some linear combination of such states, which need not be factorizable; examples include a particle in a magnetic field, and spin–orbit coupling.",
+          "searched_at": "2026-05-05_17-07-19",
+          "attempt_number": 1
+        }
+      ],
+      "query": "eigenstate atomic energy levels examples",
+      "search_status": "ok",
+      "result_snippet": "[1] Energy level - Wikipedia\nURL: https://en.wikipedia.org/wiki/Energy_level\nSnippet: February 20, 2026 - Informally, these states correspond ... and so on). Elementary examples that show mathematically how energy levels come about are the particle in a box and the quantum harmonic oscillator....\n\n[2] Degenerate energy levels - Wikipedia\nURL: https://en.wikipedia.org/wiki/Degenerate_energy_levels\nSnippet: January 19, 2026 - The symmetry multiplets in this case are the Landau levels which are infinitely degenerate. In atomic physics, the bound states of an electron in a hydrogen atom show us useful examples of degeneracy. In this case, the Hamiltonian commutes with the total orbital angular momentum ... The energy levels in the hydrogen atom depend only on the principal quantum number n.\n\n[3] Hydrogen atom - Wikipedia\nURL: https://en.wikipedia.org/wiki/Hydrogen_atom\nSnippet: December 31, 2025 - Again the Dirac equation may be solved analytically in the special case of a two-body system, such as the hydrogen atom. The resulting solution quantum states now must be classified by the total angular momentum number j (arising through the coupling between electron spin and orbital angular momentum). States of the same j and the same n are still degenerate. Thus, direct analytical solution of Dirac equation predicts 2S( ... 1/2) levels of hydrogen to have exactly the same energy, which is in a contradiction with observations (Lamb–Retherford experiment).\n\n[4] Quantum harmonic oscillator - Wikipedia\nURL: https://en.wikipedia.org/wiki/Quantum_harmonic_oscillator\nSnippet: 1 week ago - First, the energies are quantized, meaning that only discrete energy values (integer-plus-half multiples of ħω) are possible; this is a general feature of quantum-mechanical systems when a particle is confined. Second, these discrete energy levels are equally spaced, unlike in the Bohr model of the atom, or the particle in a box.\n\n[5] Wave function - Wikipedia\nURL: https://en.wikipedia.org/wiki/Wave_function\nSnippet: 3 weeks ago - In the case of non separable Hamiltonians, energy eigenstates are said to be some linear combination of such states, which need not be factorizable; examples include a particle in a magnetic field, and spin–orbit coupling.",
+      "results": [
+        {
+          "title": "Energy level - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Energy_level",
+          "domain": "en.wikipedia.org",
+          "snippet": "February 20, 2026 - Informally, these states correspond ... and so on). Elementary examples that show mathematically how energy levels come about are the particle in a box and the quantum harmonic oscillator...."
+        },
+        {
+          "title": "Degenerate energy levels - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Degenerate_energy_levels",
+          "domain": "en.wikipedia.org",
+          "snippet": "January 19, 2026 - The symmetry multiplets in this case are the Landau levels which are infinitely degenerate. In atomic physics, the bound states of an electron in a hydrogen atom show us useful examples of degeneracy. In this case, the Hamiltonian commutes with the total orbital angular momentum ... The energy levels in the hydrogen atom depend only on the principal quantum number n."
+        },
+        {
+          "title": "Hydrogen atom - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Hydrogen_atom",
+          "domain": "en.wikipedia.org",
+          "snippet": "December 31, 2025 - Again the Dirac equation may be solved analytically in the special case of a two-body system, such as the hydrogen atom. The resulting solution quantum states now must be classified by the total angular momentum number j (arising through the coupling between electron spin and orbital angular momentum). States of the same j and the same n are still degenerate. Thus, direct analytical solution of Dirac equation predicts 2S( ... 1/2) levels of hydrogen to have exactly the same energy, which is in a contradiction with observations (Lamb–Retherford experiment)."
+        },
+        {
+          "title": "Quantum harmonic oscillator - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Quantum_harmonic_oscillator",
+          "domain": "en.wikipedia.org",
+          "snippet": "1 week ago - First, the energies are quantized, meaning that only discrete energy values (integer-plus-half multiples of ħω) are possible; this is a general feature of quantum-mechanical systems when a particle is confined. Second, these discrete energy levels are equally spaced, unlike in the Bohr model of the atom, or the particle in a box."
+        },
+        {
+          "title": "Wave function - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Wave_function",
+          "domain": "en.wikipedia.org",
+          "snippet": "3 weeks ago - In the case of non separable Hamiltonians, energy eigenstates are said to be some linear combination of such states, which need not be factorizable; examples include a particle in a magnetic field, and spin–orbit coupling."
+        }
+      ],
+      "urls": [
+        "https://en.wikipedia.org/wiki/Energy_level",
+        "https://en.wikipedia.org/wiki/Degenerate_energy_levels",
+        "https://en.wikipedia.org/wiki/Hydrogen_atom",
+        "https://en.wikipedia.org/wiki/Quantum_harmonic_oscillator",
+        "https://en.wikipedia.org/wiki/Wave_function"
+      ],
+      "attempt_count": 1,
+      "searched_at": "2026-05-05_17-07-19",
+      "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
+    },
+    "C006": {
+      "claim": "Most quantum states are superpositions of eigenstates, not eigenstates themselves.",
+      "search_attempts": [
+        {
+          "status": "ok",
+          "query": "quantum superposition vs eigenstate",
+          "results": [
+            {
+              "title": "Quantum superposition - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Quantum_superposition",
+              "domain": "en.wikipedia.org",
+              "snippet": "Any quantum state can be expanded as a sum or superposition of the eigenstates of an Hermitian operator, like the Hamiltonian, because the eigenstates form a complete basis:"
+            },
+            {
+              "title": "3.8: Eigenstates and Eigenvalues - Physics LibreTexts",
+              "url": "https://phys.libretexts.org/Bookshelves/Quantum_Mechanics/Introductory_Quantum_Mechanics_(Fitzpatrick)/03:_Fundamentals_of_Quantum_Mechanics/3.08:_Eigenstates_and_Eigenvalues",
+              "domain": "phys.libretexts.org",
+              "snippet": "Mar 13, 2026 · This page explains eigenstates and eigenvalues of Hermitian operators in quantum mechanics, where eigenstates remain proportional after the operator acts on them, and eigenvalues are real."
+            },
+            {
+              "title": "particle physics - Is \"quantum superposition\" just a fancy ...",
+              "url": "https://physics.stackexchange.com/questions/376198/is-quantum-superposition-just-a-fancy-way-of-saying-that-a-system-is-in-one-st",
+              "domain": "physics.stackexchange.com",
+              "snippet": "Dec 25, 2017 · For a particle in a box, we can have an eigenstate of the hamiltonian, which is a standing wave, or an eigenstate of momentum, which is a traveling wave. The standing wave is a superposition of traveling waves, and the traveling wave is a superposition of standing waves."
+            },
+            {
+              "title": "Interpretation of superposition of eigen states and ...",
+              "url": "https://vixra.org/pdf/2302.0038v1.pdf",
+              "domain": "vixra.org",
+              "snippet": "It is obvious that the superposition of eigenstates is not an alternative eigenstate. If the super-position is mathematically possible, then we inevitably encounter the measurement problem. However if not so, the measurement problem should be assessed as having been a misled one from the outset."
+            },
+            {
+              "title": "Lecture 14: Superposition & Time-Dependent Quantum States",
+              "url": "https://courses.physics.illinois.edu/phys214/su2013/lectures/lecture14.pdf",
+              "domain": "courses.physics.illinois.edu",
+              "snippet": "Time-dependence of Superpositions A particle can be in a superposition of states that have different energies. This superposition is still a solution of the time-dependent SEQ, but not of the time-independent SEQ, because two different E’s are involved."
+            }
+          ],
+          "urls": [
+            "https://en.wikipedia.org/wiki/Quantum_superposition",
+            "https://phys.libretexts.org/Bookshelves/Quantum_Mechanics/Introductory_Quantum_Mechanics_(Fitzpatrick)/03:_Fundamentals_of_Quantum_Mechanics/3.08:_Eigenstates_and_Eigenvalues",
+            "https://physics.stackexchange.com/questions/376198/is-quantum-superposition-just-a-fancy-way-of-saying-that-a-system-is-in-one-st",
+            "https://vixra.org/pdf/2302.0038v1.pdf",
+            "https://courses.physics.illinois.edu/phys214/su2013/lectures/lecture14.pdf"
+          ],
+          "result_snippet": "[1] Quantum superposition - Wikipedia\nURL: https://en.wikipedia.org/wiki/Quantum_superposition\nSnippet: Any quantum state can be expanded as a sum or superposition of the eigenstates of an Hermitian operator, like the Hamiltonian, because the eigenstates form a complete basis:\n\n[2] 3.8: Eigenstates and Eigenvalues - Physics LibreTexts\nURL: https://phys.libretexts.org/Bookshelves/Quantum_Mechanics/Introductory_Quantum_Mechanics_(Fitzpatrick)/03:_Fundamentals_of_Quantum_Mechanics/3.08:_Eigenstates_and_Eigenvalues\nSnippet: Mar 13, 2026 · This page explains eigenstates and eigenvalues of Hermitian operators in quantum mechanics, where eigenstates remain proportional after the operator acts on them, and eigenvalues are real.\n\n[3] particle physics - Is \"quantum superposition\" just a fancy ...\nURL: https://physics.stackexchange.com/questions/376198/is-quantum-superposition-just-a-fancy-way-of-saying-that-a-system-is-in-one-st\nSnippet: Dec 25, 2017 · For a particle in a box, we can have an eigenstate of the hamiltonian, which is a standing wave, or an eigenstate of momentum, which is a traveling wave. The standing wave is a superposition of traveling waves, and the traveling wave is a superposition of standing waves.\n\n[4] Interpretation of superposition of eigen states and ...\nURL: https://vixra.org/pdf/2302.0038v1.pdf\nSnippet: It is obvious that the superposition of eigenstates is not an alternative eigenstate. If the super-position is mathematically possible, then we inevitably encounter the measurement problem. However if not so, the measurement problem should be assessed as having been a misled one from the outset.\n\n[5] Lecture 14: Superposition & Time-Dependent Quantum States\nURL: https://courses.physics.illinois.edu/phys214/su2013/lectures/lecture14.pdf\nSnippet: Time-dependence of Superpositions A particle can be in a superposition of states that have different energies. This superposition is still a solution of the time-dependent SEQ, but not of the time-independent SEQ, because two different E’s are involved.",
+          "searched_at": "2026-05-05_17-07-21",
+          "attempt_number": 1
+        }
+      ],
+      "query": "quantum superposition vs eigenstate",
+      "search_status": "ok",
+      "result_snippet": "[1] Quantum superposition - Wikipedia\nURL: https://en.wikipedia.org/wiki/Quantum_superposition\nSnippet: Any quantum state can be expanded as a sum or superposition of the eigenstates of an Hermitian operator, like the Hamiltonian, because the eigenstates form a complete basis:\n\n[2] 3.8: Eigenstates and Eigenvalues - Physics LibreTexts\nURL: https://phys.libretexts.org/Bookshelves/Quantum_Mechanics/Introductory_Quantum_Mechanics_(Fitzpatrick)/03:_Fundamentals_of_Quantum_Mechanics/3.08:_Eigenstates_and_Eigenvalues\nSnippet: Mar 13, 2026 · This page explains eigenstates and eigenvalues of Hermitian operators in quantum mechanics, where eigenstates remain proportional after the operator acts on them, and eigenvalues are real.\n\n[3] particle physics - Is \"quantum superposition\" just a fancy ...\nURL: https://physics.stackexchange.com/questions/376198/is-quantum-superposition-just-a-fancy-way-of-saying-that-a-system-is-in-one-st\nSnippet: Dec 25, 2017 · For a particle in a box, we can have an eigenstate of the hamiltonian, which is a standing wave, or an eigenstate of momentum, which is a traveling wave. The standing wave is a superposition of traveling waves, and the traveling wave is a superposition of standing waves.\n\n[4] Interpretation of superposition of eigen states and ...\nURL: https://vixra.org/pdf/2302.0038v1.pdf\nSnippet: It is obvious that the superposition of eigenstates is not an alternative eigenstate. If the super-position is mathematically possible, then we inevitably encounter the measurement problem. However if not so, the measurement problem should be assessed as having been a misled one from the outset.\n\n[5] Lecture 14: Superposition & Time-Dependent Quantum States\nURL: https://courses.physics.illinois.edu/phys214/su2013/lectures/lecture14.pdf\nSnippet: Time-dependence of Superpositions A particle can be in a superposition of states that have different energies. This superposition is still a solution of the time-dependent SEQ, but not of the time-independent SEQ, because two different E’s are involved.",
+      "results": [
+        {
+          "title": "Quantum superposition - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Quantum_superposition",
+          "domain": "en.wikipedia.org",
+          "snippet": "Any quantum state can be expanded as a sum or superposition of the eigenstates of an Hermitian operator, like the Hamiltonian, because the eigenstates form a complete basis:"
+        },
+        {
+          "title": "3.8: Eigenstates and Eigenvalues - Physics LibreTexts",
+          "url": "https://phys.libretexts.org/Bookshelves/Quantum_Mechanics/Introductory_Quantum_Mechanics_(Fitzpatrick)/03:_Fundamentals_of_Quantum_Mechanics/3.08:_Eigenstates_and_Eigenvalues",
+          "domain": "phys.libretexts.org",
+          "snippet": "Mar 13, 2026 · This page explains eigenstates and eigenvalues of Hermitian operators in quantum mechanics, where eigenstates remain proportional after the operator acts on them, and eigenvalues are real."
+        },
+        {
+          "title": "particle physics - Is \"quantum superposition\" just a fancy ...",
+          "url": "https://physics.stackexchange.com/questions/376198/is-quantum-superposition-just-a-fancy-way-of-saying-that-a-system-is-in-one-st",
+          "domain": "physics.stackexchange.com",
+          "snippet": "Dec 25, 2017 · For a particle in a box, we can have an eigenstate of the hamiltonian, which is a standing wave, or an eigenstate of momentum, which is a traveling wave. The standing wave is a superposition of traveling waves, and the traveling wave is a superposition of standing waves."
+        },
+        {
+          "title": "Interpretation of superposition of eigen states and ...",
+          "url": "https://vixra.org/pdf/2302.0038v1.pdf",
+          "domain": "vixra.org",
+          "snippet": "It is obvious that the superposition of eigenstates is not an alternative eigenstate. If the super-position is mathematically possible, then we inevitably encounter the measurement problem. However if not so, the measurement problem should be assessed as having been a misled one from the outset."
+        },
+        {
+          "title": "Lecture 14: Superposition & Time-Dependent Quantum States",
+          "url": "https://courses.physics.illinois.edu/phys214/su2013/lectures/lecture14.pdf",
+          "domain": "courses.physics.illinois.edu",
+          "snippet": "Time-dependence of Superpositions A particle can be in a superposition of states that have different energies. This superposition is still a solution of the time-dependent SEQ, but not of the time-independent SEQ, because two different E’s are involved."
+        }
+      ],
+      "urls": [
+        "https://en.wikipedia.org/wiki/Quantum_superposition",
+        "https://phys.libretexts.org/Bookshelves/Quantum_Mechanics/Introductory_Quantum_Mechanics_(Fitzpatrick)/03:_Fundamentals_of_Quantum_Mechanics/3.08:_Eigenstates_and_Eigenvalues",
+        "https://physics.stackexchange.com/questions/376198/is-quantum-superposition-just-a-fancy-way-of-saying-that-a-system-is-in-one-st",
+        "https://vixra.org/pdf/2302.0038v1.pdf",
+        "https://courses.physics.illinois.edu/phys214/su2013/lectures/lecture14.pdf"
+      ],
+      "attempt_count": 1,
+      "searched_at": "2026-05-05_17-07-21",
+      "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
+    },
+    "C009": {
+      "claim": "Quantum measurements 'collapse' superposition states to eigenstates, but this is a mathematical description of outcome probabilities.",
+      "search_attempts": [
+        {
+          "status": "ok",
+          "query": "quantum measurement collapse eigenstate",
+          "results": [
+            {
+              "title": "measurement - Confusion on computing matrix elements with",
+              "url": "https://quantumcomputing.stackexchange.com/questions/41153/confusion-on-computing-matrix-elements-with-quantum-circuits",
+              "domain": "quantumcomputing.stackexchange.com",
+              "snippet": "However, the eigenstate that a measurement collapses to is close to the solution. So, collapsing measurement is a trick often played by quantum ..."
+            },
+            {
+              "title": "measurement - What's the interpretation of the eigenvalues",
+              "url": "https://quantumcomputing.stackexchange.com/questions/11637/whats-the-interpretation-of-the-eigenvalues-of-qubits-projective-operators",
+              "domain": "quantumcomputing.stackexchange.com",
+              "snippet": "The only thing that really matters (at least as far as the way the state is collapsed by the measurement is concerned) is the way the operator splits ..."
+            },
+            {
+              "title": "Collapse of wavefunction into a forbidden eigenstate for a free",
+              "url": "https://www.physicsforums.com/threads/collapse-of-wavefunction-into-a-forbidden-eigenstate-for-a-free-particle.1012678/",
+              "domain": "physicsforums.com",
+              "snippet": "In order to understand measurements of microscopic quantum systems, you must look closely at the precise details of how your apparatus interacts with ..."
+            },
+            {
+              "title": "Quantum measurement of a Strontium ion",
+              "url": "https://www.physicsforums.com/threads/quantum-measurement-of-a-strontium-ion.984963/",
+              "domain": "physicsforums.com",
+              "snippet": "Does this mean there is no instant wave function collapse during measurement? Can any of quantum guys comment. ... collapse but it s explainable by ..."
+            },
+            {
+              "title": "Wave function collapse - Wikiquote",
+              "url": "https://en.wikiquote.org/wiki/Wave_function_collapse",
+              "domain": "en.wikiquote.org",
+              "snippet": "In quantum mechanics, wave function collapse is said to occur when a wave function—initially in a superposition of several eigenstates—appears to ..."
+            }
+          ],
+          "urls": [
+            "https://quantumcomputing.stackexchange.com/questions/41153/confusion-on-computing-matrix-elements-with-quantum-circuits",
+            "https://quantumcomputing.stackexchange.com/questions/11637/whats-the-interpretation-of-the-eigenvalues-of-qubits-projective-operators",
+            "https://www.physicsforums.com/threads/collapse-of-wavefunction-into-a-forbidden-eigenstate-for-a-free-particle.1012678/",
+            "https://www.physicsforums.com/threads/quantum-measurement-of-a-strontium-ion.984963/",
+            "https://en.wikiquote.org/wiki/Wave_function_collapse"
+          ],
+          "result_snippet": "[1] measurement - Confusion on computing matrix elements with\nURL: https://quantumcomputing.stackexchange.com/questions/41153/confusion-on-computing-matrix-elements-with-quantum-circuits\nSnippet: However, the eigenstate that a measurement collapses to is close to the solution. So, collapsing measurement is a trick often played by quantum ...\n\n[2] measurement - What's the interpretation of the eigenvalues\nURL: https://quantumcomputing.stackexchange.com/questions/11637/whats-the-interpretation-of-the-eigenvalues-of-qubits-projective-operators\nSnippet: The only thing that really matters (at least as far as the way the state is collapsed by the measurement is concerned) is the way the operator splits ...\n\n[3] Collapse of wavefunction into a forbidden eigenstate for a free\nURL: https://www.physicsforums.com/threads/collapse-of-wavefunction-into-a-forbidden-eigenstate-for-a-free-particle.1012678/\nSnippet: In order to understand measurements of microscopic quantum systems, you must look closely at the precise details of how your apparatus interacts with ...\n\n[4] Quantum measurement of a Strontium ion\nURL: https://www.physicsforums.com/threads/quantum-measurement-of-a-strontium-ion.984963/\nSnippet: Does this mean there is no instant wave function collapse during measurement? Can any of quantum guys comment. ... collapse but it s explainable by ...\n\n[5] Wave function collapse - Wikiquote\nURL: https://en.wikiquote.org/wiki/Wave_function_collapse\nSnippet: In quantum mechanics, wave function collapse is said to occur when a wave function—initially in a superposition of several eigenstates—appears to ...",
+          "searched_at": "2026-05-05_17-15-29",
+          "attempt_number": 1
+        }
+      ],
+      "query": "quantum measurement collapse eigenstate",
+      "search_status": "ok",
+      "result_snippet": "[1] measurement - Confusion on computing matrix elements with\nURL: https://quantumcomputing.stackexchange.com/questions/41153/confusion-on-computing-matrix-elements-with-quantum-circuits\nSnippet: However, the eigenstate that a measurement collapses to is close to the solution. So, collapsing measurement is a trick often played by quantum ...\n\n[2] measurement - What's the interpretation of the eigenvalues\nURL: https://quantumcomputing.stackexchange.com/questions/11637/whats-the-interpretation-of-the-eigenvalues-of-qubits-projective-operators\nSnippet: The only thing that really matters (at least as far as the way the state is collapsed by the measurement is concerned) is the way the operator splits ...\n\n[3] Collapse of wavefunction into a forbidden eigenstate for a free\nURL: https://www.physicsforums.com/threads/collapse-of-wavefunction-into-a-forbidden-eigenstate-for-a-free-particle.1012678/\nSnippet: In order to understand measurements of microscopic quantum systems, you must look closely at the precise details of how your apparatus interacts with ...\n\n[4] Quantum measurement of a Strontium ion\nURL: https://www.physicsforums.com/threads/quantum-measurement-of-a-strontium-ion.984963/\nSnippet: Does this mean there is no instant wave function collapse during measurement? Can any of quantum guys comment. ... collapse but it s explainable by ...\n\n[5] Wave function collapse - Wikiquote\nURL: https://en.wikiquote.org/wiki/Wave_function_collapse\nSnippet: In quantum mechanics, wave function collapse is said to occur when a wave function—initially in a superposition of several eigenstates—appears to ...",
+      "results": [
+        {
+          "title": "measurement - Confusion on computing matrix elements with",
+          "url": "https://quantumcomputing.stackexchange.com/questions/41153/confusion-on-computing-matrix-elements-with-quantum-circuits",
+          "domain": "quantumcomputing.stackexchange.com",
+          "snippet": "However, the eigenstate that a measurement collapses to is close to the solution. So, collapsing measurement is a trick often played by quantum ..."
+        },
+        {
+          "title": "measurement - What's the interpretation of the eigenvalues",
+          "url": "https://quantumcomputing.stackexchange.com/questions/11637/whats-the-interpretation-of-the-eigenvalues-of-qubits-projective-operators",
+          "domain": "quantumcomputing.stackexchange.com",
+          "snippet": "The only thing that really matters (at least as far as the way the state is collapsed by the measurement is concerned) is the way the operator splits ..."
+        },
+        {
+          "title": "Collapse of wavefunction into a forbidden eigenstate for a free",
+          "url": "https://www.physicsforums.com/threads/collapse-of-wavefunction-into-a-forbidden-eigenstate-for-a-free-particle.1012678/",
+          "domain": "physicsforums.com",
+          "snippet": "In order to understand measurements of microscopic quantum systems, you must look closely at the precise details of how your apparatus interacts with ..."
+        },
+        {
+          "title": "Quantum measurement of a Strontium ion",
+          "url": "https://www.physicsforums.com/threads/quantum-measurement-of-a-strontium-ion.984963/",
+          "domain": "physicsforums.com",
+          "snippet": "Does this mean there is no instant wave function collapse during measurement? Can any of quantum guys comment. ... collapse but it s explainable by ..."
+        },
+        {
+          "title": "Wave function collapse - Wikiquote",
+          "url": "https://en.wikiquote.org/wiki/Wave_function_collapse",
+          "domain": "en.wikiquote.org",
+          "snippet": "In quantum mechanics, wave function collapse is said to occur when a wave function—initially in a superposition of several eigenstates—appears to ..."
+        }
+      ],
+      "urls": [
+        "https://quantumcomputing.stackexchange.com/questions/41153/confusion-on-computing-matrix-elements-with-quantum-circuits",
+        "https://quantumcomputing.stackexchange.com/questions/11637/whats-the-interpretation-of-the-eigenvalues-of-qubits-projective-operators",
+        "https://www.physicsforums.com/threads/collapse-of-wavefunction-into-a-forbidden-eigenstate-for-a-free-particle.1012678/",
+        "https://www.physicsforums.com/threads/quantum-measurement-of-a-strontium-ion.984963/",
+        "https://en.wikiquote.org/wiki/Wave_function_collapse"
+      ],
+      "attempt_count": 1,
+      "searched_at": "2026-05-05_17-15-29",
+      "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
+    },
+    "C010": {
+      "claim": "Eigenstates are not 'building blocks' of reality but mathematical constructs for predicting measurement outcomes.",
+      "search_attempts": [
+        {
+          "status": "ok",
+          "query": "eigenstate building blocks quantum mechanics",
+          "results": [
+            {
+              "title": "3.8: Eigenstates and Eigenvalues - Physics LibreTexts",
+              "url": "https://phys.libretexts.org/Bookshelves/Quantum_Mechanics/Introductory_Quantum_Mechanics_(Fitzpatrick)/03:_Fundamentals_of_Quantum_Mechanics/3.08:_Eigenstates_and_Eigenvalues",
+              "domain": "phys.libretexts.org",
+              "snippet": "This page explains eigenstates and eigenvalues of Hermitian operators in quantum mechanics, where eigenstates remain proportional after the operator acts on them, and eigenvalues are real. It covers …"
+            },
+            {
+              "title": "What is Eigenstate? Meaning, Examples, Use Cases, and How to Measure It?",
+              "url": "https://quantumopsschool.com/blog/eigenstate/",
+              "domain": "quantumopsschool.com",
+              "snippet": "Analogy: Like a tuning fork that vibrates at only one pitch when struck; the pitch is the eigenvalue and the fork's vibration pattern is the eigenstate. Formal technical line: In linear algebra and quantum mechanics, an eigenstate is an eigenvector of an operator with a corresponding eigenvalue, satisfying O|ψ> = λ|ψ>."
+            },
+            {
+              "title": "[2604.11872] Eigenstate thermalization - arXiv.org",
+              "url": "https://arxiv.org/abs/2604.11872",
+              "domain": "arxiv.org",
+              "snippet": "We provide a pedagogical introduction to eigenstate thermalization. This phenomenon, which occurs in generic quantum systems, allows one to understand why thermalization takes place in isolated systems under unitary dynamics. We motivate eigenstate thermalization using random matrix theory and discuss recent complementary results for the volume-law entanglement entropy of Haar-random states ..."
+            },
+            {
+              "title": "Eigenvectors and Eigenvalues: The Quantum Computing Secret Sauce",
+              "url": "https://dev.to/malcolmlow/eigenvectors-and-eigenvalues-the-quantum-computing-secret-sauce-no-phd-required-2dpa",
+              "domain": "dev.to",
+              "snippet": "Ever wondered what makes quantum computers so powerful? At the heart of quantum mechanics—and thus quantum computing—lies a pair of mathematical twins: eigenvectors and eigenvalues."
+            },
+            {
+              "title": "What Is An Eigenstate In Superposition Visualization? - Quantum Tech ...",
+              "url": "https://m.youtube.com/watch?v=YJpqKYYBHGw",
+              "domain": "m.youtube.com",
+              "snippet": "We'll explain what an eigenstate is and how it serves as a fundamental building block in quantum mechanics."
+            }
+          ],
+          "urls": [
+            "https://phys.libretexts.org/Bookshelves/Quantum_Mechanics/Introductory_Quantum_Mechanics_(Fitzpatrick)/03:_Fundamentals_of_Quantum_Mechanics/3.08:_Eigenstates_and_Eigenvalues",
+            "https://quantumopsschool.com/blog/eigenstate/",
+            "https://arxiv.org/abs/2604.11872",
+            "https://dev.to/malcolmlow/eigenvectors-and-eigenvalues-the-quantum-computing-secret-sauce-no-phd-required-2dpa",
+            "https://m.youtube.com/watch?v=YJpqKYYBHGw"
+          ],
+          "result_snippet": "[1] 3.8: Eigenstates and Eigenvalues - Physics LibreTexts\nURL: https://phys.libretexts.org/Bookshelves/Quantum_Mechanics/Introductory_Quantum_Mechanics_(Fitzpatrick)/03:_Fundamentals_of_Quantum_Mechanics/3.08:_Eigenstates_and_Eigenvalues\nSnippet: This page explains eigenstates and eigenvalues of Hermitian operators in quantum mechanics, where eigenstates remain proportional after the operator acts on them, and eigenvalues are real. It covers …\n\n[2] What is Eigenstate? Meaning, Examples, Use Cases, and How to Measure It?\nURL: https://quantumopsschool.com/blog/eigenstate/\nSnippet: Analogy: Like a tuning fork that vibrates at only one pitch when struck; the pitch is the eigenvalue and the fork's vibration pattern is the eigenstate. Formal technical line: In linear algebra and quantum mechanics, an eigenstate is an eigenvector of an operator with a corresponding eigenvalue, satisfying O|ψ> = λ|ψ>.\n\n[3] [2604.11872] Eigenstate thermalization - arXiv.org\nURL: https://arxiv.org/abs/2604.11872\nSnippet: We provide a pedagogical introduction to eigenstate thermalization. This phenomenon, which occurs in generic quantum systems, allows one to understand why thermalization takes place in isolated systems under unitary dynamics. We motivate eigenstate thermalization using random matrix theory and discuss recent complementary results for the volume-law entanglement entropy of Haar-random states ...\n\n[4] Eigenvectors and Eigenvalues: The Quantum Computing Secret Sauce\nURL: https://dev.to/malcolmlow/eigenvectors-and-eigenvalues-the-quantum-computing-secret-sauce-no-phd-required-2dpa\nSnippet: Ever wondered what makes quantum computers so powerful? At the heart of quantum mechanics—and thus quantum computing—lies a pair of mathematical twins: eigenvectors and eigenvalues.\n\n[5] What Is An Eigenstate In Superposition Visualization? - Quantum Tech ...\nURL: https://m.youtube.com/watch?v=YJpqKYYBHGw\nSnippet: We'll explain what an eigenstate is and how it serves as a fundamental building block in quantum mechanics.",
+          "searched_at": "2026-05-05_17-15-31",
+          "attempt_number": 1
+        }
+      ],
+      "query": "eigenstate building blocks quantum mechanics",
+      "search_status": "ok",
+      "result_snippet": "[1] 3.8: Eigenstates and Eigenvalues - Physics LibreTexts\nURL: https://phys.libretexts.org/Bookshelves/Quantum_Mechanics/Introductory_Quantum_Mechanics_(Fitzpatrick)/03:_Fundamentals_of_Quantum_Mechanics/3.08:_Eigenstates_and_Eigenvalues\nSnippet: This page explains eigenstates and eigenvalues of Hermitian operators in quantum mechanics, where eigenstates remain proportional after the operator acts on them, and eigenvalues are real. It covers …\n\n[2] What is Eigenstate? Meaning, Examples, Use Cases, and How to Measure It?\nURL: https://quantumopsschool.com/blog/eigenstate/\nSnippet: Analogy: Like a tuning fork that vibrates at only one pitch when struck; the pitch is the eigenvalue and the fork's vibration pattern is the eigenstate. Formal technical line: In linear algebra and quantum mechanics, an eigenstate is an eigenvector of an operator with a corresponding eigenvalue, satisfying O|ψ> = λ|ψ>.\n\n[3] [2604.11872] Eigenstate thermalization - arXiv.org\nURL: https://arxiv.org/abs/2604.11872\nSnippet: We provide a pedagogical introduction to eigenstate thermalization. This phenomenon, which occurs in generic quantum systems, allows one to understand why thermalization takes place in isolated systems under unitary dynamics. We motivate eigenstate thermalization using random matrix theory and discuss recent complementary results for the volume-law entanglement entropy of Haar-random states ...\n\n[4] Eigenvectors and Eigenvalues: The Quantum Computing Secret Sauce\nURL: https://dev.to/malcolmlow/eigenvectors-and-eigenvalues-the-quantum-computing-secret-sauce-no-phd-required-2dpa\nSnippet: Ever wondered what makes quantum computers so powerful? At the heart of quantum mechanics—and thus quantum computing—lies a pair of mathematical twins: eigenvectors and eigenvalues.\n\n[5] What Is An Eigenstate In Superposition Visualization? - Quantum Tech ...\nURL: https://m.youtube.com/watch?v=YJpqKYYBHGw\nSnippet: We'll explain what an eigenstate is and how it serves as a fundamental building block in quantum mechanics.",
+      "results": [
+        {
+          "title": "3.8: Eigenstates and Eigenvalues - Physics LibreTexts",
+          "url": "https://phys.libretexts.org/Bookshelves/Quantum_Mechanics/Introductory_Quantum_Mechanics_(Fitzpatrick)/03:_Fundamentals_of_Quantum_Mechanics/3.08:_Eigenstates_and_Eigenvalues",
+          "domain": "phys.libretexts.org",
+          "snippet": "This page explains eigenstates and eigenvalues of Hermitian operators in quantum mechanics, where eigenstates remain proportional after the operator acts on them, and eigenvalues are real. It covers …"
+        },
+        {
+          "title": "What is Eigenstate? Meaning, Examples, Use Cases, and How to Measure It?",
+          "url": "https://quantumopsschool.com/blog/eigenstate/",
+          "domain": "quantumopsschool.com",
+          "snippet": "Analogy: Like a tuning fork that vibrates at only one pitch when struck; the pitch is the eigenvalue and the fork's vibration pattern is the eigenstate. Formal technical line: In linear algebra and quantum mechanics, an eigenstate is an eigenvector of an operator with a corresponding eigenvalue, satisfying O|ψ> = λ|ψ>."
+        },
+        {
+          "title": "[2604.11872] Eigenstate thermalization - arXiv.org",
+          "url": "https://arxiv.org/abs/2604.11872",
+          "domain": "arxiv.org",
+          "snippet": "We provide a pedagogical introduction to eigenstate thermalization. This phenomenon, which occurs in generic quantum systems, allows one to understand why thermalization takes place in isolated systems under unitary dynamics. We motivate eigenstate thermalization using random matrix theory and discuss recent complementary results for the volume-law entanglement entropy of Haar-random states ..."
+        },
+        {
+          "title": "Eigenvectors and Eigenvalues: The Quantum Computing Secret Sauce",
+          "url": "https://dev.to/malcolmlow/eigenvectors-and-eigenvalues-the-quantum-computing-secret-sauce-no-phd-required-2dpa",
+          "domain": "dev.to",
+          "snippet": "Ever wondered what makes quantum computers so powerful? At the heart of quantum mechanics—and thus quantum computing—lies a pair of mathematical twins: eigenvectors and eigenvalues."
+        },
+        {
+          "title": "What Is An Eigenstate In Superposition Visualization? - Quantum Tech ...",
+          "url": "https://m.youtube.com/watch?v=YJpqKYYBHGw",
+          "domain": "m.youtube.com",
+          "snippet": "We'll explain what an eigenstate is and how it serves as a fundamental building block in quantum mechanics."
+        }
+      ],
+      "urls": [
+        "https://phys.libretexts.org/Bookshelves/Quantum_Mechanics/Introductory_Quantum_Mechanics_(Fitzpatrick)/03:_Fundamentals_of_Quantum_Mechanics/3.08:_Eigenstates_and_Eigenvalues",
+        "https://quantumopsschool.com/blog/eigenstate/",
+        "https://arxiv.org/abs/2604.11872",
+        "https://dev.to/malcolmlow/eigenvectors-and-eigenvalues-the-quantum-computing-secret-sauce-no-phd-required-2dpa",
+        "https://m.youtube.com/watch?v=YJpqKYYBHGw"
+      ],
+      "attempt_count": 1,
+      "searched_at": "2026-05-05_17-15-31",
+      "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
+    }
+  },
+  "summary": {
+    "total_claims": 10,
+    "checked_claim_count": 1,
+    "passing_claim_count": 0,
+    "unchecked_claim_count": 9,
+    "unresolved_or_needs_qualification": 10,
+    "actionable_issue_count": 0,
+    "evidence_retry_count": 1,
+    "claim_review_complete": false,
+    "unchecked_claim_ids": [
+      "C002",
+      "C003",
+      "C004",
+      "C005",
+      "C006",
+      "C007",
+      "C008",
+      "C009",
+      "C010"
+    ],
+    "actionable_claim_ids": [],
+    "evidence_retry_claim_ids": [
+      "C001"
+    ],
+    "highest_priority_fixes": []
+  },
+  "last_updated": "2026-05-05_17-15-32"
+}

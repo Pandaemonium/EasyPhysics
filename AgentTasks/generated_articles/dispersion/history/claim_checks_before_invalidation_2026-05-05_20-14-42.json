@@ -1,0 +1,110 @@
+{
+  "claim_checks": [
+    {
+      "id": "C001",
+      "verdict": "not_enough_evidence",
+      "severity": "medium",
+      "problem": "Claim checker failed: LLMCallError(\"claim_checker failed after 1 attempt(s): LLMCallError('LLM_TIMEOUT_AFTER_480_SECONDS')\")",
+      "suggested_fix": "Automatically retry this claim with another source search or a smaller context.",
+      "source_quality_note": "",
+      "source_urls": [],
+      "claim": "# Dispersion ## The core idea Dispersion is when waves of different wavelengths (like colors of light) travel at different speeds through a medium, causing them to separate.",
+      "checked_at": "2026-05-05_20-10-14",
+      "source_attempt_count": 3,
+      "available_source_urls": [
+        "https://www.mathscinotes.com/2010/10/dispersion-power-penalty-modeling-part-1/",
+        "https://patents.google.com/patent/KR100963237B1/en",
+        "https://grokipedia.com/page/Light",
+        "https://jeos.edpsciences.org/articles/jeos/full_html/2023/01/jeos20220028/jeos20220028.html",
+        "https://mapyourtech.com/wdm-glossary/"
+      ]
+    }
+  ],
+  "check_history": [
+    {
+      "id": "C001",
+      "verdict": "not_enough_evidence",
+      "severity": "medium",
+      "problem": "Claim checker failed: LLMCallError(\"claim_checker failed after 1 attempt(s): LLMCallError('LLM_TIMEOUT_AFTER_480_SECONDS')\")",
+      "suggested_fix": "Automatically retry this claim with another source search or a smaller context.",
+      "source_quality_note": "",
+      "source_urls": [],
+      "claim": "# Dispersion ## The core idea Dispersion is when waves of different wavelengths (like colors of light) travel at different speeds through a medium, causing them to separate.",
+      "checked_at": "2026-05-05_19-53-51",
+      "source_attempt_count": 1,
+      "available_source_urls": [
+        "https://en.wikipedia.org/wiki/Dispersion_relation",
+        "https://en.wikipedia.org/wiki/Dispersion_(optics)",
+        "https://www.britannica.com/science/dispersion-physics",
+        "https://scienceinsights.org/what-is-a-dispersion-definition-types-examples/",
+        "https://www.geeksforgeeks.org/physics/what-is-dispersion-of-light/"
+      ]
+    },
+    {
+      "id": "C001",
+      "verdict": "not_enough_evidence",
+      "severity": "medium",
+      "problem": "Claim checker failed: LLMCallError(\"claim_checker failed after 1 attempt(s): LLMCallError('LLM_TIMEOUT_AFTER_480_SECONDS')\")",
+      "suggested_fix": "Automatically retry this claim with another source search or a smaller context.",
+      "source_quality_note": "",
+      "source_urls": [],
+      "claim": "# Dispersion ## The core idea Dispersion is when waves of different wavelengths (like colors of light) travel at different speeds through a medium, causing them to separate.",
+      "checked_at": "2026-05-05_20-02-02",
+      "source_attempt_count": 2,
+      "available_source_urls": [
+        "https://www.mathscinotes.com/2010/10/dispersion-power-penalty-modeling-part-1/",
+        "https://patents.google.com/patent/KR100963237B1/en",
+        "https://grokipedia.com/page/Light",
+        "https://jeos.edpsciences.org/articles/jeos/full_html/2023/01/jeos20220028/jeos20220028.html",
+        "https://www.rp-photonics.com/numerical_beam_propagation.html"
+      ]
+    },
+    {
+      "id": "C001",
+      "verdict": "not_enough_evidence",
+      "severity": "medium",
+      "problem": "Claim checker failed: LLMCallError(\"claim_checker failed after 1 attempt(s): LLMCallError('LLM_TIMEOUT_AFTER_480_SECONDS')\")",
+      "suggested_fix": "Automatically retry this claim with another source search or a smaller context.",
+      "source_quality_note": "",
+      "source_urls": [],
+      "claim": "# Dispersion ## The core idea Dispersion is when waves of different wavelengths (like colors of light) travel at different speeds through a medium, causing them to separate.",
+      "checked_at": "2026-05-05_20-10-14",
+      "source_attempt_count": 3,
+      "available_source_urls": [
+        "https://www.mathscinotes.com/2010/10/dispersion-power-penalty-modeling-part-1/",
+        "https://patents.google.com/patent/KR100963237B1/en",
+        "https://grokipedia.com/page/Light",
+        "https://jeos.edpsciences.org/articles/jeos/full_html/2023/01/jeos20220028/jeos20220028.html",
+        "https://mapyourtech.com/wdm-glossary/"
+      ]
+    }
+  ],
+  "summary": {
+    "total_claims": 8,
+    "checked_claim_count": 1,
+    "passing_claim_count": 0,
+    "unchecked_claim_count": 7,
+    "unresolved_or_needs_qualification": 8,
+    "actionable_issue_count": 1,
+    "evidence_retry_count": 0,
+    "claim_review_complete": false,
+    "unchecked_claim_ids": [
+      "C002",
+      "C003",
+      "C004",
+      "C005",
+      "C006",
+      "C007",
+      "C008"
+    ],
+    "actionable_claim_ids": [
+      "C001"
+    ],
+    "evidence_retry_claim_ids": [],
+    "highest_priority_fixes": [
+      "Automatically retry this claim with another source search or a smaller context."
+    ],
+    "overall_claim_quality": "Partial claim check completed."
+  },
+  "last_updated": "2026-05-05_20-10-14"
+}

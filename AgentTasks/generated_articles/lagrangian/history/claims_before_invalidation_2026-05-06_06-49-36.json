@@ -1,0 +1,43 @@
+{
+  "claims": [
+    {
+      "id": "C001",
+      "claim": "The Lagrangian {L} is defined as the difference between kinetic energy {T} and potential energy {V}: L = T − V.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "This is the foundational formula for Lagrangian mechanics, encoding how energy changes drive motion.",
+      "suggested_search_query": "Lagrangian mechanics definition physics textbook"
+    },
+    {
+      "id": "C002",
+      "claim": "The principle of stationary action states that nature selects the path where the action {S} (integral of the Lagrangian over time) is stationary (minimum, maximum, or saddle point).",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "This universal rule governs motion in classical and modern physics, from planetary orbits to quantum fields.",
+      "suggested_search_query": "principle of stationary action physics derivation"
+    },
+    {
+      "id": "C003",
+      "claim": "The Lagrangian framework reveals conservation laws (e.g., energy, momentum) as consequences of symmetries in space and time.",
+      "type": "clarification",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "This connects classical mechanics to Noether's theorem and modern field theories.",
+      "suggested_search_query": "Noether's theorem Lagrangian symmetry"
+    },
+    {
+      "id": "C004",
+      "claim": "The Euler-Lagrange equation {d/dt(∂L/∂q̇) − ∂L/∂q = 0} provides the mathematical prescription for deriving equations of motion from the Lagrangian.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "This equation unifies mechanics by expressing motion as an extremum of the action integral.",
+      "suggested_search_query": "Euler-Lagrange equation derivation"
+    }
+  ],
+  "last_updated": "2026-05-06_04-54-22",
+  "count": 4,
+  "parse_note": ""
+}

@@ -1,0 +1,404 @@
+{
+  "sources_by_claim": {
+    "C001": {
+      "claim": "The variational principle identifies extremal paths or states where key quantities are minimized or maximized.",
+      "search_attempts": [
+        {
+          "status": "ok",
+          "query": "variational principle physics textbook definition",
+          "results": [
+            {
+              "title": "Variational principle - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Variational_principle",
+              "domain": "en.wikipedia.org",
+              "snippet": "1 week ago - A variational principle is a mathematical procedure that renders a physical problem solvable by the calculus of variations, which concerns finding functions that optimize the values of quantities that depend on those functions. For example, the problem of determining the shape of a hanging ..."
+            },
+            {
+              "title": "History of variational principles in physics - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/History_of_variational_principles_in_physics",
+              "domain": "en.wikipedia.org",
+              "snippet": "1 week ago - Variational methods are exploited in many modern software applications to simulate matter and light. Since the development of analytical mechanics in the 18th century, the fundamental equations of physics can be expressed in terms of action principles, where the variational principle is applied to the action of a system in order to recover the fundamental equation of motion."
+            },
+            {
+              "title": "Variational method (quantum mechanics) - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Variational_method_(quantum_mechanics)",
+              "domain": "en.wikipedia.org",
+              "snippet": "November 21, 2025 - In quantum mechanics, the variational method is one way of finding approximations to the lowest energy eigenstate or ground state, and some excited states. This allows calculating approximate wavefunctions such as molecular orbitals. The basis for this method is the variational principle."
+            },
+            {
+              "title": "Action principles - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Action_principles",
+              "domain": "en.wikipedia.org",
+              "snippet": "March 24, 2026 - Action principles start with an energy function called a Lagrangian describing the physical system. The accumulated value of this energy function between two states of the system is called the action. Action principles apply the calculus of variation to the action."
+            },
+            {
+              "title": "Calculus of variations - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Calculus_of_variations",
+              "domain": "en.wikipedia.org",
+              "snippet": "March 18, 2026 - Solutions of boundary value problems for the Laplace equation satisfy the Dirichlet's principle. Plateau's problem requires finding a surface of minimal area that spans a given contour in space: a solution can often be found by dipping a frame in soapy water. Although such experiments are relatively easy to perform, their mathematical formulation is far from simple: there may be more than one locally minimizing surface, and they may have non-trivial topology. The calculus of variations began with the work of Isaac Newton, such as with Newton's minimal resistance problem, which he formulated and solved in 1685, and later published in his Principia in 1687, which was the first problem in the field to be formulated and correctly solved, and was also one of the most difficult problems tackled by variational methods prior to the twentieth century."
+            }
+          ],
+          "urls": [
+            "https://en.wikipedia.org/wiki/Variational_principle",
+            "https://en.wikipedia.org/wiki/History_of_variational_principles_in_physics",
+            "https://en.wikipedia.org/wiki/Variational_method_(quantum_mechanics)",
+            "https://en.wikipedia.org/wiki/Action_principles",
+            "https://en.wikipedia.org/wiki/Calculus_of_variations"
+          ],
+          "result_snippet": "[1] Variational principle - Wikipedia\nURL: https://en.wikipedia.org/wiki/Variational_principle\nSnippet: 1 week ago - A variational principle is a mathematical procedure that renders a physical problem solvable by the calculus of variations, which concerns finding functions that optimize the values of quantities that depend on those functions. For example, the problem of determining the shape of a hanging ...\n\n[2] History of variational principles in physics - Wikipedia\nURL: https://en.wikipedia.org/wiki/History_of_variational_principles_in_physics\nSnippet: 1 week ago - Variational methods are exploited in many modern software applications to simulate matter and light. Since the development of analytical mechanics in the 18th century, the fundamental equations of physics can be expressed in terms of action principles, where the variational principle is applied to the action of a system in order to recover the fundamental equation of motion.\n\n[3] Variational method (quantum mechanics) - Wikipedia\nURL: https://en.wikipedia.org/wiki/Variational_method_(quantum_mechanics)\nSnippet: November 21, 2025 - In quantum mechanics, the variational method is one way of finding approximations to the lowest energy eigenstate or ground state, and some excited states. This allows calculating approximate wavefunctions such as molecular orbitals. The basis for this method is the variational principle.\n\n[4] Action principles - Wikipedia\nURL: https://en.wikipedia.org/wiki/Action_principles\nSnippet: March 24, 2026 - Action principles start with an energy function called a Lagrangian describing the physical system. The accumulated value of this energy function between two states of the system is called the action. Action principles apply the calculus of variation to the action.\n\n[5] Calculus of variations - Wikipedia\nURL: https://en.wikipedia.org/wiki/Calculus_of_variations\nSnippet: March 18, 2026 - Solutions of boundary value problems for the Laplace equation satisfy the Dirichlet's principle. Plateau's problem requires finding a surface of minimal area that spans a given contour in space: a solution can often be found by dipping a frame in soapy water. Although such experiments are relatively easy to perform, their mathematical formulation is far from simple: there may be more than one locally minimizing surface, and they may have non-trivial topology. The calculus of variations began with the work of Isaac Newton, such as with Newton's minimal resistance problem, which he formulated and solved in 1685, and later published in his Principia in 1687, which was the first problem in the field to be formulated and correctly solved, and was also one of the most difficult problems tackled by variational methods prior to the twentieth century.",
+          "searched_at": "2026-05-06_21-11-45",
+          "attempt_number": 1
+        },
+        {
+          "status": "ok",
+          "query": "Variational principle The variational principle identifies extremal paths or states where key quantities are minimized or maximized. university physics lecture notes textbook",
+          "results": [
+            {
+              "title": "Variational principle - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Variational_principle",
+              "domain": "en.wikipedia.org",
+              "snippet": "A variational principle is a mathematical procedure that renders a physical problem solvable by the calculus of variations, which concerns finding functions that optimize the values of quantities that depend on those functions."
+            },
+            {
+              "title": "13.1: Variational Principle - Physics LibreTexts",
+              "url": "https://phys.libretexts.org/Bookshelves/Quantum_Mechanics/Introductory_Quantum_Mechanics_(Fitzpatrick)/13:_Variational_Methods/13.01:_Variational_Principle",
+              "domain": "phys.libretexts.org",
+              "snippet": "Mar 13, 2026 · This page describes the variational principle, which asserts that the ground-state energy \\ (E_0\\) of a quantum system is at most the expectation value of the Hamiltonian \\ (H\\) derived from a …"
+            },
+            {
+              "title": "Notes 6: Variational principle theory - University of Delaware",
+              "url": "https://www.physics.udel.edu/~jim/PHYS425_20S/Class+Notes/Notes_6.pdf",
+              "domain": "physics.udel.edu",
+              "snippet": "Notes 6: Variational principle theory The variational principle states that, given a Hamiltonian H, the functional E ψ ψ ( ψ ) H = ψ ψ (6.1)"
+            },
+            {
+              "title": "Chapter 1 Variational Methods - University of Cambridge",
+              "url": "https://www.damtp.cam.ac.uk/user/reh10/lectures/nst-mmii-chapter1.pdf",
+              "domain": "damtp.cam.ac.uk",
+              "snippet": "1.9 The Variational Principle for Sturm–Liouville Equations We shall show in this section that the following three problems are equivalent: (i) Find the eigenvalues λ and eigenfunctions y(x) which solve the Sturm–Liouville problem d − p(x)y0"
+            },
+            {
+              "title": "Variational Principles in Classical Mechanics - Revised ...Chapter 8: The variational principle - University of TennesseeVariational Principle - an overview | ScienceDirect TopicsVariational principle - Wikipedia",
+              "url": "https://open.umn.edu/opentextbooks/textbooks/490",
+              "domain": "open.umn.edu",
+              "snippet": "Jun 24, 2021 · The book covers a wide range of variational methods in Physics starting with the Newtonian vector-based framework and moving into the principle of least action and variational methods. It is fully comprehensive in its treatment of physics theories between Newton through Einstein. One possibility is to use the variational principle: it does not give you the exact answer but gives you an upper bound to the energy which is often sufficient. A variational principle is defined as a fundamental concept in mathematical physics that aims to determine the path, function, or object that maximizes or minimizes a mathematical quantity known as a functional. A variational principle is a mathematical procedure that renders a physical problem solvable by the calculus of variations, which concerns finding functions that optimize the values of quantities that depend on those functions."
+            }
+          ],
+          "urls": [
+            "https://en.wikipedia.org/wiki/Variational_principle",
+            "https://phys.libretexts.org/Bookshelves/Quantum_Mechanics/Introductory_Quantum_Mechanics_(Fitzpatrick)/13:_Variational_Methods/13.01:_Variational_Principle",
+            "https://www.physics.udel.edu/~jim/PHYS425_20S/Class+Notes/Notes_6.pdf",
+            "https://www.damtp.cam.ac.uk/user/reh10/lectures/nst-mmii-chapter1.pdf",
+            "https://open.umn.edu/opentextbooks/textbooks/490"
+          ],
+          "result_snippet": "[1] Variational principle - Wikipedia\nURL: https://en.wikipedia.org/wiki/Variational_principle\nSnippet: A variational principle is a mathematical procedure that renders a physical problem solvable by the calculus of variations, which concerns finding functions that optimize the values of quantities that depend on those functions.\n\n[2] 13.1: Variational Principle - Physics LibreTexts\nURL: https://phys.libretexts.org/Bookshelves/Quantum_Mechanics/Introductory_Quantum_Mechanics_(Fitzpatrick)/13:_Variational_Methods/13.01:_Variational_Principle\nSnippet: Mar 13, 2026 · This page describes the variational principle, which asserts that the ground-state energy \\ (E_0\\) of a quantum system is at most the expectation value of the Hamiltonian \\ (H\\) derived from a …\n\n[3] Notes 6: Variational principle theory - University of Delaware\nURL: https://www.physics.udel.edu/~jim/PHYS425_20S/Class+Notes/Notes_6.pdf\nSnippet: Notes 6: Variational principle theory The variational principle states that, given a Hamiltonian H, the functional E ψ ψ ( ψ ) H = ψ ψ (6.1)\n\n[4] Chapter 1 Variational Methods - University of Cambridge\nURL: https://www.damtp.cam.ac.uk/user/reh10/lectures/nst-mmii-chapter1.pdf\nSnippet: 1.9 The Variational Principle for Sturm–Liouville Equations We shall show in this section that the following three problems are equivalent: (i) Find the eigenvalues λ and eigenfunctions y(x) which solve the Sturm–Liouville problem d − p(x)y0\n\n[5] Variational Principles in Classical Mechanics - Revised ...Chapter 8: The variational principle - University of TennesseeVariational Principle - an overview | ScienceDirect TopicsVariational principle - Wikipedia\nURL: https://open.umn.edu/opentextbooks/textbooks/490\nSnippet: Jun 24, 2021 · The book covers a wide range of variational methods in Physics starting with the Newtonian vector-based framework and moving into the principle of least action and variational methods. It is fully comprehensive in its treatment of physics theories between Newton through Einstein. One possibility is to use the variational principle: it does not give you the exact answer but gives you an upper bound to the energy which is often sufficient. A variational principle is defined as a fundamental concept in mathematical physics that aims to determine the path, function, or object that maximizes or minimizes a mathematical quantity known as a functional. A variational principle is a mathematical procedure that renders a physical problem solvable by the calculus of variations, which concerns finding functions that optimize the values of quantities that depend on those functions.",
+          "searched_at": "2026-05-06_21-48-13",
+          "attempt_number": 2
+        },
+        {
+          "status": "ok",
+          "query": "Variational principle The variational principle identifies extremal paths or states where key quantities are minimized or maximized. site:edu physics",
+          "results": [
+            {
+              "title": "CLASSIC THEORY OF CALCULUS OF VARIATION LONG CHEN",
+              "url": "https://www.math.uci.edu/~chenlong/290C/2_classicalTheory.pdf",
+              "domain": "math.uci.edu",
+              "snippet": "June 4, 2025 - ﬁrst derivative vanishes, i.e., f ′(x) = 0. Similarly, in the calculus of variations, a solution · to the Euler–Lagrange equation is called an extremal (or extremal curve) of the functional. To determine whether an extremal is a local minimizer, second-order conditions must be"
+            },
+            {
+              "title": "(PDF) Calculus of Variations and the Euler Lagrange Equations",
+              "url": "https://www.academia.edu/12936948/Calculus_of_Variations_and_the_Euler_Lagrange_Equations",
+              "domain": "academia.edu",
+              "snippet": "October 12, 2025 - On the other hand, equation 12 says that a quantity does not change with the variation of x(t); this quantity, which turns out to be the Action, is conserved. It is no accident that the action and the total energy are physically conserved quantities, and here I conjecture that there is a bijection between the two statements. Now that we know that the functional S is extremized, Euler-Lagrange suddenly becomes very applicable."
+            },
+            {
+              "title": "Principles and Applications of Variational Methods",
+              "url": "https://mitpress.mit.edu/9780262020091/principles-and-applications-of-variational-methods/",
+              "domain": "mitpress.mit.edu",
+              "snippet": "October 22, 2025 - Variational methods attempt to answer the question: Given an equation and some presumably good “guesses” about the form of the solution, how should one p..."
+            },
+            {
+              "title": "Variational principles for spin systems and the Kirchhoff rod",
+              "url": "https://authors.library.caltech.edu/records/a4vge-0m197",
+              "domain": "authors.library.caltech.edu",
+              "snippet": "4 weeks ago - We obtain the affine Euler-Poincaré equations by standard Lagrangian reduction and deduce the associated Clebsch-constrained variational principle. These results are illustrated in deriving the equations of motion for continuum spin systems and Kirchhoff's rod, where they provide a unified ..."
+            },
+            {
+              "title": "(PDF) The principle of stationary action in the calculus of variations",
+              "url": "https://www.academia.edu/53062740/The_principle_of_stationary_action_in_the_calculus_of_variations",
+              "domain": "academia.edu",
+              "snippet": "October 11, 2025 - What role do conjugate points play in identifying local minima in variational problems?add · The study reveals that the presence of conjugate points is crucial; their absence indicates that the associated solutions to differential equations are local minima. Why is convexity important in determining extrema of action functionals?add · The findings suggest that convex action functionals guarantee minimals at critical paths, thus streamlining the search for solutions in variational calculus."
+            }
+          ],
+          "urls": [
+            "https://www.math.uci.edu/~chenlong/290C/2_classicalTheory.pdf",
+            "https://www.academia.edu/12936948/Calculus_of_Variations_and_the_Euler_Lagrange_Equations",
+            "https://mitpress.mit.edu/9780262020091/principles-and-applications-of-variational-methods/",
+            "https://authors.library.caltech.edu/records/a4vge-0m197",
+            "https://www.academia.edu/53062740/The_principle_of_stationary_action_in_the_calculus_of_variations"
+          ],
+          "result_snippet": "[1] CLASSIC THEORY OF CALCULUS OF VARIATION LONG CHEN\nURL: https://www.math.uci.edu/~chenlong/290C/2_classicalTheory.pdf\nSnippet: June 4, 2025 - ﬁrst derivative vanishes, i.e., f ′(x) = 0. Similarly, in the calculus of variations, a solution · to the Euler–Lagrange equation is called an extremal (or extremal curve) of the functional. To determine whether an extremal is a local minimizer, second-order conditions must be\n\n[2] (PDF) Calculus of Variations and the Euler Lagrange Equations\nURL: https://www.academia.edu/12936948/Calculus_of_Variations_and_the_Euler_Lagrange_Equations\nSnippet: October 12, 2025 - On the other hand, equation 12 says that a quantity does not change with the variation of x(t); this quantity, which turns out to be the Action, is conserved. It is no accident that the action and the total energy are physically conserved quantities, and here I conjecture that there is a bijection between the two statements. Now that we know that the functional S is extremized, Euler-Lagrange suddenly becomes very applicable.\n\n[3] Principles and Applications of Variational Methods\nURL: https://mitpress.mit.edu/9780262020091/principles-and-applications-of-variational-methods/\nSnippet: October 22, 2025 - Variational methods attempt to answer the question: Given an equation and some presumably good “guesses” about the form of the solution, how should one p...\n\n[4] Variational principles for spin systems and the Kirchhoff rod\nURL: https://authors.library.caltech.edu/records/a4vge-0m197\nSnippet: 4 weeks ago - We obtain the affine Euler-Poincaré equations by standard Lagrangian reduction and deduce the associated Clebsch-constrained variational principle. These results are illustrated in deriving the equations of motion for continuum spin systems and Kirchhoff's rod, where they provide a unified ...\n\n[5] (PDF) The principle of stationary action in the calculus of variations\nURL: https://www.academia.edu/53062740/The_principle_of_stationary_action_in_the_calculus_of_variations\nSnippet: October 11, 2025 - What role do conjugate points play in identifying local minima in variational problems?add · The study reveals that the presence of conjugate points is crucial; their absence indicates that the associated solutions to differential equations are local minima. Why is convexity important in determining extrema of action functionals?add · The findings suggest that convex action functionals guarantee minimals at critical paths, thus streamlining the search for solutions in variational calculus.",
+          "searched_at": "2026-05-06_22-24-38",
+          "attempt_number": 3
+        }
+      ],
+      "query": "Variational principle The variational principle identifies extremal paths or states where key quantities are minimized or maximized. site:edu physics",
+      "search_status": "ok",
+      "result_snippet": "[1] CLASSIC THEORY OF CALCULUS OF VARIATION LONG CHEN\nURL: https://www.math.uci.edu/~chenlong/290C/2_classicalTheory.pdf\nSnippet: June 4, 2025 - ﬁrst derivative vanishes, i.e., f ′(x) = 0. Similarly, in the calculus of variations, a solution · to the Euler–Lagrange equation is called an extremal (or extremal curve) of the functional. To determine whether an extremal is a local minimizer, second-order conditions must be\n\n[2] (PDF) Calculus of Variations and the Euler Lagrange Equations\nURL: https://www.academia.edu/12936948/Calculus_of_Variations_and_the_Euler_Lagrange_Equations\nSnippet: October 12, 2025 - On the other hand, equation 12 says that a quantity does not change with the variation of x(t); this quantity, which turns out to be the Action, is conserved. It is no accident that the action and the total energy are physically conserved quantities, and here I conjecture that there is a bijection between the two statements. Now that we know that the functional S is extremized, Euler-Lagrange suddenly becomes very applicable.\n\n[3] Principles and Applications of Variational Methods\nURL: https://mitpress.mit.edu/9780262020091/principles-and-applications-of-variational-methods/\nSnippet: October 22, 2025 - Variational methods attempt to answer the question: Given an equation and some presumably good “guesses” about the form of the solution, how should one p...\n\n[4] Variational principles for spin systems and the Kirchhoff rod\nURL: https://authors.library.caltech.edu/records/a4vge-0m197\nSnippet: 4 weeks ago - We obtain the affine Euler-Poincaré equations by standard Lagrangian reduction and deduce the associated Clebsch-constrained variational principle. These results are illustrated in deriving the equations of motion for continuum spin systems and Kirchhoff's rod, where they provide a unified ...\n\n[5] (PDF) The principle of stationary action in the calculus of variations\nURL: https://www.academia.edu/53062740/The_principle_of_stationary_action_in_the_calculus_of_variations\nSnippet: October 11, 2025 - What role do conjugate points play in identifying local minima in variational problems?add · The study reveals that the presence of conjugate points is crucial; their absence indicates that the associated solutions to differential equations are local minima. Why is convexity important in determining extrema of action functionals?add · The findings suggest that convex action functionals guarantee minimals at critical paths, thus streamlining the search for solutions in variational calculus.",
+      "results": [
+        {
+          "title": "CLASSIC THEORY OF CALCULUS OF VARIATION LONG CHEN",
+          "url": "https://www.math.uci.edu/~chenlong/290C/2_classicalTheory.pdf",
+          "domain": "math.uci.edu",
+          "snippet": "June 4, 2025 - ﬁrst derivative vanishes, i.e., f ′(x) = 0. Similarly, in the calculus of variations, a solution · to the Euler–Lagrange equation is called an extremal (or extremal curve) of the functional. To determine whether an extremal is a local minimizer, second-order conditions must be"
+        },
+        {
+          "title": "(PDF) Calculus of Variations and the Euler Lagrange Equations",
+          "url": "https://www.academia.edu/12936948/Calculus_of_Variations_and_the_Euler_Lagrange_Equations",
+          "domain": "academia.edu",
+          "snippet": "October 12, 2025 - On the other hand, equation 12 says that a quantity does not change with the variation of x(t); this quantity, which turns out to be the Action, is conserved. It is no accident that the action and the total energy are physically conserved quantities, and here I conjecture that there is a bijection between the two statements. Now that we know that the functional S is extremized, Euler-Lagrange suddenly becomes very applicable."
+        },
+        {
+          "title": "Principles and Applications of Variational Methods",
+          "url": "https://mitpress.mit.edu/9780262020091/principles-and-applications-of-variational-methods/",
+          "domain": "mitpress.mit.edu",
+          "snippet": "October 22, 2025 - Variational methods attempt to answer the question: Given an equation and some presumably good “guesses” about the form of the solution, how should one p..."
+        },
+        {
+          "title": "Variational principles for spin systems and the Kirchhoff rod",
+          "url": "https://authors.library.caltech.edu/records/a4vge-0m197",
+          "domain": "authors.library.caltech.edu",
+          "snippet": "4 weeks ago - We obtain the affine Euler-Poincaré equations by standard Lagrangian reduction and deduce the associated Clebsch-constrained variational principle. These results are illustrated in deriving the equations of motion for continuum spin systems and Kirchhoff's rod, where they provide a unified ..."
+        },
+        {
+          "title": "(PDF) The principle of stationary action in the calculus of variations",
+          "url": "https://www.academia.edu/53062740/The_principle_of_stationary_action_in_the_calculus_of_variations",
+          "domain": "academia.edu",
+          "snippet": "October 11, 2025 - What role do conjugate points play in identifying local minima in variational problems?add · The study reveals that the presence of conjugate points is crucial; their absence indicates that the associated solutions to differential equations are local minima. Why is convexity important in determining extrema of action functionals?add · The findings suggest that convex action functionals guarantee minimals at critical paths, thus streamlining the search for solutions in variational calculus."
+        }
+      ],
+      "urls": [
+        "https://www.math.uci.edu/~chenlong/290C/2_classicalTheory.pdf",
+        "https://www.academia.edu/12936948/Calculus_of_Variations_and_the_Euler_Lagrange_Equations",
+        "https://mitpress.mit.edu/9780262020091/principles-and-applications-of-variational-methods/",
+        "https://authors.library.caltech.edu/records/a4vge-0m197",
+        "https://www.academia.edu/53062740/The_principle_of_stationary_action_in_the_calculus_of_variations"
+      ],
+      "attempt_count": 3,
+      "searched_at": "2026-05-06_22-24-38",
+      "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
+    },
+    "C002": {
+      "claim": "In classical mechanics, the variational principle applies to action {action}, while in quantum systems, it relates to the expectation value of energy {expectation value}.",
+      "search_attempts": [
+        {
+          "status": "ok",
+          "query": "classical vs quantum variational principle",
+          "results": [
+            {
+              "title": "Hamilton-Jacobi equation - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Hamilton–Jacobi_equation",
+              "domain": "en.wikipedia.org",
+              "snippet": "The classical limit ( ) of the Schrödinger equation above becomes identical to the following variant of the Hamilton-Jacobi equation, The following table summarizes the similarities between optics and quantum mechancis. The Hamilton-Jacobi equation is to quantum mechanics what the eikonal equation is to the wave equation of optics."
+            },
+            {
+              "title": "Classical vs Quantum Physics: What's the Real Difference?",
+              "url": "https://www.sciencenewstoday.org/classical-vs-quantum-physics-whats-the-real-difference",
+              "domain": "sciencenewstoday.org",
+              "snippet": "The divide between classical and quantum physics reflects the complexity of the universe. Classical physics describes the world as we experience it—tangible, predictable, and orderly. Quantum physics reveals a deeper layer—uncertain, probabilistic, and strange. But these are not rival theories; they are complementary."
+            },
+            {
+              "title": "7 Differences Between Quantum Physics and Classical Physics",
+              "url": "https://33science.com/2025/11/05/differences-between-quantum-physics-and-classical-physics/",
+              "domain": "33science.com",
+              "snippet": "This hub explains the 7 differences between quantum physics and classical physics, covering determinism vs probability, scale, wave-particle behavior, measurement effects, and frameworks. Each difference links to a dedicated article with clear examples and experiments — ideal for students, teachers, and curious readers who want a structured deep-dive."
+            },
+            {
+              "title": "13.1: Variational Principle - Physics LibreTexts",
+              "url": "https://phys.libretexts.org/Bookshelves/Quantum_Mechanics/Introductory_Quantum_Mechanics_(Fitzpatrick)/13:_Variational_Methods/13.01:_Variational_Principle",
+              "domain": "phys.libretexts.org",
+              "snippet": "This page describes the variational principle, which asserts that the ground-state energy \\ (E_0\\) of a quantum system is at most the expectation value of the Hamiltonian \\ (H\\) derived from a …"
+            },
+            {
+              "title": "Comparing Classical and Quantum Variational Classifiers on the XOR Problem",
+              "url": "https://arxiv.org/abs/2602.24220",
+              "domain": "arxiv.org",
+              "snippet": "Quantum machine learning applies principles such as superposition and entanglement to data processing and optimization. Variational quantum models operate on qubits in high-dimensional Hilbert spaces and provide an alternative approach to model expressivity. We compare classical models and a variational quantum classifier on the XOR problem. Logistic regression, a one-hidden-layer multilayer ..."
+            }
+          ],
+          "urls": [
+            "https://en.wikipedia.org/wiki/Hamilton–Jacobi_equation",
+            "https://www.sciencenewstoday.org/classical-vs-quantum-physics-whats-the-real-difference",
+            "https://33science.com/2025/11/05/differences-between-quantum-physics-and-classical-physics/",
+            "https://phys.libretexts.org/Bookshelves/Quantum_Mechanics/Introductory_Quantum_Mechanics_(Fitzpatrick)/13:_Variational_Methods/13.01:_Variational_Principle",
+            "https://arxiv.org/abs/2602.24220"
+          ],
+          "result_snippet": "[1] Hamilton-Jacobi equation - Wikipedia\nURL: https://en.wikipedia.org/wiki/Hamilton–Jacobi_equation\nSnippet: The classical limit ( ) of the Schrödinger equation above becomes identical to the following variant of the Hamilton-Jacobi equation, The following table summarizes the similarities between optics and quantum mechancis. The Hamilton-Jacobi equation is to quantum mechanics what the eikonal equation is to the wave equation of optics.\n\n[2] Classical vs Quantum Physics: What's the Real Difference?\nURL: https://www.sciencenewstoday.org/classical-vs-quantum-physics-whats-the-real-difference\nSnippet: The divide between classical and quantum physics reflects the complexity of the universe. Classical physics describes the world as we experience it—tangible, predictable, and orderly. Quantum physics reveals a deeper layer—uncertain, probabilistic, and strange. But these are not rival theories; they are complementary.\n\n[3] 7 Differences Between Quantum Physics and Classical Physics\nURL: https://33science.com/2025/11/05/differences-between-quantum-physics-and-classical-physics/\nSnippet: This hub explains the 7 differences between quantum physics and classical physics, covering determinism vs probability, scale, wave-particle behavior, measurement effects, and frameworks. Each difference links to a dedicated article with clear examples and experiments — ideal for students, teachers, and curious readers who want a structured deep-dive.\n\n[4] 13.1: Variational Principle - Physics LibreTexts\nURL: https://phys.libretexts.org/Bookshelves/Quantum_Mechanics/Introductory_Quantum_Mechanics_(Fitzpatrick)/13:_Variational_Methods/13.01:_Variational_Principle\nSnippet: This page describes the variational principle, which asserts that the ground-state energy \\ (E_0\\) of a quantum system is at most the expectation value of the Hamiltonian \\ (H\\) derived from a …\n\n[5] Comparing Classical and Quantum Variational Classifiers on the XOR Problem\nURL: https://arxiv.org/abs/2602.24220\nSnippet: Quantum machine learning applies principles such as superposition and entanglement to data processing and optimization. Variational quantum models operate on qubits in high-dimensional Hilbert spaces and provide an alternative approach to model expressivity. We compare classical models and a variational quantum classifier on the XOR problem. Logistic regression, a one-hidden-layer multilayer ...",
+          "searched_at": "2026-05-06_21-11-47",
+          "attempt_number": 1
+        }
+      ],
+      "query": "classical vs quantum variational principle",
+      "search_status": "ok",
+      "result_snippet": "[1] Hamilton-Jacobi equation - Wikipedia\nURL: https://en.wikipedia.org/wiki/Hamilton–Jacobi_equation\nSnippet: The classical limit ( ) of the Schrödinger equation above becomes identical to the following variant of the Hamilton-Jacobi equation, The following table summarizes the similarities between optics and quantum mechancis. The Hamilton-Jacobi equation is to quantum mechanics what the eikonal equation is to the wave equation of optics.\n\n[2] Classical vs Quantum Physics: What's the Real Difference?\nURL: https://www.sciencenewstoday.org/classical-vs-quantum-physics-whats-the-real-difference\nSnippet: The divide between classical and quantum physics reflects the complexity of the universe. Classical physics describes the world as we experience it—tangible, predictable, and orderly. Quantum physics reveals a deeper layer—uncertain, probabilistic, and strange. But these are not rival theories; they are complementary.\n\n[3] 7 Differences Between Quantum Physics and Classical Physics\nURL: https://33science.com/2025/11/05/differences-between-quantum-physics-and-classical-physics/\nSnippet: This hub explains the 7 differences between quantum physics and classical physics, covering determinism vs probability, scale, wave-particle behavior, measurement effects, and frameworks. Each difference links to a dedicated article with clear examples and experiments — ideal for students, teachers, and curious readers who want a structured deep-dive.\n\n[4] 13.1: Variational Principle - Physics LibreTexts\nURL: https://phys.libretexts.org/Bookshelves/Quantum_Mechanics/Introductory_Quantum_Mechanics_(Fitzpatrick)/13:_Variational_Methods/13.01:_Variational_Principle\nSnippet: This page describes the variational principle, which asserts that the ground-state energy \\ (E_0\\) of a quantum system is at most the expectation value of the Hamiltonian \\ (H\\) derived from a …\n\n[5] Comparing Classical and Quantum Variational Classifiers on the XOR Problem\nURL: https://arxiv.org/abs/2602.24220\nSnippet: Quantum machine learning applies principles such as superposition and entanglement to data processing and optimization. Variational quantum models operate on qubits in high-dimensional Hilbert spaces and provide an alternative approach to model expressivity. We compare classical models and a variational quantum classifier on the XOR problem. Logistic regression, a one-hidden-layer multilayer ...",
+      "results": [
+        {
+          "title": "Hamilton-Jacobi equation - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Hamilton–Jacobi_equation",
+          "domain": "en.wikipedia.org",
+          "snippet": "The classical limit ( ) of the Schrödinger equation above becomes identical to the following variant of the Hamilton-Jacobi equation, The following table summarizes the similarities between optics and quantum mechancis. The Hamilton-Jacobi equation is to quantum mechanics what the eikonal equation is to the wave equation of optics."
+        },
+        {
+          "title": "Classical vs Quantum Physics: What's the Real Difference?",
+          "url": "https://www.sciencenewstoday.org/classical-vs-quantum-physics-whats-the-real-difference",
+          "domain": "sciencenewstoday.org",
+          "snippet": "The divide between classical and quantum physics reflects the complexity of the universe. Classical physics describes the world as we experience it—tangible, predictable, and orderly. Quantum physics reveals a deeper layer—uncertain, probabilistic, and strange. But these are not rival theories; they are complementary."
+        },
+        {
+          "title": "7 Differences Between Quantum Physics and Classical Physics",
+          "url": "https://33science.com/2025/11/05/differences-between-quantum-physics-and-classical-physics/",
+          "domain": "33science.com",
+          "snippet": "This hub explains the 7 differences between quantum physics and classical physics, covering determinism vs probability, scale, wave-particle behavior, measurement effects, and frameworks. Each difference links to a dedicated article with clear examples and experiments — ideal for students, teachers, and curious readers who want a structured deep-dive."
+        },
+        {
+          "title": "13.1: Variational Principle - Physics LibreTexts",
+          "url": "https://phys.libretexts.org/Bookshelves/Quantum_Mechanics/Introductory_Quantum_Mechanics_(Fitzpatrick)/13:_Variational_Methods/13.01:_Variational_Principle",
+          "domain": "phys.libretexts.org",
+          "snippet": "This page describes the variational principle, which asserts that the ground-state energy \\ (E_0\\) of a quantum system is at most the expectation value of the Hamiltonian \\ (H\\) derived from a …"
+        },
+        {
+          "title": "Comparing Classical and Quantum Variational Classifiers on the XOR Problem",
+          "url": "https://arxiv.org/abs/2602.24220",
+          "domain": "arxiv.org",
+          "snippet": "Quantum machine learning applies principles such as superposition and entanglement to data processing and optimization. Variational quantum models operate on qubits in high-dimensional Hilbert spaces and provide an alternative approach to model expressivity. We compare classical models and a variational quantum classifier on the XOR problem. Logistic regression, a one-hidden-layer multilayer ..."
+        }
+      ],
+      "urls": [
+        "https://en.wikipedia.org/wiki/Hamilton–Jacobi_equation",
+        "https://www.sciencenewstoday.org/classical-vs-quantum-physics-whats-the-real-difference",
+        "https://33science.com/2025/11/05/differences-between-quantum-physics-and-classical-physics/",
+        "https://phys.libretexts.org/Bookshelves/Quantum_Mechanics/Introductory_Quantum_Mechanics_(Fitzpatrick)/13:_Variational_Methods/13.01:_Variational_Principle",
+        "https://arxiv.org/abs/2602.24220"
+      ],
+      "attempt_count": 1,
+      "searched_at": "2026-05-06_21-11-47",
+      "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
+    },
+    "C003": {
+      "claim": "The term 'extremize' includes both minima and maxima, not just strict minima.",
+      "search_attempts": [
+        {
+          "status": "ok",
+          "query": "variational principle extremize definition",
+          "results": [
+            {
+              "title": "Calculus of variations - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Calculus_of_variations",
+              "domain": "en.wikipedia.org",
+              "snippet": "The calculus of variations (or ... The calculus of variations is concerned with the maxima or minima (collectively called extrema ) of functionals."
+            },
+            {
+              "title": "Analysis - Variational, Global, Principles | Britannica",
+              "url": "https://www.britannica.com/science/analysis-mathematics/Variational-principles-and-global-analysis",
+              "domain": "britannica.com",
+              "snippet": "... mechanics can be restated in terms of a variational principle: mechanical systems move in a manner that minimizes (or, more technically, extremizes ..."
+            },
+            {
+              "title": "Variational principle for a damped, quadratically interacting",
+              "url": "https://arxiv.org/html/2311.00106v2",
+              "domain": "arxiv.org",
+              "snippet": "We note here that the existence of variational action principles for systems with dissipation and non-conservative forces is a surprising and novel ..."
+            },
+            {
+              "title": "variational calculus in nLab",
+              "url": "https://ncatlab.org/nlab/show/variational+calculus",
+              "domain": "ncatlab.org",
+              "snippet": "Variational calculus – sometimes called secondary calculus – is a version of differential calculus that deals with local extremization of ..."
+            },
+            {
+              "title": "general relativity - Why boundary terms make the variational",
+              "url": "https://physics.stackexchange.com/questions/536191/why-boundary-terms-make-the-variational-principle-ill-defined",
+              "domain": "physics.stackexchange.com",
+              "snippet": "Now, as I understand, the variational principle is the statement that the physical classical field configuration should be $\\Phi^i$ such that $\\delta ..."
+            }
+          ],
+          "urls": [
+            "https://en.wikipedia.org/wiki/Calculus_of_variations",
+            "https://www.britannica.com/science/analysis-mathematics/Variational-principles-and-global-analysis",
+            "https://arxiv.org/html/2311.00106v2",
+            "https://ncatlab.org/nlab/show/variational+calculus",
+            "https://physics.stackexchange.com/questions/536191/why-boundary-terms-make-the-variational-principle-ill-defined"
+          ],
+          "result_snippet": "[1] Calculus of variations - Wikipedia\nURL: https://en.wikipedia.org/wiki/Calculus_of_variations\nSnippet: The calculus of variations (or ... The calculus of variations is concerned with the maxima or minima (collectively called extrema ) of functionals.\n\n[2] Analysis - Variational, Global, Principles | Britannica\nURL: https://www.britannica.com/science/analysis-mathematics/Variational-principles-and-global-analysis\nSnippet: ... mechanics can be restated in terms of a variational principle: mechanical systems move in a manner that minimizes (or, more technically, extremizes ...\n\n[3] Variational principle for a damped, quadratically interacting\nURL: https://arxiv.org/html/2311.00106v2\nSnippet: We note here that the existence of variational action principles for systems with dissipation and non-conservative forces is a surprising and novel ...\n\n[4] variational calculus in nLab\nURL: https://ncatlab.org/nlab/show/variational+calculus\nSnippet: Variational calculus – sometimes called secondary calculus – is a version of differential calculus that deals with local extremization of ...\n\n[5] general relativity - Why boundary terms make the variational\nURL: https://physics.stackexchange.com/questions/536191/why-boundary-terms-make-the-variational-principle-ill-defined\nSnippet: Now, as I understand, the variational principle is the statement that the physical classical field configuration should be $\\Phi^i$ such that $\\delta ...",
+          "searched_at": "2026-05-06_21-11-49",
+          "attempt_number": 1
+        }
+      ],
+      "query": "variational principle extremize definition",
+      "search_status": "ok",
+      "result_snippet": "[1] Calculus of variations - Wikipedia\nURL: https://en.wikipedia.org/wiki/Calculus_of_variations\nSnippet: The calculus of variations (or ... The calculus of variations is concerned with the maxima or minima (collectively called extrema ) of functionals.\n\n[2] Analysis - Variational, Global, Principles | Britannica\nURL: https://www.britannica.com/science/analysis-mathematics/Variational-principles-and-global-analysis\nSnippet: ... mechanics can be restated in terms of a variational principle: mechanical systems move in a manner that minimizes (or, more technically, extremizes ...\n\n[3] Variational principle for a damped, quadratically interacting\nURL: https://arxiv.org/html/2311.00106v2\nSnippet: We note here that the existence of variational action principles for systems with dissipation and non-conservative forces is a surprising and novel ...\n\n[4] variational calculus in nLab\nURL: https://ncatlab.org/nlab/show/variational+calculus\nSnippet: Variational calculus – sometimes called secondary calculus – is a version of differential calculus that deals with local extremization of ...\n\n[5] general relativity - Why boundary terms make the variational\nURL: https://physics.stackexchange.com/questions/536191/why-boundary-terms-make-the-variational-principle-ill-defined\nSnippet: Now, as I understand, the variational principle is the statement that the physical classical field configuration should be $\\Phi^i$ such that $\\delta ...",
+      "results": [
+        {
+          "title": "Calculus of variations - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Calculus_of_variations",
+          "domain": "en.wikipedia.org",
+          "snippet": "The calculus of variations (or ... The calculus of variations is concerned with the maxima or minima (collectively called extrema ) of functionals."
+        },
+        {
+          "title": "Analysis - Variational, Global, Principles | Britannica",
+          "url": "https://www.britannica.com/science/analysis-mathematics/Variational-principles-and-global-analysis",
+          "domain": "britannica.com",
+          "snippet": "... mechanics can be restated in terms of a variational principle: mechanical systems move in a manner that minimizes (or, more technically, extremizes ..."
+        },
+        {
+          "title": "Variational principle for a damped, quadratically interacting",
+          "url": "https://arxiv.org/html/2311.00106v2",
+          "domain": "arxiv.org",
+          "snippet": "We note here that the existence of variational action principles for systems with dissipation and non-conservative forces is a surprising and novel ..."
+        },
+        {
+          "title": "variational calculus in nLab",
+          "url": "https://ncatlab.org/nlab/show/variational+calculus",
+          "domain": "ncatlab.org",
+          "snippet": "Variational calculus – sometimes called secondary calculus – is a version of differential calculus that deals with local extremization of ..."
+        },
+        {
+          "title": "general relativity - Why boundary terms make the variational",
+          "url": "https://physics.stackexchange.com/questions/536191/why-boundary-terms-make-the-variational-principle-ill-defined",
+          "domain": "physics.stackexchange.com",
+          "snippet": "Now, as I understand, the variational principle is the statement that the physical classical field configuration should be $\\Phi^i$ such that $\\delta ..."
+        }
+      ],
+      "urls": [
+        "https://en.wikipedia.org/wiki/Calculus_of_variations",
+        "https://www.britannica.com/science/analysis-mathematics/Variational-principles-and-global-analysis",
+        "https://arxiv.org/html/2311.00106v2",
+        "https://ncatlab.org/nlab/show/variational+calculus",
+        "https://physics.stackexchange.com/questions/536191/why-boundary-terms-make-the-variational-principle-ill-defined"
+      ],
+      "attempt_count": 1,
+      "searched_at": "2026-05-06_21-11-49",
+      "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
+    }
+  },
+  "summary": {
+    "total_claims": 3,
+    "checked_claim_count": 1,
+    "passing_claim_count": 0,
+    "unchecked_claim_count": 2,
+    "unresolved_or_needs_qualification": 3,
+    "actionable_issue_count": 0,
+    "evidence_retry_count": 1,
+    "claim_review_complete": false,
+    "unchecked_claim_ids": [
+      "C002",
+      "C003"
+    ],
+    "actionable_claim_ids": [],
+    "evidence_retry_claim_ids": [
+      "C001"
+    ],
+    "highest_priority_fixes": []
+  },
+  "last_updated": "2026-05-06_22-24-39"
+}

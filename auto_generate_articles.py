@@ -91,9 +91,10 @@ LLM_OPTIONS = {
     "num_ctx": 8192,
     "num_predict": 2048,
     "num_batch": 32,
+    "keep_alive": -1,
 }
-LLM_TIMEOUT_SECONDS = 8 * 60
-LLM_MAX_RETRIES = 0
+LLM_TIMEOUT_SECONDS = 12 * 60
+LLM_MAX_RETRIES = 2
 
 RESET_OLLAMA_MODEL_ON_TIMEOUT = True
 
@@ -101,8 +102,21 @@ NODE_OPTION_OVERRIDES = {
     "term_collector": {"num_predict": 768},
     "claim_extractor": {"num_predict": 1024},
     "claim_checker": {"num_predict": 768},
-    "accessibility_judge": {"num_predict": 1024},
-    "rigor_judge": {"num_predict": 1024},
+    "accessibility_judge": {"num_predict": 2048},
+    "rigor_judge": {"num_predict": 2048},
+    "json_repair": {"num_predict": 2048},
+}
+
+NODE_TIMEOUT_OVERRIDES = {
+    "accessibility_judge": 15 * 60,
+    "rigor_judge": 15 * 60,
+    "json_repair": 5 * 60,
+}
+
+NODE_RETRY_OVERRIDES = {
+    "accessibility_judge": 2,
+    "rigor_judge": 2,
+    "json_repair": 1,
 }
 
 search_wrapper = DuckDuckGoSearchAPIWrapper(max_results=5)
@@ -1191,6 +1205,13 @@ def parse_json_loose(text: str, fallback: Any) -> Any:
     except Exception:
         pass
 
+    repaired = repair_json_string_escapes(clean)
+    if repaired != clean:
+        try:
+            return json.loads(repaired)
+        except Exception:
+            pass
+
     # Try to find the first JSON object or array.
     candidates = []
     obj_match = re.search(r"\{.*\}", clean, flags=re.DOTALL)
@@ -1204,9 +1225,66 @@ def parse_json_loose(text: str, fallback: Any) -> Any:
         try:
             return json.loads(candidate)
         except Exception:
+            repaired_candidate = repair_json_string_escapes(candidate)
+            if repaired_candidate != candidate:
+                try:
+                    return json.loads(repaired_candidate)
+                except Exception:
+                    pass
             continue
 
     return fallback
+
+
+def repair_json_string_escapes(text: str) -> str:
+    """Escape backslashes that are illegal in JSON strings, such as LaTeX commands."""
+    return re.sub(r'\\(?!["\\/bfnrtu])', r"\\\\", text)
+
+
+def salvage_review_payload(text: str, review_type: str) -> Dict[str, Any]:
+    """Recover a minimal review when JSON was truncated or contains bad escapes."""
+    clean = strip_qwen_thinking(text).strip()
+    score = 0
+    score_match = re.search(
+        rf'"(?:score|{re.escape(review_type)}_score|rating)"\s*:\s*"?(\d+)',
+        clean,
+        flags=re.IGNORECASE,
+    )
+    if score_match:
+        try:
+            score = int(score_match.group(1))
+        except Exception:
+            score = 0
+
+    strengths = []
+    strengths_match = re.search(r'"strengths"\s*:\s*\[(.*?)\]', clean, flags=re.DOTALL)
+    if strengths_match:
+        strengths = re.findall(r'"([^"]{3,240})"', strengths_match.group(1))[:3]
+
+    best_next_revision = ""
+    best_match = re.search(
+        r'"best_next_revision"\s*:\s*"([^"]*)',
+        clean,
+        flags=re.DOTALL,
+    )
+    if best_match:
+        best_next_revision = re.sub(r"\s+", " ", best_match.group(1)).strip()
+
+    return {
+        "score": score,
+        "pass": score >= PASSING_SCORE,
+        "strengths": strengths,
+        "issues": [
+            {
+                "severity": "medium",
+                "location": "judge output",
+                "problem": "Judge output could not be parsed as complete JSON.",
+                "suggested_fix": "Rerun the judge or use the raw judge output for debugging.",
+            }
+        ],
+        "best_next_revision": best_next_revision,
+        "parse_status": "salvaged_from_invalid_or_truncated_json",
+    }
 
 
 def approx_tokens(text: str) -> int:
@@ -1332,11 +1410,14 @@ def run_role(
         return default
 
 def normalize_review_payload(payload: Any, review_type: str) -> Dict[str, Any]:
+    parse_status = ""
     if isinstance(payload, list):
         payload = payload[0] if payload and isinstance(payload[0], dict) else {}
 
     if not isinstance(payload, dict):
         payload = {}
+    else:
+        parse_status = str(payload.get("parse_status", ""))
 
     nested = payload.get("review")
     if isinstance(nested, dict):
@@ -1352,15 +1433,32 @@ def normalize_review_payload(payload: Any, review_type: str) -> Dict[str, Any]:
     try:
         score = int(score)
     except Exception:
-        score = 0
+        match = re.search(r"\d+", str(score))
+        score = int(match.group(0)) if match else 0
 
-    return {
+    pass_value = payload.get("pass", score >= PASSING_SCORE)
+    if isinstance(pass_value, str):
+        pass_value = pass_value.strip().lower() in {"true", "yes", "1", "pass", "passed"}
+
+    normalized = {
         "score": max(0, min(10, score)),
-        "pass": bool(payload.get("pass", score >= PASSING_SCORE)),
+        "pass": bool(pass_value),
         "strengths": payload.get("strengths", []),
         "issues": payload.get("issues", []),
         "best_next_revision": payload.get("best_next_revision", ""),
     }
+
+    if parse_status:
+        normalized["parse_status"] = parse_status
+    return normalized
+
+
+def parse_review_output(p: ArticlePaths, raw: str, review_type: str) -> Dict[str, Any]:
+    parsed = parse_json_with_repair(p, raw, f"{review_type}_judge", None)
+    if parsed is None or parsed == {}:
+        parsed = salvage_review_payload(raw, review_type)
+    return normalize_review_payload(parsed, review_type)
+
 
 def build_revision_brief(p: ArticlePaths, max_items: int = 6) -> str:
     items = []
@@ -1737,6 +1835,14 @@ def effective_llm_options(node_name: str) -> Dict[str, Any]:
     return options
 
 
+def effective_timeout_seconds(node_name: str) -> int:
+    return NODE_TIMEOUT_OVERRIDES.get(node_name, LLM_TIMEOUT_SECONDS)
+
+
+def effective_max_retries(node_name: str) -> int:
+    return NODE_RETRY_OVERRIDES.get(node_name, LLM_MAX_RETRIES)
+
+
 def stop_ollama_model(article_dir: Path, reason: str) -> None:
     """Try to unload a stuck Ollama model/runner after timeout."""
     if not RESET_OLLAMA_MODEL_ON_TIMEOUT:
@@ -1832,12 +1938,16 @@ def invoke_llm(
     full_prompt_tokens = approx_tokens(system + prompt)
 
     options = effective_llm_options(node_name)
+    if expect_json:
+        options["format"] = "json"
+    timeout_seconds = effective_timeout_seconds(node_name)
+    max_retries = effective_max_retries(node_name)
 
     print(
         f"  -> [{node_name}] calling {MODEL_NAME} "
         f"(~{full_prompt_tokens} tok, {full_prompt_chars} chars, "
         f"ctx={options.get('num_ctx')}, batch={options.get('num_batch')}, "
-        f"predict={options.get('num_predict')})..."
+        f"predict={options.get('num_predict')}, timeout={timeout_seconds}s)..."
     )
 
     append_event_log(
@@ -1848,15 +1958,23 @@ def invoke_llm(
             "prompt_chars": full_prompt_chars,
             "prompt_tokens_approx": full_prompt_tokens,
             "llm_options": options,
-            "timeout_seconds": LLM_TIMEOUT_SECONDS,
+            "timeout_seconds": timeout_seconds,
+            "max_retries": max_retries,
         },
     )
 
     last_error: Optional[str] = None
-    for attempt in range(LLM_MAX_RETRIES + 1):
+    for attempt in range(max_retries + 1):
         started = time.monotonic()
         try:
-            response = invoke_llm_once_with_timeout(system, prompt, LLM_TIMEOUT_SECONDS, options)
+            # On retries for JSON endpoints, drop strict format in case it causes empty responses
+            if expect_json and attempt > 0 and "format" in options:
+                print(f"  -> [{node_name}] Retrying without strict JSON format constraint...")
+                del options["format"]
+
+            response = invoke_llm_once_with_timeout(system, prompt, timeout_seconds, options)
+            if expect_json and not response.strip():
+                raise LLMCallError("EMPTY_JSON_RESPONSE")
             elapsed = round(time.monotonic() - started, 2)
             append_event_log(
                 article_dir,
@@ -1869,6 +1987,7 @@ def invoke_llm(
                 },
             )
             append_log(article_dir, node_name, prompt, response)
+            print(f"  -> [{node_name}] finished in {elapsed}s.")
             return response
         except Exception as exc:
             elapsed = round(time.monotonic() - started, 2)
@@ -1886,10 +2005,62 @@ def invoke_llm(
             if "LLM_TIMEOUT" in last_error:
                 stop_ollama_model(article_dir, reason=f"timeout in {node_name}")
             print(f"  -> [{node_name}] LLM call failed on attempt {attempt + 1}: {last_error}")
-            if attempt < LLM_MAX_RETRIES:
+            if attempt < max_retries:
                 time.sleep(5)
 
-    raise LLMCallError(f"{node_name} failed after {LLM_MAX_RETRIES + 1} attempt(s): {last_error}")
+    raise LLMCallError(f"{node_name} failed after {max_retries + 1} attempt(s): {last_error}")
+
+
+def json_repair_role(p: ArticlePaths, raw: str, node_name: str) -> str:
+    broken_dir = p.article_dir / "logs" / "broken_json"
+    broken_dir.mkdir(parents=True, exist_ok=True)
+    broken_path = broken_dir / f"{node_name}_{now_stamp()}.txt"
+    write_text(broken_path, raw)
+
+    system_msg = """
+You are a JSON repair expert. Your only job is to fix broken JSON strings.
+Rules:
+1. Ensure all string quotes are properly escaped.
+2. Ensure all braces and brackets are properly closed.
+3. Fix missing or trailing commas.
+4. If there is conversational text before or after the JSON, remove it.
+""".strip()
+
+    prompt = f"""
+Fix the following broken JSON. Return ONLY the repaired JSON.
+
+Broken JSON:
+{raw}
+""".strip()
+
+    print(f"  -> [{node_name}] Detected broken JSON. Invoking json_repair role...")
+    repaired = invoke_llm(
+        p.article_dir,
+        "json_repair",
+        prompt,
+        system_extra=system_msg,
+        expect_json=True,
+    )
+    return repaired
+
+
+def parse_json_with_repair(p: ArticlePaths, raw: str, node_name: str, fallback: Any) -> Any:
+    parsed = parse_json_loose(raw, None)
+    if parsed is not None and parsed != {}:
+        return parsed
+
+    if not raw.strip():
+        return fallback
+
+    try:
+        repaired_raw = json_repair_role(p, raw, node_name)
+        parsed = parse_json_loose(repaired_raw, None)
+        if parsed is not None and parsed != {}:
+            return parsed
+    except Exception as exc:
+        print(f"  -> [json_repair] Failed to repair JSON: {exc}")
+
+    return fallback
 
 
 def safe_search(query: str) -> Dict[str, Any]:
@@ -2108,7 +2279,7 @@ Draft:
 """.strip()
 
     raw = invoke_llm(p.article_dir, "term_collector", prompt, expect_json=True)
-    data = parse_json_loose(raw, {"terms": []})
+    data = parse_json_with_repair(p, raw, "term_collector", {"terms": []})
 
     merged: Dict[Tuple[str, str], Dict[str, Any]] = {}
     for term in existing.get("terms", []):
@@ -2298,7 +2469,7 @@ Draft:
     raw_path = p.article_dir / "claim_extractor_raw.txt"
     write_text(raw_path, raw)
 
-    parsed = parse_json_loose(raw, None)
+    parsed = parse_json_with_repair(p, raw, "claim_extractor", None)
     claims = normalize_claims_payload(parsed)
 
     parse_note = ""
@@ -2586,7 +2757,7 @@ Relevant draft context:
             raw_dir = p.article_dir / "claim_checker_raw"
             raw_dir.mkdir(parents=True, exist_ok=True)
             write_text(raw_dir / f"{claim_id}_{now_stamp()}.txt", raw)
-            parsed = parse_json_loose(raw, None)
+            parsed = parse_json_with_repair(p, raw, "claim_checker", None)
             data = normalize_claim_check_payload(parsed, claim_id)
             should_stop_after_this = False
 
@@ -2812,8 +2983,7 @@ Draft:
 """.strip()
 
     raw = invoke_llm(p.article_dir, "accessibility_judge", prompt, system_extra=ACCESSIBILITY_RUBRIC, expect_json=True)
-    parsed = parse_json_loose(raw, {})
-    data = normalize_review_payload(parsed, "accessibility")
+    data = parse_review_output(p, raw, "accessibility")
     return persist_review_artifact(p, "accessibility", round_num, data, raw=raw)
 
 
@@ -2864,8 +3034,7 @@ Draft:
 """.strip()
 
     raw = invoke_llm(p.article_dir, "rigor_judge", prompt, system_extra=RIGOR_RUBRIC, expect_json=True)
-    parsed = parse_json_loose(raw, {})
-    data = normalize_review_payload(parsed, "rigor")
+    data = parse_review_output(p, raw, "rigor")
     return persist_review_artifact(p, "rigor", round_num, data, raw=raw)
 
 

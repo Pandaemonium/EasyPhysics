@@ -2,28 +2,36 @@
   "claim_checks": [
     {
       "id": "C001",
-      "verdict": "not_enough_evidence",
-      "severity": "low",
-      "problem": "The search snippet contains irrelevant text about 'evolutionary' processes and quantum computing accuracy checks, but no direct confirmation of unitary evolution's reversibility/determinism. The snippet's content appears to be fragmented and unrelated to the core claim.",
-      "suggested_fix": "Consult standard quantum mechanics textbooks (e.g., Griffiths, Nielsen & Chuang) or lecture notes that explicitly define unitary evolution as reversible and deterministic. Focus on sections explaining probability conservation via unitary operators.",
-      "source_quality_note": "The snippet appears to contain poorly curated content with non-physical terminology ('DUST', 'evolutionary') and lacks authoritative physics references."
+      "verdict": "supported",
+      "severity": "high",
+      "problem": "",
+      "suggested_fix": "",
+      "source_quality_note": "The snippet includes multiple authoritative physics sources (lecture notes, textbook explanations, quantum computing context) confirming unitary evolution's reversibility and determinism through unitary operators."
     },
     {
       "id": "C002",
-      "verdict": "supported",
+      "verdict": "not_enough_evidence",
+      "severity": "medium",
+      "problem": "Could not parse claim-checker output.",
+      "suggested_fix": "Review this claim manually.",
+      "source_quality_note": ""
+    },
+    {
+      "id": "C003",
+      "verdict": "not_enough_evidence",
       "severity": "low",
-      "problem": "Conflicting snippet content mentions 'it makes no sense to speak about the size...length of a vector' which contradicts standard quantum mechanics treatment of state vector norms",
-      "suggested_fix": "Clarify that while vector length isn't an intrinsic property of the vector itself, in quantum mechanics the norm (total probability) is a physically meaningful quantity preserved by unitary evolution",
-      "source_quality_note": "The snippet contains both standard physics explanations and confusing/contradictory statements, but the core claim about probability conservation through unitary transformations is well-supported"
+      "problem": "The search snippet does not explicitly confirm the quantum mechanical context of norm preservation in unitary evolution. It provides a general math definition of 'norm' but lacks specific reference to quantum mechanics, unitary operators, or probability conservation.",
+      "suggested_fix": "Add citation to a quantum mechanics textbook or lecture notes explicitly discussing unitary evolution and norm preservation (e.g., Griffiths' Quantum Mechanics or MIT OpenCourseWare lectures).",
+      "source_quality_note": "The snippet includes general math definitions and vague topic listings, but no direct confirmation of the quantum mechanical claim. The sources mentioned (HyperPhysics, Physics Letters A) are not clearly referenced in the snippet."
     }
   ],
   "summary": {
     "overall_claim_quality": "Claim check completed.",
-    "unresolved_or_needs_qualification": 1,
+    "unresolved_or_needs_qualification": 3,
     "highest_priority_fixes": [
-      "Consult standard quantum mechanics textbooks (e.g., Griffiths, Nielsen & Chuang) or lecture notes that explicitly define unitary evolution as reversible and deterministic. Focus on sections explaining probability conservation via unitary operators.",
-      "Clarify that while vector length isn't an intrinsic property of the vector itself, in quantum mechanics the norm (total probability) is a physically meaningful quantity preserved by unitary evolution"
+      "Review this claim manually.",
+      "Add citation to a quantum mechanics textbook or lecture notes explicitly discussing unitary evolution and norm preservation (e.g., Griffiths' Quantum Mechanics or MIT OpenCourseWare lectures)."
     ]
   },
-  "last_updated": "2026-05-04_14-57-43"
+  "last_updated": "2026-05-05_06-53-36"
 }

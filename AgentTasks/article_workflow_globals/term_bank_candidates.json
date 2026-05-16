@@ -175,10 +175,10 @@
       "standard_term": "potential barriers",
       "candidate_name": "energy-plateau",
       "context_quote": "A potential barrier is like a wall with a fixed energy height.",
-      "usefulness": "Provides a clear analogy for potential barriers, making it easier to grasp.",
-      "risk": "Could be misleading if taken literally as a physical plateau, but the analogy is clear.",
+      "usefulness": "Visualizes barriers as flat energy regions, aligning with classical intuition for energy thresholds.",
+      "risk": "Could mislead into thinking barriers are static surfaces rather than energy landscapes.",
       "article_title": "Quantum tunneling: how waves naturally bleed through barriers",
-      "captured_at": "2026-05-04_01-09-43"
+      "captured_at": "2026-05-04_01-16-53"
     },
     {
       "standard_term": "wavefunction",
@@ -186,15 +186,6 @@
       "context_quote": "Particles are described by probability-ripples {wavefunctions}, which spread across space.",
       "usefulness": "Makes the abstract concept of wavefunction tangible by associating it with familiar water ripples.",
       "risk": "May imply classical wave behavior, but clarifies it's a probability distribution, not a physical ripple.",
-      "article_title": "Quantum tunneling: how waves naturally bleed through barriers",
-      "captured_at": "2026-05-04_01-16-53"
-    },
-    {
-      "standard_term": "potential barriers",
-      "candidate_name": "energy-plateau",
-      "context_quote": "A potential barrier is like a wall with a fixed energy height.",
-      "usefulness": "Visualizes barriers as flat energy regions, aligning with classical intuition for energy thresholds.",
-      "risk": "Could mislead into thinking barriers are static surfaces rather than energy landscapes.",
       "article_title": "Quantum tunneling: how waves naturally bleed through barriers",
       "captured_at": "2026-05-04_01-16-53"
     },
@@ -291,20 +282,22 @@
     {
       "standard_term": "action integral",
       "candidate_name": "Action",
-      "context_quote": "Action is a measure of 'effort' over time—systems choose paths that balance energy trade-offs",
-      "usefulness": "The name 'Action' intuitively suggests a balance between energy and time, aligning with its role as a weighted sum of kinetic and potential energy",
-      "risk": "May imply action is a physical quantity rather than a mathematical construct",
+      "context_quote": "Action {action integral}",
+      "usefulness": "clearly describes the concept as a balance of energy and time over a path",
+      "risk": "might be confused with the mathematical integral itself rather than the physical concept",
       "article_title": "Least action principle",
-      "captured_at": "2026-05-04_08-19-00"
+      "captured_at": "2026-05-04_08-19-00",
+      "last_seen": "2026-05-06_15-24-16"
     },
     {
       "standard_term": "variational principle",
       "candidate_name": "Stationary path",
-      "context_quote": "Physical systems follow paths that make S stationary (not necessarily minimal)",
-      "usefulness": "Highlights the mathematical property of action paths being extrema, which is central to the principle",
-      "risk": "May confuse with 'stationary state' in quantum mechanics",
+      "context_quote": "Stationary path {variational principle}",
+      "usefulness": "emphasizes the idea of paths where action doesn't change under small variations",
+      "risk": "could be misinterpreted as a static path rather than one determined by variation",
       "article_title": "Least action principle",
-      "captured_at": "2026-05-04_08-19-00"
+      "captured_at": "2026-05-04_08-19-00",
+      "last_seen": "2026-05-06_15-24-16"
     },
     {
       "standard,term": "principle of least action",
@@ -318,29 +311,32 @@
     {
       "standard_term": "cross-sections",
       "candidate_name": "probability maps",
-      "context_quote": "The term 'probability maps' {cross-sections} is used to describe how quantum scattering probabilities are measured.",
-      "usefulness": "Helps visualize quantum scattering as a spatial probability distribution rather than a deterministic event",
-      "risk": "Could imply mapping physical locations instead of abstract probability spaces",
+      "context_quote": "electrons scattering off a crystal reveal its atomic structure through probability maps {cross-sections}, which are a standard measure of interaction probability in scattering theory",
+      "usefulness": "Provides intuitive imagery for abstract quantum probability concepts, linking them to tangible 'maps' of interaction likelihood",
+      "risk": "Could imply probability is a spatial distribution rather than a mathematical amplitude, potentially confusing with classical probability concepts",
       "article_title": "Scattering",
-      "captured_at": "2026-05-04_10-45-23"
+      "captured_at": "2026-05-04_10-45-23",
+      "last_seen": "2026-05-05_18-45-18"
     },
     {
       "standard_term": "eigenvectors",
       "candidate_name": "direction-keepers",
       "context_quote": "Eigenvectors are **direction-keepers** {eigenvectors}: they only stretch, shrink, or reverse direction when a **linear transformation** is applied.",
-      "usefulness": "Emphasizes the invariant directional behavior of eigenvectors, making their role in linear transformations intuitive.",
-      "risk": "Could imply eigenvectors are exclusively about geometric directions, but they apply broadly to any linear transformation.",
+      "usefulness": "Helps visualize eigenvectors as directions that remain invariant under transformations, making abstract math more tangible.",
+      "risk": "Could imply eigenvectors are only about direction, but they also involve scaling factors (eigenvalues).",
       "article_title": "Eigenvector",
-      "captured_at": "2026-05-05_00-50-48"
+      "captured_at": "2026-05-05_00-50-48",
+      "last_seen": "2026-05-05_16-03-09"
     },
     {
       "standard_term": "eigenstates",
       "candidate_name": "quantum states",
-      "context_quote": "This concept is foundational in physics (e.g., quantum states {eigenstates}), engineering, computer graphics, and data science.",
-      "usefulness": "Links eigenvectors to quantum mechanics intuitively, highlighting their role in representing stable, predictable states.",
-      "risk": "May suggest all quantum states are eigenvectors, but eigenstates are a specific subset of quantum states.",
+      "context_quote": "Quantum states {eigenstates} are special states in quantum mechanics that correspond to definite measurable properties (e.g., energy levels).",
+      "usefulness": "Connects eigenvectors to quantum mechanics concepts, clarifying their physical significance in measurable systems.",
+      "risk": "May conflate quantum states with other types of states in physics, but the context makes the connection clear.",
       "article_title": "Eigenvector",
-      "captured_at": "2026-05-05_00-50-48"
+      "captured_at": "2026-05-05_00-50-48",
+      "last_seen": "2026-05-05_16-03-09"
     },
     {
       "standard_term": "eigenstate",
@@ -359,7 +355,57 @@
       "risk": "Could mislead into thinking eigenstates are physical components rather than mathematical constructs",
       "article_title": "Eigenstate",
       "captured_at": "2026-05-05_01-24-35"
+    },
+    {
+      "standard_term": "Lagrangian",
+      "candidate_name": "Energy difference function",
+      "context_quote": "The Lagrangian {L} is typically defined as the difference between kinetic energy {T} and potential energy {V} in classical mechanics: L = T − V",
+      "usefulness": "Emphasizes the Lagrangian's role as a measure of energy imbalance, making its purpose intuitive as a tool for tracking energy changes",
+      "risk": "Could imply the Lagrangian is merely a static difference, whereas it's fundamentally about dynamic energy evolution over time",
+      "article_title": "Lagrangian",
+      "last_seen": "2026-05-06_08-51-23",
+      "captured_at": "2026-05-05_09-06-35"
+    },
+    {
+      "standard_term": "principle of stationary action",
+      "candidate_name": "Path of stationary action",
+      "context_quote": "Nature chooses the path that makes this action stationary (a minimum, maximum, or saddle point). This is called the principle of stationary action",
+      "usefulness": "Clarifies the principle as a rule for selecting paths based on energy change stability, avoiding confusion with 'least action' shorthand",
+      "risk": "May mislead by suggesting stationary action is always a minimum, whereas it can be any extremum",
+      "article_title": "Lagrangian",
+      "last_seen": "2026-05-06_08-51-23",
+      "captured_at": "2026-05-05_09-06-35"
+    },
+    {
+      "standard_term": "equations of motion",
+      "candidate_name": "Motion blueprint",
+      "context_quote": "To find the path, we use the Euler-Lagrange equation... This equation finds the path where changes in energy balance out over time",
+      "usefulness": "Frames equations of motion as a design plan for system behavior, aligning with the intuitive idea of 'blueprint' as a construction guide",
+      "risk": "Could imply equations are prescriptive rather than descriptive, but this aligns with their role in predicting motion",
+      "article_title": "Lagrangian",
+      "last_seen": "2026-05-06_08-51-23",
+      "captured_at": "2026-05-05_09-06-35"
+    },
+    {
+      "standard_term": "Hamiltonian",
+      "candidate_name": "Energy total function",
+      "context_quote": "The Hamiltonian {H} represents the total energy of a system as the sum of kinetic and potential energies: H = T + V",
+      "usefulness": "Emphasizes the Hamiltonian as a complete energy description, clarifying its role in quantum mechanics",
+      "risk": "Might suggest the Hamiltonian is a static value rather than a dynamic operator",
+      "article_title": "Lagrangian",
+      "last_seen": "2026-05-06_04-37-38",
+      "captured_at": "2026-05-06_04-37-38"
+    },
+    {
+      "standard_term": "principle of stationary action",
+      "candidate_name": "Extremal path",
+      "context_quote": "Extremal path {principle of stationary action}",
+      "usefulness": "highlights the extremization of action, which includes minima, maxima, or saddle points",
+      "risk": "might suggest only minima, whereas stationary action includes other extrema",
+      "article_title": "Least action principle",
+      "last_seen": "2026-05-06_15-24-16",
+      "captured_at": "2026-05-06_15-24-16"
     }
   ],
-  "last_updated": "2026-05-05_01-24-35"
+  "last_updated": "2026-05-06_15-24-16"
 }

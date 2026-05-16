@@ -1,0 +1,20 @@
+{
+  "claim_checks": [
+    {
+      "id": "C001",
+      "verdict": "not_enough_evidence",
+      "severity": "medium",
+      "problem": "Claim checker failed: LLMCallError(\"claim_checker failed after 1 attempt(s): LLMCallError('LLM_TIMEOUT_AFTER_480_SECONDS')\")",
+      "suggested_fix": "Review this claim manually or rerun with smaller context.",
+      "source_quality_note": ""
+    }
+  ],
+  "summary": {
+    "overall_claim_quality": "Partial claim check completed.",
+    "unresolved_or_needs_qualification": 1,
+    "highest_priority_fixes": [
+      "Review this claim manually or rerun with smaller context."
+    ]
+  },
+  "last_updated": "2026-05-04_22-05-35"
+}

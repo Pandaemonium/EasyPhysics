@@ -1,0 +1,112 @@
+{
+  "claim_checks": [
+    {
+      "id": "C001",
+      "verdict": "not_enough_evidence",
+      "severity": "medium",
+      "problem": "Claim checker failed: LLMCallError(\"claim_checker failed after 1 attempt(s): LLMCallError('LLM_TIMEOUT_AFTER_480_SECONDS')\")",
+      "suggested_fix": "Automatically retry this claim with another source search or a smaller context.",
+      "source_quality_note": "",
+      "source_urls": [],
+      "claim": "An eigenstate is a quantum state where measuring a specific observable (like energy or spin) always yields the same result.",
+      "checked_at": "2026-05-05_17-23-35",
+      "source_attempt_count": 3,
+      "available_source_urls": [
+        "https://farside.ph.utexas.edu/teaching/qmech/Quantum/node40.html",
+        "https://weichman.princeton.edu/wp-content/uploads/2024/10/chm305_2024_lecture5.pdf",
+        "http://www.hyperphysics.phy-astr.gsu.edu/hbase/quantum/eigen.html",
+        "https://labs.phys.utk.edu/mbreinig/phys222core/modules/m10/quantum_mechanics.html",
+        "https://ocw.mit.edu/courses/8-05-quantum-physics-ii-fall-2013/61bc31b8d8bf0680c322733910a71aa0_MIT8_05F13_Chap_01.pdf"
+      ]
+    }
+  ],
+  "check_history": [
+    {
+      "id": "C001",
+      "verdict": "not_enough_evidence",
+      "severity": "medium",
+      "problem": "Claim checker failed: LLMCallError(\"claim_checker failed after 1 attempt(s): LLMCallError('LLM_TIMEOUT_AFTER_480_SECONDS')\")",
+      "suggested_fix": "Automatically retry this claim with another source search or a smaller context.",
+      "source_quality_note": "",
+      "source_urls": [],
+      "claim": "An eigenstate is a quantum state where measuring a specific observable (like energy or spin) always yields the same result.",
+      "checked_at": "2026-05-05_17-07-17",
+      "source_attempt_count": 1,
+      "available_source_urls": [
+        "https://en.wikipedia.org/wiki/Introduction_to_eigenstates",
+        "https://translate.google.com/translate?client=srp&hl=pt&sl=en&tl=pt&u=https://en.wikipedia.org/wiki/Glossary_of_elementary_quantum_mechanics",
+        "https://en.wikipedia.org/wiki/Quantum_mechanics",
+        "https://en.wikipedia.org/wiki/Quantum_harmonic_oscillator",
+        "https://en.wikipedia.org/wiki/Introduction_to_Quantum_Mechanics_(book)"
+      ]
+    },
+    {
+      "id": "C001",
+      "verdict": "not_enough_evidence",
+      "severity": "medium",
+      "problem": "Claim checker failed: LLMCallError(\"claim_checker failed after 1 attempt(s): LLMCallError('LLM_TIMEOUT_AFTER_480_SECONDS')\")",
+      "suggested_fix": "Automatically retry this claim with another source search or a smaller context.",
+      "source_quality_note": "",
+      "source_urls": [],
+      "claim": "An eigenstate is a quantum state where measuring a specific observable (like energy or spin) always yields the same result.",
+      "checked_at": "2026-05-05_17-15-25",
+      "source_attempt_count": 2,
+      "available_source_urls": [
+        "https://phys.libretexts.org/Courses/University_of_California_Davis/UCD:_Physics_9D__Modern_Physics/7:_Matter_Waves/7.4:_Eigenstates_and_Eigenvalues",
+        "https://paulskrzypczyk.github.io/qm-lecturenotes-new/energy/",
+        "https://app.studyraid.com/en/read/51921/2478017/eigenstates-and-eigenvalues",
+        "https://lachlan.dk/lecture-notes/quantum-mechanics/one-dimension/properties-of-energy-eigenstates.html",
+        "https://phys.libretexts.org/Bookshelves/Quantum_Mechanics/Introductory_Quantum_Mechanics_(Fitzpatrick)/03:_Fundamentals_of_Quantum_Mechanics/3.08:_Eigenstates_and_Eigenvalues"
+      ]
+    },
+    {
+      "id": "C001",
+      "verdict": "not_enough_evidence",
+      "severity": "medium",
+      "problem": "Claim checker failed: LLMCallError(\"claim_checker failed after 1 attempt(s): LLMCallError('LLM_TIMEOUT_AFTER_480_SECONDS')\")",
+      "suggested_fix": "Automatically retry this claim with another source search or a smaller context.",
+      "source_quality_note": "",
+      "source_urls": [],
+      "claim": "An eigenstate is a quantum state where measuring a specific observable (like energy or spin) always yields the same result.",
+      "checked_at": "2026-05-05_17-23-35",
+      "source_attempt_count": 3,
+      "available_source_urls": [
+        "https://farside.ph.utexas.edu/teaching/qmech/Quantum/node40.html",
+        "https://weichman.princeton.edu/wp-content/uploads/2024/10/chm305_2024_lecture5.pdf",
+        "http://www.hyperphysics.phy-astr.gsu.edu/hbase/quantum/eigen.html",
+        "https://labs.phys.utk.edu/mbreinig/phys222core/modules/m10/quantum_mechanics.html",
+        "https://ocw.mit.edu/courses/8-05-quantum-physics-ii-fall-2013/61bc31b8d8bf0680c322733910a71aa0_MIT8_05F13_Chap_01.pdf"
+      ]
+    }
+  ],
+  "summary": {
+    "total_claims": 10,
+    "checked_claim_count": 1,
+    "passing_claim_count": 0,
+    "unchecked_claim_count": 9,
+    "unresolved_or_needs_qualification": 10,
+    "actionable_issue_count": 1,
+    "evidence_retry_count": 0,
+    "claim_review_complete": false,
+    "unchecked_claim_ids": [
+      "C002",
+      "C003",
+      "C004",
+      "C005",
+      "C006",
+      "C007",
+      "C008",
+      "C009",
+      "C010"
+    ],
+    "actionable_claim_ids": [
+      "C001"
+    ],
+    "evidence_retry_claim_ids": [],
+    "highest_priority_fixes": [
+      "Automatically retry this claim with another source search or a smaller context."
+    ],
+    "overall_claim_quality": "Partial claim check completed."
+  },
+  "last_updated": "2026-05-05_17-23-35"
+}

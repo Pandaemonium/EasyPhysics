@@ -1,0 +1,97 @@
+{
+  "claims": [
+    {
+      "id": "C001",
+      "claim": "The principle of stationary action states that physical systems follow paths where the action is extremized (minima, maxima, or saddle points).",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "This defines the core concept and corrects the historical misnomer of 'least action'.",
+      "suggested_search_query": "principle of stationary action extremum"
+    },
+    {
+      "id": "C002",
+      "claim": "Action is defined as the integral of kinetic energy minus potential energy over time: $ S = \\\boxed{\\int (KE - PE) dt} $.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "This mathematical formulation is central to deriving equations of motion.",
+      "suggested_search_query": "action integral physics definition"
+    },
+    {
+      "id": "C003",
+      "claim": "The principle of stationary action unifies classical mechanics and connects to relativity and quantum mechanics.",
+      "type": "explanation",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Highlights its role as a foundational framework across physics domains.",
+      "suggested_search_query": "stationary action unifying principle"
+    },
+    {
+      "id": "C004",
+      "claim": "The term 'least action principle' is a historical approximation; modern physics uses 'stationary action' to emphasize extremization (not strict minimization).",
+      "type": "clarification",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Corrects a common misconception about the principle's scope.",
+      "suggested_search_query": "least action principle vs stationary action"
+    },
+    {
+      "id": "C005",
+      "claim": "The principle of stationary action is equivalent to Newton’s laws of motion for classical systems.",
+      "type": "equivalence",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Demonstrates its generality and foundational role.",
+      "suggested_search_query": "stationary action newton laws equivalence"
+    },
+    {
+      "id": "C006",
+      "claim": "Systems choose paths that make action stationary, not necessarily minimal, which includes minima, maxima, or saddle points.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Clarifies the principle's broader applicability beyond simple minimization.",
+      "suggested_search_query": "action stationary points physics"
+    },
+    {
+      "id": "C007",
+      "claim": "The principle of stationary action is a foundational framework of nature, not a rule of thumb or approximation.",
+      "type": "assertion",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Reinforces its status as a core theoretical construct.",
+      "suggested_search_query": "stationary action foundational physics"
+    },
+    {
+      "id": "C008",
+      "claim": "The principle reveals deep connections between symmetries (e.g., time translation) and conservation laws (e.g., energy).",
+      "type": "explanation",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Links to advanced topics like Noether’s theorem.",
+      "suggested_search_query": "stationary action symmetry conservation"
+    },
+    {
+      "id": "C009",
+      "claim": "A common misconception is that 'least action' means the path with the least distance or time, but action is a weighted sum of energy and time over a path.",
+      "type": "misconception",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Addresses a critical misunderstanding of the principle.",
+      "suggested_search_query": "least action misconception physics"
+    },
+    {
+      "id": "C010",
+      "claim": "The principle of stationary action is the foundation of Lagrangian mechanics, used to derive equations of motion for complex systems.",
+      "type": "application",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Shows its practical utility in physics problem-solving.",
+      "suggested_search_query": "lagrangian mechanics stationary action"
+    }
+  ],
+  "last_updated": "2026-05-06_15-33-55",
+  "count": 10,
+  "parse_note": ""
+}

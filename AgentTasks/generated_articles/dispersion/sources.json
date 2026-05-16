@@ -2,25 +2,792 @@
   "sources_by_claim": {
     "C001": {
       "claim": "# Dispersion ## The core idea Dispersion is when waves of different wavelengths (like colors of light) travel at different speeds through a medium, causing them to separate.",
-      "query": "Dispersion # Dispersion ## The core idea Dispersion is when waves of different wavelengths (like colors of physics lecture notes textbook explanation",
-      "result_snippet": "Dispersion in Physics: Splitting Light by Wavelength. In optics, dispersion is the spreading of white light into its full spectrum of wavelengths.This happens because light of different wavelengths (colors) bends by different amounts when it enters a new medium like glass or water. Causes of Dispersion. Because each colors' light has distinct wavelengths, white light disperses into seven colors. Red light has the longest wavelength in this range of seven colors, while violet light has the shortest. In a vacuum, all colors of light travel at the same speed. Dispersion and diffraction are two ways light waves distribute themselves in patterns.When white light hits the refracting surface, the different colors of light separate because of their differing wavelengths. Nature of Dispersion. Dispersion occurs when light separates into its individual colors as it passes through a medium, such as a prism. When white light enters the prism, it bends at different angles depending on each color’s wavelength. Dispersion: When Different Wavelengths Bend Differently. The Role of the Medium (Pane).2. Why do different colors (wavelengths) of light bend at different angles?4. How does the angle of incidence affect dispersion?",
-      "searched_at": "2026-05-05_01-44-08",
+      "search_attempts": [
+        {
+          "status": "ok",
+          "query": "Dispersion # Dispersion ## The core idea Dispersion is when waves of different wavelengths (like colors of physics lecture notes textbook explanation",
+          "results": [
+            {
+              "title": "Dispersion Power Penalty Modeling (Part 1) | Math Encounters",
+              "url": "https://www.mathscinotes.com/2010/10/dispersion-power-penalty-modeling-part-1/",
+              "domain": "mathscinotes.com",
+              "snippet": "Material Dispersion This contribution is caused by the variation of the index of refraction in glass with wavelength."
+            },
+            {
+              "title": "KR100963237B1 - Apparatus and method thereof, chromatic",
+              "url": "https://patents.google.com/patent/KR100963237B1/en",
+              "domain": "patents.google.com",
+              "snippet": "According to the present invention, first, color dispersion of the optical fiber can be measured regardless of the mode or length of the optical ..."
+            },
+            {
+              "title": "The Bohr model of the Hydrogen atom: atomic spectra and",
+              "url": "https://mdashf.org/2020/05/21/the-bohr-model-of-the-hydrogen-atom-atomic-spectra-and-quantization-quantum-lecture-4-and-5/",
+              "domain": "mdashf.org",
+              "snippet": "Different humans are capable of sensing different colors of the same light wavelength? At-least thats what I have come across in some social media ..."
+            },
+            {
+              "title": "Reduced wave number dynamics in the real and complex",
+              "url": "https://arxiv.org/html/2604.12847v1",
+              "domain": "arxiv.org",
+              "snippet": "The Ginzburg–Landau equation (GLE) is one of the most extensively studied nonlinear partial differential equations in physics, describing phenomena ..."
+            },
+            {
+              "title": "A Multi-wavelength Characterization of the 2023 Outburst of",
+              "url": "https://arxiv.org/html/2506.03641v1",
+              "domain": "arxiv.org",
+              "snippet": "The accretion process is often accompanied by the ejection of matter from the system in the form of winds and jets (e.g., R."
+            }
+          ],
+          "urls": [
+            "https://www.mathscinotes.com/2010/10/dispersion-power-penalty-modeling-part-1/",
+            "https://patents.google.com/patent/KR100963237B1/en",
+            "https://mdashf.org/2020/05/21/the-bohr-model-of-the-hydrogen-atom-atomic-spectra-and-quantization-quantum-lecture-4-and-5/",
+            "https://arxiv.org/html/2604.12847v1",
+            "https://arxiv.org/html/2506.03641v1"
+          ],
+          "result_snippet": "[1] Dispersion Power Penalty Modeling (Part 1) | Math Encounters\nURL: https://www.mathscinotes.com/2010/10/dispersion-power-penalty-modeling-part-1/\nSnippet: Material Dispersion This contribution is caused by the variation of the index of refraction in glass with wavelength.\n\n[2] KR100963237B1 - Apparatus and method thereof, chromatic\nURL: https://patents.google.com/patent/KR100963237B1/en\nSnippet: According to the present invention, first, color dispersion of the optical fiber can be measured regardless of the mode or length of the optical ...\n\n[3] The Bohr model of the Hydrogen atom: atomic spectra and\nURL: https://mdashf.org/2020/05/21/the-bohr-model-of-the-hydrogen-atom-atomic-spectra-and-quantization-quantum-lecture-4-and-5/\nSnippet: Different humans are capable of sensing different colors of the same light wavelength? At-least thats what I have come across in some social media ...\n\n[4] Reduced wave number dynamics in the real and complex\nURL: https://arxiv.org/html/2604.12847v1\nSnippet: The Ginzburg–Landau equation (GLE) is one of the most extensively studied nonlinear partial differential equations in physics, describing phenomena ...\n\n[5] A Multi-wavelength Characterization of the 2023 Outburst of\nURL: https://arxiv.org/html/2506.03641v1\nSnippet: The accretion process is often accompanied by the ejection of matter from the system in the form of winds and jets (e.g., R.",
+          "searched_at": "2026-05-05_20-20-24",
+          "attempt_number": 1
+        },
+        {
+          "status": "ok",
+          "query": "Dispersion # Dispersion ## The core idea Dispersion is when waves of different wavelengths (like colors of light) travel university physics lecture notes textbook",
+          "results": [
+            {
+              "title": "The Phenomenon of Dispersion of Light - BNS Institute",
+              "url": "https://bns.institute/applied-sciences/dispersion-of-light-phenomenon/",
+              "domain": "bns.institute",
+              "snippet": "Explore dispersion of light: how prisms & water split white light into vibrant colors of the rainbow. Understand wavelengths, rainbows & spectroscopy."
+            },
+            {
+              "title": "Diffraction and Dispersion: How Light is Separated into Spectra",
+              "url": "https://www.azooptics.com/Article.aspx?ArticleID=2823",
+              "domain": "azooptics.com",
+              "snippet": "Understanding diffraction and dispersion is key to optical science, influencing technologies like spectroscopy, fiber optics, and advanced imaging systems."
+            },
+            {
+              "title": "Dispersion of Light Through a Prism: Spectrum, Angle & Experiment",
+              "url": "https://scienceinfo.com/dispersion-of-light-through-a-prism/",
+              "domain": "scienceinfo.com",
+              "snippet": "Definition of Dispersion of Light A white light gets amazingly separated into different colors when it strikes a special medium like glass prisms. This phenomenon of light is known as the dispersion of light. Main reason for this to happen is the differing wavelengths of various colors. The varying wavelength assigns a unique nature of bending to each of them during the refraction process. The ..."
+            },
+            {
+              "title": "Physics: Light Dispersion, Refraction, and Prism Diagrams",
+              "url": "https://quizlet.com/study-guides/physics-light-dispersion-refraction-and-prism-diagrams-3f80b1ea-dc4d-4360-aa45-d8ba7e56576f",
+              "domain": "quizlet.com",
+              "snippet": "Dispersion is the process by which white light is separated into its constituent colors when it passes through a medium, such as a glass prism. The phenomenon occurs because different colors of light have different wavelengths and refract at different angles when entering and exiting the prism."
+            },
+            {
+              "title": "Spectroscopy - Dispersion, Wavelengths, Spectral Lines | Britannica",
+              "url": "https://www.britannica.com/science/spectroscopy/Methods-of-dispersing-spectra",
+              "domain": "britannica.com",
+              "snippet": "Spectroscopy - Dispersion, Wavelengths, Spectral Lines: A spectrometer, as mentioned above, is an instrument used to analyze the transmitted light in the case of absorption spectroscopy or the emitted light in the case of emission spectroscopy. It consists of a disperser that breaks the light into its component wavelengths and a means of recording the relative intensities of each of the ..."
+            }
+          ],
+          "urls": [
+            "https://bns.institute/applied-sciences/dispersion-of-light-phenomenon/",
+            "https://www.azooptics.com/Article.aspx?ArticleID=2823",
+            "https://scienceinfo.com/dispersion-of-light-through-a-prism/",
+            "https://quizlet.com/study-guides/physics-light-dispersion-refraction-and-prism-diagrams-3f80b1ea-dc4d-4360-aa45-d8ba7e56576f",
+            "https://www.britannica.com/science/spectroscopy/Methods-of-dispersing-spectra"
+          ],
+          "result_snippet": "[1] The Phenomenon of Dispersion of Light - BNS Institute\nURL: https://bns.institute/applied-sciences/dispersion-of-light-phenomenon/\nSnippet: Explore dispersion of light: how prisms & water split white light into vibrant colors of the rainbow. Understand wavelengths, rainbows & spectroscopy.\n\n[2] Diffraction and Dispersion: How Light is Separated into Spectra\nURL: https://www.azooptics.com/Article.aspx?ArticleID=2823\nSnippet: Understanding diffraction and dispersion is key to optical science, influencing technologies like spectroscopy, fiber optics, and advanced imaging systems.\n\n[3] Dispersion of Light Through a Prism: Spectrum, Angle & Experiment\nURL: https://scienceinfo.com/dispersion-of-light-through-a-prism/\nSnippet: Definition of Dispersion of Light A white light gets amazingly separated into different colors when it strikes a special medium like glass prisms. This phenomenon of light is known as the dispersion of light. Main reason for this to happen is the differing wavelengths of various colors. The varying wavelength assigns a unique nature of bending to each of them during the refraction process. The ...\n\n[4] Physics: Light Dispersion, Refraction, and Prism Diagrams\nURL: https://quizlet.com/study-guides/physics-light-dispersion-refraction-and-prism-diagrams-3f80b1ea-dc4d-4360-aa45-d8ba7e56576f\nSnippet: Dispersion is the process by which white light is separated into its constituent colors when it passes through a medium, such as a glass prism. The phenomenon occurs because different colors of light have different wavelengths and refract at different angles when entering and exiting the prism.\n\n[5] Spectroscopy - Dispersion, Wavelengths, Spectral Lines | Britannica\nURL: https://www.britannica.com/science/spectroscopy/Methods-of-dispersing-spectra\nSnippet: Spectroscopy - Dispersion, Wavelengths, Spectral Lines: A spectrometer, as mentioned above, is an instrument used to analyze the transmitted light in the case of absorption spectroscopy or the emitted light in the case of emission spectroscopy. It consists of a disperser that breaks the light into its component wavelengths and a means of recording the relative intensities of each of the ...",
+          "searched_at": "2026-05-05_20-28-32",
+          "attempt_number": 2
+        },
+        {
+          "status": "ok",
+          "query": "Dispersion # Dispersion ## The core idea Dispersion is when waves of different wavelengths (like colors of light) travel site:edu physics",
+          "results": [
+            {
+              "title": "Measure the speed of light with your microwave - OpenLearn",
+              "url": "https://www.open.edu/openlearn/science-maths-technology/science/physics-and-astronomy/physics/measure-the-speed-light-your-microwave",
+              "domain": "open.edu",
+              "snippet": "How did we measure the speed of light using chocolate and a microwave? It's all to do with waves and wavelengths. Microwaves are a form of electromagnetic radiation, just like light. They travel at the same speed, but with different wavelengths and frequency. We need to measure the wavelength and get the frequency - then we can get the speed."
+            },
+            {
+              "title": "Listening to the Plate: How Lamb Waves Quietly Reveal the Structure of ...",
+              "url": "https://smartdata.ece.ufl.edu/index.php/2025/05/16/listening-to-the-plate-how-lamb-waves-quietly-reveal-the-structure-of-materials/",
+              "domain": "smartdata.ece.ufl.edu",
+              "snippet": "Lamb waves are also dispersive, meaning that different frequencies travel at different speeds. This makes their analysis more complex, but also more powerful: by looking at how different components of a wave packet behave, you can extract fine details about the material it's traveling through."
+            },
+            {
+              "title": "Differential Equations - The Wave Equation - Pauls Online Math Notes",
+              "url": "https://tutorial.math.lamar.edu/classes/de/TheWaveEquation.aspx",
+              "domain": "tutorial.math.lamar.edu",
+              "snippet": "In this section we do a partial derivation of the wave equation which can be used to find the one dimensional displacement of a vibrating string. In addition, we also give the two and three dimensional version of the wave equation."
+            },
+            {
+              "title": "Astronomers reveal hidden structures in the young universe",
+              "url": "https://www.psu.edu/news/eberly-college-science/story/astronomers-reveal-hidden-structures-young-universe",
+              "domain": "psu.edu",
+              "snippet": "All light can be broken apart into its various wavelengths, like how a prism can separate visible white light into the colors of the rainbow. The resulting catalogue of various wavelengths is called a spectrum. Astronomers examine spectra for peaks and valleys which correspond to the presence of different elements."
+            },
+            {
+              "title": "(PDF) Physics of the Upper Polar Atmosphere - Academia.edu",
+              "url": "https://www.academia.edu/150298593/Physics_of_the_Upper_Polar_Atmosphere",
+              "domain": "academia.edu",
+              "snippet": "It is found that while m-waves are formed far out in the corona, cm-waves are generated deep in the solar atmosphere and mmwaves penetrate almost all the way from the photosphere. An interesting aspect of radiowave emissions from the Sun is the apparent magnitude of the solar disk when viewed at diﬀerent wavelengths."
+            }
+          ],
+          "urls": [
+            "https://www.open.edu/openlearn/science-maths-technology/science/physics-and-astronomy/physics/measure-the-speed-light-your-microwave",
+            "https://smartdata.ece.ufl.edu/index.php/2025/05/16/listening-to-the-plate-how-lamb-waves-quietly-reveal-the-structure-of-materials/",
+            "https://tutorial.math.lamar.edu/classes/de/TheWaveEquation.aspx",
+            "https://www.psu.edu/news/eberly-college-science/story/astronomers-reveal-hidden-structures-young-universe",
+            "https://www.academia.edu/150298593/Physics_of_the_Upper_Polar_Atmosphere"
+          ],
+          "result_snippet": "[1] Measure the speed of light with your microwave - OpenLearn\nURL: https://www.open.edu/openlearn/science-maths-technology/science/physics-and-astronomy/physics/measure-the-speed-light-your-microwave\nSnippet: How did we measure the speed of light using chocolate and a microwave? It's all to do with waves and wavelengths. Microwaves are a form of electromagnetic radiation, just like light. They travel at the same speed, but with different wavelengths and frequency. We need to measure the wavelength and get the frequency - then we can get the speed.\n\n[2] Listening to the Plate: How Lamb Waves Quietly Reveal the Structure of ...\nURL: https://smartdata.ece.ufl.edu/index.php/2025/05/16/listening-to-the-plate-how-lamb-waves-quietly-reveal-the-structure-of-materials/\nSnippet: Lamb waves are also dispersive, meaning that different frequencies travel at different speeds. This makes their analysis more complex, but also more powerful: by looking at how different components of a wave packet behave, you can extract fine details about the material it's traveling through.\n\n[3] Differential Equations - The Wave Equation - Pauls Online Math Notes\nURL: https://tutorial.math.lamar.edu/classes/de/TheWaveEquation.aspx\nSnippet: In this section we do a partial derivation of the wave equation which can be used to find the one dimensional displacement of a vibrating string. In addition, we also give the two and three dimensional version of the wave equation.\n\n[4] Astronomers reveal hidden structures in the young universe\nURL: https://www.psu.edu/news/eberly-college-science/story/astronomers-reveal-hidden-structures-young-universe\nSnippet: All light can be broken apart into its various wavelengths, like how a prism can separate visible white light into the colors of the rainbow. The resulting catalogue of various wavelengths is called a spectrum. Astronomers examine spectra for peaks and valleys which correspond to the presence of different elements.\n\n[5] (PDF) Physics of the Upper Polar Atmosphere - Academia.edu\nURL: https://www.academia.edu/150298593/Physics_of_the_Upper_Polar_Atmosphere\nSnippet: It is found that while m-waves are formed far out in the corona, cm-waves are generated deep in the solar atmosphere and mmwaves penetrate almost all the way from the photosphere. An interesting aspect of radiowave emissions from the Sun is the apparent magnitude of the solar disk when viewed at diﬀerent wavelengths.",
+          "searched_at": "2026-05-05_20-36-44",
+          "attempt_number": 3
+        }
+      ],
+      "query": "Dispersion # Dispersion ## The core idea Dispersion is when waves of different wavelengths (like colors of light) travel site:edu physics",
+      "search_status": "ok",
+      "result_snippet": "[1] Measure the speed of light with your microwave - OpenLearn\nURL: https://www.open.edu/openlearn/science-maths-technology/science/physics-and-astronomy/physics/measure-the-speed-light-your-microwave\nSnippet: How did we measure the speed of light using chocolate and a microwave? It's all to do with waves and wavelengths. Microwaves are a form of electromagnetic radiation, just like light. They travel at the same speed, but with different wavelengths and frequency. We need to measure the wavelength and get the frequency - then we can get the speed.\n\n[2] Listening to the Plate: How Lamb Waves Quietly Reveal the Structure of ...\nURL: https://smartdata.ece.ufl.edu/index.php/2025/05/16/listening-to-the-plate-how-lamb-waves-quietly-reveal-the-structure-of-materials/\nSnippet: Lamb waves are also dispersive, meaning that different frequencies travel at different speeds. This makes their analysis more complex, but also more powerful: by looking at how different components of a wave packet behave, you can extract fine details about the material it's traveling through.\n\n[3] Differential Equations - The Wave Equation - Pauls Online Math Notes\nURL: https://tutorial.math.lamar.edu/classes/de/TheWaveEquation.aspx\nSnippet: In this section we do a partial derivation of the wave equation which can be used to find the one dimensional displacement of a vibrating string. In addition, we also give the two and three dimensional version of the wave equation.\n\n[4] Astronomers reveal hidden structures in the young universe\nURL: https://www.psu.edu/news/eberly-college-science/story/astronomers-reveal-hidden-structures-young-universe\nSnippet: All light can be broken apart into its various wavelengths, like how a prism can separate visible white light into the colors of the rainbow. The resulting catalogue of various wavelengths is called a spectrum. Astronomers examine spectra for peaks and valleys which correspond to the presence of different elements.\n\n[5] (PDF) Physics of the Upper Polar Atmosphere - Academia.edu\nURL: https://www.academia.edu/150298593/Physics_of_the_Upper_Polar_Atmosphere\nSnippet: It is found that while m-waves are formed far out in the corona, cm-waves are generated deep in the solar atmosphere and mmwaves penetrate almost all the way from the photosphere. An interesting aspect of radiowave emissions from the Sun is the apparent magnitude of the solar disk when viewed at diﬀerent wavelengths.",
+      "results": [
+        {
+          "title": "Measure the speed of light with your microwave - OpenLearn",
+          "url": "https://www.open.edu/openlearn/science-maths-technology/science/physics-and-astronomy/physics/measure-the-speed-light-your-microwave",
+          "domain": "open.edu",
+          "snippet": "How did we measure the speed of light using chocolate and a microwave? It's all to do with waves and wavelengths. Microwaves are a form of electromagnetic radiation, just like light. They travel at the same speed, but with different wavelengths and frequency. We need to measure the wavelength and get the frequency - then we can get the speed."
+        },
+        {
+          "title": "Listening to the Plate: How Lamb Waves Quietly Reveal the Structure of ...",
+          "url": "https://smartdata.ece.ufl.edu/index.php/2025/05/16/listening-to-the-plate-how-lamb-waves-quietly-reveal-the-structure-of-materials/",
+          "domain": "smartdata.ece.ufl.edu",
+          "snippet": "Lamb waves are also dispersive, meaning that different frequencies travel at different speeds. This makes their analysis more complex, but also more powerful: by looking at how different components of a wave packet behave, you can extract fine details about the material it's traveling through."
+        },
+        {
+          "title": "Differential Equations - The Wave Equation - Pauls Online Math Notes",
+          "url": "https://tutorial.math.lamar.edu/classes/de/TheWaveEquation.aspx",
+          "domain": "tutorial.math.lamar.edu",
+          "snippet": "In this section we do a partial derivation of the wave equation which can be used to find the one dimensional displacement of a vibrating string. In addition, we also give the two and three dimensional version of the wave equation."
+        },
+        {
+          "title": "Astronomers reveal hidden structures in the young universe",
+          "url": "https://www.psu.edu/news/eberly-college-science/story/astronomers-reveal-hidden-structures-young-universe",
+          "domain": "psu.edu",
+          "snippet": "All light can be broken apart into its various wavelengths, like how a prism can separate visible white light into the colors of the rainbow. The resulting catalogue of various wavelengths is called a spectrum. Astronomers examine spectra for peaks and valleys which correspond to the presence of different elements."
+        },
+        {
+          "title": "(PDF) Physics of the Upper Polar Atmosphere - Academia.edu",
+          "url": "https://www.academia.edu/150298593/Physics_of_the_Upper_Polar_Atmosphere",
+          "domain": "academia.edu",
+          "snippet": "It is found that while m-waves are formed far out in the corona, cm-waves are generated deep in the solar atmosphere and mmwaves penetrate almost all the way from the photosphere. An interesting aspect of radiowave emissions from the Sun is the apparent magnitude of the solar disk when viewed at diﬀerent wavelengths."
+        }
+      ],
+      "urls": [
+        "https://www.open.edu/openlearn/science-maths-technology/science/physics-and-astronomy/physics/measure-the-speed-light-your-microwave",
+        "https://smartdata.ece.ufl.edu/index.php/2025/05/16/listening-to-the-plate-how-lamb-waves-quietly-reveal-the-structure-of-materials/",
+        "https://tutorial.math.lamar.edu/classes/de/TheWaveEquation.aspx",
+        "https://www.psu.edu/news/eberly-college-science/story/astronomers-reveal-hidden-structures-young-universe",
+        "https://www.academia.edu/150298593/Physics_of_the_Upper_Polar_Atmosphere"
+      ],
+      "attempt_count": 3,
+      "searched_at": "2026-05-05_20-36-44",
       "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
     },
     "C002": {
       "claim": "This happens because the **refractive index** {n} of a material varies with wavelength—shorter wavelengths (blue light) slow more than longer ones (red light), making them bend at different angles.",
+      "search_attempts": [
+        {
+          "status": "ok",
+          "query": "Dispersion This happens because the **refractive index** {n} of a material varies with wavelength—shorter wavelengths (blue light) physics lecture notes textbook explanation",
+          "results": [
+            {
+              "title": "Dispersion (optics) - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Dispersion_(optics)",
+              "domain": "en.wikipedia.org",
+              "snippet": "Since that refractive index varies with wavelength, it follows that the angle that the light is refracted by will also vary with wavelength, causing an angular separation of the colors known as angular dispersion."
+            },
+            {
+              "title": "25.5 Dispersion: The Rainbow and Prisms - College Physics 2e ...",
+              "url": "https://openstax.org/books/college-physics-2e/pages/25-5-dispersion-the-rainbow-and-prisms",
+              "domain": "openstax.org",
+              "snippet": "Dispersion occurs whenever the speed of propagation depends on wavelength, thus separating and spreading out various wavelengths. Dispersion may require special circumstances and can result in spectacular displays such as in the production of a rainbow."
+            },
+            {
+              "title": "Physics Tutorial: Dispersion of Light by Prisms",
+              "url": "https://www.physicsclassroom.com/Class/refrn/u14l4a.cfm",
+              "domain": "physicsclassroom.com",
+              "snippet": "Dispersion of light provides evidence for the existence of a spectrum of wavelengths present in visible light. It is also the basis for understanding the formation of rainbows."
+            },
+            {
+              "title": "Dispersion – University Physics Volume 3",
+              "url": "https://pressbooks.online.ucf.edu/osuniversityphysics3/chapter/dispersion/",
+              "domain": "pressbooks.online.ucf.edu",
+              "snippet": "Dispersion is defined as the spreading of white light into its full spectrum of wavelengths. More technically, dispersion occurs whenever the propagation of light depends on wavelength."
+            },
+            {
+              "title": "25.5: Dispersion - Rainbows and Prisms - Physics LibreTexts",
+              "url": "https://phys.libretexts.org/Bookshelves/College_Physics/College_Physics_1e_(OpenStax)/25:_Geometric_Optics/25.05:_Dispersion_-_Rainbows_and_Prisms",
+              "domain": "phys.libretexts.org",
+              "snippet": "Dispersion occurs whenever the speed of propagation depends on wavelength, thus separating and spreading out various wavelengths. Dispersion may require special circumstances and can result in spectacular displays such as in the production of a rainbow."
+            }
+          ],
+          "urls": [
+            "https://en.wikipedia.org/wiki/Dispersion_(optics)",
+            "https://openstax.org/books/college-physics-2e/pages/25-5-dispersion-the-rainbow-and-prisms",
+            "https://www.physicsclassroom.com/Class/refrn/u14l4a.cfm",
+            "https://pressbooks.online.ucf.edu/osuniversityphysics3/chapter/dispersion/",
+            "https://phys.libretexts.org/Bookshelves/College_Physics/College_Physics_1e_(OpenStax)/25:_Geometric_Optics/25.05:_Dispersion_-_Rainbows_and_Prisms"
+          ],
+          "result_snippet": "[1] Dispersion (optics) - Wikipedia\nURL: https://en.wikipedia.org/wiki/Dispersion_(optics)\nSnippet: Since that refractive index varies with wavelength, it follows that the angle that the light is refracted by will also vary with wavelength, causing an angular separation of the colors known as angular dispersion.\n\n[2] 25.5 Dispersion: The Rainbow and Prisms - College Physics 2e ...\nURL: https://openstax.org/books/college-physics-2e/pages/25-5-dispersion-the-rainbow-and-prisms\nSnippet: Dispersion occurs whenever the speed of propagation depends on wavelength, thus separating and spreading out various wavelengths. Dispersion may require special circumstances and can result in spectacular displays such as in the production of a rainbow.\n\n[3] Physics Tutorial: Dispersion of Light by Prisms\nURL: https://www.physicsclassroom.com/Class/refrn/u14l4a.cfm\nSnippet: Dispersion of light provides evidence for the existence of a spectrum of wavelengths present in visible light. It is also the basis for understanding the formation of rainbows.\n\n[4] Dispersion – University Physics Volume 3\nURL: https://pressbooks.online.ucf.edu/osuniversityphysics3/chapter/dispersion/\nSnippet: Dispersion is defined as the spreading of white light into its full spectrum of wavelengths. More technically, dispersion occurs whenever the propagation of light depends on wavelength.\n\n[5] 25.5: Dispersion - Rainbows and Prisms - Physics LibreTexts\nURL: https://phys.libretexts.org/Bookshelves/College_Physics/College_Physics_1e_(OpenStax)/25:_Geometric_Optics/25.05:_Dispersion_-_Rainbows_and_Prisms\nSnippet: Dispersion occurs whenever the speed of propagation depends on wavelength, thus separating and spreading out various wavelengths. Dispersion may require special circumstances and can result in spectacular displays such as in the production of a rainbow.",
+          "searched_at": "2026-05-05_20-20-25",
+          "attempt_number": 1
+        }
+      ],
       "query": "Dispersion This happens because the **refractive index** {n} of a material varies with wavelength—shorter wavelengths (blue light) physics lecture notes textbook explanation",
-      "result_snippet": "March 12, 2026 - However, if the index increases with increasing wavelength (which is typically the case in the ultraviolet), the medium is said to have anomalous dispersion. At the interface of such a material with air or vacuum (index of ~1), Snell's law predicts that light incident at an angle θ to the ... 2 weeks ago - In regions of the spectrum where the material does not absorb light, the refractive index tends to decrease with increasing wavelength, and thus increase with frequency. This is called \"normal dispersion\", in contrast to \"anomalous dispersion\", where the refractive index increases with wavelength. September 11, 2025 - This is a result of the prism material's index of refraction varying with wavelength (dispersion). Generally, longer wavelengths (red) undergo a smaller deviation than shorter wavelengths (blue). 5 days ago - Separation occurs when the refractive index inside the prism varies with wavelength, so different wavelengths propagate at different speeds inside the prism, causing them to refract at different angles. March 2, 2026 - It causes different wavelengths ... curve, which plots the refractive index as a function of wavelength · Normal dispersion occurs when the refractive index decreases with increasing wavelength ( ... Anomalous dispersion is typically observed near absorption resonances ...",
-      "searched_at": "2026-05-05_01-44-09",
+      "search_status": "ok",
+      "result_snippet": "[1] Dispersion (optics) - Wikipedia\nURL: https://en.wikipedia.org/wiki/Dispersion_(optics)\nSnippet: Since that refractive index varies with wavelength, it follows that the angle that the light is refracted by will also vary with wavelength, causing an angular separation of the colors known as angular dispersion.\n\n[2] 25.5 Dispersion: The Rainbow and Prisms - College Physics 2e ...\nURL: https://openstax.org/books/college-physics-2e/pages/25-5-dispersion-the-rainbow-and-prisms\nSnippet: Dispersion occurs whenever the speed of propagation depends on wavelength, thus separating and spreading out various wavelengths. Dispersion may require special circumstances and can result in spectacular displays such as in the production of a rainbow.\n\n[3] Physics Tutorial: Dispersion of Light by Prisms\nURL: https://www.physicsclassroom.com/Class/refrn/u14l4a.cfm\nSnippet: Dispersion of light provides evidence for the existence of a spectrum of wavelengths present in visible light. It is also the basis for understanding the formation of rainbows.\n\n[4] Dispersion – University Physics Volume 3\nURL: https://pressbooks.online.ucf.edu/osuniversityphysics3/chapter/dispersion/\nSnippet: Dispersion is defined as the spreading of white light into its full spectrum of wavelengths. More technically, dispersion occurs whenever the propagation of light depends on wavelength.\n\n[5] 25.5: Dispersion - Rainbows and Prisms - Physics LibreTexts\nURL: https://phys.libretexts.org/Bookshelves/College_Physics/College_Physics_1e_(OpenStax)/25:_Geometric_Optics/25.05:_Dispersion_-_Rainbows_and_Prisms\nSnippet: Dispersion occurs whenever the speed of propagation depends on wavelength, thus separating and spreading out various wavelengths. Dispersion may require special circumstances and can result in spectacular displays such as in the production of a rainbow.",
+      "results": [
+        {
+          "title": "Dispersion (optics) - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Dispersion_(optics)",
+          "domain": "en.wikipedia.org",
+          "snippet": "Since that refractive index varies with wavelength, it follows that the angle that the light is refracted by will also vary with wavelength, causing an angular separation of the colors known as angular dispersion."
+        },
+        {
+          "title": "25.5 Dispersion: The Rainbow and Prisms - College Physics 2e ...",
+          "url": "https://openstax.org/books/college-physics-2e/pages/25-5-dispersion-the-rainbow-and-prisms",
+          "domain": "openstax.org",
+          "snippet": "Dispersion occurs whenever the speed of propagation depends on wavelength, thus separating and spreading out various wavelengths. Dispersion may require special circumstances and can result in spectacular displays such as in the production of a rainbow."
+        },
+        {
+          "title": "Physics Tutorial: Dispersion of Light by Prisms",
+          "url": "https://www.physicsclassroom.com/Class/refrn/u14l4a.cfm",
+          "domain": "physicsclassroom.com",
+          "snippet": "Dispersion of light provides evidence for the existence of a spectrum of wavelengths present in visible light. It is also the basis for understanding the formation of rainbows."
+        },
+        {
+          "title": "Dispersion – University Physics Volume 3",
+          "url": "https://pressbooks.online.ucf.edu/osuniversityphysics3/chapter/dispersion/",
+          "domain": "pressbooks.online.ucf.edu",
+          "snippet": "Dispersion is defined as the spreading of white light into its full spectrum of wavelengths. More technically, dispersion occurs whenever the propagation of light depends on wavelength."
+        },
+        {
+          "title": "25.5: Dispersion - Rainbows and Prisms - Physics LibreTexts",
+          "url": "https://phys.libretexts.org/Bookshelves/College_Physics/College_Physics_1e_(OpenStax)/25:_Geometric_Optics/25.05:_Dispersion_-_Rainbows_and_Prisms",
+          "domain": "phys.libretexts.org",
+          "snippet": "Dispersion occurs whenever the speed of propagation depends on wavelength, thus separating and spreading out various wavelengths. Dispersion may require special circumstances and can result in spectacular displays such as in the production of a rainbow."
+        }
+      ],
+      "urls": [
+        "https://en.wikipedia.org/wiki/Dispersion_(optics)",
+        "https://openstax.org/books/college-physics-2e/pages/25-5-dispersion-the-rainbow-and-prisms",
+        "https://www.physicsclassroom.com/Class/refrn/u14l4a.cfm",
+        "https://pressbooks.online.ucf.edu/osuniversityphysics3/chapter/dispersion/",
+        "https://phys.libretexts.org/Bookshelves/College_Physics/College_Physics_1e_(OpenStax)/25:_Geometric_Optics/25.05:_Dispersion_-_Rainbows_and_Prisms"
+      ],
+      "attempt_count": 1,
+      "searched_at": "2026-05-05_20-20-25",
       "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
     },
     "C003": {
       "claim": "Imagine a prism splitting sunlight into a rainbow: this is dispersion in action.",
+      "search_attempts": [
+        {
+          "status": "ok",
+          "query": "Dispersion Imagine a prism splitting sunlight into a rainbow: this is dispersion in action. physics lecture notes textbook explanation",
+          "results": [
+            {
+              "title": "25.5 Dispersion: The Rainbow and Prisms - OpenStax",
+              "url": "https://openstax.org/books/college-physics-2e/pages/25-5-dispersion-the-rainbow-and-prisms",
+              "domain": "openstax.org",
+              "snippet": "Dispersion is defined as the spreading of white light into its full spectrum of wavelengths. More technically, dispersion occurs whenever there is a process that changes the direction of light in a manner that depends on wavelength."
+            },
+            {
+              "title": "25.5: Dispersion - Rainbows and Prisms - Physics LibreTexts",
+              "url": "https://phys.libretexts.org/Bookshelves/College_Physics/College_Physics_1e_(OpenStax)/25:_Geometric_Optics/25.05:_Dispersion_-_Rainbows_and_Prisms",
+              "domain": "phys.libretexts.org",
+              "snippet": "Rainbows are produced by a combination of refraction and reflection and involve the dispersion of sunlight into a continuous distribution of colors. Dispersion produces beautiful rainbows but also causes problems in certain optical systems."
+            },
+            {
+              "title": "Dispersion: The Rainbow and Prisms | Physics - Lumen Learning",
+              "url": "https://courses.lumenlearning.com/suny-physics/chapter/25-5-dispersion-the-rainbow-and-prisms/",
+              "domain": "courses.lumenlearning.com",
+              "snippet": "Rainbows are produced by a combination of refraction and reflection and involve the dispersion of sunlight into a continuous distribution of colors. Dispersion produces beautiful rainbows but also causes problems in certain optical systems."
+            },
+            {
+              "title": "Dispersion: The Rainbow and Prisms – Introductory Physics for ...",
+              "url": "https://openbooks.lib.msu.edu/collegephysics2/chapter/dispersion-the-rainbow-and-prisms-2/",
+              "domain": "openbooks.lib.msu.edu",
+              "snippet": "Rainbows are produced by a combination of refraction and reflection and involve the dispersion of sunlight into a continuous distribution of colors. Dispersion produces beautiful rainbows but also causes problems in certain optical systems."
+            },
+            {
+              "title": "Physics Tutorial: Dispersion of Light by Prisms",
+              "url": "https://www.physicsclassroom.com/class/refrn/Lesson-4/Dispersion-of-Light-by-Prisms",
+              "domain": "physicsclassroom.com",
+              "snippet": "The separation of visible light into its different colors is known as dispersion. It was mentioned in the Light and Color unit that each color is characteristic of a distinct wave frequency; and different frequencies of light waves will bend varying amounts upon passage through a prism."
+            }
+          ],
+          "urls": [
+            "https://openstax.org/books/college-physics-2e/pages/25-5-dispersion-the-rainbow-and-prisms",
+            "https://phys.libretexts.org/Bookshelves/College_Physics/College_Physics_1e_(OpenStax)/25:_Geometric_Optics/25.05:_Dispersion_-_Rainbows_and_Prisms",
+            "https://courses.lumenlearning.com/suny-physics/chapter/25-5-dispersion-the-rainbow-and-prisms/",
+            "https://openbooks.lib.msu.edu/collegephysics2/chapter/dispersion-the-rainbow-and-prisms-2/",
+            "https://www.physicsclassroom.com/class/refrn/Lesson-4/Dispersion-of-Light-by-Prisms"
+          ],
+          "result_snippet": "[1] 25.5 Dispersion: The Rainbow and Prisms - OpenStax\nURL: https://openstax.org/books/college-physics-2e/pages/25-5-dispersion-the-rainbow-and-prisms\nSnippet: Dispersion is defined as the spreading of white light into its full spectrum of wavelengths. More technically, dispersion occurs whenever there is a process that changes the direction of light in a manner that depends on wavelength.\n\n[2] 25.5: Dispersion - Rainbows and Prisms - Physics LibreTexts\nURL: https://phys.libretexts.org/Bookshelves/College_Physics/College_Physics_1e_(OpenStax)/25:_Geometric_Optics/25.05:_Dispersion_-_Rainbows_and_Prisms\nSnippet: Rainbows are produced by a combination of refraction and reflection and involve the dispersion of sunlight into a continuous distribution of colors. Dispersion produces beautiful rainbows but also causes problems in certain optical systems.\n\n[3] Dispersion: The Rainbow and Prisms | Physics - Lumen Learning\nURL: https://courses.lumenlearning.com/suny-physics/chapter/25-5-dispersion-the-rainbow-and-prisms/\nSnippet: Rainbows are produced by a combination of refraction and reflection and involve the dispersion of sunlight into a continuous distribution of colors. Dispersion produces beautiful rainbows but also causes problems in certain optical systems.\n\n[4] Dispersion: The Rainbow and Prisms – Introductory Physics for ...\nURL: https://openbooks.lib.msu.edu/collegephysics2/chapter/dispersion-the-rainbow-and-prisms-2/\nSnippet: Rainbows are produced by a combination of refraction and reflection and involve the dispersion of sunlight into a continuous distribution of colors. Dispersion produces beautiful rainbows but also causes problems in certain optical systems.\n\n[5] Physics Tutorial: Dispersion of Light by Prisms\nURL: https://www.physicsclassroom.com/class/refrn/Lesson-4/Dispersion-of-Light-by-Prisms\nSnippet: The separation of visible light into its different colors is known as dispersion. It was mentioned in the Light and Color unit that each color is characteristic of a distinct wave frequency; and different frequencies of light waves will bend varying amounts upon passage through a prism.",
+          "searched_at": "2026-05-05_20-20-27",
+          "attempt_number": 1
+        }
+      ],
       "query": "Dispersion Imagine a prism splitting sunlight into a rainbow: this is dispersion in action. physics lecture notes textbook explanation",
-      "result_snippet": "Rainbows are formed by dispersion of light, in which the refraction angle depends on the light's frequency. Refraction is also responsible for rainbows and for the splitting of white light into a rainbow-spectrum as it passes through a glass prism. Dispersion of light is the phenomenon in which white light splits into its constituent colors when it passes through a prism. This happens because each color of light has a different wavelength and bends by a different amount upon refraction. If you've ever marvelled at a rainbow, you have witnessed dispersion in action. Dispersion is where the speed at which a wave moves depends on its frequency (and so wavelength). Watch: The Physics of Light Dispersion in Action.Who first proved that prisms split light? When light passes through a prism, it undergoes refraction and dispersion, causing white light to separate into its constituent colors—the visible spectrum. What is Dispersion. Dispersion occurs when light enters a material and spreads out into its spectrum of wavelengths.The water acts as a prism, splitting the light into its constituent colours. What is the role of light dispersion in forming a rainbow?",
-      "searched_at": "2026-05-05_01-44-12",
+      "search_status": "ok",
+      "result_snippet": "[1] 25.5 Dispersion: The Rainbow and Prisms - OpenStax\nURL: https://openstax.org/books/college-physics-2e/pages/25-5-dispersion-the-rainbow-and-prisms\nSnippet: Dispersion is defined as the spreading of white light into its full spectrum of wavelengths. More technically, dispersion occurs whenever there is a process that changes the direction of light in a manner that depends on wavelength.\n\n[2] 25.5: Dispersion - Rainbows and Prisms - Physics LibreTexts\nURL: https://phys.libretexts.org/Bookshelves/College_Physics/College_Physics_1e_(OpenStax)/25:_Geometric_Optics/25.05:_Dispersion_-_Rainbows_and_Prisms\nSnippet: Rainbows are produced by a combination of refraction and reflection and involve the dispersion of sunlight into a continuous distribution of colors. Dispersion produces beautiful rainbows but also causes problems in certain optical systems.\n\n[3] Dispersion: The Rainbow and Prisms | Physics - Lumen Learning\nURL: https://courses.lumenlearning.com/suny-physics/chapter/25-5-dispersion-the-rainbow-and-prisms/\nSnippet: Rainbows are produced by a combination of refraction and reflection and involve the dispersion of sunlight into a continuous distribution of colors. Dispersion produces beautiful rainbows but also causes problems in certain optical systems.\n\n[4] Dispersion: The Rainbow and Prisms – Introductory Physics for ...\nURL: https://openbooks.lib.msu.edu/collegephysics2/chapter/dispersion-the-rainbow-and-prisms-2/\nSnippet: Rainbows are produced by a combination of refraction and reflection and involve the dispersion of sunlight into a continuous distribution of colors. Dispersion produces beautiful rainbows but also causes problems in certain optical systems.\n\n[5] Physics Tutorial: Dispersion of Light by Prisms\nURL: https://www.physicsclassroom.com/class/refrn/Lesson-4/Dispersion-of-Light-by-Prisms\nSnippet: The separation of visible light into its different colors is known as dispersion. It was mentioned in the Light and Color unit that each color is characteristic of a distinct wave frequency; and different frequencies of light waves will bend varying amounts upon passage through a prism.",
+      "results": [
+        {
+          "title": "25.5 Dispersion: The Rainbow and Prisms - OpenStax",
+          "url": "https://openstax.org/books/college-physics-2e/pages/25-5-dispersion-the-rainbow-and-prisms",
+          "domain": "openstax.org",
+          "snippet": "Dispersion is defined as the spreading of white light into its full spectrum of wavelengths. More technically, dispersion occurs whenever there is a process that changes the direction of light in a manner that depends on wavelength."
+        },
+        {
+          "title": "25.5: Dispersion - Rainbows and Prisms - Physics LibreTexts",
+          "url": "https://phys.libretexts.org/Bookshelves/College_Physics/College_Physics_1e_(OpenStax)/25:_Geometric_Optics/25.05:_Dispersion_-_Rainbows_and_Prisms",
+          "domain": "phys.libretexts.org",
+          "snippet": "Rainbows are produced by a combination of refraction and reflection and involve the dispersion of sunlight into a continuous distribution of colors. Dispersion produces beautiful rainbows but also causes problems in certain optical systems."
+        },
+        {
+          "title": "Dispersion: The Rainbow and Prisms | Physics - Lumen Learning",
+          "url": "https://courses.lumenlearning.com/suny-physics/chapter/25-5-dispersion-the-rainbow-and-prisms/",
+          "domain": "courses.lumenlearning.com",
+          "snippet": "Rainbows are produced by a combination of refraction and reflection and involve the dispersion of sunlight into a continuous distribution of colors. Dispersion produces beautiful rainbows but also causes problems in certain optical systems."
+        },
+        {
+          "title": "Dispersion: The Rainbow and Prisms – Introductory Physics for ...",
+          "url": "https://openbooks.lib.msu.edu/collegephysics2/chapter/dispersion-the-rainbow-and-prisms-2/",
+          "domain": "openbooks.lib.msu.edu",
+          "snippet": "Rainbows are produced by a combination of refraction and reflection and involve the dispersion of sunlight into a continuous distribution of colors. Dispersion produces beautiful rainbows but also causes problems in certain optical systems."
+        },
+        {
+          "title": "Physics Tutorial: Dispersion of Light by Prisms",
+          "url": "https://www.physicsclassroom.com/class/refrn/Lesson-4/Dispersion-of-Light-by-Prisms",
+          "domain": "physicsclassroom.com",
+          "snippet": "The separation of visible light into its different colors is known as dispersion. It was mentioned in the Light and Color unit that each color is characteristic of a distinct wave frequency; and different frequencies of light waves will bend varying amounts upon passage through a prism."
+        }
+      ],
+      "urls": [
+        "https://openstax.org/books/college-physics-2e/pages/25-5-dispersion-the-rainbow-and-prisms",
+        "https://phys.libretexts.org/Bookshelves/College_Physics/College_Physics_1e_(OpenStax)/25:_Geometric_Optics/25.05:_Dispersion_-_Rainbows_and_Prisms",
+        "https://courses.lumenlearning.com/suny-physics/chapter/25-5-dispersion-the-rainbow-and-prisms/",
+        "https://openbooks.lib.msu.edu/collegephysics2/chapter/dispersion-the-rainbow-and-prisms-2/",
+        "https://www.physicsclassroom.com/class/refrn/Lesson-4/Dispersion-of-Light-by-Prisms"
+      ],
+      "attempt_count": 1,
+      "searched_at": "2026-05-05_20-20-27",
+      "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
+    },
+    "C004": {
+      "claim": "**Key clarification**: The core mechanism of dispersion is **wavelength-dependent refractive index** {n(λ)} variation.",
+      "search_attempts": [
+        {
+          "status": "ok",
+          "query": "Dispersion **Key clarification**: The core mechanism of dispersion is **wavelength-dependent refractive index** {n(λ)} variation. physics lecture notes textbook explanation",
+          "results": [
+            {
+              "title": "Fiber Bragg grating - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Fiber_Bragg_grating",
+              "domain": "en.wikipedia.org",
+              "snippet": "This is achieved by creating a periodic variation in the refractive index of the fiber core, which generates a wavelength-specific dielectric mirror ."
+            },
+            {
+              "title": "Diamond - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Diamond",
+              "domain": "en.wikipedia.org",
+              "snippet": "Because the arrangement of atoms in diamond is extremely rigid, few types of impurity can contaminate it (two exceptions are boron and nitrogen )."
+            },
+            {
+              "title": "US6532327B1 - Refractive index grating manufacturing process -",
+              "url": "https://patents.google.com/patent/US6532327B1/en",
+              "domain": "patents.google.com",
+              "snippet": "Legal status (The legal status is an assumption and is not a ... Priority date (The priority date is an assumption and is not a legal conclusion."
+            },
+            {
+              "title": "Colour, Wavelength and Turbidity in the Light of Goethe’s",
+              "url": "https://link.springer.com/article/10.1007/s10838-020-09517-3",
+              "domain": "link.springer.com",
+              "snippet": "The polarity of light and dark in the treatment of the Newtonian spectrum and the inverse spectrum is studied further and the validity of ..."
+            },
+            {
+              "title": "Interplay of network architecture and ionic environment in",
+              "url": "https://arxiv.org/html/2603.26714v1",
+              "domain": "arxiv.org",
+              "snippet": "The utility of non-functionalized poly(N-isopropylacrylamide) (pNIPAM) microgels in physiological and environmental applications is strictly dependent ..."
+            }
+          ],
+          "urls": [
+            "https://en.wikipedia.org/wiki/Fiber_Bragg_grating",
+            "https://en.wikipedia.org/wiki/Diamond",
+            "https://patents.google.com/patent/US6532327B1/en",
+            "https://link.springer.com/article/10.1007/s10838-020-09517-3",
+            "https://arxiv.org/html/2603.26714v1"
+          ],
+          "result_snippet": "[1] Fiber Bragg grating - Wikipedia\nURL: https://en.wikipedia.org/wiki/Fiber_Bragg_grating\nSnippet: This is achieved by creating a periodic variation in the refractive index of the fiber core, which generates a wavelength-specific dielectric mirror .\n\n[2] Diamond - Wikipedia\nURL: https://en.wikipedia.org/wiki/Diamond\nSnippet: Because the arrangement of atoms in diamond is extremely rigid, few types of impurity can contaminate it (two exceptions are boron and nitrogen ).\n\n[3] US6532327B1 - Refractive index grating manufacturing process -\nURL: https://patents.google.com/patent/US6532327B1/en\nSnippet: Legal status (The legal status is an assumption and is not a ... Priority date (The priority date is an assumption and is not a legal conclusion.\n\n[4] Colour, Wavelength and Turbidity in the Light of Goethe’s\nURL: https://link.springer.com/article/10.1007/s10838-020-09517-3\nSnippet: The polarity of light and dark in the treatment of the Newtonian spectrum and the inverse spectrum is studied further and the validity of ...\n\n[5] Interplay of network architecture and ionic environment in\nURL: https://arxiv.org/html/2603.26714v1\nSnippet: The utility of non-functionalized poly(N-isopropylacrylamide) (pNIPAM) microgels in physiological and environmental applications is strictly dependent ...",
+          "searched_at": "2026-05-05_20-28-35",
+          "attempt_number": 1
+        }
+      ],
+      "query": "Dispersion **Key clarification**: The core mechanism of dispersion is **wavelength-dependent refractive index** {n(λ)} variation. physics lecture notes textbook explanation",
+      "search_status": "ok",
+      "result_snippet": "[1] Fiber Bragg grating - Wikipedia\nURL: https://en.wikipedia.org/wiki/Fiber_Bragg_grating\nSnippet: This is achieved by creating a periodic variation in the refractive index of the fiber core, which generates a wavelength-specific dielectric mirror .\n\n[2] Diamond - Wikipedia\nURL: https://en.wikipedia.org/wiki/Diamond\nSnippet: Because the arrangement of atoms in diamond is extremely rigid, few types of impurity can contaminate it (two exceptions are boron and nitrogen ).\n\n[3] US6532327B1 - Refractive index grating manufacturing process -\nURL: https://patents.google.com/patent/US6532327B1/en\nSnippet: Legal status (The legal status is an assumption and is not a ... Priority date (The priority date is an assumption and is not a legal conclusion.\n\n[4] Colour, Wavelength and Turbidity in the Light of Goethe’s\nURL: https://link.springer.com/article/10.1007/s10838-020-09517-3\nSnippet: The polarity of light and dark in the treatment of the Newtonian spectrum and the inverse spectrum is studied further and the validity of ...\n\n[5] Interplay of network architecture and ionic environment in\nURL: https://arxiv.org/html/2603.26714v1\nSnippet: The utility of non-functionalized poly(N-isopropylacrylamide) (pNIPAM) microgels in physiological and environmental applications is strictly dependent ...",
+      "results": [
+        {
+          "title": "Fiber Bragg grating - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Fiber_Bragg_grating",
+          "domain": "en.wikipedia.org",
+          "snippet": "This is achieved by creating a periodic variation in the refractive index of the fiber core, which generates a wavelength-specific dielectric mirror ."
+        },
+        {
+          "title": "Diamond - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Diamond",
+          "domain": "en.wikipedia.org",
+          "snippet": "Because the arrangement of atoms in diamond is extremely rigid, few types of impurity can contaminate it (two exceptions are boron and nitrogen )."
+        },
+        {
+          "title": "US6532327B1 - Refractive index grating manufacturing process -",
+          "url": "https://patents.google.com/patent/US6532327B1/en",
+          "domain": "patents.google.com",
+          "snippet": "Legal status (The legal status is an assumption and is not a ... Priority date (The priority date is an assumption and is not a legal conclusion."
+        },
+        {
+          "title": "Colour, Wavelength and Turbidity in the Light of Goethe’s",
+          "url": "https://link.springer.com/article/10.1007/s10838-020-09517-3",
+          "domain": "link.springer.com",
+          "snippet": "The polarity of light and dark in the treatment of the Newtonian spectrum and the inverse spectrum is studied further and the validity of ..."
+        },
+        {
+          "title": "Interplay of network architecture and ionic environment in",
+          "url": "https://arxiv.org/html/2603.26714v1",
+          "domain": "arxiv.org",
+          "snippet": "The utility of non-functionalized poly(N-isopropylacrylamide) (pNIPAM) microgels in physiological and environmental applications is strictly dependent ..."
+        }
+      ],
+      "urls": [
+        "https://en.wikipedia.org/wiki/Fiber_Bragg_grating",
+        "https://en.wikipedia.org/wiki/Diamond",
+        "https://patents.google.com/patent/US6532327B1/en",
+        "https://link.springer.com/article/10.1007/s10838-020-09517-3",
+        "https://arxiv.org/html/2603.26714v1"
+      ],
+      "attempt_count": 1,
+      "searched_at": "2026-05-05_20-28-35",
+      "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
+    },
+    "C005": {
+      "claim": "This causes different wavelengths to travel at different speeds in a medium, leading to separation.",
+      "search_attempts": [
+        {
+          "status": "ok",
+          "query": "Dispersion This causes different wavelengths to travel at different speeds in a medium, leading to separation. physics lecture notes textbook explanation",
+          "results": [
+            {
+              "title": "Wavelength - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Wavelength",
+              "domain": "en.wikipedia.org",
+              "snippet": "Assuming a sinusoidal wave moving at a fixed wave speed, wavelength is inversely proportional to the frequency of the wave: waves with higher ..."
+            },
+            {
+              "title": "Dispersion (optics) - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Dispersion_(optics)",
+              "domain": "en.wikipedia.org",
+              "snippet": "In a dispersive prism , material dispersion (a wavelength -dependent refractive index ) causes different colors to refract at different angles ..."
+            },
+            {
+              "title": "Dispersion (optics) - Wikiwand",
+              "url": "https://www.wikiwand.com/en/articles/Anomalous_dispersion",
+              "domain": "wikiwand.com",
+              "snippet": "In a dispersive prism , material dispersion (a wavelength -dependent refractive index ) causes different colors to refract at different angles ..."
+            },
+            {
+              "title": "Dispersion - eduTinker",
+              "url": "https://edutinker.com/glossary/dispersion/",
+              "domain": "edutinker.com",
+              "snippet": "In optics , dispersion occurs when different wavelengths of light travel at different speeds through a material, causing the light to separate into ..."
+            },
+            {
+              "title": "Dispersion (optics) - WikiMili, The Best Wikipedia Reader",
+              "url": "https://wikimili.com/en/Dispersion_(optics)",
+              "domain": "wikimili.com",
+              "snippet": "In a dispersive prism , material dispersion (a wavelength -dependent refractive index ) causes different colors to refract at different angles ..."
+            }
+          ],
+          "urls": [
+            "https://en.wikipedia.org/wiki/Wavelength",
+            "https://en.wikipedia.org/wiki/Dispersion_(optics)",
+            "https://www.wikiwand.com/en/articles/Anomalous_dispersion",
+            "https://edutinker.com/glossary/dispersion/",
+            "https://wikimili.com/en/Dispersion_(optics)"
+          ],
+          "result_snippet": "[1] Wavelength - Wikipedia\nURL: https://en.wikipedia.org/wiki/Wavelength\nSnippet: Assuming a sinusoidal wave moving at a fixed wave speed, wavelength is inversely proportional to the frequency of the wave: waves with higher ...\n\n[2] Dispersion (optics) - Wikipedia\nURL: https://en.wikipedia.org/wiki/Dispersion_(optics)\nSnippet: In a dispersive prism , material dispersion (a wavelength -dependent refractive index ) causes different colors to refract at different angles ...\n\n[3] Dispersion (optics) - Wikiwand\nURL: https://www.wikiwand.com/en/articles/Anomalous_dispersion\nSnippet: In a dispersive prism , material dispersion (a wavelength -dependent refractive index ) causes different colors to refract at different angles ...\n\n[4] Dispersion - eduTinker\nURL: https://edutinker.com/glossary/dispersion/\nSnippet: In optics , dispersion occurs when different wavelengths of light travel at different speeds through a material, causing the light to separate into ...\n\n[5] Dispersion (optics) - WikiMili, The Best Wikipedia Reader\nURL: https://wikimili.com/en/Dispersion_(optics)\nSnippet: In a dispersive prism , material dispersion (a wavelength -dependent refractive index ) causes different colors to refract at different angles ...",
+          "searched_at": "2026-05-05_20-28-39",
+          "attempt_number": 1
+        }
+      ],
+      "query": "Dispersion This causes different wavelengths to travel at different speeds in a medium, leading to separation. physics lecture notes textbook explanation",
+      "search_status": "ok",
+      "result_snippet": "[1] Wavelength - Wikipedia\nURL: https://en.wikipedia.org/wiki/Wavelength\nSnippet: Assuming a sinusoidal wave moving at a fixed wave speed, wavelength is inversely proportional to the frequency of the wave: waves with higher ...\n\n[2] Dispersion (optics) - Wikipedia\nURL: https://en.wikipedia.org/wiki/Dispersion_(optics)\nSnippet: In a dispersive prism , material dispersion (a wavelength -dependent refractive index ) causes different colors to refract at different angles ...\n\n[3] Dispersion (optics) - Wikiwand\nURL: https://www.wikiwand.com/en/articles/Anomalous_dispersion\nSnippet: In a dispersive prism , material dispersion (a wavelength -dependent refractive index ) causes different colors to refract at different angles ...\n\n[4] Dispersion - eduTinker\nURL: https://edutinker.com/glossary/dispersion/\nSnippet: In optics , dispersion occurs when different wavelengths of light travel at different speeds through a material, causing the light to separate into ...\n\n[5] Dispersion (optics) - WikiMili, The Best Wikipedia Reader\nURL: https://wikimili.com/en/Dispersion_(optics)\nSnippet: In a dispersive prism , material dispersion (a wavelength -dependent refractive index ) causes different colors to refract at different angles ...",
+      "results": [
+        {
+          "title": "Wavelength - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Wavelength",
+          "domain": "en.wikipedia.org",
+          "snippet": "Assuming a sinusoidal wave moving at a fixed wave speed, wavelength is inversely proportional to the frequency of the wave: waves with higher ..."
+        },
+        {
+          "title": "Dispersion (optics) - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Dispersion_(optics)",
+          "domain": "en.wikipedia.org",
+          "snippet": "In a dispersive prism , material dispersion (a wavelength -dependent refractive index ) causes different colors to refract at different angles ..."
+        },
+        {
+          "title": "Dispersion (optics) - Wikiwand",
+          "url": "https://www.wikiwand.com/en/articles/Anomalous_dispersion",
+          "domain": "wikiwand.com",
+          "snippet": "In a dispersive prism , material dispersion (a wavelength -dependent refractive index ) causes different colors to refract at different angles ..."
+        },
+        {
+          "title": "Dispersion - eduTinker",
+          "url": "https://edutinker.com/glossary/dispersion/",
+          "domain": "edutinker.com",
+          "snippet": "In optics , dispersion occurs when different wavelengths of light travel at different speeds through a material, causing the light to separate into ..."
+        },
+        {
+          "title": "Dispersion (optics) - WikiMili, The Best Wikipedia Reader",
+          "url": "https://wikimili.com/en/Dispersion_(optics)",
+          "domain": "wikimili.com",
+          "snippet": "In a dispersive prism , material dispersion (a wavelength -dependent refractive index ) causes different colors to refract at different angles ..."
+        }
+      ],
+      "urls": [
+        "https://en.wikipedia.org/wiki/Wavelength",
+        "https://en.wikipedia.org/wiki/Dispersion_(optics)",
+        "https://www.wikiwand.com/en/articles/Anomalous_dispersion",
+        "https://edutinker.com/glossary/dispersion/",
+        "https://wikimili.com/en/Dispersion_(optics)"
+      ],
+      "attempt_count": 1,
+      "searched_at": "2026-05-05_20-28-39",
+      "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
+    },
+    "C006": {
+      "claim": "## Why this matters Dispersion explains why light splits into colors, why rainbows form, and why lenses can blur images.",
+      "search_attempts": [
+        {
+          "status": "ok",
+          "query": "Dispersion ## Why this matters Dispersion explains why light splits into colors, why rainbows form, and why physics lecture notes textbook explanation",
+          "results": [
+            {
+              "title": "25.5 Dispersion: The Rainbow and Prisms - OpenStax",
+              "url": "https://openstax.org/books/college-physics-2e/pages/25-5-dispersion-the-rainbow-and-prisms",
+              "domain": "openstax.org",
+              "snippet": "Dispersion is defined as the spreading of white light into its full spectrum of wavelengths. More technically, dispersion occurs whenever there is a process that changes the direction of light in a manner that depends on wavelength."
+            },
+            {
+              "title": "1.6: Dispersion - Physics LibreTexts",
+              "url": "https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/University_Physics_III_-_Optics_and_Modern_Physics_(OpenStax)/01:_The_Nature_of_Light/1.06:_Dispersion",
+              "domain": "phys.libretexts.org",
+              "snippet": "Mar 16, 2025 · Dispersion is defined as the spreading of white light into its full spectrum of wavelengths. More technically, dispersion occurs whenever the propagation of light depends on wavelength."
+            },
+            {
+              "title": "Physics Tutorial: Dispersion of Light by Prisms",
+              "url": "https://www.physicsclassroom.com/Class/refrn/u14l4a.cfm",
+              "domain": "physicsclassroom.com",
+              "snippet": "In this unit, we will investigate the dispersion of light in more detail, pondering the reasons why different frequencies of light bend or refract different amounts when passing through the prism."
+            },
+            {
+              "title": "Dispersion: The Rainbow and Prisms | Physics - Lumen Learning",
+              "url": "https://courses.lumenlearning.com/suny-physics/chapter/25-5-dispersion-the-rainbow-and-prisms/",
+              "domain": "courses.lumenlearning.com",
+              "snippet": "The spreading of white light into its full spectrum of wavelengths is called dispersion. Rainbows are produced by a combination of refraction and reflection and involve the dispersion of sunlight into a continuous distribution of colors."
+            },
+            {
+              "title": "Dispersion – University Physics Volume 3",
+              "url": "https://pressbooks.online.ucf.edu/osuniversityphysics3/chapter/dispersion/",
+              "domain": "pressbooks.online.ucf.edu",
+              "snippet": "The spreading of white light into its full spectrum of wavelengths is called dispersion. Rainbows are produced by a combination of refraction and reflection, and involve the dispersion of sunlight into a continuous distribution of colors."
+            }
+          ],
+          "urls": [
+            "https://openstax.org/books/college-physics-2e/pages/25-5-dispersion-the-rainbow-and-prisms",
+            "https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/University_Physics_III_-_Optics_and_Modern_Physics_(OpenStax)/01:_The_Nature_of_Light/1.06:_Dispersion",
+            "https://www.physicsclassroom.com/Class/refrn/u14l4a.cfm",
+            "https://courses.lumenlearning.com/suny-physics/chapter/25-5-dispersion-the-rainbow-and-prisms/",
+            "https://pressbooks.online.ucf.edu/osuniversityphysics3/chapter/dispersion/"
+          ],
+          "result_snippet": "[1] 25.5 Dispersion: The Rainbow and Prisms - OpenStax\nURL: https://openstax.org/books/college-physics-2e/pages/25-5-dispersion-the-rainbow-and-prisms\nSnippet: Dispersion is defined as the spreading of white light into its full spectrum of wavelengths. More technically, dispersion occurs whenever there is a process that changes the direction of light in a manner that depends on wavelength.\n\n[2] 1.6: Dispersion - Physics LibreTexts\nURL: https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/University_Physics_III_-_Optics_and_Modern_Physics_(OpenStax)/01:_The_Nature_of_Light/1.06:_Dispersion\nSnippet: Mar 16, 2025 · Dispersion is defined as the spreading of white light into its full spectrum of wavelengths. More technically, dispersion occurs whenever the propagation of light depends on wavelength.\n\n[3] Physics Tutorial: Dispersion of Light by Prisms\nURL: https://www.physicsclassroom.com/Class/refrn/u14l4a.cfm\nSnippet: In this unit, we will investigate the dispersion of light in more detail, pondering the reasons why different frequencies of light bend or refract different amounts when passing through the prism.\n\n[4] Dispersion: The Rainbow and Prisms | Physics - Lumen Learning\nURL: https://courses.lumenlearning.com/suny-physics/chapter/25-5-dispersion-the-rainbow-and-prisms/\nSnippet: The spreading of white light into its full spectrum of wavelengths is called dispersion. Rainbows are produced by a combination of refraction and reflection and involve the dispersion of sunlight into a continuous distribution of colors.\n\n[5] Dispersion – University Physics Volume 3\nURL: https://pressbooks.online.ucf.edu/osuniversityphysics3/chapter/dispersion/\nSnippet: The spreading of white light into its full spectrum of wavelengths is called dispersion. Rainbows are produced by a combination of refraction and reflection, and involve the dispersion of sunlight into a continuous distribution of colors.",
+          "searched_at": "2026-05-05_20-36-45",
+          "attempt_number": 1
+        }
+      ],
+      "query": "Dispersion ## Why this matters Dispersion explains why light splits into colors, why rainbows form, and why physics lecture notes textbook explanation",
+      "search_status": "ok",
+      "result_snippet": "[1] 25.5 Dispersion: The Rainbow and Prisms - OpenStax\nURL: https://openstax.org/books/college-physics-2e/pages/25-5-dispersion-the-rainbow-and-prisms\nSnippet: Dispersion is defined as the spreading of white light into its full spectrum of wavelengths. More technically, dispersion occurs whenever there is a process that changes the direction of light in a manner that depends on wavelength.\n\n[2] 1.6: Dispersion - Physics LibreTexts\nURL: https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/University_Physics_III_-_Optics_and_Modern_Physics_(OpenStax)/01:_The_Nature_of_Light/1.06:_Dispersion\nSnippet: Mar 16, 2025 · Dispersion is defined as the spreading of white light into its full spectrum of wavelengths. More technically, dispersion occurs whenever the propagation of light depends on wavelength.\n\n[3] Physics Tutorial: Dispersion of Light by Prisms\nURL: https://www.physicsclassroom.com/Class/refrn/u14l4a.cfm\nSnippet: In this unit, we will investigate the dispersion of light in more detail, pondering the reasons why different frequencies of light bend or refract different amounts when passing through the prism.\n\n[4] Dispersion: The Rainbow and Prisms | Physics - Lumen Learning\nURL: https://courses.lumenlearning.com/suny-physics/chapter/25-5-dispersion-the-rainbow-and-prisms/\nSnippet: The spreading of white light into its full spectrum of wavelengths is called dispersion. Rainbows are produced by a combination of refraction and reflection and involve the dispersion of sunlight into a continuous distribution of colors.\n\n[5] Dispersion – University Physics Volume 3\nURL: https://pressbooks.online.ucf.edu/osuniversityphysics3/chapter/dispersion/\nSnippet: The spreading of white light into its full spectrum of wavelengths is called dispersion. Rainbows are produced by a combination of refraction and reflection, and involve the dispersion of sunlight into a continuous distribution of colors.",
+      "results": [
+        {
+          "title": "25.5 Dispersion: The Rainbow and Prisms - OpenStax",
+          "url": "https://openstax.org/books/college-physics-2e/pages/25-5-dispersion-the-rainbow-and-prisms",
+          "domain": "openstax.org",
+          "snippet": "Dispersion is defined as the spreading of white light into its full spectrum of wavelengths. More technically, dispersion occurs whenever there is a process that changes the direction of light in a manner that depends on wavelength."
+        },
+        {
+          "title": "1.6: Dispersion - Physics LibreTexts",
+          "url": "https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/University_Physics_III_-_Optics_and_Modern_Physics_(OpenStax)/01:_The_Nature_of_Light/1.06:_Dispersion",
+          "domain": "phys.libretexts.org",
+          "snippet": "Mar 16, 2025 · Dispersion is defined as the spreading of white light into its full spectrum of wavelengths. More technically, dispersion occurs whenever the propagation of light depends on wavelength."
+        },
+        {
+          "title": "Physics Tutorial: Dispersion of Light by Prisms",
+          "url": "https://www.physicsclassroom.com/Class/refrn/u14l4a.cfm",
+          "domain": "physicsclassroom.com",
+          "snippet": "In this unit, we will investigate the dispersion of light in more detail, pondering the reasons why different frequencies of light bend or refract different amounts when passing through the prism."
+        },
+        {
+          "title": "Dispersion: The Rainbow and Prisms | Physics - Lumen Learning",
+          "url": "https://courses.lumenlearning.com/suny-physics/chapter/25-5-dispersion-the-rainbow-and-prisms/",
+          "domain": "courses.lumenlearning.com",
+          "snippet": "The spreading of white light into its full spectrum of wavelengths is called dispersion. Rainbows are produced by a combination of refraction and reflection and involve the dispersion of sunlight into a continuous distribution of colors."
+        },
+        {
+          "title": "Dispersion – University Physics Volume 3",
+          "url": "https://pressbooks.online.ucf.edu/osuniversityphysics3/chapter/dispersion/",
+          "domain": "pressbooks.online.ucf.edu",
+          "snippet": "The spreading of white light into its full spectrum of wavelengths is called dispersion. Rainbows are produced by a combination of refraction and reflection, and involve the dispersion of sunlight into a continuous distribution of colors."
+        }
+      ],
+      "urls": [
+        "https://openstax.org/books/college-physics-2e/pages/25-5-dispersion-the-rainbow-and-prisms",
+        "https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/University_Physics_III_-_Optics_and_Modern_Physics_(OpenStax)/01:_The_Nature_of_Light/1.06:_Dispersion",
+        "https://www.physicsclassroom.com/Class/refrn/u14l4a.cfm",
+        "https://courses.lumenlearning.com/suny-physics/chapter/25-5-dispersion-the-rainbow-and-prisms/",
+        "https://pressbooks.online.ucf.edu/osuniversityphysics3/chapter/dispersion/"
+      ],
+      "attempt_count": 1,
+      "searched_at": "2026-05-05_20-36-45",
+      "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
+    },
+    "C007": {
+      "claim": "It connects wave behavior to material properties, revealing how the same light can act differently depending on its wavelength.",
+      "search_attempts": [
+        {
+          "status": "ok",
+          "query": "Dispersion It connects wave behavior to material properties, revealing how the same light can act differently depending physics lecture notes textbook explanation",
+          "results": [
+            {
+              "title": "Matter wave - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Matter_wave",
+              "domain": "en.wikipedia.org",
+              "snippet": "De Broglie , in his 1924 PhD thesis, 8 proposed that just as light has both wave-like and particle-like properties, electrons also have wave-like ..."
+            },
+            {
+              "title": "Principles of Light Dispersion in Spectroscopes: Fundamentals,",
+              "url": "https://www.ico-optics.org/principles-of-light-dispersion-in-spectroscopes/",
+              "domain": "ico-optics.org",
+              "snippet": "By spreading out light into a spectrum, you can measure wavelength, intensity, and other properties that hint at what’s inside a material or how it ..."
+            },
+            {
+              "title": "Analysis of Telegraph Equation for Propagating Waves with",
+              "url": "https://www.mdpi.com/2673-9321/6/1/1",
+              "domain": "mdpi.com",
+              "snippet": "The structural vibration of industrial droplet dispensers can be modeled by telegraph-like equations to a good approximation."
+            },
+            {
+              "title": "MCQ on Physics for SSC CGL | Objective Questions | Rankers Hub",
+              "url": "https://www.rankershubindia.com/mcq-on-physics-for-ssc-cgl/",
+              "domain": "rankershubindia.com",
+              "snippet": "The refractive index of many materials (such as glass) varies with the wavelength or colour of the light used, a phenomenon known as dispersion."
+            },
+            {
+              "title": "Single-shot capable surface acoustic wave dispersion",
+              "url": "https://pubs.aip.org/aip/rsi/article/96/7/074903/3353207/Single-shot-capable-surface-acoustic-wave",
+              "domain": "pubs.aip.org",
+              "snippet": "... techniques for characterizing a layer on a substrate system via surface acoustic wave (SAW) dispersion measurement are often slow due to the need for ..."
+            }
+          ],
+          "urls": [
+            "https://en.wikipedia.org/wiki/Matter_wave",
+            "https://www.ico-optics.org/principles-of-light-dispersion-in-spectroscopes/",
+            "https://www.mdpi.com/2673-9321/6/1/1",
+            "https://www.rankershubindia.com/mcq-on-physics-for-ssc-cgl/",
+            "https://pubs.aip.org/aip/rsi/article/96/7/074903/3353207/Single-shot-capable-surface-acoustic-wave"
+          ],
+          "result_snippet": "[1] Matter wave - Wikipedia\nURL: https://en.wikipedia.org/wiki/Matter_wave\nSnippet: De Broglie , in his 1924 PhD thesis, 8 proposed that just as light has both wave-like and particle-like properties, electrons also have wave-like ...\n\n[2] Principles of Light Dispersion in Spectroscopes: Fundamentals,\nURL: https://www.ico-optics.org/principles-of-light-dispersion-in-spectroscopes/\nSnippet: By spreading out light into a spectrum, you can measure wavelength, intensity, and other properties that hint at what’s inside a material or how it ...\n\n[3] Analysis of Telegraph Equation for Propagating Waves with\nURL: https://www.mdpi.com/2673-9321/6/1/1\nSnippet: The structural vibration of industrial droplet dispensers can be modeled by telegraph-like equations to a good approximation.\n\n[4] MCQ on Physics for SSC CGL | Objective Questions | Rankers Hub\nURL: https://www.rankershubindia.com/mcq-on-physics-for-ssc-cgl/\nSnippet: The refractive index of many materials (such as glass) varies with the wavelength or colour of the light used, a phenomenon known as dispersion.\n\n[5] Single-shot capable surface acoustic wave dispersion\nURL: https://pubs.aip.org/aip/rsi/article/96/7/074903/3353207/Single-shot-capable-surface-acoustic-wave\nSnippet: ... techniques for characterizing a layer on a substrate system via surface acoustic wave (SAW) dispersion measurement are often slow due to the need for ...",
+          "searched_at": "2026-05-05_20-36-50",
+          "attempt_number": 1
+        }
+      ],
+      "query": "Dispersion It connects wave behavior to material properties, revealing how the same light can act differently depending physics lecture notes textbook explanation",
+      "search_status": "ok",
+      "result_snippet": "[1] Matter wave - Wikipedia\nURL: https://en.wikipedia.org/wiki/Matter_wave\nSnippet: De Broglie , in his 1924 PhD thesis, 8 proposed that just as light has both wave-like and particle-like properties, electrons also have wave-like ...\n\n[2] Principles of Light Dispersion in Spectroscopes: Fundamentals,\nURL: https://www.ico-optics.org/principles-of-light-dispersion-in-spectroscopes/\nSnippet: By spreading out light into a spectrum, you can measure wavelength, intensity, and other properties that hint at what’s inside a material or how it ...\n\n[3] Analysis of Telegraph Equation for Propagating Waves with\nURL: https://www.mdpi.com/2673-9321/6/1/1\nSnippet: The structural vibration of industrial droplet dispensers can be modeled by telegraph-like equations to a good approximation.\n\n[4] MCQ on Physics for SSC CGL | Objective Questions | Rankers Hub\nURL: https://www.rankershubindia.com/mcq-on-physics-for-ssc-cgl/\nSnippet: The refractive index of many materials (such as glass) varies with the wavelength or colour of the light used, a phenomenon known as dispersion.\n\n[5] Single-shot capable surface acoustic wave dispersion\nURL: https://pubs.aip.org/aip/rsi/article/96/7/074903/3353207/Single-shot-capable-surface-acoustic-wave\nSnippet: ... techniques for characterizing a layer on a substrate system via surface acoustic wave (SAW) dispersion measurement are often slow due to the need for ...",
+      "results": [
+        {
+          "title": "Matter wave - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Matter_wave",
+          "domain": "en.wikipedia.org",
+          "snippet": "De Broglie , in his 1924 PhD thesis, 8 proposed that just as light has both wave-like and particle-like properties, electrons also have wave-like ..."
+        },
+        {
+          "title": "Principles of Light Dispersion in Spectroscopes: Fundamentals,",
+          "url": "https://www.ico-optics.org/principles-of-light-dispersion-in-spectroscopes/",
+          "domain": "ico-optics.org",
+          "snippet": "By spreading out light into a spectrum, you can measure wavelength, intensity, and other properties that hint at what’s inside a material or how it ..."
+        },
+        {
+          "title": "Analysis of Telegraph Equation for Propagating Waves with",
+          "url": "https://www.mdpi.com/2673-9321/6/1/1",
+          "domain": "mdpi.com",
+          "snippet": "The structural vibration of industrial droplet dispensers can be modeled by telegraph-like equations to a good approximation."
+        },
+        {
+          "title": "MCQ on Physics for SSC CGL | Objective Questions | Rankers Hub",
+          "url": "https://www.rankershubindia.com/mcq-on-physics-for-ssc-cgl/",
+          "domain": "rankershubindia.com",
+          "snippet": "The refractive index of many materials (such as glass) varies with the wavelength or colour of the light used, a phenomenon known as dispersion."
+        },
+        {
+          "title": "Single-shot capable surface acoustic wave dispersion",
+          "url": "https://pubs.aip.org/aip/rsi/article/96/7/074903/3353207/Single-shot-capable-surface-acoustic-wave",
+          "domain": "pubs.aip.org",
+          "snippet": "... techniques for characterizing a layer on a substrate system via surface acoustic wave (SAW) dispersion measurement are often slow due to the need for ..."
+        }
+      ],
+      "urls": [
+        "https://en.wikipedia.org/wiki/Matter_wave",
+        "https://www.ico-optics.org/principles-of-light-dispersion-in-spectroscopes/",
+        "https://www.mdpi.com/2673-9321/6/1/1",
+        "https://www.rankershubindia.com/mcq-on-physics-for-ssc-cgl/",
+        "https://pubs.aip.org/aip/rsi/article/96/7/074903/3353207/Single-shot-capable-surface-acoustic-wave"
+      ],
+      "attempt_count": 1,
+      "searched_at": "2026-05-05_20-36-50",
       "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
     }
   },
-  "last_updated": "2026-05-05_01-44-12"
+  "summary": {
+    "total_claims": 8,
+    "checked_claim_count": 1,
+    "passing_claim_count": 0,
+    "unchecked_claim_count": 7,
+    "unresolved_or_needs_qualification": 8,
+    "actionable_issue_count": 0,
+    "evidence_retry_count": 1,
+    "claim_review_complete": false,
+    "unchecked_claim_ids": [
+      "C002",
+      "C003",
+      "C004",
+      "C005",
+      "C006",
+      "C007",
+      "C008"
+    ],
+    "actionable_claim_ids": [],
+    "evidence_retry_claim_ids": [
+      "C001"
+    ],
+    "highest_priority_fixes": []
+  },
+  "last_updated": "2026-05-05_20-36-50"
 }

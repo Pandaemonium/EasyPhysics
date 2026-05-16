@@ -1,0 +1,106 @@
+{
+  "claim_checks": [
+    {
+      "id": "C001",
+      "verdict": "not_enough_evidence",
+      "severity": "medium",
+      "problem": "Claim checker failed: LLMCallError(\"claim_checker failed after 3 attempt(s): LLMCallError('LLM_TIMEOUT_AFTER_720_SECONDS')\")",
+      "suggested_fix": "Automatically retry this claim with another source search or a smaller context.",
+      "source_quality_note": "",
+      "source_urls": [],
+      "claim": "Noether's first theorem links global symmetries to conservation laws, such as energy or momentum, by showing that invariant actions under universal transformations enforce these laws.",
+      "checked_at": "2026-05-06_01-02-10",
+      "source_attempt_count": 3,
+      "available_source_urls": [
+        "https://ccrma.stanford.edu/~jos/Lagrangians/Conservation_Laws_Symmetry.html",
+        "https://www.academia.edu/127482802/A_Relational_Noether_Theorem_Without_Lagrangian_Action",
+        "https://www.math.princeton.edu/events/noethers-theorem-and-general-relativity-2026-02-17t171000",
+        "https://plato.stanford.edu/entries/gauge-theories/",
+        "https://www.academia.edu/145160123/A_Structural_Noether_Type_Conservation_Law_for_Coherence_Based_Field_Models"
+      ]
+    }
+  ],
+  "check_history": [
+    {
+      "id": "C001",
+      "verdict": "not_enough_evidence",
+      "severity": "medium",
+      "problem": "Claim checker failed: LLMCallError(\"claim_checker failed after 3 attempt(s): LLMCallError('LLM_TIMEOUT_AFTER_720_SECONDS')\")",
+      "suggested_fix": "Automatically retry this claim with another source search or a smaller context.",
+      "source_quality_note": "",
+      "source_urls": [],
+      "claim": "Noether's first theorem links global symmetries to conservation laws, such as energy or momentum, by showing that invariant actions under universal transformations enforce these laws.",
+      "checked_at": "2026-05-05_23-49-19",
+      "source_attempt_count": 1,
+      "available_source_urls": [
+        "https://en.wikipedia.org/wiki/Noether's_theorem",
+        "https://en.wikipedia.org/wiki/Conservation_law_(physics)",
+        "https://www.kroneckerwallis.com/emmy-noethers-theorem-how-symmetry-creates-conservation-laws/",
+        "https://structures.uni-heidelberg.de/blog/posts/2025_09/index.php",
+        "https://grokipedia.com/page/Noether's_theorem"
+      ]
+    },
+    {
+      "id": "C001",
+      "verdict": "not_enough_evidence",
+      "severity": "medium",
+      "problem": "Claim checker failed: LLMCallError(\"claim_checker failed after 3 attempt(s): LLMCallError('LLM_TIMEOUT_AFTER_720_SECONDS')\")",
+      "suggested_fix": "Automatically retry this claim with another source search or a smaller context.",
+      "source_quality_note": "",
+      "source_urls": [],
+      "claim": "Noether's first theorem links global symmetries to conservation laws, such as energy or momentum, by showing that invariant actions under universal transformations enforce these laws.",
+      "checked_at": "2026-05-06_00-25-44",
+      "source_attempt_count": 2,
+      "available_source_urls": [
+        "https://en.wikipedia.org/wiki/Noether's_theorem",
+        "https://link.aps.org/doi/10.1103/wmz3-lrbz",
+        "https://structures.uni-heidelberg.de/blog/posts/2025_09/index.php",
+        "https://ncatlab.org/nlab/show/Noether's+theorem",
+        "https://jfgouyet.fr/en-us/noethers-theorem-conservation-of-laws-and-symmetries/"
+      ]
+    },
+    {
+      "id": "C001",
+      "verdict": "not_enough_evidence",
+      "severity": "medium",
+      "problem": "Claim checker failed: LLMCallError(\"claim_checker failed after 3 attempt(s): LLMCallError('LLM_TIMEOUT_AFTER_720_SECONDS')\")",
+      "suggested_fix": "Automatically retry this claim with another source search or a smaller context.",
+      "source_quality_note": "",
+      "source_urls": [],
+      "claim": "Noether's first theorem links global symmetries to conservation laws, such as energy or momentum, by showing that invariant actions under universal transformations enforce these laws.",
+      "checked_at": "2026-05-06_01-02-10",
+      "source_attempt_count": 3,
+      "available_source_urls": [
+        "https://ccrma.stanford.edu/~jos/Lagrangians/Conservation_Laws_Symmetry.html",
+        "https://www.academia.edu/127482802/A_Relational_Noether_Theorem_Without_Lagrangian_Action",
+        "https://www.math.princeton.edu/events/noethers-theorem-and-general-relativity-2026-02-17t171000",
+        "https://plato.stanford.edu/entries/gauge-theories/",
+        "https://www.academia.edu/145160123/A_Structural_Noether_Type_Conservation_Law_for_Coherence_Based_Field_Models"
+      ]
+    }
+  ],
+  "summary": {
+    "total_claims": 4,
+    "checked_claim_count": 1,
+    "passing_claim_count": 0,
+    "unchecked_claim_count": 3,
+    "unresolved_or_needs_qualification": 4,
+    "actionable_issue_count": 1,
+    "evidence_retry_count": 0,
+    "claim_review_complete": false,
+    "unchecked_claim_ids": [
+      "C002",
+      "C003",
+      "C004"
+    ],
+    "actionable_claim_ids": [
+      "C001"
+    ],
+    "evidence_retry_claim_ids": [],
+    "highest_priority_fixes": [
+      "Automatically retry this claim with another source search or a smaller context."
+    ],
+    "overall_claim_quality": "Partial claim check completed."
+  },
+  "last_updated": "2026-05-06_01-02-10"
+}

@@ -1,0 +1,7 @@
+{
+  "node": "claim_revision",
+  "created_at": "2026-05-05_07-38-53",
+  "error": "LLMCallError('claim_revision failed after 1 attempt(s): LLMCallError(\\'ResponseError(\"model \\\\\\'qwen3:8b\\\\\\' not found\")\\')')",
+  "traceback": "Traceback (most recent call last):\n  File \"C:\\Projects\\EasyPhysics\\auto_generate_articles.py\", line 1388, in run_role\n    return func(p, state)\n           ^^^^^^^^^^^^^^\n  File \"C:\\Projects\\EasyPhysics\\auto_generate_articles.py\", line 2830, in claim_revision_role\n    revised = invoke_llm(p.article_dir, \"claim_revision\", prompt)\n              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Projects\\EasyPhysics\\auto_generate_articles.py\", line 2001, in invoke_llm\n    raise LLMCallError(f\"{node_name} failed after {max_retries + 1} attempt(s): {last_error}\")\nLLMCallError: claim_revision failed after 1 attempt(s): LLMCallError('ResponseError(\"model \\'qwen3:8b\\' not found\")')\n",
+  "default_returned": false
+}

@@ -2,12 +2,20 @@ title: Dispersion
 slug: dispersion
 status: needs_revision
 finished: false
-iteration_count: 3
+iteration_count: 4
 accessibility_score: 0
-rigor_score: 9
+rigor_score: 0
+claim_review_passed: false
+claim_total_count: 8
+claim_checked_count: 1
+claim_unchecked_count: 7
+claim_unresolved_count: 8
 last_worked_on: '2026-05-05'
-last_completed_pass: 2026-05-05_01-57-04
+last_completed_pass: 2026-05-05_21-35-14
 needs:
 - accessibility_revision
+- rigor_revision
+- claim_check
+- claim_revision
 current_draft: draft.md
 last_error: 'LLMCallError("writer failed after 1 attempt(s): LLMCallError(''LLM_TIMEOUT_AFTER_480_SECONDS'')")'

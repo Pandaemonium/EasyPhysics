@@ -1,0 +1,20 @@
+{
+  "node": "accessibility_judge",
+  "created_at": "2026-05-05_21-11-02",
+  "error": "LLMCallError(\"accessibility_judge failed after 2 attempt(s): LLMCallError('LLM_TIMEOUT_AFTER_720_SECONDS')\")",
+  "traceback": "Traceback (most recent call last):\n  File \"C:\\Projects\\EasyPhysics\\auto_generate_articles.py\", line 1388, in run_role\n    return func(p, state)\n           ^^^^^^^^^^^^^^\n  File \"C:\\Projects\\EasyPhysics\\auto_generate_articles.py\", line 2923, in accessibility_judge_role\n    raw = invoke_llm(p.article_dir, \"accessibility_judge\", prompt, system_extra=ACCESSIBILITY_RUBRIC, expect_json=True)\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Projects\\EasyPhysics\\auto_generate_articles.py\", line 2001, in invoke_llm\n    raise LLMCallError(f\"{node_name} failed after {max_retries + 1} attempt(s): {last_error}\")\nLLMCallError: accessibility_judge failed after 2 attempt(s): LLMCallError('LLM_TIMEOUT_AFTER_720_SECONDS')\n",
+  "default_returned": {
+    "score": 0,
+    "pass": false,
+    "strengths": [],
+    "issues": [
+      {
+        "severity": "high",
+        "location": "whole article",
+        "problem": "Accessibility judge failed.",
+        "suggested_fix": "Automatically rerun accessibility review."
+      }
+    ],
+    "best_next_revision": "Automatically rerun accessibility review."
+  }
+}

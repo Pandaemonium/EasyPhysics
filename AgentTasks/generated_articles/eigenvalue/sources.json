@@ -1,26 +1,307 @@
 {
   "sources_by_claim": {
     "C001": {
-      "claim": "# Eigenvalue ## The core idea Eigenvalues are **scaling factors** that tell you how much a vector is stretched or squashed when a transformation is applied—*without changing its direction*.",
-      "query": "Eigenvalue # Eigenvalue ## The core idea Eigenvalues are **scaling factors** that tell you how much a physics lecture notes textbook explanation",
-      "result_snippet": "Applying T to the eigenvector only scales the eigenvector by the scalar value λ, called an eigenvalue. This condition can be written as the equation referred to as the eigenvalue equation or eigenequation. In general, λ may be any scalar. 2 days ago · Eigenvalues and eigenvectors explained: characteristic polynomial, computation, geometric meaning, diagonalization, and applications in PCA and physics. 3 days ago · Eigenvalues are a special set of scalars associated with a linear system of equations (i.e., a matrix equation) that are sometimes also known as characteristic roots, characteristic values (Hoffman and Kunze 1971), proper values, or latent roots (Marcus and Minc 1988, p. 144). An eigenvalue of an n × n matrix A is a scalar λ such that A x = λ x for some non-zero vector x. The eigenvalue λ can be any real or complex scalar, (which we write λ ∈ R or λ ∈ C). Eigenvalues are fundamental properties of a matrix (or a linear transformation it represents) that reveal how the matrix stretches or shrinks certain vectors (eigenvectors) without changing their direction.",
-      "searched_at": "2026-05-05_00-02-21",
+      "claim": "Eigenvalues are scaling factors that describe how a vector is stretched or squashed without changing its direction (for real eigenvalues).",
+      "search_attempts": [
+        {
+          "status": "ok",
+          "query": "eigenvalue definition linear algebra",
+          "results": [
+            {
+              "title": "Eigenvalues and eigenvectors - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Eigenvalues_and_eigenvectors",
+              "domain": "en.wikipedia.org",
+              "snippet": "In linear algebra, an eigenvector or characteristic vector is a vector that has its direction unchanged by a given linear transformation."
+            },
+            {
+              "title": "Eigenvalues and Eigenvectors - GeeksforGeeks",
+              "url": "https://www.geeksforgeeks.org/engineering-mathematics/eigen-values/",
+              "domain": "geeksforgeeks.org",
+              "snippet": "Eigenvalues and eigenvectors are fundamental concepts in linear algebra, used in various applications such as matrix diagonalization, stability analysis, and data analysis (e.g., Principal Component Analysis)."
+            },
+            {
+              "title": "Eigenvectors and eigenvalues | Chapter 14, Essence of linear algebra",
+              "url": "https://www.youtube.com/watch?v=PFDu9oVAE-g",
+              "domain": "youtube.com",
+              "snippet": "A visual understanding of eigenvectors, eigenvalues, and the usefulness of an eigenbasis.Help fund future projects: https://www.patreon.com/3blue1brownAn equ..."
+            },
+            {
+              "title": "A Journey into Linear Algebra: The Intrigues of Eigenvalues... | Medium",
+              "url": "https://rendazhang.medium.com/a-journey-into-linear-algebra-the-intrigues-of-eigenvalues-and-eigenvectors-a230306674c6",
+              "domain": "rendazhang.medium.com",
+              "snippet": "Eigenvalues: Definition and Intuitive Understanding. Before diving into the specifics of eigenvalues, let’s briefly revisit some fundamental concepts in linear algebra. Remember, a matrix can be thought of as a linear transformation."
+            },
+            {
+              "title": "Eigenvalues - Examples | How to Find Eigenvalues of Matrix?",
+              "url": "https://www.cuemath.com/algebra/eigenvalues/",
+              "domain": "cuemath.com",
+              "snippet": "The eigenvalues of a matrix are the scalars by which eigenvectors change when some transformation is applied to them. Learn how to find the eigenvalues of 2x2 and 3x3 matrices using the characteristic equation with examples."
+            }
+          ],
+          "urls": [
+            "https://en.wikipedia.org/wiki/Eigenvalues_and_eigenvectors",
+            "https://www.geeksforgeeks.org/engineering-mathematics/eigen-values/",
+            "https://www.youtube.com/watch?v=PFDu9oVAE-g",
+            "https://rendazhang.medium.com/a-journey-into-linear-algebra-the-intrigues-of-eigenvalues-and-eigenvectors-a230306674c6",
+            "https://www.cuemath.com/algebra/eigenvalues/"
+          ],
+          "result_snippet": "[1] Eigenvalues and eigenvectors - Wikipedia\nURL: https://en.wikipedia.org/wiki/Eigenvalues_and_eigenvectors\nSnippet: In linear algebra, an eigenvector or characteristic vector is a vector that has its direction unchanged by a given linear transformation.\n\n[2] Eigenvalues and Eigenvectors - GeeksforGeeks\nURL: https://www.geeksforgeeks.org/engineering-mathematics/eigen-values/\nSnippet: Eigenvalues and eigenvectors are fundamental concepts in linear algebra, used in various applications such as matrix diagonalization, stability analysis, and data analysis (e.g., Principal Component Analysis).\n\n[3] Eigenvectors and eigenvalues | Chapter 14, Essence of linear algebra\nURL: https://www.youtube.com/watch?v=PFDu9oVAE-g\nSnippet: A visual understanding of eigenvectors, eigenvalues, and the usefulness of an eigenbasis.Help fund future projects: https://www.patreon.com/3blue1brownAn equ...\n\n[4] A Journey into Linear Algebra: The Intrigues of Eigenvalues... | Medium\nURL: https://rendazhang.medium.com/a-journey-into-linear-algebra-the-intrigues-of-eigenvalues-and-eigenvectors-a230306674c6\nSnippet: Eigenvalues: Definition and Intuitive Understanding. Before diving into the specifics of eigenvalues, let’s briefly revisit some fundamental concepts in linear algebra. Remember, a matrix can be thought of as a linear transformation.\n\n[5] Eigenvalues - Examples | How to Find Eigenvalues of Matrix?\nURL: https://www.cuemath.com/algebra/eigenvalues/\nSnippet: The eigenvalues of a matrix are the scalars by which eigenvectors change when some transformation is applied to them. Learn how to find the eigenvalues of 2x2 and 3x3 matrices using the characteristic equation with examples.",
+          "searched_at": "2026-05-07_04-54-43",
+          "attempt_number": 1
+        },
+        {
+          "status": "ok",
+          "query": "Eigenvalue Eigenvalues are scaling factors that describe how a vector is stretched or squashed without changing its direction (for university physics lecture notes textbook",
+          "results": [
+            {
+              "title": "Eigenvalues and eigenvectors - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Eigenvalues_and_eigenvectors",
+              "domain": "en.wikipedia.org",
+              "snippet": "Geometrically, vectors are multi-dimensional quantities with magnitude and direction, often pictured as arrows. A linear transformation rotates, stretches, or shears the vectors upon which it acts.The corresponding eigenvalue is the factor by which an eigenvector is stretched or shrunk."
+            },
+            {
+              "title": "Eigenvectors and eigenvalues | Chapter 14, Essence of... - YouTube",
+              "url": "https://www.youtube.com/watch?v=PFDu9oVAE-g",
+              "domain": "youtube.com",
+              "snippet": "About Press Copyright Contact us Creators Advertise Developers Terms Privacy Policy & Safety How YouTube works Test new features."
+            },
+            {
+              "title": "Eigenvalue and Eigenvector: A Simple Explanation... - WordSphere.blog",
+              "url": "https://wordsphere.blog/eigenvalue-eigenvector-simple-explanation",
+              "domain": "wordsphere.blog",
+              "snippet": "How are eigenvalues used in Principal Component Analysis (PCA)? An eigenvector is a specific direction that remains unchanged during a linear transformation, while the eigenvalue represents the magnitude of the stretch or shrink along that direction."
+            },
+            {
+              "title": "The DNA of Matrices: A Visual Guide to Eigenvalues and... | Medium",
+              "url": "https://medium.com/@moezbenazzouz/the-dna-of-matrices-a-visual-guide-to-eigenvalues-and-eigenvectors-8b4d0ef36546",
+              "domain": "medium.com",
+              "snippet": "Eigenvalues are scaling factors. They tell you how much the matrix stretches or compresses along eigenvector directions. Eigendecomposition A = PDP⁻¹ is matrix factorization."
+            },
+            {
+              "title": "Eigenvector and Eigenvalue",
+              "url": "https://www.mathsisfun.com/algebra/eigenvalue.html",
+              "domain": "mathsisfun.com",
+              "snippet": "Eigenvector and Eigenvalue. They have many uses! A simple example is that an eigenvector does not change direction in a transformationHow do we find that vector? The Mathematics Of It. For a square matrix A, an Eigenvector and Eigenvalue make this equation true"
+            }
+          ],
+          "urls": [
+            "https://en.wikipedia.org/wiki/Eigenvalues_and_eigenvectors",
+            "https://www.youtube.com/watch?v=PFDu9oVAE-g",
+            "https://wordsphere.blog/eigenvalue-eigenvector-simple-explanation",
+            "https://medium.com/@moezbenazzouz/the-dna-of-matrices-a-visual-guide-to-eigenvalues-and-eigenvectors-8b4d0ef36546",
+            "https://www.mathsisfun.com/algebra/eigenvalue.html"
+          ],
+          "result_snippet": "[1] Eigenvalues and eigenvectors - Wikipedia\nURL: https://en.wikipedia.org/wiki/Eigenvalues_and_eigenvectors\nSnippet: Geometrically, vectors are multi-dimensional quantities with magnitude and direction, often pictured as arrows. A linear transformation rotates, stretches, or shears the vectors upon which it acts.The corresponding eigenvalue is the factor by which an eigenvector is stretched or shrunk.\n\n[2] Eigenvectors and eigenvalues | Chapter 14, Essence of... - YouTube\nURL: https://www.youtube.com/watch?v=PFDu9oVAE-g\nSnippet: About Press Copyright Contact us Creators Advertise Developers Terms Privacy Policy & Safety How YouTube works Test new features.\n\n[3] Eigenvalue and Eigenvector: A Simple Explanation... - WordSphere.blog\nURL: https://wordsphere.blog/eigenvalue-eigenvector-simple-explanation\nSnippet: How are eigenvalues used in Principal Component Analysis (PCA)? An eigenvector is a specific direction that remains unchanged during a linear transformation, while the eigenvalue represents the magnitude of the stretch or shrink along that direction.\n\n[4] The DNA of Matrices: A Visual Guide to Eigenvalues and... | Medium\nURL: https://medium.com/@moezbenazzouz/the-dna-of-matrices-a-visual-guide-to-eigenvalues-and-eigenvectors-8b4d0ef36546\nSnippet: Eigenvalues are scaling factors. They tell you how much the matrix stretches or compresses along eigenvector directions. Eigendecomposition A = PDP⁻¹ is matrix factorization.\n\n[5] Eigenvector and Eigenvalue\nURL: https://www.mathsisfun.com/algebra/eigenvalue.html\nSnippet: Eigenvector and Eigenvalue. They have many uses! A simple example is that an eigenvector does not change direction in a transformationHow do we find that vector? The Mathematics Of It. For a square matrix A, an Eigenvector and Eigenvalue make this equation true",
+          "searched_at": "2026-05-07_05-31-09",
+          "attempt_number": 2
+        },
+        {
+          "status": "ok",
+          "query": "Eigenvalue Eigenvalues are scaling factors that describe how a vector is stretched or squashed without changing its direction (for site:edu physics",
+          "results": [
+            {
+              "title": "How to Find the Eigenvalues: The Hidden Power Behind Matrix Mathematics - Saint Augustines University",
+              "url": "https://explore.st-aug.edu/exp/how-to-find-the-eigenvalues-the-hidden-power-behind-matrix-mathematics",
+              "domain": "explore.st-aug.edu",
+              "snippet": "March 3, 2026 - An eigenvalue is a scalar that reveals how a linear transformation stretches or compresses vector spaces along specific directions—called eigenvectors. In matrix terms, for a square matrix \\( A \\), an eigenvalue \\( \\lambda \\) satisfies the defining equation: ... where \\( \\mathbf{v} \\) is ..."
+            },
+            {
+              "title": "MATHEMATICA Tutorial, Part 2.1: Eigenvalues",
+              "url": "https://www.cfm.brown.edu/people/dobrush/am34/Mathematica/ch1/eigen.html",
+              "domain": "cfm.brown.edu",
+              "snippet": "March 11, 2026 - A. It is important in many applications ... are called eigenvectors of A that are always exist for any square matrix A. The eigenvalue λ tells whether the exceptional vector v is stretched or shrunk ......"
+            },
+            {
+              "title": "Mastering the Basics: How to Find Eigenvalues with Simple Steps - Cyber Innovation Hub",
+              "url": "https://6857blakley.csail.mit.edu/how-to-find-eigenvalues",
+              "domain": "6857blakley.csail.mit.edu",
+              "snippet": "August 17, 2025 - At the core, eigenvalues are scalar quantities associated with a square matrix that describe the factor by which certain vectors—termed eigenvectors—are scaled during linear transformation."
+            },
+            {
+              "title": "Unlock the Secrets of Eigenvectors: A Step-by-Step Guide - Cyber Innovation Hub",
+              "url": "https://6857blakley.csail.mit.edu/how-to-compute-eigenvectors",
+              "domain": "6857blakley.csail.mit.edu",
+              "snippet": "June 21, 2025 - Eigenvectors have numerous applications in fields such as physics, engineering, computer science, and data analysis. Eigenvectors are non-zero vectors that, when transformed by a linear transformation, result in a scaled version of themselves. The ..."
+            },
+            {
+              "title": "How To Find An Eigenvector: The Definitive Step-by-Step Guide for Scientists and Statisticians - Saint Augustines University",
+              "url": "https://explore.st-aug.edu/exp/how-to-find-an-eigenvector-the-definitive-stepbystep-guide-for-scientists-and-statisticians",
+              "domain": "explore.st-aug.edu",
+              "snippet": "March 17, 2026 - At its core, an eigenvector of a square matrix represents a non-zero vector that, when transformed by the matrix, only scales—never rotates or changes direction. Mathematically, if \\( A \\) is a square matrix and \\( v \\) a non-zero vector, then \\( v \\) is an eigenvector if A v = λ v, where ..."
+            }
+          ],
+          "urls": [
+            "https://explore.st-aug.edu/exp/how-to-find-the-eigenvalues-the-hidden-power-behind-matrix-mathematics",
+            "https://www.cfm.brown.edu/people/dobrush/am34/Mathematica/ch1/eigen.html",
+            "https://6857blakley.csail.mit.edu/how-to-find-eigenvalues",
+            "https://6857blakley.csail.mit.edu/how-to-compute-eigenvectors",
+            "https://explore.st-aug.edu/exp/how-to-find-an-eigenvector-the-definitive-stepbystep-guide-for-scientists-and-statisticians"
+          ],
+          "result_snippet": "[1] How to Find the Eigenvalues: The Hidden Power Behind Matrix Mathematics - Saint Augustines University\nURL: https://explore.st-aug.edu/exp/how-to-find-the-eigenvalues-the-hidden-power-behind-matrix-mathematics\nSnippet: March 3, 2026 - An eigenvalue is a scalar that reveals how a linear transformation stretches or compresses vector spaces along specific directions—called eigenvectors. In matrix terms, for a square matrix \\( A \\), an eigenvalue \\( \\lambda \\) satisfies the defining equation: ... where \\( \\mathbf{v} \\) is ...\n\n[2] MATHEMATICA Tutorial, Part 2.1: Eigenvalues\nURL: https://www.cfm.brown.edu/people/dobrush/am34/Mathematica/ch1/eigen.html\nSnippet: March 11, 2026 - A. It is important in many applications ... are called eigenvectors of A that are always exist for any square matrix A. The eigenvalue λ tells whether the exceptional vector v is stretched or shrunk ......\n\n[3] Mastering the Basics: How to Find Eigenvalues with Simple Steps - Cyber Innovation Hub\nURL: https://6857blakley.csail.mit.edu/how-to-find-eigenvalues\nSnippet: August 17, 2025 - At the core, eigenvalues are scalar quantities associated with a square matrix that describe the factor by which certain vectors—termed eigenvectors—are scaled during linear transformation.\n\n[4] Unlock the Secrets of Eigenvectors: A Step-by-Step Guide - Cyber Innovation Hub\nURL: https://6857blakley.csail.mit.edu/how-to-compute-eigenvectors\nSnippet: June 21, 2025 - Eigenvectors have numerous applications in fields such as physics, engineering, computer science, and data analysis. Eigenvectors are non-zero vectors that, when transformed by a linear transformation, result in a scaled version of themselves. The ...\n\n[5] How To Find An Eigenvector: The Definitive Step-by-Step Guide for Scientists and Statisticians - Saint Augustines University\nURL: https://explore.st-aug.edu/exp/how-to-find-an-eigenvector-the-definitive-stepbystep-guide-for-scientists-and-statisticians\nSnippet: March 17, 2026 - At its core, an eigenvector of a square matrix represents a non-zero vector that, when transformed by the matrix, only scales—never rotates or changes direction. Mathematically, if \\( A \\) is a square matrix and \\( v \\) a non-zero vector, then \\( v \\) is an eigenvector if A v = λ v, where ...",
+          "searched_at": "2026-05-07_06-07-33",
+          "attempt_number": 3
+        }
+      ],
+      "query": "Eigenvalue Eigenvalues are scaling factors that describe how a vector is stretched or squashed without changing its direction (for site:edu physics",
+      "search_status": "ok",
+      "result_snippet": "[1] How to Find the Eigenvalues: The Hidden Power Behind Matrix Mathematics - Saint Augustines University\nURL: https://explore.st-aug.edu/exp/how-to-find-the-eigenvalues-the-hidden-power-behind-matrix-mathematics\nSnippet: March 3, 2026 - An eigenvalue is a scalar that reveals how a linear transformation stretches or compresses vector spaces along specific directions—called eigenvectors. In matrix terms, for a square matrix \\( A \\), an eigenvalue \\( \\lambda \\) satisfies the defining equation: ... where \\( \\mathbf{v} \\) is ...\n\n[2] MATHEMATICA Tutorial, Part 2.1: Eigenvalues\nURL: https://www.cfm.brown.edu/people/dobrush/am34/Mathematica/ch1/eigen.html\nSnippet: March 11, 2026 - A. It is important in many applications ... are called eigenvectors of A that are always exist for any square matrix A. The eigenvalue λ tells whether the exceptional vector v is stretched or shrunk ......\n\n[3] Mastering the Basics: How to Find Eigenvalues with Simple Steps - Cyber Innovation Hub\nURL: https://6857blakley.csail.mit.edu/how-to-find-eigenvalues\nSnippet: August 17, 2025 - At the core, eigenvalues are scalar quantities associated with a square matrix that describe the factor by which certain vectors—termed eigenvectors—are scaled during linear transformation.\n\n[4] Unlock the Secrets of Eigenvectors: A Step-by-Step Guide - Cyber Innovation Hub\nURL: https://6857blakley.csail.mit.edu/how-to-compute-eigenvectors\nSnippet: June 21, 2025 - Eigenvectors have numerous applications in fields such as physics, engineering, computer science, and data analysis. Eigenvectors are non-zero vectors that, when transformed by a linear transformation, result in a scaled version of themselves. The ...\n\n[5] How To Find An Eigenvector: The Definitive Step-by-Step Guide for Scientists and Statisticians - Saint Augustines University\nURL: https://explore.st-aug.edu/exp/how-to-find-an-eigenvector-the-definitive-stepbystep-guide-for-scientists-and-statisticians\nSnippet: March 17, 2026 - At its core, an eigenvector of a square matrix represents a non-zero vector that, when transformed by the matrix, only scales—never rotates or changes direction. Mathematically, if \\( A \\) is a square matrix and \\( v \\) a non-zero vector, then \\( v \\) is an eigenvector if A v = λ v, where ...",
+      "results": [
+        {
+          "title": "How to Find the Eigenvalues: The Hidden Power Behind Matrix Mathematics - Saint Augustines University",
+          "url": "https://explore.st-aug.edu/exp/how-to-find-the-eigenvalues-the-hidden-power-behind-matrix-mathematics",
+          "domain": "explore.st-aug.edu",
+          "snippet": "March 3, 2026 - An eigenvalue is a scalar that reveals how a linear transformation stretches or compresses vector spaces along specific directions—called eigenvectors. In matrix terms, for a square matrix \\( A \\), an eigenvalue \\( \\lambda \\) satisfies the defining equation: ... where \\( \\mathbf{v} \\) is ..."
+        },
+        {
+          "title": "MATHEMATICA Tutorial, Part 2.1: Eigenvalues",
+          "url": "https://www.cfm.brown.edu/people/dobrush/am34/Mathematica/ch1/eigen.html",
+          "domain": "cfm.brown.edu",
+          "snippet": "March 11, 2026 - A. It is important in many applications ... are called eigenvectors of A that are always exist for any square matrix A. The eigenvalue λ tells whether the exceptional vector v is stretched or shrunk ......"
+        },
+        {
+          "title": "Mastering the Basics: How to Find Eigenvalues with Simple Steps - Cyber Innovation Hub",
+          "url": "https://6857blakley.csail.mit.edu/how-to-find-eigenvalues",
+          "domain": "6857blakley.csail.mit.edu",
+          "snippet": "August 17, 2025 - At the core, eigenvalues are scalar quantities associated with a square matrix that describe the factor by which certain vectors—termed eigenvectors—are scaled during linear transformation."
+        },
+        {
+          "title": "Unlock the Secrets of Eigenvectors: A Step-by-Step Guide - Cyber Innovation Hub",
+          "url": "https://6857blakley.csail.mit.edu/how-to-compute-eigenvectors",
+          "domain": "6857blakley.csail.mit.edu",
+          "snippet": "June 21, 2025 - Eigenvectors have numerous applications in fields such as physics, engineering, computer science, and data analysis. Eigenvectors are non-zero vectors that, when transformed by a linear transformation, result in a scaled version of themselves. The ..."
+        },
+        {
+          "title": "How To Find An Eigenvector: The Definitive Step-by-Step Guide for Scientists and Statisticians - Saint Augustines University",
+          "url": "https://explore.st-aug.edu/exp/how-to-find-an-eigenvector-the-definitive-stepbystep-guide-for-scientists-and-statisticians",
+          "domain": "explore.st-aug.edu",
+          "snippet": "March 17, 2026 - At its core, an eigenvector of a square matrix represents a non-zero vector that, when transformed by the matrix, only scales—never rotates or changes direction. Mathematically, if \\( A \\) is a square matrix and \\( v \\) a non-zero vector, then \\( v \\) is an eigenvector if A v = λ v, where ..."
+        }
+      ],
+      "urls": [
+        "https://explore.st-aug.edu/exp/how-to-find-the-eigenvalues-the-hidden-power-behind-matrix-mathematics",
+        "https://www.cfm.brown.edu/people/dobrush/am34/Mathematica/ch1/eigen.html",
+        "https://6857blakley.csail.mit.edu/how-to-find-eigenvalues",
+        "https://6857blakley.csail.mit.edu/how-to-compute-eigenvectors",
+        "https://explore.st-aug.edu/exp/how-to-find-an-eigenvector-the-definitive-stepbystep-guide-for-scientists-and-statisticians"
+      ],
+      "attempt_count": 3,
+      "searched_at": "2026-05-07_06-07-33",
       "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
     },
     "C002": {
-      "claim": "This concept is foundational in **linear algebra**, where eigenvalues describe how transformations act on vectors, and it plays a central role in **quantum mechanics**, where they represent measurable outcomes like energy levels.",
-      "query": "Eigenvalue This concept is foundational in **linear algebra**, where eigenvalues describe how transformations act on vectors, and physics lecture notes textbook explanation",
-      "result_snippet": "If the eigenvalue is negative, the eigenvector's direction is reversed. [1] The eigenvectors and eigenvalues of a linear transformation serve to characterize it, and so they play important roles in all areas where linear algebra is applied, from geology to quantum mechanics. The point here is to develop an intuitive understanding of eigenvalues and eigenvectors and explain how they can be used to simplify some problems that we have previously encountered. In the rest of this chapter, we will develop this concept into a richer theory and illustrate its use with more meaningful examples. Eigenvalues and eigenvectors are fundamental concepts in linear algebra, used in various applications such as matrix diagonalization, stability analysis, and data analysis (e.g., Principal Component Analysis). They are associated with a square matrix and provide insights into its properties. Linear algebra - Eigenvectors, Matrices, Vectors: When studying linear transformations, it is extremely useful to find nonzero vectors whose direction is left unchanged by the transformation. These are called eigenvectors (also known as characteristic vectors). If v is an eigenvector for the linear transformation T, then T(v) = λv for some scalar λ. This scalar is called an eigenvalue. The ... Explore the concepts of eigenvalues and eigenvectors, diagonalization of matrices, and orthogonal diagonalization in elementary linear algebra. Learn about symmetric matrices and their properties in relation to eigenvalues. Understand the geometric interpretation of eigenvectors and their impact on linear transformations.",
-      "searched_at": "2026-05-05_00-02-23",
-      "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
-    },
-    "C003": {
-      "claim": "## Why this matters Eigenvalues help us understand how systems respond to forces, rotations, or vibrations.",
-      "query": "Eigenvalue ## Why this matters Eigenvalues help us understand how systems respond to forces, rotations, or vibrations. physics lecture notes textbook explanation",
-      "result_snippet": "Because of the definition of eigenvalues and eigenvectors, an eigenvalue's geometric multiplicity must be at least one, that is, each eigenvalue has at least one associated eigenvector. 2 days ago · Eigenvalues and eigenvectors describe the special directions a matrix transformation preserves and the factor it scales them by. They’re among the most consequential concepts in linear algebra. Once you understand them, you have a structural vocabulary for principal component analysis, dynamical systems, quantum mechanics, vibration analysis, recommender systems, and Google’s original ... The eigenvalue λ can be any real or complex scalar, (which we write λ ∈ R or λ ∈ C). Eigenvalues can be complex even if all the entries of the matrix A are real. In this case, the corresponding vector x must have complex-valued components (which we write x ∈ C n). We can draws the free body diagram for this \n\n...[TRUNCATED]...\n\nis equivalent to matrix diagonalization and arises in such common applications as stability... Jul 20, 2025 · The intent of this article is to get physics and engineering students interested in tensors and the eigenvalue problem in a way that does not require them to remember mathematical details. Because of the definition of eigenvalues and eigenvectors, an eigenvalue's geometric multiplicity must be at least one, that is, each eigenvalue has at least one associated eigenvector. Oct 14, 2024 · In this chapter, after some preliminaries and definitions, we will discuss the role of eigenvalues and eigenvectors of diagonalizable and nondiagonalizable operators. 3 days ago · The determination of the eigenvalues and eigenvectors of a system is extremely important in physics and engineering, where it is equivalent to matrix diagonalization and arises in such common applications as stability...",
-      "searched_at": "2026-05-05_00-02-25",
+      "claim": "Eigenvalues are foundational in linear algebra and central to quantum mechanics, where they represent measurable quantities in quantum mechanics.",
+      "search_attempts": [
+        {
+          "status": "ok",
+          "query": "eigenvalues quantum mechanics",
+          "results": [
+            {
+              "title": "Eigenvalues and eigenvectors - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Eigenvalues_and_eigenvectors",
+              "domain": "en.wikipedia.org",
+              "snippet": "1 week ago - One of the remarkable properties ... in atomic and molecular physics, within the Hartree–Fock theory, the atomic and molecular orbitals can be defined by the eigenvectors of the Fock operator...."
+            },
+            {
+              "title": "Quantum state - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Introduction_to_eigenstates",
+              "domain": "en.wikipedia.org",
+              "snippet": "December 11, 2025 - The postulates of quantum mechanics ... as a linear function that acts on the states of the system. The eigenvalues of the operator correspond to the possible values of the observable...."
+            },
+            {
+              "title": "Eigenfunction - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Eigenfunction",
+              "domain": "en.wikipedia.org",
+              "snippet": "November 12, 2025 - Equation (2) is the time-independent Schrödinger equation. The eigenfunctions φk of the Hamiltonian operator are stationary states of the quantum mechanical system, each with a corresponding energy Ek."
+            },
+            {
+              "title": "Degenerate energy levels - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Degenerate_energy_levels",
+              "domain": "en.wikipedia.org",
+              "snippet": "January 19, 2026 - The eigenvalues of the matrices representing physical observables in quantum mechanics give the measurable values of these observables while the eigenstates corresponding to these eigenvalues give the possible states in which the system may ..."
+            },
+            {
+              "title": "Momentum operator - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Momentum_operator",
+              "domain": "en.wikipedia.org",
+              "snippet": "2 weeks ago - Since the partial derivative is a linear operator, the momentum operator is also linear, and because any wave function can be expressed as a superposition of other states, when this momentum operator acts on the entire superimposed wave, it yields the momentum eigenvalues for each plane wave component."
+            }
+          ],
+          "urls": [
+            "https://en.wikipedia.org/wiki/Eigenvalues_and_eigenvectors",
+            "https://en.wikipedia.org/wiki/Introduction_to_eigenstates",
+            "https://en.wikipedia.org/wiki/Eigenfunction",
+            "https://en.wikipedia.org/wiki/Degenerate_energy_levels",
+            "https://en.wikipedia.org/wiki/Momentum_operator"
+          ],
+          "result_snippet": "[1] Eigenvalues and eigenvectors - Wikipedia\nURL: https://en.wikipedia.org/wiki/Eigenvalues_and_eigenvectors\nSnippet: 1 week ago - One of the remarkable properties ... in atomic and molecular physics, within the Hartree–Fock theory, the atomic and molecular orbitals can be defined by the eigenvectors of the Fock operator....\n\n[2] Quantum state - Wikipedia\nURL: https://en.wikipedia.org/wiki/Introduction_to_eigenstates\nSnippet: December 11, 2025 - The postulates of quantum mechanics ... as a linear function that acts on the states of the system. The eigenvalues of the operator correspond to the possible values of the observable....\n\n[3] Eigenfunction - Wikipedia\nURL: https://en.wikipedia.org/wiki/Eigenfunction\nSnippet: November 12, 2025 - Equation (2) is the time-independent Schrödinger equation. The eigenfunctions φk of the Hamiltonian operator are stationary states of the quantum mechanical system, each with a corresponding energy Ek.\n\n[4] Degenerate energy levels - Wikipedia\nURL: https://en.wikipedia.org/wiki/Degenerate_energy_levels\nSnippet: January 19, 2026 - The eigenvalues of the matrices representing physical observables in quantum mechanics give the measurable values of these observables while the eigenstates corresponding to these eigenvalues give the possible states in which the system may ...\n\n[5] Momentum operator - Wikipedia\nURL: https://en.wikipedia.org/wiki/Momentum_operator\nSnippet: 2 weeks ago - Since the partial derivative is a linear operator, the momentum operator is also linear, and because any wave function can be expressed as a superposition of other states, when this momentum operator acts on the entire superimposed wave, it yields the momentum eigenvalues for each plane wave component.",
+          "searched_at": "2026-05-07_04-54-44",
+          "attempt_number": 1
+        }
+      ],
+      "query": "eigenvalues quantum mechanics",
+      "search_status": "ok",
+      "result_snippet": "[1] Eigenvalues and eigenvectors - Wikipedia\nURL: https://en.wikipedia.org/wiki/Eigenvalues_and_eigenvectors\nSnippet: 1 week ago - One of the remarkable properties ... in atomic and molecular physics, within the Hartree–Fock theory, the atomic and molecular orbitals can be defined by the eigenvectors of the Fock operator....\n\n[2] Quantum state - Wikipedia\nURL: https://en.wikipedia.org/wiki/Introduction_to_eigenstates\nSnippet: December 11, 2025 - The postulates of quantum mechanics ... as a linear function that acts on the states of the system. The eigenvalues of the operator correspond to the possible values of the observable....\n\n[3] Eigenfunction - Wikipedia\nURL: https://en.wikipedia.org/wiki/Eigenfunction\nSnippet: November 12, 2025 - Equation (2) is the time-independent Schrödinger equation. The eigenfunctions φk of the Hamiltonian operator are stationary states of the quantum mechanical system, each with a corresponding energy Ek.\n\n[4] Degenerate energy levels - Wikipedia\nURL: https://en.wikipedia.org/wiki/Degenerate_energy_levels\nSnippet: January 19, 2026 - The eigenvalues of the matrices representing physical observables in quantum mechanics give the measurable values of these observables while the eigenstates corresponding to these eigenvalues give the possible states in which the system may ...\n\n[5] Momentum operator - Wikipedia\nURL: https://en.wikipedia.org/wiki/Momentum_operator\nSnippet: 2 weeks ago - Since the partial derivative is a linear operator, the momentum operator is also linear, and because any wave function can be expressed as a superposition of other states, when this momentum operator acts on the entire superimposed wave, it yields the momentum eigenvalues for each plane wave component.",
+      "results": [
+        {
+          "title": "Eigenvalues and eigenvectors - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Eigenvalues_and_eigenvectors",
+          "domain": "en.wikipedia.org",
+          "snippet": "1 week ago - One of the remarkable properties ... in atomic and molecular physics, within the Hartree–Fock theory, the atomic and molecular orbitals can be defined by the eigenvectors of the Fock operator...."
+        },
+        {
+          "title": "Quantum state - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Introduction_to_eigenstates",
+          "domain": "en.wikipedia.org",
+          "snippet": "December 11, 2025 - The postulates of quantum mechanics ... as a linear function that acts on the states of the system. The eigenvalues of the operator correspond to the possible values of the observable...."
+        },
+        {
+          "title": "Eigenfunction - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Eigenfunction",
+          "domain": "en.wikipedia.org",
+          "snippet": "November 12, 2025 - Equation (2) is the time-independent Schrödinger equation. The eigenfunctions φk of the Hamiltonian operator are stationary states of the quantum mechanical system, each with a corresponding energy Ek."
+        },
+        {
+          "title": "Degenerate energy levels - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Degenerate_energy_levels",
+          "domain": "en.wikipedia.org",
+          "snippet": "January 19, 2026 - The eigenvalues of the matrices representing physical observables in quantum mechanics give the measurable values of these observables while the eigenstates corresponding to these eigenvalues give the possible states in which the system may ..."
+        },
+        {
+          "title": "Momentum operator - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Momentum_operator",
+          "domain": "en.wikipedia.org",
+          "snippet": "2 weeks ago - Since the partial derivative is a linear operator, the momentum operator is also linear, and because any wave function can be expressed as a superposition of other states, when this momentum operator acts on the entire superimposed wave, it yields the momentum eigenvalues for each plane wave component."
+        }
+      ],
+      "urls": [
+        "https://en.wikipedia.org/wiki/Eigenvalues_and_eigenvectors",
+        "https://en.wikipedia.org/wiki/Introduction_to_eigenstates",
+        "https://en.wikipedia.org/wiki/Eigenfunction",
+        "https://en.wikipedia.org/wiki/Degenerate_energy_levels",
+        "https://en.wikipedia.org/wiki/Momentum_operator"
+      ],
+      "attempt_count": 1,
+      "searched_at": "2026-05-07_04-54-44",
       "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
     }
   },
-  "last_updated": "2026-05-05_00-02-25"
+  "summary": {
+    "total_claims": 2,
+    "checked_claim_count": 1,
+    "passing_claim_count": 0,
+    "unchecked_claim_count": 1,
+    "unresolved_or_needs_qualification": 2,
+    "actionable_issue_count": 0,
+    "evidence_retry_count": 1,
+    "claim_review_complete": false,
+    "unchecked_claim_ids": [
+      "C002"
+    ],
+    "actionable_claim_ids": [],
+    "evidence_retry_claim_ids": [
+      "C001"
+    ],
+    "highest_priority_fixes": []
+  },
+  "last_updated": "2026-05-07_06-07-34"
 }

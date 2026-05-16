@@ -1,0 +1,105 @@
+{
+  "claim_checks": [
+    {
+      "id": "C001",
+      "verdict": "not_enough_evidence",
+      "severity": "medium",
+      "problem": "Claim checker failed: LLMCallError(\"claim_checker failed after 3 attempt(s): LLMCallError('LLM_TIMEOUT_AFTER_720_SECONDS')\")",
+      "suggested_fix": "Automatically retry this claim with another source search or a smaller context.",
+      "source_quality_note": "",
+      "source_urls": [],
+      "claim": "Eigenvalues are scaling factors that describe how a vector is stretched or squashed by a linear transformation, potentially introducing rotational effects with complex eigenvalues.",
+      "checked_at": "2026-05-07_04-33-13",
+      "source_attempt_count": 3,
+      "available_source_urls": [
+        "https://www.cfm.brown.edu/people/dobrush/am34/Mathematica/ch1/eigen.html",
+        "https://www.mit.edu/~ashrstnv/eigenvalues-vectors.html",
+        "https://www.academia.edu/143716742/On_Eigenvalue_And_Eigenvector_Perceptions_of_Undergraduate_Pre_service_Mathematics_Teachers",
+        "https://people.tamu.edu/~kapita/eigens.html",
+        "https://learn.mit.edu/search?resource=11957"
+      ]
+    }
+  ],
+  "check_history": [
+    {
+      "id": "C001",
+      "verdict": "not_enough_evidence",
+      "severity": "medium",
+      "problem": "Claim checker failed: LLMCallError(\"claim_checker failed after 3 attempt(s): LLMCallError('LLM_TIMEOUT_AFTER_720_SECONDS')\")",
+      "suggested_fix": "Automatically retry this claim with another source search or a smaller context.",
+      "source_quality_note": "",
+      "source_urls": [],
+      "claim": "Eigenvalues are scaling factors that describe how a vector is stretched or squashed by a linear transformation, potentially introducing rotational effects with complex eigenvalues.",
+      "checked_at": "2026-05-07_03-20-16",
+      "source_attempt_count": 1,
+      "available_source_urls": [
+        "https://www.wordnik.com/words/eigenvalue",
+        "https://deep.ai/machine-learning-glossary-and-terms/eigenvalue",
+        "https://deepai.org/machine-learning-glossary-and-terms/eigenvalue",
+        "https://math.stackexchange.com/questions/4240470/the-definition-of-simple-eigenvalue",
+        "https://math.stackexchange.com/questions/4854441/how-why-does-definition-of-eigenvalue-vector-implicitly-require-a-choice-of-inne"
+      ]
+    },
+    {
+      "id": "C001",
+      "verdict": "not_enough_evidence",
+      "severity": "medium",
+      "problem": "Claim checker failed: LLMCallError(\"claim_checker failed after 3 attempt(s): LLMCallError('LLM_TIMEOUT_AFTER_720_SECONDS')\")",
+      "suggested_fix": "Automatically retry this claim with another source search or a smaller context.",
+      "source_quality_note": "",
+      "source_urls": [],
+      "claim": "Eigenvalues are scaling factors that describe how a vector is stretched or squashed by a linear transformation, potentially introducing rotational effects with complex eigenvalues.",
+      "checked_at": "2026-05-07_03-56-47",
+      "source_attempt_count": 2,
+      "available_source_urls": [
+        "https://www.analyticsvidhya.com/blog/2024/12/eigenvector-and-eigenvalue/",
+        "https://matrixcalculator.com/eigenvalue-calculator/",
+        "https://peterbloem.nl/blog/pca-2",
+        "https://math.stackexchange.com/questions/166021/what-is-the-geometric-meaning-of-singular-matrix",
+        "https://techtonicshifts.blog/2026/02/08/how-a-rubber-toy-taught-me-more-about-ai-and-politics-than-any-tech-conference/"
+      ]
+    },
+    {
+      "id": "C001",
+      "verdict": "not_enough_evidence",
+      "severity": "medium",
+      "problem": "Claim checker failed: LLMCallError(\"claim_checker failed after 3 attempt(s): LLMCallError('LLM_TIMEOUT_AFTER_720_SECONDS')\")",
+      "suggested_fix": "Automatically retry this claim with another source search or a smaller context.",
+      "source_quality_note": "",
+      "source_urls": [],
+      "claim": "Eigenvalues are scaling factors that describe how a vector is stretched or squashed by a linear transformation, potentially introducing rotational effects with complex eigenvalues.",
+      "checked_at": "2026-05-07_04-33-13",
+      "source_attempt_count": 3,
+      "available_source_urls": [
+        "https://www.cfm.brown.edu/people/dobrush/am34/Mathematica/ch1/eigen.html",
+        "https://www.mit.edu/~ashrstnv/eigenvalues-vectors.html",
+        "https://www.academia.edu/143716742/On_Eigenvalue_And_Eigenvector_Perceptions_of_Undergraduate_Pre_service_Mathematics_Teachers",
+        "https://people.tamu.edu/~kapita/eigens.html",
+        "https://learn.mit.edu/search?resource=11957"
+      ]
+    }
+  ],
+  "summary": {
+    "total_claims": 3,
+    "checked_claim_count": 1,
+    "passing_claim_count": 0,
+    "unchecked_claim_count": 2,
+    "unresolved_or_needs_qualification": 3,
+    "actionable_issue_count": 1,
+    "evidence_retry_count": 0,
+    "claim_review_complete": false,
+    "unchecked_claim_ids": [
+      "C002",
+      "C003"
+    ],
+    "actionable_claim_ids": [
+      "C001"
+    ],
+    "evidence_retry_claim_ids": [],
+    "highest_priority_fixes": [
+      "Automatically retry this claim with another source search or a smaller context."
+    ],
+    "overall_claim_quality": "Partial claim check completed."
+  },
+  "last_updated": "2026-05-07_04-33-13"
+}

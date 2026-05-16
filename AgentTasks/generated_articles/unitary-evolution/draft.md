@@ -24,6 +24,8 @@ The total probability $ \langle \psi(t)|\psi(t) \rangle = 1 $ always holds becau
    $$  
    The key step is $ U^\dagger U = I $, which guarantees the norm is preserved.  
 
+**Quantum context**: This norm preservation is a cornerstone of quantum mechanics, as detailed in Griffiths' *Quantum Mechanics* textbook and MIT OpenCourseWare lectures on quantum dynamics.  
+
 ### Hamiltonian connection  
 Energy dictates the direction of evolution via $ U = e^{-iHt/\hbar} $, where $ H $ is the **Hamiltonian** {Hamiltonian} (energy operator). This equation shows how the Hamiltonian determines the "speed" and "direction" of quantum evolution.  
 

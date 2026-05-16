@@ -1,0 +1,79 @@
+---
+title: "Math Lens: Functions as Rules"
+slug: /math/functions-as-rules
+sidebar_label: "Functions as Rules"
+description: "An optional math lens on functions as input-output rules for change."
+prerequisites:
+  - change-rules
+glossary_terms:
+  - function
+  - variable
+  - state
+  - change-rule
+status: draft
+---
+
+import KnowledgeCheck from '@site/src/components/KnowledgeCheck';
+import LessonNav from '@site/src/components/LessonNav';
+import Term from '@site/src/components/Term';
+
+# Math Lens: Functions as Rules
+
+A <Term name="function">function</Term> is an input-output rule. You give it something. It gives back something determined by the rule.
+
+```text
+input -> rule -> output
+```
+
+In algebra, you might see:
+
+```text
+f(x) = x + 2
+```
+
+That means: give the rule a number, and it returns a number 2 larger.
+
+For physics, the idea becomes more interesting when the input is a state.
+
+```text
+state now -> rule of change -> state later
+```
+
+The "state now" can contain several values: position, velocity, temperature, field value, or something more abstract. The rule can also be simple or complicated.
+
+## What the Symbols Are Doing
+
+A <Term name="variable">variable</Term> is a changeable slot. In `f(x) = x + 2`, the symbol `x` is a slot for whatever input you choose.
+
+The power of functions is that one rule can handle many cases. You do not need a separate instruction for every possible input.
+
+That is one reason equations are so compact. A small line of math can describe a whole family of changes.
+
+<KnowledgeCheck
+  question="Why are functions useful for describing change?"
+  options={[
+    {
+      label: 'A',
+      text: 'They can state one rule that works for many possible inputs.',
+      correct: true,
+      feedback: 'Yes. A function lets a compact rule handle many possible states or values.',
+    },
+    {
+      label: 'B',
+      text: 'They remove the need to know what the symbols mean.',
+      correct: false,
+      feedback: 'Symbols still need meaning. The point is to use them as precise tools.',
+    },
+    {
+      label: 'C',
+      text: 'They prove that every physical system is simple.',
+      correct: false,
+      feedback: 'Functions can describe simple or complicated rules. The notation itself does not make nature simple.',
+    },
+  ]}
+/>
+
+<LessonNav
+  nextLabel="return to Change Rules"
+  nextTo="/docs/wiki/change-rules"
+/>

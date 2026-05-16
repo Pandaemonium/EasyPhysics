@@ -1,15 +1,19 @@
 title: Eigenvector
 slug: eigenvector
-status: needs_revision
+status: in_progress
 finished: false
-iteration_count: 3
+iteration_count: 5
 accessibility_score: 0
 rigor_score: 0
-last_worked_on: '2026-05-05'
-last_completed_pass: 2026-05-05_01-02-29
+claim_review_passed: false
+claim_total_count: 0
+claim_checked_count: 0
+claim_unchecked_count: 0
+claim_unresolved_count: 0
+last_worked_on: '2026-05-07'
+last_completed_pass: 2026-05-05_16-47-09
 needs:
 - accessibility_revision
 - rigor_revision
-- claim_review
 current_draft: draft.md
 last_error: 'LLMCallError("writer failed after 1 attempt(s): LLMCallError(''LLM_TIMEOUT_AFTER_480_SECONDS'')")'

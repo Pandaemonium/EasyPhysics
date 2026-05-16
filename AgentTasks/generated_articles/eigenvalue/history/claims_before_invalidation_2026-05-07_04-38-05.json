@@ -1,0 +1,34 @@
+{
+  "claims": [
+    {
+      "id": "C001",
+      "claim": "Eigenvalues are scaling factors that describe how a vector is stretched or squashed by a linear transformation, potentially introducing rotational effects with complex eigenvalues.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "This defines eigenvalues as core to understanding transformations in physics and math.",
+      "suggested_search_query": "eigenvalue definition linear algebra"
+    },
+    {
+      "id": "C002",
+      "claim": "Eigenvalues are foundational in linear algebra and central to quantum mechanics, where they represent measurable outcomes like energy levels.",
+      "type": "explanation",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Highlights cross-disciplinary significance in mathematics and physics.",
+      "suggested_search_query": "eigenvalues quantum mechanics applications"
+    },
+    {
+      "id": "C003",
+      "claim": "In mechanical systems, eigenvalues of a stress tensor determine principal stresses, revealing directions and magnitudes of strongest forces acting on materials.",
+      "type": "application",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Demonstrates practical use in engineering and material science.",
+      "suggested_search_query": "eigenvalues stress tensor applications"
+    }
+  ],
+  "last_updated": "2026-05-07_02-43-48",
+  "count": 3,
+  "parse_note": ""
+}

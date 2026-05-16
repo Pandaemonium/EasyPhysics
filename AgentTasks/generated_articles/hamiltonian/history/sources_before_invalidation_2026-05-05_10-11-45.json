@@ -1,0 +1,26 @@
+{
+  "sources_by_claim": {
+    "C001": {
+      "claim": "# Hamiltonian ## The core idea The **Hamiltonian** {Hamiltonian} is the **total energy rulebook** {Hamiltonian} of a system.",
+      "query": "Hamiltonian # Hamiltonian ## The core idea The **Hamiltonian** {Hamiltonian} is the **total energy rulebook** {Hamiltonian} of physics lecture notes textbook explanation",
+      "result_snippet": "The Hamiltonian is named after William Rowan Hamilton, who developed a revolutionary reformulation of Newtonian mechanics, known as Hamiltonian mechanics, which was historically important to the development of quantum physics. Similar to vector notation, it is typically denoted by , where the hat indicates that it is an operator. The Hamiltonian is a fundamental concept in quantum mechanics, playing a crucial role in understanding and predicting the behavior of quantum systems. In this article, we will explore the core principles and applications of the Hamiltonian, delving into its significance in various aspects of quantum mechanics. A simple interpretation of Hamiltonian mechanics comes from its application on a one-dimensional system consisting of one nonrelativistic particle of mass m. The value H (p, q) of the Hamiltonian is the total energy of the system, in this case the sum of kinetic and potential energy, traditionally denoted T and V, respectively. We will reintroduce the Hamiltonian operator (the total-energy operator), in the context of mechanics, its associated eigenvalue equation, and discuss the important notion of bound and non-bound states, and their distinct description within quantum mechanics. 4.1 The Hamiltonian What different types of energy can a particle have? Quick Definition Plain-English definition: A Hamiltonian is a function or operator that encodes the total \"energy\" and dynamics of a system, governing how the system evolves over time. Analogy: Think of the Hamiltonian as the rules written on a scoreboard that determine how a sports game progresses; it lists the current score (state) and the allowed moves (dynamics), and from it you can ...",
+      "searched_at": "2026-05-04_22-38-46",
+      "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
+    },
+    "C002": {
+      "claim": "It encodes the system’s total energy (kinetic + potential) as the fundamental quantity that determines how the system evolves over time.",
+      "query": "Hamiltonian It encodes the system’s total energy (kinetic + potential) as the fundamental quantity that determines how physics lecture notes textbook explanation",
+      "result_snippet": "Hamiltonian mechanics offers an intuitive description of how conservative mechanical systems evolve over time by representing their states as points ... Energy is a fundamental physical quantity in science, defined as the capacity of a system to perform work or cause change, and it is conserved in ... ... energy, denoted as U U U , is the total energy possessed by a thermodynamic system arising from the microscopic motion and interactions of its ... The Hamiltonian typically also represents the energy observable, a Noether-conserved quantity associated with the time-invariance of the law of ... The above definition is part of the International System of Quantities (ISQ), formalized in the international standard ISO 80000-3 (Space and time ...",
+      "searched_at": "2026-05-04_22-38-49",
+      "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
+    },
+    "C003": {
+      "claim": "Think of it as a recipe: the ingredients are the system’s energy, and the steps are how that energy shapes motion and time evolution.",
+      "query": "Hamiltonian Think of it as a recipe: the ingredients are the system’s energy, and the steps are physics lecture notes textbook explanation",
+      "result_snippet": "Thermal energy is energy of microscopic constituents of matter, which may include both kinetic and potential energy. The total energy of a system can be subdivided and classified into potential energy, kinetic energy, or combinations of the two in various ways. MIT 8.04 Quantum Physics I, Spring 2013View the complete course: http://ocw.mit.edu/8-04S13Instructor: Allan AdamsIn this lecture, Prof. Get step-by-step solutions for mechanics, electricity and waves with our free ai physics solver.The most advanced Physics AI Solver for instant problem solutions. Upload a photo or type any physics problem to get step-by-step explanations. New laws of physics build on or modify existing laws and theoretical research. For comments or questions about this edition please contact The Feynman Lectures Website. Richard Feynman talking with a teaching assistant after the lecture on The Dependence of Amplitudes on Time, Robert Leighton (left) and Matthew Sands (right) in background, April 29, 1963.",
+      "searched_at": "2026-05-04_22-38-51",
+      "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
+    }
+  },
+  "last_updated": "2026-05-04_22-38-52"
+}

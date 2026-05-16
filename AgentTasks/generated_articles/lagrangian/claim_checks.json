@@ -4,17 +4,102 @@
       "id": "C001",
       "verdict": "not_enough_evidence",
       "severity": "medium",
-      "problem": "Claim checker failed: LLMCallError(\"claim_checker failed after 1 attempt(s): LLMCallError('LLM_TIMEOUT_AFTER_480_SECONDS')\")",
-      "suggested_fix": "Review this claim manually or rerun with smaller context.",
-      "source_quality_note": ""
+      "problem": "Claim checker failed: LLMCallError(\"claim_checker failed after 3 attempt(s): LLMCallError('LLM_TIMEOUT_AFTER_720_SECONDS')\")",
+      "suggested_fix": "Automatically retry this claim with another source search or a smaller context.",
+      "source_quality_note": "",
+      "source_urls": [],
+      "claim": "The Lagrangian {L} is defined as the difference between kinetic energy {T} and potential energy {V} in classical mechanics: L = T − V.",
+      "checked_at": "2026-05-06_08-48-33",
+      "source_attempt_count": 3,
+      "available_source_urls": [
+        "https://en.wikipedia.org/wiki/Lagrangian_mechanics",
+        "https://handwiki.org/wiki/Lagrangian_mechanics",
+        "https://www.wikiwand.com/en/articles/Lagrangian_mechanics",
+        "https://physics.stackexchange.com/questions/622727/connection-between-different-kinds-of-lagrangian",
+        "https://physics.stackexchange.com/questions/255903/lagrangian-equations-of-motion-conservative-forces"
+      ]
+    }
+  ],
+  "check_history": [
+    {
+      "id": "C001",
+      "verdict": "not_enough_evidence",
+      "severity": "medium",
+      "problem": "Claim checker failed: LLMCallError(\"claim_checker failed after 3 attempt(s): LLMCallError('LLM_TIMEOUT_AFTER_720_SECONDS')\")",
+      "suggested_fix": "Automatically retry this claim with another source search or a smaller context.",
+      "source_quality_note": "",
+      "source_urls": [],
+      "claim": "The Lagrangian {L} is defined as the difference between kinetic energy {T} and potential energy {V} in classical mechanics: L = T − V.",
+      "checked_at": "2026-05-06_07-35-46",
+      "source_attempt_count": 1,
+      "available_source_urls": [
+        "https://en.wikipedia.org/wiki/Lagrangian_mechanics",
+        "https://physics.stackexchange.com/questions/622727/connection-between-different-kinds-of-lagrangian",
+        "https://physics.stackexchange.com/questions/826025/identifying-lagrangian-as-the-solution-to-the-variational-problem-from-the-hamil",
+        "https://www.wikiwand.com/en/articles/Lagrangian_mechanics",
+        "https://en.wiktionary.org/wiki/Lagrangian_mechanics"
+      ]
+    },
+    {
+      "id": "C001",
+      "verdict": "not_enough_evidence",
+      "severity": "medium",
+      "problem": "Claim checker failed: LLMCallError(\"claim_checker failed after 3 attempt(s): LLMCallError('LLM_TIMEOUT_AFTER_720_SECONDS')\")",
+      "suggested_fix": "Automatically retry this claim with another source search or a smaller context.",
+      "source_quality_note": "",
+      "source_urls": [],
+      "claim": "The Lagrangian {L} is defined as the difference between kinetic energy {T} and potential energy {V} in classical mechanics: L = T − V.",
+      "checked_at": "2026-05-06_08-12-09",
+      "source_attempt_count": 2,
+      "available_source_urls": [
+        "https://en.wikipedia.org/wiki/Lagrangian_mechanics",
+        "https://quizlet.com/study-guides/advanced-classical-mechanics-d-alembert-lagrangian-and-hamil-babcbdf1-d311-4f24-b90d-6c6698f4b33e",
+        "https://studyx.ai/questions/4m07gsn/lagrangian-function-is",
+        "https://theoryofabsolutes.com/the-lagrangian/",
+        "https://handwiki.org/wiki/Lagrangian"
+      ]
+    },
+    {
+      "id": "C001",
+      "verdict": "not_enough_evidence",
+      "severity": "medium",
+      "problem": "Claim checker failed: LLMCallError(\"claim_checker failed after 3 attempt(s): LLMCallError('LLM_TIMEOUT_AFTER_720_SECONDS')\")",
+      "suggested_fix": "Automatically retry this claim with another source search or a smaller context.",
+      "source_quality_note": "",
+      "source_urls": [],
+      "claim": "The Lagrangian {L} is defined as the difference between kinetic energy {T} and potential energy {V} in classical mechanics: L = T − V.",
+      "checked_at": "2026-05-06_08-48-33",
+      "source_attempt_count": 3,
+      "available_source_urls": [
+        "https://en.wikipedia.org/wiki/Lagrangian_mechanics",
+        "https://handwiki.org/wiki/Lagrangian_mechanics",
+        "https://www.wikiwand.com/en/articles/Lagrangian_mechanics",
+        "https://physics.stackexchange.com/questions/622727/connection-between-different-kinds-of-lagrangian",
+        "https://physics.stackexchange.com/questions/255903/lagrangian-equations-of-motion-conservative-forces"
+      ]
     }
   ],
   "summary": {
-    "overall_claim_quality": "Partial claim check completed.",
-    "unresolved_or_needs_qualification": 1,
+    "total_claims": 3,
+    "checked_claim_count": 1,
+    "passing_claim_count": 0,
+    "unchecked_claim_count": 2,
+    "unresolved_or_needs_qualification": 3,
+    "actionable_issue_count": 1,
+    "evidence_retry_count": 0,
+    "claim_review_complete": false,
+    "unchecked_claim_ids": [
+      "C002",
+      "C003"
+    ],
+    "actionable_claim_ids": [
+      "C001"
+    ],
+    "evidence_retry_claim_ids": [],
     "highest_priority_fixes": [
-      "Review this claim manually or rerun with smaller context."
-    ]
+      "Automatically retry this claim with another source search or a smaller context."
+    ],
+    "overall_claim_quality": "Partial claim check completed."
   },
-  "last_updated": "2026-05-04_22-05-35"
+  "last_updated": "2026-05-06_08-48-33"
 }

@@ -1,0 +1,627 @@
+
+================================================================================
+TIME: 2026-05-05T07:56:30
+NODE: writer
+PROMPT_CHARS: 6398
+PROMPT_TOKENS_APPROX: 1599
+RESPONSE_CHARS: 5634
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.8}
+================================================================================
+PROMPT:
+Revise this existing EasyPhysics article once.
+
+Title: Noether's second theorem
+
+Revision brief:
+- Claim/research fix: Clarify that the rulebook analogy corresponds to Noether's first theorem. For the second theorem, emphasize constraints on equations of motion from local symmetries (e.g., gauge symmetries) rather than conservation laws.
+- accessibility score 3: Jargon-heavy opening with unexplained terms like 'global symmetries' and 'conservation laws' without building intuition Suggested fix: Replace technical terms with analogies first, e.g., 'global symmetry' could be 'rules that apply everywhere at once like a universal game rule'
+- accessibility score 3: Introduces 'local symmetries' and 'constraints' without defining them, assuming prior knowledge Suggested fix: Add concrete examples like 'gauge symmetry in electromagnetism' with simpler explanation of how it creates hidden rules
+- accessibility next revision: Start with a simple analogy of a game rulebook, explain symmetry types through relatable examples, and gradually introduce technical terms with visual metaphors before equations.
+- accessibility score 7: Lacks intuitive foothold for beginners - introduces abstract concepts without concrete examples Suggested fix: Add a simple analogy like 'symmetry as a rulebook for physical systems'
+- accessibility score 7: Equation presented without explanation of its physical meaning Suggested fix: Break down the equation with verbal explanation of each term's role
+
+Human/editor notes:
+# Human/editor notes
+
+Add any preferences, corrections, or article-specific constraints here.
+
+
+Current draft:
+# Noether's Theorems: Symmetries, Conservation, and Constraints  
+
+## The core idea  
+Imagine symmetries as **rulebooks** for physical systems. Just as a rulebook ensures a game is played fairly, symmetries in the action (the integral of the Lagrangian over time) ensure that a system’s behavior follows consistent rules. This rulebook analogy aligns with **Noether's first theorem**, which connects **global symmetries** (rules that apply everywhere at once) to **conservation laws** (like energy or momentum). For example, a pendulum’s swing is constrained by the symmetry of time translation (the rule that time moves forward uniformly), even if the pendulum’s motion doesn’t explicitly reflect this symmetry.  
+
+## Why this matters  
+Noether's **first theorem** explains how **global symmetries** give rise to **conservation laws**, ensuring physical laws are consistent across all scenarios. Noether's **second theorem** deals with **local symmetries** (rules that vary across space or time) and imposes **constraints on the equations of motion**. These constraints are not conservation laws but structural rules that ensure the symmetry is "built into" the system. For instance, gauge symmetries in electromagnetism generate constraints on Maxwell’s equations, ensuring the theory remains consistent.  
+
+## The simple picture  
+Think of the action $ S $ as a **mountain** with paths as valleys. A **variational symmetry** is like a horizontal shift that leaves the mountain’s height unchanged. While the path might twist, the total "energy" (action) stays the same. This symmetry forces the system to follow a rule: **the equations of motion must respect this symmetry**, even if the symmetry isn’t visible in the system’s explicit dynamics. [Diagram idea: Action functional $ S $ as a mountain with horizontal symmetry shifts.]  
+
+## The more precise picture  
+### Variational principles and the action  
+The action $ S = \int L \, dt $ is the "recipe" for physical motion. Nature chooses paths that extremize $ S $, meaning small changes in the path don’t alter the total action. This principle defines how systems evolve.  
+
+### Symmetries in the action  
+A **variational symmetry** {symmetry} is a transformation (e.g., shifting time or rotating space) that leaves the action unchanged. For example, if the Lagrangian $ L $ is invariant under $ q \to q + \epsilon \eta(t) $, the action $ S $ remains the same. This is different from an "explicit symmetry" {explicit symmetry} (e.g., a system rotating in space), which might not preserve the Lagrangian directly.  
+
+### Statement of Noether's second theorem  
+When the action has a **local symmetry** (a rule that varies across space or time), the **equations of motion** (Euler-Lagrange equations) must satisfy a **constraint**. This constraint is not a conservation law (like energy or momentum) but a **structural rule** that ensures the symmetry is "built into" the system. For instance, gauge symmetries in electromagnetism generate constraints on Maxwell’s equations, ensuring the theory remains consistent.  
+
+### Mathematical formulation (minimal math)  
+Consider a symmetry $ q \to q + \epsilon \eta(t) $. The variation of the action $ \delta S = 0 $ leads to:  
+$$
+\frac{\partial L}{\partial q} \cdot \eta(t) + \frac{\partial L}{\partial \dot{q}} \cdot \frac{d\eta}{dt} = 0
+$$  
+This equation shows how the symmetry forces a relationship between the Lagrangian and its derivatives, shaping the equations of motion. **Breaking it down**:  
+- $ \frac{\partial L}{\partial q} $: How the Lagrangian responds to changes in position.  
+- $ \frac{\partial L}{\partial \dot{q}} $: How the Lagrangian responds to changes in velocity.  
+- $ \eta(t) $: The symmetry transformation (e.g., a small shift in position).  
+- $ \frac{d\eta}{dt} $: How the symmetry changes over time.  
+Together, these terms ensure the symmetry is enforced as a rule for the system’s behavior.  
+
+## Physical example: The pendulum  
+Consider a pendulum swinging under gravity. The symmetry of **time translation** (the rule that time moves forward uniformly) ensures the pendulum’s motion is consistent across all moments. While the pendulum’s path isn’t symmetric in space, the action’s symmetry under time translation imposes a constraint: the equations of motion must account
+
+Instructions:
+- Return the complete revised article in Markdown.
+- Do not start from scratch.
+- Preserve good explanations.
+- Fix only the most important clarity, structure, and rigor problems.
+- If a section is already good, leave it mostly alone.
+- Add qualifications where the current draft overclaims.
+- Make the opening more intuitive if needed.
+- Keep standard terms in braces after intuitive names.
+- Do not include commentary before or after the article.
+
+RESPONSE:
+# Noether's Theorems: Symmetries, Conservation, and Constraints  
+
+## The core idea  
+Imagine a **rulebook** for a game: it ensures the game is played fairly by defining universal rules. In physics, **symmetries** act like this rulebook, ensuring systems behave consistently. This analogy aligns with **Noether's first theorem**, which connects **global symmetries** (rules that apply everywhere at once, like a universal game rule) to **conservation laws** (like energy or momentum). For example, a pendulum’s swing is constrained by the symmetry of time translation (the rule that time moves forward uniformly), even if the pendulum’s motion doesn’t explicitly reflect this symmetry.  
+
+## Why this matters  
+Noether's **first theorem** explains how **global symmetries** give rise to **conservation laws**, ensuring physical laws are consistent across all scenarios. **Noether's second theorem** deals with **local symmetries** (rules that vary across space or time, like a rulebook that changes depending on where you are in the game) and imposes **constraints on the equations of motion**. These constraints are not conservation laws but structural rules that ensure the symmetry is "built into" the system. For instance, **gauge symmetries** in electromagnetism (like the rule that electric charge is always conserved locally) generate constraints on Maxwell’s equations, ensuring the theory remains consistent.  
+
+## The simple picture  
+Think of the action $ S $ as a **mountain** with paths as valleys. A **variational symmetry** is like a horizontal shift that leaves the mountain’s height unchanged. While the path might twist, the total "energy" (action) stays the same. This symmetry forces the system to follow a rule: **the equations of motion must respect this symmetry**, even if the symmetry isn’t visible in the system’s explicit dynamics. [Diagram idea: Action functional $ S $ as a mountain with horizontal symmetry shifts.]  
+
+## The more precise picture  
+### Variational principles and the action  
+The action $ S = \int L \, dt $ is the "recipe" for physical motion. Nature chooses paths that extremize $ S $, meaning small changes in the path don’t alter the total action. This principle defines how systems evolve.  
+
+### Symmetries in the action  
+A **variational symmetry** {symmetry} is a transformation (e.g., shifting time or rotating space) that leaves the action unchanged. For example, if the Lagrangian $ L $ is invariant under $ q \to q + \epsilon \eta(t) $, the action $ S $ remains the same. This is different from an "explicit symmetry" {explicit symmetry} (e.g., a system rotating in space), which might not preserve the Lagrangian directly.  
+
+### Statement of Noether's second theorem  
+When the action has a **local symmetry** (a rule that varies across space or time), the **equations of motion** (Euler-Lagrange equations) must satisfy a **constraint**. This constraint is not a conservation law (like energy or momentum) but a **structural rule** that ensures the symmetry is "built into" the system. For instance, **gauge symmetries** in electromagnetism (like the rule that electric charge is always conserved locally) generate constraints on Maxwell’s equations, ensuring the theory remains consistent.  
+
+### Mathematical formulation (minimal math)  
+Consider a symmetry $ q \to q + \epsilon \eta(t) $. The variation of the action $ \delta S = 0 $ leads to:  
+$$
+\frac{\partial L}{\partial q} \cdot \eta(t) + \frac{\partial L}{\partial \dot{q}} \cdot \frac{d\eta}{dt} = 0
+$$  
+**Breaking it down**:  
+- $ \frac{\partial L}{\partial q} $: How the Lagrangian responds to changes in position.  
+- $ \frac{\partial L}{\partial \dot{q}} $: How the Lagrangian responds to changes in velocity.  
+- $ \eta(t) $: The symmetry transformation (e.g., a small shift in position).  
+- $ \frac{d\eta}{dt} $: How the symmetry changes over time.  
+Together, these terms ensure the symmetry is enforced as a rule for the system’s behavior.  
+
+## Physical example: The pendulum  
+Consider a pendulum swinging under gravity. The symmetry of **time translation** (the rule that time moves forward uniformly) ensures the pendulum’s motion is consistent across all moments. While the pendulum’s path isn’t symmetric in space, the action’s symmetry under time translation imposes a constraint: the equations of motion must account for this universal rule.  
+
+## Contrast with Noether's first theorem  
+Noether's **first theorem** links **global symmetries** (rules that apply everywhere at once, like a universal game rule) to **conservation laws** (e.g., energy or momentum). For example, if the Lagrangian is invariant under time translation, energy is conserved.  
+Noether's **second theorem** deals with **local symmetries** (rules that vary across space or time, like a rulebook that changes depending on where you are in the game). These symmetries don’t produce conservation laws but instead impose **constraints on the equations of motion**, ensuring the symmetry is "built into" the system. For instance, **gauge symmetries** in electromagnetism (like the rule that electric charge is always conserved locally) generate constraints on Maxwell’s equations, ensuring the theory remains consistent.  
+
+## Summary  
+- **Noether's first theorem**: Global symmetries → Conservation laws (e.g., energy, momentum).  
+- **Noether's second theorem**: Local symmetries → Structural constraints on equations of motion (e.g., gauge symmetries in electromagnetism).  
+- Both theorems reveal how symmetries shape physical laws, but they address different types of symmetries and their consequences.  
+
+---  
+**Key
+
+================================================================================
+TIME: 2026-05-05T22:13:48
+NODE: writer
+PROMPT_CHARS: 7213
+PROMPT_TOKENS_APPROX: 1803
+RESPONSE_CHARS: 6102
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"keep_alive": -1, "num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.8}
+================================================================================
+PROMPT:
+Revise this existing EasyPhysics article once.
+
+Title: Noether's second theorem
+
+Revision brief:
+- rigor score 0: Rigor judge failed. Suggested fix: Automatically rerun rigor review.
+- rigor next revision: Automatically rerun rigor review.
+- accessibility score 0: Accessibility judge failed. Suggested fix: Automatically rerun accessibility review.
+- accessibility next revision: Automatically rerun accessibility review.
+- accessibility score 3: Jargon-heavy opening with unexplained terms like 'global symmetries' and 'conservation laws' without building intuition Suggested fix: Replace technical terms with analogies first, e.g., 'global symmetry' could be 'rules that apply everywhere at once like a universal game rule'
+- accessibility score 3: Introduces 'local symmetries' and 'constraints' without defining them, assuming prior knowledge Suggested fix: Add concrete examples like 'gauge symmetry in electromagnetism' with simpler explanation of how it creates hidden rules
+
+Human/editor notes:
+# Human/editor notes
+
+Add any preferences, corrections, or article-specific constraints here.
+
+
+Current draft:
+# Noether's Theorems: Symmetries, Conservation, and Constraints  
+
+## The core idea  
+Imagine a **rulebook** for a game: it ensures the game is played fairly by defining universal rules. In physics, **symmetries** act like this rulebook, ensuring systems behave consistently. This analogy aligns with **Noether's first theorem**, which connects **global symmetries** (rules that apply everywhere at once, like a universal game rule) to **conservation laws** (like energy or momentum). For example, a pendulum’s swing is constrained by the symmetry of time translation (the rule that time moves forward uniformly), even if the pendulum’s motion doesn’t explicitly reflect this symmetry.  
+
+## Why this matters  
+Noether's **first theorem** explains how **global symmetries** give rise to **conservation laws**, ensuring physical laws are consistent across all scenarios. **Noether's second theorem** deals with **local symmetries** (rules that vary across space or time, like a rulebook that changes depending on where you are in the game) and imposes **constraints on the equations of motion**. These constraints are not conservation laws but structural rules that ensure the symmetry is "built into" the system. For instance, **gauge symmetries** in electromagnetism (like the rule that electric charge is always conserved locally) generate constraints on Maxwell’s equations, ensuring the theory remains consistent.  
+
+## The simple picture  
+Think of the action $ S $ as a **mountain** with paths as valleys. A **variational symmetry** is like a horizontal shift that leaves the mountain’s height unchanged. While the path might twist, the total "energy" (action) stays the same. This symmetry forces the system to follow a rule: **the equations of motion must respect this symmetry**, even if the symmetry isn’t visible in the system’s explicit dynamics. [Diagram idea: Action functional $ S $ as a mountain with horizontal symmetry shifts.]  
+
+## The more precise picture  
+### Variational principles and the action  
+The action $ S = \int L \, dt $ is the "recipe" for physical motion. Nature chooses paths that extremize $ S $, meaning small changes in the path don’t alter the total action. This principle defines how systems evolve.  
+
+### Symmetries in the action  
+A **variational symmetry** {symmetry} is a transformation (e.g., shifting time or rotating space) that leaves the action unchanged. For example, if the Lagrangian $ L $ is invariant under $ q \to q + \epsilon \eta(t) $, the action $ S $ remains the same. This is different from an "explicit symmetry" {explicit symmetry} (e.g., a system rotating in space), which might not preserve the Lagrangian directly.  
+
+### Statement of Noether's second theorem  
+When the action has a **local symmetry** (a rule that varies across space or time), the **equations of motion** (Euler-Lagrange equations) must satisfy a **constraint**. This constraint is not a conservation law (like energy or momentum) but a **structural rule** that ensures the symmetry is "built into" the system. For instance, **gauge symmetries** in electromagnetism (like the rule that electric charge is always conserved locally) generate constraints on Maxwell’s equations, ensuring the theory remains consistent.  
+
+### Mathematical formulation (minimal math)  
+Consider a symmetry $ q \to q + \epsilon \eta(t) $. The variation of the action $ \delta S = 0 $ leads to:  
+$$
+\frac{\partial L}{\partial q} \cdot \eta(t) + \frac{\partial L}{\partial \dot{q}} \cdot \frac{d\eta}{dt} = 0
+$$  
+**Breaking it down**:  
+- $ \frac{\partial L}{\partial q} $: How the Lagrangian responds to changes in position.  
+- $ \frac{\partial L}{\partial \dot{q}} $: How the Lagrangian responds to changes in velocity.  
+- $ \eta(t) $: The symmetry transformation (e.g., a small shift in position).  
+- $ \frac{d\eta}{dt} $: How the symmetry changes over time.  
+Together, these terms ensure the symmetry is enforced as a rule for the system’s behavior.  
+
+## Physical example: The pendulum  
+Consider a pendulum swinging under gravity. The symmetry of **time translation** (the rule that time moves forward uniformly) ensures the pendulum’s motion is consistent across all moments. While the pendulum’s path isn’t symmetric in space, the action’s symmetry under time translation imposes a constraint: the equations of motion must account for this universal rule.  
+
+## Contrast with Noether's first theorem  
+Noether's **first theorem** links **global symmetries** (rules that apply everywhere at once, like a universal game rule) to **conservation laws** (e.g., energy or momentum). For example, if the Lagrangian is invariant under time translation, energy is conserved.  
+Noether's **second theorem** deals with **local symmetries** (rules that vary across space or time, like a rulebook that changes depending on where you are in the game). These symmetries don’t produce conservation laws but instead impose **constraints on the equations of motion**, ensuring the symmetry is "built into" the system. For instance, **gauge symmetries** in electromagnetism (like the rule that electric charge is always conserved locally) generate constraints on Maxwell’s equations, ensuring the theory remains consistent.  
+
+## Summary  
+- **Noether's first theorem**: Global symmetries → Conservation laws (e.g., energy, momentum).  
+- **Noether's second theorem**: Local symmetries → Structural constraints on equations of motion (e.g., gauge symmetries in electromagnetism).  
+- Both theorems reveal how symmetries shape physical laws, but they address different types of symmetries and their consequences.  
+
+---  
+**Key
+
+Instructions:
+- Return the complete revised article in Markdown.
+- Do not start from scratch.
+- Preserve good explanations.
+- Fix only the most important clarity, structure, and rigor problems.
+- If a section is already good, leave it mostly alone.
+- Add qualifications where the current draft overclaims.
+- Make the opening more intuitive if needed.
+- Keep standard terms in braces after intuitive names.
+- Do not include commentary before or after the article.
+
+RESPONSE:
+# Noether's Theorems: Symmetries, Conservation, and Constraints  
+
+## The core idea  
+Imagine a **rulebook** for a game: it ensures the game is played fairly by defining universal rules. In physics, **symmetries** act like this rulebook, ensuring systems behave consistently. This analogy aligns with **Noether's first theorem**, which connects **global symmetries** (rules that apply everywhere at once, like a universal game rule) to **conservation laws** (like energy or momentum). For example, a pendulum’s swing is constrained by the symmetry of time translation (the rule that time moves forward uniformly), even if the pendulum’s motion doesn’t explicitly reflect this symmetry.  
+
+## Why this matters  
+Noether's **first theorem** explains how **global symmetries** give rise to **conservation laws**, ensuring physical laws are consistent across all scenarios. **Noether's second theorem** deals with **local symmetries** (rules that vary across space or time, like a rulebook that changes depending on where you are in the game) and imposes **constraints on the equations of motion**. These constraints are not conservation laws but structural rules that ensure the symmetry is "built into" the system. For instance, **gauge symmetries** in electromagnetism (like the rule that electric charge is always conserved locally) generate constraints on Maxwell’s equations, ensuring the theory remains consistent.  
+
+## The simple picture  
+Think of the action $ S $ as a **mountain** with paths as valleys. A **variational symmetry** is like a horizontal shift that leaves the mountain’s height unchanged. While the path might twist, the total "energy" (action) stays the same. This symmetry forces the system to follow a rule: **the equations of motion must respect this symmetry**, even if the symmetry isn’t visible in the system’s explicit dynamics. [Diagram idea: Action functional $ S $ as a mountain with horizontal symmetry shifts.]  
+
+## The more precise picture  
+### Variational principles and the action  
+The action $ S = \int L \, dt $ is the "recipe" for physical motion. Nature chooses paths that extremize $ S $, meaning small changes in the path don’t alter the total action. This principle defines how systems evolve.  
+
+### Symmetries in the action  
+A **variational symmetry** {symmetry} is a transformation (e.g., shifting time or rotating space) that leaves the action unchanged. For example, if the Lagrangian $ L $ is invariant under $ q \to q + \epsilon \eta(t) $, the action $ S $ remains the same. This is different from an "explicit symmetry" {explicit symmetry} (e.g., a system rotating in space), which might not preserve the Lagrangian directly.  
+
+### Statement of Noether's second theorem  
+When the action has a **local symmetry** (a rule that varies across space or time), the **equations of motion** (Euler-Lagrange equations) must satisfy a **constraint**. This constraint is not a conservation law (like energy or momentum) but a **structural rule** that ensures the symmetry is "built into" the system. For instance, **gauge symmetries** in electromagnetism (like the rule that electric charge is always conserved locally) generate constraints on Maxwell’s equations, ensuring the theory remains consistent.  
+
+### Mathematical formulation (minimal math)  
+Consider a symmetry $ q \to q + \epsilon \eta(t) $. The variation of the action $ \delta S = 0 $ leads to:  
+$$
+\frac{\partial L}{\partial q} \cdot \eta(t) + \frac{\partial L}{\partial \dot{q}} \cdot \frac{d\eta}{dt} = 0
+$$  
+**Breaking it down**:  
+- $ \frac{\partial L}{\partial q} $: How the Lagrangian responds to changes in position.  
+- $ \frac{\partial L}{\partial \dot{q}} $: How the Lagrangian responds to changes in velocity.  
+- $ \eta(t) $: The symmetry transformation (e.g., a small shift in position).  
+- $ \frac{d\eta}{dt} $: How the symmetry changes over time.  
+Together, these terms ensure the symmetry is enforced as a rule for the system’s behavior.  
+
+## Physical example: The pendulum  
+Consider a pendulum swinging under gravity. The symmetry of **time translation** (the rule that time moves forward uniformly) ensures the pendulum’s motion is consistent across all moments. While the pendulum’s path isn’t symmetric in space, the action’s symmetry under time translation imposes a constraint: the equations of motion must account for this universal rule.  
+
+## Contrast with Noether's first theorem  
+Noether's **first theorem** links **global symmetries** (rules that apply everywhere at once, like a universal game rule) to **conservation laws** (e.g., energy or momentum). For example, if the Lagrangian is invariant under time translation, energy is conserved.  
+Noether's **second theorem** deals with **local symmetries** (rules that vary across space or time, like a rulebook that changes depending on where you are in the game). These symmetries don’t produce conservation laws but instead impose **constraints on the equations of motion**, ensuring the symmetry is "built into" the system. For instance, **gauge symmetries** in electromagnetism (like the rule that electric charge is always conserved locally) generate constraints on Maxwell’s equations, ensuring the theory remains consistent.  
+
+## Summary  
+- **Noether's first theorem**: Global symmetries → Conservation laws (e.g., energy, momentum).  
+- **Noether's second theorem**: Local symmetries → Structural constraints on equations of motion (e.g., gauge symmetries in electromagnetism).  
+- Both theorems reveal how symmetries shape physical laws, but they address different types of symmetries and their consequences.  
+
+---  
+**Key**  
+- **Global symmetry**: A rule that applies everywhere at once, like a universal game rule.  
+- **Local symmetry**: A rule that varies across space or time, like a rulebook that changes depending on where you are in the game.  
+- **Constraint**: A structural rule that ensures a symmetry is "built into" the system, not a conservation law.  
+- **Variational symmetry**: A transformation that leaves the action unchanged, forcing the system to respect the symmetry.
+
+================================================================================
+TIME: 2026-05-05T22:49:15
+NODE: writer
+PROMPT_CHARS: 7681
+PROMPT_TOKENS_APPROX: 1920
+RESPONSE_CHARS: 6102
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"keep_alive": -1, "num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.8}
+================================================================================
+PROMPT:
+Revise this existing EasyPhysics article once.
+
+Title: Noether's second theorem
+
+Revision brief:
+- rigor score 0: Rigor judge failed. Suggested fix: Automatically rerun rigor review.
+- rigor next revision: Automatically rerun rigor review.
+- accessibility score 0: Accessibility judge failed. Suggested fix: Automatically rerun accessibility review.
+- accessibility next revision: Automatically rerun accessibility review.
+- accessibility score 3: Jargon-heavy opening with unexplained terms like 'global symmetries' and 'conservation laws' without building intuition Suggested fix: Replace technical terms with analogies first, e.g., 'global symmetry' could be 'rules that apply everywhere at once like a universal game rule'
+- accessibility score 3: Introduces 'local symmetries' and 'constraints' without defining them, assuming prior knowledge Suggested fix: Add concrete examples like 'gauge symmetry in electromagnetism' with simpler explanation of how it creates hidden rules
+
+Human/editor notes:
+# Human/editor notes
+
+Add any preferences, corrections, or article-specific constraints here.
+
+
+Current draft:
+# Noether's Theorems: Symmetries, Conservation, and Constraints  
+
+## The core idea  
+Imagine a **rulebook** for a game: it ensures the game is played fairly by defining universal rules. In physics, **symmetries** act like this rulebook, ensuring systems behave consistently. This analogy aligns with **Noether's first theorem**, which connects **global symmetries** (rules that apply everywhere at once, like a universal game rule) to **conservation laws** (like energy or momentum). For example, a pendulum’s swing is constrained by the symmetry of time translation (the rule that time moves forward uniformly), even if the pendulum’s motion doesn’t explicitly reflect this symmetry.  
+
+## Why this matters  
+Noether's **first theorem** explains how **global symmetries** give rise to **conservation laws**, ensuring physical laws are consistent across all scenarios. **Noether's second theorem** deals with **local symmetries** (rules that vary across space or time, like a rulebook that changes depending on where you are in the game) and imposes **constraints on the equations of motion**. These constraints are not conservation laws but structural rules that ensure the symmetry is "built into" the system. For instance, **gauge symmetries** in electromagnetism (like the rule that electric charge is always conserved locally) generate constraints on Maxwell’s equations, ensuring the theory remains consistent.  
+
+## The simple picture  
+Think of the action $ S $ as a **mountain** with paths as valleys. A **variational symmetry** is like a horizontal shift that leaves the mountain’s height unchanged. While the path might twist, the total "energy" (action) stays the same. This symmetry forces the system to follow a rule: **the equations of motion must respect this symmetry**, even if the symmetry isn’t visible in the system’s explicit dynamics. [Diagram idea: Action functional $ S $ as a mountain with horizontal symmetry shifts.]  
+
+## The more precise picture  
+### Variational principles and the action  
+The action $ S = \int L \, dt $ is the "recipe" for physical motion. Nature chooses paths that extremize $ S $, meaning small changes in the path don’t alter the total action. This principle defines how systems evolve.  
+
+### Symmetries in the action  
+A **variational symmetry** {symmetry} is a transformation (e.g., shifting time or rotating space) that leaves the action unchanged. For example, if the Lagrangian $ L $ is invariant under $ q \to q + \epsilon \eta(t) $, the action $ S $ remains the same. This is different from an "explicit symmetry" {explicit symmetry} (e.g., a system rotating in space), which might not preserve the Lagrangian directly.  
+
+### Statement of Noether's second theorem  
+When the action has a **local symmetry** (a rule that varies across space or time), the **equations of motion** (Euler-Lagrange equations) must satisfy a **constraint**. This constraint is not a conservation law (like energy or momentum) but a **structural rule** that ensures the symmetry is "built into" the system. For instance, **gauge symmetries** in electromagnetism (like the rule that electric charge is always conserved locally) generate constraints on Maxwell’s equations, ensuring the theory remains consistent.  
+
+### Mathematical formulation (minimal math)  
+Consider a symmetry $ q \to q + \epsilon \eta(t) $. The variation of the action $ \delta S = 0 $ leads to:  
+$$
+\frac{\partial L}{\partial q} \cdot \eta(t) + \frac{\partial L}{\partial \dot{q}} \cdot \frac{d\eta}{dt} = 0
+$$  
+**Breaking it down**:  
+- $ \frac{\partial L}{\partial q} $: How the Lagrangian responds to changes in position.  
+- $ \frac{\partial L}{\partial \dot{q}} $: How the Lagrangian responds to changes in velocity.  
+- $ \eta(t) $: The symmetry transformation (e.g., a small shift in position).  
+- $ \frac{d\eta}{dt} $: How the symmetry changes over time.  
+Together, these terms ensure the symmetry is enforced as a rule for the system’s behavior.  
+
+## Physical example: The pendulum  
+Consider a pendulum swinging under gravity. The symmetry of **time translation** (the rule that time moves forward uniformly) ensures the pendulum’s motion is consistent across all moments. While the pendulum’s path isn’t symmetric in space, the action’s symmetry under time translation imposes a constraint: the equations of motion must account for this universal rule.  
+
+## Contrast with Noether's first theorem  
+Noether's **first theorem** links **global symmetries** (rules that apply everywhere at once, like a universal game rule) to **conservation laws** (e.g., energy or momentum). For example, if the Lagrangian is invariant under time translation, energy is conserved.  
+Noether's **second theorem** deals with **local symmetries** (rules that vary across space or time, like a rulebook that changes depending on where you are in the game). These symmetries don’t produce conservation laws but instead impose **constraints on the equations of motion**, ensuring the symmetry is "built into" the system. For instance, **gauge symmetries** in electromagnetism (like the rule that electric charge is always conserved locally) generate constraints on Maxwell’s equations, ensuring the theory remains consistent.  
+
+## Summary  
+- **Noether's first theorem**: Global symmetries → Conservation laws (e.g., energy, momentum).  
+- **Noether's second theorem**: Local symmetries → Structural constraints on equations of motion (e.g., gauge symmetries in electromagnetism).  
+- Both theorems reveal how symmetries shape physical laws, but they address different types of symmetries and their consequences.  
+
+---  
+**Key**  
+- **Global symmetry**: A rule that applies everywhere at once, like a universal game rule.  
+- **Local symmetry**: A rule that varies across space or time, like a rulebook that changes depending on where you are in the game.  
+- **Constraint**: A structural rule that ensures a symmetry is "built into" the system, not a conservation law.  
+- **Variational symmetry**: A transformation that leaves the action unchanged, forcing the system to respect the symmetry.
+
+Instructions:
+- Return the complete revised article in Markdown.
+- Do not start from scratch.
+- Preserve good explanations.
+- Fix only the most important clarity, structure, and rigor problems.
+- If a section is already good, leave it mostly alone.
+- Add qualifications where the current draft overclaims.
+- Make the opening more intuitive if needed.
+- Keep standard terms in braces after intuitive names.
+- Do not include commentary before or after the article.
+
+RESPONSE:
+# Noether's Theorems: Symmetries, Conservation, and Constraints  
+
+## The core idea  
+Imagine a **rulebook** for a game: it ensures the game is played fairly by defining universal rules. In physics, **symmetries** act like this rulebook, ensuring systems behave consistently. This analogy aligns with **Noether's first theorem**, which connects **global symmetries** (rules that apply everywhere at once, like a universal game rule) to **conservation laws** (like energy or momentum). For example, a pendulum’s swing is constrained by the symmetry of time translation (the rule that time moves forward uniformly), even if the pendulum’s motion doesn’t explicitly reflect this symmetry.  
+
+## Why this matters  
+Noether's **first theorem** explains how **global symmetries** give rise to **conservation laws**, ensuring physical laws are consistent across all scenarios. **Noether's second theorem** deals with **local symmetries** (rules that vary across space or time, like a rulebook that changes depending on where you are in the game) and imposes **constraints on the equations of motion**. These constraints are not conservation laws but structural rules that ensure the symmetry is "built into" the system. For instance, **gauge symmetries** in electromagnetism (like the rule that electric charge is always conserved locally) generate constraints on Maxwell’s equations, ensuring the theory remains consistent.  
+
+## The simple picture  
+Think of the action $ S $ as a **mountain** with paths as valleys. A **variational symmetry** is like a horizontal shift that leaves the mountain’s height unchanged. While the path might twist, the total "energy" (action) stays the same. This symmetry forces the system to follow a rule: **the equations of motion must respect this symmetry**, even if the symmetry isn’t visible in the system’s explicit dynamics. [Diagram idea: Action functional $ S $ as a mountain with horizontal symmetry shifts.]  
+
+## The more precise picture  
+### Variational principles and the action  
+The action $ S = \int L \, dt $ is the "recipe" for physical motion. Nature chooses paths that extremize $ S $, meaning small changes in the path don’t alter the total action. This principle defines how systems evolve.  
+
+### Symmetries in the action  
+A **variational symmetry** {symmetry} is a transformation (e.g., shifting time or rotating space) that leaves the action unchanged. For example, if the Lagrangian $ L $ is invariant under $ q \to q + \epsilon \eta(t) $, the action $ S $ remains the same. This is different from an "explicit symmetry" {explicit symmetry} (e.g., a system rotating in space), which might not preserve the Lagrangian directly.  
+
+### Statement of Noether's second theorem  
+When the action has a **local symmetry** (a rule that varies across space or time), the **equations of motion** (Euler-Lagrange equations) must satisfy a **constraint**. This constraint is not a conservation law (like energy or momentum) but a **structural rule** that ensures the symmetry is "built into" the system. For instance, **gauge symmetries** in electromagnetism (like the rule that electric charge is always conserved locally) generate constraints on Maxwell’s equations, ensuring the theory remains consistent.  
+
+### Mathematical formulation (minimal math)  
+Consider a symmetry $ q \to q + \epsilon \eta(t) $. The variation of the action $ \delta S = 0 $ leads to:  
+$$
+\frac{\partial L}{\partial q} \cdot \eta(t) + \frac{\partial L}{\partial \dot{q}} \cdot \frac{d\eta}{dt} = 0
+$$  
+**Breaking it down**:  
+- $ \frac{\partial L}{\partial q} $: How the Lagrangian responds to changes in position.  
+- $ \frac{\partial L}{\partial \dot{q}} $: How the Lagrangian responds to changes in velocity.  
+- $ \eta(t) $: The symmetry transformation (e.g., a small shift in position).  
+- $ \frac{d\eta}{dt} $: How the symmetry changes over time.  
+Together, these terms ensure the symmetry is enforced as a rule for the system’s behavior.  
+
+## Physical example: The pendulum  
+Consider a pendulum swinging under gravity. The symmetry of **time translation** (the rule that time moves forward uniformly) ensures the pendulum’s motion is consistent across all moments. While the pendulum’s path isn’t symmetric in space, the action’s symmetry under time translation imposes a constraint: the equations of motion must account for this universal rule.  
+
+## Contrast with Noether's first theorem  
+Noether's **first theorem** links **global symmetries** (rules that apply everywhere at once, like a universal game rule) to **conservation laws** (e.g., energy or momentum). For example, if the Lagrangian is invariant under time translation, energy is conserved.  
+Noether's **second theorem** deals with **local symmetries** (rules that vary across space or time, like a rulebook that changes depending on where you are in the game). These symmetries don’t produce conservation laws but instead impose **constraints on the equations of motion**, ensuring the symmetry is "built into" the system. For instance, **gauge symmetries** in electromagnetism (like the rule that electric charge is always conserved locally) generate constraints on Maxwell’s equations, ensuring the theory remains consistent.  
+
+## Summary  
+- **Noether's first theorem**: Global symmetries → Conservation laws (e.g., energy, momentum).  
+- **Noether's second theorem**: Local symmetries → Structural constraints on equations of motion (e.g., gauge symmetries in electromagnetism).  
+- Both theorems reveal how symmetries shape physical laws, but they address different types of symmetries and their consequences.  
+
+---  
+**Key**  
+- **Global symmetry**: A rule that applies everywhere at once, like a universal game rule.  
+- **Local symmetry**: A rule that varies across space or time, like a rulebook that changes depending on where you are in the game.  
+- **Constraint**: A structural rule that ensures a symmetry is "built into" the system, not a conservation law.  
+- **Variational symmetry**: A transformation that leaves the action unchanged, forcing the system to respect the symmetry.
+
+================================================================================
+TIME: 2026-05-05T23:11:16
+NODE: claim_extractor
+PROMPT_CHARS: 6994
+PROMPT_TOKENS_APPROX: 1748
+RESPONSE_CHARS: 1831
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"keep_alive": -1, "num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.8}
+================================================================================
+PROMPT:
+Extract 8 to 12 important scientific or explanatory claims from this article draft.
+
+Return exactly one JSON object with this shape:
+{
+  "claims": [
+    {
+      "id": "C001",
+      "claim": "A clear standalone claim.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "brief reason",
+      "suggested_search_query": "stable physics source query"
+    }
+  ]
+}
+
+Rules:
+- Return a JSON object, not a list.
+- Do not return an empty list unless the draft is empty.
+- Use true/false, not True/False.
+- No Markdown fences.
+- No prose outside the JSON.
+- Prefer claims that matter for scientific correctness.
+- Include claims where an analogy could mislead.
+- Search queries should target stable sources: textbooks, lecture notes, CERN, Fermilab, NASA, DOE, NIST, or university pages.
+
+Article title: Noether's second theorem
+
+Draft:
+# Noether's Theorems: Symmetries, Conservation, and Constraints  
+
+## The core idea  
+Imagine a **rulebook** for a game: it ensures the game is played fairly by defining universal rules. In physics, **symmetries** act like this rulebook, ensuring systems behave consistently. This analogy aligns with **Noether's first theorem**, which connects **global symmetries** (rules that apply everywhere at once, like a universal game rule) to **conservation laws** (like energy or momentum). For example, a pendulum’s swing is constrained by the symmetry of time translation (the rule that time moves forward uniformly), even if the pendulum’s motion doesn’t explicitly reflect this symmetry.  
+
+## Why this matters  
+Noether's **first theorem** explains how **global symmetries** give rise to **conservation laws**, ensuring physical laws are consistent across all scenarios. **Noether's second theorem** deals with **local symmetries** (rules that vary across space or time, like a rulebook that changes depending on where you are in the game) and imposes **constraints on the equations of motion**. These constraints are not conservation laws but structural rules that ensure the symmetry is "built into" the system. For instance, **gauge symmetries** in electromagnetism (like the rule that electric charge is always conserved locally) generate constraints on Maxwell’s equations, ensuring the theory remains consistent.  
+
+## The simple picture  
+Think of the action $ S $ as a **mountain** with paths as valleys. A **variational symmetry** is like a horizontal shift that leaves the mountain’s height unchanged. While the path might twist, the total "energy" (action) stays the same. This symmetry forces the system to follow a rule: **the equations of motion must respect this symmetry**, even if the symmetry isn’t visible in the system’s explicit dynamics. [Diagram idea: Action functional $ S $ as a mountain with horizontal symmetry shifts.]  
+
+## The more precise picture  
+### Variational principles and the action  
+The action $ S = \int L \, dt $ is the "recipe" for physical motion. Nature chooses paths that extremize $ S $, meaning small changes in the path don’t alter the total action. This principle defines how systems evolve.  
+
+### Symmetries in the action  
+A **variational symmetry** {symmetry} is a transformation (e.g., shifting time or rotating space) that leaves the action unchanged. For example, if the Lagrangian $ L $ is invariant under $ q \to q + \epsilon \eta(t) $, the action $ S $ remains the same. This is different from an "explicit symmetry" {explicit symmetry} (e.g., a system rotating in space), which might not preserve the Lagrangian directly.  
+
+### Statement of Noether's second theorem  
+When the action has a **local symmetry** (a rule that varies across space or time), the **equations of motion** (Euler-Lagrange equations) must satisfy a **constraint**. This constraint is not a conservation law (like energy or momentum) but a **structural rule** that ensures the symmetry is "built into" the system. For instance, **gauge symmetries** in electromagnetism (like the rule that electric charge is always conserved locally) generate constraints on Maxwell’s equations, ensuring the theory remains consistent.  
+
+### Mathematical formulation (minimal math)  
+Consider a symmetry $ q \to q + \epsilon \eta(t) $. The variation of the action $ \delta S = 0 $ leads to:  
+$$
+\frac{\partial L}{\partial q} \cdot \eta(t) + \frac{\partial L}{\partial \dot{q}} \cdot \frac{d\eta}{dt} = 0
+$$  
+**Breaking it down**:  
+- $ \frac{\partial L}{\partial q} $: How the Lagrangian responds to changes in position.  
+- $ \frac{\partial L}{\partial \dot{q}} $: How the Lagrangian responds to changes in velocity.  
+- $ \eta(t) $: The symmetry transformation (e.g., a small shift in position).  
+- $ \frac{d\eta}{dt} $: How the symmetry changes over time.  
+Together, these terms ensure the symmetry is enforced as a rule for the system’s behavior.  
+
+## Physical example: The pendulum  
+Consider a pendulum swinging under gravity. The symmetry of **time translation** (the rule that time moves forward uniformly) ensures the pendulum’s motion is consistent across all moments. While the pendulum’s path isn’t symmetric in space, the action’s symmetry under time translation imposes a constraint: the equations of motion must account for this universal rule.  
+
+## Contrast with Noether's first theorem  
+Noether's **first theorem** links **global symmetries** (rules that apply everywhere at once, like a universal game rule) to **conservation laws** (e.g., energy or momentum). For example, if the Lagrangian is invariant under time translation, energy is conserved.  
+Noether's **second theorem** deals with **local symmetries** (rules that vary across space or time, like a rulebook that changes depending on where you are in the game). These symmetries don’t produce conservation laws but instead impose **constraints on the equations of motion**, ensuring the symmetry is "built into" the system. For instance, **gauge symmetries** in electromagnetism (like the rule that electric charge is always conserved locally) generate constraints on Maxwell’s equations, ensuring the theory remains consistent.  
+
+## Summary  
+- **Noether's first theorem**: Global symmetries → Conservation laws (e.g., energy, momentum).  
+- **Noether's second theorem**: Local symmetries → Structural constraints on equations of motion (e.g., gauge symmetries in electromagnetism).  
+- Both theorems reveal how symmetries shape physical laws, but they address different types of symmetries and their consequences.  
+
+---  
+**Key**  
+- **Global symmetry**: A rule that applies everywhere at once, like a universal game rule.  
+- **Local symmetry**: A rule that varies across space or time, like a rulebook that changes depending on where you are in the game.  
+- **Constraint**: A structural rule that ensures a symmetry is "built into" the system, not a conservation law.  
+- **Variational symmetry**: A transformation that leaves the action unchanged, forcing the system to respect the symmetry.
+
+RESPONSE:
+{
+  "claims": [
+    {
+      "id": "C001",
+      "claim": "Noether's first theorem links global symmetries to conservation laws, such as energy or momentum, by showing that invariant actions under universal transformations enforce these laws.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Establishes the foundational connection between symmetry and conservation in physics.",
+      "suggested_search_query": "Noether's first theorem global symmetries conservation laws"
+    },
+    {
+      "id": "C002",
+      "claim": "Noether's second theorem addresses local symmetries, which impose structural constraints on equations of motion rather than conservation laws, ensuring symmetries are 'built into' the system.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Clarifies the distinction between global and local symmetry consequences in physics.",
+      "suggested_search_query": "Noether's second theorem local symmetries constraints"
+    },
+    {
+      "id": "C003",
+      "claim": "Variational symmetries are transformations that leave the action functional unchanged, forcing the system's equations of motion to respect these symmetries even if they aren't explicitly visible in dynamics.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Defines the mathematical mechanism behind Noether's theorems.",
+      "suggested_search_query": "variational symmetry action functional Noether"
+    },
+    {
+      "id": "C004",
+      "claim": "Gauge symmetries in electromagnetism, like local charge conservation, generate constraints on Maxwell’s equations, ensuring the theory remains mathematically consistent.",
+      "type
+
+================================================================================
+TIME: 2026-05-05T23:12:47
+NODE: json_repair
+PROMPT_CHARS: 1907
+PROMPT_TOKENS_APPROX: 476
+RESPONSE_CHARS: 2126
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"keep_alive": -1, "num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.8}
+================================================================================
+PROMPT:
+Fix the following broken JSON. Return ONLY the repaired JSON.
+
+Broken JSON:
+{
+  "claims": [
+    {
+      "id": "C001",
+      "claim": "Noether's first theorem links global symmetries to conservation laws, such as energy or momentum, by showing that invariant actions under universal transformations enforce these laws.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Establishes the foundational connection between symmetry and conservation in physics.",
+      "suggested_search_query": "Noether's first theorem global symmetries conservation laws"
+    },
+    {
+      "id": "C002",
+      "claim": "Noether's second theorem addresses local symmetries, which impose structural constraints on equations of motion rather than conservation laws, ensuring symmetries are 'built into' the system.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Clarifies the distinction between global and local symmetry consequences in physics.",
+      "suggested_search_query": "Noether's second theorem local symmetries constraints"
+    },
+    {
+      "id": "C003",
+      "claim": "Variational symmetries are transformations that leave the action functional unchanged, forcing the system's equations of motion to respect these symmetries even if they aren't explicitly visible in dynamics.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Defines the mathematical mechanism behind Noether's theorems.",
+      "suggested_search_query": "variational symmetry action functional Noether"
+    },
+    {
+      "id": "C004",
+      "claim": "Gauge symmetries in electromagnetism, like local charge conservation, generate constraints on Maxwell’s equations, ensuring the theory remains mathematically consistent.",
+      "type
+
+RESPONSE:
+{
+  "claims": [
+    {
+      "id": "C001",
+      "claim": "Noether's first theorem links global symmetries to conservation laws, such as energy or momentum, by showing that invariant actions under universal transformations enforce these laws.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Establishes the foundational connection between symmetry and conservation in physics.",
+      "suggested_search_query": "Noether's first theorem global symmetries conservation laws"
+    },
+    {
+      "id": "C002",
+      "claim": "Noether's second theorem addresses local symmetries, which impose structural constraints on equations of motion rather than conservation laws, ensuring symmetries are 'built into' the system.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Clarifies the distinction between global and local symmetry consequences in physics.",
+      "suggested_search_query": "Noether's second theorem local symmetries constraints"
+    },
+    {
+      "id": "C003",
+      "claim": "Variational symmetries are transformations that leave the action functional unchanged, forcing the system's equations of motion to respect these symmetries even if they aren't explicitly visible in dynamics.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Defines the mathematical mechanism behind Noether's theorems.",
+      "suggested_search_query": "variational symmetry action functional Noether"
+    },
+    {
+      "id": "C004",
+      "claim": "Gauge symmetries in electromagnetism, like local charge conservation, generate constraints on Maxwell’s equations, ensuring the theory remains mathematically consistent.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Demonstrates how gauge symmetries shape physical theories through mathematical necessity.",
+      "suggested_search_query": "gauge symmetries electromagnetism Maxwell equations"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "claim_checks": [
+    {
+      "id": "C001",
+      "verdict": "not_enough_evidence",
+      "severity": "medium",
+      "problem": "Could not parse claim-checker output.",
+      "suggested_fix": "Review this claim manually.",
+      "source_quality_note": ""
+    },
+    {
+      "id": "C002",
+      "verdict": "not_enough_evidence",
+      "severity": "low",
+      "problem": "Search snippet is unrelated to physics or variational principle",
+      "suggested_fix": "Use a physics textbook or lecture note snippet instead of unrelated content",
+      "source_quality_note": "The snippet appears to be from a non-physical context (flowers, betting, Christmas) rather than authoritative physics sources"
+    },
+    {
+      "id": "C003",
+      "verdict": "supported",
+      "severity": "none",
+      "problem": "",
+      "suggested_fix": "",
+      "source_quality_note": "The snippet references authoritative textbook explanations and historical physics developments, confirming the claim's validity."
+    }
+  ],
+  "summary": {
+    "overall_claim_quality": "Claim check completed.",
+    "unresolved_or_needs_qualification": 2,
+    "highest_priority_fixes": [
+      "Review this claim manually.",
+      "Use a physics textbook or lecture note snippet instead of unrelated content"
+    ]
+  },
+  "last_updated": "2026-05-04_23-44-53"
+}

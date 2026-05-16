@@ -1,26 +1,307 @@
 {
   "sources_by_claim": {
     "C001": {
-      "claim": "Just as a rulebook ensures a game is played fairly, symmetries in the action (the integral of the Lagrangian over time) ensure that a system’s behavior follows consistent rules.",
-      "query": "Noether's second theorem Just as a rulebook ensures a game is played fairly, symmetries in the action (the integral physics lecture notes textbook explanation",
-      "result_snippet": "Noether's theorem states that every continuous symmetry of the action of a physical system with conservative forces has a corresponding conservation law. This is the first of two theorems (see Noether's second theorem) published by the mathematician Emmy Noether in 1918. [1] The action of a physical system is the integral over time of a Lagrangian function, from which the system's behavior can ... More than that, Noether's theorem provides a systematic way to derive these conserved quantities directly from the symmetries. Many familiar conservation laws in physics correspond precisely to symmetries of the underlying dynamics. Through symmetry of the action under global spacetime translations, Noether's first theorem infamously entails an energy-momentum tensor (EMT) that is neither symmetric nor gauge-invariant. In a prior work [Phys. Rev. D 106, 125012 (2022)], I had obtained a symmetric and gauge-invariant EMT by using Noether's second theorem instead, with local spacetime translations as the symmetry group ... The last ones are referred to as strong Noether symmetries, and the ultimate objective is establishing the corresponding version of Noether's Theorem, linking them to their corresponding dissipated quantities. A similar partial analysis of these subjects but in the k -contact framework of action-dependent field theories is found in [28, 29]. Noether's theorem is kinda confusing, at least it was to me, for a while. Roughly, it says that for any continuous symmetry in a system, there's a conserved quantity.",
-      "searched_at": "2026-05-04_21-18-42",
+      "claim": "Noether's first theorem links global symmetries to conservation laws, ensuring physical laws are consistent across all scenarios.",
+      "search_attempts": [
+        {
+          "status": "ok",
+          "query": "Noether's first theorem conservation laws",
+          "results": [
+            {
+              "title": "Noether's theorem - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Noether's_theorem",
+              "domain": "en.wikipedia.org",
+              "snippet": "Noether's theorem states that every continuous symmetry of the action of a physical system with conservative forces has a corresponding conservation law. This is the first of two theorems (see Noether's second theorem) published by the mathematician Emmy Noether in 1918. [1]"
+            },
+            {
+              "title": "Noether’s theorem",
+              "url": "https://users.physics.ox.ac.uk/~Steane/teaching/noether.pdf",
+              "domain": "users.physics.ox.ac.uk",
+              "snippet": "Noether’s theorem asserts that whenever a physical system has a symmetry (in a sense to be described) then there is a conserved quantity (i.e. one whose value does not change over time)."
+            },
+            {
+              "title": "Noether's Theorem | Symmetry and Conservation Laws",
+              "url": "https://modern-physics.org/noethers-theorem/",
+              "domain": "modern-physics.org",
+              "snippet": "Explore Noether's Theorem, linking symmetries to conservation laws, and understand its impact on energy, momentum, and angular momentum conservation."
+            },
+            {
+              "title": "Noether’s Theorem. the secret behind conservation laws | by ...",
+              "url": "https://medium.com/@paribeshregmi/noethers-theorem-7bc6fa8b62ac",
+              "domain": "medium.com",
+              "snippet": "Dec 20, 2025 · In 1918, Emmy Noether published her first theorem, establishing a precise link between physical laws and their corresponding conserved quantities. This seemingly simple statement uncovered a deep ..."
+            },
+            {
+              "title": "Noether's Theorem in a Nutshell - Department of Mathematics",
+              "url": "https://math.ucr.edu/home/baez/noether.html",
+              "domain": "math.ucr.edu",
+              "snippet": "Of course the proof uses Lagrangians, but a proof can't help using the concepts which the theorem is about. In other words: if someone claims Noether's theorem says \"every symmetry gives a conserved quantity\", they are telling a half-truth. The theorem only applies to certain classes of theories."
+            }
+          ],
+          "urls": [
+            "https://en.wikipedia.org/wiki/Noether's_theorem",
+            "https://users.physics.ox.ac.uk/~Steane/teaching/noether.pdf",
+            "https://modern-physics.org/noethers-theorem/",
+            "https://medium.com/@paribeshregmi/noethers-theorem-7bc6fa8b62ac",
+            "https://math.ucr.edu/home/baez/noether.html"
+          ],
+          "result_snippet": "[1] Noether's theorem - Wikipedia\nURL: https://en.wikipedia.org/wiki/Noether's_theorem\nSnippet: Noether's theorem states that every continuous symmetry of the action of a physical system with conservative forces has a corresponding conservation law. This is the first of two theorems (see Noether's second theorem) published by the mathematician Emmy Noether in 1918. [1]\n\n[2] Noether’s theorem\nURL: https://users.physics.ox.ac.uk/~Steane/teaching/noether.pdf\nSnippet: Noether’s theorem asserts that whenever a physical system has a symmetry (in a sense to be described) then there is a conserved quantity (i.e. one whose value does not change over time).\n\n[3] Noether's Theorem | Symmetry and Conservation Laws\nURL: https://modern-physics.org/noethers-theorem/\nSnippet: Explore Noether's Theorem, linking symmetries to conservation laws, and understand its impact on energy, momentum, and angular momentum conservation.\n\n[4] Noether’s Theorem. the secret behind conservation laws | by ...\nURL: https://medium.com/@paribeshregmi/noethers-theorem-7bc6fa8b62ac\nSnippet: Dec 20, 2025 · In 1918, Emmy Noether published her first theorem, establishing a precise link between physical laws and their corresponding conserved quantities. This seemingly simple statement uncovered a deep ...\n\n[5] Noether's Theorem in a Nutshell - Department of Mathematics\nURL: https://math.ucr.edu/home/baez/noether.html\nSnippet: Of course the proof uses Lagrangians, but a proof can't help using the concepts which the theorem is about. In other words: if someone claims Noether's theorem says \"every symmetry gives a conserved quantity\", they are telling a half-truth. The theorem only applies to certain classes of theories.",
+          "searched_at": "2026-05-09_11-17-42",
+          "attempt_number": 1
+        },
+        {
+          "status": "ok",
+          "query": "Noether's second theorem Noether's first theorem links global symmetries to conservation laws, ensuring physical laws are consistent across all scenarios. university physics lecture notes textbook",
+          "results": [
+            {
+              "title": "Noether's theorem - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Noether's_theorem",
+              "domain": "en.wikipedia.org",
+              "snippet": "Noether's theorem is used in theoretical physics and the calculus of variations.Noether's theorem is important, both because of the insight it gives into conservation laws, and also as a practical calculational tool."
+            },
+            {
+              "title": "Your Daily Equation #25: Noether's Amazing Theorem: Symmetry...",
+              "url": "https://www.youtube.com/watch?v=w7Q5mQA_74o",
+              "domain": "youtube.com",
+              "snippet": "Episode 25 #YourDailyEquation: In 1918, the phenomenal German mathematician Emmy Noether discovered a deep link between symmetries and conserved quantities"
+            },
+            {
+              "title": "How Noether’s Theorem Revolutionized Physics | Quanta Magazine",
+              "url": "https://www.quantamagazine.org/how-noethers-theorem-revolutionized-physics-20250207/",
+              "domain": "quantamagazine.org",
+              "snippet": "Emmy Noether showed that fundamental physical laws are just a consequence of simple symmetries. A century later, her insights continue to shape physics."
+            },
+            {
+              "title": "Noether's Theorem: The Hidden Link Between Symmetry and Physics",
+              "url": "https://www.kroneckerwallis.com/emmy-noethers-theorem-how-symmetry-creates-conservation-laws/",
+              "domain": "kroneckerwallis.com",
+              "snippet": "Noether’s theorem explained why these conservation laws exist. She proved mathematically that every continuous symmetry of a physical system’s action corresponds to a conserved quantity. This wasn’t a coincidence or separate observation."
+            },
+            {
+              "title": "Noether Shows the Equivalence of Symmetry and Conservation",
+              "url": "https://www.ebsco.com/research-starters/physics/noether-shows-equivalence-symmetry-and-conservation",
+              "domain": "ebsco.com",
+              "snippet": "Emmy Noether's groundbreaking work in 1918 established a profound link between symmetry and conservation laws in physics, known as Noether's theorems."
+            }
+          ],
+          "urls": [
+            "https://en.wikipedia.org/wiki/Noether's_theorem",
+            "https://www.youtube.com/watch?v=w7Q5mQA_74o",
+            "https://www.quantamagazine.org/how-noethers-theorem-revolutionized-physics-20250207/",
+            "https://www.kroneckerwallis.com/emmy-noethers-theorem-how-symmetry-creates-conservation-laws/",
+            "https://www.ebsco.com/research-starters/physics/noether-shows-equivalence-symmetry-and-conservation"
+          ],
+          "result_snippet": "[1] Noether's theorem - Wikipedia\nURL: https://en.wikipedia.org/wiki/Noether's_theorem\nSnippet: Noether's theorem is used in theoretical physics and the calculus of variations.Noether's theorem is important, both because of the insight it gives into conservation laws, and also as a practical calculational tool.\n\n[2] Your Daily Equation #25: Noether's Amazing Theorem: Symmetry...\nURL: https://www.youtube.com/watch?v=w7Q5mQA_74o\nSnippet: Episode 25 #YourDailyEquation: In 1918, the phenomenal German mathematician Emmy Noether discovered a deep link between symmetries and conserved quantities\n\n[3] How Noether’s Theorem Revolutionized Physics | Quanta Magazine\nURL: https://www.quantamagazine.org/how-noethers-theorem-revolutionized-physics-20250207/\nSnippet: Emmy Noether showed that fundamental physical laws are just a consequence of simple symmetries. A century later, her insights continue to shape physics.\n\n[4] Noether's Theorem: The Hidden Link Between Symmetry and Physics\nURL: https://www.kroneckerwallis.com/emmy-noethers-theorem-how-symmetry-creates-conservation-laws/\nSnippet: Noether’s theorem explained why these conservation laws exist. She proved mathematically that every continuous symmetry of a physical system’s action corresponds to a conserved quantity. This wasn’t a coincidence or separate observation.\n\n[5] Noether Shows the Equivalence of Symmetry and Conservation\nURL: https://www.ebsco.com/research-starters/physics/noether-shows-equivalence-symmetry-and-conservation\nSnippet: Emmy Noether's groundbreaking work in 1918 established a profound link between symmetry and conservation laws in physics, known as Noether's theorems.",
+          "searched_at": "2026-05-09_11-54-07",
+          "attempt_number": 2
+        },
+        {
+          "status": "ok",
+          "query": "Noether's second theorem Noether's first theorem links global symmetries to conservation laws, ensuring physical laws are consistent across all scenarios. site:edu physics",
+          "results": [
+            {
+              "title": "Conservation Laws from Symmetry - ccrma.stanford.edu",
+              "url": "https://ccrma.stanford.edu/~jos/Lagrangians/Conservation_Laws_Symmetry.html",
+              "domain": "ccrma.stanford.edu",
+              "snippet": "This profound connection between symmetries and conservation laws is Noether's theorem (Emmy Noether, 1918)."
+            },
+            {
+              "title": "Admissibility as a Selection Principle for Physical Symmetry",
+              "url": "https://www.academia.edu/165471927/Admissibility_as_a_Selection_Principle_for_Physical_Symmetry",
+              "domain": "academia.edu",
+              "snippet": "Symmetry principles and Noether's theorem form the foundation of modern theoretical physics, establishing a direct correspondence between invariance of the action and conserved quantities. However, variational symmetry alone does not guarantee physical realizability of the associated configurations. In the Mo framework, spacetime and dynamics emerge from a first-principles closure condition ..."
+            },
+            {
+              "title": "Noether's Theorem and General Relativity | Math",
+              "url": "https://www.math.princeton.edu/events/noethers-theorem-and-general-relativity-2026-02-17t171000",
+              "domain": "math.princeton.edu",
+              "snippet": "Emmy Noether is known to most mathematicians for her work in algebra. However, her one 1918 paper in the calculus of variations, identifying conservation laws with group actions is recognized by most physicists and some geometers as a fundamental breakthrough in understanding symmetry."
+            },
+            {
+              "title": "Gauge Theories in Physics - Stanford Encyclopedia of Philosophy",
+              "url": "https://plato.stanford.edu/entries/gauge-theories/",
+              "domain": "plato.stanford.edu",
+              "snippet": "Many of the theories found in contemporary high-energy physics are gauge theories. The theory of the electromagnetic force is a gauge theory, as are the theories of the weak and strong nuclear forces. Philosophers disagree about which other theories are gauge theories, but they generally agree that gauge theories present distinctive puzzles concerning mathematical representation. Philosophical ..."
+            },
+            {
+              "title": "A Relational Noether Theorem Without Lagrangian Action",
+              "url": "https://www.academia.edu/127482802/A_Relational_Noether_Theorem_Without_Lagrangian_Action",
+              "domain": "academia.edu",
+              "snippet": "The relational Noether theorem connects state invariance in TRU to conservation laws without spacetime or Lagrangian. Automorphisms in the C*-algebra encode symmetries, replacing classical notions of symmetry in physics. Stable operators under automorphisms yield constant expectation values, leading to conserved quantities in the TRU framework. Noncommutativity allows for 'quasi-conservation ..."
+            }
+          ],
+          "urls": [
+            "https://ccrma.stanford.edu/~jos/Lagrangians/Conservation_Laws_Symmetry.html",
+            "https://www.academia.edu/165471927/Admissibility_as_a_Selection_Principle_for_Physical_Symmetry",
+            "https://www.math.princeton.edu/events/noethers-theorem-and-general-relativity-2026-02-17t171000",
+            "https://plato.stanford.edu/entries/gauge-theories/",
+            "https://www.academia.edu/127482802/A_Relational_Noether_Theorem_Without_Lagrangian_Action"
+          ],
+          "result_snippet": "[1] Conservation Laws from Symmetry - ccrma.stanford.edu\nURL: https://ccrma.stanford.edu/~jos/Lagrangians/Conservation_Laws_Symmetry.html\nSnippet: This profound connection between symmetries and conservation laws is Noether's theorem (Emmy Noether, 1918).\n\n[2] Admissibility as a Selection Principle for Physical Symmetry\nURL: https://www.academia.edu/165471927/Admissibility_as_a_Selection_Principle_for_Physical_Symmetry\nSnippet: Symmetry principles and Noether's theorem form the foundation of modern theoretical physics, establishing a direct correspondence between invariance of the action and conserved quantities. However, variational symmetry alone does not guarantee physical realizability of the associated configurations. In the Mo framework, spacetime and dynamics emerge from a first-principles closure condition ...\n\n[3] Noether's Theorem and General Relativity | Math\nURL: https://www.math.princeton.edu/events/noethers-theorem-and-general-relativity-2026-02-17t171000\nSnippet: Emmy Noether is known to most mathematicians for her work in algebra. However, her one 1918 paper in the calculus of variations, identifying conservation laws with group actions is recognized by most physicists and some geometers as a fundamental breakthrough in understanding symmetry.\n\n[4] Gauge Theories in Physics - Stanford Encyclopedia of Philosophy\nURL: https://plato.stanford.edu/entries/gauge-theories/\nSnippet: Many of the theories found in contemporary high-energy physics are gauge theories. The theory of the electromagnetic force is a gauge theory, as are the theories of the weak and strong nuclear forces. Philosophers disagree about which other theories are gauge theories, but they generally agree that gauge theories present distinctive puzzles concerning mathematical representation. Philosophical ...\n\n[5] A Relational Noether Theorem Without Lagrangian Action\nURL: https://www.academia.edu/127482802/A_Relational_Noether_Theorem_Without_Lagrangian_Action\nSnippet: The relational Noether theorem connects state invariance in TRU to conservation laws without spacetime or Lagrangian. Automorphisms in the C*-algebra encode symmetries, replacing classical notions of symmetry in physics. Stable operators under automorphisms yield constant expectation values, leading to conserved quantities in the TRU framework. Noncommutativity allows for 'quasi-conservation ...",
+          "searched_at": "2026-05-09_12-30-32",
+          "attempt_number": 3
+        }
+      ],
+      "query": "Noether's second theorem Noether's first theorem links global symmetries to conservation laws, ensuring physical laws are consistent across all scenarios. site:edu physics",
+      "search_status": "ok",
+      "result_snippet": "[1] Conservation Laws from Symmetry - ccrma.stanford.edu\nURL: https://ccrma.stanford.edu/~jos/Lagrangians/Conservation_Laws_Symmetry.html\nSnippet: This profound connection between symmetries and conservation laws is Noether's theorem (Emmy Noether, 1918).\n\n[2] Admissibility as a Selection Principle for Physical Symmetry\nURL: https://www.academia.edu/165471927/Admissibility_as_a_Selection_Principle_for_Physical_Symmetry\nSnippet: Symmetry principles and Noether's theorem form the foundation of modern theoretical physics, establishing a direct correspondence between invariance of the action and conserved quantities. However, variational symmetry alone does not guarantee physical realizability of the associated configurations. In the Mo framework, spacetime and dynamics emerge from a first-principles closure condition ...\n\n[3] Noether's Theorem and General Relativity | Math\nURL: https://www.math.princeton.edu/events/noethers-theorem-and-general-relativity-2026-02-17t171000\nSnippet: Emmy Noether is known to most mathematicians for her work in algebra. However, her one 1918 paper in the calculus of variations, identifying conservation laws with group actions is recognized by most physicists and some geometers as a fundamental breakthrough in understanding symmetry.\n\n[4] Gauge Theories in Physics - Stanford Encyclopedia of Philosophy\nURL: https://plato.stanford.edu/entries/gauge-theories/\nSnippet: Many of the theories found in contemporary high-energy physics are gauge theories. The theory of the electromagnetic force is a gauge theory, as are the theories of the weak and strong nuclear forces. Philosophers disagree about which other theories are gauge theories, but they generally agree that gauge theories present distinctive puzzles concerning mathematical representation. Philosophical ...\n\n[5] A Relational Noether Theorem Without Lagrangian Action\nURL: https://www.academia.edu/127482802/A_Relational_Noether_Theorem_Without_Lagrangian_Action\nSnippet: The relational Noether theorem connects state invariance in TRU to conservation laws without spacetime or Lagrangian. Automorphisms in the C*-algebra encode symmetries, replacing classical notions of symmetry in physics. Stable operators under automorphisms yield constant expectation values, leading to conserved quantities in the TRU framework. Noncommutativity allows for 'quasi-conservation ...",
+      "results": [
+        {
+          "title": "Conservation Laws from Symmetry - ccrma.stanford.edu",
+          "url": "https://ccrma.stanford.edu/~jos/Lagrangians/Conservation_Laws_Symmetry.html",
+          "domain": "ccrma.stanford.edu",
+          "snippet": "This profound connection between symmetries and conservation laws is Noether's theorem (Emmy Noether, 1918)."
+        },
+        {
+          "title": "Admissibility as a Selection Principle for Physical Symmetry",
+          "url": "https://www.academia.edu/165471927/Admissibility_as_a_Selection_Principle_for_Physical_Symmetry",
+          "domain": "academia.edu",
+          "snippet": "Symmetry principles and Noether's theorem form the foundation of modern theoretical physics, establishing a direct correspondence between invariance of the action and conserved quantities. However, variational symmetry alone does not guarantee physical realizability of the associated configurations. In the Mo framework, spacetime and dynamics emerge from a first-principles closure condition ..."
+        },
+        {
+          "title": "Noether's Theorem and General Relativity | Math",
+          "url": "https://www.math.princeton.edu/events/noethers-theorem-and-general-relativity-2026-02-17t171000",
+          "domain": "math.princeton.edu",
+          "snippet": "Emmy Noether is known to most mathematicians for her work in algebra. However, her one 1918 paper in the calculus of variations, identifying conservation laws with group actions is recognized by most physicists and some geometers as a fundamental breakthrough in understanding symmetry."
+        },
+        {
+          "title": "Gauge Theories in Physics - Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/gauge-theories/",
+          "domain": "plato.stanford.edu",
+          "snippet": "Many of the theories found in contemporary high-energy physics are gauge theories. The theory of the electromagnetic force is a gauge theory, as are the theories of the weak and strong nuclear forces. Philosophers disagree about which other theories are gauge theories, but they generally agree that gauge theories present distinctive puzzles concerning mathematical representation. Philosophical ..."
+        },
+        {
+          "title": "A Relational Noether Theorem Without Lagrangian Action",
+          "url": "https://www.academia.edu/127482802/A_Relational_Noether_Theorem_Without_Lagrangian_Action",
+          "domain": "academia.edu",
+          "snippet": "The relational Noether theorem connects state invariance in TRU to conservation laws without spacetime or Lagrangian. Automorphisms in the C*-algebra encode symmetries, replacing classical notions of symmetry in physics. Stable operators under automorphisms yield constant expectation values, leading to conserved quantities in the TRU framework. Noncommutativity allows for 'quasi-conservation ..."
+        }
+      ],
+      "urls": [
+        "https://ccrma.stanford.edu/~jos/Lagrangians/Conservation_Laws_Symmetry.html",
+        "https://www.academia.edu/165471927/Admissibility_as_a_Selection_Principle_for_Physical_Symmetry",
+        "https://www.math.princeton.edu/events/noethers-theorem-and-general-relativity-2026-02-17t171000",
+        "https://plato.stanford.edu/entries/gauge-theories/",
+        "https://www.academia.edu/127482802/A_Relational_Noether_Theorem_Without_Lagrangian_Action"
+      ],
+      "attempt_count": 3,
+      "searched_at": "2026-05-09_12-30-32",
       "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
     },
     "C002": {
-      "claim": "## Why this matters Noether's second theorem explains how **symmetries are built into the mathematical structure of physics**.",
-      "query": "Noether's second theorem ## Why this matters Noether's second theorem explains how **symmetries are built into the mathematical structure physics lecture notes textbook explanation",
-      "result_snippet": "In the extension it explains why mass and matter exist, how the sun and the stars work, and the theory is therefore the ultimate basis of all other ... In the extension it explains why mass and matter exist, how the sun and the stars work, and the theory is therefore the ultimate basis of all other ... Symmetries understood as 'nodes' where nothing happens [fixed points] are to be contrasted with god (and so the universe) which is pure action, where ... Noether's theorem establishes a precise mathematical connection: every continuous symmetry of a physical system implies a conserved quantity. This simple rule explains everything from the structure of atoms to the stability of the matter we touch every day.",
-      "searched_at": "2026-05-04_21-18-44",
-      "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
-    },
-    "C003": {
-      "claim": "It ensures that physical laws are consistent across all scenarios, even when symmetries aren’t directly visible.",
-      "query": "Noether's second theorem It ensures that physical laws are consistent across all scenarios, even when symmetries aren’t directly visible. physics lecture notes textbook explanation",
-      "result_snippet": "Noether's theorem is used in theoretical physics and the calculus of variations. It reveals the fundamental relation between the symmetries of a physical system and the conservation laws. Homework:-What do you think of this idea? Have you heard of it before? -Maybe you’ve heard about things like super symmetry in physics- try find out how that... Emmy Noether showed that fundamental physical laws are just a consequence of simple symmetries.Noether discovered that conservation laws aren’t fundamental axioms of the universe. Instead, they emerge from deeper symmetries. Physical laws exhibit symmetry when they remain unchanged under certain transformations. Here are key examples: Time translation symmetry: Physical laws don’t change with time. An experiment performed today gives the same results as the same experiment tomorrow. Noether's second theorem generalizes point 3: gauge symmetries of the action correspond to redundant Euler-Lagrange equations, which lead to undetermined time evolution. The simplest example of Noether's second theorem in field theory is electromagnetism.",
-      "searched_at": "2026-05-04_21-18-46",
+      "claim": "Noether's second theorem deals with local symmetries, imposing constraints on equations of motion rather than conservation laws.",
+      "search_attempts": [
+        {
+          "status": "ok",
+          "query": "Noether's second theorem local symmetries",
+          "results": [
+            {
+              "title": "Noether's theorem - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Noether's_theorem",
+              "domain": "en.wikipedia.org",
+              "snippet": "Noether's theorem states that every continuous symmetry of the action of a physical system with conservative forces has a corresponding conservation law. This is the first of two theorems (see Noether's second theorem) published by the mathematician Emmy Noether in 1918. [1] The action of a physical system is the integral over time of a Lagrangian function, from which the system's behavior can ..."
+            },
+            {
+              "title": "Reflections on Noether's second theorem and the energy-momentum tensor",
+              "url": "https://link.aps.org/doi/10.1103/wmz3-lrbz",
+              "domain": "link.aps.org",
+              "snippet": "Through symmetry of the action under global spacetime translations, Noether's first theorem infamously entails an energy-momentum tensor (EMT) that is neither symmetric nor gauge-invariant. In a prior work [Phys. Rev. D 106, 125012 (2022)], I had obtained a symmetric and gauge-invariant EMT by using Noether's second theorem instead, with local spacetime translations as the symmetry group ..."
+            },
+            {
+              "title": "From Symmetries to Conservation Laws: A Journey with Noether's Theorem ...",
+              "url": "https://structures.uni-heidelberg.de/blog/posts/2025_09/index.php",
+              "domain": "structures.uni-heidelberg.de",
+              "snippet": "Noether's Theorem In a classical mechanical system or field theory, to every continuous one-parameter family of symmetries corresponds a conserved quantity (or current), and vice versa."
+            },
+            {
+              "title": "Reflections on Noether's second theorem and the energy-momentum tensor ...",
+              "url": "https://www.osti.gov/pages/biblio/3012598",
+              "domain": "osti.gov",
+              "snippet": "In a prior work [], I had obtained a symmetric and gauge-invariant EMT by using Noether's second theorem instead, with local spacetime translations as the symmetry group. However, the derivation therein was flawed, containing a faulty assumption about the transformation rule for spinor fields."
+            },
+            {
+              "title": "Noether's theorem in nLab - ncatlab.org",
+              "url": "https://ncatlab.org/nlab/show/Noether's+theorem",
+              "domain": "ncatlab.org",
+              "snippet": "Here we formulate Noether's theorem for local action functional in terms of the variational bicomplex and the covariant phase space. Simple schematic idea Before coming to the precise and general formulation, we indicate here schematically the simple idea which underlies Noether's first theorem (in its original Lagrangian version)."
+            }
+          ],
+          "urls": [
+            "https://en.wikipedia.org/wiki/Noether's_theorem",
+            "https://link.aps.org/doi/10.1103/wmz3-lrbz",
+            "https://structures.uni-heidelberg.de/blog/posts/2025_09/index.php",
+            "https://www.osti.gov/pages/biblio/3012598",
+            "https://ncatlab.org/nlab/show/Noether's+theorem"
+          ],
+          "result_snippet": "[1] Noether's theorem - Wikipedia\nURL: https://en.wikipedia.org/wiki/Noether's_theorem\nSnippet: Noether's theorem states that every continuous symmetry of the action of a physical system with conservative forces has a corresponding conservation law. This is the first of two theorems (see Noether's second theorem) published by the mathematician Emmy Noether in 1918. [1] The action of a physical system is the integral over time of a Lagrangian function, from which the system's behavior can ...\n\n[2] Reflections on Noether's second theorem and the energy-momentum tensor\nURL: https://link.aps.org/doi/10.1103/wmz3-lrbz\nSnippet: Through symmetry of the action under global spacetime translations, Noether's first theorem infamously entails an energy-momentum tensor (EMT) that is neither symmetric nor gauge-invariant. In a prior work [Phys. Rev. D 106, 125012 (2022)], I had obtained a symmetric and gauge-invariant EMT by using Noether's second theorem instead, with local spacetime translations as the symmetry group ...\n\n[3] From Symmetries to Conservation Laws: A Journey with Noether's Theorem ...\nURL: https://structures.uni-heidelberg.de/blog/posts/2025_09/index.php\nSnippet: Noether's Theorem In a classical mechanical system or field theory, to every continuous one-parameter family of symmetries corresponds a conserved quantity (or current), and vice versa.\n\n[4] Reflections on Noether's second theorem and the energy-momentum tensor ...\nURL: https://www.osti.gov/pages/biblio/3012598\nSnippet: In a prior work [], I had obtained a symmetric and gauge-invariant EMT by using Noether's second theorem instead, with local spacetime translations as the symmetry group. However, the derivation therein was flawed, containing a faulty assumption about the transformation rule for spinor fields.\n\n[5] Noether's theorem in nLab - ncatlab.org\nURL: https://ncatlab.org/nlab/show/Noether's+theorem\nSnippet: Here we formulate Noether's theorem for local action functional in terms of the variational bicomplex and the covariant phase space. Simple schematic idea Before coming to the precise and general formulation, we indicate here schematically the simple idea which underlies Noether's first theorem (in its original Lagrangian version).",
+          "searched_at": "2026-05-09_11-17-43",
+          "attempt_number": 1
+        }
+      ],
+      "query": "Noether's second theorem local symmetries",
+      "search_status": "ok",
+      "result_snippet": "[1] Noether's theorem - Wikipedia\nURL: https://en.wikipedia.org/wiki/Noether's_theorem\nSnippet: Noether's theorem states that every continuous symmetry of the action of a physical system with conservative forces has a corresponding conservation law. This is the first of two theorems (see Noether's second theorem) published by the mathematician Emmy Noether in 1918. [1] The action of a physical system is the integral over time of a Lagrangian function, from which the system's behavior can ...\n\n[2] Reflections on Noether's second theorem and the energy-momentum tensor\nURL: https://link.aps.org/doi/10.1103/wmz3-lrbz\nSnippet: Through symmetry of the action under global spacetime translations, Noether's first theorem infamously entails an energy-momentum tensor (EMT) that is neither symmetric nor gauge-invariant. In a prior work [Phys. Rev. D 106, 125012 (2022)], I had obtained a symmetric and gauge-invariant EMT by using Noether's second theorem instead, with local spacetime translations as the symmetry group ...\n\n[3] From Symmetries to Conservation Laws: A Journey with Noether's Theorem ...\nURL: https://structures.uni-heidelberg.de/blog/posts/2025_09/index.php\nSnippet: Noether's Theorem In a classical mechanical system or field theory, to every continuous one-parameter family of symmetries corresponds a conserved quantity (or current), and vice versa.\n\n[4] Reflections on Noether's second theorem and the energy-momentum tensor ...\nURL: https://www.osti.gov/pages/biblio/3012598\nSnippet: In a prior work [], I had obtained a symmetric and gauge-invariant EMT by using Noether's second theorem instead, with local spacetime translations as the symmetry group. However, the derivation therein was flawed, containing a faulty assumption about the transformation rule for spinor fields.\n\n[5] Noether's theorem in nLab - ncatlab.org\nURL: https://ncatlab.org/nlab/show/Noether's+theorem\nSnippet: Here we formulate Noether's theorem for local action functional in terms of the variational bicomplex and the covariant phase space. Simple schematic idea Before coming to the precise and general formulation, we indicate here schematically the simple idea which underlies Noether's first theorem (in its original Lagrangian version).",
+      "results": [
+        {
+          "title": "Noether's theorem - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Noether's_theorem",
+          "domain": "en.wikipedia.org",
+          "snippet": "Noether's theorem states that every continuous symmetry of the action of a physical system with conservative forces has a corresponding conservation law. This is the first of two theorems (see Noether's second theorem) published by the mathematician Emmy Noether in 1918. [1] The action of a physical system is the integral over time of a Lagrangian function, from which the system's behavior can ..."
+        },
+        {
+          "title": "Reflections on Noether's second theorem and the energy-momentum tensor",
+          "url": "https://link.aps.org/doi/10.1103/wmz3-lrbz",
+          "domain": "link.aps.org",
+          "snippet": "Through symmetry of the action under global spacetime translations, Noether's first theorem infamously entails an energy-momentum tensor (EMT) that is neither symmetric nor gauge-invariant. In a prior work [Phys. Rev. D 106, 125012 (2022)], I had obtained a symmetric and gauge-invariant EMT by using Noether's second theorem instead, with local spacetime translations as the symmetry group ..."
+        },
+        {
+          "title": "From Symmetries to Conservation Laws: A Journey with Noether's Theorem ...",
+          "url": "https://structures.uni-heidelberg.de/blog/posts/2025_09/index.php",
+          "domain": "structures.uni-heidelberg.de",
+          "snippet": "Noether's Theorem In a classical mechanical system or field theory, to every continuous one-parameter family of symmetries corresponds a conserved quantity (or current), and vice versa."
+        },
+        {
+          "title": "Reflections on Noether's second theorem and the energy-momentum tensor ...",
+          "url": "https://www.osti.gov/pages/biblio/3012598",
+          "domain": "osti.gov",
+          "snippet": "In a prior work [], I had obtained a symmetric and gauge-invariant EMT by using Noether's second theorem instead, with local spacetime translations as the symmetry group. However, the derivation therein was flawed, containing a faulty assumption about the transformation rule for spinor fields."
+        },
+        {
+          "title": "Noether's theorem in nLab - ncatlab.org",
+          "url": "https://ncatlab.org/nlab/show/Noether's+theorem",
+          "domain": "ncatlab.org",
+          "snippet": "Here we formulate Noether's theorem for local action functional in terms of the variational bicomplex and the covariant phase space. Simple schematic idea Before coming to the precise and general formulation, we indicate here schematically the simple idea which underlies Noether's first theorem (in its original Lagrangian version)."
+        }
+      ],
+      "urls": [
+        "https://en.wikipedia.org/wiki/Noether's_theorem",
+        "https://link.aps.org/doi/10.1103/wmz3-lrbz",
+        "https://structures.uni-heidelberg.de/blog/posts/2025_09/index.php",
+        "https://www.osti.gov/pages/biblio/3012598",
+        "https://ncatlab.org/nlab/show/Noether's+theorem"
+      ],
+      "attempt_count": 1,
+      "searched_at": "2026-05-09_11-17-43",
       "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
     }
   },
-  "last_updated": "2026-05-04_21-18-47"
+  "summary": {
+    "total_claims": 2,
+    "checked_claim_count": 1,
+    "passing_claim_count": 0,
+    "unchecked_claim_count": 1,
+    "unresolved_or_needs_qualification": 2,
+    "actionable_issue_count": 0,
+    "evidence_retry_count": 1,
+    "claim_review_complete": false,
+    "unchecked_claim_ids": [
+      "C002"
+    ],
+    "actionable_claim_ids": [],
+    "evidence_retry_claim_ids": [
+      "C001"
+    ],
+    "highest_priority_fixes": []
+  },
+  "last_updated": "2026-05-09_12-30-32"
 }

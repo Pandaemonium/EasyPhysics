@@ -15,12 +15,14 @@ Eigenvectors are **direction-keepers** {eigenvectors}: they only stretch, shrink
 ## Why this matters  
 Eigenvectors simplify complex transformations by isolating directions where the transformation behaves predictably. This concept is foundational in physics (e.g., quantum states {eigenstates}), engineering, computer graphics, and data science.  
 
+**Quantum states {eigenstates}** are special states in quantum mechanics that correspond to definite measurable properties (e.g., energy levels). These are eigenvectors of physical operators (like the Hamiltonian), meaning they only scale or reverse direction under the transformation represented by the operator.  
+
 For authoritative confirmation, see *Gilbert Strang's "Introduction to Linear Algebra"* (2009), which explains how eigenvectors capture the "invariant directions" of linear transformations.  
 
 ---
 
 ## The simple picture  
-[Diagram idea: A spring stretched along its axis (eigenvector) vs. twisted (non-eigenvector)]  
+![Eigenvector diagram: A spring stretched along its axis (eigenvector) vs. twisted (non-eigenvector)](https://via.placeholder.com/300x200?text=Spring+Stretched+vs.+Twisted)  
 Imagine stretching a spring along its length. The spring’s direction stays the same—it only stretches. This is an eigenvector: the transformation (stretching) acts like a "slider" along that line. If the spring were compressed (negative eigenvalue), its direction would reverse, but it would still remain aligned with the axis.
 
 ---
@@ -57,10 +59,10 @@ If A instead flips the x-axis (λ = -1), the vector (1, 0) would become (-1, 0),
 ---
 
 ## How this connects to the rest of physics  
-- **Quantum mechanics**: Quantum states {eigenstates} are eigenvectors of operators (e.g., energy or momentum).  
-- **Engineering**: Eigenvectors describe modes of vibration in structures.  
+- **Quantum mechanics**: Quantum states {eigenstates} are eigenvectors of operators (e.g., energy or momentum). These states represent definite outcomes of measurements.  
+- **Engineering**: Eigenvectors describe modes of vibration in structures (e.g., the "natural frequencies" of a bridge).  
 - **Computer graphics**: They simplify 3D transformations (e.g., rotating objects around an axis).  
-- **Data science**: Principal component analysis (PCA) uses eigenvectors to find patterns in data.  
+- **Data science**: Principal component analysis (PCA) uses eigenvectors to find patterns in data by aligning with directions of maximum variance.  
 
 ---
 

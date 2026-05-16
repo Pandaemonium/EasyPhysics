@@ -1,0 +1,77 @@
+---
+title: "Math Lens: Coordinates"
+slug: /math/coordinates
+sidebar_label: "Coordinates"
+description: "An optional math lens on coordinates as descriptions, not the thing itself."
+prerequisites:
+  - what-is-a-state
+glossary_terms:
+  - coordinate
+  - state
+  - model
+status: draft
+---
+
+import KnowledgeCheck from '@site/src/components/KnowledgeCheck';
+import LessonNav from '@site/src/components/LessonNav';
+import Term from '@site/src/components/Term';
+
+# Math Lens: Coordinates
+
+This page is optional. The core idea is simple: <Term name="coordinate">coordinates</Term> are numbers we use to describe something. They are not the thing itself.
+
+If a dot sits on a page, you might describe it with two numbers:
+
+```text
+x = 3
+y = 2
+```
+
+Those numbers mean "3 units across" and "2 units up" from a chosen origin. Move the origin, rotate the axes, or choose different units, and the coordinate numbers can change even though the dot itself has not moved.
+
+That distinction matters in physics. A <Term name="state">state</Term> may be written using coordinates, but the physical situation is not identical to one particular coordinate choice.
+
+## The Smallest Useful Lesson
+
+Coordinates answer the question:
+
+```text
+How do we label this situation so we can calculate with it?
+```
+
+They do not answer:
+
+```text
+Which labels are the universe secretly made of?
+```
+
+Later, relativity will lean hard on this distinction. Different observers can assign different coordinates to the same event, while agreeing about deeper quantities.
+
+<KnowledgeCheck
+  question="A dot has coordinates x = 3, y = 2. Then you choose a new origin and the coordinates become x = 1, y = 5. What should you conclude?"
+  options={[
+    {
+      label: 'A',
+      text: 'The coordinate description changed, but the dot may be the same physical dot.',
+      correct: true,
+      feedback: 'Yes. Coordinates are labels from a chosen system of description.',
+    },
+    {
+      label: 'B',
+      text: 'The dot must have vanished and reappeared.',
+      correct: false,
+      feedback: 'Changed coordinates do not automatically mean changed physical situation.',
+    },
+    {
+      label: 'C',
+      text: 'Coordinates are useless because they can change.',
+      correct: false,
+      feedback: 'Coordinates are extremely useful. We just have to remember that they are descriptions.',
+    },
+  ]}
+/>
+
+<LessonNav
+  nextLabel="return to What Is a State?"
+  nextTo="/docs/wiki/what-is-a-state"
+/>

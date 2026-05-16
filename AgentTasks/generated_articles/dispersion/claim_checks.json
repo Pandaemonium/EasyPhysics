@@ -2,33 +2,109 @@
   "claim_checks": [
     {
       "id": "C001",
-      "verdict": "supported",
-      "severity": "low",
-      "problem": "",
-      "suggested_fix": "",
-      "source_quality_note": "The snippet comes from a stable physics explanation focusing on optics and wave behavior, confirming the core mechanism of wavelength-dependent refraction."
+      "verdict": "not_enough_evidence",
+      "severity": "medium",
+      "problem": "Claim checker failed: LLMCallError(\"claim_checker failed after 1 attempt(s): LLMCallError('LLM_TIMEOUT_AFTER_480_SECONDS')\")",
+      "suggested_fix": "Automatically retry this claim with another source search or a smaller context.",
+      "source_quality_note": "",
+      "source_urls": [],
+      "claim": "# Dispersion ## The core idea Dispersion is when waves of different wavelengths (like colors of light) travel at different speeds through a medium, causing them to separate.",
+      "checked_at": "2026-05-05_20-44-54",
+      "source_attempt_count": 3,
+      "available_source_urls": [
+        "https://www.open.edu/openlearn/science-maths-technology/science/physics-and-astronomy/physics/measure-the-speed-light-your-microwave",
+        "https://smartdata.ece.ufl.edu/index.php/2025/05/16/listening-to-the-plate-how-lamb-waves-quietly-reveal-the-structure-of-materials/",
+        "https://tutorial.math.lamar.edu/classes/de/TheWaveEquation.aspx",
+        "https://www.psu.edu/news/eberly-college-science/story/astronomers-reveal-hidden-structures-young-universe",
+        "https://www.academia.edu/150298593/Physics_of_the_Upper_Polar_Atmosphere"
+      ]
+    }
+  ],
+  "check_history": [
+    {
+      "id": "C001",
+      "verdict": "not_enough_evidence",
+      "severity": "medium",
+      "problem": "Claim checker failed: LLMCallError(\"claim_checker failed after 1 attempt(s): LLMCallError('LLM_TIMEOUT_AFTER_480_SECONDS')\")",
+      "suggested_fix": "Automatically retry this claim with another source search or a smaller context.",
+      "source_quality_note": "",
+      "source_urls": [],
+      "claim": "# Dispersion ## The core idea Dispersion is when waves of different wavelengths (like colors of light) travel at different speeds through a medium, causing them to separate.",
+      "checked_at": "2026-05-05_20-28-31",
+      "source_attempt_count": 1,
+      "available_source_urls": [
+        "https://www.mathscinotes.com/2010/10/dispersion-power-penalty-modeling-part-1/",
+        "https://patents.google.com/patent/KR100963237B1/en",
+        "https://mdashf.org/2020/05/21/the-bohr-model-of-the-hydrogen-atom-atomic-spectra-and-quantization-quantum-lecture-4-and-5/",
+        "https://arxiv.org/html/2604.12847v1",
+        "https://arxiv.org/html/2506.03641v1"
+      ]
     },
     {
-      "id": "C002",
-      "verdict": "supported",
-      "severity": "low",
-      "problem": "",
-      "suggested_fix": "",
-      "source_quality_note": "The snippets come from multiple physics-focused sources discussing normal/abnormal dispersion, refraction mechanisms, and Snell's law. The content aligns with standard explanations in optics textbooks."
+      "id": "C001",
+      "verdict": "not_enough_evidence",
+      "severity": "medium",
+      "problem": "Claim checker failed: LLMCallError(\"claim_checker failed after 1 attempt(s): LLMCallError('LLM_TIMEOUT_AFTER_480_SECONDS')\")",
+      "suggested_fix": "Automatically retry this claim with another source search or a smaller context.",
+      "source_quality_note": "",
+      "source_urls": [],
+      "claim": "# Dispersion ## The core idea Dispersion is when waves of different wavelengths (like colors of light) travel at different speeds through a medium, causing them to separate.",
+      "checked_at": "2026-05-05_20-36-43",
+      "source_attempt_count": 2,
+      "available_source_urls": [
+        "https://bns.institute/applied-sciences/dispersion-of-light-phenomenon/",
+        "https://www.azooptics.com/Article.aspx?ArticleID=2823",
+        "https://scienceinfo.com/dispersion-of-light-through-a-prism/",
+        "https://quizlet.com/study-guides/physics-light-dispersion-refraction-and-prism-diagrams-3f80b1ea-dc4d-4360-aa45-d8ba7e56576f",
+        "https://www.britannica.com/science/spectroscopy/Methods-of-dispersing-spectra"
+      ]
     },
     {
-      "id": "C003",
-      "verdict": "supported",
-      "severity": "none",
-      "problem": "",
-      "suggested_fix": "",
-      "source_quality_note": "The snippet contains multiple authoritative physics explanations from textbook-style sources, confirming the prism/rainbow example as a standard demonstration of dispersion."
+      "id": "C001",
+      "verdict": "not_enough_evidence",
+      "severity": "medium",
+      "problem": "Claim checker failed: LLMCallError(\"claim_checker failed after 1 attempt(s): LLMCallError('LLM_TIMEOUT_AFTER_480_SECONDS')\")",
+      "suggested_fix": "Automatically retry this claim with another source search or a smaller context.",
+      "source_quality_note": "",
+      "source_urls": [],
+      "claim": "# Dispersion ## The core idea Dispersion is when waves of different wavelengths (like colors of light) travel at different speeds through a medium, causing them to separate.",
+      "checked_at": "2026-05-05_20-44-54",
+      "source_attempt_count": 3,
+      "available_source_urls": [
+        "https://www.open.edu/openlearn/science-maths-technology/science/physics-and-astronomy/physics/measure-the-speed-light-your-microwave",
+        "https://smartdata.ece.ufl.edu/index.php/2025/05/16/listening-to-the-plate-how-lamb-waves-quietly-reveal-the-structure-of-materials/",
+        "https://tutorial.math.lamar.edu/classes/de/TheWaveEquation.aspx",
+        "https://www.psu.edu/news/eberly-college-science/story/astronomers-reveal-hidden-structures-young-universe",
+        "https://www.academia.edu/150298593/Physics_of_the_Upper_Polar_Atmosphere"
+      ]
     }
   ],
   "summary": {
-    "overall_claim_quality": "Claim check completed.",
-    "unresolved_or_needs_qualification": 0,
-    "highest_priority_fixes": []
+    "total_claims": 8,
+    "checked_claim_count": 1,
+    "passing_claim_count": 0,
+    "unchecked_claim_count": 7,
+    "unresolved_or_needs_qualification": 8,
+    "actionable_issue_count": 1,
+    "evidence_retry_count": 0,
+    "claim_review_complete": false,
+    "unchecked_claim_ids": [
+      "C002",
+      "C003",
+      "C004",
+      "C005",
+      "C006",
+      "C007",
+      "C008"
+    ],
+    "actionable_claim_ids": [
+      "C001"
+    ],
+    "evidence_retry_claim_ids": [],
+    "highest_priority_fixes": [
+      "Automatically retry this claim with another source search or a smaller context."
+    ],
+    "overall_claim_quality": "Partial claim check completed."
   },
-  "last_updated": "2026-05-05_01-49-20"
+  "last_updated": "2026-05-05_20-44-54"
 }

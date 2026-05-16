@@ -1,0 +1,795 @@
+{
+  "sources_by_claim": {
+    "C001": {
+      "claim": "Eigenvalues are scaling factors that describe how vectors are stretched or squashed by linear transformations.",
+      "search_attempts": [
+        {
+          "status": "ok",
+          "query": "linear algebra eigenvalue definition textbook",
+          "results": [
+            {
+              "title": "Eigenvalues and eigenvectors - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Eigenvalues_and_eigenvectors",
+              "domain": "en.wikipedia.org",
+              "snippet": "In linear algebra, an eigenvector (/ ˈaɪɡən -/ EYE-gən-) or characteristic vector is a (nonzero) vector that has its direction unchanged (or reversed) by a given linear transformation. More precisely, an eigenvector of a linear transformation is scaled by a constant factor when the linear transformation is applied to it: . The corresponding eigenvalue, characteristic value, or ..."
+            },
+            {
+              "title": "3.3: Eigenvalues and Eigenvectors - Mathematics LibreTexts",
+              "url": "https://math.libretexts.org/Bookshelves/Linear_Algebra/Linear_Algebra_with_Applications_(Nicholson)/03:_Determinants_and_Diagonalization/3.03:_Eigenvalues_and_Eigenvectors",
+              "domain": "math.libretexts.org",
+              "snippet": "This textbook covers systems evolving over time, focusing on populations and their modeling through diagonalization in linear algebra. Key concepts include eigenvalues, eigenvectors, characteristic …"
+            },
+            {
+              "title": "Eigenvalues and Eigenvectors - GeeksforGeeks",
+              "url": "https://www.geeksforgeeks.org/engineering-mathematics/eigen-values/",
+              "domain": "geeksforgeeks.org",
+              "snippet": "Eigenvalues and eigenvectors are fundamental concepts in linear algebra, used in various applications such as matrix diagonalization, stability analysis, and data analysis (e.g., Principal Component Analysis). They are associated with a square matrix and provide insights into its properties."
+            },
+            {
+              "title": "15 Free Linear Algebra Books [PDF] | Read & Download",
+              "url": "https://www.infobooks.org/free-pdf-books/math/linear-algebra/",
+              "domain": "infobooks.org",
+              "snippet": "Looking for linear algebra books? We've gathered 15 free linear algebra books in PDF, covering topics like vector spaces, matrices, eigenvalues, linear transformations, determinants, and systems of equations. These books range from beginner-friendly introductions to rigorous textbooks used in top universities."
+            },
+            {
+              "title": "Eigenvalues and Eigenvectors: Understanding the Foundations of Linear ...",
+              "url": "https://www.physicsmathcomputing.com/linear-algebra-eigenvalues-and-eigenvectors",
+              "domain": "physicsmathcomputing.com",
+              "snippet": "Linear algebra is a fundamental branch of mathematics that deals with the study of linear equations and their transformations. One of the key concepts in this field is eigenvalues and eigenvectors, which play a crucial role in understanding the behavior of linear systems."
+            }
+          ],
+          "urls": [
+            "https://en.wikipedia.org/wiki/Eigenvalues_and_eigenvectors",
+            "https://math.libretexts.org/Bookshelves/Linear_Algebra/Linear_Algebra_with_Applications_(Nicholson)/03:_Determinants_and_Diagonalization/3.03:_Eigenvalues_and_Eigenvectors",
+            "https://www.geeksforgeeks.org/engineering-mathematics/eigen-values/",
+            "https://www.infobooks.org/free-pdf-books/math/linear-algebra/",
+            "https://www.physicsmathcomputing.com/linear-algebra-eigenvalues-and-eigenvectors"
+          ],
+          "result_snippet": "[1] Eigenvalues and eigenvectors - Wikipedia\nURL: https://en.wikipedia.org/wiki/Eigenvalues_and_eigenvectors\nSnippet: In linear algebra, an eigenvector (/ ˈaɪɡən -/ EYE-gən-) or characteristic vector is a (nonzero) vector that has its direction unchanged (or reversed) by a given linear transformation. More precisely, an eigenvector of a linear transformation is scaled by a constant factor when the linear transformation is applied to it: . The corresponding eigenvalue, characteristic value, or ...\n\n[2] 3.3: Eigenvalues and Eigenvectors - Mathematics LibreTexts\nURL: https://math.libretexts.org/Bookshelves/Linear_Algebra/Linear_Algebra_with_Applications_(Nicholson)/03:_Determinants_and_Diagonalization/3.03:_Eigenvalues_and_Eigenvectors\nSnippet: This textbook covers systems evolving over time, focusing on populations and their modeling through diagonalization in linear algebra. Key concepts include eigenvalues, eigenvectors, characteristic …\n\n[3] Eigenvalues and Eigenvectors - GeeksforGeeks\nURL: https://www.geeksforgeeks.org/engineering-mathematics/eigen-values/\nSnippet: Eigenvalues and eigenvectors are fundamental concepts in linear algebra, used in various applications such as matrix diagonalization, stability analysis, and data analysis (e.g., Principal Component Analysis). They are associated with a square matrix and provide insights into its properties.\n\n[4] 15 Free Linear Algebra Books [PDF] | Read & Download\nURL: https://www.infobooks.org/free-pdf-books/math/linear-algebra/\nSnippet: Looking for linear algebra books? We've gathered 15 free linear algebra books in PDF, covering topics like vector spaces, matrices, eigenvalues, linear transformations, determinants, and systems of equations. These books range from beginner-friendly introductions to rigorous textbooks used in top universities.\n\n[5] Eigenvalues and Eigenvectors: Understanding the Foundations of Linear ...\nURL: https://www.physicsmathcomputing.com/linear-algebra-eigenvalues-and-eigenvectors\nSnippet: Linear algebra is a fundamental branch of mathematics that deals with the study of linear equations and their transformations. One of the key concepts in this field is eigenvalues and eigenvectors, which play a crucial role in understanding the behavior of linear systems.",
+          "searched_at": "2026-05-05_14-53-02",
+          "attempt_number": 1
+        },
+        {
+          "status": "ok",
+          "query": "Eigenvalue Eigenvalues are scaling factors that describe how vectors are stretched or squashed by linear transformations. university physics lecture notes textbook",
+          "results": [
+            {
+              "title": "Eigenvalues and eigenvectors - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Eigenvalues_and_eigenvectors",
+              "domain": "en.wikipedia.org",
+              "snippet": "The corresponding eigenvalue, characteristic value, or characteristic root is the multiplying factor (possibly a negative or complex number). Geometrically, vectors are multi- dimensional quantities with magnitude and direction, often pictured as arrows. A linear transformation rotates, stretches, or shears the vectors upon which it acts."
+            },
+            {
+              "title": "7.4: Eigenstates and Eigenvalues - Physics LibreTexts",
+              "url": "https://phys.libretexts.org/Courses/University_of_California_Davis/UCD:_Physics_9D__Modern_Physics/7:_Matter_Waves/7.4:_Eigenstates_and_Eigenvalues",
+              "domain": "phys.libretexts.org",
+              "snippet": "The value of 1 comes about when i = j because the wave function is normalized. Using this fact, we can show that the coefficients in the linear combination are in fact probability amplitudes associated with measuring each of the respective eigenvalues when an observation is made on a general quantum state:"
+            },
+            {
+              "title": "Eigenvalues and Eigenvectors - Gaurav Tiwari",
+              "url": "https://gauravtiwari.org/study-notes/eigenvalues-and-eigenvectors/",
+              "domain": "gauravtiwari.org",
+              "snippet": "Eigenvalues and eigenvectors describe the special directions a matrix transformation preserves and the factor it scales them by. They're among the most consequential concepts in linear algebra. Once you understand them, you have a structural vocabulary for principal component analysis, dynamical systems, quantum mechanics, vibration analysis, recommender systems, and Google's original ..."
+            },
+            {
+              "title": "Eigenvalues and Eigenvectors | Springer Nature Link",
+              "url": "https://link.springer.com/rwe/10.1007/978-981-96-8165-5_8-1",
+              "domain": "link.springer.com",
+              "snippet": "'Eigenvalues and Eigenvectors' published in 'Encyclopedia of Engineering Optimization and Heuristics'"
+            },
+            {
+              "title": "Eigenvalues and Eigenvectors - GeeksforGeeks",
+              "url": "https://www.geeksforgeeks.org/engineering-mathematics/eigen-values/",
+              "domain": "geeksforgeeks.org",
+              "snippet": "Eigenvalues and eigenvectors are fundamental concepts in linear algebra, used in various applications such as matrix diagonalization, stability analysis, and data analysis (e.g., Principal Component Analysis). They are associated with a square matrix and provide insights into its properties."
+            }
+          ],
+          "urls": [
+            "https://en.wikipedia.org/wiki/Eigenvalues_and_eigenvectors",
+            "https://phys.libretexts.org/Courses/University_of_California_Davis/UCD:_Physics_9D__Modern_Physics/7:_Matter_Waves/7.4:_Eigenstates_and_Eigenvalues",
+            "https://gauravtiwari.org/study-notes/eigenvalues-and-eigenvectors/",
+            "https://link.springer.com/rwe/10.1007/978-981-96-8165-5_8-1",
+            "https://www.geeksforgeeks.org/engineering-mathematics/eigen-values/"
+          ],
+          "result_snippet": "[1] Eigenvalues and eigenvectors - Wikipedia\nURL: https://en.wikipedia.org/wiki/Eigenvalues_and_eigenvectors\nSnippet: The corresponding eigenvalue, characteristic value, or characteristic root is the multiplying factor (possibly a negative or complex number). Geometrically, vectors are multi- dimensional quantities with magnitude and direction, often pictured as arrows. A linear transformation rotates, stretches, or shears the vectors upon which it acts.\n\n[2] 7.4: Eigenstates and Eigenvalues - Physics LibreTexts\nURL: https://phys.libretexts.org/Courses/University_of_California_Davis/UCD:_Physics_9D__Modern_Physics/7:_Matter_Waves/7.4:_Eigenstates_and_Eigenvalues\nSnippet: The value of 1 comes about when i = j because the wave function is normalized. Using this fact, we can show that the coefficients in the linear combination are in fact probability amplitudes associated with measuring each of the respective eigenvalues when an observation is made on a general quantum state:\n\n[3] Eigenvalues and Eigenvectors - Gaurav Tiwari\nURL: https://gauravtiwari.org/study-notes/eigenvalues-and-eigenvectors/\nSnippet: Eigenvalues and eigenvectors describe the special directions a matrix transformation preserves and the factor it scales them by. They're among the most consequential concepts in linear algebra. Once you understand them, you have a structural vocabulary for principal component analysis, dynamical systems, quantum mechanics, vibration analysis, recommender systems, and Google's original ...\n\n[4] Eigenvalues and Eigenvectors | Springer Nature Link\nURL: https://link.springer.com/rwe/10.1007/978-981-96-8165-5_8-1\nSnippet: 'Eigenvalues and Eigenvectors' published in 'Encyclopedia of Engineering Optimization and Heuristics'\n\n[5] Eigenvalues and Eigenvectors - GeeksforGeeks\nURL: https://www.geeksforgeeks.org/engineering-mathematics/eigen-values/\nSnippet: Eigenvalues and eigenvectors are fundamental concepts in linear algebra, used in various applications such as matrix diagonalization, stability analysis, and data analysis (e.g., Principal Component Analysis). They are associated with a square matrix and provide insights into its properties.",
+          "searched_at": "2026-05-05_15-01-12",
+          "attempt_number": 2
+        },
+        {
+          "status": "ok",
+          "query": "Eigenvalue Eigenvalues are scaling factors that describe how vectors are stretched or squashed by linear transformations. site:edu physics",
+          "results": [
+            {
+              "title": "Eigenvalues and Eigenvectors - CS 357",
+              "url": "https://courses.physics.illinois.edu/cs357/sp2024/notes/ref-12-eigen.html",
+              "domain": "courses.physics.illinois.edu",
+              "snippet": "An eigenvalue of an n × n matrix A is a scalar λ such that A x = λ x for some non-zero vector x. The eigenvalue λ can be any real or complex scalar, (which we write λ ∈ R or λ ∈ C)."
+            },
+            {
+              "title": "Eigenvalues and eigenvectors - web.physics.utah.edu",
+              "url": "https://web.physics.utah.edu/~detar/lessons/linalg/linalg/node3.html",
+              "domain": "web.physics.utah.edu",
+              "snippet": "A great many matrices (more generally linear operators) are characterized by their eigenvalues and eigenvectors. They play a crucial role in all branches of science and engineering."
+            },
+            {
+              "title": "Eigenvalues and Eigenvectors",
+              "url": "https://mathbooks.unl.edu/LinearAlgebra/Section-Describing-Eigenvalues-and-Eigenvectors.html",
+              "domain": "mathbooks.unl.edu",
+              "snippet": "Because eigenvalues are supposed to capture certain information about the matrix, allowing every number to be an eigenvalue of every matrix would defeat the purpose."
+            },
+            {
+              "title": "Eigenvectors and Eigenvalues - Oregon State University",
+              "url": "https://books.physics.oregonstate.edu/LinAlg/ch3.html",
+              "domain": "books.physics.oregonstate.edu",
+              "snippet": "This chapter describes the procedure for finding eigenvectors and eigenvalues. We use bra-ket notation. If this notation is unfamiliar, please see a brief explanation in Section 2.7 3.1 What are Eigenvectors? 3.2 Finding Eigenvalues 3.3 Finding Eigenvectors 3.4 Normalization of Eigenvectors 3.5 Diagonal Matrices 3.6 Degeneracy"
+            },
+            {
+              "title": "Eigenvalues and Eigenvectors - Department of Mathematics at UTSA",
+              "url": "https://mathresearch.utsa.edu/wiki/index.php?title=Eigenvalues_and_Eigenvectors",
+              "domain": "mathresearch.utsa.edu",
+              "snippet": "Nov 5, 2021 · Eigenvalues and eigenvectors feature prominently in the analysis of linear transformations. The prefix eigen- is adopted from the German word eigen (cognate with the English word own) for \"proper\", \"characteristic\", \"own\"."
+            }
+          ],
+          "urls": [
+            "https://courses.physics.illinois.edu/cs357/sp2024/notes/ref-12-eigen.html",
+            "https://web.physics.utah.edu/~detar/lessons/linalg/linalg/node3.html",
+            "https://mathbooks.unl.edu/LinearAlgebra/Section-Describing-Eigenvalues-and-Eigenvectors.html",
+            "https://books.physics.oregonstate.edu/LinAlg/ch3.html",
+            "https://mathresearch.utsa.edu/wiki/index.php?title=Eigenvalues_and_Eigenvectors"
+          ],
+          "result_snippet": "[1] Eigenvalues and Eigenvectors - CS 357\nURL: https://courses.physics.illinois.edu/cs357/sp2024/notes/ref-12-eigen.html\nSnippet: An eigenvalue of an n × n matrix A is a scalar λ such that A x = λ x for some non-zero vector x. The eigenvalue λ can be any real or complex scalar, (which we write λ ∈ R or λ ∈ C).\n\n[2] Eigenvalues and eigenvectors - web.physics.utah.edu\nURL: https://web.physics.utah.edu/~detar/lessons/linalg/linalg/node3.html\nSnippet: A great many matrices (more generally linear operators) are characterized by their eigenvalues and eigenvectors. They play a crucial role in all branches of science and engineering.\n\n[3] Eigenvalues and Eigenvectors\nURL: https://mathbooks.unl.edu/LinearAlgebra/Section-Describing-Eigenvalues-and-Eigenvectors.html\nSnippet: Because eigenvalues are supposed to capture certain information about the matrix, allowing every number to be an eigenvalue of every matrix would defeat the purpose.\n\n[4] Eigenvectors and Eigenvalues - Oregon State University\nURL: https://books.physics.oregonstate.edu/LinAlg/ch3.html\nSnippet: This chapter describes the procedure for finding eigenvectors and eigenvalues. We use bra-ket notation. If this notation is unfamiliar, please see a brief explanation in Section 2.7 3.1 What are Eigenvectors? 3.2 Finding Eigenvalues 3.3 Finding Eigenvectors 3.4 Normalization of Eigenvectors 3.5 Diagonal Matrices 3.6 Degeneracy\n\n[5] Eigenvalues and Eigenvectors - Department of Mathematics at UTSA\nURL: https://mathresearch.utsa.edu/wiki/index.php?title=Eigenvalues_and_Eigenvectors\nSnippet: Nov 5, 2021 · Eigenvalues and eigenvectors feature prominently in the analysis of linear transformations. The prefix eigen- is adopted from the German word eigen (cognate with the English word own) for \"proper\", \"characteristic\", \"own\".",
+          "searched_at": "2026-05-05_15-09-26",
+          "attempt_number": 3
+        }
+      ],
+      "query": "Eigenvalue Eigenvalues are scaling factors that describe how vectors are stretched or squashed by linear transformations. site:edu physics",
+      "search_status": "ok",
+      "result_snippet": "[1] Eigenvalues and Eigenvectors - CS 357\nURL: https://courses.physics.illinois.edu/cs357/sp2024/notes/ref-12-eigen.html\nSnippet: An eigenvalue of an n × n matrix A is a scalar λ such that A x = λ x for some non-zero vector x. The eigenvalue λ can be any real or complex scalar, (which we write λ ∈ R or λ ∈ C).\n\n[2] Eigenvalues and eigenvectors - web.physics.utah.edu\nURL: https://web.physics.utah.edu/~detar/lessons/linalg/linalg/node3.html\nSnippet: A great many matrices (more generally linear operators) are characterized by their eigenvalues and eigenvectors. They play a crucial role in all branches of science and engineering.\n\n[3] Eigenvalues and Eigenvectors\nURL: https://mathbooks.unl.edu/LinearAlgebra/Section-Describing-Eigenvalues-and-Eigenvectors.html\nSnippet: Because eigenvalues are supposed to capture certain information about the matrix, allowing every number to be an eigenvalue of every matrix would defeat the purpose.\n\n[4] Eigenvectors and Eigenvalues - Oregon State University\nURL: https://books.physics.oregonstate.edu/LinAlg/ch3.html\nSnippet: This chapter describes the procedure for finding eigenvectors and eigenvalues. We use bra-ket notation. If this notation is unfamiliar, please see a brief explanation in Section 2.7 3.1 What are Eigenvectors? 3.2 Finding Eigenvalues 3.3 Finding Eigenvectors 3.4 Normalization of Eigenvectors 3.5 Diagonal Matrices 3.6 Degeneracy\n\n[5] Eigenvalues and Eigenvectors - Department of Mathematics at UTSA\nURL: https://mathresearch.utsa.edu/wiki/index.php?title=Eigenvalues_and_Eigenvectors\nSnippet: Nov 5, 2021 · Eigenvalues and eigenvectors feature prominently in the analysis of linear transformations. The prefix eigen- is adopted from the German word eigen (cognate with the English word own) for \"proper\", \"characteristic\", \"own\".",
+      "results": [
+        {
+          "title": "Eigenvalues and Eigenvectors - CS 357",
+          "url": "https://courses.physics.illinois.edu/cs357/sp2024/notes/ref-12-eigen.html",
+          "domain": "courses.physics.illinois.edu",
+          "snippet": "An eigenvalue of an n × n matrix A is a scalar λ such that A x = λ x for some non-zero vector x. The eigenvalue λ can be any real or complex scalar, (which we write λ ∈ R or λ ∈ C)."
+        },
+        {
+          "title": "Eigenvalues and eigenvectors - web.physics.utah.edu",
+          "url": "https://web.physics.utah.edu/~detar/lessons/linalg/linalg/node3.html",
+          "domain": "web.physics.utah.edu",
+          "snippet": "A great many matrices (more generally linear operators) are characterized by their eigenvalues and eigenvectors. They play a crucial role in all branches of science and engineering."
+        },
+        {
+          "title": "Eigenvalues and Eigenvectors",
+          "url": "https://mathbooks.unl.edu/LinearAlgebra/Section-Describing-Eigenvalues-and-Eigenvectors.html",
+          "domain": "mathbooks.unl.edu",
+          "snippet": "Because eigenvalues are supposed to capture certain information about the matrix, allowing every number to be an eigenvalue of every matrix would defeat the purpose."
+        },
+        {
+          "title": "Eigenvectors and Eigenvalues - Oregon State University",
+          "url": "https://books.physics.oregonstate.edu/LinAlg/ch3.html",
+          "domain": "books.physics.oregonstate.edu",
+          "snippet": "This chapter describes the procedure for finding eigenvectors and eigenvalues. We use bra-ket notation. If this notation is unfamiliar, please see a brief explanation in Section 2.7 3.1 What are Eigenvectors? 3.2 Finding Eigenvalues 3.3 Finding Eigenvectors 3.4 Normalization of Eigenvectors 3.5 Diagonal Matrices 3.6 Degeneracy"
+        },
+        {
+          "title": "Eigenvalues and Eigenvectors - Department of Mathematics at UTSA",
+          "url": "https://mathresearch.utsa.edu/wiki/index.php?title=Eigenvalues_and_Eigenvectors",
+          "domain": "mathresearch.utsa.edu",
+          "snippet": "Nov 5, 2021 · Eigenvalues and eigenvectors feature prominently in the analysis of linear transformations. The prefix eigen- is adopted from the German word eigen (cognate with the English word own) for \"proper\", \"characteristic\", \"own\"."
+        }
+      ],
+      "urls": [
+        "https://courses.physics.illinois.edu/cs357/sp2024/notes/ref-12-eigen.html",
+        "https://web.physics.utah.edu/~detar/lessons/linalg/linalg/node3.html",
+        "https://mathbooks.unl.edu/LinearAlgebra/Section-Describing-Eigenvalues-and-Eigenvectors.html",
+        "https://books.physics.oregonstate.edu/LinAlg/ch3.html",
+        "https://mathresearch.utsa.edu/wiki/index.php?title=Eigenvalues_and_Eigenvectors"
+      ],
+      "attempt_count": 3,
+      "searched_at": "2026-05-05_15-09-26",
+      "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
+    },
+    "C002": {
+      "claim": "Eigenvalues can be complex numbers, introducing rotational effects in addition to scaling.",
+      "search_attempts": [
+        {
+          "status": "ok",
+          "query": "complex eigenvalues quantum mechanics",
+          "results": [
+            {
+              "title": "quantum mechanics - How come the eigenvalues of the Hamiltonian",
+              "url": "https://physics.stackexchange.com/questions/537755/how-come-the-eigenvalues-of-the-hamiltonian-represent-energy-levels-when-the-ham",
+              "domain": "physics.stackexchange.com",
+              "snippet": "How do we know that the stationary states and corresponding eigenvalues of a quantum system forms a probability distribution?"
+            },
+            {
+              "title": "quantum mechanics - Observables in QM, are they the eigenvalues",
+              "url": "https://physics.stackexchange.com/questions/685869/observables-in-qm-are-they-the-eigenvalues-or-the-elements-of-the-spectrum",
+              "domain": "physics.stackexchange.com",
+              "snippet": "which of the two is it? When we measure something in quantum mechanics are we measuring the eigenvalues or the spectrum?"
+            },
+            {
+              "title": "Relevance of eigenvalues in quantum measurement - Physics Stack",
+              "url": "https://physics.stackexchange.com/questions/289475/relevance-of-eigenvalues-in-quantum-measurement",
+              "domain": "physics.stackexchange.com",
+              "snippet": "The eigenvalues become relevant once you employ some sort of the quantum correspondence principle , like Weyl quantization."
+            },
+            {
+              "title": "operators - Why do we use eigenvalues to represent observed",
+              "url": "https://physics.stackexchange.com/questions/583835/why-do-we-use-eigenvalues-to-represent-observed-values-in-quantum-mechanics",
+              "domain": "physics.stackexchange.com",
+              "snippet": "... quantum mechanics is that for every observable A, there corresponds a linear Hermitian operator A^, and when we measure the observable A, we get an ..."
+            },
+            {
+              "title": "quantum mechanics - Eigenvalue for the creation operator for a",
+              "url": "https://physics.stackexchange.com/questions/205981/eigenvalue-for-the-creation-operator-for-a-coherent-state",
+              "domain": "physics.stackexchange.com",
+              "snippet": "... like to emphasize something that the OP does not seem to know and that is that the creation operator has no eigenvectors (nor, therefore, eigenvalues ..."
+            }
+          ],
+          "urls": [
+            "https://physics.stackexchange.com/questions/537755/how-come-the-eigenvalues-of-the-hamiltonian-represent-energy-levels-when-the-ham",
+            "https://physics.stackexchange.com/questions/685869/observables-in-qm-are-they-the-eigenvalues-or-the-elements-of-the-spectrum",
+            "https://physics.stackexchange.com/questions/289475/relevance-of-eigenvalues-in-quantum-measurement",
+            "https://physics.stackexchange.com/questions/583835/why-do-we-use-eigenvalues-to-represent-observed-values-in-quantum-mechanics",
+            "https://physics.stackexchange.com/questions/205981/eigenvalue-for-the-creation-operator-for-a-coherent-state"
+          ],
+          "result_snippet": "[1] quantum mechanics - How come the eigenvalues of the Hamiltonian\nURL: https://physics.stackexchange.com/questions/537755/how-come-the-eigenvalues-of-the-hamiltonian-represent-energy-levels-when-the-ham\nSnippet: How do we know that the stationary states and corresponding eigenvalues of a quantum system forms a probability distribution?\n\n[2] quantum mechanics - Observables in QM, are they the eigenvalues\nURL: https://physics.stackexchange.com/questions/685869/observables-in-qm-are-they-the-eigenvalues-or-the-elements-of-the-spectrum\nSnippet: which of the two is it? When we measure something in quantum mechanics are we measuring the eigenvalues or the spectrum?\n\n[3] Relevance of eigenvalues in quantum measurement - Physics Stack\nURL: https://physics.stackexchange.com/questions/289475/relevance-of-eigenvalues-in-quantum-measurement\nSnippet: The eigenvalues become relevant once you employ some sort of the quantum correspondence principle , like Weyl quantization.\n\n[4] operators - Why do we use eigenvalues to represent observed\nURL: https://physics.stackexchange.com/questions/583835/why-do-we-use-eigenvalues-to-represent-observed-values-in-quantum-mechanics\nSnippet: ... quantum mechanics is that for every observable A, there corresponds a linear Hermitian operator A^, and when we measure the observable A, we get an ...\n\n[5] quantum mechanics - Eigenvalue for the creation operator for a\nURL: https://physics.stackexchange.com/questions/205981/eigenvalue-for-the-creation-operator-for-a-coherent-state\nSnippet: ... like to emphasize something that the OP does not seem to know and that is that the creation operator has no eigenvectors (nor, therefore, eigenvalues ...",
+          "searched_at": "2026-05-05_14-53-06",
+          "attempt_number": 1
+        }
+      ],
+      "query": "complex eigenvalues quantum mechanics",
+      "search_status": "ok",
+      "result_snippet": "[1] quantum mechanics - How come the eigenvalues of the Hamiltonian\nURL: https://physics.stackexchange.com/questions/537755/how-come-the-eigenvalues-of-the-hamiltonian-represent-energy-levels-when-the-ham\nSnippet: How do we know that the stationary states and corresponding eigenvalues of a quantum system forms a probability distribution?\n\n[2] quantum mechanics - Observables in QM, are they the eigenvalues\nURL: https://physics.stackexchange.com/questions/685869/observables-in-qm-are-they-the-eigenvalues-or-the-elements-of-the-spectrum\nSnippet: which of the two is it? When we measure something in quantum mechanics are we measuring the eigenvalues or the spectrum?\n\n[3] Relevance of eigenvalues in quantum measurement - Physics Stack\nURL: https://physics.stackexchange.com/questions/289475/relevance-of-eigenvalues-in-quantum-measurement\nSnippet: The eigenvalues become relevant once you employ some sort of the quantum correspondence principle , like Weyl quantization.\n\n[4] operators - Why do we use eigenvalues to represent observed\nURL: https://physics.stackexchange.com/questions/583835/why-do-we-use-eigenvalues-to-represent-observed-values-in-quantum-mechanics\nSnippet: ... quantum mechanics is that for every observable A, there corresponds a linear Hermitian operator A^, and when we measure the observable A, we get an ...\n\n[5] quantum mechanics - Eigenvalue for the creation operator for a\nURL: https://physics.stackexchange.com/questions/205981/eigenvalue-for-the-creation-operator-for-a-coherent-state\nSnippet: ... like to emphasize something that the OP does not seem to know and that is that the creation operator has no eigenvectors (nor, therefore, eigenvalues ...",
+      "results": [
+        {
+          "title": "quantum mechanics - How come the eigenvalues of the Hamiltonian",
+          "url": "https://physics.stackexchange.com/questions/537755/how-come-the-eigenvalues-of-the-hamiltonian-represent-energy-levels-when-the-ham",
+          "domain": "physics.stackexchange.com",
+          "snippet": "How do we know that the stationary states and corresponding eigenvalues of a quantum system forms a probability distribution?"
+        },
+        {
+          "title": "quantum mechanics - Observables in QM, are they the eigenvalues",
+          "url": "https://physics.stackexchange.com/questions/685869/observables-in-qm-are-they-the-eigenvalues-or-the-elements-of-the-spectrum",
+          "domain": "physics.stackexchange.com",
+          "snippet": "which of the two is it? When we measure something in quantum mechanics are we measuring the eigenvalues or the spectrum?"
+        },
+        {
+          "title": "Relevance of eigenvalues in quantum measurement - Physics Stack",
+          "url": "https://physics.stackexchange.com/questions/289475/relevance-of-eigenvalues-in-quantum-measurement",
+          "domain": "physics.stackexchange.com",
+          "snippet": "The eigenvalues become relevant once you employ some sort of the quantum correspondence principle , like Weyl quantization."
+        },
+        {
+          "title": "operators - Why do we use eigenvalues to represent observed",
+          "url": "https://physics.stackexchange.com/questions/583835/why-do-we-use-eigenvalues-to-represent-observed-values-in-quantum-mechanics",
+          "domain": "physics.stackexchange.com",
+          "snippet": "... quantum mechanics is that for every observable A, there corresponds a linear Hermitian operator A^, and when we measure the observable A, we get an ..."
+        },
+        {
+          "title": "quantum mechanics - Eigenvalue for the creation operator for a",
+          "url": "https://physics.stackexchange.com/questions/205981/eigenvalue-for-the-creation-operator-for-a-coherent-state",
+          "domain": "physics.stackexchange.com",
+          "snippet": "... like to emphasize something that the OP does not seem to know and that is that the creation operator has no eigenvectors (nor, therefore, eigenvalues ..."
+        }
+      ],
+      "urls": [
+        "https://physics.stackexchange.com/questions/537755/how-come-the-eigenvalues-of-the-hamiltonian-represent-energy-levels-when-the-ham",
+        "https://physics.stackexchange.com/questions/685869/observables-in-qm-are-they-the-eigenvalues-or-the-elements-of-the-spectrum",
+        "https://physics.stackexchange.com/questions/289475/relevance-of-eigenvalues-in-quantum-measurement",
+        "https://physics.stackexchange.com/questions/583835/why-do-we-use-eigenvalues-to-represent-observed-values-in-quantum-mechanics",
+        "https://physics.stackexchange.com/questions/205981/eigenvalue-for-the-creation-operator-for-a-coherent-state"
+      ],
+      "attempt_count": 1,
+      "searched_at": "2026-05-05_14-53-06",
+      "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
+    },
+    "C003": {
+      "claim": "Eigenvalues are foundational to both linear algebra and quantum mechanics, representing measurable physical quantities.",
+      "search_attempts": [
+        {
+          "status": "ok",
+          "query": "eigenvalues quantum mechanics textbook",
+          "results": [
+            {
+              "title": "Mathematics for Quantum Mechanics: An Introductory Survey of ...Lecture notes, Chapter 2. Introduction to Quantum Mechanics1 The foundations of quantum mechanics - Stanford UniversityImages3.8: Eigenstates and Eigenvalues - Physics LibreTextsEigenvalues and eigenvectors - Mathematics for Quantum PhysicsCHM 305 - Lecture 5 - Quantum Operators and EigenfunctionsQuantum Theory, Groups and Representations: An Introduction",
+              "url": "https://www.amazon.com/Mathematics-Quantum-Mechanics-Introductory-Eigenvalues/dp/0486453081",
+              "domain": "amazon.com",
+              "snippet": "Oct 6, 2006 · Concise in its presentation, this text covers eigenvalue problems in classical physics, orthogonal functions and expansions, the Sturm-Liouville theory and linear operators on functions, and linear vector spaces. In the same way as classical mechanics is founded on Newton’s laws or electrodynamics on the Maxwell-Boltzmann equations, quantum mechanics is also based on some fundamental laws, which are called the postulates or axioms of quantum mechanics. the foundations of quantum mechanics. The postulates we use as a basis for quantum mechanics are by no means the most subtle that have been devised, but they ar View all Mar 13, 2026 · This page explains eigenstates and eigenvalues of Hermitian operators in quantum mechanics, where eigenstates remain proportional after the operator acts on them, and eigenvalues are real. We can now extend the ideas of eigenvalue equations from linear algebra to the case of quantum mechanics. The starting point is the eigenvalue equation for the operator , where the vector state is the eigenvector of the equation and is the corresponding eigenvalue, in general a complex scalar. In quantum mechanics, eigenvalues are always real and represent measurable values of the observable. Using the Hamiltonian operator as an example, our observable is energy and the eigenvalue En represents the energy of the system when it is in the ψn(x) eigenstate (or stationary state). The intent was to cover the basics of quantum mechanics, up to and including relativistic quantum field theory of free fields, from a point of view emphasizing the role of unitary representations of Lie groups in the foundations of the subject."
+            },
+            {
+              "title": "Lecture notes, Chapter 2. Introduction to Quantum Mechanics",
+              "url": "https://ocw.mit.edu/courses/22-02-introduction-to-applied-nuclear-physics-spring-2012/0456d26b0767e6aab3bace1e6f86d78b_MIT22_02S12_lec_ch2.pdf",
+              "domain": "ocw.mit.edu",
+              "snippet": "In the same way as classical mechanics is founded on Newton’s laws or electrodynamics on the Maxwell-Boltzmann equations, quantum mechanics is also based on some fundamental laws, which are called the postulates or axioms of quantum mechanics."
+            },
+            {
+              "title": "1 The foundations of quantum mechanics - Stanford University",
+              "url": "https://web.stanford.edu/~oas/SI/QM/atkins_mqm_ch01.pdf",
+              "domain": "web.stanford.edu",
+              "snippet": "the foundations of quantum mechanics. The postulates we use as a basis for quantum mechanics are by no means the most subtle that have been devised, but they ar"
+            },
+            {
+              "title": "3.8: Eigenstates and Eigenvalues - Physics LibreTexts",
+              "url": "https://phys.libretexts.org/Bookshelves/Quantum_Mechanics/Introductory_Quantum_Mechanics_(Fitzpatrick)/03:_Fundamentals_of_Quantum_Mechanics/3.08:_Eigenstates_and_Eigenvalues",
+              "domain": "phys.libretexts.org",
+              "snippet": "Mar 13, 2026 · This page explains eigenstates and eigenvalues of Hermitian operators in quantum mechanics, where eigenstates remain proportional after the operator acts on them, and eigenvalues are real."
+            },
+            {
+              "title": "Eigenvalues and eigenvectors - Mathematics for Quantum Physics",
+              "url": "https://mathforquantum.quantumtinkerer.tudelft.nl/6_eigenvectors_QM/",
+              "domain": "mathforquantum.quantumtinkerer.tudelft.nl",
+              "snippet": "We can now extend the ideas of eigenvalue equations from linear algebra to the case of quantum mechanics. The starting point is the eigenvalue equation for the operator , where the vector state is the eigenvector of the equation and is the corresponding eigenvalue, in general a complex scalar."
+            }
+          ],
+          "urls": [
+            "https://www.amazon.com/Mathematics-Quantum-Mechanics-Introductory-Eigenvalues/dp/0486453081",
+            "https://ocw.mit.edu/courses/22-02-introduction-to-applied-nuclear-physics-spring-2012/0456d26b0767e6aab3bace1e6f86d78b_MIT22_02S12_lec_ch2.pdf",
+            "https://web.stanford.edu/~oas/SI/QM/atkins_mqm_ch01.pdf",
+            "https://phys.libretexts.org/Bookshelves/Quantum_Mechanics/Introductory_Quantum_Mechanics_(Fitzpatrick)/03:_Fundamentals_of_Quantum_Mechanics/3.08:_Eigenstates_and_Eigenvalues",
+            "https://mathforquantum.quantumtinkerer.tudelft.nl/6_eigenvectors_QM/"
+          ],
+          "result_snippet": "[1] Mathematics for Quantum Mechanics: An Introductory Survey of ...Lecture notes, Chapter 2. Introduction to Quantum Mechanics1 The foundations of quantum mechanics - Stanford UniversityImages3.8: Eigenstates and Eigenvalues - Physics LibreTextsEigenvalues and eigenvectors - Mathematics for Quantum PhysicsCHM 305 - Lecture 5 - Quantum Operators and EigenfunctionsQuantum Theory, Groups and Representations: An Introduction\nURL: https://www.amazon.com/Mathematics-Quantum-Mechanics-Introductory-Eigenvalues/dp/0486453081\nSnippet: Oct 6, 2006 · Concise in its presentation, this text covers eigenvalue problems in classical physics, orthogonal functions and expansions, the Sturm-Liouville theory and linear operators on functions, and linear vector spaces. In the same way as classical mechanics is founded on Newton’s laws or electrodynamics on the Maxwell-Boltzmann equations, quantum mechanics is also based on some fundamental laws, which are called the postulates or axioms of quantum mechanics. the foundations of quantum mechanics. The postulates we use as a basis for quantum mechanics are by no means the most subtle that have been devised, but they ar View all Mar 13, 2026 · This page explains eigenstates and eigenvalues of Hermitian operators in quantum mechanics, where eigenstates remain proportional after the operator acts on them, and eigenvalues are real. We can now extend the ideas of eigenvalue equations from linear algebra to the case of quantum mechanics. The starting point is the eigenvalue equation for the operator , where the vector state is the eigenvector of the equation and is the corresponding eigenvalue, in general a complex scalar. In quantum mechanics, eigenvalues are always real and represent measurable values of the observable. Using the Hamiltonian opera\n\n...[TRUNCATED]...\n\nheory of free fields, from a point of view emphasizing the role of unitary representations of Lie groups in the foundations of the subject.\n\n[2] Lecture notes, Chapter 2. Introduction to Quantum Mechanics\nURL: https://ocw.mit.edu/courses/22-02-introduction-to-applied-nuclear-physics-spring-2012/0456d26b0767e6aab3bace1e6f86d78b_MIT22_02S12_lec_ch2.pdf\nSnippet: In the same way as classical mechanics is founded on Newton’s laws or electrodynamics on the Maxwell-Boltzmann equations, quantum mechanics is also based on some fundamental laws, which are called the postulates or axioms of quantum mechanics.\n\n[3] 1 The foundations of quantum mechanics - Stanford University\nURL: https://web.stanford.edu/~oas/SI/QM/atkins_mqm_ch01.pdf\nSnippet: the foundations of quantum mechanics. The postulates we use as a basis for quantum mechanics are by no means the most subtle that have been devised, but they ar\n\n[4] 3.8: Eigenstates and Eigenvalues - Physics LibreTexts\nURL: https://phys.libretexts.org/Bookshelves/Quantum_Mechanics/Introductory_Quantum_Mechanics_(Fitzpatrick)/03:_Fundamentals_of_Quantum_Mechanics/3.08:_Eigenstates_and_Eigenvalues\nSnippet: Mar 13, 2026 · This page explains eigenstates and eigenvalues of Hermitian operators in quantum mechanics, where eigenstates remain proportional after the operator acts on them, and eigenvalues are real.\n\n[5] Eigenvalues and eigenvectors - Mathematics for Quantum Physics\nURL: https://mathforquantum.quantumtinkerer.tudelft.nl/6_eigenvectors_QM/\nSnippet: We can now extend the ideas of eigenvalue equations from linear algebra to the case of quantum mechanics. The starting point is the eigenvalue equation for the operator , where the vector state is the eigenvector of the equation and is the corresponding eigenvalue, in general a complex scalar.",
+          "searched_at": "2026-05-05_14-53-07",
+          "attempt_number": 1
+        }
+      ],
+      "query": "eigenvalues quantum mechanics textbook",
+      "search_status": "ok",
+      "result_snippet": "[1] Mathematics for Quantum Mechanics: An Introductory Survey of ...Lecture notes, Chapter 2. Introduction to Quantum Mechanics1 The foundations of quantum mechanics - Stanford UniversityImages3.8: Eigenstates and Eigenvalues - Physics LibreTextsEigenvalues and eigenvectors - Mathematics for Quantum PhysicsCHM 305 - Lecture 5 - Quantum Operators and EigenfunctionsQuantum Theory, Groups and Representations: An Introduction\nURL: https://www.amazon.com/Mathematics-Quantum-Mechanics-Introductory-Eigenvalues/dp/0486453081\nSnippet: Oct 6, 2006 · Concise in its presentation, this text covers eigenvalue problems in classical physics, orthogonal functions and expansions, the Sturm-Liouville theory and linear operators on functions, and linear vector spaces. In the same way as classical mechanics is founded on Newton’s laws or electrodynamics on the Maxwell-Boltzmann equations, quantum mechanics is also based on some fundamental laws, which are called the postulates or axioms of quantum mechanics. the foundations of quantum mechanics. The postulates we use as a basis for quantum mechanics are by no means the most subtle that have been devised, but they ar View all Mar 13, 2026 · This page explains eigenstates and eigenvalues of Hermitian operators in quantum mechanics, where eigenstates remain proportional after the operator acts on them, and eigenvalues are real. We can now extend the ideas of eigenvalue equations from linear algebra to the case of quantum mechanics. The starting point is the eigenvalue equation for the operator , where the vector state is the eigenvector of the equation and is the corresponding eigenvalue, in general a complex scalar. In quantum mechanics, eigenvalues are always real and represent measurable values of the observable. Using the Hamiltonian opera\n\n...[TRUNCATED]...\n\nheory of free fields, from a point of view emphasizing the role of unitary representations of Lie groups in the foundations of the subject.\n\n[2] Lecture notes, Chapter 2. Introduction to Quantum Mechanics\nURL: https://ocw.mit.edu/courses/22-02-introduction-to-applied-nuclear-physics-spring-2012/0456d26b0767e6aab3bace1e6f86d78b_MIT22_02S12_lec_ch2.pdf\nSnippet: In the same way as classical mechanics is founded on Newton’s laws or electrodynamics on the Maxwell-Boltzmann equations, quantum mechanics is also based on some fundamental laws, which are called the postulates or axioms of quantum mechanics.\n\n[3] 1 The foundations of quantum mechanics - Stanford University\nURL: https://web.stanford.edu/~oas/SI/QM/atkins_mqm_ch01.pdf\nSnippet: the foundations of quantum mechanics. The postulates we use as a basis for quantum mechanics are by no means the most subtle that have been devised, but they ar\n\n[4] 3.8: Eigenstates and Eigenvalues - Physics LibreTexts\nURL: https://phys.libretexts.org/Bookshelves/Quantum_Mechanics/Introductory_Quantum_Mechanics_(Fitzpatrick)/03:_Fundamentals_of_Quantum_Mechanics/3.08:_Eigenstates_and_Eigenvalues\nSnippet: Mar 13, 2026 · This page explains eigenstates and eigenvalues of Hermitian operators in quantum mechanics, where eigenstates remain proportional after the operator acts on them, and eigenvalues are real.\n\n[5] Eigenvalues and eigenvectors - Mathematics for Quantum Physics\nURL: https://mathforquantum.quantumtinkerer.tudelft.nl/6_eigenvectors_QM/\nSnippet: We can now extend the ideas of eigenvalue equations from linear algebra to the case of quantum mechanics. The starting point is the eigenvalue equation for the operator , where the vector state is the eigenvector of the equation and is the corresponding eigenvalue, in general a complex scalar.",
+      "results": [
+        {
+          "title": "Mathematics for Quantum Mechanics: An Introductory Survey of ...Lecture notes, Chapter 2. Introduction to Quantum Mechanics1 The foundations of quantum mechanics - Stanford UniversityImages3.8: Eigenstates and Eigenvalues - Physics LibreTextsEigenvalues and eigenvectors - Mathematics for Quantum PhysicsCHM 305 - Lecture 5 - Quantum Operators and EigenfunctionsQuantum Theory, Groups and Representations: An Introduction",
+          "url": "https://www.amazon.com/Mathematics-Quantum-Mechanics-Introductory-Eigenvalues/dp/0486453081",
+          "domain": "amazon.com",
+          "snippet": "Oct 6, 2006 · Concise in its presentation, this text covers eigenvalue problems in classical physics, orthogonal functions and expansions, the Sturm-Liouville theory and linear operators on functions, and linear vector spaces. In the same way as classical mechanics is founded on Newton’s laws or electrodynamics on the Maxwell-Boltzmann equations, quantum mechanics is also based on some fundamental laws, which are called the postulates or axioms of quantum mechanics. the foundations of quantum mechanics. The postulates we use as a basis for quantum mechanics are by no means the most subtle that have been devised, but they ar View all Mar 13, 2026 · This page explains eigenstates and eigenvalues of Hermitian operators in quantum mechanics, where eigenstates remain proportional after the operator acts on them, and eigenvalues are real. We can now extend the ideas of eigenvalue equations from linear algebra to the case of quantum mechanics. The starting point is the eigenvalue equation for the operator , where the vector state is the eigenvector of the equation and is the corresponding eigenvalue, in general a complex scalar. In quantum mechanics, eigenvalues are always real and represent measurable values of the observable. Using the Hamiltonian operator as an example, our observable is energy and the eigenvalue En represents the energy of the system when it is in the ψn(x) eigenstate (or stationary state). The intent was to cover the basics of quantum mechanics, up to and including relativistic quantum field theory of free fields, from a point of view emphasizing the role of unitary representations of Lie groups in the foundations of the subject."
+        },
+        {
+          "title": "Lecture notes, Chapter 2. Introduction to Quantum Mechanics",
+          "url": "https://ocw.mit.edu/courses/22-02-introduction-to-applied-nuclear-physics-spring-2012/0456d26b0767e6aab3bace1e6f86d78b_MIT22_02S12_lec_ch2.pdf",
+          "domain": "ocw.mit.edu",
+          "snippet": "In the same way as classical mechanics is founded on Newton’s laws or electrodynamics on the Maxwell-Boltzmann equations, quantum mechanics is also based on some fundamental laws, which are called the postulates or axioms of quantum mechanics."
+        },
+        {
+          "title": "1 The foundations of quantum mechanics - Stanford University",
+          "url": "https://web.stanford.edu/~oas/SI/QM/atkins_mqm_ch01.pdf",
+          "domain": "web.stanford.edu",
+          "snippet": "the foundations of quantum mechanics. The postulates we use as a basis for quantum mechanics are by no means the most subtle that have been devised, but they ar"
+        },
+        {
+          "title": "3.8: Eigenstates and Eigenvalues - Physics LibreTexts",
+          "url": "https://phys.libretexts.org/Bookshelves/Quantum_Mechanics/Introductory_Quantum_Mechanics_(Fitzpatrick)/03:_Fundamentals_of_Quantum_Mechanics/3.08:_Eigenstates_and_Eigenvalues",
+          "domain": "phys.libretexts.org",
+          "snippet": "Mar 13, 2026 · This page explains eigenstates and eigenvalues of Hermitian operators in quantum mechanics, where eigenstates remain proportional after the operator acts on them, and eigenvalues are real."
+        },
+        {
+          "title": "Eigenvalues and eigenvectors - Mathematics for Quantum Physics",
+          "url": "https://mathforquantum.quantumtinkerer.tudelft.nl/6_eigenvectors_QM/",
+          "domain": "mathforquantum.quantumtinkerer.tudelft.nl",
+          "snippet": "We can now extend the ideas of eigenvalue equations from linear algebra to the case of quantum mechanics. The starting point is the eigenvalue equation for the operator , where the vector state is the eigenvector of the equation and is the corresponding eigenvalue, in general a complex scalar."
+        }
+      ],
+      "urls": [
+        "https://www.amazon.com/Mathematics-Quantum-Mechanics-Introductory-Eigenvalues/dp/0486453081",
+        "https://ocw.mit.edu/courses/22-02-introduction-to-applied-nuclear-physics-spring-2012/0456d26b0767e6aab3bace1e6f86d78b_MIT22_02S12_lec_ch2.pdf",
+        "https://web.stanford.edu/~oas/SI/QM/atkins_mqm_ch01.pdf",
+        "https://phys.libretexts.org/Bookshelves/Quantum_Mechanics/Introductory_Quantum_Mechanics_(Fitzpatrick)/03:_Fundamentals_of_Quantum_Mechanics/3.08:_Eigenstates_and_Eigenvalues",
+        "https://mathforquantum.quantumtinkerer.tudelft.nl/6_eigenvectors_QM/"
+      ],
+      "attempt_count": 1,
+      "searched_at": "2026-05-05_14-53-07",
+      "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
+    },
+    "C004": {
+      "claim": "Eigenvalues simplify complex systems by focusing on special directions where transformations act purely as scalars.",
+      "search_attempts": [
+        {
+          "status": "ok",
+          "query": "eigenvalues simplifying physical systems",
+          "results": [
+            {
+              "title": "linear algebra - What are the eigenvalues of a tridiagonal",
+              "url": "https://math.stackexchange.com/questions/4824944/what-are-the-eigenvalues-of-a-tridiagonal-toeplitz-matrix",
+              "domain": "math.stackexchange.com",
+              "snippet": "The matrix you've written is lower triangular, and the eigenvalues of triangular matrices are just their diagonal entries."
+            },
+            {
+              "title": "Eigenvalues dependent on choice of $\\vec{A}$? • Physics",
+              "url": "https://www.physicsforums.com/threads/eigenvalues-dependent-on-choice-of-vec-a.956697/",
+              "domain": "physicsforums.com",
+              "snippet": "The discussion revolves around calculating the eigenvalues of the Pauli Hamiltonian for a particle with spin s=1/2 in two different vector potentials ..."
+            },
+            {
+              "title": "Matrices and Linear Algebra for Physics (Systems + Eigenvalues)",
+              "url": "https://www.miniphysics.com/matrices-and-linear-algebra.html",
+              "domain": "miniphysics.com",
+              "snippet": "You’ll often solve systems like this when you resolve vectors into ... Frequencies (from eigenvalues) are the physically measurable part."
+            },
+            {
+              "title": "Fourier Series and Systems of Differential Equations and",
+              "url": "https://www.e-booksdirectory.com/details.php?ebook=3486",
+              "domain": "e-booksdirectory.com",
+              "snippet": "... volume the author gives some guidelines for solving problems in the theories of Fourier series and Systems of Differential Equations and eigenvalue ..."
+            },
+            {
+              "title": "Minimization of the first eigenvalue for the Lamé system",
+              "url": "https://arxiv.org/html/2412.06437v2",
+              "domain": "arxiv.org",
+              "snippet": "... first eigenvalue of the Lamé system ... The question of minimizing or maximizing the first eigenvalue in the case of systems is far less understood."
+            }
+          ],
+          "urls": [
+            "https://math.stackexchange.com/questions/4824944/what-are-the-eigenvalues-of-a-tridiagonal-toeplitz-matrix",
+            "https://www.physicsforums.com/threads/eigenvalues-dependent-on-choice-of-vec-a.956697/",
+            "https://www.miniphysics.com/matrices-and-linear-algebra.html",
+            "https://www.e-booksdirectory.com/details.php?ebook=3486",
+            "https://arxiv.org/html/2412.06437v2"
+          ],
+          "result_snippet": "[1] linear algebra - What are the eigenvalues of a tridiagonal\nURL: https://math.stackexchange.com/questions/4824944/what-are-the-eigenvalues-of-a-tridiagonal-toeplitz-matrix\nSnippet: The matrix you've written is lower triangular, and the eigenvalues of triangular matrices are just their diagonal entries.\n\n[2] Eigenvalues dependent on choice of $\\vec{A}$? • Physics\nURL: https://www.physicsforums.com/threads/eigenvalues-dependent-on-choice-of-vec-a.956697/\nSnippet: The discussion revolves around calculating the eigenvalues of the Pauli Hamiltonian for a particle with spin s=1/2 in two different vector potentials ...\n\n[3] Matrices and Linear Algebra for Physics (Systems + Eigenvalues)\nURL: https://www.miniphysics.com/matrices-and-linear-algebra.html\nSnippet: You’ll often solve systems like this when you resolve vectors into ... Frequencies (from eigenvalues) are the physically measurable part.\n\n[4] Fourier Series and Systems of Differential Equations and\nURL: https://www.e-booksdirectory.com/details.php?ebook=3486\nSnippet: ... volume the author gives some guidelines for solving problems in the theories of Fourier series and Systems of Differential Equations and eigenvalue ...\n\n[5] Minimization of the first eigenvalue for the Lamé system\nURL: https://arxiv.org/html/2412.06437v2\nSnippet: ... first eigenvalue of the Lamé system ... The question of minimizing or maximizing the first eigenvalue in the case of systems is far less understood.",
+          "searched_at": "2026-05-05_15-01-14",
+          "attempt_number": 1
+        }
+      ],
+      "query": "eigenvalues simplifying physical systems",
+      "search_status": "ok",
+      "result_snippet": "[1] linear algebra - What are the eigenvalues of a tridiagonal\nURL: https://math.stackexchange.com/questions/4824944/what-are-the-eigenvalues-of-a-tridiagonal-toeplitz-matrix\nSnippet: The matrix you've written is lower triangular, and the eigenvalues of triangular matrices are just their diagonal entries.\n\n[2] Eigenvalues dependent on choice of $\\vec{A}$? • Physics\nURL: https://www.physicsforums.com/threads/eigenvalues-dependent-on-choice-of-vec-a.956697/\nSnippet: The discussion revolves around calculating the eigenvalues of the Pauli Hamiltonian for a particle with spin s=1/2 in two different vector potentials ...\n\n[3] Matrices and Linear Algebra for Physics (Systems + Eigenvalues)\nURL: https://www.miniphysics.com/matrices-and-linear-algebra.html\nSnippet: You’ll often solve systems like this when you resolve vectors into ... Frequencies (from eigenvalues) are the physically measurable part.\n\n[4] Fourier Series and Systems of Differential Equations and\nURL: https://www.e-booksdirectory.com/details.php?ebook=3486\nSnippet: ... volume the author gives some guidelines for solving problems in the theories of Fourier series and Systems of Differential Equations and eigenvalue ...\n\n[5] Minimization of the first eigenvalue for the Lamé system\nURL: https://arxiv.org/html/2412.06437v2\nSnippet: ... first eigenvalue of the Lamé system ... The question of minimizing or maximizing the first eigenvalue in the case of systems is far less understood.",
+      "results": [
+        {
+          "title": "linear algebra - What are the eigenvalues of a tridiagonal",
+          "url": "https://math.stackexchange.com/questions/4824944/what-are-the-eigenvalues-of-a-tridiagonal-toeplitz-matrix",
+          "domain": "math.stackexchange.com",
+          "snippet": "The matrix you've written is lower triangular, and the eigenvalues of triangular matrices are just their diagonal entries."
+        },
+        {
+          "title": "Eigenvalues dependent on choice of $\\vec{A}$? • Physics",
+          "url": "https://www.physicsforums.com/threads/eigenvalues-dependent-on-choice-of-vec-a.956697/",
+          "domain": "physicsforums.com",
+          "snippet": "The discussion revolves around calculating the eigenvalues of the Pauli Hamiltonian for a particle with spin s=1/2 in two different vector potentials ..."
+        },
+        {
+          "title": "Matrices and Linear Algebra for Physics (Systems + Eigenvalues)",
+          "url": "https://www.miniphysics.com/matrices-and-linear-algebra.html",
+          "domain": "miniphysics.com",
+          "snippet": "You’ll often solve systems like this when you resolve vectors into ... Frequencies (from eigenvalues) are the physically measurable part."
+        },
+        {
+          "title": "Fourier Series and Systems of Differential Equations and",
+          "url": "https://www.e-booksdirectory.com/details.php?ebook=3486",
+          "domain": "e-booksdirectory.com",
+          "snippet": "... volume the author gives some guidelines for solving problems in the theories of Fourier series and Systems of Differential Equations and eigenvalue ..."
+        },
+        {
+          "title": "Minimization of the first eigenvalue for the Lamé system",
+          "url": "https://arxiv.org/html/2412.06437v2",
+          "domain": "arxiv.org",
+          "snippet": "... first eigenvalue of the Lamé system ... The question of minimizing or maximizing the first eigenvalue in the case of systems is far less understood."
+        }
+      ],
+      "urls": [
+        "https://math.stackexchange.com/questions/4824944/what-are-the-eigenvalues-of-a-tridiagonal-toeplitz-matrix",
+        "https://www.physicsforums.com/threads/eigenvalues-dependent-on-choice-of-vec-a.956697/",
+        "https://www.miniphysics.com/matrices-and-linear-algebra.html",
+        "https://www.e-booksdirectory.com/details.php?ebook=3486",
+        "https://arxiv.org/html/2412.06437v2"
+      ],
+      "attempt_count": 1,
+      "searched_at": "2026-05-05_15-01-14",
+      "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
+    },
+    "C005": {
+      "claim": "In mechanical systems, stress tensors use eigenvalues to determine principal stresses and force directions.",
+      "search_attempts": [
+        {
+          "status": "ok",
+          "query": "stress tensor eigenvalues materials science",
+          "results": [
+            {
+              "title": "Cauchy stress tensor - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Cauchy_stress_tensor",
+              "domain": "en.wikipedia.org",
+              "snippet": "... momentum , if the continuum body is in static equilibrium it can be demonstrated that the components of the Cauchy stress tensor in every material ..."
+            },
+            {
+              "title": "Stress (mechanics) - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Stress_(mechanics)",
+              "domain": "en.wikipedia.org",
+              "snippet": "For stresses in material science, see Strength of materials . ... Any strain (deformation) of a solid material generates an internal elastic stress ..."
+            },
+            {
+              "title": "condensed matter - Hydrostatic stress and principal stress",
+              "url": "https://physics.stackexchange.com/questions/518038/hydrostatic-stress-and-principal-stress-relation-and-eigenvalue-calculation",
+              "domain": "physics.stackexchange.com",
+              "snippet": "The premise of your question is wrong: The trace of the stress tensor is not (in general) one of the eigenvalues. ... stress tensor $\\sigma$ is ..."
+            },
+            {
+              "title": "Stress-wave energy management through material anisotropy",
+              "url": "https://paperzz.com/doc/9278114/stress-wave-energy-management-through-material-anisotropy",
+              "domain": "paperzz.com",
+              "snippet": "... eigenvalues of the elasticity tensor vanish in PM and therefore it can be strained in 5 independent modes without producing any stress which causes ..."
+            },
+            {
+              "title": "mathoverflow.net/questions/496235/inverse-of-a-fourth-order-tensor-and-derivative-of-a-tensor-with-respect-to-anot",
+              "url": "https://mathoverflow.net/questions/496235/inverse-of-a-fourth-order-tensor-and-derivative-of-a-tensor-with-respect-to-anot",
+              "domain": "mathoverflow.net",
+              "snippet": ""
+            }
+          ],
+          "urls": [
+            "https://en.wikipedia.org/wiki/Cauchy_stress_tensor",
+            "https://en.wikipedia.org/wiki/Stress_(mechanics)",
+            "https://physics.stackexchange.com/questions/518038/hydrostatic-stress-and-principal-stress-relation-and-eigenvalue-calculation",
+            "https://paperzz.com/doc/9278114/stress-wave-energy-management-through-material-anisotropy",
+            "https://mathoverflow.net/questions/496235/inverse-of-a-fourth-order-tensor-and-derivative-of-a-tensor-with-respect-to-anot"
+          ],
+          "result_snippet": "[1] Cauchy stress tensor - Wikipedia\nURL: https://en.wikipedia.org/wiki/Cauchy_stress_tensor\nSnippet: ... momentum , if the continuum body is in static equilibrium it can be demonstrated that the components of the Cauchy stress tensor in every material ...\n\n[2] Stress (mechanics) - Wikipedia\nURL: https://en.wikipedia.org/wiki/Stress_(mechanics)\nSnippet: For stresses in material science, see Strength of materials . ... Any strain (deformation) of a solid material generates an internal elastic stress ...\n\n[3] condensed matter - Hydrostatic stress and principal stress\nURL: https://physics.stackexchange.com/questions/518038/hydrostatic-stress-and-principal-stress-relation-and-eigenvalue-calculation\nSnippet: The premise of your question is wrong: The trace of the stress tensor is not (in general) one of the eigenvalues. ... stress tensor $\\sigma$ is ...\n\n[4] Stress-wave energy management through material anisotropy\nURL: https://paperzz.com/doc/9278114/stress-wave-energy-management-through-material-anisotropy\nSnippet: ... eigenvalues of the elasticity tensor vanish in PM and therefore it can be strained in 5 independent modes without producing any stress which causes ...\n\n[5] mathoverflow.net/questions/496235/inverse-of-a-fourth-order-tensor-and-derivative-of-a-tensor-with-respect-to-anot\nURL: https://mathoverflow.net/questions/496235/inverse-of-a-fourth-order-tensor-and-derivative-of-a-tensor-with-respect-to-anot\nSnippet: ",
+          "searched_at": "2026-05-05_15-01-18",
+          "attempt_number": 1
+        }
+      ],
+      "query": "stress tensor eigenvalues materials science",
+      "search_status": "ok",
+      "result_snippet": "[1] Cauchy stress tensor - Wikipedia\nURL: https://en.wikipedia.org/wiki/Cauchy_stress_tensor\nSnippet: ... momentum , if the continuum body is in static equilibrium it can be demonstrated that the components of the Cauchy stress tensor in every material ...\n\n[2] Stress (mechanics) - Wikipedia\nURL: https://en.wikipedia.org/wiki/Stress_(mechanics)\nSnippet: For stresses in material science, see Strength of materials . ... Any strain (deformation) of a solid material generates an internal elastic stress ...\n\n[3] condensed matter - Hydrostatic stress and principal stress\nURL: https://physics.stackexchange.com/questions/518038/hydrostatic-stress-and-principal-stress-relation-and-eigenvalue-calculation\nSnippet: The premise of your question is wrong: The trace of the stress tensor is not (in general) one of the eigenvalues. ... stress tensor $\\sigma$ is ...\n\n[4] Stress-wave energy management through material anisotropy\nURL: https://paperzz.com/doc/9278114/stress-wave-energy-management-through-material-anisotropy\nSnippet: ... eigenvalues of the elasticity tensor vanish in PM and therefore it can be strained in 5 independent modes without producing any stress which causes ...\n\n[5] mathoverflow.net/questions/496235/inverse-of-a-fourth-order-tensor-and-derivative-of-a-tensor-with-respect-to-anot\nURL: https://mathoverflow.net/questions/496235/inverse-of-a-fourth-order-tensor-and-derivative-of-a-tensor-with-respect-to-anot\nSnippet: ",
+      "results": [
+        {
+          "title": "Cauchy stress tensor - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Cauchy_stress_tensor",
+          "domain": "en.wikipedia.org",
+          "snippet": "... momentum , if the continuum body is in static equilibrium it can be demonstrated that the components of the Cauchy stress tensor in every material ..."
+        },
+        {
+          "title": "Stress (mechanics) - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Stress_(mechanics)",
+          "domain": "en.wikipedia.org",
+          "snippet": "For stresses in material science, see Strength of materials . ... Any strain (deformation) of a solid material generates an internal elastic stress ..."
+        },
+        {
+          "title": "condensed matter - Hydrostatic stress and principal stress",
+          "url": "https://physics.stackexchange.com/questions/518038/hydrostatic-stress-and-principal-stress-relation-and-eigenvalue-calculation",
+          "domain": "physics.stackexchange.com",
+          "snippet": "The premise of your question is wrong: The trace of the stress tensor is not (in general) one of the eigenvalues. ... stress tensor $\\sigma$ is ..."
+        },
+        {
+          "title": "Stress-wave energy management through material anisotropy",
+          "url": "https://paperzz.com/doc/9278114/stress-wave-energy-management-through-material-anisotropy",
+          "domain": "paperzz.com",
+          "snippet": "... eigenvalues of the elasticity tensor vanish in PM and therefore it can be strained in 5 independent modes without producing any stress which causes ..."
+        },
+        {
+          "title": "mathoverflow.net/questions/496235/inverse-of-a-fourth-order-tensor-and-derivative-of-a-tensor-with-respect-to-anot",
+          "url": "https://mathoverflow.net/questions/496235/inverse-of-a-fourth-order-tensor-and-derivative-of-a-tensor-with-respect-to-anot",
+          "domain": "mathoverflow.net",
+          "snippet": ""
+        }
+      ],
+      "urls": [
+        "https://en.wikipedia.org/wiki/Cauchy_stress_tensor",
+        "https://en.wikipedia.org/wiki/Stress_(mechanics)",
+        "https://physics.stackexchange.com/questions/518038/hydrostatic-stress-and-principal-stress-relation-and-eigenvalue-calculation",
+        "https://paperzz.com/doc/9278114/stress-wave-energy-management-through-material-anisotropy",
+        "https://mathoverflow.net/questions/496235/inverse-of-a-fourth-order-tensor-and-derivative-of-a-tensor-with-respect-to-anot"
+      ],
+      "attempt_count": 1,
+      "searched_at": "2026-05-05_15-01-18",
+      "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
+    },
+    "C006": {
+      "claim": "Eigenvalues determine natural frequencies in vibrational systems, such as guitar string modes.",
+      "search_attempts": [
+        {
+          "status": "ok",
+          "query": "vibrational modes eigenvalues",
+          "results": [
+            {
+              "title": "Eigen Modes vs Natural Vibrations - Karamba3D - McNeel Forum",
+              "url": "https://discourse.mcneel.com/t/eigen-modes-vs-natural-vibrations/179280",
+              "domain": "discourse.mcneel.com",
+              "snippet": "Hi, I’m trying to understand the difference between the Eigen Modes (EModes) component and the Natural Vibrations (NVibes) component and whether I ..."
+            },
+            {
+              "title": "Help finding the vibrational frequencies and normal modes",
+              "url": "https://www.physicsforums.com/threads/help-finding-the-vibrational-frequencies-and-normal-modes.908381/",
+              "domain": "physicsforums.com",
+              "snippet": "Let s say that I have a potential x) = \\beta (x^2-\\alpha ^2)^2 with minima at \\pm \\alpha I need to find the normal modes and vibrational frequencies."
+            },
+            {
+              "title": "eigenvalues - Computing real normal modes from complex",
+              "url": "https://scicomp.stackexchange.com/questions/30192/computing-real-normal-modes-from-complex-eigenvectors",
+              "domain": "scicomp.stackexchange.com",
+              "snippet": "In general, the modes associated with an eigenvalue and its eigenvector can be found as $$x_n(t)=e^{\\lambda_n t}\\,u_n$$ Now for the case of complex ..."
+            },
+            {
+              "title": "Understanding Cymbal Vibration Modes: The Principle of Sound",
+              "url": "https://arboreacymbal.com/understanding-cymbal-vibration-modes/",
+              "domain": "arboreacymbal.com",
+              "snippet": "... 2πa²)D/ρh), where D denotes flexural rigidity , ρ density, h thickness, a radius, and λₙₘ eigenvalues corresponding to mode indices n and m ..."
+            },
+            {
+              "title": "vibrations - Finding normal mode vectors vs. vibrational",
+              "url": "https://mattermodeling.stackexchange.com/questions/9465/finding-normal-mode-vectors-vs-vibrational-frequencies",
+              "domain": "mattermodeling.stackexchange.com",
+              "snippet": "... modes of vibration and the corresponding vibrational frequencies by calculating the molecular Hessian of second-order energy derivatives, and finding ..."
+            }
+          ],
+          "urls": [
+            "https://discourse.mcneel.com/t/eigen-modes-vs-natural-vibrations/179280",
+            "https://www.physicsforums.com/threads/help-finding-the-vibrational-frequencies-and-normal-modes.908381/",
+            "https://scicomp.stackexchange.com/questions/30192/computing-real-normal-modes-from-complex-eigenvectors",
+            "https://arboreacymbal.com/understanding-cymbal-vibration-modes/",
+            "https://mattermodeling.stackexchange.com/questions/9465/finding-normal-mode-vectors-vs-vibrational-frequencies"
+          ],
+          "result_snippet": "[1] Eigen Modes vs Natural Vibrations - Karamba3D - McNeel Forum\nURL: https://discourse.mcneel.com/t/eigen-modes-vs-natural-vibrations/179280\nSnippet: Hi, I’m trying to understand the difference between the Eigen Modes (EModes) component and the Natural Vibrations (NVibes) component and whether I ...\n\n[2] Help finding the vibrational frequencies and normal modes\nURL: https://www.physicsforums.com/threads/help-finding-the-vibrational-frequencies-and-normal-modes.908381/\nSnippet: Let s say that I have a potential x) = \\beta (x^2-\\alpha ^2)^2 with minima at \\pm \\alpha I need to find the normal modes and vibrational frequencies.\n\n[3] eigenvalues - Computing real normal modes from complex\nURL: https://scicomp.stackexchange.com/questions/30192/computing-real-normal-modes-from-complex-eigenvectors\nSnippet: In general, the modes associated with an eigenvalue and its eigenvector can be found as $$x_n(t)=e^{\\lambda_n t}\\,u_n$$ Now for the case of complex ...\n\n[4] Understanding Cymbal Vibration Modes: The Principle of Sound\nURL: https://arboreacymbal.com/understanding-cymbal-vibration-modes/\nSnippet: ... 2πa²)D/ρh), where D denotes flexural rigidity , ρ density, h thickness, a radius, and λₙₘ eigenvalues corresponding to mode indices n and m ...\n\n[5] vibrations - Finding normal mode vectors vs. vibrational\nURL: https://mattermodeling.stackexchange.com/questions/9465/finding-normal-mode-vectors-vs-vibrational-frequencies\nSnippet: ... modes of vibration and the corresponding vibrational frequencies by calculating the molecular Hessian of second-order energy derivatives, and finding ...",
+          "searched_at": "2026-05-05_15-09-29",
+          "attempt_number": 1
+        }
+      ],
+      "query": "vibrational modes eigenvalues",
+      "search_status": "ok",
+      "result_snippet": "[1] Eigen Modes vs Natural Vibrations - Karamba3D - McNeel Forum\nURL: https://discourse.mcneel.com/t/eigen-modes-vs-natural-vibrations/179280\nSnippet: Hi, I’m trying to understand the difference between the Eigen Modes (EModes) component and the Natural Vibrations (NVibes) component and whether I ...\n\n[2] Help finding the vibrational frequencies and normal modes\nURL: https://www.physicsforums.com/threads/help-finding-the-vibrational-frequencies-and-normal-modes.908381/\nSnippet: Let s say that I have a potential x) = \\beta (x^2-\\alpha ^2)^2 with minima at \\pm \\alpha I need to find the normal modes and vibrational frequencies.\n\n[3] eigenvalues - Computing real normal modes from complex\nURL: https://scicomp.stackexchange.com/questions/30192/computing-real-normal-modes-from-complex-eigenvectors\nSnippet: In general, the modes associated with an eigenvalue and its eigenvector can be found as $$x_n(t)=e^{\\lambda_n t}\\,u_n$$ Now for the case of complex ...\n\n[4] Understanding Cymbal Vibration Modes: The Principle of Sound\nURL: https://arboreacymbal.com/understanding-cymbal-vibration-modes/\nSnippet: ... 2πa²)D/ρh), where D denotes flexural rigidity , ρ density, h thickness, a radius, and λₙₘ eigenvalues corresponding to mode indices n and m ...\n\n[5] vibrations - Finding normal mode vectors vs. vibrational\nURL: https://mattermodeling.stackexchange.com/questions/9465/finding-normal-mode-vectors-vs-vibrational-frequencies\nSnippet: ... modes of vibration and the corresponding vibrational frequencies by calculating the molecular Hessian of second-order energy derivatives, and finding ...",
+      "results": [
+        {
+          "title": "Eigen Modes vs Natural Vibrations - Karamba3D - McNeel Forum",
+          "url": "https://discourse.mcneel.com/t/eigen-modes-vs-natural-vibrations/179280",
+          "domain": "discourse.mcneel.com",
+          "snippet": "Hi, I’m trying to understand the difference between the Eigen Modes (EModes) component and the Natural Vibrations (NVibes) component and whether I ..."
+        },
+        {
+          "title": "Help finding the vibrational frequencies and normal modes",
+          "url": "https://www.physicsforums.com/threads/help-finding-the-vibrational-frequencies-and-normal-modes.908381/",
+          "domain": "physicsforums.com",
+          "snippet": "Let s say that I have a potential x) = \\beta (x^2-\\alpha ^2)^2 with minima at \\pm \\alpha I need to find the normal modes and vibrational frequencies."
+        },
+        {
+          "title": "eigenvalues - Computing real normal modes from complex",
+          "url": "https://scicomp.stackexchange.com/questions/30192/computing-real-normal-modes-from-complex-eigenvectors",
+          "domain": "scicomp.stackexchange.com",
+          "snippet": "In general, the modes associated with an eigenvalue and its eigenvector can be found as $$x_n(t)=e^{\\lambda_n t}\\,u_n$$ Now for the case of complex ..."
+        },
+        {
+          "title": "Understanding Cymbal Vibration Modes: The Principle of Sound",
+          "url": "https://arboreacymbal.com/understanding-cymbal-vibration-modes/",
+          "domain": "arboreacymbal.com",
+          "snippet": "... 2πa²)D/ρh), where D denotes flexural rigidity , ρ density, h thickness, a radius, and λₙₘ eigenvalues corresponding to mode indices n and m ..."
+        },
+        {
+          "title": "vibrations - Finding normal mode vectors vs. vibrational",
+          "url": "https://mattermodeling.stackexchange.com/questions/9465/finding-normal-mode-vectors-vs-vibrational-frequencies",
+          "domain": "mattermodeling.stackexchange.com",
+          "snippet": "... modes of vibration and the corresponding vibrational frequencies by calculating the molecular Hessian of second-order energy derivatives, and finding ..."
+        }
+      ],
+      "urls": [
+        "https://discourse.mcneel.com/t/eigen-modes-vs-natural-vibrations/179280",
+        "https://www.physicsforums.com/threads/help-finding-the-vibrational-frequencies-and-normal-modes.908381/",
+        "https://scicomp.stackexchange.com/questions/30192/computing-real-normal-modes-from-complex-eigenvectors",
+        "https://arboreacymbal.com/understanding-cymbal-vibration-modes/",
+        "https://mattermodeling.stackexchange.com/questions/9465/finding-normal-mode-vectors-vs-vibrational-frequencies"
+      ],
+      "attempt_count": 1,
+      "searched_at": "2026-05-05_15-09-29",
+      "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
+    },
+    "C007": {
+      "claim": "Eigenvalues identify symmetry axes in rotational systems, such as a spinning top's rotation axis.",
+      "search_attempts": [
+        {
+          "status": "ok",
+          "query": "rotational eigenvalues torque",
+          "results": [
+            {
+              "title": "Moment of inertia - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Moment_of_inertia",
+              "domain": "en.wikipedia.org",
+              "snippet": "The moment of inertia (also known as mass moment of inertia, angular/rotational mass, second moment of mass, or rotational inertia) is a measure of how difficult it is to change the rotation rate of a rigid body about a given axis. It is the ratio between the torque applied and the resulting angular acceleration about that axis. [1]: 279 [2]: 261 It plays the same role in rotational motion as ..."
+            },
+            {
+              "title": "Defining Torque - AP Physics 1 Study Guide",
+              "url": "https://www.savemyexams.com/ap/physics/college-board/1-algebra-based/24/revision-notes/torque-and-rotational-dynamics/torque/defining-torque/",
+              "domain": "savemyexams.com",
+              "snippet": "Learn how torque causes rotation for your AP Physics 1 exam. This study guide explains how applied force, lever arm, and angle determine torque."
+            },
+            {
+              "title": "AP Physics 1 Unit 5: Torque and Rotational Dynamics - The Complete ...",
+              "url": "https://solvefyai.com/torque-and-rotational-dynamics/",
+              "domain": "solvefyai.com",
+              "snippet": "Master AP Physics 1 Unit 5: Torque and Rotational Dynamics with our complete guide. Understand torque, rotational kinematics, angular momentum, rotational inertia, and conservation principles in rotational motion. Includes practice problems, clear explanations, and exam strategies to help you succeed!"
+            },
+            {
+              "title": "Torque Calculator | Physics Rotational Motion Tool",
+              "url": "https://physicscalculators.net/torque-calculator.html",
+              "domain": "physicscalculators.net",
+              "snippet": "Calculate torque from force and lever arm or I and angular acceleration with our advanced 2025 physics calculator."
+            },
+            {
+              "title": "HRK Physics Notes: Rotational Dynamics - Torque, Moment of Inertia ...",
+              "url": "https://houseofphysicsnotes.blogspot.com/2025/10/hrk-physics-notes-rotational-dynamics-torque-moment-inertia-formulas.html",
+              "domain": "houseofphysicsnotes.blogspot.com",
+              "snippet": "HRK Physics notes on rotational dynamics: torque, moment of inertia, rotational kinetic energy, parallel axis theorem, rigid body rotation formulas."
+            }
+          ],
+          "urls": [
+            "https://en.wikipedia.org/wiki/Moment_of_inertia",
+            "https://www.savemyexams.com/ap/physics/college-board/1-algebra-based/24/revision-notes/torque-and-rotational-dynamics/torque/defining-torque/",
+            "https://solvefyai.com/torque-and-rotational-dynamics/",
+            "https://physicscalculators.net/torque-calculator.html",
+            "https://houseofphysicsnotes.blogspot.com/2025/10/hrk-physics-notes-rotational-dynamics-torque-moment-inertia-formulas.html"
+          ],
+          "result_snippet": "[1] Moment of inertia - Wikipedia\nURL: https://en.wikipedia.org/wiki/Moment_of_inertia\nSnippet: The moment of inertia (also known as mass moment of inertia, angular/rotational mass, second moment of mass, or rotational inertia) is a measure of how difficult it is to change the rotation rate of a rigid body about a given axis. It is the ratio between the torque applied and the resulting angular acceleration about that axis. [1]: 279 [2]: 261 It plays the same role in rotational motion as ...\n\n[2] Defining Torque - AP Physics 1 Study Guide\nURL: https://www.savemyexams.com/ap/physics/college-board/1-algebra-based/24/revision-notes/torque-and-rotational-dynamics/torque/defining-torque/\nSnippet: Learn how torque causes rotation for your AP Physics 1 exam. This study guide explains how applied force, lever arm, and angle determine torque.\n\n[3] AP Physics 1 Unit 5: Torque and Rotational Dynamics - The Complete ...\nURL: https://solvefyai.com/torque-and-rotational-dynamics/\nSnippet: Master AP Physics 1 Unit 5: Torque and Rotational Dynamics with our complete guide. Understand torque, rotational kinematics, angular momentum, rotational inertia, and conservation principles in rotational motion. Includes practice problems, clear explanations, and exam strategies to help you succeed!\n\n[4] Torque Calculator | Physics Rotational Motion Tool\nURL: https://physicscalculators.net/torque-calculator.html\nSnippet: Calculate torque from force and lever arm or I and angular acceleration with our advanced 2025 physics calculator.\n\n[5] HRK Physics Notes: Rotational Dynamics - Torque, Moment of Inertia ...\nURL: https://houseofphysicsnotes.blogspot.com/2025/10/hrk-physics-notes-rotational-dynamics-torque-moment-inertia-formulas.html\nSnippet: HRK Physics notes on rotational dynamics: torque, moment of inertia, rotational kinetic energy, parallel axis theorem, rigid body rotation formulas.",
+          "searched_at": "2026-05-05_15-09-30",
+          "attempt_number": 1
+        }
+      ],
+      "query": "rotational eigenvalues torque",
+      "search_status": "ok",
+      "result_snippet": "[1] Moment of inertia - Wikipedia\nURL: https://en.wikipedia.org/wiki/Moment_of_inertia\nSnippet: The moment of inertia (also known as mass moment of inertia, angular/rotational mass, second moment of mass, or rotational inertia) is a measure of how difficult it is to change the rotation rate of a rigid body about a given axis. It is the ratio between the torque applied and the resulting angular acceleration about that axis. [1]: 279 [2]: 261 It plays the same role in rotational motion as ...\n\n[2] Defining Torque - AP Physics 1 Study Guide\nURL: https://www.savemyexams.com/ap/physics/college-board/1-algebra-based/24/revision-notes/torque-and-rotational-dynamics/torque/defining-torque/\nSnippet: Learn how torque causes rotation for your AP Physics 1 exam. This study guide explains how applied force, lever arm, and angle determine torque.\n\n[3] AP Physics 1 Unit 5: Torque and Rotational Dynamics - The Complete ...\nURL: https://solvefyai.com/torque-and-rotational-dynamics/\nSnippet: Master AP Physics 1 Unit 5: Torque and Rotational Dynamics with our complete guide. Understand torque, rotational kinematics, angular momentum, rotational inertia, and conservation principles in rotational motion. Includes practice problems, clear explanations, and exam strategies to help you succeed!\n\n[4] Torque Calculator | Physics Rotational Motion Tool\nURL: https://physicscalculators.net/torque-calculator.html\nSnippet: Calculate torque from force and lever arm or I and angular acceleration with our advanced 2025 physics calculator.\n\n[5] HRK Physics Notes: Rotational Dynamics - Torque, Moment of Inertia ...\nURL: https://houseofphysicsnotes.blogspot.com/2025/10/hrk-physics-notes-rotational-dynamics-torque-moment-inertia-formulas.html\nSnippet: HRK Physics notes on rotational dynamics: torque, moment of inertia, rotational kinetic energy, parallel axis theorem, rigid body rotation formulas.",
+      "results": [
+        {
+          "title": "Moment of inertia - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Moment_of_inertia",
+          "domain": "en.wikipedia.org",
+          "snippet": "The moment of inertia (also known as mass moment of inertia, angular/rotational mass, second moment of mass, or rotational inertia) is a measure of how difficult it is to change the rotation rate of a rigid body about a given axis. It is the ratio between the torque applied and the resulting angular acceleration about that axis. [1]: 279 [2]: 261 It plays the same role in rotational motion as ..."
+        },
+        {
+          "title": "Defining Torque - AP Physics 1 Study Guide",
+          "url": "https://www.savemyexams.com/ap/physics/college-board/1-algebra-based/24/revision-notes/torque-and-rotational-dynamics/torque/defining-torque/",
+          "domain": "savemyexams.com",
+          "snippet": "Learn how torque causes rotation for your AP Physics 1 exam. This study guide explains how applied force, lever arm, and angle determine torque."
+        },
+        {
+          "title": "AP Physics 1 Unit 5: Torque and Rotational Dynamics - The Complete ...",
+          "url": "https://solvefyai.com/torque-and-rotational-dynamics/",
+          "domain": "solvefyai.com",
+          "snippet": "Master AP Physics 1 Unit 5: Torque and Rotational Dynamics with our complete guide. Understand torque, rotational kinematics, angular momentum, rotational inertia, and conservation principles in rotational motion. Includes practice problems, clear explanations, and exam strategies to help you succeed!"
+        },
+        {
+          "title": "Torque Calculator | Physics Rotational Motion Tool",
+          "url": "https://physicscalculators.net/torque-calculator.html",
+          "domain": "physicscalculators.net",
+          "snippet": "Calculate torque from force and lever arm or I and angular acceleration with our advanced 2025 physics calculator."
+        },
+        {
+          "title": "HRK Physics Notes: Rotational Dynamics - Torque, Moment of Inertia ...",
+          "url": "https://houseofphysicsnotes.blogspot.com/2025/10/hrk-physics-notes-rotational-dynamics-torque-moment-inertia-formulas.html",
+          "domain": "houseofphysicsnotes.blogspot.com",
+          "snippet": "HRK Physics notes on rotational dynamics: torque, moment of inertia, rotational kinetic energy, parallel axis theorem, rigid body rotation formulas."
+        }
+      ],
+      "urls": [
+        "https://en.wikipedia.org/wiki/Moment_of_inertia",
+        "https://www.savemyexams.com/ap/physics/college-board/1-algebra-based/24/revision-notes/torque-and-rotational-dynamics/torque/defining-torque/",
+        "https://solvefyai.com/torque-and-rotational-dynamics/",
+        "https://physicscalculators.net/torque-calculator.html",
+        "https://houseofphysicsnotes.blogspot.com/2025/10/hrk-physics-notes-rotational-dynamics-torque-moment-inertia-formulas.html"
+      ],
+      "attempt_count": 1,
+      "searched_at": "2026-05-05_15-09-30",
+      "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
+    }
+  },
+  "summary": {
+    "total_claims": 10,
+    "checked_claim_count": 1,
+    "passing_claim_count": 0,
+    "unchecked_claim_count": 9,
+    "unresolved_or_needs_qualification": 10,
+    "actionable_issue_count": 0,
+    "evidence_retry_count": 1,
+    "claim_review_complete": false,
+    "unchecked_claim_ids": [
+      "C002",
+      "C003",
+      "C004",
+      "C005",
+      "C006",
+      "C007",
+      "C008",
+      "C009",
+      "C010"
+    ],
+    "actionable_claim_ids": [],
+    "evidence_retry_claim_ids": [
+      "C001"
+    ],
+    "highest_priority_fixes": []
+  },
+  "last_updated": "2026-05-05_15-09-31"
+}

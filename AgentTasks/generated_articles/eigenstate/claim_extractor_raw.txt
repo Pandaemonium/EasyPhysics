@@ -6,49 +6,89 @@
       "type": "definition",
       "importance": "high",
       "needs_external_check": true,
-      "why_it_matters": "This defines the core concept of eigenstates in quantum mechanics.",
-      "suggested_search_query": "quantum eigenstate definition textbook"
+      "why_it_matters": "This defines the fundamental role of eigenstates in quantum predictions.",
+      "suggested_search_query": "quantum mechanics eigenstate definition Griffiths"
     },
     {
       "id": "C002",
-      "claim": "Eigenstates represent probabilistic certainty, not deterministic outcomes, unlike classical systems.",
-      "type": "clarification",
-      "importance": "high",
-      "needs_external_check": true,
-      "why_it_matters": "Corrects the misconception that eigenstates imply pre-existing values.",
-      "suggested_search_query": "quantum eigenstate probabilistic certainty"
-    },
-    {
-      "id": "C003",
-      "claim": "Eigenstates are foundational for predicting quantum measurement outcomes and explaining phenomena like atomic energy levels.",
-      "type": "importance",
-      "importance": "high",
-      "needs_external_check": true,
-      "why_it_matters": "Highlights their role in quantum theory and experimental observations.",
-      "suggested_search_query": "eigenstate role in quantum mechanics"
-    },
-    {
-      "id": "C004",
-      "claim": "The mathematical relationship $\\hat{A} |\\psi\\rangle = a |\\psi\\rangle$ defines an eigenstate of an observable $\\hat{A}$.",
+      "claim": "Eigenstates are mathematically defined by the equation $\\hat{A} | \\psi \\rangle = a | \\psi \\rangle$, where $\\hat{A}$ is an observable operator and $a$ is the definite measurement value.",
       "type": "definition",
       "importance": "high",
       "needs_external_check": true,
-      "why_it_matters": "Provides the formal framework for eigenstates in quantum mechanics.",
-      "suggested_search_query": "quantum eigenstate mathematical definition"
+      "why_it_matters": "This equation formalizes the relationship between observables and eigenstates.",
+      "suggested_search_query": "quantum eigenstate mathematical definition Sakurai"
+    },
+    {
+      "id": "C003",
+      "claim": "Eigenstates are not physical entities but mathematical tools that encode probabilistic certainty for measurement outcomes.",
+      "type": "explanation",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Corrects the misconception that eigenstates represent pre-existing physical properties.",
+      "suggested_search_query": "eigenstate vs physical reality quantum mechanics"
+    },
+    {
+      "id": "C004",
+      "claim": "The spinning top analogy for eigenstates is a metaphor, not a literal description of quantum states.",
+      "type": "explanation",
+      "importance": "medium",
+      "needs_external_check": true,
+      "why_it_matters": "Prevents misinterpretation of eigenstates as classical objects with pre-defined properties.",
+      "suggested_search_query": "quantum eigenstate spinning top analogy limitations"
     },
     {
       "id": "C005",
-      "claim": "Eigenstates are not physical 'building blocks' but mathematical tools for describing measurement outcomes.",
-      "type": "clarification",
+      "claim": "Eigenstates are foundational to explaining atomic energy levels and discrete quantum transitions.",
+      "type": "application",
       "importance": "high",
       "needs_external_check": true,
-      "why_it_matters": "Corrects the misconception that eigenstates are tangible entities.",
-      "suggested_search_query": "eigenstate physical interpretation"
+      "why_it_matters": "Demonstrates real-world relevance in atomic physics.",
+      "suggested_search_query": "eigenstate atomic energy levels examples"
     },
     {
       "id": "C006",
       "claim": "Most quantum states are superpositions of eigenstates, not eigenstates themselves.",
-      "type": "clarification",
+      "type": "explanation",
       "importance": "high",
       "needs_external_check": true,
-      "why_it_matters
+      "why_it_matters": "Clarifies the prevalence of superposition states in quantum systems.",
+      "suggested_search_query": "quantum superposition vs eigenstate"
+    },
+    {
+      "id": "C007",
+      "claim": "Eigenstates are tied to observables like energy, spin, and momentum, not just position or momentum.",
+      "type": "explanation",
+      "importance": "medium",
+      "needs_external_check": true,
+      "why_it_matters": "Expands understanding beyond common misconceptions about observables.",
+      "suggested_search_query": "eigenstate observables quantum mechanics"
+    },
+    {
+      "id": "C008",
+      "claim": "Eigenstates can evolve over time if the system's Hamiltonian changes, contradicting the idea that they are static.",
+      "type": "explanation",
+      "importance": "medium",
+      "needs_external_check": true,
+      "why_it_matters": "Corrects the misconception that eigenstates are unchanging.",
+      "suggested_search_query": "time evolution eigenstates quantum mechanics"
+    },
+    {
+      "id": "C009",
+      "claim": "Quantum measurements 'collapse' superposition states to eigenstates, but this is a mathematical description of outcome probabilities.",
+      "type": "explanation",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Clarifies the role of eigenstates in measurement processes.",
+      "suggested_search_query": "quantum measurement collapse eigenstate"
+    },
+    {
+      "id": "C010",
+      "claim": "Eigenstates are not 'building blocks' of reality but mathematical constructs for predicting measurement outcomes.",
+      "type": "explanation",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Prevents anthropomorphic interpretations of quantum states.",
+      "suggested_search_query": "eigenstate building blocks quantum mechanics"
+    }
+  ]
+}

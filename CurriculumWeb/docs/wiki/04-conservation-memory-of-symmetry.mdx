@@ -1,0 +1,90 @@
+---
+title: "Conservation: The Memory of a Symmetry"
+slug: /wiki/conservation-memory-of-symmetry
+sidebar_label: "Conservation"
+description: "A short lesson on conservation laws as quantities protected by sameness."
+prerequisites:
+  - symmetry-change-that-does-not-matter
+glossary_terms:
+  - conservation-law
+  - symmetry
+  - energy
+  - momentum
+  - angular-momentum
+  - noether-theorem
+status: draft
+---
+
+import ConceptFlow from '@site/src/components/ConceptFlow';
+import KnowledgeCheck from '@site/src/components/KnowledgeCheck';
+import LessonNav from '@site/src/components/LessonNav';
+import Term from '@site/src/components/Term';
+
+# Conservation: The Memory of a Symmetry
+
+A <Term name="conservation-law">conservation law</Term> says that some quantity stays fixed while the system changes.
+
+That might sound like a magic promise. It is better to hear it as a clue: if something is conserved, there is usually a reason in the rulebook.
+
+<ConceptFlow current="conservation" />
+
+The deep pattern is:
+
+<div className="lesson-sketch" aria-label="Symmetry and conservation examples">
+  <div className="lesson-sketch__row">
+    <span className="lesson-sketch__pill">time-sameness</span>
+    <span className="lesson-sketch__arrow">-&gt;</span>
+    <span className="lesson-sketch__pill">energy</span>
+  </div>
+  <div className="lesson-sketch__row">
+    <span className="lesson-sketch__pill">place-sameness</span>
+    <span className="lesson-sketch__arrow">-&gt;</span>
+    <span className="lesson-sketch__pill">momentum</span>
+  </div>
+  <div className="lesson-sketch__row">
+    <span className="lesson-sketch__pill">direction-sameness</span>
+    <span className="lesson-sketch__arrow">-&gt;</span>
+    <span className="lesson-sketch__pill">angular momentum</span>
+  </div>
+</div>
+
+In more advanced language, <Term name="noether-theorem">Noether's theorem</Term> says that continuous symmetries of the action correspond to conserved quantities. You do not need the full math yet. The first-pass meaning is enough:
+
+**When the rulebook ignores a smooth kind of change, a matching quantity is protected.**
+
+## Conservation Does Not Mean Nothing Happens
+
+A pendulum moves. Its height and speed keep trading. During that motion, energy can remain fixed in the ideal model.
+
+Conservation means the bookkeeping total stays the same, not that every visible piece stays unchanged.
+
+<KnowledgeCheck
+  question="Which match is the best first-pass symmetry-to-conservation pair?"
+  options={[
+    {
+      label: 'A',
+      text: 'Time-sameness of the rule -> energy conservation.',
+      correct: true,
+      feedback: 'Yes. If the rule does not change with time, energy is the associated conserved quantity in ordinary settings.',
+    },
+    {
+      label: 'B',
+      text: 'Object color -> gravity conservation.',
+      correct: false,
+      feedback: 'That does not name a smooth symmetry of the rule or a standard conserved quantity.',
+    },
+    {
+      label: 'C',
+      text: 'A moving system -> nothing can change.',
+      correct: false,
+      feedback: 'Conserved quantities can stay fixed while the system itself changes dramatically.',
+    },
+  ]}
+/>
+
+<LessonNav
+  nextLabel="Energy: What Time-Sameness Protects"
+  nextTo="/docs/wiki/energy-time-sameness"
+  mathLabel="Tiny Noether Preview"
+  mathTo="/docs/math/tiny-noether-preview"
+/>

@@ -1,0 +1,37 @@
+{
+  "claim_checks": [
+    {
+      "id": "C001",
+      "verdict": "mostly_supported",
+      "severity": "medium",
+      "problem": "The claim uses 'least action' terminology which may mislead readers into thinking the principle strictly minimizes action, whereas the principle actually refers to stationary action (which can be minima, maxima, or saddle points).",
+      "suggested_fix": "Clarify that the principle is about stationary action rather than strictly 'least' action, and note that the term 'least action' is a historical approximation.",
+      "source_quality_note": "The snippets reference authoritative physics concepts and mention connections to variational principles, Euler-Lagrange equations, and foundational physics frameworks."
+    },
+    {
+      "id": "C002",
+      "verdict": "needs_qualification",
+      "severity": "medium",
+      "problem": "The article uses 'least action principle' as if it strictly means 'minimum action,' but the search snippet clarifies that the principle actually refers to 'stationary action' (which can be minima, maxima, or saddle points). The term 'least action' is a historical name for this principle.",
+      "suggested_fix": "Update the terminology to 'principle of stationary action' and clarify that the action is extremized (not necessarily minimized).",
+      "source_quality_note": "The snippets include conflicting claims about the principle's relation to thermodynamics and its status as a 'law,' suggesting mixed authority. The key terminology clarification appears in multiple sources."
+    },
+    {
+      "id": "C003",
+      "verdict": "supported",
+      "severity": "low",
+      "problem": "",
+      "suggested_fix": "",
+      "source_quality_note": "The snippets include authoritative references to historical applications (Hilbert's work on general relativity) and foundational explanations of the principle's role in classical mechanics and modern physics."
+    }
+  ],
+  "summary": {
+    "overall_claim_quality": "Claim check completed.",
+    "unresolved_or_needs_qualification": 2,
+    "highest_priority_fixes": [
+      "Clarify that the principle is about stationary action rather than strictly 'least' action, and note that the term 'least action' is a historical approximation.",
+      "Update the terminology to 'principle of stationary action' and clarify that the action is extremized (not necessarily minimized)."
+    ]
+  },
+  "last_updated": "2026-05-04_23-14-19"
+}

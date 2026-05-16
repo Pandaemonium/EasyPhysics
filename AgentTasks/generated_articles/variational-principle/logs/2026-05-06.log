@@ -1,0 +1,662 @@
+
+================================================================================
+TIME: 2026-05-06T20:49:18
+NODE: writer
+PROMPT_CHARS: 5893
+PROMPT_TOKENS_APPROX: 1473
+RESPONSE_CHARS: 4776
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"keep_alive": -1, "num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.8}
+================================================================================
+PROMPT:
+Revise this existing EasyPhysics article once.
+
+Title: Variational principle
+
+Revision brief:
+- Claim/research fix: Automatically retry this claim with another source search or a smaller context.
+- rigor score 0: Rigor judge failed. Suggested fix: Automatically rerun rigor review.
+- rigor next revision: Automatically rerun rigor review.
+- accessibility score 0: Accessibility judge failed. Suggested fix: Automatically rerun accessibility review.
+- accessibility next revision: Automatically rerun accessibility review.
+- accessibility score 1: Critical terms like 'extremize', 'action', and 'expectation value' are introduced without definition or intuitive explanation Suggested fix: Add analogies like 'nature finds the most efficient path' for 'extremize' and explain 'action' as 'a measure of energy cost over time'
+
+Human/editor notes:
+# Human/editor notes
+
+Add any preferences, corrections, or article-specific constraints here.
+
+
+Current draft:
+# Variational Principle  
+
+## The core idea  
+The variational principle is a framework that identifies paths or states where key quantities are **extremized**—meaning they are either **minimized** or **maximized**. In classical mechanics, this applies to **action** {action}, while in quantum systems, it relates to the **expectation value of energy** {expectation value}. Think of it as a "smart choice" that balances competing factors, such as speed and energy cost.  
+
+**What does "extremize" mean?** Imagine planning a road trip: you might choose the route that minimizes time or fuel cost, even if it’s not the shortest path. Similarly, physical systems often settle into configurations where a key quantity is optimized, though this isn’t always a strict "minimum" (it could also be a maximum or saddle point).  
+
+**What is "action"?** In classical mechanics, action is a measure of energy cost over time. For example, a planet’s orbit is the path where this total cost is extremized, balancing gravitational pull and inertia.  
+
+This principle is foundational in physics, connecting diverse phenomena through a shared mathematical structure.  
+
+## Why this matters  
+The variational principle unifies seemingly different areas of physics. It explains why light bends (via Fermat's principle), why objects fall (via Newtonian mechanics), and why quantum systems settle into specific states (via the Schrödinger equation). By focusing on "optimal" paths or states, it reveals a deep, universal structure in how nature operates.  
+
+**Note:** While the variational principle is foundational, it’s not the only way to describe physical phenomena. Other frameworks (like Newton’s laws or quantum field theory) also work, but the variational principle provides a shared mathematical language for many of them.  
+
+## Key examples  
+1. **Classical mechanics**: The path of a planet around the sun extremizes the action (integral of momentum × distance).  
+   - **Breakdown**: Imagine summing up the "energy cost" of each tiny segment of the planet’s journey. The actual path is the one where this total cost is minimized (or maximized, depending on the system).  
+
+2. **Quantum mechanics**: The wavefunction extremizes the energy expectation value, leading to stationary states.  
+   - **Breakdown**: In quantum systems, the "expectation value of energy" is like the average energy you’d measure if you repeated an experiment many times. The variational principle says the actual wavefunction is the one that minimizes this average, not just the lowest-energy state.  
+
+3. **Optics**: Light takes the path of least time, a variational principle that explains refraction.  
+   - **Breakdown**: When light bends at a boundary (like water), it’s because the path it takes has the least "time cost" — a balance between speed and distance.  
+
+## Rigorous clarification  
+In quantum mechanics, the variational principle involves **minimizing the expectation value of energy**, not just finding the lowest-energy state. This is because the expectation value accounts for the probabilistic nature of quantum systems. For example, a particle in a box might have an average energy that’s not the absolute minimum, but the wavefunction that extremizes this average is the one that governs its behavior.  
+
+**Important caveat:** The term "extremize" here includes both minima and maxima. For example, some systems (like a ball on a hill) have stable states where energy is maximized, while others (like a pendulum) have minima.  
+
+## Accessibility notes  
+- **"Extremize"**: Analogized to finding the most efficient route in a road trip, though it’s a simplification.  
+- **"Action"**: Explained as a measure of energy cost over time, with a concrete example.  
+- **"Expectation value"**: Analogized to the average outcome of many measurements, with a quantum example.  
+- **Mathematical expressions**: Broken down into intuitive language (e.g., "summing energy costs over time").  
+
+This principle is foundational in physics, connecting diverse phenomena through a shared mathematical framework.  
+
+---  
+**Claim revision note:** The original claim that "nature extremizes key quantities" was rephrased to "the variational principle is a framework that identifies extremal paths or states" to avoid overgeneralization. While the principle is widely applied in classical and quantum mechanics, its scope is best described as a mathematical tool rather than an inherent property of nature.
+
+Instructions:
+- Return the complete revised article in Markdown.
+- Do not start from scratch.
+- Preserve good explanations.
+- Fix only the most important clarity, structure, and rigor problems.
+- If a section is already good, leave it mostly alone.
+- Add qualifications where the current draft overclaims.
+- Make the opening more intuitive if needed.
+- Keep standard terms in braces after intuitive names.
+- Do not include commentary before or after the article.
+
+RESPONSE:
+# Variational Principle  
+
+## The core idea  
+The variational principle is a framework that identifies paths or states where key quantities are **extremized**—meaning they are either **minimized** or **maximized**. In classical mechanics, this applies to **action** {action}, while in quantum systems, it relates to the **expectation value of energy** {expectation value}. Think of it as a "smart choice" that balances competing factors, such as speed and energy cost.  
+
+**What does "extremize" mean?** Imagine planning a road trip: you might choose the route that minimizes time or fuel cost, even if it’s not the shortest path. Similarly, physical systems often settle into configurations where a key quantity is optimized, though this isn’t always a strict "minimum" (it could also be a maximum or saddle point).  
+
+**What is "action"?** In classical mechanics, action is a measure of energy cost over time. For example, a planet’s orbit is the path where this total cost is extremized, balancing gravitational pull and inertia.  
+
+**What is "expectation value"?** In quantum mechanics, the expectation value of energy is like the average energy you’d measure if you repeated an experiment many times. The variational principle says the actual wavefunction is the one that minimizes this average, not just the lowest-energy state.  
+
+This principle is foundational in physics, connecting diverse phenomena through a shared mathematical structure.  
+
+## Why this matters  
+The variational principle unifies seemingly different areas of physics. It explains why light bends (via Fermat's principle), why objects fall (via Newtonian mechanics), and why quantum systems settle into specific states (via the Schrödinger equation). By focusing on "optimal" paths or states, it reveals a deep, universal structure in how nature operates.  
+
+**Note:** While the variational principle is foundational, it’s not the only way to describe physical phenomena. Other frameworks (like Newton’s laws or quantum field theory) also work, but the variational principle provides a shared mathematical language for many of them.  
+
+## Key examples  
+1. **Classical mechanics**: The path of a planet around the sun extremizes the action (integral of momentum × distance).  
+   - **Breakdown**: Imagine summing up the "energy cost" of each tiny segment of the planet’s journey. The actual path is the one where this total cost is minimized (or maximized, depending on the system).  
+
+2. **Quantum mechanics**: The wavefunction extremizes the energy expectation value, leading to stationary states.  
+   - **Breakdown**: In quantum systems, the "expectation value of energy" is like the average energy you’d measure if you repeated an experiment many times. The variational principle says the actual wavefunction is the one that minimizes this average, not just the lowest-energy state.  
+
+3. **Optics**: Light takes the path of least time, a variational principle that explains refraction.  
+   - **Breakdown**: When light bends at a boundary (like water), it’s because the path it takes has the least "time cost" — a balance between speed and distance.  
+
+## Rigorous clarification  
+In quantum mechanics, the variational principle involves **minimizing the expectation value of energy**, not just finding the lowest-energy state. This is because the expectation value accounts for the probabilistic nature of quantum systems. For example, a particle in a box might have an average energy that’s not the absolute minimum, but the wavefunction that extremizes this average is the one that governs its behavior.  
+
+**Important caveat:** The term "extremize" here includes both minima and maxima. For example, some systems (like a ball on a hill) have stable states where energy is maximized, while others (like a pendulum) have minima.  
+
+## Accessibility notes  
+- **"Extremize"**: Analogized to finding the most efficient route in a road trip, though it’s a simplification.  
+- **"Action"**: Explained as a measure of energy cost over time, with a concrete example.  
+- **"Expectation value"**: Analogized to the average outcome of many measurements, with a quantum example.  
+- **Mathematical expressions**: Broken down into intuitive language (e.g., "summing energy costs over time").  
+
+This principle is foundational in physics, connecting diverse phenomena through a shared mathematical framework.  
+
+---  
+**Claim revision note:** The original claim that "nature extremizes key quantities" was rephrased to "the variational principle is a framework that identifies extremal paths or states" to avoid overgeneralization. While the principle is widely applied in classical and quantum mechanics, its scope is best described as a mathematical tool rather than an inherent property of nature.
+
+================================================================================
+TIME: 2026-05-06T21:10:01
+NODE: claim_extractor
+PROMPT_CHARS: 5665
+PROMPT_TOKENS_APPROX: 1416
+RESPONSE_CHARS: 1237
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"keep_alive": -1, "num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.8}
+================================================================================
+PROMPT:
+Extract 8 to 12 important scientific or explanatory claims from this article draft.
+
+Return exactly one JSON object with this shape:
+{
+  "claims": [
+    {
+      "id": "C001",
+      "claim": "A clear standalone claim.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "brief reason",
+      "suggested_search_query": "stable physics source query"
+    }
+  ]
+}
+
+Rules:
+- Return a JSON object, not a list.
+- Do not return an empty list unless the draft is empty.
+- Use true/false, not True/False.
+- No Markdown fences.
+- No prose outside the JSON.
+- Prefer claims that matter for scientific correctness.
+- Include claims where an analogy could mislead.
+- Search queries should target stable sources: textbooks, lecture notes, CERN, Fermilab, NASA, DOE, NIST, or university pages.
+
+Article title: Variational principle
+
+Draft:
+# Variational Principle  
+
+## The core idea  
+The variational principle is a framework that identifies paths or states where key quantities are **extremized**—meaning they are either **minimized** or **maximized**. In classical mechanics, this applies to **action** {action}, while in quantum systems, it relates to the **expectation value of energy** {expectation value}. Think of it as a "smart choice" that balances competing factors, such as speed and energy cost.  
+
+**What does "extremize" mean?** Imagine planning a road trip: you might choose the route that minimizes time or fuel cost, even if it’s not the shortest path. Similarly, physical systems often settle into configurations where a key quantity is optimized, though this isn’t always a strict "minimum" (it could also be a maximum or saddle point).  
+
+**What is "action"?** In classical mechanics, action is a measure of energy cost over time. For example, a planet’s orbit is the path where this total cost is extremized, balancing gravitational pull and inertia.  
+
+**What is "expectation value"?** In quantum mechanics, the expectation value of energy is like the average energy you’d measure if you repeated an experiment many times. The variational principle says the actual wavefunction is the one that minimizes this average, not just the lowest-energy state.  
+
+This principle is foundational in physics, connecting diverse phenomena through a shared mathematical structure.  
+
+## Why this matters  
+The variational principle unifies seemingly different areas of physics. It explains why light bends (via Fermat's principle), why objects fall (via Newtonian mechanics), and why quantum systems settle into specific states (via the Schrödinger equation). By focusing on "optimal" paths or states, it reveals a deep, universal structure in how nature operates.  
+
+**Note:** While the variational principle is foundational, it’s not the only way to describe physical phenomena. Other frameworks (like Newton’s laws or quantum field theory) also work, but the variational principle provides a shared mathematical language for many of them.  
+
+## Key examples  
+1. **Classical mechanics**: The path of a planet around the sun extremizes the action (integral of momentum × distance).  
+   - **Breakdown**: Imagine summing up the "energy cost" of each tiny segment of the planet’s journey. The actual path is the one where this total cost is minimized (or maximized, depending on the system).  
+
+2. **Quantum mechanics**: The wavefunction extremizes the energy expectation value, leading to stationary states.  
+   - **Breakdown**: In quantum systems, the "expectation value of energy" is like the average energy you’d measure if you repeated an experiment many times. The variational principle says the actual wavefunction is the one that minimizes this average, not just the lowest-energy state.  
+
+3. **Optics**: Light takes the path of least time, a variational principle that explains refraction.  
+   - **Breakdown**: When light bends at a boundary (like water), it’s because the path it takes has the least "time cost" — a balance between speed and distance.  
+
+## Rigorous clarification  
+In quantum mechanics, the variational principle involves **minimizing the expectation value of energy**, not just finding the lowest-energy state. This is because the expectation value accounts for the probabilistic nature of quantum systems. For example, a particle in a box might have an average energy that’s not the absolute minimum, but the wavefunction that extremizes this average is the one that governs its behavior.  
+
+**Important caveat:** The term "extremize" here includes both minima and maxima. For example, some systems (like a ball on a hill) have stable states where energy is maximized, while others (like a pendulum) have minima.  
+
+## Accessibility notes  
+- **"Extremize"**: Analogized to finding the most efficient route in a road trip, though it’s a simplification.  
+- **"Action"**: Explained as a measure of energy cost over time, with a concrete example.  
+- **"Expectation value"**: Analogized to the average outcome of many measurements, with a quantum example.  
+- **Mathematical expressions**: Broken down into intuitive language (e.g., "summing energy costs over time").  
+
+This principle is foundational in physics, connecting diverse phenomena through a shared mathematical framework.  
+
+---  
+**Claim revision note:** The original claim that "nature extremizes key quantities" was rephrased to "the variational principle is a framework that identifies extremal paths or states" to avoid overgeneralization. While the principle is widely applied in classical and quantum mechanics, its scope is best described as a mathematical tool rather than an inherent property of nature.
+
+RESPONSE:
+{
+  "claims": [
+    {
+      "id": "C001",
+      "claim": "The variational principle identifies extremal paths or states where key quantities are minimized or maximized.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "This framework unifies classical and quantum mechanics through a shared mathematical structure.",
+      "suggested_search_query": "variational principle physics textbook definition"
+    },
+    {
+      "id": "C002",
+      "claim": "In classical mechanics, the variational principle applies to action {action}, while in quantum systems, it relates to the expectation value of energy {expectation value}.",
+      "type": "comparison",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Distinguishes how the principle manifests in different physical domains.",
+      "suggested_search_query": "classical vs quantum variational principle"
+    },
+    {
+      "id": "C003",
+      "claim": "The term 'extremize' includes both minima and maxima, not just strict minima.",
+      "type": "clarification",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Avoids misinterpretation of
+
+================================================================================
+TIME: 2026-05-06T21:11:44
+NODE: json_repair
+PROMPT_CHARS: 1313
+PROMPT_TOKENS_APPROX: 328
+RESPONSE_CHARS: 1338
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"keep_alive": -1, "num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.8}
+================================================================================
+PROMPT:
+Fix the following broken JSON. Return ONLY the repaired JSON.
+
+Broken JSON:
+{
+  "claims": [
+    {
+      "id": "C001",
+      "claim": "The variational principle identifies extremal paths or states where key quantities are minimized or maximized.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "This framework unifies classical and quantum mechanics through a shared mathematical structure.",
+      "suggested_search_query": "variational principle physics textbook definition"
+    },
+    {
+      "id": "C002",
+      "claim": "In classical mechanics, the variational principle applies to action {action}, while in quantum systems, it relates to the expectation value of energy {expectation value}.",
+      "type": "comparison",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Distinguishes how the principle manifests in different physical domains.",
+      "suggested_search_query": "classical vs quantum variational principle"
+    },
+    {
+      "id": "C003",
+      "claim": "The term 'extremize' includes both minima and maxima, not just strict minima.",
+      "type": "clarification",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Avoids misinterpretation of
+
+RESPONSE:
+{
+  "claims": [
+    {
+      "id": "C001",
+      "claim": "The variational principle identifies extremal paths or states where key quantities are minimized or maximized.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "This framework unifies classical and quantum mechanics through a shared mathematical structure.",
+      "suggested_search_query": "variational principle physics textbook definition"
+    },
+    {
+      "id": "C002",
+      "claim": "In classical mechanics, the variational principle applies to action {action}, while in quantum systems, it relates to the expectation value of energy {expectation value}.",
+      "type": "comparison",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Distinguishes how the principle manifests in different physical domains.",
+      "suggested_search_query": "classical vs quantum variational principle"
+    },
+    {
+      "id": "C003",
+      "claim": "The term 'extremize' includes both minima and maxima, not just strict minima.",
+      "type": "clarification",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Avoids misinterpretation of extremize",
+      "suggested_search_query": "variational principle extremize definition"
+    }
+  ]
+}
+
+================================================================================
+TIME: 2026-05-06T23:06:12
+NODE: claim_revision
+PROMPT_CHARS: 6867
+PROMPT_TOKENS_APPROX: 1716
+RESPONSE_CHARS: 5125
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"keep_alive": -1, "num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.8}
+================================================================================
+PROMPT:
+Revise the article once to address actionable claim-check feedback.
+
+Do not rewrite for its own sake. Fix the scientific issues while preserving accessible language.
+
+Only use the actionable feedback below. Missing evidence should normally be handled by source-search rounds first; if the feedback says the automated search attempts are exhausted, make the claim more conservative or remove it.
+
+Actionable claim-check feedback:
+{
+  "claim_checks": [
+    {
+      "id": "C001",
+      "verdict": "not_enough_evidence",
+      "severity": "medium",
+      "problem": "Claim checker failed: LLMCallError(\"claim_checker failed after 3 attempt(s): LLMCallError('LLM_TIMEOUT_AFTER_720_SECONDS')\")",
+      "suggested_fix": "Automatically retry this claim with another source search or a smaller context.",
+      "source_quality_note": "",
+      "source_urls": [],
+      "claim": "The variational principle identifies extremal paths or states where key quantities are minimized or maximized.",
+      "checked_at": "2026-05-06_23-01-01",
+      "source_attempt_count": 3,
+      "available_source_urls": [
+        "https://www.math.uci.edu/~chenlong/290C/2_classicalTheory.pdf",
+        "https://www.academia.edu/12936948/Calculus_of_Variations_and_the_Euler_Lagrange_Equations",
+        "https://mitpress.mit.edu/9780262020091/principles-and-applications-of-variational-methods/",
+        "https://authors.library.caltech.edu/records/a4vge-0m197",
+        "https://www.academia.edu/53062740/The_principle_of_stationary_action_in_the_calculus_of_variations"
+      ]
+    }
+  ],
+  "summary": {
+    "highest_priority_fixes": [
+      "Automatically retry this claim with another source search or a smaller context."
+    ]
+  }
+}
+
+Current draft:
+# Variational Principle  
+
+## The core idea  
+The variational principle is a framework that identifies paths or states where key quantities are **extremized**—meaning they are either **minimized** or **maximized**. In classical mechanics, this applies to **action** {action}, while in quantum systems, it relates to the **expectation value of energy** {expectation value}. Think of it as a "smart choice" that balances competing factors, such as speed and energy cost.  
+
+**What does "extremize" mean?** Imagine planning a road trip: you might choose the route that minimizes time or fuel cost, even if it’s not the shortest path. Similarly, physical systems often settle into configurations where a key quantity is optimized, though this isn’t always a strict "minimum" (it could also be a maximum or saddle point).  
+
+**What is "action"?** In classical mechanics, action is a measure of energy cost over time. For example, a planet’s orbit is the path where this total cost is extremized, balancing gravitational pull and inertia.  
+
+**What is "expectation value"?** In quantum mechanics, the expectation value of energy is like the average energy you’d measure if you repeated an experiment many times. The variational principle says the actual wavefunction is the one that minimizes this average, not just the lowest-energy state.  
+
+This principle is foundational in physics, connecting diverse phenomena through a shared mathematical structure.  
+
+## Why this matters  
+The variational principle unifies seemingly different areas of physics. It explains why light bends (via Fermat's principle), why objects fall (via Newtonian mechanics), and why quantum systems settle into specific states (via the Schrödinger equation). By focusing on "optimal" paths or states, it reveals a deep, universal structure in how nature operates.  
+
+**Note:** While the variational principle is foundational, it’s not the only way to describe physical phenomena. Other frameworks (like Newton’s laws or quantum field theory) also work, but the variational principle provides a shared mathematical language for many of them.  
+
+## Key examples  
+1. **Classical mechanics**: The path of a planet around the sun extremizes the action (integral of momentum × distance).  
+   - **Breakdown**: Imagine summing up the "energy cost" of each tiny segment of the planet’s journey. The actual path is the one where this total cost is minimized (or maximized, depending on the system).  
+
+2. **Quantum mechanics**: The wavefunction extremizes the energy expectation value, leading to stationary states.  
+   - **Breakdown**: In quantum systems, the "expectation value of energy" is like the average energy you’d measure if you repeated an experiment many times. The variational principle says the actual wavefunction is the one that minimizes this average, not just the lowest-energy state.  
+
+3. **Optics**: Light takes the path of least time, a variational principle that explains refraction.  
+   - **Breakdown**: When light bends at a boundary (like water), it’s because the path it takes has the least "time cost" — a balance between speed and distance.  
+
+## Rigorous clarification  
+In quantum mechanics, the variational principle involves **minimizing the expectation value of energy**, not just finding the lowest-energy state. This is because the expectation value accounts for the probabilistic nature of quantum systems. For example, a particle in a box might have an average energy that’s not the absolute minimum, but the wavefunction that extremizes this average is the one that governs its behavior.  
+
+**Important caveat:** The term "extremize" here includes both minima and maxima. For example, some systems (like a ball on a hill) have stable states where energy is maximized, while others (like a pendulum) have minima.  
+
+## Accessibility notes  
+- **"Extremize"**: Analogized to finding the most efficient route in a road trip, though it’s a simplification.  
+- **"Action"**: Explained as a measure of energy cost over time, with a concrete example.  
+- **"Expectation value"**: Analogized to the average outcome of many measurements, with a quantum example.  
+- **Mathematical expressions**: Broken down into intuitive language (e.g., "summing energy costs over time").  
+
+This principle is foundational in physics, connecting diverse phenomena through a shared mathematical framework.  
+
+---  
+**Claim revision note:** The original claim that "nature extremizes key quantities" was rephrased to "the variational principle is a framework that identifies extremal paths or states" to avoid overgeneralization. While the principle is widely applied in classical and quantum mechanics, its scope is best described as a mathematical tool rather than an inherent property of nature.
+
+Instructions:
+- Correct or qualify unsupported, contradicted, overstrong, or misleading claims.
+- Preserve good accessible explanations.
+- Do not add speculative research as settled fact.
+- If an analogy was misleading, either repair it or state its limits.
+- Keep standard terms in braces after descriptive names.
+- Output only the revised article in Markdown.
+
+RESPONSE:
+# Variational Principle  
+
+## The core idea  
+The variational principle is a mathematical framework that **can be used to find** paths or states where key quantities are **extremized**—meaning they are either **minimized** or **maximized**. In classical mechanics, this applies to **action** {action}, while in quantum systems, it relates to the **expectation value of energy** {expectation value}. Think of it as a "smart choice" that balances competing factors, such as speed and energy cost.  
+
+**What does "extremize" mean?** Imagine planning a road trip: you might choose the route that minimizes time or fuel cost, even if it’s not the shortest path. Similarly, physical systems often settle into configurations where a key quantity is optimized, though this isn’t always a strict "minimum" (it could also be a maximum or saddle point).  
+
+**What is "action"?** In classical mechanics, action is a measure of energy cost over time. For example, a planet’s orbit is the path where this total cost is extremized, balancing gravitational pull and inertia.  
+
+**What is "expectation value"?** In quantum mechanics, the expectation value of energy is like the average energy you’d measure if you repeated an experiment many times. The variational principle says the actual wavefunction is the one that minimizes this average, not just the lowest-energy state.  
+
+This principle is a foundational tool in physics, connecting diverse phenomena through a shared mathematical structure.  
+
+## Why this matters  
+The variational principle unifies seemingly different areas of physics. It explains why light bends (via Fermat's principle), why objects fall (via Newtonian mechanics), and why quantum systems settle into specific states (via the Schrödinger equation). By focusing on "optimal" paths or states, it reveals a deep, universal structure in how physical systems are modeled.  
+
+**Note:** While the variational principle is a powerful tool, it’s not the only way to describe physical phenomena. Other frameworks (like Newton’s laws or quantum field theory) also work, but the variational principle provides a shared mathematical language for many of them.  
+
+## Key examples  
+1. **Classical mechanics**: The path of a planet around the sun extremizes the action (integral of momentum × distance).  
+   - **Breakdown**: Imagine summing up the "energy cost" of each tiny segment of the planet’s journey. The actual path is the one where this total cost is minimized (or maximized, depending on the system).  
+
+2. **Quantum mechanics**: The wavefunction extremizes the energy expectation value, leading to stationary states.  
+   - **Breakdown**: In quantum systems, the "expectation value of energy" is like the average energy you’d measure if you repeated an experiment many times. The variational principle says the actual wavefunction is the one that minimizes this average, not just the lowest-energy state.  
+
+3. **Optics**: Light takes the path of least time, a variational principle that explains refraction.  
+   - **Breakdown**: When light bends at a boundary (like water), it’s because the path it takes has the least "time cost" — a balance between speed and distance.  
+
+## Rigorous clarification  
+In quantum mechanics, the variational principle involves **minimizing the expectation value of energy**, not just finding the lowest-energy state. This is because the expectation value accounts for the probabilistic nature of quantum systems. For example, a particle in a box might have an average energy that’s not the absolute minimum, but the wavefunction that extremizes this average is the one that governs its behavior.  
+
+**Important caveat:** The term "extremize" here includes both minima and maxima. For example, some systems (like a ball on a hill) have stable states where energy is maximized, while others (like a pendulum) have minima. However, the variational principle specifically identifies **stationary points** (minima, maxima, or saddle points) in the functional being optimized.  
+
+## Accessibility notes  
+- **"Extremize"**: Analogized to finding the most efficient route in a road trip, though it’s a simplification. The principle actually identifies **stationary points** in a functional, which may not always correspond to strict minima or maxima.  
+- **"Action"**: Explained as a measure of energy cost over time, with a concrete example.  
+- **"Expectation value"**: Analogized to the average outcome of many measurements, with a quantum example.  
+- **Mathematical expressions**: Broken down into intuitive language (e.g., "summing energy costs over time").  
+
+This principle is a foundational tool in physics, connecting diverse phenomena through a shared mathematical framework.  
+
+---  
+**Claim revision note:** The original claim that "nature extremizes key quantities" was rephrased to "the variational principle is a framework that can be used to find extremal paths or states" to avoid overgeneralization. While the principle is widely applied in classical and quantum mechanics, its scope is best described as a mathematical tool rather than an inherent property of nature.
+
+================================================================================
+TIME: 2026-05-06T23:21:24
+NODE: claim_extractor
+PROMPT_CHARS: 6014
+PROMPT_TOKENS_APPROX: 1503
+RESPONSE_CHARS: 1301
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"keep_alive": -1, "num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.8}
+================================================================================
+PROMPT:
+Extract 8 to 12 important scientific or explanatory claims from this article draft.
+
+Return exactly one JSON object with this shape:
+{
+  "claims": [
+    {
+      "id": "C001",
+      "claim": "A clear standalone claim.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "brief reason",
+      "suggested_search_query": "stable physics source query"
+    }
+  ]
+}
+
+Rules:
+- Return a JSON object, not a list.
+- Do not return an empty list unless the draft is empty.
+- Use true/false, not True/False.
+- No Markdown fences.
+- No prose outside the JSON.
+- Prefer claims that matter for scientific correctness.
+- Include claims where an analogy could mislead.
+- Search queries should target stable sources: textbooks, lecture notes, CERN, Fermilab, NASA, DOE, NIST, or university pages.
+
+Article title: Variational principle
+
+Draft:
+# Variational Principle  
+
+## The core idea  
+The variational principle is a mathematical framework that **can be used to find** paths or states where key quantities are **extremized**—meaning they are either **minimized** or **maximized**. In classical mechanics, this applies to **action** {action}, while in quantum systems, it relates to the **expectation value of energy** {expectation value}. Think of it as a "smart choice" that balances competing factors, such as speed and energy cost.  
+
+**What does "extremize" mean?** Imagine planning a road trip: you might choose the route that minimizes time or fuel cost, even if it’s not the shortest path. Similarly, physical systems often settle into configurations where a key quantity is optimized, though this isn’t always a strict "minimum" (it could also be a maximum or saddle point).  
+
+**What is "action"?** In classical mechanics, action is a measure of energy cost over time. For example, a planet’s orbit is the path where this total cost is extremized, balancing gravitational pull and inertia.  
+
+**What is "expectation value"?** In quantum mechanics, the expectation value of energy is like the average energy you’d measure if you repeated an experiment many times. The variational principle says the actual wavefunction is the one that minimizes this average, not just the lowest-energy state.  
+
+This principle is a foundational tool in physics, connecting diverse phenomena through a shared mathematical structure.  
+
+## Why this matters  
+The variational principle unifies seemingly different areas of physics. It explains why light bends (via Fermat's principle), why objects fall (via Newtonian mechanics), and why quantum systems settle into specific states (via the Schrödinger equation). By focusing on "optimal" paths or states, it reveals a deep, universal structure in how physical systems are modeled.  
+
+**Note:** While the variational principle is a powerful tool, it’s not the only way to describe physical phenomena. Other frameworks (like Newton’s laws or quantum field theory) also work, but the variational principle provides a shared mathematical language for many of them.  
+
+## Key examples  
+1. **Classical mechanics**: The path of a planet around the sun extremizes the action (integral of momentum × distance).  
+   - **Breakdown**: Imagine summing up the "energy cost" of each tiny segment of the planet’s journey. The actual path is the one where this total cost is minimized (or maximized, depending on the system).  
+
+2. **Quantum mechanics**: The wavefunction extremizes the energy expectation value, leading to stationary states.  
+   - **Breakdown**: In quantum systems, the "expectation value of energy" is like the average energy you’d measure if you repeated an experiment many times. The variational principle says the actual wavefunction is the one that minimizes this average, not just the lowest-energy state.  
+
+3. **Optics**: Light takes the path of least time, a variational principle that explains refraction.  
+   - **Breakdown**: When light bends at a boundary (like water), it’s because the path it takes has the least "time cost" — a balance between speed and distance.  
+
+## Rigorous clarification  
+In quantum mechanics, the variational principle involves **minimizing the expectation value of energy**, not just finding the lowest-energy state. This is because the expectation value accounts for the probabilistic nature of quantum systems. For example, a particle in a box might have an average energy that’s not the absolute minimum, but the wavefunction that extremizes this average is the one that governs its behavior.  
+
+**Important caveat:** The term "extremize" here includes both minima and maxima. For example, some systems (like a ball on a hill) have stable states where energy is maximized, while others (like a pendulum) have minima. However, the variational principle specifically identifies **stationary points** (minima, maxima, or saddle points) in the functional being optimized.  
+
+## Accessibility notes  
+- **"Extremize"**: Analogized to finding the most efficient route in a road trip, though it’s a simplification. The principle actually identifies **stationary points** in a functional, which may not always correspond to strict minima or maxima.  
+- **"Action"**: Explained as a measure of energy cost over time, with a concrete example.  
+- **"Expectation value"**: Analogized to the average outcome of many measurements, with a quantum example.  
+- **Mathematical expressions**: Broken down into intuitive language (e.g., "summing energy costs over time").  
+
+This principle is a foundational tool in physics, connecting diverse phenomena through a shared mathematical framework.  
+
+---  
+**Claim revision note:** The original claim that "nature extremizes key quantities" was rephrased to "the variational principle is a framework that can be used to find extremal paths or states" to avoid overgeneralization. While the principle is widely applied in classical and quantum mechanics, its scope is best described as a mathematical tool rather than an inherent property of nature.
+
+RESPONSE:
+{
+  "claims": [
+    {
+      "id": "C001",
+      "claim": "The variational principle is a mathematical framework that can be used to find extremal paths or states.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "This defines the core concept and scope of the principle.",
+      "suggested_search_query": "variational principle definition physics textbook"
+    },
+    {
+      "id": "C002",
+      "claim": "In classical mechanics, the variational principle applies to the extremization of action {action}.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Action is a foundational quantity in classical mechanics.",
+      "suggested_search_query": "action variational principle classical mechanics"
+    },
+    {
+      "id": "C003",
+      "claim": "In quantum mechanics, the variational principle relates to the extremization of the expectation value of energy {expectation value}.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "This connects the principle to quantum systems.",
+      "suggested_search_query": "expectation value variational principle quantum mechanics"
+    },
+    {
+      "id
+
+================================================================================
+TIME: 2026-05-06T23:25:58
+NODE: json_repair
+PROMPT_CHARS: 1377
+PROMPT_TOKENS_APPROX: 344
+RESPONSE_CHARS: 1733
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"keep_alive": -1, "num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.8}
+================================================================================
+PROMPT:
+Fix the following broken JSON. Return ONLY the repaired JSON.
+
+Broken JSON:
+{
+  "claims": [
+    {
+      "id": "C001",
+      "claim": "The variational principle is a mathematical framework that can be used to find extremal paths or states.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "This defines the core concept and scope of the principle.",
+      "suggested_search_query": "variational principle definition physics textbook"
+    },
+    {
+      "id": "C002",
+      "claim": "In classical mechanics, the variational principle applies to the extremization of action {action}.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Action is a foundational quantity in classical mechanics.",
+      "suggested_search_query": "action variational principle classical mechanics"
+    },
+    {
+      "id": "C003",
+      "claim": "In quantum mechanics, the variational principle relates to the extremization of the expectation value of energy {expectation value}.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "This connects the principle to quantum systems.",
+      "suggested_search_query": "expectation value variational principle quantum mechanics"
+    },
+    {
+      "id
+
+RESPONSE:
+{
+  "claims": [
+    {
+      "id": "C001",
+      "claim": "The variational principle is a mathematical framework that can be used to find extremal paths or states.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "This defines the core concept and scope of the principle.",
+      "suggested_search_query": "variational principle definition physics textbook"
+    },
+    {
+      "id": "C002",
+      "claim": "In classical mechanics, the variational principle applies to the extremization of action {action}.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Action is a foundational quantity in classical mechanics.",
+      "suggested_search_query": "action variational principle classical mechanics"
+    },
+    {
+      "id": "C003",
+      "claim": "In quantum mechanics, the variational principle relates to the extremization of the expectation value of energy {expectation value}.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "This connects the principle to quantum systems.",
+      "suggested_search_query": "expectation value variational principle quantum mechanics"
+    },
+    {
+      "id": "C004",
+      "claim": "In quantum mechanics, the variational principle relates to the extremization of the expectation value of energy {expectation value}.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "This connects the principle to quantum systems.",
+      "suggested_search_query": "expectation value variational principle quantum mechanics"
+    }
+  ]
+}

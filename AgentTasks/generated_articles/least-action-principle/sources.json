@@ -1,26 +1,796 @@
 {
   "sources_by_claim": {
     "C001": {
-      "claim": "Think of action as a measure of \"effort\" over time—systems choose paths that balance energy trade-offs, not just the shortest or fastest route.",
-      "query": "Least action principle Think of action as a measure of \"effort\" over time—systems choose paths that balance energy trade-offs, physics lecture notes textbook explanation",
-      "result_snippet": "... often credited with having invented the principle of least action ; a version is known as Maupertuis's principle – an integral equation that ... After thinking about it for awhile, you realize that this implies that the Principle of Least Action isn't really the Principle of Least Action at ... The most powerful tool of physics is the action principle, from which all the fundamental laws of physics can be derived in their most elegant form. I realized that I have been advocating \"The Art of Action\" myself for years already and I had come to those principles from various sources (\"Start ... In physics, a fundamental measure of ‘effort’ is the action of a system, which nature seeks to ‘minimize’. ... an appropriate description of ...",
-      "searched_at": "2026-05-04_23-08-10",
+      "claim": "The principle of stationary action states that physical systems choose paths that make the action stationary (not necessarily minimal).",
+      "search_attempts": [
+        {
+          "status": "ok",
+          "query": "principle of stationary action definition physics",
+          "results": [
+            {
+              "title": "Stationary-action principle - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Stationary-action_principle",
+              "domain": "en.wikipedia.org",
+              "snippet": "The stationary-action principle – also known as the principle of least action – is a variational principle that, when applied to the action of a ..."
+            },
+            {
+              "title": "Principle of Stationary Action - ProofWiki",
+              "url": "https://proofwiki.org/wiki/Principle_of_Stationary_Action",
+              "domain": "proofwiki.org",
+              "snippet": "The principle of stationary actions states that the equations of motion of a physical system can be acquired by finding a stationary point of the ..."
+            },
+            {
+              "title": "Physics:Stationary-action principle - HandWiki",
+              "url": "https://handwiki.org/wiki/Physics:Stationary-action_principle",
+              "domain": "handwiki.org",
+              "snippet": "The stationary-action principle – also known as the principle of least action – is a variational principle that, when applied to the action of a ..."
+            },
+            {
+              "title": "newtonian mechanics - Proof of principle of stationary action",
+              "url": "https://physics.stackexchange.com/questions/708925/proof-of-principle-of-stationary-action-when-the-lagrangian-is-not-l-t-v",
+              "domain": "physics.stackexchange.com",
+              "snippet": "In many systems (in particular outside the topic of classical mechanics) the principle of stationary action is taken as a first principle/axiom, i.e."
+            },
+            {
+              "title": "Three Mind-Blowing Ideas in Physics: The Stationary Action",
+              "url": "https://towardsdatascience.com/three-mind-blowing-ideas-in-physics-the-stationary-action-principle-lorentz-transformations-and-e86977ea86ad/",
+              "domain": "towardsdatascience.com",
+              "snippet": "In this article, I odyssey through three mathematical ideas that underpin much of physics: the stationary action principle (also known as the ..."
+            }
+          ],
+          "urls": [
+            "https://en.wikipedia.org/wiki/Stationary-action_principle",
+            "https://proofwiki.org/wiki/Principle_of_Stationary_Action",
+            "https://handwiki.org/wiki/Physics:Stationary-action_principle",
+            "https://physics.stackexchange.com/questions/708925/proof-of-principle-of-stationary-action-when-the-lagrangian-is-not-l-t-v",
+            "https://towardsdatascience.com/three-mind-blowing-ideas-in-physics-the-stationary-action-principle-lorentz-transformations-and-e86977ea86ad/"
+          ],
+          "result_snippet": "[1] Stationary-action principle - Wikipedia\nURL: https://en.wikipedia.org/wiki/Stationary-action_principle\nSnippet: The stationary-action principle – also known as the principle of least action – is a variational principle that, when applied to the action of a ...\n\n[2] Principle of Stationary Action - ProofWiki\nURL: https://proofwiki.org/wiki/Principle_of_Stationary_Action\nSnippet: The principle of stationary actions states that the equations of motion of a physical system can be acquired by finding a stationary point of the ...\n\n[3] Physics:Stationary-action principle - HandWiki\nURL: https://handwiki.org/wiki/Physics:Stationary-action_principle\nSnippet: The stationary-action principle – also known as the principle of least action – is a variational principle that, when applied to the action of a ...\n\n[4] newtonian mechanics - Proof of principle of stationary action\nURL: https://physics.stackexchange.com/questions/708925/proof-of-principle-of-stationary-action-when-the-lagrangian-is-not-l-t-v\nSnippet: In many systems (in particular outside the topic of classical mechanics) the principle of stationary action is taken as a first principle/axiom, i.e.\n\n[5] Three Mind-Blowing Ideas in Physics: The Stationary Action\nURL: https://towardsdatascience.com/three-mind-blowing-ideas-in-physics-the-stationary-action-principle-lorentz-transformations-and-e86977ea86ad/\nSnippet: In this article, I odyssey through three mathematical ideas that underpin much of physics: the stationary action principle (also known as the ...",
+          "searched_at": "2026-05-06_17-44-20",
+          "attempt_number": 1
+        },
+        {
+          "status": "ok",
+          "query": "Least action principle The principle of stationary action states that physical systems choose paths that make the action stationary (not necessarily university physics lecture notes textbook",
+          "results": [
+            {
+              "title": "Action principles - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Action_principles",
+              "domain": "en.wikipedia.org",
+              "snippet": "Maupertuis's least action principle is written mathematically as the stationary condition on the abbreviated action (sometimes written S0), where p = (p1,p2,…,pN) are the particle momenta or the conjugate momenta of generalized coordinates, defined by the equation where L(q,q̇,t) is the Lagrangian."
+            },
+            {
+              "title": "9.2: Hamilton's Principle of Stationary Action - Physics ...",
+              "url": "https://phys.libretexts.org/Bookshelves/Classical_Mechanics/Variational_Principles_in_Classical_Mechanics_(Cline)/09:_Hamilton's_Action_Principle/9.02:_Hamilton's_Principle_of_Stationary_Action",
+              "domain": "phys.libretexts.org",
+              "snippet": "Mar 14, 2021 · Abbreviated action provides for use of a simplified form of the principle of least action that is based on the kinetic energy, and not potential energy. For conservative systems it determines the path of the motion, but not the time dependence of the motion."
+            },
+            {
+              "title": "19 The Principle of Least Action - The Feynman Lectures on ...",
+              "url": "https://www.feynmanlectures.caltech.edu/II_19.html",
+              "domain": "feynmanlectures.caltech.edu",
+              "snippet": "“So, for a conservative system at least, we have demonstrated that the principle of least action gives the right answer; it says that the path that has the minimum action is the one satisfying Newton’s law."
+            },
+            {
+              "title": "2.2 — The Principle of Stationary Action - SAphysics",
+              "url": "https://saphysics.com/classical-mechanics/lagrangian-mechanics/the-principle-of-stationary-action/",
+              "domain": "saphysics.com",
+              "snippet": "This is known as the Principle of Least Action or Hamilton’s Principle. It is important to note that the name The Principle of Least Action is actually a misnomer, because it implies that the true path of a particle is the one that always minimizes the action, which is not true in some cases."
+            },
+            {
+              "title": "Physics:Stationary-action principle - HandWiki",
+              "url": "https://handwiki.org/wiki/Physics:Stationary-action_principle",
+              "domain": "handwiki.org",
+              "snippet": "The stationary-action principle – also known as the principle of least action – is a variational principle that, when applied to the action of a mechanical system, yields the equations of motion for that system."
+            }
+          ],
+          "urls": [
+            "https://en.wikipedia.org/wiki/Action_principles",
+            "https://phys.libretexts.org/Bookshelves/Classical_Mechanics/Variational_Principles_in_Classical_Mechanics_(Cline)/09:_Hamilton's_Action_Principle/9.02:_Hamilton's_Principle_of_Stationary_Action",
+            "https://www.feynmanlectures.caltech.edu/II_19.html",
+            "https://saphysics.com/classical-mechanics/lagrangian-mechanics/the-principle-of-stationary-action/",
+            "https://handwiki.org/wiki/Physics:Stationary-action_principle"
+          ],
+          "result_snippet": "[1] Action principles - Wikipedia\nURL: https://en.wikipedia.org/wiki/Action_principles\nSnippet: Maupertuis's least action principle is written mathematically as the stationary condition on the abbreviated action (sometimes written S0), where p = (p1,p2,…,pN) are the particle momenta or the conjugate momenta of generalized coordinates, defined by the equation where L(q,q̇,t) is the Lagrangian.\n\n[2] 9.2: Hamilton's Principle of Stationary Action - Physics ...\nURL: https://phys.libretexts.org/Bookshelves/Classical_Mechanics/Variational_Principles_in_Classical_Mechanics_(Cline)/09:_Hamilton's_Action_Principle/9.02:_Hamilton's_Principle_of_Stationary_Action\nSnippet: Mar 14, 2021 · Abbreviated action provides for use of a simplified form of the principle of least action that is based on the kinetic energy, and not potential energy. For conservative systems it determines the path of the motion, but not the time dependence of the motion.\n\n[3] 19 The Principle of Least Action - The Feynman Lectures on ...\nURL: https://www.feynmanlectures.caltech.edu/II_19.html\nSnippet: “So, for a conservative system at least, we have demonstrated that the principle of least action gives the right answer; it says that the path that has the minimum action is the one satisfying Newton’s law.\n\n[4] 2.2 — The Principle of Stationary Action - SAphysics\nURL: https://saphysics.com/classical-mechanics/lagrangian-mechanics/the-principle-of-stationary-action/\nSnippet: This is known as the Principle of Least Action or Hamilton’s Principle. It is important to note that the name The Principle of Least Action is actually a misnomer, because it implies that the true path of a particle is the one that always minimizes the action, which is not true in some cases.\n\n[5] Physics:Stationary-action principle - HandWiki\nURL: https://handwiki.org/wiki/Physics:Stationary-action_principle\nSnippet: The stationary-action principle – also known as the principle of least action – is a variational principle that, when applied to the action of a mechanical system, yields the equations of motion for that system.",
+          "searched_at": "2026-05-06_18-20-47",
+          "attempt_number": 2
+        },
+        {
+          "status": "ok",
+          "query": "Least action principle The principle of stationary action states that physical systems choose paths that make the action stationary (not necessarily site:edu physics",
+          "results": [
+            {
+              "title": "History of the Least Action Principle - ccrma.stanford.edu",
+              "url": "https://ccrma.stanford.edu/~jos/Lagrangians/History_Least_Action_Principle.html",
+              "domain": "ccrma.stanford.edu",
+              "snippet": "This identification of kinetic minus potential energy as the correct integrand was the key physical insight. Hamilton (1834-1835): William Rowan Hamilton gave the modern, fully general formulation and clarified that the action is stationary (not necessarily minimum--it can be a saddle point)."
+            },
+            {
+              "title": "The Aristotelian Teleology and The Principle of The Least Action",
+              "url": "https://www.academia.edu/112527367/THE_ARISTOTELIAN_TELEOLOGY_AND_THE_PRINCIPLE_OF_THE_LEAST_ACTION",
+              "domain": "academia.edu",
+              "snippet": "The principle of least action (PLA) provides a teleological framework within classical physics and quantum mechanics. Hamilton's principle can be seen as a holistic interpretation of motion, minimizing action in dynamic systems. Feynman's interpretation of quantum mechanics incorporates Aristotelian teleology through the concept of 'many ..."
+            },
+            {
+              "title": "(PDF) The least-action principle and quantum mechanics",
+              "url": "https://www.academia.edu/33640538/The_least_action_principle_and_quantum_mechanics",
+              "domain": "academia.edu",
+              "snippet": "By specifying the concept of \"action\" and the concept of \"effect\" combined with the Planck constant, the author has introduced a new principle called \"least-action principle 2\". The application of this principle in quantum mechanics forced us to take a second look into the movement as well as the interaction of fundamental particles."
+            },
+            {
+              "title": "(PDF) Metaphysics of the Principle of Least Action - Academia.edu",
+              "url": "https://www.academia.edu/22811794/Metaphysics_of_the_Principle_of_Least_Action",
+              "domain": "academia.edu",
+              "snippet": "Despite the importance of the variational principles of physics, there have been relatively few attempts to consider them for a realistic framework. In addition to the old teleological question, this paper continues the recent discussion regarding the modal involvement of the principle of least action and its relations with the Humean view of the laws of nature. The reality of possible paths ..."
+            },
+            {
+              "title": "The Principle of Least Computational Action: Physical Instantiation",
+              "url": "https://www.academia.edu/146730805/The_Principle_of_Least_Computational_Action_Physical_Instantiation",
+              "domain": "academia.edu",
+              "snippet": "The Principle of Least Computational Action: Physical Instantiation 1 Introduction Physical systems exhibit a persistent and unresolved tension between energetic minimization and structural complexity. Classical frameworks, grounded in least action principles or entropy maximization, predict that isolated systems should converge toward states of minimal energy or maximal disorder—effectively ..."
+            }
+          ],
+          "urls": [
+            "https://ccrma.stanford.edu/~jos/Lagrangians/History_Least_Action_Principle.html",
+            "https://www.academia.edu/112527367/THE_ARISTOTELIAN_TELEOLOGY_AND_THE_PRINCIPLE_OF_THE_LEAST_ACTION",
+            "https://www.academia.edu/33640538/The_least_action_principle_and_quantum_mechanics",
+            "https://www.academia.edu/22811794/Metaphysics_of_the_Principle_of_Least_Action",
+            "https://www.academia.edu/146730805/The_Principle_of_Least_Computational_Action_Physical_Instantiation"
+          ],
+          "result_snippet": "[1] History of the Least Action Principle - ccrma.stanford.edu\nURL: https://ccrma.stanford.edu/~jos/Lagrangians/History_Least_Action_Principle.html\nSnippet: This identification of kinetic minus potential energy as the correct integrand was the key physical insight. Hamilton (1834-1835): William Rowan Hamilton gave the modern, fully general formulation and clarified that the action is stationary (not necessarily minimum--it can be a saddle point).\n\n[2] The Aristotelian Teleology and The Principle of The Least Action\nURL: https://www.academia.edu/112527367/THE_ARISTOTELIAN_TELEOLOGY_AND_THE_PRINCIPLE_OF_THE_LEAST_ACTION\nSnippet: The principle of least action (PLA) provides a teleological framework within classical physics and quantum mechanics. Hamilton's principle can be seen as a holistic interpretation of motion, minimizing action in dynamic systems. Feynman's interpretation of quantum mechanics incorporates Aristotelian teleology through the concept of 'many ...\n\n[3] (PDF) The least-action principle and quantum mechanics\nURL: https://www.academia.edu/33640538/The_least_action_principle_and_quantum_mechanics\nSnippet: By specifying the concept of \"action\" and the concept of \"effect\" combined with the Planck constant, the author has introduced a new principle called \"least-action principle 2\". The application of this principle in quantum mechanics forced us to take a second look into the movement as well as the interaction of fundamental particles.\n\n[4] (PDF) Metaphysics of the Principle of Least Action - Academia.edu\nURL: https://www.academia.edu/22811794/Metaphysics_of_the_Principle_of_Least_Action\nSnippet: Despite the importance of the variational principles of physics, there have been relatively few attempts to consider them for a realistic framework. In addition to the old teleological question, this paper continues the recent discussion regarding the modal involvement of the principle of least action and its relations with the Humean view of the laws of nature. The reality of possible paths ...\n\n[5] The Principle of Least Computational Action: Physical Instantiation\nURL: https://www.academia.edu/146730805/The_Principle_of_Least_Computational_Action_Physical_Instantiation\nSnippet: The Principle of Least Computational Action: Physical Instantiation 1 Introduction Physical systems exhibit a persistent and unresolved tension between energetic minimization and structural complexity. Classical frameworks, grounded in least action principles or entropy maximization, predict that isolated systems should converge toward states of minimal energy or maximal disorder—effectively ...",
+          "searched_at": "2026-05-06_18-57-14",
+          "attempt_number": 3
+        }
+      ],
+      "query": "Least action principle The principle of stationary action states that physical systems choose paths that make the action stationary (not necessarily site:edu physics",
+      "search_status": "ok",
+      "result_snippet": "[1] History of the Least Action Principle - ccrma.stanford.edu\nURL: https://ccrma.stanford.edu/~jos/Lagrangians/History_Least_Action_Principle.html\nSnippet: This identification of kinetic minus potential energy as the correct integrand was the key physical insight. Hamilton (1834-1835): William Rowan Hamilton gave the modern, fully general formulation and clarified that the action is stationary (not necessarily minimum--it can be a saddle point).\n\n[2] The Aristotelian Teleology and The Principle of The Least Action\nURL: https://www.academia.edu/112527367/THE_ARISTOTELIAN_TELEOLOGY_AND_THE_PRINCIPLE_OF_THE_LEAST_ACTION\nSnippet: The principle of least action (PLA) provides a teleological framework within classical physics and quantum mechanics. Hamilton's principle can be seen as a holistic interpretation of motion, minimizing action in dynamic systems. Feynman's interpretation of quantum mechanics incorporates Aristotelian teleology through the concept of 'many ...\n\n[3] (PDF) The least-action principle and quantum mechanics\nURL: https://www.academia.edu/33640538/The_least_action_principle_and_quantum_mechanics\nSnippet: By specifying the concept of \"action\" and the concept of \"effect\" combined with the Planck constant, the author has introduced a new principle called \"least-action principle 2\". The application of this principle in quantum mechanics forced us to take a second look into the movement as well as the interaction of fundamental particles.\n\n[4] (PDF) Metaphysics of the Principle of Least Action - Academia.edu\nURL: https://www.academia.edu/22811794/Metaphysics_of_the_Principle_of_Least_Action\nSnippet: Despite the importance of the variational principles of physics, there have been relatively few attempts to consider them for a realistic framework. In addition to the old teleological question, this paper continues the recent discussion regarding the modal involvement of the principle of least action and its relations with the Humean view of the laws of nature. The reality of possible paths ...\n\n[5] The Principle of Least Computational Action: Physical Instantiation\nURL: https://www.academia.edu/146730805/The_Principle_of_Least_Computational_Action_Physical_Instantiation\nSnippet: The Principle of Least Computational Action: Physical Instantiation 1 Introduction Physical systems exhibit a persistent and unresolved tension between energetic minimization and structural complexity. Classical frameworks, grounded in least action principles or entropy maximization, predict that isolated systems should converge toward states of minimal energy or maximal disorder—effectively ...",
+      "results": [
+        {
+          "title": "History of the Least Action Principle - ccrma.stanford.edu",
+          "url": "https://ccrma.stanford.edu/~jos/Lagrangians/History_Least_Action_Principle.html",
+          "domain": "ccrma.stanford.edu",
+          "snippet": "This identification of kinetic minus potential energy as the correct integrand was the key physical insight. Hamilton (1834-1835): William Rowan Hamilton gave the modern, fully general formulation and clarified that the action is stationary (not necessarily minimum--it can be a saddle point)."
+        },
+        {
+          "title": "The Aristotelian Teleology and The Principle of The Least Action",
+          "url": "https://www.academia.edu/112527367/THE_ARISTOTELIAN_TELEOLOGY_AND_THE_PRINCIPLE_OF_THE_LEAST_ACTION",
+          "domain": "academia.edu",
+          "snippet": "The principle of least action (PLA) provides a teleological framework within classical physics and quantum mechanics. Hamilton's principle can be seen as a holistic interpretation of motion, minimizing action in dynamic systems. Feynman's interpretation of quantum mechanics incorporates Aristotelian teleology through the concept of 'many ..."
+        },
+        {
+          "title": "(PDF) The least-action principle and quantum mechanics",
+          "url": "https://www.academia.edu/33640538/The_least_action_principle_and_quantum_mechanics",
+          "domain": "academia.edu",
+          "snippet": "By specifying the concept of \"action\" and the concept of \"effect\" combined with the Planck constant, the author has introduced a new principle called \"least-action principle 2\". The application of this principle in quantum mechanics forced us to take a second look into the movement as well as the interaction of fundamental particles."
+        },
+        {
+          "title": "(PDF) Metaphysics of the Principle of Least Action - Academia.edu",
+          "url": "https://www.academia.edu/22811794/Metaphysics_of_the_Principle_of_Least_Action",
+          "domain": "academia.edu",
+          "snippet": "Despite the importance of the variational principles of physics, there have been relatively few attempts to consider them for a realistic framework. In addition to the old teleological question, this paper continues the recent discussion regarding the modal involvement of the principle of least action and its relations with the Humean view of the laws of nature. The reality of possible paths ..."
+        },
+        {
+          "title": "The Principle of Least Computational Action: Physical Instantiation",
+          "url": "https://www.academia.edu/146730805/The_Principle_of_Least_Computational_Action_Physical_Instantiation",
+          "domain": "academia.edu",
+          "snippet": "The Principle of Least Computational Action: Physical Instantiation 1 Introduction Physical systems exhibit a persistent and unresolved tension between energetic minimization and structural complexity. Classical frameworks, grounded in least action principles or entropy maximization, predict that isolated systems should converge toward states of minimal energy or maximal disorder—effectively ..."
+        }
+      ],
+      "urls": [
+        "https://ccrma.stanford.edu/~jos/Lagrangians/History_Least_Action_Principle.html",
+        "https://www.academia.edu/112527367/THE_ARISTOTELIAN_TELEOLOGY_AND_THE_PRINCIPLE_OF_THE_LEAST_ACTION",
+        "https://www.academia.edu/33640538/The_least_action_principle_and_quantum_mechanics",
+        "https://www.academia.edu/22811794/Metaphysics_of_the_Principle_of_Least_Action",
+        "https://www.academia.edu/146730805/The_Principle_of_Least_Computational_Action_Physical_Instantiation"
+      ],
+      "attempt_count": 3,
+      "searched_at": "2026-05-06_18-57-14",
       "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
     },
     "C002": {
-      "claim": "This balance is the **least action principle** in action.",
-      "query": "Least action principle This balance is the **least action principle** in action. physics lecture notes textbook explanation",
-      "result_snippet": "In Physics this law is called the Law of least action which is a restatement of the second law of thermodynamics (the law of balance the way ... ... that this implies that the Principle of Least Action isn't really the Principle of Least Action at all: it's the \"Principle of Stationary Action ... This principle is often casually referred to as the “least action” principle, although the action need only be extremized (or stationary), not ... As such, we do not challenge the complementarity principle: the physical interpretation of the wavefunction that is offered here explains the wave ... As such, we do not challenge the complementarity principle: the physical interpretation of the wavefunction that is offered here explains the wave ...",
-      "searched_at": "2026-05-04_23-08-12",
+      "claim": "Action is mathematically defined as the integral of kinetic energy minus potential energy over time.",
+      "search_attempts": [
+        {
+          "status": "ok",
+          "query": "action integral physics definition",
+          "results": [
+            {
+              "title": "Action (physics) - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Action_(physics)",
+              "domain": "en.wikipedia.org",
+              "snippet": "March 24, 2026 - In the abbreviated action, the input function is the path followed by the physical system without regard to its parameterization by time. For example, the path of a planetary orbit is an ellipse, and the path of a particle in a uniform gravitational field is a parabola; in both cases, the path does not depend on how fast the particle traverses the path. The abbreviated action 𝒮0 (sometimes written as W) is defined as the integral of the generalized momenta,"
+            },
+            {
+              "title": "Action principles - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Action_principles",
+              "domain": "en.wikipedia.org",
+              "snippet": "March 24, 2026 - The core ideas are based on energy, paths, an energy function called the Lagrangian along paths, and selection of a path according to the \"action\", a continuous sum or integral of the Lagrangian along the path."
+            },
+            {
+              "title": "PID controller - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/PID_controller",
+              "domain": "en.wikipedia.org",
+              "snippet": "5 hours ago - An integral term increases action in relation not only to the error but also the time for which it has persisted. So, if the applied force is not enough to bring the error to zero, this force will be increased as time passes."
+            },
+            {
+              "title": "Path integral formulation - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Path_integral_formulation",
+              "domain": "en.wikipedia.org",
+              "snippet": "4 days ago - The path integral formulation is ... action principle of classical mechanics. It replaces the classical notion of a single, unique classical trajectory for a system with a sum, or functional integral, over an infinity of quantum-mechanically ..."
+            },
+            {
+              "title": "Einstein–Hilbert action - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Einstein–Hilbert_action",
+              "domain": "en.wikipedia.org",
+              "snippet": "January 14, 2026 - The Einstein–Hilbert action in general relativity yields the Einstein field equations through the principle of stationary action. With the ... {\\displaystyle c} is the speed of light in vacuum. If it converges, the integral is taken over the whole spacetime. If it does not converge, ... {\\displaystyle S} is no longer well-defined, but a modified definition where one integrates over arbitrarily large, relatively compact domains, still yields the Einstein equation as the Euler–Lagrange equation of the Einstein–Hilbert action."
+            }
+          ],
+          "urls": [
+            "https://en.wikipedia.org/wiki/Action_(physics)",
+            "https://en.wikipedia.org/wiki/Action_principles",
+            "https://en.wikipedia.org/wiki/PID_controller",
+            "https://en.wikipedia.org/wiki/Path_integral_formulation",
+            "https://en.wikipedia.org/wiki/Einstein–Hilbert_action"
+          ],
+          "result_snippet": "[1] Action (physics) - Wikipedia\nURL: https://en.wikipedia.org/wiki/Action_(physics)\nSnippet: March 24, 2026 - In the abbreviated action, the input function is the path followed by the physical system without regard to its parameterization by time. For example, the path of a planetary orbit is an ellipse, and the path of a particle in a uniform gravitational field is a parabola; in both cases, the path does not depend on how fast the particle traverses the path. The abbreviated action 𝒮0 (sometimes written as W) is defined as the integral of the generalized momenta,\n\n[2] Action principles - Wikipedia\nURL: https://en.wikipedia.org/wiki/Action_principles\nSnippet: March 24, 2026 - The core ideas are based on energy, paths, an energy function called the Lagrangian along paths, and selection of a path according to the \"action\", a continuous sum or integral of the Lagrangian along the path.\n\n[3] PID controller - Wikipedia\nURL: https://en.wikipedia.org/wiki/PID_controller\nSnippet: 5 hours ago - An integral term increases action in relation not only to the error but also the time for which it has persisted. So, if the applied force is not enough to bring the error to zero, this force will be increased as time passes.\n\n[4] Path integral formulation - Wikipedia\nURL: https://en.wikipedia.org/wiki/Path_integral_formulation\nSnippet: 4 days ago - The path integral formulation is ... action principle of classical mechanics. It replaces the classical notion of a single, unique classical trajectory for a system with a sum, or functional integral, over an infinity of quantum-mechanically ...\n\n[5] Einstein–Hilbert action - Wikipedia\nURL: https://en.wikipedia.org/wiki/Einstein–Hilbert_action\nSnippet: January 14, 2026 - The Einstein–Hilbert action in general relativity yields the Einstein field equations through the principle of stationary action. With the ... {\\displaystyle c} is the speed of light in vacuum. If it converges, the integral is taken over the whole spacetime. If it does not converge, ... {\\displaystyle S} is no longer well-defined, but a modified definition where one integrates over arbitrarily large, relatively compact domains, still yields the Einstein equation as the Euler–Lagrange equation of the Einstein–Hilbert action.",
+          "searched_at": "2026-05-06_17-44-22",
+          "attempt_number": 1
+        }
+      ],
+      "query": "action integral physics definition",
+      "search_status": "ok",
+      "result_snippet": "[1] Action (physics) - Wikipedia\nURL: https://en.wikipedia.org/wiki/Action_(physics)\nSnippet: March 24, 2026 - In the abbreviated action, the input function is the path followed by the physical system without regard to its parameterization by time. For example, the path of a planetary orbit is an ellipse, and the path of a particle in a uniform gravitational field is a parabola; in both cases, the path does not depend on how fast the particle traverses the path. The abbreviated action 𝒮0 (sometimes written as W) is defined as the integral of the generalized momenta,\n\n[2] Action principles - Wikipedia\nURL: https://en.wikipedia.org/wiki/Action_principles\nSnippet: March 24, 2026 - The core ideas are based on energy, paths, an energy function called the Lagrangian along paths, and selection of a path according to the \"action\", a continuous sum or integral of the Lagrangian along the path.\n\n[3] PID controller - Wikipedia\nURL: https://en.wikipedia.org/wiki/PID_controller\nSnippet: 5 hours ago - An integral term increases action in relation not only to the error but also the time for which it has persisted. So, if the applied force is not enough to bring the error to zero, this force will be increased as time passes.\n\n[4] Path integral formulation - Wikipedia\nURL: https://en.wikipedia.org/wiki/Path_integral_formulation\nSnippet: 4 days ago - The path integral formulation is ... action principle of classical mechanics. It replaces the classical notion of a single, unique classical trajectory for a system with a sum, or functional integral, over an infinity of quantum-mechanically ...\n\n[5] Einstein–Hilbert action - Wikipedia\nURL: https://en.wikipedia.org/wiki/Einstein–Hilbert_action\nSnippet: January 14, 2026 - The Einstein–Hilbert action in general relativity yields the Einstein field equations through the principle of stationary action. With the ... {\\displaystyle c} is the speed of light in vacuum. If it converges, the integral is taken over the whole spacetime. If it does not converge, ... {\\displaystyle S} is no longer well-defined, but a modified definition where one integrates over arbitrarily large, relatively compact domains, still yields the Einstein equation as the Euler–Lagrange equation of the Einstein–Hilbert action.",
+      "results": [
+        {
+          "title": "Action (physics) - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Action_(physics)",
+          "domain": "en.wikipedia.org",
+          "snippet": "March 24, 2026 - In the abbreviated action, the input function is the path followed by the physical system without regard to its parameterization by time. For example, the path of a planetary orbit is an ellipse, and the path of a particle in a uniform gravitational field is a parabola; in both cases, the path does not depend on how fast the particle traverses the path. The abbreviated action 𝒮0 (sometimes written as W) is defined as the integral of the generalized momenta,"
+        },
+        {
+          "title": "Action principles - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Action_principles",
+          "domain": "en.wikipedia.org",
+          "snippet": "March 24, 2026 - The core ideas are based on energy, paths, an energy function called the Lagrangian along paths, and selection of a path according to the \"action\", a continuous sum or integral of the Lagrangian along the path."
+        },
+        {
+          "title": "PID controller - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/PID_controller",
+          "domain": "en.wikipedia.org",
+          "snippet": "5 hours ago - An integral term increases action in relation not only to the error but also the time for which it has persisted. So, if the applied force is not enough to bring the error to zero, this force will be increased as time passes."
+        },
+        {
+          "title": "Path integral formulation - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Path_integral_formulation",
+          "domain": "en.wikipedia.org",
+          "snippet": "4 days ago - The path integral formulation is ... action principle of classical mechanics. It replaces the classical notion of a single, unique classical trajectory for a system with a sum, or functional integral, over an infinity of quantum-mechanically ..."
+        },
+        {
+          "title": "Einstein–Hilbert action - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Einstein–Hilbert_action",
+          "domain": "en.wikipedia.org",
+          "snippet": "January 14, 2026 - The Einstein–Hilbert action in general relativity yields the Einstein field equations through the principle of stationary action. With the ... {\\displaystyle c} is the speed of light in vacuum. If it converges, the integral is taken over the whole spacetime. If it does not converge, ... {\\displaystyle S} is no longer well-defined, but a modified definition where one integrates over arbitrarily large, relatively compact domains, still yields the Einstein equation as the Euler–Lagrange equation of the Einstein–Hilbert action."
+        }
+      ],
+      "urls": [
+        "https://en.wikipedia.org/wiki/Action_(physics)",
+        "https://en.wikipedia.org/wiki/Action_principles",
+        "https://en.wikipedia.org/wiki/PID_controller",
+        "https://en.wikipedia.org/wiki/Path_integral_formulation",
+        "https://en.wikipedia.org/wiki/Einstein–Hilbert_action"
+      ],
+      "attempt_count": 1,
+      "searched_at": "2026-05-06_17-44-22",
       "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
     },
     "C003": {
-      "claim": "## Why this matters The least action principle is a **fundamental principle** of nature that unifies classical mechanics.",
-      "query": "Least action principle ## Why this matters The least action principle is a **fundamental principle** of nature that unifies physics lecture notes textbook explanation",
-      "result_snippet": "March 24, 2026 - Inspired by Einstein's work on general relativity, the renowned mathematician David Hilbert applied the principle of least action to derive the field equations of general relativity. His action, now known as the Einstein–Hilbert action, ... contained a relativistically invariant volume element √−g d4x and the Ricci scalar curvature R. The scale factor ... The action principle is so central in modern physics and mathematics that it is widely applied including in thermodynamics, fluid mechanics, the theory of relativity, quantum mechanics, particle physics, and string theory. June 18, 2025 - In classical mechanics, Maupertuis's principle (named after Pierre Louis Maupertuis, 1698 – 1759) states that the path followed by a physical system is the one of least length (with a suitable interpretation of path and length). It is a special case of the more generally stated princip\n\n...[TRUNCATED]...\n\nrinciple states that the true evolution q(t) of a system described by N generalized coordinates q = (q1, q2, ..., qN) between two specified states q1 = q(t1) and q2 = q(t2) at two specified times t1 and t2 is a stationary point (a point where the variation is zero) of the action functional 3 weeks ago - The action of a physical system is the integral over time of a Lagrangian function, from which the system's behavior can be determined by the principle of least action. This theorem applies to continuous and smooth symmetries of physical space. November 28, 2025 - Relying on a recently encountered paper, we show how the results of the multi-fold theory, in particular the multi-fold space time matter induction and scattering, built explicitly on the path integral formalism, its underlying principles, and the principle of least action, allows recovering almost everything in Today’s physics.",
-      "searched_at": "2026-05-04_23-08-14",
+      "claim": "The principle of stationary action unifies classical mechanics and connects to relativity and quantum mechanics.",
+      "search_attempts": [
+        {
+          "status": "ok",
+          "query": "stationary action principle unification physics",
+          "results": [
+            {
+              "title": "Lagrangian mechanics - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Lagrangian_mechanics",
+              "domain": "en.wikipedia.org",
+              "snippet": "The stationary action principle requires that the action functional of the system derived from L must remain at a stationary point (specifically, a maximum, minimum, or saddle point) throughout the time evolution of the system."
+            },
+            {
+              "title": "The Principle of Stationary Action | by Paribesh Regmi | Medium",
+              "url": "https://paribeshregmi.medium.com/the-principle-of-stationary-action-c69237bd4ea2",
+              "domain": "paribeshregmi.medium.com",
+              "snippet": "Thus, the quantity action is a more fundamental quantity that guides nature. The principle of stationary action provides a single unifying principle for all of physics, often called a mother principle — from which all other physical laws can be derived."
+            },
+            {
+              "title": "The Principle of Stationary Action: Unifying the Laws of Physics from ...",
+              "url": "https://www.getmanabi.ai/library/d6c6835c-0f92-4131-ab29-5a6f902e7ebf",
+              "domain": "getmanabi.ai",
+              "snippet": "3The principle of stationary action serves as the bedrock for modern physics, unifying disparate fields like optics, electromagnetism, and general relativity under a single mathematical framework."
+            },
+            {
+              "title": "Principle Of Stationary Action - EncyclopedAI",
+              "url": "https://encyclopedai.stavros.io/entries/principle-of-stationary-action/",
+              "domain": "encyclopedai.stavros.io",
+              "snippet": "The Principle of Stationary Action (Hamilton's Principle) asserts that the trajectory a physical system follows between two states renders the Action functional stationary ($\\\\delta S=0$). This variational requirement yields the fundamental differential equations of motion, such as the Euler-Lagrange equations, across classical mechanics and field theory."
+            },
+            {
+              "title": "Is there a version of Hamilton's Principle of Stationary Action when ...",
+              "url": "https://physics.stackexchange.com/questions/864253/is-there-a-version-of-hamiltons-principle-of-stationary-action-when-only-initia",
+              "domain": "physics.stackexchange.com",
+              "snippet": "Is there a version of the action principle and corresponding proof of the E-L equations that only fixes initial conditions? Or does the fixed end-points version of Hamilton's principle actually cover this case already in some non-obvious way?"
+            }
+          ],
+          "urls": [
+            "https://en.wikipedia.org/wiki/Lagrangian_mechanics",
+            "https://paribeshregmi.medium.com/the-principle-of-stationary-action-c69237bd4ea2",
+            "https://www.getmanabi.ai/library/d6c6835c-0f92-4131-ab29-5a6f902e7ebf",
+            "https://encyclopedai.stavros.io/entries/principle-of-stationary-action/",
+            "https://physics.stackexchange.com/questions/864253/is-there-a-version-of-hamiltons-principle-of-stationary-action-when-only-initia"
+          ],
+          "result_snippet": "[1] Lagrangian mechanics - Wikipedia\nURL: https://en.wikipedia.org/wiki/Lagrangian_mechanics\nSnippet: The stationary action principle requires that the action functional of the system derived from L must remain at a stationary point (specifically, a maximum, minimum, or saddle point) throughout the time evolution of the system.\n\n[2] The Principle of Stationary Action | by Paribesh Regmi | Medium\nURL: https://paribeshregmi.medium.com/the-principle-of-stationary-action-c69237bd4ea2\nSnippet: Thus, the quantity action is a more fundamental quantity that guides nature. The principle of stationary action provides a single unifying principle for all of physics, often called a mother principle — from which all other physical laws can be derived.\n\n[3] The Principle of Stationary Action: Unifying the Laws of Physics from ...\nURL: https://www.getmanabi.ai/library/d6c6835c-0f92-4131-ab29-5a6f902e7ebf\nSnippet: 3The principle of stationary action serves as the bedrock for modern physics, unifying disparate fields like optics, electromagnetism, and general relativity under a single mathematical framework.\n\n[4] Principle Of Stationary Action - EncyclopedAI\nURL: https://encyclopedai.stavros.io/entries/principle-of-stationary-action/\nSnippet: The Principle of Stationary Action (Hamilton's Principle) asserts that the trajectory a physical system follows between two states renders the Action functional stationary ($\\\\delta S=0$). This variational requirement yields the fundamental differential equations of motion, such as the Euler-Lagrange equations, across classical mechanics and field theory.\n\n[5] Is there a version of Hamilton's Principle of Stationary Action when ...\nURL: https://physics.stackexchange.com/questions/864253/is-there-a-version-of-hamiltons-principle-of-stationary-action-when-only-initia\nSnippet: Is there a version of the action principle and corresponding proof of the E-L equations that only fixes initial conditions? Or does the fixed end-points version of Hamilton's principle actually cover this case already in some non-obvious way?",
+          "searched_at": "2026-05-06_17-44-23",
+          "attempt_number": 1
+        }
+      ],
+      "query": "stationary action principle unification physics",
+      "search_status": "ok",
+      "result_snippet": "[1] Lagrangian mechanics - Wikipedia\nURL: https://en.wikipedia.org/wiki/Lagrangian_mechanics\nSnippet: The stationary action principle requires that the action functional of the system derived from L must remain at a stationary point (specifically, a maximum, minimum, or saddle point) throughout the time evolution of the system.\n\n[2] The Principle of Stationary Action | by Paribesh Regmi | Medium\nURL: https://paribeshregmi.medium.com/the-principle-of-stationary-action-c69237bd4ea2\nSnippet: Thus, the quantity action is a more fundamental quantity that guides nature. The principle of stationary action provides a single unifying principle for all of physics, often called a mother principle — from which all other physical laws can be derived.\n\n[3] The Principle of Stationary Action: Unifying the Laws of Physics from ...\nURL: https://www.getmanabi.ai/library/d6c6835c-0f92-4131-ab29-5a6f902e7ebf\nSnippet: 3The principle of stationary action serves as the bedrock for modern physics, unifying disparate fields like optics, electromagnetism, and general relativity under a single mathematical framework.\n\n[4] Principle Of Stationary Action - EncyclopedAI\nURL: https://encyclopedai.stavros.io/entries/principle-of-stationary-action/\nSnippet: The Principle of Stationary Action (Hamilton's Principle) asserts that the trajectory a physical system follows between two states renders the Action functional stationary ($\\\\delta S=0$). This variational requirement yields the fundamental differential equations of motion, such as the Euler-Lagrange equations, across classical mechanics and field theory.\n\n[5] Is there a version of Hamilton's Principle of Stationary Action when ...\nURL: https://physics.stackexchange.com/questions/864253/is-there-a-version-of-hamiltons-principle-of-stationary-action-when-only-initia\nSnippet: Is there a version of the action principle and corresponding proof of the E-L equations that only fixes initial conditions? Or does the fixed end-points version of Hamilton's principle actually cover this case already in some non-obvious way?",
+      "results": [
+        {
+          "title": "Lagrangian mechanics - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Lagrangian_mechanics",
+          "domain": "en.wikipedia.org",
+          "snippet": "The stationary action principle requires that the action functional of the system derived from L must remain at a stationary point (specifically, a maximum, minimum, or saddle point) throughout the time evolution of the system."
+        },
+        {
+          "title": "The Principle of Stationary Action | by Paribesh Regmi | Medium",
+          "url": "https://paribeshregmi.medium.com/the-principle-of-stationary-action-c69237bd4ea2",
+          "domain": "paribeshregmi.medium.com",
+          "snippet": "Thus, the quantity action is a more fundamental quantity that guides nature. The principle of stationary action provides a single unifying principle for all of physics, often called a mother principle — from which all other physical laws can be derived."
+        },
+        {
+          "title": "The Principle of Stationary Action: Unifying the Laws of Physics from ...",
+          "url": "https://www.getmanabi.ai/library/d6c6835c-0f92-4131-ab29-5a6f902e7ebf",
+          "domain": "getmanabi.ai",
+          "snippet": "3The principle of stationary action serves as the bedrock for modern physics, unifying disparate fields like optics, electromagnetism, and general relativity under a single mathematical framework."
+        },
+        {
+          "title": "Principle Of Stationary Action - EncyclopedAI",
+          "url": "https://encyclopedai.stavros.io/entries/principle-of-stationary-action/",
+          "domain": "encyclopedai.stavros.io",
+          "snippet": "The Principle of Stationary Action (Hamilton's Principle) asserts that the trajectory a physical system follows between two states renders the Action functional stationary ($\\\\delta S=0$). This variational requirement yields the fundamental differential equations of motion, such as the Euler-Lagrange equations, across classical mechanics and field theory."
+        },
+        {
+          "title": "Is there a version of Hamilton's Principle of Stationary Action when ...",
+          "url": "https://physics.stackexchange.com/questions/864253/is-there-a-version-of-hamiltons-principle-of-stationary-action-when-only-initia",
+          "domain": "physics.stackexchange.com",
+          "snippet": "Is there a version of the action principle and corresponding proof of the E-L equations that only fixes initial conditions? Or does the fixed end-points version of Hamilton's principle actually cover this case already in some non-obvious way?"
+        }
+      ],
+      "urls": [
+        "https://en.wikipedia.org/wiki/Lagrangian_mechanics",
+        "https://paribeshregmi.medium.com/the-principle-of-stationary-action-c69237bd4ea2",
+        "https://www.getmanabi.ai/library/d6c6835c-0f92-4131-ab29-5a6f902e7ebf",
+        "https://encyclopedai.stavros.io/entries/principle-of-stationary-action/",
+        "https://physics.stackexchange.com/questions/864253/is-there-a-version-of-hamiltons-principle-of-stationary-action-when-only-initia"
+      ],
+      "attempt_count": 1,
+      "searched_at": "2026-05-06_17-44-23",
+      "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
+    },
+    "C004": {
+      "claim": "The term 'least action' is a historical approximation; modern physics uses 'stationary action' which includes minima, maxima, or saddle points.",
+      "search_attempts": [
+        {
+          "status": "ok",
+          "query": "least action principle vs stationary action",
+          "results": [
+            {
+              "title": "Action principles - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Action_principles",
+              "domain": "en.wikipedia.org",
+              "snippet": "Several distinct action principles differ in the constraints on their initial and final conditions. The names of action principles have evolved over time and differ in details of the endpoints of the paths and the nature of the variation."
+            },
+            {
+              "title": "When is the principle of stationary action not the principle ...",
+              "url": "https://physics.stackexchange.com/questions/144356/when-is-the-principle-of-stationary-action-not-the-principle-of-least-action",
+              "domain": "physics.stackexchange.com",
+              "snippet": "The principle of least action is a special case of the principle of stationary action when the action is minimal for the true path of the system. However, this is not always true, as some systems may have multiple paths with the same action, or paths that are saddle points or maxima of the action."
+            },
+            {
+              "title": "19 The Principle of Least Action - The Feynman Lectures on ...",
+              "url": "https://www.feynmanlectures.caltech.edu/II_19.html",
+              "domain": "feynmanlectures.caltech.edu",
+              "snippet": "“So, for a conservative system at least, we have demonstrated that the principle of least action gives the right answer; it says that the path that has the minimum action is the one satisfying Newton’s law."
+            },
+            {
+              "title": "When action is not least",
+              "url": "https://eftaylor.com/pub/WhenActionNotLeast.pdf",
+              "domain": "eftaylor.com",
+              "snippet": "The Hamilton action principle says that with respect to all nearby curves the action along the actual worldline is stationary, that is it has zero variation to first order; formally we write S = 0."
+            },
+            {
+              "title": "2.2 — The Principle of Stationary Action - SAphysics",
+              "url": "https://saphysics.com/classical-mechanics/lagrangian-mechanics/the-principle-of-stationary-action/",
+              "domain": "saphysics.com",
+              "snippet": "This is known as the Principle of Least Action or Hamilton’s Principle. It is important to note that the name The Principle of Least Action is actually a misnomer, because it implies that the true path of a particle is the one that always minimizes the action, which is not true in some cases."
+            }
+          ],
+          "urls": [
+            "https://en.wikipedia.org/wiki/Action_principles",
+            "https://physics.stackexchange.com/questions/144356/when-is-the-principle-of-stationary-action-not-the-principle-of-least-action",
+            "https://www.feynmanlectures.caltech.edu/II_19.html",
+            "https://eftaylor.com/pub/WhenActionNotLeast.pdf",
+            "https://saphysics.com/classical-mechanics/lagrangian-mechanics/the-principle-of-stationary-action/"
+          ],
+          "result_snippet": "[1] Action principles - Wikipedia\nURL: https://en.wikipedia.org/wiki/Action_principles\nSnippet: Several distinct action principles differ in the constraints on their initial and final conditions. The names of action principles have evolved over time and differ in details of the endpoints of the paths and the nature of the variation.\n\n[2] When is the principle of stationary action not the principle ...\nURL: https://physics.stackexchange.com/questions/144356/when-is-the-principle-of-stationary-action-not-the-principle-of-least-action\nSnippet: The principle of least action is a special case of the principle of stationary action when the action is minimal for the true path of the system. However, this is not always true, as some systems may have multiple paths with the same action, or paths that are saddle points or maxima of the action.\n\n[3] 19 The Principle of Least Action - The Feynman Lectures on ...\nURL: https://www.feynmanlectures.caltech.edu/II_19.html\nSnippet: “So, for a conservative system at least, we have demonstrated that the principle of least action gives the right answer; it says that the path that has the minimum action is the one satisfying Newton’s law.\n\n[4] When action is not least\nURL: https://eftaylor.com/pub/WhenActionNotLeast.pdf\nSnippet: The Hamilton action principle says that with respect to all nearby curves the action along the actual worldline is stationary, that is it has zero variation to first order; formally we write S = 0.\n\n[5] 2.2 — The Principle of Stationary Action - SAphysics\nURL: https://saphysics.com/classical-mechanics/lagrangian-mechanics/the-principle-of-stationary-action/\nSnippet: This is known as the Principle of Least Action or Hamilton’s Principle. It is important to note that the name The Principle of Least Action is actually a misnomer, because it implies that the true path of a particle is the one that always minimizes the action, which is not true in some cases.",
+          "searched_at": "2026-05-06_18-20-49",
+          "attempt_number": 1
+        }
+      ],
+      "query": "least action principle vs stationary action",
+      "search_status": "ok",
+      "result_snippet": "[1] Action principles - Wikipedia\nURL: https://en.wikipedia.org/wiki/Action_principles\nSnippet: Several distinct action principles differ in the constraints on their initial and final conditions. The names of action principles have evolved over time and differ in details of the endpoints of the paths and the nature of the variation.\n\n[2] When is the principle of stationary action not the principle ...\nURL: https://physics.stackexchange.com/questions/144356/when-is-the-principle-of-stationary-action-not-the-principle-of-least-action\nSnippet: The principle of least action is a special case of the principle of stationary action when the action is minimal for the true path of the system. However, this is not always true, as some systems may have multiple paths with the same action, or paths that are saddle points or maxima of the action.\n\n[3] 19 The Principle of Least Action - The Feynman Lectures on ...\nURL: https://www.feynmanlectures.caltech.edu/II_19.html\nSnippet: “So, for a conservative system at least, we have demonstrated that the principle of least action gives the right answer; it says that the path that has the minimum action is the one satisfying Newton’s law.\n\n[4] When action is not least\nURL: https://eftaylor.com/pub/WhenActionNotLeast.pdf\nSnippet: The Hamilton action principle says that with respect to all nearby curves the action along the actual worldline is stationary, that is it has zero variation to first order; formally we write S = 0.\n\n[5] 2.2 — The Principle of Stationary Action - SAphysics\nURL: https://saphysics.com/classical-mechanics/lagrangian-mechanics/the-principle-of-stationary-action/\nSnippet: This is known as the Principle of Least Action or Hamilton’s Principle. It is important to note that the name The Principle of Least Action is actually a misnomer, because it implies that the true path of a particle is the one that always minimizes the action, which is not true in some cases.",
+      "results": [
+        {
+          "title": "Action principles - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Action_principles",
+          "domain": "en.wikipedia.org",
+          "snippet": "Several distinct action principles differ in the constraints on their initial and final conditions. The names of action principles have evolved over time and differ in details of the endpoints of the paths and the nature of the variation."
+        },
+        {
+          "title": "When is the principle of stationary action not the principle ...",
+          "url": "https://physics.stackexchange.com/questions/144356/when-is-the-principle-of-stationary-action-not-the-principle-of-least-action",
+          "domain": "physics.stackexchange.com",
+          "snippet": "The principle of least action is a special case of the principle of stationary action when the action is minimal for the true path of the system. However, this is not always true, as some systems may have multiple paths with the same action, or paths that are saddle points or maxima of the action."
+        },
+        {
+          "title": "19 The Principle of Least Action - The Feynman Lectures on ...",
+          "url": "https://www.feynmanlectures.caltech.edu/II_19.html",
+          "domain": "feynmanlectures.caltech.edu",
+          "snippet": "“So, for a conservative system at least, we have demonstrated that the principle of least action gives the right answer; it says that the path that has the minimum action is the one satisfying Newton’s law."
+        },
+        {
+          "title": "When action is not least",
+          "url": "https://eftaylor.com/pub/WhenActionNotLeast.pdf",
+          "domain": "eftaylor.com",
+          "snippet": "The Hamilton action principle says that with respect to all nearby curves the action along the actual worldline is stationary, that is it has zero variation to first order; formally we write S = 0."
+        },
+        {
+          "title": "2.2 — The Principle of Stationary Action - SAphysics",
+          "url": "https://saphysics.com/classical-mechanics/lagrangian-mechanics/the-principle-of-stationary-action/",
+          "domain": "saphysics.com",
+          "snippet": "This is known as the Principle of Least Action or Hamilton’s Principle. It is important to note that the name The Principle of Least Action is actually a misnomer, because it implies that the true path of a particle is the one that always minimizes the action, which is not true in some cases."
+        }
+      ],
+      "urls": [
+        "https://en.wikipedia.org/wiki/Action_principles",
+        "https://physics.stackexchange.com/questions/144356/when-is-the-principle-of-stationary-action-not-the-principle-of-least-action",
+        "https://www.feynmanlectures.caltech.edu/II_19.html",
+        "https://eftaylor.com/pub/WhenActionNotLeast.pdf",
+        "https://saphysics.com/classical-mechanics/lagrangian-mechanics/the-principle-of-stationary-action/"
+      ],
+      "attempt_count": 1,
+      "searched_at": "2026-05-06_18-20-49",
+      "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
+    },
+    "C005": {
+      "claim": "The principle of stationary action is equivalent to Newton's laws of motion for classical systems.",
+      "search_attempts": [
+        {
+          "status": "ok",
+          "query": "stationary action principle Newton's laws",
+          "results": [
+            {
+              "title": "Newton's laws of motion - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Newton's_laws_of_motion",
+              "domain": "en.wikipedia.org",
+              "snippet": "Newton's laws of motion are three physical laws that describe the relationship between the motion of an object and the forces acting on it. These laws, which provide the basis for Newtonian mechanics, can be paraphrased as follows:"
+            },
+            {
+              "title": "AFewNotesonthePrincipleofLeastAction andNewton ...",
+              "url": "https://davidmeyer.github.io/qc/pola.pdf",
+              "domain": "davidmeyer.github.io",
+              "snippet": "An important (or maybe, the most important) diference between the approach taken by the Principle of Least Action and Newton’s Second Law is that the Principle of Least Action looks at the value of an entire ath, where as Newton’s Second La looks at points along the path. That is, the Newtonian appro n and the initial"
+            },
+            {
+              "title": "Newton’s laws of motion | Definition, Examples, Applications ...Newton's Laws of Motion - Science Notes and ProjectsNewton’s Laws of Motion Made Easy with Examples » SelftutionNewton's Laws of Motion Tutorial - The Physics ClassroomThe Principle of Stationary Action | by Paribesh Regmi | Medium",
+              "url": "https://www.britannica.com/science/Newtons-laws-of-motion",
+              "domain": "britannica.com",
+              "snippet": "Newton’s laws of motion relate an object’s motion to the forces acting on it. In the first law, an object will not change its motion unless a force acts on it. In the second law, the force on an object is equal to its mass times its acceleration. In the third law, when two objects interact, they apply forces to each other of equal magnitude and opposite direction. Why are Newton’s laws of motion important? Newton’s laws of motion are important because they are the foundation of classical mechanics, one of the main branches of physics. Mechanics is the study of how objects move or do not move when forces act upon them. Newton’s laws of motion, three statements describing the relations between the forces acting on a body and the motion of the body, first formulated by English physicist and mathematician Isaac Newton, which are the foundation of classical mechanics. See full list on britann\n\n...[TRUNCATED]...\n\nof an object and the forces acting upon it. A body in motion remains in motion or a body at rest remains at rest, unless acted upon by a force. Apr 8, 2025 · This law, a cornerstone of Newton’s Laws of Motion, connects force, mass, and acceleration in a simple yet powerful equation. It tells us exactly how an object will respond when a force is applied—whether it’s a gentle nudge or a powerful shove. Newton's Laws of motion describe the connection between the forces that act upon an object and the manner in which the object moves. An understanding of forces and their tendency to balance or not balance each other is crucial to understanding how the object will change or not change its state of motion. Dec 7, 2025 · The principle of stationary action provides a single unifying principle for all of physics, often called a mother principle — from which all other physical laws can be derived."
+            },
+            {
+              "title": "Newton's Laws of Motion - Science Notes and Projects",
+              "url": "https://sciencenotes.org/newtons-laws-of-motion/",
+              "domain": "sciencenotes.org",
+              "snippet": "Apr 6, 2022 · Newton’s laws of motion are three laws of classical mechanics that describe the relationship between the motion of an object and the forces acting upon it. A body in motion remains in motion or a body at rest remains at rest, unless acted upon by a force."
+            },
+            {
+              "title": "Newton’s Laws of Motion Made Easy with Examples » Selftution",
+              "url": "https://selftution.com/newtons-laws-of-motion-first-second-third-law-inertia-aceleration-action-reaction-guide-student/",
+              "domain": "selftution.com",
+              "snippet": "Apr 8, 2025 · This law, a cornerstone of Newton’s Laws of Motion, connects force, mass, and acceleration in a simple yet powerful equation. It tells us exactly how an object will respond when a force is applied—whether it’s a gentle nudge or a powerful shove."
+            }
+          ],
+          "urls": [
+            "https://en.wikipedia.org/wiki/Newton's_laws_of_motion",
+            "https://davidmeyer.github.io/qc/pola.pdf",
+            "https://www.britannica.com/science/Newtons-laws-of-motion",
+            "https://sciencenotes.org/newtons-laws-of-motion/",
+            "https://selftution.com/newtons-laws-of-motion-first-second-third-law-inertia-aceleration-action-reaction-guide-student/"
+          ],
+          "result_snippet": "[1] Newton's laws of motion - Wikipedia\nURL: https://en.wikipedia.org/wiki/Newton's_laws_of_motion\nSnippet: Newton's laws of motion are three physical laws that describe the relationship between the motion of an object and the forces acting on it. These laws, which provide the basis for Newtonian mechanics, can be paraphrased as follows:\n\n[2] AFewNotesonthePrincipleofLeastAction andNewton ...\nURL: https://davidmeyer.github.io/qc/pola.pdf\nSnippet: An important (or maybe, the most important) diference between the approach taken by the Principle of Least Action and Newton’s Second Law is that the Principle of Least Action looks at the value of an entire ath, where as Newton’s Second La looks at points along the path. That is, the Newtonian appro n and the initial\n\n[3] Newton’s laws of motion | Definition, Examples, Applications ...Newton's Laws of Motion - Science Notes and ProjectsNewton’s Laws of Motion Made Easy with Examples » SelftutionNewton's Laws of Motion Tutorial - The Physics ClassroomThe Principle of Stationary Action | by Paribesh Regmi | Medium\nURL: https://www.britannica.com/science/Newtons-laws-of-motion\nSnippet: Newton’s laws of motion relate an object’s motion to the forces acting on it. In the first law, an object will not change its motion unless a force acts on it. In the second law, the force on an object is equal to its mass times its acceleration. In the third law, when two objects interact, they apply forces to each other of equal magnitude and opposite direction. Why are Newton’s laws of motion important? Newton’s laws of motion are important because they are the foundation of classical mechanics, one of the main branches of physics. Mechanics is the study of how objects move or do not move when forces act upon them. Newton’s laws of motion, three\n\n...[TRUNCATED]...\n\ncs. See full list on britann\n\n...[TRUNCATED]...\n\nof an object and the forces acting upon it. A body in motion remains in motion or a body at rest remains at rest, unless acted upon by a force. Apr 8, 2025 · This law, a cornerstone of Newton’s Laws of Motion, connects force, mass, and acceleration in a simple yet powerful equation. It tells us exactly how an object will respond when a force is applied—whether it’s a gentle nudge or a powerful shove. Newton's Laws of motion describe the connection between the forces that act upon an object and the manner in which the object moves. An understanding of forces and their tendency to balance or not balance each other is crucial to understanding how the object will change or not change its state of motion. Dec 7, 2025 · The principle of stationary action provides a single unifying principle for all of physics, often called a mother principle — from which all other physical laws can be derived.\n\n[4] Newton's Laws of Motion - Science Notes and Projects\nURL: https://sciencenotes.org/newtons-laws-of-motion/\nSnippet: Apr 6, 2022 · Newton’s laws of motion are three laws of classical mechanics that describe the relationship between the motion of an object and the forces acting upon it. A body in motion remains in motion or a body at rest remains at rest, unless acted upon by a force.\n\n[5] Newton’s Laws of Motion Made Easy with Examples » Selftution\nURL: https://selftution.com/newtons-laws-of-motion-first-second-third-law-inertia-aceleration-action-reaction-guide-student/\nSnippet: Apr 8, 2025 · This law, a cornerstone of Newton’s Laws of Motion, connects force, mass, and acceleration in a simple yet powerful equation. It tells us exactly how an object will respond when a force is applied—whether it’s a gentle nudge or a powerful shove.",
+          "searched_at": "2026-05-06_18-20-50",
+          "attempt_number": 1
+        }
+      ],
+      "query": "stationary action principle Newton's laws",
+      "search_status": "ok",
+      "result_snippet": "[1] Newton's laws of motion - Wikipedia\nURL: https://en.wikipedia.org/wiki/Newton's_laws_of_motion\nSnippet: Newton's laws of motion are three physical laws that describe the relationship between the motion of an object and the forces acting on it. These laws, which provide the basis for Newtonian mechanics, can be paraphrased as follows:\n\n[2] AFewNotesonthePrincipleofLeastAction andNewton ...\nURL: https://davidmeyer.github.io/qc/pola.pdf\nSnippet: An important (or maybe, the most important) diference between the approach taken by the Principle of Least Action and Newton’s Second Law is that the Principle of Least Action looks at the value of an entire ath, where as Newton’s Second La looks at points along the path. That is, the Newtonian appro n and the initial\n\n[3] Newton’s laws of motion | Definition, Examples, Applications ...Newton's Laws of Motion - Science Notes and ProjectsNewton’s Laws of Motion Made Easy with Examples » SelftutionNewton's Laws of Motion Tutorial - The Physics ClassroomThe Principle of Stationary Action | by Paribesh Regmi | Medium\nURL: https://www.britannica.com/science/Newtons-laws-of-motion\nSnippet: Newton’s laws of motion relate an object’s motion to the forces acting on it. In the first law, an object will not change its motion unless a force acts on it. In the second law, the force on an object is equal to its mass times its acceleration. In the third law, when two objects interact, they apply forces to each other of equal magnitude and opposite direction. Why are Newton’s laws of motion important? Newton’s laws of motion are important because they are the foundation of classical mechanics, one of the main branches of physics. Mechanics is the study of how objects move or do not move when forces act upon them. Newton’s laws of motion, three\n\n...[TRUNCATED]...\n\ncs. See full list on britann\n\n...[TRUNCATED]...\n\nof an object and the forces acting upon it. A body in motion remains in motion or a body at rest remains at rest, unless acted upon by a force. Apr 8, 2025 · This law, a cornerstone of Newton’s Laws of Motion, connects force, mass, and acceleration in a simple yet powerful equation. It tells us exactly how an object will respond when a force is applied—whether it’s a gentle nudge or a powerful shove. Newton's Laws of motion describe the connection between the forces that act upon an object and the manner in which the object moves. An understanding of forces and their tendency to balance or not balance each other is crucial to understanding how the object will change or not change its state of motion. Dec 7, 2025 · The principle of stationary action provides a single unifying principle for all of physics, often called a mother principle — from which all other physical laws can be derived.\n\n[4] Newton's Laws of Motion - Science Notes and Projects\nURL: https://sciencenotes.org/newtons-laws-of-motion/\nSnippet: Apr 6, 2022 · Newton’s laws of motion are three laws of classical mechanics that describe the relationship between the motion of an object and the forces acting upon it. A body in motion remains in motion or a body at rest remains at rest, unless acted upon by a force.\n\n[5] Newton’s Laws of Motion Made Easy with Examples » Selftution\nURL: https://selftution.com/newtons-laws-of-motion-first-second-third-law-inertia-aceleration-action-reaction-guide-student/\nSnippet: Apr 8, 2025 · This law, a cornerstone of Newton’s Laws of Motion, connects force, mass, and acceleration in a simple yet powerful equation. It tells us exactly how an object will respond when a force is applied—whether it’s a gentle nudge or a powerful shove.",
+      "results": [
+        {
+          "title": "Newton's laws of motion - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Newton's_laws_of_motion",
+          "domain": "en.wikipedia.org",
+          "snippet": "Newton's laws of motion are three physical laws that describe the relationship between the motion of an object and the forces acting on it. These laws, which provide the basis for Newtonian mechanics, can be paraphrased as follows:"
+        },
+        {
+          "title": "AFewNotesonthePrincipleofLeastAction andNewton ...",
+          "url": "https://davidmeyer.github.io/qc/pola.pdf",
+          "domain": "davidmeyer.github.io",
+          "snippet": "An important (or maybe, the most important) diference between the approach taken by the Principle of Least Action and Newton’s Second Law is that the Principle of Least Action looks at the value of an entire ath, where as Newton’s Second La looks at points along the path. That is, the Newtonian appro n and the initial"
+        },
+        {
+          "title": "Newton’s laws of motion | Definition, Examples, Applications ...Newton's Laws of Motion - Science Notes and ProjectsNewton’s Laws of Motion Made Easy with Examples » SelftutionNewton's Laws of Motion Tutorial - The Physics ClassroomThe Principle of Stationary Action | by Paribesh Regmi | Medium",
+          "url": "https://www.britannica.com/science/Newtons-laws-of-motion",
+          "domain": "britannica.com",
+          "snippet": "Newton’s laws of motion relate an object’s motion to the forces acting on it. In the first law, an object will not change its motion unless a force acts on it. In the second law, the force on an object is equal to its mass times its acceleration. In the third law, when two objects interact, they apply forces to each other of equal magnitude and opposite direction. Why are Newton’s laws of motion important? Newton’s laws of motion are important because they are the foundation of classical mechanics, one of the main branches of physics. Mechanics is the study of how objects move or do not move when forces act upon them. Newton’s laws of motion, three statements describing the relations between the forces acting on a body and the motion of the body, first formulated by English physicist and mathematician Isaac Newton, which are the foundation of classical mechanics. See full list on britann\n\n...[TRUNCATED]...\n\nof an object and the forces acting upon it. A body in motion remains in motion or a body at rest remains at rest, unless acted upon by a force. Apr 8, 2025 · This law, a cornerstone of Newton’s Laws of Motion, connects force, mass, and acceleration in a simple yet powerful equation. It tells us exactly how an object will respond when a force is applied—whether it’s a gentle nudge or a powerful shove. Newton's Laws of motion describe the connection between the forces that act upon an object and the manner in which the object moves. An understanding of forces and their tendency to balance or not balance each other is crucial to understanding how the object will change or not change its state of motion. Dec 7, 2025 · The principle of stationary action provides a single unifying principle for all of physics, often called a mother principle — from which all other physical laws can be derived."
+        },
+        {
+          "title": "Newton's Laws of Motion - Science Notes and Projects",
+          "url": "https://sciencenotes.org/newtons-laws-of-motion/",
+          "domain": "sciencenotes.org",
+          "snippet": "Apr 6, 2022 · Newton’s laws of motion are three laws of classical mechanics that describe the relationship between the motion of an object and the forces acting upon it. A body in motion remains in motion or a body at rest remains at rest, unless acted upon by a force."
+        },
+        {
+          "title": "Newton’s Laws of Motion Made Easy with Examples » Selftution",
+          "url": "https://selftution.com/newtons-laws-of-motion-first-second-third-law-inertia-aceleration-action-reaction-guide-student/",
+          "domain": "selftution.com",
+          "snippet": "Apr 8, 2025 · This law, a cornerstone of Newton’s Laws of Motion, connects force, mass, and acceleration in a simple yet powerful equation. It tells us exactly how an object will respond when a force is applied—whether it’s a gentle nudge or a powerful shove."
+        }
+      ],
+      "urls": [
+        "https://en.wikipedia.org/wiki/Newton's_laws_of_motion",
+        "https://davidmeyer.github.io/qc/pola.pdf",
+        "https://www.britannica.com/science/Newtons-laws-of-motion",
+        "https://sciencenotes.org/newtons-laws-of-motion/",
+        "https://selftution.com/newtons-laws-of-motion-first-second-third-law-inertia-aceleration-action-reaction-guide-student/"
+      ],
+      "attempt_count": 1,
+      "searched_at": "2026-05-06_18-20-50",
+      "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
+    },
+    "C006": {
+      "claim": "The principle is a cornerstone of theoretical physics, not merely a rule of thumb.",
+      "search_attempts": [
+        {
+          "status": "ok",
+          "query": "stationary action principle foundational status",
+          "results": [
+            {
+              "title": "Hamilton's principle - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Hamilton's_principle",
+              "domain": "en.wikipedia.org",
+              "snippet": "Hamilton's principle requires that this first-order change is zero for all possible perturbations ε(t), i.e., the true path is a stationary point of the action functional (either a minimum, maximum or saddle point)."
+            },
+            {
+              "title": "2.2 — The Principle of Stationary Action - SAphysicsThe principle of stationary action - Aarhus UniversitetDeeper explanation for Principle of Stationary ActionThe Principle of Stationary Action - Bohrium9.2: Hamilton's Principle of Stationary Action - Physics ...The Principle of Stationary Action | by Paribesh Regmi | Medium",
+              "url": "https://saphysics.com/classical-mechanics/lagrangian-mechanics/the-principle-of-stationary-action/",
+              "domain": "saphysics.com",
+              "snippet": "The mathematical object in focus for this section is the action S. The action is a functional, which means that it takes in a function as its input and spits out a scalar (number) as its output.1 The function which the action takes as its input is the path of the particle, denoted as q(t) (this is just a generalized coordinate with time as a parame... See full list on saphysics.com For the sake of clarity, we will restate the principle of stationary action in a more rigorous form. This requires us to use the machinery of calculus of variations. The symbol δ means variation (think of a variation as a small change in a function or functional). The expression δS=0 is a functional equation, stating that the variation of the actio... See full list on saphysics.com It is now time to derive the Euler-Lagrange equation for a single classical particle with one degree of freedom. We note the path \n\n...[TRUNCATED]...\n\n principle. Apr 6, 2024 · The Principle of Stationary Action (sometimes called Principle of Least Action and other names) is successfully applied in a wide variety of fields in physics. It can often can be be used to derive basic equations of the respective field. The principle of stationary action is not merely a restatement; it is a foundational language, a powerful lens through which we can understand, unify, and even discover the laws of nature. Mar 14, 2021 · Credit for the formulation of least action commonly is given to Maupertuis; however, the Maupertuis principle is similar to the use of least action applied to the \"vis viva\", as was proposed by Leibniz four decades earlier. Dec 7, 2025 · Thus, the quantity action is a more fundamental quantity that guides nature. The principle of stationary action provides a single unifying principle for all of physics, often called a mother..."
+            },
+            {
+              "title": "The principle of stationary action - Aarhus Universitet",
+              "url": "https://phys.au.dk/~fedorov/backup/GTR/13/note5.pdf",
+              "domain": "phys.au.dk",
+              "snippet": "Vanishing variation means the action has an extremum on the actual trajectory. The postulate is called the principle of stationary action or the variational principle."
+            },
+            {
+              "title": "Deeper explanation for Principle of Stationary Action",
+              "url": "https://physics.stackexchange.com/questions/809305/deeper-explanation-for-principle-of-stationary-action",
+              "domain": "physics.stackexchange.com",
+              "snippet": "Apr 6, 2024 · The Principle of Stationary Action (sometimes called Principle of Least Action and other names) is successfully applied in a wide variety of fields in physics. It can often can be be used to derive basic equations of the respective field."
+            },
+            {
+              "title": "The Principle of Stationary Action - Bohrium",
+              "url": "https://www.bohrium.com/en/sciencepedia/feynman/keyword/stationary_action",
+              "domain": "bohrium.com",
+              "snippet": "The principle of stationary action is not merely a restatement; it is a foundational language, a powerful lens through which we can understand, unify, and even discover the laws of nature."
+            }
+          ],
+          "urls": [
+            "https://en.wikipedia.org/wiki/Hamilton's_principle",
+            "https://saphysics.com/classical-mechanics/lagrangian-mechanics/the-principle-of-stationary-action/",
+            "https://phys.au.dk/~fedorov/backup/GTR/13/note5.pdf",
+            "https://physics.stackexchange.com/questions/809305/deeper-explanation-for-principle-of-stationary-action",
+            "https://www.bohrium.com/en/sciencepedia/feynman/keyword/stationary_action"
+          ],
+          "result_snippet": "[1] Hamilton's principle - Wikipedia\nURL: https://en.wikipedia.org/wiki/Hamilton's_principle\nSnippet: Hamilton's principle requires that this first-order change is zero for all possible perturbations ε(t), i.e., the true path is a stationary point of the action functional (either a minimum, maximum or saddle point).\n\n[2] 2.2 — The Principle of Stationary Action - SAphysicsThe principle of stationary action - Aarhus UniversitetDeeper explanation for Principle of Stationary ActionThe Principle of Stationary Action - Bohrium9.2: Hamilton's Principle of Stationary Action - Physics ...The Principle of Stationary Action | by Paribesh Regmi | Medium\nURL: https://saphysics.com/classical-mechanics/lagrangian-mechanics/the-principle-of-stationary-action/\nSnippet: The mathematical object in focus for this section is the action S. The action is a functional, which means that it takes in a function as its input and spits out a scalar (number) as its output.1 The function which the action takes as its input is the path of the particle, denoted as q(t) (this is just a generalized coordinate with time as a parame... See full list on saphysics.com For the sake of clarity, we will restate the principle of stationary action in a more rigorous form. This requires us to use the machinery of calculus of variations. The symbol δ means variation (think of a variation as a small change in a function or functional). The expression δS=0 is a functional equation, stating that the variation of the actio... See full list on saphysics.com It is now time to derive the Euler-Lagrange equation for a single classical particle with one degree of freedom. We note the path \n\n...[TRUNCATED]...\n\n principle. Apr 6, 2024 · The Principle of Stationary Action (sometimes called Principle of Least Action and other \n\n...[TRUNCATED]...\n\nde variety of fields in physics. It can often can be be used to derive basic equations of the respective field. The principle of stationary action is not merely a restatement; it is a foundational language, a powerful lens through which we can understand, unify, and even discover the laws of nature. Mar 14, 2021 · Credit for the formulation of least action commonly is given to Maupertuis; however, the Maupertuis principle is similar to the use of least action applied to the \"vis viva\", as was proposed by Leibniz four decades earlier. Dec 7, 2025 · Thus, the quantity action is a more fundamental quantity that guides nature. The principle of stationary action provides a single unifying principle for all of physics, often called a mother...\n\n[3] The principle of stationary action - Aarhus Universitet\nURL: https://phys.au.dk/~fedorov/backup/GTR/13/note5.pdf\nSnippet: Vanishing variation means the action has an extremum on the actual trajectory. The postulate is called the principle of stationary action or the variational principle.\n\n[4] Deeper explanation for Principle of Stationary Action\nURL: https://physics.stackexchange.com/questions/809305/deeper-explanation-for-principle-of-stationary-action\nSnippet: Apr 6, 2024 · The Principle of Stationary Action (sometimes called Principle of Least Action and other names) is successfully applied in a wide variety of fields in physics. It can often can be be used to derive basic equations of the respective field.\n\n[5] The Principle of Stationary Action - Bohrium\nURL: https://www.bohrium.com/en/sciencepedia/feynman/keyword/stationary_action\nSnippet: The principle of stationary action is not merely a restatement; it is a foundational language, a powerful lens through which we can understand, unify, and even discover the laws of nature.",
+          "searched_at": "2026-05-06_18-57-16",
+          "attempt_number": 1
+        }
+      ],
+      "query": "stationary action principle foundational status",
+      "search_status": "ok",
+      "result_snippet": "[1] Hamilton's principle - Wikipedia\nURL: https://en.wikipedia.org/wiki/Hamilton's_principle\nSnippet: Hamilton's principle requires that this first-order change is zero for all possible perturbations ε(t), i.e., the true path is a stationary point of the action functional (either a minimum, maximum or saddle point).\n\n[2] 2.2 — The Principle of Stationary Action - SAphysicsThe principle of stationary action - Aarhus UniversitetDeeper explanation for Principle of Stationary ActionThe Principle of Stationary Action - Bohrium9.2: Hamilton's Principle of Stationary Action - Physics ...The Principle of Stationary Action | by Paribesh Regmi | Medium\nURL: https://saphysics.com/classical-mechanics/lagrangian-mechanics/the-principle-of-stationary-action/\nSnippet: The mathematical object in focus for this section is the action S. The action is a functional, which means that it takes in a function as its input and spits out a scalar (number) as its output.1 The function which the action takes as its input is the path of the particle, denoted as q(t) (this is just a generalized coordinate with time as a parame... See full list on saphysics.com For the sake of clarity, we will restate the principle of stationary action in a more rigorous form. This requires us to use the machinery of calculus of variations. The symbol δ means variation (think of a variation as a small change in a function or functional). The expression δS=0 is a functional equation, stating that the variation of the actio... See full list on saphysics.com It is now time to derive the Euler-Lagrange equation for a single classical particle with one degree of freedom. We note the path \n\n...[TRUNCATED]...\n\n principle. Apr 6, 2024 · The Principle of Stationary Action (sometimes called Principle of Least Action and other \n\n...[TRUNCATED]...\n\nde variety of fields in physics. It can often can be be used to derive basic equations of the respective field. The principle of stationary action is not merely a restatement; it is a foundational language, a powerful lens through which we can understand, unify, and even discover the laws of nature. Mar 14, 2021 · Credit for the formulation of least action commonly is given to Maupertuis; however, the Maupertuis principle is similar to the use of least action applied to the \"vis viva\", as was proposed by Leibniz four decades earlier. Dec 7, 2025 · Thus, the quantity action is a more fundamental quantity that guides nature. The principle of stationary action provides a single unifying principle for all of physics, often called a mother...\n\n[3] The principle of stationary action - Aarhus Universitet\nURL: https://phys.au.dk/~fedorov/backup/GTR/13/note5.pdf\nSnippet: Vanishing variation means the action has an extremum on the actual trajectory. The postulate is called the principle of stationary action or the variational principle.\n\n[4] Deeper explanation for Principle of Stationary Action\nURL: https://physics.stackexchange.com/questions/809305/deeper-explanation-for-principle-of-stationary-action\nSnippet: Apr 6, 2024 · The Principle of Stationary Action (sometimes called Principle of Least Action and other names) is successfully applied in a wide variety of fields in physics. It can often can be be used to derive basic equations of the respective field.\n\n[5] The Principle of Stationary Action - Bohrium\nURL: https://www.bohrium.com/en/sciencepedia/feynman/keyword/stationary_action\nSnippet: The principle of stationary action is not merely a restatement; it is a foundational language, a powerful lens through which we can understand, unify, and even discover the laws of nature.",
+      "results": [
+        {
+          "title": "Hamilton's principle - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Hamilton's_principle",
+          "domain": "en.wikipedia.org",
+          "snippet": "Hamilton's principle requires that this first-order change is zero for all possible perturbations ε(t), i.e., the true path is a stationary point of the action functional (either a minimum, maximum or saddle point)."
+        },
+        {
+          "title": "2.2 — The Principle of Stationary Action - SAphysicsThe principle of stationary action - Aarhus UniversitetDeeper explanation for Principle of Stationary ActionThe Principle of Stationary Action - Bohrium9.2: Hamilton's Principle of Stationary Action - Physics ...The Principle of Stationary Action | by Paribesh Regmi | Medium",
+          "url": "https://saphysics.com/classical-mechanics/lagrangian-mechanics/the-principle-of-stationary-action/",
+          "domain": "saphysics.com",
+          "snippet": "The mathematical object in focus for this section is the action S. The action is a functional, which means that it takes in a function as its input and spits out a scalar (number) as its output.1 The function which the action takes as its input is the path of the particle, denoted as q(t) (this is just a generalized coordinate with time as a parame... See full list on saphysics.com For the sake of clarity, we will restate the principle of stationary action in a more rigorous form. This requires us to use the machinery of calculus of variations. The symbol δ means variation (think of a variation as a small change in a function or functional). The expression δS=0 is a functional equation, stating that the variation of the actio... See full list on saphysics.com It is now time to derive the Euler-Lagrange equation for a single classical particle with one degree of freedom. We note the path \n\n...[TRUNCATED]...\n\n principle. Apr 6, 2024 · The Principle of Stationary Action (sometimes called Principle of Least Action and other names) is successfully applied in a wide variety of fields in physics. It can often can be be used to derive basic equations of the respective field. The principle of stationary action is not merely a restatement; it is a foundational language, a powerful lens through which we can understand, unify, and even discover the laws of nature. Mar 14, 2021 · Credit for the formulation of least action commonly is given to Maupertuis; however, the Maupertuis principle is similar to the use of least action applied to the \"vis viva\", as was proposed by Leibniz four decades earlier. Dec 7, 2025 · Thus, the quantity action is a more fundamental quantity that guides nature. The principle of stationary action provides a single unifying principle for all of physics, often called a mother..."
+        },
+        {
+          "title": "The principle of stationary action - Aarhus Universitet",
+          "url": "https://phys.au.dk/~fedorov/backup/GTR/13/note5.pdf",
+          "domain": "phys.au.dk",
+          "snippet": "Vanishing variation means the action has an extremum on the actual trajectory. The postulate is called the principle of stationary action or the variational principle."
+        },
+        {
+          "title": "Deeper explanation for Principle of Stationary Action",
+          "url": "https://physics.stackexchange.com/questions/809305/deeper-explanation-for-principle-of-stationary-action",
+          "domain": "physics.stackexchange.com",
+          "snippet": "Apr 6, 2024 · The Principle of Stationary Action (sometimes called Principle of Least Action and other names) is successfully applied in a wide variety of fields in physics. It can often can be be used to derive basic equations of the respective field."
+        },
+        {
+          "title": "The Principle of Stationary Action - Bohrium",
+          "url": "https://www.bohrium.com/en/sciencepedia/feynman/keyword/stationary_action",
+          "domain": "bohrium.com",
+          "snippet": "The principle of stationary action is not merely a restatement; it is a foundational language, a powerful lens through which we can understand, unify, and even discover the laws of nature."
+        }
+      ],
+      "urls": [
+        "https://en.wikipedia.org/wiki/Hamilton's_principle",
+        "https://saphysics.com/classical-mechanics/lagrangian-mechanics/the-principle-of-stationary-action/",
+        "https://phys.au.dk/~fedorov/backup/GTR/13/note5.pdf",
+        "https://physics.stackexchange.com/questions/809305/deeper-explanation-for-principle-of-stationary-action",
+        "https://www.bohrium.com/en/sciencepedia/feynman/keyword/stationary_action"
+      ],
+      "attempt_count": 1,
+      "searched_at": "2026-05-06_18-57-16",
+      "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
+    },
+    "C007": {
+      "claim": "The variational principle leads to the Euler-Lagrange equation, which determines stationary action paths.",
+      "search_attempts": [
+        {
+          "status": "ok",
+          "query": "Euler-Lagrange equation derivation",
+          "results": [
+            {
+              "title": "Euler–Lagrange equation - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Euler–Lagrange_equation",
+              "domain": "en.wikipedia.org",
+              "snippet": "The derivation of the one-dimensional Euler–Lagrange equation is one of the classic proofs in mathematics. It relies on the fundamental lemma of calculus of variations."
+            },
+            {
+              "title": "11.3: Derivation of the Euler-Lagrange Equation - Engineering ...",
+              "url": "https://eng.libretexts.org/Bookshelves/Electrical_Engineering/Electro-Optics/Direct_Energy_(Mitofsky)/11:_Calculus_of_Variations/11.03:_Derivation_of_the_Euler-Lagrange_Equation",
+              "domain": "eng.libretexts.org",
+              "snippet": "This page covers the derivation and significance of the Euler-Lagrange equation from the Principle of Least Action, emphasizing its connection to Hamilton's equations."
+            },
+            {
+              "title": "Euler-Lagrange Differential Equation - from Wolfram MathWorld",
+              "url": "https://mathworld.wolfram.com/Euler-LagrangeDifferentialEquation.html",
+              "domain": "mathworld.wolfram.com",
+              "snippet": "5 days ago · The Euler-Lagrange differential equation is the fundamental equation of calculus of variations."
+            },
+            {
+              "title": "Classical Mechanics LECTURE 25: THE LAGRANGE EQUATION DERIVED ...",
+              "url": "https://users.physics.ox.ac.uk/~harnew/lectures/lecture25-mechanics-handout.pdf",
+              "domain": "users.physics.ox.ac.uk",
+              "snippet": "OUTLINE : 25. THE LAGRANGE EQUATION DERIVED VIA THE CALCULUS OF VARIATIONS 25.1 The Lagrangian : simplest illustration"
+            },
+            {
+              "title": "Variational Calculus Part 2: The Euler-Lagrange Equation",
+              "url": "https://jiha-kim.github.io/crash-courses/variational-calculus/2-euler-lagrange-equation/",
+              "domain": "jiha-kim.github.io",
+              "snippet": "The derivation of the Euler-Lagrange equation is a monumental step in variational calculus. It converts the problem of optimizing over an infinite-dimensional space of functions into the more familiar problem of solving a differential equation."
+            }
+          ],
+          "urls": [
+            "https://en.wikipedia.org/wiki/Euler–Lagrange_equation",
+            "https://eng.libretexts.org/Bookshelves/Electrical_Engineering/Electro-Optics/Direct_Energy_(Mitofsky)/11:_Calculus_of_Variations/11.03:_Derivation_of_the_Euler-Lagrange_Equation",
+            "https://mathworld.wolfram.com/Euler-LagrangeDifferentialEquation.html",
+            "https://users.physics.ox.ac.uk/~harnew/lectures/lecture25-mechanics-handout.pdf",
+            "https://jiha-kim.github.io/crash-courses/variational-calculus/2-euler-lagrange-equation/"
+          ],
+          "result_snippet": "[1] Euler–Lagrange equation - Wikipedia\nURL: https://en.wikipedia.org/wiki/Euler–Lagrange_equation\nSnippet: The derivation of the one-dimensional Euler–Lagrange equation is one of the classic proofs in mathematics. It relies on the fundamental lemma of calculus of variations.\n\n[2] 11.3: Derivation of the Euler-Lagrange Equation - Engineering ...\nURL: https://eng.libretexts.org/Bookshelves/Electrical_Engineering/Electro-Optics/Direct_Energy_(Mitofsky)/11:_Calculus_of_Variations/11.03:_Derivation_of_the_Euler-Lagrange_Equation\nSnippet: This page covers the derivation and significance of the Euler-Lagrange equation from the Principle of Least Action, emphasizing its connection to Hamilton's equations.\n\n[3] Euler-Lagrange Differential Equation - from Wolfram MathWorld\nURL: https://mathworld.wolfram.com/Euler-LagrangeDifferentialEquation.html\nSnippet: 5 days ago · The Euler-Lagrange differential equation is the fundamental equation of calculus of variations.\n\n[4] Classical Mechanics LECTURE 25: THE LAGRANGE EQUATION DERIVED ...\nURL: https://users.physics.ox.ac.uk/~harnew/lectures/lecture25-mechanics-handout.pdf\nSnippet: OUTLINE : 25. THE LAGRANGE EQUATION DERIVED VIA THE CALCULUS OF VARIATIONS 25.1 The Lagrangian : simplest illustration\n\n[5] Variational Calculus Part 2: The Euler-Lagrange Equation\nURL: https://jiha-kim.github.io/crash-courses/variational-calculus/2-euler-lagrange-equation/\nSnippet: The derivation of the Euler-Lagrange equation is a monumental step in variational calculus. It converts the problem of optimizing over an infinite-dimensional space of functions into the more familiar problem of solving a differential equation.",
+          "searched_at": "2026-05-06_18-57-18",
+          "attempt_number": 1
+        }
+      ],
+      "query": "Euler-Lagrange equation derivation",
+      "search_status": "ok",
+      "result_snippet": "[1] Euler–Lagrange equation - Wikipedia\nURL: https://en.wikipedia.org/wiki/Euler–Lagrange_equation\nSnippet: The derivation of the one-dimensional Euler–Lagrange equation is one of the classic proofs in mathematics. It relies on the fundamental lemma of calculus of variations.\n\n[2] 11.3: Derivation of the Euler-Lagrange Equation - Engineering ...\nURL: https://eng.libretexts.org/Bookshelves/Electrical_Engineering/Electro-Optics/Direct_Energy_(Mitofsky)/11:_Calculus_of_Variations/11.03:_Derivation_of_the_Euler-Lagrange_Equation\nSnippet: This page covers the derivation and significance of the Euler-Lagrange equation from the Principle of Least Action, emphasizing its connection to Hamilton's equations.\n\n[3] Euler-Lagrange Differential Equation - from Wolfram MathWorld\nURL: https://mathworld.wolfram.com/Euler-LagrangeDifferentialEquation.html\nSnippet: 5 days ago · The Euler-Lagrange differential equation is the fundamental equation of calculus of variations.\n\n[4] Classical Mechanics LECTURE 25: THE LAGRANGE EQUATION DERIVED ...\nURL: https://users.physics.ox.ac.uk/~harnew/lectures/lecture25-mechanics-handout.pdf\nSnippet: OUTLINE : 25. THE LAGRANGE EQUATION DERIVED VIA THE CALCULUS OF VARIATIONS 25.1 The Lagrangian : simplest illustration\n\n[5] Variational Calculus Part 2: The Euler-Lagrange Equation\nURL: https://jiha-kim.github.io/crash-courses/variational-calculus/2-euler-lagrange-equation/\nSnippet: The derivation of the Euler-Lagrange equation is a monumental step in variational calculus. It converts the problem of optimizing over an infinite-dimensional space of functions into the more familiar problem of solving a differential equation.",
+      "results": [
+        {
+          "title": "Euler–Lagrange equation - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Euler–Lagrange_equation",
+          "domain": "en.wikipedia.org",
+          "snippet": "The derivation of the one-dimensional Euler–Lagrange equation is one of the classic proofs in mathematics. It relies on the fundamental lemma of calculus of variations."
+        },
+        {
+          "title": "11.3: Derivation of the Euler-Lagrange Equation - Engineering ...",
+          "url": "https://eng.libretexts.org/Bookshelves/Electrical_Engineering/Electro-Optics/Direct_Energy_(Mitofsky)/11:_Calculus_of_Variations/11.03:_Derivation_of_the_Euler-Lagrange_Equation",
+          "domain": "eng.libretexts.org",
+          "snippet": "This page covers the derivation and significance of the Euler-Lagrange equation from the Principle of Least Action, emphasizing its connection to Hamilton's equations."
+        },
+        {
+          "title": "Euler-Lagrange Differential Equation - from Wolfram MathWorld",
+          "url": "https://mathworld.wolfram.com/Euler-LagrangeDifferentialEquation.html",
+          "domain": "mathworld.wolfram.com",
+          "snippet": "5 days ago · The Euler-Lagrange differential equation is the fundamental equation of calculus of variations."
+        },
+        {
+          "title": "Classical Mechanics LECTURE 25: THE LAGRANGE EQUATION DERIVED ...",
+          "url": "https://users.physics.ox.ac.uk/~harnew/lectures/lecture25-mechanics-handout.pdf",
+          "domain": "users.physics.ox.ac.uk",
+          "snippet": "OUTLINE : 25. THE LAGRANGE EQUATION DERIVED VIA THE CALCULUS OF VARIATIONS 25.1 The Lagrangian : simplest illustration"
+        },
+        {
+          "title": "Variational Calculus Part 2: The Euler-Lagrange Equation",
+          "url": "https://jiha-kim.github.io/crash-courses/variational-calculus/2-euler-lagrange-equation/",
+          "domain": "jiha-kim.github.io",
+          "snippet": "The derivation of the Euler-Lagrange equation is a monumental step in variational calculus. It converts the problem of optimizing over an infinite-dimensional space of functions into the more familiar problem of solving a differential equation."
+        }
+      ],
+      "urls": [
+        "https://en.wikipedia.org/wiki/Euler–Lagrange_equation",
+        "https://eng.libretexts.org/Bookshelves/Electrical_Engineering/Electro-Optics/Direct_Energy_(Mitofsky)/11:_Calculus_of_Variations/11.03:_Derivation_of_the_Euler-Lagrange_Equation",
+        "https://mathworld.wolfram.com/Euler-LagrangeDifferentialEquation.html",
+        "https://users.physics.ox.ac.uk/~harnew/lectures/lecture25-mechanics-handout.pdf",
+        "https://jiha-kim.github.io/crash-courses/variational-calculus/2-euler-lagrange-equation/"
+      ],
+      "attempt_count": 1,
+      "searched_at": "2026-05-06_18-57-18",
       "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
     }
   },
-  "last_updated": "2026-05-04_23-08-14"
+  "summary": {
+    "total_claims": 11,
+    "checked_claim_count": 1,
+    "passing_claim_count": 0,
+    "unchecked_claim_count": 10,
+    "unresolved_or_needs_qualification": 11,
+    "actionable_issue_count": 0,
+    "evidence_retry_count": 1,
+    "claim_review_complete": false,
+    "unchecked_claim_ids": [
+      "C002",
+      "C003",
+      "C004",
+      "C005",
+      "C006",
+      "C007",
+      "C008",
+      "C009",
+      "C010",
+      "C011"
+    ],
+    "actionable_claim_ids": [],
+    "evidence_retry_claim_ids": [
+      "C001"
+    ],
+    "highest_priority_fixes": []
+  },
+  "last_updated": "2026-05-06_18-57-19"
 }

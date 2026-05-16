@@ -1,0 +1,17 @@
+{
+  "score": 0,
+  "pass": false,
+  "strengths": [],
+  "issues": [
+    {
+      "severity": "high",
+      "location": "whole article",
+      "problem": "Rigor judge failed.",
+      "suggested_fix": "Automatically rerun rigor review."
+    }
+  ],
+  "best_next_revision": "Automatically rerun rigor review.",
+  "review_type": "rigor",
+  "round": 4,
+  "created_at": "2026-05-05_14-06-37"
+}

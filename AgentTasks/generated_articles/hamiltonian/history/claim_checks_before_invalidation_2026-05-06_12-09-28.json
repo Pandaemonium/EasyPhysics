@@ -1,0 +1,112 @@
+{
+  "claim_checks": [
+    {
+      "id": "C001",
+      "verdict": "not_enough_evidence",
+      "severity": "medium",
+      "problem": "Claim checker failed: LLMCallError(\"claim_checker failed after 3 attempt(s): LLMCallError('LLM_TIMEOUT_AFTER_720_SECONDS')\")",
+      "suggested_fix": "Automatically retry this claim with another source search or a smaller context.",
+      "source_quality_note": "",
+      "source_urls": [],
+      "claim": "The Hamiltonian is a total energy rulebook {Hamiltonian} that governs how energy shapes motion and time evolution in both classical and quantum systems.",
+      "checked_at": "2026-05-06_12-06-06",
+      "source_attempt_count": 3,
+      "available_source_urls": [
+        "https://www.cfm.brown.edu/people/dobrush/am34/Mathematica/intro/hamilton.html",
+        "https://www.academia.edu/38868163/Lagrangian_and_Hamiltonian_formulation_for_analyzing_RL_RC_RLC_LC_circuits_and_magnetically_coupled_circuits",
+        "https://www.academia.edu/95305257/Hamiltonian_formulation_of_general_relativity_and_post_Newtonian_dynamics_of_compact_binaries",
+        "https://www.academia.edu/104231712/Hamilton_Hamiltonian_Mechanics_and_Causation",
+        "https://www.academia.edu/Documents/in/Generalized_Hamiltonian_Mechanics"
+      ]
+    }
+  ],
+  "check_history": [
+    {
+      "id": "C001",
+      "verdict": "not_enough_evidence",
+      "severity": "medium",
+      "problem": "Claim checker failed: LLMCallError(\"claim_checker failed after 3 attempt(s): LLMCallError('LLM_TIMEOUT_AFTER_720_SECONDS')\")",
+      "suggested_fix": "Automatically retry this claim with another source search or a smaller context.",
+      "source_quality_note": "",
+      "source_urls": [],
+      "claim": "The Hamiltonian is a total energy rulebook {Hamiltonian} that governs how energy shapes motion and time evolution in both classical and quantum systems.",
+      "checked_at": "2026-05-06_10-53-05",
+      "source_attempt_count": 1,
+      "available_source_urls": [
+        "https://en.wikipedia.org/wiki/Hamiltonian_mechanics",
+        "https://en.wikipedia.org/wiki/Hamiltonian_(quantum_mechanics)",
+        "https://en.wikipedia.org/wiki/Hamiltonian",
+        "https://en.wikipedia.org/wiki/Hamiltonian_system",
+        "https://en.wikipedia.org/wiki/Molecular_Hamiltonian"
+      ]
+    },
+    {
+      "id": "C001",
+      "verdict": "not_enough_evidence",
+      "severity": "medium",
+      "problem": "Claim checker failed: LLMCallError(\"claim_checker failed after 3 attempt(s): LLMCallError('LLM_TIMEOUT_AFTER_720_SECONDS')\")",
+      "suggested_fix": "Automatically retry this claim with another source search or a smaller context.",
+      "source_quality_note": "",
+      "source_urls": [],
+      "claim": "The Hamiltonian is a total energy rulebook {Hamiltonian} that governs how energy shapes motion and time evolution in both classical and quantum systems.",
+      "checked_at": "2026-05-06_11-29-37",
+      "source_attempt_count": 2,
+      "available_source_urls": [
+        "https://en.wikipedia.org/wiki/Hamiltonian_(quantum_mechanics)",
+        "https://paulskrzypczyk.github.io/qm-lecturenotes-new/energy/",
+        "https://handwiki.org/wiki/Physics:Hamiltonian_mechanics",
+        "https://encyclopedai.stavros.io/entries/hamiltonian-(physics)/",
+        "https://maths.dur.ac.uk/users/inaki.garcia-etxebarria/MPII/Lectures.html"
+      ]
+    },
+    {
+      "id": "C001",
+      "verdict": "not_enough_evidence",
+      "severity": "medium",
+      "problem": "Claim checker failed: LLMCallError(\"claim_checker failed after 3 attempt(s): LLMCallError('LLM_TIMEOUT_AFTER_720_SECONDS')\")",
+      "suggested_fix": "Automatically retry this claim with another source search or a smaller context.",
+      "source_quality_note": "",
+      "source_urls": [],
+      "claim": "The Hamiltonian is a total energy rulebook {Hamiltonian} that governs how energy shapes motion and time evolution in both classical and quantum systems.",
+      "checked_at": "2026-05-06_12-06-06",
+      "source_attempt_count": 3,
+      "available_source_urls": [
+        "https://www.cfm.brown.edu/people/dobrush/am34/Mathematica/intro/hamilton.html",
+        "https://www.academia.edu/38868163/Lagrangian_and_Hamiltonian_formulation_for_analyzing_RL_RC_RLC_LC_circuits_and_magnetically_coupled_circuits",
+        "https://www.academia.edu/95305257/Hamiltonian_formulation_of_general_relativity_and_post_Newtonian_dynamics_of_compact_binaries",
+        "https://www.academia.edu/104231712/Hamilton_Hamiltonian_Mechanics_and_Causation",
+        "https://www.academia.edu/Documents/in/Generalized_Hamiltonian_Mechanics"
+      ]
+    }
+  ],
+  "summary": {
+    "total_claims": 10,
+    "checked_claim_count": 1,
+    "passing_claim_count": 0,
+    "unchecked_claim_count": 9,
+    "unresolved_or_needs_qualification": 10,
+    "actionable_issue_count": 1,
+    "evidence_retry_count": 0,
+    "claim_review_complete": false,
+    "unchecked_claim_ids": [
+      "C002",
+      "C003",
+      "C004",
+      "C005",
+      "C006",
+      "C007",
+      "C008",
+      "C009",
+      "C010"
+    ],
+    "actionable_claim_ids": [
+      "C001"
+    ],
+    "evidence_retry_claim_ids": [],
+    "highest_priority_fixes": [
+      "Automatically retry this claim with another source search or a smaller context."
+    ],
+    "overall_claim_quality": "Partial claim check completed."
+  },
+  "last_updated": "2026-05-06_12-06-06"
+}

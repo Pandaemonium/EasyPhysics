@@ -3,16 +3,18 @@
     {
       "standard_term": "action integral",
       "candidate_name": "Action",
-      "context_quote": "Action is a measure of 'effort' over time—systems choose paths that balance energy trade-offs",
-      "usefulness": "The name 'Action' intuitively suggests a balance between energy and time, aligning with its role as a weighted sum of kinetic and potential energy",
-      "risk": "May imply action is a physical quantity rather than a mathematical construct"
+      "context_quote": "Action {action integral}",
+      "usefulness": "clearly describes the concept as a balance of energy and time over a path",
+      "risk": "might be confused with the mathematical integral itself rather than the physical concept",
+      "last_seen": "2026-05-06_15-24-16"
     },
     {
       "standard_term": "variational principle",
       "candidate_name": "Stationary path",
-      "context_quote": "Physical systems follow paths that make S stationary (not necessarily minimal)",
-      "usefulness": "Highlights the mathematical property of action paths being extrema, which is central to the principle",
-      "risk": "May confuse with 'stationary state' in quantum mechanics"
+      "context_quote": "Stationary path {variational principle}",
+      "usefulness": "emphasizes the idea of paths where action doesn't change under small variations",
+      "risk": "could be misinterpreted as a static path rather than one determined by variation",
+      "last_seen": "2026-05-06_15-24-16"
     },
     {
       "standard,term": "principle of least action",
@@ -20,7 +22,15 @@
       "context_quote": "Systems choose the route that balances the energy it uses to move and the energy stored in its position",
       "usefulness": "Emphasizes the trade-off between energy expenditure and positional energy, making the concept more relatable",
       "risk": "May suggest the principle is about efficiency rather than mathematical stationarity"
+    },
+    {
+      "standard_term": "principle of stationary action",
+      "candidate_name": "Extremal path",
+      "context_quote": "Extremal path {principle of stationary action}",
+      "usefulness": "highlights the extremization of action, which includes minima, maxima, or saddle points",
+      "risk": "might suggest only minima, whereas stationary action includes other extrema",
+      "last_seen": "2026-05-06_15-24-16"
     }
   ],
-  "last_updated": "2026-05-04_23-20-51"
+  "last_updated": "2026-05-06_15-24-16"
 }

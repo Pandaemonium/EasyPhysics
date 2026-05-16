@@ -1,26 +1,404 @@
 {
   "sources_by_claim": {
     "C001": {
-      "claim": "# Lagrangian ## The core idea The **Lagrangian** is a way to describe motion by asking: *What path does a system take to \"balance\" energy changes over time?* Instead of tracking forces (like Newton’s approach), it focuses on the **difference between kinetic and potential energy** (L = T − V).",
-      "query": "Lagrangian # Lagrangian ## The core idea The **Lagrangian** is a way to describe motion by asking: physics lecture notes textbook explanation",
-      "result_snippet": "March 27, 2026 - The central quantity of Lagrangian mechanics is the Lagrangian, a function which summarizes the dynamics of the entire system. Overall, the Lagrangian has units of energy, but no single expression for all physical systems. Any function which generates the correct equations of motion, in agreement ... 3 weeks ago - Lagrangian field theory is a formalism in classical field theory. It is the field-theoretic analogue of Lagrangian mechanics. Lagrangian mechanics is used to analyze the motion of a system of discrete particles each with a finite number of degrees of freedom. April 2, 2026 - A Hamiltonian system may be understood as a fiber bundle E over time R, with the fiber Et being the position space at time t ∈ R. The Lagrangian is thus a function on the jet bundle J over E; taking the fiberwise Legendre transform of the Lagrangian produces a function on the dual bundle ov\n\n...[TRUNCATED]...\n\n which comes equipped with a natural symplectic form, and this latter function is the Hamiltonian. February 11, 2026 - Although the line element and action are Lorentz invariant, the Lagrangian is not, because it has explicit dependence on the lab coordinate time. Still, the equations of motion follow from Hamilton's principle ... Since the action is proportional to the length of the particle's worldline (in other words its trajectory in spacetime), this route illustrates that finding the stationary action is asking to find the trajectory of shortest or largest length in spacetime. August 3, 2025 - Look up Lagrangian in Wiktionary, the free dictionary. ... Lagrangian function, used to solve constrained minimization problems in optimization theory; see Lagrange multiplier · Lagrangian relaxation, the method of approximating a difficult constrained problem with an easier problem having ...",
-      "searched_at": "2026-05-04_21-57-27",
+      "claim": "The Lagrangian {L} is defined as the difference between kinetic energy {T} and potential energy {V} in classical mechanics: L = T − V.",
+      "search_attempts": [
+        {
+          "status": "ok",
+          "query": "Lagrangian definition classical mechanics",
+          "results": [
+            {
+              "title": "Lagrangian mechanics - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Lagrangian_mechanics",
+              "domain": "en.wikipedia.org",
+              "snippet": "In physics , Lagrangian mechanics is a formulation of classical mechanics founded on the stationary-action principle (also known as the principle of ..."
+            },
+            {
+              "title": "classical mechanics - Connection between different kinds of",
+              "url": "https://physics.stackexchange.com/questions/622727/connection-between-different-kinds-of-lagrangian",
+              "domain": "physics.stackexchange.com",
+              "snippet": "... Lagrangian can also be defined in contexts that aren't strictly classical or mechanical, one good example of such context is the Lagrangian in ..."
+            },
+            {
+              "title": "classical mechanics - Identifying Lagrangian as the solution to",
+              "url": "https://physics.stackexchange.com/questions/826025/identifying-lagrangian-as-the-solution-to-the-variational-problem-from-the-hamil",
+              "domain": "physics.stackexchange.com",
+              "snippet": "In the spirit of Goldstein's Classical Mechanics, we simply identify Euler-Lagrange equations as follows, ... that already involve the lagrangian, in ..."
+            },
+            {
+              "title": "Lagrangian mechanics - Wikiwand",
+              "url": "https://www.wikiwand.com/en/articles/Lagrangian_mechanics",
+              "domain": "wikiwand.com",
+              "snippet": "In physics , Lagrangian mechanics is an alternate formulation of classical mechanics founded on the d'Alembert principle of virtual work."
+            },
+            {
+              "title": "Lagrangian mechanics - Wiktionary, the free dictionary",
+              "url": "https://en.wiktionary.org/wiki/Lagrangian_mechanics",
+              "domain": "en.wiktionary.org",
+              "snippet": "A formulation of classical mechanics in terms of energy and action rather than forces , mathematically expressed by a function termed the Lagrangian ."
+            }
+          ],
+          "urls": [
+            "https://en.wikipedia.org/wiki/Lagrangian_mechanics",
+            "https://physics.stackexchange.com/questions/622727/connection-between-different-kinds-of-lagrangian",
+            "https://physics.stackexchange.com/questions/826025/identifying-lagrangian-as-the-solution-to-the-variational-problem-from-the-hamil",
+            "https://www.wikiwand.com/en/articles/Lagrangian_mechanics",
+            "https://en.wiktionary.org/wiki/Lagrangian_mechanics"
+          ],
+          "result_snippet": "[1] Lagrangian mechanics - Wikipedia\nURL: https://en.wikipedia.org/wiki/Lagrangian_mechanics\nSnippet: In physics , Lagrangian mechanics is a formulation of classical mechanics founded on the stationary-action principle (also known as the principle of ...\n\n[2] classical mechanics - Connection between different kinds of\nURL: https://physics.stackexchange.com/questions/622727/connection-between-different-kinds-of-lagrangian\nSnippet: ... Lagrangian can also be defined in contexts that aren't strictly classical or mechanical, one good example of such context is the Lagrangian in ...\n\n[3] classical mechanics - Identifying Lagrangian as the solution to\nURL: https://physics.stackexchange.com/questions/826025/identifying-lagrangian-as-the-solution-to-the-variational-problem-from-the-hamil\nSnippet: In the spirit of Goldstein's Classical Mechanics, we simply identify Euler-Lagrange equations as follows, ... that already involve the lagrangian, in ...\n\n[4] Lagrangian mechanics - Wikiwand\nURL: https://www.wikiwand.com/en/articles/Lagrangian_mechanics\nSnippet: In physics , Lagrangian mechanics is an alternate formulation of classical mechanics founded on the d'Alembert principle of virtual work.\n\n[5] Lagrangian mechanics - Wiktionary, the free dictionary\nURL: https://en.wiktionary.org/wiki/Lagrangian_mechanics\nSnippet: A formulation of classical mechanics in terms of energy and action rather than forces , mathematically expressed by a function termed the Lagrangian .",
+          "searched_at": "2026-05-06_06-59-17",
+          "attempt_number": 1
+        },
+        {
+          "status": "ok",
+          "query": "Lagrangian The Lagrangian {L} is defined as the difference between kinetic energy {T} and potential energy {V} in classical university physics lecture notes textbook",
+          "results": [
+            {
+              "title": "Lagrangian mechanics - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Lagrangian_mechanics",
+              "domain": "en.wikipedia.org",
+              "snippet": "Lagrangian mechanics describes a mechanical system as a pair (M, L) consisting of a configuration space M and a smooth function within that space called a Lagrangian. For many systems, L = T − V, where T and V are the kinetic and potential energy of the system, respectively. [3]"
+            },
+            {
+              "title": "Advanced Classical Mechanics: D'Alembert, Lagrangian, and ... - Quizlet",
+              "url": "https://quizlet.com/study-guides/advanced-classical-mechanics-d-alembert-lagrangian-and-hamil-babcbdf1-d311-4f24-b90d-6c6698f4b33e",
+              "domain": "quizlet.com",
+              "snippet": "The Lagrangian (L) is defined as the difference between kinetic energy (T) and potential energy (V): L = T − V. Kinetic energy in generalized coordinates is expressed as T = ½ Σ_i m_i ṙ_i², where ṙ_i represents the generalized velocities."
+            },
+            {
+              "title": "Lagrangian Function Definition",
+              "url": "https://studyx.ai/questions/4m07gsn/lagrangian-function-is",
+              "domain": "studyx.ai",
+              "snippet": "Definition of the Lagrangian: The Lagrangian function, denoted by L, is a function used in physics, particularly in classical mechanics and field theory, to describe the dynamics of a system. It is defined as the difference between the kinetic energy (T) and the potential energy (V) of the system. Formula for the Lagrangian: L = T - V Purpose of the Lagrangian: The Lagrangian is used in the ..."
+            },
+            {
+              "title": "The Lagrangian - Theory of Absolutes",
+              "url": "https://theoryofabsolutes.com/the-lagrangian/",
+              "domain": "theoryofabsolutes.com",
+              "snippet": "In physics, a Lagrangian is a mathematical function that describes the dynamics of a physical system. It is central to Lagrangian mechanics, one of the formulations of classical mechanics, and it also plays a key role in quantum mechanics, quantum field theory, and general relativity."
+            },
+            {
+              "title": "Lagrangian - HandWiki",
+              "url": "https://handwiki.org/wiki/Lagrangian",
+              "domain": "handwiki.org",
+              "snippet": "The term \"Lagrangian\" arises in classical mechanics, where in the simplest case the Lagrangian is the difference between the kinetic and the potential energy of the system, and the motions of the system coincide with the extremals of the corresponding integral functional (the principle of stationary action)."
+            }
+          ],
+          "urls": [
+            "https://en.wikipedia.org/wiki/Lagrangian_mechanics",
+            "https://quizlet.com/study-guides/advanced-classical-mechanics-d-alembert-lagrangian-and-hamil-babcbdf1-d311-4f24-b90d-6c6698f4b33e",
+            "https://studyx.ai/questions/4m07gsn/lagrangian-function-is",
+            "https://theoryofabsolutes.com/the-lagrangian/",
+            "https://handwiki.org/wiki/Lagrangian"
+          ],
+          "result_snippet": "[1] Lagrangian mechanics - Wikipedia\nURL: https://en.wikipedia.org/wiki/Lagrangian_mechanics\nSnippet: Lagrangian mechanics describes a mechanical system as a pair (M, L) consisting of a configuration space M and a smooth function within that space called a Lagrangian. For many systems, L = T − V, where T and V are the kinetic and potential energy of the system, respectively. [3]\n\n[2] Advanced Classical Mechanics: D'Alembert, Lagrangian, and ... - Quizlet\nURL: https://quizlet.com/study-guides/advanced-classical-mechanics-d-alembert-lagrangian-and-hamil-babcbdf1-d311-4f24-b90d-6c6698f4b33e\nSnippet: The Lagrangian (L) is defined as the difference between kinetic energy (T) and potential energy (V): L = T − V. Kinetic energy in generalized coordinates is expressed as T = ½ Σ_i m_i ṙ_i², where ṙ_i represents the generalized velocities.\n\n[3] Lagrangian Function Definition\nURL: https://studyx.ai/questions/4m07gsn/lagrangian-function-is\nSnippet: Definition of the Lagrangian: The Lagrangian function, denoted by L, is a function used in physics, particularly in classical mechanics and field theory, to describe the dynamics of a system. It is defined as the difference between the kinetic energy (T) and the potential energy (V) of the system. Formula for the Lagrangian: L = T - V Purpose of the Lagrangian: The Lagrangian is used in the ...\n\n[4] The Lagrangian - Theory of Absolutes\nURL: https://theoryofabsolutes.com/the-lagrangian/\nSnippet: In physics, a Lagrangian is a mathematical function that describes the dynamics of a physical system. It is central to Lagrangian mechanics, one of the formulations of classical mechanics, and it also plays a key role in quantum mechanics, quantum field theory, and general relativity.\n\n[5] Lagrangian - HandWiki\nURL: https://handwiki.org/wiki/Lagrangian\nSnippet: The term \"Lagrangian\" arises in classical mechanics, where in the simplest case the Lagrangian is the difference between the kinetic and the potential energy of the system, and the motions of the system coincide with the extremals of the corresponding integral functional (the principle of stationary action).",
+          "searched_at": "2026-05-06_07-35-47",
+          "attempt_number": 2
+        },
+        {
+          "status": "ok",
+          "query": "Lagrangian The Lagrangian {L} is defined as the difference between kinetic energy {T} and potential energy {V} in classical site:edu physics",
+          "results": [
+            {
+              "title": "Lagrangian mechanics - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Lagrangian_mechanics",
+              "domain": "en.wikipedia.org",
+              "snippet": "For many systems, L = T − V , where T and V are the kinetic and potential energy of the system, respectively. ... The non-relativistic Lagrangian ..."
+            },
+            {
+              "title": "Lagrangian mechanics - HandWiki",
+              "url": "https://handwiki.org/wiki/Lagrangian_mechanics",
+              "domain": "handwiki.org",
+              "snippet": "The non-relativistic Lagrangian for a system of particles in the absence of an electromagnetic field is given by 5 L = T V where T = 1 2 k = 1 N m k v ..."
+            },
+            {
+              "title": "Lagrangian mechanics - Wikiwand",
+              "url": "https://www.wikiwand.com/en/articles/Lagrangian_mechanics",
+              "domain": "wikiwand.com",
+              "snippet": "... Lagrange's approach was to set up independent generalized coordinates for the position and speed of every object, which allows the writing down of a ..."
+            },
+            {
+              "title": "classical mechanics - Connection between different kinds of",
+              "url": "https://physics.stackexchange.com/questions/622727/connection-between-different-kinds-of-lagrangian",
+              "domain": "physics.stackexchange.com",
+              "snippet": "... mechanical system, the Lagrangian ( $\\mathcal{L}$ ) is a function, defined as the difference between kinetic energy ( K ) and potential energy ( V ..."
+            },
+            {
+              "title": "classical mechanics - Lagrangian Equations of Motion,",
+              "url": "https://physics.stackexchange.com/questions/255903/lagrangian-equations-of-motion-conservative-forces",
+              "domain": "physics.stackexchange.com",
+              "snippet": "The generalised Lagrange equations are $$ \\frac{\\mathrm{d}}{\\mathrm{d}t}\\frac{\\partial T}{\\partial \\dot{q}_j} - \\frac{\\partial T}{\\partial q_j}=Q_j ..."
+            }
+          ],
+          "urls": [
+            "https://en.wikipedia.org/wiki/Lagrangian_mechanics",
+            "https://handwiki.org/wiki/Lagrangian_mechanics",
+            "https://www.wikiwand.com/en/articles/Lagrangian_mechanics",
+            "https://physics.stackexchange.com/questions/622727/connection-between-different-kinds-of-lagrangian",
+            "https://physics.stackexchange.com/questions/255903/lagrangian-equations-of-motion-conservative-forces"
+          ],
+          "result_snippet": "[1] Lagrangian mechanics - Wikipedia\nURL: https://en.wikipedia.org/wiki/Lagrangian_mechanics\nSnippet: For many systems, L = T − V , where T and V are the kinetic and potential energy of the system, respectively. ... The non-relativistic Lagrangian ...\n\n[2] Lagrangian mechanics - HandWiki\nURL: https://handwiki.org/wiki/Lagrangian_mechanics\nSnippet: The non-relativistic Lagrangian for a system of particles in the absence of an electromagnetic field is given by 5 L = T V where T = 1 2 k = 1 N m k v ...\n\n[3] Lagrangian mechanics - Wikiwand\nURL: https://www.wikiwand.com/en/articles/Lagrangian_mechanics\nSnippet: ... Lagrange's approach was to set up independent generalized coordinates for the position and speed of every object, which allows the writing down of a ...\n\n[4] classical mechanics - Connection between different kinds of\nURL: https://physics.stackexchange.com/questions/622727/connection-between-different-kinds-of-lagrangian\nSnippet: ... mechanical system, the Lagrangian ( $\\mathcal{L}$ ) is a function, defined as the difference between kinetic energy ( K ) and potential energy ( V ...\n\n[5] classical mechanics - Lagrangian Equations of Motion,\nURL: https://physics.stackexchange.com/questions/255903/lagrangian-equations-of-motion-conservative-forces\nSnippet: The generalised Lagrange equations are $$ \\frac{\\mathrm{d}}{\\mathrm{d}t}\\frac{\\partial T}{\\partial \\dot{q}_j} - \\frac{\\partial T}{\\partial q_j}=Q_j ...",
+          "searched_at": "2026-05-06_08-12-11",
+          "attempt_number": 3
+        }
+      ],
+      "query": "Lagrangian The Lagrangian {L} is defined as the difference between kinetic energy {T} and potential energy {V} in classical site:edu physics",
+      "search_status": "ok",
+      "result_snippet": "[1] Lagrangian mechanics - Wikipedia\nURL: https://en.wikipedia.org/wiki/Lagrangian_mechanics\nSnippet: For many systems, L = T − V , where T and V are the kinetic and potential energy of the system, respectively. ... The non-relativistic Lagrangian ...\n\n[2] Lagrangian mechanics - HandWiki\nURL: https://handwiki.org/wiki/Lagrangian_mechanics\nSnippet: The non-relativistic Lagrangian for a system of particles in the absence of an electromagnetic field is given by 5 L = T V where T = 1 2 k = 1 N m k v ...\n\n[3] Lagrangian mechanics - Wikiwand\nURL: https://www.wikiwand.com/en/articles/Lagrangian_mechanics\nSnippet: ... Lagrange's approach was to set up independent generalized coordinates for the position and speed of every object, which allows the writing down of a ...\n\n[4] classical mechanics - Connection between different kinds of\nURL: https://physics.stackexchange.com/questions/622727/connection-between-different-kinds-of-lagrangian\nSnippet: ... mechanical system, the Lagrangian ( $\\mathcal{L}$ ) is a function, defined as the difference between kinetic energy ( K ) and potential energy ( V ...\n\n[5] classical mechanics - Lagrangian Equations of Motion,\nURL: https://physics.stackexchange.com/questions/255903/lagrangian-equations-of-motion-conservative-forces\nSnippet: The generalised Lagrange equations are $$ \\frac{\\mathrm{d}}{\\mathrm{d}t}\\frac{\\partial T}{\\partial \\dot{q}_j} - \\frac{\\partial T}{\\partial q_j}=Q_j ...",
+      "results": [
+        {
+          "title": "Lagrangian mechanics - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Lagrangian_mechanics",
+          "domain": "en.wikipedia.org",
+          "snippet": "For many systems, L = T − V , where T and V are the kinetic and potential energy of the system, respectively. ... The non-relativistic Lagrangian ..."
+        },
+        {
+          "title": "Lagrangian mechanics - HandWiki",
+          "url": "https://handwiki.org/wiki/Lagrangian_mechanics",
+          "domain": "handwiki.org",
+          "snippet": "The non-relativistic Lagrangian for a system of particles in the absence of an electromagnetic field is given by 5 L = T V where T = 1 2 k = 1 N m k v ..."
+        },
+        {
+          "title": "Lagrangian mechanics - Wikiwand",
+          "url": "https://www.wikiwand.com/en/articles/Lagrangian_mechanics",
+          "domain": "wikiwand.com",
+          "snippet": "... Lagrange's approach was to set up independent generalized coordinates for the position and speed of every object, which allows the writing down of a ..."
+        },
+        {
+          "title": "classical mechanics - Connection between different kinds of",
+          "url": "https://physics.stackexchange.com/questions/622727/connection-between-different-kinds-of-lagrangian",
+          "domain": "physics.stackexchange.com",
+          "snippet": "... mechanical system, the Lagrangian ( $\\mathcal{L}$ ) is a function, defined as the difference between kinetic energy ( K ) and potential energy ( V ..."
+        },
+        {
+          "title": "classical mechanics - Lagrangian Equations of Motion,",
+          "url": "https://physics.stackexchange.com/questions/255903/lagrangian-equations-of-motion-conservative-forces",
+          "domain": "physics.stackexchange.com",
+          "snippet": "The generalised Lagrange equations are $$ \\frac{\\mathrm{d}}{\\mathrm{d}t}\\frac{\\partial T}{\\partial \\dot{q}_j} - \\frac{\\partial T}{\\partial q_j}=Q_j ..."
+        }
+      ],
+      "urls": [
+        "https://en.wikipedia.org/wiki/Lagrangian_mechanics",
+        "https://handwiki.org/wiki/Lagrangian_mechanics",
+        "https://www.wikiwand.com/en/articles/Lagrangian_mechanics",
+        "https://physics.stackexchange.com/questions/622727/connection-between-different-kinds-of-lagrangian",
+        "https://physics.stackexchange.com/questions/255903/lagrangian-equations-of-motion-conservative-forces"
+      ],
+      "attempt_count": 3,
+      "searched_at": "2026-05-06_08-12-11",
       "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
     },
     "C002": {
-      "claim": "Nature chooses the path that makes this energy difference \"stationary\" — a minimum, maximum, or saddle point.",
-      "query": "Lagrangian Nature chooses the path that makes this energy difference \"stationary\" — a minimum, maximum, or saddle physics lecture notes textbook explanation",
-      "result_snippet": "The stationary action principle requires that the action functional of the system derived from L must remain at a stationary point (a maximum , ... The stationary action principle requires that the action functional of the system derived from L must remain at a stationary point (a maximum , ... ... the derivation it has different mathematical ... Yes, this doesn't mean that the point actually is a minimum: it could be a maximum, or saddle point. Strictly speaking, the principle of least action asserts that the integral $S$ must be a minimum only for infinitesimal lengths of the path of ... We postulate that learning searches for stationary paths in the Lagrangian, and learning algorithms are derivable by seeking the stationary ...",
-      "searched_at": "2026-05-04_21-57-29",
+      "claim": "The principle of stationary action states that nature selects the path where the action {S} (integral of the Lagrangian over time) is stationary (minimum, maximum, or saddle point).",
+      "search_attempts": [
+        {
+          "status": "ok",
+          "query": "principle of stationary action physics",
+          "results": [
+            {
+              "title": "Lagrangian mechanics - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Lagrangian_mechanics",
+              "domain": "en.wikipedia.org",
+              "snippet": "The stationary action principle requires that the action functional of the system derived from L must remain at a stationary point (specifically, a maximum, minimum, or saddle point) throughout the time evolution of the system."
+            },
+            {
+              "title": "The Principle of Stationary Action | by Paribesh Regmi | Medium",
+              "url": "https://paribeshregmi.medium.com/the-principle-of-stationary-action-c69237bd4ea2",
+              "domain": "paribeshregmi.medium.com",
+              "snippet": "Thus, the quantity action is a more fundamental quantity that guides nature. The principle of stationary action provides a single unifying principle for all of physics, often called a mother principle — from which all other physical laws can be derived."
+            },
+            {
+              "title": "Principle Of Stationary Action - EncyclopedAI",
+              "url": "https://encyclopedai.stavros.io/entries/principle-of-stationary-action/",
+              "domain": "encyclopedai.stavros.io",
+              "snippet": "The Principle of Stationary Action (Hamilton's Principle) asserts that the trajectory a physical system follows between two states renders the Action functional stationary ($\\\\delta S=0$). This variational requirement yields the fundamental differential equations of motion, such as the Euler-Lagrange equations, across classical mechanics and field theory."
+            },
+            {
+              "title": "The Principle of Stationary Action: Unifying the Laws of Physics from ...",
+              "url": "https://www.getmanabi.ai/library/d6c6835c-0f92-4131-ab29-5a6f902e7ebf",
+              "domain": "getmanabi.ai",
+              "snippet": "結論 The Principle of Stationary Action unifies physics by stating that systems follow paths where the integral of the Lagrangian (kinetic minus potential energy) is stationary, explaining both classical and quantum phenomena."
+            },
+            {
+              "title": "The Jacobi's principle of stationary full action and its consequences",
+              "url": "https://arxiv.org/abs/2512.17944",
+              "domain": "arxiv.org",
+              "snippet": "The purpose of this article is to extend the applicability of the stationarity principle of the full Jacobi action to non-conservative natural systems and to derive equations of motion corresponding to this extended principle. To this end, in addition to the well-known variation of the Jacobi action with respect to coordinates, we propose independently variating time. Small variations in ..."
+            }
+          ],
+          "urls": [
+            "https://en.wikipedia.org/wiki/Lagrangian_mechanics",
+            "https://paribeshregmi.medium.com/the-principle-of-stationary-action-c69237bd4ea2",
+            "https://encyclopedai.stavros.io/entries/principle-of-stationary-action/",
+            "https://www.getmanabi.ai/library/d6c6835c-0f92-4131-ab29-5a6f902e7ebf",
+            "https://arxiv.org/abs/2512.17944"
+          ],
+          "result_snippet": "[1] Lagrangian mechanics - Wikipedia\nURL: https://en.wikipedia.org/wiki/Lagrangian_mechanics\nSnippet: The stationary action principle requires that the action functional of the system derived from L must remain at a stationary point (specifically, a maximum, minimum, or saddle point) throughout the time evolution of the system.\n\n[2] The Principle of Stationary Action | by Paribesh Regmi | Medium\nURL: https://paribeshregmi.medium.com/the-principle-of-stationary-action-c69237bd4ea2\nSnippet: Thus, the quantity action is a more fundamental quantity that guides nature. The principle of stationary action provides a single unifying principle for all of physics, often called a mother principle — from which all other physical laws can be derived.\n\n[3] Principle Of Stationary Action - EncyclopedAI\nURL: https://encyclopedai.stavros.io/entries/principle-of-stationary-action/\nSnippet: The Principle of Stationary Action (Hamilton's Principle) asserts that the trajectory a physical system follows between two states renders the Action functional stationary ($\\\\delta S=0$). This variational requirement yields the fundamental differential equations of motion, such as the Euler-Lagrange equations, across classical mechanics and field theory.\n\n[4] The Principle of Stationary Action: Unifying the Laws of Physics from ...\nURL: https://www.getmanabi.ai/library/d6c6835c-0f92-4131-ab29-5a6f902e7ebf\nSnippet: 結論 The Principle of Stationary Action unifies physics by stating that systems follow paths where the integral of the Lagrangian (kinetic minus potential energy) is stationary, explaining both classical and quantum phenomena.\n\n[5] The Jacobi's principle of stationary full action and its consequences\nURL: https://arxiv.org/abs/2512.17944\nSnippet: The purpose of this article is to extend the applicability of the stationarity principle of the full Jacobi action to non-conservative natural systems and to derive equations of motion corresponding to this extended principle. To this end, in addition to the well-known variation of the Jacobi action with respect to coordinates, we propose independently variating time. Small variations in ...",
+          "searched_at": "2026-05-06_06-59-19",
+          "attempt_number": 1
+        }
+      ],
+      "query": "principle of stationary action physics",
+      "search_status": "ok",
+      "result_snippet": "[1] Lagrangian mechanics - Wikipedia\nURL: https://en.wikipedia.org/wiki/Lagrangian_mechanics\nSnippet: The stationary action principle requires that the action functional of the system derived from L must remain at a stationary point (specifically, a maximum, minimum, or saddle point) throughout the time evolution of the system.\n\n[2] The Principle of Stationary Action | by Paribesh Regmi | Medium\nURL: https://paribeshregmi.medium.com/the-principle-of-stationary-action-c69237bd4ea2\nSnippet: Thus, the quantity action is a more fundamental quantity that guides nature. The principle of stationary action provides a single unifying principle for all of physics, often called a mother principle — from which all other physical laws can be derived.\n\n[3] Principle Of Stationary Action - EncyclopedAI\nURL: https://encyclopedai.stavros.io/entries/principle-of-stationary-action/\nSnippet: The Principle of Stationary Action (Hamilton's Principle) asserts that the trajectory a physical system follows between two states renders the Action functional stationary ($\\\\delta S=0$). This variational requirement yields the fundamental differential equations of motion, such as the Euler-Lagrange equations, across classical mechanics and field theory.\n\n[4] The Principle of Stationary Action: Unifying the Laws of Physics from ...\nURL: https://www.getmanabi.ai/library/d6c6835c-0f92-4131-ab29-5a6f902e7ebf\nSnippet: 結論 The Principle of Stationary Action unifies physics by stating that systems follow paths where the integral of the Lagrangian (kinetic minus potential energy) is stationary, explaining both classical and quantum phenomena.\n\n[5] The Jacobi's principle of stationary full action and its consequences\nURL: https://arxiv.org/abs/2512.17944\nSnippet: The purpose of this article is to extend the applicability of the stationarity principle of the full Jacobi action to non-conservative natural systems and to derive equations of motion corresponding to this extended principle. To this end, in addition to the well-known variation of the Jacobi action with respect to coordinates, we propose independently variating time. Small variations in ...",
+      "results": [
+        {
+          "title": "Lagrangian mechanics - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Lagrangian_mechanics",
+          "domain": "en.wikipedia.org",
+          "snippet": "The stationary action principle requires that the action functional of the system derived from L must remain at a stationary point (specifically, a maximum, minimum, or saddle point) throughout the time evolution of the system."
+        },
+        {
+          "title": "The Principle of Stationary Action | by Paribesh Regmi | Medium",
+          "url": "https://paribeshregmi.medium.com/the-principle-of-stationary-action-c69237bd4ea2",
+          "domain": "paribeshregmi.medium.com",
+          "snippet": "Thus, the quantity action is a more fundamental quantity that guides nature. The principle of stationary action provides a single unifying principle for all of physics, often called a mother principle — from which all other physical laws can be derived."
+        },
+        {
+          "title": "Principle Of Stationary Action - EncyclopedAI",
+          "url": "https://encyclopedai.stavros.io/entries/principle-of-stationary-action/",
+          "domain": "encyclopedai.stavros.io",
+          "snippet": "The Principle of Stationary Action (Hamilton's Principle) asserts that the trajectory a physical system follows between two states renders the Action functional stationary ($\\\\delta S=0$). This variational requirement yields the fundamental differential equations of motion, such as the Euler-Lagrange equations, across classical mechanics and field theory."
+        },
+        {
+          "title": "The Principle of Stationary Action: Unifying the Laws of Physics from ...",
+          "url": "https://www.getmanabi.ai/library/d6c6835c-0f92-4131-ab29-5a6f902e7ebf",
+          "domain": "getmanabi.ai",
+          "snippet": "結論 The Principle of Stationary Action unifies physics by stating that systems follow paths where the integral of the Lagrangian (kinetic minus potential energy) is stationary, explaining both classical and quantum phenomena."
+        },
+        {
+          "title": "The Jacobi's principle of stationary full action and its consequences",
+          "url": "https://arxiv.org/abs/2512.17944",
+          "domain": "arxiv.org",
+          "snippet": "The purpose of this article is to extend the applicability of the stationarity principle of the full Jacobi action to non-conservative natural systems and to derive equations of motion corresponding to this extended principle. To this end, in addition to the well-known variation of the Jacobi action with respect to coordinates, we propose independently variating time. Small variations in ..."
+        }
+      ],
+      "urls": [
+        "https://en.wikipedia.org/wiki/Lagrangian_mechanics",
+        "https://paribeshregmi.medium.com/the-principle-of-stationary-action-c69237bd4ea2",
+        "https://encyclopedai.stavros.io/entries/principle-of-stationary-action/",
+        "https://www.getmanabi.ai/library/d6c6835c-0f92-4131-ab29-5a6f902e7ebf",
+        "https://arxiv.org/abs/2512.17944"
+      ],
+      "attempt_count": 1,
+      "searched_at": "2026-05-06_06-59-19",
       "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
     },
     "C003": {
-      "claim": "This is called the **principle of least action**, a universal rule for how systems evolve.",
-      "query": "Lagrangian This is called the **principle of least action**, a universal rule for how systems evolve. physics lecture notes textbook explanation",
-      "result_snippet": "In physics, Lagrangian mechanics is an alternate formulation of classical mechanics founded on the d'Alembert principle of virtual work. It was introduced by the Italian-French mathematician and astronomer Joseph-Louis Lagrange in his presentation to the Turin Academy of Science in 1760 [1] culminating in his 1788 grand opus, Mécanique ... Physics 325: Fall 2023 Lecture 24 Lagrangian mechanics The principle of least action (Hamilton's Principle): The path taken by a mechanical system (subject to no non-conservative forces) with coordinates qi between the fixed endpoints {t1, ~q(t1)}and {t2, ~q(t2 )}minimizes the action S[~ q(t)] =Z t 2 t 1 L(q,˙qi ;t)dt (1) where L= T- U (2) is the Lagrangian, T is the kinetic energy, and U ... While virtually every textbook on classical mechanics states the least-action principle and describes practical usages of the Lagrangian mechanics to derive the Euler-Lagrange equation following the least-action principle, it is hard to find simple and rigorous materials explaining how the least-action principle derives. Action is mathematically defined as the integral over time of the difference between the kinetic energy (KE) and the potential energy (PE); this difference is specifically termed the Lagrangian. I just watched a video from Veritasium about the history of the Principle of least action, and it was mind-blowing. As an engineer, I learned about Lagrangian mechanics in my undergraduate studies. I always use it as a tool to derive equations of motion, but I never fully understood the real meaning and connection behind it. After watching the video, I realized how beautiful the principle is ...",
-      "searched_at": "2026-05-04_21-57-30",
+      "claim": "The Lagrangian framework connects classical mechanics to quantum mechanics and general relativity by revealing hidden symmetries and conservation laws.",
+      "search_attempts": [
+        {
+          "status": "ok",
+          "query": "Lagrangian unification physics",
+          "results": [
+            {
+              "title": "lagrangian formalism - What are the differences between",
+              "url": "https://physics.stackexchange.com/questions/723777/what-are-the-differences-between-electroweak-interactions-before-and-after-unifi",
+              "domain": "physics.stackexchange.com",
+              "snippet": "... unified \" , which term in ... EM and Weak interactions are described by a symmetric (unified) Lagrangian where the two are enmeshed everywhere."
+            },
+            {
+              "title": "lagrangian formalism - Number of free parameters in $SU(5)$ GUT",
+              "url": "https://physics.stackexchange.com/questions/737294/number-of-free-parameters-in-su5-gut-model",
+              "domain": "physics.stackexchange.com",
+              "snippet": "... them, but the expectation is that a messy renormalization process would create them as symmetry-allowed effective terms in an effective Lagrangian ..."
+            },
+            {
+              "title": "Towards A Grand Unification",
+              "url": "https://arxiv.org/html/1608.05260v2",
+              "domain": "arxiv.org",
+              "snippet": "Now, it is obvious from this result that the Ginzburg-Landau Lagrangian density in the unified Lagrangian gets slightly modified owing to the effects ..."
+            },
+            {
+              "title": "Thermodynamic Isomorphism of Transformers: A Lagrangian",
+              "url": "https://arxiv.org/html/2602.08216v2",
+              "domain": "arxiv.org",
+              "snippet": "... Lagrangian that generates this dynamics? By applying the Principle of Least Action to an effective field theory of information, we demonstrate that ..."
+            },
+            {
+              "title": "physics — Fiction — Benjamin Outram",
+              "url": "https://www.benjaminoutram.com/fiction/tag/physics",
+              "domain": "benjaminoutram.com",
+              "snippet": "But what if such unification must account for more than just physical particles and forces? What if the Lagrangian of everything must also ..."
+            }
+          ],
+          "urls": [
+            "https://physics.stackexchange.com/questions/723777/what-are-the-differences-between-electroweak-interactions-before-and-after-unifi",
+            "https://physics.stackexchange.com/questions/737294/number-of-free-parameters-in-su5-gut-model",
+            "https://arxiv.org/html/1608.05260v2",
+            "https://arxiv.org/html/2602.08216v2",
+            "https://www.benjaminoutram.com/fiction/tag/physics"
+          ],
+          "result_snippet": "[1] lagrangian formalism - What are the differences between\nURL: https://physics.stackexchange.com/questions/723777/what-are-the-differences-between-electroweak-interactions-before-and-after-unifi\nSnippet: ... unified \" , which term in ... EM and Weak interactions are described by a symmetric (unified) Lagrangian where the two are enmeshed everywhere.\n\n[2] lagrangian formalism - Number of free parameters in $SU(5)$ GUT\nURL: https://physics.stackexchange.com/questions/737294/number-of-free-parameters-in-su5-gut-model\nSnippet: ... them, but the expectation is that a messy renormalization process would create them as symmetry-allowed effective terms in an effective Lagrangian ...\n\n[3] Towards A Grand Unification\nURL: https://arxiv.org/html/1608.05260v2\nSnippet: Now, it is obvious from this result that the Ginzburg-Landau Lagrangian density in the unified Lagrangian gets slightly modified owing to the effects ...\n\n[4] Thermodynamic Isomorphism of Transformers: A Lagrangian\nURL: https://arxiv.org/html/2602.08216v2\nSnippet: ... Lagrangian that generates this dynamics? By applying the Principle of Least Action to an effective field theory of information, we demonstrate that ...\n\n[5] physics — Fiction — Benjamin Outram\nURL: https://www.benjaminoutram.com/fiction/tag/physics\nSnippet: But what if such unification must account for more than just physical particles and forces? What if the Lagrangian of everything must also ...",
+          "searched_at": "2026-05-06_06-59-24",
+          "attempt_number": 1
+        }
+      ],
+      "query": "Lagrangian unification physics",
+      "search_status": "ok",
+      "result_snippet": "[1] lagrangian formalism - What are the differences between\nURL: https://physics.stackexchange.com/questions/723777/what-are-the-differences-between-electroweak-interactions-before-and-after-unifi\nSnippet: ... unified \" , which term in ... EM and Weak interactions are described by a symmetric (unified) Lagrangian where the two are enmeshed everywhere.\n\n[2] lagrangian formalism - Number of free parameters in $SU(5)$ GUT\nURL: https://physics.stackexchange.com/questions/737294/number-of-free-parameters-in-su5-gut-model\nSnippet: ... them, but the expectation is that a messy renormalization process would create them as symmetry-allowed effective terms in an effective Lagrangian ...\n\n[3] Towards A Grand Unification\nURL: https://arxiv.org/html/1608.05260v2\nSnippet: Now, it is obvious from this result that the Ginzburg-Landau Lagrangian density in the unified Lagrangian gets slightly modified owing to the effects ...\n\n[4] Thermodynamic Isomorphism of Transformers: A Lagrangian\nURL: https://arxiv.org/html/2602.08216v2\nSnippet: ... Lagrangian that generates this dynamics? By applying the Principle of Least Action to an effective field theory of information, we demonstrate that ...\n\n[5] physics — Fiction — Benjamin Outram\nURL: https://www.benjaminoutram.com/fiction/tag/physics\nSnippet: But what if such unification must account for more than just physical particles and forces? What if the Lagrangian of everything must also ...",
+      "results": [
+        {
+          "title": "lagrangian formalism - What are the differences between",
+          "url": "https://physics.stackexchange.com/questions/723777/what-are-the-differences-between-electroweak-interactions-before-and-after-unifi",
+          "domain": "physics.stackexchange.com",
+          "snippet": "... unified \" , which term in ... EM and Weak interactions are described by a symmetric (unified) Lagrangian where the two are enmeshed everywhere."
+        },
+        {
+          "title": "lagrangian formalism - Number of free parameters in $SU(5)$ GUT",
+          "url": "https://physics.stackexchange.com/questions/737294/number-of-free-parameters-in-su5-gut-model",
+          "domain": "physics.stackexchange.com",
+          "snippet": "... them, but the expectation is that a messy renormalization process would create them as symmetry-allowed effective terms in an effective Lagrangian ..."
+        },
+        {
+          "title": "Towards A Grand Unification",
+          "url": "https://arxiv.org/html/1608.05260v2",
+          "domain": "arxiv.org",
+          "snippet": "Now, it is obvious from this result that the Ginzburg-Landau Lagrangian density in the unified Lagrangian gets slightly modified owing to the effects ..."
+        },
+        {
+          "title": "Thermodynamic Isomorphism of Transformers: A Lagrangian",
+          "url": "https://arxiv.org/html/2602.08216v2",
+          "domain": "arxiv.org",
+          "snippet": "... Lagrangian that generates this dynamics? By applying the Principle of Least Action to an effective field theory of information, we demonstrate that ..."
+        },
+        {
+          "title": "physics — Fiction — Benjamin Outram",
+          "url": "https://www.benjaminoutram.com/fiction/tag/physics",
+          "domain": "benjaminoutram.com",
+          "snippet": "But what if such unification must account for more than just physical particles and forces? What if the Lagrangian of everything must also ..."
+        }
+      ],
+      "urls": [
+        "https://physics.stackexchange.com/questions/723777/what-are-the-differences-between-electroweak-interactions-before-and-after-unifi",
+        "https://physics.stackexchange.com/questions/737294/number-of-free-parameters-in-su5-gut-model",
+        "https://arxiv.org/html/1608.05260v2",
+        "https://arxiv.org/html/2602.08216v2",
+        "https://www.benjaminoutram.com/fiction/tag/physics"
+      ],
+      "attempt_count": 1,
+      "searched_at": "2026-05-06_06-59-24",
       "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
     }
   },
-  "last_updated": "2026-05-04_21-57-31"
+  "summary": {
+    "total_claims": 3,
+    "checked_claim_count": 1,
+    "passing_claim_count": 0,
+    "unchecked_claim_count": 2,
+    "unresolved_or_needs_qualification": 3,
+    "actionable_issue_count": 0,
+    "evidence_retry_count": 1,
+    "claim_review_complete": false,
+    "unchecked_claim_ids": [
+      "C002",
+      "C003"
+    ],
+    "actionable_claim_ids": [],
+    "evidence_retry_claim_ids": [
+      "C001"
+    ],
+    "highest_priority_fixes": []
+  },
+  "last_updated": "2026-05-06_08-12-11"
 }

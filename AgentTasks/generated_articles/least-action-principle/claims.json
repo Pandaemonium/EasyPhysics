@@ -2,78 +2,105 @@
   "claims": [
     {
       "id": "C001",
-      "claim": "Think of action as a measure of \"effort\" over time—systems choose paths that balance energy trade-offs, not just the shortest or fastest route.",
-      "type": "fallback-extracted",
-      "importance": "medium",
+      "claim": "The principle of stationary action states that physical systems choose paths that make the action stationary (not necessarily minimal).",
+      "type": "definition",
+      "importance": "high",
       "needs_external_check": true,
-      "why_it_matters": "Automatically extracted fallback claim; review manually.",
-      "suggested_search_query": "Least action principle Think of action as a measure of \"effort\" over time—systems choose paths that balance energy trade-offs, physics lecture notes textbook explanation"
+      "why_it_matters": "This defines the core concept and corrects historical misinterpretations of 'least action'.",
+      "suggested_search_query": "principle of stationary action definition physics"
     },
     {
       "id": "C002",
-      "claim": "This balance is the **least action principle** in action.",
-      "type": "fallback-extracted",
-      "importance": "medium",
+      "claim": "Action is mathematically defined as the integral of kinetic energy minus potential energy over time.",
+      "type": "definition",
+      "importance": "high",
       "needs_external_check": true,
-      "why_it_matters": "Automatically extracted fallback claim; review manually.",
-      "suggested_search_query": "Least action principle This balance is the **least action principle** in action. physics lecture notes textbook explanation"
+      "why_it_matters": "This precise formulation is foundational for deriving equations of motion.",
+      "suggested_search_query": "action integral physics definition"
     },
     {
       "id": "C003",
-      "claim": "## Why this matters The least action principle is a **fundamental principle** of nature that unifies classical mechanics.",
-      "type": "fallback-extracted",
-      "importance": "medium",
+      "claim": "The principle of stationary action unifies classical mechanics and connects to relativity and quantum mechanics.",
+      "type": "unification",
+      "importance": "high",
       "needs_external_check": true,
-      "why_it_matters": "Automatically extracted fallback claim; review manually.",
-      "suggested_search_query": "Least action principle ## Why this matters The least action principle is a **fundamental principle** of nature that unifies physics lecture notes textbook explanation"
+      "why_it_matters": "It reveals deep structural relationships across physics domains.",
+      "suggested_search_query": "stationary action principle unification physics"
     },
     {
       "id": "C004",
-      "claim": "It explains how objects move, why energy is conserved, and connects to deeper ideas in physics like relativity and quantum mechanics.",
-      "type": "fallback-extracted",
-      "importance": "medium",
+      "claim": "The term 'least action' is a historical approximation; modern physics uses 'stationary action' which includes minima, maxima, or saddle points.",
+      "type": "terminology",
+      "importance": "high",
       "needs_external_check": true,
-      "why_it_matters": "Automatically extracted fallback claim; review manually.",
-      "suggested_search_query": "Least action principle It explains how objects move, why energy is conserved, and connects to deeper ideas in physics physics lecture notes textbook explanation"
+      "why_it_matters": "Corrects common misconceptions about the principle's mathematical nature.",
+      "suggested_search_query": "least action principle vs stationary action"
     },
     {
       "id": "C005",
-      "claim": "It doesn’t just take the shortest path—it chooses the route that balances the energy it uses to move and the energy stored in its position.",
-      "type": "fallback-extracted",
-      "importance": "medium",
+      "claim": "The principle of stationary action is equivalent to Newton's laws of motion for classical systems.",
+      "type": "equivalence",
+      "importance": "high",
       "needs_external_check": true,
-      "why_it_matters": "Automatically extracted fallback claim; review manually.",
-      "suggested_search_query": "Least action principle It doesn’t just take the shortest path—it chooses the route that balances the energy it uses physics lecture notes textbook explanation"
+      "why_it_matters": "Demonstrates its foundational role in classical mechanics.",
+      "suggested_search_query": "stationary action principle Newton's laws"
     },
     {
       "id": "C006",
-      "claim": "This balance is the **least action principle** in action.",
-      "type": "fallback-extracted",
-      "importance": "medium",
+      "claim": "The principle is a cornerstone of theoretical physics, not merely a rule of thumb.",
+      "type": "status",
+      "importance": "high",
       "needs_external_check": true,
-      "why_it_matters": "Automatically extracted fallback claim; review manually.",
-      "suggested_search_query": "Least action principle This balance is the **least action principle** in action. physics lecture notes textbook explanation"
+      "why_it_matters": "Clarifies its fundamental status in physical laws.",
+      "suggested_search_query": "stationary action principle foundational status"
     },
     {
       "id": "C007",
-      "claim": "This means tiny changes to the path don’t alter the total action, like finding a hilltop or valley.",
-      "type": "fallback-extracted",
-      "importance": "medium",
+      "claim": "The variational principle leads to the Euler-Lagrange equation, which determines stationary action paths.",
+      "type": "derivation",
+      "importance": "high",
       "needs_external_check": true,
-      "why_it_matters": "Automatically extracted fallback claim; review manually.",
-      "suggested_search_query": "Least action principle This means tiny changes to the path don’t alter the total action, like finding a hilltop physics lecture notes textbook explanation"
+      "why_it_matters": "This is the mathematical basis for the principle.",
+      "suggested_search_query": "Euler-Lagrange equation derivation"
     },
     {
       "id": "C008",
-      "claim": "The principle is derived from the **variational principle**, where the path is determined by solving the **Euler-Lagrange equation**, which ensures that the action is stationary.",
-      "type": "fallback-extracted",
-      "importance": "medium",
+      "claim": "Common misconception: 'Least action' means the path with the least distance or time, but it actually refers to stationary action (minima, maxima, or saddle points).",
+      "type": "misconception",
+      "importance": "high",
       "needs_external_check": true,
-      "why_it_matters": "Automatically extracted fallback claim; review manually.",
-      "suggested_search_query": "Least action principle The principle is derived from the **variational principle**, where the path is determined by solving the physics lecture notes textbook explanation"
+      "why_it_matters": "Addresses critical conceptual errors in understanding the principle.",
+      "suggested_search_query": "least action principle misconceptions"
+    },
+    {
+      "id": "C009",
+      "claim": "The principle reveals connections between symmetries (e.g., time translation) and conservation laws (e.g., energy).",
+      "type": "symmetry",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Links to Noether's theorem and deeper physical principles.",
+      "suggested_search_query": "stationary action symmetry conservation"
+    },
+    {
+      "id": "C010",
+      "claim": "Light follows paths that extremize action, linking optics to the principle via Fermat's principle.",
+      "type": "application",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Demonstrates cross-disciplinary relevance.",
+      "suggested_search_query": "Fermat's principle stationary action"
+    },
+    {
+      "id": "C011",
+      "claim": "Physical systems can have stationary points in action that are minima, maxima, or saddle points.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Clarifies the mathematical nature of stationary action.",
+      "suggested_search_query": "stationary action minima maxima saddle points"
     }
   ],
-  "last_updated": "2026-05-04_23-08-08",
-  "count": 8,
-  "parse_note": "No usable claims parsed from LLM output. Using deterministic fallback extraction from draft sentences."
+  "last_updated": "2026-05-06_17-44-17",
+  "count": 11,
+  "parse_note": ""
 }

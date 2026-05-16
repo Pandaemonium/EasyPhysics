@@ -1,0 +1,19 @@
+{
+  "sources_by_claim": {
+    "C001": {
+      "claim": "# Scattering ## The core idea Scattering is the **exchange of energy, momentum, or information** between entities like particles, waves, or fields during an interaction.",
+      "query": "Scattering # Scattering ## The core idea Scattering is the **exchange of energy, momentum, or information** between physics lecture notes textbook explanation",
+      "result_snippet": "In physics, scattering is a wide range of physical processes where moving particles or radiation of some form, such as light or sound, are forced to deviate from a straight trajectory by localized non-uniformities (including particles and radiation) in the medium through which they pass. Lecture notes on scattering theory: classical & quantum mechanics, partial waves, cross sections. University level physics. May 29, 2024 · Scattering is a fundamental concept in physics that describes how particles, energy, or radiation are redirected when they encounter another particle or a barrier. The term ‘scattering’ refers to the phenomenon of waves encountering small objects, such as obstacles or apertures, and being altered by their interaction with these objects, where the latter are referred to as ‘scatterers.’. The simplest model of a scattering experiment is given by solving Schrödinger’s equation for a plane wave impinging on a localized potential. A potential \\ (V (r)\\) might represent what a fast electron encounters on striking an atom, or an alpha particle a nucleus.",
+      "searched_at": "2026-05-04_10-33-47",
+      "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
+    },
+    "C002": {
+      "claim": "It’s how systems “talk” to each other, shaping everything from light bending through a prism to the way particles collide in a collider.",
+      "query": "Scattering It’s how systems “talk” to each other, shaping everything from light bending through a prism to physics lecture notes textbook explanation",
+      "result_snippet": "In physics, scattering is a wide range of physical processes where moving particles or radiation of some form, such as light or sound, are forced to deviate from a straight trajectory by localized non-uniformities (including particles and radiation) in the medium through which they pass. Light scattering is a process where light is deflected from its straight path and sent into various other directions by interacting with small particles or inhomogeneities in a medium. To characterize quantum scattering, one typically employs the scattering matrix (S-matrix), whose elements are the transition amplitudes between quantum states of the system before and after the scattering. May 29, 2024 · Scattering is a fundamental concept in physics that describes how particles, energy, or radiation are redirected when they encounter another particle or a barrier. In this section, we examine the properties of the partial-wave scattering matrix . To construct wave functions for three or more fermions, we assume first that the fermions do not interact with each other, and are confined by a spin-independent potential, such as the Coulomb field of a nucleus.",
+      "searched_at": "2026-05-04_10-33-49",
+      "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
+    }
+  },
+  "last_updated": "2026-05-04_10-33-49"
+}

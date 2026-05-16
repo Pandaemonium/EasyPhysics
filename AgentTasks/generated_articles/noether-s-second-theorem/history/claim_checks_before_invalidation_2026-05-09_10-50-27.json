@@ -1,0 +1,105 @@
+{
+  "claim_checks": [
+    {
+      "id": "C001",
+      "verdict": "not_enough_evidence",
+      "severity": "medium",
+      "problem": "Claim checker failed: LLMCallError(\"claim_checker failed after 3 attempt(s): LLMCallError('LLM_TIMEOUT_AFTER_720_SECONDS')\")",
+      "suggested_fix": "Automatically retry this claim with another source search or a smaller context.",
+      "source_quality_note": "",
+      "source_urls": [],
+      "claim": "Noether's first theorem links global symmetries (rules applying everywhere at once) to conservation laws (e.g., energy, momentum).",
+      "checked_at": "2026-05-06_03-15-33",
+      "source_attempt_count": 3,
+      "available_source_urls": [
+        "https://www.academia.edu/164642816/Symmetry_Conservation_and_the_Geometry_of_Physical_Law_An_Exhaustive_Analysis_of_Lagrangian_Dynamics_Supersymmetry_and_Modern_Gauge_Theoretic_Extensions",
+        "https://www.academia.edu/45673740/Noethers_Theorems_and_Energy_in_General_Relativity",
+        "https://www.academia.edu/Documents/in/Noether_Symmetry",
+        "https://www.academia.edu/129278065/Temporal_Symmetry_Energy_Conservation_and_Evolutionary_Mechanics",
+        "https://www.academia.edu/4081950/Noether_Symmetries_in_Extended_Theories_Gravity_Quantum_Cosmology"
+      ]
+    }
+  ],
+  "check_history": [
+    {
+      "id": "C001",
+      "verdict": "not_enough_evidence",
+      "severity": "medium",
+      "problem": "Claim checker failed: LLMCallError(\"claim_checker failed after 3 attempt(s): LLMCallError('LLM_TIMEOUT_AFTER_720_SECONDS')\")",
+      "suggested_fix": "Automatically retry this claim with another source search or a smaller context.",
+      "source_quality_note": "",
+      "source_urls": [],
+      "claim": "Noether's first theorem links global symmetries (rules applying everywhere at once) to conservation laws (e.g., energy, momentum).",
+      "checked_at": "2026-05-06_02-02-37",
+      "source_attempt_count": 1,
+      "available_source_urls": [
+        "https://en.wikipedia.org/wiki/Noether's_theorem",
+        "https://users.physics.ox.ac.uk/~Steane/teaching/noether.pdf",
+        "https://modern-physics.org/noethers-theorem/",
+        "https://phys.libretexts.org/Bookshelves/Classical_Mechanics/Graduate_Classical_Mechanics_(Fowler)/04:_Hamilton's_Principle_and_Noether's_Theorem/4.10:_Conservation_Laws_and_Noethers_Theorem",
+        "https://math.ucr.edu/home/baez/noether.html"
+      ]
+    },
+    {
+      "id": "C001",
+      "verdict": "not_enough_evidence",
+      "severity": "medium",
+      "problem": "Claim checker failed: LLMCallError(\"claim_checker failed after 3 attempt(s): LLMCallError('LLM_TIMEOUT_AFTER_720_SECONDS')\")",
+      "suggested_fix": "Automatically retry this claim with another source search or a smaller context.",
+      "source_quality_note": "",
+      "source_urls": [],
+      "claim": "Noether's first theorem links global symmetries (rules applying everywhere at once) to conservation laws (e.g., energy, momentum).",
+      "checked_at": "2026-05-06_02-39-03",
+      "source_attempt_count": 2,
+      "available_source_urls": [
+        "https://en.wikipedia.org/wiki/Noether's_theorem",
+        "https://structures.uni-heidelberg.de/blog/posts/2025_09/index.php",
+        "https://link.aps.org/doi/10.1103/wmz3-lrbz",
+        "https://jfgouyet.fr/en-us/noethers-theorem-conservation-of-laws-and-symmetries/",
+        "https://ncatlab.org/nlab/show/Noether's+theorem"
+      ]
+    },
+    {
+      "id": "C001",
+      "verdict": "not_enough_evidence",
+      "severity": "medium",
+      "problem": "Claim checker failed: LLMCallError(\"claim_checker failed after 3 attempt(s): LLMCallError('LLM_TIMEOUT_AFTER_720_SECONDS')\")",
+      "suggested_fix": "Automatically retry this claim with another source search or a smaller context.",
+      "source_quality_note": "",
+      "source_urls": [],
+      "claim": "Noether's first theorem links global symmetries (rules applying everywhere at once) to conservation laws (e.g., energy, momentum).",
+      "checked_at": "2026-05-06_03-15-33",
+      "source_attempt_count": 3,
+      "available_source_urls": [
+        "https://www.academia.edu/164642816/Symmetry_Conservation_and_the_Geometry_of_Physical_Law_An_Exhaustive_Analysis_of_Lagrangian_Dynamics_Supersymmetry_and_Modern_Gauge_Theoretic_Extensions",
+        "https://www.academia.edu/45673740/Noethers_Theorems_and_Energy_in_General_Relativity",
+        "https://www.academia.edu/Documents/in/Noether_Symmetry",
+        "https://www.academia.edu/129278065/Temporal_Symmetry_Energy_Conservation_and_Evolutionary_Mechanics",
+        "https://www.academia.edu/4081950/Noether_Symmetries_in_Extended_Theories_Gravity_Quantum_Cosmology"
+      ]
+    }
+  ],
+  "summary": {
+    "total_claims": 3,
+    "checked_claim_count": 1,
+    "passing_claim_count": 0,
+    "unchecked_claim_count": 2,
+    "unresolved_or_needs_qualification": 3,
+    "actionable_issue_count": 1,
+    "evidence_retry_count": 0,
+    "claim_review_complete": false,
+    "unchecked_claim_ids": [
+      "C002",
+      "C003"
+    ],
+    "actionable_claim_ids": [
+      "C001"
+    ],
+    "evidence_retry_claim_ids": [],
+    "highest_priority_fixes": [
+      "Automatically retry this claim with another source search or a smaller context."
+    ],
+    "overall_claim_quality": "Partial claim check completed."
+  },
+  "last_updated": "2026-05-06_03-15-33"
+}

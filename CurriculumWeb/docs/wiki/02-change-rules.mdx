@@ -1,0 +1,84 @@
+---
+title: "Change: The Rule That Moves a State"
+slug: /wiki/change-rules
+sidebar_label: "Change Rules"
+description: "A short lesson on dynamics as the rule that moves one state to another."
+prerequisites:
+  - what-is-a-state
+glossary_terms:
+  - state
+  - change-rule
+  - function
+status: draft
+---
+
+import ConceptFlow from '@site/src/components/ConceptFlow';
+import KnowledgeCheck from '@site/src/components/KnowledgeCheck';
+import LessonNav from '@site/src/components/LessonNav';
+import Term from '@site/src/components/Term';
+
+# Change: The Rule That Moves a State
+
+A state is a snapshot. Physics also wants the movie rule.
+
+If the state says where a ball is and how it is moving right now, the <Term name="change-rule">rule of change</Term> says what states are allowed to come next. In standard language, this is part of <Term name="change-rule">dynamics</Term>.
+
+<ConceptFlow current="change" />
+
+The difference matters:
+
+<div className="lesson-sketch" aria-label="State and change rule example">
+  <div className="lesson-sketch__row">
+    <span className="lesson-sketch__pill">state now: position and velocity</span>
+    <span className="lesson-sketch__arrow">-&gt;</span>
+    <span className="lesson-sketch__pill">change rule</span>
+    <span className="lesson-sketch__arrow">-&gt;</span>
+    <span className="lesson-sketch__pill">state later</span>
+  </div>
+</div>
+
+The rule does not have to be complicated to be powerful. "Keep moving at the same velocity unless something changes that motion" is already a rule. So is "temperature spreads from warmer regions toward cooler neighboring regions." So is "a quantum state changes according to its energy rule."
+
+The state tells you where the story is. The change rule tells you how the story can continue.
+
+## Why This Is a Big Deal
+
+Once we separate state from change, we can ask better questions.
+
+- What information belongs in the state?
+- What rule changes that state?
+- What parts of the rule stay the same when we shift our viewpoint?
+- What quantities survive the motion?
+
+Those last two questions are where symmetry enters.
+
+<KnowledgeCheck
+  question="Which pair best separates a state from a rule of change?"
+  options={[
+    {
+      label: 'A',
+      text: 'State: where the ball is now. Rule: how its position and velocity update.',
+      correct: true,
+      feedback: 'Good. The state is the current description, and the rule says how that description changes.',
+    },
+    {
+      label: 'B',
+      text: 'State: the law of motion. Rule: the color of the ball.',
+      correct: false,
+      feedback: 'The law of motion belongs with the rule. The color may or may not belong in the state, depending on the question.',
+    },
+    {
+      label: 'C',
+      text: 'State: a famous equation. Rule: a famous scientist.',
+      correct: false,
+      feedback: 'Names can label ideas, but this lesson is about the roles those ideas play.',
+    },
+  ]}
+/>
+
+<LessonNav
+  nextLabel="Symmetry: A Change That Does Not Matter"
+  nextTo="/docs/wiki/symmetry-change-that-does-not-matter"
+  mathLabel="Functions as Rules"
+  mathTo="/docs/math/functions-as-rules"
+/>

@@ -1,0 +1,75 @@
+---
+title: "Symmetry: A Change That Does Not Matter"
+slug: /wiki/symmetry-change-that-does-not-matter
+sidebar_label: "Symmetry"
+description: "A short lesson on symmetry as a change that leaves the rulebook unchanged."
+prerequisites:
+  - change-rules
+glossary_terms:
+  - symmetry
+  - continuous-symmetry
+  - change-rule
+status: draft
+---
+
+import ConceptFlow from '@site/src/components/ConceptFlow';
+import KnowledgeCheck from '@site/src/components/KnowledgeCheck';
+import LessonNav from '@site/src/components/LessonNav';
+import Term from '@site/src/components/Term';
+
+# Symmetry: A Change That Does Not Matter
+
+A symmetry is not just a pretty pattern. In physics, a <Term name="symmetry">symmetry</Term> is a change that leaves the rulebook unchanged.
+
+Move a careful experiment from one table to another. If the same rule still works, the rule does not care about that shift in place.
+
+Run the same experiment tomorrow. If the same rule still works, the rule does not care about that shift in time.
+
+Turn the whole setup around. If the same rule still works, the rule does not care about that rotation.
+
+<ConceptFlow current="symmetry" />
+
+## What "Does Not Matter" Means
+
+It does not mean nothing changes. If you move the experiment across the room, the coordinates of the equipment change. The location changes. The labels may change.
+
+The symmetry claim is narrower and more powerful:
+
+**The rule of change has the same form after the change.**
+
+That is why symmetries are so useful. They tell us which differences are only differences in description, setup, or viewpoint, and which differences actually change the physics.
+
+## Smooth Sameness
+
+Some symmetries come in steps. A square looks the same after a quarter turn, but not after every tiny turn.
+
+Physics often cares about <Term name="continuous-symmetry">continuous symmetries</Term>: changes that can be made by any small amount. A small shift in time. A small shift in space. A small rotation. These smooth kinds of sameness are the ones that lead to the conservation laws in the next lesson.
+
+<KnowledgeCheck
+  question="Which example best matches the physics meaning of symmetry?"
+  options={[
+    {
+      label: 'A',
+      text: 'A rule gives the same kind of prediction after the whole experiment is shifted one meter to the left.',
+      correct: true,
+      feedback: 'Yes. The setup moved, but the rulebook did not need to be rewritten.',
+    },
+    {
+      label: 'B',
+      text: 'An object looks fancy or decorative.',
+      correct: false,
+      feedback: 'Visual beauty can include symmetry, but physics uses the word for changes that leave a rule unchanged.',
+    },
+    {
+      label: 'C',
+      text: 'Nothing in the universe is allowed to change.',
+      correct: false,
+      feedback: 'Symmetry is not frozen reality. It is sameness of the rule under a particular change.',
+    },
+  ]}
+/>
+
+<LessonNav
+  nextLabel="Conservation: The Memory of a Symmetry"
+  nextTo="/docs/wiki/conservation-memory-of-symmetry"
+/>

@@ -1,0 +1,75 @@
+---
+title: "What Is a State?"
+slug: /wiki/what-is-a-state
+sidebar_label: "What Is a State?"
+description: "A short lesson on state as the enough-now description of a system."
+prerequisites:
+  - what-is-physics-looking-for
+glossary_terms:
+  - state
+  - system
+  - model
+  - coordinate
+status: draft
+---
+
+import ConceptFlow from '@site/src/components/ConceptFlow';
+import KnowledgeCheck from '@site/src/components/KnowledgeCheck';
+import LessonNav from '@site/src/components/LessonNav';
+import Term from '@site/src/components/Term';
+
+# What Is a State?
+
+Imagine pausing a chess game. If someone wanted to continue the game later, they would need to know where the pieces are and whose turn it is. They would not need to know what music was playing in the room.
+
+That is the idea of a <Term name="state">state</Term>: the information a model needs right now in order to answer the question it was built for.
+
+<ConceptFlow current="state" />
+
+For a moving ball, a simple state might include:
+
+- where the ball is
+- how fast it is moving
+- which direction it is moving
+
+For a room, a useful state might include the temperature at many places. For a light wave, it might include the electric and magnetic field values. For a quantum system, the state becomes stranger and richer, but the basic role is the same: it tells the rule of change what it has to work with.
+
+## State Is Not Everything
+
+A state is not automatically a complete description of reality. It is an enough-now description for a purpose.
+
+If you want to predict whether a thrown ball lands in a basket, you probably do not need to track the exact motion of every atom in the ball. If you want to predict whether the ball melts, those ignored details start to matter.
+
+This is one of the quiet skills of physics: choosing the level of description that fits the question.
+
+<KnowledgeCheck
+  question="You want to predict where a tossed ball will be one second later. Which state description is most useful?"
+  options={[
+    {
+      label: 'A',
+      text: 'The ball position and velocity right now.',
+      correct: true,
+      feedback: 'For this simple question, position and velocity give the rule of motion what it needs.',
+    },
+    {
+      label: 'B',
+      text: 'The name of the person who bought the ball.',
+      correct: false,
+      feedback: 'That detail might be true, but it is not useful for the motion question.',
+    },
+    {
+      label: 'C',
+      text: 'Every fact about the room, whether or not it affects the ball.',
+      correct: false,
+      feedback: 'A model is useful partly because it leaves out details that do not matter for the question.',
+    },
+  ]}
+/>
+
+<LessonNav
+  nextLabel="Change: The Rule That Moves a State"
+  nextTo="/docs/wiki/change-rules"
+  mathLabel="Coordinates"
+  mathTo="/docs/math/coordinates"
+  note="The intuitive path continues directly. The optional math lens shows how numbers can describe a state without becoming the thing itself."
+/>

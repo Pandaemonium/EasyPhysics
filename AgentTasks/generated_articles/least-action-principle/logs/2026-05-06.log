@@ -1,0 +1,1361 @@
+
+================================================================================
+TIME: 2026-05-06T15:21:40
+NODE: writer
+PROMPT_CHARS: 5043
+PROMPT_TOKENS_APPROX: 1260
+RESPONSE_CHARS: 4029
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"keep_alive": -1, "num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.8}
+================================================================================
+PROMPT:
+Revise this existing EasyPhysics article once.
+
+Title: Least action principle
+
+Revision brief:
+- rigor score 0: Rigor judge failed. Suggested fix: Automatically rerun rigor review.
+- rigor next revision: Automatically rerun rigor review.
+- accessibility score 0: Accessibility judge failed. Suggested fix: Automatically rerun accessibility review.
+- accessibility next revision: Automatically rerun accessibility review.
+
+Human/editor notes:
+# Human/editor notes
+
+Add any preferences, corrections, or article-specific constraints here.
+
+
+Current draft:
+# Principle of Stationary Action  
+
+## The core idea  
+Physical systems move in ways that make a quantity called **action** stationary. Think of action as a measure of "effort" over time—systems choose paths that balance energy trade-offs, not just the shortest or fastest route. This balance is governed by the **principle of stationary action**, a concept that unifies classical mechanics and connects to deeper ideas in physics.  
+
+**Note**: The term "least action principle" is a historical name for this principle. Modern physics uses "stationary action" to emphasize that the action is **extremized** (not strictly minimized), which can mean minima, maxima, or saddle points.  
+
+## Why this matters  
+The principle of stationary action is a **fundamental principle** of nature that unifies classical mechanics. It explains how objects move, why energy is conserved, and connects to deeper ideas in physics like relativity and quantum mechanics. While some physicists debate whether it qualifies as a "law" in the traditional sense, it remains a cornerstone of theoretical physics as a unifying framework.  
+
+## The simple picture  
+Imagine a ball rolling downhill. It doesn’t just take the shortest path—it chooses the route that balances the energy it uses to move and the energy stored in its position. This balance is the **principle of stationary action** in action.  
+[Diagram idea: A ball rolling on a hill, with arrows showing energy trade-offs between kinetic and potential energy.]  
+
+## The more precise picture  
+**Action** is a quantity defined as:  
+$$  
+S = \int_{t_1}^{t_2} (KE - PE) \, dt  
+$$  
+where $ KE $ is kinetic energy, $ PE $ is potential energy, and the integral is taken over time.  
+
+Physical systems follow paths that make $ S $ **stationary** (not necessarily minimal). This means tiny changes to the path don’t alter the total action, like finding a hilltop or valley. The principle is derived from the **variational principle**, where the path is determined by solving the **Euler-Lagrange equation**, which ensures that the action is extremized.  
+
+This principle is equivalent to Newton’s laws of motion. For example, a ball’s curved path under gravity arises from extremizing the action integral.  
+
+**Key terms**:  
+- **Action** {action integral}  
+- **Stationary path** {variational principle}  
+- **Extremal path** {principle of stationary action}  
+
+## Common misconceptions  
+- ❌ "Least action means the path with the least distance or time."  
+  → Action is a weighted sum of energy and time over a path, not just distance or speed. The term "least action" is a historical approximation; the principle actually refers to **stationary action** (which can be minima, maxima, or saddle points).  
+- ❌ "All systems choose the path with the least action."  
+  → Some systems have **stationary points** (minima, maxima, or saddle points) in action.  
+- ❌ "The principle is a rule of thumb, not a law."  
+  → It is a **fundamental principle** of nature, equivalent to Newton’s laws in classical mechanics.  
+
+## How this connects to the rest of physics  
+- **Lagrangian mechanics**: The principle of stationary action is the foundation of this framework, used to derive equations of motion for complex systems.  
+- **Optics**: Light follows paths that extremize action (Fermat’s principle), linking classical mechanics to wave behavior.  
+- **Symmetry and conservation**: The principle reveals deep connections between symmetries (like time translation) and conservation laws (like energy).  
+
+## Recap  
+- Action is a balance of energy and time over a path.  
+- Systems choose paths that make action **stationary**, not necessarily minimal.  
+- The principle unifies classical mechanics and connects to advanced physics.  
+- It’s a **fundamental principle**, not a guess or approximation.  
+
+---  
+**Note**: The term "least action principle" is a historical name for the **principle of stationary action**, which describes paths where the action is extremized (not strictly minimized).
+
+Instructions:
+- Return the complete revised article in Markdown.
+- Do not start from scratch.
+- Preserve good explanations.
+- Fix only the most important clarity, structure, and rigor problems.
+- If a section is already good, leave it mostly alone.
+- Add qualifications where the current draft overclaims.
+- Make the opening more intuitive if needed.
+- Keep standard terms in braces after intuitive names.
+- Do not include commentary before or after the article.
+
+RESPONSE:
+# Principle of Stationary Action  
+
+## The core idea  
+Physical systems move in ways that make a quantity called **action** stationary. Think of action as a measure of "effort" over time—systems choose paths that balance energy trade-offs, not just the shortest or fastest route. This balance is governed by the **principle of stationary action**, a concept that unifies classical mechanics and connects to deeper ideas in physics.  
+
+**Note**: The term "least action principle" is a historical name for this principle. Modern physics uses "stationary action" to emphasize that the action is **extremized** (not strictly minimized), which can mean minima, maxima, or saddle points.  
+
+## Why this matters  
+The principle of stationary action is a **foundational framework** of nature that unifies classical mechanics. It explains how objects move, why energy is conserved, and connects to deeper ideas in physics like relativity and quantum mechanics. While some physicists debate whether it qualifies as a "law" in the traditional sense, it remains a cornerstone of theoretical physics as a unifying framework.  
+
+## The simple picture  
+Imagine a ball rolling downhill. It doesn’t just take the shortest path—it chooses the route that balances the energy it uses to move and the energy stored in its position. This balance is the **principle of stationary action** in action.  
+[Diagram idea: A ball rolling on a hill, with arrows showing energy trade-offs between kinetic and potential energy.]  
+
+## The more precise picture  
+**Action** is a quantity defined as:  
+$$  
+S = \int_{t_1}^{t_2} (KE - PE) \, dt  
+$$  
+where $ KE $ is kinetic energy, $ PE $ is potential energy, and the integral is taken over time.  
+
+Physical systems follow paths that make $ S $ **stationary** (not necessarily minimal). This means tiny changes to the path don’t alter the total action, like finding a hilltop or valley. The principle is derived from the **variational principle**, where the path is determined by solving the **Euler-Lagrange equation**, which ensures that the action is extremized.  
+
+This principle is equivalent to Newton’s laws of motion. For example, a ball’s curved path under gravity arises from extremizing the action integral.  
+
+**Key terms**:  
+- **Action** {action integral}  
+- **Stationary path** {variational principle}  
+- **Extremal path** {principle of stationary action}  
+
+## Common misconceptions  
+- ❌ "Least action means the path with the least distance or time."  
+  → Action is a weighted sum of energy and time over a path, not just distance or speed. The term "least action" is a historical approximation; the principle actually refers to **stationary action** (which can be minima, maxima, or saddle points).  
+- ❌ "All systems choose the path with the least action."  
+  → Some systems have **stationary points** (minima, maxima, or saddle points) in action.  
+- ❌ "The principle is a rule of thumb, not a law."  
+  → It is a **foundational framework** of nature, equivalent to Newton’s laws in classical mechanics.  
+
+## How this connects to the rest of physics  
+- **Lagrangian mechanics**: The principle of stationary action is the foundation of this framework, used to derive equations of motion for complex systems.  
+- **Optics**: Light follows paths that extremize action (Fermat’s principle), linking classical mechanics to wave behavior.  
+- **Symmetry and conservation**: The principle reveals deep connections between symmetries (like time translation) and conservation laws (like energy).  
+
+## Recap  
+- Action is a balance of energy and time over a path.  
+- Systems choose paths that make action **stationary**, not necessarily minimal.  
+- The principle unifies classical mechanics and connects to advanced physics.  
+- It’s a **foundational framework**, not a guess or approximation.  
+
+---  
+**Note**: The term "least action principle" is a historical name for the **principle of stationary action**, which describes paths where the action is extremized (not strictly minimized).
+
+================================================================================
+TIME: 2026-05-06T15:24:16
+NODE: term_collector
+PROMPT_CHARS: 4499
+PROMPT_TOKENS_APPROX: 1124
+RESPONSE_CHARS: 1118
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"keep_alive": -1, "num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.8}
+================================================================================
+PROMPT:
+Extract the descriptive-name candidates from this draft.
+
+Return JSON with this shape:
+{
+  "terms": [
+    {
+      "standard_term": "fermion",
+      "candidate_name": "space-occupier",
+      "context_quote": "short quote from the draft",
+      "usefulness": "why this name helps",
+      "risk": "how it could mislead, or empty string if low risk"
+    }
+  ]
+}
+
+Only include actual teaching-name candidates, especially phrases followed by standard terms in braces.
+
+Draft:
+# Principle of Stationary Action  
+
+## The core idea  
+Physical systems move in ways that make a quantity called **action** stationary. Think of action as a measure of "effort" over time—systems choose paths that balance energy trade-offs, not just the shortest or fastest route. This balance is governed by the **principle of stationary action**, a concept that unifies classical mechanics and connects to deeper ideas in physics.  
+
+**Note**: The term "least action principle" is a historical name for this principle. Modern physics uses "stationary action" to emphasize that the action is **extremized** (not strictly minimized), which can mean minima, maxima, or saddle points.  
+
+## Why this matters  
+The principle of stationary action is a **foundational framework** of nature that unifies classical mechanics. It explains how objects move, why energy is conserved, and connects to deeper ideas in physics like relativity and quantum mechanics. While some physicists debate whether it qualifies as a "law" in the traditional sense, it remains a cornerstone of theoretical physics as a unifying framework.  
+
+## The simple picture  
+Imagine a ball rolling downhill. It doesn’t just take the shortest path—it chooses the route that balances the energy it uses to move and the energy stored in its position. This balance is the **principle of stationary action** in action.  
+[Diagram idea: A ball rolling on a hill, with arrows showing energy trade-offs between kinetic and potential energy.]  
+
+## The more precise picture  
+**Action** is a quantity defined as:  
+$$  
+S = \int_{t_1}^{t_2} (KE - PE) \, dt  
+$$  
+where $ KE $ is kinetic energy, $ PE $ is potential energy, and the integral is taken over time.  
+
+Physical systems follow paths that make $ S $ **stationary** (not necessarily minimal). This means tiny changes to the path don’t alter the total action, like finding a hilltop or valley. The principle is derived from the **variational principle**, where the path is determined by solving the **Euler-Lagrange equation**, which ensures that the action is extremized.  
+
+This principle is equivalent to Newton’s laws of motion. For example, a ball’s curved path under gravity arises from extremizing the action integral.  
+
+**Key terms**:  
+- **Action** {action integral}  
+- **Stationary path** {variational principle}  
+- **Extremal path** {principle of stationary action}  
+
+## Common misconceptions  
+- ❌ "Least action means the path with the least distance or time."  
+  → Action is a weighted sum of energy and time over a path, not just distance or speed. The term "least action" is a historical approximation; the principle actually refers to **stationary action** (which can be minima, maxima, or saddle points).  
+- ❌ "All systems choose the path with the least action."  
+  → Some systems have **stationary points** (minima, maxima, or saddle points) in action.  
+- ❌ "The principle is a rule of thumb, not a law."  
+  → It is a **foundational framework** of nature, equivalent to Newton’s laws in classical mechanics.  
+
+## How this connects to the rest of physics  
+- **Lagrangian mechanics**: The principle of stationary action is the foundation of this framework, used to derive equations of motion for complex systems.  
+- **Optics**: Light follows paths that extremize action (Fermat’s principle), linking classical mechanics to wave behavior.  
+- **Symmetry and conservation**: The principle reveals deep connections between symmetries (like time translation) and conservation laws (like energy).  
+
+## Recap  
+- Action is a balance of energy and time over a path.  
+- Systems choose paths that make action **stationary**, not necessarily minimal.  
+- The principle unifies classical mechanics and connects to advanced physics.  
+- It’s a **foundational framework**, not a guess or approximation.  
+
+---  
+**Note**: The term "least action principle" is a historical name for the **principle of stationary action**, which describes paths where the action is extremized (not strictly minimized).
+
+RESPONSE:
+{
+  "terms": [
+    {
+      "standard_term": "action integral",
+      "candidate_name": "Action",
+      "context_quote": "Action {action integral}",
+      "usefulness": "clearly describes the concept as a balance of energy and time over a path",
+      "risk": "might be confused with the mathematical integral itself rather than the physical concept"
+    },
+    {
+      "standard_term": "variational principle",
+      "candidate_name": "Stationary path",
+      "context_quote": "Stationary path {variational principle}",
+      "usefulness": "emphasizes the idea of paths where action doesn't change under small variations",
+      "risk": "could be misinterpreted as a static path rather than one determined by variation"
+    },
+    {
+      "standard_term": "principle of stationary action",
+      "candidate_name": "Extremal path",
+      "context_quote": "Extremal path {principle of stationary action}",
+      "usefulness": "highlights the extremization of action, which includes minima, maxima, or saddle points",
+      "risk": "might suggest only minima, whereas stationary action includes other extrema"
+    }
+  ]
+}
+
+================================================================================
+TIME: 2026-05-06T15:29:43
+NODE: claim_extractor
+PROMPT_CHARS: 4919
+PROMPT_TOKENS_APPROX: 1229
+RESPONSE_CHARS: 4362
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"keep_alive": -1, "num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.8}
+================================================================================
+PROMPT:
+Extract 8 to 12 important scientific or explanatory claims from this article draft.
+
+Return exactly one JSON object with this shape:
+{
+  "claims": [
+    {
+      "id": "C001",
+      "claim": "A clear standalone claim.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "brief reason",
+      "suggested_search_query": "stable physics source query"
+    }
+  ]
+}
+
+Rules:
+- Return a JSON object, not a list.
+- Do not return an empty list unless the draft is empty.
+- Use true/false, not True/False.
+- No Markdown fences.
+- No prose outside the JSON.
+- Prefer claims that matter for scientific correctness.
+- Include claims where an analogy could mislead.
+- Search queries should target stable sources: textbooks, lecture notes, CERN, Fermilab, NASA, DOE, NIST, or university pages.
+
+Article title: Least action principle
+
+Draft:
+# Principle of Stationary Action  
+
+## The core idea  
+Physical systems move in ways that make a quantity called **action** stationary. Think of action as a measure of "effort" over time—systems choose paths that balance energy trade-offs, not just the shortest or fastest route. This balance is governed by the **principle of stationary action**, a concept that unifies classical mechanics and connects to deeper ideas in physics.  
+
+**Note**: The term "least action principle" is a historical name for this principle. Modern physics uses "stationary action" to emphasize that the action is **extremized** (not strictly minimized), which can mean minima, maxima, or saddle points.  
+
+## Why this matters  
+The principle of stationary action is a **foundational framework** of nature that unifies classical mechanics. It explains how objects move, why energy is conserved, and connects to deeper ideas in physics like relativity and quantum mechanics. While some physicists debate whether it qualifies as a "law" in the traditional sense, it remains a cornerstone of theoretical physics as a unifying framework.  
+
+## The simple picture  
+Imagine a ball rolling downhill. It doesn’t just take the shortest path—it chooses the route that balances the energy it uses to move and the energy stored in its position. This balance is the **principle of stationary action** in action.  
+[Diagram idea: A ball rolling on a hill, with arrows showing energy trade-offs between kinetic and potential energy.]  
+
+## The more precise picture  
+**Action** is a quantity defined as:  
+$$  
+S = \int_{t_1}^{t_2} (KE - PE) \, dt  
+$$  
+where $ KE $ is kinetic energy, $ PE $ is potential energy, and the integral is taken over time.  
+
+Physical systems follow paths that make $ S $ **stationary** (not necessarily minimal). This means tiny changes to the path don’t alter the total action, like finding a hilltop or valley. The principle is derived from the **variational principle**, where the path is determined by solving the **Euler-Lagrange equation**, which ensures that the action is extremized.  
+
+This principle is equivalent to Newton’s laws of motion. For example, a ball’s curved path under gravity arises from extremizing the action integral.  
+
+**Key terms**:  
+- **Action** {action integral}  
+- **Stationary path** {variational principle}  
+- **Extremal path** {principle of stationary action}  
+
+## Common misconceptions  
+- ❌ "Least action means the path with the least distance or time."  
+  → Action is a weighted sum of energy and time over a path, not just distance or speed. The term "least action" is a historical approximation; the principle actually refers to **stationary action** (which can be minima, maxima, or saddle points).  
+- ❌ "All systems choose the path with the least action."  
+  → Some systems have **stationary points** (minima, maxima, or saddle points) in action.  
+- ❌ "The principle is a rule of thumb, not a law."  
+  → It is a **foundational framework** of nature, equivalent to Newton’s laws in classical mechanics.  
+
+## How this connects to the rest of physics  
+- **Lagrangian mechanics**: The principle of stationary action is the foundation of this framework, used to derive equations of motion for complex systems.  
+- **Optics**: Light follows paths that extremize action (Fermat’s principle), linking classical mechanics to wave behavior.  
+- **Symmetry and conservation**: The principle reveals deep connections between symmetries (like time translation) and conservation laws (like energy).  
+
+## Recap  
+- Action is a balance of energy and time over a path.  
+- Systems choose paths that make action **stationary**, not necessarily minimal.  
+- The principle unifies classical mechanics and connects to advanced physics.  
+- It’s a **foundational framework**, not a guess or approximation.  
+
+---  
+**Note**: The term "least action principle" is a historical name for the **principle of stationary action**, which describes paths where the action is extremized (not strictly minimized).
+
+RESPONSE:
+{
+  "claims": [
+    {
+      "id": "C001",
+      "claim": "The principle of stationary action states that physical systems follow paths where the action is extremized (minima, maxima, or saddle points).",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "This defines the core concept and corrects the historical misnomer of 'least action'.",
+      "suggested_search_query": "principle of stationary action extremum"
+    },
+    {
+      "id": "C002",
+      "claim": "Action is defined as the integral of kinetic energy minus potential energy over time: $ S = \\\boxed{\\int (KE - PE) dt} $.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "This mathematical formulation is central to deriving equations of motion.",
+      "suggested_search_query": "action integral physics definition"
+    },
+    {
+      "id": "C003",
+      "claim": "The principle of stationary action unifies classical mechanics and connects to relativity and quantum mechanics.",
+      "type": "explanation",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Highlights its role as a foundational framework across physics domains.",
+      "suggested_search_query": "stationary action unifying principle"
+    },
+    {
+      "id": "C004",
+      "claim": "The term 'least action principle' is a historical approximation; modern physics uses 'stationary action' to emphasize extremization (not strict minimization).",
+      "type": "clarification",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Corrects a common misconception about the principle's scope.",
+      "suggested_search_query": "least action principle vs stationary action"
+    },
+    {
+      "id": "C005",
+      "claim": "The principle of stationary action is equivalent to Newton’s laws of motion for classical systems.",
+      "type": "equivalence",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Demonstrates its generality and foundational role.",
+      "suggested_search_query": "stationary action newton laws equivalence"
+    },
+    {
+      "id": "C006",
+      "claim": "Systems choose paths that make action stationary, not necessarily minimal, which includes minima, maxima, or saddle points.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Clarifies the principle's broader applicability beyond simple minimization.",
+      "suggested_search_query": "action stationary points physics"
+    },
+    {
+      "id": "C007",
+      "claim": "The principle of stationary action is a foundational framework of nature, not a rule of thumb or approximation.",
+      "type": "assertion",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Reinforces its status as a core theoretical construct.",
+      "suggested_search_query": "stationary action foundational physics"
+    },
+    {
+      "id": "C008",
+      "claim": "The principle reveals deep connections between symmetries (e.g., time translation) and conservation laws (e.g., energy).",
+      "type": "explanation",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Links to advanced topics like Noether’s theorem.",
+      "suggested_search_query": "stationary action symmetry conservation"
+    },
+    {
+      "id": "C009",
+      "claim": "A common misconception is that 'least action' means the path with the least distance or time, but action is a weighted sum of energy and time over a path.",
+      "type": "misconception",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Addresses a critical misunderstanding of the principle.",
+      "suggested_search_query": "least action misconception physics"
+    },
+    {
+      "id": "C010",
+      "claim": "The principle of stationary action is the foundation of Lagrangian mechanics, used to derive equations of motion for complex systems.",
+      "type": "application",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Shows its practical utility in physics problem-solving.",
+      "suggested_search_query": "lagrangian mechanics stationary action"
+
+================================================================================
+TIME: 2026-05-06T15:33:55
+NODE: json_repair
+PROMPT_CHARS: 4438
+PROMPT_TOKENS_APPROX: 1109
+RESPONSE_CHARS: 4374
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"keep_alive": -1, "num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.8}
+================================================================================
+PROMPT:
+Fix the following broken JSON. Return ONLY the repaired JSON.
+
+Broken JSON:
+{
+  "claims": [
+    {
+      "id": "C001",
+      "claim": "The principle of stationary action states that physical systems follow paths where the action is extremized (minima, maxima, or saddle points).",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "This defines the core concept and corrects the historical misnomer of 'least action'.",
+      "suggested_search_query": "principle of stationary action extremum"
+    },
+    {
+      "id": "C002",
+      "claim": "Action is defined as the integral of kinetic energy minus potential energy over time: $ S = \\\boxed{\\int (KE - PE) dt} $.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "This mathematical formulation is central to deriving equations of motion.",
+      "suggested_search_query": "action integral physics definition"
+    },
+    {
+      "id": "C003",
+      "claim": "The principle of stationary action unifies classical mechanics and connects to relativity and quantum mechanics.",
+      "type": "explanation",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Highlights its role as a foundational framework across physics domains.",
+      "suggested_search_query": "stationary action unifying principle"
+    },
+    {
+      "id": "C004",
+      "claim": "The term 'least action principle' is a historical approximation; modern physics uses 'stationary action' to emphasize extremization (not strict minimization).",
+      "type": "clarification",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Corrects a common misconception about the principle's scope.",
+      "suggested_search_query": "least action principle vs stationary action"
+    },
+    {
+      "id": "C005",
+      "claim": "The principle of stationary action is equivalent to Newton’s laws of motion for classical systems.",
+      "type": "equivalence",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Demonstrates its generality and foundational role.",
+      "suggested_search_query": "stationary action newton laws equivalence"
+    },
+    {
+      "id": "C006",
+      "claim": "Systems choose paths that make action stationary, not necessarily minimal, which includes minima, maxima, or saddle points.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Clarifies the principle's broader applicability beyond simple minimization.",
+      "suggested_search_query": "action stationary points physics"
+    },
+    {
+      "id": "C007",
+      "claim": "The principle of stationary action is a foundational framework of nature, not a rule of thumb or approximation.",
+      "type": "assertion",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Reinforces its status as a core theoretical construct.",
+      "suggested_search_query": "stationary action foundational physics"
+    },
+    {
+      "id": "C008",
+      "claim": "The principle reveals deep connections between symmetries (e.g., time translation) and conservation laws (e.g., energy).",
+      "type": "explanation",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Links to advanced topics like Noether’s theorem.",
+      "suggested_search_query": "stationary action symmetry conservation"
+    },
+    {
+      "id": "C009",
+      "claim": "A common misconception is that 'least action' means the path with the least distance or time, but action is a weighted sum of energy and time over a path.",
+      "type": "misconception",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Addresses a critical misunderstanding of the principle.",
+      "suggested_search_query": "least action misconception physics"
+    },
+    {
+      "id": "C010",
+      "claim": "The principle of stationary action is the foundation of Lagrangian mechanics, used to derive equations of motion for complex systems.",
+      "type": "application",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Shows its practical utility in physics problem-solving.",
+      "suggested_search_query": "lagrangian mechanics stationary action"
+
+RESPONSE:
+{
+  "claims": [
+    {
+      "id": "C001",
+      "claim": "The principle of stationary action states that physical systems follow paths where the action is extremized (minima, maxima, or saddle points).",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "This defines the core concept and corrects the historical misnomer of 'least action'.",
+      "suggested_search_query": "principle of stationary action extremum"
+    },
+    {
+      "id": "C002",
+      "claim": "Action is defined as the integral of kinetic energy minus potential energy over time: $ S = \\\boxed{\\int (KE - PE) dt} $.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "This mathematical formulation is central to deriving equations of motion.",
+      "suggested_search_query": "action integral physics definition"
+    },
+    {
+      "id": "C003",
+      "claim": "The principle of stationary action unifies classical mechanics and connects to relativity and quantum mechanics.",
+      "type": "explanation",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Highlights its role as a foundational framework across physics domains.",
+      "suggested_search_query": "stationary action unifying principle"
+    },
+    {
+      "id": "C004",
+      "claim": "The term 'least action principle' is a historical approximation; modern physics uses 'stationary action' to emphasize extremization (not strict minimization).",
+      "type": "clarification",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Corrects a common misconception about the principle's scope.",
+      "suggested_search_query": "least action principle vs stationary action"
+    },
+    {
+      "id": "C005",
+      "claim": "The principle of stationary action is equivalent to Newton’s laws of motion for classical systems.",
+      "type": "equivalence",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Demonstrates its generality and foundational role.",
+      "suggested_search_query": "stationary action newton laws equivalence"
+    },
+    {
+      "id": "C006",
+      "claim": "Systems choose paths that make action stationary, not necessarily minimal, which includes minima, maxima, or saddle points.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Clarifies the principle's broader applicability beyond simple minimization.",
+      "suggested_search_query": "action stationary points physics"
+    },
+    {
+      "id": "C007",
+      "claim": "The principle of stationary action is a foundational framework of nature, not a rule of thumb or approximation.",
+      "type": "assertion",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Reinforces its status as a core theoretical construct.",
+      "suggested_search_query": "stationary action foundational physics"
+    },
+    {
+      "id": "C008",
+      "claim": "The principle reveals deep connections between symmetries (e.g., time translation) and conservation laws (e.g., energy).",
+      "type": "explanation",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Links to advanced topics like Noether’s theorem.",
+      "suggested_search_query": "stationary action symmetry conservation"
+    },
+    {
+      "id": "C009",
+      "claim": "A common misconception is that 'least action' means the path with the least distance or time, but action is a weighted sum of energy and time over a path.",
+      "type": "misconception",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Addresses a critical misunderstanding of the principle.",
+      "suggested_search_query": "least action misconception physics"
+    },
+    {
+      "id": "C010",
+      "claim": "The principle of stationary action is the foundation of Lagrangian mechanics, used to derive equations of motion for complex systems.",
+      "type": "application",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Shows its practical utility in physics problem-solving.",
+      "suggested_search_query": "lagrangian mechanics stationary action"
+    }
+  ]
+}
+
+================================================================================
+TIME: 2026-05-06T17:29:12
+NODE: claim_revision
+PROMPT_CHARS: 6104
+PROMPT_TOKENS_APPROX: 1526
+RESPONSE_CHARS: 3998
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"keep_alive": -1, "num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.8}
+================================================================================
+PROMPT:
+Revise the article once to address actionable claim-check feedback.
+
+Do not rewrite for its own sake. Fix the scientific issues while preserving accessible language.
+
+Only use the actionable feedback below. Missing evidence should normally be handled by source-search rounds first; if the feedback says the automated search attempts are exhausted, make the claim more conservative or remove it.
+
+Actionable claim-check feedback:
+{
+  "claim_checks": [
+    {
+      "id": "C001",
+      "verdict": "not_enough_evidence",
+      "severity": "medium",
+      "problem": "Claim checker failed: LLMCallError(\"claim_checker failed after 3 attempt(s): LLMCallError('LLM_TIMEOUT_AFTER_720_SECONDS')\")",
+      "suggested_fix": "Automatically retry this claim with another source search or a smaller context.",
+      "source_quality_note": "",
+      "source_urls": [],
+      "claim": "The principle of stationary action states that physical systems follow paths where the action is extremized (minima, maxima, or saddle points).",
+      "checked_at": "2026-05-06_17-23-22",
+      "source_attempt_count": 3,
+      "available_source_urls": [
+        "https://www.feynmanlectures.caltech.edu/II_19.html",
+        "http://galileoandeinstein.physics.virginia.edu/7010/CM_04_HamiltonsPrinciple.html",
+        "https://liberzon.csl.illinois.edu/teaching/cvoc/node36.html",
+        "https://faculty.washington.edu/seattle/physics541/2012-path-integrals/feynman-thesis.pdf",
+        "https://scipp-legacy.pbsci.ucsc.edu/~dine/ph105/feynman_action.pdf"
+      ]
+    }
+  ],
+  "summary": {
+    "highest_priority_fixes": [
+      "Automatically retry this claim with another source search or a smaller context."
+    ]
+  }
+}
+
+Current draft:
+# Principle of Stationary Action  
+
+## The core idea  
+Physical systems move in ways that make a quantity called **action** stationary. Think of action as a measure of "effort" over time—systems choose paths that balance energy trade-offs, not just the shortest or fastest route. This balance is governed by the **principle of stationary action**, a concept that unifies classical mechanics and connects to deeper ideas in physics.  
+
+**Note**: The term "least action principle" is a historical name for this principle. Modern physics uses "stationary action" to emphasize that the action is **extremized** (not strictly minimized), which can mean minima, maxima, or saddle points.  
+
+## Why this matters  
+The principle of stationary action is a **foundational framework** of nature that unifies classical mechanics. It explains how objects move, why energy is conserved, and connects to deeper ideas in physics like relativity and quantum mechanics. While some physicists debate whether it qualifies as a "law" in the traditional sense, it remains a cornerstone of theoretical physics as a unifying framework.  
+
+## The simple picture  
+Imagine a ball rolling downhill. It doesn’t just take the shortest path—it chooses the route that balances the energy it uses to move and the energy stored in its position. This balance is the **principle of stationary action** in action.  
+[Diagram idea: A ball rolling on a hill, with arrows showing energy trade-offs between kinetic and potential energy.]  
+
+## The more precise picture  
+**Action** is a quantity defined as:  
+$$  
+S = \int_{t_1}^{t_2} (KE - PE) \, dt  
+$$  
+where $ KE $ is kinetic energy, $ PE $ is potential energy, and the integral is taken over time.  
+
+Physical systems follow paths that make $ S $ **stationary** (not necessarily minimal). This means tiny changes to the path don’t alter the total action, like finding a hilltop or valley. The principle is derived from the **variational principle**, where the path is determined by solving the **Euler-Lagrange equation**, which ensures that the action is extremized.  
+
+This principle is equivalent to Newton’s laws of motion. For example, a ball’s curved path under gravity arises from extremizing the action integral.  
+
+**Key terms**:  
+- **Action** {action integral}  
+- **Stationary path** {variational principle}  
+- **Extremal path** {principle of stationary action}  
+
+## Common misconceptions  
+- ❌ "Least action means the path with the least distance or time."  
+  → Action is a weighted sum of energy and time over a path, not just distance or speed. The term "least action" is a historical approximation; the principle actually refers to **stationary action** (which can be minima, maxima, or saddle points).  
+- ❌ "All systems choose the path with the least action."  
+  → Some systems have **stationary points** (minima, maxima, or saddle points) in action.  
+- ❌ "The principle is a rule of thumb, not a law."  
+  → It is a **foundational framework** of nature, equivalent to Newton’s laws in classical mechanics.  
+
+## How this connects to the rest of physics  
+- **Lagrangian mechanics**: The principle of stationary action is the foundation of this framework, used to derive equations of motion for complex systems.  
+- **Optics**: Light follows paths that extremize action (Fermat’s principle), linking classical mechanics to wave behavior.  
+- **Symmetry and conservation**: The principle reveals deep connections between symmetries (like time translation) and conservation laws (like energy).  
+
+## Recap  
+- Action is a balance of energy and time over a path.  
+- Systems choose paths that make action **stationary**, not necessarily minimal.  
+- The principle unifies classical mechanics and connects to advanced physics.  
+- It’s a **foundational framework**, not a guess or approximation.  
+
+---  
+**Note**: The term "least action principle" is a historical name for the **principle of stationary action**, which describes paths where the action is extremized (not strictly minimized).
+
+Instructions:
+- Correct or qualify unsupported, contradicted, overstrong, or misleading claims.
+- Preserve good accessible explanations.
+- Do not add speculative research as settled fact.
+- If an analogy was misleading, either repair it or state its limits.
+- Keep standard terms in braces after descriptive names.
+- Output only the revised article in Markdown.
+
+RESPONSE:
+# Principle of Stationary Action  
+
+## The core idea  
+Physical systems move in ways that make a quantity called **action** stationary. Think of action as a measure of "effort" over time—systems choose paths that balance energy trade-offs, not just the shortest or fastest route. This balance is governed by the **principle of stationary action**, a concept that unifies classical mechanics and connects to deeper ideas in physics.  
+
+**Note**: The term "least action principle" is a historical name for this principle. Modern physics uses "stationary action" to emphasize that the action is **stationary** (not strictly minimized), which can mean minima, maxima, or saddle points.  
+
+## Why this matters  
+The principle of stationary action is a **cornerstone** of theoretical physics that unifies classical mechanics. It explains how objects move, why energy is conserved, and connects to deeper ideas in physics like relativity and quantum mechanics. While some physicists debate whether it qualifies as a "law" in the traditional sense, it remains a **unifying framework** as a foundational concept.  
+
+## The simple picture  
+Imagine a ball rolling downhill. It doesn’t just take the shortest path—it chooses the route that balances the energy it uses to move and the energy stored in its position. This balance is the **principle of stationary action** in action.  
+[Diagram idea: A ball rolling on a hill, with arrows showing energy trade-offs between kinetic and potential energy.]  
+
+## The more precise picture  
+**Action** is a quantity defined as:  
+$$  
+S = \int_{t_1}^{t_2} (KE - PE) \, dt  
+$$  
+where $ KE $ is kinetic energy, $ PE $ is potential energy, and the integral is taken over time.  
+
+Physical systems follow paths that make $ S $ **stationary** (not necessarily minimal). This means tiny changes to the path don’t alter the total action, like finding a hilltop or valley. The principle is derived from the **variational principle**, where the path is determined by solving the **Euler-Lagrange equation**, which ensures that the action is stationary.  
+
+This principle is equivalent to Newton’s laws of motion. For example, a ball’s curved path under gravity arises from extremizing the action integral.  
+
+**Key terms**:  
+- **Action** {action integral}  
+- **Stationary path** {variational principle}  
+- **Extremal path** {principle of stationary action}  
+
+## Common misconceptions  
+- ❌ "Least action means the path with the least distance or time."  
+  → Action is a weighted sum of energy and time over a path, not just distance or speed. The term "least action" is a historical approximation; the principle actually refers to **stationary action** (which can be minima, maxima, or saddle points).  
+- ❌ "All systems choose the path with the least action."  
+  → Some systems have **stationary points** (minima, maxima, or saddle points) in action.  
+- ❌ "The principle is a rule of thumb, not a law."  
+  → It is a **cornerstone** of nature, equivalent to Newton’s laws in classical mechanics.  
+
+## How this connects to the rest of physics  
+- **Lagrangian mechanics**: The principle of stationary action is the foundation of this framework, used to derive equations of motion for complex systems.  
+- **Optics**: Light follows paths that extremize action (Fermat’s principle), linking classical mechanics to wave behavior.  
+- **Symmetry and conservation**: The principle reveals deep connections between symmetries (like time translation) and conservation laws (like energy).  
+
+## Recap  
+- Action is a balance of energy and time over a path.  
+- Systems choose paths that make action **stationary**, not necessarily minimal.  
+- The principle unifies classical mechanics and connects to advanced physics.  
+- It is a **cornerstone**, not a guess or approximation.  
+
+---  
+**Note**: The term "least action principle" is a historical name for the **principle of stationary action**, which describes paths where the action is stationary (modern understanding).
+
+================================================================================
+TIME: 2026-05-06T17:34:25
+NODE: claim_extractor
+PROMPT_CHARS: 4888
+PROMPT_TOKENS_APPROX: 1222
+RESPONSE_CHARS: 4393
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"keep_alive": -1, "num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.8}
+================================================================================
+PROMPT:
+Extract 8 to 12 important scientific or explanatory claims from this article draft.
+
+Return exactly one JSON object with this shape:
+{
+  "claims": [
+    {
+      "id": "C001",
+      "claim": "A clear standalone claim.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "brief reason",
+      "suggested_search_query": "stable physics source query"
+    }
+  ]
+}
+
+Rules:
+- Return a JSON object, not a list.
+- Do not return an empty list unless the draft is empty.
+- Use true/false, not True/False.
+- No Markdown fences.
+- No prose outside the JSON.
+- Prefer claims that matter for scientific correctness.
+- Include claims where an analogy could mislead.
+- Search queries should target stable sources: textbooks, lecture notes, CERN, Fermilab, NASA, DOE, NIST, or university pages.
+
+Article title: Least action principle
+
+Draft:
+# Principle of Stationary Action  
+
+## The core idea  
+Physical systems move in ways that make a quantity called **action** stationary. Think of action as a measure of "effort" over time—systems choose paths that balance energy trade-offs, not just the shortest or fastest route. This balance is governed by the **principle of stationary action**, a concept that unifies classical mechanics and connects to deeper ideas in physics.  
+
+**Note**: The term "least action principle" is a historical name for this principle. Modern physics uses "stationary action" to emphasize that the action is **stationary** (not strictly minimized), which can mean minima, maxima, or saddle points.  
+
+## Why this matters  
+The principle of stationary action is a **cornerstone** of theoretical physics that unifies classical mechanics. It explains how objects move, why energy is conserved, and connects to deeper ideas in physics like relativity and quantum mechanics. While some physicists debate whether it qualifies as a "law" in the traditional sense, it remains a **unifying framework** as a foundational concept.  
+
+## The simple picture  
+Imagine a ball rolling downhill. It doesn’t just take the shortest path—it chooses the route that balances the energy it uses to move and the energy stored in its position. This balance is the **principle of stationary action** in action.  
+[Diagram idea: A ball rolling on a hill, with arrows showing energy trade-offs between kinetic and potential energy.]  
+
+## The more precise picture  
+**Action** is a quantity defined as:  
+$$  
+S = \int_{t_1}^{t_2} (KE - PE) \, dt  
+$$  
+where $ KE $ is kinetic energy, $ PE $ is potential energy, and the integral is taken over time.  
+
+Physical systems follow paths that make $ S $ **stationary** (not necessarily minimal). This means tiny changes to the path don’t alter the total action, like finding a hilltop or valley. The principle is derived from the **variational principle**, where the path is determined by solving the **Euler-Lagrange equation**, which ensures that the action is stationary.  
+
+This principle is equivalent to Newton’s laws of motion. For example, a ball’s curved path under gravity arises from extremizing the action integral.  
+
+**Key terms**:  
+- **Action** {action integral}  
+- **Stationary path** {variational principle}  
+- **Extremal path** {principle of stationary action}  
+
+## Common misconceptions  
+- ❌ "Least action means the path with the least distance or time."  
+  → Action is a weighted sum of energy and time over a path, not just distance or speed. The term "least action" is a historical approximation; the principle actually refers to **stationary action** (which can be minima, maxima, or saddle points).  
+- ❌ "All systems choose the path with the least action."  
+  → Some systems have **stationary points** (minima, maxima, or saddle points) in action.  
+- ❌ "The principle is a rule of thumb, not a law."  
+  → It is a **cornerstone** of nature, equivalent to Newton’s laws in classical mechanics.  
+
+## How this connects to the rest of physics  
+- **Lagrangian mechanics**: The principle of stationary action is the foundation of this framework, used to derive equations of motion for complex systems.  
+- **Optics**: Light follows paths that extremize action (Fermat’s principle), linking classical mechanics to wave behavior.  
+- **Symmetry and conservation**: The principle reveals deep connections between symmetries (like time translation) and conservation laws (like energy).  
+
+## Recap  
+- Action is a balance of energy and time over a path.  
+- Systems choose paths that make action **stationary**, not necessarily minimal.  
+- The principle unifies classical mechanics and connects to advanced physics.  
+- It is a **cornerstone**, not a guess or approximation.  
+
+---  
+**Note**: The term "least action principle" is a historical name for the **principle of stationary action**, which describes paths where the action is stationary (modern understanding).
+
+RESPONSE:
+{
+  "claims": [
+    {
+      "id": "C001",
+      "claim": "The principle of stationary action states that physical systems choose paths that make the action stationary (not necessarily minimal).",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "This defines the core concept and corrects historical misinterpretations of 'least action'.",
+      "suggested_search_query": "principle of stationary action definition physics"
+    },
+    {
+      "id": "C002",
+      "claim": "Action is mathematically defined as the integral of kinetic energy minus potential energy over time.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "This precise formulation is foundational for deriving equations of motion.",
+      "suggested_search_query": "action integral physics definition"
+    },
+    {
+      "id": "C003",
+      "claim": "The principle of stationary action unifies classical mechanics and connects to relativity and quantum mechanics.",
+      "type": "unification",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "It reveals deep structural relationships across physics domains.",
+      "suggested_search_query": "stationary action principle unification physics"
+    },
+    {
+      "id": "C004",
+      "claim": "The term 'least action' is a historical approximation; modern physics uses 'stationary action' which includes minima, maxima, or saddle points.",
+      "type": "terminology",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Corrects common misconceptions about the principle's mathematical nature.",
+      "suggested_search_query": "least action principle vs stationary action"
+    },
+    {
+      "id": "C005",
+      "claim": "The principle of stationary action is equivalent to Newton's laws of motion for classical systems.",
+      "type": "equivalence",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Demonstrates its foundational role in classical mechanics.",
+      "suggested_search_query": "stationary action principle Newton's laws"
+    },
+    {
+      "id": "C006",
+      "claim": "The principle is a cornerstone of theoretical physics, not merely a rule of thumb.",
+      "type": "status",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Clarifies its fundamental status in physical laws.",
+      "suggested_search_query": "stationary action principle foundational status"
+    },
+    {
+      "id": "C007",
+      "claim": "The variational principle leads to the Euler-Lagrange equation, which determines stationary action paths.",
+      "type": "derivation",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "This is the mathematical basis for the principle.",
+      "suggested_search_query": "Euler-Lagrange equation derivation"
+    },
+    {
+      "id": "C008",
+      "claim": "Common misconception: 'Least action' means the path with the least distance or time, but it actually refers to stationary action (minima, maxima, or saddle points).",
+      "type": "misconception",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Addresses critical conceptual errors in understanding the principle.",
+      "suggested_search_query": "least action principle misconceptions"
+    },
+    {
+      "id": "C009",
+      "claim": "The principle reveals connections between symmetries (e.g., time translation) and conservation laws (e.g., energy).",
+      "type": "symmetry",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Links to Noether's theorem and deeper physical principles.",
+      "suggested_search_query": "stationary action symmetry conservation"
+    },
+    {
+      "id": "C010",
+      "claim": "Light follows paths that extremize action, linking optics to the principle via Fermat's principle.",
+      "type": "application",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Demonstrates cross-disciplinary relevance.",
+      "suggested_search_query": "Fermat's principle stationary action"
+    },
+    {
+      "id": "C011",
+      "claim": "Physical systems can have stationary points in action that are minima, maxima,
+
+================================================================================
+TIME: 2026-05-06T17:44:17
+NODE: json_repair
+PROMPT_CHARS: 4469
+PROMPT_TOKENS_APPROX: 1117
+RESPONSE_CHARS: 4680
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"keep_alive": -1, "num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.8}
+================================================================================
+PROMPT:
+Fix the following broken JSON. Return ONLY the repaired JSON.
+
+Broken JSON:
+{
+  "claims": [
+    {
+      "id": "C001",
+      "claim": "The principle of stationary action states that physical systems choose paths that make the action stationary (not necessarily minimal).",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "This defines the core concept and corrects historical misinterpretations of 'least action'.",
+      "suggested_search_query": "principle of stationary action definition physics"
+    },
+    {
+      "id": "C002",
+      "claim": "Action is mathematically defined as the integral of kinetic energy minus potential energy over time.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "This precise formulation is foundational for deriving equations of motion.",
+      "suggested_search_query": "action integral physics definition"
+    },
+    {
+      "id": "C003",
+      "claim": "The principle of stationary action unifies classical mechanics and connects to relativity and quantum mechanics.",
+      "type": "unification",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "It reveals deep structural relationships across physics domains.",
+      "suggested_search_query": "stationary action principle unification physics"
+    },
+    {
+      "id": "C004",
+      "claim": "The term 'least action' is a historical approximation; modern physics uses 'stationary action' which includes minima, maxima, or saddle points.",
+      "type": "terminology",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Corrects common misconceptions about the principle's mathematical nature.",
+      "suggested_search_query": "least action principle vs stationary action"
+    },
+    {
+      "id": "C005",
+      "claim": "The principle of stationary action is equivalent to Newton's laws of motion for classical systems.",
+      "type": "equivalence",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Demonstrates its foundational role in classical mechanics.",
+      "suggested_search_query": "stationary action principle Newton's laws"
+    },
+    {
+      "id": "C006",
+      "claim": "The principle is a cornerstone of theoretical physics, not merely a rule of thumb.",
+      "type": "status",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Clarifies its fundamental status in physical laws.",
+      "suggested_search_query": "stationary action principle foundational status"
+    },
+    {
+      "id": "C007",
+      "claim": "The variational principle leads to the Euler-Lagrange equation, which determines stationary action paths.",
+      "type": "derivation",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "This is the mathematical basis for the principle.",
+      "suggested_search_query": "Euler-Lagrange equation derivation"
+    },
+    {
+      "id": "C008",
+      "claim": "Common misconception: 'Least action' means the path with the least distance or time, but it actually refers to stationary action (minima, maxima, or saddle points).",
+      "type": "misconception",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Addresses critical conceptual errors in understanding the principle.",
+      "suggested_search_query": "least action principle misconceptions"
+    },
+    {
+      "id": "C009",
+      "claim": "The principle reveals connections between symmetries (e.g., time translation) and conservation laws (e.g., energy).",
+      "type": "symmetry",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Links to Noether's theorem and deeper physical principles.",
+      "suggested_search_query": "stationary action symmetry conservation"
+    },
+    {
+      "id": "C010",
+      "claim": "Light follows paths that extremize action, linking optics to the principle via Fermat's principle.",
+      "type": "application",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Demonstrates cross-disciplinary relevance.",
+      "suggested_search_query": "Fermat's principle stationary action"
+    },
+    {
+      "id": "C011",
+      "claim": "Physical systems can have stationary points in action that are minima, maxima,
+
+RESPONSE:
+{
+  "claims": [
+    {
+      "id": "C001",
+      "claim": "The principle of stationary action states that physical systems choose paths that make the action stationary (not necessarily minimal).",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "This defines the core concept and corrects historical misinterpretations of 'least action'.",
+      "suggested_search_query": "principle of stationary action definition physics"
+    },
+    {
+      "id": "C002",
+      "claim": "Action is mathematically defined as the integral of kinetic energy minus potential energy over time.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "This precise formulation is foundational for deriving equations of motion.",
+      "suggested_search_query": "action integral physics definition"
+    },
+    {
+      "id": "C003",
+      "claim": "The principle of stationary action unifies classical mechanics and connects to relativity and quantum mechanics.",
+      "type": "unification",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "It reveals deep structural relationships across physics domains.",
+      "suggested_search_query": "stationary action principle unification physics"
+    },
+    {
+      "id": "C004",
+      "claim": "The term 'least action' is a historical approximation; modern physics uses 'stationary action' which includes minima, maxima, or saddle points.",
+      "type": "terminology",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Corrects common misconceptions about the principle's mathematical nature.",
+      "suggested_search_query": "least action principle vs stationary action"
+    },
+    {
+      "id": "C005",
+      "claim": "The principle of stationary action is equivalent to Newton's laws of motion for classical systems.",
+      "type": "equivalence",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Demonstrates its foundational role in classical mechanics.",
+      "suggested_search_query": "stationary action principle Newton's laws"
+    },
+    {
+      "id": "C006",
+      "claim": "The principle is a cornerstone of theoretical physics, not merely a rule of thumb.",
+      "type": "status",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Clarifies its fundamental status in physical laws.",
+      "suggested_search_query": "stationary action principle foundational status"
+    },
+    {
+      "id": "C007",
+      "claim": "The variational principle leads to the Euler-Lagrange equation, which determines stationary action paths.",
+      "type": "derivation",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "This is the mathematical basis for the principle.",
+      "suggested_search_query": "Euler-Lagrange equation derivation"
+    },
+    {
+      "id": "C008",
+      "claim": "Common misconception: 'Least action' means the path with the least distance or time, but it actually refers to stationary action (minima, maxima, or saddle points).",
+      "type": "misconception",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Addresses critical conceptual errors in understanding the principle.",
+      "suggested_search_query": "least action principle misconceptions"
+    },
+    {
+      "id": "C009",
+      "claim": "The principle reveals connections between symmetries (e.g., time translation) and conservation laws (e.g., energy).",
+      "type": "symmetry",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Links to Noether's theorem and deeper physical principles.",
+      "suggested_search_query": "stationary action symmetry conservation"
+    },
+    {
+      "id": "C010",
+      "claim": "Light follows paths that extremize action, linking optics to the principle via Fermat's principle.",
+      "type": "application",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Demonstrates cross-disciplinary relevance.",
+      "suggested_search_query": "Fermat's principle stationary action"
+    },
+    {
+      "id": "C011",
+      "claim": "Physical systems can have stationary points in action that are minima, maxima, or saddle points.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Clarifies the mathematical nature of stationary action.",
+      "suggested_search_query": "stationary action minima maxima saddle points"
+    }
+  ]
+}
+
+================================================================================
+TIME: 2026-05-06T19:58:30
+NODE: accessibility_judge
+PROMPT_CHARS: 6465
+PROMPT_TOKENS_APPROX: 1616
+RESPONSE_CHARS: 2037
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"keep_alive": -1, "num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.8}
+================================================================================
+PROMPT:
+Evaluate this EasyPhysics article for accessibility.
+
+Return exactly one JSON object:
+{
+  "score": 1,
+  "pass": false,
+  "strengths": ["specific strength"],
+  "issues": [
+    {
+      "severity": "low | medium | high",
+      "location": "section name or short quote",
+      "problem": "specific accessibility issue",
+      "suggested_fix": "specific fix"
+    }
+  ],
+  "best_next_revision": "one concise paragraph"
+}
+
+Rubric:
+Accessibility score, 1-10:
+
+10 = Exceptional. A motivated high-schooler can follow the article's main arc without prior exposure.
+     Jargon is introduced only after intuition. Examples are vivid. Math is explained as meaning,
+     not just symbols. The article feels empowering and clear.
+
+9 = Publishable with light human editing. The main idea is easy to follow; jargon is mostly controlled;
+    analogies are helpful; sections flow logically; any math has a plain-language interpretation.
+
+8 = Strong draft. Mostly clear, but has a few dense sections, unexplained terms, abrupt transitions,
+    or analogies that need more setup.
+
+7 = Useful but uneven. A motivated reader could learn from it, but several passages need simplification,
+    clearer examples, or better sequencing.
+
+6 = Borderline. The article contains useful explanations, but assumes too much background or uses too much jargon.
+
+5 = Mixed. Some good paragraphs, but the structure or language would lose many target readers.
+
+4 = Hard to follow. Mostly written for someone who already knows the subject.
+
+3 = Very inaccessible. Dense, abstract, jargon-heavy, or poorly sequenced.
+
+2 = Barely useful to the target audience.
+
+1 = Fails the accessibility goal.
+
+Accessibility judge priorities:
+- Does the opening give the reader an intuitive foothold?
+- Are standard terms introduced after meaning, not before?
+- Are descriptive names useful rather than cutesy or misleading?
+- Are analogies concrete and then carefully limited?
+- Is any math explained in words?
+- Does the article avoid "spooky/magic/weird" framing while still acknowledging counterintuitive ideas?
+- Does each section make the next section easier?
+
+Rules:
+- Return an object, not a list.
+- Score must be an integer from 1 to 10.
+- A 9 means publishable with light human editing.
+- Do not give 9 or 10 if the opening is jargon-heavy.
+- Do not give 9 or 10 if math appears without plain-language interpretation.
+- Do not rewrite the article; only evaluate it.
+
+Article title: Least action principle
+
+Draft:
+# Principle of Stationary Action  
+
+## The core idea  
+Physical systems move in ways that make a quantity called **action** stationary. Think of action as a measure of "effort" over time—systems choose paths that balance energy trade-offs, not just the shortest or fastest route. This balance is governed by the **principle of stationary action**, a concept that unifies classical mechanics and connects to deeper ideas in physics.  
+
+**Note**: The term "least action principle" is a historical name for this principle. Modern physics uses "stationary action" to emphasize that the action is **stationary** (not strictly minimized), which can mean minima, maxima, or saddle points.  
+
+## Why this matters  
+The principle of stationary action is a **cornerstone** of theoretical physics that unifies classical mechanics. It explains how objects move, why energy is conserved, and connects to deeper ideas in physics like relativity and quantum mechanics. While some physicists debate whether it qualifies as a "law" in the traditional sense, it remains a **unifying framework** as a foundational concept.  
+
+## The simple picture  
+Imagine a ball rolling downhill. It doesn’t just take the shortest path—it chooses the route that balances the energy it uses to move and the energy stored in its position. This balance is the **principle of stationary action** in action.  
+[Diagram idea: A ball rolling on a hill, with arrows showing energy trade-offs between kinetic and potential energy.]  
+
+## The more precise picture  
+**Action** is a quantity defined as:  
+$$  
+S = \int_{t_1}^{t_2} (KE - PE) \, dt  
+$$  
+where $ KE $ is kinetic energy, $ PE $ is potential energy, and the integral is taken over time.  
+
+Physical systems follow paths that make $ S $ **stationary** (not necessarily minimal). This means tiny changes to the path don’t alter the total action, like finding a hilltop or valley. The principle is derived from the **variational principle**, where the path is determined by solving the **Euler-Lagrange equation**, which ensures that the action is stationary.  
+
+This principle is equivalent to Newton’s laws of motion. For example, a ball’s curved path under gravity arises from extremizing the action integral.  
+
+**Key terms**:  
+- **Action** {action integral}  
+- **Stationary path** {variational principle}  
+- **Extremal path** {principle of stationary action}  
+
+## Common misconceptions  
+- ❌ "Least action means the path with the least distance or time."  
+  → Action is a weighted sum of energy and time over a path, not just distance or speed. The term "least action" is a historical approximation; the principle actually refers to **stationary action** (which can be minima, maxima, or saddle points).  
+- ❌ "All systems choose the path with the least action."  
+  → Some systems have **stationary points** (minima, maxima, or saddle points) in action.  
+- ❌ "The principle is a rule of thumb, not a law."  
+  → It is a **cornerstone** of nature, equivalent to Newton’s laws in classical mechanics.  
+
+## How this connects to the rest of physics  
+- **Lagrangian mechanics**: The principle of stationary action is the foundation of this framework, used to derive equations of motion for complex systems.  
+- **Optics**: Light follows paths that extremize action (Fermat’s principle), linking classical mechanics to wave behavior.  
+- **Symmetry and conservation**: The principle reveals deep connections between symmetries (like time translation) and conservation laws (like energy).  
+
+## Recap  
+- Action is a balance of energy and time over a path.  
+- Systems choose paths that make action **stationary**, not necessarily minimal.  
+- The principle unifies classical mechanics and connects to advanced physics.  
+- It is a **cornerstone**, not a guess or approximation.  
+
+---  
+**Note**: The term "least action principle" is a historical name for the **principle of stationary action**, which describes paths where the action is stationary (modern understanding).
+
+RESPONSE:
+{
+  "score": 1,
+  "pass": false,
+  "strengths": ["clear nomenclature policy with descriptive names", "useful analogies for physical intuition"],
+  "issues": [
+    {
+      "severity": "high",
+      "location": "core idea section",
+      "problem": "Jargon-heavy opening without intuitive foothold. Terms like 'action' and 'stationary action' are introduced without explanation or metaphor.",
+      "suggested_fix": "Start with a vivid analogy (e.g., 'action as a measure of effort over time') and define key terms before using them."
+    },
+    {
+      "severity": "high",
+      "location": "math section",
+      "problem": "Math appears without plain-language interpretation. The action integral formula is presented without explaining its physical meaning.",
+      "suggested_fix": "Add a paragraph explaining the integral's meaning as 'summing energy differences over time' before showing the equation."
+    },
+    {
+      "severity": "medium",
+      "location": "key terms section",
+      "problem": "Standard terms are listed without contextual explanation. Terms like 'action integral' lack intuitive grounding.",
+      "suggested_fix": "Define each term with a simple example (e.g., 'action integral = total energy cost of a path over time')."
+    },
+    {
+      "severity": "high",
+      "location": "common misconceptions",
+      "problem": "Misconceptions are addressed but lack depth. The article doesn't explain why 'stationary' is more accurate than 'least'.",
+      "suggested_fix": "Add a comparison between 'least' and 'stationary' using a physical example (e.g., a ball on a saddle point)."
+    }
+  ],
+  "best_next_revision": "Start with a relatable analogy (e.g., 'action as a budget for energy use') to build intuition before introducing technical terms. Explain the action integral as a 'total energy cost of a path' with a simple example, then connect it to Newton's laws using a ball rolling downhill. Use diagrams to visualize energy trade-offs and clarify the difference between 'least' and 'stationary' action."
+}

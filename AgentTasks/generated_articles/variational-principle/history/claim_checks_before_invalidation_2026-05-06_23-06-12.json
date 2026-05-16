@@ -1,0 +1,105 @@
+{
+  "claim_checks": [
+    {
+      "id": "C001",
+      "verdict": "not_enough_evidence",
+      "severity": "medium",
+      "problem": "Claim checker failed: LLMCallError(\"claim_checker failed after 3 attempt(s): LLMCallError('LLM_TIMEOUT_AFTER_720_SECONDS')\")",
+      "suggested_fix": "Automatically retry this claim with another source search or a smaller context.",
+      "source_quality_note": "",
+      "source_urls": [],
+      "claim": "The variational principle identifies extremal paths or states where key quantities are minimized or maximized.",
+      "checked_at": "2026-05-06_23-01-01",
+      "source_attempt_count": 3,
+      "available_source_urls": [
+        "https://www.math.uci.edu/~chenlong/290C/2_classicalTheory.pdf",
+        "https://www.academia.edu/12936948/Calculus_of_Variations_and_the_Euler_Lagrange_Equations",
+        "https://mitpress.mit.edu/9780262020091/principles-and-applications-of-variational-methods/",
+        "https://authors.library.caltech.edu/records/a4vge-0m197",
+        "https://www.academia.edu/53062740/The_principle_of_stationary_action_in_the_calculus_of_variations"
+      ]
+    }
+  ],
+  "check_history": [
+    {
+      "id": "C001",
+      "verdict": "not_enough_evidence",
+      "severity": "medium",
+      "problem": "Claim checker failed: LLMCallError(\"claim_checker failed after 3 attempt(s): LLMCallError('LLM_TIMEOUT_AFTER_720_SECONDS')\")",
+      "suggested_fix": "Automatically retry this claim with another source search or a smaller context.",
+      "source_quality_note": "",
+      "source_urls": [],
+      "claim": "The variational principle identifies extremal paths or states where key quantities are minimized or maximized.",
+      "checked_at": "2026-05-06_21-48-12",
+      "source_attempt_count": 1,
+      "available_source_urls": [
+        "https://en.wikipedia.org/wiki/Variational_principle",
+        "https://en.wikipedia.org/wiki/History_of_variational_principles_in_physics",
+        "https://en.wikipedia.org/wiki/Variational_method_(quantum_mechanics)",
+        "https://en.wikipedia.org/wiki/Action_principles",
+        "https://en.wikipedia.org/wiki/Calculus_of_variations"
+      ]
+    },
+    {
+      "id": "C001",
+      "verdict": "not_enough_evidence",
+      "severity": "medium",
+      "problem": "Claim checker failed: LLMCallError(\"claim_checker failed after 3 attempt(s): LLMCallError('LLM_TIMEOUT_AFTER_720_SECONDS')\")",
+      "suggested_fix": "Automatically retry this claim with another source search or a smaller context.",
+      "source_quality_note": "",
+      "source_urls": [],
+      "claim": "The variational principle identifies extremal paths or states where key quantities are minimized or maximized.",
+      "checked_at": "2026-05-06_22-24-38",
+      "source_attempt_count": 2,
+      "available_source_urls": [
+        "https://en.wikipedia.org/wiki/Variational_principle",
+        "https://phys.libretexts.org/Bookshelves/Quantum_Mechanics/Introductory_Quantum_Mechanics_(Fitzpatrick)/13:_Variational_Methods/13.01:_Variational_Principle",
+        "https://www.physics.udel.edu/~jim/PHYS425_20S/Class+Notes/Notes_6.pdf",
+        "https://www.damtp.cam.ac.uk/user/reh10/lectures/nst-mmii-chapter1.pdf",
+        "https://open.umn.edu/opentextbooks/textbooks/490"
+      ]
+    },
+    {
+      "id": "C001",
+      "verdict": "not_enough_evidence",
+      "severity": "medium",
+      "problem": "Claim checker failed: LLMCallError(\"claim_checker failed after 3 attempt(s): LLMCallError('LLM_TIMEOUT_AFTER_720_SECONDS')\")",
+      "suggested_fix": "Automatically retry this claim with another source search or a smaller context.",
+      "source_quality_note": "",
+      "source_urls": [],
+      "claim": "The variational principle identifies extremal paths or states where key quantities are minimized or maximized.",
+      "checked_at": "2026-05-06_23-01-01",
+      "source_attempt_count": 3,
+      "available_source_urls": [
+        "https://www.math.uci.edu/~chenlong/290C/2_classicalTheory.pdf",
+        "https://www.academia.edu/12936948/Calculus_of_Variations_and_the_Euler_Lagrange_Equations",
+        "https://mitpress.mit.edu/9780262020091/principles-and-applications-of-variational-methods/",
+        "https://authors.library.caltech.edu/records/a4vge-0m197",
+        "https://www.academia.edu/53062740/The_principle_of_stationary_action_in_the_calculus_of_variations"
+      ]
+    }
+  ],
+  "summary": {
+    "total_claims": 3,
+    "checked_claim_count": 1,
+    "passing_claim_count": 0,
+    "unchecked_claim_count": 2,
+    "unresolved_or_needs_qualification": 3,
+    "actionable_issue_count": 1,
+    "evidence_retry_count": 0,
+    "claim_review_complete": false,
+    "unchecked_claim_ids": [
+      "C002",
+      "C003"
+    ],
+    "actionable_claim_ids": [
+      "C001"
+    ],
+    "evidence_retry_claim_ids": [],
+    "highest_priority_fixes": [
+      "Automatically retry this claim with another source search or a smaller context."
+    ],
+    "overall_claim_quality": "Partial claim check completed."
+  },
+  "last_updated": "2026-05-06_23-01-01"
+}

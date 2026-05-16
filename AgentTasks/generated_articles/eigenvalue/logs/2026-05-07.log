@@ -1,0 +1,770 @@
+
+================================================================================
+TIME: 2026-05-07T02:29:29
+NODE: writer
+PROMPT_CHARS: 4846
+PROMPT_TOKENS_APPROX: 1211
+RESPONSE_CHARS: 4290
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"keep_alive": -1, "num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.8}
+================================================================================
+PROMPT:
+Revise this existing EasyPhysics article once.
+
+Title: Eigenvalue
+
+Revision brief:
+- Claim/research fix: Automatically retry this claim with another source search or a smaller context.
+- rigor score 0: Rigor judge failed. Suggested fix: Automatically rerun rigor review.
+- rigor next revision: Automatically rerun rigor review.
+- accessibility score 3: Jargon-heavy opening with unexplained terms like 'scaling factors' and 'linear algebra' without intuitive context Suggested fix: Start with a concrete analogy (e.g., stretching a rubber band) and define terms like 'transformation' before introducing eigenvalues
+- accessibility score 3: Technical terms like 'stress tensor' and 'principal stresses' appear without explanation, creating knowledge gaps Suggested fix: Add analogies for stress tensors (e.g., 'a grid of springs') and define 'principal stresses' as 'directions where forces act most strongly'
+- accessibility next revision: Begin with a relatable analogy (e.g., stretching a rubber band) to explain scaling, then gradually introduce matrices as transformation tools, using visual metaphors to explain eigenvectors and eigenvalues before connecting to quantum mechanics concepts.
+
+Human/editor notes:
+# Human/editor notes
+
+Add any preferences, corrections, or article-specific constraints here.
+
+
+Current draft:
+# Eigenvalue  
+
+## The core idea  
+Eigenvalues are **scaling factors** that describe how much a vector is stretched or squashed when a transformation is applied. In many cases, this scaling happens **without changing the vector’s direction**, but eigenvalues can also be complex numbers, which introduce rotational effects. This concept is foundational in **linear algebra**, where eigenvalues describe how transformations act on vectors, and it plays a central role in **quantum mechanics**, where they represent measurable outcomes like energy levels.  
+
+## Why this matters  
+Eigenvalues help us understand how systems respond to forces, rotations, or vibrations. They simplify complex interactions by focusing on "special directions" where changes are straightforward. For example:  
+- **Mechanical systems**: Stress tensors in materials science reveal how forces stretch or compress materials along specific axes. Eigenvalues determine the **direction and magnitude** of these forces (e.g., principal stresses in a beam under load). A stress tensor is a linear transformation that encodes how forces act on a material, and its eigenvalues quantify the maximum and minimum forces experienced along specific directions.  
+- **Vibrations**: Eigenvalues determine natural frequencies (e.g., a guitar string’s modes of oscillation). These frequencies are directly tied to the **forces** that excite the system. For instance, a tuning fork’s vibration at a specific frequency corresponds to an eigenvalue of its mechanical system, and external forces (like striking the fork) drive the system to resonate at that frequency.  
+- **Rotations**: Eigenvalues identify symmetry axes (e.g., a spinning top’s rotation axis). These axes are critical for understanding how **torque** (a rotational force) acts on the system. The eigenvalue associated with the rotation axis (often 1 or -1) indicates the system’s resistance to rotational forces.  
+
+[Diagram idea: A vector (arrow) being stretched by a matrix, with eigenvectors (arrows) and eigenvalues (labels) shown.]  
+
+## The more precise picture  
+Mathematically, eigenvalues describe how a **linear transformation** (like a matrix) acts on a **vector**. The equation:  
+$$ A \cdot \mathbf{v} = \lambda \cdot \mathbf{v} $$  
+- **A**: The transformation (e.g., a matrix or operator). In mechanics, this could represent a **stress tensor** {stress tensor} (a linear transformation encoding forces).  
+- **v**: The eigenvector (a direction that doesn’t rotate under the transformation).  
+- **λ**: The eigenvalue, which can be real or complex. Real eigenvalues scale vectors without changing their direction, while complex eigenvalues introduce rotational components (e.g., oscillatory behavior in quantum systems).  
+
+**Note**: The original claim about eigenvalues being "scaling factors without changing direction" is accurate for real eigenvalues. However, eigenvalues can also be complex, which introduces rotational effects. This nuance ensures the explanation remains precise while preserving accessibility.
+
+Instructions:
+- Return the complete revised article in Markdown.
+- Do not start from scratch.
+- Preserve good explanations.
+- Fix only the most important clarity, structure, and rigor problems.
+- If a section is already good, leave it mostly alone.
+- Add qualifications where the current draft overclaims.
+- Make the opening more intuitive if needed.
+- Keep standard terms in braces after intuitive names.
+- Do not include commentary before or after the article.
+
+RESPONSE:
+# Eigenvalue  
+
+## The core idea  
+Imagine stretching a rubber band: if you pull it evenly in one direction, it stretches uniformly without twisting. This is like an **eigenvalue**—a scaling factor that tells you how much a vector is stretched or squashed when a transformation is applied. In most cases, this stretching happens **without changing the vector’s direction**, but eigenvalues can also be complex numbers, which introduce rotational effects (like twisting the rubber band).  
+
+This concept is foundational in **linear algebra**, where eigenvalues describe how transformations act on vectors, and it plays a central role in **quantum mechanics**, where they represent measurable outcomes like energy levels.  
+
+---
+
+## Why this matters  
+Eigenvalues help us understand how systems respond to forces, rotations, or vibrations. They simplify complex interactions by focusing on "special directions" where changes are straightforward. Let’s explore a few examples:  
+
+### 1. **Mechanical systems**  
+Think of a stress tensor as a grid of springs stretched by forces. The **eigenvalues** of this grid tell you the **direction and magnitude** of the strongest forces acting on the material. For example, when a beam is under load, the **principal stresses** (the directions where forces act most strongly) are determined by the eigenvalues of the stress tensor. These eigenvalues reveal how the material will deform or fail under stress.  
+
+### 2. **Vibrations**  
+A guitar string vibrates at specific frequencies, like the "notes" it produces. These frequencies are determined by the **eigenvalues** of the string’s mechanical system. When you strike the string, you’re exciting it to resonate at its natural eigenfrequency. Similarly, a tuning fork’s vibration at a specific frequency corresponds to an eigenvalue of its system.  
+
+### 3. **Rotations**  
+A spinning top rotates around its symmetry axis. This axis is an **eigenvector** of the rotation transformation, and its associated **eigenvalue** (often 1 or -1) indicates the system’s resistance to rotational forces. This concept is critical for understanding how torque (a rotational force) acts on objects.  
+
+[Diagram idea: A vector (arrow) being stretched by a matrix, with eigenvectors (arrows) and eigenvalues (labels) shown.]  
+
+---
+
+## The more precise picture  
+Mathematically, eigenvalues describe how a **linear transformation** (like a matrix) acts on a **vector**. The equation:  
+$$ A \cdot \mathbf{v} = \lambda \cdot \mathbf{v} $$  
+- **A**: The transformation (e.g., a matrix or operator). In mechanics, this could represent a **stress tensor** {stress tensor} (a linear transformation encoding forces).  
+- **v**: The eigenvector (a direction that doesn’t rotate under the transformation).  
+- **λ**: The eigenvalue, which can be real or complex.  
+
+**Real eigenvalues** scale vectors without changing their direction (like stretching a rubber band). **Complex eigenvalues** introduce rotational components, such as oscillatory behavior in quantum systems (e.g., a spinning top’s wobble).  
+
+**Note**: The claim that eigenvalues are "scaling factors without changing direction" is accurate for real eigenvalues. However, eigenvalues can also be complex, which introduces rotational effects. This nuance ensures the explanation remains precise while preserving accessibility.  
+
+---  
+
+## Connecting to quantum mechanics  
+In quantum mechanics, eigenvalues represent **measurable outcomes** (like energy levels). For example, the energy levels of an electron in an atom are eigenvalues of the Hamiltonian operator. When you measure the energy, you observe one of these eigenvalues, and the corresponding eigenvector describes the state of the system.  
+
+This connection highlights why eigenvalues are so powerful: they bridge abstract mathematical transformations with real-world observations.  
+
+---  
+
+## Summary  
+Eigenvalues are scaling factors that reveal how systems respond to transformations. They simplify complex interactions by focusing on "special directions" where changes are straightforward. Whether you’re stretching a rubber band, analyzing material stress, or studying quantum systems, eigenvalues provide a clear, intuitive way to understand how forces and transformations shape the world.
+
+================================================================================
+TIME: 2026-05-07T02:42:42
+NODE: claim_extractor
+PROMPT_CHARS: 5168
+PROMPT_TOKENS_APPROX: 1292
+RESPONSE_CHARS: 1245
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"keep_alive": -1, "num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.8}
+================================================================================
+PROMPT:
+Extract 8 to 12 important scientific or explanatory claims from this article draft.
+
+Return exactly one JSON object with this shape:
+{
+  "claims": [
+    {
+      "id": "C001",
+      "claim": "A clear standalone claim.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "brief reason",
+      "suggested_search_query": "stable physics source query"
+    }
+  ]
+}
+
+Rules:
+- Return a JSON object, not a list.
+- Do not return an empty list unless the draft is empty.
+- Use true/false, not True/False.
+- No Markdown fences.
+- No prose outside the JSON.
+- Prefer claims that matter for scientific correctness.
+- Include claims where an analogy could mislead.
+- Search queries should target stable sources: textbooks, lecture notes, CERN, Fermilab, NASA, DOE, NIST, or university pages.
+
+Article title: Eigenvalue
+
+Draft:
+# Eigenvalue  
+
+## The core idea  
+Imagine stretching a rubber band: if you pull it evenly in one direction, it stretches uniformly without twisting. This is like an **eigenvalue**—a scaling factor that tells you how much a vector is stretched or squashed when a transformation is applied. In most cases, this stretching happens **without changing the vector’s direction**, but eigenvalues can also be complex numbers, which introduce rotational effects (like twisting the rubber band).  
+
+This concept is foundational in **linear algebra**, where eigenvalues describe how transformations act on vectors, and it plays a central role in **quantum mechanics**, where they represent measurable outcomes like energy levels.  
+
+---
+
+## Why this matters  
+Eigenvalues help us understand how systems respond to forces, rotations, or vibrations. They simplify complex interactions by focusing on "special directions" where changes are straightforward. Let’s explore a few examples:  
+
+### 1. **Mechanical systems**  
+Think of a stress tensor as a grid of springs stretched by forces. The **eigenvalues** of this grid tell you the **direction and magnitude** of the strongest forces acting on the material. For example, when a beam is under load, the **principal stresses** (the directions where forces act most strongly) are determined by the eigenvalues of the stress tensor. These eigenvalues reveal how the material will deform or fail under stress.  
+
+### 2. **Vibrations**  
+A guitar string vibrates at specific frequencies, like the "notes" it produces. These frequencies are determined by the **eigenvalues** of the string’s mechanical system. When you strike the string, you’re exciting it to resonate at its natural eigenfrequency. Similarly, a tuning fork’s vibration at a specific frequency corresponds to an eigenvalue of its system.  
+
+### 3. **Rotations**  
+A spinning top rotates around its symmetry axis. This axis is an **eigenvector** of the rotation transformation, and its associated **eigenvalue** (often 1 or -1) indicates the system’s resistance to rotational forces. This concept is critical for understanding how torque (a rotational force) acts on objects.  
+
+[Diagram idea: A vector (arrow) being stretched by a matrix, with eigenvectors (arrows) and eigenvalues (labels) shown.]  
+
+---
+
+## The more precise picture  
+Mathematically, eigenvalues describe how a **linear transformation** (like a matrix) acts on a **vector**. The equation:  
+$$ A \cdot \mathbf{v} = \lambda \cdot \mathbf{v} $$  
+- **A**: The transformation (e.g., a matrix or operator). In mechanics, this could represent a **stress tensor** {stress tensor} (a linear transformation encoding forces).  
+- **v**: The eigenvector (a direction that doesn’t rotate under the transformation).  
+- **λ**: The eigenvalue, which can be real or complex.  
+
+**Real eigenvalues** scale vectors without changing their direction (like stretching a rubber band). **Complex eigenvalues** introduce rotational components, such as oscillatory behavior in quantum systems (e.g., a spinning top’s wobble).  
+
+**Note**: The claim that eigenvalues are "scaling factors without changing direction" is accurate for real eigenvalues. However, eigenvalues can also be complex, which introduces rotational effects. This nuance ensures the explanation remains precise while preserving accessibility.  
+
+---  
+
+## Connecting to quantum mechanics  
+In quantum mechanics, eigenvalues represent **measurable outcomes** (like energy levels). For example, the energy levels of an electron in an atom are eigenvalues of the Hamiltonian operator. When you measure the energy, you observe one of these eigenvalues, and the corresponding eigenvector describes the state of the system.  
+
+This connection highlights why eigenvalues are so powerful: they bridge abstract mathematical transformations with real-world observations.  
+
+---  
+
+## Summary  
+Eigenvalues are scaling factors that reveal how systems respond to transformations. They simplify complex interactions by focusing on "special directions" where changes are straightforward. Whether you’re stretching a rubber band, analyzing material stress, or studying quantum systems, eigenvalues provide a clear, intuitive way to understand how forces and transformations shape the world.
+
+RESPONSE:
+{
+  "claims": [
+    {
+      "id": "C001",
+      "claim": "Eigenvalues are scaling factors that describe how a vector is stretched or squashed by a linear transformation, potentially introducing rotational effects with complex eigenvalues.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "This defines eigenvalues as core to understanding transformations in physics and math.",
+      "suggested_search_query": "eigenvalue definition linear algebra"
+    },
+    {
+      "id": "C002",
+      "claim": "Eigenvalues are foundational in linear algebra and central to quantum mechanics, where they represent measurable outcomes like energy levels.",
+      "type": "explanation",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Highlights cross-disciplinary significance in mathematics and physics.",
+      "suggested_search_query": "eigenvalues quantum mechanics applications"
+    },
+    {
+      "id": "C003",
+      "claim": "In mechanical systems, eigenvalues of a stress tensor determine principal stresses, revealing directions and magnitudes of strongest forces acting on materials.",
+      "type": "application",
+      "importance": "high
+
+================================================================================
+TIME: 2026-05-07T02:43:48
+NODE: json_repair
+PROMPT_CHARS: 1321
+PROMPT_TOKENS_APPROX: 330
+RESPONSE_CHARS: 1459
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"keep_alive": -1, "num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.8}
+================================================================================
+PROMPT:
+Fix the following broken JSON. Return ONLY the repaired JSON.
+
+Broken JSON:
+{
+  "claims": [
+    {
+      "id": "C001",
+      "claim": "Eigenvalues are scaling factors that describe how a vector is stretched or squashed by a linear transformation, potentially introducing rotational effects with complex eigenvalues.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "This defines eigenvalues as core to understanding transformations in physics and math.",
+      "suggested_search_query": "eigenvalue definition linear algebra"
+    },
+    {
+      "id": "C002",
+      "claim": "Eigenvalues are foundational in linear algebra and central to quantum mechanics, where they represent measurable outcomes like energy levels.",
+      "type": "explanation",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Highlights cross-disciplinary significance in mathematics and physics.",
+      "suggested_search_query": "eigenvalues quantum mechanics applications"
+    },
+    {
+      "id": "C003",
+      "claim": "In mechanical systems, eigenvalues of a stress tensor determine principal stresses, revealing directions and magnitudes of strongest forces acting on materials.",
+      "type": "application",
+      "importance": "high
+
+RESPONSE:
+{
+  "claims": [
+    {
+      "id": "C001",
+      "claim": "Eigenvalues are scaling factors that describe how a vector is stretched or squashed by a linear transformation, potentially introducing rotational effects with complex eigenvalues.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "This defines eigenvalues as core to understanding transformations in physics and math.",
+      "suggested_search_query": "eigenvalue definition linear algebra"
+    },
+    {
+      "id": "C002",
+      "claim": "Eigenvalues are foundational in linear algebra and central to quantum mechanics, where they represent measurable outcomes like energy levels.",
+      "type": "explanation",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Highlights cross-disciplinary significance in mathematics and physics.",
+      "suggested_search_query": "eigenvalues quantum mechanics applications"
+    },
+    {
+      "id": "C003",
+      "claim": "In mechanical systems, eigenvalues of a stress tensor determine principal stresses, revealing directions and magnitudes of strongest forces acting on materials.",
+      "type": "application",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Demonstrates practical use in engineering and material science.",
+      "suggested_search_query": "eigenvalues stress tensor applications"
+    }
+  ]
+}
+
+================================================================================
+TIME: 2026-05-07T04:38:05
+NODE: claim_revision
+PROMPT_CHARS: 6396
+PROMPT_TOKENS_APPROX: 1599
+RESPONSE_CHARS: 4762
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"keep_alive": -1, "num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.8}
+================================================================================
+PROMPT:
+Revise the article once to address actionable claim-check feedback.
+
+Do not rewrite for its own sake. Fix the scientific issues while preserving accessible language.
+
+Only use the actionable feedback below. Missing evidence should normally be handled by source-search rounds first; if the feedback says the automated search attempts are exhausted, make the claim more conservative or remove it.
+
+Actionable claim-check feedback:
+{
+  "claim_checks": [
+    {
+      "id": "C001",
+      "verdict": "not_enough_evidence",
+      "severity": "medium",
+      "problem": "Claim checker failed: LLMCallError(\"claim_checker failed after 3 attempt(s): LLMCallError('LLM_TIMEOUT_AFTER_720_SECONDS')\")",
+      "suggested_fix": "Automatically retry this claim with another source search or a smaller context.",
+      "source_quality_note": "",
+      "source_urls": [],
+      "claim": "Eigenvalues are scaling factors that describe how a vector is stretched or squashed by a linear transformation, potentially introducing rotational effects with complex eigenvalues.",
+      "checked_at": "2026-05-07_04-33-13",
+      "source_attempt_count": 3,
+      "available_source_urls": [
+        "https://www.cfm.brown.edu/people/dobrush/am34/Mathematica/ch1/eigen.html",
+        "https://www.mit.edu/~ashrstnv/eigenvalues-vectors.html",
+        "https://www.academia.edu/143716742/On_Eigenvalue_And_Eigenvector_Perceptions_of_Undergraduate_Pre_service_Mathematics_Teachers",
+        "https://people.tamu.edu/~kapita/eigens.html",
+        "https://learn.mit.edu/search?resource=11957"
+      ]
+    }
+  ],
+  "summary": {
+    "highest_priority_fixes": [
+      "Automatically retry this claim with another source search or a smaller context."
+    ]
+  }
+}
+
+Current draft:
+# Eigenvalue  
+
+## The core idea  
+Imagine stretching a rubber band: if you pull it evenly in one direction, it stretches uniformly without twisting. This is like an **eigenvalue**—a scaling factor that tells you how much a vector is stretched or squashed when a transformation is applied. In most cases, this stretching happens **without changing the vector’s direction**, but eigenvalues can also be complex numbers, which introduce rotational effects (like twisting the rubber band).  
+
+This concept is foundational in **linear algebra**, where eigenvalues describe how transformations act on vectors, and it plays a central role in **quantum mechanics**, where they represent measurable outcomes like energy levels.  
+
+---
+
+## Why this matters  
+Eigenvalues help us understand how systems respond to forces, rotations, or vibrations. They simplify complex interactions by focusing on "special directions" where changes are straightforward. Let’s explore a few examples:  
+
+### 1. **Mechanical systems**  
+Think of a stress tensor as a grid of springs stretched by forces. The **eigenvalues** of this grid tell you the **direction and magnitude** of the strongest forces acting on the material. For example, when a beam is under load, the **principal stresses** (the directions where forces act most strongly) are determined by the eigenvalues of the stress tensor. These eigenvalues reveal how the material will deform or fail under stress.  
+
+### 2. **Vibrations**  
+A guitar string vibrates at specific frequencies, like the "notes" it produces. These frequencies are determined by the **eigenvalues** of the string’s mechanical system. When you strike the string, you’re exciting it to resonate at its natural eigenfrequency. Similarly, a tuning fork’s vibration at a specific frequency corresponds to an eigenvalue of its system.  
+
+### 3. **Rotations**  
+A spinning top rotates around its symmetry axis. This axis is an **eigenvector** of the rotation transformation, and its associated **eigenvalue** (often 1 or -1) indicates the system’s resistance to rotational forces. This concept is critical for understanding how torque (a rotational force) acts on objects.  
+
+[Diagram idea: A vector (arrow) being stretched by a matrix, with eigenvectors (arrows) and eigenvalues (labels) shown.]  
+
+---
+
+## The more precise picture  
+Mathematically, eigenvalues describe how a **linear transformation** (like a matrix) acts on a **vector**. The equation:  
+$$ A \cdot \mathbf{v} = \lambda \cdot \mathbf{v} $$  
+- **A**: The transformation (e.g., a matrix or operator). In mechanics, this could represent a **stress tensor** {stress tensor} (a linear transformation encoding forces).  
+- **v**: The eigenvector (a direction that doesn’t rotate under the transformation).  
+- **λ**: The eigenvalue, which can be real or complex.  
+
+**Real eigenvalues** scale vectors without changing their direction (like stretching a rubber band). **Complex eigenvalues** introduce rotational components, such as oscillatory behavior in quantum systems (e.g., a spinning top’s wobble).  
+
+**Note**: The claim that eigenvalues are "scaling factors without changing direction" is accurate for real eigenvalues. However, eigenvalues can also be complex, which introduces rotational effects. This nuance ensures the explanation remains precise while preserving accessibility.  
+
+---  
+
+## Connecting to quantum mechanics  
+In quantum mechanics, eigenvalues represent **measurable outcomes** (like energy levels). For example, the energy levels of an electron in an atom are eigenvalues of the Hamiltonian operator. When you measure the energy, you observe one of these eigenvalues, and the corresponding eigenvector describes the state of the system.  
+
+This connection highlights why eigenvalues are so powerful: they bridge abstract mathematical transformations with real-world observations.  
+
+---  
+
+## Summary  
+Eigenvalues are scaling factors that reveal how systems respond to transformations. They simplify complex interactions by focusing on "special directions" where changes are straightforward. Whether you’re stretching a rubber band, analyzing material stress, or studying quantum systems, eigenvalues provide a clear, intuitive way to understand how forces and transformations shape the world.
+
+Instructions:
+- Correct or qualify unsupported, contradicted, overstrong, or misleading claims.
+- Preserve good accessible explanations.
+- Do not add speculative research as settled fact.
+- If an analogy was misleading, either repair it or state its limits.
+- Keep standard terms in braces after descriptive names.
+- Output only the revised article in Markdown.
+
+RESPONSE:
+# Eigenvalue  
+
+## The core idea  
+Imagine stretching a rubber band: if you pull it evenly in one direction, it stretches uniformly without twisting. This is like an **eigenvalue**—a scaling factor that tells you how much a vector is stretched or squashed when a transformation is applied. In most cases, this stretching happens **without changing the vector’s direction**, but eigenvalues can also be complex numbers, which introduce rotational components (like twisting the rubber band).  
+
+This concept is foundational in **linear algebra**, where eigenvalues describe how transformations act on vectors, and it plays a central role in **quantum mechanics**, where they represent measurable outcomes like energy levels.  
+
+---
+
+## Why this matters  
+Eigenvalues help us understand how systems respond to forces, rotations, or vibrations. They simplify complex interactions by focusing on "special directions" where changes are straightforward. Let’s explore a few examples:  
+
+### 1. **Mechanical systems**  
+Think of a stress tensor as a grid of springs stretched by forces. The **eigenvalues** of this grid tell you the **direction and magnitude** of the strongest forces acting on the material. For example, when a beam is under load, the **principal stresses** (the directions where forces act most strongly) are determined by the eigenvalues of the stress tensor. These eigenvalues reveal how the material will deform or fail under stress.  
+
+### 2. **Vibrations**  
+A guitar string vibrates at specific frequencies, like the "notes" it produces. These frequencies are determined by the **eigenvalues** of the string’s mechanical system. When you strike the string, you’re exciting it to resonate at its natural eigenfrequency. Similarly, a tuning fork’s vibration at a specific frequency corresponds to an eigenvalue of its system.  
+
+### 3. **Rotations**  
+A spinning top rotates around its symmetry axis. This axis is an **eigenvector** of the rotation transformation, and its associated **eigenvalue** (often 1 or -1) indicates the system’s resistance to rotational forces. This concept is critical for understanding how torque (a rotational force) acts on objects.  
+
+[Diagram idea: A vector (arrow) being stretched by a matrix, with eigenvectors (arrows) and eigenvalues (labels) shown.]  
+
+---
+
+## The more precise picture  
+Mathematically, eigenvalues describe how a **linear transformation** (like a matrix) acts on a **vector**. The equation:  
+$$ A \cdot \mathbf{v} = \lambda \cdot \mathbf{v} $$  
+- **A**: The transformation (e.g., a matrix or operator). In mechanics, this could represent a **stress tensor** {stress tensor} (a linear transformation encoding forces).  
+- **v**: The eigenvector (a direction that doesn’t rotate under the transformation).  
+- **λ**: The eigenvalue, which can be real or complex.  
+
+**Real eigenvalues** scale vectors without changing their direction (like stretching a rubber band). **Complex eigenvalues** introduce rotational components, such as oscillatory behavior in systems like a pendulum or a spinning top. However, complex eigenvalues are less intuitive in classical mechanics and are more prominent in quantum systems or systems with oscillatory dynamics.  
+
+**Note**: The claim that eigenvalues are "scaling factors without changing direction" is accurate for real eigenvalues. For complex eigenvalues, the rotational component arises from the imaginary part, which describes how the vector rotates as it scales. This nuance ensures the explanation remains precise while preserving accessibility.  
+
+---
+
+## Connecting to quantum mechanics  
+In quantum mechanics, eigenvalues represent **measurable outcomes** (like energy levels). For example, the energy levels of an electron in an atom are eigenvalues of the Hamiltonian operator. When you measure the energy, you observe one of these eigenvalues, and the corresponding eigenvector describes the state of the system.  
+
+This connection highlights why eigenvalues are so powerful: they bridge abstract mathematical transformations with real-world observations.  
+
+---
+
+## Summary  
+Eigenvalues are scaling factors that reveal how systems respond to transformations. They simplify complex interactions by focusing on "special directions" where changes are straightforward. Whether you’re stretching a rubber band, analyzing material stress, or studying quantum systems, eigenvalues provide a clear, intuitive way to understand how forces and transformations shape the world.  
+
+**Key clarification**: Complex eigenvalues introduce rotational components, but their interpretation is more nuanced and less common in classical contexts. This article focuses on real eigenvalues for accessibility, with a note on complex eigenvalues for completeness.
+
+================================================================================
+TIME: 2026-05-07T04:53:06
+NODE: claim_extractor
+PROMPT_CHARS: 5640
+PROMPT_TOKENS_APPROX: 1410
+RESPONSE_CHARS: 630
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"keep_alive": -1, "num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.8}
+================================================================================
+PROMPT:
+Extract 8 to 12 important scientific or explanatory claims from this article draft.
+
+Return exactly one JSON object with this shape:
+{
+  "claims": [
+    {
+      "id": "C001",
+      "claim": "A clear standalone claim.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "brief reason",
+      "suggested_search_query": "stable physics source query"
+    }
+  ]
+}
+
+Rules:
+- Return a JSON object, not a list.
+- Do not return an empty list unless the draft is empty.
+- Use true/false, not True/False.
+- No Markdown fences.
+- No prose outside the JSON.
+- Prefer claims that matter for scientific correctness.
+- Include claims where an analogy could mislead.
+- Search queries should target stable sources: textbooks, lecture notes, CERN, Fermilab, NASA, DOE, NIST, or university pages.
+
+Article title: Eigenvalue
+
+Draft:
+# Eigenvalue  
+
+## The core idea  
+Imagine stretching a rubber band: if you pull it evenly in one direction, it stretches uniformly without twisting. This is like an **eigenvalue**—a scaling factor that tells you how much a vector is stretched or squashed when a transformation is applied. In most cases, this stretching happens **without changing the vector’s direction**, but eigenvalues can also be complex numbers, which introduce rotational components (like twisting the rubber band).  
+
+This concept is foundational in **linear algebra**, where eigenvalues describe how transformations act on vectors, and it plays a central role in **quantum mechanics**, where they represent measurable outcomes like energy levels.  
+
+---
+
+## Why this matters  
+Eigenvalues help us understand how systems respond to forces, rotations, or vibrations. They simplify complex interactions by focusing on "special directions" where changes are straightforward. Let’s explore a few examples:  
+
+### 1. **Mechanical systems**  
+Think of a stress tensor as a grid of springs stretched by forces. The **eigenvalues** of this grid tell you the **direction and magnitude** of the strongest forces acting on the material. For example, when a beam is under load, the **principal stresses** (the directions where forces act most strongly) are determined by the eigenvalues of the stress tensor. These eigenvalues reveal how the material will deform or fail under stress.  
+
+### 2. **Vibrations**  
+A guitar string vibrates at specific frequencies, like the "notes" it produces. These frequencies are determined by the **eigenvalues** of the string’s mechanical system. When you strike the string, you’re exciting it to resonate at its natural eigenfrequency. Similarly, a tuning fork’s vibration at a specific frequency corresponds to an eigenvalue of its system.  
+
+### 3. **Rotations**  
+A spinning top rotates around its symmetry axis. This axis is an **eigenvector** of the rotation transformation, and its associated **eigenvalue** (often 1 or -1) indicates the system’s resistance to rotational forces. This concept is critical for understanding how torque (a rotational force) acts on objects.  
+
+[Diagram idea: A vector (arrow) being stretched by a matrix, with eigenvectors (arrows) and eigenvalues (labels) shown.]  
+
+---
+
+## The more precise picture  
+Mathematically, eigenvalues describe how a **linear transformation** (like a matrix) acts on a **vector**. The equation:  
+$$ A \cdot \mathbf{v} = \lambda \cdot \mathbf{v} $$  
+- **A**: The transformation (e.g., a matrix or operator). In mechanics, this could represent a **stress tensor** {stress tensor} (a linear transformation encoding forces).  
+- **v**: The eigenvector (a direction that doesn’t rotate under the transformation).  
+- **λ**: The eigenvalue, which can be real or complex.  
+
+**Real eigenvalues** scale vectors without changing their direction (like stretching a rubber band). **Complex eigenvalues** introduce rotational components, such as oscillatory behavior in systems like a pendulum or a spinning top. However, complex eigenvalues are less intuitive in classical mechanics and are more prominent in quantum systems or systems with oscillatory dynamics.  
+
+**Note**: The claim that eigenvalues are "scaling factors without changing direction" is accurate for real eigenvalues. For complex eigenvalues, the rotational component arises from the imaginary part, which describes how the vector rotates as it scales. This nuance ensures the explanation remains precise while preserving accessibility.  
+
+---
+
+## Connecting to quantum mechanics  
+In quantum mechanics, eigenvalues represent **measurable outcomes** (like energy levels). For example, the energy levels of an electron in an atom are eigenvalues of the Hamiltonian operator. When you measure the energy, you observe one of these eigenvalues, and the corresponding eigenvector describes the state of the system.  
+
+This connection highlights why eigenvalues are so powerful: they bridge abstract mathematical transformations with real-world observations.  
+
+---
+
+## Summary  
+Eigenvalues are scaling factors that reveal how systems respond to transformations. They simplify complex interactions by focusing on "special directions" where changes are straightforward. Whether you’re stretching a rubber band, analyzing material stress, or studying quantum systems, eigenvalues provide a clear, intuitive way to understand how forces and transformations shape the world.  
+
+**Key clarification**: Complex eigenvalues introduce rotational components, but their interpretation is more nuanced and less common in classical contexts. This article focuses on real eigenvalues for accessibility, with a note on complex eigenvalues for completeness.
+
+RESPONSE:
+{
+  "claims": [
+    {
+      "id": "C001",
+      "claim": "Eigenvalues are scaling factors that describe how a vector is stretched or squashed without changing its direction (for real eigenvalues).",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "This defines eigenvalues as fundamental to understanding linear transformations in physics and math.",
+      "suggested_search_query": "eigenvalue definition linear algebra"
+    },
+    {
+      "id": "C002",
+      "claim": "Eigenvalues are foundational in linear algebra and central to quantum mechanics, where they
+
+================================================================================
+TIME: 2026-05-07T04:54:42
+NODE: json_repair
+PROMPT_CHARS: 706
+PROMPT_TOKENS_APPROX: 176
+RESPONSE_CHARS: 983
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"keep_alive": -1, "num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.8}
+================================================================================
+PROMPT:
+Fix the following broken JSON. Return ONLY the repaired JSON.
+
+Broken JSON:
+{
+  "claims": [
+    {
+      "id": "C001",
+      "claim": "Eigenvalues are scaling factors that describe how a vector is stretched or squashed without changing its direction (for real eigenvalues).",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "This defines eigenvalues as fundamental to understanding linear transformations in physics and math.",
+      "suggested_search_query": "eigenvalue definition linear algebra"
+    },
+    {
+      "id": "C002",
+      "claim": "Eigenvalues are foundational in linear algebra and central to quantum mechanics, where they
+
+RESPONSE:
+{
+  "claims": [
+    {
+      "id": "C001",
+      "claim": "Eigenvalues are scaling factors that describe how a vector is stretched or squashed without changing its direction (for real eigenvalues).",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "This defines eigenvalues as fundamental to understanding linear transformations in physics and math.",
+      "suggested_search_query": "eigenvalue definition linear algebra"
+    },
+    {
+      "id": "C002",
+      "claim": "Eigenvalues are foundational in linear algebra and central to quantum mechanics, where they represent measurable quantities in quantum mechanics.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "This connects eigenvalues to both mathematical structures and physical observables in quantum theory.",
+      "suggested_search_query": "eigenvalues quantum mechanics"
+    }
+  ]
+}
+
+================================================================================
+TIME: 2026-05-07T07:07:36
+NODE: accessibility_judge
+PROMPT_CHARS: 7217
+PROMPT_TOKENS_APPROX: 1804
+RESPONSE_CHARS: 1459
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"keep_alive": -1, "num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.8}
+================================================================================
+PROMPT:
+Evaluate this EasyPhysics article for accessibility.
+
+Return exactly one JSON object:
+{
+  "score": 1,
+  "pass": false,
+  "strengths": ["specific strength"],
+  "issues": [
+    {
+      "severity": "low | medium | high",
+      "location": "section name or short quote",
+      "problem": "specific accessibility issue",
+      "suggested_fix": "specific fix"
+    }
+  ],
+  "best_next_revision": "one concise paragraph"
+}
+
+Rubric:
+Accessibility score, 1-10:
+
+10 = Exceptional. A motivated high-schooler can follow the article's main arc without prior exposure.
+     Jargon is introduced only after intuition. Examples are vivid. Math is explained as meaning,
+     not just symbols. The article feels empowering and clear.
+
+9 = Publishable with light human editing. The main idea is easy to follow; jargon is mostly controlled;
+    analogies are helpful; sections flow logically; any math has a plain-language interpretation.
+
+8 = Strong draft. Mostly clear, but has a few dense sections, unexplained terms, abrupt transitions,
+    or analogies that need more setup.
+
+7 = Useful but uneven. A motivated reader could learn from it, but several passages need simplification,
+    clearer examples, or better sequencing.
+
+6 = Borderline. The article contains useful explanations, but assumes too much background or uses too much jargon.
+
+5 = Mixed. Some good paragraphs, but the structure or language would lose many target readers.
+
+4 = Hard to follow. Mostly written for someone who already knows the subject.
+
+3 = Very inaccessible. Dense, abstract, jargon-heavy, or poorly sequenced.
+
+2 = Barely useful to the target audience.
+
+1 = Fails the accessibility goal.
+
+Accessibility judge priorities:
+- Does the opening give the reader an intuitive foothold?
+- Are standard terms introduced after meaning, not before?
+- Are descriptive names useful rather than cutesy or misleading?
+- Are analogies concrete and then carefully limited?
+- Is any math explained in words?
+- Does the article avoid "spooky/magic/weird" framing while still acknowledging counterintuitive ideas?
+- Does each section make the next section easier?
+
+Rules:
+- Return an object, not a list.
+- Score must be an integer from 1 to 10.
+- A 9 means publishable with light human editing.
+- Do not give 9 or 10 if the opening is jargon-heavy.
+- Do not give 9 or 10 if math appears without plain-language interpretation.
+- Do not rewrite the article; only evaluate it.
+
+Article title: Eigenvalue
+
+Draft:
+# Eigenvalue  
+
+## The core idea  
+Imagine stretching a rubber band: if you pull it evenly in one direction, it stretches uniformly without twisting. This is like an **eigenvalue**—a scaling factor that tells you how much a vector is stretched or squashed when a transformation is applied. In most cases, this stretching happens **without changing the vector’s direction**, but eigenvalues can also be complex numbers, which introduce rotational components (like twisting the rubber band).  
+
+This concept is foundational in **linear algebra**, where eigenvalues describe how transformations act on vectors, and it plays a central role in **quantum mechanics**, where they represent measurable outcomes like energy levels.  
+
+---
+
+## Why this matters  
+Eigenvalues help us understand how systems respond to forces, rotations, or vibrations. They simplify complex interactions by focusing on "special directions" where changes are straightforward. Let’s explore a few examples:  
+
+### 1. **Mechanical systems**  
+Think of a stress tensor as a grid of springs stretched by forces. The **eigenvalues** of this grid tell you the **direction and magnitude** of the strongest forces acting on the material. For example, when a beam is under load, the **principal stresses** (the directions where forces act most strongly) are determined by the eigenvalues of the stress tensor. These eigenvalues reveal how the material will deform or fail under stress.  
+
+### 2. **Vibrations**  
+A guitar string vibrates at specific frequencies, like the "notes" it produces. These frequencies are determined by the **eigenvalues** of the string’s mechanical system. When you strike the string, you’re exciting it to resonate at its natural eigenfrequency. Similarly, a tuning fork’s vibration at a specific frequency corresponds to an eigenvalue of its system.  
+
+### 3. **Rotations**  
+A spinning top rotates around its symmetry axis. This axis is an **eigenvector** of the rotation transformation, and its associated **eigenvalue** (often 1 or -1) indicates the system’s resistance to rotational forces. This concept is critical for understanding how torque (a rotational force) acts on objects.  
+
+[Diagram idea: A vector (arrow) being stretched by a matrix, with eigenvectors (arrows) and eigenvalues (labels) shown.]  
+
+---
+
+## The more precise picture  
+Mathematically, eigenvalues describe how a **linear transformation** (like a matrix) acts on a **vector**. The equation:  
+$$ A \cdot \mathbf{v} = \lambda \cdot \mathbf{v} $$  
+- **A**: The transformation (e.g., a matrix or operator). In mechanics, this could represent a **stress tensor** {stress tensor} (a linear transformation encoding forces).  
+- **v**: The eigenvector (a direction that doesn’t rotate under the transformation).  
+- **λ**: The eigenvalue, which can be real or complex.  
+
+**Real eigenvalues** scale vectors without changing their direction (like stretching a rubber band). **Complex eigenvalues** introduce rotational components, such as oscillatory behavior in systems like a pendulum or a spinning top. However, complex eigenvalues are less intuitive in classical mechanics and are more prominent in quantum systems or systems with oscillatory dynamics.  
+
+**Note**: The claim that eigenvalues are "scaling factors without changing direction" is accurate for real eigenvalues. For complex eigenvalues, the rotational component arises from the imaginary part, which describes how the vector rotates as it scales. This nuance ensures the explanation remains precise while preserving accessibility.  
+
+---
+
+## Connecting to quantum mechanics  
+In quantum mechanics, eigenvalues represent **measurable outcomes** (like energy levels). For example, the energy levels of an electron in an atom are eigenvalues of the Hamiltonian operator. When you measure the energy, you observe one of these eigenvalues, and the corresponding eigenvector describes the state of the system.  
+
+This connection highlights why eigenvalues are so powerful: they bridge abstract mathematical transformations with real-world observations.  
+
+---
+
+## Summary  
+Eigenvalues are scaling factors that reveal how systems respond to transformations. They simplify complex interactions by focusing on "special directions" where changes are straightforward. Whether you’re stretching a rubber band, analyzing material stress, or studying quantum systems, eigenvalues provide a clear, intuitive way to understand how forces and transformations shape the world.  
+
+**Key clarification**: Complex eigenvalues introduce rotational components, but their interpretation is more nuanced and less common in classical contexts. This article focuses on real eigenvalues for accessibility, with a note on complex eigenvalues for completeness.
+
+RESPONSE:
+{
+  "score": 4,
+  "pass": false,
+  "strengths": ["concrete analogies (rubber band, tuning fork)", "clear structure with examples"],
+  "issues": [
+    {
+      "severity": "high",
+      "location": "core idea section",
+      "problem": "Introduces 'eigenvalue' without defining vectors or transformations first",
+      "suggested_fix": "Add a brief explanation of vectors and linear transformations before defining eigenvalues"
+    },
+    {
+      "severity": "high",
+      "location": "stress tensor example",
+      "problem": "Uses jargon ('stress tensor') without explanation",
+      "suggested_fix": "Define 'stress tensor' as a matrix representing force distributions"
+    },
+    {
+      "severity": "high",
+      "location": "math equation section",
+      "problem": "Presents equation without explaining matrix multiplication or operators",
+      "suggested_fix": "Break down the equation with simple matrix-vector multiplication examples"
+    },
+    {
+      "severity": "medium",
+      "location": "quantum mechanics connection",
+      "problem": "Jumps from classical examples to quantum mechanics without bridging concepts",
+      "suggested_fix": "Add a paragraph explaining how eigenvalues connect to observable quantities"
+    }
+  ],
+  "best_next_revision": "Start with a simple vector transformation example, define all technical terms before first use, and explain the math equation with visual analogies before introducing complex eigenvalues."
+}

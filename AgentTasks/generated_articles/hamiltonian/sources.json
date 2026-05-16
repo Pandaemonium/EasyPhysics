@@ -1,26 +1,598 @@
 {
   "sources_by_claim": {
     "C001": {
-      "claim": "# Hamiltonian ## The core idea The **Hamiltonian** {Hamiltonian} is the **total energy rulebook** {Hamiltonian} of a system.",
-      "query": "Hamiltonian # Hamiltonian ## The core idea The **Hamiltonian** {Hamiltonian} is the **total energy rulebook** {Hamiltonian} of physics lecture notes textbook explanation",
-      "result_snippet": "The Hamiltonian is named after William Rowan Hamilton, who developed a revolutionary reformulation of Newtonian mechanics, known as Hamiltonian mechanics, which was historically important to the development of quantum physics. Similar to vector notation, it is typically denoted by , where the hat indicates that it is an operator. The Hamiltonian is a fundamental concept in quantum mechanics, playing a crucial role in understanding and predicting the behavior of quantum systems. In this article, we will explore the core principles and applications of the Hamiltonian, delving into its significance in various aspects of quantum mechanics. A simple interpretation of Hamiltonian mechanics comes from its application on a one-dimensional system consisting of one nonrelativistic particle of mass m. The value H (p, q) of the Hamiltonian is the total energy of the system, in this case the sum of kinetic and potential energy, traditionally denoted T and V, respectively. We will reintroduce the Hamiltonian operator (the total-energy operator), in the context of mechanics, its associated eigenvalue equation, and discuss the important notion of bound and non-bound states, and their distinct description within quantum mechanics. 4.1 The Hamiltonian What different types of energy can a particle have? Quick Definition Plain-English definition: A Hamiltonian is a function or operator that encodes the total \"energy\" and dynamics of a system, governing how the system evolves over time. Analogy: Think of the Hamiltonian as the rules written on a scoreboard that determine how a sports game progresses; it lists the current score (state) and the allowed moves (dynamics), and from it you can ...",
-      "searched_at": "2026-05-04_22-38-46",
+      "claim": "The Hamiltonian is a total energy framework {Hamiltonian} governing motion in classical mechanics via Hamilton’s equations {Hamilton’s equations}.",
+      "search_attempts": [
+        {
+          "status": "ok",
+          "query": "Hamiltonian classical mechanics definition",
+          "results": [
+            {
+              "title": "Hamiltonian mechanics — Grokipedia",
+              "url": "https://grokipedia.com/page/Hamiltonian_mechanics",
+              "domain": "grokipedia.com",
+              "snippet": "Hamiltonian mechanics is a reformulation of classical mechanics introduced by Irish mathematician and astronomer William Rowan Hamilton in 1833 ..."
+            },
+            {
+              "title": "Hamiltonian mechanics - Wikiwand",
+              "url": "https://www.wikiwand.com/en/articles/Hamiltonian_mechanics",
+              "domain": "wikiwand.com",
+              "snippet": "Hamiltonian mechanics has a close relationship with geometry (notably, symplectic geometry and Poisson structures ) and serves as a link between ..."
+            },
+            {
+              "title": "Physics:Hamiltonian mechanics - HandWiki",
+              "url": "https://handwiki.org/wiki/Physics:Hamiltonian_mechanics",
+              "domain": "handwiki.org",
+              "snippet": "The Lagrangian and Hamiltonian approaches provide the groundwork for deeper results in classical mechanics, and suggest analogous formulations in ..."
+            },
+            {
+              "title": "classical mechanics - Help understanding what the Hamiltonian",
+              "url": "https://physics.stackexchange.com/questions/168100/help-understanding-what-the-hamiltonian-signifies-for-the-action-compared-with-t",
+              "domain": "physics.stackexchange.com",
+              "snippet": "I know I'm late to the party, but let me show that Lagrangian and Hamiltonian mechanics are compatible by direct substitution of the Lagrangian into ..."
+            },
+            {
+              "title": "classical mechanics - What is a Hamiltonian of a System? -",
+              "url": "https://physics.stackexchange.com/questions/488218/what-is-a-hamiltonian-of-a-system",
+              "domain": "physics.stackexchange.com",
+              "snippet": "They should be obsolete if it were not for the role of the Hamiltonian in quantum mechanics and the method of canonical quantisation by which quantum ..."
+            }
+          ],
+          "urls": [
+            "https://grokipedia.com/page/Hamiltonian_mechanics",
+            "https://www.wikiwand.com/en/articles/Hamiltonian_mechanics",
+            "https://handwiki.org/wiki/Physics:Hamiltonian_mechanics",
+            "https://physics.stackexchange.com/questions/168100/help-understanding-what-the-hamiltonian-signifies-for-the-action-compared-with-t",
+            "https://physics.stackexchange.com/questions/488218/what-is-a-hamiltonian-of-a-system"
+          ],
+          "result_snippet": "[1] Hamiltonian mechanics — Grokipedia\nURL: https://grokipedia.com/page/Hamiltonian_mechanics\nSnippet: Hamiltonian mechanics is a reformulation of classical mechanics introduced by Irish mathematician and astronomer William Rowan Hamilton in 1833 ...\n\n[2] Hamiltonian mechanics - Wikiwand\nURL: https://www.wikiwand.com/en/articles/Hamiltonian_mechanics\nSnippet: Hamiltonian mechanics has a close relationship with geometry (notably, symplectic geometry and Poisson structures ) and serves as a link between ...\n\n[3] Physics:Hamiltonian mechanics - HandWiki\nURL: https://handwiki.org/wiki/Physics:Hamiltonian_mechanics\nSnippet: The Lagrangian and Hamiltonian approaches provide the groundwork for deeper results in classical mechanics, and suggest analogous formulations in ...\n\n[4] classical mechanics - Help understanding what the Hamiltonian\nURL: https://physics.stackexchange.com/questions/168100/help-understanding-what-the-hamiltonian-signifies-for-the-action-compared-with-t\nSnippet: I know I'm late to the party, but let me show that Lagrangian and Hamiltonian mechanics are compatible by direct substitution of the Lagrangian into ...\n\n[5] classical mechanics - What is a Hamiltonian of a System? -\nURL: https://physics.stackexchange.com/questions/488218/what-is-a-hamiltonian-of-a-system\nSnippet: They should be obsolete if it were not for the role of the Hamiltonian in quantum mechanics and the method of canonical quantisation by which quantum ...",
+          "searched_at": "2026-05-06_12-18-47",
+          "attempt_number": 1
+        },
+        {
+          "status": "ok",
+          "query": "Hamiltonian The Hamiltonian is a total energy framework {Hamiltonian} governing motion in classical mechanics via Hamilton’s equations {Hamilton’s equations}. university physics lecture notes textbook",
+          "results": [
+            {
+              "title": "Hamiltonian mechanics - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Hamiltonian_mechanics",
+              "domain": "en.wikipedia.org",
+              "snippet": "For a time instant t , {\\displaystyle t,} the Legendre transformation of L {\\displaystyle {\\mathcal {L}}} is defined as the map ( q , q ) ( p , q ..."
+            },
+            {
+              "title": "Hamiltonian mechanics - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Hamilton's_equations",
+              "domain": "en.wikipedia.org",
+              "snippet": "For a time instant t , {\\displaystyle t,} the Legendre transformation of L {\\displaystyle {\\mathcal {L}}} is defined as the map ( q , q ) ( p , q ..."
+            },
+            {
+              "title": "Hamiltonian mechanics — Grokipedia",
+              "url": "https://grokipedia.com/page/Hamiltonian_mechanics",
+              "domain": "grokipedia.com",
+              "snippet": "Hamiltonian mechanics is a reformulation of classical mechanics introduced by Irish mathematician and astronomer William Rowan Hamilton in ..."
+            },
+            {
+              "title": "Hamiltonian mechanics - Wikiwand",
+              "url": "https://www.wikiwand.com/en/articles/Hamiltonian_mechanics",
+              "domain": "wikiwand.com",
+              "snippet": "... and Hamiltonian H From Euler–Lagrange equation to Hamilton s equations From stationary action principle to Hamilton s equations Basic physical ..."
+            },
+            {
+              "title": "Physics:Hamiltonian mechanics - HandWiki",
+              "url": "https://handwiki.org/wiki/Physics:Hamiltonian_mechanics",
+              "domain": "handwiki.org",
+              "snippet": "The value H ( p , q ) of the Hamiltonian is the total energy of the system, in this case the sum of kinetic and potential energy , traditionally ..."
+            }
+          ],
+          "urls": [
+            "https://en.wikipedia.org/wiki/Hamiltonian_mechanics",
+            "https://en.wikipedia.org/wiki/Hamilton's_equations",
+            "https://grokipedia.com/page/Hamiltonian_mechanics",
+            "https://www.wikiwand.com/en/articles/Hamiltonian_mechanics",
+            "https://handwiki.org/wiki/Physics:Hamiltonian_mechanics"
+          ],
+          "result_snippet": "[1] Hamiltonian mechanics - Wikipedia\nURL: https://en.wikipedia.org/wiki/Hamiltonian_mechanics\nSnippet: For a time instant t , {\\displaystyle t,} the Legendre transformation of L {\\displaystyle {\\mathcal {L}}} is defined as the map ( q , q ) ( p , q ...\n\n[2] Hamiltonian mechanics - Wikipedia\nURL: https://en.wikipedia.org/wiki/Hamilton's_equations\nSnippet: For a time instant t , {\\displaystyle t,} the Legendre transformation of L {\\displaystyle {\\mathcal {L}}} is defined as the map ( q , q ) ( p , q ...\n\n[3] Hamiltonian mechanics — Grokipedia\nURL: https://grokipedia.com/page/Hamiltonian_mechanics\nSnippet: Hamiltonian mechanics is a reformulation of classical mechanics introduced by Irish mathematician and astronomer William Rowan Hamilton in ...\n\n[4] Hamiltonian mechanics - Wikiwand\nURL: https://www.wikiwand.com/en/articles/Hamiltonian_mechanics\nSnippet: ... and Hamiltonian H From Euler–Lagrange equation to Hamilton s equations From stationary action principle to Hamilton s equations Basic physical ...\n\n[5] Physics:Hamiltonian mechanics - HandWiki\nURL: https://handwiki.org/wiki/Physics:Hamiltonian_mechanics\nSnippet: The value H ( p , q ) of the Hamiltonian is the total energy of the system, in this case the sum of kinetic and potential energy , traditionally ...",
+          "searched_at": "2026-05-06_12-55-15",
+          "attempt_number": 2
+        },
+        {
+          "status": "ok",
+          "query": "Hamiltonian The Hamiltonian is a total energy framework {Hamiltonian} governing motion in classical mechanics via Hamilton’s equations {Hamilton’s equations}. site:edu physics",
+          "results": [
+            {
+              "title": "Hamiltonian mechanics - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Hamiltonian_mechanics",
+              "domain": "en.wikipedia.org",
+              "snippet": "For a time instant t , {\\displaystyle t,} the Legendre transformation of L {\\displaystyle {\\mathcal {L}}} is defined as the map ( q , q ) ( p , q ..."
+            },
+            {
+              "title": "Hamiltonian mechanics - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Hamilton's_equations",
+              "domain": "en.wikipedia.org",
+              "snippet": "For a time instant t , {\\displaystyle t,} the Legendre transformation of L {\\displaystyle {\\mathcal {L}}} is defined as the map ( q , q ) ( p , q ..."
+            },
+            {
+              "title": "Hamiltonian mechanics — Grokipedia",
+              "url": "https://grokipedia.com/page/Hamiltonian_mechanics",
+              "domain": "grokipedia.com",
+              "snippet": "Hamiltonian mechanics is a reformulation of classical mechanics introduced by Irish mathematician and astronomer William Rowan Hamilton in ..."
+            },
+            {
+              "title": "Physics:Hamiltonian mechanics - HandWiki",
+              "url": "https://handwiki.org/wiki/Physics:Hamiltonian_mechanics",
+              "domain": "handwiki.org",
+              "snippet": "The value H ( p , q ) of the Hamiltonian is the total energy of the system, in this case the sum of kinetic and potential energy , traditionally ..."
+            },
+            {
+              "title": "Hamiltonian mechanics - Wikiwand",
+              "url": "https://www.wikiwand.com/en/articles/Hamiltonian_mechanics",
+              "domain": "wikiwand.com",
+              "snippet": "... and Hamiltonian H From Euler–Lagrange equation to Hamilton s equations From stationary action principle to Hamilton s equations Basic physical ..."
+            }
+          ],
+          "urls": [
+            "https://en.wikipedia.org/wiki/Hamiltonian_mechanics",
+            "https://en.wikipedia.org/wiki/Hamilton's_equations",
+            "https://grokipedia.com/page/Hamiltonian_mechanics",
+            "https://handwiki.org/wiki/Physics:Hamiltonian_mechanics",
+            "https://www.wikiwand.com/en/articles/Hamiltonian_mechanics"
+          ],
+          "result_snippet": "[1] Hamiltonian mechanics - Wikipedia\nURL: https://en.wikipedia.org/wiki/Hamiltonian_mechanics\nSnippet: For a time instant t , {\\displaystyle t,} the Legendre transformation of L {\\displaystyle {\\mathcal {L}}} is defined as the map ( q , q ) ( p , q ...\n\n[2] Hamiltonian mechanics - Wikipedia\nURL: https://en.wikipedia.org/wiki/Hamilton's_equations\nSnippet: For a time instant t , {\\displaystyle t,} the Legendre transformation of L {\\displaystyle {\\mathcal {L}}} is defined as the map ( q , q ) ( p , q ...\n\n[3] Hamiltonian mechanics — Grokipedia\nURL: https://grokipedia.com/page/Hamiltonian_mechanics\nSnippet: Hamiltonian mechanics is a reformulation of classical mechanics introduced by Irish mathematician and astronomer William Rowan Hamilton in ...\n\n[4] Physics:Hamiltonian mechanics - HandWiki\nURL: https://handwiki.org/wiki/Physics:Hamiltonian_mechanics\nSnippet: The value H ( p , q ) of the Hamiltonian is the total energy of the system, in this case the sum of kinetic and potential energy , traditionally ...\n\n[5] Hamiltonian mechanics - Wikiwand\nURL: https://www.wikiwand.com/en/articles/Hamiltonian_mechanics\nSnippet: ... and Hamiltonian H From Euler–Lagrange equation to Hamilton s equations From stationary action principle to Hamilton s equations Basic physical ...",
+          "searched_at": "2026-05-06_13-31-44",
+          "attempt_number": 3
+        }
+      ],
+      "query": "Hamiltonian The Hamiltonian is a total energy framework {Hamiltonian} governing motion in classical mechanics via Hamilton’s equations {Hamilton’s equations}. site:edu physics",
+      "search_status": "ok",
+      "result_snippet": "[1] Hamiltonian mechanics - Wikipedia\nURL: https://en.wikipedia.org/wiki/Hamiltonian_mechanics\nSnippet: For a time instant t , {\\displaystyle t,} the Legendre transformation of L {\\displaystyle {\\mathcal {L}}} is defined as the map ( q , q ) ( p , q ...\n\n[2] Hamiltonian mechanics - Wikipedia\nURL: https://en.wikipedia.org/wiki/Hamilton's_equations\nSnippet: For a time instant t , {\\displaystyle t,} the Legendre transformation of L {\\displaystyle {\\mathcal {L}}} is defined as the map ( q , q ) ( p , q ...\n\n[3] Hamiltonian mechanics — Grokipedia\nURL: https://grokipedia.com/page/Hamiltonian_mechanics\nSnippet: Hamiltonian mechanics is a reformulation of classical mechanics introduced by Irish mathematician and astronomer William Rowan Hamilton in ...\n\n[4] Physics:Hamiltonian mechanics - HandWiki\nURL: https://handwiki.org/wiki/Physics:Hamiltonian_mechanics\nSnippet: The value H ( p , q ) of the Hamiltonian is the total energy of the system, in this case the sum of kinetic and potential energy , traditionally ...\n\n[5] Hamiltonian mechanics - Wikiwand\nURL: https://www.wikiwand.com/en/articles/Hamiltonian_mechanics\nSnippet: ... and Hamiltonian H From Euler–Lagrange equation to Hamilton s equations From stationary action principle to Hamilton s equations Basic physical ...",
+      "results": [
+        {
+          "title": "Hamiltonian mechanics - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Hamiltonian_mechanics",
+          "domain": "en.wikipedia.org",
+          "snippet": "For a time instant t , {\\displaystyle t,} the Legendre transformation of L {\\displaystyle {\\mathcal {L}}} is defined as the map ( q , q ) ( p , q ..."
+        },
+        {
+          "title": "Hamiltonian mechanics - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Hamilton's_equations",
+          "domain": "en.wikipedia.org",
+          "snippet": "For a time instant t , {\\displaystyle t,} the Legendre transformation of L {\\displaystyle {\\mathcal {L}}} is defined as the map ( q , q ) ( p , q ..."
+        },
+        {
+          "title": "Hamiltonian mechanics — Grokipedia",
+          "url": "https://grokipedia.com/page/Hamiltonian_mechanics",
+          "domain": "grokipedia.com",
+          "snippet": "Hamiltonian mechanics is a reformulation of classical mechanics introduced by Irish mathematician and astronomer William Rowan Hamilton in ..."
+        },
+        {
+          "title": "Physics:Hamiltonian mechanics - HandWiki",
+          "url": "https://handwiki.org/wiki/Physics:Hamiltonian_mechanics",
+          "domain": "handwiki.org",
+          "snippet": "The value H ( p , q ) of the Hamiltonian is the total energy of the system, in this case the sum of kinetic and potential energy , traditionally ..."
+        },
+        {
+          "title": "Hamiltonian mechanics - Wikiwand",
+          "url": "https://www.wikiwand.com/en/articles/Hamiltonian_mechanics",
+          "domain": "wikiwand.com",
+          "snippet": "... and Hamiltonian H From Euler–Lagrange equation to Hamilton s equations From stationary action principle to Hamilton s equations Basic physical ..."
+        }
+      ],
+      "urls": [
+        "https://en.wikipedia.org/wiki/Hamiltonian_mechanics",
+        "https://en.wikipedia.org/wiki/Hamilton's_equations",
+        "https://grokipedia.com/page/Hamiltonian_mechanics",
+        "https://handwiki.org/wiki/Physics:Hamiltonian_mechanics",
+        "https://www.wikiwand.com/en/articles/Hamiltonian_mechanics"
+      ],
+      "attempt_count": 3,
+      "searched_at": "2026-05-06_13-31-44",
       "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
     },
     "C002": {
-      "claim": "It encodes the system’s total energy (kinetic + potential) as the fundamental quantity that determines how the system evolves over time.",
-      "query": "Hamiltonian It encodes the system’s total energy (kinetic + potential) as the fundamental quantity that determines how physics lecture notes textbook explanation",
-      "result_snippet": "Hamiltonian mechanics offers an intuitive description of how conservative mechanical systems evolve over time by representing their states as points ... Energy is a fundamental physical quantity in science, defined as the capacity of a system to perform work or cause change, and it is conserved in ... ... energy, denoted as U U U , is the total energy possessed by a thermodynamic system arising from the microscopic motion and interactions of its ... The Hamiltonian typically also represents the energy observable, a Noether-conserved quantity associated with the time-invariance of the law of ... The above definition is part of the International System of Quantities (ISQ), formalized in the international standard ISO 80000-3 (Space and time ...",
-      "searched_at": "2026-05-04_22-38-49",
+      "claim": "In quantum mechanics, the Hamiltonian is an operator {operator} that dictates how probability maps {wavefunction} evolve over time.",
+      "search_attempts": [
+        {
+          "status": "ok",
+          "query": "quantum Hamiltonian operator",
+          "results": [
+            {
+              "title": "Hamiltonian (quantum mechanics) - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Hamiltonian_(quantum_mechanics)",
+              "domain": "en.wikipedia.org",
+              "snippet": "In quantum mechanics, the Hamiltonian of a system is an operator corresponding to the total energy of that system, including both kinetic energy and potential energy."
+            },
+            {
+              "title": "Quantum harmonic oscillator - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Quantum_harmonic_oscillator",
+              "domain": "en.wikipedia.org",
+              "snippet": "The quantum harmonic oscillator is the quantum-mechanical analog of the classical harmonic oscillator. Because an arbitrary smooth potential can usually be approximated as a harmonic potential at the vicinity of a stable equilibrium point, it is one of the most important model systems in quantum mechanics."
+            },
+            {
+              "title": "Operator (physics) - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Operator_(physics)",
+              "domain": "en.wikipedia.org",
+              "snippet": "An operator is a function over a space of physical states onto another space of states. The simplest example of the utility of operators is the study of symmetry (which makes the concept of a group useful in this context). Because of this, they are useful tools in classical mechanics. Operators are even more important in quantum mechanics, where they form an intrinsic part of the formulation ..."
+            },
+            {
+              "title": "3.1: Quantum Operators Represent Classical Variables",
+              "url": "https://chem.libretexts.org/Courses/University_of_Wisconsin_Oshkosh/Chem_371:_P-Chem_2_to_Folow_Combined_Biophysical_and_P-Chem_1_(Gutow)/03:_Quantum_Mechanics/3.01:_Quantum_Operators_Represent_Classical_Variables",
+              "domain": "chem.libretexts.org",
+              "snippet": "The total energy operator is called the Hamiltonian operator, H ^ and consists of the kinetic energy operator plus the potential energy operator V ^, which is just multiplication by the potential energy function. (3.1.8) H ^ = T ^ + V ^ = ℏ 2 2 m ∇ 2 + V ^ (x, y, z)"
+            },
+            {
+              "title": "Chapter 4: Energy and the Hamiltonian - Quantum Mechanics",
+              "url": "https://paulskrzypczyk.github.io/qm-lecturenotes-new/energy/",
+              "domain": "paulskrzypczyk.github.io",
+              "snippet": "We will reintroduce the Hamiltonian operator (the total-energy operator), in the context of mechanics, its associated eigenvalue equation, and discuss the important notion of bound and non-bound states, and their distinct description within quantum mechanics. 4.1 The Hamiltonian What different types of energy can a particle have?"
+            }
+          ],
+          "urls": [
+            "https://en.wikipedia.org/wiki/Hamiltonian_(quantum_mechanics)",
+            "https://en.wikipedia.org/wiki/Quantum_harmonic_oscillator",
+            "https://en.wikipedia.org/wiki/Operator_(physics)",
+            "https://chem.libretexts.org/Courses/University_of_Wisconsin_Oshkosh/Chem_371:_P-Chem_2_to_Folow_Combined_Biophysical_and_P-Chem_1_(Gutow)/03:_Quantum_Mechanics/3.01:_Quantum_Operators_Represent_Classical_Variables",
+            "https://paulskrzypczyk.github.io/qm-lecturenotes-new/energy/"
+          ],
+          "result_snippet": "[1] Hamiltonian (quantum mechanics) - Wikipedia\nURL: https://en.wikipedia.org/wiki/Hamiltonian_(quantum_mechanics)\nSnippet: In quantum mechanics, the Hamiltonian of a system is an operator corresponding to the total energy of that system, including both kinetic energy and potential energy.\n\n[2] Quantum harmonic oscillator - Wikipedia\nURL: https://en.wikipedia.org/wiki/Quantum_harmonic_oscillator\nSnippet: The quantum harmonic oscillator is the quantum-mechanical analog of the classical harmonic oscillator. Because an arbitrary smooth potential can usually be approximated as a harmonic potential at the vicinity of a stable equilibrium point, it is one of the most important model systems in quantum mechanics.\n\n[3] Operator (physics) - Wikipedia\nURL: https://en.wikipedia.org/wiki/Operator_(physics)\nSnippet: An operator is a function over a space of physical states onto another space of states. The simplest example of the utility of operators is the study of symmetry (which makes the concept of a group useful in this context). Because of this, they are useful tools in classical mechanics. Operators are even more important in quantum mechanics, where they form an intrinsic part of the formulation ...\n\n[4] 3.1: Quantum Operators Represent Classical Variables\nURL: https://chem.libretexts.org/Courses/University_of_Wisconsin_Oshkosh/Chem_371:_P-Chem_2_to_Folow_Combined_Biophysical_and_P-Chem_1_(Gutow)/03:_Quantum_Mechanics/3.01:_Quantum_Operators_Represent_Classical_Variables\nSnippet: The total energy operator is called the Hamiltonian operator, H ^ and consists of the kinetic energy operator plus the potential energy operator V ^, which is just multiplication by the potential energy function. (3.1.8) H ^ = T ^ + V ^ = ℏ 2 2 m ∇ 2 + V ^ (x, y, z)\n\n[5] Chapter 4: Energy and the Hamiltonian - Quantum Mechanics\nURL: https://paulskrzypczyk.github.io/qm-lecturenotes-new/energy/\nSnippet: We will reintroduce the Hamiltonian operator (the total-energy operator), in the context of mechanics, its associated eigenvalue equation, and discuss the important notion of bound and non-bound states, and their distinct description within quantum mechanics. 4.1 The Hamiltonian What different types of energy can a particle have?",
+          "searched_at": "2026-05-06_12-18-48",
+          "attempt_number": 1
+        }
+      ],
+      "query": "quantum Hamiltonian operator",
+      "search_status": "ok",
+      "result_snippet": "[1] Hamiltonian (quantum mechanics) - Wikipedia\nURL: https://en.wikipedia.org/wiki/Hamiltonian_(quantum_mechanics)\nSnippet: In quantum mechanics, the Hamiltonian of a system is an operator corresponding to the total energy of that system, including both kinetic energy and potential energy.\n\n[2] Quantum harmonic oscillator - Wikipedia\nURL: https://en.wikipedia.org/wiki/Quantum_harmonic_oscillator\nSnippet: The quantum harmonic oscillator is the quantum-mechanical analog of the classical harmonic oscillator. Because an arbitrary smooth potential can usually be approximated as a harmonic potential at the vicinity of a stable equilibrium point, it is one of the most important model systems in quantum mechanics.\n\n[3] Operator (physics) - Wikipedia\nURL: https://en.wikipedia.org/wiki/Operator_(physics)\nSnippet: An operator is a function over a space of physical states onto another space of states. The simplest example of the utility of operators is the study of symmetry (which makes the concept of a group useful in this context). Because of this, they are useful tools in classical mechanics. Operators are even more important in quantum mechanics, where they form an intrinsic part of the formulation ...\n\n[4] 3.1: Quantum Operators Represent Classical Variables\nURL: https://chem.libretexts.org/Courses/University_of_Wisconsin_Oshkosh/Chem_371:_P-Chem_2_to_Folow_Combined_Biophysical_and_P-Chem_1_(Gutow)/03:_Quantum_Mechanics/3.01:_Quantum_Operators_Represent_Classical_Variables\nSnippet: The total energy operator is called the Hamiltonian operator, H ^ and consists of the kinetic energy operator plus the potential energy operator V ^, which is just multiplication by the potential energy function. (3.1.8) H ^ = T ^ + V ^ = ℏ 2 2 m ∇ 2 + V ^ (x, y, z)\n\n[5] Chapter 4: Energy and the Hamiltonian - Quantum Mechanics\nURL: https://paulskrzypczyk.github.io/qm-lecturenotes-new/energy/\nSnippet: We will reintroduce the Hamiltonian operator (the total-energy operator), in the context of mechanics, its associated eigenvalue equation, and discuss the important notion of bound and non-bound states, and their distinct description within quantum mechanics. 4.1 The Hamiltonian What different types of energy can a particle have?",
+      "results": [
+        {
+          "title": "Hamiltonian (quantum mechanics) - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Hamiltonian_(quantum_mechanics)",
+          "domain": "en.wikipedia.org",
+          "snippet": "In quantum mechanics, the Hamiltonian of a system is an operator corresponding to the total energy of that system, including both kinetic energy and potential energy."
+        },
+        {
+          "title": "Quantum harmonic oscillator - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Quantum_harmonic_oscillator",
+          "domain": "en.wikipedia.org",
+          "snippet": "The quantum harmonic oscillator is the quantum-mechanical analog of the classical harmonic oscillator. Because an arbitrary smooth potential can usually be approximated as a harmonic potential at the vicinity of a stable equilibrium point, it is one of the most important model systems in quantum mechanics."
+        },
+        {
+          "title": "Operator (physics) - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Operator_(physics)",
+          "domain": "en.wikipedia.org",
+          "snippet": "An operator is a function over a space of physical states onto another space of states. The simplest example of the utility of operators is the study of symmetry (which makes the concept of a group useful in this context). Because of this, they are useful tools in classical mechanics. Operators are even more important in quantum mechanics, where they form an intrinsic part of the formulation ..."
+        },
+        {
+          "title": "3.1: Quantum Operators Represent Classical Variables",
+          "url": "https://chem.libretexts.org/Courses/University_of_Wisconsin_Oshkosh/Chem_371:_P-Chem_2_to_Folow_Combined_Biophysical_and_P-Chem_1_(Gutow)/03:_Quantum_Mechanics/3.01:_Quantum_Operators_Represent_Classical_Variables",
+          "domain": "chem.libretexts.org",
+          "snippet": "The total energy operator is called the Hamiltonian operator, H ^ and consists of the kinetic energy operator plus the potential energy operator V ^, which is just multiplication by the potential energy function. (3.1.8) H ^ = T ^ + V ^ = ℏ 2 2 m ∇ 2 + V ^ (x, y, z)"
+        },
+        {
+          "title": "Chapter 4: Energy and the Hamiltonian - Quantum Mechanics",
+          "url": "https://paulskrzypczyk.github.io/qm-lecturenotes-new/energy/",
+          "domain": "paulskrzypczyk.github.io",
+          "snippet": "We will reintroduce the Hamiltonian operator (the total-energy operator), in the context of mechanics, its associated eigenvalue equation, and discuss the important notion of bound and non-bound states, and their distinct description within quantum mechanics. 4.1 The Hamiltonian What different types of energy can a particle have?"
+        }
+      ],
+      "urls": [
+        "https://en.wikipedia.org/wiki/Hamiltonian_(quantum_mechanics)",
+        "https://en.wikipedia.org/wiki/Quantum_harmonic_oscillator",
+        "https://en.wikipedia.org/wiki/Operator_(physics)",
+        "https://chem.libretexts.org/Courses/University_of_Wisconsin_Oshkosh/Chem_371:_P-Chem_2_to_Folow_Combined_Biophysical_and_P-Chem_1_(Gutow)/03:_Quantum_Mechanics/3.01:_Quantum_Operators_Represent_Classical_Variables",
+        "https://paulskrzypczyk.github.io/qm-lecturenotes-new/energy/"
+      ],
+      "attempt_count": 1,
+      "searched_at": "2026-05-06_12-18-48",
       "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
     },
     "C003": {
-      "claim": "Think of it as a recipe: the ingredients are the system’s energy, and the steps are how that energy shapes motion and time evolution.",
-      "query": "Hamiltonian Think of it as a recipe: the ingredients are the system’s energy, and the steps are physics lecture notes textbook explanation",
-      "result_snippet": "Thermal energy is energy of microscopic constituents of matter, which may include both kinetic and potential energy. The total energy of a system can be subdivided and classified into potential energy, kinetic energy, or combinations of the two in various ways. MIT 8.04 Quantum Physics I, Spring 2013View the complete course: http://ocw.mit.edu/8-04S13Instructor: Allan AdamsIn this lecture, Prof. Get step-by-step solutions for mechanics, electricity and waves with our free ai physics solver.The most advanced Physics AI Solver for instant problem solutions. Upload a photo or type any physics problem to get step-by-step explanations. New laws of physics build on or modify existing laws and theoretical research. For comments or questions about this edition please contact The Feynman Lectures Website. Richard Feynman talking with a teaching assistant after the lecture on The Dependence of Amplitudes on Time, Robert Leighton (left) and Matthew Sands (right) in background, April 29, 1963.",
-      "searched_at": "2026-05-04_22-38-51",
+      "claim": "The classical Hamiltonian is a scalar value, while the quantum Hamiltonian is an operator {operator} that transforms wavefunctions.",
+      "search_attempts": [
+        {
+          "status": "ok",
+          "query": "classical vs quantum Hamiltonian difference",
+          "results": [
+            {
+              "title": "Lagrangian vs Hamiltonian Mechanics: The Key Differences &",
+              "url": "https://profoundphysics.com/lagrangian-vs-hamiltonian-mechanics/",
+              "domain": "profoundphysics.com",
+              "snippet": "... different formulations of classical mechanics, but the two most fundamental formulations, along with Newtonian mechanics, are Lagrangian mechanics and ..."
+            },
+            {
+              "title": "Difference Between Quantum and Classical Mechanics | Compare",
+              "url": "https://www.differencebetween.com/difference-between-quantum-and-vs-classical-mechanics/",
+              "domain": "differencebetween.com",
+              "snippet": "Home / Science & Nature / Science / Physics / Difference Between Quantum and Classical Mechanics ... In classical mechanics, most of the quantum ..."
+            },
+            {
+              "title": "Difference Between Lagrangian and Hamiltonian Mechanics |",
+              "url": "https://www.differencebetween.com/difference-between-lagrangian-and-hamiltonian-mechanics/",
+              "domain": "differencebetween.com",
+              "snippet": "The key difference between Lagrangian and Hamiltonian mechanics is that Lagrangian mechanics describe the difference between kinetic and potential ..."
+            },
+            {
+              "title": "nonclassicality - Why are diagonal Hamiltonians considered",
+              "url": "https://quantumcomputing.stackexchange.com/questions/16662/why-are-diagonal-hamiltonians-considered-classical",
+              "domain": "quantumcomputing.stackexchange.com",
+              "snippet": "In their written assignment, the difference between a quantum and non-quantum hamiltonian is just that one is a diagonal operator and the other is ..."
+            },
+            {
+              "title": "quantum algorithms - Do VQE and QAOA use the same Hamiltonian?",
+              "url": "https://quantumcomputing.stackexchange.com/questions/20984/do-vqe-and-qaoa-use-the-same-hamiltonian",
+              "domain": "quantumcomputing.stackexchange.com",
+              "snippet": "... different \" Hamiltonian \" is converted into its unitary time-evolution operator: $$ \\hat U \\equiv e^{-i\\hat H t} \\approx \\prod_{i,j} e^{-i ..."
+            }
+          ],
+          "urls": [
+            "https://profoundphysics.com/lagrangian-vs-hamiltonian-mechanics/",
+            "https://www.differencebetween.com/difference-between-quantum-and-vs-classical-mechanics/",
+            "https://www.differencebetween.com/difference-between-lagrangian-and-hamiltonian-mechanics/",
+            "https://quantumcomputing.stackexchange.com/questions/16662/why-are-diagonal-hamiltonians-considered-classical",
+            "https://quantumcomputing.stackexchange.com/questions/20984/do-vqe-and-qaoa-use-the-same-hamiltonian"
+          ],
+          "result_snippet": "[1] Lagrangian vs Hamiltonian Mechanics: The Key Differences &\nURL: https://profoundphysics.com/lagrangian-vs-hamiltonian-mechanics/\nSnippet: ... different formulations of classical mechanics, but the two most fundamental formulations, along with Newtonian mechanics, are Lagrangian mechanics and ...\n\n[2] Difference Between Quantum and Classical Mechanics | Compare\nURL: https://www.differencebetween.com/difference-between-quantum-and-vs-classical-mechanics/\nSnippet: Home / Science & Nature / Science / Physics / Difference Between Quantum and Classical Mechanics ... In classical mechanics, most of the quantum ...\n\n[3] Difference Between Lagrangian and Hamiltonian Mechanics |\nURL: https://www.differencebetween.com/difference-between-lagrangian-and-hamiltonian-mechanics/\nSnippet: The key difference between Lagrangian and Hamiltonian mechanics is that Lagrangian mechanics describe the difference between kinetic and potential ...\n\n[4] nonclassicality - Why are diagonal Hamiltonians considered\nURL: https://quantumcomputing.stackexchange.com/questions/16662/why-are-diagonal-hamiltonians-considered-classical\nSnippet: In their written assignment, the difference between a quantum and non-quantum hamiltonian is just that one is a diagonal operator and the other is ...\n\n[5] quantum algorithms - Do VQE and QAOA use the same Hamiltonian?\nURL: https://quantumcomputing.stackexchange.com/questions/20984/do-vqe-and-qaoa-use-the-same-hamiltonian\nSnippet: ... different \" Hamiltonian \" is converted into its unitary time-evolution operator: $$ \\hat U \\equiv e^{-i\\hat H t} \\approx \\prod_{i,j} e^{-i ...",
+          "searched_at": "2026-05-06_12-18-52",
+          "attempt_number": 1
+        }
+      ],
+      "query": "classical vs quantum Hamiltonian difference",
+      "search_status": "ok",
+      "result_snippet": "[1] Lagrangian vs Hamiltonian Mechanics: The Key Differences &\nURL: https://profoundphysics.com/lagrangian-vs-hamiltonian-mechanics/\nSnippet: ... different formulations of classical mechanics, but the two most fundamental formulations, along with Newtonian mechanics, are Lagrangian mechanics and ...\n\n[2] Difference Between Quantum and Classical Mechanics | Compare\nURL: https://www.differencebetween.com/difference-between-quantum-and-vs-classical-mechanics/\nSnippet: Home / Science & Nature / Science / Physics / Difference Between Quantum and Classical Mechanics ... In classical mechanics, most of the quantum ...\n\n[3] Difference Between Lagrangian and Hamiltonian Mechanics |\nURL: https://www.differencebetween.com/difference-between-lagrangian-and-hamiltonian-mechanics/\nSnippet: The key difference between Lagrangian and Hamiltonian mechanics is that Lagrangian mechanics describe the difference between kinetic and potential ...\n\n[4] nonclassicality - Why are diagonal Hamiltonians considered\nURL: https://quantumcomputing.stackexchange.com/questions/16662/why-are-diagonal-hamiltonians-considered-classical\nSnippet: In their written assignment, the difference between a quantum and non-quantum hamiltonian is just that one is a diagonal operator and the other is ...\n\n[5] quantum algorithms - Do VQE and QAOA use the same Hamiltonian?\nURL: https://quantumcomputing.stackexchange.com/questions/20984/do-vqe-and-qaoa-use-the-same-hamiltonian\nSnippet: ... different \" Hamiltonian \" is converted into its unitary time-evolution operator: $$ \\hat U \\equiv e^{-i\\hat H t} \\approx \\prod_{i,j} e^{-i ...",
+      "results": [
+        {
+          "title": "Lagrangian vs Hamiltonian Mechanics: The Key Differences &",
+          "url": "https://profoundphysics.com/lagrangian-vs-hamiltonian-mechanics/",
+          "domain": "profoundphysics.com",
+          "snippet": "... different formulations of classical mechanics, but the two most fundamental formulations, along with Newtonian mechanics, are Lagrangian mechanics and ..."
+        },
+        {
+          "title": "Difference Between Quantum and Classical Mechanics | Compare",
+          "url": "https://www.differencebetween.com/difference-between-quantum-and-vs-classical-mechanics/",
+          "domain": "differencebetween.com",
+          "snippet": "Home / Science & Nature / Science / Physics / Difference Between Quantum and Classical Mechanics ... In classical mechanics, most of the quantum ..."
+        },
+        {
+          "title": "Difference Between Lagrangian and Hamiltonian Mechanics |",
+          "url": "https://www.differencebetween.com/difference-between-lagrangian-and-hamiltonian-mechanics/",
+          "domain": "differencebetween.com",
+          "snippet": "The key difference between Lagrangian and Hamiltonian mechanics is that Lagrangian mechanics describe the difference between kinetic and potential ..."
+        },
+        {
+          "title": "nonclassicality - Why are diagonal Hamiltonians considered",
+          "url": "https://quantumcomputing.stackexchange.com/questions/16662/why-are-diagonal-hamiltonians-considered-classical",
+          "domain": "quantumcomputing.stackexchange.com",
+          "snippet": "In their written assignment, the difference between a quantum and non-quantum hamiltonian is just that one is a diagonal operator and the other is ..."
+        },
+        {
+          "title": "quantum algorithms - Do VQE and QAOA use the same Hamiltonian?",
+          "url": "https://quantumcomputing.stackexchange.com/questions/20984/do-vqe-and-qaoa-use-the-same-hamiltonian",
+          "domain": "quantumcomputing.stackexchange.com",
+          "snippet": "... different \" Hamiltonian \" is converted into its unitary time-evolution operator: $$ \\hat U \\equiv e^{-i\\hat H t} \\approx \\prod_{i,j} e^{-i ..."
+        }
+      ],
+      "urls": [
+        "https://profoundphysics.com/lagrangian-vs-hamiltonian-mechanics/",
+        "https://www.differencebetween.com/difference-between-quantum-and-vs-classical-mechanics/",
+        "https://www.differencebetween.com/difference-between-lagrangian-and-hamiltonian-mechanics/",
+        "https://quantumcomputing.stackexchange.com/questions/16662/why-are-diagonal-hamiltonians-considered-classical",
+        "https://quantumcomputing.stackexchange.com/questions/20984/do-vqe-and-qaoa-use-the-same-hamiltonian"
+      ],
+      "attempt_count": 1,
+      "searched_at": "2026-05-06_12-18-52",
+      "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
+    },
+    "C004": {
+      "claim": "The Hamiltonian provides a unified approach to analyzing motion and interactions in both classical and quantum systems.",
+      "search_attempts": [
+        {
+          "status": "ok",
+          "query": "Hamiltonian unifying concept physics",
+          "results": [
+            {
+              "title": "Hamiltonian mechanics - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Hamiltonian_mechanics",
+              "domain": "en.wikipedia.org",
+              "snippet": "April 2, 2026 - Introduced by Sir William Rowan Hamilton, Hamiltonian mechanics replaces (generalized) velocities ... {\\displaystyle {\\dot {q}}^{i}} used in Lagrangian mechanics with (generalized) momenta. Both theories provide interpretations of classical mechanics and describe the same physical phenomena."
+            },
+            {
+              "title": "Hamiltonian (quantum mechanics) - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Hamiltonian_(quantum_mechanics)",
+              "domain": "en.wikipedia.org",
+              "snippet": "January 24, 2026 - The Hamiltonian is named after William Rowan Hamilton, who developed a revolutionary reformulation of Newtonian mechanics, known as Hamiltonian mechanics, which was historically important to the development of quantum physics."
+            },
+            {
+              "title": "Hamilton's principle - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Hamilton's_principle",
+              "domain": "en.wikipedia.org",
+              "snippet": "March 14, 2026 - {\\displaystyle {\\mathcal {S}}} is a functional, i.e., something that takes as its input a function and returns a single number, a scalar. In terms of functional analysis, Hamilton's principle states that the true evolution of a physical system is a solution of the functional equation"
+            },
+            {
+              "title": "Hamiltonian system - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Hamiltonian_system",
+              "domain": "en.wikipedia.org",
+              "snippet": "November 30, 2025 - A Hamiltonian system is a dynamical system governed by Hamilton's equations. In physics, this dynamical system describes the evolution of a physical system such as a planetary system or an electron in an electromagnetic field."
+            },
+            {
+              "title": "Unitary transformation (quantum mechanics) - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Unitary_transformation_(quantum_mechanics)",
+              "domain": "en.wikipedia.org",
+              "snippet": "February 3, 2026 - {\\displaystyle \\omega _{d}} which couples the two states, and that the time-dependent driven Hamiltonian is ... {\\displaystyle H/\\hbar =\\omega |e\\rangle \\langle e|+\\Omega \\ e^{i\\omega _{d}t}|g\\rangle \\langle e|+\\Omega ^{*}\\ e^{-i\\omega _{d}t}|e\\rangle \\langle g|} ... {\\displaystyle \\Omega } ), it is difficult to anticipate the effect of the drive (see driven harmonic motion). ... {\\displaystyle |g\\rangle } . In the Bloch sphere representation of a two-state system, this corresponds to rotation around the z-axis. Conceptually, we can remove this component of the dynamics by entering a rotating frame of reference defined by the unitary transformation"
+            }
+          ],
+          "urls": [
+            "https://en.wikipedia.org/wiki/Hamiltonian_mechanics",
+            "https://en.wikipedia.org/wiki/Hamiltonian_(quantum_mechanics)",
+            "https://en.wikipedia.org/wiki/Hamilton's_principle",
+            "https://en.wikipedia.org/wiki/Hamiltonian_system",
+            "https://en.wikipedia.org/wiki/Unitary_transformation_(quantum_mechanics)"
+          ],
+          "result_snippet": "[1] Hamiltonian mechanics - Wikipedia\nURL: https://en.wikipedia.org/wiki/Hamiltonian_mechanics\nSnippet: April 2, 2026 - Introduced by Sir William Rowan Hamilton, Hamiltonian mechanics replaces (generalized) velocities ... {\\displaystyle {\\dot {q}}^{i}} used in Lagrangian mechanics with (generalized) momenta. Both theories provide interpretations of classical mechanics and describe the same physical phenomena.\n\n[2] Hamiltonian (quantum mechanics) - Wikipedia\nURL: https://en.wikipedia.org/wiki/Hamiltonian_(quantum_mechanics)\nSnippet: January 24, 2026 - The Hamiltonian is named after William Rowan Hamilton, who developed a revolutionary reformulation of Newtonian mechanics, known as Hamiltonian mechanics, which was historically important to the development of quantum physics.\n\n[3] Hamilton's principle - Wikipedia\nURL: https://en.wikipedia.org/wiki/Hamilton's_principle\nSnippet: March 14, 2026 - {\\displaystyle {\\mathcal {S}}} is a functional, i.e., something that takes as its input a function and returns a single number, a scalar. In terms of functional analysis, Hamilton's principle states that the true evolution of a physical system is a solution of the functional equation\n\n[4] Hamiltonian system - Wikipedia\nURL: https://en.wikipedia.org/wiki/Hamiltonian_system\nSnippet: November 30, 2025 - A Hamiltonian system is a dynamical system governed by Hamilton's equations. In physics, this dynamical system describes the evolution of a physical system such as a planetary system or an electron in an electromagnetic field.\n\n[5] Unitary transformation (quantum mechanics) - Wikipedia\nURL: https://en.wikipedia.org/wiki/Unitary_transformation_(quantum_mechanics)\nSnippet: February 3, 2026 - {\\displaystyle \\omega _{d}} which couples the two states, and that the time-dependent driven Hamiltonian is ... {\\displaystyle H/\\hbar =\\omega |e\\rangle \\langle e|+\\Omega \\ e^{i\\omega _{d}t}|g\\rangle \\langle e|+\\Omega ^{*}\\ e^{-i\\omega _{d}t}|e\\rangle \\langle g|} ... {\\displaystyle \\Omega } ), it is difficult to anticipate the effect of the drive (see driven harmonic motion). ... {\\displaystyle |g\\rangle } . In the Bloch sphere representation of a two-state system, this corresponds to rotation around the z-axis. Conceptually, we can remove this component of the dynamics by entering a rotating frame of reference defined by the unitary transformation",
+          "searched_at": "2026-05-06_12-55-17",
+          "attempt_number": 1
+        }
+      ],
+      "query": "Hamiltonian unifying concept physics",
+      "search_status": "ok",
+      "result_snippet": "[1] Hamiltonian mechanics - Wikipedia\nURL: https://en.wikipedia.org/wiki/Hamiltonian_mechanics\nSnippet: April 2, 2026 - Introduced by Sir William Rowan Hamilton, Hamiltonian mechanics replaces (generalized) velocities ... {\\displaystyle {\\dot {q}}^{i}} used in Lagrangian mechanics with (generalized) momenta. Both theories provide interpretations of classical mechanics and describe the same physical phenomena.\n\n[2] Hamiltonian (quantum mechanics) - Wikipedia\nURL: https://en.wikipedia.org/wiki/Hamiltonian_(quantum_mechanics)\nSnippet: January 24, 2026 - The Hamiltonian is named after William Rowan Hamilton, who developed a revolutionary reformulation of Newtonian mechanics, known as Hamiltonian mechanics, which was historically important to the development of quantum physics.\n\n[3] Hamilton's principle - Wikipedia\nURL: https://en.wikipedia.org/wiki/Hamilton's_principle\nSnippet: March 14, 2026 - {\\displaystyle {\\mathcal {S}}} is a functional, i.e., something that takes as its input a function and returns a single number, a scalar. In terms of functional analysis, Hamilton's principle states that the true evolution of a physical system is a solution of the functional equation\n\n[4] Hamiltonian system - Wikipedia\nURL: https://en.wikipedia.org/wiki/Hamiltonian_system\nSnippet: November 30, 2025 - A Hamiltonian system is a dynamical system governed by Hamilton's equations. In physics, this dynamical system describes the evolution of a physical system such as a planetary system or an electron in an electromagnetic field.\n\n[5] Unitary transformation (quantum mechanics) - Wikipedia\nURL: https://en.wikipedia.org/wiki/Unitary_transformation_(quantum_mechanics)\nSnippet: February 3, 2026 - {\\displaystyle \\omega _{d}} which couples the two states, and that the time-dependent driven Hamiltonian is ... {\\displaystyle H/\\hbar =\\omega |e\\rangle \\langle e|+\\Omega \\ e^{i\\omega _{d}t}|g\\rangle \\langle e|+\\Omega ^{*}\\ e^{-i\\omega _{d}t}|e\\rangle \\langle g|} ... {\\displaystyle \\Omega } ), it is difficult to anticipate the effect of the drive (see driven harmonic motion). ... {\\displaystyle |g\\rangle } . In the Bloch sphere representation of a two-state system, this corresponds to rotation around the z-axis. Conceptually, we can remove this component of the dynamics by entering a rotating frame of reference defined by the unitary transformation",
+      "results": [
+        {
+          "title": "Hamiltonian mechanics - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Hamiltonian_mechanics",
+          "domain": "en.wikipedia.org",
+          "snippet": "April 2, 2026 - Introduced by Sir William Rowan Hamilton, Hamiltonian mechanics replaces (generalized) velocities ... {\\displaystyle {\\dot {q}}^{i}} used in Lagrangian mechanics with (generalized) momenta. Both theories provide interpretations of classical mechanics and describe the same physical phenomena."
+        },
+        {
+          "title": "Hamiltonian (quantum mechanics) - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Hamiltonian_(quantum_mechanics)",
+          "domain": "en.wikipedia.org",
+          "snippet": "January 24, 2026 - The Hamiltonian is named after William Rowan Hamilton, who developed a revolutionary reformulation of Newtonian mechanics, known as Hamiltonian mechanics, which was historically important to the development of quantum physics."
+        },
+        {
+          "title": "Hamilton's principle - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Hamilton's_principle",
+          "domain": "en.wikipedia.org",
+          "snippet": "March 14, 2026 - {\\displaystyle {\\mathcal {S}}} is a functional, i.e., something that takes as its input a function and returns a single number, a scalar. In terms of functional analysis, Hamilton's principle states that the true evolution of a physical system is a solution of the functional equation"
+        },
+        {
+          "title": "Hamiltonian system - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Hamiltonian_system",
+          "domain": "en.wikipedia.org",
+          "snippet": "November 30, 2025 - A Hamiltonian system is a dynamical system governed by Hamilton's equations. In physics, this dynamical system describes the evolution of a physical system such as a planetary system or an electron in an electromagnetic field."
+        },
+        {
+          "title": "Unitary transformation (quantum mechanics) - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Unitary_transformation_(quantum_mechanics)",
+          "domain": "en.wikipedia.org",
+          "snippet": "February 3, 2026 - {\\displaystyle \\omega _{d}} which couples the two states, and that the time-dependent driven Hamiltonian is ... {\\displaystyle H/\\hbar =\\omega |e\\rangle \\langle e|+\\Omega \\ e^{i\\omega _{d}t}|g\\rangle \\langle e|+\\Omega ^{*}\\ e^{-i\\omega _{d}t}|e\\rangle \\langle g|} ... {\\displaystyle \\Omega } ), it is difficult to anticipate the effect of the drive (see driven harmonic motion). ... {\\displaystyle |g\\rangle } . In the Bloch sphere representation of a two-state system, this corresponds to rotation around the z-axis. Conceptually, we can remove this component of the dynamics by entering a rotating frame of reference defined by the unitary transformation"
+        }
+      ],
+      "urls": [
+        "https://en.wikipedia.org/wiki/Hamiltonian_mechanics",
+        "https://en.wikipedia.org/wiki/Hamiltonian_(quantum_mechanics)",
+        "https://en.wikipedia.org/wiki/Hamilton's_principle",
+        "https://en.wikipedia.org/wiki/Hamiltonian_system",
+        "https://en.wikipedia.org/wiki/Unitary_transformation_(quantum_mechanics)"
+      ],
+      "attempt_count": 1,
+      "searched_at": "2026-05-06_12-55-17",
+      "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
+    },
+    "C005": {
+      "claim": "The Hamiltonian formalism reveals deep symmetries and conservation laws through its connection to Noether’s theorem {Noether’s theorem}.",
+      "search_attempts": [
+        {
+          "status": "ok",
+          "query": "Hamiltonian The Hamiltonian formalism reveals deep symmetries and conservation laws through its connection to Noether’s theorem {Noether’s physics lecture notes textbook explanation",
+          "results": [
+            {
+              "title": "Noether's theorem - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Noether's_theorem",
+              "domain": "en.wikipedia.org",
+              "snippet": "It reveals the fundamental relation between the symmetries of a physical system and the conservation laws. ... Noether's theorem is important, both ..."
+            },
+            {
+              "title": "Asymptotic Symmetries of the Holst Action at Spatial Infinity:",
+              "url": "https://arxiv.org/html/2604.02052v1",
+              "domain": "arxiv.org",
+              "snippet": "The covariant phase space formalism [ 23 , 24 , 25 ] offers an alternative route to defining asymptotic symmetries and their associated charges, which ..."
+            },
+            {
+              "title": "Learning Generalized Hamiltonians Using Fully Symplectic",
+              "url": "https://arxiv.org/html/2409.11138v3",
+              "domain": "arxiv.org",
+              "snippet": "Showing that the Hamiltonian Neural Net generalizes to out-of-distribution data and is able to learn the governing hamiltonians for systems with non ..."
+            },
+            {
+              "title": "Invariance under Structure Translation as the Origin of Host",
+              "url": "https://arxiv.org/html/2512.02730v3",
+              "domain": "arxiv.org",
+              "snippet": "... as dynamical consequences of the same underlying conservation law, including vaccination, immune memory, tolerance, original antigenic sin, and T ..."
+            },
+            {
+              "title": "Metriplector: From Field Theory to Neural Architecture",
+              "url": "https://arxiv.org/html/2603.29496v1",
+              "domain": "arxiv.org",
+              "snippet": "... the physics: Lagrangian and Hamiltonian mechanics, the GENERIC framework (Grmela & Öttinger, 1997 ; Öttinger, 2005 ) that unifies reversible ..."
+            }
+          ],
+          "urls": [
+            "https://en.wikipedia.org/wiki/Noether's_theorem",
+            "https://arxiv.org/html/2604.02052v1",
+            "https://arxiv.org/html/2409.11138v3",
+            "https://arxiv.org/html/2512.02730v3",
+            "https://arxiv.org/html/2603.29496v1"
+          ],
+          "result_snippet": "[1] Noether's theorem - Wikipedia\nURL: https://en.wikipedia.org/wiki/Noether's_theorem\nSnippet: It reveals the fundamental relation between the symmetries of a physical system and the conservation laws. ... Noether's theorem is important, both ...\n\n[2] Asymptotic Symmetries of the Holst Action at Spatial Infinity:\nURL: https://arxiv.org/html/2604.02052v1\nSnippet: The covariant phase space formalism [ 23 , 24 , 25 ] offers an alternative route to defining asymptotic symmetries and their associated charges, which ...\n\n[3] Learning Generalized Hamiltonians Using Fully Symplectic\nURL: https://arxiv.org/html/2409.11138v3\nSnippet: Showing that the Hamiltonian Neural Net generalizes to out-of-distribution data and is able to learn the governing hamiltonians for systems with non ...\n\n[4] Invariance under Structure Translation as the Origin of Host\nURL: https://arxiv.org/html/2512.02730v3\nSnippet: ... as dynamical consequences of the same underlying conservation law, including vaccination, immune memory, tolerance, original antigenic sin, and T ...\n\n[5] Metriplector: From Field Theory to Neural Architecture\nURL: https://arxiv.org/html/2603.29496v1\nSnippet: ... the physics: Lagrangian and Hamiltonian mechanics, the GENERIC framework (Grmela & Öttinger, 1997 ; Öttinger, 2005 ) that unifies reversible ...",
+          "searched_at": "2026-05-06_12-55-19",
+          "attempt_number": 1
+        }
+      ],
+      "query": "Hamiltonian The Hamiltonian formalism reveals deep symmetries and conservation laws through its connection to Noether’s theorem {Noether’s physics lecture notes textbook explanation",
+      "search_status": "ok",
+      "result_snippet": "[1] Noether's theorem - Wikipedia\nURL: https://en.wikipedia.org/wiki/Noether's_theorem\nSnippet: It reveals the fundamental relation between the symmetries of a physical system and the conservation laws. ... Noether's theorem is important, both ...\n\n[2] Asymptotic Symmetries of the Holst Action at Spatial Infinity:\nURL: https://arxiv.org/html/2604.02052v1\nSnippet: The covariant phase space formalism [ 23 , 24 , 25 ] offers an alternative route to defining asymptotic symmetries and their associated charges, which ...\n\n[3] Learning Generalized Hamiltonians Using Fully Symplectic\nURL: https://arxiv.org/html/2409.11138v3\nSnippet: Showing that the Hamiltonian Neural Net generalizes to out-of-distribution data and is able to learn the governing hamiltonians for systems with non ...\n\n[4] Invariance under Structure Translation as the Origin of Host\nURL: https://arxiv.org/html/2512.02730v3\nSnippet: ... as dynamical consequences of the same underlying conservation law, including vaccination, immune memory, tolerance, original antigenic sin, and T ...\n\n[5] Metriplector: From Field Theory to Neural Architecture\nURL: https://arxiv.org/html/2603.29496v1\nSnippet: ... the physics: Lagrangian and Hamiltonian mechanics, the GENERIC framework (Grmela & Öttinger, 1997 ; Öttinger, 2005 ) that unifies reversible ...",
+      "results": [
+        {
+          "title": "Noether's theorem - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Noether's_theorem",
+          "domain": "en.wikipedia.org",
+          "snippet": "It reveals the fundamental relation between the symmetries of a physical system and the conservation laws. ... Noether's theorem is important, both ..."
+        },
+        {
+          "title": "Asymptotic Symmetries of the Holst Action at Spatial Infinity:",
+          "url": "https://arxiv.org/html/2604.02052v1",
+          "domain": "arxiv.org",
+          "snippet": "The covariant phase space formalism [ 23 , 24 , 25 ] offers an alternative route to defining asymptotic symmetries and their associated charges, which ..."
+        },
+        {
+          "title": "Learning Generalized Hamiltonians Using Fully Symplectic",
+          "url": "https://arxiv.org/html/2409.11138v3",
+          "domain": "arxiv.org",
+          "snippet": "Showing that the Hamiltonian Neural Net generalizes to out-of-distribution data and is able to learn the governing hamiltonians for systems with non ..."
+        },
+        {
+          "title": "Invariance under Structure Translation as the Origin of Host",
+          "url": "https://arxiv.org/html/2512.02730v3",
+          "domain": "arxiv.org",
+          "snippet": "... as dynamical consequences of the same underlying conservation law, including vaccination, immune memory, tolerance, original antigenic sin, and T ..."
+        },
+        {
+          "title": "Metriplector: From Field Theory to Neural Architecture",
+          "url": "https://arxiv.org/html/2603.29496v1",
+          "domain": "arxiv.org",
+          "snippet": "... the physics: Lagrangian and Hamiltonian mechanics, the GENERIC framework (Grmela & Öttinger, 1997 ; Öttinger, 2005 ) that unifies reversible ..."
+        }
+      ],
+      "urls": [
+        "https://en.wikipedia.org/wiki/Noether's_theorem",
+        "https://arxiv.org/html/2604.02052v1",
+        "https://arxiv.org/html/2409.11138v3",
+        "https://arxiv.org/html/2512.02730v3",
+        "https://arxiv.org/html/2603.29496v1"
+      ],
+      "attempt_count": 1,
+      "searched_at": "2026-05-06_12-55-19",
       "source_policy": "Prefer stable accepted physics sources; avoid novelty unless topic requires it."
     }
   },
-  "last_updated": "2026-05-04_22-38-52"
+  "summary": {
+    "total_claims": 5,
+    "checked_claim_count": 1,
+    "passing_claim_count": 0,
+    "unchecked_claim_count": 4,
+    "unresolved_or_needs_qualification": 5,
+    "actionable_issue_count": 0,
+    "evidence_retry_count": 1,
+    "claim_review_complete": false,
+    "unchecked_claim_ids": [
+      "C002",
+      "C003",
+      "C004",
+      "C005"
+    ],
+    "actionable_claim_ids": [],
+    "evidence_retry_claim_ids": [
+      "C001"
+    ],
+    "highest_priority_fixes": []
+  },
+  "last_updated": "2026-05-06_13-31-44"
 }

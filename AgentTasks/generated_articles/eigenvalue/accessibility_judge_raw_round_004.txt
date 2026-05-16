@@ -1,0 +1,34 @@
+{
+  "score": 3,
+  "pass": false,
+  "strengths": [
+    "specific strength"
+  ],
+  "issues": [
+    {
+      "severity": "high",
+      "location": "core idea section",
+      "problem": "Jargon-heavy opening with unexplained terms like 'scaling factors' and 'linear algebra' without intuitive context",
+      "suggested_fix": "Start with a concrete analogy (e.g., stretching a rubber band) and define terms like 'transformation' before introducing eigenvalues"
+    },
+    {
+      "severity": "high",
+      "location": "why this matters section",
+      "problem": "Technical terms like 'stress tensor' and 'principal stresses' appear without explanation, creating knowledge gaps",
+      "suggested_fix": "Add analogies for stress tensors (e.g., 'a grid of springs') and define 'principal stresses' as 'directions where forces act most strongly'"
+    },
+    {
+      "severity": "medium",
+      "location": "math equation section",
+      "problem": "Math appears without sufficient plain-language interpretation of symbols (A, v, λ)",
+      "suggested_fix": "Break down the equation with visual metaphors (e.g., 'A is like a set of instructions for stretching a vector')"
+    },
+    {
+      "severity": "high",
+      "location": "overall structure",
+      "problem": "Lacks gradual progression from simple to complex ideas, assuming prior familiarity with linear algebra concepts",
+      "suggested_fix": "Reorganize to start with 2D vector transformations, then introduce matrices, then connect to quantum mechanics"
+    }
+  ],
+  "best_next_revision": "Begin with a relatable analogy (e.g., stretching a rubber band) to explain scaling, then gradually introduce matrices as transformation tools, using visual metaphors to explain eigenvectors and eigenvalues before connecting to quantum mechanics concepts."
+}

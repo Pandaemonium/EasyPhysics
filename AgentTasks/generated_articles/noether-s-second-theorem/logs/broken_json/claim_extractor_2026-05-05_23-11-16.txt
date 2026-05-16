@@ -1,0 +1,33 @@
+{
+  "claims": [
+    {
+      "id": "C001",
+      "claim": "Noether's first theorem links global symmetries to conservation laws, such as energy or momentum, by showing that invariant actions under universal transformations enforce these laws.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Establishes the foundational connection between symmetry and conservation in physics.",
+      "suggested_search_query": "Noether's first theorem global symmetries conservation laws"
+    },
+    {
+      "id": "C002",
+      "claim": "Noether's second theorem addresses local symmetries, which impose structural constraints on equations of motion rather than conservation laws, ensuring symmetries are 'built into' the system.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Clarifies the distinction between global and local symmetry consequences in physics.",
+      "suggested_search_query": "Noether's second theorem local symmetries constraints"
+    },
+    {
+      "id": "C003",
+      "claim": "Variational symmetries are transformations that leave the action functional unchanged, forcing the system's equations of motion to respect these symmetries even if they aren't explicitly visible in dynamics.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Defines the mathematical mechanism behind Noether's theorems.",
+      "suggested_search_query": "variational symmetry action functional Noether"
+    },
+    {
+      "id": "C004",
+      "claim": "Gauge symmetries in electromagnetism, like local charge conservation, generate constraints on Maxwell’s equations, ensuring the theory remains mathematically consistent.",
+      "type

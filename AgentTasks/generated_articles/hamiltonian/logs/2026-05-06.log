@@ -1,0 +1,1011 @@
+
+================================================================================
+TIME: 2026-05-06T10:01:51
+NODE: writer
+PROMPT_CHARS: 6092
+PROMPT_TOKENS_APPROX: 1523
+RESPONSE_CHARS: 2861
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"keep_alive": -1, "num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.8}
+================================================================================
+PROMPT:
+Revise this existing EasyPhysics article once.
+
+Title: Hamiltonian
+
+Revision brief:
+- rigor score 0: Rigor judge failed. Suggested fix: Automatically rerun rigor review.
+- rigor next revision: Automatically rerun rigor review.
+- accessibility score 0: Accessibility judge failed. Suggested fix: Automatically rerun accessibility review.
+- accessibility next revision: Automatically rerun accessibility review.
+- accessibility score 1: Repeats technical term 'Hamiltonian' without explanation, violating the principle of introducing standard terms after meaning Suggested fix: Replace the repeated term with descriptive language first, then introduce 'Hamiltonian' {Hamiltonian} as the technical term
+- accessibility score 1: Uses unexplained terms like 'operator' {operator} and 'wavefunction' {wavefunction} without defining their meaning Suggested fix: Add plain-language explanations for all technical terms before their first use
+
+Human/editor notes:
+# Human/editor notes
+
+Add any preferences, corrections, or article-specific constraints here.
+
+
+Current draft:
+# Hamiltonian
+
+## The core idea  
+Imagine the **Hamiltonian** {Hamiltonian} as a **total energy rulebook** {Hamiltonian} for a system. It’s like a recipe that tells you how energy shapes motion and time evolution. In classical physics, it’s a list of ingredients (kinetic + potential energy) and steps (how energy converts between motion and position). In quantum physics, it’s a set of rules (operators) that tell a **wavefunction** {wavefunction} how to evolve over time. Both versions use energy as the key ingredient to shape the system’s behavior.  
+
+## Why this matters  
+The **Hamiltonian** {Hamilton} is the central tool for understanding how physical systems move, change, and interact. Whether you’re studying a swinging pendulum or a quantum particle, it connects forces, energy, and motion—making it essential for predicting the behavior of everything from atoms to galaxies.  
+
+## The simple picture  
+[Diagram idea: Energy Balance Sheet]  
+Think of the Hamiltonian as a kitchen recipe. In classical mechanics, it’s a list of ingredients (kinetic + potential energy) and steps (how energy converts between motion and position). In quantum mechanics, it’s a set of rules (operators) that tell a **wavefunction** {wavefunction} how to evolve over time. Both versions use energy as the key ingredient to shape the system’s behavior.  
+
+### What is a wavefunction?  
+A **wavefunction** {wavefunction} is a mathematical description of a quantum system’s state. It’s like a probability map that tells you where a particle might be found, but it’s not a physical object—it’s a tool for calculating outcomes.  
+
+### What is an operator?  
+An **operator** {operator} is a rule that tells you how to transform one mathematical object into another. In quantum mechanics, operators like the Hamiltonian act on wavefunctions to predict how systems change over time.  
+
+## The more precise picture  
+### Classical Mechanics: Energy as a Rulebook  
+In classical physics, the **Hamiltonian** {Hamiltonian} is the total energy of a system:  
+$$
+H = \text{Kinetic Energy} + \text{Potential Energy}
+$$  
+This rulebook determines motion through **Hamilton’s equations** {Hamilton’s equations}, which describe how position and momentum change over time. For example, a pendulum’s swing is dictated by how its kinetic energy (motion) and potential energy (height) balance.  
+
+**Plain-language interpretation**: Imagine a pendulum as a recipe. The Hamiltonian tells you how the energy of motion (kinetic) and the energy of height (potential) combine to make the pendulum swing back and forth.  
+
+### Quantum Mechanics: The Energy Operator  
+In quantum physics, the **Hamiltonian** {Hamiltonian} is an **operator** {operator} that acts on **wavefunctions** {wavefunction} to determine how quantum states evolve. It answers two questions:  
+1. **What are the possible energy levels** (eigenvalues)?  
+2. **What states correspond to definite energy** (eigenstates)?  
+
+The **Schrödinger equation** {Schrödinger equation} links the Hamiltonian to time evolution:  
+$$
+i\hbar \frac{\partial \psi}{\partial t} = \hat{H} \psi
+$$  
+This equation shows how the Hamiltonian operator {operator} dictates the “dance” of a quantum system over time.  
+
+**Plain-language interpretation**: The Schrödinger equation is like a recipe for how a quantum system changes. The Hamiltonian tells you the rules (operator) to apply to the wavefunction (recipe) to find the system’s future state.  
+
+## Common misconceptions  
+❌ **"The Hamiltonian is just a formula for energy."**  
+→ In quantum mechanics, it’s an **operator** {operator} that acts on states, not just a number.  
+
+❌ **"Hamiltonian and Lagrangian are the same."**  
+→ They’re different tools: the Hamiltonian focuses on energy, while the Lagrangian focuses on differences in energy (kinetic minus potential).  
+
+❌ **"The Hamiltonian only applies to particles."**  
+→ It applies to fields, waves, and even abstract systems like quantum states.  
+
+## How this connects to the rest of physics  
+The **Hamiltonian** {Hamiltonian} is the backbone of modern physics:  
+- **Quantum mechanics**: Determines energy levels and time evolution.  
+- **Conservation laws**: Links to Noether’s theorem {Noether’s theorem} (symmetries in time → energy conservation).  
+- **Relativity**: In special relativity, the Hamiltonian is part of the energy-momentum formulation.  
+- **Fields and particles**: In quantum field theory, the Hamiltonian governs interactions between particles and fields.  
+
+## Recap  
+- The **Hamiltonian** {Hamiltonian} is the
+
+Instructions:
+- Return the complete revised article in Markdown.
+- Do not start from scratch.
+- Preserve good explanations.
+- Fix only the most important clarity, structure, and rigor problems.
+- If a section is already good, leave it mostly alone.
+- Add qualifications where the current draft overclaims.
+- Make the opening more intuitive if needed.
+- Keep standard terms in braces after intuitive names.
+- Do not include commentary before or after the article.
+
+RESPONSE:
+# Hamiltonian
+
+## The core idea  
+Imagine the **total energy rulebook** {Hamiltonian} as the key to understanding how energy shapes motion and time evolution. It’s like a recipe that tells you how energy converts between motion and position in classical physics, or how quantum systems evolve over time. In classical mechanics, it’s a list of ingredients (kinetic + potential energy) and steps (how energy balances motion and position). In quantum mechanics, it’s a set of rules (operators) that tell a **probability map** {wavefunction} how to change over time. Both versions use energy as the key ingredient to shape the system’s behavior.  
+
+## Why this matters  
+The **total energy rulebook** {Hamiltonian} is the central tool for understanding how physical systems move, change, and interact. Whether you’re studying a swinging pendulum or a quantum particle, it connects forces, energy, and motion—making it essential for predicting the behavior of everything from atoms to galaxies.  
+
+## The simple picture  
+[Diagram idea: Energy Balance Sheet]  
+Think of the Hamiltonian as a kitchen recipe. In classical mechanics, it’s a list of ingredients (kinetic + potential energy) and steps (how energy balances motion and position). In quantum mechanics, it’s a set of rules (operators) that tell a **probability map** {wavefunction} how to change over time. Both versions use energy as the key ingredient to shape the system’s behavior.  
+
+### What is a probability map?  
+A **probability map** {wavefunction} is a mathematical description of a quantum system’s state. It’s like a map that tells you where a particle might be found, but it’s not a physical object—it’s a tool for calculating outcomes.  
+
+### What is an operator?  
+An **operator** {operator} is a rule that tells you how to transform one mathematical object into another. In quantum mechanics, operators like the Hamiltonian act on wavefunctions to predict how systems change over time.  
+
+## The more precise picture  
+### Classical Mechanics: Energy as a Rulebook  
+In classical physics, the **total energy rulebook** {Hamiltonian} is the total energy of a system:  
+$$
+H = \text{Kinetic Energy} + \text{Potential Energy}
+$$  
+This rulebook determines motion through **Hamilton’s equations** {Hamilton’s equations}, which describe how position and momentum change over time. For example, a pendulum’s swing is dictated by how its kinetic energy (motion) and potential energy (height) balance.  
+
+**Plain-language interpretation**: Imagine a pendulum as a recipe. The Hamiltonian tells you how the energy of motion (kinetic) and the energy of height (potential) combine to make the pendulum swing back and forth.  
+
+### Quantum Mechanics: The Energy Operator  
+In quantum physics, the **total energy rulebook** {Hamiltonian} is an **operator** {operator} that acts on **probability maps** {
+
+================================================================================
+TIME: 2026-05-06T10:12:07
+NODE: claim_extractor
+PROMPT_CHARS: 3740
+PROMPT_TOKENS_APPROX: 935
+RESPONSE_CHARS: 4468
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"keep_alive": -1, "num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.8}
+================================================================================
+PROMPT:
+Extract 8 to 12 important scientific or explanatory claims from this article draft.
+
+Return exactly one JSON object with this shape:
+{
+  "claims": [
+    {
+      "id": "C001",
+      "claim": "A clear standalone claim.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "brief reason",
+      "suggested_search_query": "stable physics source query"
+    }
+  ]
+}
+
+Rules:
+- Return a JSON object, not a list.
+- Do not return an empty list unless the draft is empty.
+- Use true/false, not True/False.
+- No Markdown fences.
+- No prose outside the JSON.
+- Prefer claims that matter for scientific correctness.
+- Include claims where an analogy could mislead.
+- Search queries should target stable sources: textbooks, lecture notes, CERN, Fermilab, NASA, DOE, NIST, or university pages.
+
+Article title: Hamiltonian
+
+Draft:
+# Hamiltonian
+
+## The core idea  
+Imagine the **total energy rulebook** {Hamiltonian} as the key to understanding how energy shapes motion and time evolution. It’s like a recipe that tells you how energy converts between motion and position in classical physics, or how quantum systems evolve over time. In classical mechanics, it’s a list of ingredients (kinetic + potential energy) and steps (how energy balances motion and position). In quantum mechanics, it’s a set of rules (operators) that tell a **probability map** {wavefunction} how to change over time. Both versions use energy as the key ingredient to shape the system’s behavior.  
+
+## Why this matters  
+The **total energy rulebook** {Hamiltonian} is the central tool for understanding how physical systems move, change, and interact. Whether you’re studying a swinging pendulum or a quantum particle, it connects forces, energy, and motion—making it essential for predicting the behavior of everything from atoms to galaxies.  
+
+## The simple picture  
+[Diagram idea: Energy Balance Sheet]  
+Think of the Hamiltonian as a kitchen recipe. In classical mechanics, it’s a list of ingredients (kinetic + potential energy) and steps (how energy balances motion and position). In quantum mechanics, it’s a set of rules (operators) that tell a **probability map** {wavefunction} how to change over time. Both versions use energy as the key ingredient to shape the system’s behavior.  
+
+### What is a probability map?  
+A **probability map** {wavefunction} is a mathematical description of a quantum system’s state. It’s like a map that tells you where a particle might be found, but it’s not a physical object—it’s a tool for calculating outcomes.  
+
+### What is an operator?  
+An **operator** {operator} is a rule that tells you how to transform one mathematical object into another. In quantum mechanics, operators like the Hamiltonian act on wavefunctions to predict how systems change over time.  
+
+## The more precise picture  
+### Classical Mechanics: Energy as a Rulebook  
+In classical physics, the **total energy rulebook** {Hamiltonian} is the total energy of a system:  
+$$
+H = \text{Kinetic Energy} + \text{Potential Energy}
+$$  
+This rulebook determines motion through **Hamilton’s equations** {Hamilton’s equations}, which describe how position and momentum change over time. For example, a pendulum’s swing is dictated by how its kinetic energy (motion) and potential energy (height) balance.  
+
+**Plain-language interpretation**: Imagine a pendulum as a recipe. The Hamiltonian tells you how the energy of motion (kinetic) and the energy of height (potential) combine to make the pendulum swing back and forth.  
+
+### Quantum Mechanics: The Energy Operator  
+In quantum physics, the **total energy rulebook** {Hamiltonian} is an **operator** {operator} that acts on **probability maps** {
+
+RESPONSE:
+{
+  "claims": [
+    {
+      "id": "C001",
+      "claim": "The Hamiltonian is a total energy rulebook {Hamiltonian} that governs how energy shapes motion and time evolution in both classical and quantum systems.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "It unifies energy concepts across physics domains, enabling predictions of system behavior.",
+      "suggested_search_query": "Hamiltonian definition in classical and quantum mechanics"
+    },
+    {
+      "id": "C002",
+      "claim": "In classical mechanics, the Hamiltonian {Hamiltonian} is the sum of kinetic and potential energy, determining motion via Hamilton’s equations {Hamilton’s equations}.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "This formula is foundational for analyzing mechanical systems.",
+      "suggested_search_query": "Hamiltonian classical mechanics formula"
+    },
+    {
+      "id": "C003",
+      "claim": "In quantum mechanics, the Hamiltonian {Hamiltonian} is an operator {operator} that acts on wavefunctions {wavefunction} to predict time evolution.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Operators like the Hamiltonian are central to quantum dynamics.",
+      "suggested_search_query": "Hamiltonian operator in quantum mechanics"
+    },
+    {
+      "id": "C004",
+      "claim": "The Hamiltonian {Hamiltonian} connects forces, energy, and motion, making it essential for predicting system behavior from atoms to galaxies.",
+      "type": "importance",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Its universality across scales underscores its foundational role in physics.",
+      "suggested_search_query": "Hamiltonian importance in physics"
+    },
+    {
+      "id": "C005",
+      "claim": "The probability map {wavefunction} is a mathematical description of a quantum system’s state, not a physical object.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Clarifies the abstract nature of quantum states.",
+      "suggested_search_query": "Wavefunction definition in quantum mechanics"
+    },
+    {
+      "id": "C006",
+      "claim": "An operator {operator} is a rule that transforms mathematical objects, such as wavefunctions {wavefunction}, in quantum mechanics.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Operators are the mathematical framework for quantum dynamics.",
+      "suggested_search_query": "Operator definition in quantum mechanics"
+    },
+    {
+      "id": "C007",
+      "claim": "The kitchen recipe analogy {Hamiltonian} for the Hamiltonian can mislead if taken literally, as it simplifies complex energy relationships.",
+      "type": "analogy_warning",
+      "importance": "medium",
+      "needs_external_check": true,
+      "why_it_matters": "Highlights the risk of over-simplifying abstract concepts.",
+      "suggested_search_query": "Hamiltonian analogy limitations"
+    },
+    {
+      "id": "C008",
+      "claim": "Hamilton’s equations {Hamilton’s equations} describe how position and momentum change over time in classical systems.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "They formalize the relationship between energy and motion.",
+      "suggested_search_query": "Hamilton's equations derivation"
+    },
+    {
+      "id": "C009",
+      "claim": "The Hamiltonian {Hamiltonian} in quantum mechanics governs the time evolution of probability maps {wavefunction} through operator action.",
+      "type": "mechanism",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "This mechanism underpins quantum predictions.",
+      "suggested_search_query": "Hamiltonian time evolution quantum mechanics"
+    },
+    {
+      "id": "C010",
+      "claim": "The Hamiltonian {Hamiltonian} serves as a bridge between classical and quantum descriptions of energy and motion.",
+      "type": "unification",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Its dual role highlights the continuity of physical laws.",
+      "suggested_search_query": "Hamiltonian classical-quantum unification"
+    }
+
+================================================================================
+TIME: 2026-05-06T10:16:37
+NODE: json_repair
+PROMPT_CHARS: 4544
+PROMPT_TOKENS_APPROX: 1136
+RESPONSE_CHARS: 4474
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"keep_alive": -1, "num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.8}
+================================================================================
+PROMPT:
+Fix the following broken JSON. Return ONLY the repaired JSON.
+
+Broken JSON:
+{
+  "claims": [
+    {
+      "id": "C001",
+      "claim": "The Hamiltonian is a total energy rulebook {Hamiltonian} that governs how energy shapes motion and time evolution in both classical and quantum systems.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "It unifies energy concepts across physics domains, enabling predictions of system behavior.",
+      "suggested_search_query": "Hamiltonian definition in classical and quantum mechanics"
+    },
+    {
+      "id": "C002",
+      "claim": "In classical mechanics, the Hamiltonian {Hamiltonian} is the sum of kinetic and potential energy, determining motion via Hamilton’s equations {Hamilton’s equations}.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "This formula is foundational for analyzing mechanical systems.",
+      "suggested_search_query": "Hamiltonian classical mechanics formula"
+    },
+    {
+      "id": "C003",
+      "claim": "In quantum mechanics, the Hamiltonian {Hamiltonian} is an operator {operator} that acts on wavefunctions {wavefunction} to predict time evolution.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Operators like the Hamiltonian are central to quantum dynamics.",
+      "suggested_search_query": "Hamiltonian operator in quantum mechanics"
+    },
+    {
+      "id": "C004",
+      "claim": "The Hamiltonian {Hamiltonian} connects forces, energy, and motion, making it essential for predicting system behavior from atoms to galaxies.",
+      "type": "importance",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Its universality across scales underscores its foundational role in physics.",
+      "suggested_search_query": "Hamiltonian importance in physics"
+    },
+    {
+      "id": "C005",
+      "claim": "The probability map {wavefunction} is a mathematical description of a quantum system’s state, not a physical object.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Clarifies the abstract nature of quantum states.",
+      "suggested_search_query": "Wavefunction definition in quantum mechanics"
+    },
+    {
+      "id": "C006",
+      "claim": "An operator {operator} is a rule that transforms mathematical objects, such as wavefunctions {wavefunction}, in quantum mechanics.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Operators are the mathematical framework for quantum dynamics.",
+      "suggested_search_query": "Operator definition in quantum mechanics"
+    },
+    {
+      "id": "C007",
+      "claim": "The kitchen recipe analogy {Hamiltonian} for the Hamiltonian can mislead if taken literally, as it simplifies complex energy relationships.",
+      "type": "analogy_warning",
+      "importance": "medium",
+      "needs_external_check": true,
+      "why_it_matters": "Highlights the risk of over-simplifying abstract concepts.",
+      "suggested_search_query": "Hamiltonian analogy limitations"
+    },
+    {
+      "id": "C008",
+      "claim": "Hamilton’s equations {Hamilton’s equations} describe how position and momentum change over time in classical systems.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "They formalize the relationship between energy and motion.",
+      "suggested_search_query": "Hamilton's equations derivation"
+    },
+    {
+      "id": "C009",
+      "claim": "The Hamiltonian {Hamiltonian} in quantum mechanics governs the time evolution of probability maps {wavefunction} through operator action.",
+      "type": "mechanism",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "This mechanism underpins quantum predictions.",
+      "suggested_search_query": "Hamiltonian time evolution quantum mechanics"
+    },
+    {
+      "id": "C010",
+      "claim": "The Hamiltonian {Hamiltonian} serves as a bridge between classical and quantum descriptions of energy and motion.",
+      "type": "unification",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Its dual role highlights the continuity of physical laws.",
+      "suggested_search_query": "Hamiltonian classical-quantum unification"
+    }
+
+RESPONSE:
+{
+  "claims": [
+    {
+      "id": "C001",
+      "claim": "The Hamiltonian is a total energy rulebook {Hamiltonian} that governs how energy shapes motion and time evolution in both classical and quantum systems.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "It unifies energy concepts across physics domains, enabling predictions of system behavior.",
+      "suggested_search_query": "Hamiltonian definition in classical and quantum mechanics"
+    },
+    {
+      "id": "C002",
+      "claim": "In classical mechanics, the Hamiltonian {Hamiltonian} is the sum of kinetic and potential energy, determining motion via Hamilton’s equations {Hamilton’s equations}.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "This formula is foundational for analyzing mechanical systems.",
+      "suggested_search_query": "Hamiltonian classical mechanics formula"
+    },
+    {
+      "id": "C003",
+      "claim": "In quantum mechanics, the Hamiltonian {Hamiltonian} is an operator {operator} that acts on wavefunctions {wavefunction} to predict time evolution.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Operators like the Hamiltonian are central to quantum dynamics.",
+      "suggested_search_query": "Hamiltonian operator in quantum mechanics"
+    },
+    {
+      "id": "C004",
+      "claim": "The Hamiltonian {Hamiltonian} connects forces, energy, and motion, making it essential for predicting system behavior from atoms to galaxies.",
+      "type": "importance",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Its universality across scales underscores its foundational role in physics.",
+      "suggested_search_query": "Hamiltonian importance in physics"
+    },
+    {
+      "id": "C005",
+      "claim": "The probability map {wavefunction} is a mathematical description of a quantum system’s state, not a physical object.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Clarifies the abstract nature of quantum states.",
+      "suggested_search_query": "Wavefunction definition in quantum mechanics"
+    },
+    {
+      "id": "C006",
+      "claim": "An operator {operator} is a rule that transforms mathematical objects, such as wavefunctions {wavefunction}, in quantum mechanics.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Operators are the mathematical framework for quantum dynamics.",
+      "suggested_search_query": "Operator definition in quantum mechanics"
+    },
+    {
+      "id": "C007",
+      "claim": "The kitchen recipe analogy {Hamiltonian} for the Hamiltonian can mislead if taken literally, as it simplifies complex energy relationships.",
+      "type": "analogy_warning",
+      "importance": "medium",
+      "needs_external_check": true,
+      "why_it_matters": "Highlights the risk of over-simplifying abstract concepts.",
+      "suggested_search_query": "Hamiltonian analogy limitations"
+    },
+    {
+      "id": "C008",
+      "claim": "Hamilton’s equations {Hamilton’s equations} describe how position and momentum change over time in classical systems.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "They formalize the relationship between energy and motion.",
+      "suggested_search_query": "Hamilton's equations derivation"
+    },
+    {
+      "id": "C009",
+      "claim": "The Hamiltonian {Hamiltonian} in quantum mechanics governs the time evolution of probability maps {wavefunction} through operator action.",
+      "type": "mechanism",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "This mechanism underpins quantum predictions.",
+      "suggested_search_query": "Hamiltonian time evolution quantum mechanics"
+    },
+    {
+      "id": "C010",
+      "claim": "The Hamiltonian {Hamiltonian} serves as a bridge between classical and quantum descriptions of energy and motion.",
+      "type": "unification",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Its dual role highlights the continuity of physical laws.",
+      "suggested_search_query": "Hamiltonian classical-quantum unification"
+    }
+  ]
+}
+
+================================================================================
+TIME: 2026-05-06T12:09:28
+NODE: claim_revision
+PROMPT_CHARS: 5097
+PROMPT_TOKENS_APPROX: 1274
+RESPONSE_CHARS: 3551
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"keep_alive": -1, "num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.8}
+================================================================================
+PROMPT:
+Revise the article once to address actionable claim-check feedback.
+
+Do not rewrite for its own sake. Fix the scientific issues while preserving accessible language.
+
+Only use the actionable feedback below. Missing evidence should normally be handled by source-search rounds first; if the feedback says the automated search attempts are exhausted, make the claim more conservative or remove it.
+
+Actionable claim-check feedback:
+{
+  "claim_checks": [
+    {
+      "id": "C001",
+      "verdict": "not_enough_evidence",
+      "severity": "medium",
+      "problem": "Claim checker failed: LLMCallError(\"claim_checker failed after 3 attempt(s): LLMCallError('LLM_TIMEOUT_AFTER_720_SECONDS')\")",
+      "suggested_fix": "Automatically retry this claim with another source search or a smaller context.",
+      "source_quality_note": "",
+      "source_urls": [],
+      "claim": "The Hamiltonian is a total energy rulebook {Hamiltonian} that governs how energy shapes motion and time evolution in both classical and quantum systems.",
+      "checked_at": "2026-05-06_12-06-06",
+      "source_attempt_count": 3,
+      "available_source_urls": [
+        "https://www.cfm.brown.edu/people/dobrush/am34/Mathematica/intro/hamilton.html",
+        "https://www.academia.edu/38868163/Lagrangian_and_Hamiltonian_formulation_for_analyzing_RL_RC_RLC_LC_circuits_and_magnetically_coupled_circuits",
+        "https://www.academia.edu/95305257/Hamiltonian_formulation_of_general_relativity_and_post_Newtonian_dynamics_of_compact_binaries",
+        "https://www.academia.edu/104231712/Hamilton_Hamiltonian_Mechanics_and_Causation",
+        "https://www.academia.edu/Documents/in/Generalized_Hamiltonian_Mechanics"
+      ]
+    }
+  ],
+  "summary": {
+    "highest_priority_fixes": [
+      "Automatically retry this claim with another source search or a smaller context."
+    ]
+  }
+}
+
+Current draft:
+# Hamiltonian
+
+## The core idea  
+Imagine the **total energy rulebook** {Hamiltonian} as the key to understanding how energy shapes motion and time evolution. It’s like a recipe that tells you how energy converts between motion and position in classical physics, or how quantum systems evolve over time. In classical mechanics, it’s a list of ingredients (kinetic + potential energy) and steps (how energy balances motion and position). In quantum mechanics, it’s a set of rules (operators) that tell a **probability map** {wavefunction} how to change over time. Both versions use energy as the key ingredient to shape the system’s behavior.  
+
+## Why this matters  
+The **total energy rulebook** {Hamiltonian} is the central tool for understanding how physical systems move, change, and interact. Whether you’re studying a swinging pendulum or a quantum particle, it connects forces, energy, and motion—making it essential for predicting the behavior of everything from atoms to galaxies.  
+
+## The simple picture  
+[Diagram idea: Energy Balance Sheet]  
+Think of the Hamiltonian as a kitchen recipe. In classical mechanics, it’s a list of ingredients (kinetic + potential energy) and steps (how energy balances motion and position). In quantum mechanics, it’s a set of rules (operators) that tell a **probability map** {wavefunction} how to change over time. Both versions use energy as the key ingredient to shape the system’s behavior.  
+
+### What is a probability map?  
+A **probability map** {wavefunction} is a mathematical description of a quantum system’s state. It’s like a map that tells you where a particle might be found, but it’s not a physical object—it’s a tool for calculating outcomes.  
+
+### What is an operator?  
+An **operator** {operator} is a rule that tells you how to transform one mathematical object into another. In quantum mechanics, operators like the Hamiltonian act on wavefunctions to predict how systems change over time.  
+
+## The more precise picture  
+### Classical Mechanics: Energy as a Rulebook  
+In classical physics, the **total energy rulebook** {Hamiltonian} is the total energy of a system:  
+$$
+H = \text{Kinetic Energy} + \text{Potential Energy}
+$$  
+This rulebook determines motion through **Hamilton’s equations** {Hamilton’s equations}, which describe how position and momentum change over time. For example, a pendulum’s swing is dictated by how its kinetic energy (motion) and potential energy (height) balance.  
+
+**Plain-language interpretation**: Imagine a pendulum as a recipe. The Hamiltonian tells you how the energy of motion (kinetic) and the energy of height (potential) combine to make the pendulum swing back and forth.  
+
+### Quantum Mechanics: The Energy Operator  
+In quantum physics, the **total energy rulebook** {Hamiltonian} is an **operator** {operator} that acts on **probability maps** {
+
+Instructions:
+- Correct or qualify unsupported, contradicted, overstrong, or misleading claims.
+- Preserve good accessible explanations.
+- Do not add speculative research as settled fact.
+- If an analogy was misleading, either repair it or state its limits.
+- Keep standard terms in braces after descriptive names.
+- Output only the revised article in Markdown.
+
+RESPONSE:
+# Hamiltonian
+
+## The core idea  
+The **total energy framework** {Hamiltonian} is a mathematical structure that governs how energy influences motion and time evolution. In classical mechanics, it’s the sum of kinetic and potential energy, determining how systems move through **Hamilton’s equations** {Hamilton’s equations}. In quantum mechanics, it’s an **operator** {operator} that dictates how **probability maps** {wavefunction} evolve over time. While both versions use energy as a central concept, their mathematical formulations differ significantly.  
+
+## Why this matters  
+The **total energy framework** {Hamiltonian} is foundational for analyzing motion and interactions in both classical and quantum systems. It provides a unified approach to understanding how energy shapes dynamics, from planetary orbits to quantum particles.  
+
+## The simple picture  
+[Diagram idea: Energy Balance Sheet]  
+In classical mechanics, the Hamiltonian is like a recipe:  
+$$
+H = \text{Kinetic Energy} + \text{Potential Energy}
+$$  
+It tells you how energy balances motion and position. In quantum mechanics, the Hamiltonian is a rulebook for **probability maps** {wavefunction}, guiding how quantum states change over time.  
+
+### What is a probability map?  
+A **probability map** {wavefunction} is a mathematical description of a quantum system’s state. It encodes the likelihood of finding a particle in a specific location, but it’s not a physical object—it’s a tool for calculating outcomes.  
+
+### What is an operator?  
+An **operator** {operator} is a rule that transforms mathematical objects. In quantum mechanics, the Hamiltonian acts on wavefunctions to predict how systems evolve.  
+
+## The more precise picture  
+### Classical Mechanics: Energy as a Rulebook  
+In classical physics, the **total energy framework** {Hamiltonian} is the total energy of a system:  
+$$
+H = \text{Kinetic Energy} + \text{Potential Energy}
+$$  
+This framework determines motion through **Hamilton’s equations** {Hamilton’s equations}, which describe how position and momentum change over time. For example, a pendulum’s swing is dictated by how its kinetic energy (motion) and potential energy (height) balance.  
+
+**Plain-language interpretation**: Imagine a pendulum as a recipe. The Hamiltonian tells you how the energy of motion (kinetic) and the energy of height (potential) combine to make the pendulum swing back and forth.  
+
+### Quantum Mechanics: The Energy Operator  
+In quantum physics, the **total energy framework** {Hamiltonian} is an **operator** {operator} that acts on **probability maps** {wavefunction} to predict time evolution. Unlike classical energy, it operates through mathematical rules rather than direct physical quantities.  
+
+**Key distinction**: The classical Hamiltonian is a scalar value, while the quantum Hamiltonian is an operator that transforms wavefunctions. This difference reflects the fundamentally different mathematical structures of classical and quantum mechanics.  
+
+## Limitations and clarifications  
+- The "rulebook" metaphor works well for classical mechanics but is not directly applicable to quantum systems.  
+- The Hamiltonian in quantum mechanics does not represent a physical "energy rulebook" but rather a mathematical operator that encodes energy-related dynamics.  
+- While both versions use energy as a central concept, their formulations and interpretations diverge significantly.  
+
+This distinction ensures clarity while preserving the Hamiltonian’s role as a unifying concept across physics domains.
+
+================================================================================
+TIME: 2026-05-06T12:14:27
+NODE: claim_extractor
+PROMPT_CHARS: 4430
+PROMPT_TOKENS_APPROX: 1107
+RESPONSE_CHARS: 1870
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"keep_alive": -1, "num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.8}
+================================================================================
+PROMPT:
+Extract 8 to 12 important scientific or explanatory claims from this article draft.
+
+Return exactly one JSON object with this shape:
+{
+  "claims": [
+    {
+      "id": "C001",
+      "claim": "A clear standalone claim.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "brief reason",
+      "suggested_search_query": "stable physics source query"
+    }
+  ]
+}
+
+Rules:
+- Return a JSON object, not a list.
+- Do not return an empty list unless the draft is empty.
+- Use true/false, not True/False.
+- No Markdown fences.
+- No prose outside the JSON.
+- Prefer claims that matter for scientific correctness.
+- Include claims where an analogy could mislead.
+- Search queries should target stable sources: textbooks, lecture notes, CERN, Fermilab, NASA, DOE, NIST, or university pages.
+
+Article title: Hamiltonian
+
+Draft:
+# Hamiltonian
+
+## The core idea  
+The **total energy framework** {Hamiltonian} is a mathematical structure that governs how energy influences motion and time evolution. In classical mechanics, it’s the sum of kinetic and potential energy, determining how systems move through **Hamilton’s equations** {Hamilton’s equations}. In quantum mechanics, it’s an **operator** {operator} that dictates how **probability maps** {wavefunction} evolve over time. While both versions use energy as a central concept, their mathematical formulations differ significantly.  
+
+## Why this matters  
+The **total energy framework** {Hamiltonian} is foundational for analyzing motion and interactions in both classical and quantum systems. It provides a unified approach to understanding how energy shapes dynamics, from planetary orbits to quantum particles.  
+
+## The simple picture  
+[Diagram idea: Energy Balance Sheet]  
+In classical mechanics, the Hamiltonian is like a recipe:  
+$$
+H = \text{Kinetic Energy} + \text{Potential Energy}
+$$  
+It tells you how energy balances motion and position. In quantum mechanics, the Hamiltonian is a rulebook for **probability maps** {wavefunction}, guiding how quantum states change over time.  
+
+### What is a probability map?  
+A **probability map** {wavefunction} is a mathematical description of a quantum system’s state. It encodes the likelihood of finding a particle in a specific location, but it’s not a physical object—it’s a tool for calculating outcomes.  
+
+### What is an operator?  
+An **operator** {operator} is a rule that transforms mathematical objects. In quantum mechanics, the Hamiltonian acts on wavefunctions to predict how systems evolve.  
+
+## The more precise picture  
+### Classical Mechanics: Energy as a Rulebook  
+In classical physics, the **total energy framework** {Hamiltonian} is the total energy of a system:  
+$$
+H = \text{Kinetic Energy} + \text{Potential Energy}
+$$  
+This framework determines motion through **Hamilton’s equations** {Hamilton’s equations}, which describe how position and momentum change over time. For example, a pendulum’s swing is dictated by how its kinetic energy (motion) and potential energy (height) balance.  
+
+**Plain-language interpretation**: Imagine a pendulum as a recipe. The Hamiltonian tells you how the energy of motion (kinetic) and the energy of height (potential) combine to make the pendulum swing back and forth.  
+
+### Quantum Mechanics: The Energy Operator  
+In quantum physics, the **total energy framework** {Hamiltonian} is an **operator** {operator} that acts on **probability maps** {wavefunction} to predict time evolution. Unlike classical energy, it operates through mathematical rules rather than direct physical quantities.  
+
+**Key distinction**: The classical Hamiltonian is a scalar value, while the quantum Hamiltonian is an operator that transforms wavefunctions. This difference reflects the fundamentally different mathematical structures of classical and quantum mechanics.  
+
+## Limitations and clarifications  
+- The "rulebook" metaphor works well for classical mechanics but is not directly applicable to quantum systems.  
+- The Hamiltonian in quantum mechanics does not represent a physical "energy rulebook" but rather a mathematical operator that encodes energy-related dynamics.  
+- While both versions use energy as a central concept, their formulations and interpretations diverge significantly.  
+
+This distinction ensures clarity while preserving the Hamiltonian’s role as a unifying concept across physics domains.
+
+RESPONSE:
+{
+  "claims": [
+    {
+      "id": "C001",
+      "claim": "The Hamiltonian is a total energy framework {Hamiltonian} governing motion in classical mechanics via Hamilton’s equations {Hamilton’s equations}.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Establishes the Hamiltonian as the central mathematical structure for classical dynamics.",
+      "suggested_search_query": "Hamiltonian classical mechanics definition"
+    },
+    {
+      "id": "C002",
+      "claim": "In quantum mechanics, the Hamiltonian is an operator {operator} that dictates how probability maps {wavefunction} evolve over time.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Defines the quantum Hamiltonian’s role in time evolution of quantum states.",
+      "suggested_search_query": "quantum Hamiltonian operator"
+    },
+    {
+      "id": "C003",
+      "claim": "The classical Hamiltonian is a scalar value, while the quantum Hamiltonian is an operator {operator} that transforms wavefunctions.",
+      "type": "key_distinction",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Highlights the fundamental mathematical difference between classical and quantum formulations.",
+      "suggested_search_query": "classical vs quantum Hamiltonian difference"
+    },
+    {
+      "id": "C004",
+      "claim": "The Hamiltonian provides a unified approach to analyzing motion and interactions in both classical and quantum systems.",
+      "type": "unifying_concept",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Emphasizes its role as a bridge between physics domains.",
+      "suggested_search_query": "Hamiltonian unifying concept physics"
+    },
+    {
+      "id": "C005",
+
+================================================================================
+TIME: 2026-05-06T12:18:45
+NODE: json_repair
+PROMPT_CHARS: 1946
+PROMPT_TOKENS_APPROX: 486
+RESPONSE_CHARS: 2036
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"keep_alive": -1, "num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.8}
+================================================================================
+PROMPT:
+Fix the following broken JSON. Return ONLY the repaired JSON.
+
+Broken JSON:
+{
+  "claims": [
+    {
+      "id": "C001",
+      "claim": "The Hamiltonian is a total energy framework {Hamiltonian} governing motion in classical mechanics via Hamilton’s equations {Hamilton’s equations}.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Establishes the Hamiltonian as the central mathematical structure for classical dynamics.",
+      "suggested_search_query": "Hamiltonian classical mechanics definition"
+    },
+    {
+      "id": "C002",
+      "claim": "In quantum mechanics, the Hamiltonian is an operator {operator} that dictates how probability maps {wavefunction} evolve over time.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Defines the quantum Hamiltonian’s role in time evolution of quantum states.",
+      "suggested_search_query": "quantum Hamiltonian operator"
+    },
+    {
+      "id": "C003",
+      "claim": "The classical Hamiltonian is a scalar value, while the quantum Hamiltonian is an operator {operator} that transforms wavefunctions.",
+      "type": "key_distinction",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Highlights the fundamental mathematical difference between classical and quantum formulations.",
+      "suggested_search_query": "classical vs quantum Hamiltonian difference"
+    },
+    {
+      "id": "C004",
+      "claim": "The Hamiltonian provides a unified approach to analyzing motion and interactions in both classical and quantum systems.",
+      "type": "unifying_concept",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Emphasizes its role as a bridge between physics domains.",
+      "suggested_search_query": "Hamiltonian unifying concept physics"
+    },
+    {
+      "id": "C005",
+
+RESPONSE:
+{
+  "claims": [
+    {
+      "id": "C001",
+      "claim": "The Hamiltonian is a total energy framework {Hamiltonian} governing motion in classical mechanics via Hamilton’s equations {Hamilton’s equations}.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Establishes the Hamiltonian as the central mathematical structure for classical dynamics.",
+      "suggested_search_query": "Hamiltonian classical mechanics definition"
+    },
+    {
+      "id": "C002",
+      "claim": "In quantum mechanics, the Hamiltonian is an operator {operator} that dictates how probability maps {wavefunction} evolve over time.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Defines the quantum Hamiltonian’s role in time evolution of quantum states.",
+      "suggested_search_query": "quantum Hamiltonian operator"
+    },
+    {
+      "id": "C003",
+      "claim": "The classical Hamiltonian is a scalar value, while the quantum Hamiltonian is an operator {operator} that transforms wavefunctions.",
+      "type": "key_distinction",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Highlights the fundamental mathematical difference between classical and quantum formulations.",
+      "suggested_search_query": "classical vs quantum Hamiltonian difference"
+    },
+    {
+      "id": "C004",
+      "claim": "The Hamiltonian provides a unified approach to analyzing motion and interactions in both classical and quantum systems.",
+      "type": "unifying_concept",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Emphasizes its role as a bridge between physics domains.",
+      "suggested_search_query": "Hamiltonian unifying concept physics"
+    },
+    {
+      "id": "C005",
+      "claim": "The Hamiltonian formalism reveals deep symmetries and conservation laws through its connection to Noether’s theorem {Noether’s theorem}."
+    }
+  ]
+}
+
+================================================================================
+TIME: 2026-05-06T14:31:32
+NODE: accessibility_judge
+PROMPT_CHARS: 6007
+PROMPT_TOKENS_APPROX: 1501
+RESPONSE_CHARS: 1572
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"keep_alive": -1, "num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.8}
+================================================================================
+PROMPT:
+Evaluate this EasyPhysics article for accessibility.
+
+Return exactly one JSON object:
+{
+  "score": 1,
+  "pass": false,
+  "strengths": ["specific strength"],
+  "issues": [
+    {
+      "severity": "low | medium | high",
+      "location": "section name or short quote",
+      "problem": "specific accessibility issue",
+      "suggested_fix": "specific fix"
+    }
+  ],
+  "best_next_revision": "one concise paragraph"
+}
+
+Rubric:
+Accessibility score, 1-10:
+
+10 = Exceptional. A motivated high-schooler can follow the article's main arc without prior exposure.
+     Jargon is introduced only after intuition. Examples are vivid. Math is explained as meaning,
+     not just symbols. The article feels empowering and clear.
+
+9 = Publishable with light human editing. The main idea is easy to follow; jargon is mostly controlled;
+    analogies are helpful; sections flow logically; any math has a plain-language interpretation.
+
+8 = Strong draft. Mostly clear, but has a few dense sections, unexplained terms, abrupt transitions,
+    or analogies that need more setup.
+
+7 = Useful but uneven. A motivated reader could learn from it, but several passages need simplification,
+    clearer examples, or better sequencing.
+
+6 = Borderline. The article contains useful explanations, but assumes too much background or uses too much jargon.
+
+5 = Mixed. Some good paragraphs, but the structure or language would lose many target readers.
+
+4 = Hard to follow. Mostly written for someone who already knows the subject.
+
+3 = Very inaccessible. Dense, abstract, jargon-heavy, or poorly sequenced.
+
+2 = Barely useful to the target audience.
+
+1 = Fails the accessibility goal.
+
+Accessibility judge priorities:
+- Does the opening give the reader an intuitive foothold?
+- Are standard terms introduced after meaning, not before?
+- Are descriptive names useful rather than cutesy or misleading?
+- Are analogies concrete and then carefully limited?
+- Is any math explained in words?
+- Does the article avoid "spooky/magic/weird" framing while still acknowledging counterintuitive ideas?
+- Does each section make the next section easier?
+
+Rules:
+- Return an object, not a list.
+- Score must be an integer from 1 to 10.
+- A 9 means publishable with light human editing.
+- Do not give 9 or 10 if the opening is jargon-heavy.
+- Do not give 9 or 10 if math appears without plain-language interpretation.
+- Do not rewrite the article; only evaluate it.
+
+Article title: Hamiltonian
+
+Draft:
+# Hamiltonian
+
+## The core idea  
+The **total energy framework** {Hamiltonian} is a mathematical structure that governs how energy influences motion and time evolution. In classical mechanics, it’s the sum of kinetic and potential energy, determining how systems move through **Hamilton’s equations** {Hamilton’s equations}. In quantum mechanics, it’s an **operator** {operator} that dictates how **probability maps** {wavefunction} evolve over time. While both versions use energy as a central concept, their mathematical formulations differ significantly.  
+
+## Why this matters  
+The **total energy framework** {Hamiltonian} is foundational for analyzing motion and interactions in both classical and quantum systems. It provides a unified approach to understanding how energy shapes dynamics, from planetary orbits to quantum particles.  
+
+## The simple picture  
+[Diagram idea: Energy Balance Sheet]  
+In classical mechanics, the Hamiltonian is like a recipe:  
+$$
+H = \text{Kinetic Energy} + \text{Potential Energy}
+$$  
+It tells you how energy balances motion and position. In quantum mechanics, the Hamiltonian is a rulebook for **probability maps** {wavefunction}, guiding how quantum states change over time.  
+
+### What is a probability map?  
+A **probability map** {wavefunction} is a mathematical description of a quantum system’s state. It encodes the likelihood of finding a particle in a specific location, but it’s not a physical object—it’s a tool for calculating outcomes.  
+
+### What is an operator?  
+An **operator** {operator} is a rule that transforms mathematical objects. In quantum mechanics, the Hamiltonian acts on wavefunctions to predict how systems evolve.  
+
+## The more precise picture  
+### Classical Mechanics: Energy as a Rulebook  
+In classical physics, the **total energy framework** {Hamiltonian} is the total energy of a system:  
+$$
+H = \text{Kinetic Energy} + \text{Potential Energy}
+$$  
+This framework determines motion through **Hamilton’s equations** {Hamilton’s equations}, which describe how position and momentum change over time. For example, a pendulum’s swing is dictated by how its kinetic energy (motion) and potential energy (height) balance.  
+
+**Plain-language interpretation**: Imagine a pendulum as a recipe. The Hamiltonian tells you how the energy of motion (kinetic) and the energy of height (potential) combine to make the pendulum swing back and forth.  
+
+### Quantum Mechanics: The Energy Operator  
+In quantum physics, the **total energy framework** {Hamiltonian} is an **operator** {operator} that acts on **probability maps** {wavefunction} to predict time evolution. Unlike classical energy, it operates through mathematical rules rather than direct physical quantities.  
+
+**Key distinction**: The classical Hamiltonian is a scalar value, while the quantum Hamiltonian is an operator that transforms wavefunctions. This difference reflects the fundamentally different mathematical structures of classical and quantum mechanics.  
+
+## Limitations and clarifications  
+- The "rulebook" metaphor works well for classical mechanics but is not directly applicable to quantum systems.  
+- The Hamiltonian in quantum mechanics does not represent a physical "energy rulebook" but rather a mathematical operator that encodes energy-related dynamics.  
+- While both versions use energy as a central concept, their formulations and interpretations diverge significantly.  
+
+This distinction ensures clarity while preserving the Hamiltonian’s role as a unifying concept across physics domains.
+
+RESPONSE:
+{
+  "score": 3,
+  "pass": false,
+  "strengths": ["diagram idea", "plain-language interpretations"],
+  "issues": [
+    {
+      "severity": "high",
+      "location": "opening paragraph",
+      "problem": "Jargon-heavy introduction without intuitive foothold",
+      "suggested_fix": "Start with a concrete example (e.g., pendulum) to ground the concept before introducing technical terms"
+    },
+    {
+      "severity": "high",
+      "location": "operator/wavefunction explanations",
+      "problem": "Standard terms introduced without sufficient context or analogies",
+      "suggested_fix": "Add simple analogies for 'operator' (e.g., 'mathematical recipe') and 'wavefunction' (e.g., 'probability map')"
+    },
+    {
+      "severity": "medium",
+      "location": "math equations",
+      "problem": "Equations presented without plain-language explanation of symbols",
+      "suggested_fix": "Add annotations for each symbol in equations (e.g., 'H = kinetic + potential energy')"
+    },
+    {
+      "severity": "high",
+      "location": "quantum Hamiltonian explanation",
+      "problem": "Abstract metaphor without concrete grounding",
+      "suggested_fix": "Use a simple analogy like 'mathematical recipe book' for operators and clarify how they differ from classical energy"
+    }
+  ],
+  "best_next_revision": "Begin with a relatable example (e.g., a swinging pendulum) to establish intuition about energy balance. Use consistent analogies for abstract concepts like operators and wavefunctions, and annotate all equations with plain-language explanations of symbols."
+}

@@ -1,0 +1,7 @@
+{
+  "node": "claim_extractor",
+  "created_at": "2026-05-05_11-21-16",
+  "error": "LLMCallError(\"claim_extractor failed after 1 attempt(s): LLMCallError('EMPTY_JSON_RESPONSE')\")",
+  "traceback": "Traceback (most recent call last):\n  File \"C:\\Projects\\EasyPhysics\\auto_generate_articles.py\", line 1388, in run_role\n    return func(p, state)\n           ^^^^^^^^^^^^^^\n  File \"C:\\Projects\\EasyPhysics\\auto_generate_articles.py\", line 2398, in claim_extractor_role\n    raw = invoke_llm(\n          ^^^^^^^^^^^\n  File \"C:\\Projects\\EasyPhysics\\auto_generate_articles.py\", line 2001, in invoke_llm\n    raise LLMCallError(f\"{node_name} failed after {max_retries + 1} attempt(s): {last_error}\")\nLLMCallError: claim_extractor failed after 1 attempt(s): LLMCallError('EMPTY_JSON_RESPONSE')\n",
+  "default_returned": null
+}

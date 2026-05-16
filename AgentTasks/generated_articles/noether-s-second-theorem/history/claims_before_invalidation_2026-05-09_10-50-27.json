@@ -1,0 +1,34 @@
+{
+  "claims": [
+    {
+      "id": "C001",
+      "claim": "Noether's first theorem links global symmetries (rules applying everywhere at once) to conservation laws (e.g., energy, momentum).",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Establishes the foundational connection between symmetry and conservation in physics.",
+      "suggested_search_query": "Noether's first theorem conservation laws"
+    },
+    {
+      "id": "C002",
+      "claim": "Noether's second theorem deals with local symmetries (rules varying across space/time) and imposes constraints on equations of motion rather than conservation laws.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Clarifies how local symmetries shape the structure of physical theories.",
+      "suggested_search_query": "Noether's second theorem local symmetries"
+    },
+    {
+      "id": "C003",
+      "claim": "Local symmetries, such as gauge symmetries in electromagnetism, generate constraints that ensure theoretical consistency (e.g., Maxwell’s equations).",
+      "type": "example",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Demonstrates how gauge symmetries enforce consistency in field theories through constraint equations.",
+      "suggested_search_query": "gauge symmetries Maxwell equations"
+    }
+  ],
+  "last_updated": "2026-05-06_01-26-06",
+  "count": 3,
+  "parse_note": ""
+}

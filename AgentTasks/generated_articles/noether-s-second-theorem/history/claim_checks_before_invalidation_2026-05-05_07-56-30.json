@@ -1,0 +1,157 @@
+{
+  "claim_checks": [
+    {
+      "id": "C001",
+      "verdict": "needs_qualification",
+      "severity": "medium",
+      "problem": "Confuses Noether's first and second theorems. The rulebook analogy aligns with Noether's first theorem (global symmetries → conservation laws), while the article attributes it to the second theorem (local symmetries → constraints on equations of motion).",
+      "suggested_fix": "Clarify that the rulebook analogy corresponds to Noether's first theorem. For the second theorem, emphasize constraints on equations of motion from local symmetries (e.g., gauge symmetries) rather than conservation laws.",
+      "source_quality_note": "The snippet is from a reputable physics source discussing both theorems, but the claim conflates their distinct roles."
+    },
+    {
+      "id": "C002",
+      "verdict": "not_enough_evidence",
+      "severity": "medium",
+      "problem": "Claim checker failed: LLMCallError('claim_checker failed after 1 attempt(s): LLMCallError(\\'ResponseError(\"model \\\\\\'qwen3:8b\\\\\\' not found\")\\')')",
+      "suggested_fix": "Automatically retry this claim with another source search or a smaller context.",
+      "source_quality_note": "",
+      "source_urls": [],
+      "claim": "## Why this matters Noether's second theorem explains how **symmetries are built into the mathematical structure of physics**.",
+      "checked_at": "2026-05-05_07-38-50",
+      "source_attempt_count": 1,
+      "available_source_urls": [
+        "https://en.wikipedia.org/wiki/Noether's_theorem",
+        "https://www.youtube.com/watch?v=CxlHLqJ9I0A",
+        "https://medium.com/@arturormk/particle-ptuesdays-0-16-a-custom-textbook-for-the-standard-model-b8e4d2529388",
+        "https://www.quora.com/",
+        "http://hyperphysics.phy-astr.gsu.edu/hbase/electric/thevenin.html"
+      ]
+    },
+    {
+      "id": "C003",
+      "verdict": "not_enough_evidence",
+      "severity": "medium",
+      "problem": "Claim checker failed: LLMCallError('claim_checker failed after 1 attempt(s): LLMCallError(\\'ResponseError(\"model \\\\\\'qwen3:8b\\\\\\' not found\")\\')')",
+      "suggested_fix": "Automatically retry this claim with another source search or a smaller context.",
+      "source_quality_note": "",
+      "source_urls": [],
+      "claim": "It ensures that physical laws are consistent across all scenarios, even when symmetries aren’t directly visible.",
+      "checked_at": "2026-05-05_07-38-51",
+      "source_attempt_count": 1,
+      "available_source_urls": [
+        "https://en.wikipedia.org/wiki/Noether's_theorem",
+        "https://www.quantamagazine.org/how-noethers-theorem-revolutionized-physics-20250207/",
+        "https://www.kroneckerwallis.com/emmy-noethers-theorem-how-symmetry-creates-conservation-laws/",
+        "https://physics.stackexchange.com/questions/560382/what-is-noethers-second-theorem",
+        "https://www.sciencenews.org/article/emmy-noether-theorem-legacy-physics-math"
+      ]
+    },
+    {
+      "id": "C004",
+      "verdict": "not_enough_evidence",
+      "severity": "medium",
+      "problem": "Claim checker failed: LLMCallError('claim_checker failed after 1 attempt(s): LLMCallError(\\'ResponseError(\"model \\\\\\'qwen3:8b\\\\\\' not found\")\\')')",
+      "suggested_fix": "Automatically retry this claim with another source search or a smaller context.",
+      "source_quality_note": "",
+      "source_urls": [],
+      "claim": "For instance, the symmetry of spacetime under Lorentz transformations (the rulebook for relativity) shapes how objects move at high speeds.",
+      "checked_at": "2026-05-05_07-38-52",
+      "source_attempt_count": 1,
+      "available_source_urls": [
+        "https://en.wikipedia.org/wiki/Noether's_second_theorem",
+        "https://math.ucr.edu/home/baez/noether.html",
+        "https://itp.uni-frankfurt.de/~hees/hgs-hire-lectweek17/noether-goldstone.pdf",
+        "https://modern-physics.org/noethers-theorem/",
+        "https://www.cantorsparadise.com/noethers-theorem-how-symmetry-shapes-physics-53c416c1f19c"
+      ]
+    }
+  ],
+  "check_history": [
+    {
+      "id": "C002",
+      "verdict": "not_enough_evidence",
+      "severity": "medium",
+      "problem": "Claim checker failed: LLMCallError('claim_checker failed after 1 attempt(s): LLMCallError(\\'ResponseError(\"model \\\\\\'qwen3:8b\\\\\\' not found\")\\')')",
+      "suggested_fix": "Automatically retry this claim with another source search or a smaller context.",
+      "source_quality_note": "",
+      "source_urls": [],
+      "claim": "## Why this matters Noether's second theorem explains how **symmetries are built into the mathematical structure of physics**.",
+      "checked_at": "2026-05-05_07-38-50",
+      "source_attempt_count": 1,
+      "available_source_urls": [
+        "https://en.wikipedia.org/wiki/Noether's_theorem",
+        "https://www.youtube.com/watch?v=CxlHLqJ9I0A",
+        "https://medium.com/@arturormk/particle-ptuesdays-0-16-a-custom-textbook-for-the-standard-model-b8e4d2529388",
+        "https://www.quora.com/",
+        "http://hyperphysics.phy-astr.gsu.edu/hbase/electric/thevenin.html"
+      ]
+    },
+    {
+      "id": "C003",
+      "verdict": "not_enough_evidence",
+      "severity": "medium",
+      "problem": "Claim checker failed: LLMCallError('claim_checker failed after 1 attempt(s): LLMCallError(\\'ResponseError(\"model \\\\\\'qwen3:8b\\\\\\' not found\")\\')')",
+      "suggested_fix": "Automatically retry this claim with another source search or a smaller context.",
+      "source_quality_note": "",
+      "source_urls": [],
+      "claim": "It ensures that physical laws are consistent across all scenarios, even when symmetries aren’t directly visible.",
+      "checked_at": "2026-05-05_07-38-51",
+      "source_attempt_count": 1,
+      "available_source_urls": [
+        "https://en.wikipedia.org/wiki/Noether's_theorem",
+        "https://www.quantamagazine.org/how-noethers-theorem-revolutionized-physics-20250207/",
+        "https://www.kroneckerwallis.com/emmy-noethers-theorem-how-symmetry-creates-conservation-laws/",
+        "https://physics.stackexchange.com/questions/560382/what-is-noethers-second-theorem",
+        "https://www.sciencenews.org/article/emmy-noether-theorem-legacy-physics-math"
+      ]
+    },
+    {
+      "id": "C004",
+      "verdict": "not_enough_evidence",
+      "severity": "medium",
+      "problem": "Claim checker failed: LLMCallError('claim_checker failed after 1 attempt(s): LLMCallError(\\'ResponseError(\"model \\\\\\'qwen3:8b\\\\\\' not found\")\\')')",
+      "suggested_fix": "Automatically retry this claim with another source search or a smaller context.",
+      "source_quality_note": "",
+      "source_urls": [],
+      "claim": "For instance, the symmetry of spacetime under Lorentz transformations (the rulebook for relativity) shapes how objects move at high speeds.",
+      "checked_at": "2026-05-05_07-38-52",
+      "source_attempt_count": 1,
+      "available_source_urls": [
+        "https://en.wikipedia.org/wiki/Noether's_second_theorem",
+        "https://math.ucr.edu/home/baez/noether.html",
+        "https://itp.uni-frankfurt.de/~hees/hgs-hire-lectweek17/noether-goldstone.pdf",
+        "https://modern-physics.org/noethers-theorem/",
+        "https://www.cantorsparadise.com/noethers-theorem-how-symmetry-shapes-physics-53c416c1f19c"
+      ]
+    }
+  ],
+  "summary": {
+    "total_claims": 8,
+    "checked_claim_count": 4,
+    "passing_claim_count": 0,
+    "unchecked_claim_count": 4,
+    "unresolved_or_needs_qualification": 8,
+    "actionable_issue_count": 1,
+    "evidence_retry_count": 3,
+    "claim_review_complete": false,
+    "unchecked_claim_ids": [
+      "C005",
+      "C006",
+      "C007",
+      "C008"
+    ],
+    "actionable_claim_ids": [
+      "C001"
+    ],
+    "evidence_retry_claim_ids": [
+      "C002",
+      "C003",
+      "C004"
+    ],
+    "highest_priority_fixes": [
+      "Clarify that the rulebook analogy corresponds to Noether's first theorem. For the second theorem, emphasize constraints on equations of motion from local symmetries (e.g., gauge symmetries) rather than conservation laws."
+    ],
+    "overall_claim_quality": "Partial claim check completed."
+  },
+  "last_updated": "2026-05-05_07-38-52"
+}

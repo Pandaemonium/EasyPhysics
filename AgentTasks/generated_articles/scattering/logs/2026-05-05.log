@@ -1,0 +1,358 @@
+
+================================================================================
+TIME: 2026-05-05T18:33:39
+NODE: writer
+PROMPT_CHARS: 6149
+PROMPT_TOKENS_APPROX: 1537
+RESPONSE_CHARS: 4753
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.8}
+================================================================================
+PROMPT:
+Revise this existing EasyPhysics article once.
+
+Title: Scattering
+
+Revision brief:
+- Claim/research fix: Review this claim manually.
+- rigor score 9: The term 'probability maps' {cross-sections} could be more clearly contextualized as a standard scattering theory concept Suggested fix: Add a brief explanation that cross-sections are a well-established measure of interaction probability in scattering theory
+- rigor score 9: The statement 'All scattering is random' could be misinterpreted as implying all scattering is probabilistic Suggested fix: Clarify that quantum scattering is probabilistic while classical scattering is deterministic, with examples
+- rigor next revision: Add a brief clarification about cross-sections as standard scattering theory concepts and refine the 'all scattering is random' misconception to emphasize context-dependent determinism vs probability.
+- accessibility score 9: The probability amplitude equation could benefit from more context about what 'amplitude' represents Suggested fix: Add a brief explanation that amplitude encodes both magnitude and phase information
+- accessibility score 9: Diagram suggestions are minimal and could be expanded for visual learners Suggested fix: Add more detailed descriptions of how diagrams would illustrate concepts (e.g., how probability maps would appear)
+
+Human/editor notes:
+# Human/editor notes
+
+Add any preferences, corrections, or article-specific constraints here.
+
+
+Current draft:
+# Scattering  
+
+## The core idea  
+Scattering is the **exchange of energy, momentum, or information** between entities like particles, waves, or fields during an interaction. It’s how systems “talk” to each other, shaping everything from light bending through a prism to the way particles collide in a collider.  
+
+## Why this matters  
+Scattering reveals hidden properties of matter and forces. It’s the basis for technologies like X-ray imaging, radar, and particle detectors—and it bridges classical and quantum physics by showing how systems respond to disturbances.  
+
+## The simple picture  
+Imagine throwing a stone into a pond: ripples spread out, bouncing off the edges and creating patterns. That’s **diffraction**—a type of scattering. Now imagine two billiard balls colliding: they exchange energy and momentum, changing direction. That’s **elastic scattering**. Both examples show how scattering shapes the world, whether through waves or particles.  
+
+[Diagram idea: A stone hitting water, ripples spreading; two billiard balls colliding at an angle.]  
+
+## The more precise picture  
+Scattering happens when two entities interact, redistributing energy, momentum, or information. Here’s how it works in different contexts:  
+
+### **Types of scattering**  
+- **Elastic scattering**: Energy and momentum are conserved (e.g., billiard balls bouncing off each other).  
+- **Inelastic scattering**: Energy is lost or transferred (e.g., a ball bouncing with less height).  
+- **Diffraction**: Wave-like spreading (e.g., light passing through a narrow slit).  
+- **Resonant scattering**: Enhanced interaction at specific energies (e.g., atoms absorbing light at precise wavelengths).  
+
+### **Classical vs. quantum**  
+- **Classical**: Think of collisions or wave interference. Scattering is deterministic—like a stone hitting water and creating predictable ripples.  
+- **Quantum**: Particles “talk” via forces, with outcomes probabilistic. For example, electrons scattering off a crystal reveal its atomic structure through **probability maps** {cross-sections}.  
+
+### **Math and concepts**  
+- **Energy conservation**:  
+  $ E_{\text{initial}} = E_{\text{final}} $  
+  *Math means*: Total energy before and after scattering remains the same.  
+- **Probability amplitude**:  
+  $ P(\theta) \propto |\psi(\theta)|^2 $  
+  *Math means*: The chance of scattering at angle θ depends on the square of the wave’s amplitude.  
+
+[Diagram idea: A 2D graph showing scattering angles and their probabilities.]  
+
+## Common misconceptions  
+- ❌ **"Scattering is only about collisions."**  
+  → Scattering includes wave interactions (e.g., light bending through a prism).  
+- ❌ **"All scattering is random."**  
+  → Some scattering is deterministic (e.g., mirror reflections), while others are probabilistic.  
+- ❌ **"Scattering doesn’t involve energy loss."**  
+  → Inelastic scattering (e.g., a ball bouncing) always involves energy transfer.  
+- ❌ **"Scattering is a one-time event."**  
+  → Scattering can be continuous (e.g., light passing through a medium).  
+
+## How this connects to the rest of physics  
+Scattering is central to understanding **forces** and **interactions**. In particle physics, it helps probe subatomic structures (e.g., how protons scatter off electrons to reveal their quark content). In optics, it explains **diffraction** and **refraction**. It also underpins **medical imaging** (e.g., X-rays) and **radar**—showing how scattering links classical and quantum phenomena.  
+
+## Recap  
+- Scattering is the exchange of energy, momentum, or information during interactions.  
+- It bridges classical and quantum physics, from billiard balls to particle collisions.  
+- Scattering reveals hidden properties of matter and powers technologies like imaging and detectors.  
+- It’s both predictable (classical) and probabilistic (quantum), depending on the context.  
+
+---  
+**Note**: The term "probability maps" {cross-sections} is used to describe how quantum scattering probabilities are measured. Cross-sections are a standard concept in scattering theory, representing the effective "area" a particle presents for interaction. This avoids overreaching by focusing on established frameworks.
+
+Instructions:
+- Return the complete revised article in Markdown.
+- Do not start from scratch.
+- Preserve good explanations.
+- Fix only the most important clarity, structure, and rigor problems.
+- If a section is already good, leave it mostly alone.
+- Add qualifications where the current draft overclaims.
+- Make the opening more intuitive if needed.
+- Keep standard terms in braces after intuitive names.
+- Do not include commentary before or after the article.
+
+RESPONSE:
+# Scattering  
+
+## The core idea  
+Scattering is the **exchange of energy, momentum, or information** between entities like particles, waves, or fields during an interaction. It’s how systems “talk” to each other, shaping everything from light bending through a prism to the way particles collide in a collider.  
+
+## Why this matters  
+Scattering reveals hidden properties of matter and forces. It’s the basis for technologies like X-ray imaging, radar, and particle detectors—and it bridges classical and quantum physics by showing how systems respond to disturbances.  
+
+## The simple picture  
+Imagine throwing a stone into a pond: ripples spread out, bouncing off the edges and creating patterns. That’s **diffraction**—a type of scattering. Now imagine two billiard balls colliding: they exchange energy and momentum, changing direction. That’s **elastic scattering**. Both examples show how scattering shapes the world, whether through waves or particles.  
+
+[Diagram idea: A stone hitting water, ripples spreading; two billiard balls colliding at an angle. Include a third panel showing light passing through a slit, illustrating diffraction.]  
+
+## The more precise picture  
+Scattering happens when two entities interact, redistributing energy, momentum, or information. Here’s how it works in different contexts:  
+
+### **Types of scattering**  
+- **Elastic scattering**: Energy and momentum are conserved (e.g., billiard balls bouncing off each other).  
+- **Inelastic scattering**: Energy is lost or transferred (e.g., a ball bouncing with less height).  
+- **Diffraction**: Wave-like spreading (e.g., light passing through a narrow slit).  
+- **Resonant scattering**: Enhanced interaction at specific energies (e.g., atoms absorbing light at precise wavelengths).  
+
+### **Classical vs. quantum**  
+- **Classical**: Think of collisions or wave interference. Scattering is deterministic—like a stone hitting water and creating predictable ripples.  
+- **Quantum**: Particles “talk” via forces, with outcomes probabilistic. For example, electrons scattering off a crystal reveal its atomic structure through **probability maps** {cross-sections}, which are a standard measure of interaction probability in scattering theory.  
+
+### **Math and concepts**  
+- **Energy conservation**:  
+  $ E_{\text{initial}} = E_{\text{final}} $  
+  *Math means*: Total energy before and after scattering remains the same.  
+- **Probability amplitude**:  
+  $ P(\theta) \propto |\psi(\theta)|^2 $  
+  *Math means*: The chance of scattering at angle θ depends on the square of the wave’s amplitude.  
+  *Note*: Amplitude encodes both magnitude and phase information, which together determine the probability distribution.  
+
+[Diagram idea: A 2D graph showing scattering angles and their probabilities. Include a cross-sectional area diagram to visualize how cross-sections represent interaction likelihood.]  
+
+## Common misconceptions  
+- ❌ **"Scattering is only about collisions."**  
+  → Scattering includes wave interactions (e.g., light bending through a prism).  
+- ❌ **"All scattering is random."**  
+  → Some scattering is deterministic (e.g., mirror reflections), while others are probabilistic (e.g., quantum particle collisions). Classical physics predicts outcomes precisely, while quantum scattering relies on probability distributions.  
+- ❌ **"Scattering doesn’t involve energy loss."**  
+  → Inelastic scattering (e.g., a ball bouncing) always involves energy transfer.  
+- ❌ **"Scattering is a one-time event."**  
+  → Scattering can be continuous (e.g., light passing through a medium).  
+
+## How this connects to the rest of physics  
+Scattering is central to understanding **forces** and **interactions**. In particle physics, it helps probe subatomic structures (e.g., how protons scatter off electrons to reveal their quark content). In optics, it explains **diffraction** and **refraction**. It also underpins **medical imaging** (e.g., X-rays) and **radar**—showing how scattering links classical and quantum phenomena.  
+
+## Recap  
+- Scattering is the exchange of energy, momentum, or information during interactions.  
+- It bridges classical and quantum physics, from billiard balls to particle collisions.  
+- Scattering reveals hidden properties of matter and powers technologies like imaging and detectors.  
+- It’s both predictable (classical) and probabilistic (quantum), depending on the context.  
+
+---  
+**Note**: The term "probability maps" {cross-sections} is used to describe how quantum scattering probabilities are measured. Cross-sections are a standard concept in scattering theory, representing the effective "area" a particle presents for interaction. This avoids overreaching by focusing on established frameworks.
+
+================================================================================
+TIME: 2026-05-05T18:35:28
+NODE: term_collector
+PROMPT_CHARS: 5223
+PROMPT_TOKENS_APPROX: 1305
+RESPONSE_CHARS: 605
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.8}
+================================================================================
+PROMPT:
+Extract the descriptive-name candidates from this draft.
+
+Return JSON with this shape:
+{
+  "terms": [
+    {
+      "standard_term": "fermion",
+      "candidate_name": "space-occupier",
+      "context_quote": "short quote from the draft",
+      "usefulness": "why this name helps",
+      "risk": "how it could mislead, or empty string if low risk"
+    }
+  ]
+}
+
+Only include actual teaching-name candidates, especially phrases followed by standard terms in braces.
+
+Draft:
+# Scattering  
+
+## The core idea  
+Scattering is the **exchange of energy, momentum, or information** between entities like particles, waves, or fields during an interaction. It’s how systems “talk” to each other, shaping everything from light bending through a prism to the way particles collide in a collider.  
+
+## Why this matters  
+Scattering reveals hidden properties of matter and forces. It’s the basis for technologies like X-ray imaging, radar, and particle detectors—and it bridges classical and quantum physics by showing how systems respond to disturbances.  
+
+## The simple picture  
+Imagine throwing a stone into a pond: ripples spread out, bouncing off the edges and creating patterns. That’s **diffraction**—a type of scattering. Now imagine two billiard balls colliding: they exchange energy and momentum, changing direction. That’s **elastic scattering**. Both examples show how scattering shapes the world, whether through waves or particles.  
+
+[Diagram idea: A stone hitting water, ripples spreading; two billiard balls colliding at an angle. Include a third panel showing light passing through a slit, illustrating diffraction.]  
+
+## The more precise picture  
+Scattering happens when two entities interact, redistributing energy, momentum, or information. Here’s how it works in different contexts:  
+
+### **Types of scattering**  
+- **Elastic scattering**: Energy and momentum are conserved (e.g., billiard balls bouncing off each other).  
+- **Inelastic scattering**: Energy is lost or transferred (e.g., a ball bouncing with less height).  
+- **Diffraction**: Wave-like spreading (e.g., light passing through a narrow slit).  
+- **Resonant scattering**: Enhanced interaction at specific energies (e.g., atoms absorbing light at precise wavelengths).  
+
+### **Classical vs. quantum**  
+- **Classical**: Think of collisions or wave interference. Scattering is deterministic—like a stone hitting water and creating predictable ripples.  
+- **Quantum**: Particles “talk” via forces, with outcomes probabilistic. For example, electrons scattering off a crystal reveal its atomic structure through **probability maps** {cross-sections}, which are a standard measure of interaction probability in scattering theory.  
+
+### **Math and concepts**  
+- **Energy conservation**:  
+  $ E_{\text{initial}} = E_{\text{final}} $  
+  *Math means*: Total energy before and after scattering remains the same.  
+- **Probability amplitude**:  
+  $ P(\theta) \propto |\psi(\theta)|^2 $  
+  *Math means*: The chance of scattering at angle θ depends on the square of the wave’s amplitude.  
+  *Note*: Amplitude encodes both magnitude and phase information, which together determine the probability distribution.  
+
+[Diagram idea: A 2D graph showing scattering angles and their probabilities. Include a cross-sectional area diagram to visualize how cross-sections represent interaction likelihood.]  
+
+## Common misconceptions  
+- ❌ **"Scattering is only about collisions."**  
+  → Scattering includes wave interactions (e.g., light bending through a prism).  
+- ❌ **"All scattering is random."**  
+  → Some scattering is deterministic (e.g., mirror reflections), while others are probabilistic (e.g., quantum particle collisions). Classical physics predicts outcomes precisely, while quantum scattering relies on probability distributions.  
+- ❌ **"Scattering doesn’t involve energy loss."**  
+  → Inelastic scattering (e.g., a ball bouncing) always involves energy transfer.  
+- ❌ **"Scattering is a one-time event."**  
+  → Scattering can be continuous (e.g., light passing through a medium).  
+
+## How this connects to the rest of physics  
+Scattering is central to understanding **forces** and **interactions**. In particle physics, it helps probe subatomic structures (e.g., how protons scatter off electrons to reveal their quark content). In optics, it explains **diffraction** and **refraction**. It also underpins **medical imaging** (e.g., X-rays) and **radar**—showing how scattering links classical and quantum phenomena.  
+
+## Recap  
+- Scattering is the exchange of energy, momentum, or information during interactions.  
+- It bridges classical and quantum physics, from billiard balls to particle collisions.  
+- Scattering reveals hidden properties of matter and powers technologies like imaging and detectors.  
+- It’s both predictable (classical) and probabilistic (quantum), depending on the context.  
+
+---  
+**Note**: The term "probability maps" {cross-sections} is used to describe how quantum scattering probabilities are measured. Cross-sections are a standard concept in scattering theory, representing the effective "area" a particle presents for interaction. This avoids overreaching by focusing on established frameworks.
+
+RESPONSE:
+{
+  "terms": [
+    {
+      "standard_term": "cross-sections",
+      "candidate_name": "probability maps",
+      "context_quote": "electrons scattering off a crystal reveal its atomic structure through probability maps {cross-sections}, which are a standard measure of interaction probability in scattering theory",
+      "usefulness": "Makes the abstract concept of cross-sections more relatable by framing them as tangible probability distributions",
+      "risk": "Low risk - cross-sections are well-established, and the analogy to probability maps clarifies their role without overreaching"
+    }
+  ]
+}
+
+================================================================================
+TIME: 2026-05-05T18:45:18
+NODE: term_collector
+PROMPT_CHARS: 5223
+PROMPT_TOKENS_APPROX: 1305
+RESPONSE_CHARS: 639
+LLM_MODEL: qwen3:8b
+LLM_OPTIONS: {"num_batch": 32, "num_ctx": 8192, "num_predict": 2048, "temperature": 0.25, "top_p": 0.8}
+================================================================================
+PROMPT:
+Extract the descriptive-name candidates from this draft.
+
+Return JSON with this shape:
+{
+  "terms": [
+    {
+      "standard_term": "fermion",
+      "candidate_name": "space-occupier",
+      "context_quote": "short quote from the draft",
+      "usefulness": "why this name helps",
+      "risk": "how it could mislead, or empty string if low risk"
+    }
+  ]
+}
+
+Only include actual teaching-name candidates, especially phrases followed by standard terms in braces.
+
+Draft:
+# Scattering  
+
+## The core idea  
+Scattering is the **exchange of energy, momentum, or information** between entities like particles, waves, or fields during an interaction. It’s how systems “talk” to each other, shaping everything from light bending through a prism to the way particles collide in a collider.  
+
+## Why this matters  
+Scattering reveals hidden properties of matter and forces. It’s the basis for technologies like X-ray imaging, radar, and particle detectors—and it bridges classical and quantum physics by showing how systems respond to disturbances.  
+
+## The simple picture  
+Imagine throwing a stone into a pond: ripples spread out, bouncing off the edges and creating patterns. That’s **diffraction**—a type of scattering. Now imagine two billiard balls colliding: they exchange energy and momentum, changing direction. That’s **elastic scattering**. Both examples show how scattering shapes the world, whether through waves or particles.  
+
+[Diagram idea: A stone hitting water, ripples spreading; two billiard balls colliding at an angle. Include a third panel showing light passing through a slit, illustrating diffraction.]  
+
+## The more precise picture  
+Scattering happens when two entities interact, redistributing energy, momentum, or information. Here’s how it works in different contexts:  
+
+### **Types of scattering**  
+- **Elastic scattering**: Energy and momentum are conserved (e.g., billiard balls bouncing off each other).  
+- **Inelastic scattering**: Energy is lost or transferred (e.g., a ball bouncing with less height).  
+- **Diffraction**: Wave-like spreading (e.g., light passing through a narrow slit).  
+- **Resonant scattering**: Enhanced interaction at specific energies (e.g., atoms absorbing light at precise wavelengths).  
+
+### **Classical vs. quantum**  
+- **Classical**: Think of collisions or wave interference. Scattering is deterministic—like a stone hitting water and creating predictable ripples.  
+- **Quantum**: Particles “talk” via forces, with outcomes probabilistic. For example, electrons scattering off a crystal reveal its atomic structure through **probability maps** {cross-sections}, which are a standard measure of interaction probability in scattering theory.  
+
+### **Math and concepts**  
+- **Energy conservation**:  
+  $ E_{\text{initial}} = E_{\text{final}} $  
+  *Math means*: Total energy before and after scattering remains the same.  
+- **Probability amplitude**:  
+  $ P(\theta) \propto |\psi(\theta)|^2 $  
+  *Math means*: The chance of scattering at angle θ depends on the square of the wave’s amplitude.  
+  *Note*: Amplitude encodes both magnitude and phase information, which together determine the probability distribution.  
+
+[Diagram idea: A 2D graph showing scattering angles and their probabilities. Include a cross-sectional area diagram to visualize how cross-sections represent interaction likelihood.]  
+
+## Common misconceptions  
+- ❌ **"Scattering is only about collisions."**  
+  → Scattering includes wave interactions (e.g., light bending through a prism).  
+- ❌ **"All scattering is random."**  
+  → Some scattering is deterministic (e.g., mirror reflections), while others are probabilistic (e.g., quantum particle collisions). Classical physics predicts outcomes precisely, while quantum scattering relies on probability distributions.  
+- ❌ **"Scattering doesn’t involve energy loss."**  
+  → Inelastic scattering (e.g., a ball bouncing) always involves energy transfer.  
+- ❌ **"Scattering is a one-time event."**  
+  → Scattering can be continuous (e.g., light passing through a medium).  
+
+## How this connects to the rest of physics  
+Scattering is central to understanding **forces** and **interactions**. In particle physics, it helps probe subatomic structures (e.g., how protons scatter off electrons to reveal their quark content). In optics, it explains **diffraction** and **refraction**. It also underpins **medical imaging** (e.g., X-rays) and **radar**—showing how scattering links classical and quantum phenomena.  
+
+## Recap  
+- Scattering is the exchange of energy, momentum, or information during interactions.  
+- It bridges classical and quantum physics, from billiard balls to particle collisions.  
+- Scattering reveals hidden properties of matter and powers technologies like imaging and detectors.  
+- It’s both predictable (classical) and probabilistic (quantum), depending on the context.  
+
+---  
+**Note**: The term "probability maps" {cross-sections} is used to describe how quantum scattering probabilities are measured. Cross-sections are a standard concept in scattering theory, representing the effective "area" a particle presents for interaction. This avoids overreaching by focusing on established frameworks.
+
+RESPONSE:
+{
+  "terms": [
+    {
+      "standard_term": "cross-sections",
+      "candidate_name": "probability maps",
+      "context_quote": "electrons scattering off a crystal reveal its atomic structure through probability maps {cross-sections}, which are a standard measure of interaction probability in scattering theory",
+      "usefulness": "Provides intuitive imagery for abstract quantum probability concepts, linking them to tangible 'maps' of interaction likelihood",
+      "risk": "Could imply probability is a spatial distribution rather than a mathematical amplitude, potentially confusing with classical probability concepts"
+    }
+  ]
+}

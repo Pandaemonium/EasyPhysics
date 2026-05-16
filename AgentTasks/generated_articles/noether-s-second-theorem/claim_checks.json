@@ -2,37 +2,82 @@
   "claim_checks": [
     {
       "id": "C001",
-      "verdict": "needs_qualification",
-      "severity": "medium",
-      "problem": "Confuses Noether's first and second theorems. The rulebook analogy aligns with Noether's first theorem (global symmetries → conservation laws), while the article attributes it to the second theorem (local symmetries → constraints on equations of motion).",
-      "suggested_fix": "Clarify that the rulebook analogy corresponds to Noether's first theorem. For the second theorem, emphasize constraints on equations of motion from local symmetries (e.g., gauge symmetries) rather than conservation laws.",
-      "source_quality_note": "The snippet is from a reputable physics source discussing both theorems, but the claim conflates their distinct roles."
-    },
-    {
-      "id": "C002",
       "verdict": "not_enough_evidence",
       "severity": "medium",
-      "problem": "Could not parse claim-checker output.",
-      "suggested_fix": "Review this claim manually.",
-      "source_quality_note": ""
-    },
+      "problem": "Claim checker failed: LLMCallError(\"claim_checker failed after 3 attempt(s): LLMCallError('LLM_TIMEOUT_AFTER_720_SECONDS')\")",
+      "suggested_fix": "Automatically retry this claim with another source search or a smaller context.",
+      "source_quality_note": "",
+      "source_urls": [],
+      "claim": "Noether's first theorem links global symmetries to conservation laws, ensuring physical laws are consistent across all scenarios.",
+      "checked_at": "2026-05-09_12-30-31",
+      "source_attempt_count": 2,
+      "available_source_urls": [
+        "https://en.wikipedia.org/wiki/Noether's_theorem",
+        "https://www.youtube.com/watch?v=w7Q5mQA_74o",
+        "https://www.quantamagazine.org/how-noethers-theorem-revolutionized-physics-20250207/",
+        "https://www.kroneckerwallis.com/emmy-noethers-theorem-how-symmetry-creates-conservation-laws/",
+        "https://www.ebsco.com/research-starters/physics/noether-shows-equivalence-symmetry-and-conservation"
+      ]
+    }
+  ],
+  "check_history": [
     {
-      "id": "C003",
+      "id": "C001",
       "verdict": "not_enough_evidence",
       "severity": "medium",
-      "problem": "Could not parse claim-checker output.",
-      "suggested_fix": "Review this claim manually.",
-      "source_quality_note": ""
+      "problem": "Claim checker failed: LLMCallError(\"claim_checker failed after 3 attempt(s): LLMCallError('LLM_TIMEOUT_AFTER_720_SECONDS')\")",
+      "suggested_fix": "Automatically retry this claim with another source search or a smaller context.",
+      "source_quality_note": "",
+      "source_urls": [],
+      "claim": "Noether's first theorem links global symmetries to conservation laws, ensuring physical laws are consistent across all scenarios.",
+      "checked_at": "2026-05-09_11-54-06",
+      "source_attempt_count": 1,
+      "available_source_urls": [
+        "https://en.wikipedia.org/wiki/Noether's_theorem",
+        "https://users.physics.ox.ac.uk/~Steane/teaching/noether.pdf",
+        "https://modern-physics.org/noethers-theorem/",
+        "https://medium.com/@paribeshregmi/noethers-theorem-7bc6fa8b62ac",
+        "https://math.ucr.edu/home/baez/noether.html"
+      ]
+    },
+    {
+      "id": "C001",
+      "verdict": "not_enough_evidence",
+      "severity": "medium",
+      "problem": "Claim checker failed: LLMCallError(\"claim_checker failed after 3 attempt(s): LLMCallError('LLM_TIMEOUT_AFTER_720_SECONDS')\")",
+      "suggested_fix": "Automatically retry this claim with another source search or a smaller context.",
+      "source_quality_note": "",
+      "source_urls": [],
+      "claim": "Noether's first theorem links global symmetries to conservation laws, ensuring physical laws are consistent across all scenarios.",
+      "checked_at": "2026-05-09_12-30-31",
+      "source_attempt_count": 2,
+      "available_source_urls": [
+        "https://en.wikipedia.org/wiki/Noether's_theorem",
+        "https://www.youtube.com/watch?v=w7Q5mQA_74o",
+        "https://www.quantamagazine.org/how-noethers-theorem-revolutionized-physics-20250207/",
+        "https://www.kroneckerwallis.com/emmy-noethers-theorem-how-symmetry-creates-conservation-laws/",
+        "https://www.ebsco.com/research-starters/physics/noether-shows-equivalence-symmetry-and-conservation"
+      ]
     }
   ],
   "summary": {
-    "overall_claim_quality": "Claim check completed.",
-    "unresolved_or_needs_qualification": 3,
-    "highest_priority_fixes": [
-      "Clarify that the rulebook analogy corresponds to Noether's first theorem. For the second theorem, emphasize constraints on equations of motion from local symmetries (e.g., gauge symmetries) rather than conservation laws.",
-      "Review this claim manually.",
-      "Review this claim manually."
-    ]
+    "total_claims": 2,
+    "checked_claim_count": 1,
+    "passing_claim_count": 0,
+    "unchecked_claim_count": 1,
+    "unresolved_or_needs_qualification": 2,
+    "actionable_issue_count": 0,
+    "evidence_retry_count": 1,
+    "claim_review_complete": false,
+    "unchecked_claim_ids": [
+      "C002"
+    ],
+    "actionable_claim_ids": [],
+    "evidence_retry_claim_ids": [
+      "C001"
+    ],
+    "highest_priority_fixes": [],
+    "overall_claim_quality": "Partial claim check completed."
   },
-  "last_updated": "2026-05-04_21-26-10"
+  "last_updated": "2026-05-09_12-30-31"
 }

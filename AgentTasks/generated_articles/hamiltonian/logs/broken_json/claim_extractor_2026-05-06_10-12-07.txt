@@ -1,0 +1,92 @@
+{
+  "claims": [
+    {
+      "id": "C001",
+      "claim": "The Hamiltonian is a total energy rulebook {Hamiltonian} that governs how energy shapes motion and time evolution in both classical and quantum systems.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "It unifies energy concepts across physics domains, enabling predictions of system behavior.",
+      "suggested_search_query": "Hamiltonian definition in classical and quantum mechanics"
+    },
+    {
+      "id": "C002",
+      "claim": "In classical mechanics, the Hamiltonian {Hamiltonian} is the sum of kinetic and potential energy, determining motion via Hamilton’s equations {Hamilton’s equations}.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "This formula is foundational for analyzing mechanical systems.",
+      "suggested_search_query": "Hamiltonian classical mechanics formula"
+    },
+    {
+      "id": "C003",
+      "claim": "In quantum mechanics, the Hamiltonian {Hamiltonian} is an operator {operator} that acts on wavefunctions {wavefunction} to predict time evolution.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Operators like the Hamiltonian are central to quantum dynamics.",
+      "suggested_search_query": "Hamiltonian operator in quantum mechanics"
+    },
+    {
+      "id": "C004",
+      "claim": "The Hamiltonian {Hamiltonian} connects forces, energy, and motion, making it essential for predicting system behavior from atoms to galaxies.",
+      "type": "importance",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Its universality across scales underscores its foundational role in physics.",
+      "suggested_search_query": "Hamiltonian importance in physics"
+    },
+    {
+      "id": "C005",
+      "claim": "The probability map {wavefunction} is a mathematical description of a quantum system’s state, not a physical object.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Clarifies the abstract nature of quantum states.",
+      "suggested_search_query": "Wavefunction definition in quantum mechanics"
+    },
+    {
+      "id": "C006",
+      "claim": "An operator {operator} is a rule that transforms mathematical objects, such as wavefunctions {wavefunction}, in quantum mechanics.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Operators are the mathematical framework for quantum dynamics.",
+      "suggested_search_query": "Operator definition in quantum mechanics"
+    },
+    {
+      "id": "C007",
+      "claim": "The kitchen recipe analogy {Hamiltonian} for the Hamiltonian can mislead if taken literally, as it simplifies complex energy relationships.",
+      "type": "analogy_warning",
+      "importance": "medium",
+      "needs_external_check": true,
+      "why_it_matters": "Highlights the risk of over-simplifying abstract concepts.",
+      "suggested_search_query": "Hamiltonian analogy limitations"
+    },
+    {
+      "id": "C008",
+      "claim": "Hamilton’s equations {Hamilton’s equations} describe how position and momentum change over time in classical systems.",
+      "type": "definition",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "They formalize the relationship between energy and motion.",
+      "suggested_search_query": "Hamilton's equations derivation"
+    },
+    {
+      "id": "C009",
+      "claim": "The Hamiltonian {Hamiltonian} in quantum mechanics governs the time evolution of probability maps {wavefunction} through operator action.",
+      "type": "mechanism",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "This mechanism underpins quantum predictions.",
+      "suggested_search_query": "Hamiltonian time evolution quantum mechanics"
+    },
+    {
+      "id": "C010",
+      "claim": "The Hamiltonian {Hamiltonian} serves as a bridge between classical and quantum descriptions of energy and motion.",
+      "type": "unification",
+      "importance": "high",
+      "needs_external_check": true,
+      "why_it_matters": "Its dual role highlights the continuity of physical laws.",
+      "suggested_search_query": "Hamiltonian classical-quantum unification"
+    }

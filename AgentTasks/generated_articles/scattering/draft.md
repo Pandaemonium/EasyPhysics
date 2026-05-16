@@ -9,7 +9,7 @@ Scattering reveals hidden properties of matter and forces. It’s the basis for 
 ## The simple picture  
 Imagine throwing a stone into a pond: ripples spread out, bouncing off the edges and creating patterns. That’s **diffraction**—a type of scattering. Now imagine two billiard balls colliding: they exchange energy and momentum, changing direction. That’s **elastic scattering**. Both examples show how scattering shapes the world, whether through waves or particles.  
 
-[Diagram idea: A stone hitting water, ripples spreading; two billiard balls colliding at an angle.]  
+[Diagram idea: A stone hitting water, ripples spreading; two billiard balls colliding at an angle. Include a third panel showing light passing through a slit, illustrating diffraction.]  
 
 ## The more precise picture  
 Scattering happens when two entities interact, redistributing energy, momentum, or information. Here’s how it works in different contexts:  
@@ -22,7 +22,7 @@ Scattering happens when two entities interact, redistributing energy, momentum, 
 
 ### **Classical vs. quantum**  
 - **Classical**: Think of collisions or wave interference. Scattering is deterministic—like a stone hitting water and creating predictable ripples.  
-- **Quantum**: Particles “talk” via forces, with outcomes probabilistic. For example, electrons scattering off a crystal reveal its atomic structure through **probability maps** {cross-sections}.  
+- **Quantum**: Particles “talk” via forces, with outcomes probabilistic. For example, electrons scattering off a crystal reveal its atomic structure through **probability maps** {cross-sections}, which are a standard measure of interaction probability in scattering theory.  
 
 ### **Math and concepts**  
 - **Energy conservation**:  
@@ -31,14 +31,15 @@ Scattering happens when two entities interact, redistributing energy, momentum, 
 - **Probability amplitude**:  
   $ P(\theta) \propto |\psi(\theta)|^2 $  
   *Math means*: The chance of scattering at angle θ depends on the square of the wave’s amplitude.  
+  *Note*: Amplitude encodes both magnitude and phase information, which together determine the probability distribution.  
 
-[Diagram idea: A 2D graph showing scattering angles and their probabilities.]  
+[Diagram idea: A 2D graph showing scattering angles and their probabilities. Include a cross-sectional area diagram to visualize how cross-sections represent interaction likelihood.]  
 
 ## Common misconceptions  
 - ❌ **"Scattering is only about collisions."**  
   → Scattering includes wave interactions (e.g., light bending through a prism).  
 - ❌ **"All scattering is random."**  
-  → Some scattering is deterministic (e.g., mirror reflections), while others are probabilistic.  
+  → Some scattering is deterministic (e.g., mirror reflections), while others are probabilistic (e.g., quantum particle collisions). Classical physics predicts outcomes precisely, while quantum scattering relies on probability distributions.  
 - ❌ **"Scattering doesn’t involve energy loss."**  
   → Inelastic scattering (e.g., a ball bouncing) always involves energy transfer.  
 - ❌ **"Scattering is a one-time event."**  
